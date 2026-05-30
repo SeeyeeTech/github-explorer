@@ -1,0 +1,19 @@
+# GitHub Trending 抓取与展示配置
+# 与 src/trending_repo/parse_trending.py 解耦，便于后续调参或加抓取频率。
+
+# 抓取时间窗口（parse_trending.py 读取）
+fetch_window:
+  start_date: "2025-09-22"
+  end_date: "2026-04-06"
+
+# 上游归档源（github-trending-archive 仓库的本地克隆位置）
+archive_source: /tmp/github-trending-archive/data
+
+# 全局热门聚合阈值：仅保留上榜天数 ≥ N 的项目
+all_repos_min_trending_days: 3
+
+# 站点展示参数
+display:
+  homepage_top_n: 6           # 首页「本周热门」前 N
+  trending_page_per_tab: 50   # /trending 页每个 tab（日/周/月）显示前 N
+  default_tab: weekly         # 进入 /trending 默认 tab

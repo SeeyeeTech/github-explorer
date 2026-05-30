@@ -38,3 +38,8 @@ venv/
 
 # Node
 node_modules/
+
+# Astro 站点构建产物
+site/dist/
+site/.astro/
+site/.pagefind/

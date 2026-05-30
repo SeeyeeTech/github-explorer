@@ -1,0 +1,230 @@
+---
+import Base from "~/layouts/Base.astro";
+import ReportCard from "~/components/ReportCard.astro";
+import { getReports, getTagsDoc, getTagLabels } from "~/lib/data";
+
+const reports = getReports();
+const tagsDoc = getTagsDoc();
+const labels = getTagLabels();
+const base = import.meta.env.BASE_URL;
+
+// 客户端筛选/搜索 → 用 data-attribute 注入元数据
+const dataset = reports.map((r) => ({
+  slug: r.slug,
+  title: r.title,
+  summary: r.summary ?? "",
+  stars: r.stars ?? 0,
+  language: r.language ?? "",
+  mtime: r.mtime,
+  tags: tagsDoc.entries[r.slug] ?? [],
+  searchText: (
+    [r.title, r.summary, r.heat, r.stage, ...(r.highlights ?? [])]
+      .filter(Boolean)
+      .join(" ")
+  ).toLowerCase(),
+}));
+
+// 标签分布
+const tagCount = new Map<string, number>();
+for (const tags of Object.values(tagsDoc.entries)) {
+  for (const t of tags) tagCount.set(t, (tagCount.get(t) ?? 0) + 1);
+}
+const allTags = Array.from(tagCount.entries())
+  .filter(([t]) => t !== "uncategorized")
+  .sort((a, b) => b[1] - a[1]);
+
+// 主要语言（前 12）
+const langCount = new Map<string, number>();
+for (const r of reports) if (r.language) langCount.set(r.language, (langCount.get(r.language) ?? 0) + 1);
+const allLangs = Array.from(langCount.entries()).sort((a, b) => b[1] - a[1]).slice(0, 12);
+---
+
+<Base title="全部报告" description={`${reports.length} 篇 GitHub 仓库深度分析报告`}>
+  <section class="max-w-6xl mx-auto px-4 py-8">
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-3 mb-6">
+      <div>
+        <h1 class="text-2xl font-bold">全部报告</h1>
+        <p class="text-zinc-500 text-sm mt-1">
+          共 <span id="totalCount">{reports.length}</span> 篇，匹配
+          <span id="filteredCount" class="font-medium text-zinc-700">{reports.length}</span> 篇
+        </p>
+      </div>
+      <input
+        id="search"
+        type="search"
+        placeholder="搜索标题 / 摘要 / 关键词…"
+        class="w-full md:w-80 px-3 py-2 rounded border border-zinc-300 focus:outline-none focus:border-brand text-sm"
+      />
+    </div>
+
+    <div class="flex flex-wrap gap-2 mb-3 text-sm">
+      <span class="text-zinc-500 mr-1">标签：</span>
+      <button class="tag-filter active px-2 py-0.5 rounded-full border" data-tag="">全部</button>
+      {
+        allTags.slice(0, 14).map(([t, n]) => (
+          <button class="tag-filter px-2 py-0.5 rounded-full border" data-tag={t}>
+            {labels[t] ?? t} <span class="text-zinc-400">{n}</span>
+          </button>
+        ))
+      }
+    </div>
+
+    <div class="flex flex-wrap gap-2 mb-6 text-sm">
+      <span class="text-zinc-500 mr-1">语言：</span>
+      <button class="lang-filter active px-2 py-0.5 rounded-full border" data-lang="">全部</button>
+      {
+        allLangs.map(([l, n]) => (
+          <button class="lang-filter px-2 py-0.5 rounded-full border" data-lang={l}>
+            {l} <span class="text-zinc-400">{n}</span>
+          </button>
+        ))
+      }
+    </div>
+
+    <div class="flex items-center gap-3 mb-4 text-sm">
+      <span class="text-zinc-500">排序：</span>
+      <button class="sort-btn active px-2 py-0.5 rounded" data-sort="latest">最新</button>
+      <button class="sort-btn px-2 py-0.5 rounded" data-sort="stars">Stars 高 → 低</button>
+      <button class="sort-btn px-2 py-0.5 rounded" data-sort="alpha">标题 A→Z</button>
+    </div>
+
+    <div id="cards" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {reports.map((r) => <ReportCard report={r} compact />)}
+    </div>
+
+    <div id="emptyState" class="hidden text-center py-16 text-zinc-500">
+      没有匹配的报告。<button id="resetFilters" class="underline">重置筛选</button>
+    </div>
+  </section>
+
+  <style>
+    .tag-filter,
+    .lang-filter {
+      border-color: rgb(228 228 231);
+      background: white;
+      color: rgb(82 82 91);
+    }
+    .tag-filter:hover,
+    .lang-filter:hover,
+    .sort-btn:hover {
+      color: rgb(24 24 27);
+    }
+    .tag-filter.active,
+    .lang-filter.active {
+      border-color: var(--color-brand);
+      color: var(--color-brand);
+      background: rgb(254 226 226 / 0.4);
+    }
+    .sort-btn.active {
+      background: rgb(228 228 231);
+      color: rgb(24 24 27);
+    }
+  </style>
+
+  <script is:inline define:vars={{ dataset }}>
+    const cards = Array.from(document.querySelectorAll("#cards > a"));
+    const slugIndex = new Map(dataset.map((d) => [d.slug, d]));
+
+    let activeTag = "";
+    let activeLang = "";
+    let sortMode = "latest";
+    let query = "";
+
+    function apply() {
+      const q = query.trim().toLowerCase();
+      let visible = 0;
+      const sortKey = (slug) => {
+        const d = slugIndex.get(slug);
+        if (!d) return 0;
+        if (sortMode === "stars") return -(d.stars ?? 0);
+        if (sortMode === "alpha") return d.title;
+        return d.mtime > "0" ? -d.mtime.localeCompare("0000-00-00") : 0;
+      };
+
+      const sorted = cards.slice().sort((a, b) => {
+        const ka = sortKey(a.dataset.slug);
+        const kb = sortKey(b.dataset.slug);
+        if (typeof ka === "string") return ka.localeCompare(kb);
+        return ka - kb;
+      });
+
+      const grid = document.getElementById("cards");
+      sorted.forEach((c, i) => {
+        const d = slugIndex.get(c.dataset.slug);
+        if (!d) return;
+        let show = true;
+        if (activeTag && !d.tags.includes(activeTag)) show = false;
+        if (activeLang && d.language !== activeLang) show = false;
+        if (q && !d.searchText.includes(q)) show = false;
+        c.style.display = show ? "" : "none";
+        if (show) visible++;
+        grid.appendChild(c);
+      });
+
+      document.getElementById("filteredCount").textContent = visible;
+      document.getElementById("emptyState").classList.toggle("hidden", visible !== 0);
+    }
+
+    // 标 data-slug 到每张卡
+    cards.forEach((c) => {
+      const slug = c.getAttribute("href").split("/").pop();
+      c.dataset.slug = slug;
+    });
+
+    document.querySelectorAll(".tag-filter").forEach((b) =>
+      b.addEventListener("click", () => {
+        document.querySelectorAll(".tag-filter").forEach((x) => x.classList.remove("active"));
+        b.classList.add("active");
+        activeTag = b.dataset.tag;
+        apply();
+      })
+    );
+
+    document.querySelectorAll(".lang-filter").forEach((b) =>
+      b.addEventListener("click", () => {
+        document.querySelectorAll(".lang-filter").forEach((x) => x.classList.remove("active"));
+        b.classList.add("active");
+        activeLang = b.dataset.lang;
+        apply();
+      })
+    );
+
+    document.querySelectorAll(".sort-btn").forEach((b) =>
+      b.addEventListener("click", () => {
+        document.querySelectorAll(".sort-btn").forEach((x) => x.classList.remove("active"));
+        b.classList.add("active");
+        sortMode = b.dataset.sort;
+        apply();
+      })
+    );
+
+    document.getElementById("search").addEventListener("input", (e) => {
+      query = e.target.value;
+      apply();
+    });
+
+    document.getElementById("resetFilters").addEventListener("click", () => {
+      activeTag = activeLang = "";
+      query = "";
+      sortMode = "latest";
+      document.getElementById("search").value = "";
+      document.querySelectorAll(".tag-filter").forEach((x) => x.classList.toggle("active", !x.dataset.tag));
+      document.querySelectorAll(".lang-filter").forEach((x) => x.classList.toggle("active", !x.dataset.lang));
+      document.querySelectorAll(".sort-btn").forEach((x) => x.classList.toggle("active", x.dataset.sort === "latest"));
+      apply();
+    });
+
+    // 初始按 latest 排序
+    apply();
+
+    // URL ?sort=stars 支持
+    const params = new URLSearchParams(location.search);
+    if (params.get("sort") === "stars") {
+      document.querySelector('.sort-btn[data-sort="stars"]').click();
+    }
+    if (params.get("tag")) {
+      const btn = document.querySelector(`.tag-filter[data-tag="${params.get("tag")}"]`);
+      if (btn) btn.click();
+    }
+  </script>
+</Base>

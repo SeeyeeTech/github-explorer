@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", sans-serif;
+  --font-mono: ui-monospace, "JetBrains Mono", Menlo, monospace;
+  --color-brand: oklch(0.55 0.21 27);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fafafa;
+  color: #18181b;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 报告 Markdown 渲染区微调 */
+.report-prose img {
+  border-radius: 0.5rem;
+  margin: 1.5rem auto;
+}
+
+.report-prose table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.report-prose pre {
+  background-color: #f4f4f5;
+}
+
+/* tag chip 公共样式 */
+.tag-chip {
+  display: inline-block;
+  padding: 0.125rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  background: #fee2e2;
+  color: #b91c1c;
+}

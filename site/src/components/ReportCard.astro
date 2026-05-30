@@ -1,0 +1,59 @@
+---
+import type { ReportMeta } from "~/lib/data";
+import { getTagsDoc, getTagLabels } from "~/lib/data";
+
+interface Props {
+  report: ReportMeta;
+  compact?: boolean;
+}
+const { report, compact = false } = Astro.props;
+
+const tagsDoc = getTagsDoc();
+const labels = getTagLabels();
+const tags = (tagsDoc.entries[report.slug] ?? []).filter((t) => t !== "uncategorized");
+const base = import.meta.env.BASE_URL;
+const href = `${base}/reports/${report.slug}`;
+
+const starsLabel =
+  report.stars != null ? (report.stars >= 1000 ? `${(report.stars / 1000).toFixed(1)}k` : `${report.stars}`) : null;
+---
+
+<a
+  href={href}
+  class="block group rounded-lg border border-zinc-200 bg-white hover:border-brand hover:shadow-md transition p-4 flex flex-col h-full"
+>
+  <div class="flex items-start justify-between gap-2 mb-2">
+    <h3 class="font-semibold text-base leading-snug text-zinc-900 group-hover:text-brand line-clamp-2">
+      {report.title}
+    </h3>
+    {
+      starsLabel && (
+        <span class="shrink-0 text-xs text-amber-700 bg-amber-50 px-2 py-0.5 rounded">
+          ⭐ {starsLabel}
+        </span>
+      )
+    }
+  </div>
+  {
+    !compact && report.summary && (
+      <p class="text-sm text-zinc-600 line-clamp-3 mb-3">{report.summary}</p>
+    )
+  }
+  <div class="mt-auto flex flex-wrap items-center gap-1.5">
+    {
+      report.language && (
+        <span class="text-xs text-zinc-600 bg-zinc-100 px-2 py-0.5 rounded">{report.language}</span>
+      )
+    }
+    {
+      tags.slice(0, 3).map((t) => (
+        <span class="tag-chip">{labels[t] ?? t}</span>
+      ))
+    }
+    {
+      report.published?.startsWith("published:") && (
+        <span class="text-xs text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded">已发布</span>
+      )
+    }
+  </div>
+</a>

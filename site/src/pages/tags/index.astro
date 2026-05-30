@@ -1,0 +1,43 @@
+---
+import Base from "~/layouts/Base.astro";
+import { getReports, getTagsDoc, getTagLabels, getTagRules } from "~/lib/data";
+
+const reports = getReports();
+const tagsDoc = getTagsDoc();
+const labels = getTagLabels();
+const base = import.meta.env.BASE_URL;
+
+const tagCount = new Map<string, number>();
+for (const tags of Object.values(tagsDoc.entries)) {
+  for (const t of tags) tagCount.set(t, (tagCount.get(t) ?? 0) + 1);
+}
+const tagsList = Array.from(tagCount.entries())
+  .map(([t, n]) => ({ t, n, label: labels[t] ?? t }))
+  .sort((a, b) => b.n - a.n);
+---
+
+<Base title="全部标签" description="按主题分类的 GitHub 仓库分析报告">
+  <section class="max-w-6xl mx-auto px-4 py-10">
+    <h1 class="text-2xl font-bold mb-2">标签</h1>
+    <p class="text-zinc-500 text-sm mb-8">
+      报告按主题打标签，自动 + 人工维护。覆盖 {tagsList.length} 个标签，{reports.length} 篇报告。
+    </p>
+
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-3">
+      {
+        tagsList.map(({ t, n, label }) => (
+          <a
+            href={`${base}/tags/${t}`}
+            class="block p-4 rounded-lg border border-zinc-200 bg-white hover:border-brand hover:shadow"
+          >
+            <div class="flex items-center justify-between">
+              <span class="font-medium">{label}</span>
+              <span class="text-sm text-zinc-400">{n} 篇</span>
+            </div>
+            <code class="text-xs text-zinc-400">{t}</code>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</Base>

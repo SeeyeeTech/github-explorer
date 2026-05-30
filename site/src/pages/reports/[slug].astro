@@ -1,0 +1,200 @@
+---
+import { getCollection, render } from "astro:content";
+import Base from "~/layouts/Base.astro";
+import ReportCard from "~/components/ReportCard.astro";
+import { getReports, getTagsDoc, getTagLabels, SITE } from "~/lib/data";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("reports");
+  return entries.map((entry) => ({
+    params: { slug: entry.id.replace(/\.md$/, "") },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const slug = entry.id.replace(/\.md$/, "");
+const { Content } = await render(entry);
+
+const reports = getReports();
+const meta = reports.find((r) => r.slug === slug);
+const tagsDoc = getTagsDoc();
+const labels = getTagLabels();
+const tags = (tagsDoc.entries[slug] ?? []).filter((t) => t !== "uncategorized");
+
+const base = import.meta.env.BASE_URL;
+
+// 相关报告：同标签优先 + 同语言补足，去掉自己
+const sameTag = reports
+  .filter(
+    (r) =>
+      r.slug !== slug &&
+      tags.some((t) => (tagsDoc.entries[r.slug] ?? []).includes(t))
+  )
+  .slice(0, 6);
+const sameLangFill = reports
+  .filter((r) => r.slug !== slug && r.language && r.language === meta?.language)
+  .filter((r) => !sameTag.find((s) => s.slug === r.slug))
+  .slice(0, 6);
+const related = [...sameTag, ...sameLangFill].slice(0, 6);
+
+const publishedDate = meta?.published?.startsWith("published:")
+  ? meta.published.slice("published:".length)
+  : null;
+const isPending = meta?.published === "pending";
+---
+
+<Base title={meta?.title ?? slug} description={meta?.summary ?? undefined}>
+  <article class="max-w-6xl mx-auto px-4 py-8 grid lg:grid-cols-[1fr_280px] gap-8">
+    <div>
+      <nav class="text-sm text-zinc-500 mb-4">
+        <a href={`${base}/`} class="hover:text-brand">首页</a>
+        <span class="mx-1">/</span>
+        <a href={`${base}/reports`} class="hover:text-brand">全部报告</a>
+        <span class="mx-1">/</span>
+        <span class="text-zinc-700">{slug}</span>
+      </nav>
+
+      {
+        publishedDate && (
+          <div class="mb-4 inline-flex items-center gap-2 text-sm px-3 py-1.5 bg-emerald-50 text-emerald-800 rounded">
+            <span>📰 公众号已发布</span>
+            <span class="text-emerald-600">{publishedDate}</span>
+          </div>
+        )
+      }
+      {
+        isPending && (
+          <div class="mb-4 inline-flex items-center gap-2 text-sm px-3 py-1.5 bg-amber-50 text-amber-800 rounded">
+            <span>⏳ 公众号待发布</span>
+          </div>
+        )
+      }
+
+      <div class="report-prose prose prose-zinc max-w-none">
+        <Content />
+      </div>
+
+      {
+        related.length > 0 && (
+          <section class="mt-12 pt-8 border-t border-zinc-200">
+            <h2 class="text-lg font-semibold mb-4">相关报告</h2>
+            <div class="grid sm:grid-cols-2 gap-4">
+              {related.map((r) => (
+                <ReportCard report={r} compact />
+              ))}
+            </div>
+          </section>
+        )
+      }
+    </div>
+
+    <aside class="space-y-6">
+      <div class="sticky top-20 space-y-6">
+        <div class="bg-white border border-zinc-200 rounded-lg p-4">
+          <h3 class="text-sm font-medium text-zinc-500 mb-3">项目元信息</h3>
+          <dl class="space-y-2 text-sm">
+            {
+              meta?.originalUrl && (
+                <div>
+                  <dt class="text-zinc-500">GitHub</dt>
+                  <dd>
+                    <a
+                      class="text-brand hover:underline break-all"
+                      href={meta.originalUrl}
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      {meta.originalUrl.replace("https://github.com/", "")}
+                    </a>
+                  </dd>
+                </div>
+              )
+            }
+            {
+              meta?.stars != null && (
+                <div>
+                  <dt class="text-zinc-500">Stars / Forks</dt>
+                  <dd>
+                    ⭐ {meta.stars.toLocaleString()}
+                    {meta.forks != null && (
+                      <span class="text-zinc-400"> / {meta.forks.toLocaleString()}</span>
+                    )}
+                  </dd>
+                </div>
+              )
+            }
+            {
+              meta?.language && (
+                <div>
+                  <dt class="text-zinc-500">主语言</dt>
+                  <dd>{meta.language}</dd>
+                </div>
+              )
+            }
+            {
+              meta?.ageRaw && (
+                <div>
+                  <dt class="text-zinc-500">项目年龄</dt>
+                  <dd>{meta.ageRaw}</dd>
+                </div>
+              )
+            }
+            {
+              meta?.heat && (
+                <div>
+                  <dt class="text-zinc-500">热度定位</dt>
+                  <dd>{meta.heat}</dd>
+                </div>
+              )
+            }
+            {
+              meta?.quality && (
+                <div>
+                  <dt class="text-zinc-500">质量评级</dt>
+                  <dd>{meta.quality}</dd>
+                </div>
+              )
+            }
+            {
+              meta?.license && (
+                <div>
+                  <dt class="text-zinc-500">许可证</dt>
+                  <dd>{meta.license}</dd>
+                </div>
+              )
+            }
+          </dl>
+        </div>
+
+        {
+          tags.length > 0 && (
+            <div class="bg-white border border-zinc-200 rounded-lg p-4">
+              <h3 class="text-sm font-medium text-zinc-500 mb-3">标签</h3>
+              <div class="flex flex-wrap gap-2">
+                {tags.map((t) => (
+                  <a href={`${base}/tags/${t}`} class="tag-chip hover:opacity-80">
+                    {labels[t] ?? t}
+                  </a>
+                ))}
+              </div>
+            </div>
+          )
+        }
+
+        {
+          meta?.originalUrl && (
+            <a
+              href={`${SITE.repoUrl}/edit/main/src/analysis_report/${slug}.md`}
+              target="_blank"
+              rel="noopener"
+              class="block text-center text-sm text-zinc-500 hover:text-brand"
+            >
+              在 GitHub 编辑此报告 →
+            </a>
+          )
+        }
+      </div>
+    </aside>
+  </article>
+</Base>

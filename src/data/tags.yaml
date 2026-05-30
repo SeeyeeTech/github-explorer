@@ -1,0 +1,1296 @@
+# 自动生成 + 人工保护混合维护。要保护某条手工标注，把 slug 加入 manual 列表。
+manual: []
+entries:
+  1panel-dev_maxkb:
+  - ai-agent
+  - llm-framework
+  - devtools
+  - workflow-automation
+  - database
+  3b1b_manim:
+  - ai-agent
+  - video-audio
+  666ghj_bettafish:
+  - ai-agent
+  666ghj_mirofish:
+  - ai-agent
+  78_xiaozhi-esp32:
+  - iot-hardware
+  - protocol-spec
+  a2aproject_a2a:
+  - ai-agent
+  - education
+  - protocol-spec
+  aandrew-me_ytdownloader:
+  - iot-hardware
+  - video-audio
+  abhigyanpatwari_gitnexus:
+  - ai-agent
+  - llm-framework
+  ad-on-is_rachoon:
+  - web-framework
+  afkarxyz_spotiflac:
+  - devtools
+  - video-audio
+  agentscope-ai_agentscope:
+  - ai-agent
+  - llm-framework
+  - llm-training
+  agentsmd_agents.md:
+  - ai-agent
+  - ai-coding
+  aidenybai_react-scan:
+  - devtools
+  - web-framework
+  aider-ai_aider:
+  - ai-coding
+  - devtools
+  aider-ai_aider-install:
+  - ai-coding
+  airweave-ai_airweave:
+  - ai-agent
+  - llm-inference
+  - devtools
+  - rag-search
+  - database
+  - trading-finance
+  - protocol-spec
+  alibaba_opensandbox:
+  - ai-agent
+  - security
+  alibaba_page-agent:
+  - ai-agent
+  - workflow-automation
+  alibaba_spring-ai-alibaba:
+  - ai-agent
+  - devtools
+  alibaba_zvec:
+  - llm-inference
+  - rag-search
+  - database
+  - iot-hardware
+  - trading-finance
+  amlalabs_amla-sandbox:
+  - ai-agent
+  - llm-framework
+  - security
+  anomalyco_models.dev:
+  - database
+  anomalyco_opencode:
+  - ai-agent
+  - ai-coding
+  - devtools
+  anthropic-experimental_sandbox-runtime:
+  - ai-agent
+  - ai-coding
+  - security
+  anthropics_claude-agent-sdk-python:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - rag-search
+  - protocol-spec
+  anthropics_claude-code:
+  - ai-agent
+  - ai-coding
+  - protocol-spec
+  - security
+  anthropics_claude-code-action:
+  - ai-agent
+  - ai-coding
+  - devtools
+  anthropics_claude-cookbooks:
+  - ai-agent
+  - ai-coding
+  - education
+  - protocol-spec
+  anthropics_claude-plugins-official:
+  - ai-agent
+  - ai-coding
+  - protocol-spec
+  anthropics_claude-quickstarts:
+  - ai-agent
+  - trading-finance
+  - protocol-spec
+  anthropics_prompt-eng-interactive-tutorial:
+  - education
+  anthropics_skills:
+  - ai-agent
+  - ai-coding
+  apple_container:
+  - education
+  - iot-hardware
+  - security
+  aquasecurity_trivy:
+  - security
+  arize-ai_phoenix:
+  - database
+  arize-ai_phoenix_phase3:
+  - uncategorized
+  asg017_sqlite-vec:
+  - llm-framework
+  - rag-search
+  - database
+  - iot-hardware
+  asgeirtj_system_prompts_leaks:
+  - uncategorized
+  aspen-cloud_triplit:
+  - database
+  - protocol-spec
+  astral-sh_ruff:
+  - uncategorized
+  astral-sh_uv:
+  - uncategorized
+  astrbotdevs_astrbot:
+  - ai-agent
+  - protocol-spec
+  automatic1111_stable-diffusion-webui:
+  - devtools
+  - media-generation
+  badlogic_pi-mono:
+  - ai-agent
+  - ai-coding
+  - protocol-spec
+  badlogic_pi-skills:
+  - ai-agent
+  - ai-coding
+  - devtools
+  basecamp_omarchy:
+  - iot-hardware
+  beehiveinnovations_zen-mcp-server:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - protocol-spec
+  better-auth_better-auth:
+  - ai-agent
+  - protocol-spec
+  black-forest-labs_flux:
+  - devtools
+  - media-generation
+  black-forest-labs_flux.phase3:
+  - media-generation
+  blaizzy_mlx-audio:
+  - llm-inference
+  - devtools
+  - rag-search
+  - video-audio
+  - media-generation
+  blakeblackshear_frigate:
+  - llm-inference
+  - model-foundation
+  - rag-search
+  - iot-hardware
+  - video-audio
+  block_goose:
+  - ai-agent
+  - ai-coding
+  - protocol-spec
+  bloopai_vibe-kanban:
+  - ai-agent
+  - ai-coding
+  - database
+  - protocol-spec
+  bobeff_open-source-games:
+  - video-audio
+  browser-use_browser-use:
+  - ai-agent
+  - llm-inference
+  - workflow-automation
+  browserbase_stagehand:
+  - ai-agent
+  - workflow-automation
+  bytedance_deer-flow:
+  - uncategorized
+  bytedance_ui-tars-desktop:
+  - ai-agent
+  - devtools
+  - protocol-spec
+  c4illin_convertx:
+  - database
+  - design-ui
+  - video-audio
+  calcom_cal.com:
+  - iot-hardware
+  - web-framework
+  - security
+  calcom_cal.com.phase1:
+  - uncategorized
+  chenglou_pretext:
+  - ai-coding
+  - workflow-automation
+  cherryhq_cherry-studio:
+  - llm-framework
+  - model-foundation
+  - protocol-spec
+  chromedevtools_chrome-devtools-mcp:
+  - ai-agent
+  - devtools
+  - workflow-automation
+  - protocol-spec
+  cinnamon_kotaemon:
+  - llm-framework
+  cjpais_handy:
+  - video-audio
+  clash-verge-rev_clash-verge-rev:
+  - ai-agent
+  cline_cline:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - protocol-spec
+  clockworklabs_spacetimedb:
+  - database
+  cloudcommunity_free-certifications:
+  - uncategorized
+  cloudflare_agents:
+  - ai-agent
+  - llm-framework
+  - rag-search
+  - database
+  - protocol-spec
+  codebuffai_codebuff:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - editor-kms
+  coinbase_x402:
+  - ai-agent
+  - protocol-spec
+  comfy-org_comfyui:
+  - devtools
+  - video-audio
+  - media-generation
+  commandcodeai_baseai:
+  - ai-agent
+  continuedev_continue:
+  - ai-coding
+  crewaiinc_crewai:
+  - ai-agent
+  crosstalk-solutions_project-nomad:
+  - llm-framework
+  - llm-inference
+  - model-foundation
+  czlonkowski_n8n-mcp:
+  - devtools
+  - workflow-automation
+  - protocol-spec
+  d4vinci_scrapling:
+  - ai-agent
+  - protocol-spec
+  dagger_container-use:
+  - ai-agent
+  - ai-coding
+  - protocol-spec
+  - security
+  dair-ai_prompt-engineering-guide:
+  - education
+  danielmiessler_fabric:
+  - llm-inference
+  - model-foundation
+  - security
+  datalab-to_chandra:
+  - uncategorized
+  datalab-to_marker:
+  - devtools
+  datawhalechina_hello-agents:
+  - ai-agent
+  - education
+  davila7_claude-code-templates:
+  - ai-agent
+  - ai-coding
+  - devtools
+  daytonaio_daytona:
+  - ai-agent
+  - security
+  dayuanjiang_next-ai-draw-io:
+  - ai-agent
+  - protocol-spec
+  dearva_everywhere:
+  - uncategorized
+  decoderesearch_circuit-tracer:
+  - uncategorized
+  deepseek-ai_deepseek-v3:
+  - llm-inference
+  - model-foundation
+  - trading-finance
+  deepseek-ai_smallpond:
+  - model-foundation
+  - database
+  - data-pipeline
+  devcaress_guia-entrevistas-de-programacion:
+  - uncategorized
+  dicklesworthstone_pi-agent-rust:
+  - ai-agent
+  - ai-coding
+  - devtools
+  dioxuslabs_awesome-dioxus:
+  - uncategorized
+  docling-project_docling:
+  - ai-agent
+  - devtools
+  dokploy_dokploy:
+  - security
+  done-0_fuck-u-code:
+  - protocol-spec
+  dontizi_rlama:
+  - ai-agent
+  - llm-framework
+  - llm-inference
+  - model-foundation
+  - devtools
+  - rag-search
+  drawdb-io_drawdb:
+  - database
+  - security
+  drewthomasson_ebook2audiobook:
+  - education
+  - iot-hardware
+  - video-audio
+  - media-generation
+  durafen_claude-code-memory:
+  - ai-coding
+  - llm-framework
+  - llm-inference
+  - trading-finance
+  - protocol-spec
+  dyad-sh_dyad:
+  - ai-agent
+  - ai-coding
+  - llm-inference
+  - model-foundation
+  - workflow-automation
+  ebookfoundation_free-programming-books:
+  - education
+  edent_supertinyicons:
+  - uncategorized
+  eigent-ai_eigent:
+  - ai-agent
+  ejoffe_spr:
+  - devtools
+  eleutherai_lm-evaluation-harness:
+  - uncategorized
+  emcie-co_parlant:
+  - ai-agent
+  - trading-finance
+  ericlbuehler_mistral.rs:
+  - ai-agent
+  - llm-inference
+  - model-foundation
+  - trading-finance
+  everyinc_compound-engineering-plugin:
+  - ai-coding
+  - devtools
+  exo-explore_exo:
+  - llm-inference
+  - education
+  - iot-hardware
+  - protocol-spec
+  eyaltoledano_claude-task-master:
+  - ai-coding
+  - protocol-spec
+  f_prompts.chat:
+  - devtools
+  - workflow-automation
+  - web-framework
+  - protocol-spec
+  facebookresearch_sam2:
+  - education
+  - video-audio
+  farion1231_cc-switch:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - protocol-spec
+  ffmpeg_asm-lessons:
+  - video-audio
+  firecrawl_firecrawl:
+  - uncategorized
+  fishaudio_fish-speech:
+  - video-audio
+  fission-ai_openspec:
+  - ai-coding
+  - devtools
+  - protocol-spec
+  flowiseai_flowise:
+  - ai-agent
+  - llm-framework
+  - workflow-automation
+  - rag-search
+  flowseal_zapret-discord-youtube:
+  - uncategorized
+  fosowl_agenticseek:
+  - ai-agent
+  - llm-training
+  fujiwarachoki_moneyprinterv2:
+  - llm-inference
+  - model-foundation
+  - workflow-automation
+  - video-audio
+  - media-generation
+  gar-b-age_cooklikehoc:
+  - rag-search
+  geeeekexplorer_nano-vllm:
+  - llm-inference
+  - model-foundation
+  getzep_graphiti:
+  - ai-agent
+  - llm-framework
+  - rag-search
+  - database
+  - protocol-spec
+  ggml-org_ggml:
+  - llm-inference
+  - model-foundation
+  - trading-finance
+  - video-audio
+  ggml-org_llama.cpp:
+  - ai-agent
+  - llm-inference
+  - model-foundation
+  - devtools
+  - iot-hardware
+  - protocol-spec
+  gibsonai_memori:
+  - ai-agent
+  - database
+  git-bug_git-bug:
+  - devtools
+  gitbutlerapp_gitbutler:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - web-framework
+  - protocol-spec
+  github_gh-aw:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - protocol-spec
+  - security
+  github_spec-kit:
+  - ai-agent
+  - ai-coding
+  - protocol-spec
+  - security
+  google-gemini_gemini-cli:
+  - ai-agent
+  - ai-coding
+  - devtools
+  google-research_timesfm:
+  - uncategorized
+  google_adk-go:
+  - ai-agent
+  - protocol-spec
+  google_langextract:
+  - uncategorized
+  google_tunix:
+  - ai-agent
+  - llm-training
+  googlecloudplatform_generative-ai:
+  - ai-agent
+  - llm-framework
+  - education
+  googleworkspace_cli:
+  - ai-agent
+  - ai-coding
+  - devtools
+  greydgl_pentestgpt:
+  - ai-agent
+  - security
+  hacksider_deep-live-cam:
+  - video-audio
+  hailtododongo_pyrite64:
+  - iot-hardware
+  handsonllm_hands-on-large-language-models:
+  - education
+  harry0703_moneyprinterturbo:
+  - rag-search
+  - web-framework
+  - video-audio
+  harvard-edge_cs249r_book:
+  - devtools
+  - education
+  - iot-hardware
+  hashicorp_vault:
+  - uncategorized
+  hehonghui_awesome-english-ebooks:
+  - workflow-automation
+  - education
+  hesreallyhim_awesome-claude-code:
+  - ai-coding
+  - workflow-automation
+  hkuds_deepcode:
+  - ai-agent
+  - ai-coding
+  - llm-framework
+  - protocol-spec
+  hkuds_lightrag:
+  - llm-framework
+  hoppscotch_hoppscotch:
+  - devtools
+  - protocol-spec
+  hsliuping_tradingagents-cn:
+  - ai-agent
+  - trading-finance
+  huggingface_chat-ui:
+  - protocol-spec
+  huggingface_open-r1:
+  - model-foundation
+  - data-pipeline
+  huggingface_skills:
+  - ai-agent
+  - ai-coding
+  - data-pipeline
+  huggingface_smolagents:
+  - ai-agent
+  - protocol-spec
+  humanlayer_humanlayer:
+  - ai-agent
+  - ai-coding
+  - devtools
+  iam-veeramalla_aws-devops-zero-to-hero:
+  - education
+  - video-audio
+  illuin-tech_colpali:
+  - llm-framework
+  infiniflow_ragflow:
+  - ai-agent
+  - llm-framework
+  - model-foundation
+  - devtools
+  - workflow-automation
+  - database
+  infisical_infisical:
+  - ai-agent
+  - protocol-spec
+  - security
+  inkonchain_docs:
+  - security
+  insforge_insforge:
+  - ai-agent
+  - database
+  - protocol-spec
+  - security
+  instructkr-claude-code-deep-analysis:
+  - ai-agent
+  - ai-coding
+  - devtools
+  iofficeai_aionui:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - protocol-spec
+  iptv-org_iptv:
+  - workflow-automation
+  - database
+  itzcrazykns_vane:
+  - llm-framework
+  - rag-search
+  - protocol-spec
+  j178_prek:
+  - uncategorized
+  janhq_jan:
+  - llm-inference
+  - model-foundation
+  - protocol-spec
+  jarrodwatts_claude-hud:
+  - ai-agent
+  - ai-coding
+  - media-generation
+  jasonppy_voicecraft:
+  - video-audio
+  - media-generation
+  jellyfin_jellyfin:
+  - iot-hardware
+  jellyfin_jellyfin-desktop:
+  - uncategorized
+  jiayi-pan_tinyzero:
+  - model-foundation
+  jina-ai_reader:
+  - uncategorized
+  jingyaogong_minimind:
+  - llm-inference
+  - llm-training
+  - model-foundation
+  juspay_hyperswitch:
+  - devtools
+  k-dense-ai_claude-scientific-skills:
+  - ai-agent
+  - ai-coding
+  - llm-inference
+  - devtools
+  - database
+  - trading-finance
+  kaijuengine_kaiju:
+  - uncategorized
+  kamranahmedse_developer-roadmap:
+  - devtools
+  - education
+  karpathy_autoresearch:
+  - ai-agent
+  - security
+  karpathy_nanochat:
+  - llm-training
+  - model-foundation
+  karpathy_nanogpt:
+  - llm-training
+  - model-foundation
+  - education
+  - video-audio
+  kestra-io_kestra:
+  - devtools
+  - workflow-automation
+  - database
+  - data-pipeline
+  keygraphhq_shannon:
+  - ai-agent
+  - devtools
+  - security
+  klavis-ai_klavis:
+  - ai-agent
+  - llm-framework
+  - model-foundation
+  - devtools
+  - editor-kms
+  - education
+  - protocol-spec
+  ladybirdbrowser_ladybird:
+  - uncategorized
+  langchain-ai_open-swe:
+  - ai-agent
+  - ai-coding
+  - llm-framework
+  langflow-ai_openrag:
+  - llm-framework
+  - devtools
+  - rag-search
+  langgenius_dify:
+  - ai-agent
+  - llm-framework
+  - devtools
+  - workflow-automation
+  lbjlaq_antigravity-manager:
+  - protocol-spec
+  lfnovo_open-notebook:
+  - llm-framework
+  - rag-search
+  - education
+  lightpanda-io_browser:
+  - ai-agent
+  - protocol-spec
+  localsend_localsend:
+  - security
+  longbridge_gpui-component:
+  - design-ui
+  - trading-finance
+  luongnv89_claude-howto:
+  - ai-coding
+  - education
+  lynaghk_vibe:
+  - ai-agent
+  - security
+  makeplane_plane:
+  - web-framework
+  - protocol-spec
+  memvid_memvid:
+  - llm-framework
+  - rag-search
+  - database
+  - video-audio
+  meta-llama_llama3:
+  - model-foundation
+  microsoft_agent-framework:
+  - ai-agent
+  - ai-coding
+  - protocol-spec
+  microsoft_agent-lightning:
+  - ai-agent
+  - llm-framework
+  - llm-training
+  microsoft_ai-agents-for-beginners:
+  - ai-agent
+  - llm-framework
+  - education
+  - video-audio
+  - protocol-spec
+  microsoft_bitnet:
+  - llm-inference
+  - model-foundation
+  - trading-finance
+  microsoft_call-center-ai:
+  - media-generation
+  microsoft_data-formulator:
+  - security
+  microsoft_graphrag:
+  - llm-framework
+  - devtools
+  - rag-search
+  microsoft_hve-core:
+  - ai-agent
+  - ai-coding
+  - devtools
+  microsoft_litebox:
+  - devtools
+  - security
+  microsoft_markitdown:
+  - ai-agent
+  - llm-framework
+  - devtools
+  - video-audio
+  - protocol-spec
+  microsoft_playwright-mcp:
+  - devtools
+  - workflow-automation
+  - protocol-spec
+  microsoft_powertoys:
+  - uncategorized
+  microsoft_vibevoice:
+  - video-audio
+  - media-generation
+  milvus-io_milvus:
+  - llm-framework
+  - rag-search
+  - database
+  miromindai_mirothinker:
+  - ai-agent
+  - llm-training
+  mistralai_mistral-common:
+  - llm-inference
+  - model-foundation
+  mistralai_mistral-finetune:
+  - llm-training
+  - model-foundation
+  ml-explore_mlx:
+  - llm-framework
+  - llm-inference
+  - model-foundation
+  - iot-hardware
+  modelcontextprotocol_ext-apps:
+  - protocol-spec
+  modelcontextprotocol_servers:
+  - ai-agent
+  - ai-coding
+  - protocol-spec
+  modsetter_surfsense:
+  - ai-agent
+  - llm-framework
+  - model-foundation
+  - devtools
+  - editor-kms
+  - rag-search
+  - education
+  - web-framework
+  - protocol-spec
+  moeru-ai_airi:
+  - ai-agent
+  - database
+  - data-pipeline
+  moonshine-ai_moonshine:
+  - iot-hardware
+  - video-audio
+  - media-generation
+  moonshotai_kimi-cli:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - protocol-spec
+  mountain-loop_yaak:
+  - devtools
+  - database
+  - protocol-spec
+  msitarzewski_agency-agents:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - protocol-spec
+  mudler_localai:
+  - ai-agent
+  - llm-inference
+  - model-foundation
+  - rag-search
+  - iot-hardware
+  - video-audio
+  muratcankoylan_agent-skills-for-context-engineering:
+  - ai-agent
+  - ai-coding
+  - education
+  mustardchef_wsabuilds:
+  - workflow-automation
+  mvanhorn_last30days-skill:
+  - ai-agent
+  - rag-search
+  nautechsystems_nautilus_trader:
+  - llm-inference
+  - trading-finance
+  nevamind-ai_memu:
+  - ai-agent
+  - devtools
+  newton-physics_newton:
+  - uncategorized
+  nicbarker_clay:
+  - uncategorized
+  nilsherzig_llocalsearch:
+  - ai-agent
+  - llm-framework
+  - llm-inference
+  - model-foundation
+  - rag-search
+  - web-framework
+  - trading-finance
+  nousresearch_hermes-agent:
+  - ai-agent
+  - devtools
+  nutlope_llamacoder:
+  - model-foundation
+  - design-ui
+  nvm-sh_nvm:
+  - devtools
+  obra_superpowers:
+  - ai-agent
+  - devtools
+  onlook-dev_onlook:
+  - ai-coding
+  - web-framework
+  - design-ui
+  onyx-dot-app_onyx:
+  - llm-framework
+  - rag-search
+  - protocol-spec
+  - security
+  open-webui_open-webui:
+  - llm-framework
+  - database
+  - protocol-spec
+  openai_codex:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - security
+  openai_openai-agents-python:
+  - ai-agent
+  - protocol-spec
+  openai_openai-realtime-solar-system:
+  - uncategorized
+  openai_simple-evals:
+  - ai-agent
+  openai_skills:
+  - ai-agent
+  - ai-coding
+  - devtools
+  openbb-finance_openbb:
+  - ai-agent
+  - devtools
+  - trading-finance
+  - protocol-spec
+  openbmb_chatdev:
+  - ai-agent
+  - devtools
+  openclaw_openclaw:
+  - ai-agent
+  - security
+  opendatalab_mineru:
+  - llm-framework
+  - workflow-automation
+  - protocol-spec
+  opendataloader-project_opendataloader-pdf:
+  - uncategorized
+  openhands_openhands:
+  - ai-agent
+  - llm-inference
+  - model-foundation
+  - devtools
+  - security
+  ourongxing_newsnow:
+  - uncategorized
+  p-e-w_heretic:
+  - llm-training
+  - workflow-automation
+  - rag-search
+  paddlepaddle_paddleocr:
+  - llm-framework
+  - llm-inference
+  - iot-hardware
+  - protocol-spec
+  paperclipai_paperclip:
+  - ai-agent
+  - devtools
+  patchy631_ai-engineering-hub:
+  - ai-agent
+  - llm-framework
+  - model-foundation
+  - education
+  - protocol-spec
+  pathwaycom_pathway:
+  - llm-framework
+  pbakaus_impeccable:
+  - ai-agent
+  - design-ui
+  pedramamini_maestro:
+  - ai-agent
+  - security
+  peterc_engblogs:
+  - database
+  pixelguys_cubyz:
+  - protocol-spec
+  plandex-ai_plandex:
+  - ai-agent
+  playcanvas_engine:
+  - uncategorized
+  prefecthq_fastmcp:
+  - ai-coding
+  - devtools
+  - workflow-automation
+  - web-framework
+  - protocol-spec
+  promptfoo_promptfoo:
+  - workflow-automation
+  - security
+  protocolbuffers_protobuf:
+  - protocol-spec
+  public-apis_public-apis:
+  - database
+  puckeditor_puck:
+  - editor-kms
+  pulldown-cmark_pulldown-cmark:
+  - uncategorized
+  pydantic_monty:
+  - ai-agent
+  - security
+  qeeqbox_social-analyzer:
+  - security
+  qwibitai_nanoclaw:
+  - ai-agent
+  - security
+  raphire_win11debloat:
+  - devtools
+  rasbt_llms-from-scratch:
+  - llm-training
+  - model-foundation
+  - education
+  redwoodjs_graphql:
+  - database
+  remotion-dev_remotion:
+  - uncategorized
+  rendercv_rendercv:
+  - ai-agent
+  - devtools
+  - workflow-automation
+  resemble-ai_chatterbox:
+  - media-generation
+  ridgerchu_matmulfreellm:
+  - llm-inference
+  - trading-finance
+  roboflow_supervision:
+  - uncategorized
+  rowboatlabs_rowboat:
+  - ai-agent
+  - llm-framework
+  - workflow-automation
+  - editor-kms
+  - rag-search
+  - database
+  - web-framework
+  rssnext_folo:
+  - protocol-spec
+  rustfs_rustfs:
+  - ai-agent
+  - devtools
+  - protocol-spec
+  ruvnet_claude-flow:
+  - ai-agent
+  - ai-coding
+  - protocol-spec
+  ruvnet_ruflo:
+  - ai-agent
+  - ai-coding
+  - llm-framework
+  - devtools
+  - rag-search
+  - protocol-spec
+  ruvnet_ruvector:
+  - devtools
+  - rag-search
+  - database
+  - iot-hardware
+  ruvnet_ruview:
+  - iot-hardware
+  ruvnet_wifi-densepose:
+  - uncategorized
+  sansan0_trendradar:
+  - uncategorized
+  screenpipe_screenpipe:
+  - ai-agent
+  - devtools
+  - workflow-automation
+  - rag-search
+  seaweedfs_seaweedfs:
+  - llm-framework
+  - education
+  serengil_deepface:
+  - uncategorized
+  sgl-project_mini-sglang:
+  - llm-inference
+  sgl-project_sglang:
+  - llm-inference
+  - iot-hardware
+  shadcn-ui_ui:
+  - ai-agent
+  - devtools
+  - design-ui
+  - protocol-spec
+  shanraisshan_claude-code-best-practice:
+  - ai-coding
+  shareai-lab_learn-claude-code:
+  - ai-agent
+  - ai-coding
+  shubhamsaboo_awesome-llm-apps:
+  - ai-agent
+  - llm-framework
+  - education
+  - protocol-spec
+  siddharthvaddem_openscreen:
+  - video-audio
+  sillytavern_sillytavern:
+  - uncategorized
+  simstudioai_sim:
+  - ai-agent
+  - protocol-spec
+  sinelaw_fresh:
+  - security
+  skills-phase3:
+  - uncategorized
+  skyvern-ai_skyvern:
+  - devtools
+  - workflow-automation
+  - protocol-spec
+  slopus_happy:
+  - ai-agent
+  - ai-coding
+  smallpond-phase3:
+  - uncategorized
+  sst_opencode:
+  - ai-agent
+  - ai-coding
+  sst_opentui:
+  - ai-agent
+  stan-smith_fossflow:
+  - uncategorized
+  stanfordnlp_dspy:
+  - llm-framework
+  - llm-training
+  - rag-search
+  steipete_gogcli:
+  - ai-agent
+  - devtools
+  - security
+  steipete_summarize:
+  - devtools
+  stirling-tools_stirling-pdf:
+  - ai-agent
+  - workflow-automation
+  stremio_stremio-web:
+  - protocol-spec
+  suitenumerique_docs:
+  - editor-kms
+  - web-framework
+  supermemoryai_supermemory:
+  - ai-agent
+  - ai-coding
+  - llm-framework
+  - protocol-spec
+  superset-sh_superset:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - database
+  synkraai_aios-core:
+  - ai-agent
+  - ai-coding
+  - devtools
+  tapxworld_chinatextbook:
+  - education
+  - security
+  tauricresearch_tradingagents:
+  - ai-agent
+  - llm-inference
+  - devtools
+  - trading-finance
+  tencent_weknora:
+  - llm-framework
+  - workflow-automation
+  thealgorithms_python:
+  - uncategorized
+  thedotmack_claude-mem:
+  - ai-agent
+  - ai-coding
+  - llm-framework
+  thinking-machines-lab_tinker-cookbook:
+  - ai-coding
+  - llm-training
+  - education
+  tibixdev_winboat:
+  - workflow-automation
+  tobi_qmd:
+  - ai-agent
+  - llm-training
+  - devtools
+  - rag-search
+  - protocol-spec
+  tobi_try:
+  - ai-agent
+  - devtools
+  - rag-search
+  toeverything_affine:
+  - editor-kms
+  - database
+  topoteretes_cognee:
+  - ai-agent
+  - llm-framework
+  - devtools
+  - rag-search
+  - database
+  tqdm_tqdm:
+  - uncategorized
+  traefik_traefik:
+  - ai-agent
+  - workflow-automation
+  - protocol-spec
+  - security
+  tursodatabase_turso:
+  - ai-agent
+  - database
+  - iot-hardware
+  tw93_mole:
+  - devtools
+  twentyhq_twenty:
+  - uncategorized
+  twitter_the-algorithm:
+  - uncategorized
+  unclecode_crawl4ai:
+  - uncategorized
+  unionlabs_union:
+  - protocol-spec
+  unslothai_unsloth:
+  - llm-training
+  usememos_memos:
+  - ai-agent
+  - llm-inference
+  - editor-kms
+  - database
+  - trading-finance
+  - protocol-spec
+  usestrix_strix:
+  - ai-agent
+  - workflow-automation
+  - web-framework
+  - protocol-spec
+  - security
+  vectifyai_pageindex:
+  - llm-framework
+  - rag-search
+  - database
+  - trading-finance
+  - protocol-spec
+  vercel-labs_agent-browser:
+  - ai-agent
+  - devtools
+  - workflow-automation
+  - protocol-spec
+  vercel_workflow:
+  - ai-agent
+  - devtools
+  virattt_ai-hedge-fund:
+  - ai-agent
+  - trading-finance
+  virattt_dexter:
+  - ai-agent
+  - ai-coding
+  - trading-finance
+  vllm-project_vllm-omni:
+  - llm-inference
+  - model-foundation
+  - iot-hardware
+  - video-audio
+  - media-generation
+  vndee_llm-sandbox:
+  - ai-agent
+  - devtools
+  - security
+  volcengine_openviking:
+  - ai-agent
+  - llm-framework
+  - devtools
+  - rag-search
+  - database
+  - protocol-spec
+  volcengine_verl:
+  - llm-training
+  - model-foundation
+  voltagent_awesome-openclaw-skills:
+  - ai-agent
+  - security
+  vxcontrol_pentagi:
+  - ai-agent
+  - database
+  - protocol-spec
+  - security
+  wavetermdev_waveterm:
+  - llm-inference
+  - model-foundation
+  - devtools
+  weceng_ticket-purchase:
+  - uncategorized
+  wei-shaw_claude-relay-service:
+  - ai-coding
+  wolfpld_tracy:
+  - devtools
+  wshobson_agents:
+  - ai-agent
+  - ai-coding
+  - llm-inference
+  - trading-finance
+  xerrors_yuxi-know:
+  - ai-agent
+  - llm-framework
+  - workflow-automation
+  xpipe-io_xpipe:
+  - ai-agent
+  - devtools
+  - protocol-spec
+  y2z_monolith:
+  - devtools
+  - security
+  yangshun_tech-interview-handbook:
+  - education
+  yeachan-heo_oh-my-claudecode:
+  - ai-agent
+  - ai-coding
+  - llm-inference
+  - devtools
+  - trading-finance
+  - security
+  yichuan-w_leann:
+  - llm-framework
+  - editor-kms
+  - rag-search
+  - database
+  - data-pipeline
+  yimmenu_yimmenuv2:
+  - uncategorized
+  yt-dlp_yt-dlp:
+  - video-audio
+  - security
+  zaidmukaddam_scira:
+  - ai-agent
+  - rag-search
+  zie619_n8n-workflows:
+  - devtools
+  - workflow-automation
+  - rag-search
+  - database
+  - security
+  zju-llms_foundations-of-llms:
+  - uncategorized
+  zyronon_typewords:
+  - uncategorized

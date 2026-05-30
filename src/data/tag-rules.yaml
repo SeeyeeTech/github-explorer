@@ -1,0 +1,267 @@
+# 报告标签提取规则
+#
+# 每条规则：tag = 标签名（kebab-case），match = 命中关键词列表（小写匹配）
+# 关键词会在每篇报告的 [title + summary + highlights + originalUrl] 中查找。
+# 一篇报告可命中多个标签；都没命中则归入 uncategorized。
+
+- tag: ai-agent
+  label: AI Agent
+  match:
+    - agent
+    - agentic
+    - autogen
+    - crewai
+    - langgraph
+    - autonomous
+    - multi-agent
+    - 智能体
+    - 代理
+
+- tag: ai-coding
+  label: AI 编程
+  match:
+    - aider
+    - continue
+    - cursor
+    - copilot
+    - claude-code
+    - claude code
+    - gemini-cli
+    - 代码助手
+    - code review
+    - ai coding
+    - ai-coding
+
+- tag: llm-framework
+  label: LLM 框架
+  match:
+    - langchain
+    - llamaindex
+    - dspy
+    - haystack
+    - guidance
+    - litellm
+    - rag
+    - 检索增强
+
+- tag: llm-inference
+  label: LLM 推理
+  match:
+    - vllm
+    - sglang
+    - llama.cpp
+    - llamacpp
+    - trt-llm
+    - tensorrt
+    - ollama
+    - mlx
+    - 推理引擎
+    - 量化
+
+- tag: llm-training
+  label: LLM 训练
+  match:
+    - deepspeed
+    - megatron
+    - unsloth
+    - axolotl
+    - lora
+    - peft
+    - fine-tune
+    - finetune
+    - sft
+    - rlhf
+    - 训练框架
+    - 预训练
+    - 微调
+
+- tag: model-foundation
+  label: 基础模型
+  match:
+    - deepseek
+    - qwen
+    - llama
+    - mistral
+    - gemma
+    - bitnet
+    - foundation model
+    - nanochat
+
+- tag: devtools
+  label: 开发者工具
+  match:
+    - devtools
+    - cli
+    - terminal
+    - dev tool
+    - workflow
+    - 工作流
+    - 开发工具
+
+- tag: workflow-automation
+  label: 工作流编排
+  match:
+    - n8n
+    - dify
+    - zapier
+    - airflow
+    - prefect
+    - flowise
+    - automation
+    - 自动化
+
+- tag: editor-kms
+  label: 编辑器与知识库
+  match:
+    - affine
+    - notion
+    - obsidian
+    - logseq
+    - editor
+    - knowledge base
+    - 笔记
+    - 知识管理
+
+- tag: rag-search
+  label: 检索与搜索
+  match:
+    - vector
+    - embedding
+    - elasticsearch
+    - meilisearch
+    - typesense
+    - search engine
+    - 搜索
+
+- tag: database
+  label: 数据库
+  match:
+    - sqlite
+    - postgres
+    - postgresql
+    - duckdb
+    - clickhouse
+    - mongodb
+    - cassandra
+    - sqlite-vec
+    - 数据库
+
+- tag: education
+  label: 教育与学习
+  match:
+    - beginners
+    - tutorial
+    - from-scratch
+    - learning
+    - course
+    - book
+    - 教程
+    - 学习路线
+    - 入门
+
+- tag: iot-hardware
+  label: IoT / 硬件
+  match:
+    - esp32
+    - esp8266
+    - raspberry
+    - hardware
+    - embedded
+    - firmware
+    - arduino
+    - 嵌入式
+    - 硬件
+
+- tag: data-pipeline
+  label: 数据管道
+  match:
+    - etl
+    - data pipeline
+    - dbt
+    - duckdb
+    - spark
+    - 数据管道
+    - 数据集
+
+- tag: web-framework
+  label: Web 框架
+  match:
+    - nextjs
+    - next.js
+    - nuxt
+    - svelte
+    - astro
+    - remix
+    - fastapi
+    - django
+    - flask
+    - 前端框架
+    - web 框架
+
+- tag: design-ui
+  label: 设计与 UI
+  match:
+    - shadcn
+    - tailwind
+    - figma
+    - ui kit
+    - design system
+    - 组件库
+    - 设计系统
+
+- tag: trading-finance
+  label: 量化与金融
+  match:
+    - trading
+    - hedge fund
+    - quant
+    - finance
+    - 量化
+    - 金融
+
+- tag: video-audio
+  label: 音视频
+  match:
+    - ffmpeg
+    - yt-dlp
+    - whisper
+    - audio
+    - video
+    - 视频
+    - 音频
+    - 字幕
+
+- tag: media-generation
+  label: 生成式媒体
+  match:
+    - stable-diffusion
+    - stable diffusion
+    - flux
+    - comfyui
+    - sora
+    - midjourney
+    - tts
+    - text-to-speech
+    - 绘画
+    - 文生图
+    - 文生视频
+
+- tag: protocol-spec
+  label: 协议与规范
+  match:
+    - mcp
+    - a2a
+    - openapi
+    - protocol
+    - rfc
+    - 协议
+
+- tag: security
+  label: 安全
+  match:
+    - security
+    - pentest
+    - exploit
+    - cve
+    - 漏洞
+    - 安全

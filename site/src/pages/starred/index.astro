@@ -1,0 +1,59 @@
+---
+import Base from "~/layouts/Base.astro";
+import { getStarred, SITE } from "~/lib/data";
+
+const data = getStarred();
+const base = import.meta.env.BASE_URL;
+const usersConfigUrl = `${SITE.repoUrl}/edit/main/src/data/users.yaml`;
+---
+
+<Base title="大牛 Star" description="追踪 AI 与开发者圈大牛近一年 Star 的仓库">
+  <section class="max-w-6xl mx-auto px-4 py-10">
+    <div class="flex items-end justify-between mb-2">
+      <h1 class="text-2xl font-bold">大牛 Star</h1>
+      <a href={usersConfigUrl} target="_blank" rel="noopener" class="text-sm text-zinc-500 hover:text-brand"
+        >编辑大牛列表 →</a
+      >
+    </div>
+    <p class="text-zinc-500 text-sm mb-6">
+      共 {data.users.length} 位订阅者，{
+        data.users.reduce((s, u) => s + u.items.length, 0)
+      } 个 starred 仓库；点击进入查看每位大牛的完整 star 与已分析报告高亮。
+    </p>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {
+        data.users.map((u) => {
+          const analyzed = u.items.filter((i) => i.reportSlug).length;
+          return (
+            <a
+              href={`${base}/starred/${u.login}`}
+              class="block p-4 rounded-lg border border-zinc-200 bg-white hover:border-brand hover:shadow"
+            >
+              <div class="flex items-start gap-3">
+                <img
+                  src={`https://github.com/${u.login}.png?size=64`}
+                  alt={u.login}
+                  width="48"
+                  height="48"
+                  class="w-12 h-12 rounded-full bg-zinc-100"
+                  loading="lazy"
+                />
+                <div class="flex-1 min-w-0">
+                  <div class="font-medium truncate">{u.name}</div>
+                  <div class="text-xs text-zinc-500">@{u.login}</div>
+                </div>
+              </div>
+              {u.bio && <p class="text-sm text-zinc-600 mt-3 line-clamp-2">{u.bio}</p>}
+              <div class="mt-3 text-xs text-zinc-400 flex flex-wrap gap-3">
+                <span>star {u.items.length}</span>
+                {analyzed > 0 && <span class="text-emerald-700">已分析 {analyzed}</span>}
+                {u.fetchedAt && <span>更新 {u.fetchedAt}</span>}
+              </div>
+            </a>
+          );
+        })
+      }
+    </div>
+  </section>
+</Base>

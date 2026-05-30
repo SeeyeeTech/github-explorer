@@ -1,0 +1,130 @@
+---
+import Base from "~/layouts/Base.astro";
+import {
+  getTrendingAggregate,
+  getTrendingByPeriod,
+  getTrendingConfig,
+  getAnalyzedUrlIndex,
+} from "~/lib/data";
+
+const cfg = getTrendingConfig();
+const base = import.meta.env.BASE_URL;
+const analyzed = getAnalyzedUrlIndex();
+
+const tabs = [
+  { id: "weekly", label: "近 7 日", items: getTrendingByPeriod("weekly") },
+  { id: "daily", label: "近 1 日", items: getTrendingByPeriod("daily") },
+  { id: "monthly", label: "近 30 日", items: getTrendingByPeriod("monthly") },
+  { id: "all", label: "全局聚合", items: getTrendingAggregate() },
+];
+
+function badge(url: string) {
+  const slug = analyzed.get(url.replace(/\/$/, "").toLowerCase());
+  return slug;
+}
+---
+
+<Base title="Trending 榜单" description="GitHub Trending 日/周/月聚合榜">
+  <section class="max-w-6xl mx-auto px-4 py-10">
+    <div class="flex items-end justify-between mb-2">
+      <h1 class="text-2xl font-bold">Trending</h1>
+      <a
+        href={`https://github.com/AustinXT/github-explorer/edit/main/src/data/trending-config.yaml`}
+        target="_blank"
+        rel="noopener"
+        class="text-sm text-zinc-500 hover:text-brand"
+        >编辑 trending-config.yaml →</a
+      >
+    </div>
+    <p class="text-zinc-500 text-sm mb-6">
+      数据窗口 {cfg.fetch_window.start_date} ~ {cfg.fetch_window.end_date} ·
+      全局聚合阈值 ≥ {cfg.all_repos_min_trending_days} 天上榜 ·
+      每榜显示前 {cfg.display.trending_page_per_tab}
+    </p>
+
+    <div class="flex flex-wrap gap-2 border-b border-zinc-200 mb-6 text-sm">
+      {
+        tabs.map((tab) => (
+          <button
+            class="tab-btn px-4 py-2 -mb-px border-b-2 border-transparent text-zinc-500 hover:text-zinc-900"
+            data-tab={tab.id}
+          >
+            {tab.label}
+            <span class="text-zinc-400 ml-1">{tab.items.length}</span>
+          </button>
+        ))
+      }
+    </div>
+
+    {
+      tabs.map((tab) => (
+        <div class="tab-panel hidden" data-panel={tab.id}>
+          <ol class="space-y-2">
+            {tab.items.slice(0, cfg.display.trending_page_per_tab).map((item, i) => {
+              const slug = badge(item.url);
+              return (
+                <li class="flex items-start gap-3 py-2 border-b border-zinc-100">
+                  <span class="font-mono text-zinc-400 w-8 shrink-0 text-right">{i + 1}.</span>
+                  <div class="flex-1 min-w-0">
+                    <div class="flex items-baseline flex-wrap gap-2">
+                      <a
+                        href={item.url}
+                        target="_blank"
+                        rel="noopener"
+                        class="font-medium text-zinc-900 hover:text-brand"
+                      >
+                        {item.name}
+                      </a>
+                      {item.language && (
+                        <span class="text-xs text-zinc-500">{item.language}</span>
+                      )}
+                      <span class="text-xs text-amber-700">⭐ {item.stars.toLocaleString()}</span>
+                      {item.trending_days != null && (
+                        <span class="text-xs text-zinc-400">{item.trending_days} 天上榜</span>
+                      )}
+                      {slug && (
+                        <a
+                          href={`${base}/reports/${slug}`}
+                          class="text-xs text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded"
+                        >
+                          已分析 →
+                        </a>
+                      )}
+                    </div>
+                    {item.description && (
+                      <p class="text-sm text-zinc-600 mt-1 line-clamp-2">{item.description}</p>
+                    )}
+                  </div>
+                </li>
+              );
+            })}
+          </ol>
+        </div>
+      ))
+    }
+  </section>
+
+  <style>
+    .tab-btn.active {
+      color: var(--color-brand);
+      border-color: var(--color-brand);
+    }
+  </style>
+
+  <script is:inline define:vars={{ defaultTab: cfg.display.default_tab }}>
+    function activate(id) {
+      document.querySelectorAll(".tab-btn").forEach((b) =>
+        b.classList.toggle("active", b.dataset.tab === id)
+      );
+      document.querySelectorAll(".tab-panel").forEach((p) =>
+        p.classList.toggle("hidden", p.dataset.panel !== id)
+      );
+      history.replaceState(null, "", `?tab=${id}`);
+    }
+    document.querySelectorAll(".tab-btn").forEach((b) =>
+      b.addEventListener("click", () => activate(b.dataset.tab))
+    );
+    const initial = new URLSearchParams(location.search).get("tab") || defaultTab;
+    activate(initial);
+  </script>
+</Base>

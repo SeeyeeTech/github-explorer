@@ -1,0 +1,56 @@
+# 「大牛 starred」订阅列表
+#
+# 站点会从 src/starred_repo/{login}.md 读取每位大牛的近一年 star 快照。
+# 新增大牛：在此处追加一项，并把 starred 数据快照放到 src/starred_repo/{login}.md。
+# 上游 batch 抓取脚本（如 Starlight2）也以本文件为准。
+
+users:
+  - login: karpathy
+    name: Andrej Karpathy
+    bio: 前 Tesla / OpenAI，AI 教育内容创作者
+    tags: [ai-coding, llm-training, education]
+
+  - login: simonw
+    name: Simon Willison
+    bio: Django co-creator，LLM 工具与博客
+    tags: [ai-coding, llm-framework]
+
+  - login: mitchellh
+    name: Mitchell Hashimoto
+    bio: HashiCorp 创始人，Ghostty 作者
+    tags: [devtools, infrastructure]
+
+  - login: rauchg
+    name: Guillermo Rauch
+    bio: Vercel CEO，Next.js
+    tags: [web-framework, design-ui]
+
+  - login: bcherny
+    name: Boris Cherny
+    bio: TypeScript / TS-Node 早期贡献者
+    tags: [devtools, web-framework]
+
+  - login: mojombo
+    name: Tom Preston-Werner
+    bio: GitHub 联合创始人，Jekyll/Toml 作者
+    tags: [devtools, editor-kms]
+
+  - login: tobi
+    name: Tobi Lütke
+    bio: Shopify CEO
+    tags: [web-framework, devtools]
+
+  - login: swyxio
+    name: swyx
+    bio: AI Engineer 社区主理人，Latent Space 主播
+    tags: [ai-agent, devtools]
+
+  - login: pc
+    name: Patrick Collison
+    bio: Stripe CEO
+    tags: [devtools]
+
+  - login: ouyangzhiping
+    name: 欧阳志平
+    bio: AI 编程方向独立开发者
+    tags: [ai-coding, ai-agent]

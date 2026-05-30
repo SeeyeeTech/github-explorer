@@ -1,0 +1,136 @@
+---
+import Base from "~/layouts/Base.astro";
+import ReportCard from "~/components/ReportCard.astro";
+import {
+  getReports,
+  getTagsDoc,
+  getTagLabels,
+  getTrendingAggregate,
+  getTrendingConfig,
+  SITE,
+} from "~/lib/data";
+
+const reports = getReports();
+const tagsDoc = getTagsDoc();
+const labels = getTagLabels();
+const cfg = getTrendingConfig();
+const base = import.meta.env.BASE_URL;
+
+// 最新报告：按 mtime 倒序
+const latest = [...reports]
+  .sort((a, b) => (a.mtime > b.mtime ? -1 : 1))
+  .slice(0, 8);
+
+// 热门报告：按 stars 倒序
+const hot = [...reports]
+  .filter((r) => r.stars != null)
+  .sort((a, b) => (b.stars ?? 0) - (a.stars ?? 0))
+  .slice(0, 6);
+
+// Trending 概览
+const trendingTop = getTrendingAggregate().slice(0, cfg.display.homepage_top_n);
+
+// 标签分布
+const tagCount = new Map<string, number>();
+for (const tags of Object.values(tagsDoc.entries)) {
+  for (const t of tags) tagCount.set(t, (tagCount.get(t) ?? 0) + 1);
+}
+const tagsSorted = Array.from(tagCount.entries())
+  .filter(([t]) => t !== "uncategorized")
+  .sort((a, b) => b[1] - a[1]);
+---
+
+<Base>
+  <section class="border-b border-zinc-200 bg-gradient-to-b from-zinc-50 to-white">
+    <div class="max-w-6xl mx-auto px-4 py-14">
+      <h1 class="text-3xl md:text-4xl font-bold tracking-tight text-zinc-900">
+        {SITE.subtitle}
+      </h1>
+      <p class="mt-3 text-zinc-600 max-w-2xl">{SITE.description}</p>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a
+          href={`${base}/reports`}
+          class="px-4 py-2 rounded bg-brand text-white text-sm hover:opacity-90"
+          >浏览 {reports.length} 篇报告</a
+        >
+        <a
+          href={`${base}/submit`}
+          class="px-4 py-2 rounded border border-zinc-300 text-sm hover:bg-zinc-50"
+          >提交一个仓库 →</a
+        >
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-4 py-10">
+    <div class="flex items-end justify-between mb-4">
+      <h2 class="text-xl font-semibold">热门报告</h2>
+      <a href={`${base}/reports?sort=stars`} class="text-sm text-zinc-500 hover:text-brand"
+        >按 stars 排序 →</a
+      >
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {hot.map((r) => <ReportCard report={r} />)}
+    </div>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-4 py-10 border-t border-zinc-200">
+    <div class="flex items-end justify-between mb-4">
+      <h2 class="text-xl font-semibold">最新分析</h2>
+      <a href={`${base}/reports`} class="text-sm text-zinc-500 hover:text-brand">查看全部 →</a>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      {latest.map((r) => <ReportCard report={r} compact />)}
+    </div>
+  </section>
+
+  <section class="max-w-6xl mx-auto px-4 py-10 border-t border-zinc-200">
+    <div class="grid md:grid-cols-2 gap-8">
+      <div>
+        <div class="flex items-end justify-between mb-4">
+          <h2 class="text-xl font-semibold">本期 Trending</h2>
+          <a href={`${base}/trending`} class="text-sm text-zinc-500 hover:text-brand">完整榜单 →</a>
+        </div>
+        <ol class="space-y-2">
+          {
+            trendingTop.map((item, i) => (
+              <li class="flex items-baseline gap-3 text-sm">
+                <span class="font-mono text-zinc-400 w-6 shrink-0 text-right">{i + 1}.</span>
+                <a
+                  href={item.url}
+                  target="_blank"
+                  rel="noopener"
+                  class="font-medium text-zinc-800 hover:text-brand truncate"
+                >
+                  {item.name}
+                </a>
+                <span class="text-xs text-amber-700">⭐ {(item.stars / 1000).toFixed(1)}k</span>
+                {item.trending_days && (
+                  <span class="text-xs text-zinc-400">{item.trending_days} 天上榜</span>
+                )}
+              </li>
+            ))
+          }
+        </ol>
+      </div>
+      <div>
+        <div class="flex items-end justify-between mb-4">
+          <h2 class="text-xl font-semibold">标签云</h2>
+          <a href={`${base}/tags`} class="text-sm text-zinc-500 hover:text-brand">全部标签 →</a>
+        </div>
+        <div class="flex flex-wrap gap-2">
+          {
+            tagsSorted.slice(0, 16).map(([t, n]) => (
+              <a
+                href={`${base}/tags/${t}`}
+                class="text-sm px-3 py-1.5 rounded-full border border-zinc-200 bg-white hover:border-brand hover:text-brand"
+              >
+                {labels[t] ?? t} <span class="text-zinc-400">{n}</span>
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

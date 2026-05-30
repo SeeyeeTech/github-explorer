@@ -1,0 +1,134 @@
+---
+import Base from "~/layouts/Base.astro";
+import { getReports, SITE } from "~/lib/data";
+
+// 把已分析的 GitHub URL 注入页面，前端 JS 用于查重
+const analyzed: Record<string, string> = {};
+for (const r of getReports()) {
+  if (r.originalUrl) analyzed[r.originalUrl.replace(/\/$/, "").toLowerCase()] = r.slug;
+}
+
+const base = import.meta.env.BASE_URL;
+const issueUrlBase = `${SITE.repoUrl}/issues/new`;
+---
+
+<Base title="提交一个仓库" description="提交 GitHub 仓库链接，触发自动分析流程">
+  <section class="max-w-2xl mx-auto px-4 py-12">
+    <h1 class="text-2xl font-bold">提交一个仓库</h1>
+    <p class="text-zinc-600 mt-2">
+      粘贴 GitHub 仓库链接，将自动跳转到 Issue 提交页。仓库提交后，
+      GitHub Action 会校验 URL、调用
+      <code class="text-sm bg-zinc-100 px-1 rounded">/repo-miner</code> 技能完成分析，
+      并自动开 PR 合并到 <code class="text-sm">src/analysis_report/</code>。
+    </p>
+
+    <form id="submitForm" class="mt-8 space-y-4">
+      <div>
+        <label for="repoUrl" class="block text-sm font-medium text-zinc-700 mb-1">
+          GitHub 仓库 URL <span class="text-red-500">*</span>
+        </label>
+        <input
+          id="repoUrl"
+          type="url"
+          required
+          placeholder="https://github.com/owner/repo"
+          class="w-full px-3 py-2 border border-zinc-300 rounded focus:outline-none focus:border-brand"
+        />
+        <p id="urlHint" class="mt-1 text-sm h-5"></p>
+      </div>
+
+      <div>
+        <label for="reason" class="block text-sm font-medium text-zinc-700 mb-1">
+          推荐理由（可选，会附在分析报告引用中）
+        </label>
+        <textarea
+          id="reason"
+          rows="3"
+          placeholder="例如：这个项目展示了新颖的 X 模式 / 与 Y 项目对比有研究价值..."
+          class="w-full px-3 py-2 border border-zinc-300 rounded focus:outline-none focus:border-brand"
+        ></textarea>
+      </div>
+
+      <button
+        type="submit"
+        id="submitBtn"
+        class="w-full py-2.5 rounded bg-brand text-white font-medium hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed"
+      >
+        提交 → 跳转到 GitHub Issue
+      </button>
+
+      <p class="text-xs text-zinc-500 text-center">
+        需要 GitHub 账户登录。提交后请等待 Action 在 issue 评论分析结果。
+      </p>
+    </form>
+
+    <hr class="my-10 border-zinc-200" />
+
+    <div class="text-sm text-zinc-600 space-y-2">
+      <h2 class="font-semibold text-zinc-800">提交流程</h2>
+      <ol class="list-decimal pl-5 space-y-1">
+        <li>填好 URL → 跳转到带预填模板的 GitHub Issue</li>
+        <li>提交 Issue 后，<code>analyze.yml</code> 工作流自动触发</li>
+        <li>校验通过后，runner 调用 <code>claude -p "/repo-miner $URL"</code> 完成分析</li>
+        <li>报告生成后自动提 PR；合并后约 5 分钟内站点上线该篇</li>
+      </ol>
+    </div>
+  </section>
+
+  <script is:inline define:vars={{ analyzed, issueUrlBase, base }}>
+    const input = document.getElementById("repoUrl");
+    const hint = document.getElementById("urlHint");
+    const btn = document.getElementById("submitBtn");
+    const form = document.getElementById("submitForm");
+    const URL_RE = /^https:\/\/github\.com\/[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+\/?$/;
+
+    function normalize(u) {
+      return u.trim().replace(/\/$/, "").toLowerCase();
+    }
+
+    function check() {
+      const v = input.value.trim();
+      hint.className = "mt-1 text-sm h-5";
+      if (!v) {
+        hint.textContent = "";
+        btn.disabled = true;
+        return false;
+      }
+      if (!URL_RE.test(v)) {
+        hint.textContent = "URL 格式不正确，应形如 https://github.com/owner/repo";
+        hint.className = "mt-1 text-sm h-5 text-red-600";
+        btn.disabled = true;
+        return false;
+      }
+      const slug = analyzed[normalize(v)];
+      if (slug) {
+        hint.innerHTML = `该仓库已分析过 — <a href="${base}/reports/${slug}" class="underline">查看报告</a>`;
+        hint.className = "mt-1 text-sm h-5 text-amber-700";
+        btn.disabled = true;
+        return false;
+      }
+      hint.textContent = "✓ 可以提交";
+      hint.className = "mt-1 text-sm h-5 text-emerald-700";
+      btn.disabled = false;
+      return true;
+    }
+
+    input.addEventListener("input", check);
+    check();
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      if (!check()) return;
+      const url = input.value.trim().replace(/\/$/, "");
+      const reason = document.getElementById("reason").value.trim();
+      const params = new URLSearchParams({
+        template: "submit-repo.yml",
+        labels: "analyze-request",
+        title: `[Analyze] ${url.replace("https://github.com/", "")}`,
+        repo_url: url,
+      });
+      if (reason) params.set("reason", reason);
+      window.location.href = `${issueUrlBase}?${params.toString()}`;
+    });
+  </script>
+</Base>

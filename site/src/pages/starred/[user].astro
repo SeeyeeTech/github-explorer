@@ -1,0 +1,101 @@
+---
+import Base from "~/layouts/Base.astro";
+import { getStarred } from "~/lib/data";
+
+export async function getStaticPaths() {
+  return getStarred().users.map((u) => ({ params: { user: u.login } }));
+}
+
+const { user } = Astro.params;
+const data = getStarred();
+const profile = data.users.find((u) => u.login === user)!;
+const base = import.meta.env.BASE_URL;
+
+const sorted = [...profile.items].sort((a, b) =>
+  (a.starredAt > b.starredAt ? -1 : 1)
+);
+const analyzedCount = sorted.filter((i) => i.reportSlug).length;
+---
+
+<Base title={`@${profile.login} 的 Star`} description={profile.bio}>
+  <section class="max-w-5xl mx-auto px-4 py-10">
+    <nav class="text-sm text-zinc-500 mb-4">
+      <a href={`${base}/`} class="hover:text-brand">首页</a>
+      <span class="mx-1">/</span>
+      <a href={`${base}/starred`} class="hover:text-brand">大牛 Star</a>
+      <span class="mx-1">/</span>
+      <span class="text-zinc-700">@{profile.login}</span>
+    </nav>
+
+    <header class="flex items-start gap-4 mb-8">
+      <img
+        src={`https://github.com/${profile.login}.png?size=128`}
+        alt={profile.login}
+        width="80"
+        height="80"
+        class="w-20 h-20 rounded-full bg-zinc-100"
+      />
+      <div class="flex-1">
+        <h1 class="text-2xl font-bold">
+          {profile.name}
+          <a
+            href={`https://github.com/${profile.login}`}
+            target="_blank"
+            rel="noopener"
+            class="text-zinc-500 hover:text-brand text-base font-normal"
+            >@{profile.login} ↗</a
+          >
+        </h1>
+        {profile.bio && <p class="text-zinc-600 text-sm mt-1">{profile.bio}</p>}
+        <div class="mt-3 text-sm text-zinc-500">
+          <span>{profile.items.length} 个 starred</span>
+          {analyzedCount > 0 && (
+            <span class="ml-3 text-emerald-700">{analyzedCount} 已分析</span>
+          )}
+          {profile.fetchedAt && (
+            <span class="ml-3 text-zinc-400">最近更新 {profile.fetchedAt}</span>
+          )}
+        </div>
+      </div>
+    </header>
+
+    {
+      sorted.length === 0 ? (
+        <p class="text-zinc-500">暂无 starred 数据。可能 starred 快照尚未更新。</p>
+      ) : (
+        <ol class="space-y-2">
+          {sorted.map((item, i) => (
+            <li class="flex items-start gap-3 py-3 border-b border-zinc-100">
+              <span class="font-mono text-zinc-400 w-8 shrink-0 text-right">{i + 1}.</span>
+              <div class="flex-1 min-w-0">
+                <div class="flex items-baseline flex-wrap gap-2">
+                  <a
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener"
+                    class="font-medium text-zinc-900 hover:text-brand"
+                  >
+                    {item.name}
+                  </a>
+                  <span class="text-xs text-amber-700">⭐ {item.stars.toLocaleString()}</span>
+                  <span class="text-xs text-zinc-400">star 于 {item.starredAt}</span>
+                  {item.reportSlug && (
+                    <a
+                      href={`${base}/reports/${item.reportSlug}`}
+                      class="text-xs text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded"
+                    >
+                      已分析 →
+                    </a>
+                  )}
+                </div>
+                {item.description && (
+                  <p class="text-sm text-zinc-600 mt-1 line-clamp-2">{item.description}</p>
+                )}
+              </div>
+            </li>
+          ))}
+        </ol>
+      )
+    }
+  </section>
+</Base>

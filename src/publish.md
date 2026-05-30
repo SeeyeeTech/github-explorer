@@ -23,3 +23,4 @@
 | 文件 | 原因 |
 |------|------|
 | [anthropics_claude-code.md](analysis_report/anthropics_claude-code.md) | 与已发布的 Claude Code 深度分析选题重复 |
+| gin-gonic_gin.md | 自动生成 | 2026-05-30 (已入草稿) |

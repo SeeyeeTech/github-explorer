@@ -86,6 +86,29 @@ cd site && npm run build                # 输出 site/dist + pagefind 索引
 - 标签规则：编辑 `src/data/tag-rules.yaml`；手工校正某条则把 slug 加入 `tags.yaml` 的 `manual:` 列表
 - Repo Secrets：`ANTHROPIC_API_KEY`（必需）+ `MINIMAX_API_KEY`/`MINIMAX_BASE_URL`（可选，作为主后端）；公众号发布另需 `WECHAT_APPID`/`WECHAT_APPSECRET`
 
+## SEO 与索引推送
+
+**SEO 实现位置**：
+
+| 关注点 | 文件 |
+|---|---|
+| 站点级 meta / Twitter / OG / WebSite JSON-LD | `site/src/layouts/Base.astro` |
+| 文章/列表/标签/Person JSON-LD | 各页 `<Fragment slot="head">` 内嵌 `<JsonLd>` |
+| RSS 2.0 / JSON Feed 1.1 | `site/src/pages/rss.xml.ts` / `feed.json.ts` |
+| robots.txt（动态） | `site/src/pages/robots.txt.ts` |
+| sitemap 优先级与 lastmod | `site/astro.config.mjs` 的 `sitemap({ serialize })` |
+| 默认社交卡片图 | `site/public/og-default.png`（设计师覆盖即可） |
+| 报告社交卡 | 借用 GitHub `opengraph.githubassets.com`，零维护 |
+
+**Repo Variables / Secrets**（可选，全部缺失时只是少推送/少验证一个渠道，不影响构建）：
+- `vars.SITE_URL` / `vars.PUBLIC_BASE_PATH` — 切换自定义域名时改这两个 vars，无需改代码（`astro.config.mjs` 和 `ping_search_engines.py` 都读它）
+- `secrets.INDEXNOW_KEY` — Bing/Yandex/AI 搜索的 IndexNow key；同时在 `site/public/` 放一个 `{KEY}.txt` 文件（内容就是 key）
+- `secrets.BAIDU_PUSH_TOKEN` — 百度站长普通收录 token
+
+**站长平台验证**：拿到 code 后填入 `site/src/lib/data.ts` 的 `SITE.verify.{google,baidu,bing}`，Base.astro 自动渲染 meta；或者把平台给的验证文件放到 `site/public/` 用文件法验证。
+
+**索引推送**：每次 `pages.yml` 部署完成后自动跑 `scripts/ping_search_engines.py`，diff `tmp/last_indexed.json` 快照后只推新增/更新的报告 URL；本地干跑 `python3 scripts/ping_search_engines.py --dry-run`。
+
 ## 规则
 
 - 文档使用中文，文件名使用英文

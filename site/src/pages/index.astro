@@ -1,6 +1,7 @@
 ---
 import Base from "~/layouts/Base.astro";
 import ReportCard from "~/components/ReportCard.astro";
+import SearchBox from "~/components/SearchBox.astro";
 import {
   getReports,
   getTagsDoc,
@@ -47,7 +48,10 @@ const tagsSorted = Array.from(tagCount.entries())
         {SITE.subtitle}
       </h1>
       <p class="mt-3 text-zinc-600 max-w-2xl">{SITE.description}</p>
-      <div class="mt-6 flex flex-wrap gap-3">
+      <div class="mt-6 max-w-xl">
+        <SearchBox size="lg" placeholder="搜索报告标题、正文、关键技术…" />
+      </div>
+      <div class="mt-4 flex flex-wrap gap-3">
         <a
           href={`${base}/reports`}
           class="px-4 py-2 rounded bg-brand text-white text-sm hover:opacity-90"

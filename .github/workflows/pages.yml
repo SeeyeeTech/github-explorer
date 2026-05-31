@@ -56,6 +56,9 @@ jobs:
 
       - name: Build site
         working-directory: site
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+          PUBLIC_BASE_PATH: ${{ vars.PUBLIC_BASE_PATH }}
         run: npm run build
 
       - name: Upload pages artifact
@@ -72,3 +75,25 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  ping:
+    name: Ping search engines (IndexNow / 百度)
+    needs: deploy
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Push URLs
+        env:
+          SITE_URL: ${{ vars.SITE_URL || 'https://austinxt.github.io' }}
+          PUBLIC_BASE_PATH: ${{ vars.PUBLIC_BASE_PATH || '/github-explorer' }}
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+          BAIDU_PUSH_TOKEN: ${{ secrets.BAIDU_PUSH_TOKEN }}
+        run: python3 scripts/ping_search_engines.py
+        continue-on-error: true

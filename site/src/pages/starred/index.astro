@@ -7,7 +7,11 @@ const base = import.meta.env.BASE_URL;
 const usersConfigUrl = `${SITE.repoUrl}/edit/main/src/data/users.yaml`;
 ---
 
-<Base title="大牛 Star" description="追踪 AI 与开发者圈大牛近一年 Star 的仓库">
+<Base
+  title="大牛 Star"
+  description={`追踪 ${data.users.length} 位 AI 与开发者圈大牛近一年 Star 的 ${data.users.reduce((s, u) => s + u.items.length, 0)} 个仓库 · 已分析报告高亮可跳转`}
+  canonicalPath="/starred"
+>
   <section class="max-w-6xl mx-auto px-4 py-10">
     <div class="flex items-end justify-between mb-2">
       <h1 class="text-2xl font-bold">大牛 Star</h1>

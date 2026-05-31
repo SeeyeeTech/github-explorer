@@ -1,0 +1,132 @@
+---
+import Base from "~/layouts/Base.astro";
+
+const base = import.meta.env.BASE_URL;
+const bundlePath = `${base}/pagefind/`;
+const pagefindCss = `${base}/pagefind/pagefind-ui.css`;
+const pagefindJs = `${base}/pagefind/pagefind-ui.js`;
+---
+
+<Base title="搜索" description="全文检索 GitHub Explorer 上的分析报告">
+  <section class="max-w-4xl mx-auto px-4 py-10" data-pagefind-ignore>
+    <div class="mb-8">
+      <h1 class="text-2xl font-bold">搜索分析报告</h1>
+      <p class="text-zinc-500 text-sm mt-2">
+        在 375+ 篇报告的标题、摘要与正文中全文检索；支持中英文关键词。
+      </p>
+    </div>
+
+    <link href={pagefindCss} rel="stylesheet" />
+
+    <div id="search" class="search-host"></div>
+
+    <noscript>
+      <p class="mt-6 text-sm text-zinc-500">搜索需要启用 JavaScript。</p>
+    </noscript>
+
+    <div
+      id="searchFallback"
+      class="hidden mt-8 p-4 bg-amber-50 border border-amber-200 rounded text-sm text-amber-900"
+    >
+      <strong>搜索索引未生成。</strong>
+      本地预览请用 <code class="px-1 bg-amber-100 rounded">npm run build &amp;&amp; npm run preview</code>
+      启动；<code class="px-1 bg-amber-100 rounded">npm run dev</code> 模式下 Pagefind 索引不会自动构建。
+    </div>
+  </section>
+
+  <style is:global>
+    /* 对齐站点主色 */
+    :root {
+      --pagefind-ui-primary: var(--color-brand);
+      --pagefind-ui-text: #18181b;
+      --pagefind-ui-background: #ffffff;
+      --pagefind-ui-border: #e4e4e7;
+      --pagefind-ui-tag: #f4f4f5;
+      --pagefind-ui-border-width: 1px;
+      --pagefind-ui-border-radius: 6px;
+      --pagefind-ui-image-border-radius: 6px;
+      --pagefind-ui-image-box-ratio: 3 / 2;
+      --pagefind-ui-font: inherit;
+    }
+
+    .search-host .pagefind-ui__search-input {
+      padding: 0.75rem 1rem 0.75rem 2.25rem;
+    }
+
+    .search-host .pagefind-ui__result-title a {
+      color: var(--color-brand);
+    }
+
+    .search-host .pagefind-ui__result-tags {
+      color: #71717a;
+    }
+  </style>
+
+  <script is:inline define:vars={{ bundlePath, pagefindJs }}>
+    function syncUrl(q) {
+      const url = new URL(window.location.href);
+      if (q) url.searchParams.set("q", q);
+      else url.searchParams.delete("q");
+      window.history.replaceState({}, "", url);
+    }
+
+    function bootstrap() {
+      if (typeof PagefindUI !== "function") {
+        document.getElementById("searchFallback")?.classList.remove("hidden");
+        return;
+      }
+      const ui = new PagefindUI({
+        element: "#search",
+        bundlePath,
+        showImages: false,
+        showSubResults: true,
+        resetStyles: false,
+        translations: {
+          placeholder: "搜索报告标题、摘要、正文…",
+          clear_search: "清空",
+          load_more: "加载更多",
+          search_label: "搜索此站点",
+          filters_label: "筛选",
+          zero_results: "未找到与 [SEARCH_TERM] 匹配的报告",
+          many_results: "找到 [COUNT] 篇匹配 [SEARCH_TERM] 的报告",
+          one_result: "找到 1 篇匹配 [SEARCH_TERM] 的报告",
+          alt_search: "未找到 [SEARCH_TERM]，显示与 [DIFFERENT_TERM] 相关的结果",
+          search_suggestion: "未找到 [SEARCH_TERM]，尝试搜索",
+          searching: "搜索 [SEARCH_TERM] 中…",
+        },
+      });
+
+      const params = new URLSearchParams(window.location.search);
+      const initialQ = params.get("q") ?? "";
+
+      // 预填 + 触发搜索
+      const tryFillInput = (attempt = 0) => {
+        const input = document.querySelector(
+          ".search-host input.pagefind-ui__search-input"
+        );
+        if (!input) {
+          if (attempt < 20) setTimeout(() => tryFillInput(attempt + 1), 50);
+          return;
+        }
+        if (initialQ) {
+          input.value = initialQ;
+          input.dispatchEvent(new Event("input", { bubbles: true }));
+        }
+        input.focus();
+        input.addEventListener("input", (e) => {
+          syncUrl(e.target.value);
+        });
+      };
+      tryFillInput();
+    }
+
+    // 异步加载 pagefind UI 脚本；失败时显示兜底
+    const s = document.createElement("script");
+    s.src = pagefindJs;
+    s.onload = bootstrap;
+    s.onerror = () => {
+      document.getElementById("searchFallback")?.classList.remove("hidden");
+    };
+    document.head.appendChild(s);
+  </script>
+</Base>

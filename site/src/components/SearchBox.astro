@@ -1,0 +1,52 @@
+---
+// 通用搜索框：纯路由跳转，回车后到 /search?q=xxx
+interface Props {
+  size?: "sm" | "lg";
+  placeholder?: string;
+  className?: string;
+}
+
+const { size = "sm", placeholder = "搜索报告…", className = "" } = Astro.props;
+const base = import.meta.env.BASE_URL;
+
+const sizeClass =
+  size === "lg"
+    ? "px-4 py-3 text-base"
+    : "px-3 py-1.5 text-sm";
+
+const widthClass =
+  size === "lg" ? "w-full" : "w-full md:w-56";
+---
+
+<form
+  role="search"
+  method="get"
+  action={`${base}/search`}
+  class={`${widthClass} ${className}`}
+>
+  <label class="relative block">
+    <span class="sr-only">搜索</span>
+    <svg
+      class="absolute left-3 top-1/2 -translate-y-1/2 text-zinc-400 pointer-events-none"
+      width={size === "lg" ? 18 : 14}
+      height={size === "lg" ? 18 : 14}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-hidden="true"
+    >
+      <circle cx="11" cy="11" r="7"></circle>
+      <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+    </svg>
+    <input
+      type="search"
+      name="q"
+      placeholder={placeholder}
+      autocomplete="off"
+      class={`w-full ${sizeClass} pl-9 rounded border border-zinc-300 bg-white focus:outline-none focus:border-brand focus:ring-1 focus:ring-brand/40`}
+    />
+  </label>
+</form>

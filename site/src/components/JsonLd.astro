@@ -1,0 +1,11 @@
+---
+// 通用 JSON-LD 渲染组件 — 接受任意 schema.org 对象或数组，输出安全转义的 script 标签
+interface Props {
+  data: Record<string, unknown> | Record<string, unknown>[];
+}
+const { data } = Astro.props;
+// 防止 </script> 注入，转义 < 和 >；JSON.stringify 已处理引号/反斜杠
+const json = JSON.stringify(data).replace(/</g, "\\u003c").replace(/>/g, "\\u003e");
+---
+
+<script type="application/ld+json" set:html={json} />

@@ -1,7 +1,8 @@
 ---
 import Base from "~/layouts/Base.astro";
 import ReportCard from "~/components/ReportCard.astro";
-import { getReports, getTagsDoc, getTagLabels } from "~/lib/data";
+import JsonLd from "~/components/JsonLd.astro";
+import { getReports, getTagsDoc, getTagLabels, absoluteUrl, SITE } from "~/lib/data";
 
 const reports = getReports();
 const tagsDoc = getTagsDoc();
@@ -37,9 +38,38 @@ const allTags = Array.from(tagCount.entries())
 const langCount = new Map<string, number>();
 for (const r of reports) if (r.language) langCount.set(r.language, (langCount.get(r.language) ?? 0) + 1);
 const allLangs = Array.from(langCount.entries()).sort((a, b) => b[1] - a[1]).slice(0, 12);
+
+const topLangs = allLangs.slice(0, 5).map(([l]) => l).join(" / ");
+const description = `${reports.length} 篇 GitHub 仓库深度分析报告 · 覆盖 ${allTags.length} 个主题标签 · 主流语言含 ${topLangs}。`;
+
+const collectionSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: `全部报告 · ${SITE.title}`,
+  description,
+  url: absoluteUrl("/reports"),
+  inLanguage: "zh-CN",
+  isPartOf: { "@id": `${absoluteUrl("/")}#website` },
+  mainEntity: {
+    "@type": "ItemList",
+    numberOfItems: reports.length,
+  },
+};
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "首页", item: absoluteUrl("/") },
+    { "@type": "ListItem", position: 2, name: "全部报告", item: absoluteUrl("/reports") },
+  ],
+};
 ---
 
-<Base title="全部报告" description={`${reports.length} 篇 GitHub 仓库深度分析报告`}>
+<Base title="全部报告" description={description}>
+  <Fragment slot="head">
+    <JsonLd data={collectionSchema} />
+    <JsonLd data={breadcrumbSchema} />
+  </Fragment>
   <section class="max-w-6xl mx-auto px-4 py-8">
     <div class="flex flex-col md:flex-row md:items-end justify-between gap-3 mb-6">
       <div>

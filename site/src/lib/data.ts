@@ -179,6 +179,10 @@ export function getAnalyzedUrlIndex(): Map<string, string> {
 }
 
 // 站点元信息（写死，避免再加 site.yaml）
+// SITE_URL/BASE_PATH 在 astro.config.mjs 已经 env 化；这里 siteUrl/basePath 提供运行时只读快照
+const SITE_URL = (import.meta.env.SITE ?? "https://austinxt.github.io").replace(/\/$/, "");
+const BASE_PATH = (import.meta.env.BASE_URL ?? "/").replace(/\/$/, "");
+
 export const SITE = {
   title: "GitHub Explorer",
   subtitle: "深度挖掘 GitHub 仓库价值",
@@ -186,4 +190,47 @@ export const SITE = {
     "375+ 篇 GitHub 仓库深度分析报告，覆盖 AI Agent、LLM、DevTools 等热门赛道；含每日 Trending 榜与大牛 Star 订阅。",
   repoUrl: "https://github.com/AustinXT/github-explorer",
   ownerHandle: "AustinXT",
+  // SEO / 社交分享
+  siteUrl: SITE_URL,
+  basePath: BASE_PATH,
+  locale: "zh_CN",
+  defaultOgImage: "/og-default.png",
+  keywords: [
+    "GitHub 仓库分析",
+    "GitHub Trending",
+    "开源项目评测",
+    "AI Agent",
+    "LLM",
+    "开发者工具",
+    "技术选型",
+  ],
+  // 站长平台验证 code；拿到后填入，空字符串则不渲染对应 meta
+  verify: {
+    google: "",
+    baidu: "",
+    bing: "",
+  },
+  rssTitle: "GitHub Explorer · 最新报告",
 };
+
+// 拼接绝对 URL（自带 base 子路径），用于 canonical / og:url / sitemap 等
+// 规范化：根路径保留尾斜杠，其他路径统一去掉尾斜杠
+export function absoluteUrl(path: string = "/"): string {
+  const p = path.startsWith("/") ? path : `/${path}`;
+  const joined = `${SITE.siteUrl}${SITE.basePath}${p}`.replace(/([^:])\/{2,}/g, "$1/");
+  if (joined.endsWith(`${SITE.basePath}/`) || joined === `${SITE.siteUrl}/`) return joined;
+  return joined.replace(/\/$/, "");
+}
+
+// 报告社交分享卡片图：有 GitHub URL 就借用 GitHub Repository OG（每月自动更新、无成本）
+// 形如 https://opengraph.githubassets.com/{hash}/{owner}/{repo} —— hash 任意，GitHub 用其失效缓存
+export function getReportOgImage(report: { originalUrl?: string | null } | undefined | null): string {
+  if (report?.originalUrl) {
+    const m = report.originalUrl.match(/github\.com\/([^/]+)\/([^/]+?)(?:\.git)?\/?$/);
+    if (m) {
+      // 用 mtime 衍生的简单 hash 让 GitHub 缓存随报告更新而刷新
+      return `https://opengraph.githubassets.com/main/${m[1]}/${m[2]}`;
+    }
+  }
+  return absoluteUrl(SITE.defaultOgImage);
+}

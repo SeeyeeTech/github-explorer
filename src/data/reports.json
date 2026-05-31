@@ -50,8 +50,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": "pending",
-    "publishedTitle": "manim 深度分析"
+    "published": "published:2026-04-02",
+    "publishedTitle": "85k Star 的「一人工具」：拆解 3Blue1Brown 背后的数学动画引擎"
   },
   {
     "slug": "666ghj_bettafish",
@@ -77,8 +77,8 @@
     "license": null,
     "cover": "https://raw.githubusercontent.com/666ghj/BettaFish/main/static/image/system_schematic.png",
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-10",
+    "publishedTitle": "让 7 个 AI 互相辩论做舆情分析，这个项目拿下 39.6K Stars"
   },
   {
     "slug": "666ghj_mirofish",
@@ -104,8 +104,8 @@
     "license": null,
     "cover": "https://github.com/666ghj/MiroFish/raw/main/static/image/MiroFish_logo_compressed.jpeg",
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-10",
+    "publishedTitle": "让上万 AI 智能体模拟社交媒体，用群体涌现预测未来"
   },
   {
     "slug": "78_xiaozhi-esp32",
@@ -181,8 +181,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-01",
+    "publishedTitle": "57 行代码解决 42K Stars 项目的安装难题"
   },
   {
     "slug": "aider-ai_aider",
@@ -208,8 +208,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": "pending",
-    "publishedTitle": "Aider 深度分析"
+    "published": "published:2026-04-05",
+    "publishedTitle": "一人撑起 42K Star 项目：aider 如何用「编辑格式」重新定义 AI 编程"
   },
   {
     "slug": "arize-ai_phoenix",
@@ -235,8 +235,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-11",
+    "publishedTitle": "LLM 可观测性的 Datadog：Phoenix 为什么押注 OpenTelemetry 标准"
   },
   {
     "slug": "arize-ai_phoenix_phase3",
@@ -312,8 +312,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-28",
+    "publishedTitle": "日历工具厂商如何成为 MCP 生态龙头：PAL MCP Server 的多模型协作设计"
   },
   {
     "slug": "blaizzy_mlx-audio",
@@ -2599,8 +2599,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": "pending",
-    "publishedTitle": "A2A 协议深度分析"
+    "published": "published:2026-04-05",
+    "publishedTitle": "A2A 深度分析：Google 发起的 Agent 间通信协议"
   },
   {
     "slug": "aandrew-me_ytdownloader",
@@ -2626,8 +2626,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-10",
+    "publishedTitle": "167 万次下载的开源视频下载器，靠 7 个包管理器全渠道分发"
   },
   {
     "slug": "abhigyanpatwari_gitnexus",
@@ -2653,8 +2653,8 @@
     "license": null,
     "cover": "https://github.com/user-attachments/assets/cc5d637d-e0e5-48e6-93ff-5bcfdb929285",
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-04",
+    "publishedTitle": "77 天 18.5K Stars，这个代码知识图谱引擎为 AI Agent 构建了神经系统"
   },
   {
     "slug": "ad-on-is_rachoon",
@@ -2761,8 +2761,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-03",
+    "publishedTitle": "19K Stars 但只有一个文件名约定，AGENTS.md 凭什么统一 AI 编码配置"
   },
   {
     "slug": "aidenybai_react-scan",
@@ -2788,8 +2788,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-05",
+    "publishedTitle": "Perplexity 和 Shopify 在用的 React 性能工具，零侵入高亮每次多余渲染"
   },
   {
     "slug": "airweave-ai_airweave",
@@ -2815,8 +2815,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-07",
+    "publishedTitle": "RAG 应用 80% 时间花在数据准备上，这个 YC 项目要把它降到零"
   },
   {
     "slug": "alibaba_opensandbox",
@@ -2838,8 +2838,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-11",
+    "publishedTitle": "4 个月 9K Stars 入选 CNCF，OpenSandbox 要做 AI 沙箱的行业标准"
   },
   {
     "slug": "alibaba_page-agent",
@@ -2919,8 +2919,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-01",
+    "publishedTitle": "向量数据库界的 SQLite：pip install 即用，QPS 碾压 ChromaDB 两倍"
   },
   {
     "slug": "amlalabs_amla-sandbox",
@@ -2946,8 +2946,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-02",
+    "publishedTitle": "发现 LangChain 9.3 分漏洞的人，做了一个零基础设施的 WASM Agent 沙箱"
   },
   {
     "slug": "anomalyco_models.dev",
@@ -2973,8 +2973,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-03",
+    "publishedTitle": "AI 模型的 Can I Use：421 人用 Git + TOML 众包维护 4000 个模型数据"
   },
   {
     "slug": "anomalyco_opencode",
@@ -3000,8 +3000,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-02",
+    "publishedTitle": "127K Stars 的开源 Claude Code 替代，凭什么是内置 LSP"
   },
   {
     "slug": "anthropic-experimental_sandbox-runtime",
@@ -3027,8 +3027,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-10",
+    "publishedTitle": "不用 Docker 也能隔离 AI Agent：Anthropic 用 OS 原语给 Claude Code 做了沙箱"
   },
   {
     "slug": "anthropics_claude-agent-sdk-python",
@@ -3054,8 +3054,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-29",
+    "publishedTitle": "不重新实现工具层：Claude Agent SDK 为什么把 CLI 当作 Runtime"
   },
   {
     "slug": "anthropics_claude-code-action",
@@ -3081,8 +3081,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-09",
+    "publishedTitle": "@claude 帮我修这个 bug：Anthropic 如何让 AI 在 PR 中自主写代码"
   },
   {
     "slug": "anthropics_claude-code",
@@ -3135,8 +3135,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-04",
+    "publishedTitle": "让 AI 审查 AI 教程的 PR：claude-cookbooks 的 AI-in-the-Loop CI 实践"
   },
   {
     "slug": "anthropics_claude-plugins-official",
@@ -3162,8 +3162,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-04",
+    "publishedTitle": "93 行 Markdown 协调 5 个 AI Agent：Prompt-as-Plugin 范式解读"
   },
   {
     "slug": "anthropics_claude-quickstarts",
@@ -3270,8 +3270,8 @@
     "license": null,
     "cover": "https://raw.githubusercontent.com/apple/container/main/assets/Containerization-Logo.png",
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-08",
+    "publishedTitle": "一个容器一个 VM：Apple 用 Swift 从零构建的容器方案为什么更安全"
   },
   {
     "slug": "aquasecurity_trivy",
@@ -3297,8 +3297,8 @@
     "license": null,
     "cover": "https://raw.githubusercontent.com/aquasecurity/trivy/main/docs/imgs/logo.png",
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-09",
+    "publishedTitle": "一个二进制搞定五种安全扫描：Trivy 如何成为云原生安全的事实标准"
   },
   {
     "slug": "asg017_sqlite-vec",
@@ -3324,8 +3324,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": "pending",
-    "publishedTitle": "sqlite-vec 深度分析"
+    "published": "published:2026-04-06",
+    "publishedTitle": "sqlite-vec：月下载 700 万的隐形向量搜索基础设施"
   },
   {
     "slug": "asgeirtj_system_prompts_leaks",
@@ -3374,8 +3374,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-06",
+    "publishedTitle": "客户端和服务端跑同一个查询引擎：Triplit 的 local-first 全栈方案"
   },
   {
     "slug": "astral-sh_ruff",
@@ -3455,8 +3455,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-02",
+    "publishedTitle": "libGDX 创始人的编码 Agent：4 个工具 + 不到 1000 tokens 系统提示"
   },
   {
     "slug": "badlogic_pi-skills",
@@ -3482,8 +3482,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-07",
+    "publishedTitle": "985 行代码让 AI 编码代理走出编辑器：pi-skills 的极简技能设计"
   },
   {
     "slug": "basecamp_omarchy",
@@ -3509,8 +3509,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-02",
+    "publishedTitle": "db:migrate 变成了 omarchy-migrate：Rails 创造者如何设计操作系统"
   },
   {
     "slug": "better-auth_better-auth",
@@ -3771,8 +3771,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": "pending",
-    "publishedTitle": "ByteDance DeerFlow 深度分析"
+    "published": "published:2026-04-01",
+    "publishedTitle": "DeerFlow 深度分析报告"
   },
   {
     "slug": "calcom_cal.com",
@@ -4388,8 +4388,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": "pending",
-    "publishedTitle": "DeepSeek-V3 深度分析"
+    "published": "published:2026-04-04",
+    "publishedTitle": "28.5 倍压缩 + 1/10 成本：DeepSeek-V3 如何用数学打败暴力堆卡"
   },
   {
     "slug": "deepseek-ai_smallpond",
@@ -4766,8 +4766,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": "pending",
-    "publishedTitle": "Firecrawl 深度分析"
+    "published": "published:2026-04-06",
+    "publishedTitle": "12 种引擎赛跑抓网页：Firecrawl 如何两年干到 96K Stars"
   },
   {
     "slug": "fishaudio_fish-speech",
@@ -4870,6 +4870,33 @@
     "license": null,
     "cover": "https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png",
     "mtime": "2026-05-11",
+    "published": null,
+    "publishedTitle": null
+  },
+  {
+    "slug": "gin-gonic_gin",
+    "title": "Gin",
+    "originalUrl": "https://github.com/gin-gonic/gin",
+    "summary": "Gin 是 Go 语言生态中最流行的 HTTP Web 框架，通过借力 httprouter 的 Radix Tree 路由实现零内存分配的高性能，同时提供 Martini 风格的简洁 API 兼顾开发体验，在 12 年间迭代 38 个版本，成为 Go Web 开发的事实标准之一。",
+    "highlights": [
+      "成熟的工程实践：11 年持续维护、531 位贡献者、19K 行代码，展示了如何构建一个既保持高性能又易于使用的 Web 框架",
+      "中间件生态典范：通过 HandlerChain 链式调用模式构建的中间件系统，被 gofiber、echo 等框架效仿，是学习中间件设计模式的最佳案例",
+      "性能与体验的平衡哲学：明确不做 ORM 集成和模板引擎捆绑，专注路由和请求处理，诠释了「少即是多」的 Go 哲学"
+    ],
+    "stars": 88566,
+    "forks": 8615,
+    "language": "Go",
+    "locRaw": "19,142（Go 99%+，17,669 行）",
+    "ageMonths": 143.0,
+    "ageRaw": "143 个月（约 12 年）",
+    "stage": "稳定维护（38 个 Release，周期性活跃）",
+    "contribution": "小团队 + 社区协作（Top 3 贡献者 68%，531 人参与）",
+    "heat": "大众热门",
+    "heatRaw": "大众热门（Go 生态除标准库外最流行的 Web 框架）",
+    "quality": "代码优秀 / 文档优秀 / 测试充分 / CI 完善",
+    "license": null,
+    "cover": "https://raw.githubusercontent.com/gin-gonic/logo/master/color.png",
+    "mtime": "2026-05-30",
     "published": null,
     "publishedTitle": null
   },
@@ -5005,8 +5032,8 @@
     "license": null,
     "cover": "https://raw.githubusercontent.com/google-gemini/gemini-cli/main/docs/assets/gemini-screenshot.png",
     "mtime": "2026-05-11",
-    "published": "pending",
-    "publishedTitle": "Gemini CLI 深度分析"
+    "published": "published:2026-04-04",
+    "publishedTitle": "Gemini CLI 深度分析报告"
   },
   {
     "slug": "google-research_timesfm",
@@ -6031,8 +6058,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": "pending",
-    "publishedTitle": "nanochat 深度分析"
+    "published": "published:2026-04-02",
+    "publishedTitle": "$100 从零造 ChatGPT：Karpathy 用 7000 行代码写了一本 LLM 教科书"
   },
   {
     "slug": "kestra-io_kestra",
@@ -6436,8 +6463,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": "pending",
-    "publishedTitle": "BitNet 1-bit LLM 深度分析"
+    "published": "published:2026-04-04",
+    "publishedTitle": "权重只剩 {-1, 0, 1}：微软 BitNet 让百亿大模型在 CPU 上飞起来了"
   },
   {
     "slug": "microsoft_powertoys",
@@ -7273,8 +7300,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": "pending",
-    "publishedTitle": "Superpowers 深度分析"
+    "published": "published:2026-04-01",
+    "publishedTitle": "superpowers 深度分析：用心理学工程化驯服 AI 编程助手"
   },
   {
     "slug": "onlook-dev_onlook",
@@ -7597,6 +7624,33 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
+    "published": null,
+    "publishedTitle": null
+  },
+  {
+    "slug": "oven-sh_bun",
+    "title": "Bun",
+    "originalUrl": "https://github.com/oven-sh/bun",
+    "summary": "Bun 是用 Rust/Zig 构建的 JavaScript 运行时，集成了运行时、bundler、test runner、package manager 四合一，通过 JavaScriptCore 引擎实现比 Node.js 快 3 倍的启动速度和 30 倍的包安装速度。",
+    "highlights": [
+      "极致性能优化：从 JS 引擎选择（JavaScriptCore）、内存分配器（mimalloc）、压缩算法（Zstandard/Lolhtml）到 SIMD 加速，每个层面都有深度优化",
+      "一体化 DX 设计：一个工具替代 npm/yarn + esbuild/vite + jest + node，配置极简，开箱即用",
+      "Node.js 兼容策略：通过在 JavaScriptCore 上模拟 V8 API，实现 90%+ 的 Node.js API 兼容性，同时保持性能优势"
+    ],
+    "stars": 92667,
+    "forks": 4673,
+    "language": null,
+    "locRaw": "285.9 万行（不含空行/注释）",
+    "ageMonths": 62.0,
+    "ageRaw": "62 个月（2021-04 至今）",
+    "stage": "密集开发（近 30 天 400 commits）",
+    "contribution": "单人主导（Jarred-Sumner 占 77%）+ 小团队",
+    "heat": "大众热门",
+    "heatRaw": "大众热门（>90K stars）",
+    "quality": "代码[优秀] 文档[优秀] 测试[充分]",
+    "license": null,
+    "cover": "https://github.com/user-attachments/assets/50282090-adfd-4ddb-9e27-c30753c6b161",
+    "mtime": "2026-05-31",
     "published": null,
     "publishedTitle": null
   },
@@ -8673,6 +8727,33 @@
     "publishedTitle": null
   },
   {
+    "slug": "sherlock-project_sherlock",
+    "title": "84K stars 称霸 OSINT：一个人 7 年做到 400+ 平台覆盖，Sherlock 凭什么",
+    "originalUrl": "https://github.com/sherlock-project/sherlock",
+    "summary": "通过声明式 JSON Manifest + 异步并发检测，解决跨平台用户名 OSINT 的信息收集难题，84K stars 验证了其作为网络安全标配工具的成熟度。",
+    "highlights": [
+      "OSINT 基础设施价值：400+ 站点的声明式管理，成为事实标准的信息收集框架",
+      "False Positive 处理范式：从被动过滤到主动排除的演进值得学习",
+      "社区驱动站点维护：通过 CI 验证 PR 贡献的质量，保证数据新鲜度"
+    ],
+    "stars": 84286,
+    "forks": 9832,
+    "language": "Python",
+    "locRaw": "6,371（Python 1,723 + JSON 3,456）",
+    "ageMonths": 89.0,
+    "ageRaw": "89 个月（2018-12-24 至今）",
+    "stage": "稳定维护（2026 年 5 月仍有活跃 commit）",
+    "contribution": "社区驱动（Top3 贡献者占 54%，330 人参与）",
+    "heat": "大众热门",
+    "heatRaw": "大众热门（OSINT 领域 top1）",
+    "quality": "代码[优秀] 文档[良好] 测试[充分]",
+    "license": null,
+    "cover": "https://raw.githubusercontent.com/sherlock-project/sherlock/master/images/sherlock-logo.png",
+    "mtime": "2026-06-01",
+    "published": null,
+    "publishedTitle": null
+  },
+  {
     "slug": "siddharthvaddem_openscreen",
     "title": "OpenScreen",
     "originalUrl": "https://github.com/siddharthvaddem/openscreen",
@@ -8773,8 +8854,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-01",
+    "publishedTitle": "用 Skill 创建 Skill：Anthropic 如何定义 AI Agent 能力扩展标准"
   },
   {
     "slug": "slopus_happy",
@@ -8904,8 +8985,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-08",
+    "publishedTitle": "画基础设施架构图不用再花钱了——FossFLOW 是开源的 Cloudcraft 替代品"
   },
   {
     "slug": "stanfordnlp_dspy",
@@ -8931,8 +9012,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": "pending",
-    "publishedTitle": "DSPy 深度分析"
+    "published": "published:2026-04-06",
+    "publishedTitle": "别再手调 Prompt 了：DSPy 用 10 分钟编译出你 20 小时的效果"
   },
   {
     "slug": "steipete_gogcli",
@@ -8958,8 +9039,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-03",
+    "publishedTitle": "OpenAI 员工为 AI Agent 手工打造的 Google 全家桶 CLI——gogcli 的安全设计哲学"
   },
   {
     "slug": "steipete_summarize",
@@ -8985,8 +9066,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-09",
+    "publishedTitle": "CLI + 浏览器扩展 + 守护进程——summarize 用 AI 摘要打通了全媒体内容链路"
   },
   {
     "slug": "suitenumerique_docs",
@@ -9012,8 +9093,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-03",
+    "publishedTitle": "法德两国政府为什么要自己造一个 Google Docs——开源协作文档 Docs 的数据主权之路"
   },
   {
     "slug": "supermemoryai_supermemory",
@@ -9039,8 +9120,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-29",
+    "publishedTitle": "你的 AI 每次对话后都失忆——Supermemory 如何让记忆成为基础设施"
   },
   {
     "slug": "superset-sh_superset",
@@ -9066,8 +9147,8 @@
     "license": null,
     "cover": "https://raw.githubusercontent.com/superset-sh/superset/main/apps/marketing/public/images/readme-hero.png",
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-04",
+    "publishedTitle": "当 10 个 AI Agent 同时写代码——Superset 如何用 Git Worktree 隔离管理一群 Agent"
   },
   {
     "slug": "thedotmack_claude-mem",
@@ -9093,8 +9174,8 @@
     "license": null,
     "cover": "https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/cm-preview.gif",
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-11",
+    "publishedTitle": "35000 token 压缩到 920——claude-mem 如何用渐进式披露解决 AI 的记忆问题"
   },
   {
     "slug": "thinking-machines-lab_tinker-cookbook",
@@ -9120,8 +9201,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-11",
+    "publishedTitle": "PPO 发明人亲自写的训练代码开源了——Mira Murati $2B 新公司的后训练算法库"
   },
   {
     "slug": "tobi_qmd",
@@ -9147,8 +9228,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-09",
+    "publishedTitle": "Shopify CEO 每天用的搜索引擎——8 步混合检索管线如何让笔记找得到"
   },
   {
     "slug": "tobi_try",
@@ -9174,8 +9255,8 @@
     "license": null,
     "cover": "https://github.com/tobi/try/raw/main/assets/try-fuzzy-search-demo.gif",
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-11",
+    "publishedTitle": "Shopify CEO 的周末项目——2500 行代码和一种为 ADHD 设计的开发哲学"
   },
   {
     "slug": "toeverything_affine",
@@ -9201,8 +9282,8 @@
     "license": "混合许可（前端 MIT / 后端 Enterprise Edition License）",
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-02",
+    "publishedTitle": "文档和白板为什么不能是同一个东西——66K Star 的 AFFiNE 和它的超融合编辑器"
   },
   {
     "slug": "topoteretes_cognee",
@@ -9255,8 +9336,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-06",
+    "publishedTitle": "1524 行代码统治 Python 进度条 12 年——tqdm 的极简设计哲学"
   },
   {
     "slug": "traefik_traefik",
@@ -9282,8 +9363,8 @@
     "license": null,
     "cover": "https://raw.githubusercontent.com/traefik/traefik/master/docs/content/assets/img/traefik-architecture.png",
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-03",
+    "publishedTitle": "指向编排器，其余全自动——Traefik 用 2 个方法的接口统一了 15 种后端"
   },
   {
     "slug": "tursodatabase_turso",
@@ -9336,8 +9417,8 @@
     "license": null,
     "cover": "https://gw.alipayobjects.com/zos/k/ro/ZzF8e8.png",
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-30",
+    "publishedTitle": "一条命令省掉 $60/年——Pake 作者新作 Mole 半年拿下 45K Star 的秘密"
   },
   {
     "slug": "twentyhq_twenty",
@@ -9386,8 +9467,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": "pending",
-    "publishedTitle": "Twitter 推荐算法深度分析"
+    "published": "published:2026-04-05",
+    "publishedTitle": "拆解 Twitter 推荐算法：6000 个特征背后的工业级复杂度"
   },
   {
     "slug": "unclecode_crawl4ai",
@@ -9413,8 +9494,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-08",
+    "publishedTitle": "62K Star 登顶 GitHub——Crawl4AI 为什么是 LLM 时代的爬虫标准答案"
   },
   {
     "slug": "unionlabs_union",
@@ -9490,8 +9571,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-01",
+    "publishedTitle": "像发微博一样记笔记——58K Star 的 Memos 为什么率先接入了 AI Agent"
   },
   {
     "slug": "usestrix_strix",
@@ -9517,8 +9598,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-30",
+    "publishedTitle": "让 AI 自主做渗透测试——Strix 的沙箱隔离架构如何安全地释放 Agent 能力"
   },
   {
     "slug": "vercel-labs_agent-browser",
@@ -9544,8 +9625,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-01",
+    "publishedTitle": "省掉 90% Token 的浏览器操控——Vercel 的 agent-browser 如何让 AI 更高效地上网"
   },
   {
     "slug": "vercel_workflow",
@@ -9571,8 +9652,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-11",
+    "publishedTitle": "写一行 \"use workflow\" 就能持久化——Vercel 用编译器魔法重新定义工作流编排"
   },
   {
     "slug": "virattt_ai-hedge-fund",
@@ -9598,8 +9679,8 @@
     "license": null,
     "cover": "https://github.com/user-attachments/assets/cbae3dcf-b571-490d-b0ad-3f0f035ac0d4",
     "mtime": "2026-05-11",
-    "published": "pending",
-    "publishedTitle": "AI Hedge Fund 深度分析"
+    "published": "published:2026-04-02",
+    "publishedTitle": "把12位投资大师装进代码里：49K Star 金融 AI 项目深度解析"
   },
   {
     "slug": "virattt_dexter",
@@ -9625,8 +9706,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-09",
+    "publishedTitle": "5 个月 18K Star，这个金融 AI Agent 用「元工具」解决了工具选择的难题"
   },
   {
     "slug": "vllm-project_vllm-omni",
@@ -9652,8 +9733,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-07",
+    "publishedTitle": "文本、图像、视频、语音统一推理——vLLM-Omni 用 Stage 抽象重新定义全模态引擎"
   },
   {
     "slug": "vndee_llm-sandbox",
@@ -9679,8 +9760,8 @@
     "license": "MIT",
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-10",
+    "publishedTitle": "943 Star 却有 41 万月下载——这个 AI 代码沙箱被严重低估了"
   },
   {
     "slug": "volcengine_openviking",
@@ -9706,8 +9787,8 @@
     "license": null,
     "cover": "https://raw.githubusercontent.com/volcengine/OpenViking/main/docs/images/banner.jpg",
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-30",
+    "publishedTitle": "给 AI Agent 装一个文件系统——字节 OpenViking 如何用三层摘要省掉 90% token"
   },
   {
     "slug": "volcengine_verl",
@@ -9733,8 +9814,8 @@
     "license": null,
     "cover": "https://github.com/verl-project/verl-data/blob/main/images/verl-arch.png?raw=true",
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-01",
+    "publishedTitle": "字节训练 Doubao 的 RL 框架开源了，20K Star 成为 DeepSeek R1 复现标准"
   },
   {
     "slug": "vxcontrol_pentagi",
@@ -9787,8 +9868,8 @@
     "license": null,
     "cover": "https://raw.githubusercontent.com/wavetermdev/waveterm/main/assets/wave-screenshot.webp",
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-05",
+    "publishedTitle": "终端里装下编辑器、浏览器和 AI——Wave Terminal 要做开源版 Warp"
   },
   {
     "slug": "wolfpld_tracy",
@@ -9814,8 +9895,8 @@
     "license": null,
     "cover": "https://raw.githubusercontent.com/wolfpld/tracy/master/doc/profiler.png",
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-05-01",
+    "publishedTitle": "一个人写了 31 万行 C++，造出 2.25 纳秒开销的性能分析器，还给它接上了 AI"
   },
   {
     "slug": "wshobson_agents",
@@ -9841,8 +9922,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-11",
+    "publishedTitle": "33K Star 的 Claude Code 插件帝国——75 个插件背后的评估框架才是真正的技术壁垒"
   },
   {
     "slug": "xerrors_yuxi-know",
@@ -9922,8 +10003,8 @@
     "license": null,
     "cover": "https://raw.githubusercontent.com/yangshun/tech-interview-handbook/main/assets/logo.svg",
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-07",
+    "publishedTitle": "面试 11 家拿 9 个 offer，他把方法论开源成了 138K Star 的行业标准"
   },
   {
     "slug": "yichuan-w_leann",
@@ -9949,8 +10030,8 @@
     "license": null,
     "cover": "https://raw.githubusercontent.com/yichuan-w/LEANN/main/assets/logo-text.png",
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-10",
+    "publishedTitle": "201GB 压缩到 6GB：这个向量数据库让 6000 万文档在笔记本上跑 RAG"
   },
   {
     "slug": "yt-dlp_yt-dlp",
@@ -9976,8 +10057,8 @@
     "license": "The Unlicense（公共领域等效）",
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-10",
+    "publishedTitle": "Fork 一个停滞项目，5 年后 Star 数反超原作——yt-dlp 做对了什么"
   },
   {
     "slug": "zaidmukaddam_scira",
@@ -10003,8 +10084,8 @@
     "license": null,
     "cover": null,
     "mtime": "2026-05-11",
-    "published": null,
-    "publishedTitle": null
+    "published": "published:2026-04-10",
+    "publishedTitle": "一个人写了 12 万行代码，造出开源版 Perplexity"
   },
   {
     "slug": "zyronon_typewords",

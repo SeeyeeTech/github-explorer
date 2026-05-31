@@ -52,7 +52,10 @@ jobs:
 
       - name: Install site deps
         working-directory: site
-        run: npm ci --no-fund --no-audit
+        # 用 npm install 而非 ci：Astro / Sharp 的 Linux 平台 optional deps
+        # 在 macOS 上跑 npm install 时不会被解析进 lock；CI 上 npm ci 会因
+        # 缺 @emnapi/runtime 等 transitive deps 报错。install 容忍。
+        run: npm install --no-fund --no-audit --include=optional
 
       - name: Build site
         working-directory: site

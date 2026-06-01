@@ -85,3 +85,4 @@
 | oven-sh_bun.md | 自动生成 | 2026-05-30 (已入草稿) |
 | sherlock-project_sherlock.md | 自动生成 | 2026-05-31 (已入草稿) |
 | elastic_elasticsearch.md | 自动生成 | 2026-06-01 (已入草稿) |
+| apache_superset.md | 自动生成 | 2026-06-01 (已入草稿) |

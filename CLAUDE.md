@@ -53,7 +53,7 @@ cd site && npm run build                # 输出 site/dist + pagefind 索引
 - **src/starred_repo/** — GitHub 用户 Star 仓库分析快照
 - **src/trending_repo/** — GitHub Trending 数据（daily/weekly/monthly JSON + 去重汇总）
 - **src/data/** — 站点元数据与配置：`reports.json` / `tags.yaml` / `tag-rules.yaml` / `users.yaml` / `trending-config.yaml` / `starred.json`
-- **src/scripts/** — 项目核心脚本（被 CI workflow 调用）：建库 `init_db.py`、索引 `build_reports_index.py`、标签 `extract_tags.py`、Star 解析 `parse_starred.py`、Trending 入库 `seed_trending.py`、选题 `select_next_repo.py`、提交校验 `validate_submission.py`、发布记录 `record_publish.py`、索引推送 `ping_search_engines.py`、CI 环境 `setup_ci_env.sh` / 技能调用 `run_skill.sh` / 评论解析 `parse_issue_comment.py`
+- **src/scripts/** — 项目核心脚本（被 CI workflow 调用）：建库 `init_db.py`、索引 `build_reports_index.py`、标签 `extract_tags.py`、Star 解析 `parse_starred.py`、Trending 入库 `seed_trending.py`、选题 `select_next_repo.py`、repo-miner 确定性采集 `collect_repo_facts.py`（准备阶段跑一次，Phase 1 网络数据 + Phase 2 代码/提交指标 → 单份 JSON，两个并行 Agent 共用）、提交校验 `validate_submission.py`、发布记录 `record_publish.py`、索引推送 `ping_search_engines.py`、CI 环境 `setup_ci_env.sh` / 技能调用 `run_skill.sh` / 评论解析 `parse_issue_comment.py`
 - **scripts/** — 一次性 / 辅助脚本（不入 CI）：公众号相关 `wechat_publish.py` / `_wechat_api.py` / `sync_wechat_status.py` / `apply_wechat_mapping.py` / `match_wechat_to_slugs.py` / `fetch_wechat_published.js`、DB 查询 `query_db.py`、历史迁移 `migrate_publish_md.py`
 - **site/** — Astro 静态站点（GitHub Pages 部署源）
 - **.github/** — Issue 模板 + Workflows（`pages.yml` 构建部署 / `analyze.yml` Issue 触发分析）

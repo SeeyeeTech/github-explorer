@@ -125,6 +125,21 @@ git clone <url> /tmp/repo-miner-<repo>
 DEFAULT_BRANCH=$(cd /tmp/repo-miner-<repo> && git symbolic-ref refs/remotes/origin/HEAD 2>/dev/null | sed 's|refs/remotes/origin/||' || echo "main")
 ```
 
+#### 确定性数据采集（一次性，供 Phase 1 + Phase 2 共用）
+
+Phase 1（基本数据/作者/star 增长/竞品候选/Top issues/README 媒体）和 Phase 2
+（代码统计/提交节奏/演化轨迹/贡献者）里**确定性的 gh + git + tokei 采集**，全部由
+一个脚本一次性完成，写成结构化 JSON。**在主对话准备阶段运行一次**（而不是让两个并行
+Agent 各跑一遍——否则会抢同一文件且重复触发 gh 限流）：
+
+```bash
+FACTS_JSON=$(python3 src/scripts/collect_repo_facts.py "$LOCAL_PATH" --full-name "$FULL_NAME")
+# 脚本把 JSON 写入 tmp/repo-facts-<repo>.json 并把该路径打印到 stdout
+```
+
+脚本只把**路径**打印到 stdout（大体积原始数据落在文件里），主对话 context 保持干净。
+把 `FACTS_JSON`（即那个路径）作为变量传给下面两个 Agent，它们各自 Read 自己需要的字段。
+
 ---
 
 ### Phase 1 + Phase 2（并行启动两个 Agent）
@@ -137,7 +152,7 @@ DEFAULT_BRANCH=$(cd /tmp/repo-miner-<repo> && git symbolic-ref refs/remotes/orig
 
 使用 Agent 工具启动一个 subagent，prompt 包含：
 1. Phase 1 分析指令的完整内容
-2. 替换其中的变量：FULL_NAME, OWNER, REPO, GITHUB_URL, LOCAL_PATH, DEFAULT_BRANCH 为实际值
+2. 替换其中的变量：FULL_NAME, OWNER, REPO, GITHUB_URL, LOCAL_PATH, DEFAULT_BRANCH, **FACTS_JSON** 为实际值（FACTS_JSON 是准备阶段采集脚本打印的 JSON 路径）
 
 #### Agent 2 — 元分析
 
@@ -145,7 +160,7 @@ DEFAULT_BRANCH=$(cd /tmp/repo-miner-<repo> && git symbolic-ref refs/remotes/orig
 
 使用 Agent 工具启动一个 subagent，prompt 包含：
 1. Phase 2 分析指令的完整内容
-2. 替换其中的变量：LOCAL_PATH, FULL_NAME 为实际值
+2. 替换其中的变量：LOCAL_PATH, FULL_NAME, **FACTS_JSON** 为实际值（FACTS_JSON 是准备阶段采集脚本打印的 JSON 路径）
 
 ---
 

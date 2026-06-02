@@ -88,3 +88,4 @@
 | apache_superset.md | 自动生成 | 2026-06-01 (已入草稿) |
 | lobehub_lobehub.md | 自动生成 | 2026-06-02 (已入草稿) |
 | localstack_localstack.md | 自动生成 | 2026-06-02 (已入草稿) |
+| commaai_openpilot.md | 自动生成 | 2026-06-02 (已入草稿) |

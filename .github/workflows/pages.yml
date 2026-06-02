@@ -41,9 +41,11 @@ jobs:
         run: pip install -r requirements-ci.txt
 
       - name: Refresh metadata via SQLite (db.sqlite → reports.json / tags.yaml / starred.json / all_repos_deduped.json)
-        # 阶段 1-3 已迁库：reports + tags + starred + trending 均主写 DB；JSON/YAML 由 init_db.py export-json dump
+        # 阶段 1-4 已迁库：reports + tags + starred + trending + publish_history 全部主写 DB
+        # JSON/YAML 由 init_db.py export-json dump；jsonl 是 publish 历史的 SoR
         run: |
           python3 scripts/init_db.py init
+          python3 scripts/init_db.py seed-publish
           python3 scripts/build_reports_index.py
           python3 scripts/extract_tags.py
           python3 scripts/parse_starred.py

@@ -274,7 +274,9 @@ jobs:
             fi
           fi
 
-      - name: Update publish.md
+      - name: Record publish history (jsonl)
+        # 阶段 4：发布记录 SoR 从 publish.md 表格切换到 publish_history.jsonl
+        # publish.md 保留为只读历史归档，不再被本步骤追加
         if: steps.report.outputs.path != ''
         env:
           PUBLISH_STATUS: ${{ steps.publish.outputs.publish_status }}
@@ -282,18 +284,17 @@ jobs:
           set -euo pipefail
           ts="$(date -u +%Y-%m-%d)"
           if [[ "${{ github.event.inputs.skip_publish }}" == "true" ]]; then
-            status="仅分析"
+            reason="仅分析"
           elif [[ "$PUBLISH_STATUS" == "deferred" ]]; then
-            status="待重发"
+            reason="待重发"
           else
-            status="已入草稿"
+            reason="自动生成"
           fi
-          line="| $(basename ${{ steps.report.outputs.path }}) | 自动生成 | $ts ($status) |"
-          if [[ -f src/publish.md ]]; then
-            echo "$line" >> src/publish.md
-          else
-            printf '# 发布记录\n\n| 文件 | 标题 | 状态 |\n|---|---|---|\n%s\n' "$line" > src/publish.md
-          fi
+          slug="$(basename ${{ steps.report.outputs.path }} .md)"
+          python3 scripts/record_publish.py \
+            --slug "$slug" --state pending \
+            --published-at "$ts" --reason "$reason" \
+            --ci-run-id "${{ github.run_id }}"
 
       - name: Commit & Push
         if: steps.report.outputs.path != ''
@@ -302,7 +303,7 @@ jobs:
           set -uo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add notes/ src/analysis_report/ src/publish.md
+          git add notes/ src/analysis_report/ src/data/publish_history.jsonl
           if git diff --cached --quiet; then
             echo "::notice::无变更可提交"
             exit 0

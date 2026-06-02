@@ -108,9 +108,11 @@ jobs:
           echo "lines=$(wc -l < "$REPORT_PATH")" >> "$GITHUB_OUTPUT"
 
       - name: Refresh site metadata (DB-backed)
-        # 阶段 1-3：reports + tags + starred + trending 主写 DB，JSON/YAML 由 export-json dump
+        # 阶段 1-4：reports + tags + starred + trending + publish_history 主写 DB
+        # JSON/YAML 由 export-json dump；publish_history.jsonl 是 publish 历史的 SoR
         run: |
           python3 scripts/init_db.py init
+          python3 scripts/init_db.py seed-publish
           python3 scripts/build_reports_index.py
           python3 scripts/extract_tags.py
           python3 scripts/parse_starred.py

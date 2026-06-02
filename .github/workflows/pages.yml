@@ -33,15 +33,22 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: requirements-ci.txt
 
       - name: Install Python deps
-        run: pip install pyyaml
+        # 用统一 requirements-ci.txt 让 pip cache key 在三条 workflow 间一致
+        run: pip install -r requirements-ci.txt
 
-      - name: Refresh metadata (reports.json / tags.yaml / starred.json)
+      - name: Refresh metadata via SQLite (db.sqlite → reports.json / tags.yaml)
+        # 阶段 1：reports + tags 已迁库；脚本主写 DB，JSON/YAML 由 init_db.py export-json dump
+        # 阶段 2+：parse_starred.py 也会迁库，届时 starred.json 同样由 export-json 产生
         run: |
+          python3 scripts/init_db.py init
           python3 scripts/build_reports_index.py
           python3 scripts/extract_tags.py
           python3 scripts/parse_starred.py
+          python3 scripts/init_db.py export-json
 
       - name: Set up Node
         uses: actions/setup-node@v4
@@ -92,6 +99,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: requirements-ci.txt
       - name: Push URLs
         env:
           SITE_URL: ${{ vars.SITE_URL || 'https://austinxt.github.io' }}

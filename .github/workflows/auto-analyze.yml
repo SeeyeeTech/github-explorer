@@ -97,8 +97,27 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: requirements-ci.txt
+
+      # 缓存用户级 tokei 二进制；key 含 setup_ci_env.sh hash → TOKEI_VERSION 改即失效
+      - name: Cache tokei binary
+        uses: actions/cache@v4
+        with:
+          path: ~/.local/bin/tokei
+          key: tokei-${{ runner.os }}-${{ hashFiles('scripts/setup_ci_env.sh') }}
+
+      # 缓存用户级 npm 全局目录（含 @anthropic-ai/claude-code）；同上 key 策略
+      - name: Cache npm global (claude-code CLI)
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm-global
+          key: npm-global-${{ runner.os }}-${{ hashFiles('scripts/setup_ci_env.sh') }}
 
       - name: Bootstrap CI environment
+        env:
+          # skip_publish=true 时（手动只分析）无需发布凭证；其它路径（cron / issue_comment / dispatch 不填 skip_publish）都强制要求
+          REQUIRE_PUBLISH: ${{ github.event.inputs.skip_publish == 'true' && '0' || '1' }}
         run: bash scripts/setup_ci_env.sh
 
       - name: Decide target URL
@@ -193,9 +212,13 @@ jobs:
           REPORT_PATH: ${{ steps.report.outputs.path }}
           SSH_KEY: ${{ secrets.ALI_DEMO_SSH_KEY }}
           KNOWN_HOSTS: ${{ secrets.ALI_DEMO_KNOWN_HOSTS }}
+          TRIGGER: ${{ needs.guard.outputs.trigger }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        # 注意：本 step 故意不开 -e。SSH 失败时走 artifact 留种路径，
+        # 而非整 job fail（md 已经在前面 step 生成，发布是可异步重试的）
         run: |
-          set -euo pipefail
-          mkdir -p ~/.ssh tmp/logs
+          set -uo pipefail
+          mkdir -p ~/.ssh tmp/logs tmp/publish-pending
           printf '%s\n' "$SSH_KEY" > ~/.ssh/ali_demo
           chmod 600 ~/.ssh/ali_demo
           printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts
@@ -207,30 +230,64 @@ jobs:
           meta_name="${md_name%.md}.meta.json"
           tar czf /tmp/payload.tgz -C "$md_dir" "$md_name" "$meta_name"
 
-          # SSH 走 forced-command 自动跑 publish-from-runner.sh
-          # stdin: tar.gz，stdout: last_publish.json，stderr: 日志（落 wechat-publish.log）
-          ssh -i ~/.ssh/ali_demo \
-              -o UserKnownHostsFile=~/.ssh/known_hosts \
-              -o StrictHostKeyChecking=yes \
-              -o ConnectTimeout=15 \
-              root@47.113.202.7 \
-              < /tmp/payload.tgz \
-              > tmp/last_publish.json \
-              2> tmp/logs/wechat-publish.log
+          publish_ok=0
+          for i in 1 2 3; do
+            # SSH 走 forced-command 自动跑 publish-from-runner.sh
+            # stdin: tar.gz，stdout: last_publish.json，stderr: 日志（落 wechat-publish.log）
+            if ssh -i ~/.ssh/ali_demo \
+                -o UserKnownHostsFile=~/.ssh/known_hosts \
+                -o StrictHostKeyChecking=yes \
+                -o ConnectTimeout=30 \
+                root@47.113.202.7 \
+                < /tmp/payload.tgz \
+                > tmp/last_publish.json \
+                2> tmp/logs/wechat-publish.log; then
+              publish_ok=1
+              break
+            fi
+            echo "::warning::SSH 发布第 $i/3 次失败"
+            cat tmp/logs/wechat-publish.log >&2 || true
+            if [[ $i -lt 3 ]]; then
+              backoff=$((i * 15))
+              echo "  退避 ${backoff}s 后重试"
+              sleep "$backoff"
+            fi
+          done
 
-          echo "=== 远端日志 ==="
-          cat tmp/logs/wechat-publish.log
-          echo ""
-          echo "=== last_publish.json ==="
-          cat tmp/last_publish.json
+          if [[ $publish_ok -eq 1 ]]; then
+            echo "publish_status=success" >> "$GITHUB_OUTPUT"
+            echo "=== 远端日志 ==="
+            cat tmp/logs/wechat-publish.log
+            echo ""
+            echo "=== last_publish.json ==="
+            cat tmp/last_publish.json
+          else
+            # 留种到 tmp/publish-pending/，artifact 会带上；md 已 commit，可异步重发
+            cp /tmp/payload.tgz "tmp/publish-pending/$(date -u +%Y%m%d-%H%M%S)-${md_name%.md}.tgz"
+            echo "publish_status=deferred" >> "$GITHUB_OUTPUT"
+            echo "::warning::SSH 发布 3 次失败，已留种到 tmp/publish-pending/，artifact 可下载手动重发"
+
+            # 仅 issue_comment 触发时打标签到原 issue；其它路径仅 warning
+            if [[ "$TRIGGER" == "issue_comment" && -n "${ISSUE_NUMBER:-}" ]]; then
+              gh issue edit "$ISSUE_NUMBER" --add-label publish-pending \
+                || echo "::warning::打 publish-pending 标签失败（label 可能未创建）"
+            fi
+          fi
 
       - name: Update publish.md
         if: steps.report.outputs.path != ''
+        env:
+          PUBLISH_STATUS: ${{ steps.publish.outputs.publish_status }}
         run: |
           set -euo pipefail
           ts="$(date -u +%Y-%m-%d)"
-          status="已入草稿"
-          [[ "${{ github.event.inputs.skip_publish }}" == "true" ]] && status="仅分析"
+          if [[ "${{ github.event.inputs.skip_publish }}" == "true" ]]; then
+            status="仅分析"
+          elif [[ "$PUBLISH_STATUS" == "deferred" ]]; then
+            status="待重发"
+          else
+            status="已入草稿"
+          fi
           line="| $(basename ${{ steps.report.outputs.path }}) | 自动生成 | $ts ($status) |"
           if [[ -f src/publish.md ]]; then
             echo "$line" >> src/publish.md
@@ -240,23 +297,41 @@ jobs:
 
       - name: Commit & Push
         if: steps.report.outputs.path != ''
+        # 不开 -e：push 重试失败时本地 commit 已存，下次 cron 会带上，不应让 job fail
         run: |
-          set -euo pipefail
+          set -uo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add notes/ src/analysis_report/ src/publish.md
           if git diff --cached --quiet; then
             echo "::notice::无变更可提交"
-          else
-            msg=$(cat <<MSG
+            exit 0
+          fi
+          msg=$(cat <<MSG
           feat(auto): 分析 ${{ steps.pick.outputs.repo_url }}
 
           Triggered-By ${{ needs.guard.outputs.trigger }}
           Run-URL ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           MSG
           )
-            git commit -m "$msg"
-            git push
+          git commit -m "$msg"
+
+          # 3 次重试 + rebase 自愈临时冲突 / 网络抖动
+          # 仍失败时仅 ::error::，本地 commit 保留，下次 cron 触发 push 会自动带上
+          pushed=0
+          for i in 1 2 3; do
+            if git push; then
+              pushed=1
+              break
+            fi
+            echo "::warning::push 第 $i/3 次失败，尝试 rebase 后重试"
+            git pull --rebase --autostash origin main \
+              || echo "::warning::rebase 也失败（第 $i 次），继续重试"
+            sleep $((i * 5))
+          done
+          if [[ $pushed -eq 0 ]]; then
+            echo "::error::3 次 push 均失败，本地 commit 已保留。下次 cron 触发会自动带上。"
+            # 不 exit 1：让后续 step（artifact 上传、issue 反馈）正常跑
           fi
 
       - name: Upload logs (always)
@@ -266,6 +341,7 @@ jobs:
           name: run-logs-${{ github.run_id }}
           path: |
             tmp/logs/
+            tmp/publish-pending/
             notes/*.md
           retention-days: 14
           if-no-files-found: ignore
@@ -279,10 +355,18 @@ jobs:
           script: |
             const ok = '${{ job.status }}' === 'success';
             const report = '${{ steps.report.outputs.path }}';
-            const emoji = ok ? '✅' : '❌';
-            const body = ok
-              ? `${emoji} 分析完成: \`${report}\`\n已 commit 回主分支，公众号草稿箱请去后台查看。`
-              : `${emoji} 分析失败，请看运行日志: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const publishStatus = '${{ steps.publish.outputs.publish_status }}';
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            let body;
+            if (!ok) {
+              body = `❌ 分析失败，请看运行日志: ${runUrl}`;
+            } else if (publishStatus === 'deferred') {
+              body = `⚠️ 分析完成: \`${report}\`，已 commit 回主分支。\n` +
+                     `但 SSH 发布 3 次失败，已留种到 artifact \`run-logs-${context.runId}\`，` +
+                     `已打 \`publish-pending\` 标签，请稍后手动重发或等待异步重试。`;
+            } else {
+              body = `✅ 分析完成: \`${report}\`\n已 commit 回主分支，公众号草稿箱请去后台查看。`;
+            }
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,

@@ -1,0 +1,8 @@
+# CI 跑 workflow 时安装的 Python 依赖单一真相源。
+# - pages.yml 仅用 pyyaml，但用同一文件 hash 让 setup-python 的 pip cache 命中 key 一致
+# - setup_ci_env.sh（analyze / auto-analyze）跑 md2wechat 需要 premailer/bs4/markdown
+# 版本升级：改这里 + 让 cache key 自动失效；不要在多个 workflow 里重复维护
+pyyaml==6.0.3
+markdown==3.10.2
+beautifulsoup4==4.14.3
+premailer==3.10.0

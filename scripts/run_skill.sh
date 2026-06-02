@@ -5,19 +5,20 @@
 #   - ANTHROPIC_BASE_URL 写死指向 Minimax（公开常量，非 secret）
 #   - 用 MINIMAX_API_KEY 作为 ANTHROPIC_AUTH_TOKEN（Minimax 官方要求的变量名）
 #   - 主动清空 ANTHROPIC_API_KEY，避免 Claude CLI 错误地走官方接口
-#   - 失败时同后端重试一次（处理临时网络抖动）
+#   - 失败时同后端指数退避重试（BACKOFFS 控制；处理临时网络抖动 / 限流）
 #
-# 应急降级（不建议常用）：
+# 应急降级（不建议常用，需手动设 FORCE_BACKEND）：
 #   FORCE_BACKEND=anthropic + ANTHROPIC_API_KEY=sk-ant-...
 #   → 强制走 Anthropic 官方接口，跳过 Minimax
 #
 # Usage:
-#   run_skill.sh <prompt> [--timeout <sec>] [--log <path>]
+#   run_skill.sh <prompt> [--timeout <sec>] [--log <path>] [--retries <N>]
 #
 # 退出码：
 #   0    成功
 #   非0  失败（透传 claude 退出码）
-#   124  超时
+#   124  超时（不重试）
+#   2    配置错（不重试）
 
 set -uo pipefail
 
@@ -30,7 +31,8 @@ shift
 
 TIMEOUT_SEC=1500
 LOG_FILE=""
-MAX_RETRIES=1   # 同后端重试次数
+MAX_RETRIES=2                # 同后端重试次数（共 3 次尝试）
+BACKOFFS=(10 30)             # len 必须 == MAX_RETRIES；指数退避秒数
 
 while [[ $# -gt 0 ]]; do
     case "$1" in
@@ -92,7 +94,9 @@ run_once() {
 
     local cmd=()
     if [[ ${#TIMEOUT_CMD[@]} -gt 0 ]]; then
-        cmd=("${TIMEOUT_CMD[@]}" "$TIMEOUT_SEC")
+        # --kill-after：SIGTERM 后 30s 内若进程仍在则发 SIGKILL，
+        # 避免 Claude CLI 忽略 SIGTERM 时卡满 job timeout-minutes
+        cmd=("${TIMEOUT_CMD[@]}" --kill-after=30s "$TIMEOUT_SEC")
     fi
     cmd+=(env "${env_args[@]}" claude -p "$PROMPT" --dangerously-skip-permissions)
 
@@ -112,8 +116,14 @@ esac
 
 for attempt in $(seq 0 "$MAX_RETRIES"); do
     if [[ $attempt -gt 0 ]]; then
-        log "重试 $attempt/$MAX_RETRIES"
-        sleep $((attempt * 5))
+        # BACKOFFS 长度 == MAX_RETRIES；index = attempt-1
+        delay="${BACKOFFS[$((attempt-1))]:-30}"
+        log "重试 $attempt/$MAX_RETRIES，退避 ${delay}s"
+        sleep "$delay"
+        if [[ $attempt -eq $MAX_RETRIES ]]; then
+            # GH Actions 日志高亮，便于事后追因
+            echo "::warning::$BACKEND 已重试到最后一次（${MAX_RETRIES} 次重试用尽）" >&2
+        fi
     fi
     rc=0
     run_once "$BACKEND" || rc=$?

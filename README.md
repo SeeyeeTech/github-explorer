@@ -76,10 +76,9 @@ analyze
 2. Actions → Auto Analyze & Publish → Run workflow，**留空 repo_url** 让脚本自动选
 3. 等 15-30 分钟
 4. 检查：
-   - `notes/` 是否多了三个 `*-{network,meta,content}-analysis.md`
-   - `src/analysis_report/{owner}_{repo}.md` 是否生成
+   - `src/analysis_report/{owner}_{repo}.md` 是否生成（三阶段中间产物写在 `tmp/`，不入库）
    - 微信公众号后台「草稿箱」是否有新草稿（封面 + 标题 + 正文）
-   - `src/publish.md` 是否追加了一行
+   - `src/data/publish_history.jsonl` 是否追加了一行
    - main 分支是否有 `feat(auto): 分析 ...` 的新 commit
 
 ### 同步 vendored skills
@@ -97,10 +96,9 @@ git add ci/skills && git commit -m "chore: 同步 vendored skills"
 ## 目录速查
 
 - `src/analysis_report/` — 最终分析报告（375+ 篇）
-- `src/publish.md` — 公众号发布记录与待发布队列
-- `src/starred_repo/` — GitHub 用户 Star 仓库分析
-- `src/trending_repo/` — Trending 数据采集 + 去重汇总
-- `notes/` — 三阶段分析中间产物
+- `src/data/` — 站点元数据 + 各数据源 SoR（`publish_history.jsonl` 发布历史 / `starred_seed.json` 大牛 Star / `trending_snapshots.jsonl` Trending；`db.sqlite` 不入库，CI 重建）
+- `src/trending_repo/` — `parse_trending.py`（生成 SoR）+ `all_repos_deduped.json`（去重汇总）
+- `notes/` — 提示词模板 / 工单 / 待办（三阶段中间产物在 `tmp/`，不入库）
 - `src/scripts/` — CI / 核心脚本（select_next_repo / run_skill / setup_ci_env 等）
 - `scripts/` — 一次性辅助脚本（公众号同步、DB 查询、历史迁移）
 - `ci/skills/` — vendored skill 文件，CI 启动时拷到 runner 的 `~/.claude/skills/`

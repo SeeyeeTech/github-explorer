@@ -13,6 +13,9 @@ tmp/
 *.bak
 *.log
 
+# repo-miner 三阶段中间产物（写到 tmp/；防误写 notes/ 被提交。notes/prompts 等子目录不受影响）
+notes/*.md
+
 # 系统文件
 .DS_Store
 Thumbs.db

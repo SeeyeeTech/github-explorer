@@ -126,7 +126,8 @@ if [[ -n "${GH_TOKEN:-}" ]] && command -v gh >/dev/null 2>&1; then
 fi
 
 log "5/5 准备运行时目录"
-mkdir -p "$REPO_ROOT/notes" "$REPO_ROOT/tmp/logs" \
+# 三阶段中间产物写 tmp/（不入库），不再预建 notes/
+mkdir -p "$REPO_ROOT/tmp/logs" \
          "$REPO_ROOT/tmp/publish-pending" \
          "$REPO_ROOT/src/analysis_report"
 

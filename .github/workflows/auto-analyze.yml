@@ -163,7 +163,7 @@ jobs:
           REPO_URL: ${{ steps.pick.outputs.repo_url }}
         run: |
           set -euo pipefail
-          prompt="/repo-miner $REPO_URL，中间产物输出到 notes/ ，最终分析报告输出到 src/analysis_report/{owner}_{name}.md"
+          prompt="/repo-miner $REPO_URL，中间产物输出到 tmp/ ，最终分析报告输出到 src/analysis_report/{owner}_{name}.md"
           bash src/scripts/run_skill.sh "$prompt" --timeout 1800 --log "tmp/logs/repo-miner.log"
 
       - name: Locate produced report
@@ -303,7 +303,7 @@ jobs:
           set -uo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add notes/ src/analysis_report/ src/data/publish_history.jsonl
+          git add src/analysis_report/ src/data/publish_history.jsonl
           if git diff --cached --quiet; then
             echo "::notice::无变更可提交"
             exit 0
@@ -343,7 +343,7 @@ jobs:
           path: |
             tmp/logs/
             tmp/publish-pending/
-            notes/*.md
+            tmp/*.md
           retention-days: 14
           if-no-files-found: ignore
 

@@ -93,7 +93,7 @@ jobs:
           REPO_URL: ${{ steps.validate.outputs.repo_url }}
           REPORT_PATH: ${{ steps.validate.outputs.report_path }}
         run: |
-          PROMPT="/repo-miner $REPO_URL ，中间过程文件输出到 notes/ ，最终分析报告输出到 $REPORT_PATH"
+          PROMPT="/repo-miner $REPO_URL ，中间过程文件输出到 tmp/ ，最终分析报告输出到 $REPORT_PATH"
           bash src/scripts/run_skill.sh "$PROMPT" --timeout 1800 --log "tmp/logs/repo-miner-$ISSUE_NUMBER.log"
 
       - name: Verify report file
@@ -140,7 +140,6 @@ jobs:
           add-paths: |
             src/analysis_report/
             src/data/
-            notes/
 
       - name: Comment success
         if: success()
@@ -159,6 +158,6 @@ jobs:
           name: submission-logs-${{ github.event.issue.number }}
           path: |
             tmp/logs/
-            notes/
+            tmp/*.md
           retention-days: 14
           if-no-files-found: warn

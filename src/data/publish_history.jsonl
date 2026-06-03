@@ -82,3 +82,4 @@
 {"recorded_at": "2026-06-02T10:07:26.577697+00:00", "slug": "anthropics_claude-code", "title": null, "state": "excluded", "published_at": null, "reason": "与已发布的 Claude Code 深度分析选题重复", "ci_run_id": null}
 {"recorded_at": "2026-06-02T11:04:50.002071+00:00", "slug": "swisskyrepo_payloadsallthethings", "title": null, "state": "pending", "published_at": "2026-06-02", "reason": "自动生成", "ci_run_id": "26814222568"}
 {"recorded_at": "2026-06-02T12:05:15.949760+00:00", "slug": "swisskyrepo_payloadsallthethings", "title": null, "state": "pending", "published_at": "2026-06-02", "reason": "自动生成", "ci_run_id": "26816725580"}
+{"recorded_at": "2026-06-03T01:00:07.427432+00:00", "slug": "swisskyrepo_payloadsallthethings", "title": null, "state": "pending", "published_at": "2026-06-03", "reason": "自动生成", "ci_run_id": "26856677826"}

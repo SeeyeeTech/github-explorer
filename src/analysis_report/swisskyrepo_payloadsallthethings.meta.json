@@ -1,6 +1,6 @@
 {
-  "title": "9.5 年 78K stars:一个人把渗透测试字典做到赛博武器库的事实标准",
-  "digest": "PayloadsAllTheThings 9.5 年 78K stars,把 65+ 攻击类别 payload+ Burp 可用 .txt 词表+ PoC 文件同目录缝合,占位符规范让它在 GitHub 稳定运营 9 年不被封禁。",
+  "title": "9.5 年 78K stars：一个人把渗透测试字典做到赛博武器库的事实标准",
+  "digest": "PayloadsAllTheThings 9.5 年沉淀 65+ 攻击类别、5.4 万行字典、67 个 Burp 词表，是 Burp 生态「带语境字典」的事实标准；其四件套目录与占位符规范可迁移到任何分类型知识库。",
   "author": "NVoyager",
   "theme": "stars,universe,dark"
 }

@@ -138,93 +138,186 @@ sup {
 </style>
 </head>
 <body>
-<blockquote><p>GitHub: <a href="https://github.com/swisskyrepo/payloadsallthethings">https://github.com/swisskyrepo/payloadsallthethings</a></p></blockquote>
+<blockquote><p>GitHub: <<a href="https://github.com/swisskyrepo/payloadsallthethings">https://github.com/swisskyrepo/payloadsallthethings</a>></p></blockquote>
 <h2>一句话总结</h2>
-<p>一个红队操作员用 9 年时间,把「每个 Web 漏洞章节 = README + Burp 字典 + 截图 + 附件」的同构范式,做成 78K stars 的事实标准——PayloadsAllTheThings 是「GitHub 形态 + 广度 + 社区贡献」三者结合下,渗透测试人员人手一份的 Web 漏洞字典。</p>
+<p>一个把「渗透测试可执行 payload」沉淀为 7 万行 markdown + 9.6 年持续 PR 的「内容型开源」项目——它不是软件，而是一本「以 PR 为出版单位、以 markdownlint 为编辑」的活体渗透字典。</p>
 <h2>值得关注的理由</h2>
 <ul>
-<li><strong>真·事实标准</strong>: 78,154 stars / 17,032 forks / 1,961 watchers / 333 贡献者,行业默认「Web 渗透 payload 查这里」——它在 GitHub 生态内没有同量级对手。</li>
-<li><strong>架构上的「payload 卫生标准」可被任何敏感知识库复用</strong>: CONTRIBUTING.md 强制 id / whoami / [ATTACKER.DOMAIN.TLD] / 10.10.10.10 等占位符,让敏感内容既能公开托管又不被滥用,这种「把伦理/法律边界做成工程约束」的思路,远超普通 README 写一句「仅供教育用途」。</li>
-<li><strong>家族化品牌策略值得独立开发者学习</strong>: 同一作者的 PayloadsAllTheThings (Web) / InternalAllTheThings (AD) / HardwareAllTheThings (IoT) 三件套互相 backlink,把「企业攻击面三轴」拆成可独立成长的子品牌。</li>
+<li><strong>数据反常</strong>：78,181 star、17,036 fork、333 贡献者，但真实代码只有 2,096 行、注释/文档却 54,442 行（26:1 倒挂）——这本身就是一个值得研究的「内容型开源」范式。</li>
+<li><strong>9.6 年仍活</strong>：v1.0 → v4.2 共 7 个 tag 跨度 9.6 年、近 1 个月 0 提交但社区 PR 持续流入、月度 commit 与 Hacktoberfest 强相关——这是「个人 IP 矩阵化」运营的典型样本。</li>
+<li><strong>可迁移的内容运营方法论</strong>：模板化写作 + 占位符语言 + markdownlint 自动化 + 跨项目跳转分家——这套「反软件工程」的内容治理模式，可直接迁移到企业内部知识库、API 规范库、行业最佳实践库。</li>
 </ul>
 <h2>项目展示</h2>
-<p>!<a href="https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master/.github/banner.png">banner</a></p>
-<blockquote><p>项目唯一视觉资产——Adobe Photoshop 制作的 1484×374 hero banner,2020-08 上线后未更换,本身就是「内容驱动、视觉无更新」这一仓库性格的缩影。</p></blockquote>
-<blockquote><p>这是典型的「文档型仓库」——没有可演示的运行时/UI/Demo GIF,故本节仅展示 banner。仓库的「展示」在内容本身:72 个并列漏洞章节,每个章节自带 README + Burp Intruder 字典 + 截图 + 附件。</p></blockquote>
+<p>[图片：PayloadsAllTheThings Banner]<br/>*项目官方 Banner——PayloadsAllTheThings 的视觉门面*</p>
+<p>[图片：Contributors Rock]<br/>*contrib.rocks 自动生成——333 位贡献者头像墙，是 PATT 社区力量的最直观体现*</p>
 <h2>项目画像</h2>
-<table><thead><tr><th>维度</th><th>数据</th></tr></thead><tbody><tr><td>GitHub</td><td><a href="https://github.com/swisskyrepo/payloadsallthethings">https://github.com/swisskyrepo/payloadsallthethings</a></td></tr><tr><td>Star / Fork / Watcher</td><td>78,154 / 17,032 / 1,961</td></tr><tr><td>代码行数</td><td>2,096 行(主语言 Python 1,280 行 = 61.1%,余为 ASP.NET / XSLT / SVG / XML / PHP / Ruby 等演示片段);<strong>注释/代码比 25.97:1</strong>——典型「文档为主」仓库</td></tr><tr><td>项目年龄</td><td>115.6 个月 ≈ 9.6 年(2016-10-18 首次提交)</td></tr><tr><td>开发阶段</td><td>低维护(近 30 天 0 commit,近 90 天 13 commit,但 9.6 年从未停更)</td></tr><tr><td>贡献模式</td><td>独立开发者主导 + 社区协作:Swissky 749 commits 占 Top 10 47.5%,全仓 333 位贡献者中 30 位有实质贡献</td></tr><tr><td>热度定位</td><td>大众热门 + 事实标准(星数远超同类一个数量级)</td></tr><tr><td>质量评级</td><td>内容 [优秀] 文档 [优秀] 工程化 <a href="markdownlint + 双轨 CI + 模板">优秀</a></td></tr><tr><td>License</td><td>MIT(极宽松,鼓励衍生与商用)</td></tr><tr><td>话题标签</td><td>pentest, payload, bypass, web-application, hacking, vulnerability, bounty, methodology, privilege-escalation, penetration-testing, cheatsheet, security, enumeration, bugbounty, redteam, payloads, hacktoberfest</td></tr></tbody></table>
-<h2>作者视角:为什么存在这个项目</h2>
+<table style="border-collapse:collapse;width:100%;font-size:14px;line-height:1.6;margin:1em 0;"><thead><tr><th style="border:1px solid #ddd;padding:8px 12px;background:#f5f5f5;text-align:left;font-weight:bold;">维度</th><th style="border:1px solid #ddd;padding:8px 12px;background:#f5f5f5;text-align:left;font-weight:bold;">数据</th></tr></thead><tbody><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">GitHub</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;"><<a href="https://github.com/swisskyrepo/payloadsallthethings">https://github.com/swisskyrepo/payloadsallthethings</a>></td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">Star / Fork</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">78,181 / 17,036（fork 率 21.8%，远超行业典型 10%）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">真实代码行数</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">2,096 行（Python 76% 是误读——tokei 把 markdown 围栏代码算成 Python）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">注释/文档行数</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">54,442（注释/代码 ≈ 26:1，本质是知识库）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">项目年龄</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">115.6 个月（9.6 年，2016-10-18 创建）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">总 commit</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">2,185 次（≈ 19/月）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">最近 commit</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">2026-04-22（最近 30 天 0 提交，处于静默维护期）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">贡献者</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">333 人（Top 占比 47.5%，核心少数 + 社区协作）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">依赖管理</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">全空（无 setup.py/requirements.txt，无运行时依赖）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">开发阶段</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">低维护（master HEAD 仍流动，但 7 个 tag 跨度 9.6 年，v4.2 后停发版）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">开发模式</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">职业项目（27% 周末提交、18% 深夜提交，长期 9.6 年稳定节奏 + 商业赞助）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">热度定位</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">大众热门（bug bounty 圈「圣经」级，含 17 个 GitHub topic：pentest/payload/bypass/bugbounty/cheatsheet/hacktoberfest……）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">质量评级</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">形式化质量(优秀) · 内容质量(优秀) · 治理质量(优秀) · 深度(中等——是字典不是教科书)</td></tr></tbody></table>
+<h2>作者视角：为什么存在这个项目</h2>
 <h3>创始人/作者背景</h3>
-<p><strong>Swissky</strong>(swisskyrepo),11.1 年老账号,自述「Red Team Operator & Bug Hunter」,无公司归属,blog 挂在 swisskyrepo.github.io。10,490 followers、13 个公开仓库,PayloadsAllTheThings 是唯一 78K 量级的旗舰项目,远超 #2 InternalAllTheThings (2,240 stars) 35 倍。账号年龄 + 自描述 + 旗下「AllTheThings 家族」(Payloads / Internal / Hardware 三件套)共同塑造了项目风格:<strong>实战派、独立运营、用家族化策略做品牌</strong>。</p>
+<p><strong>Swissky（swisskyrepo）</strong>——11 年账号（2015-04 起）的欧洲独立 Red Teamer，自签名 "Red Team Operator & Bug Hunter"。13 个公开 repo <strong>全部围绕渗透/红队/漏洞赏金</strong>垂直深耕：PayloadsAllTheThings（Web 字典）→ InternalAllTheThings（内网/AD）→ HardwareAllTheThings（硬件/HID）→ SSRFmap/GraphQLmap（专项工具）——形成<strong>「Web → 内网 → 硬件」的攻击链知识矩阵</strong>。3 家商业赞助商（SerpApi / ProjectDiscovery / Vaadata）打通独立研究员靠赞助 + 工具商业化的路径。</p>
 <h3>问题判断</h3>
-<p>Swissky 在做 red team 任务时,反复需要把同一组 payload 从旧笔记里复制出来——传统「个人博客 / Twitter 推文 / Notion / PentestMonkey 一类 HTML 静态页」检索成本高、无法直接导入工具、版本不固定。<strong>2016-2018 年是 Burp Suite + Burp Intruder 在企业渗透中的普及期,「字典+payload 一体化」需求井喷;同时 GitHub Pages + mkdocs-material 让「免费可读可贡献的知识库」第一次变得简单</strong>——这正是项目诞生与生长的窗口。</p>
+<p>2016 年之前的渗透测试学习者面临的信息困境是：</p>
+<ul>
+<li><strong>碎片化</strong>：payload 散落在博客、Twitter、CTF writeups、个人笔记中</li>
+<li><strong>不可执行</strong>：很多博客只贴「概念」，不贴「可直接扔进 Burp 的字符串」</li>
+<li><strong>语境缺失</strong>：缺乏「何时用、怎么用、用了之后看什么响应」</li>
+<li><strong>时效性黑洞</strong>：WAF 绕过每年迭代，但缺乏统一的「持续更新机制」</li>
+</ul>
+<p>Swissky 的解法极其朴素：<strong>用 GitHub 当作 CMS，每个漏洞 = 一个目录，目录里放「工具列表 + 方法论步骤 + 可执行 payload + 实验场链接 + 参考文献」</strong>——任何人可以 PR 补充。</p>
 <h3>解法哲学</h3>
 <ul>
-<li><strong>社区维基 > 个人博客</strong>:核心赌注是「单一作者永远写不完所有漏洞」,开放 PR 是规模化路径,代价是质量参差——所以才有 .markdownlint.json + CI 校验做兜底。</li>
-<li><strong>结构一致性 > 内容深度</strong>:不把每个漏洞写到博士论文级,而是保证 70+ 章节都用同一套四段式骨架(Tools / Methodology / Labs / References),让用户形成稳定心智模型。</li>
-<li><strong>原子化交付 > 一站式工具</strong>:不把所有 payload 包成自家工具,而是给 Burp / ffuf / HopLa 等已知工具直接消费的文件——复用用户既有工具链,不教育用户迁移。</li>
-<li><strong>明确不做什么</strong>:不做漏洞扫描器(那是 Nuclei 的活)、不做付费课程、不做实时通讯(连 Discord 都没有)。</li>
+<li><strong>简单 vs 功能完整</strong> → 选「简单且可复制粘贴」——payload 字符串就是文档本身，不写教程</li>
+<li><strong>广度 vs 深度</strong> → 选「广度」——70+ 漏洞类型 × 8+ 编程语言 × 28+ reverse shell 语言</li>
+<li><strong>开放 vs 封闭</strong> → 选「完全开放」——MIT 协议 + 模板化贡献 + Hacktoberfest 拉新</li>
+<li><strong>明确不做什么</strong> → PATT 内<strong>只放 Web 漏洞 + 核心方法论</strong>；AD/内网/提权类主动迁出到 InternalAllTheThings，<strong>保留跳转而不删除入口</strong></li>
 </ul>
 <h3>战略意图</h3>
-<p><strong>「AllTheThings」家族 = 同一品牌下的领域化副本</strong>——一个作者做不出整个安全领域的 wiki,但他可以做出「覆盖企业攻击面三轴(外部 Web / 内网 AD / 物理 IoT)」的家族,互相 backlink 在生态里互锁。商业化意图低,商业收益只来自:① GitHub Sponsors(三位赞助商中两家是产品公司、一家是 pentest 服务公司——都是精准流量反向赞助);② 个人品牌溢出(咨询/演讲邀请)。这是<strong>「品牌型独立开发者」路径</strong>,不是「产品型」。</p>
+<ul>
+<li><strong>个人 IP 矩阵化</strong>：13 个 repo 互引引流——PATT 是入口（78K⭐），其他是分领域纵深</li>
+<li><strong>社区杠杆</strong>：Hacktoberfest 每年 10 月的 PR 洪流（2019/2020/2021/2022 连续 4 年 10 月 commit 暴增 73→84→125→107）抵消日常维护负担</li>
+<li><strong>商业化路径</strong>：FUNDING.yml 列出 GitHub Sponsors / Ko-fi / Buy Me a Coffee；3 家赞助商都是安全工具生态头部——靠「独立研究员 + 赞助 + 工具」而非「开源转 SaaS」</li>
+</ul>
 <h2>核心价值提炼</h2>
-<h3>创新之处(按新颖度×实用性排序)</h3>
+<h3>创新之处</h3>
 <ol>
-<li><strong>「Payload 卫生标准」与占位符约定</strong> — 把医学研究的「去标识化」思路移植到安全研究内容,所有 payload 必须用 id / whoami / Administrator / [ATTACKER.DOMAIN.TLD] / 10.10.10.10 / P@ssw0rd 等不可执行占位符,让敏感内容既符合教育用途的法律边界,又能被代码扫描器白名单。<strong>新颖度 4/5 · 实用性 5/5 · 可迁移性 5/5</strong>。</li>
-<li><strong>「机器可读转接视图」(hopla_config.json)</strong> — 在面向人阅读的 README 之外,维护一份结构化 JSON 把 XSS/SQLi/SSRF/SSTI 等核心 payload 喂给 Burp 扩展 HopLa,实现「文档 ↔ 工具」无缝。<strong>新颖度 4/5 · 实用性 4/5 · 可迁移性 4/5</strong>。</li>
-<li><strong>「章节即子模块」目录范式</strong> — _template_vuln/ + 70+ 同构目录实现「一个仓库 = 多个可独立阅读的子项目」,把软件 monorepo 的「边界即目录」理念移植到文档。<strong>新颖度 3/5 · 实用性 5/5 · 可迁移性 5/5</strong>。</li>
-<li><strong>「家族化个人品牌」策略</strong> — 不追求单 repo 做大,而是用「AllTheThings 家族」分别覆盖企业攻击面三轴,互相 backlink,共建品牌。<strong>新颖度 3/5 · 实用性 4/5 · 可迁移性 3/5</strong>。</li>
+<li><strong>「模板化写作」把「内容贡献」降维成填空题</strong>（新颖 4/5 · 实用 5/5 · 可迁移 5/5）</li>
 </ol>
+<p>_template_vuln 模板强制四段式（Summary / Tools / Methodology / Labs / References），配合 .markdownlint.json 自动化校验 + CI 拦截（.github/workflows/check-markdown.yml）。任何懂这个漏洞的人能在 30 分钟产出格式合格文档。<strong>这是 PATT 能 9.6 年维持 333 贡献者的根本机制。</strong></p>
+<ol>
+<li><strong>占位符语言（DSL for 安全文档）</strong>（新颖 4/5 · 实用 5/5 · 可迁移 5/5）</li>
+</ol>
+<p>CONTRIBUTING.md 里规定 [ATTACKER.DOMAIN.TLD] / 10.10.10.10 / P@ssw0rd / DC01 等占位符——payload 一律消毒，读者扫一眼就知道「哪些要替换」。本质是<strong>领域特定语言（DSL）思想在文档领域的应用</strong>，极大降低「复制粘贴误用」的法律/技术风险。</p>
+<ol>
+<li><strong>Intruder 字典「场景化命名」</strong>（新颖 3/5 · 实用 5/5 · 可迁移 5/5）</li>
+</ol>
+<p>SQL Injection/Intruder/ 下 21 个字典按「场景+技术+引擎」三维命名：Auth_Bypass.txt / FUZZDB_MSSQL-WHERE_Time.txt / Generic_TimeBased.txt / payloads-sql-blind-MySQL-INSERT——比「一股脑 fuzz-all.txt」实用得多，可直接被 Burp Intruder「按字典选」模式消费。</p>
+<ol>
+<li><strong>跨项目「分家」治理：保留入口 + 跳转 = 渐进式迁移</strong>（新颖 4/5 · 实用 4/5 · 可迁移 5/5）</li>
+</ol>
+<p>Methodology and Resources/Active Directory Attack.md 已完全是 InternalAllTheThings 的跳转链接列表——Swissky 不删除 PATT 内入口，而是<strong>保留跳转以维持根目录「完整」导航 + 引导读者到更专业子项目 + 反向引流帮新项目冷启动</strong>。比「删除/重定向」更优雅。</p>
+<ol>
+<li><strong>「内容型开源」反软件工程治理范式</strong>（新颖 5/5 · 实用 4/5 · 可迁移 5/5）</li>
+</ol>
+<p>7 个 tag / 9.6 年（v4.2 后停发版，以 master HEAD 为活版）+ 无 CHANGELOG + 无 setup.py/requirements.txt + 无单元测试 + 无 release workflow——<strong>靠「模板 + 规范 + 社区」维持质量，而非「CI 流水线」</strong>。这是给所有「知识型/文档型」开源项目的范式启示。</p>
 <h3>可复用的模式与技巧</h3>
 <ul>
-<li><strong>「_template_xxx/ 模板子目录」模式</strong>:onboarding 文档做成可 fork 的目录,贡献者直接 copy-paste 开始,门槛接近零。任何欢迎社区贡献的开源项目都适用。</li>
-<li><strong>「同构骨架 + markdownlint 兜底」模式</strong>:4-5 段固定骨架(Tools/Methodology/Labs/References),CI 强制格式统一。适用于企业内 wiki、开源 cookbook 等多人协作文档。</li>
-<li><strong>「双轨 CI(按需 lint + 全量 build)」模式</strong>:PR 只跑 tj-actions/changed-files 过滤后的变更文件 lint,master push 才做全量 mkdocs 构建与部署。任何 monorepo / 大型文档库都应内化。</li>
-<li><strong>「双视图(GitHub 原生 + mkdocs 站点)」模式</strong>:既保留 GitHub 原生流量,又给重度读者一份「可搜索 + 左导航 + 暗色模式」的阅读体验。</li>
-<li><strong>「PR-only 治理」模式</strong>:几乎所有协作走 PR,作者保留审阅 + 合入的唯一通道,issues 仅作有限沟通。适合「内容修改频次高 / 错误代价高 / 需要贡献者长期可见」的项目。</li>
+<li><strong>四段式 README 模板</strong>：Tools / Methodology / Labs / References 适用于任何「知识集合型」项目（其他安全主题、API 设计模式、数据库性能调优清单）</li>
+<li><strong>场景化字典命名</strong>：任何 fuzz 项目、字典收集项目都应避免「一个超大字典」，按场景拆成多个小字典</li>
+<li><strong>占位符 DSL</strong>：任何含可执行片段的文档（IaC 模板、SQL 案例、API 调用样例）都可定义自己的占位符语言</li>
+<li><strong>渐进式跨项目分家</strong>：模块化拆分时，保留旧入口 + 跳转比删除/重定向更优雅</li>
+<li><strong>markdownlint 作为内容 CI</strong>：把「什么样的 PR 能合」从人工 review 降级为可自动化校验</li>
+<li><strong>Hacktoberfest 杠杆</strong>：每年 10 月开放贡献窗口，PR 集中合并可抵消日常维护负担</li>
 </ul>
 <h3>关键设计决策</h3>
-<table><thead><tr><th>决策</th><th>问题</th><th>方案</th><th>Trade-off</th><th>可迁移性</th></tr></thead><tbody><tr><td>72 章节四件套同构</td><td>多贡献者需保持视觉与操作一致</td><td>README + Intruder/ + Images/ + Files/ 硬性指定 + 模板 fork</td><td>牺牲按需扩展自由度,换取跨章节等价</td><td>高</td></tr><tr><td>Payload 卫生标准</td><td>敏感内容易被滥用/误报/下架</td><td>CONTRIBUTING.md 强约束占位符</td><td>牺牲「直接复制粘贴」便利,换取项目可公开托管</td><td>高</td></tr><tr><td>四段式章节骨架</td><td>贡献者对「一个章节应含什么」理解不一</td><td>_template_vuln/ 当唯一模板,CI 兜底</td><td>牺牲灵活组织,换取零学习成本</td><td>高</td></tr><tr><td>PR-only 治理</td><td>issue 列表会变 wishlist 噪声</td><td>几乎所有协作走 PR,issues 仅作有限沟通</td><td>牺牲轻量反馈,换取 diff 可审计 + 归功明确</td><td>中</td></tr><tr><td>双轨 CI</td><td>70+ 章节全量 lint 极慢</td><td>PR 阶段按需 lint,master 阶段全量 build</td><td>多一个 workflow,换 PR 反馈 < 30 秒</td><td>高</td></tr><tr><td>跨工具转接 JSON</td><td>知识库与工具链有「复制粘贴」损耗</td><td>hopla_config.json 喂给 Burp HopLa 扩展</td><td>多一份数据需同步,换「打开 Burp 就能挑 payload」</td><td>高</td></tr><tr><td>AllTheThings 家族</td><td>单人写不完整个安全知识领域</td><td>三仓库覆盖 Web/AD/IoT 三轴,互相 backlink</td><td>牺牲「一仓查全」,换子品牌互锁成长</td><td>中</td></tr></tbody></table>
+<ol>
+<li><strong>决策</strong>：按漏洞类型组织根目录（70+ 子目录如 XSS Injection/SQL Injection/SSRF），而非按攻击阶段</li>
+</ol>
+<ul>
+<li><strong>问题</strong>：渗透知识如何分类才能「可检索、可扩展、抗重构」？</li>
+<li><strong>方案</strong>：每个漏洞 = 一个目录，目录内统一结构（README + Intruder + Images + Files）</li>
+<li><strong>Trade-off</strong>：牺牲「按攻击阶段串讲」的连贯性，换取<strong>新增漏洞 = 新增目录、其他不动</strong>的零摩擦扩展性</li>
+<li><strong>可迁移性</strong>：高——任何「按主题垂直深耕」的知识库都适用</li>
+</ul>
+<ol>
+<li><strong>决策</strong>：每个漏洞目录固定「四件套」内部结构（README.md + Intruders/ + Images/ + Files/）</li>
+</ol>
+<ul>
+<li><strong>问题</strong>：如何让 333 位贡献者产出「格式一致」的文档？</li>
+<li><strong>方案</strong>：模板化强制 + markdownlint 自动化校验</li>
+<li><strong>Trade-off</strong>：贡献者的「风格自由度」被压缩，换取「读者跨漏洞无缝切换」的可读性</li>
+<li><strong>可迁移性</strong>：高</li>
+</ul>
+<ol>
+<li><strong>决策</strong>：核心维护团队收敛到 3 人（Swissky + p0dalirius + ZANNI），其余 330+ 走社区 PR</li>
+</ol>
+<ul>
+<li><strong>问题</strong>：如何平衡「治理集中度」与「社区参与面」？</li>
+<li><strong>方案</strong>：核心 3 人定模板/规则，社区按规则填空</li>
+<li><strong>Trade-off</strong>：核心维护者「无法脱身」——Swissky 一旦长期停更，整个项目节奏会下台阶</li>
+<li><strong>可迁移性</strong>：中</li>
+</ul>
+<ol>
+<li><strong>决策</strong>：v4.2 后停止打 tag，以 master HEAD 为「活版」</li>
+</ol>
+<ul>
+<li><strong>问题</strong>：7 个 tag 跨度 9.6 年，semver 标签名不符实</li>
+<li><strong>方案</strong>：放弃 semver，承认「这是一本活体出版物而非 API」</li>
+<li><strong>Trade-off</strong>：下游使用者无法 pin 版本，换取「零版本管理负担」 + 「读者始终读到最新」</li>
+<li><strong>可迁移性</strong>：高（任何内容型项目都应明确「我们不是软件，别假装有版本」）</li>
+</ul>
+<ol>
+<li><strong>决策</strong>：关闭 Issue 通道（open_issues=0），议题通过 PR/Discussion 流转</li>
+</ol>
+<ul>
+<li><strong>问题</strong>：7.8 万 star 项目的 Issue 区极易变成「support center」</li>
+<li><strong>方案</strong>：议题 = 改文档 = 走 PR；纯讨论 = Discussion</li>
+<li><strong>Trade-off</strong>：用户无法在 Issue 区提「bug」或「建议」，但治理重心清晰</li>
+<li><strong>可迁移性</strong>：高</li>
+</ul>
 <h2>竞品格局与定位</h2>
 <h3>竞品对比矩阵</h3>
-<table><thead><tr><th>维度</th><th>PayloadsAllTheThings</th><th>PentestMonkey</th><th>OWASP WSTG</th><th>HackTricks</th><th>InternalAllTheThings</th></tr></thead><tbody><tr><td>形态</td><td>GitHub repo + mkdocs 站点</td><td>单页 HTML</td><td>OWASP 官方 wiki</td><td>个人维护的网页 wiki</td><td>GitHub repo(同作者)</td></tr><tr><td>Stars</td><td>78,154</td><td>无 GitHub 主仓(独立网站)</td><td>N/A</td><td>万级量级</td><td>2,240</td></tr><tr><td>覆盖广度</td><td>Web 70+ 章节</td><td>SQLi / Reverse Shell / Linux 提权(几个核心)</td><td>全测试方法论(无 payload)</td><td>全攻击面(含 AD/Windows/Linux)</td><td>仅内网/AD</td></tr><tr><td>社区协作</td><td>GitHub PR,333 贡献者</td><td>无</td><td>慢(数年一版)</td><td>有限(同团队 PR)</td><td>跟随主仓风格</td></tr><tr><td>工具链集成</td><td>Burp Intruder 字典 + HopLa JSON</td><td>无</td><td>无</td><td>弱</td><td>同主仓</td></tr><tr><td>内容更新</td><td>持续(年 100+ commits)</td><td>几乎停止</td><td>数年一版</td><td>持续</td><td>跟随主仓</td></tr><tr><td>Payload 卫生</td><td>强约束(占位符)</td><td>无</td><td>不涉及攻击 payload</td><td>无强约束</td><td>同主仓</td></tr><tr><td>权威性</td><td>行业默认</td><td>OSCP 教材引用</td><td>标准化/合规引用</td><td>社区影响大</td><td>圈内默认</td></tr></tbody></table>
+<table style="border-collapse:collapse;width:100%;font-size:14px;line-height:1.6;margin:1em 0;"><thead><tr><th style="border:1px solid #ddd;padding:8px 12px;background:#f5f5f5;text-align:left;font-weight:bold;">维度</th><th style="border:1px solid #ddd;padding:8px 12px;background:#f5f5f5;text-align:left;font-weight:bold;">PayloadsAllTheThings</th><th style="border:1px solid #ddd;padding:8px 12px;background:#f5f5f5;text-align:left;font-weight:bold;">HackTricks</th><th style="border:1px solid #ddd;padding:8px 12px;background:#f5f5f5;text-align:left;font-weight:bold;">OWASP Cheat Sheet Series</th><th style="border:1px solid #ddd;padding:8px 12px;background:#f5f5f5;text-align:left;font-weight:bold;">InternalAllTheThings（姐妹）</th></tr></thead><tbody><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">首要价值</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">可执行 payload 集合</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">长篇方法论</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">防御视角规范</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">内网/AD 渗透字典</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">Payload 密度</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">极高（每节都有可执行字符串）</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">较低（以概念/命令为主）</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">极少（防御代码片段）</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">高（PowerShell/Mimikatz 命令）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">覆盖广度</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">70+ 漏洞 × 8+ 语言</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">几乎所有渗透方法论</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">Web/移动/云各类防御</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">内网/AD/Windows/Linux</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">深度</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">中（每漏洞点到为止）</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">高（每方法论 5k-10k 字长文）</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">中（每防御模式一篇）</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">中（命令密集）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">更新机制</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">社区 PR 持续</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">主要作者维护</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">委员会评审</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">社区 PR</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">视角</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">攻击者</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">攻击者</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">防御者</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">攻击者</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">典型读者</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">Bug Hunter / Web Pentester</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">想学方法论的新人</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">企业蓝队/合规</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">Red Teamer</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">Stars</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">78K</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">10K+</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">30K+</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">2.2K</td></tr></tbody></table>
 <h3>差异化护城河</h3>
 <ul>
-<li><strong>生态护城河(主)</strong>: 70+ 章节 + 333 贡献者 + 9.6 年沉淀 = 数据飞轮,新贡献者冲着已有规模来,新竞争者难以从零聚集</li>
-<li><strong>品牌/信任护城河</strong>: 78k stars + 9.6 年持续更新 = 行业默认「Web 渗透 payload 字典」</li>
-<li><strong>可移植性护城河</strong>: markdown + 开放 repo + 双视图 = 不被任何单一平台锁定</li>
-<li><strong>技术护城河(弱)</strong>: 没有「别人做不到」的技术,内容组织模式可被复制;真正的壁垒是<strong>时间 + 规模</strong></li>
+<li><strong>生态护城河</strong>：333 贡献者 + Hacktoberfest 持续输入 = 竞品难以复制的「社区网络效应」</li>
+<li><strong>信任护城河</strong>：9.6 年沉淀 + 3 家商业赞助商（SerpApi/ProjectDiscovery/Vaadata）= bug bounty 圈「事实标准」</li>
+<li><strong>覆盖广度护城河</strong>：70+ 漏洞 × 8+ 编程语言 × 28+ reverse shell 语言 = 单点深度项目（DefaultCreds/patator）无法匹敌</li>
+<li><strong>可执行性护城河</strong>：payload 字符串就是文档本身，可直接复制粘贴——HackTricks（长方法论）和 OWASP（防御视角）做不到</li>
 </ul>
 <h3>竞争风险</h3>
 <ul>
-<li><strong>最可能替代者</strong>: HackTricks(覆盖面更广,作者 @carlospolop 在安全社区影响力相当)</li>
-<li><strong>AI 工具冲击</strong>: 大模型对「按主题生成 payload」的能力,可能让本项目沦为「参考素材」而非「查询入口」;但<strong>卫生标准 + 工具链集成形成的内容-工具闭环</strong>,仍是 AI 难以复制的护城河</li>
-<li><strong>SecLists 跨界</strong>: SecLists 是字典的字典,理论上可扩展到「带 metadata 的字典」,但目前未做;若做,会形成「本项目 + SecLists 二合一」挑战</li>
+<li><strong>最可能被替代的方式</strong>：HackTricks 持续扩展 Web 漏洞章节 + Burp 官方推出 Intruder 字典市场，可能从「广度+可执行性」两端夹击</li>
+<li><strong>作者风险</strong>：Swissky 长期停更（最近 1 个月 0 提交）会触发节奏下台阶——但 v4.2 后已经出现「低维护期」信号</li>
+<li><strong>品类风险</strong>：AI 工具（如 LLM 辅助 fuzz/Payload 生成）正在从「字典查询」转向「实时生成」——若 WAF 绕过变成 LLM 实时事，PATT 的「持续 PR 更新」价值会下降</li>
 </ul>
 <h3>生态定位</h3>
-<p><strong>介于「方法论(WSTG)」和「工具(Nuclei / Burp)」之间的「执行参考层」</strong>——把「该用什么 payload 测这个漏洞」做成行业默认;为 SecLists 提供「带说明的字典」、为 Burp 提供「带工作流的字典」、为 WAF/SAST 厂商提供「真值参考」。</p>
+<p>在整个安全知识生态中，PATT 扮演<strong>「红队速查字典」</strong>的角色——它填补了「HackTricks 的深度」和「OWASP 的防御视角」之间的空白：<strong>「我手里有 Burp、有 curl、有 ncat，遇到 XSS 怎么打、SSRF 怎么绕、reverse shell 怎么弹？」</strong> 这是几乎所有 bug bounty / 渗透测试 / 红队评估每天 80% 的工作流。</p>
 <h2>套利机会分析</h2>
 <ul>
-<li><strong>信息差</strong>: 不存在——这已是事实标准,无「被低估」空间,但也意味着「引用本项目为自己的内容背书」永远有效(它是渗透测试的「常识清单」,任何新工具/教程引用它都会被加分)。</li>
-<li><strong>技术借鉴</strong>: 强烈推荐学习其「内容组织架构 + 治理机制」——payload 卫生标准、_template_vuln 模板、PR-only 流程、双轨 CI,这套范式可以套到任何「多人协作的知识库」项目(企业 cookbook、案例库、playbook、合同模板库)。</li>
-<li><strong>生态位</strong>: 在「Web 渗透」领域已无空白可补;真正可挖的生态位是「<strong>生成式 AI 时代的对抗性补充</strong>」——当 LLM 可以即兴生成 payload,本项目的「去标识化卫生 + 工具链集成 + 引用溯源」三件套变成「可信参考源」的核心特征,反而强化不可替代性。</li>
-<li><strong>趋势判断</strong>: 9.6 年从 0 增长到 78K stars,增长曲线仍在;Hacktoberfest 季节性脉冲说明社区驱动模式健康;AI 短期是威胁,但若本项目主动接入 LLM(例如把每个章节提供「可喂给 GPT-4 的 promptable 模板」),可化威胁为机会。</li>
+<li><strong>信息差</strong>：78K star 已是行业顶流，<strong>不是被低估的潜力股</strong>——但「反软件工程的内容运营方法论」对中文技术圈（企业内部安全知识库、合规清单库、行业最佳实践库）<strong>几乎未被认知</strong>，是技术写作 + 项目治理维度的「信息差套利」</li>
+<li><strong>技术借鉴</strong>：</li>
+<li>_template_vuln + markdownlint + CONTRIBUTING.md 三件套 → 可直接做企业内部「安全知识库模板」</li>
+<li>占位符语言 → 可迁移到所有「含可执行片段的文档」（IaC、SQL 案例、API 调用样例）</li>
+<li>跨项目跳转分家 → 企业知识库「按业务线分仓但保留总入口」的标准模式</li>
+<li><strong>生态位</strong>：在 bug bounty / 红队评估圈，<strong>PATT 已是「字典事实标准」</strong>——新进入者无法撼动其位</li>
+<li><strong>趋势判断</strong>：项目本身<strong>进入低维护稳态</strong>（master HEAD 仍流动但增速放缓），<strong>作为「内容运营方法论」的范式</strong>反而正被其他领域（API 规范、运维 SOP、合规清单）借鉴——这是「项目本身 → 项目方法论」的<strong>第二增长曲线</strong></li>
 </ul>
 <h2>风险与不足</h2>
 <ul>
-<li><strong>作者单点风险</strong>: 47.5% 的 commits 来自 Swissky 本人,若其精力转移(已观察到近 90 天 13 commits 的低维护迹象),更新速度会断崖式下降;目前靠 333 位贡献者 + 17 个 Open PR 维持,但「主审稿人」只有一位。</li>
-<li><strong>小写目录不一致</strong>(XSS Injection vs XSS injection): 路径历史遗留,内部链接存在大小写敏感的破坏风险。</li>
-<li><strong>内容时效性</strong>: 部分 payload 在 WAF 升级后失效,需要持续打补丁(已观察到 fix 类型 commit 16.5%,但覆盖面有限)。</li>
-<li><strong>AI 工具替代风险</strong>: 大模型对「生成 payload」能力提升,可能让「按主题查 payload」从「必须查表」变成「随口问 LLM」;<strong>唯一的反制是强化卫生标准 + 工具链集成,让本项目继续担任「可信参考源」而非「查询入口」</strong>。</li>
-<li><strong>合规边界</strong>: 虽然有 DISCLAIMER.md + 卫生标准,但仍可能在某些司法辖区(尤其企业内网安全合规审计)被视为「攻击手册」,GitHub 仓库本身有被下架的潜在风险(目前未发生,但 Burp 字典的具体内容可能触发未来风控)。</li>
+<li><strong>目录大小写不一致</strong>：XSS Injection vs XSS injection、Upload vs Upload insecure files 并存，每个相关条目在两个目录里被独立编辑——形成可见的「双维护」成本</li>
+<li><strong>CHANGELOG 缺失</strong>：v4.2 后停发版，读者无法快速了解「近期新增了哪些漏洞」，需要翻 git log</li>
+<li><strong>搜索性能瓶颈</strong>：54k 行 markdown 用 mkdocs material 内置搜索，索引体积已接近静态搜索的舒适上限</li>
+<li><strong>作者单点风险</strong>：Swissky 749/2185 = 34.3% 提交 + 核心治理集中度 47.5%，长期停更会引发节奏下台阶</li>
+<li><strong>时效性 vs 文档固化张力</strong>：WAF 绕过每年新增 5-10 类，但 README 又要保持稳定可读——这种「内容时效 + 文档固化」双重需求未在结构层解决</li>
+<li><strong>AI 时代冲击</strong>：LLM 实时生成 payload + fuzz 向量正在挑战「字典」的存在价值——长期看 PATT 需要向「结构化知识 + 教学化」方向演进而非「字典累积」</li>
 </ul>
 <h2>行动建议</h2>
 <ul>
-<li><strong>如果你要用它</strong>: <strong>直接用</strong>——无需任何对比,这已是行业默认。把它当作「每次做 Web 渗透前的热身查阅清单」即可。建议配合 Burp Suite + ffuf + HopLa 扩展使用,把内容喂到工具链里。</li>
-<li><strong>如果你要学它</strong>: <strong>重点关注「_template_vuln/」+ 「CONTRIBUTING.md」+ 「.github/.markdownlint.json」+ 「.github/workflows/check-markdown.yml」</strong> 这四件套——它们共同构成了「可被任何知识库项目复制的范式」,具体漏洞内容反而是次要的。</li>
-<li><strong>如果你要 fork 它</strong>: 可改进方向——① 接入 LLM(每个章节提供 promptable 模板,对抗 AI 替代风险);② 改用 conventional commits 治理(目前 74.5% commit 是 freeform,难以自动化);③ 修复大小写不一致的目录命名;④ 把 AD/LINUX/WINDOWS 章节迁出主仓,瘦身主仓专注 Web(与 InternalAllTheThings 形成更清晰分工)。</li>
+<li><strong>如果你要用它</strong>：</li>
+<li><strong>渗透测试 / Bug Bounty 工作流首选字典</strong>——遇到不熟的漏洞类型，先翻 PATT 对应目录的 Methodology 段，再扫 Intruder 字典丢 Burp</li>
+<li><strong>不要 pin 到 tag</strong>——以 master HEAD 为「持续最新版」（v4.2 之后已停发版）</li>
+<li><strong>必读 CONTRIBUTING.md</strong>——理解占位符语言（[ATTACKER.DOMAIN.TLD] / 10.10.10.10 / P@ssw0rd），避免「忘记替换」的法律/技术风险</li>
+<li><strong>配合 HackTricks + OWASP 三件套</strong>——PATT（字典）+ HackTricks（教科书）+ OWASP（防御手册）三者结合覆盖 Web 渗透全部知识需求</li>
 </ul>
+<ul>
+<li><strong>如果你要学它</strong>：</li>
+<li><strong>重点关注 Methodology and Resources/ 目录</strong>——Active Directory Attack.md 246 changes 是项目皇冠条目，揭示「横向方法论」如何集中沉淀</li>
+<li><strong>抽看 _template_vuln/</strong>——39 行模板揭示 Swissky 对「合格 PATT 文档」的极简定义</li>
+<li><strong>阅读 CONTRIBUTING.md</strong>——60 行有效内容信息密度极高，是「内容质量工程化」的范本</li>
+<li><strong>对比 XSS Injection/ SQL Injection/ Server Side Template Injection/ 三个目录</strong>——验证「四件套」内部结构的一致性</li>
+</ul>
+<ul>
+<li><strong>如果你要 fork 它</strong>：</li>
+<li><strong>可改进方向</strong>：</li>
+</ul>
+<ol>
+<li>把「分家」做彻底——按漏洞类型拆到独立 repo（Web/AD/Cloud），主仓只做导航</li>
+<li>引入<strong>结构化 payload 数据库</strong>（SQLite/PostgreSQL）替代纯 markdown，支持复杂检索</li>
+<li>接入 <strong>LLM 辅助贡献</strong>——AI 生成初版 markdown + 人工 review，突破社区 PR 节奏瓶颈</li>
+<li>增加<strong>版本化的 Intruder 字典</strong>——按「针对 WAF X 的 v3 绕过集」打 tag，方便实战选型</li>
+<li>修复目录大小写不一致（重命名 + git mv + .gitattributes 强制小写）</li>
+</ol>
 <h3>知识入口</h3>
-<table><thead><tr><th>资源</th><th>链接</th></tr></thead><tbody><tr><td>DeepWiki</td><td>未确认收录(DeepWiki 页面仅返回 「Index your code with Devin」 占位文案)</td></tr><tr><td>Zread.ai</td><td>未收录(WebFetch 返回 403)</td></tr><tr><td>关联论文</td><td>无(仓库为实操知识库,不涉及学术研究)</td></tr><tr><td>在线 Demo</td><td>官方 GitHub Pages 镜像 — <<a href="https://swisskyrepo.github.io/PayloadsAllTheThings/">https://swisskyrepo.github.io/PayloadsAllTheThings/</a>>(mkdocs-material 渲染,支持左导航 + 搜索 + 暗色模式)</td></tr><tr><td>兄弟仓库</td><td>InternalAllTheThings(AD/内网) · HardwareAllTheThings(IoT) · SSRFmap · GraphQLmap(同作者)</td></tr></tbody></table>
+<table style="border-collapse:collapse;width:100%;font-size:14px;line-height:1.6;margin:1em 0;"><thead><tr><th style="border:1px solid #ddd;padding:8px 12px;background:#f5f5f5;text-align:left;font-weight:bold;">资源</th><th style="border:1px solid #ddd;padding:8px 12px;background:#f5f5f5;text-align:left;font-weight:bold;">链接</th></tr></thead><tbody><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">DeepWiki</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">已建立索引（<a href="https://deepwiki.com/swisskyrepo/payloadsallthethings">DeepWiki 入口</a>，页面仍在加载）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">Zread.ai</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">未收录（HTTP 403）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">关联论文</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">无（实操知识库，非学术项目）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">在线 Demo</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;"><<a href="https://swisskyrepo.github.io/PayloadsAllTheThings/">https://swisskyrepo.github.io/PayloadsAllTheThings/</a>>（GitHub Pages 镜像，mkdocs material 主题）</td></tr></tbody></table>
 </body>
 </html>

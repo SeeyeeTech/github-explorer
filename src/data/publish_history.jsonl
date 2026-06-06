@@ -98,3 +98,4 @@
 {"recorded_at": "2026-06-05T07:43:51.856579+00:00", "slug": "swisskyrepo_payloadsallthethings", "title": null, "state": "pending", "published_at": "2026-06-05", "reason": "自动生成", "ci_run_id": "27001580450"}
 {"recorded_at": "2026-06-05T09:33:07.707544+00:00", "slug": "swisskyrepo_payloadsallthethings", "title": null, "state": "pending", "published_at": "2026-06-05", "reason": "自动生成", "ci_run_id": "27005959466"}
 {"recorded_at": "2026-06-05T11:23:57.744897+00:00", "slug": "imthenachoman_how-to-secure-a-linux-server", "title": null, "state": "pending", "published_at": "2026-06-05", "reason": "自动生成", "ci_run_id": "27011203577"}
+{"recorded_at": "2026-06-06T00:49:31.247056+00:00", "slug": "imthenachoman_how-to-secure-a-linux-server", "title": null, "state": "pending", "published_at": "2026-06-06", "reason": "自动生成", "ci_run_id": "27047343804"}

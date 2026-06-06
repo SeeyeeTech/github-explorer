@@ -21,13 +21,13 @@
 | 维度 | 数据 |
 |------|------|
 | GitHub | https://github.com/imthenachoman/how-to-secure-a-linux-server |
-| Star / Fork | 27,700+ / 2,100+ |
-| 代码行数 | 0（纯 Markdown 文档，3,237 行） |
+| Star / Fork / Watcher | 27,724 / 1,833 / 389 |
+| 代码行数 | 0（纯 Markdown 文档，3,237 行 / 4 文件） |
 | 项目年龄 | 87.9 个月（2019-02-09 至今，7 年多） |
-| 开发阶段 | 低维护（近 90 天 0 commit，2024-10 与 2026-03 各有一次集中更新） |
-| 贡献模式 | 单人主导（主作者占 67.7%，39 位贡献者，第二位 10 次 / 3.7%） |
-| 热度定位 | 大众热门（细分赛道 27.7K stars，属罕见） |
-| 质量评级 | 文档[A+] 测试[N/A] 错误处理[N/A] 时效性[C+] |
+| 开发阶段 | 低维护（近 30/90 天 0 commit，2024-10 / 2025-10 / 2026-03 各有一次集中更新） |
+| 贡献模式 | 单人主导（主作者占 67.7%，39 位贡献者，第二位 moltenbit 10 次 / 3.7%） |
+| 热度定位 | 大众热门（细分赛道 27.7K stars，长尾长青 — 近 7 天仍新增 124 stars） |
+| 质量评级 | 内容[A] 文档[A] 可操作性[A] 时效性[B-] |
 
 ## 作者视角：为什么存在这个项目
 
@@ -175,8 +175,13 @@
 
 | 资源 | 链接 |
 |------|------|
-| DeepWiki | 未收录 |
-| Zread.ai | 未收录 |
-| 关联论文 | 无 |
-| 在线 Demo | 无（纯文档项目） |
-| 配套 Ansible 仓库 | https://github.com/moltenbit/How-To-Secure-A-Linux-Server-With-Ansible |
+| DeepWiki | https://deepwiki.com/imthenachoman/how-to-secure-a-linux-server（已收录但仍在加载） |
+| Zread.ai | 未收录（访问 403） |
+| 关联论文 | 无（实操指南非学术研究） |
+| 在线 Demo | 无（纯文档项目无可交互 Demo） |
+| 配套 Ansible 仓库 | https://github.com/moltenbit/How-To-Secure-A-Linux-Server-With-Ansible（238 stars） |
+
+> 关键 Issue 信号（项目治理样本）：
+> - [#34 Secure Boot](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server/issues/34) — 7 年未补的固件层信任链缺口，揭示指南路线图边界
+> - [#55 Firewall setup warning](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server/issues/55) — 揭示 psad 在不同发行版上的边缘 bug，影响"一键按顺序执行"承诺
+> - [#42 "Authentication Required" Gmail SMTP](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server/issues/42) — 第三方服务策略变更对文档维护的持续挑战

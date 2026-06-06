@@ -115,13 +115,13 @@ a {
 </thead>
 <tbody>
 <tr><td>GitHub</td><td><a href="https://github.com/imthenachoman/how-to-secure-a-linux-server">https://github.com/imthenachoman/how-to-secure-a-linux-server</a></td></tr>
-<tr><td>Star / Fork</td><td>27,700+ / 2,100+</td></tr>
-<tr><td>代码行数</td><td>0（纯 Markdown 文档，3,237 行）</td></tr>
+<tr><td>Star / Fork / Watcher</td><td>27,724 / 1,833 / 389</td></tr>
+<tr><td>代码行数</td><td>0（纯 Markdown 文档，3,237 行 / 4 文件）</td></tr>
 <tr><td>项目年龄</td><td>87.9 个月（2019-02-09 至今，7 年多）</td></tr>
-<tr><td>开发阶段</td><td>低维护（近 90 天 0 commit，2024-10 与 2026-03 各有一次集中更新）</td></tr>
-<tr><td>贡献模式</td><td>单人主导（主作者占 67.7%，39 位贡献者，第二位 10 次 / 3.7%）</td></tr>
-<tr><td>热度定位</td><td>大众热门（细分赛道 27.7K stars，属罕见）</td></tr>
-<tr><td>质量评级</td><td>文档[A+] 测试[N/A] 错误处理[N/A] 时效性[C+]</td></tr>
+<tr><td>开发阶段</td><td>低维护（近 30/90 天 0 commit，2024-10 / 2025-10 / 2026-03 各有一次集中更新）</td></tr>
+<tr><td>贡献模式</td><td>单人主导（主作者占 67.7%，39 位贡献者，第二位 moltenbit 10 次 / 3.7%）</td></tr>
+<tr><td>热度定位</td><td>大众热门（细分赛道 27.7K stars，长尾长青 — 近 7 天仍新增 124 stars）</td></tr>
+<tr><td>质量评级</td><td>内容[A] 文档[A] 可操作性[A] 时效性[B-]</td></tr>
 </tbody>
 </table>
 <h2>作者视角：为什么存在这个项目</h2>
@@ -227,7 +227,7 @@ a {
 <tr><th>维度</th><th>how-to-secure-a-linux-server</th><th>the-book-of-secret-knowledge</th><th>dev-sec/ansible-collection-hardening</th><th>CIS Benchmarks</th></tr>
 </thead>
 <tbody>
-<tr><td>形式</td><td>单 README 长文（3,237 行）</td><td>Markdown wiki 多页</td><td>Ansible roles + docs</td><td>付费 PDF</td></tr>
+<tr><td>形式</td><td>单 README 长文（3,,237 行）</td><td>Markdown wiki 多页</td><td>Ansible roles + docs</td><td>付费 PDF</td></tr>
 <tr><td>教学深度</td><td><strong>高</strong>（每节 Why/Why Not/How）</td><td>中（命令+简介）</td><td>低（直接给 role）</td><td>中（条款式）</td></tr>
 <tr><td>复制粘贴友好度</td><td><strong>极高</strong>（for-the-lazy 片段）</td><td>中（缺 sed/tee 自动化）</td><td>N/A（用 Ansible）</td><td>低（需手工解读）</td></tr>
 <tr><td>风险透明度</td><td><strong>极高</strong>（几乎每节 Why Not）</td><td>低</td><td>低</td><td>低（合规导向）</td></tr>
@@ -279,12 +279,20 @@ a {
 <tr><th>资源</th><th>链接</th></tr>
 </thead>
 <tbody>
-<tr><td>DeepWiki</td><td>未收录</td></tr>
-<tr><td>Zread.ai</td><td>未收录</td></tr>
-<tr><td>关联论文</td><td>无</td></tr>
-<tr><td>在线 Demo</td><td>无（纯文档项目）</td></tr>
-<tr><td>配套 Ansible 仓库</td><td><a href="https://github.com/moltenbit/How-To-Secure-A-Linux-Server-With-Ansible">https://github.com/moltenbit/How-To-Secure-A-Linux-Server-With-Ansible</a></td></tr>
+<tr><td>DeepWiki</td><td><a href="https://deepwiki.com/imthenachoman/how-to-secure-a-linux-server">https://deepwiki.com/imthenachoman/how-to-secure-a-linux-server</a>（已收录但仍在加载）</td></tr>
+<tr><td>Zread.ai</td><td>未收录（访问 403）</td></tr>
+<tr><td>关联论文</td><td>无（实操指南非学术研究）</td></tr>
+<tr><td>在线 Demo</td><td>无（纯文档项目无可交互 Demo）</td></tr>
+<tr><td>配套 Ansible 仓库</td><td><a href="https://github.com/moltenbit/How-To-Secure-A-Linux-Server-With-Ansible">https://github.com/moltenbit/How-To-Secure-A-Linux-Server-With-Ansible</a>（238 stars）</td></tr>
 </tbody>
 </table>
+<blockquote>
+<p>关键 Issue 信号（项目治理样本）：</p>
+<ul>
+<li><a href="https://github.com/imthenachoman/How-To-Secure-A-Linux-Server/issues/34">#34 Secure Boot</a> — 7 年未补的固件层信任链缺口，揭示指南路线图边界</li>
+<li><a href="https://github.com/imthenachoman/How-To-Secure-A-Linux-Server/issues/55">#55 Firewall setup warning</a> — 揭示 psad 在不同发行版上的边缘 bug，影响「一键按顺序执行」承诺</li>
+<li><a href="https://github.com/imthenachoman/How-To-Secure-A-Linux-Server/issues/42">#42 "Authentication Required" Gmail SMTP</a> — 第三方服务策略变更对文档维护的持续挑战</li>
+</ul>
+</blockquote>
 </body>
 </html>

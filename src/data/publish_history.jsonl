@@ -104,3 +104,4 @@
 {"recorded_at": "2026-06-06T07:20:48.336284+00:00", "slug": "is-a-dev_register", "title": null, "state": "published", "published_at": "2026-06-06", "reason": "自动生成", "ci_run_id": "27055663358"}
 {"recorded_at": "2026-06-06T09:12:19.552776+00:00", "slug": "pkuflyingpig_cs-self-learning", "title": null, "state": "published", "published_at": "2026-06-06", "reason": "自动生成", "ci_run_id": "27057905080"}
 {"recorded_at": "2026-06-06T11:00:50.250663+00:00", "slug": "typst_typst", "title": null, "state": "published", "published_at": "2026-06-06", "reason": "自动生成", "ci_run_id": "27060013836"}
+{"recorded_at": "2026-06-06T14:44:41.565340+00:00", "slug": "openai_whisper", "title": null, "state": "published", "published_at": "2026-06-06", "reason": "自动生成", "ci_run_id": "27064798900"}

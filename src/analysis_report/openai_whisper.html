@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+/* 表格 */
+table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    margin: 1em 0 !important;
+    font-size: 14px !important;
+}
+th, td {
+    border: 1px solid #ddd !important;
+    padding: 8px 12px !important;
+    text-align: left !important;
+    line-height: 1.6 !important;
+}
+th {
+    background: #f5f5f5 !important;
+    font-weight: bold !important;
+}
+
+/* 链接 */
+a {
+    color: #576b95 !important;
+    text-decoration: none !important;
+}
+
+/* 图片 */
+img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 1em auto !important;
+}
+</style>
+</head>
+<body>
+
+<p>GitHub: <a href="https://github.com/openai/whisper">https://github.com/openai/whisper</a></p>
+
+<h2>一句话总结</h2>
+
+<p>OpenAI 用 68 万小时多语种弱监督音频训练出的 Encoder-Decoder Transformer 通用语音模型——99 种语言 zero-shot ASR、英译、语种识别、VAD、词级时间戳用一套特殊 token 全部统一在 seq2seq 框架里，pip install 即可在笔记本上跑通，是当前开源 ASR 不可绕开的事实基线。</p>
+
+<h2>值得关注的理由</h2>
+
+<ol>
+<li><strong>行业标准地位</strong>：101k+ stars、12k+ forks，衍生项目 faster-whisper / whisper.cpp / WhisperX / Distil-Whisper 全部以它为基座，OpenAI 顶会论文背书 + 一作 Jong Wook Kim 长期守门，权威性无可替代。</li>
+<li><strong>多任务统一范式值得借鉴</strong>：用 <code>&lt;|transcribe|&gt;</code> <code>&lt;|translate|&gt;</code> <code>&lt;|nospeech|&gt;</code> 等特殊 token 把 5 个语音子任务塞进单一 seq2seq，丢掉流水线，这种「一模型多能力」的范式可推广到多任务 NLP 与跨模态生成。</li>
+<li><strong>「不修模型修解码器」的工程哲学</strong>：面对 seq2seq 通病 hallucination，作者不重训架构，而是用三道启发式阈值 + 温度回退兜住质量底线，是任何生成式模型部署都能复用的鲁棒解码模板。</li>
+</ol>
+
+<h2>项目展示</h2>
+
+<h3>README 媒体</h3>
+<ol>
+<li><img src="https://raw.githubusercontent.com/openai/whisper/main/approach.png" alt="Approach" /> — 类型: architecture（论文 Approach 流程图，Encoder-Decoder + 30s 滑窗 + 任务 token）</li>
+<li><img src="https://github.com/openai/whisper/assets/266841/f4619d66-1058-4005-8f67-a9d811b77c62" alt="WER breakdown by language" /> — 类型: screenshot（多语种 WER 热力图，99 种语言在 FLEURS/CommonVoice 上的零样本表现）</li>
+</ol>
+
+<h3>筛选说明</h3>
+<ul>
+<li>README 媒体共发现 2 个，全部保留（架构图 + 数据展示），均为 verified</li>
+<li>官网（openai.com/index/whisper）WebFetch 403 拒访，官网媒体留空</li>
+</ul>
+
+<h2>项目画像</h2>
+
+<table>
+<thead>
+<tr><th>维度</th><th>数据</th></tr>
+</thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/openai/whisper">https://github.com/openai/whisper</a></td></tr>
+<tr><td>Star / Fork</td><td>101,717 / 12,434</td></tr>
+<tr><td>代码行数</td><td>13,791 行（SVG 59.5% / Python 25.2% / JSON 15.0% / 其他 0.3%）</td></tr>
+<tr><td>项目年龄</td><td>44.5 个月（首次提交 2022-09-22）</td></tr>
+<tr><td>开发阶段</td><td>低维护（近 365 天仅 10 个 commit，进入偶发维护期）</td></tr>
+<tr><td>贡献模式</td><td>单人主导（Top 1 贡献者 Jong Wook Kim 47.9%，含外围 83 位贡献者）</td></tr>
+<tr><td>热度定位</td><td>大众热门（OpenAI 旗下 ASR 标杆）</td></tr>
+<tr><td>质量评级</td><td>代码[优] 文档[优] 测试[中] CI/CD[优]</td></tr>
+</tbody>
+</table>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+
+<p>Jong Wook Kim 是 OpenAI 研究科学家，也是论文《Robust Speech Recognition via Large-Scale Weak Supervision》的第一作者。他与 Alec Radford、Ilya Sutskever 共同主导了 Whisper 的设计与训练。OpenAI 官方组织账号作为发布主体，账号 10.7 年、122k 粉丝、255 个公开仓库，是业内少有的「能拿出 68 万小时弱监督数据 + 千卡 GPU 算力 + 顶会级论文背书」的玩家。</p>
+
+<h3>问题判断</h3>
+
+<p>传统 ASR 流水线（VAD → 声学模型 → 发音字典 → 语言模型 → 解码器）跨语种鲁棒性差，长尾领域（口音/噪音/术语）退化严重；主流自监督方案（wav2vec 2.0 / HuBERT）虽强却依赖大量领域微调，无法「下载即用」。Whisper 的赌注是：<strong>数据规模 + 任务统一可以替代工程经验</strong>——用 68 万小时多语种多任务数据训练单一模型，零样本即可在多数场景下接近人类水平。</p>
+
+<h3>解法哲学</h3>
+
+<ul>
+<li><strong>不修模型修解码器</strong>：seq2seq 架构的 hallucination 通病，作者选择不改架构、不开源训练代码，而是在解码器外用 compression_ratio / logprob / no_speech 三道阈值 + 温度回退把症状兜住。</li>
+<li><strong>推理而非训练</strong>：仓库只发权重和推理代码，不开源训练脚本、不提供 fine-tuning API，主动放弃微调市场。</li>
+<li><strong>最小化 vendoring</strong>：6 个运行时依赖（more-itertools/numba/numpy/tiktoken/torch/tqdm），triton 条件依赖，pip install 即可在消费级 GPU 跑通。</li>
+<li><strong>不开源训练代码、开放推理生态</strong>：典型「中心化产出、分布式衍生」战略——OpenAI 借此坐拥行业标准地位，衍生项目反哺生态热度。</li>
+</ul>
+
+<h3>战略意图</h3>
+
+<p>Whisper 在 OpenAI 更大图景中处于「研究 demo + 生态锚点」位置：不开源训练代码、不开放微调脚本，但把权重、推理代码、tokenizer、normalizer、CLI、notebook 全部 MIT 释出。这份精准的开源策略让 OpenAI 既保有数据/算力优势，又让社区围绕 Whisper 衍生出 faster-whisper / whisper.cpp / Distil-Whisper / WhisperX 等完整生态——所有衍生项目都在为 OpenAI 的标准地位背书。</p>
+
+<blockquote><p>关联论文：<a href="https://arxiv.org/abs/2212.04356">Robust Speech Recognition via Large-Scale Weak Supervision</a>（arXiv 2212.04356）</p></blockquote>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处</h3>
+
+<p>按新颖度×实用性×可迁移性综合排序：</p>
+
+<ol>
+<li><strong>统一任务 token 化</strong>（新颖度 4/5 × 实用性 5/5 × 可迁移性 5/5）——用特殊 token 把 ASR/英译/lang_id/VAD/时间戳五任务统一到 seq2seq，单一损失函数训练，丢掉流水线</li>
+<li><strong>启发式解码 fallback</strong>（3/5 × 5/5 × 5/5）——compression ratio > 2.4 / avg_logprob &lt; -1.0 / no_speech_prob > 0.6 三道闸门 + 温度回退（0 → 0.2 → 0.4 → 0.6 → 0.8 → 1.0），「不修模型修解码器」的鲁棒部署模板</li>
+<li><strong>已发现 cross-attention head + DTW 的无训练词级对齐</strong>（4/5 × 4/5 × 3/5）——把与时间戳强相关的 attention head 固化为 <code>_ALIGNMENT_HEADS</code> 常量，推理时直接 DTW 反推词级时间戳</li>
+<li><strong>Triton + Numba 双后端 + 字符串模板即时生成 bubble-sort kernel</strong>（3/5 × 3/5 × 2/5）——DTW/中值滤波热路径自实现 kernel，避开 torch.median 慢、scipy 不在 GPU 的算子缺失</li>
+</ol>
+
+<h3>可复用的模式与技巧</h3>
+
+<ol>
+<li><strong>「CLI / Python API / Notebook」三层暴露同一能力</strong>——一个 <code>transcribe()</code> 函数 + argparse CLI + Colab notebook，研究者/工程师/教学者各取所需</li>
+<li><strong>「哈希校验 + 集中权重表 + 集中对齐头表」</strong>——<code>_MODELS</code> 与 <code>_ALIGNMENT_HEADS</code> 集中常量，版本升级只需替换 URL 与字节，零外部依赖</li>
+<li><strong>「adapter-style Forward Hook 注入 KV cache」</strong>——用 PyTorch 原生 API 5 行代码获得 KV 缓存，0 侵入改造注意力</li>
+<li><strong>「四接口拆分解码器 (Inference / Ranker / Decoder / Filter)」</strong>——Greedy/BeamSearch 切换只需换对象，logit 后处理走 in-place filter 链</li>
+<li><strong>「device-aware kernel 自动回退」</strong>——Triton 优先，失败回落到 torch.sort，不让硬件栈短板阻塞主流程</li>
+<li><strong>「normalizer 链 + JSON 规则」</strong>——文本后处理按语言拆模块，数据驱动配置（normalizers/english.json），新增语种只需新增模块</li>
+<li><strong>「启发式阈值 + 温度回退」的鲁棒解码模板</strong>——三阈值 + 多温度组合，开源 seq2seq 模型低成本高回报的默认配置</li>
+</ol>
+
+<h3>关键设计决策</h3>
+
+<h4>决策 1：用特殊 token 把多任务统一到 seq2seq 框架</h4>
+<ul>
+<li><strong>问题</strong>：传统 ASR 流水线（VAD + lang_id + ASR + translation）多模型串行，工程复杂、延迟高、误差累积</li>
+<li><strong>方案</strong>：引入 <code>&lt;|transcribe|&gt;</code> <code>&lt;|translate|&gt;</code> <code>&lt;|nospeech|&gt;</code> <code>&lt;|notimestamps|&gt;</code> <code>&lt;0.00|&gt;</code>...<code>&lt;30.00|&gt;</code> 等 token，task 切换和 language id 全部 token 化（tokenizer.py:131-275, decoding.py:80-113），甚至把语言检测 token 写回 SOT 序列</li>
+<li><strong>Trade-off</strong>：单一损失函数无法针对各任务独立调优；seq2seq 通病（hallucination/长距离退化）难以根除；n_text_ctx=448 限制了 prompt 总长</li>
+<li><strong>可迁移性</strong>：高——任何多任务 NLP 场景（摘要/翻译/分类）都可复用</li>
+</ul>
+
+<h4>决策 2：30 秒硬切窗 + 启发式解码 fallback 而非流式</h4>
+<ul>
+<li><strong>问题</strong>：训练侧 30s chunk 是工程效率与显存的最优折中；推理侧遇到静音/重复/幻觉段，要么错要么卡死</li>
+<li><strong>方案</strong>：三道闸门触发温度回退（0 → 0.2 → 0.4 → 0.6 → 0.8 → 1.0），transcribe.py:184-224</li>
+<li><strong>Trade-off</strong>：无法实时/流式；长音频必须切分合并，边界可能丢失语义；参数敏感（社区普遍自行调优）</li>
+<li><strong>可迁移性</strong>：高——任何生成式模型都可借鉴「启发式校验 + 回退采样」</li>
+</ul>
+
+<h4>决策 3：把对齐做成「已发现的 attention head」而非训练新 head</h4>
+<ul>
+<li><strong>问题</strong>：词级时间戳是体验关键，但从头训练对齐头需要额外数据</li>
+<li><strong>方案</strong>：论文先验式统计出与词级时间戳强相关的 head（large-v3: 16 层 × 20 head 布尔矩阵），base85+gzip 编码后作为 <code>_ALIGNMENT_HEADS</code> 常量随仓库发布</li>
+<li><strong>Trade-off</strong>：切头是「已固化」知识，新语种/新领域 head 选择不可调；社区 WhisperX 用 wav2vec2 重新对齐正是为了突破此限制</li>
+<li><strong>可迁移性</strong>：中——「预定义 head + DTW 后处理」可推广到多模态对齐</li>
+</ul>
+
+<h4>决策 4：Triton + Numba 双后端的热路径手写</h4>
+<ul>
+<li><strong>问题</strong>：中值滤波与 DTW 是词时间戳热路径，torch.median 慢、scipy 不在 GPU、NumPy 不能在 GPU</li>
+<li><strong>方案</strong>：DTW 既写 Numba CPU 版（<code>dtw_cpu</code>, parallel=True）也写 Triton GPU 版（<code>dtw_kernel</code>）；中值滤波用字符串模板即时生成 bubble-sort kernel</li>
+<li><strong>Trade-off</strong>：复杂度集中在小众加速器；非 CUDA 用户落回 torch.sort</li>
+<li><strong>可迁移性</strong>：中-高——「为关键算子写 GPU kernel + CPU fallback」值得借鉴</li>
+</ul>
+
+<h4>决策 5：KV cache 用 PyTorch forward hook 而非改写注意力</h4>
+<ul>
+<li><strong>问题</strong>：自回归解码需要缓存 K/V，重写注意力风险高</li>
+<li><strong>方案</strong>：<code>install_kv_cache_hooks</code> 在所有 <code>MultiHeadAttention.key/.value</code> 注册 forward hook，自动按 token 维拼接（model.py:310-341）；配合 <code>rearrange_kv_cache</code> 支持 beam search 重排</li>
+<li><strong>Trade-off</strong>：hook 引入的 Python 开销不可忽略；每个 step 触发 2 × n_layer 个 hook</li>
+<li><strong>可迁移性</strong>：高——任何 PyTorch seq2seq 模型都能 5 行代码获得 KV 缓存</li>
+</ul>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+
+<table>
+<thead>
+<tr><th>维度</th><th>openai/whisper</th><th>faster-whisper (SYSTRAN)</th><th>whisper.cpp (ggerganov)</th><th>WhisperX (m-bain)</th><th>Distil-Whisper (HF)</th></tr>
+</thead>
+<tbody>
+<tr><td>Stars</td><td>101k</td><td>14k+</td><td>40k+</td><td>9k+</td><td>4k+</td></tr>
+<tr><td>定位</td><td>研究基线 + 官方实现</td><td>生产部署首选</td><td>端侧/嵌入式</td><td>高精度时间戳+说话人分离</td><td>英文实时加速</td></tr>
+<tr><td>速度</td><td>1×（原生 PyTorch）</td><td>4×（CTranslate2）</td><td>1-2×（纯 C/C++）</td><td>70× 实时</td><td>6× 加速</td></tr>
+<tr><td>显存/内存</td><td>中等</td><td>低</td><td>极低（量化到 Q4）</td><td>中等</td><td>49% 参数</td></tr>
+<tr><td>平台</td><td>Python+消费级 GPU</td><td>Python+CPU/GPU</td><td>C/C++（Apple Silicon/移动/WASM/树莓派）</td><td>Python+GPU</td><td>Python+GPU</td></tr>
+<tr><td>训练/微调</td><td>不开源</td><td>不可训练</td><td>仅推理</td><td>不可训练</td><td>不可训练</td></tr>
+<tr><td>时间戳精度</td><td>一般（cross-attn head）</td><td>一般</td><td>不可用</td><td>极佳（wav2vec2 对齐）</td><td>略弱</td></tr>
+<tr><td>多语种</td><td>99 种</td><td>99 种</td><td>99 种</td><td>99 种</td><td>仅英文</td></tr>
+<tr><td>维护节奏</td><td>低维护（近 1 年 10 commit）</td><td>活跃</td><td>活跃</td><td>中等</td><td>活跃</td></tr>
+</tbody>
+</table>
+
+<h3>差异化护城河</h3>
+
+<ul>
+<li><strong>官方血统</strong>：OpenAI 论文与权重同步发布，顶会级背书，Jong Wook Kim 长期守门，权威性无可替代</li>
+<li><strong>极简 API 与最小依赖</strong>：6 个运行时依赖，pip install 即可在笔记本跑通</li>
+<li><strong>完整 normalizer + 词级时间戳 + 跨语种</strong>：99 种语言、词级时间戳、文本后处理链——三者齐全</li>
+<li><strong>生态锚点地位</strong>：所有衍生项目（faster-whisper/whisper.cpp/WhisperX/Distil-Whisper）的标准基线</li>
+<li><strong>论文与代码强绑定</strong>：arXiv 2212.04356 + 6 大模型权重 + 解码策略文档化完整</li>
+</ul>
+
+<h3>竞争风险</h3>
+
+<ul>
+<li><strong>不提供训练/微调代码</strong>：微调市场被 Hugging Face / LoRA 生态蚕食</li>
+<li><strong>推理速度被全面超越</strong>：CTranslate2/faster-whisper 在 4× 速、whisper.cpp 在端侧、Distil-Whisper 在英文实时上都已经超过</li>
+<li><strong>流式能力完全缺位</strong>：WhisperLive / Insanely-fast-whisper 填补这一缺口</li>
+<li><strong>幻觉问题在严肃场景难落地</strong>：医疗/法律/金融场景下 seq2seq 通病难以根除</li>
+</ul>
+
+<h3>生态定位</h3>
+
+<p>不是「生产部署首选」而是「研究基线 + 教学/演示样板 + 衍生项目锚点」。任何多语种 ASR 项目的 PR/Issue 都会把它当对照基线。</p>
+
+<h2>套利机会分析</h2>
+
+<ul>
+<li><strong>信息差</strong>：whisper 本身已无信息差（10万+ star + ASR 事实标准），但衍生生态（faster-whisper、whisper.cpp、WhisperX、Distil-Whisper）每个都值单独深入</li>
+<li><strong>技术借鉴</strong>：四个工程模板可立刻迁移到自己的项目——「统一任务 token」「启发式解码 fallback」「adapter 化 KV cache」「四接口拆分解码器」</li>
+<li><strong>生态位</strong>：填补了「下载即用、跨语种、零样本、pip install」这一空白——之前所有 ASR 都要领域微调</li>
+<li><strong>趋势判断</strong>：仓库本身已进入低维护期（近 1 年 10 commit），但生态外溢仍在加速；大型多模态（Canary/Parakeet）正在从企业级角度蚕食其地位，但研究侧的基线位置 5 年内不会动摇</li>
+</ul>
+
+<h2>风险与不足</h2>
+
+<ul>
+<li><strong>训练代码不开放</strong>：无法复现/微调，微调需求被 Hugging Face 生态分流</li>
+<li><strong>hallucination 通病未根除</strong>：启发式阈值是兜底而非根治，医疗/法律/金融场景下风险显著</li>
+<li><strong>流式能力缺位</strong>：30s 硬切窗导致实时/流式场景必须用衍生项目</li>
+<li><strong>测试覆盖薄</strong>：仅 4 个测试文件，test_transcribe 依赖真实权重，无 e2e 流式测试</li>
+<li><strong>无 lock file</strong>：仅 pyproject.toml 宽松约束，对生产部署不够友好</li>
+<li><strong><code>_get_audio_features</code> 有 bug</strong>：transcribe.py:660 的 <code>return TypeError(...)</code> 应为 <code>raise</code>，且把 TypeError 当正常返回</li>
+<li><strong>依赖 NVIDIA 闭源训练流程</strong>：生态外的人无法复现论文结果，只能消费权重</li>
+</ul>
+
+<h2>行动建议</h2>
+
+<ul>
+<li><strong>如果你要用它</strong>：
+  <ul>
+    <li>研究/教学场景直接用 openai/whisper 原版，论文/代码/文档/Colab 全套齐</li>
+    <li>生产部署首选 faster-whisper（4× 速 + Silero VAD + CPU 可跑）</li>
+    <li>端侧/嵌入式选 whisper.cpp（Apple Silicon/移动/WASM/树莓派全覆盖）</li>
+    <li>需要精确时间戳 + 说话人分离选 WhisperX</li>
+    <li>英文实时选 Distil-Whisper（6× 速 + 49% 参数）</li>
+  </ul>
+</li>
+<li><strong>如果你要学它</strong>：
+  <ul>
+    <li>必读：<code>whisper/transcribe.py</code>（CLI 入口 + 启发式 fallback）、<code>whisper/decoding.py</code>（四接口拆分解码器）、<code>whisper/model.py</code>（AudioEncoder + TextDecoder + KV cache hook）</li>
+    <li>重点关注：<code>_ALIGNMENT_HEADS</code> 矩阵（<code>__init__.py:36-51</code>）、<code>install_kv_cache_hooks</code>（<code>model.py:310-341</code>）、<code>decode_with_fallback</code>（<code>transcribe.py:184-224</code>）</li>
+    <li>推荐精读论文 arXiv 2212.04356（68 万小时弱监督 + 多任务 prompt 的设计哲学）</li>
+  </ul>
+</li>
+<li><strong>如果你要 fork 它</strong>：
+  <ul>
+    <li>短期可做：①补 e2e 流式接口（社区最大痛点）；②补充更多语种 normalizer（目前仅 basic + english）；③修 <code>_get_audio_features</code> 的 TypeError bug</li>
+    <li>中期可做：①把 KV cache 换成编译期优化（torch.compile + CUDA graph）；②训练代码的社区化重写（填补 OpenAI 主动放弃的微调市场）</li>
+    <li>长期可做：跨模态扩展（Whisper + LLM 联合推理，Audio-LLM 方向）</li>
+  </ul>
+</li>
+</ul>
+
+<h3>知识入口</h3>
+
+<table>
+<thead>
+<tr><th>资源</th><th>链接</th></tr>
+</thead>
+<tbody>
+<tr><td>DeepWiki</td><td><a href="https://deepwiki.com/openai/whisper">deepwiki.com/openai/whisper</a></td></tr>
+<tr><td>Zread.ai</td><td>未收录（WebFetch 403）</td></tr>
+<tr><td>关联论文</td><td><a href="https://arxiv.org/abs/2212.04356">Robust Speech Recognition via Large-Scale Weak Supervision</a></td></tr>
+<tr><td>在线 Demo</td><td><a href="https://huggingface.co/spaces/openai/whisper">huggingface.co/spaces/openai/whisper</a>（2.76k likes）</td></tr>
+<tr><td>衍生生态</td><td><a href="https://github.com/SYSTRAN/faster-whisper">faster-whisper</a> · <a href="https://github.com/ggerganov/whisper.cpp">whisper.cpp</a> · <a href="https://github.com/m-bain/whisperX">WhisperX</a> · <a href="https://github.com/huggingface/distil-whisper">Distil-Whisper</a></td></tr>
+</tbody>
+</table>
+
+</body>
+</html>

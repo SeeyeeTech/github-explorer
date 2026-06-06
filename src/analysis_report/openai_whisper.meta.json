@@ -1,0 +1,6 @@
+{
+  "title": "68 万小时弱监督炼出的开源 ASR 标杆：openai/whisper 怎么用 30 秒滑窗和几行 token 统一语音任务",
+  "digest": "OpenAI 用 68 万小时弱监督音频炼出通用语音模型：99 种语言零样本 ASR、英译、语种识别、VAD、词级时间戳全部用特殊 token 统一在 seq2seq 里，pip install 即用，是开源 ASR 事实基线。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

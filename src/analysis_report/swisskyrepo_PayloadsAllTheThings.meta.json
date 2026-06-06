@@ -1,6 +1,0 @@
-{
-  "title": "9 年 78K stars: 一位红队的 payload 字典怎么成安全圈事实标准",
-  "digest": "Swissky 用 9 年把零散的渗透 payload 沉淀成 65 个标准化漏洞章节,自带 Burp Intruder 字典与可拷贝骨架,成为红队案头必备。",
-  "author": "NVoyager",
-  "theme": "stars,universe,dark"
-}

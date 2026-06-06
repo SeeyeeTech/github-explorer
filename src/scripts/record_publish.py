@@ -4,10 +4,10 @@
 由 auto-analyze.yml 调用：每次自动分析跑完后，记录该报告的发布状态。
 
 示例：
-    # 自动生成的草稿
+    # 自动分析跑完、已推到公众号草稿箱（= 已发布 published）
     python3 scripts/record_publish.py \\
         --slug elastic_elasticsearch \\
-        --state pending \\
+        --state published \\
         --reason "自动生成" \\
         --published-at 2026-06-01 \\
         --ci-run-id "$GITHUB_RUN_ID"

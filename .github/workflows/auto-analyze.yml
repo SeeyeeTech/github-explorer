@@ -287,16 +287,18 @@ jobs:
         run: |
           set -euo pipefail
           ts="$(date -u +%Y-%m-%d)"
-          if [[ "${{ github.event.inputs.skip_publish }}" == "true" ]]; then
-            reason="仅分析"
-          elif [[ "$PUBLISH_STATUS" == "deferred" ]]; then
-            reason="待重发"
-          else
-            reason="自动生成"
-          fi
           slug="$(basename ${{ steps.report.outputs.path }} .md)"
+          # 推到公众号草稿箱即视为已发布（published）；
+          # 仅分析（skip_publish）/ SSH 发布失败留种（deferred）则仍是 pending。
+          if [[ "${{ github.event.inputs.skip_publish }}" == "true" ]]; then
+            state="pending"; reason="仅分析"
+          elif [[ "$PUBLISH_STATUS" == "deferred" ]]; then
+            state="pending"; reason="待重发"
+          else
+            state="published"; reason="自动生成"
+          fi
           python3 src/scripts/record_publish.py \
-            --slug "$slug" --state pending \
+            --slug "$slug" --state "$state" \
             --published-at "$ts" --reason "$reason" \
             --ci-run-id "${{ github.run_id }}"
 

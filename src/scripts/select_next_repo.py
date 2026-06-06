@@ -49,7 +49,7 @@ STAR_WEIGHT = int(os.environ.get("STAR_WEIGHT", "8"))
 STAR_MIN_USERS = int(os.environ.get("STAR_MIN_USERS", "2"))
 MIN_SCORE = int(os.environ.get("MIN_SCORE", "0"))  # 0 = 不设质量闸（向后兼容）
 DAILY_CAP = int(os.environ.get("DAILY_CAP", "0"))  # 0 = 不限产量（向后兼容）
-_COUNTED_STATES = {"pending"}  # 自动产出记录都是 pending
+_COUNTED_STATES = {"pending", "published"}  # 自动产出：推草稿箱=published，仅分析/待重发=pending
 
 
 def load_trending() -> list[dict]:

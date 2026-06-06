@@ -76,12 +76,10 @@ jobs:
       # 应急降级：只有手动 dispatch 时选 force_backend=anthropic 才会用到
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       FORCE_BACKEND: ${{ github.event.inputs.force_backend || '' }}
-      # 微信草稿箱
+      # 微信草稿箱凭证：实际发布在 ali-demo 上跑（见下方 SSH 跳板 step），runner 不直连微信/反代。
+      # 这里保留 APPID/APPSECRET 仅供 setup_ci_env.sh 的 REQUIRE_PUBLISH fail-fast 校验。
       WECHAT_APPID: ${{ secrets.WECHAT_APPID }}
       WECHAT_APPSECRET: ${{ secrets.WECHAT_APPSECRET }}
-      # 经固定出口 IP 反代访问微信 API（命中公众号 IP 白名单）
-      WECHAT_API_BASE: ${{ vars.WECHAT_API_BASE || 'https://wx.nightvoyager.top' }}
-      WECHAT_PROXY_TOKEN: ${{ secrets.WECHAT_PROXY_TOKEN }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout
@@ -127,7 +125,7 @@ jobs:
           COMMENT_BODY: ${{ github.event.comment.body }}
           # 节流仅作用于 schedule 自动选题；dispatch 不给 URL 时 0/0=不节流（手动点即强出一篇）
           MIN_SCORE: ${{ needs.guard.outputs.trigger == 'schedule' && '3' || '0' }}
-          DAILY_CAP: ${{ needs.guard.outputs.trigger == 'schedule' && '6' || '0' }}
+          DAILY_CAP: ${{ needs.guard.outputs.trigger == 'schedule' && '12' || '0' }}
         run: |
           set -euo pipefail
           case "${{ needs.guard.outputs.trigger }}" in

@@ -109,3 +109,4 @@
 {"recorded_at": "2026-06-06T16:47:57.022267+00:00", "slug": "tinyhumansai_openhuman", "title": null, "state": "published", "published_at": "2026-06-06", "reason": "自动生成", "ci_run_id": "27067530009"}
 {"recorded_at": "2026-06-06T17:57:22.612118+00:00", "slug": "earendil-works_pi", "title": null, "state": "published", "published_at": "2026-06-06", "reason": "自动生成", "ci_run_id": "27068982034"}
 {"recorded_at": "2026-06-06T18:54:58.230601+00:00", "slug": "dolthub_dolt", "title": null, "state": "published", "published_at": "2026-06-06", "reason": "自动生成", "ci_run_id": "27070283698"}
+{"recorded_at": "2026-06-06T19:43:04.871472+00:00", "slug": "tesseract-ocr_tesseract", "title": null, "state": "published", "published_at": "2026-06-06", "reason": "自动生成", "ci_run_id": "27071729414"}

@@ -132,8 +132,6 @@ entries:
   - security
   arize-ai_phoenix:
   - database
-  arize-ai_phoenix_phase3:
-  - uncategorized
   asg017_sqlite-vec:
   - llm-framework
   - rag-search
@@ -174,8 +172,6 @@ entries:
   - protocol-spec
   black-forest-labs_flux:
   - devtools
-  - media-generation
-  black-forest-labs_flux.phase3:
   - media-generation
   blaizzy_mlx-audio:
   - llm-inference
@@ -569,6 +565,10 @@ entries:
   - video-audio
   illuin-tech_colpali:
   - llm-framework
+  imthenachoman_how-to-secure-a-linux-server:
+  - workflow-automation
+  - education
+  - security
   infiniflow_ragflow:
   - ai-agent
   - llm-framework
@@ -1084,8 +1084,6 @@ entries:
   - protocol-spec
   sinelaw_fresh:
   - security
-  skills-phase3:
-  - uncategorized
   skyvern-ai_skyvern:
   - devtools
   - workflow-automation
@@ -1093,8 +1091,6 @@ entries:
   slopus_happy:
   - ai-agent
   - ai-coding
-  smallpond-phase3:
-  - uncategorized
   sst_opencode:
   - ai-agent
   - ai-coding
@@ -1130,6 +1126,9 @@ entries:
   - ai-coding
   - devtools
   - database
+  swisskyrepo_payloadsallthethings:
+  - iot-hardware
+  - security
   synkraai_aios-core:
   - ai-agent
   - ai-coding

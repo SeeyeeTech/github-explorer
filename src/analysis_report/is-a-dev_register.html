@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+
+<blockquote>
+<p>GitHub: <a href="https://github.com/is-a-dev/register">https://github.com/is-a-dev/register</a></p>
+</blockquote>
+
+<h2>一句话总结</h2>
+<p>is-a-dev/register 是一个用「GitHub PR 即域名注册」+「dnscontrol 编译时编排」实现的 0 美元、0 运行时代码的免费子域名公共服务，5 年承载 13,000 贡献者、12,000+ 注册记录、近 75,000 次 commit，是「开发者免费地皮」赛道的成熟公共物品。</p>
+
+<h2>值得关注的理由</h2>
+<ul>
+<li><strong>极致架构反常识</strong>：服务 12,000+ 用户的子域名系统，仓库里 0 行运行时代码（99.9% 是 JSON 数据），没有数据库、没有后台、没有 daemon。</li>
+<li><strong>可复用的工程范式</strong>：把「PR 流程」当成「用户态数据」注册中心——任何「低频写、强审计、用户自助」的注册表都适用。</li>
+<li><strong>奇高的 fork:star = 2.14:1</strong>（22,345 forks vs 10,419 stars）：罕见的数据信号，说明用户必须 fork 才能提交注册，真实用户基数通过 fork 体现。</li>
+</ul>
+
+<h2>项目展示</h2>
+<h3>README 媒体</h3>
+<p>1. <a href="https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png">is-a.dev Banner</a> — 类型: hero</p>
+<p>2. <a href="https://raw.githubusercontent.com/is-a-dev/register/main/media/cloudflare.png">Cloudflare Logo</a> — 类型: 基础设施背书</p>
+
+<h3>官网媒体</h3>
+<p>未额外取得（docs.is-a.dev 直连 403，已用 JINA reader 兜底；无独立 hero 截图）。</p>
+
+<h3>筛选说明</h3>
+<ul>
+<li>总共发现 6 个媒体元素，筛选后保留 2 个</li>
+<li>排除了 3 个 badge / 状态图标</li>
+<li>缺少动态 demo / 架构图（数据型仓库的天然限制）</li>
+</ul>
+
+<h2>项目画像</h2>
+<ul>
+<li>GitHub：<a href="https://github.com/is-a-dev/register">https://github.com/is-a-dev/register</a></li>
+<li>Star / Fork：10,419 / 22,345（fork:star ≈ 2.14:1，<strong>极反常</strong>）</li>
+<li>Watcher：30</li>
+<li>Open PR：113（Open Issue = 0，关闭率极高）</li>
+<li>代码行数：117,204 行（JSON 99.9%，SVG 0.1%）</li>
+<li>文件数量：12,325（其中 JSON 12,318）</li>
+<li>项目年龄：68 个月（首次提交 2020-10-04）</li>
+<li>总 commits：74,975</li>
+<li>近 365 天 commits：26,699（月均 ~2,225）</li>
+<li>贡献者：13,029 人（Top 1 占比 5.7%，典型长尾）</li>
+<li>依赖：0 运行时 + 2 开发依赖（ava + fs-extra）</li>
+<li>License：GNU General Public License v3.0</li>
+<li>开发阶段：密集开发（近 30 天 3,514 commit）</li>
+<li>开发模式：职业项目（周末占比 29.6%，深夜占比 18.2%）</li>
+<li>热度定位：大众热门（heat_level 最高档）</li>
+<li>质量评级：代码优秀 / 文档良好 / 测试充分 / CI 完善</li>
+</ul>
+
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>is-a-dev 是 2020-10-04 由 <strong>William Harrison（@wdhdev）</strong> 在 Australia 创建的开源组织。William 仍是组织下最核心的代码贡献者（<strong>2,543 commits，5.7% 占比</strong>，兼具 Trusted + Admin 双重身份）。组织下 20 个公开仓库呈「单核心 + 多辅助」结构：register（10.4k★，数据平面）+ discord-bot（运营平面）+ raw-api（查询平面）+ docs（文档站）+ dnscontrol-action（CI 模板）——一个完整的三层架构，靠 <strong>Cloudflare 赞助 DNS + GitHub 免费协作</strong> 两层免费基础设施撑起来。</p>
+
+<h3>问题判断</h3>
+<p>作者观察到的痛点不是「没有人提供免费域名」，而是<strong>「免费子域名服务的注册流程从未被工程化」</strong>：</p>
+<ul>
+<li><strong>付费域名</strong>（Namecheap / Porkbun）：对学生 / 刚起步的开发者不友好（信用卡 + 续费 + 隐私设置 + DNS 面板学习曲线）。</li>
+<li><strong>现存免费子域名</strong>（js.org / thedev.me / is-not.cool）：<strong>注册体验不一致</strong>（邮件申请 / 表单 / 维护者手动改），没有 PR 流程、没有审计、没有 diff、没有回滚。</li>
+<li><strong>GitHub Pages 默认域</strong>（username.github.io）：品牌辨识度低、不易迁移、不能映射多级项目。</li>
+<li><strong>真正缺的</strong>是「用开发者最熟悉的 GitHub PR 流程做域名注册 / 撤销 / 迁移 / 审计的统一入口」。</li>
+</ul>
+<p><strong>时机</strong>：2020 年 GitHub Student Pack 流行 + Cloudflare 推出 Project Alexandria 赞助开发者社区 + dnscontrol 工具成熟——三重红利叠加，作者入场。</p>
+
+<h3>解法哲学</h3>
+<p>核心信条是<strong>「DNS zone file 就是代码」</strong>——一种极端的简单性信仰：</p>
+<ol>
+<li><strong>不要后台</strong>：0 数据库、0 管理面板、0 任何「服务」代码。</li>
+<li><strong>不要状态机</strong>：注册 / 撤销 / 修改都是 PR，GitHub 帮你做权限 / 审计 / 回滚 / 通知。</li>
+<li><strong>不要钱</strong>：Cloudflare 赞助 DNS + GitHub 免费私有 repo / Actions / Pages + dnscontrol 是 Stack Exchange 出品现成工具。</li>
+<li><strong>不要重复造轮子</strong>：用 dnscontrol 的 D(ZONE, REGISTRAR, PROVIDER, RECORDS) DSL 编译 12,000+ JSON 为 zone 变更，<strong>整个系统只在 PR 合并时跑一次</strong>。</li>
+</ol>
+<p>这是一套 <strong>「把分布式问题降级为单仓 + Git + 一个 Zonefile 生成器」</strong> 的思路——本质和 GitHub 内部「treat your data as code」哲学同源。</p>
+
+<h3>战略意图</h3>
+<p>看组织下三个活跃仓库的分工，可以推断出<strong>完整服务架构</strong>：</p>
+<ul>
+<li>is-a-dev/register（本仓，10.4k★）— <strong>数据平面</strong>（SoR）：12k+ 用户注册记录，PR 即注册</li>
+<li>is-a-dev/discord-bot — <strong>运营平面</strong>：社区管理 / abuse 处理 / Discord 通知</li>
+<li>is-a-dev/raw-api — <strong>查询平面</strong>：把 SoR 编译成 v2.json → raw.is-a.dev</li>
+</ul>
+<p>战略上走的是 <strong>「self-service public utility」</strong> 路线：用户自助注册、机器自助查询、运营通过 Issue + Discord 处理违规。<strong>Cloudflare 平台层 + GitHub 协作层 + dnscontrol 编排层</strong>——三件事都不需要自己写代码。这是 <strong>「less software, more leverage」</strong> 的极致实践。<strong>无明显商业化意图</strong>，纯公共物品。</p>
+
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<ol>
+<li><strong>PR-as-Registry（PR 即注册中心）</strong> — 新颖度 4/5，实用性 5/5，可迁移性 5/5
+<ul>
+<li>把「用户注册一个公共资源」完全外包给 GitHub PR 流程——审核、合并、回滚、审计、权限、stale-bot 全部由 GitHub 免费提供。</li>
+<li>整个 is-a-dev 服务 0 行应用代码。</li>
+</ul>
+</li>
+<li><strong>三层校验矩阵（schema 单元测试 + DNSControl 编译 + Copilot LLM 评审）</strong> — 新颖度 3/5，实用性 5/5，可迁移性 4/5
+<ul>
+<li>L1 AVA 5 个 test 文件覆盖 JSON / schema / IP / 嵌套 / owner / proxy</li>
+<li>L2 dnscontrol check 验证 zone 一致性</li>
+<li>L3 .github/copilot-instructions.md 让 LLM 按「剧本」（含 8 条 verbatim 错误消息）自动回复 PR 评审</li>
+<li>三层互相正交，让 12k PR/月 80% 自动处理。</li>
+</ul>
+</li>
+<li><strong>_zone-updated TXT 内嵌时间戳</strong> — 新颖度 4/5，实用性 4/5，可迁移性 5/5
+<ul>
+<li>dnsconfig.js 末尾无条件 TXT(「_zone-updated」, Date.now())——把「zone 最后更新时间」嵌入 DNS 协议本身。</li>
+<li>外部监控器只需查一次 TXT 记录就能知道 zone 是否新鲜，<strong>零成本 SLA 探针</strong>。</li>
+</ul>
+</li>
+<li><strong>disallowed-cnames.json 防套娃（识别赞助商利益冲突）</strong> — 新颖度 4/5，实用性 3/5，可迁移性 3/5
+<ul>
+<li>禁止用户 CNAME 到 *.cfargotunnel.com / *.workers.dev——<strong>Cloudflare 既是赞助商又是潜在滥用通道</strong>，设计者主动识别了这种利益冲突。</li>
+<li>这是少见的「上游平台供应链风险」主动防御。</li>
+</ul>
+</li>
+<li><strong>嵌套子域强制父域 + 同 owner（用文件系统树做权限隐喻）</strong> — 新颖度 3/5，实用性 4/5，可迁移性 4/5
+<ul>
+<li>domains/docs.shockbs.json 自动要求 domains/shockbs.json 存在 + owner 一致；父域有 NS 记录时豁免（控制权切给子域自己）。</li>
+<li><strong>用 Git 目录的隐含树结构做权限代理——零代码</strong>。</li>
+</ul>
+</li>
+<li><strong>「192.0.2.1 + URL 记录」实现保留子域黑洞</strong> — 新颖度 3/5，实用性 4/5，可迁移性 4/5
+<ul>
+<li>reserved.json 的 149 个子域全部指向 192.0.2.1（RFC 5737 TEST-NET-1 标准黑洞 IP）同时挂 URL: <a href="https://is-a.dev/reserved">https://is-a.dev/reserved</a>——<strong>DNS 解析黑洞 + 浏览器跳到说明页</strong>。</li>
+</ul>
+</li>
+</ol>
+
+<h3>可复用的模式与技巧</h3>
+<ul>
+<li><strong>PR-as-Registry</strong>：任何「低频写、强审计、用户自助」的注册表：邮箱别名、API key、Bot 邀请、Feature Flag 名单、hackathon team 注册、企业内公共脚本命名空间</li>
+<li><strong>dnscontrol DSL 编译时编排</strong>：大量 DNS 记录（>1000 条）、多 provider 灾备、声明式 DNS-as-code</li>
+<li><strong>三层 CI 校验矩阵</strong>（schema + 领域工具 + LLM 评审）：高 PR 量 + 复杂业务规则 + 模板合规的开源治理项目</li>
+<li><strong>192.0.2.1 + URL 黑洞</strong>：任何「需要保留字 + 给用户教育」的平台</li>
+<li><strong>静态 raw API 跨仓推送</strong>（小文件聚合 + 独立仓托管 + GH Pages）：无服务器场景下的轻量级只读 API</li>
+<li><strong>_*-updated TXT 内嵌时间戳</strong>：任何「需要外部 SLA 观测」的服务</li>
+<li><strong>CODEOWNERS 路径级自治</strong>：把「代码治理」和「人」的矩阵直接表达在文件里</li>
+</ul>
+
+<h3>关键设计决策</h3>
+<h4>决策 1：Git-as-a-CMS（PR 即注册）</h4>
+<ul>
+<li><strong>问题</strong>：传统域名注册需要 DB + 支付 + KYC + 管理面板，对一个免费服务来说工程量过重。</li>
+<li><strong>方案</strong>：每个用户提交一个 domains/<name>.json，通过 PR 流程完成「申请 → 审核 → 合并 → DNS 发布」全闭环。</li>
+<li><strong>Trade-off</strong>：
+<ul>
+<li>(+) 0 行运行时代码 / 0 服务器 / 0 数据库 / Git 自带版本控制 + diff + revert + 审计</li>
+<li>(+) GitHub PR review 工作流直接复用为「域名注册审核工作流」——免费获得 5,000+ PR/月免费额度（开源项目）、CODEOWNERS 自动指派、Stale Bot 自动关单</li>
+<li>(-) <strong>fork:star = 2.14:1</strong>（22,345 forks vs 10,417 stars）极反常——说明<strong>用户必须 fork 才能提交 PR</strong>，本质上是把「注册门槛」从 DNS 操作转嫁到 Git 知识门槛</li>
+<li>(-) 13,000 贡献者各自提交 1 条 JSON 的长尾 → 治理复杂度高（spam / abuse / 域名回收是核心痛点）</li>
+</ul>
+</li>
+<li><strong>可迁移性</strong>：高。</li>
+</ul>
+
+<h4>决策 2：dnscontrol 编译时编排（无运行时服务）</h4>
+<ul>
+<li><strong>问题</strong>：12k+ JSON 文件不能手工 push 到 Cloudflare。</li>
+<li><strong>方案</strong>：dnsconfig.js 是一个 dnscontrol 脚本，遍历 ./domains/*.json，<strong>编译时</strong>生成 zone file + 调 Cloudflare API 推送。无 cron、无 daemons。</li>
+<li><strong>Trade-off</strong>：
+<ul>
+<li>(+) 整个系统只在 <strong>PR 合并</strong>时跑一次（GitHub Actions on push to main）—— 0 持续成本</li>
+<li>(+) D(domainName, registrar, dnsProvider, records, ignored) DSL 让「保留名」 / 「内部名」 / 「TXT 校验」全部声明式</li>
+<li>(-) <strong>Cloudflare 单点依赖</strong>（Issue #14153 60 条评论在评估迁移）</li>
+</ul>
+</li>
+<li><strong>可迁移性</strong>：高（dnscontrol 支持 30+ DNS provider，迁移到 Route53 / DNSimple / Gandi 几乎零代码改动）。</li>
+</ul>
+
+<h4>决策 3：嵌套子域强制父域存在 + 同 owner</h4>
+<ul>
+<li><strong>问题</strong>：用户可能 docs.shockbs.json 但忘了建 shockbs.json，DNS 残缺；或 blog.alice.json 用 bob 当 owner，破坏「嵌套即信任链」语义。</li>
+<li><strong>方案</strong>：tests/domains.test.js 两条规则：嵌套子域的<strong>每一级父域</strong>必须存在；嵌套子域的 owner.username <strong>必须与最右端父域一致</strong>（除非父域有 NS 记录切出）。</li>
+<li><strong>Trade-off</strong>：用 Git 仓的<strong>目录隐含树结构</strong>做权限代理——零代码。</li>
+<li><strong>可迁移性</strong>：高。</li>
+</ul>
+
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<ul>
+<li><strong>Stars</strong>：is-a-dev/register 10,419；js-org/js.org 5,762；open-domains/register 2,588；thedev-me/register 137</li>
+<li><strong>社区</strong>：通用（13k 贡献者） / 仅 JS 社区 / 通用 / 小众</li>
+<li><strong>注册流程</strong>：自动化 PR + AI 评审 / 半自动（人工改 _domains.js） / 手动为主 / 邮件申请</li>
+<li><strong>DNS Provider</strong>：Cloudflare（dnscontrol 编译） / 单一 / 多 TLD / 单一</li>
+<li><strong>DNS 记录类型</strong>：A/AAAA/CAA/DS/MX/NS/SRV/TLSA/TXT/URL 全覆盖 / 基础 / 基础 / 基础</li>
+<li><strong>测试覆盖</strong>：5 个 .test.js（AVA 框架） / 几乎无 / 几乎无 / 无</li>
+<li><strong>AI 评审</strong>：独创（copilot-instructions.md） / 无 / 无 / 无</li>
+<li><strong>规模（注册量）</strong>：12,000+ / ~5,000 / <1,000 / <500</li>
+<li><strong>运营年限</strong>：5.7 年 / 10+ 年 / 较新 / 较新</li>
+</ul>
+
+<h3>差异化护城河</h3>
+<ol>
+<li><strong>规模 + 自动化深度 + 治理成熟度</strong>——三层 CI 矩阵、PR-as-Registry、AI 评审剧本、嵌套子域树规则、保留词治理表，<strong>注册流程工程化</strong>是真护城河。</li>
+<li><strong>dnscontrol 抽象</strong>——单一工具横跨多 provider，未来迁移成本极低。</li>
+<li><strong>14,500+ 月 commit 形成的「活文档」</strong>——任何潜在用户能直接 git clone 看到所有规则和示例。</li>
+</ol>
+
+<h3>竞争风险</h3>
+<ul>
+<li><strong>Cloudflare 单点依赖</strong>（Issue #14153）—— 5 年后 Cloudflare 政策变化 / 取消 Project Alexandria 是最大商业变量。</li>
+<li><strong>fork:star 2.14:1 长尾治理</strong>——13k 贡献者质量参差，spam / phishing / 商业滥用的运营成本是隐藏炸弹。</li>
+<li><strong>js.org 老牌效应</strong>——开发者社区认知一旦形成，迁移成本极低，但新用户拉新更倾向「听过名字的」。</li>
+</ul>
+
+<h3>生态定位</h3>
+<p><strong>「个人开发者最熟悉的 Git 流程 × Cloudflare 全球 DNS × 0 美元基础设施」</strong>——是 dev-portfolio 场景的「准公共物品」，类似早期 github.io / herokuapp.com 的「开发者免费地皮」角色。</p>
+
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：本仓 star 数在 free subdomain 赛道<strong>已是第一</strong>，但 PR-as-Registry 这一<strong>模式本身</strong>在国内 / 中文社区几乎无人讨论；可以拆解为「自托管 Git-as-CMS」通用方案，覆盖企业内部 / 黑客松 / 教学场景。</li>
+<li><strong>技术借鉴</strong>：
+<ul>
+<li>把 dnscontrol 引入企业内部自建 DNS 管理（>1000 条记录）。</li>
+<li>把三层 CI 矩阵搬到自己高频 PR 的开源项目（LLM 评审剧本直接借鉴 copilot-instructions.md 的 verbatim 文案套路）。</li>
+<li>把「小文件聚合 → 独立仓 → GitHub Pages」模式搬到自己做轻量级只读 API 的场景。</li>
+</ul>
+</li>
+<li><strong>生态位</strong>：<strong>「开发者免费地皮」</strong>这个细分几乎被它独占，且<strong>有先发 + 规模 + 工程化</strong>三重壁垒。</li>
+<li><strong>趋势判断</strong>：在 Cloudflare 继续赞助的前提下，<strong>未来 3 年仍是该赛道事实标准</strong>。唯一变量是 Cloudflare 政策变化（已有关注 Issue）。</li>
+</ul>
+
+<h2>风险与不足</h2>
+<ul>
+<li><strong>单点商业依赖</strong>：完全依赖 Cloudflare 赞助的 Project Alexandria。dnsconfig.js 虽抽象但仍需重写 provider 适配才能迁。</li>
+<li><strong>运营治理复杂度</strong>：13k 长尾贡献者 + 22k fork 几乎必然引入 spam / phishing / 商业滥用，Issue 列表里 #14802（phishing 67 评论）、#26018（商业滥用 49 评论）说明这是持续痛点。</li>
+<li><strong>fork:star 2.14:1 是双刃剑</strong>：拉新门槛低（fork 即用），但用户教育成本高（很多人 fork 后不知道怎么提 PR）。</li>
+<li><strong>缺失项</strong>：无 CHANGELOG、无 linter/formatter 配置（对极简仓可接受）、核心业务文档（嵌套规则 / 保留字 / 验证流程）外站到 docs.is-a.dev，本仓 README 引用但不内嵌——对 fork / 学习者门槛略高。</li>
+<li><strong>0 行运行时代码反过来是风险</strong>：任何需要「运行时行为」的功能（rate limit / 实时验证 / 软删除过渡期）都难以引入。</li>
+</ul>
+
+<h2>行动建议</h2>
+<ul>
+<li><strong>如果你要用它</strong>：直接 fork + 提 PR 即可，参考 .github/PULL_REQUEST_TEMPLATE.md 的 7 项 checklist + 嵌套子域的父域规则。注意 disallowed-cnames.json（不能指向 *.cfargotunnel.com）。</li>
+<li><strong>如果你要学它</strong>：重点研读 4 个文件：
+<ol>
+<li>dnsconfig.js（137 行，dnscontrol DSL 范式）</li>
+<li>tests/records.test.js（5 个 test 文件中信息密度最高）</li>
+<li>.github/copilot-instructions.md（LLM 评审剧本，verbatim 文案套路）</li>
+<li>util/reserved.json + disallowed-cnames.json + internal.json（治理表设计）</li>
+</ol>
+</li>
+<li><strong>如果你要 fork 它</strong>：
+<ul>
+<li>想做「子域名服务变种」：换 DNS provider（Route53 / DNSimple）即可，dnscontrol 抽象已就位。</li>
+<li>想做「PR-as-Registry 通用平台」：抽象掉 domain 概念，换成 email alias / API key / webhook registry。</li>
+<li>想做「中文开发者社区版」：补 i18n（README + copilot 剧本 + ToS）即可，其他基础设施全复用。</li>
+</ul>
+</li>
+</ul>
+
+<h3>知识入口</h3>
+<ul>
+<li>DeepWiki：<a href="https://deepwiki.com/is-a-dev/register">已收录</a>（2025-04-20 索引）</li>
+<li>Zread.ai：未收录（403 拒绝）</li>
+<li>关联论文：无（工程型项目，无学术对应）</li>
+<li>在线 Demo：<a href="https://is-a.dev">https://is-a.dev</a>（域名解析结果可作为活 demo）</li>
+<li>配套文档站：<a href="https://docs.is-a.dev">https://docs.is-a.dev</a></li>
+<li>配套查询 API：<a href="https://raw.is-a.dev">https://raw.is-a.dev</a>（v2.json）</li>
+</ul>
+
+<hr>
+
+<p><strong>分析日期</strong>：2026-06-06</p>
+<p><strong>分析方法</strong>：三阶段 Orchestrator-Worker（Phase 1 网络分析 + Phase 2 元分析 + Phase 3 内容分析）</p>
+<p><strong>关键数据来源</strong>：<a href="https://github.com/is-a-dev/register">tmp/repo-facts-register.json</a>（由 src/scripts/collect_repo_facts.py 一次性采集）</p>
+
+</body>
+</html>

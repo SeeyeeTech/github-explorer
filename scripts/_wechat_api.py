@@ -100,21 +100,23 @@ def http_json(url: str, **kw) -> dict:
 _DEFAULT_BACKOFFS = (2, 8, 30)
 
 
-def http_with_retry(
+def http_try(
     url: str,
     *,
     max_attempts: int = 3,
     backoffs: tuple[int, ...] = _DEFAULT_BACKOFFS,
     **kw,
 ) -> bytes:
-    """同 http()，但对网络错误退避重试。
+    """同 http()，但对网络错误退避重试；用尽后 raise HttpError（不 sys.exit）。
 
-    业务错误（HTTPError 含 4xx/5xx body）走 raise_on_error 路径同样会被
-    catch 后重试 —— 这对 5xx 是想要的；对 4xx（如 invalid token）属于
-    无效重试但成本可忽略（单次 1-2s 网络 RTT）。
+    供「单次失败非致命」的场景（如逐张下载/上传正文图片）：调用方 catch
+    HttpError 后跳过该图、不中断整篇发布。致命场景用 http_with_retry。
+
+    业务错误（HTTPError 含 4xx/5xx body）经 raise_on_error 同样被 catch 重试
+    —— 对 5xx 是想要的；对 4xx（如 invalid token）是无效重试但成本可忽略。
     """
     kw["raise_on_error"] = True
-    last_err: Exception | None = None
+    last_err: HttpError | None = None
     for i in range(max_attempts):
         try:
             return http(url, **kw)
@@ -127,8 +129,16 @@ def http_with_retry(
                     file=sys.stderr,
                 )
                 time.sleep(delay)
-    # 用尽：恢复 sys.exit 语义，与原 http() 保持一致
-    sys.exit(f"ERR: {last_err}")
+    assert last_err is not None  # 循环至少执行一次，必有 last_err
+    raise last_err
+
+
+def http_with_retry(url: str, **kw) -> bytes:
+    """同 http_try()，但用尽重试后 sys.exit（致命语义，与原 http() 一致）。"""
+    try:
+        return http_try(url, **kw)
+    except HttpError as e:
+        sys.exit(f"ERR: {e}")
 
 
 def http_json_with_retry(url: str, **kw) -> dict:
@@ -137,6 +147,15 @@ def http_json_with_retry(url: str, **kw) -> dict:
         return json.loads(raw)
     except json.JSONDecodeError:
         sys.exit(f"ERR: 非 JSON 响应 from {url[:80]}…\n  {raw[:300]!r}")
+
+
+def http_json_try(url: str, **kw) -> dict:
+    """同 http_json()，但走 http_try 软重试；网络用尽或非 JSON 都 raise HttpError。"""
+    raw = http_try(url, **kw)
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError as e:
+        raise HttpError(f"非 JSON 响应 from {url[:80]}…  {raw[:300]!r}") from e
 
 
 def check_wechat_ok(resp: dict, context: str) -> None:

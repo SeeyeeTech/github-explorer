@@ -26,6 +26,7 @@
 """
 from __future__ import annotations
 
+import io
 import json
 import mimetypes
 import sys
@@ -40,7 +41,9 @@ from _wechat_api import (
     get_access_token,
     http,
     http_json,
+    http_json_try,
     http_json_with_retry,
+    http_try,
     load_wechat_env,
     proxy_headers,
 )
@@ -49,12 +52,19 @@ try:
     import markdown
     from premailer import transform as inline_css
     from bs4 import BeautifulSoup
+    from PIL import Image, ImageOps, features
 except ImportError as e:
     sys.exit(
         f"ERR: 缺少 Python 包 ({e})。\n"
-        "  本地: python3 -m venv venv && venv/bin/pip install premailer beautifulsoup4 markdown\n"
-        "  CI:  setup_ci_env.sh 已 pip install premailer beautifulsoup4 markdown"
+        "  本地: venv/bin/pip install premailer beautifulsoup4 markdown pillow\n"
+        "  CI:  requirements-ci.txt 已含 premailer beautifulsoup4 markdown pillow"
     )
+
+# Pillow 源码编译且缺 libwebp 时 features.check('webp') 为 False —— 此时 webp
+# 无法解码，convert_image 直接返回 None，让 webp 图走删除兜底而非转换。
+_WEBP_OK = features.check("webp")
+if not _WEBP_OK:
+    print("WARN: Pillow 无 webp 支持，webp 图将走删除兜底而非转换", file=sys.stderr)
 
 
 # 微信公众号排版 CSS — 与 ci/skills/md2wechat/assets/wechat.css 同步
@@ -130,34 +140,268 @@ def merge_adjacent_uls(soup: BeautifulSoup) -> int:
     return merged
 
 
+# ─────────────────────────────────────────────────────────────────────
+# 正文图片处理：下载(带重试) → 探测真实格式 → 转 png/jpg 且 <1MB → 上传换
+# mmbiz URL；不可救的图(svg/视频/损坏/超限/上传被拒)连同图注、被清空的章节
+# 标题一并删除——微信正文不支持外链，保留原 src 只会显示破图。
+# 微信 cgi-bin/media/uploadimg 硬限制：仅 jpg/png、单图 < 1MB。
+# ─────────────────────────────────────────────────────────────────────
+
+_TARGET_BYTES = 1_000_000             # 微信硬限 1MB，留 ~48KB 余量给 multipart 头
+_MAX_SIDE = 2048                      # 超大图先按长边降采样
+_MIN_SIDE = 480                       # 压缩循环长边下限，再小就放弃
+_JPEG_QUALITY_LADDER = (85, 72, 60, 48)
+_RESIZE_LADDER = (1.0, 0.75, 0.55, 0.40)
+_CAPTION_MAX_CHARS = 80               # 紧邻图片的纯文本 ≤ 此长度才视为图注
+
+
+def sniff_format(data: bytes) -> str:
+    """按文件头 magic bytes 判真实格式：png|jpeg|gif|webp|svg|video|other。
+
+    URL 后缀不可信(44 个图无后缀、个别 .mp4 藏在 <img> 里)，必须按字节判。
+    驱动「保留 / 转换 / 删除」决策。绝不抛异常。
+    """
+    if not data:
+        return "other"
+    head = data[:64]
+    # 栅格图(Pillow 可解)
+    if head[:8] == b"\x89PNG\r\n\x1a\n":
+        return "png"
+    if head[:3] == b"\xff\xd8\xff":
+        return "jpeg"
+    if head[:4] == b"GIF8" and head[4:6] in (b"7a", b"9a"):
+        return "gif"
+    if head[:4] == b"RIFF":                                  # RIFF 容器，看子类型
+        sub = head[8:12]
+        if sub == b"WEBP":
+            return "webp"
+        if sub == b"AVI ":
+            return "video"
+        return "other"
+    # 视频容器 → 删除
+    if head[4:8] == b"ftyp":                                 # MP4 / MOV / M4V (ISO BMFF)
+        return "video"
+    if head[:4] == b"\x1aE\xdf\xa3":                         # WEBM / MKV (EBML)
+        return "video"
+    if head[4:8] in (b"moov", b"mdat", b"free", b"wide"):    # 老式 MOV
+        return "video"
+    # SVG：文本，可能带 BOM / 前导空白 / XML 声明
+    probe = data[:512].lstrip(b"\xef\xbb\xbf \t\r\n").lower()
+    if probe.startswith(b"<?xml") or probe.startswith(b"<svg") or b"<svg" in probe[:256]:
+        return "svg"
+    return "other"                                           # bmp/tiff/ico 等交 convert 试解码
+
+
+def _has_alpha(img) -> bool:
+    if img.mode in ("RGBA", "LA", "PA"):
+        return True
+    return img.mode == "P" and "transparency" in img.info
+
+
+def _normalize_mode(img, want_alpha: bool):
+    """统一到 RGBA / RGB —— 顺带吃掉 P(调色板)、CMYK(Adobe 反相)、YCbCr、L、1。"""
+    target = "RGBA" if want_alpha else "RGB"
+    return img if img.mode == target else img.convert(target)
+
+
+def _clamp_side(img, max_side: int):
+    w, h = img.size
+    if max(w, h) <= max_side:
+        return img
+    s = max_side / float(max(w, h))
+    return img.resize((max(1, int(w * s)), max(1, int(h * s))), Image.LANCZOS)
+
+
+def _encode_under_limit(img, *, prefer_jpeg: bool) -> "tuple[bytes, str] | None":
+    """逐级 resize ×(JPEG 逐级降质 / PNG optimize)，命中 _TARGET_BYTES 即返回。"""
+    for scale in _RESIZE_LADDER:
+        work = img if scale == 1.0 else img.resize(
+            (max(1, int(img.width * scale)), max(1, int(img.height * scale))),
+            Image.LANCZOS,
+        )
+        if scale != 1.0 and min(work.size) < _MIN_SIDE:
+            break
+        if prefer_jpeg:
+            for q in _JPEG_QUALITY_LADDER:
+                buf = io.BytesIO()
+                work.save(buf, format="JPEG", quality=q, optimize=True, progressive=True)
+                if buf.tell() <= _TARGET_BYTES:
+                    return buf.getvalue(), "jpg"
+        else:
+            buf = io.BytesIO()
+            work.save(buf, format="PNG", optimize=True)
+            if buf.tell() <= _TARGET_BYTES:
+                return buf.getvalue(), "png"
+    return None
+
+
+def convert_image(data: bytes, fmt: str) -> "tuple[bytes, str] | None":
+    """把 png/jpeg/gif/webp/other 规整成 (bytes, 'png'|'jpg') 且 < 1MB。
+
+    svg / video 已在上游过滤。返回 None = 损坏 / 不支持 / 压不进 1MB → 走删除。
+    绝不抛异常。
+    """
+    if fmt == "webp" and not _WEBP_OK:
+        return None
+    try:
+        img = Image.open(io.BytesIO(data))
+        img.load()                      # 强制解码：截断 / 损坏在此抛错
+    except Exception:
+        return None
+    # 动图(gif / webp)取首帧
+    try:
+        if getattr(img, "is_animated", False):
+            img.seek(0)
+    except Exception:
+        return None
+    # EXIF 方向校正(手机截图)，失败忽略
+    try:
+        img = ImageOps.exif_transpose(img)
+    except Exception:
+        pass
+    want_alpha = _has_alpha(img)
+    try:
+        img = _normalize_mode(img, want_alpha)
+        img = _clamp_side(img, _MAX_SIDE)
+        out = _encode_under_limit(img, prefer_jpeg=not want_alpha)
+        if out is None and want_alpha:
+            # 带 alpha 的 PNG 仍压不下去 → 末路：白底拍平转 JPEG(牺牲透明)
+            flat = Image.new("RGB", img.size, (255, 255, 255))
+            flat.paste(img, mask=img.split()[-1])
+            out = _encode_under_limit(flat, prefer_jpeg=True)
+    except Exception:
+        return None
+    return out
+
+
+# ─── 语义化删除：死图 + 图注 + 被清空的章节标题 ─────────────────────────
+
+def _is_caption(node) -> bool:
+    """node 是否为「图注」：紧邻图片、短、且非正文/链接/列表/标题。保守判定。"""
+    if getattr(node, "name", None) != "p":
+        return False
+    if node.find("img"):        # 另一张图的承载段，不是图注
+        return False
+    if node.find("a"):          # 链接段(如「动画演示：<a>」)→ 视为正文，保留
+        return False
+    text = node.get_text(strip=True)
+    if not text:                # 空 <p> → 安全删
+        return True
+    em = node.find(["em", "i"])
+    if em and em.get_text(strip=True) == text:   # 整段就是斜体 → 图注
+        return True
+    return len(text) <= _CAPTION_MAX_CHARS        # 纯文本短段 → 图注
+
+
+def remove_image_block(img) -> None:
+    """删一张死图。多图同段且尚有存活图 → 只删这张 img；本段已无图 → 删整段
+    并尝试删紧邻图注。幂等：可对已分离节点安全调用。"""
+    if img.find_parent() is None:        # 已被前一次顺带删掉
+        return
+    carrier = img.find_parent("p")
+    if carrier is None:                  # img 直接挂在容器下
+        img.decompose()
+        return
+    img.decompose()
+    if carrier.find("img"):              # 多图段仍有存活图 → 保留整段 + 图注
+        return
+    caption = carrier.find_next_sibling()    # 先取引用(carrier 还在树上)
+    carrier.decompose()
+    if caption is not None and _is_caption(caption):
+        caption.decompose()
+
+
+_SECTION_CONTENT = ("ul", "ol", "table", "blockquote", "pre")
+
+
+def _section_is_empty(h2) -> bool:
+    """h2 到下一个 h2(或文末)之间是否已无任何图片 / 实质内容。"""
+    node = h2.find_next_sibling()
+    while node is not None and getattr(node, "name", None) != "h2":
+        name = getattr(node, "name", None)
+        if name == "img" or (name and node.find("img")):
+            return False
+        if name in _SECTION_CONTENT:
+            return False
+        if name == "p" and node.get_text(strip=True):
+            return False
+        node = node.find_next_sibling()
+    return True
+
+
+def prune_touched_sections(headers) -> int:
+    """仅对被删图所属的 h2，若其章节已空则删该标题。返回删除数。"""
+    removed = 0
+    for h2 in headers:
+        if h2.find_parent() is None:     # 已被删
+            continue
+        if _section_is_empty(h2):
+            h2.decompose()
+            removed += 1
+    return removed
+
+
 def upload_external_images(
     soup: BeautifulSoup,
     *,
     access_token: str,
     api_base: str,
     proxy_headers: dict,
-) -> tuple[int, int]:
-    """所有非 mmbiz 的 <img src> 下载后通过 uploadimg 换成 mmbiz URL。
-    返回 (成功数, 失败数)。失败时保持原 src，不中断流程。"""
+    dry_run: bool = False,
+) -> "tuple[int, int, list[dict]]":
+    """所有非 mmbiz 的 <img>：下载(重试) → 探测格式 → 转 png/jpg(<1MB) → uploadimg
+    换 mmbiz URL。不可救的图连同图注 / 被清空的章节标题删除。
+
+    返回 (成功数, 删除数, removed[{src, reason}])。dry_run=True 时不真上传，
+    成功路径只验证「下载 + 转换」通过、不改 src(用于本地验证删除/转换逻辑)。
+    """
     ok = 0
-    fail = 0
+    to_remove: list = []                 # [(img, reason, src)]，阶段 2 统一删
+
     for img in soup.find_all("img"):
-        src = img.get("src", "")
-        if not src or "mmbiz." in src:
+        src = (img.get("src") or "").strip()
+        if not src or "mmbiz." in src or src.startswith("data:"):
             continue
+
+        # 1) 下载(软重试，单图失败不中断整篇)
         try:
-            img_data = http(src, timeout=20, raise_on_error=True)
+            data = http_try(src, timeout=20, backoffs=(1, 3, 6))
         except HttpError as e:
             print(f"  ⚠ 下载失败 {src[:60]}…  {str(e)[:80]}", file=sys.stderr)
-            fail += 1
+            to_remove.append((img, "download_failed", src))
             continue
+
+        # 2) 探测真实格式
+        fmt = sniff_format(data)
+        if fmt in ("svg", "video"):
+            print(f"  ⚠ 不支持格式[{fmt}] {src[:60]}…", file=sys.stderr)
+            to_remove.append((img, fmt, src))
+            continue
+
+        # 3) 转 png/jpg 且 <1MB
+        conv = convert_image(data, fmt)
+        if conv is None:
+            print(f"  ⚠ 转换失败[{fmt}] {src[:60]}…", file=sys.stderr)
+            to_remove.append((img, "convert_failed", src))
+            continue
+        out_bytes, ext = conv
+
+        # dry-run：验证下载 + 转换通过即可，不真上传、不改 src
+        if dry_run:
+            print(f"  ·(dry-run){src[:50]}… [{fmt}→{ext} {len(out_bytes)}B] 可上传")
+            ok += 1
+            continue
+
+        # 4) 文件名后缀对齐真实格式(否则微信按后缀判 MIME 拒收)
+        base = src.rsplit("/", 1)[-1].split("?", 1)[0].split("#", 1)[0]
+        stem = base.rsplit(".", 1)[0] if "." in base else (base or "img")
+        filename = f"{stem}.{ext}"
+
+        # 5) 上传 uploadimg(软重试)
         try:
             url = f"{api_base}/cgi-bin/media/uploadimg?access_token={urllib.parse.quote(access_token)}"
-            filename = src.rsplit("/", 1)[-1].split("?", 1)[0] or "img"
-            if "." not in filename:
-                filename += ".png"
-            boundary, body = build_multipart(filename, img_data)
-            r = http_json_with_retry(
+            boundary, body = build_multipart(filename, out_bytes)
+            r = http_json_try(
                 url,
                 headers={
                     **proxy_headers,
@@ -167,18 +411,34 @@ def upload_external_images(
                 method="POST",
                 timeout=60,
             )
-        except SystemExit as e:
-            print(f"  ⚠ uploadimg 失败 {src[:60]}…  {e}", file=sys.stderr)
-            fail += 1
+        except HttpError as e:
+            print(f"  ⚠ uploadimg 失败 {src[:60]}…  {str(e)[:80]}", file=sys.stderr)
+            to_remove.append((img, "upload_failed", src))
             continue
+
         if r.get("url"):
             img["src"] = r["url"]
-            print(f"  ✓ {src[:50]}… → mmbiz")
+            print(f"  ✓ {src[:50]}… [{fmt}→{ext}] → mmbiz")
             ok += 1
         else:
             print(f"  ⚠ uploadimg 响应缺 url: {r}", file=sys.stderr)
-            fail += 1
-    return ok, fail
+            to_remove.append((img, "upload_rejected", src))
+
+    # ── 阶段 2：语义化删除(死图 + 图注 + 被清空的章节标题)──
+    # 删前先收集每张待删图所属的最近 h2(此刻 img 都还在树上，引用有效)
+    touched_h2: list = []
+    for img, _reason, _src in to_remove:
+        h2 = img.find_previous("h2")
+        if h2 is not None and h2 not in touched_h2:
+            touched_h2.append(h2)
+    for img, _reason, _src in to_remove:
+        remove_image_block(img)
+    pruned = prune_touched_sections(touched_h2)
+    if pruned:
+        print(f"  ✓ 清理 {pruned} 个被删空的章节标题", file=sys.stderr)
+
+    removed = [{"src": s, "reason": r} for _img, r, s in to_remove]
+    return ok, len(removed), removed
 
 
 def compact_lists(soup: BeautifulSoup) -> None:
@@ -251,23 +511,44 @@ def fetch_cover(theme: str, fallback_url: str) -> bytes:
 
 
 def main() -> int:
-    if len(sys.argv) < 2:
-        sys.exit("用法: wechat_publish.py <report.md>")
+    raw_args = sys.argv[1:]
+    dry_run = "--dry-run" in raw_args
+    pos = [a for a in raw_args if not a.startswith("-")]
+    if not pos:
+        sys.exit("用法: wechat_publish.py <report.md> [--dry-run]")
 
-    md_path = Path(sys.argv[1])
+    md_path = Path(pos[0])
     meta_path = Path(str(md_path.with_suffix("")) + ".meta.json")
 
     if not md_path.is_file():
         sys.exit(f"ERR: 找不到 md {md_path}")
-    if not meta_path.is_file():
+    # dry-run 不发布、不需要元数据；正常发布才强校验
+    if not dry_run and not meta_path.is_file():
         sys.exit(f"ERR: 找不到 metadata {meta_path}（md2wechat 这一步没输出元数据）")
 
     md_text = md_path.read_text(encoding="utf-8")
-    meta = json.loads(meta_path.read_text(encoding="utf-8"))
+    meta = json.loads(meta_path.read_text(encoding="utf-8")) if meta_path.is_file() else {}
 
     print(f"[0a] 用 markdown 库转 HTML（确定性结构）")
     raw_html = md_to_html(md_text)
     print(f"  ✓ {len(md_text)} → {len(raw_html)} bytes")
+
+    # ── dry-run：只验证图片下载 / 转换 / 删除逻辑，不碰微信 API ──
+    if dry_run:
+        print("[dry-run] 图片处理（下载→转换→删除，不上传、不入草稿）")
+        soup = BeautifulSoup(raw_html, "html.parser")
+        merge_adjacent_uls(soup)
+        img_ok, img_removed_n, img_removed = upload_external_images(
+            soup, access_token="", api_base="", proxy_headers={}, dry_run=True,
+        )
+        print(f"  ✓ 图片 {img_ok} 可上传 / {img_removed_n} 删除")
+        for it in img_removed:
+            print(f"    ✗ 删除[{it['reason']}] {it['src'][:70]}")
+        out_html = Path("tmp") / f"dryrun-{md_path.stem}.html"
+        out_html.parent.mkdir(parents=True, exist_ok=True)
+        out_html.write_text(str(soup), encoding="utf-8")
+        print(f"  ✓ 处理后正文 → {out_html}（核对无破图 / 孤儿图注 / 空标题）")
+        return 0
 
     title = meta.get("title") or md_path.stem
     digest = (meta.get("digest") or "")[:120]
@@ -300,13 +581,21 @@ def main() -> int:
     soup = BeautifulSoup(raw_html, "html.parser")
     merged = merge_adjacent_uls(soup)
     print(f"  ✓ 合并了 {merged} 个相邻 ul")
-    img_ok, img_fail = upload_external_images(
+    img_ok, img_removed_n, img_removed = upload_external_images(
         soup,
         access_token=access_token,
         api_base=api_base,
         proxy_headers=proxy_h,
     )
-    print(f"  ✓ 图片 {img_ok} 成功 / {img_fail} 失败")
+    print(f"  ✓ 图片 {img_ok} 成功 / {img_removed_n} 删除")
+    if img_removed:
+        for it in img_removed:
+            print(f"    ✗ 删除[{it['reason']}] {it['src'][:70]}", file=sys.stderr)
+        Path("tmp").mkdir(exist_ok=True)
+        Path("tmp/removed_images.json").write_text(
+            json.dumps(img_removed, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        print(f"  ✓ 删除清单 → tmp/removed_images.json")
 
     # ─── Step 1c: CSS 内联 ────────────────────────────────────
     # 微信 draft/add 接口会剥 <style> 标签（与编辑器粘贴模式不同），

@@ -66,11 +66,12 @@ log "2b/5 安装 Python 依赖（pin 在 $REQ_FILE_REL）"
 python3 -m pip install --quiet --upgrade pip
 python3 -m pip install --quiet -r "$REQ_FILE"
 python3 -c "
-import premailer, bs4, markdown, yaml
+import premailer, bs4, markdown, yaml, PIL
 print('  premailer', premailer.__version__)
 print('  beautifulsoup4', bs4.__version__)
 print('  markdown', markdown.__version__)
 print('  pyyaml', yaml.__version__)
+print('  pillow', PIL.__version__)
 "
 
 log "3/5 注入 vendored skills 到 ~/.claude/skills/"

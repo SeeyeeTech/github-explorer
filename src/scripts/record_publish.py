@@ -33,6 +33,26 @@ PUBLISH_JSONL = ROOT / "src" / "data" / "publish_history.jsonl"
 VALID_STATES = {"pending", "draft", "excluded", "published"}
 
 
+def _already_recorded(out: Path, slug: str, state: str) -> bool:
+    """jsonl 里是否已有完全相同的 (slug, state) 记录。
+
+    幂等粒度按 (slug, state)：保留状态机语义（同 slug 的 pending→published
+    仍可追加），只拦截完全重复的同状态行。slug 比较大小写不敏感。"""
+    if not out.exists():
+        return False
+    for line in out.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            rec = json.loads(line)
+        except json.JSONDecodeError:
+            continue  # 容错坏行
+        if (rec.get("slug") or "").strip().lower() == slug and rec.get("state") == state:
+            return True
+    return False
+
+
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--slug", required=True, help="报告 slug（lowercase，与 reports.slug 一致）")
@@ -48,9 +68,14 @@ def main(argv: list[str] | None = None) -> int:
         print("❌ state=published 时必须 --published-at YYYY-MM-DD", file=sys.stderr)
         return 1
 
+    slug = args.slug.lower()
+    if _already_recorded(args.out, slug, args.state):
+        print(f"⏭ 跳过：{slug} 已有 state={args.state} 记录（幂等）")
+        return 0
+
     record = {
         "recorded_at": datetime.now(timezone.utc).isoformat(),
-        "slug": args.slug.lower(),
+        "slug": slug,
         "title": args.title,
         "state": args.state,
         "published_at": args.published_at,

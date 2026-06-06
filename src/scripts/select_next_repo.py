@@ -8,8 +8,10 @@
     * 注意：CI 里 select 这步之前不重建 db.sqlite，所以读 git 跟踪的 starred.json
       自己聚合，而不是依赖 v_starred_frequency 视图。
 
-去重逻辑：
+去重逻辑（全部大小写不敏感，slug / url 统一归一为小写后比较）：
   - 命中 src/analysis_report/{owner}_{repo}.md 的视为已分析
+  - 命中 src/data/publish_history.jsonl 里记录过的 slug 也视为已分析
+    （即使报告 .md 被删，已分析/已发表过的仓库仍不会被重新选中）
   - 命中 src/analysis_report/repos.md 里 "❌ <url>" 的视为黑名单
 
 打分排序：score = trending_days + star_users * STAR_WEIGHT，tie-break 用 stars。
@@ -35,6 +37,7 @@ TRENDING_JSON = ROOT / "src" / "trending_repo" / "all_repos_deduped.json"
 STARRED_JSON = ROOT / "src" / "data" / "starred.json"
 ANALYSIS_DIR = ROOT / "src" / "analysis_report"
 BLACKLIST_FILE = ROOT / "src" / "analysis_report" / "repos.md"
+PUBLISH_JSONL = ROOT / "src" / "data" / "publish_history.jsonl"
 
 STAR_WEIGHT = int(os.environ.get("STAR_WEIGHT", "8"))
 STAR_MIN_USERS = int(os.environ.get("STAR_MIN_USERS", "2"))
@@ -81,9 +84,26 @@ def load_starred_frequency() -> dict[str, dict]:
 
 
 def load_analyzed_slugs() -> set[str]:
-    if not ANALYSIS_DIR.exists():
-        return set()
-    return {p.stem for p in ANALYSIS_DIR.glob("*.md")}
+    """已分析仓库的 slug 集合（小写）：现存报告 .md ∪ publish_history 记录。
+
+    纳入 publish_history.jsonl 是为了在报告 .md 被删后，已分析/已发表过的
+    仓库仍不会被重新选中（贴合「发表过的不重复发布」）。"""
+    slugs: set[str] = set()
+    if ANALYSIS_DIR.exists():
+        slugs |= {p.stem.lower() for p in ANALYSIS_DIR.glob("*.md")}
+    if PUBLISH_JSONL.exists():
+        for line in PUBLISH_JSONL.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                rec = json.loads(line)
+            except json.JSONDecodeError:
+                continue  # 容错坏行，不让单条脏数据拖垮选题
+            s = (rec.get("slug") or "").strip().lower()
+            if s:
+                slugs.add(s)
+    return slugs
 
 
 def load_blacklist_urls() -> set[str]:
@@ -94,12 +114,13 @@ def load_blacklist_urls() -> set[str]:
     for line in BLACKLIST_FILE.read_text(encoding="utf-8").splitlines():
         m = pattern.match(line.strip())
         if m:
-            urls.add(m.group(1).rstrip("/"))
+            urls.add(m.group(1).rstrip("/").lower())
     return urls
 
 
 def slug_of(name: str) -> str:
-    return name.replace("/", "_")
+    # 归一为小写：报告文件名是全小写，去重 key 必须大小写不敏感才能命中
+    return name.replace("/", "_").lower()
 
 
 def score_of(item: dict) -> int:
@@ -154,7 +175,7 @@ def build_pool(
     for url, item in merged.items():
         if slug_of(item["name"]) in analyzed:
             continue
-        if url in blacklist:
+        if url.lower() in blacklist:
             continue
         pool.append(item)
 

@@ -304,9 +304,9 @@ class TestPublishHistory(TempDBTest):
         ).fetchone()
         self.assertEqual(foo, ("published", "2026-02-01", "Foo 公众号"))
         bar = c.execute(
-            "SELECT published_state, published_reason FROM reports WHERE slug='bar'"
+            "SELECT published_state, published_at, published_title FROM reports WHERE slug='bar'"
         ).fetchone()
-        self.assertEqual(bar, ("excluded", "重复"))
+        self.assertEqual(bar, ("excluded", None, None))
         c.close()
 
     def test_seed_publish_history_from_jsonl(self):

@@ -241,7 +241,6 @@ def parse_report(path: Path, publish_index: dict[str, dict]) -> dict | None:
         "published_state": pub.get("state"),
         "published_at": pub.get("at"),
         "published_title": pub.get("title"),
-        "published_reason": pub.get("reason"),
     }
 
 
@@ -283,7 +282,7 @@ REPORT_COLS = (
     "slug", "title", "original_url", "summary", "stars", "forks",
     "language", "loc_raw", "age_months", "age_raw", "stage", "contribution",
     "heat", "heat_raw", "quality", "license", "cover", "mtime",
-    "published_state", "published_at", "published_title", "published_reason",
+    "published_state", "published_at", "published_title",
 )
 
 

@@ -58,7 +58,6 @@ MIGRATIONS: dict[int, str] = {
           published_state   TEXT    CHECK (published_state IN ('pending','draft','excluded','published') OR published_state IS NULL),
           published_at      TEXT,
           published_title   TEXT,
-          published_reason  TEXT,
           created_at        TEXT    DEFAULT (datetime('now')),
           updated_at        TEXT    DEFAULT (datetime('now'))
         );
@@ -744,15 +743,14 @@ def reconcile_reports_published(conn: sqlite3.Connection) -> int:
         # 先清除 reports 中可能由旧 parse_publish_index 残留的 published_* 字段
         conn.execute(
             "UPDATE reports SET published_state=NULL, published_at=NULL, "
-            "published_title=NULL, published_reason=NULL"
+            "published_title=NULL"
         )
         # 从 v_publish_latest 反查（slug 只可能在 publish_history 中存在但 reports 中已删除，跳过）
         cur = conn.execute("""
             UPDATE reports
             SET published_state  = (SELECT state FROM v_publish_latest WHERE slug = reports.slug),
                 published_at     = (SELECT published_at FROM v_publish_latest WHERE slug = reports.slug),
-                published_title  = (SELECT title FROM v_publish_latest WHERE slug = reports.slug),
-                published_reason = (SELECT reason FROM v_publish_latest WHERE slug = reports.slug)
+                published_title  = (SELECT title FROM v_publish_latest WHERE slug = reports.slug)
             WHERE EXISTS (SELECT 1 FROM v_publish_latest WHERE slug = reports.slug)
         """)
         return cur.rowcount

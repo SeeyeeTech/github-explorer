@@ -1,0 +1,295 @@
+name: Daily Digest (AI 日报)
+
+# ───────────────────────────────────────────────────────────────────────────
+# AI 日报双篇产出流水线（两个 skill）：
+#   - 篇A ai-daily-ecosystem（开源生态）→ src/daily_report/<date>.md(+.meta.json)，上站
+#   - 篇B ai-daily-frontier（前沿快讯）  → src/ai_news/<date>.md(+.meta.json)，不上站
+#
+# 后端说明（重要）：CI 默认走 Minimax 的 Anthropic 兼容端点，**可能不支持
+# server-side WebSearch**。因此：
+#   - 篇A 以确定性数据（collect_daily_facts.py 的开源信号层）为核心，总能产出；
+#   - 篇B 依赖外部实时采集，CI 上可能拿不到增量 → 允许「无产出时优雅跳过」，
+#     不让单篇失败拖垮整个 workflow（matrix fail-fast: false）。
+#   - 要让篇B 富采集，需给 daily 单独配 Anthropic backend（本地可 FORCE_BACKEND=anthropic
+#     + ANTHROPIC_API_KEY 跑 run_skill.sh，或在该机另配支持 WebSearch 的后端）。
+#
+# 排期：UTC 21:00（北京 05:00），排在 refresh-data 的 UTC 20:00 之后，
+# 以便吃到当天最新刷新的 trending + starred 数据源。
+# ───────────────────────────────────────────────────────────────────────────
+
+on:
+  schedule:
+    - cron: '0 21 * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '日报日期 YYYY-MM-DD（留空=今天 UTC）'
+        required: false
+        default: ''
+      type:
+        description: '产出范围'
+        required: false
+        default: 'both'
+        type: choice
+        options: ['both', 'ecosystem', 'frontier']
+      skip_publish:
+        description: '跳过公众号发布（默认 true=只产出不发布）'
+        required: false
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  # ── prep：把 workflow_dispatch 的 type 输入收窄成 matrix。
+  #    dispatch 选 ecosystem/frontier → 只跑那一篇；both 或定时 → 两篇都跑。
+  prep:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.calc.outputs.matrix }}
+    steps:
+      - id: calc
+        env:
+          DISPATCH_TYPE: ${{ github.event.inputs.type }}
+        run: |
+          set -euo pipefail
+          case "${DISPATCH_TYPE:-both}" in
+            ecosystem) matrix='["ecosystem"]' ;;
+            frontier)  matrix='["frontier"]' ;;
+            *)         matrix='["ecosystem","frontier"]' ;;
+          esac
+          echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
+          echo "::notice::digest matrix = $matrix"
+
+  digest:
+    needs: prep
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false          # 一篇失败/无增量不影响另一篇
+      max-parallel: 1           # 串行：两篇都 append 同一个 daily_digests.jsonl，串行避免并发 push/append 竞争
+      matrix:
+        type: ${{ fromJSON(needs.prep.outputs.matrix) }}
+    env:
+      # 推理后端：Minimax 的 Anthropic 兼容端点，BASE_URL 写死在 run_skill.sh 里
+      MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+      # 应急降级：仅当本地/手动设了 FORCE_BACKEND=anthropic 才会用到
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      # 公众号草稿箱凭证：仅供 setup_ci_env.sh 在 REQUIRE_PUBLISH=1 时 fail-fast 校验
+      WECHAT_APPID: ${{ secrets.WECHAT_APPID }}
+      WECHAT_APPSECRET: ${{ secrets.WECHAT_APPSECRET }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: requirements-ci.txt
+
+      # 缓存用户级 tokei 二进制（与 auto-analyze.yml 同款 key 策略）
+      - name: Cache tokei binary
+        uses: actions/cache@v4
+        with:
+          path: ~/.local/bin/tokei
+          key: tokei-${{ runner.os }}-${{ hashFiles('src/scripts/setup_ci_env.sh') }}
+
+      # 缓存用户级 npm 全局目录（含 @anthropic-ai/claude-code）
+      - name: Cache npm global (claude-code CLI)
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm-global
+          key: npm-global-${{ runner.os }}-${{ hashFiles('src/scripts/setup_ci_env.sh') }}
+
+      - name: Bootstrap CI environment
+        env:
+          # 仅当手动 dispatch 明确 skip_publish=false 时才硬性校验发布凭证；
+          # 定时（输入为空）/ dispatch 默认 true 都不强制（初期默认跳过发布）。
+          REQUIRE_PUBLISH: ${{ github.event.inputs.skip_publish == 'false' && '1' || '0' }}
+        run: bash src/scripts/setup_ci_env.sh
+
+      - name: 计算日报日期（dispatch 输入或今天 UTC）
+        run: |
+          set -euo pipefail
+          DATE_IN="${{ github.event.inputs.date }}"
+          if [[ -n "$DATE_IN" ]]; then
+            DATE="$DATE_IN"
+          else
+            DATE="$(date -u +%F)"
+          fi
+          echo "DATE=$DATE" >> "$GITHUB_ENV"
+          echo "::notice::日报日期 = $DATE (type=${{ matrix.type }})"
+
+      # fail-fast：先预跑确定性采集，确认数据源齐备（也顺带把 facts JSON 落到 tmp/）
+      - name: 校验确定性数据齐备（collect_daily_facts 预跑）
+        run: |
+          set -euo pipefail
+          mkdir -p tmp/logs
+          python3 src/scripts/collect_daily_facts.py "$DATE" --type "${{ matrix.type }}"
+
+      - name: 跑 AI 日报 skill (/ai-daily-${{ matrix.type }})
+        # 不开 -e 终止：skill 失败（如 Minimax 不支持 WebSearch 导致篇B 采集为空）
+        # 不应直接 fail 整个 type，交由下一步「定位产出」按 md 是否存在决定是否优雅跳过。
+        run: |
+          set -uo pipefail
+          prompt="/ai-daily-${{ matrix.type }} $DATE，确定性数据用 src/scripts/collect_daily_facts.py，按 skill 产出 md 与同名 .meta.json"
+          rc=0
+          bash src/scripts/run_skill.sh "$prompt" \
+            --timeout 1800 \
+            --log "tmp/logs/ai-daily-${{ matrix.type }}.log" || rc=$?
+          if [[ $rc -ne 0 ]]; then
+            echo "::warning::run_skill 退出码 $rc（${{ matrix.type }}）；后续按产物是否存在决定优雅跳过"
+          fi
+
+      - name: 定位产出 MD（不存在则优雅跳过该 type）
+        id: locate
+        run: |
+          set -euo pipefail
+          case "${{ matrix.type }}" in
+            ecosystem) md="src/daily_report/$DATE.md" ;;
+            frontier)  md="src/ai_news/$DATE.md" ;;
+            *) echo "::error::未知 type ${{ matrix.type }}"; exit 1 ;;
+          esac
+          if [[ -f "$md" ]]; then
+            echo "md=$md" >> "$GITHUB_OUTPUT"
+            echo "produced=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::产出 $md"
+          else
+            echo "produced=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::未产出 $md（${{ matrix.type }} 可能无增量/外部采集为空），优雅跳过，不 fail workflow"
+          fi
+
+      - name: 提取标题/提要（frontmatter → H1 → meta.json 兜底）
+        if: steps.locate.outputs.produced == 'true'
+        env:
+          MD: ${{ steps.locate.outputs.md }}
+        run: |
+          set -euo pipefail
+          python3 - "$MD" >> "$GITHUB_ENV" <<'PY'
+          import sys, json, re
+          from pathlib import Path
+          md = Path(sys.argv[1])
+          text = md.read_text(encoding="utf-8")
+          title = summary = ""
+          # 1) YAML frontmatter
+          m = re.match(r"^---\n(.*?)\n---\n", text, re.S)
+          if m:
+              try:
+                  import yaml
+                  fm = yaml.safe_load(m.group(1)) or {}
+                  title = (fm.get("title") or "").strip()
+                  summary = (fm.get("summary") or fm.get("digest") or fm.get("description") or "").strip()
+              except Exception:
+                  pass
+          # 2) H1 兜底标题
+          if not title:
+              h = re.search(r"^#\s+(.+)$", text, re.M)
+              if h:
+                  title = h.group(1).strip()
+          # 3) 同名 .meta.json 兜底
+          meta = md.with_suffix(".meta.json")
+          if (not title or not summary) and meta.exists():
+              try:
+                  j = json.loads(meta.read_text(encoding="utf-8"))
+                  title = title or (j.get("title") or "").strip()
+                  summary = summary or (j.get("digest") or j.get("summary") or "").strip()
+              except Exception:
+                  pass
+          one = lambda s: " ".join((s or "").split())  # 折成单行，安全写入 GITHUB_ENV
+          print(f"DIGEST_TITLE={one(title) or md.stem}")
+          print(f"DIGEST_SUMMARY={one(summary)}")
+          PY
+
+      - name: 记录日报索引 (daily_digests.jsonl)
+        if: steps.locate.outputs.produced == 'true'
+        run: |
+          set -euo pipefail
+          # record_daily.py 幂等：同 (type, date) 重复调用会跳过
+          python3 src/scripts/record_daily.py \
+            --type "${{ matrix.type }}" \
+            --date "$DATE" \
+            --slug "$DATE" \
+            --title "$DIGEST_TITLE" \
+            --summary "$DIGEST_SUMMARY" \
+            --ci-run-id "$GITHUB_RUN_ID"
+
+      - name: 发布到公众号草稿箱（默认跳过：先稳产出再开发布）
+        if: steps.locate.outputs.produced == 'true' && github.event.inputs.skip_publish == 'false'
+        env:
+          REPORT_MD: ${{ steps.locate.outputs.md }}
+        run: |
+          set -euo pipefail
+          # 初期默认跳过：定时触发（skip_publish 为空）与 dispatch 默认 true 都不会进到这里，
+          # 只有手动 dispatch 显式 skip_publish=false 才发布。
+          # 复用一文多发框架的公众号渠道，入草稿箱（不直接群发）。
+          # 备选：若需走 ali-demo，可改用 auto-analyze.yml 的 /md2wechat + SSH 跳板 block。
+          python3 scripts/syndicate_publish.py "$REPORT_MD" --channel wechat
+
+      - name: Commit & Push（仅当有产出）
+        if: steps.locate.outputs.produced == 'true'
+        # 不开 -e：push 重试失败时本地 commit 已存（仅当次 runner），不应让 job fail
+        run: |
+          set -uo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # 共享产物（两篇都写）：日报索引 + dedup 缓存
+          git add src/data/daily_digests.jsonl src/data/ai-daily/cache/ 2>/dev/null || true
+          # 按 type 加各自的 md 目录（另一篇的目录在本 runner 不存在，单列避免 git add 报错）
+          case "${{ matrix.type }}" in
+            ecosystem) git add src/daily_report/ 2>/dev/null || true ;;
+            frontier)  git add src/ai_news/ 2>/dev/null || true ;;
+          esac
+          if git diff --cached --quiet; then
+            echo "::notice::无变更可提交"
+            exit 0
+          fi
+          msg=$(cat <<MSG
+          feat(daily): AI 日报 ${{ matrix.type }} $DATE
+
+          Run-URL ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          MSG
+          )
+          git commit -m "$msg"
+
+          # 3 次重试 + rebase 自愈临时冲突 / 网络抖动（沿用 auto-analyze.yml）。
+          # rebase 失败（如 jsonl 追加冲突）则 abort，避免卡在半完成的 rebase 状态。
+          pushed=0
+          for i in 1 2 3; do
+            if git push; then
+              pushed=1
+              break
+            fi
+            echo "::warning::push 第 $i/3 次失败，尝试 rebase 后重试"
+            git pull --rebase --autostash origin main \
+              || { echo "::warning::rebase 失败（第 $i 次），abort 后重试"; git rebase --abort 2>/dev/null || true; }
+            sleep $((i * 5))
+          done
+          if [[ $pushed -eq 0 ]]; then
+            echo "::error::3 次 push 均失败。本 runner 为临时环境，commit 不跨 run 保留；下次定时会按当日重新产出。"
+          fi
+
+      - name: Upload logs (always)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-digest-logs-${{ matrix.type }}-${{ github.run_id }}
+          path: |
+            tmp/logs/
+            tmp/daily-facts-*.json
+          retention-days: 14
+          if-no-files-found: ignore

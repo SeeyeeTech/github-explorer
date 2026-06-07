@@ -7,6 +7,9 @@ on:
       - "src/analysis_report/**"
       - "src/trending_repo/**"
       - "src/data/**"
+      # AI 日报篇A（ecosystem）落 src/daily_report/，新日报需触发站点重建；
+      # 篇B（frontier）落 src/ai_news/，不上站，故不列入 paths。
+      - "src/daily_report/**"
       - "site/**"
       - "scripts/**"
       - ".github/workflows/pages.yml"

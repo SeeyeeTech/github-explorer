@@ -48,8 +48,8 @@ class PlaywrightAdapter(BaseAdapter):
     login_url = ""                   # 登录入口；留空则用 editor_url
 
     # ── 子类必须实现 ────────────────────────────────────────────────
-    def is_logged_in(self, page) -> bool:
-        """当前页面/上下文是否已登录该平台。子类覆盖（查 cookie 或登录态元素）。"""
+    def is_logged_in(self, context) -> bool:
+        """当前上下文是否已登录该平台。子类覆盖（查 context.cookies()，不依赖当前页面 URL）。"""
         raise NotImplementedError
 
     def do_publish(
@@ -116,7 +116,7 @@ class PlaywrightAdapter(BaseAdapter):
             try:
                 page.goto(self.editor_url, wait_until="domcontentloaded")
                 page.wait_for_timeout(1500)
-                ok = self.is_logged_in(page)
+                ok = self.is_logged_in(ctx)
             except Exception as e:  # noqa: BLE001
                 print(f"   登录态校验时出错：{e}")
             ctx.close()
@@ -147,13 +147,12 @@ class PlaywrightAdapter(BaseAdapter):
             ctx = self._launch(p, headless=headless)
             page = self._page(ctx)
             try:
-                page.goto(self.editor_url, wait_until="domcontentloaded")
-                page.wait_for_timeout(1500)
-                if not self.is_logged_in(page):
+                if not self.is_logged_in(ctx):
                     raise RuntimeError(
-                        f"{self.name} 未登录或登录态已失效。先跑：\n"
+                        f"{self.name} 未登录或登录态已失效（cookie 缺失/过期）。先跑：\n"
                         f"  python3 scripts/syndicate_publish.py --channel {self.name} --login"
                     )
+                # 导航交给 do_publish（新建 goto editor_url；更新 goto ?articleId=）
                 result = self.do_publish(
                     page, article, rendered,
                     publish=publish, existing_post_id=existing_post_id, commit=commit,

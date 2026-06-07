@@ -82,6 +82,11 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--dry-run", action="store_true", help="不联网，仅验证解析/渲染/幂等判断")
     p.add_argument("--force-new", action="store_true", help="忽略已记录 post_id，强制新建")
     p.add_argument("--list", action="store_true", help="列出已注册渠道")
+    # playwright 渠道（csdn 等）：一次性登录 / 发布前预演
+    p.add_argument("--login", action="store_true",
+                   help="playwright 渠道：打开浏览器人工登录一次，持久化登录态（只需 --channel）")
+    p.add_argument("--preview", action="store_true",
+                   help="配合 --dry-run：playwright 渠道打开浏览器灌内容、停在发布前")
     # 浏览器渠道（juejin/csdn）发布后回写历史：
     p.add_argument("--record", action="store_true",
                    help="回写一条发布历史（浏览器渠道由 agent 发完后用）")
@@ -97,6 +102,21 @@ def main(argv: list[str] | None = None) -> int:
     if args.list:
         print("已注册渠道:", ", ".join(available_channels()) or "(无)")
         return 0
+
+    # ── --login：playwright 渠道一次性登录，只需 --channel，不需 report ──
+    if args.login:
+        if not args.channel:
+            p.error("--login 需要 --channel")
+        try:
+            adapter = get_adapter(args.channel)
+        except RuntimeError as e:
+            print(f"❌ {e}", file=sys.stderr)
+            return 1
+        if getattr(adapter, "mode", "") != "playwright":
+            print(f"❌ 渠道 {args.channel} 非 playwright 模式，无需 --login", file=sys.stderr)
+            return 1
+        return 0 if adapter.login() else 1
+
     if not args.report or not args.channel:
         p.error("需要 <report.md> 和 --channel（或用 --list 查看渠道）")
 
@@ -169,6 +189,9 @@ def main(argv: list[str] | None = None) -> int:
                 print(f"❌ {e}", file=sys.stderr)
                 return 1
             print(f"🧪 dry-run：{channel} 自渲染产物 → {out or '(见上方日志)'}（未发布、未写历史）")
+        elif adapter.mode == "playwright" and args.preview:
+            adapter.preview(article, rendered)
+            print("🧪 预演结束（已停在发布前，未发布、未写历史）")
         else:
             ext = "html" if rendered.content_format == "html" else "md"
             out = Path("tmp") / f"syndicate-{channel}-{article.slug}.{ext}"

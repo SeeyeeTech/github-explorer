@@ -1,64 +1,139 @@
-"""CSDN adapter —— 浏览器自动化（无开放发布 API）。
+"""CSDN adapter —— Playwright 持久化登录 + 脚本驱动发布（路线 C）。
 
-CSDN 有 markdown 编辑器（editor.csdn.net/md），需登录态。发布流程：写正文 →
-填标题 → 点「发布文章」→ 弹窗填 标签 / 分类专栏 / 封面 / 文章类型(原创) /
-可见范围 → 发布。
+从旧的 mode='browser'（agent 实时驱动 DOM）升级为 mode='playwright'（脚本用
+Playwright 复用「一次性手动登录」的持久化会话，固定代码驱动 DOM）。一次 `--login`、
+之后一条命令一键发，不再需要 Claude 盯屏幕逐步操作。设计与基类见 ../playwright_base.py。
 
-导流到公众号：**CSDN 禁止出现「微信公众号」字样**（用户实测/平台规则），故本
-adapter 置 name_wechat=False —— 页脚仍点名账号「智能时代蛮子」+「全网同名，
-搜一搜即达」，只是不出现「微信公众号 / 微信」这几个字，靠同名让读者自行搜到，
-不触发 CSDN 关键词拦截。
+CSDN markdown 编辑器：editor.csdn.net/md/，需登录态。发布流程：写正文 → 填标题 →
+点「发布文章」→ 弹窗填 标签 / 分类专栏 / 封面 / 文章类型(原创) / 可见范围 → 发布。
+存草稿走顶部「保存草稿」。编辑既有文章：editor.csdn.net/md/?articleId=<id>，故 post_id
+直接复用为 article id 做幂等更新。
+
+导流到公众号：**CSDN 禁止出现「微信公众号 / 微信」字样**（用户实测/平台规则），故置
+name_wechat=False —— 渲染层页脚仍点名账号「智能时代蛮子」+「全网同名，搜一搜即达」，
+只是不出现「微信」字样，靠同名让读者自行搜到，不触发 CSDN 关键词拦截。
+
+⚠️ selector 会随 CSDN 改版漂移。首次跑通后若报「找不到元素」，用
+`playwright codegen https://editor.csdn.net/md/` 录制真实 selector 更新下方常量即可。
 """
 from __future__ import annotations
 
-from ..base import Article, register
-from ..browser import BrowserAdapter
+import re
+
+from ..base import Article, PublishResult, RenderedArticle, register
+from ..playwright_base import PlaywrightAdapter
 
 
 @register
-class CsdnAdapter(BrowserAdapter):
+class CsdnAdapter(PlaywrightAdapter):
     name = "csdn"
     editor_url = "https://editor.csdn.net/md/"
-    name_wechat = False   # CSDN 禁止「微信公众号」字样：页脚保留账号名但不点名微信
+    login_url = "https://passport.csdn.net/login?code=public"
+    content_format = "markdown"
+    name_wechat = False   # CSDN 禁「微信」字样：页脚保留账号名但不点名微信
 
-    def field_notes(self, article: Article) -> dict:
-        return {
-            "标签": "、".join(article.tags) if article.tags
-            else "在发布弹窗搜并选相关标签（如 github、开源、人工智能）",
-            "分类专栏": "可选；若有「开源项目解析」类专栏则归入",
-            "文章类型": "原创",
-            "可见范围": "全部可见",
-            "封面": "可留空自动，或上传 GitHub 社交卡",
-            "导流": "⚠️ CSDN 禁止「微信公众号 / 微信」字样——页脚已自动改为只点名「智能时代蛮子」+「全网同名，搜一搜即达」；勿在正文/二维码另加微信字样",
-        }
+    # ── selector（集中管理，便于改版校准；每项多个兜底）────────────────────
+    SEL_TITLE = [
+        "input[placeholder*='标题']",
+        "input.article-bar__title",
+        ".article-bar input[type='text']",
+    ]
+    SEL_EDITOR = [
+        ".cm-content",                 # CodeMirror 6
+        ".CodeMirror textarea",        # CodeMirror 5 隐藏输入
+        ".CodeMirror",
+        "div.editor__inner",
+    ]
+    SEL_PUBLISH_BTN = [               # 右上「发布文章」（打开发布弹窗）
+        "button.btn-publish",
+        "button:has-text('发布文章')",
+    ]
+    SEL_SAVE_DRAFT = [               # 顶部「保存草稿」
+        "button:has-text('保存草稿')",
+        "button:has-text('保存为草稿')",
+        ".save-draft",
+    ]
+    SEL_TAG_INPUT = [
+        "input[placeholder*='文章标签']",
+        "input[placeholder*='标签']",
+        ".mark-selection-item input",
+        ".tag-box input",
+    ]
+    SEL_MODAL_PUBLISH = [            # 弹窗内最终「发布文章」
+        ".modal-container button:has-text('发布文章')",
+        ".el-dialog button:has-text('发布文章')",
+        ".modal button.btn-b-red",
+        "button.btn-b-red:has-text('发布')",
+    ]
 
-    def playbook(self, article: Article, content_path: str, existing_url: str) -> list:
-        if existing_url:
-            head = [
-                f"该报告此前已发到 CSDN：{existing_url}",
-                "→ 这是【更新】：从该文章页进入「编辑」，其余步骤同新建。",
-            ]
-        else:
-            head = [
-                "这是【新建】文章。",
-                f"navigate 到 CSDN markdown 编辑器：{self.editor_url}",
-            ]
-        return head + [
-            "确认已登录 CSDN（右上有头像）。未登录则先让用户在该浏览器登录，不要代登录。",
-            f"读取渲染好的正文：{content_path}（已含导流页脚）。",
-            "把正文 markdown 灌入左侧编辑器：优先用 javascript_tool 给 CodeMirror/textarea 设值；"
-            "不行则聚焦编辑器后用剪贴板粘贴（设系统剪贴板 + Cmd/Ctrl+V），勿逐字键入。",
-            f"标题栏填：{article.title}",
-            "（可选）若要二维码导流：在正文末插入公众号二维码图片 + 「扫码关注公众号」一行。",
-            "点右上「发布文章」打开发布弹窗。",
-            "在弹窗里：① 加「标签」 ②（可选）选分类专栏 ③ 文章类型选「原创」 ④ 可见范围「全部可见」 ⑤（可选）封面。见 field_notes。",
-            "点「发布文章」。",
-            "成功后复制文章 URL（形如 https://blog.csdn.net/<用户名>/article/details/<id>）。",
-            "回写历史：python3 scripts/syndicate_publish.py "
-            f"{_report_hint(article)} --channel csdn --record --state published "
-            "--url <文章URL> --post-id <id>",
-        ]
+    # CSDN 登录后写入的 cookie（任一存在即视为已登录）
+    LOGIN_COOKIES = {"UserName", "UserToken", "UserInfo"}
 
+    def is_logged_in(self, context) -> bool:
+        try:
+            names = {c.get("name") for c in context.cookies()}
+        except Exception:  # noqa: BLE001
+            return False
+        return bool(names & self.LOGIN_COOKIES)
 
-def _report_hint(article: Article) -> str:
-    return str(article.source_path) if article.source_path else "<报告.md>"
+    def do_publish(
+        self, page, article: Article, rendered: RenderedArticle, *,
+        publish: bool, existing_post_id: str | None, commit: bool,
+    ) -> PublishResult | None:
+        # 1) 打开编辑器（更新则带 articleId）
+        target = (
+            f"{self.editor_url}?articleId={existing_post_id}"
+            if existing_post_id else self.editor_url
+        )
+        page.goto(target, wait_until="domcontentloaded")
+        page.wait_for_timeout(2000)  # 编辑器异步初始化
+        if "passport.csdn.net" in page.url:
+            raise RuntimeError("打开编辑器被重定向到登录页，登录态可能失效，请重跑 --login")
+
+        # 2) 标题
+        title_el = self._first(page, self.SEL_TITLE)
+        title_el.click()
+        title_el.fill(article.title)
+
+        # 3) 正文（CodeMirror：聚焦后一次性插入）
+        self._focus_insert(page, self.SEL_EDITOR, rendered.content)
+        page.wait_for_timeout(500)
+
+        # 4) 预演到此为止（不点发布、不写历史）
+        if not commit:
+            return None
+
+        # 5a) 存草稿
+        if not publish:
+            self._click(page, self.SEL_SAVE_DRAFT)
+            page.wait_for_timeout(2000)
+            pid = self._extract_article_id(page.url) or (existing_post_id or "")
+            return PublishResult(post_id=pid, url=page.url, state="draft")
+
+        # 5b) 发布：打开弹窗 → 填标签 →（类型默认原创、可见默认全部）→ 确认发布
+        self._click(page, self.SEL_PUBLISH_BTN)
+        page.wait_for_timeout(1500)
+        if article.tags:
+            tag_in = self._first(page, self.SEL_TAG_INPUT, required=False)
+            if tag_in:
+                for t in article.tags[:5]:
+                    tag_in.click()
+                    tag_in.fill(t)
+                    page.wait_for_timeout(300)
+                    page.keyboard.press("Enter")
+        self._click(page, self.SEL_MODAL_PUBLISH)
+        try:
+            page.wait_for_url("**/article/details/**", timeout=30000)
+        except Exception:  # noqa: BLE001 — 兜底：少数情况停在编辑器并提示成功
+            page.wait_for_timeout(3000)
+        pid = self._extract_article_id(page.url) or (existing_post_id or "")
+        url = (
+            page.url if "article/details" in page.url
+            else f"https://blog.csdn.net/article/details/{pid}"
+        )
+        return PublishResult(post_id=pid, url=url, state="published")
+
+    @staticmethod
+    def _extract_article_id(url: str | None) -> str:
+        m = re.search(r"(?:articleId=|article/details/)(\d+)", url or "")
+        return m.group(1) if m else ""

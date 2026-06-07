@@ -21,6 +21,11 @@ from dataclasses import dataclass, field
 from .base import ROOT, Article, BaseAdapter, PublishResult, RenderedArticle
 
 
+def report_hint(article: Article) -> str:
+    """playbook 里拼 --record 命令时用的报告路径占位。"""
+    return str(article.source_path) if article.source_path else "<报告.md>"
+
+
 @dataclass
 class BrowserPackage:
     channel: str
@@ -88,7 +93,8 @@ class BrowserAdapter(BaseAdapter):
     def prepare(
         self, article: Article, rendered: RenderedArticle, *, existing_url: str = ""
     ) -> BrowserPackage:
-        content_path = ROOT / "tmp" / f"syndicate-{self.name}-{article.slug}.md"
+        ext = "html" if rendered.content_format == "html" else "md"
+        content_path = ROOT / "tmp" / f"syndicate-{self.name}-{article.slug}.{ext}"
         content_path.parent.mkdir(parents=True, exist_ok=True)
         content_path.write_text(rendered.content, encoding="utf-8")
         return BrowserPackage(

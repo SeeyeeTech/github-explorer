@@ -14,18 +14,34 @@
 scripts/syndicate_publish.py        CLI 入口
 scripts/syndicate/
   base.py        Article / RenderedArticle / PublishResult / BaseAdapter / 注册表 / 报告解析 / .env.local 加载
-  render.py      Markdown → html|markdown + 导流公众号页脚
+  render.py      Markdown → html|markdown + 导流公众号页脚（两级开关 mp_cta / name_wechat）
   history.py     publish_history.jsonl 的 per-channel 读写 + 幂等查询
-  adapters/
-    cnblogs.py   博客园 MetaWeblog adapter（框架渲染 html）
-    wechat.py    公众号 adapter（self_render，复用 scripts/wechat_publish.py 全套图片/渲染/草稿逻辑）
+  browser.py     BrowserAdapter 基类（mode=browser：脚本只 prepare 发布包 + playbook，发布由 Claude-in-Chrome 驱动）
+  adapters/      已注册 8 个渠道：
+    wechat.py        公众号（self_render，复用 wechat_publish.py）
+    cnblogs.py       博客园（mode=api，MetaWeblog XML-RPC）
+    juejin.py        掘金（mode=browser，markdown）
+    csdn.py          CSDN（mode=browser，markdown，name_wechat=False 禁「微信」字样）
+    zhihu.py         知乎（mode=browser，html 富文本，mp_cta=False 不放公众号 CTA）
+    segmentfault.py  思否（mode=browser，markdown）
+    oschina.py       开源中国：oschina（mode=api，MetaWeblog）+ oschina_web（browser 兜底）
+    aliyun.py        阿里云（mode=browser，markdown，name_wechat=False）
+  metaweblog.py  MetaWeblogAdapter 基类（cnblogs / oschina 共用的 XML-RPC 发布逻辑）
 ```
 
-两类 adapter：
-- **普通**（cnblogs）：框架 `render()` 出 html/markdown（含导流页脚）→ adapter 只管投递。
-- **自渲染**（wechat，`self_render=True`）：渲染与 API 深度耦合（外链图重托管到
-  mmbiz、CSS 全内联、传封面、入草稿箱），且公众号是导流终点不该带自身 CTA，
-  故跳过框架 render，直接调 `wechat_publish.publish_report()`。
+三类 adapter（`mode` + `self_render` 决定）：
+- **api**（cnblogs）：框架 `render()` 出 html/markdown（含导流页脚）→ adapter 调 API 投递。
+- **self_render**（wechat）：渲染与 API 深度耦合（外链图重托管 mmbiz、CSS 内联、封面、草稿箱），
+  且公众号是导流终点不带自身 CTA，故跳过框架 render，直接调 `wechat_publish.publish_report()`。
+- **browser**（juejin/csdn/zhihu/segmentfault/oschina/aliyun）：无开放 API，脚本只 `prepare()` 出
+  发布包（渲染内容 + 编辑器 URL + 字段 + playbook），实际发布由 Claude-in-Chrome 复用登录态驱动，
+  发完用 `--record` 回写历史。
+
+**导流页脚两级开关**（按平台敏感度，在 adapter 上设）：
+- `mp_cta=False`（知乎）：完全不放公众号 CTA，只留 canonical 回链——任何引导都易限流。
+- `name_wechat=False`（CSDN/阿里云）：CTA 保留账号名「{WECHAT_MP_NAME}」+「全网同名，搜一搜即达」，
+  但不出现「微信公众号 / 微信」字样（平台禁/慎用）。
+- 默认（掘金/思否/开源中国/博客园）：完整「关注微信公众号「{name}」（全网同名，微信搜一搜即达）」。
 
 设计原则（与现有管线对齐，不另起一套）：
 
@@ -72,6 +88,25 @@ CNBLOGS_TOKEN=your-metaweblog-token # 后台「设置 → 博客设置 → MetaW
 # CNBLOGS_RPC_URL=...               # 可选，默认 https://rpc.cnblogs.com/metaweblog/<blogapp>
 # CNBLOGS_CATEGORIES=[随笔分类]开源  # 可选，逗号分隔
 ```
+
+### 开源中国 oschina（MetaWeblog API）
+
+端点已探活：`https://www.oschina.net/action/xmlrpc`。**鉴权是账号登录名 + 登录密码**
+（不是专用 token，与博客园不同）。若你用第三方（GitHub/微信/微博）登录而没设过密码，
+先去开源中国账号设置里设一个密码。不想把登录密码落到 `.env.local` 的话，改用浏览器
+路径 `--channel oschina_web`（复用浏览器登录态，不落密码）。
+
+```ini
+OSCHINA_USERNAME=your-login-name
+OSCHINA_PASSWORD=your-login-password   # ⚠️ 登录密码本身，本机妥善保管
+# OSCHINA_RPC_URL=...                  # 可选，默认 https://www.oschina.net/action/xmlrpc
+# OSCHINA_BLOGID=...                   # 可选，newPost 的 blogid，默认用 username
+# OSCHINA_BLOG_URL_BASE=https://my.oschina.net/u/1234567/blog  # 可选，文章 URL 前缀（写历史用）
+# OSCHINA_CATEGORIES=开源,AI           # 可选，逗号分隔
+```
+
+> 首次真发建议先 `--dry-run` 看渲染，再 `--channel oschina`（默认存草稿，人工复核后公开）。
+> 若 API 报错（blogid/URL 因账号而异），退回 `--channel oschina_web` 浏览器兜底。
 
 ### 微信公众号 wechat
 
@@ -129,4 +164,5 @@ syndicate: false        # 该篇不外发；或 [cnblogs] 仅发指定渠道
   `publish_history.jsonl(channel=wechat)`，不冲突。
 - DB 里 `v_publish_latest` 已收窄为「仅 wechat」，其它渠道记录不会污染
   `reports.published_*`（= 公众号发布状态）；多渠道状态查 `v_publish_channel_latest`。
-- 路线：接 Claude-in-Chrome 驱动掘金/CSDN/知乎/思否 → 腾讯云/阿里云走半官方同步。
+- 现状：9 个渠道接入。api：公众号 / 博客园 / **开源中国（MetaWeblog）**；browser：掘金 /
+  CSDN / 知乎 / 思否 / 阿里云 / 开源中国兜底(oschina_web)。腾讯云不集成（已有其他方案）。

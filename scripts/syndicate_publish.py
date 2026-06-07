@@ -43,7 +43,8 @@ def _prepare_browser(article, channel, adapter, *, force_new: bool) -> int:
     prev = None if force_new else history.latest_record(article.slug, channel)
     existing_url = (prev or {}).get("url") or ""
     rendered = render_mod.render(
-        article, adapter.content_format, name_wechat=adapter.name_wechat
+        article, adapter.content_format,
+        mp_cta=adapter.mp_cta, name_wechat=adapter.name_wechat,
     )
     pkg = adapter.prepare(article, rendered, existing_url=existing_url)
 
@@ -140,7 +141,10 @@ def main(argv: list[str] | None = None) -> int:
     # self_render 渠道（公众号）自带渲染管线，跳过框架 render 与导流页脚
     rendered = (
         None if adapter.self_render
-        else render_mod.render(article, adapter.content_format, name_wechat=adapter.name_wechat)
+        else render_mod.render(
+            article, adapter.content_format,
+            mp_cta=adapter.mp_cta, name_wechat=adapter.name_wechat,
+        )
     )
 
     prev = None if args.force_new else history.latest_record(article.slug, channel)

@@ -207,7 +207,10 @@ class BaseAdapter(ABC):
     #   'api'     —— 脚本可直接调用 publish()（cnblogs HTTP / wechat 复用现有管线）
     #   'browser' —— 无开放 API，发布须由 Claude-in-Chrome 驱动浏览器，脚本只 prepare()
     mode: str = "api"
-    # 导流页脚是否点名「微信」。某些平台（如 CSDN）禁止出现「微信公众号」字样，
+    # 导流页脚是否加「关注…」公众号 CTA。极敏感平台（如知乎，任何公众号引导都
+    # 可能触发限流）置 False，页脚只留「本文首发于 …」canonical 回链。
+    mp_cta: bool = True
+    # CTA 里是否点名「微信」。某些平台（如 CSDN/阿里云）禁止或慎用「微信公众号」字样，
     # 置 False 后 CTA 仍保留账号名「{WECHAT_MP_NAME}」+「全网同名，搜一搜即达」，
     # 只是不出现「微信公众号 / 微信」这几个字，靠同名让读者自行搜到。
     name_wechat: bool = True

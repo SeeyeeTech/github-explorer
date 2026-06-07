@@ -18,66 +18,40 @@ MetaWeblog 方法：
 
 待办（未来增强）：正文外链图可用 metaWeblog.newMediaObject 重托管到博客园
 图床，规避个别图源的防盗链；当前先原样保留（GitHub 资产图一般可直显）。
+
+发布逻辑在 ../metaweblog.py 的 MetaWeblogAdapter 基类（与开源中国共用）。
 """
 from __future__ import annotations
 
-import xmlrpc.client
-
-from ..base import Article, BaseAdapter, PublishResult, RenderedArticle, env, register
+from ..base import env, register
+from ..metaweblog import MetaWeblogAdapter
 
 
 @register
-class CnblogsAdapter(BaseAdapter):
+class CnblogsAdapter(MetaWeblogAdapter):
     name = "cnblogs"
-    content_format = "html"
 
-    def _conf(self) -> dict:
+    def _config(self) -> dict:
         blogapp = env("CNBLOGS_BLOGAPP")
-        rpc = env("CNBLOGS_RPC_URL") or (
-            f"https://rpc.cnblogs.com/metaweblog/{blogapp}" if blogapp else ""
-        )
         return {
-            "blogapp": blogapp,
+            "endpoint": env("CNBLOGS_RPC_URL")
+            or (f"https://rpc.cnblogs.com/metaweblog/{blogapp}" if blogapp else ""),
+            "blogid": blogapp,
             "username": env("CNBLOGS_USERNAME"),
-            "token": env("CNBLOGS_TOKEN"),
-            "rpc": rpc,
+            "password": env("CNBLOGS_TOKEN"),
             "categories": [c.strip() for c in env("CNBLOGS_CATEGORIES").split(",") if c.strip()],
+            "blogapp": blogapp,
         }
+
+    def _post_url(self, post_id: str, cfg: dict) -> str:
+        return f"https://www.cnblogs.com/{cfg['blogapp']}/p/{post_id}.html"
 
     def check_auth(self) -> None:
-        c = self._conf()
-        missing = [k for k in ("blogapp", "username", "token") if not c[k]]
+        c = self._config()
+        missing = [k for k in ("blogapp", "username", "password") if not c[k]]
         if missing:
+            label = {"blogapp": "CNBLOGS_BLOGAPP", "username": "CNBLOGS_USERNAME", "password": "CNBLOGS_TOKEN"}
             raise RuntimeError(
-                "博客园缺少凭据: "
-                + ", ".join("CNBLOGS_" + m.upper() for m in missing)
+                "博客园缺少凭据: " + ", ".join(label[m] for m in missing)
                 + "（放进 .env.local，见 scripts/syndicate/README.md）"
             )
-
-    def publish(
-        self,
-        article: Article,
-        rendered: RenderedArticle,
-        *,
-        publish: bool,
-        existing_post_id: str | None = None,
-    ) -> PublishResult:
-        c = self._conf()
-        server = xmlrpc.client.ServerProxy(c["rpc"], allow_none=True)
-        struct = {
-            "title": rendered.title,
-            "description": rendered.content,           # HTML 正文
-            "categories": c["categories"],
-            "mt_keywords": ",".join(article.tags),
-        }
-        api = server.metaWeblog
-        if existing_post_id:
-            api.editPost(existing_post_id, c["username"], c["token"], struct, publish)
-            post_id = str(existing_post_id)
-        else:
-            post_id = str(api.newPost(c["blogapp"], c["username"], c["token"], struct, publish))
-        return PublishResult(
-            post_id=post_id,
-            url=f"https://www.cnblogs.com/{c['blogapp']}/p/{post_id}.html",
-            state="published" if publish else "draft",
-        )

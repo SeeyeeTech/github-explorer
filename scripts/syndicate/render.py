@@ -19,17 +19,18 @@ except ImportError:  # pragma: no cover
     markdown = None
 
 
-def _footer_md(article: Article, *, name_wechat: bool = True) -> str:
+def _footer_md(article: Article, *, mp_cta: bool = True, name_wechat: bool = True) -> str:
     """导流页脚（markdown 片段）。WECHAT_MP_NAME 为空且无 canonical 时返回空串。
 
-    name_wechat=False 时回避「微信公众号 / 微信」字样（如 CSDN 平台禁止），
-    但仍保留账号名 +「全网同名，搜一搜即达」，靠同名让读者自行搜到。
+    mp_cta=False  → 只留 canonical 回链，完全不放公众号 CTA（如知乎，任何引导都易限流）。
+    name_wechat=False → CTA 回避「微信公众号 / 微信」字样（如 CSDN/阿里云），但仍保留账号名
+                        +「全网同名，搜一搜即达」，靠同名让读者自行搜到。
     """
     mp = os.environ.get("WECHAT_MP_NAME", "").strip()
     lines: list[str] = []
     if article.canonical_url:
         lines.append(f"> 本文首发于 [GitHub Explorer]({article.canonical_url})，原文持续更新。")
-    if mp:
+    if mp and mp_cta:
         if name_wechat:
             lines.append(
                 f"> 关注微信公众号「{mp}」（全网同名，微信搜一搜即达），"
@@ -44,14 +45,19 @@ def _footer_md(article: Article, *, name_wechat: bool = True) -> str:
 
 
 def render(
-    article: Article, content_format: str, *, with_footer: bool = True, name_wechat: bool = True
+    article: Article,
+    content_format: str,
+    *,
+    with_footer: bool = True,
+    mp_cta: bool = True,
+    name_wechat: bool = True,
 ) -> RenderedArticle:
     """把 Article 渲染成目标平台所需格式。
 
-    name_wechat 透传给页脚：False 时回避「微信公众号 / 微信」字样（平台限制，如 CSDN）。
+    mp_cta / name_wechat 透传给页脚，按平台限制控制公众号 CTA 的有无与措辞。
     """
     md_text = article.body_md + (
-        _footer_md(article, name_wechat=name_wechat) if with_footer else ""
+        _footer_md(article, mp_cta=mp_cta, name_wechat=name_wechat) if with_footer else ""
     )
 
     if content_format == "markdown":

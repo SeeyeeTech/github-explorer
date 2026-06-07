@@ -17,6 +17,11 @@ entries:
   78_xiaozhi-esp32:
   - iot-hardware
   - protocol-spec
+  a16z-infra_ai-town:
+  - ai-agent
+  - llm-framework
+  - llm-inference
+  - model-foundation
   a2aproject_a2a:
   - ai-agent
   - education
@@ -117,6 +122,11 @@ entries:
   anthropics_skills:
   - ai-agent
   - ai-coding
+  antirez_ds4:
+  - llm-inference
+  - model-foundation
+  - education
+  - security
   apache_superset:
   - ai-agent
   - workflow-automation
@@ -417,6 +427,10 @@ entries:
   facebookresearch_sam2:
   - education
   - video-audio
+  facebookresearch_xformers:
+  - llm-inference
+  - education
+  - protocol-spec
   farion1231_cc-switch:
   - ai-agent
   - ai-coding
@@ -631,6 +645,8 @@ entries:
   jasonppy_voicecraft:
   - video-audio
   - media-generation
+  jekyll_jekyll:
+  - database
   jellyfin_jellyfin:
   - iot-hardware
   jellyfin_jellyfin-desktop:
@@ -731,6 +747,11 @@ entries:
   - security
   makeplane_plane:
   - web-framework
+  - protocol-spec
+  marimo-team_marimo:
+  - ai-agent
+  - ai-coding
+  - education
   - protocol-spec
   memvid_memvid:
   - llm-framework
@@ -995,6 +1016,8 @@ entries:
   - security
   protocolbuffers_protobuf:
   - protocol-spec
+  prql_prql:
+  - workflow-automation
   public-apis_public-apis:
   - database
   puckeditor_puck:
@@ -1025,9 +1048,15 @@ entries:
   - workflow-automation
   resemble-ai_chatterbox:
   - media-generation
+  resque_resque:
+  - uncategorized
   ridgerchu_matmulfreellm:
   - llm-inference
   - trading-finance
+  rightnow-ai_openfang:
+  - ai-agent
+  - protocol-spec
+  - security
   roboflow_supervision:
   - uncategorized
   rowboatlabs_rowboat:
@@ -1040,6 +1069,11 @@ entries:
   - web-framework
   rssnext_folo:
   - protocol-spec
+  run-llama_llama_index:
+  - ai-agent
+  - llm-framework
+  - model-foundation
+  - devtools
   rustdesk_rustdesk:
   - protocol-spec
   rustfs_rustfs:
@@ -1199,6 +1233,8 @@ entries:
   toeverything_affine:
   - editor-kms
   - database
+  toml-lang_toml:
+  - uncategorized
   topoteretes_cognee:
   - ai-agent
   - llm-framework
@@ -1254,6 +1290,9 @@ entries:
   - devtools
   - workflow-automation
   - protocol-spec
+  vercel_ai:
+  - ai-agent
+  - web-framework
   vercel_workflow:
   - ai-agent
   - devtools

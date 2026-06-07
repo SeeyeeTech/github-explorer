@@ -10,6 +10,16 @@
     "trending_days": 58
   },
   {
+    "name": "TapXWorld/ChinaTextbook",
+    "url": "https://github.com/tapxworld/chinatextbook",
+    "language": "Roff",
+    "stars": 72294,
+    "forks": 16214,
+    "description": "所有小初高、大学PDF教材。",
+    "last_seen": "2026-06-07",
+    "trending_days": 35
+  },
+  {
     "name": "nvm-sh/nvm",
     "url": "https://github.com/nvm-sh/nvm",
     "language": "Shell",
@@ -17,16 +27,6 @@
     "forks": 9828,
     "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
     "last_seen": "2026-02-06",
-    "trending_days": 34
-  },
-  {
-    "name": "TapXWorld/ChinaTextbook",
-    "url": "https://github.com/tapxworld/chinatextbook",
-    "language": "Roff",
-    "stars": 68709,
-    "forks": 15339,
-    "description": "所有小初高、大学PDF教材。",
-    "last_seen": "2026-04-13",
     "trending_days": 34
   },
   {
@@ -160,6 +160,16 @@
     "trending_days": 22
   },
   {
+    "name": "NousResearch/hermes-agent",
+    "url": "https://github.com/nousresearch/hermes-agent",
+    "language": "Python",
+    "stars": 185323,
+    "forks": 31850,
+    "description": "The agent that grows with you",
+    "last_seen": "2026-06-07",
+    "trending_days": 22
+  },
+  {
     "name": "playcanvas/engine",
     "url": "https://github.com/playcanvas/engine",
     "language": "JavaScript",
@@ -198,16 +208,6 @@
     "description": "Frame profiler",
     "last_seen": "2025-12-04",
     "trending_days": 22
-  },
-  {
-    "name": "NousResearch/hermes-agent",
-    "url": "https://github.com/nousresearch/hermes-agent",
-    "language": "Python",
-    "stars": 184218,
-    "forks": 31580,
-    "description": "The agent that grows with you",
-    "last_seen": "2026-06-06",
-    "trending_days": 21
   },
   {
     "name": "GibsonAI/Memori",
@@ -350,6 +350,16 @@
     "trending_days": 13
   },
   {
+    "name": "lfnovo/open-notebook",
+    "url": "https://github.com/lfnovo/open-notebook",
+    "language": "TypeScript",
+    "stars": 26893,
+    "forks": 3066,
+    "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+    "last_seen": "2026-06-07",
+    "trending_days": 13
+  },
+  {
     "name": "microsoft/agent-lightning",
     "url": "https://github.com/microsoft/agent-lightning",
     "language": "Python",
@@ -367,16 +377,6 @@
     "forks": 8648,
     "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
     "last_seen": "2026-05-06",
-    "trending_days": 12
-  },
-  {
-    "name": "lfnovo/open-notebook",
-    "url": "https://github.com/lfnovo/open-notebook",
-    "language": "TypeScript",
-    "stars": 26332,
-    "forks": 3019,
-    "description": "An Open Source implementation of Notebook LM with more flexibility and features",
-    "last_seen": "2026-06-06",
     "trending_days": 12
   },
   {
@@ -457,6 +457,16 @@
     "forks": 3621,
     "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
     "last_seen": "2026-04-06",
+    "trending_days": 11
+  },
+  {
+    "name": "Crosstalk-Solutions/project-nomad",
+    "url": "https://github.com/crosstalk-solutions/project-nomad",
+    "language": "TypeScript",
+    "stars": 29451,
+    "forks": 2923,
+    "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+    "last_seen": "2026-06-07",
     "trending_days": 11
   },
   {
@@ -578,16 +588,6 @@
     "description": "The open alternative to Salesforce, designed for AI.",
     "last_seen": "2026-05-30",
     "trending_days": 11
-  },
-  {
-    "name": "Crosstalk-Solutions/project-nomad",
-    "url": "https://github.com/crosstalk-solutions/project-nomad",
-    "language": "TypeScript",
-    "stars": 27511,
-    "forks": 2698,
-    "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
-    "last_seen": "2026-05-31",
-    "trending_days": 10
   },
   {
     "name": "dyad-sh/dyad",
@@ -780,6 +780,16 @@
     "trending_days": 9
   },
   {
+    "name": "mvanhorn/last30days-skill",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "language": "Python",
+    "stars": 29573,
+    "forks": 2502,
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "last_seen": "2026-06-07",
+    "trending_days": 9
+  },
+  {
     "name": "OpenBB-finance/OpenBB",
     "url": "https://github.com/openbb-finance/openbb",
     "language": "Python",
@@ -950,16 +960,6 @@
     "trending_days": 8
   },
   {
-    "name": "mvanhorn/last30days-skill",
-    "url": "https://github.com/mvanhorn/last30days-skill",
-    "language": "Python",
-    "stars": 28422,
-    "forks": 2406,
-    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-    "last_seen": "2026-06-06",
-    "trending_days": 8
-  },
-  {
     "name": "protocolbuffers/protobuf",
     "url": "https://github.com/protocolbuffers/protobuf",
     "language": "C++",
@@ -1047,6 +1047,16 @@
     "forks": 4864,
     "description": "The Free Software Media System - Server Backend & API",
     "last_seen": "2026-05-26",
+    "trending_days": 7
+  },
+  {
+    "name": "Leonxlnx/taste-skill",
+    "url": "https://github.com/leonxlnx/taste-skill",
+    "language": "Shell",
+    "stars": 35834,
+    "forks": 2605,
+    "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+    "last_seen": "2026-06-07",
     "trending_days": 7
   },
   {
@@ -1430,16 +1440,6 @@
     "trending_days": 6
   },
   {
-    "name": "Leonxlnx/taste-skill",
-    "url": "https://github.com/leonxlnx/taste-skill",
-    "language": "Shell",
-    "stars": 28759,
-    "forks": 2122,
-    "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-    "last_seen": "2026-05-30",
-    "trending_days": 6
-  },
-  {
     "name": "Lordog/dive-into-llms",
     "url": "https://github.com/lordog/dive-into-llms",
     "language": "JupyterNotebook",
@@ -1750,6 +1750,16 @@
     "trending_days": 5
   },
   {
+    "name": "ggml-org/llama.cpp",
+    "url": "https://github.com/ggml-org/llama.cpp",
+    "language": "C++",
+    "stars": 115096,
+    "forks": 19268,
+    "description": "LLM inference in C/C++",
+    "last_seen": "2026-06-07",
+    "trending_days": 5
+  },
+  {
     "name": "github/gh-aw",
     "url": "https://github.com/github/gh-aw",
     "language": "Go",
@@ -1807,6 +1817,16 @@
     "forks": 364,
     "description": "The best way to get AI coding agents to solve hard problems in complex codebases.",
     "last_seen": "2025-09-29",
+    "trending_days": 5
+  },
+  {
+    "name": "HunxByts/GhostTrack",
+    "url": "https://github.com/hunxbyts/ghosttrack",
+    "language": "Python",
+    "stars": 13577,
+    "forks": 1824,
+    "description": "Useful tool to track location or mobile number",
+    "last_seen": "2026-06-07",
     "trending_days": 5
   },
   {
@@ -2330,16 +2350,6 @@
     "trending_days": 4
   },
   {
-    "name": "ggml-org/llama.cpp",
-    "url": "https://github.com/ggml-org/llama.cpp",
-    "language": "C++",
-    "stars": 111637,
-    "forks": 18479,
-    "description": "LLM inference in C/C++",
-    "last_seen": "2026-05-20",
-    "trending_days": 4
-  },
-  {
     "name": "gin-gonic/gin",
     "url": "https://github.com/gin-gonic/gin",
     "language": "Go",
@@ -2457,16 +2467,6 @@
     "forks": 139,
     "description": "🤖 A minimal and customizable Docker image running the Android emulator as a service.",
     "last_seen": "2026-01-04",
-    "trending_days": 4
-  },
-  {
-    "name": "HunxByts/GhostTrack",
-    "url": "https://github.com/hunxbyts/ghosttrack",
-    "language": "Python",
-    "stars": 11948,
-    "forks": 1615,
-    "description": "Useful tool to track location or mobile number",
-    "last_seen": "2026-04-30",
     "trending_days": 4
   },
   {
@@ -2907,6 +2907,16 @@
     "forks": 1380,
     "description": "CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
     "last_seen": "2026-02-28",
+    "trending_days": 4
+  },
+  {
+    "name": "yikart/AiToEarn",
+    "url": "https://github.com/yikart/aitoearn",
+    "language": "TypeScript",
+    "stars": 18494,
+    "forks": 2886,
+    "description": "Let's use AI to Earn!",
+    "last_seen": "2026-06-07",
     "trending_days": 4
   },
   {
@@ -3710,6 +3720,16 @@
     "trending_days": 3
   },
   {
+    "name": "openai/plugins",
+    "url": "https://github.com/openai/plugins",
+    "language": "JavaScript",
+    "stars": 1902,
+    "forks": 265,
+    "description": "OpenAI Plugins",
+    "last_seen": "2026-06-07",
+    "trending_days": 3
+  },
+  {
     "name": "openclaw/openclaw-windows-node",
     "url": "https://github.com/openclaw/openclaw-windows-node",
     "language": "C#",
@@ -4090,16 +4110,6 @@
     "trending_days": 3
   },
   {
-    "name": "yikart/AiToEarn",
-    "url": "https://github.com/yikart/aitoearn",
-    "language": "TypeScript",
-    "stars": 12546,
-    "forks": 2159,
-    "description": "Let's use AI to Earn!",
-    "last_seen": "2026-05-13",
-    "trending_days": 3
-  },
-  {
     "name": "YimMenu/YimMenuV2",
     "url": "https://github.com/yimmenu/yimmenuv2",
     "language": "C++",
@@ -4157,6 +4167,16 @@
     "forks": 4012,
     "description": "An MCP-based chatbot | 一个基于MCP的聊天机器人",
     "last_seen": "2025-10-12",
+    "trending_days": 2
+  },
+  {
+    "name": "aaif-goose/goose",
+    "url": "https://github.com/aaif-goose/goose",
+    "language": "Rust",
+    "stars": 47172,
+    "forks": 4969,
+    "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+    "last_seen": "2026-06-07",
     "trending_days": 2
   },
   {
@@ -5620,16 +5640,6 @@
     "trending_days": 2
   },
   {
-    "name": "openai/plugins",
-    "url": "https://github.com/openai/plugins",
-    "language": "JavaScript",
-    "stars": 1639,
-    "forks": 252,
-    "description": "OpenAI Plugins",
-    "last_seen": "2026-06-06",
-    "trending_days": 2
-  },
-  {
     "name": "OpenBMB/MiniCPM-o",
     "url": "https://github.com/openbmb/minicpm-o",
     "language": "Python",
@@ -6297,16 +6307,6 @@
     "forks": 378,
     "description": "Claude Desktop for Debian-based Linux distributions",
     "last_seen": "2026-04-18",
-    "trending_days": 1
-  },
-  {
-    "name": "aaif-goose/goose",
-    "url": "https://github.com/aaif-goose/goose",
-    "language": "Rust",
-    "stars": 44288,
-    "forks": 4541,
-    "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
-    "last_seen": "2026-05-07",
     "trending_days": 1
   },
   {
@@ -8120,6 +8120,16 @@
     "trending_days": 1
   },
   {
+    "name": "microsoft/pg_durable",
+    "url": "https://github.com/microsoft/pg_durable",
+    "language": "Rust",
+    "stars": 1278,
+    "forks": 26,
+    "description": "PostgreSQL in-database durable execution",
+    "last_seen": "2026-06-07",
+    "trending_days": 1
+  },
+  {
     "name": "microsoft/qlib",
     "url": "https://github.com/microsoft/qlib",
     "language": "Python",
@@ -8520,6 +8530,16 @@
     "trending_days": 1
   },
   {
+    "name": "opencv/opencv",
+    "url": "https://github.com/opencv/opencv",
+    "language": "C++",
+    "stars": 87893,
+    "forks": 56589,
+    "description": "Open Source Computer Vision Library",
+    "last_seen": "2026-06-07",
+    "trending_days": 1
+  },
+  {
     "name": "OpenMind/OM1",
     "url": "https://github.com/openmind/om1",
     "language": "Python",
@@ -8770,6 +8790,16 @@
     "trending_days": 1
   },
   {
+    "name": "refactoringhq/tolaria",
+    "url": "https://github.com/refactoringhq/tolaria",
+    "language": "TypeScript",
+    "stars": 12602,
+    "forks": 898,
+    "description": "Desktop app to manage markdown knowledge bases",
+    "last_seen": "2026-06-07",
+    "trending_days": 1
+  },
+  {
     "name": "refly-ai/refly",
     "url": "https://github.com/refly-ai/refly",
     "language": "TypeScript",
@@ -8857,6 +8887,16 @@
     "forks": 954,
     "description": "Format Rust code",
     "last_seen": "2025-10-09",
+    "trending_days": 1
+  },
+  {
+    "name": "RyanCodrai/turbovec",
+    "url": "https://github.com/ryancodrai/turbovec",
+    "language": "Python",
+    "stars": 6276,
+    "forks": 617,
+    "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+    "last_seen": "2026-06-07",
     "trending_days": 1
   },
   {

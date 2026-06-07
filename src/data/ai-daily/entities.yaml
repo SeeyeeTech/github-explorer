@@ -1,0 +1,157 @@
+# AI 实体白名单 + AI 相关性启发式
+#
+# 用途：
+#   - 篇B ai-daily-frontier：per-handle 定向采集各实体官方动态（blog/github/hf/x）
+#   - 篇A ai-daily-ecosystem：collect_daily_facts.py 的 is_ai_repo() 据 heuristics 判定
+#     一个 trending/starred 仓库是否 AI 相关；命中 entities[].github 的 owner 直接判 AI
+#
+# 维护：直接编辑本文件即可，无需改代码。新增实体加到对应 category；
+#       调整 AI 判定灵敏度改 heuristics.keywords / owners。
+version: 1
+
+# ----------------------------------------------------------------- AI 相关性启发式
+heuristics:
+  # 命中以下任一关键词（在仓库 name / description 里，大小写不敏感）即判 AI 相关
+  keywords:
+    - llm
+    - large language model
+    - large-language-model
+    - gpt
+    - chatgpt
+    - claude
+    - gemini
+    - llama
+    - qwen
+    - deepseek
+    - mistral
+    - transformer
+    - diffusion
+    - stable diffusion
+    - agent
+    - agentic
+    - multi-agent
+    - rag
+    - retrieval-augmented
+    - embedding
+    - vector database
+    - vector db
+    - fine-tun
+    - fine tun
+    - inference
+    - prompt
+    - mcp
+    - model context protocol
+    - neural
+    - deep learning
+    - machine learning
+    - ml
+    - genai
+    - generative ai
+    - text-to-image
+    - text-to-video
+    - text to speech
+    - speech-to-text
+    - tts
+    - asr
+    - copilot
+    - openai
+    - anthropic
+    - huggingface
+    - hugging face
+    - langchain
+    - llamaindex
+    - vllm
+    - ollama
+    - pytorch
+    - tensorflow
+    - cuda
+    - nlp
+    - computer vision
+    - reinforcement learning
+    - rlhf
+    - foundation model
+    - vlm
+    - vision language
+    - moe
+    - mixture of experts
+    - 大模型
+    - 大语言模型
+    - 智能体
+    - 人工智能
+    - 机器学习
+    - 深度学习
+    - 多模态
+  # 仓库 owner（小写）落在这些组织里直接判 AI（即便 description 没命中关键词）
+  owners:
+    - openai
+    - anthropics
+    - google-deepmind
+    - googleapis
+    - meta-llama
+    - facebookresearch
+    - huggingface
+    - mistralai
+    - qwenlm
+    - deepseek-ai
+    - microsoft
+    - nvidia
+    - vllm-project
+    - ollama
+    - langchain-ai
+    - run-llama
+    - comfyanonymous
+    - lm-sys
+    - modelscope
+    - 01-ai
+    - thudm
+    - black-forest-labs
+    - stability-ai
+    - xai-org
+  # AI 高频语言（弱信号：仅在已命中 keyword 时用于排序加权，不单独判定）
+  languages:
+    - Python
+    - Jupyter Notebook
+    - Cuda
+
+# ----------------------------------------------------------------- 实体白名单（per-handle 采集）
+entities:
+  labs:
+    - { name: OpenAI,            github: openai,            hf: openai,            x: OpenAI,        blog: "https://openai.com/news/" }
+    - { name: Anthropic,         github: anthropics,        hf: Anthropic,         x: AnthropicAI,   blog: "https://www.anthropic.com/news" }
+    - { name: Google DeepMind,   github: google-deepmind,   hf: google,            x: GoogleDeepMind, blog: "https://deepmind.google/discover/blog/" }
+    - { name: Meta AI,           github: facebookresearch,  hf: meta-llama,        x: AIatMeta,      blog: "https://ai.meta.com/blog/" }
+    - { name: Mistral AI,        github: mistralai,         hf: mistralai,         x: MistralAI,     blog: "https://mistral.ai/news/" }
+    - { name: DeepSeek,          github: deepseek-ai,       hf: deepseek-ai,       x: deepseek_ai,   blog: "https://api-docs.deepseek.com/news/" }
+    - { name: Qwen (阿里通义),    github: qwenlm,            hf: Qwen,              x: Alibaba_Qwen,  blog: "https://qwenlm.github.io/blog/" }
+    - { name: xAI,               github: xai-org,           hf: xai-org,           x: xai,           blog: "https://x.ai/news" }
+    - { name: 智谱 GLM,          github: thudm,             hf: zai-org,           x: Zai_org,       blog: "https://z.ai/blog" }
+    - { name: 月之暗面 Kimi,     github: moonshotai,        hf: moonshotai,        x: Kimi_Moonshot, blog: "" }
+  model-infra:
+    - { name: NVIDIA,            github: nvidia,            hf: nvidia,            x: nvidia,        blog: "https://developer.nvidia.com/blog/" }
+    - { name: vLLM,              github: vllm-project,      hf: "",                x: vllm_project,  blog: "https://blog.vllm.ai/" }
+    - { name: Ollama,            github: ollama,            hf: "",                x: ollama,        blog: "https://ollama.com/blog" }
+    - { name: Hugging Face,      github: huggingface,       hf: huggingface,       x: huggingface,   blog: "https://huggingface.co/blog" }
+    - { name: LangChain,         github: langchain-ai,      hf: "",                x: LangChainAI,   blog: "https://blog.langchain.dev/" }
+    - { name: LlamaIndex,        github: run-llama,         hf: "",                x: llama_index,   blog: "https://www.llamaindex.ai/blog" }
+    - { name: Groq,              github: groq,              hf: "",                x: GroqInc,       blog: "https://groq.com/blog" }
+  coding-agents:
+    - { name: Cursor,            github: cursor,            hf: "",                x: cursor_ai,     blog: "https://www.cursor.com/blog" }
+    - { name: Cline,             github: cline,             hf: "",                x: cline,         blog: "" }
+    - { name: Claude Code,       github: anthropics,        hf: "",                x: AnthropicAI,   blog: "https://www.anthropic.com/news" }
+    - { name: GitHub Copilot,    github: github,            hf: "",                x: github,        blog: "https://github.blog/ai-and-ml/" }
+    - { name: Aider,             github: paul-gauthier,     hf: "",                x: "",            blog: "https://aider.chat/blog/" }
+    - { name: OpenHands,         github: all-hands-ai,      hf: "",                x: allhands_ai,   blog: "" }
+  vision-media:
+    - { name: ComfyUI,           github: comfyanonymous,    hf: "",                x: "",            blog: "https://blog.comfy.org/" }
+    - { name: Black Forest Labs (FLUX), github: black-forest-labs, hf: "black-forest-labs", x: bfl_ml, blog: "https://blackforestlabs.ai/" }
+    - { name: Stability AI,      github: stability-ai,      hf: stabilityai,       x: StabilityAI,   blog: "https://stability.ai/news" }
+    - { name: ElevenLabs,        github: elevenlabs,        hf: "",                x: elevenlabsio,  blog: "https://elevenlabs.io/blog" }
+  benchmarks:
+    - { name: LMArena (LMSYS),   github: lm-sys,            hf: lmsys,             x: lmarena_ai,    blog: "https://lmarena.ai/blog" }
+    - { name: Papers With Code,  github: paperswithcode,    hf: "",                x: paperswithcode, blog: "https://paperswithcode.com/" }
+    - { name: Artificial Analysis, github: "",              hf: "",                x: ArtificialAnlys, blog: "https://artificialanalysis.ai/" }
+  kol:
+    - { name: Andrej Karpathy,   github: karpathy,          hf: "",                x: karpathy,      blog: "" }
+    - { name: Andrew Ng,         github: "",                hf: "",                x: AndrewYNg,     blog: "https://www.deeplearning.ai/the-batch/" }
+    - { name: Simon Willison,    github: simonw,            hf: "",                x: simonw,        blog: "https://simonwillison.net/" }
+    - { name: swyx,              github: sw-yx,             hf: "",                x: swyx,          blog: "https://www.latent.space/" }

@@ -1,0 +1,43 @@
+# 篇B ai-daily-frontier 的定向 WebFetch 源清单（高价值、确定性 URL）
+#
+# 用途：采集 SubAgent 按 cluster 抓固定页面，提取近 N 天 AI 条目。
+#       相比关键词搜索，定向源更可控、噪声更低、CI 后端无 WebSearch 时也能用 WebFetch 兜底。
+#
+# 维护：直接增删 URL。labs-blog 与 entities.yaml 的 labs[].blog 有重叠，二者都可用。
+version: 1
+
+clusters:
+  papers:                      # 论文前沿
+    - "https://arxiv.org/list/cs.AI/recent"
+    - "https://arxiv.org/list/cs.CL/recent"
+    - "https://arxiv.org/list/cs.LG/recent"
+    - "https://huggingface.co/papers"
+    - "https://paperswithcode.com/"
+
+  models-oss:                  # 开源项目 / 模型发布
+    - "https://huggingface.co/models?sort=trending"
+    - "https://github.com/trending?since=daily&spoken_language_code="
+    - "https://github.com/trending/python?since=daily"
+
+  labs-blog:                   # AI 实验室官方动态
+    - "https://openai.com/news/"
+    - "https://www.anthropic.com/news"
+    - "https://deepmind.google/discover/blog/"
+    - "https://ai.meta.com/blog/"
+    - "https://mistral.ai/news/"
+    - "https://qwenlm.github.io/blog/"
+
+  benchmarks:                  # 模型评测 / 排行榜
+    - "https://lmarena.ai/leaderboard"
+    - "https://artificialanalysis.ai/"
+    - "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard"
+
+  cn-media:                    # 中文权威媒体（AI 频道）
+    - "https://www.jiqizhixin.com/"
+    - "https://www.qbitai.com/"
+    - "https://36kr.com/information/AI/"
+
+# 单次抓取上限（每个 SubAgent 每源取 Top N）
+per_source_top_n: 5
+# WebFetch 失败回退（JINA reader 代理，沿用 repo-miner 异常处理）
+fetch_fallback: "https://r.jina.ai/"

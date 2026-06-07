@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AI 日报条目 schema（采集 SubAgent 统一返回，两篇共用）",
+  "description": "每个采集/评分 SubAgent 把抽取到的条目按此结构返回。可空字段缺失时填 null，不要编造。",
+  "type": "object",
+  "required": ["title_zh", "url", "source_type", "summary_zh"],
+  "properties": {
+    "title_zh": { "type": "string", "description": "中文标题（原文已是中文则相同）" },
+    "title_en": { "type": ["string", "null"], "description": "原始标题（保留原文语言）" },
+    "url": { "type": "string", "description": "条目主链接（论文/仓库/博客/新闻原文）" },
+    "source_name": { "type": ["string", "null"], "description": "来源站点/媒体名，如 arxiv / OpenAI Blog / 机器之心" },
+    "source_type": {
+      "type": "string",
+      "enum": ["paper", "repo", "model", "blog", "news", "product", "funding", "benchmark"],
+      "description": "条目类型"
+    },
+    "event_date": { "type": ["string", "null"], "description": "真实事件日期 YYYY-MM-DD（≠页面/抓取日期，需核实）" },
+    "summary_zh": { "type": "string", "description": "2-3 句中文摘要，说清这件事的创新点与实际意义" },
+    "key_points": { "type": "array", "items": { "type": "string" }, "description": "2-4 条要点" },
+    "method_zh": { "type": ["string", "null"], "description": "一句话核心技术方法/路线（论文/工程类必填）" },
+    "metrics": {
+      "type": "array",
+      "description": "量化指标（SOTA/性能提升等）。每个数字必须可回指 source_url，禁止凭记忆/外推。",
+      "items": {
+        "type": "object",
+        "required": ["name", "value", "source_url"],
+        "properties": {
+          "name": { "type": "string" },
+          "value": { "type": "string" },
+          "baseline": { "type": ["string", "null"] },
+          "source_url": { "type": "string" }
+        }
+      }
+    },
+    "repo_url": { "type": ["string", "null"], "description": "GitHub/代码仓库链接（用于回链本站报告）" },
+    "paper_url": { "type": ["string", "null"], "description": "arXiv/论文原文链接" },
+    "entities": { "type": "array", "items": { "type": "string" }, "description": "命中的 entities.yaml 实体名" },
+    "category": { "type": ["string", "null"], "description": "论文前沿|开源项目|模型与评测|工程实践|行业与融资" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "secondary_sources": { "type": "array", "items": { "type": "string" }, "description": "独立佐证源 URL（核验用）" },
+    "evidence_quotes": { "type": "array", "items": { "type": "string" }, "description": "原文片段留痕，杜绝凭记忆" },
+    "numbers_from_source": { "type": "boolean", "description": "自检：所有数字是否均来自一手源（false 则下游剔除该数字）" },
+    "confidence": { "type": "string", "enum": ["high", "med", "low"] },
+    "report_slug": { "type": ["string", "null"], "description": "若本站已有该仓库深度报告，回链 slug（由脚本/主对话据 reports.json 反查填入）" },
+    "score": { "type": ["number", "null"], "description": "评分阶段写入（0-10）" },
+    "tier": { "type": ["string", "null"], "enum": ["must_read", "watch", "brief", null], "description": "分级阶段写入" }
+  }
+}

@@ -1,0 +1,40 @@
+# 篇B ai-daily-frontier 的 WebSearch 主题矩阵（中英双语）
+#
+# 用途：采集 SubAgent 按主题做中英双语 WebSearch；query 末尾由 skill 追加
+#       `after:<after_date>` 做时效限制（only 近 N 天）。
+#
+# 维护：增删主题或调整 query 词；与 sources.yaml 的定向源互补（一个广搜、一个定抓）。
+version: 1
+
+themes:
+  - id: papers
+    label: 论文前沿
+    queries:
+      zh: "大模型 论文 突破 OR SOTA OR 新方法 site:mp.weixin.qq.com OR site:jiqizhixin.com OR site:qbitai.com"
+      en: "LLM OR AI new paper breakthrough OR state-of-the-art site:arxiv.org OR site:huggingface.co OR site:openreview.net"
+
+  - id: oss
+    label: 开源项目
+    queries:
+      zh: "AI 开源项目 发布 OR 大模型开源 OR AI 框架 site:mp.weixin.qq.com OR site:oschina.net"
+      en: "open source AI release OR new LLM framework OR ML library launch site:github.com OR site:huggingface.co"
+
+  - id: models-bench
+    label: 模型与评测
+    queries:
+      zh: "大模型 发布 OR 模型评测 OR AI 排行榜 OR benchmark site:mp.weixin.qq.com OR site:36kr.com"
+      en: "new AI model release OR LLM benchmark OR model evaluation site:huggingface.co OR site:lmarena.ai OR site:artificialanalysis.ai"
+
+  - id: engineering
+    label: 工程实践
+    queries:
+      zh: "AI 推理优化 OR 模型部署 OR Agent 工程 OR MLOps site:mp.weixin.qq.com OR site:csdn.net"
+      en: "AI inference optimization OR agent engineering OR model serving OR MLOps site:pytorch.org OR site:modal.com"
+
+  - id: industry
+    label: 行业与融资
+    queries:
+      zh: "AI 公司 融资 OR AI 发布会 OR 人工智能 政策 site:mp.weixin.qq.com OR site:36kr.com OR site:thepaper.cn"
+      en: "AI startup funding OR AI company launch OR AI product announcement site:techcrunch.com OR site:reuters.com OR site:theinformation.com"
+
+per_query_top_n: 5

@@ -76,7 +76,7 @@ print('  pillow', PIL.__version__)
 
 log "3/5 注入 vendored skills 到 ~/.claude/skills/"
 mkdir -p ~/.claude/skills
-for skill in repo-miner md2wechat; do
+for skill in repo-miner md2wechat ai-daily-ecosystem ai-daily-frontier; do
     src="$REPO_ROOT/ci/skills/$skill"
     if [[ ! -d "$src" ]]; then
         echo "ERR: 缺少 vendor skill $src，请先 cp -RL .claude/skills/$skill ci/skills/" >&2

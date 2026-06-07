@@ -118,3 +118,4 @@
 {"recorded_at": "2026-06-07T11:53:12.317801+00:00", "slug": "rightnow-ai_openfang", "title": null, "state": "published", "published_at": "2026-06-07", "reason": "自动生成", "ci_run_id": "27091328081"}
 {"recorded_at": "2026-06-07T15:58:01.554830+00:00", "slug": "antirez_ds4", "title": null, "state": "published", "published_at": "2026-06-07", "reason": "自动生成", "ci_run_id": "27096799980"}
 {"recorded_at": "2026-06-07T16:45:39.477750+00:00", "slug": "prql_prql", "title": null, "state": "published", "published_at": "2026-06-07", "reason": "自动生成", "ci_run_id": "27098235700"}
+{"recorded_at": "2026-06-07T17:45:20.697754+00:00", "slug": "facebookresearch_xformers", "title": null, "state": "published", "published_at": "2026-06-07", "reason": "自动生成", "ci_run_id": "27099645875"}

@@ -1,0 +1,6 @@
+{
+  "title": "5 年 10K stars：xformers 如何用「Bias 协议」重定义 Transformer 加速",
+  "digest": "v0.0.35 主动放弃自研 FMHA、转为依赖上游 FlashAttention 3，公开仓库退化为 re-export 薄层。读懂这次转身，就读懂大厂基础设施的去自我中心化。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

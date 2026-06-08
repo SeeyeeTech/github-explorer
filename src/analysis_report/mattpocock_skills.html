@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/mattpocock/skills">https://github.com/mattpocock/skills</a></p></blockquote>
+<h2>一句话总结</h2>
+<p>Matt Pocock 把他在生产级 TypeScript / AI 编程中真正在用的那套「清问 → 分流 → PRD → TDD → 架构改善」流程,沉淀成 29 份带 frontmatter 的 Claude/Codex/Cursor 通用 Skill,4 个月冲到 121K stars。</p>
+<h2>值得关注的理由</h2>
+<ul>
+<li><strong>格式升级 vs 内容堆叠</strong>:这个仓库不卖代码,只卖「prompt 模板 + 生命周期管理」——SKILL.md frontmatter、companion FORMAT 文件、.out-of-scope/ 拒绝备忘、in-progress/deprecated 三态分桶,这一整套工程化思路,可直接移植到任何「AI 提示语项目」。</li>
+<li><strong>「反官方」定位</strong>:在 Anthropic 官方 anthropics/skills(147K★)只给空白格式规范时,Matt 卖的是<strong>带强观点的工作流</strong>——Pragmatic Programmer × DDD × AFK Agent 的现场版。对想「装上就能用」的人,远比官方 spec 实用。</li>
+<li><strong>新增 6,200 倍复制价值的低门槛模式</strong>:disable-model-invocation、intent-only body、scripts/list-skills.sh 跨桶校验、ADR 区分 hard/soft 依赖——任何团队照抄就能把 prompt 仓库从「个人便签」升级到「可发布 corpus」。</li>
+</ul>
+<h2>项目展示</h2>
+<p><a href="https://www.aihero.dev/s/skills-newsletter">Skills</a></p>
+<p>*Dark 模式:* <a href="https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skills-repo-dark_2x.png">https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skills-repo-dark_2x.png</a></p>
+<p><a href="https://skills.sh/mattpocock/skills">skills.sh</a></p>
+<h2>项目画像</h2>
+<p><strong>维度 | 数据</strong><br/>• GitHub — <a href="https://github.com/mattpocock/skills">https://github.com/mattpocock/skills</a><br/>• Star / Fork — 121,433 / 10,643<br/>• 代码行数 — 66 行 Shell(实际承载 2,277 行 Markdown,1:34 doc/code)<br/>• 项目年龄 — 4 个月(2026-02-03 首版,2026-06-08 仍在主分支迭代)<br/>• 开发阶段 — 密集开发(过去 30 天 22 commits,过去 90 天 84 commits)<br/>• 贡献模式 — 单人主导(bus factor = 1,Matt 占比 92.3%,次位是 CI bot)<br/>• 热度定位 — 大众热门 / 病毒级(4 个月 12 万星,日均约 970★,4 月 28 日单日 24 commits)<br/>• 质量评级 — 代码 N/A(无逻辑代码) / 文档 A+(README+CLAUDE+CONTEXT+ADR+FORMAT 文档齐备) / 测试 无(也无 CI、无 release)<br/></p>
+<h2>作者视角:为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>Matt Pocock 是 TypeScript 教育圈的旗手:Total TypeScript 付费课程创始人、曾任 Vercel 开发者倡导者、Stately(XState 核心)前成员。早期代表作 ts-reset(8.5K★)是「TypeScript 的 CSS reset」。2025–2026 年他强势转型 AI 编程教育:推出 dictionary-of-ai-coding(2.1K★)、evalite(1.6K★,LLM 评测框架)、sandcastle(5.8K★,沙箱 coding agent 编排),并孵化新品牌 <strong>AI Hero</strong>(aihero.dev)。skills 仓库是他把「我每天怎么跟 Claude 协作」外化成可分发产品的顶点。</p>
+<h3>问题判断</h3>
+<p>Matt 看到的问题不是「Claude 不够强」,而是<strong>「每个人的 .claude 目录是私藏的咒语集,新人永远要重新发明轮子」</strong>。他要把自己的 .claude/ 流程变成可一键 npx skills add 安装、跨 Claude Code / Codex / Cursor 通用、且工程化管理的现成物。时机是 2026 年初 Agent Skills 格式刚被 Anthropic 标准化、官方只给空白规范,市场空缺「带观点的实现参考」。</p>
+<h3>解法哲学</h3>
+<p>他明确选择:</p>
+<ul>
+<li><strong>意图而非实现</strong>——SKILL.md 写「做什么、为什么」,不写 gh issue create;具体工具命令下放到 per-repo 的 seed template(issue-tracker-github.md),从而同一份 SKILL.md 跨 GitHub/GitLab/local markdown 都跑得通。</li>
+<li><strong>强观点的精选</strong>——只发 15 个稳定 Skill,4 个 deprecated 已退役,坚决反对「awesome list 越多越好」。</li>
+<li><strong>写作型 + 教学型</strong>——README 直接引用《Pragmatic Programmer》《Domain-Driven Design》《A Philosophy of Software Design》,把 Skill 做成可教学的工件,而不是 prompt 黑魔法。</li>
+</ul>
+<p>明确不做:</p>
+<ul>
+<li><strong>不为小众 issue tracker 做适配</strong>(.out-of-scope/mainstream-issue-trackers-only.md 拒绝加 dex 等)。</li>
+<li><strong>不强行给 /grill-me 加题数上限</strong>(.out-of-scope/question-limits.md 明确拒绝 issue #44「200 个问题」的修复)。</li>
+<li><strong>不引入 --verify 旗标</strong>(.out-of-scope/setup-skill-verify-mode.md 主张自然语言引导已够)。</li>
+</ul>
+<h3>战略意图</h3>
+<p>这个仓库是 <strong>AI Hero newsletter 的漏斗顶端</strong>:README 顶部大图直接导流 aihero.dev/s/skills-newsletter。他用免费、高质量的 Skill 仓库建立「TypeScript / AI 工程化」品牌权威,再通过 newsletter 把高意图受众转化为 Total TypeScript Pro 与 AI Hero 课程的付费用户。本质是「开源 Skill → 流量 → 课程」的三段飞轮。</p>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<ol>
+<li><strong>.out-of-scope/ 拒绝备忘作为一等公民</strong>:每条拒绝都引用原 issue、给出备选方案与拒绝理由,issue #44「200 问题」从一次争吵变成可永久引用的 5 段决策档案。这是 OSS 圈最接近「issue tracker epistemology」的实践。</li>
+<li><strong>CONTEXT.md 作为 agent 实时编辑的工件</strong>:不是一次性 DDD 交付物,而是 /grill-with-docs 在对话中边清问边写入、边收紧术语边更新,DDD 的「ubiquitous language」从静态文档升级为动态会话产物。</li>
+<li><strong>三态生命周期 + 硬规则 + 自动校验</strong>:in-progress → 稳定桶 → deprecated 三目录 + CLAUDE.md 硬规则(stable 必须出现在 README+plugin.json;WIP 绝不能出现)+ scripts/list-skills.sh 跨桶校验——把 markdown 堆变成可发布的 corpus,工具量近乎为零。</li>
+<li><strong>Hard / Soft 依赖分裂 + ADR 0001</strong>:只有 3 个 Skill(to-issues / to-prd / triage)在体内内联 setup 指针,其他 7+ 用模糊 prose 提一下即可——token 经济性的工程化答案,而不是「哪里都加一句」。</li>
+<li><strong>Triage 的 2×5 状态机 + AI 免责脚注</strong>:不是 checklist,是 bug/enhancement × {needs-triage, needs-info, ready-for-agent, ready-for-human, wontfix} 强制约束的状态机;每条 AI 评论必须以 > *This was generated by AI during triage.* 开头——微小但承重的诚实惯例。</li>
+<li><strong>Tracer-bullet 垂直切片在 SKILL.md 层级的一致性</strong>:to-issues 与 tdd 用同一套词汇禁止水平切片,规划 Skill 与执行 Skill 的方法论强行对齐。</li>
+</ol>
+<h3>可复用的模式与技巧</h3>
+<ol>
+<li><strong>Bucket + plugin.json + README 三向校验</strong>当发布门禁:scripts/list-skills.sh 一次 find -name SKILL.md 就能让任何「毕业到工程桶」的 Skill 在三个文件同时出现——零工具链的 release gate。</li>
+<li><strong>*-FORMAT.md companion 文件</strong>:SKILL.md 里只要产物需要格式(CONTEXT-FORMAT.md / ADR-FORMAT.md / AGENT-BRIEF.md / OUT-OF-SCOPE.md),就拆出独立 markdown——主 prompt 保持小巧,格式规范独立版本控制。</li>
+<li><strong>disable-model-invocation: true 用在 setup 类 Skill</strong>:/setup-* 永不自动触发,只在用户显式 /setup-xxx 时跑——一句话省掉「为什么 agent 又把我的文件改了」的工单。</li>
+<li><strong>.out-of-scope/ 作为项目级「rfc/0000-rejected-ideas.md」</strong>:任何「不」都附链接与理由,新来者读旧 memo 而不是再吵一遍。</li>
+<li><strong>「一次一问 + 推荐答案」的 grilling 套路</strong>:把「采访我」变成模型可执行的稳定循环,不一次性灌 20 个问题把用户吓跑。</li>
+</ol>
+<h3>关键设计决策</h3>
+<ul>
+<li><strong>每 Skill 一个文件夹,而不是单 mega 文件</strong>:支持 frontmatter 小而精、companion 文档按需加载——真正的 progressive disclosure,而不是「## Details 章节」。</li>
+<li><strong>意图而非实现</strong>:to-prd 不写 gh issue create,具体命令在 per-repo seed 模板里;Skill 跨 Claude Code / Codex / Cursor 都跑得通,只换配置。</li>
+<li><strong>Bucket 命名设信任刻度</strong>:读 skills/in-progress/ 默认打 50% 折扣,读 skills/deprecated/ 默认当历史课——信任通过目录名传递,不需要 metadata。</li>
+<li><strong>Wontfix 写回 .out-of-scope/</strong>:/triage 拒绝 enhancement 时自动写拒绝备忘 + 在 issue 评论里链接,形成「拒绝 → 知识库 → 未来请求者」的反馈环。</li>
+</ul>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<p><strong>维度 | mattpocock/skills | anthropics/skills | affaan-m/ECC | antigravity-awesome-skills | awesome-claude-code</strong><br/>• 定位 — 强观点「真工程师」工作流 — 空白格式规范 — Agent harness 性能优化(skill+instinct+memory+security) — 社区聚合 1,500+ Skill — curated awesome list<br/>• Skill 数量 — 15 稳定(+4 WIP,+4 退役) — ~12 参考 Skill — 未枚举,多领域 — 1,500+ — n/a(链接)<br/>• 观点强度 — 强观点 — 空白模板 — 强观点 — 极轻策展 — 无观点<br/>• 作者 — Matt Pocock 单人 — Anthropic 官方 — affaan-m 单人 — 社区 — 社区<br/>• Discoverability — skills.sh badge — 官方文档 — 自建 — skills.sh — GitHub list<br/>• Lifecycle — 三态桶 + plugin.json 强制 — 平铺 skills/ — 平铺 — 平铺 — 平铺<br/>• 测试/CI — 无 — 无 — 极少 — 无 — 无<br/></p>
+<h3>差异化护城河</h3>
+<ul>
+<li><strong>端到端工作流 vs 单点工具</strong>:grill-with-docs → triage → to-prd → tdd → improve-codebase-architecture 是一条可执行链,官方 spec 只给零件。</li>
+<li><strong>强观点降低冷启动</strong>:新人不用读 20 篇博客决定用哪个 grilling prompt,直接 /grill-me 就开干。</li>
+<li><strong>教学化文案</strong>:README/ADR 把每个决定都讲清楚「为什么」,这是软件工程圈「书籍级」的内容。</li>
+</ul>
+<h3>竞争风险</h3>
+<ul>
+<li><strong>Anthropic 官方下场做工作流</strong>:一旦官方推出 opinionated template,Matt 的差异化会被显著挤压。</li>
+<li><strong>Model drift</strong>:/grill-me 在 GPT-5.5 上「直接跳到实现」(issue #240),说明 Skill 需要随模型调优,Matt 单人维护很难跟上。</li>
+<li><strong>Fork 数 10K+ 但 bus factor = 1</strong>:作者一旦停更,整个 corpus 立刻变化石。</li>
+</ul>
+<h3>生态定位</h3>
+<p>填补了「<strong>官方 spec ↔ 用户具体场景</strong>」之间的中间层——<strong>「带强烈方法论的 AI 工作流分销商」</strong>。同档位的同类包括 affaan-m/ECC(更偏 harness),但 Matt 的工作流更聚焦「真实工程师日常」。</p>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>:Anthropic 官方只给格式不给工作流,<strong>这正是套利窗口</strong>;但窗口正在收窄——任何有方法论的 AI 工程师都可能在 6–12 个月内推出同类项目。</li>
+<li><strong>技术借鉴</strong>:三态桶 + .out-of-scope/ + companion FORMAT + disable-model-invocation —— 这套<strong>「prompt 仓库的工程化脚手架」</strong>几乎可以直接搬到任何团队内部 prompt 库。</li>
+<li><strong>生态位</strong>:Agent Skills 标准的「opinionated implementation」一极,对应 awesome-claude-code(curated list)与 antigravity-awesome-skills(bulk library)之外的高质量第三极。</li>
+<li><strong>趋势判断</strong>:Agent Skills 格式被 Anthropic 标准化的趋势确定,Matt 处于第一波红利期,但需要警惕官方下场与 model drift;后发者若想套利,差异化必须落在「中文 / 垂直行业 / 企业流程」,而不是「再来一份英文 Skill 包」。</li>
+</ul>
+<h2>风险与不足</h2>
+<ul>
+<li><strong>Bus factor = 1</strong>:任何决定都活在 Matt 一个脑子里;若停更,15 个 Skill 在 3–6 个月内开始 prompt rot。</li>
+<li><strong>零测试、零 CI、零 release</strong>:95 commits,没有 .github/workflows/,没有 changelog,没有 semver——skills.sh 上一个 breaking 编辑和一个 typo 完全不可区分。</li>
+<li><strong>GitHub 后端硬编码</strong>:本地 markdown 和 GitLab 已支持,但 README 与示例默认 gh,新 tracker 接入是持续维护成本。</li>
+<li><strong>Model 漂移</strong>:issue #240 揭示 Skill 需要 per-model 调优,但仓库里没有任何 model 版本说明。</li>
+<li><strong>macOS 缺口</strong>:handoff 的 mktemp 在 BSD/macOS 上失败(issue #175)——只测 Linux 的老问题。</li>
+<li><strong>99% markdown 的 prompt rot 风险</strong>:Skill 是否还有效,唯一测试是「跑一下看看」,模型升级可以静默作废整个 Skill,且无检测机制。</li>
+</ul>
+<h2>行动建议</h2>
+<h3>如果你要用它</h3>
+<p>把它当<strong>教学材料 + 起步脚手架</strong>装上,挑 grill-me / to-issues / triage / tdd 这四个稳定 Skill 体验;不要一次性全装,然后用 /setup-matt-pocock-skills 在每个仓库跑一次初始化。<strong>强观点适合追求「先标准化、再优化」的团队</strong>,不适合「我们就要灵活自由」的小作坊。</p>
+<h3>如果你要学它</h3>
+<p>重点关注 skills/engineering/ 下的 10 个 SKILL.md,以及:</p>
+<ul>
+<li>docs/adr/0001-explicit-setup-pointer-only-for-hard-dependencies.md(硬/软依赖决策)</li>
+<li>.out-of-scope/ 三个拒绝备忘(如何把「不」做成档案)</li>
+<li>skills/engineering/grill-with-docs/SKILL.md + CONTEXT-FORMAT.md(DDD 实战模板)</li>
+<li>skills/engineering/triage/SKILL.md + AGENT-BRIEF.md(状态机式 triage)</li>
+</ul>
+<h3>如果你要 fork 它</h3>
+<p>改进方向:</p>
+<ul>
+<li>引入 .github/workflows/ + 一个最小 Skill linter(检查 frontmatter、cross-bucket 一致性)。</li>
+<li>加 models.md 矩阵(每个 Skill 在 Sonnet/Opus/不同 Codex 上效果记录)。</li>
+<li>加 changelog / semver,让 skills.sh 上的版本可追溯。</li>
+<li>给 handoff / to-issues 加 macOS / Windows 后端测试。</li>
+<li>用 GitHub Action 做 SKILL.md diff review,辅助 Matt 把贡献者从 1 提升到 ≥ 3。</li>
+</ul>
+<h3>知识入口</h3>
+<p><strong>资源 | 链接</strong><br/>• DeepWiki — 未收录<br/>• Zread.ai — 未收录<br/>• 关联论文 — 无直接对应论文(方法论引用《Pragmatic Programmer》《Domain-Driven Design》《A Philosophy of Software Design》)<br/>• 在线 Demo — <a href="https://skills.sh/mattpocock/skills">skills.sh registry</a> / <a href="https://www.aihero.dev/s/skills-newsletter">AI Hero newsletter 漏斗</a><br/></p>
+</body>
+</html>

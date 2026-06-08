@@ -34,6 +34,7 @@
 """
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 from .base import Article, BaseAdapter, PublishResult, RenderedArticle, env
@@ -91,6 +92,31 @@ class PlaywrightAdapter(BaseAdapter):
     def _page(ctx):
         return ctx.pages[0] if ctx.pages else ctx.new_page()
 
+    # ── 会话 cookie 持久化（storage_state）──────────────────────────────────
+    # 持久化上下文（profile）默认**不保存 session cookie**（无 expiry 的内存 cookie），
+    # 有些站点（如阿里云 login_aliyunid_ticket）登录态正是 session cookie，进程一关就丢、
+    # 下次发布又要重登。故登录成功后额外把 storage_state（含 session cookie）存成 JSON，
+    # 每次启动再回灌，实现「一次登录、跨进程复用」。
+    def _storage_path(self) -> Path:
+        return self.user_data_dir() / "storage_state.json"
+
+    def _save_cookies(self, ctx) -> None:
+        try:
+            ctx.storage_state(path=str(self._storage_path()))
+        except Exception:  # noqa: BLE001
+            pass
+
+    def _restore_cookies(self, ctx) -> None:
+        p = self._storage_path()
+        if not p.is_file():
+            return
+        try:
+            cookies = json.loads(p.read_text(encoding="utf-8")).get("cookies", [])
+            if cookies:
+                ctx.add_cookies(cookies)
+        except Exception:  # noqa: BLE001
+            pass
+
     # ── 框架契约：check_auth / publish ──────────────────────────────
     def check_auth(self) -> None:
         """轻量校验：登录目录是否存在且非空（不开浏览器、无网络副作用）。"""
@@ -135,6 +161,7 @@ class PlaywrightAdapter(BaseAdapter):
         ok = False
         with sync_playwright() as p:
             ctx = self._launch(p, headless=False)
+            self._restore_cookies(ctx)   # 回灌上次保存的会话 cookie（可能已登录）
             page = self._page(ctx)
             page.goto(self.login_url or self.editor_url, wait_until="domcontentloaded")
             waited = 0
@@ -149,6 +176,8 @@ class PlaywrightAdapter(BaseAdapter):
                 waited += poll
                 if waited % 30 == 0:
                     print(f"   …仍在等待登录（{waited}/{timeout_s}s）")
+            if ok:
+                self._save_cookies(ctx)   # 存 storage_state（含 session cookie），供跨进程复用
             ctx.close()
         print("✅ 登录态已保存，后续发布将复用它" if ok
               else f"⚠️ {timeout_s}s 内未检测到登录态（未登录或 cookie 未写入），可重试 --login")
@@ -175,6 +204,7 @@ class PlaywrightAdapter(BaseAdapter):
 
         with sync_playwright() as p:
             ctx = self._launch(p, headless=headless)
+            self._restore_cookies(ctx)   # 回灌保存的会话 cookie（阿里云等 session 态靠它跨进程复用）
             page = self._page(ctx)
             try:
                 if not self.is_logged_in(ctx):
@@ -230,17 +260,26 @@ class PlaywrightAdapter(BaseAdapter):
     # 改走 JS 直接操作 DOM 绕过可见性门槛（实测可行）。
     @staticmethod
     def _js_set_value(page, selectors: list[str], value: str) -> bool:
-        """给首个命中的 input/textarea 设 value 并派发 input/change（触发受控框架更新）。"""
+        """给首个命中的 input/textarea 设 value 并派发 input/change。
+
+        用「原型上的原生 value setter」赋值——React 会在元素实例上劫持 value setter 来
+        追踪受控输入，直接 `el.value=` 会被它忽略（React 仍认为是空值 → 触发不了 onChange、
+        必填校验不通过）。走 HTMLInputElement.prototype 的原生 setter 再派发 input 事件，
+        React / Vue 都能正确收到变更。"""
         return bool(page.evaluate(
             """([sels, v]) => {
                 for (const s of sels) {
                     const el = document.querySelector(s);
-                    if (el) {
-                        el.focus(); el.value = v;
-                        el.dispatchEvent(new Event('input', {bubbles: true}));
-                        el.dispatchEvent(new Event('change', {bubbles: true}));
-                        return true;
-                    }
+                    if (!el) continue;
+                    el.focus();
+                    const proto = el.tagName === 'TEXTAREA'
+                        ? window.HTMLTextAreaElement.prototype
+                        : window.HTMLInputElement.prototype;
+                    const setter = Object.getOwnPropertyDescriptor(proto, 'value').set;
+                    setter.call(el, v);
+                    el.dispatchEvent(new Event('input', {bubbles: true}));
+                    el.dispatchEvent(new Event('change', {bubbles: true}));
+                    return true;
                 }
                 return false;
             }""",

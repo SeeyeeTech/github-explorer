@@ -4,9 +4,10 @@
 结构。新接一个平台 = 写一个 adapter，主流程不动。每个外发渠道自动追加
 「导流公众号页脚」，把外部读者引回公众号。
 
-> 已落地：通用骨架 + 渲染层 + per-channel 发布历史 + **两个真渠道**
-> （`cnblogs` 博客园 MetaWeblog、`wechat` 公众号复用 wechat_publish.py）。
-> 掘金/CSDN/知乎/思否等无开放 API 的渠道，计划走 Claude-in-Chrome 浏览器半自动。
+> 已落地：通用骨架 + 渲染层 + per-channel 发布历史 + 多渠道：
+> **api**（`wechat` 公众号复用 wechat_publish.py、`cnblogs` 博客园 / `oschina` 开源中国 MetaWeblog）、
+> **playwright**（`csdn` / `juejin` / `zhihu` / `segmentfault` / `aliyun`——持久化登录态 + 脚本驱动 DOM，
+> 一次 `--login` 后一键发）、**browser**（`oschina_web`——开源中国 API 不通时的 Claude-in-Chrome 兜底）。
 
 ## 架构
 
@@ -16,32 +17,36 @@ scripts/syndicate/
   base.py        Article / RenderedArticle / PublishResult / BaseAdapter / 注册表 / 报告解析 / .env.local 加载
   render.py      Markdown → html|markdown + 导流公众号页脚（两级开关 mp_cta / name_wechat）
   history.py     publish_history.jsonl 的 per-channel 读写 + 幂等查询
-  browser.py     BrowserAdapter 基类（mode=browser：脚本只 prepare 发布包 + playbook，发布由 Claude-in-Chrome 驱动）
-  adapters/      已注册 8 个渠道：
+  playwright_base.py  PlaywrightAdapter 基类（mode=playwright：持久化登录态 + 脚本驱动 DOM 直接发布；
+                      公共 is_logged_in/_js_*/_paste_*/_extract_id 等都在这里，子类只写 selector + do_publish）
+  browser.py     BrowserAdapter 基类（mode=browser：脚本只 prepare 发布包 + playbook，发布由 Claude-in-Chrome 驱动；现仅 oschina_web 用）
+  adapters/      已注册 9 个渠道（公众号 + 8 个国内技术社区）：
     wechat.py        公众号（self_render，复用 wechat_publish.py）
     cnblogs.py       博客园（mode=api，MetaWeblog XML-RPC）
-    juejin.py        掘金（mode=browser，markdown）
-    csdn.py          CSDN（mode=browser，markdown，name_wechat=False 禁「微信」字样）
-    zhihu.py         知乎（mode=browser，html 富文本，mp_cta=False 不放公众号 CTA）
-    segmentfault.py  思否（mode=browser，markdown）
-    oschina.py       开源中国：oschina（mode=api，MetaWeblog）+ oschina_web（browser 兜底）
-    aliyun.py        阿里云（mode=browser，markdown，name_wechat=False）
+    oschina.py       开源中国：oschina（mode=api，MetaWeblog）+ oschina_web（mode=browser 兜底）
+    csdn.py          CSDN（mode=playwright，markdown，name_wechat=False 禁「微信」字样）
+    juejin.py        掘金（mode=playwright，markdown）
+    zhihu.py         知乎（mode=playwright，html 富文本，mp_cta=False 不放公众号 CTA）
+    segmentfault.py  思否（mode=playwright，markdown，name_wechat=False）
+    aliyun.py        阿里云（mode=playwright，markdown，name_wechat=False，需先切 Markdown 模式）
   metaweblog.py  MetaWeblogAdapter 基类（cnblogs / oschina 共用的 XML-RPC 发布逻辑）
 ```
 
-三类 adapter（`mode` + `self_render` 决定）：
-- **api**（cnblogs）：框架 `render()` 出 html/markdown（含导流页脚）→ adapter 调 API 投递。
+四类 adapter（`mode` + `self_render` 决定）：
+- **api**（cnblogs / oschina）：框架 `render()` 出 html/markdown（含导流页脚）→ adapter 调 API 投递。
 - **self_render**（wechat）：渲染与 API 深度耦合（外链图重托管 mmbiz、CSS 内联、封面、草稿箱），
   且公众号是导流终点不带自身 CTA，故跳过框架 render，直接调 `wechat_publish.publish_report()`。
-- **browser**（juejin/csdn/zhihu/segmentfault/oschina/aliyun）：无开放 API，脚本只 `prepare()` 出
-  发布包（渲染内容 + 编辑器 URL + 字段 + playbook），实际发布由 Claude-in-Chrome 复用登录态驱动，
-  发完用 `--record` 回写历史。
+- **playwright**（csdn / juejin / zhihu / segmentfault / aliyun）：无开放 API，但用 Playwright 持久化
+  上下文复用「一次性手动登录」的会话、**固定代码驱动 DOM 直接发布**——一次 `--login`、之后一条命令
+  一键发，不需 agent 盯屏幕。框架 `render()` 出内容后交给 adapter 的 `do_publish()`（见 playwright_base.py）。
+- **browser**（oschina_web）：无开放 API 的 Claude-in-Chrome 兜底——脚本只 `prepare()` 出发布包
+  （渲染内容 + 编辑器 URL + 字段 + playbook），实际发布由 agent 复用登录态驱动，发完 `--record` 回写历史。
 
 **导流页脚两级开关**（按平台敏感度，在 adapter 上设）：
 - `mp_cta=False`（知乎）：完全不放公众号 CTA，只留 canonical 回链——任何引导都易限流。
-- `name_wechat=False`（CSDN/阿里云）：CTA 保留账号名「{WECHAT_MP_NAME}」+「全网同名，搜一搜即达」，
+- `name_wechat=False`（CSDN/思否/阿里云）：CTA 保留账号名「{WECHAT_MP_NAME}」+「全网同名，搜一搜即达」，
   但不出现「微信公众号 / 微信」字样（平台禁/慎用）。
-- 默认（掘金/思否/开源中国/博客园）：完整「关注微信公众号「{name}」（全网同名，微信搜一搜即达）」。
+- 默认（掘金/开源中国/博客园）：完整「关注微信公众号「{name}」（全网同名，微信搜一搜即达）」。
 
 设计原则（与现有管线对齐，不另起一套）：
 
@@ -74,6 +79,32 @@ python3 scripts/syndicate_publish.py <report.md> --channel cnblogs --force-new
 python3 scripts/syndicate_publish.py src/analysis_report/apache_superset.md --channel wechat --dry-run
 python3 scripts/syndicate_publish.py src/analysis_report/apache_superset.md --channel wechat
 ```
+
+### Playwright 渠道（csdn / juejin / zhihu / segmentfault / aliyun）
+
+无开放 API，用 Playwright 复用「一次性手动登录」的持久化会话、脚本驱动 DOM 发布。
+依赖：`pip install playwright && playwright install chromium`（本仓库 venv 已装）。
+登录态落盘 `~/.syndicate/playwright/<channel>/`（不入 Git；`SYNDICATE_PW_DIR` 可改根位置）。
+
+```bash
+# ① 一次性登录（有头开浏览器，人工登录该平台；检测到登录态自动保存并关闭，无需回终端按回车）
+python3 scripts/syndicate_publish.py --channel juejin --login
+
+# ② 预演（dry-run + preview）：有头灌入标题/正文、停在「发布前」，验证 selector/登录态，不发布、不写历史
+python3 scripts/syndicate_publish.py <report.md> --channel juejin --dry-run --preview
+
+# ③ 存草稿 / 直接公开 / 强制新建（同其它渠道）
+python3 scripts/syndicate_publish.py <report.md> --channel juejin
+python3 scripts/syndicate_publish.py <report.md> --channel juejin --publish
+python3 scripts/syndicate_publish.py <report.md> --channel juejin --force-new
+```
+
+环境变量：`SYNDICATE_LOGIN_TIMEOUT`（--login 轮询超时秒数，默认 300）、
+`SYNDICATE_PW_HEADLESS=1`（发布走无头；selector 稳定后可无人值守，知乎建议先有头验剪贴板兜底）。
+
+> selector 会随平台改版漂移。报「找不到元素」时用 `playwright codegen <editor_url>`
+> 或在 `--preview` 暂停页用 DevTools 校准对应 adapter 的 `SEL_*` 常量。各平台登录 cookie 名
+> （`LOGIN_COOKIES`）首次 `--login` 后建议在 DevTools→Application→Cookies 核对（思否尤其要确认）。
 
 ## 凭据（放 `.env.local`，不入 Git）
 
@@ -164,5 +195,6 @@ syndicate: false        # 该篇不外发；或 [cnblogs] 仅发指定渠道
   `publish_history.jsonl(channel=wechat)`，不冲突。
 - DB 里 `v_publish_latest` 已收窄为「仅 wechat」，其它渠道记录不会污染
   `reports.published_*`（= 公众号发布状态）；多渠道状态查 `v_publish_channel_latest`。
-- 现状：9 个渠道接入。api：公众号 / 博客园 / **开源中国（MetaWeblog）**；browser：掘金 /
-  CSDN / 知乎 / 思否 / 阿里云 / 开源中国兜底(oschina_web)。腾讯云不集成（已有其他方案）。
+- 现状：9 个渠道接入。**api**：公众号 / 博客园 / 开源中国（MetaWeblog）；
+  **playwright**（持久化登录 + 脚本驱动）：CSDN / 掘金 / 知乎 / 思否 / 阿里云；
+  **browser**（Claude-in-Chrome 兜底）：开源中国兜底(oschina_web)。腾讯云不集成（已有其他方案）。

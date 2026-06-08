@@ -1,0 +1,43 @@
+# AI 日报评分与质量参数（两篇共用，profile 区分侧重）
+#
+# 用途：skill 评分阶段读取对应 profile 的维度权重；分级阈值、核验参数全局共用。
+# 维护：调权重/阈值即可改变日报选材的松紧与侧重，无需改 skill 正文。
+version: 1
+
+# 并发硬顶（采集 SubAgent 一次最多并行数；超出分波）
+concurrency_cap: 10
+
+# 防信息茧房：非「种子源/内部信号」条目占比下限（低于则提示补充外部源）
+min_non_seed_ratio: 0.2
+
+# 分级阈值（0-10 分）。「有几条出几条，不为凑数降阈值」
+tiers:
+  must_read: 8.0     # 🔥 今日必看
+  watch: 6.0         # 👀 值得关注
+  brief: 4.0         # 📌 简讯（< brief 丢弃）
+
+# 事实核验（旗舰版）
+verify:
+  verify_floor: 7.0           # 评分 ≥ 此值的条目必须满足下列核验，否则封顶 5.9 或丢弃
+  min_independent_sources: 2  # ≥verify_floor 需要的独立信源数
+  funding_needs_both_sides: true   # 融资/收购需投/被投双边官方确认
+
+# 评分 profile（维度权重之和=100，最终 ÷10 得 0-10 分）
+profiles:
+  # 篇A 开源生态：以本项目独有的开源信号为主，元数据可确定性算分
+  ecosystem:
+    dimensions:
+      ecosystem_relevance: 30   # 与开源 AI 生态/读者的相关度
+      momentum: 25              # trending_days + 排名跃升 + star 增速
+      pro_star_signal: 20       # 被多少位白名单大牛 Star（star_users）
+      practicality: 15          # 可上手/可复用程度（有 repo/文档/demo）
+      timeliness: 10            # 新近度（新进榜/新 star）
+
+  # 篇B AI 前沿：对标 MorningAI 的 5 维定性
+  frontier:
+    dimensions:
+      impact: 30                # 行业影响面（影响多少人/组织/生态）
+      differentiation: 25       # 行业首创/独特 vs 跟随/增量
+      depth_verifiability: 20   # 技术深度且可验证（有 method + metrics + repo）
+      relevance_coverage: 15    # 对中文 AI 从业者的相关度与覆盖
+      timeliness: 10            # 真实事件新近度

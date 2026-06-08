@@ -1,0 +1,103 @@
+---
+import { getCollection } from "astro:content";
+import Base from "~/layouts/Base.astro";
+import JsonLd from "~/components/JsonLd.astro";
+import { getDailyDigests, absoluteUrl, SITE } from "~/lib/data";
+
+// 正文源：content collection（带 frontmatter）；元数据/板块计数：daily_digests.jsonl
+const entries = await getCollection("daily");
+const digestMeta = new Map(getDailyDigests().map((d) => [d.date, d]));
+const base = import.meta.env.BASE_URL;
+
+type Row = {
+  date: string;
+  title: string;
+  summary: string | null;
+  tags: string[];
+  sections: Record<string, number> | null;
+};
+
+const rows: Row[] = entries
+  .map((e) => {
+    const date = (e.data.date as string) ?? e.id.replace(/\.md$/, "");
+    const meta = digestMeta.get(date);
+    return {
+      date,
+      title: (e.data.title as string) ?? meta?.title ?? date,
+      summary: (e.data.summary as string) ?? meta?.summary ?? null,
+      tags: (e.data.tags as string[]) ?? [],
+      sections: meta?.sections ?? null,
+    };
+  })
+  .sort((a, b) => (a.date > b.date ? -1 : a.date < b.date ? 1 : 0));
+
+const SECTION_LABELS: Record<string, string> = {
+  rising: "开源新星",
+  pro_stars: "大牛在看",
+  heating: "升温追踪",
+  resurface: "旧文重读",
+};
+
+const description =
+  "开源 AI 日报：每日聚合 GitHub Trending、AI 大牛 Star 动态与本站深度报告，速览开源 AI 生态当日要闻。";
+
+const collectionSchema = {
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  name: `开源 AI 日报 · ${SITE.title}`,
+  description,
+  url: absoluteUrl("/daily"),
+  inLanguage: "zh-CN",
+  isPartOf: { "@id": `${absoluteUrl("/")}#website` },
+  mainEntity: { "@type": "ItemList", numberOfItems: rows.length },
+};
+---
+
+<Base title="开源 AI 日报" description={description} canonicalPath="/daily" keywords={["AI 日报", "开源 AI", "GitHub Trending"]}>
+  <Fragment slot="head">
+    <JsonLd data={collectionSchema} />
+    <link rel="alternate" type="application/rss+xml" title="开源 AI 日报" href={absoluteUrl("/daily/rss.xml")} />
+  </Fragment>
+  <section class="max-w-4xl mx-auto px-4 py-10">
+    <div class="flex items-end justify-between mb-2">
+      <h1 class="text-2xl font-bold">开源 AI 日报</h1>
+      <a href={absoluteUrl("/daily/rss.xml")} class="text-sm text-zinc-500 hover:text-brand">RSS →</a>
+    </div>
+    <p class="text-zinc-500 text-sm mb-8">
+      每日聚合 GitHub Trending + AI 大牛 Star 快照 + 本站 380+ 篇深度报告，速览开源 AI 生态当日要闻。
+    </p>
+
+    {
+      rows.length === 0 ? (
+        <p class="text-zinc-500 py-16 text-center">日报即将上线，敬请期待。</p>
+      ) : (
+        <ol class="space-y-4">
+          {rows.map((r) => (
+            <li class="border border-zinc-200 rounded-lg p-5 hover:border-brand transition-colors">
+              <a href={`${base}/daily/${r.date}`} class="block">
+                <div class="flex items-baseline justify-between gap-3 flex-wrap">
+                  <h2 class="font-semibold text-lg text-zinc-900 hover:text-brand">{r.title}</h2>
+                  <time class="text-sm text-zinc-400 shrink-0">{r.date}</time>
+                </div>
+                {r.summary && <p class="text-sm text-zinc-600 mt-2 line-clamp-2">{r.summary}</p>}
+                <div class="flex flex-wrap items-center gap-2 mt-3 text-xs">
+                  {r.tags.map((t) => (
+                    <span class="text-zinc-500 bg-zinc-100 px-2 py-0.5 rounded">{t}</span>
+                  ))}
+                  {r.sections &&
+                    Object.entries(r.sections)
+                      .filter(([, n]) => n > 0)
+                      .map(([k, n]) => (
+                        <span class="text-zinc-400">
+                          {SECTION_LABELS[k] ?? k} {n}
+                        </span>
+                      ))}
+                </div>
+              </a>
+            </li>
+          ))}
+        </ol>
+      )
+    }
+  </section>
+</Base>

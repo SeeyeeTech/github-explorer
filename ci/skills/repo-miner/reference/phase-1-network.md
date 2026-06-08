@@ -15,8 +15,8 @@
 ## 数据来源：确定性采集 JSON（先读它，不要重复跑 gh）
 
 仓库基本数据、作者画像、star 增长采样、竞品候选、Top issues、README 媒体提取与
-URL 校验——这些**确定性 gh 采集已由准备阶段的 `src/scripts/collect_repo_facts.py`
-一次性完成**，写在 `FACTS_JSON` 的 `network` 块里。**第一步用 Read 工具读取它**，
+URL 校验——这些**确定性 gh 采集已由准备阶段的 `collect_repo_facts.py`（skill 自带于
+`scripts/`，CI 回退 `src/scripts/`）一次性完成**，写在 `FACTS_JSON` 的 `network` 块里。**第一步用 Read 工具读取它**，
 不要再自己拼 `gh repo view` / `gh api users` / `gh api stargazers` / `gh api search`
 等命令——重复跑既慢又可能触发限流。
 

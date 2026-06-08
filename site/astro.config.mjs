@@ -61,6 +61,18 @@ export default defineConfig({
           item.priority = 0.9;
           return item;
         }
+        // AI 日报详情：/{base}/daily/{date}
+        const dailyMatch = p.match(/\/daily\/([^/]+)$/);
+        if (dailyMatch && dailyMatch[1] !== "daily") {
+          item.changefreq = "monthly";
+          item.priority = 0.7;
+          return item;
+        }
+        if (p.endsWith("/daily")) {
+          item.changefreq = "daily";
+          item.priority = 0.8;
+          return item;
+        }
         if (p.endsWith(repoBase) || p === "" || p === repoBase.replace(/\/$/, "")) {
           item.changefreq = "daily";
           item.priority = 1.0;

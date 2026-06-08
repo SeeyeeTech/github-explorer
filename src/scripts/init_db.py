@@ -226,6 +226,36 @@ MIGRATIONS: dict[int, str] = {
         FROM user_starred us
         GROUP BY us.url;
     """,
+    6: """
+        -- 阶段 6：多渠道发布（一文多发）。给 publish_history 增加 channel 维度，
+        -- 让公众号之外的渠道（博客园等）也能记录发布历史，而不污染
+        -- reports.published_*（后者语义保持 = 公众号发布状态）。
+        ALTER TABLE publish_history ADD COLUMN channel TEXT NOT NULL DEFAULT 'wechat';
+        ALTER TABLE publish_history ADD COLUMN post_id TEXT;   -- 远端文章 id（幂等更新用）
+        ALTER TABLE publish_history ADD COLUMN url     TEXT;   -- 远端文章 URL
+        CREATE INDEX idx_publish_channel ON publish_history(slug, channel);
+
+        -- v_publish_latest 收窄为「仅公众号」，保持 reports.published_* 原语义不变
+        -- （历史记录无 channel 字段 → 入库时 DEFAULT 'wechat'，集合与改动前一致）
+        DROP VIEW IF EXISTS v_publish_latest;
+        CREATE VIEW v_publish_latest AS
+        SELECT slug, state, published_at, title, reason, recorded_at
+        FROM (
+          SELECT *, ROW_NUMBER() OVER (PARTITION BY slug ORDER BY recorded_at DESC, id DESC) AS rn
+          FROM publish_history
+          WHERE channel = 'wechat'
+        )
+        WHERE rn = 1;
+
+        -- 每个 (slug, channel) 的最新状态，供多渠道发布查询 / 幂等校验
+        CREATE VIEW v_publish_channel_latest AS
+        SELECT slug, channel, state, published_at, title, post_id, url, recorded_at
+        FROM (
+          SELECT *, ROW_NUMBER() OVER (PARTITION BY slug, channel ORDER BY recorded_at DESC, id DESC) AS rn
+          FROM publish_history
+        )
+        WHERE rn = 1;
+    """,
 }
 
 
@@ -704,6 +734,9 @@ def seed_publish_history(conn: sqlite3.Connection, jsonl_path: Path = PUBLISH_JS
             obj.get("published_at"),
             obj.get("reason"),
             obj.get("ci_run_id"),
+            obj.get("channel") or "wechat",   # 历史记录无 channel → 视为公众号
+            obj.get("post_id"),
+            obj.get("url"),
         ))
     if bad:
         print(f"⚠️  jsonl 中跳过 {bad} 行（格式不合法或 state 非法）")
@@ -711,8 +744,8 @@ def seed_publish_history(conn: sqlite3.Connection, jsonl_path: Path = PUBLISH_JS
         conn.execute("DELETE FROM publish_history")
         conn.executemany(
             "INSERT INTO publish_history "
-            "(recorded_at, slug, title, state, published_at, reason, ci_run_id) "
-            "VALUES (?, ?, ?, ?, ?, ?, ?)",
+            "(recorded_at, slug, title, state, published_at, reason, ci_run_id, channel, post_id, url) "
+            "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
             rows,
         )
     return len(rows)

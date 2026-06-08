@@ -510,14 +510,13 @@ def fetch_cover(theme: str, fallback_url: str) -> bytes:
     sys.exit(f"ERR: 拉取封面图失败，theme={theme}")
 
 
-def main() -> int:
-    raw_args = sys.argv[1:]
-    dry_run = "--dry-run" in raw_args
-    pos = [a for a in raw_args if not a.startswith("-")]
-    if not pos:
-        sys.exit("用法: wechat_publish.py <report.md> [--dry-run]")
+def publish_report(md_path: Path, *, dry_run: bool = False) -> dict:
+    """把一篇报告确定性地转 HTML 后入公众号草稿箱。
 
-    md_path = Path(pos[0])
+    从原 main() 抽出，供 CLI main() 与 syndicate 的 WeChatAdapter 共用，
+    让公众号成为「一文多发」框架里的一个真渠道（复用这里的图片/渲染/草稿逻辑）。
+    返回结果 dict（dry_run 时为校验摘要）；失败沿用 sys.exit（与原行为一致）。
+    """
     meta_path = Path(str(md_path.with_suffix("")) + ".meta.json")
 
     if not md_path.is_file():
@@ -548,7 +547,13 @@ def main() -> int:
         out_html.parent.mkdir(parents=True, exist_ok=True)
         out_html.write_text(str(soup), encoding="utf-8")
         print(f"  ✓ 处理后正文 → {out_html}（核对无破图 / 孤儿图注 / 空标题）")
-        return 0
+        return {
+            "dry_run": True,
+            "report": str(md_path),
+            "img_ok": img_ok,
+            "img_removed": img_removed_n,
+            "out_html": str(out_html),
+        }
 
     title = meta.get("title") or md_path.stem
     digest = (meta.get("digest") or "")[:120]
@@ -687,6 +692,16 @@ def main() -> int:
         encoding="utf-8",
     )
     print(f"✅ 已入草稿箱：{title}")
+    return result
+
+
+def main() -> int:
+    raw_args = sys.argv[1:]
+    dry_run = "--dry-run" in raw_args
+    pos = [a for a in raw_args if not a.startswith("-")]
+    if not pos:
+        sys.exit("用法: wechat_publish.py <report.md> [--dry-run]")
+    publish_report(Path(pos[0]), dry_run=dry_run)
     return 0
 
 

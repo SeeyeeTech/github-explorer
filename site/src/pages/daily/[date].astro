@@ -1,0 +1,116 @@
+---
+import { getCollection, render } from "astro:content";
+import Base from "~/layouts/Base.astro";
+import JsonLd from "~/components/JsonLd.astro";
+import WeChatFollow from "~/components/WeChatFollow.astro";
+import { getDailyDigests, absoluteUrl, SITE } from "~/lib/data";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("daily");
+  return entries.map((entry) => ({
+    params: { date: entry.id.replace(/\.md$/, "") },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const date = (entry.data.date as string) ?? entry.id.replace(/\.md$/, "");
+const { Content } = await render(entry);
+
+const meta = getDailyDigests().find((d) => d.date === date);
+const title = (entry.data.title as string) ?? meta?.title ?? `开源 AI 日报 ${date}`;
+const summary =
+  (entry.data.summary as string) ?? meta?.summary ?? `${date} 开源 AI 生态日报：GitHub Trending、大牛 Star 与深度报告速览。`;
+const tags = (entry.data.tags as string[]) ?? ["AI 日报", "开源"];
+const base = import.meta.env.BASE_URL;
+
+const pageUrl = absoluteUrl(`/daily/${date}`);
+const isoDate = /^\d{4}-\d{2}-\d{2}$/.test(date) ? new Date(date).toISOString() : undefined;
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "@id": `${pageUrl}#article`,
+  headline: title,
+  description: summary,
+  url: pageUrl,
+  inLanguage: "zh-CN",
+  mainEntityOfPage: { "@type": "WebPage", "@id": pageUrl },
+  datePublished: isoDate,
+  dateModified: isoDate,
+  author: { "@type": "Organization", name: SITE.title, url: SITE.repoUrl },
+  publisher: { "@id": `${absoluteUrl("/")}#org` },
+};
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "首页", item: absoluteUrl("/") },
+    { "@type": "ListItem", position: 2, name: "开源 AI 日报", item: absoluteUrl("/daily") },
+    { "@type": "ListItem", position: 3, name: title, item: pageUrl },
+  ],
+};
+---
+
+<Base
+  title={title}
+  description={summary}
+  pagefindIgnore={false}
+  ogType="article"
+  canonicalPath={`/daily/${date}`}
+  keywords={tags}
+  publishedTime={isoDate}
+  modifiedTime={isoDate}
+  articleTags={tags}
+>
+  <Fragment slot="head">
+    <JsonLd data={articleSchema} />
+    <JsonLd data={breadcrumbSchema} />
+  </Fragment>
+  <article class="max-w-6xl mx-auto px-4 py-8 grid lg:grid-cols-[1fr_280px] gap-8">
+    <div>
+      <nav class="text-sm text-zinc-500 mb-4">
+        <a href={`${base}/`} class="hover:text-brand">首页</a>
+        <span class="mx-1">/</span>
+        <a href={`${base}/daily`} class="hover:text-brand">开源 AI 日报</a>
+        <span class="mx-1">/</span>
+        <span class="text-zinc-700">{date}</span>
+      </nav>
+
+      <div class="report-prose prose prose-zinc max-w-none" data-pagefind-body>
+        <Content />
+      </div>
+    </div>
+
+    <aside class="space-y-6">
+      <div class="sticky top-20 space-y-6">
+        <div class="bg-white border border-zinc-200 rounded-lg p-4">
+          <h3 class="text-sm font-medium text-zinc-500 mb-3">本期</h3>
+          <dl class="space-y-2 text-sm">
+            <div>
+              <dt class="text-zinc-500">日期</dt>
+              <dd>{date}</dd>
+            </div>
+            {
+              meta?.sections &&
+                Object.entries(meta.sections)
+                  .filter(([, n]) => n > 0)
+                  .map(([k, n]) => (
+                    <div>
+                      <dt class="text-zinc-500">{k}</dt>
+                      <dd>{n}</dd>
+                    </div>
+                  ))
+            }
+          </dl>
+        </div>
+
+        <WeChatFollow variant="sidebar" />
+
+        <a href={`${base}/daily`} class="block text-center text-sm text-zinc-500 hover:text-brand">
+          ← 返回日报列表
+        </a>
+      </div>
+    </aside>
+  </article>
+</Base>

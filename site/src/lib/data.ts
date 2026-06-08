@@ -204,6 +204,54 @@ export function getTrendingByPeriod(period: "daily" | "weekly" | "monthly"): Tre
   return loadTrendingByPeriod()[period] ?? [];
 }
 
+// AI 日报 · 开源生态篇（篇A）索引：读 daily_digests.jsonl，只取 type=ecosystem（篇B 不上站）
+export interface DailyDigest {
+  date: string;
+  slug: string;
+  title: string;
+  summary: string | null;
+  sections: Record<string, number> | null;
+  featuredUrls: string[];
+}
+
+let _daily: DailyDigest[] | null = null;
+export function getDailyDigests(): DailyDigest[] {
+  if (_daily) return _daily;
+  const file = path.join(DATA_DIR, "daily_digests.jsonl");
+  const out: DailyDigest[] = [];
+  if (fs.existsSync(file)) {
+    for (const line of fs.readFileSync(file, "utf-8").split("\n")) {
+      const s = line.trim();
+      if (!s) continue;
+      try {
+        const r = JSON.parse(s) as {
+          type?: string;
+          date?: string;
+          slug?: string;
+          title?: string;
+          summary?: string | null;
+          sections?: Record<string, number> | null;
+          featured_urls?: string[];
+        };
+        if (r.type !== "ecosystem" || !r.date) continue;
+        out.push({
+          date: r.date,
+          slug: r.slug ?? r.date,
+          title: r.title ?? r.date,
+          summary: r.summary ?? null,
+          sections: r.sections ?? null,
+          featuredUrls: r.featured_urls ?? [],
+        });
+      } catch {
+        // 容错坏行，不让单条脏数据拖垮构建
+      }
+    }
+  }
+  out.sort((a, b) => (a.date > b.date ? -1 : a.date < b.date ? 1 : 0));
+  _daily = out;
+  return out;
+}
+
 // 报告 URL → slug 反查（用于 trending/starred 高亮已分析）
 let _urlIndex: Map<string, string> | null = null;
 export function getAnalyzedUrlIndex(): Map<string, string> {

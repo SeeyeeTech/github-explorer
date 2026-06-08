@@ -13,4 +13,23 @@ const reports = defineCollection({
   schema: z.object({}).passthrough(),
 });
 
-export const collections = { reports };
+// AI 日报 · 开源生态篇：从 src/daily_report 加载（带 YAML frontmatter）。
+// 篇B（frontier）落在 src/ai_news，不进站点，故此处只 glob daily_report。
+const daily = defineCollection({
+  loader: glob({
+    pattern: ["**/*.md", "!README.md"],
+    base: "../src/daily_report",
+  }),
+  schema: z
+    .object({
+      title: z.string().optional(),
+      date: z.string().optional(),
+      summary: z.string().optional(),
+      tags: z.array(z.string()).optional(),
+      canonical_url: z.string().optional(),
+      syndicate: z.union([z.boolean(), z.array(z.string())]).optional(),
+    })
+    .passthrough(),
+});
+
+export const collections = { reports, daily };

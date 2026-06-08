@@ -1,0 +1,6 @@
+{
+  "title": "4.5K stars、89% 单人代码：把 70B 模型塞进 24GB 显卡的 EXL2 量化推理库",
+  "digest": "exllamav2 首创 EXL2 任意平均位宽混合量化，配合 paged KV cache 与 Hadamard 旋转缓存，让 24GB 消费卡跑 70B 成为可调参数。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

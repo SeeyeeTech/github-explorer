@@ -122,3 +122,4 @@
 {"recorded_at": "2026-06-07T18:42:33.281967+00:00", "slug": "a16z-infra_ai-town", "title": null, "state": "published", "published_at": "2026-06-07", "reason": "自动生成", "ci_run_id": "27100955364"}
 {"recorded_at": "2026-06-07T19:47:03.550296+00:00", "slug": "resque_resque", "title": null, "state": "published", "published_at": "2026-06-07", "reason": "自动生成", "ci_run_id": "27102519965"}
 {"recorded_at": "2026-06-07T20:42:00.916677+00:00", "slug": "reorproject_reor", "title": null, "state": "published", "published_at": "2026-06-07", "reason": "自动生成", "ci_run_id": "27103821782"}
+{"recorded_at": "2026-06-08T03:28:29.996430+00:00", "slug": "turboderp-org_exllamav2", "title": null, "state": "published", "published_at": "2026-06-08", "reason": "自动生成", "ci_run_id": "27113596331"}

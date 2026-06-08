@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ======微信公众号排版 CSS ====== */
+
+body {
+ max-width:680px;
+ margin:0 auto;
+ padding:20px;
+ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+ color: #3e3e3e;
+ background: #fff;
+}
+
+/* 正文段落 */
+p {
+ font-size:15px !important;
+ line-height:2 !important;
+ margin:0 !important;
+ padding-top:0.5em !important;
+ padding-bottom:0.5em !important;
+ padding-right:1.2em !important;
+ padding-left:1.2em !important;
+ text-align: justify !important;
+}
+p + p {
+ margin-top:0 !important;
+}
+
+/*标题 */
+h1 {
+ font-size:20px !important;
+ color: #e51f42 !important;
+ text-align: center !important;
+ margin:24px016px0 !important;
+ padding:0 !important;
+}
+h2 {
+ font-size:18px !important;
+ color: #e51f42 !important;
+ text-align: center !important;
+ margin:24px024px0 !important;
+ padding:0 !important;
+}
+h3 {
+ font-size:15px !important;
+ font-weight: bold !important;
+ color: #3e3e3e !important;
+ text-align: left !important;
+ margin:16px016px0 !important;
+ padding:0001.2em !important;
+}
+h4 {
+ font-size:15px !important;
+ color: rgb(0,122,170) !important;
+ margin:12px08px0 !important;
+ padding:0 !important;
+}
+
+/*列表 */
+ul,
+ol {
+ padding-left:2em !important;
+ margin:1em0 !important;
+ font-size:15px !important;
+}
+li {
+ margin:0.5em0 !important;
+ line-height:1.8em !important;
+ font-size:15px !important;
+ color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+ margin:0 !important;
+ padding-left:1.2em !important;
+}
+
+/*引用 */
+blockquote {
+ border-left:4px solid #888 !important;
+ padding:8px16px !important;
+ margin:1em0 !important;
+ color: #666 !important;
+ background: #f9f9f9 !important;
+}
+blockquote > p {
+ margin:0.5em0 !important;
+ padding:0 !important;
+}
+blockquote::before,
+blockquote::after {
+ content: none !important;
+}
+
+/* 代码块 */
+pre {
+ font-size:14px !important;
+ line-height:1.4em !important;
+ color: #3e3e3e !important;
+ background: #f8f8f8 !important;
+ padding:12px16px !important;
+ border-radius:4px !important;
+ overflow: auto !important;
+ margin:1em0 !important;
+}
+
+/*脚注 */
+.footnotes {
+ font-size:11px !important;
+ color: #666 !important;
+ line-height:1.2 !important;
+ margin:8px000 !important;
+ padding:4px000 !important;
+ border-top:1px solid #eee !important;
+}
+.footnotes p {
+ font-size:11px !important;
+ line-height:1.2 !important;
+ margin:0 !important;
+ padding:0 !important;
+ color: #666 !important;
+}
+
+/* 上标 */
+sup {
+ font-size:0.75em !important;
+ vertical-align: super !important;
+ color: #e51f42 !important;
+ margin:02px !important;
+}
+
+/*表格 */
+table {
+ border-collapse: collapse !important;
+ width:100% !important;
+ margin:1em0 !important;
+ font-size:14px !important;
+}
+th, td {
+ border:1px solid #ddd !important;
+ padding:8px12px !important;
+ text-align: left !important;
+}
+th {
+ background: #f5f5f5 !important;
+ font-weight: bold !important;
+}
+
+/*链接 */
+a {
+ color: #576b95 !important;
+ text-decoration: none !important;
+}
+
+/* 图片 */
+img {
+ max-width:100% !important;
+ height: auto !important;
+ display: block !important;
+ margin:1em auto !important;
+}
+</style>
+</head>
+<body>
+<h2>一句话总结</h2>
+<p>taste-skill 是 Claude Code / Cursor / Codex / Gemini CLI / v0 等8 家 agent平台通用的「反 slop 前端设计」skill矩阵 ——13 个独立 SKILL.md 把「设计品味」拆成可机械验证的规则集，让 AI写前端不再输出满屏 em-dash +紫色渐变的同质化模板。</p>
+<h2>值得关注的理由</h2>
+<ul>
+<li><strong>品类占位</strong>：在 frontend design taste 这个 Claude Code skill细分赛道，taste-skill几乎是事实上的品类定义者，38k star /2.7k fork 在3.6个月内达成，且 fork:star ≈7.1% 说明真实安装使用而非单纯点赞。</li>
+<li><strong>方法论升格</strong>：<code>research/laziness/</code> 子模块把 LLM偷懒问题（cognitive shortcuts / RLHF偏向 / training data bias）从轶事升格为有学术数据支撑的系统性方法论，是 prompt-as-product 项目里少见的「边做产品边公开方法论」实践。</li>
+<li><strong>可机械验证</strong>：50+ 条 Strict Pre-Flight Checklist（em-dash字符级禁令、eyebrow机械计数、palette旋转矩阵、CTA唯一性等）把「设计品味」从主观辩论拉成可机械检查的规则集 —— 这是其他「设计指南」类项目普遍缺乏的工程化能力。</li>
+</ul>
+<h2>项目展示</h2>
+<p><a href="https://raw.githubusercontent.com/leonxlnx/taste-skill/main/assets/readme-banner.png">https://raw.githubusercontent.com/leonxlnx/taste-skill/main/assets/readme-banner.png</a> — 类型：hero（项目主视觉）</p>
+<p><a href="https://raw.githubusercontent.com/leonxlnx/taste-skill/main/assets/taste-skill-logo.webp">https://raw.githubusercontent.com/leonxlnx/taste-skill/main/assets/taste-skill-logo.webp</a> — 类型：logo</p>
+<p><a href="https://raw.githubusercontent.com/leonxlnx/taste-skill/main/examples/floria-top.webp">https://raw.githubusercontent.com/leonxlnx/taste-skill/main/examples/floria-top.webp</a> — 类型：demo（Showcase案例 Floria落地页顶部）</p>
+<p><a href="https://raw.githubusercontent.com/leonxlnx/taste-skill/main/examples/floria-bottom.webp">https://raw.githubusercontent.com/leonxlnx/taste-skill/main/examples/floria-bottom.webp</a> — 类型：demo（Showcase案例 Floria落地页底部）</p>
+<p><a href="https://tasteskill.dev/_next/image?url=%2Fheroimg1.webp&amp;w=3840&amp;q=75">https://tasteskill.dev/_next/image?url=%2Fheroimg1.webp&amp;w=3840&amp;q=75</a> — 类型：hero（官网 hero gallery）</p>
+<p><a href="https://tasteskill.dev/_next/image?url=%2Fc1.webp&amp;w=3840&amp;q=75">https://tasteskill.dev/_next/image?url=%2Fc1.webp&amp;w=3840&amp;q=75</a> — 类型：demo（一行 <code>npx skills add</code>跨8 agent平台安装）</p>
+<blockquote>
+<p>在线 Demo入口：<a href="https://floria-landing-page.vercel.app/">https://floria-landing-page.vercel.app/</a>（Floria落地页案例）| <a href="https://collectiveos.vercel.app/">https://collectiveos.vercel.app/</a>（技术性 UI案例）</p>
+</blockquote>
+<h2>项目画像</h2>
+<table>
+<thead>
+<tr><th>维度</th><th>数据</th></tr>
+</thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/leonxlnx/taste-skill">https://github.com/leonxlnx/taste-skill</a></td></tr>
+<tr><td>Star / Fork</td><td>38388 /2729（fork:star ≈7.1%，真实使用率高于点赞）</td></tr>
+<tr><td>Watcher / Open Issue</td><td>123 / 数个开放（存在 star远超 issue参与的「传播-贡献剪刀差」）</td></tr>
+<tr><td>代码行数</td><td>21 行 Shell包装（实质资产：30 个 markdown / ~5,700 行 prompt文本）</td></tr>
+<tr><td>项目年龄</td><td>3.6 个月（首次提交2026-02-19，最近推送2026-05-26，6 周未推但持续接收 star）</td></tr>
+<tr><td>开发阶段</td><td>密集开发（近90 天62 commit，占总量64%）</td></tr>
+<tr><td>贡献模式</td><td>单人主导（3 个 contributor，Top1 占96.8%）</td></tr>
+<tr><td>热度定位</td><td>大众热门 +爆发型增长（最近184 个 star落在单日内，触发了某个大型传播节点）</td></tr>
+<tr><td>质量评级</td><td>Prompt优秀 /文档优秀 / 测试无（靠 round-N hardening人工对抗性测试）</td></tr>
+<tr><td>License</td><td>MIT</td></tr>
+<tr><td>主页</td><td><a href="https://tasteskill.dev">https://tasteskill.dev</a>（Next.js站，含13 个子 skill showcase + changelog + blog）</td></tr>
+</tbody>
+</table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>Leon Lin（@leonxlnx，handle @lexnlin），Munich独立开发者，账号0.9 年（2025-07 创建），113 个公开仓库；bio 只写「i like to build stuff」，blog 在 own.page/leonlin，无公司隶属。<strong>典型 AI-first builder</strong> ——作品横跨 SKILL prompt 工程、TS/JS实战项目、TypeScript浏览器 OS（aerodesk-11-browser-os）、Web RPG demo（shardwake-open-world-rpg）、生活压力测试基准等，且明显同时经营 design / coding 两个轴线（designthieves 是另一个 design 系列仓库）。</p>
+<p>投入权重<strong>高</strong>：taste-skill几乎贯穿作者全部高活跃期，账号113 个仓库里这是最显眼的代表作。粉丝1005，账号年龄虽短但产出密集、方法论扎实。</p>
+<h3>问题判断</h3>
+<p>作者从自身工作流里挖出了「AI coding agent写前端时默认输出高度同质化的 slop 风」这个高频痛点 —— em-dash满屏、紫色渐变 hero、左侧文本+右侧插画的同一套模板。这种从 dogfooding挖出的痛点比「自上而下设计的 feature」更真实。</p>
+<p><strong>为什么是现在</strong>：2026-02启动项目正好踩在 vibe-coding爆发期（Cursor 用户激增）+ Vercel Labs推出 <code>npx skills add</code>标准化协议的时间窗，是「需求侧被 Cursor验证 +供给侧被 Vercel标准化」的双重红利窗口。同时 <code>research/laziness/</code>引用 Microsoft Research、LazyBench2024 等论文，把「LLM 在执行长 prompt 时偷懒/走捷径」从轶事升格为有数据支撑的系统性问题。</p>
+<h3>解法哲学</h3>
+<ul>
+<li><strong>Unix哲学 × 设计系统</strong>：13 个 SKILL.md各自单文件、自包含、可独立安装 —— 一个 skill解决一个风格问题（brutalist / minimal / soft / stitch / imagegen-frontend-web 等），不试图做「一个能 cover一切」的 mega prompt</li>
+<li><strong>可机械验证 > 美学讨论</strong>：用 em-dash字符级硬禁令、eyebrow机械计数、palette旋转矩阵等可执行的 pre-flight checklist，把「设计品味」从主观品味拉成可机械检查的规则集</li>
+<li><strong>真实 design system >凭空捏造</strong>：12 个官方 package（Material / Carbon / Polaris / Radix 等）映射优先 +8 种 aesthetic 的「honest implementation」（包括 Apple Liquid Glass 的近似版），拒绝「看起来像 Material 但其实不是」的假设计系统</li>
+<li><strong>明确不做什么</strong>：不做 hosting / SaaS /模板 marketplace；不做 IDE插件；不替代 Tailwind/组件库；只做「写在 SKILL.md里的设计方法论」</li>
+</ul>
+<h3>战略意图</h3>
+<p>taste-skill 是作者公开的<strong>代表作</strong>（账号113 个仓库中投入权重最高），是 Leonxlnx品牌的主轴。商业化路径是 GitHub Sponsors12 位 +官网 <a href="https://tasteskill.dev">https://tasteskill.dev</a> ——保持「开源品牌 + sponsorship」路线，无 SaaS计划、无 enterprise 版本。</p>
+<p>开源策略是 genuinely open（MIT License），所有 prompt 内容100%公开；但靠「作者的持续 round-N hardening + research/ 方法论沉淀」建立时间维度的护城河 —— 可被 fork 但难被同质量再维护。</p>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<ol>
+<li><strong>Em-Dash字符级硬禁令 + Eyebrow机械计数</strong>（新颖度4/5 /实用性5/5 / 可迁移性5/5）：把「反 slop」从美学讨论拉成可机械执行的字符级规则；eyebrow文字不能超过3词，否则 trigger redesign</li>
+<li><strong>Three-Dial +推断矩阵</strong>（VARIANCE / MOTION / DENSITY1-10）（3/5/5/5）：用三个1-10标尺量化创意输出连续谱系，配合 brief推断矩阵自动设置初值</li>
+<li><strong>Brief Inference one-liner + Ask-One-Question</strong>（3/5/5/5）：brief 一行话直接推断设计方向；信息不足时 agent 只问一个问题而非一连串</li>
+<li><strong>Real Design System优先级 + Apple Liquid Glass Honest Approximation</strong>（4/5/5/4）：强制使用12 个真实 design system package，禁止「凭空捏造」；Apple Liquid Glass 等 aesthetic 用 honest approximation（明确标注是近似）</li>
+<li><strong>Premium-Consumer Palette Ban +旋转矩阵</strong>（4/5/5/4）：禁止紫色渐变 hero 等 slop调色板；提供8 种审美调色板旋转矩阵</li>
+<li><strong>No Duplicate CTA Intent</strong>（4/5/4/5）：同一页面不能有多个相同意图的 CTA（如「Get Started」+「Try Free」+「Sign Up」），强制 CTA唯一性</li>
+<li><strong>GSAP Sticky-Stack canonical skeleton + Forbidden Animation Patterns</strong>（3/5/5/5）：提供 canonical动效骨架（sticky-stack滚动叙事等）+明确禁止的动效模式（bounce / 默认 ease-in-out 等）</li>
+<li><strong>Lazy-Loaded Skills35% context缩减 + Discovery68%→90%</strong>（5/5/5/5）：把13 个 skill拆成独立可加载模块；按需安装后 context占用减少35%，LLM 对可用 skill 的发现率从68%提升到90%</li>
+<li><strong>Research 子模块公开化方法论</strong>（4/5/4/5）：把 LLM偷懒的研究方法论、实证数据、根因分析公开在 <code>research/laziness/</code>，作为 skill仓库的「学术附录」</li>
+<li><strong>LLM Psychology Pattern Matching</strong>（4/5/5/4）：把 LLM心理学（cognitive shortcuts、training bias、RLHF偏向）作为 prompt设计的输入变量，而非把 LLM 当黑盒</li>
+</ol>
+<h3>可复用的模式与技巧</h3>
+<ul>
+<li><strong>Single-File SKILL.md Pattern</strong>：每个 skill 一个自包含 markdown 文件、分章节编号 ——适用任何 Claude Code / Cursor skill仓库</li>
+<li><strong>Pre-Flight Checklist Pattern</strong>：50+ 条可机械验证的硬规则清单，agent 输出前自查 ——适用任何 LLM 输出质量管控</li>
+<li><strong>Three-Dial Quantification Pattern</strong>：用1-10标尺量化创意输出连续谱系 ——适用任何 creative coding / 设计生成</li>
+<li><strong>Brief Inference + Ask-One-Question Pattern</strong>：简短输入先推断，信息不足时只问一个问题 ——适用任何 AI 生成场景的 prompt模板</li>
+<li><strong>Real Design System Priority Pattern</strong>：强制使用真实 design system，禁止凭空捏造 ——适用 enterprise 前端 /严肃产品设计</li>
+<li><strong>Multi-Style SKU Split Pattern</strong>：把 mega prompt拆成多个独立可加载 skill ——适用任何 LLM tool生态的「垂直化」分发</li>
+<li><strong>Research Submodule Pattern</strong>：把工程方法论沉淀到独立 <code>research/</code> 子模块公开 ——适用把工程实践升格为方法论的项目</li>
+<li><strong>Round-N Hardening Iteration</strong>：用对抗性测试驱动 prompt hardening，按 round编号（commit记录暴露「round-5 hardening from Opus4.7」式迭代节奏）——适用任何长生命周期 prompt 项目</li>
+</ul>
+<h3>关键设计决策</h3>
+<ol>
+<li><strong>SKILL.md 单文件自包含</strong>：主 SKILL.md1206 行14 节 + v1 SKILL.md226 行 + 其他11 个子 skill各自单文件；章节用编号小标题（##1 / ##2 ...）便于 LLM解析。Trade-off：单文件超过1200 行后上下文压力变大 —— 作者用 <code>output-skill</code>单独解决 truncation 问题。可迁移性<strong>高</strong>。</li>
+<li><strong>跨8 Agent平台抽象</strong>：不绑定任何平台；通过 Vercel Labs <code>npx skills add</code>协议分发；README明确列出8 个平台（Claude Code / Cursor / Codex / Gemini CLI / v0 / Lovable 等）兼容。Trade-off：牺牲「某平台深度集成」换「跨平台覆盖率」。可迁移性<strong>高</strong>。</li>
+<li><strong>Brief Inference → Design System Map</strong>：第一步 inference（推 brief 类型）→ 第二步 map（映射到 Material / Carbon / Polaris / Radix 等12 个真实 design system）。Trade-off：强约束产出质量，但要求作者持续维护 design system矩阵 ——维护成本由 <code>research/laziness/</code> 的方法论文档吸收。可迁移性<strong>中-高</strong>。</li>
+<li><strong>50+ 项 Strict Pre-Flight Checklist</strong>：em-dash字符级检测、eyebrow文字≤3词、palette 不能用紫色渐变模板、CTA 不能重复意图等。Trade-off：极大约束 LLM自由度、产出可能「过度同质」；换来「反 slop严格度」和「输出可解释」。可迁移性<strong>高</strong>。</li>
+<li><strong>Multi-Style SKU拆分</strong>：brutalist / minimalist / soft / stitch / imagegen-frontend-web/mobile / output / redesign / brandkit / image-to-code / gpt-taste / v1 / v2 等13 个独立 SKILL.md，按需 <code>npx skills add</code> 安装。Trade-off：用户认知负担高（issue #15 就是「教学成本」），换来「每个 skill极致精专」和「按需加载节约 context」。可迁移性<strong>高</strong>。</li>
+<li><strong>Research Submodule公开化方法论</strong>：把 LLM偷懒问题拆成4 个 root cause（RLHF / output-limits / training-data-bias / cognitive-shortcuts），每条配4 类 remediation（parameter-tuning / prompt-engineering / reference-prompts / architectural-patterns）。Trade-off：维护一个研究子模块需要持续投入（11 次修改的热点目录），换来「方法论可复用 +公开化建立作者权威」。可迁移性<strong>高</strong>。</li>
+</ol>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table>
+<thead>
+<tr><th>维度</th><th>taste-skill</th><th>steipete/agent-rules</th><th>Vercel Labs agent-skills</th><th>Anthropic claude-code examples</th></tr>
+</thead>
+<tbody>
+<tr><td>定位</td><td>Frontend design taste专项</td><td>通用 agent rules 合集</td><td>协议 + skills 注册表</td><td>官方通用工程示例</td></tr>
+<tr><td>Star</td><td>38.4k</td><td>5.7k</td><td>数千级（基础设施）</td><td>—（官方仓库）</td></tr>
+<tr><td>内容深度</td><td>13 个子 SKU各自精专</td><td>覆盖面广但浅</td><td>仅协议不生产内容</td><td>通用工程，无 frontend专项</td></tr>
+<tr><td>Pre-flight验证</td><td>50+ 条可机械验证</td><td>无</td><td>不适用</td><td>无</td></tr>
+<tr><td>跨平台分发</td><td>8 agent平台通用</td><td>覆盖 Claude Code / Cursor</td><td><code>npx skills add</code>协议</td><td>仅 Claude Code</td></tr>
+<tr><td>方法论文档</td><td><code>research/laziness/</code>10 篇</td><td>无</td><td>无</td><td>无</td></tr>
+<tr><td>商业化</td><td>GitHub Sponsors</td><td>暂无</td><td>平台商业</td><td>不适用</td></tr>
+</tbody>
+</table>
+<h3>差异化护城河</h3>
+<ul>
+<li><strong>内容深度护城河</strong>：13 个子 SKU 每个都是精专设计方法论 +50+ 条可机械验证的 pre-flight checklist —— 这是 fork容易、re-maintain极难的「时间维度护城河」</li>
+<li><strong>方法论护城河</strong>：<code>research/laziness/</code> 把 LLM偷懒的根因（RLHF / cognitive shortcuts / training bias）+ remediation（parameter-tuning / prompt-engineering / reference-prompts / architectural-patterns）公开化，建立作者在「prompt 工程学术化」赛道的权威</li>
+<li><strong>生态护城河</strong>：Vercel Labs <code>npx skills add</code>协议下 taste-skill 是「最早的明星内容之一」，后来者需在协议层抢曝光</li>
+</ul>
+<h3>竞争风险</h3>
+<ul>
+<li><strong>Anthropic官方 frontend design skill</strong>（最可能的「渠道/官方」威胁）：若 Anthropic未来推出 frontend design官方 skill，taste-skill 将面临「官方背书」压力 —— 但13 个子 SKU 的内容深度是护城河</li>
+<li><strong>Vercel Labs 自营内容</strong>（协议方下场做内容）：若 Vercel Labs决定自营 frontend design 内容，taste-skill失去协议分发优势 —— 但当前 Vercel Labs定位为「协议方」而非「内容方」</li>
+<li><strong>社区反向 port削弱控制力</strong>：issue #35 显示 Svelte5 port正在社区反向输出，若生态足够活跃，原作者的「品牌」可能稀释</li>
+</ul>
+<h3>生态定位</h3>
+<p>在整个「agent协议层（Vercel Labs）→ 设计内容层（taste-skill）→ 用户安装使用」的金字塔中，taste-skill 是当前 frontend design taste方向的<strong>品类定义者 + 内容深度领跑者 + 方法论文贡献者</strong>。</p>
+<blockquote>
+<p>结论：frontend design taste细分赛道接近蓝海，taste-skill 是事实上的占位者与品类定义者；与 steipete/agent-rules（互补）、Vercel Labs agent-skills（共生）、Anthropic claude-code examples（互补）均为零或低竞争。</p>
+</blockquote>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：已不属于被低估项目（38k star 是赛道头部）；但社区讨论层（watcher123、issue活跃度一般）相对 star 量偏低，存在「star远超 issue参与」的传播-贡献剪刀差，反而提示<strong>潜在机会</strong>：作者一人维护难消化38k star用户的反馈，可关注 roadmap跟进</li>
+<li><strong>技术借鉴</strong>：三 dial模式、pre-flight checklist模式、research/ 子模块方法论文档模式、round-N hardening迭代模式均可直接迁移到自己的 prompt 项目</li>
+<li><strong>生态位</strong>：填补了「agent +视觉」这一交叉空白；与 steipete/agent-rules（通用 rules）和 Vercel Labs（协议层）错位</li>
+<li><strong>趋势判断</strong>：vibe-coding持续爆发 + agent平台协议标准化（Vercel Labs <code>npx skills add</code>）；taste-skill 在3.6个月内 star增长到38k，验证了「frontend design skill」是 agent生态的刚需方向</li>
+</ul>
+<h2>风险与不足</h2>
+<ul>
+<li><strong>单人维护风险</strong>：96.8% 单人主导，账号年龄仅0.9 年；若作者 burnout 或转向，13 个子 skill 的维护负担难以为继</li>
+<li><strong>传播-贡献剪刀差</strong>：38k star 但 watcher 仅123、issue数量一般，存在「phantom stars」争议（issue #48），需关注 star真实性</li>
+<li><strong>教学成本压力</strong>：13 个子 skill 的认知负担是普通用户门槛（issue #15「Add examples of each skill?」）</li>
+<li><strong>路线图缺口</strong>：尚未覆盖 a11y（issue #32「Add an accessibility skill」）、template skill模板（issue #23）等延伸需求</li>
+<li><strong>无版本化</strong>：无 tag、无 release，依赖 commit hash 或 README章节定位版本，读者无法回溯到具体版本</li>
+<li><strong>依赖协议方</strong>：跨8 agent平台分发依赖 Vercel Labs <code>npx skills add</code>协议，若协议方策略变化，分发渠道受影响</li>
+</ul>
+<h2>行动建议</h2>
+<ul>
+<li><strong>如果你要用它</strong>：一行 <code>npx skills add Leonxlnx/taste-skill</code> 安装 v2 默认 skill；如需特定风格（brutalist/minimal/soft/stitch），再追加安装对应子 skill。适合 vibecoding / nocode / lowcode场景下需要快速出「不像 AI」产品 UI 的独立开发者和小团队</li>
+<li><strong>如果你要学它</strong>：重点关注（按可迁移性排序）：<br/><code>skills/taste-skill/SKILL.md</code>（v2 默认，1206 行14 节，主入口）<br/><code>skills/output-skill/SKILL.md</code>（反 truncation 输出策略）<br/><code>research/laziness/remediation/architectural-patterns.md</code>（LLM偷懒的架构层缓解）<br/><code>research/laziness/remediation/prompt-engineering.md</code>（prompt工程的系统性方法论）<br/><code>research/laziness/findings/empirical-results.md</code>（LLM偷懒的实证数据）</li>
+<li><strong>如果你要 fork 它</strong>：<br/>添加 a11y 子 skill（issue #32提示的需求缺口）<br/>制作空白 skill模板（issue #23提示的生态扩展需求）<br/>为每个子 skill 增加可执行源码 example（issue #15提示的文档债）<br/>接入更多 agent平台（OpenCode / Aider 等）<br/>引入 CI验证 SKILL.md格式（pre-flight checklist自动化检查）</li>
+</ul>
+<h3>知识入口</h3>
+<table>
+<thead>
+<tr><th>资源</th><th>链接</th></tr>
+</thead>
+<tbody>
+<tr><td>DeepWiki</td><td>未收录（页面403）</td></tr>
+<tr><td>Zread.ai</td><td><a href="https://zread.ai/leonxlnx/taste-skill">https://zread.ai/leonxlnx/taste-skill</a>（已收录，含13 skill清单、价值主张、hero gallery、showcase、sponsor列表）</td></tr>
+<tr><td>关联论文</td><td>无（<code>research/laziness/</code>引用 Microsoft Research / LazyBench2024 等学术研究，但无项目自身发表论文）</td></tr>
+<tr><td>在线 Demo</td><td><a href="https://floria-landing-page.vercel.app/">https://floria-landing-page.vercel.app/</a>（Floria落地页案例）| <a href="https://collectiveos.vercel.app/">https://collectiveos.vercel.app/</a>（技术性 UI案例）</td></tr>
+<tr><td>官方主页</td><td><a href="https://tasteskill.dev">https://tasteskill.dev</a>（Next.js站，含13 个子 skill showcase + changelog + blog）</td></tr>
+</tbody>
+</table>
+</body>
+</html>

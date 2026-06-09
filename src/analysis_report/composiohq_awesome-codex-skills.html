@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ======微信公众号排版 CSS ====== */
+
+body {
+ max-width:680px;
+ margin:0 auto;
+ padding:20px;
+ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+ color: #3e3e3e;
+ background: #fff;
+}
+
+/* 正文段落 */
+p {
+ font-size:15px !important;
+ line-height:2 !important;
+ margin:0 !important;
+ padding-top:0.5em !important;
+ padding-bottom:0.5em !important;
+ padding-right:1.2em !important;
+ padding-left:1.2em !important;
+ text-align: justify !important;
+}
+p + p {
+ margin-top:0 !important;
+}
+
+/*标题 */
+h1 {
+ font-size:20px !important;
+ color: #e51f42 !important;
+ text-align: center !important;
+ margin:24px016px0 !important;
+ padding:0 !important;
+}
+h2 {
+ font-size:18px !important;
+ color: #e51f42 !important;
+ text-align: center !important;
+ margin:24px024px0 !important;
+ padding:0 !important;
+}
+h3 {
+ font-size:15px !important;
+ font-weight: bold !important;
+ color: #3e3e3e !important;
+ text-align: left !important;
+ margin:16px016px0 !important;
+ padding:0001.2em !important;
+}
+h4 {
+ font-size:15px !important;
+ color: rgb(0,122,170) !important;
+ margin:12px08px0 !important;
+ padding:0 !important;
+}
+
+/*列表 */
+ul,
+ol {
+ padding-left:2em !important;
+ margin:1em0 !important;
+ font-size:15px !important;
+}
+li {
+ margin:0.5em0 !important;
+ line-height:1.8em !important;
+ font-size:15px !important;
+ color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+ margin:0 !important;
+ padding-left:1.2em !important;
+}
+
+/*引用 */
+blockquote {
+ border-left:4px solid #888 !important;
+ padding:8px16px !important;
+ margin:1em0 !important;
+ color: #666 !important;
+ background: #f9f9f9 !important;
+}
+blockquote > p {
+ margin:0.5em0 !important;
+ padding:0 !important;
+}
+blockquote::before,
+blockquote::after {
+ content: none !important;
+}
+
+/* 代码块 */
+pre {
+ font-size:14px !important;
+ line-height:1.4em !important;
+ color: #3e3e3e !important;
+ background: #f8f8f8 !important;
+ padding:12px16px !important;
+ border-radius:4px !important;
+ overflow: auto !important;
+ margin:1em0 !important;
+}
+
+/*脚注 */
+.footnotes {
+ font-size:11px !important;
+ color: #666 !important;
+ line-height:1.2 !important;
+ margin:8px000 !important;
+ padding:4px000 !important;
+ border-top:1px solid #eee !important;
+}
+.footnotes p {
+ font-size:11px !important;
+ line-height:1.2 !important;
+ margin:0 !important;
+ padding:0 !important;
+ color: #666 !important;
+}
+
+/* 上标 */
+sup {
+ font-size:0.75em !important;
+ vertical-align: super !important;
+ color: #e51f42 !important;
+ margin:02px !important;
+}
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/composiohq/awesome-codex-skills">https://github.com/composiohq/awesome-codex-skills</a></p></blockquote>
+
+<h2>一句话总结</h2>
+
+<p>Composio 把自家 MCP工具接入能力伪装成880 个 Codex skill，搭出一个「awesome-list 当 SDK营销漏斗」的双层结构：表层17 个真旗舰技能（slack-gif-creator / mcp-builder / skill-creator / canvas-design / notion-* 等）值得抄，底层832 个 <x>-automation 是6 处字符串替换的 SaaS包装模板，diff几乎只有 SaaS 名不同。</x></p>
+
+<h2>值得关注的理由</h2>
+
+<ol>
+<li><strong>旗舰质量在线、组合稀缺</strong>：slack-gif-creator（17KB+模板/字体库）、mcp-builder（13.5KB+reference+scripts）、skill-creator（18KB教你从零写 skill）、webapp-testing（含 Playwright风格 with_server.py）—— 这套「validators+primitives+evaluation harness」三层范式是社区里少数把 Codex skill写得工程化的样本。</li>
+<li><strong>可搬走的运营范式</strong>：skill-installer/scripts/install-skill-from-github.py 一键安装 + 五场景分组 README + brand-guidelines/ 等 Codex平台原生 skill —— 把「awesome-list 当内容分发渠道」做成了可复用的 GitOps流水线。</li>
+<li><strong>生态位独特</strong>：它是唯一把800+ SaaS MCP工具纳入 skill形态的合集（覆盖广度独一档），同主题的姊妹仓 awesome-claude-skills63.9k★ 形成 Claude+Codex 双覆盖矩阵。</li>
+</ol>
+
+<h2>项目展示</h2>
+
+<p><img src="https://raw.githubusercontent.com/composiohq/awesome-codex-skills/master/codex_cover_image.png" alt="Composio banner — Codex skills 合集封面"></p>
+
+<blockquote><p>Composio 自带1280×640品牌 banner，README顶部即为它。</p></blockquote>
+
+<p>仓库目录结构（顶层49 个目录，展开为880 个 SKILL.md）：</p>
+
+<pre>
+awesome-codex-skills/
+├── README.md # 五场景分组 + Quickstart + Contributing
+├── codex_cover_image.png # Composio品牌 banner (1.1MB)
+├── skill-installer/ # 一键安装 CLI
+├── composio-skills/ # ⚠832 个 SaaS-automation模板 (7MB, 占76% 文件)
+├── canvas-design/ #旗舰:12KB SKILL.md +54 个 ttf字体
+├── slack-gif-creator/ #旗舰:17KB + templates/primitives/core 三层
+├── mcp-builder/ #旗舰:13.5KB + reference/ + scripts/ + eval harness
+├── skill-creator/ # 元旗舰:18KB,教人写 skill 的 skill
+├── theme-factory/ # 真技能
+├── notion-knowledge-capture/ # Notion 系: 中端真技能
+├── notion-meeting-intelligence/
+├── notion-research-documentation/
+├── notion-spec-to-implementation/
+├── webapp-testing/ #旗舰: scripts/with_server.py +3 examples
+├── brand-guidelines/
+├── paperjsx/
+├── email-draft-polish/
+├── issue-triage/
+├── ... (其余30+独立真技能)
+</pre>
+
+<h2>项目画像</h2>
+
+<table>
+<thead>
+<tr><th>维度</th><th>数据</th></tr>
+</thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/composiohq/awesome-codex-skills">https://github.com/composiohq/awesome-codex-skills</a></td></tr>
+<tr><td>Star / Fork</td><td>13,402 /1,300</td></tr>
+<tr><td>代码行数</td><td>880 个技能 /832 带 SaaS-automation模板 /10.1MB（主体 .md95%）</td></tr>
+<tr><td>项目年龄</td><td>5 个月（2026-01 ~2026-05）</td></tr>
+<tr><td>开发阶段</td><td>低维护（4 月单月67% commits，5 月断崖；已25 天未 push）</td></tr>
+<tr><td>贡献模式</td><td>小团队（20 contributor / Top121% / 前3 占30%；Prathit 双账号）</td></tr>
+<tr><td>热度定位</td><td>大众热门（13.4k★ +102 个新 star24h 内爆发，但仅6 个真实 issue）</td></tr>
+<tr><td>质量评级</td><td>策展[良好] 更新[停滞] 自动化[高] 旗舰实测 delta[N/A（缺 API走结构分）] 裁决[marginal（仅结构判断）] 象限[scaffolding/lite]</td></tr>
+<tr><td>许可证</td><td>无 License（仓库默认未声明；awesome-list 类常见但不规范）</td></tr>
+</tbody>
+</table>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+
+<p>Composio（composiohq）是2023-03 在美国注册的组织，bio 自述「Equips agents with well-crafted tools」。<strong>它的核心产品是 composio SDK（28.7k★ TypeScript），给 LLM Agent 接100+ SaaS 的认证 +编排层</strong>，是 MCP/tool-use 中间件赛道的头部玩家。同一组织还运营 ComposioHQ/awesome-claude-skills（63.9k★，姊妹仓）、trustclaw（822★，相邻产品）、open-chatgpt-atlas（442★，OpenAI集成）。<strong>这是一家典型「商业公司 →社区生态」打法</strong>：顶级仓是自家 SDK，次级仓是相邻产品，再下一级就是 awesome-codex-skills 这种用户引流 + skill生态分发。</p>
+
+<h3>问题判断</h3>
+
+<p>Codex CLI 发布后，社区对「codex怎么用 /怎么给它写 skill」的需求暴增，但官方示例稀薄。Composio看到了「开发者找 skill →装 skill → 用 skill」的天然导流位：与其让用户自行摸索，不如直接摆出一个「开箱即用800+集成」的形象，借力自家 MCP协议把工具接入能力前置成内容资产。<strong>时机对</strong>：Codex CLI5 月发布期 + Anthropic已在 Claude Code跑通「skill」概念，Composio 把同一概念搬到 Codex，搭便车成本极低。</p>
+
+<h3>解法哲学</h3>
+
+<p>策展方明确选「<strong>数量 >>深度</strong>」做 awesome-list SEO：49 个顶层目录里17 个真旗舰 +832 个 SaaS stub 的「广度碾压」结构，让任何搜索词都能命中。<strong>明确不做的</strong>：（1）不写选品门槛（README几乎只要求「skill 可被 Codex触发」，无 benchmark /评审流程）；（2）不做 SKILL.md质量校验（issue #42 PaperJSX描述的 npm不可装，3 个月未修）；（3）不维护 PR节奏（64 个 PR堆着未合）。<strong>自动化的边界</strong>：内容侧用外部脚本批生成 composio-skills/ 下832 个 stub（diff 仅6 处字符串替换），但 CI/失效治理是空。</p>
+
+<h3>战略意图</h3>
+
+<p><strong>流量入口 + SDK商业导流</strong>：README Quickstart 直接给出 pip install composio + dashboard.composio.dev链接，banner 图点击也跳到 dashboard 注册页。skill-installer 是统一安装入口但同时是 telemetry收集器。整套形成「awesome-list（内容钩子）→ skill 安装（信任建立）→ composio SDK（付费 tier）」的漏斗。<strong>不是公益策展</strong>：它和姊妹仓 awesome-claude-skills 同属 Composio商业矩阵，是公司级系列化运营。</p>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处</h3>
+
+<ol>
+<li><strong>「awesome-list 当 SDK 分发」的商业模式</strong>（新颖度4/5 ×实用性3/5）—— 把开源自媒体内容做成付费产品的获客资产，而不是单纯引流。Composio 把 Claude + Codex 双仓矩阵化运营，是社区里第一个把这套跑通的团队。</li>
+<li><strong>skill-installer CLI 一键分发</strong>（新颖度3/5 ×实用性4/5）—— install-skill-from-github.py 让用户不用 git clone就能把任意 skill装到 ~/.codex/skills/，降低试用门槛，是其他 awesome-list仓没有的工程化组件。</li>
+<li><strong>832 个 SaaS stub 的「广度声明」</strong>（新颖度2/5 ×实用性1/5）—— 不算真创新，但作为「我支持800+集成」营销素材，<strong>效果成立</strong>——访客看到数量级会本能信任。</li>
+</ol>
+
+<h3>可复用的模式与技巧</h3>
+
+<ol>
+<li><strong>「渐进披露三层」结构</strong>：metadata（<100词，决定 routing）→ SKILL.md body（核心指令，<5KB）→ references/（深内容，按触发加载）。<strong>怎么搬走</strong>：写自家 skill 时严格控制 SKILL.md字节数，深内容挪 references/，references超过10K词时附 grep模式提示模型按需展开。</li>
+<li><strong>「工具即代码」拆解</strong>：scripts/装确定性步骤（webapp-testing 的 with_server.py 管 Playwright进程生命周期），模型只负责决策。<strong>怎么搬走</strong>：识别自己 skill 里「会被重写 >3 次的逻辑」，固化为 scripts/x.py；slack-gif-creator 的 validators/primitives/core 分层是更工程化的范本。</li>
+<li><strong>「evaluation-driven authoring」</strong>：mcp-builder核心范式 —— <strong>先写3 个真实任务的 eval 用例，再设计 tool</strong>。<strong>怎么搬走</strong>：写任何 skill 前先列「3 个真实用户任务」，反向逼出最小 SKILL.md，避免大而空的抽象。</li>
+<li><strong>「双仓矩阵」系列化运营</strong>：同一组织按 IDE/CLI 分人群（Claude Code仓 + Codex仓）双覆盖，互不抢流量但共享品牌资产。<strong>怎么搬走</strong>：自己若做多语言/多框架教程，按生态分仓而非一锅烩，README互相 cross-link。</li>
+</ol>
+
+<h3>关键设计决策</h3>
+
+<ul>
+<li><strong>数量 vs 深度的取舍</strong>：选数量让搜索 SEO 占优，但832 stub稀释了17旗舰信号、维护成本不可持续。<strong>Trade-off</strong>：4.8 月龄 +25 天未 push +64 PR堆着，说明「数量 +自动化签名」没解决根本策展治理。</li>
+<li><strong>README 五场景分组</strong>：Development & Code Tools / Productivity & Collaboration / Communication & Writing / Data & Analysis / Meta & Utilities ——分类清晰但 composio-skills/ 不参与这套分组（平铺），暴露「真旗舰 +营销矩阵」两套组织逻辑混搭。</li>
+<li><strong>默认分支 master</strong>：少见（主流是 main），可能是 fork 自 Anthropic模板时遗留，无技术理由。</li>
+<li><strong>不写 License</strong>：awesome-list 类常见但不规范，外部 fork 后再分发时会有授权灰色地带。</li>
+</ul>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+
+<table>
+<thead>
+<tr><th>维度</th><th>本仓 awesome-codex-skills</th><th>awesome-claude-skills（姊妹）</th><th>ui-ux-pro-max-skill</th><th>graphify</th><th>awesome-codex-cli</th></tr>
+</thead>
+<tbody>
+<tr><td>Stars</td><td>13,402</td><td>63,900</td><td>89,000</td><td>64,000</td><td>200+</td></tr>
+<tr><td>收录数</td><td>880 SKILL.md</td><td>数百 skill</td><td>1 个超深 skill</td><td>1 个多端 skill</td><td>200+ CLI工具</td></tr>
+<tr><td>旗舰深度</td><td>中端真技能 ~17 个</td><td>跨度更大，Anthropic官方同源</td><td>极深</td><td>深</td><td>浅</td></tr>
+<tr><td>自动化签名</td><td>高（832 stub批生成）</td><td>中</td><td>低（单技能）</td><td>低（单技能）</td><td>中</td></tr>
+<tr><td>商业属性</td><td>强（Composio SDK导流）</td><td>强（同上）</td><td>个人创作者</td><td>个人创作者</td><td>独立策展人</td></tr>
+<tr><td>维护活跃度</td><td>已停滞（25 天未 push）</td><td>活跃</td><td>活跃</td><td>活跃</td><td>低频</td></tr>
+<tr><td>一键安装 CLI</td><td>有（skill-installer）</td><td>无</td><td>无</td><td>无</td><td>无</td></tr>
+</tbody>
+</table>
+
+<h3>差异化护城河</h3>
+
+<ol>
+<li><strong>覆盖广度独一档</strong>：唯一把800+ SaaS MCP工具纳入 skill形态的合集，awesome-claude-skills 也走类似路线但 Codex仓更激进。</li>
+<li><strong>skill-installer CLI</strong>：其它仓要 git clone，本仓支持任意 GitHub仓库的 skill 一键安装，工程化组件领先。</li>
+<li><strong>Codex平台原生绑定</strong>：brand-guidelines/、agent-deep-links/ 等是 Codex CLI紧绑的入口技能，离开 Codex生态就没价值——但反向看，<strong>Codex 用户没有替代选项</strong>。</li>
+</ol>
+
+<h3>竞争风险</h3>
+
+<ul>
+<li><strong>Anthropic官方 skills协议扩张</strong>：Claude Code 的 skill 是事实标准母体，若 Anthropic推出官方 Codex兼容层，本仓的832 stub会被官方 marketplace替代。</li>
+<li><strong>Codex 模型升级内建 tool-use</strong>：GPT-5之后若 Codex 把 SaaS工具调用内建化，832 stub 的价值归零。</li>
+<li><strong>awesome-codex-cli 等「轻量级 + 高质量」竞品</strong>：互补但若分流社区贡献者，本仓的「17旗舰」会出现维护断档。</li>
+<li><strong>单点依赖 Composio SaaS</strong>：所有 composio-skills/ stub绑 RUBE MCP协议，上游 SaaS改名/限流即崩。</li>
+</ul>
+
+<h3>生态定位</h3>
+
+<p><strong>工具箱型分发平台，非标准制定者</strong>。Codex官方 skill协议才是事实标准，本仓是「协议的最大非官方合集」，填补「用户想找现成 skill」的发现层。商业上是 Composio SDK 的市场部资产，技术上是 Codex生态最丰富的 skill样本库。</p>
+
+<h2>套利机会分析</h2>
+
+<ul>
+<li><strong>信息差</strong>: <strong>中高估低估并存</strong>。社区普遍把13.4k★解读为「质量背书」，但98% 文件是机械模板；少数人知道「17旗舰才是真价值」并能正确迁移模式。</li>
+<li><strong>技术借鉴</strong>: 「awesome-list + skill模板 + installer CLI」组合工程范式可迁移 —— PR-bot 自动校验 SKILL.md schema + description长度上限 +提交门槛脚本（issue #77 已暗示质量压力）。</li>
+<li><strong>生态位</strong>: Codex平台官方合作伙伴（OpenAI推过 banner），但 Anthropic Claude才是 skill协议母体 ——长期看是「搭便车者」，护城河弱。</li>
+<li><strong>趋势判断</strong>: <strong>模型变强后 stub价值归零</strong>，真旗舰价值反而升（prompt-cache + 长上下文能容纳 references/）。4 月爆发5 月断崖暗示热度依赖 Codex CLI 发布期，后期会更依赖社区 PR节奏。</li>
+</ul>
+
+<h2>风险与不足</h2>
+
+<ul>
+<li><strong>832 stub不可持续</strong>：diff 仅6 处字符串替换的模板构成95%体积，Codex 模型升级后基本归零；4.8 月龄 +25 天未 push +64 PR堆着 =维护期早期信号。</li>
+<li><strong>质量审计缺位</strong>：issue #42 PaperJSX不可装、issue #46 README UX杂乱、issue #1 install-skill destination path bug ——暴露「quickstart 一键安装」宣传与现实落差。</li>
+<li><strong>零社区运营</strong>：6 个真实 issue vs13.4k★ 的比例（1:2233）极低，PR64 个堆着，多数是收录请求而非实质贡献。</li>
+<li><strong>license缺失</strong>：未声明协议意味着下游 fork / 再分发时授权不明，外部企业用有合规风险。</li>
+<li><strong>stub撑爆触发上下文</strong>：832 个 SKILL.md 的 description 加起来可能撑爆 Codex触发判定阶段的上下文窗口，实际可用性存疑。</li>
+<li><strong>关键人依赖</strong>：Top1=Prathit 占21%，双账号（Prathit14 + Prathit-tech），若离职策展节奏会断崖。</li>
+</ul>
+
+<h2>行动建议</h2>
+
+<ul>
+<li><strong>如果你要用它</strong>：<strong>只装5 个真旗舰</strong> —— slack-gif-creator、mcp-builder、skill-creator、webapp-testing、paperjsx，跳过 composio-skills/全部832 条目。配套姊妹仓 awesome-claude-skills（63.9k★）补 Claude Code生态。</li>
+<li><strong>如果你要学它</strong>：<strong>学 skill-creator 当 README范本</strong>（教你从零写 skill，conciseness 是核心原则），再学 slack-gif-creator 的 validators/primitives/core 三层拆分。不学「832 stub +营销漏斗」的商业模式（不适合公益项目）。</li>
+<li><strong>如果你要 fork /复刻它</strong>：
+<ol>
+<li>把832 stub删到 ≤100精选；</li>
+<li>加 star 数 + description长度 + scripts/reference/assets存在性静态分析自动校验；</li>
+<li>把 README 五场景分组下放到每个 dir 一级分类（解决17旗舰 vs832 stub 组织逻辑混搭）；</li>
+<li>加显式 License（MIT/CC-BY-SA）+ Contributing门槛脚本（schema校验 SKILL.md frontmatter）。</li>
+</ol>
+</li>
+</ul>
+
+<h3>知识入口</h3>
+
+<table>
+<thead>
+<tr><th>资源</th><th>链接</th></tr>
+</thead>
+<tbody>
+<tr><td>DeepWiki</td><td>未收录</td></tr>
+<tr><td>Zread.ai</td><td>未收录</td></tr>
+<tr><td>姊妹/同类项目</td><td><a href="https://github.com/ComposioHQ/awesome-claude-skills">ComposioHQ/awesome-claude-skills</a>（63.9k★，Claude Code生态姊妹仓）/ <a href="https://github.com/ComposioHQ/composio">ComposioHQ/composio</a>（28.7k★，SDK商业闭环）</td></tr>
+<tr><td>关联论文</td><td>无</td></tr>
+<tr><td>在线 Demo /站点</td><td><a href="https://dashboard.composio.dev">dashboard.composio.dev</a>（商业 SDK试用入口）</td></tr>
+</tbody>
+</table>
+
+</body>
+</html>

@@ -143,3 +143,4 @@
 {"recorded_at": "2026-06-08T23:53:06.089884+00:00", "slug": "rohitg00_ai-engineering-from-scratch", "title": null, "state": "published", "published_at": "2026-06-08", "reason": "自动生成", "ci_run_id": "27173414384"}
 {"recorded_at": "2026-06-09T00:41:43.918468+00:00", "slug": "digitalplatdev_freedomain", "title": null, "state": "published", "published_at": "2026-06-09", "reason": "自动生成", "ci_run_id": "27175805551"}
 {"recorded_at": "2026-06-09T03:47:39.696375+00:00", "slug": "lordog_dive-into-llms", "title": null, "state": "pending", "published_at": "2026-06-09", "reason": "待重发", "ci_run_id": "27181109737"}
+{"recorded_at": "2026-06-09T05:41:38.340543+00:00", "slug": "k-dense-ai_scientific-agent-skills", "title": null, "state": "published", "published_at": "2026-06-09", "reason": "自动生成", "ci_run_id": "27185587351"}

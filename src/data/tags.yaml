@@ -39,6 +39,11 @@ entries:
   - web-framework
   adam-maj_tiny-gpu:
   - iot-hardware
+  addyosmani_agent-skills:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - education
   affaan-m_ecc:
   - ai-agent
   - ai-coding
@@ -108,6 +113,10 @@ entries:
   - ai-agent
   - llm-framework
   - security
+  andyyyy64_whichllm:
+  - llm-inference
+  - model-foundation
+  - devtools
   anomalyco_models.dev:
   - database
   anomalyco_opencode:
@@ -256,6 +265,12 @@ entries:
   - ai-agent
   - llm-inference
   - workflow-automation
+  browserbase_skills:
+  - ai-agent
+  - ai-coding
+  - workflow-automation
+  - protocol-spec
+  - security
   browserbase_stagehand:
   - ai-agent
   - workflow-automation
@@ -331,6 +346,11 @@ entries:
   - protocol-spec
   cloudflare_capnweb:
   - uncategorized
+  cocoindex-io_cocoindex:
+  - ai-agent
+  - llm-framework
+  - rag-search
+  - data-pipeline
   codebuffai_codebuff:
   - ai-agent
   - ai-coding
@@ -442,6 +462,8 @@ entries:
   - ai-agent
   - ai-coding
   - devtools
+  digitalplatdev_freedomain:
+  - uncategorized
   dioxuslabs_awesome-dioxus:
   - uncategorized
   docling-project_docling:
@@ -463,6 +485,8 @@ entries:
   - protocol-spec
   done-0_fuck-u-code:
   - protocol-spec
+  donnemartin_system-design-primer:
+  - education
   dontizi_rlama:
   - ai-agent
   - llm-framework
@@ -470,6 +494,9 @@ entries:
   - model-foundation
   - devtools
   - rag-search
+  dotnet_skills:
+  - ai-agent
+  - devtools
   drawdb-io_drawdb:
   - database
   - security
@@ -692,6 +719,9 @@ entries:
   - iot-hardware
   handsonllm_hands-on-large-language-models:
   - education
+  hardikpandya_stop-slop:
+  - ai-agent
+  - ai-coding
   harry0703_moneyprinterturbo:
   - rag-search
   - web-framework
@@ -854,6 +884,9 @@ entries:
   jasonppy_voicecraft:
   - video-audio
   - media-generation
+  jaywcjlove_awesome-mac:
+  - ai-agent
+  - data-pipeline
   jekyll_jekyll:
   - database
   jellyfin_jellyfin:
@@ -883,6 +916,11 @@ entries:
   - devtools
   - database
   - trading-finance
+  k-dense-ai_scientific-agent-skills:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - security
   kaijuengine_kaiju:
   - uncategorized
   kamranahmedse_developer-roadmap:
@@ -942,6 +980,17 @@ entries:
   - workflow-automation
   lbjlaq_antigravity-manager:
   - protocol-spec
+  learningcircuit_local-deep-research:
+  - llm-inference
+  - model-foundation
+  - rag-search
+  - education
+  - security
+  leonxlnx_taste-skill:
+  - ai-agent
+  - ai-coding
+  - llm-training
+  - devtools
   lfnovo_open-notebook:
   - llm-framework
   - rag-search
@@ -1018,6 +1067,8 @@ entries:
   - rag-search
   - database
   - video-audio
+  meshery_meshery:
+  - uncategorized
   meta-llama_llama3:
   - model-foundation
   microsoft_agent-framework:
@@ -1137,6 +1188,8 @@ entries:
   - ai-coding
   - devtools
   - protocol-spec
+  morganamilo_paru:
+  - security
   mountain-loop_yaak:
   - devtools
   - database
@@ -1363,6 +1416,8 @@ entries:
   - llm-training
   - education
   - data-pipeline
+  prometheus_alertmanager:
+  - uncategorized
   promptfoo_promptfoo:
   - workflow-automation
   - security
@@ -1446,6 +1501,11 @@ entries:
   - devtools
   - database
   - education
+  rohitg00_ai-engineering-from-scratch:
+  - ai-agent
+  - ai-coding
+  - education
+  - protocol-spec
   rowboatlabs_rowboat:
   - ai-agent
   - llm-framework

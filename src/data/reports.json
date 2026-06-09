@@ -9,8 +9,8 @@
       "几个值得抄的工程范式：① 软中断 turn 内注入",
       "一个「单人 dogfooding 把产能放大到团队级」的极端样本：5 个月 49 万行 Rust ≈ 39 commit/天、3200 行/天，103 tag / 88 release（约每 1.5 天一版）"
     ],
-    "stars": null,
-    "forks": null,
+    "stars": 6962,
+    "forks": 779,
     "language": "Rust",
     "locRaw": "489,405 行（Rust 92%，其余 Python/JSON/Shell/Swift；1204 文件；注释比仅 4.6%；108 依赖）",
     "ageMonths": 5.0,
@@ -20,9 +20,9 @@
     "heat": "大众热门 · 爆发型",
     "heatRaw": "大众热门 · 爆发型（曾登 GitHub Trending，数日增 3765 star）",
     "quality": "文档「优」· 测试「良」· CI「良」· 代码「中上」· 错误处理「中」",
-    "license": null,
+    "license": "MIT",
     "cover": "https://github.com/1jehuang/jcode/releases/download/readme-assets/jcode-memory-demo.webp",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -49,7 +49,7 @@
     "quality": "代码[良好] 文档[良好] 测试[不足]",
     "license": "GPL-3.0",
     "cover": "https://github.com/user-attachments/assets/eb285512-a66a-4752-8941-c65ed1592238",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -76,7 +76,7 @@
     "quality": "代码[良好] 文档[一般] 测试[无]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-02",
     "publishedTitle": "85k Star 的「一人工具」：拆解 3Blue1Brown 背后的数学动画引擎"
   },
@@ -103,7 +103,7 @@
     "quality": "代码[一般] 文档[优秀] 测试[不足]",
     "license": "GPL-2.0",
     "cover": "https://raw.githubusercontent.com/666ghj/BettaFish/main/static/image/system_schematic.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-10",
     "publishedTitle": "让 7 个 AI 互相辩论做舆情分析，这个项目拿下 39.6K Stars"
   },
@@ -130,7 +130,7 @@
     "quality": "代码[一般] 文档[良好] 测试[无]",
     "license": "AGPL-3.0",
     "cover": "https://github.com/666ghj/MiroFish/raw/main/static/image/MiroFish_logo_compressed.jpeg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-10",
     "publishedTitle": "让上万 AI 智能体模拟社交媒体，用群体涌现预测未来"
   },
@@ -157,7 +157,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[无]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -184,7 +184,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[不足]",
     "license": "MIT",
     "cover": "https://github.com/a16z-infra/ai-town/assets/3489963/a4c91f17-23ed-47ec-8c4e-9f9a8505057d",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-07",
     "publishedTitle": null
   },
@@ -211,7 +211,7 @@
     "quality": "规范[优秀] 文档[优秀] 测试[起步]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-05",
     "publishedTitle": "A2A 深度分析：Google 发起的 Agent 间通信协议"
   },
@@ -238,7 +238,7 @@
     "quality": "代码[一般] 文档[良好] 测试[无]",
     "license": "GPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-10",
     "publishedTitle": "167 万次下载的开源视频下载器，靠 7 个包管理器全渠道分发"
   },
@@ -265,7 +265,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[不足]",
     "license": null,
     "cover": "https://github.com/user-attachments/assets/cc5d637d-e0e5-48e6-93ff-5bcfdb929285",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-04",
     "publishedTitle": "77 天 18.5K Stars，这个代码知识图谱引擎为 AI Agent 构建了神经系统"
   },
@@ -292,7 +292,7 @@
     "quality": "架构[A-] 代码[B+] 文档[B] 测试[D]",
     "license": "AGPL-3.0",
     "cover": "https://raw.githubusercontent.com/ad-on-is/rachoon/main/.github/screenshots/dashboard.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -319,8 +319,35 @@
     "quality": "代码「良好」 文档「优秀」 测试「基本」",
     "license": null,
     "cover": "https://raw.githubusercontent.com/adam-maj/tiny-gpu/master/docs/images/gpu.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
+    "publishedTitle": null
+  },
+  {
+    "slug": "addyosmani_agent-skills",
+    "title": "Google 工程总监的 23 份 SKILL：3.7 个月把 49.7K Star 拉爆的\"工程纪律即 prompt\"",
+    "originalUrl": "https://github.com/addyosmani/agent-skills",
+    "summary": "把 Google Chrome 团队 16 年沉淀的工程纪律（spec → plan → build → verify → review → ship）打包成 23 份 `SKILL.md`，让 Claude Code / Cursor / Gemini CLI 等 8 个 Agent harness 强制遵循——**本质是「给 AI 写 SOP，而不是给 AI 喂资料」**。",
+    "highlights": [
+      "品牌 × 内容 × 生态三重背书：Addy Osmani（Google 工程总监，《Learning JavaScript Design Patterns》作者）+ 23 个 skill 覆盖完整 SDLC + 同时支持 8 个 IDE/harness",
+      "49.7K stars 但只有 277KB：纯 markdown 知识资产，无 npm 依赖、无运行时，每个 commit 平均带动 ~235 stars",
+      "Anti-Rationalization Table 首创：每个 skill 都有一节专门反驳\"agent 想偷懒的借口\"，把流程型 prompt 的偷工问题结构化解决"
+    ],
+    "stars": 49710,
+    "forks": 5553,
+    "language": "Shell",
+    "locRaw": "808（Shell 76.6% / JS 21.7% / JSON 1.7%）",
+    "ageMonths": 3.7,
+    "ageRaw": "3.7 个月（2026-02-15 首 commit）",
+    "stage": "密集开发（近 90 天 177 commit，4 月单月 88 commit 为爆发期）",
+    "contribution": "明星项目早期（Addy 本人 55.4%，32 名贡献者，Federico Bartoli 14 commit 是核心 #2）",
+    "heat": "大众热门 × 小众精品内核",
+    "heatRaw": "大众热门 × 小众精品内核（49.7k stars / 277KB / 211 commits）",
+    "quality": "内容[优秀] 文档[优秀] 测试[充分] CI/CD[完善]",
+    "license": null,
+    "cover": "https://addyosmani.com/assets/images/addys-agent-skills.jpg",
+    "mtime": "2026-06-09",
+    "published": "published:2026-06-09",
     "publishedTitle": null
   },
   {
@@ -344,9 +371,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（**star 含金量需大打折扣**）",
     "quality": "JS 层「B+」 Rust ecc2「C+」 内容层「B」",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/affaan-m/ECC/main/assets/hero.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -371,9 +398,9 @@
     "heat": "现象级",
     "heatRaw": "现象级（GitHub 史上最高星之一，含明显泡沫成分）",
     "quality": "代码[良，Rust 核心] 文档[优（量）/营销味] 测试[结构良/深度存疑]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/affaan-m/everything-claude-code/main/assets/hero.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -400,7 +427,7 @@
     "quality": "代码[良好] 文档[基本（FAQ 导向）] 测试[无]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -427,7 +454,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -454,7 +481,7 @@
     "quality": "代码[良好] 文档[一般] 测试[无]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-03",
     "publishedTitle": "19K Stars 但只有一个文件名约定，AGENTS.md 凭什么统一 AI 编码配置"
   },
@@ -479,9 +506,9 @@
     "heat": "大众热门 + 范式开创者",
     "heatRaw": "大众热门 + 范式开创者（MCP × 创意工具的最早最知名样本）",
     "quality": "代码[良好·极简清晰] 文档[优·README+视频] 测试[无·依赖真实 Blender 难自动化]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/ahujasid/blender-mcp/main/assets/addon-instructions.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -506,9 +533,9 @@
     "heat": "大众热门 / 流量型爆款",
     "heatRaw": "大众热门 / 流量型爆款（热度可能透支于实际成熟度）",
     "quality": "代码[中·编排为主] 文档[良·mkdocs 双语站] 测试[无·脚手架已配但 tests/ 为空]",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/AIDC-AI/Pixelle-Video/main/resources/webui.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -535,7 +562,7 @@
     "quality": "代码[良好] 文档[良好] 测试[基本]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-05",
     "publishedTitle": "Perplexity 和 Shopify 在用的 React 性能工具，零侵入高亮每次多余渲染"
   },
@@ -562,7 +589,7 @@
     "quality": "代码[A-] 文档[A+] 测试[B+]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-05",
     "publishedTitle": "一人撑起 42K Star 项目：aider 如何用「编辑格式」重新定义 AI 编程"
   },
@@ -589,7 +616,7 @@
     "quality": "代码[一般] 文档[基本] 测试[无]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-01",
     "publishedTitle": "57 行代码解决 42K Stars 项目的安装难题"
   },
@@ -616,7 +643,7 @@
     "quality": "代码[A-] 文档[B+] 测试[B]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-07",
     "publishedTitle": "RAG 应用 80% 时间花在数据准备上，这个 YC 项目要把它降到零"
   },
@@ -639,7 +666,7 @@
     "quality": null,
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-11",
     "publishedTitle": "4 个月 9K Stars 入选 CNCF，OpenSandbox 要做 AI 沙箱的行业标准"
   },
@@ -653,8 +680,8 @@
       "爆发式增长：2025 年 9 月创建，6 个月内达到 13,000+ Star，787 次提交，发布 18 个版本",
       "纯文本 DOM 路线的验证：不依赖多模态模型或截图 OCR，仅靠结构化 DOM 文本就能完成 GUI 操作，大幅降低了对模型能力的要求（普通文本 LLM 即可），同时避免了截图方案的延迟和成本问题"
     ],
-    "stars": 18390,
-    "forks": 1575,
+    "stars": 18424,
+    "forks": 1581,
     "language": "TypeScript",
     "locRaw": null,
     "ageMonths": 8.5,
@@ -666,7 +693,7 @@
     "quality": null,
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -693,7 +720,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[待改善（9.7%）]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -720,7 +747,7 @@
     "quality": "代码[A] 文档[B+] 测试[A-]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-01",
     "publishedTitle": "向量数据库界的 SQLite：pip install 即用，QPS 碾压 ChromaDB 两倍"
   },
@@ -745,9 +772,9 @@
     "heat": "大众热门 / 爆发型",
     "heatRaw": "大众热门 / 爆发型（4 个月 33K star，近期增长最快的开源项目之一）",
     "quality": "代码组织「优」 测试「卓越」 CI「优」 文档「源码注释极少」 单人维护风险「高」",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/assets/how-it-works.svg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -774,9 +801,36 @@
     "quality": "代码[良好] 文档[良好] 测试[良好]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-02",
     "publishedTitle": "发现 LangChain 9.3 分漏洞的人，做了一个零基础设施的 WASM Agent 沙箱"
+  },
+  {
+    "slug": "andyyyy64_whichllm",
+    "title": "本地 LLM 选型不靠猜大小：whichllm 3 个月 3.4K stars 的 evidence-based ranking",
+    "originalUrl": "https://github.com/andyyyy64/whichllm",
+    "summary": "whichllm 是一款本地 LLM 选型 CLI——把推荐函数从「能 fit 哪个」升级到「能 fit 的里面哪个最可能用得顺手」，核心是用 6 源评测合并 + lineage-aware 折扣 + MoE 双参数建模，给出可解释、可审计的 evidence-based ranking。",
+    "highlights": [
+      "3 个月从零到 3.4K stars：84.5% 单人开发、207 commits、9 个 0.5.x 版本，是典型的「独立开发者 + 工程深度 + 真实痛点」组合",
+      "直击本地 LLM 的真实选型痛点：HF/Ollama 按 popularity 排序让新模型被埋没，whichllm 用 lineage discount + frozen/current tier 把 stale leaderboard 倒置新模型的问题正面打掉",
+      "可迁移的工程范式：5 级 evidence discount、partial_offload step-function、fail-safe detector pattern、multi-source concurrent + soft-fail pipeline，每一项都是跨域可复用的工程模板"
+    ],
+    "stars": 3392,
+    "forks": 200,
+    "language": "Python",
+    "locRaw": "10,746 行（Python 99.5% / TOML 0.5%）",
+    "ageMonths": 3.2,
+    "ageRaw": "3.2 个月（首次提交 2026-03-04）",
+    "stage": "密集开发（近 30 天 125 commits）",
+    "contribution": "独立开发（84.5% 单人占比，16 名贡献者）",
+    "heat": "中等热度",
+    "heatRaw": "中等热度（小众精品出圈中）",
+    "quality": "代码 A- 文档 A 测试 A-",
+    "license": null,
+    "cover": "https://raw.githubusercontent.com/andyyyy64/whichllm/main/assets/demo.gif",
+    "mtime": "2026-06-09",
+    "published": "published:2026-06-08",
+    "publishedTitle": null
   },
   {
     "slug": "anomalyco_models.dev",
@@ -801,7 +855,7 @@
     "quality": "代码[良好] 文档[良好] 测试[无]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-03",
     "publishedTitle": "AI 模型的 Can I Use：421 人用 Git + TOML 众包维护 4000 个模型数据"
   },
@@ -828,7 +882,7 @@
     "quality": "代码[A] 文档[A-] 测试[B+]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-02",
     "publishedTitle": "127K Stars 的开源 Claude Code 替代，凭什么是内置 LSP"
   },
@@ -855,7 +909,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[优秀]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-10",
     "publishedTitle": "不用 Docker 也能隔离 AI Agent：Anthropic 用 OS 原语给 Claude Code 做了沙箱"
   },
@@ -882,7 +936,7 @@
     "quality": "代码⭐⭐⭐⭐⭐ 测试⭐⭐⭐⭐⭐ 架构⭐⭐⭐⭐",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-29",
     "publishedTitle": "不重新实现工具层：Claude Agent SDK 为什么把 CLI 当作 Runtime"
   },
@@ -909,7 +963,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[不足·公开仓库]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/anthropics/claude-code/main/demo.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "excluded",
     "publishedTitle": null
   },
@@ -936,7 +990,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[基本（28 个测试文件）]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-09",
     "publishedTitle": "@claude 帮我修这个 bug：Anthropic 如何让 AI 在 PR 中自主写代码"
   },
@@ -963,7 +1017,7 @@
     "quality": "内容[A] 工程化[A] 测试[B+]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-04",
     "publishedTitle": "让 AI 审查 AI 教程的 PR：claude-cookbooks 的 AI-in-the-Loop CI 实践"
   },
@@ -990,7 +1044,7 @@
     "quality": "代码[N/A-Prompt 为主] 文档[优秀] 测试[无]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-04",
     "publishedTitle": "93 行 Markdown 协调 5 个 AI Agent：Prompt-as-Plugin 范式解读"
   },
@@ -1017,7 +1071,7 @@
     "quality": "Computer Use⭐⭐⭐⭐⭐ TypeScript 子项目⭐⭐⭐ 整体⭐⭐⭐⭐",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1042,9 +1096,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（官方权威背书）",
     "quality": "内容「优秀」 代码「薄/跨插件重复」 测试「无单测，靠校验脚本」",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1069,9 +1123,9 @@
     "heat": "大众热门 · 爆发型",
     "heatRaw": "大众热门 · 爆发型（月均约 4,600 star）",
     "quality": "插件结构[优] 文档[优] CI 治理[优·罕见] 版本锁定[优]",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1098,7 +1152,7 @@
     "quality": "代码[一般·教学用途] 文档[优秀·课程设计] 测试[无]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1125,7 +1179,7 @@
     "quality": "代码[一般] 文档[优秀] 测试[不足]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1152,7 +1206,7 @@
     "quality": "代码 A / 文档 A+ / 测试 B / 错误处理 A-",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/antirez/ds4/main/speed-bench/m3_max_ts.svg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-07",
     "publishedTitle": null
   },
@@ -1179,7 +1233,7 @@
     "quality": "代码 良好 / 文档 优秀 / 测试 基本（0.79 测试/源码比）",
     "license": null,
     "cover": "https://github.com/user-attachments/assets/b37388f7-a971-409c-96a7-90c4e31322e6",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-01",
     "publishedTitle": null
   },
@@ -1206,7 +1260,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[良好]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/apple/container/main/assets/Containerization-Logo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-08",
     "publishedTitle": "一个容器一个 VM：Apple 用 Swift 从零构建的容器方案为什么更安全"
   },
@@ -1233,7 +1287,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[优秀]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/aquasecurity/trivy/main/docs/imgs/logo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-09",
     "publishedTitle": "一个二进制搞定五种安全扫描：Trivy 如何成为云原生安全的事实标准"
   },
@@ -1260,7 +1314,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[良好]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-11",
     "publishedTitle": "LLM 可观测性的 Datadog：Phoenix 为什么押注 OpenTelemetry 标准"
   },
@@ -1287,7 +1341,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[充分]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-06",
     "publishedTitle": "sqlite-vec：月下载 700 万的隐形向量搜索基础设施"
   },
@@ -1297,8 +1351,8 @@
     "originalUrl": "https://github.com/asgeirtj/system_prompts_leaks",
     "summary": null,
     "highlights": [],
-    "stars": 41430,
-    "forks": 6864,
+    "stars": 41463,
+    "forks": 6869,
     "language": "JavaScript",
     "locRaw": null,
     "ageMonths": 13.2,
@@ -1310,7 +1364,7 @@
     "quality": null,
     "license": "CC0-1.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1337,7 +1391,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[中等]",
     "license": "AGPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-06",
     "publishedTitle": "客户端和服务端跑同一个查询引擎：Triplit 的 local-first 全栈方案"
   },
@@ -1364,7 +1418,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[优秀]",
     "license": "MIT",
     "cover": "https://user-images.githubusercontent.com/1309177/232603516-4fb4892d-585c-4b20-b810-3db9161831e4.svg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1391,7 +1445,7 @@
     "quality": "代码「优秀」 文档「优秀」 测试「充分」",
     "license": "Apache-2.0",
     "cover": "https://github.com/astral-sh/uv/assets/1309177/629e59c0-9c6e-4013-9ad4-adb2bcf5080d",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1418,7 +1472,7 @@
     "quality": "代码 A 文档 B+ 测试 B+",
     "license": "AGPL-3.0",
     "cover": "https://github.com/user-attachments/assets/ffd99b6b-3272-4682-beaa-6fe74250f7d9",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1445,7 +1499,7 @@
     "quality": "代码[良好·成熟工程] 文档[优·wiki+DeepWiki] 测试[有·4.0 引入测试脚手架，老代码较薄]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/audacity/audacity/master/images/AudacityLogo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1455,11 +1509,11 @@
     "originalUrl": "https://github.com/automatic1111/stable-diffusion-webui",
     "summary": "**Stable Diffusion 的「Windows」—— 以极致的易用性和庞大的扩展生态，将 AI 图像生成从研究者的 CLI 工具变为大众的一键式应用，定义了整个 SD 生态的事实标准。**",
     "highlights": [],
-    "stars": 163555,
-    "forks": 30366,
+    "stars": 163580,
+    "forks": 30370,
     "language": "Python",
     "locRaw": null,
-    "ageMonths": 45.5,
+    "ageMonths": 45.6,
     "ageRaw": null,
     "stage": null,
     "contribution": null,
@@ -1468,7 +1522,7 @@
     "quality": null,
     "license": "AGPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1484,7 +1538,7 @@
     ],
     "stars": 109095,
     "forks": 11721,
-    "language": null,
+    "language": "JavaScript",
     "locRaw": null,
     "ageMonths": 141.8,
     "ageRaw": "141.8 个月（约 **11.8 年**，2014-08 创建）",
@@ -1493,9 +1547,9 @@
     "heat": "**基础设施级**",
     "heatRaw": "**基础设施级**（npm 周下载 5000 万-1 亿+，17.7 万包直接依赖，第 11 大被依赖包）",
     "quality": "代码[优] 文档[优·94KB THREATMODEL] 测试[优] CI[优·8 workflow] 供应链安全[优]",
-    "license": null,
+    "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1522,7 +1576,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-02",
     "publishedTitle": "libGDX 创始人的编码 Agent：4 个工具 + 不到 1000 tokens 系统提示"
   },
@@ -1549,7 +1603,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[无]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-07",
     "publishedTitle": "985 行代码让 AI 编码代理走出编辑器：pi-skills 的极简技能设计"
   },
@@ -1576,7 +1630,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[无]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-02",
     "publishedTitle": "db:migrate 变成了 omarchy-migrate：Rails 创造者如何设计操作系统"
   },
@@ -1603,7 +1657,7 @@
     "quality": null,
     "license": null,
     "cover": "https://github.com/user-attachments/assets/7a658366-9e02-4057-bde5-a510e1f0217a",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1630,7 +1684,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[良好（36.7%）]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-28",
     "publishedTitle": "日历工具厂商如何成为 MCP 生态龙头：PAL MCP Server 的多模型协作设计"
   },
@@ -1657,7 +1711,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[良好]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/better-auth/better-auth/main/banner.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1684,7 +1738,7 @@
     "quality": "代码[良好] 文档[良好] 测试[无]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1711,7 +1765,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1738,7 +1792,7 @@
     "quality": "代码[A-] 文档[A] 硬件适配[S]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1765,7 +1819,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[良好]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1792,7 +1846,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1819,7 +1873,7 @@
     "quality": "代码[N/A] 文档[良好] 测试[N/A]",
     "license": "CC0-1.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1846,8 +1900,35 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
+    "publishedTitle": null
+  },
+  {
+    "slug": "browserbase_skills",
+    "title": "8 个月 3.5K stars：Browserbase 用 Skills 协议把云浏览器打成 14 个 SKILL.md",
+    "originalUrl": "https://github.com/browserbase/skills",
+    "summary": "把云浏览器 + 反 bot + CDP 拦截 + 自愈 harness 装进 **14 个 Claude Skills**，让 Claude Code 用一句话就「接管 web」——是 Skills 协议时代浏览器自动化的「事实标准候选」。",
+    "highlights": [
+      "Skills 协议早期卡位：是 Anthropic 发布 Skills 协议后第一批把整条产品线「Skills 化」的厂商，14 个 SKILL.md 覆盖「驱动/调试/逆向/训练/评测/安全」全栈，单仓库体量在 GitHub 上罕见",
+      "「harness > raw CDP」哲学落地：用 CDP 双客户端 passive observer、Fetch 协议做 LLM 域防火墙、CDP firehose→wall-clock 时间锚定等具体工程，把「未来两年进步在 harness 层」从口号变成可抄的代码",
+      "Self-improving agent 范本：`autobrowse` 实现了「outer agent 读 trace → 提 grounded hypothesis → 改 strategy → 重跑 → 毕业为 Skill」的双层 harness 循环，是「prompt-as-program」的可运行工程范本"
+    ],
+    "stars": 3536,
+    "forks": 227,
+    "language": "JSON",
+    "locRaw": "12,385 行（JSON 49.8% / JavaScript 48.0% / HTML 2.2%）",
+    "ageMonths": 7.9,
+    "ageRaw": "7.9 个月（首次提交 2025-10-12）",
+    "stage": "稳定维护（近 30 天 8 commit，月均 8，未现衰减）",
+    "contribution": "核心少数 + 社区（Top1 `Shrey Pandya` 占 40.5%，前 3 占 ~66%，23 人中有 7 位是 Cursor Agent 自动提交）",
+    "heat": "中等热度",
+    "heatRaw": "中等热度（高速增长，~8.5 stars/天，3.5k 累计 / 8 月）",
+    "quality": "代码[优秀] 文档[优秀] 测试[不足] CI/CD[无]",
+    "license": null,
+    "cover": null,
+    "mtime": "2026-06-09",
+    "published": "published:2026-06-09",
     "publishedTitle": null
   },
   {
@@ -1873,7 +1954,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[充分]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1896,7 +1977,7 @@
     "quality": null,
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-01",
     "publishedTitle": "DeerFlow 深度分析报告"
   },
@@ -1923,7 +2004,7 @@
     "quality": "代码[一般] 文档[良好] 测试[无]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/bytedance/Dolphin/master/assets/framework.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1950,7 +2031,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[不足]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -1977,7 +2058,7 @@
     "quality": "代码[良好] 文档[良好] 测试[良好·19 个转换器测试]",
     "license": "AGPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2004,7 +2085,7 @@
     "quality": "代码[良好] 文档[良好] 测试[良好]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2031,7 +2112,7 @@
     "quality": null,
     "license": null,
     "cover": "https://raw.githubusercontent.com/can1357/oh-my-pi/main/assets/hero.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2056,9 +2137,9 @@
     "heat": "中等热度",
     "heatRaw": "中等热度（影响力远超代码量与 star 数）",
     "quality": "代码「中」 文档「中-高」 测试「无框架自测」",
-    "license": null,
+    "license": "GPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2083,9 +2164,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（终端 Markdown 渲染的事实标准工具）",
     "quality": "代码[优] 文档[良] 测试[差]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://stuff.charm.sh/glow/glow-banner-github.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2112,7 +2193,7 @@
     "quality": "代码[★★★★★] 文档[★★★★★] 测试[★★★★☆]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2139,7 +2220,7 @@
     "quality": "创新⭐⭐⭐⭐ 迭代速度⭐⭐⭐⭐⭐ 代码⭐⭐⭐⭐",
     "license": "AGPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2164,9 +2245,9 @@
     "heat": "大众热门 · 爆发型",
     "heatRaw": "大众热门 · 爆发型（媒体集中报道「Netflix 工程师开源省 AI 钱工具」+ Trendshift）",
     "quality": "文档/测试/CI「优」· 代码/错误处理「良」",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/chopratejas/headroom/main/HeadroomDemo-Fast.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2193,7 +2274,7 @@
     "quality": "注释「A+」 容错设计「A+」 模块化「A」 可读性「B」（汇编时代局限）",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2220,7 +2301,7 @@
     "quality": "代码[A] 文档[A] 测试[A-]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2247,7 +2328,7 @@
     "quality": "代码[一般] 文档[良好] 测试[不足]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2268,9 +2349,9 @@
     "heat": "中等热度，但**「热度透支、风险被低估」**——不是潜力股",
     "heatRaw": "中等热度，但**「热度透支、风险被低估」**——不是潜力股",
     "quality": null,
-    "license": null,
+    "license": "AGPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2297,7 +2378,7 @@
     "quality": "代码[B+] 文档[B] 测试[C]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2324,7 +2405,7 @@
     "quality": "代码[优秀] 文档[良好·多语言 README] 测试[基础·少量单元测试]",
     "license": "GPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2351,7 +2432,7 @@
     "quality": "代码[A-] 文档[A] 测试[B+]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2376,9 +2457,9 @@
     "heat": "大众热门 · 爆发型话题项目",
     "heatRaw": "大众热门 · 爆发型话题项目（3.5 月 0→24.6K star）",
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://i.imgur.com/cqkp6fG.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2405,7 +2486,7 @@
     "quality": "代码[A] 文档[B+] 测试[A-]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2432,7 +2513,7 @@
     "quality": "内容[良好] 文档[一般] 维护[不足]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2459,7 +2540,7 @@
     "quality": "架构⭐⭐⭐⭐⭐ 创新⭐⭐⭐⭐⭐ 文档⭐⭐⭐⭐⭐",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2475,7 +2556,7 @@
     ],
     "stars": 3828,
     "forks": 132,
-    "language": null,
+    "language": "TypeScript",
     "locRaw": "真实 TS 约 9,000 行（总 17,719 含 JSON lock/示例数据）；**零运行时依赖**，minify+gzip < 10KB",
     "ageMonths": 12.4,
     "ageRaw": "12.4 个月（2025-05-25「Initial commit」）",
@@ -2484,9 +2565,36 @@
     "heat": "中等热度",
     "heatRaw": "中等热度（3.8K star，认知套利空间大）",
     "quality": "代码「优」 文档「优」（含 protocol.md 规范） 测试「优」（含类型层测试） 零依赖「优」",
-    "license": null,
+    "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
+    "published": null,
+    "publishedTitle": null
+  },
+  {
+    "slug": "cocoindex-io_cocoindex",
+    "title": "10.2k star 的 CocoIndex：两个前 Google 工程师把「增量索引」做成数据工程界的 React",
+    "originalUrl": "https://github.com/cocoindex-io/cocoindex",
+    "summary": "CocoIndex 是为 AI/RAG/agent 构建实时增量数据管道的引擎——核心命题是 **Target = F(Source)**：你只声明「目标状态是源数据的纯函数」，引擎自动推导计算图、算最小工作量，源数据或转换代码一变就只重算受影响的 Δ，免去全量重建（号称任意规模仓库亚秒级新鲜度、re-index 80-90% 命中缓存）。它由两位前 Google 大规模索引/数据基础设施技术负责人打造，Rust 写性能核心 + Python 暴露易用 API，自比「React for data engineering」。",
+    "highlights": [
+      "把 Google 内部「增量索引」经验产品化为开源 infra：Google 的搜索索引几十年前就解决了「一个网页变了不重建整个倒排索引、只重算受影响的 posting」",
+      "「连改代码都能正确失效」是业界少见的技术深度：大多数缓存只按数据变化失效，CocoIndex 用双指纹",
+      "创始团队与赛道严丝合缝：双前 Google data-infra 技术负责人全职高强度投入（双人占 60% 提交），已从 50+ 个 alpha 打磨到 v1.0 正式版，工程深度（crash 恢复、单写者 batcher、端到端血缘）后来者难短期复刻"
+    ],
+    "stars": 10219,
+    "forks": 801,
+    "language": null,
+    "locRaw": null,
+    "ageMonths": 15.2,
+    "ageRaw": "15.2 个月（2025-03 创建）",
+    "stage": "密集开发（**204 tags 月均 13 版超高频**，50+ alpha 后已发 v1.0 正式版，latest v1.0.7）",
+    "contribution": "团队驱动（双前 Google 创始人占约 60% commits，85 贡献者，**无 AI 代写 bot**）",
+    "heat": "大众热门",
+    "heatRaw": "大众热门（高速增长，agent/RAG 数据管道风口）",
+    "quality": "Rust 核心[优·工业级] Python SDK[优] 测试[良-优·真 DB e2e] CI[优] 文档[优·示例驱动]",
+    "license": null,
+    "cover": "https://cocoindex.io/blobs/github/homepage/enterprise-hero-light.svg",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2513,7 +2621,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[中等]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2540,7 +2648,7 @@
     "quality": "代码[良好] 文档[良好] 测试[待确认]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2565,9 +2673,9 @@
     "heat": "大众热门 · 爆发型",
     "heatRaw": "大众热门 · 爆发型（真实需求驱动，但 43K 绝对值被 hype 明显放大）",
     "quality": "代码[优] 类型安全[优·最严] 文档[优] 测试[良·但 CI 不跑]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://github.com/user-attachments/assets/f168182f-4d9a-44e0-94d7-08d018cc8a3a",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2592,9 +2700,9 @@
     "heat": "爆发型",
     "heatRaw": "爆发型（22K star，曾 GitHub Trending #1，Trendshift 收录）",
     "quality": "代码组织「优」 DAG 引擎健壮性「优」 测试「优」 CI「优」 厂商绑定「中（偏 Claude SDK）」",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/coleam00/Archon/dev/assets/logo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2621,7 +2729,7 @@
     "quality": "代码[良好] 文档[良好] 测试[基本]",
     "license": "GPL-3.0",
     "cover": "https://github.com/user-attachments/assets/7ccaf2c1-9b72-41ae-9a89-5688c94b7abe",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2648,7 +2756,7 @@
     "quality": "代码 8/10、文档 9/10、测试 7/10（车载 L2 顶级）",
     "license": "MIT",
     "cover": "https://github.com/commaai/openpilot/assets/8762862/2f7112ae-f748-4f39-b617-fabd689c3772",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-02",
     "publishedTitle": null
   },
@@ -2675,7 +2783,7 @@
     "quality": "代码[中等] 文档[良好] 测试[极低]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2702,7 +2810,7 @@
     "quality": "代码 A- 文档 A 测试 B+",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/continuedev/continue/main/media/github-readme.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2727,9 +2835,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（33.6K star / 4.3K fork）",
     "quality": "代码「优」 文档「优」 测试「优」",
-    "license": null,
+    "license": "MIT",
     "cover": "https://github.com/user-attachments/assets/aeb56c28-c766-44a5-810c-5d999bb6a32a",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2756,7 +2864,7 @@
     "quality": "代码[A-] 文档[A] 测试[B+]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/crewAIInc/crewAI/main/docs/images/asset.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2783,7 +2891,7 @@
     "quality": "代码[良好] 文档[良好] 测试[极弱]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2810,7 +2918,7 @@
     "quality": "架构⭐⭐⭐⭐ 安全⭐⭐⭐⭐⭐ 测试⭐⭐⭐⭐⭐",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2837,7 +2945,7 @@
     "quality": "代码⭐⭐⭐⭐ 测试⭐⭐⭐⭐ 创新⭐⭐⭐⭐⭐",
     "license": "BSD-3-Clause",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2864,7 +2972,7 @@
     "quality": "代码[良好] 文档[良好] 测试[基本]",
     "license": "Apache-2.0",
     "cover": "https://github.com/dagger/container-use/raw/main/docs/images/demo.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2891,7 +2999,7 @@
     "quality": "内容[优秀] 架构[良好] 代码[一般]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/dair-ai/Prompt-Engineering-Guide/main/img/cot.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2918,7 +3026,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基础]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2943,9 +3051,9 @@
     "heat": "被「作者光环 + 理念」推高的大众热门",
     "heatRaw": "被「作者光环 + 理念」推高的大众热门（非被低估，警惕光环溢价）",
     "quality": "代码[中·提示词为主] 文档[优·README+DeepWiki] 测试[≈0·仅 1 份 vendored 测试]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/danielmiessler/Personal_AI_Infrastructure/main/images/pai-logo-v7.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2972,7 +3080,7 @@
     "quality": "代码[良好] 文档[良好] 测试[不足]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/datalab-to/chandra/master/assets/benchmarks/bench.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -2999,7 +3107,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[良好]",
     "license": "GPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3026,7 +3134,7 @@
     "quality": "代码[B] 文档[A+] 测试[D]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/datawhalechina/hello-agents/main/docs/images/hello-agents.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3051,9 +3159,9 @@
     "heat": "中等热度 / 细分精品",
     "heatRaw": "中等热度 / 细分精品（被低估，近期高速增长）",
     "quality": "代码[良好] 文档[一般] 测试[无]",
-    "license": null,
+    "license": "GPL-3.0",
     "cover": "https://raw.githubusercontent.com/DavidXanatos/TaskExplorer/master/.github/images/thread_view.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3080,7 +3188,7 @@
     "quality": "代码[一般] 文档[优秀] 测试[不足]",
     "license": "MIT",
     "cover": "https://github.com/user-attachments/assets/e3617410-9b1c-4731-87b7-a3858800b737",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3107,7 +3215,7 @@
     "quality": "代码[优秀] 文档[优秀（daytona.io）] 测试[充分]",
     "license": "AGPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3134,7 +3242,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[良好]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3161,7 +3269,7 @@
     "quality": "代码[优秀] 文档[中等] 测试[较弱]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/DearVa/Everywhere/refs/heads/main/img/banner.webp",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3188,7 +3296,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3213,9 +3321,9 @@
     "heat": "大众热门 · 爆发型",
     "heatRaw": "大众热门 · 爆发型（「免费 AI」强吸星，含薅羊毛需求驱动成分）",
     "quality": "代码组织/文档/错误处理「良」· 测试/CI「偏薄」· 可持续性/ToS/隐私「差（敏感）」",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/decolua/9router/master/images/9router.png?1",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3242,7 +3350,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[缺失]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-04",
     "publishedTitle": "28.5 倍压缩 + 1/10 成本：DeepSeek-V3 如何用数学打败暴力堆卡"
   },
@@ -3269,7 +3377,7 @@
     "quality": "代码[良好] 文档[良好] 测试[基本]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3296,7 +3404,7 @@
     "quality": "代码[N/A] 文档[C+] 测试[N/A]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3321,9 +3429,9 @@
     "heat": "大众热门 + 商业化精品",
     "heatRaw": "大众热门 + 商业化精品（品类头部、增长强劲，非被低估的潜力股）",
     "quality": "代码[良好·三明治分层清晰] 文档[优·官网+DeepWiki+Swagger] 测试[弱·commit 中 test 仅 1%]",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/devlikeapro/waha/core/logo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3339,7 +3447,7 @@
     ],
     "stars": 31920,
     "forks": 1824,
-    "language": null,
+    "language": "Python",
     "locRaw": null,
     "ageMonths": 64.4,
     "ageRaw": "64.4 个月（约 5.4 年，2021-01 创建）",
@@ -3348,9 +3456,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（高速增长，自托管监控类头部）",
     "quality": "代码[优] 文档[优] 测试[优] CI[优] 错误处理[优·全链路 fail-soft]",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/dgtlmoon/changedetection.io/master/docs/screenshot.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3377,8 +3485,35 @@
     "quality": "代码[良好] 文档[良好] 测试[充分]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
+    "publishedTitle": null
+  },
+  {
+    "slug": "digitalplatdev_freedomain",
+    "title": "17.5 万星的非营利域名：15 岁高中生怎么把 50 万人送上互联网",
+    "originalUrl": "https://github.com/digitalplatdev/freedomain",
+    "summary": "DigitalPlat Foundation 把「次级公共命名空间」当成互联网水电来运营——免费、非营利、5 个 TLD 平行供应、兼容任意 DNS 后端、AI 风控 + 501(c)(3) 财务托管——给全球 50 万用户一个人人都用得起的、可被信任的、长期存在的 URL。",
+    "highlights": [
+      "代码之外的运营样本：17.5 万 stars、50 万用户、190+ 国家，背后却是 1476 行 91% HTML 的「文档+前端切片」仓库",
+      "五位一体的组合创新：非营利 + 免费 + 多 TLD + 自带任意后端 + AI 风控，这套组合在公益域名赛道无直接对位，是「把互联网底座做成公共物品」哲学的具体实现",
+      "可复用的基金会化路径：用 HCB（Hack Club Bank）+ The Hack Foundation 5 分钟接入 501(c)(3) 财务托管，把开源项目的信任建设变成「公开账本 + 非营利品牌」的标准化动作"
+    ],
+    "stars": 175739,
+    "forks": 3515,
+    "language": "HTML",
+    "locRaw": "1,476（HTML 91.4% / JavaScript 4.9% / Python 3.7%）",
+    "ageMonths": 24.0,
+    "ageRaw": "24 个月（首次提交 2024-05-30）",
+    "stage": "低维护（近 30 天 0 commit，近 90 天仅 4 commit）",
+    "contribution": "单人主导（Edward Hsing 占 98.6%）",
+    "heat": "大众热门",
+    "heatRaw": "大众热门（细分赛道头部）",
+    "quality": "代码[一般·文档前端切片] 文档[优秀] 测试[无]",
+    "license": null,
+    "cover": "https://raw.githubusercontent.com/digitalplatdev/freedomain/main/opensource/static/img/logo.jpg",
+    "mtime": "2026-06-09",
+    "published": "published:2026-06-09",
     "publishedTitle": null
   },
   {
@@ -3404,7 +3539,7 @@
     "quality": "代码[良好] 文档[一般] 测试[无]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3431,7 +3566,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[良好] 治理[满分 100%]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3458,7 +3593,7 @@
     "quality": null,
     "license": null,
     "cover": "https://github.com/docusealco/docuseal/assets/5418788/d8703ea3-361a-423f-8bfe-eff1bd9dbe14",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3485,7 +3620,7 @@
     "quality": "代码[良好] 文档[良好] 测试[基本]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/Dokploy/dokploy/canary/.github/sponsors/logo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3512,7 +3647,7 @@
     "quality": "代码 9/10 \\| 文档 8/10 \\| 测试 9/10 \\| CI 10/10",
     "license": null,
     "cover": "https://raw.githubusercontent.com/dolthub/dolt/main/images/Dolt-Logo@3x.svg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-06",
     "publishedTitle": null
   },
@@ -3528,7 +3663,7 @@
     ],
     "stars": 21123,
     "forks": 3074,
-    "language": null,
+    "language": "Shell",
     "locRaw": null,
     "ageMonths": 3.8,
     "ageRaw": "3.8 个月（2026-02-12 创建，3 月单月爆发 23 commit）",
@@ -3537,9 +3672,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（爆发型，4 个月破 2 万星，近百星集中在一周内）",
     "quality": "agent/skill 定义[优] 文档[优] skill 测试框架[优·罕见] 真实落地验证[未证]",
-    "license": null,
+    "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3566,8 +3701,35 @@
     "quality": "代码[良好] 文档[优秀] 测试[良好（31%）]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
+    "publishedTitle": null
+  },
+  {
+    "slug": "donnemartin_system-design-primer",
+    "title": "35 万 star 的 System Design Primer：一个前 Facebook EM 把内部面试圣经开源 9 年后",
+    "originalUrl": "https://github.com/donnemartin/system-design-primer",
+    "summary": "这不是一个软件项目，而是一份「系统设计面试圣经」——一个 Facebook Tech Lead 在 2017 年把内部 review design doc 的范式沉淀成开源学习材料，9 年后长成 GitHub Top30、352K star 的事实标准资源：110KB 单文件长文 +8 个系统设计案例 +6 个 OOD 案例 +3 套 Anki 闪卡 +16+ 语言翻译社区。",
+    "highlights": [
+      "「Everything is a trade-off」 元规则：不是把知识点列清单，而是把「如何思考 system design」总结为 4 步方法论（use cases → high level → core components → scale），每步反复强化 trade-off",
+      "DRY 文档架构（教科书级反模式打破）：8 个 case README 都极简，因为通用原理只写在主 README 一次",
+      "多语言翻译社区治理模型：English-first 单向流 + per-language maintainer + ISO 语言码前缀 + TRANSLATIONS.md 四态看板（Live/In Progress/Stalled/Not Started）"
+    ],
+    "stars": 352357,
+    "forks": 56627,
+    "language": null,
+    "locRaw": null,
+    "ageMonths": 111.5,
+    "ageRaw": "111.5 个月（2017-02-26 →2026-03-20）",
+    "stage": "低维护（内容已定型，作者 2022 后主线停滞）",
+    "contribution": "单人主导（Donne Martin167/343 ≈50%；#2 cclauss11、#3 satob10）",
+    "heat": "S+ 级",
+    "heatRaw": "S+ 级（GitHub Top30，长期稳居中文圈系统设计面试圣经）",
+    "quality": "文档 5/5，代码 N/A（刻意骨架化），多媒体 5/5，CI/CD1/5",
+    "license": null,
+    "cover": "https://raw.githubusercontent.com/donnemartin/system-design-primer/master/images/jj3A5N8.png",
+    "mtime": "2026-06-09",
+    "published": "published:2026-06-09",
     "publishedTitle": null
   },
   {
@@ -3593,7 +3755,34 @@
     "quality": "代码[中等] 文档[良好] 测试[不足]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
+    "published": null,
+    "publishedTitle": null
+  },
+  {
+    "slug": "dotnet_skills",
+    "title": "微软给 .NET 写了 98 个官方技能：实测旗舰却没让 Opus 更强",
+    "originalUrl": "https://github.com/dotnet/skills",
+    "summary": "微软 .NET 团队亲自下场、给 AI 编码代理写的 98 个官方 Agent Skills 合集——工程化程度堪称业界标杆（近 1:1 评测覆盖 + C# 校验器），但实测旗舰技能对强模型的行为增益约等于零，真正值得抄的是它那套「技能即被测代码」的评测基建。",
+    "highlights": [
+      "唯一的官方 first-party .NET 技能集：不是技术人转策展，而是「同一拨造 .NET 平台的工程师，把内部生产已验证的工作流固化成 agent 可发现的 skill」，对一堆社区 .NET skill 形成权威碾压",
+      "业界罕见的评测工程化：98 个技能配 95 份 `eval.yaml`（近 1:1 断言覆盖）+ 独立 C# `skill-validator` + 覆盖率脚本 + 5 条专用 CI",
+      "一个诚实的反差实测：旗舰技能 `migrate-nullable-references` 客观结构分 61/100、写得很完整，但 `with_skill` vs `without_skill` 的行为 delta ≈ 0"
+    ],
+    "stars": 3306,
+    "forks": 245,
+    "language": null,
+    "locRaw": "98 个技能（13 plugin）/ 32 带 reference·4 带 scripts / 实测旗舰 1 个",
+    "ageMonths": 4.0,
+    "ageRaw": "4 个月（2026-02 ~ 2026-06）",
+    "stage": "活跃高频建设期（近 30 天 50 commits，工作日为主，weekend 0%）",
+    "contribution": "核心少数 + 社区（微软 .NET 团队，Top2 约 70%，含 bot）",
+    "heat": "中等热度",
+    "heatRaw": "中等热度（官方背书的 4 个月新仓）",
+    "quality": "质量[中] 旗舰实测 delta[≈0] 裁决[weak] 象限[mastery]",
+    "license": "MIT",
+    "cover": null,
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3620,7 +3809,7 @@
     "quality": "代码[良好] 文档[基本] 测试[薄弱]",
     "license": "AGPL-3.0",
     "cover": "https://raw.githubusercontent.com/drawdb-io/drawdb/main/drawdb.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3647,7 +3836,7 @@
     "quality": "代码[一般] 文档[优秀] 测试[无]",
     "license": "Apache-2.0",
     "cover": "https://github.com/DrewThomasson/ebook2audiobook/raw/main/assets/demo_web_gui.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3674,7 +3863,7 @@
     "quality": "代码[良好] 文档[良好] 测试[基本]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3701,7 +3890,7 @@
     "quality": "代码[B+] 文档[B] 测试[C+]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3728,7 +3917,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分] 治理[完善]",
     "license": "MIT",
     "cover": "https://pi.dev/doom-extension.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-06",
     "publishedTitle": null
   },
@@ -3755,7 +3944,7 @@
     "quality": "内容[优秀] 文档[优秀] 自动化[基本]",
     "license": "CC-BY-4.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3782,7 +3971,7 @@
     "quality": "代码[良好] 文档[良好] 测试[基本]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/github.svg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3809,7 +3998,7 @@
     "quality": "代码[良好] 文档[良好] 测试[不足]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3836,7 +4025,7 @@
     "quality": "代码[良好] 文档[良好] 测试[基本]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3863,7 +4052,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分]",
     "license": null,
     "cover": "https://www.elastic.co/guide/en/elasticsearch/reference/current/images/architecture.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-01",
     "publishedTitle": null
   },
@@ -3890,7 +4079,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[良好]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3917,7 +4106,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[优秀]",
     "license": "Apache 2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3944,7 +4133,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[基本]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3960,7 +4149,7 @@
     ],
     "stars": 27303,
     "forks": 5019,
-    "language": null,
+    "language": "JavaScript",
     "locRaw": null,
     "ageMonths": 156.0,
     "ageRaw": "约 13 年（2013-06 建库，今日仍活跃打磨控制流分析）",
@@ -3969,9 +4158,9 @@
     "heat": "JS/TS 工具链地基级基础设施 · 可插拔 linter 事实标准",
     "heatRaw": "JS/TS 工具链地基级基础设施 · 可插拔 linter 事实标准",
     "quality": "测试「A+（RuleTester 每规则可单测）」· 代码组织/CI/错误处理「A」· 文档「A-」",
-    "license": null,
+    "license": "MIT",
     "cover": "https://opengraph.githubassets.com/1/eslint/eslint",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -3996,9 +4185,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（被关注度低估的实用派，长期被 Medusa 光环遮蔽）",
     "quality": "代码[良好·约定式架构] 文档[优·官网 docs + 在线 Demo] 测试[有·module 自带 tests，但 test commit 少]",
-    "license": null,
+    "license": "GPL-3.0",
     "cover": "https://raw.githubusercontent.com/evershopcommerce/evershop/dev/.github/images/banner.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4025,7 +4214,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分（测试代码 1.3 倍于生产代码）]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4050,9 +4239,9 @@
     "heat": "现象级爆发",
     "heatRaw": "现象级爆发（约 100 star/天，但含明显运营催化，非纯口碑）",
     "quality": "可读层代码[良] 文档[优但过度包装] 测试[仅覆盖外壳] 开源透明度[差]",
-    "license": null,
+    "license": "GPL-3.0",
     "cover": "https://raw.githubusercontent.com/EvoMap/evolver/main/assets/cover.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4079,7 +4268,7 @@
     "quality": "代码[A-] 文档[B+] 测试[B+]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4106,7 +4295,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4133,7 +4322,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": null,
     "cover": "https://prompts.chat/logo.svg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4160,7 +4349,7 @@
     "quality": "代码[良好] 文档[良好] 测试[无]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4187,7 +4376,7 @@
     "quality": "代码 B+ / 文档 B / 测试 B+ / CI A-",
     "license": null,
     "cover": "https://raw.githubusercontent.com/facebookresearch/xformers/main/docs/plots/mha/mha_vit.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-07",
     "publishedTitle": null
   },
@@ -4214,7 +4403,7 @@
     "quality": "架构⭐⭐⭐⭐ 代码⭐⭐⭐⭐ 安全⭐⭐⭐⭐",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/farion1231/cc-switch/main/assets/screenshots/main-en.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4237,7 +4426,7 @@
     "quality": null,
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4264,7 +4453,7 @@
     "quality": "代码[良好] 文档[良好] 测试[C++ 侧无]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/Fincept-Corporation/FinceptTerminal/main/images/FinceptBanner.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4291,7 +4480,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": "AGPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-06",
     "publishedTitle": "12 种引擎赛跑抓网页：Firecrawl 如何两年干到 96K Stars"
   },
@@ -4314,7 +4503,7 @@
     "quality": null,
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4341,7 +4530,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4368,7 +4557,7 @@
     "quality": "代码[良好] 文档[良好] 测试[基本]",
     "license": null,
     "cover": "https://github.com/FlowiseAI/Flowise/raw/master/screenshots/screenshot-new.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4395,7 +4584,7 @@
     "quality": "代码[一般] 文档[良好] 测试[无]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4422,7 +4611,7 @@
     "quality": "代码[良好] 文档[良好] 测试[中等]",
     "license": "GPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4438,7 +4627,7 @@
     ],
     "stars": 35357,
     "forks": 11592,
-    "language": null,
+    "language": "Python",
     "locRaw": null,
     "ageMonths": 180.0,
     "ageRaw": "约 15 年（2011-06 建库，今日仍活跃）",
@@ -4447,9 +4636,9 @@
     "heat": "长青旗舰 · 全球自部署",
     "heatRaw": "长青旗舰 · 全球自部署（topics 含 manufacturing/healthcare/accounting/crm/hrms/pos/procurement）",
     "quality": "代码组织/测试/CI/错误处理「A」· 文档「B（强依赖 Frappe 框架先验）」",
-    "license": null,
+    "license": "GPL-3.0",
     "cover": "https://raw.githubusercontent.com/frappe/erpnext/develop/erpnext/public/images/v16/hero_image.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4476,7 +4665,7 @@
     "quality": "产品定位⭐⭐⭐⭐⭐ 代码质量⭐⭐ 工程化⭐",
     "license": "AGPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4503,7 +4692,7 @@
     "quality": "代码[B] 文档[A-] 测试[N/A]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/Gar-b-age/CookLikeHOC/main/banner.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4530,7 +4719,7 @@
     "quality": "代码[精湛] 文档[极简] 测试[无]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4555,9 +4744,9 @@
     "heat": "中等热度 · 停滞",
     "heatRaw": "中等热度 · 停滞（约 2-7 star/月长尾滴入，来自「BloomRPC alternative」搜索）",
     "quality": "代码[良好] 文档[一般] 测试[不足，仅 src/core 有单测]",
-    "license": null,
+    "license": "MPL-2.0",
     "cover": "https://raw.githubusercontent.com/getezy/ezy/master/docs/logo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4584,7 +4773,7 @@
     "quality": "代码[良好] 文档[良好] 测试[充分]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/getzep/graphiti/main/images/graphiti-graph-intro.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4611,7 +4800,7 @@
     "quality": "代码[A] 文档[B] 测试[B-]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4638,7 +4827,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": "MIT",
     "cover": "https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4663,9 +4852,9 @@
     "heat": "大众热门 · 现象级明星项目",
     "heatRaw": "大众热门 · 现象级明星项目（爆发型，有「过誉」之声）",
     "quality": "代码[优秀] 文档[优秀] 测试[充分]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://github.com/user-attachments/assets/fe853809-ba8b-400b-83ab-a9a0da25be8a",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4692,7 +4881,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": null,
     "cover": "https://s3.us-east-1.amazonaws.com/images.memorilabs.ai/banner.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4719,7 +4908,7 @@
     "quality": "代码优秀 / 文档优秀 / 测试充分 / CI 完善",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/gin-gonic/logo/master/color.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-30",
     "publishedTitle": null
   },
@@ -4746,7 +4935,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[良好]",
     "license": "GPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4773,7 +4962,7 @@
     "quality": "代码[A-] 文档[A] 测试[B]",
     "license": null,
     "cover": "https://gitbutler-docs-images-public.s3.us-east-1.amazonaws.com/app-preview-light.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4798,9 +4987,9 @@
     "heat": "大众热门 / 风口热点",
     "heatRaw": "大众热门 / 风口热点（官方刚 GA，agent 平台化趋势标志产品）",
     "quality": "代码[优·协议驱动+codegen] 文档[优·各语言 cookbook] 测试[强·52 共享场景 + 各语言原生测试双层]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/github/copilot-sdk/main/assets/RepoHeader_01.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4827,7 +5016,7 @@
     "quality": "代码[A] 文档[A] 测试[A]（测试/源码比 2.26:1）",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4854,7 +5043,7 @@
     "quality": "架构⭐⭐⭐⭐⭐ 文档⭐⭐⭐⭐⭐ 测试⭐⭐⭐⭐",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/github/spec-kit/main/media/logo_large.webp",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4881,7 +5070,7 @@
     "quality": null,
     "license": null,
     "cover": "https://github.com/user-attachments/assets/a809ad78-aef4-4169-91ee-de7213cbb3bd",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4906,9 +5095,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（Google 官方旗舰 + 与 Gemma/Gemini Nano 强绑定）",
     "quality": "代码[优] 文档[良] 测试[优]",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/google-ai-edge/LiteRT-LM/main/docs/api/kotlin/demo.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4935,7 +5124,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[充分]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/google-gemini/gemini-cli/main/docs/assets/gemini-screenshot.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-04",
     "publishedTitle": "Gemini CLI 深度分析报告"
   },
@@ -4962,7 +5151,7 @@
     "quality": "代码[A-] 文档[B+] 测试[D]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -4989,7 +5178,7 @@
     "quality": "代码[良好] 文档[一般] 测试[基本]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/google/adk-python/main/assets/agent-development-kit.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5016,7 +5205,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分] CI[完善]",
     "license": "BSD 3-Clause",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-06",
     "publishedTitle": null
   },
@@ -5043,7 +5232,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/google/langextract/main/docs/_static/romeo_juliet_basic.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5059,7 +5248,7 @@
     ],
     "stars": 17115,
     "forks": 1054,
-    "language": null,
+    "language": "Python",
     "locRaw": null,
     "ageMonths": 27.9,
     "ageRaw": "27.9 个月（2023-08 创建，2024-02 起外部高频开发）",
@@ -5068,9 +5257,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（高速增长，1.0 Rust 重写带来二次曝光）",
     "quality": "代码[优] 文档[优] 测试[优·跨语言黄金向量] CI[优·19 workflow]",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/google/magika/main/assets/magika-screenshot.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5097,7 +5286,7 @@
     "quality": "架构⭐⭐⭐⭐⭐ 工程实践⭐⭐⭐⭐⭐ 测试⭐⭐⭐⭐",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5124,7 +5313,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[基本]",
     "license": "Apache-2.0",
     "cover": "https://cloud.google.com/static/vertex-ai/docs/generative-ai/images/generative-ai-workflow.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5151,7 +5340,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/googleworkspace/cli/main/docs/logo.jpg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5178,7 +5367,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分]",
     "license": "MIT",
     "cover": "https://assets.omden.com/omden/images/blog/pentestgpt-architecture.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5205,7 +5394,7 @@
     "quality": null,
     "license": null,
     "cover": "https://raw.githubusercontent.com/guofei9987/blind_watermark/master/docs/%E6%89%93%E4%B8%8A%E6%B0%B4%E5%8D%B0%E7%9A%84%E5%9B%BE.jpg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5232,7 +5421,7 @@
     "quality": "代码[一般] 文档[良好] 测试[无]",
     "license": "AGPL-3.0",
     "cover": "https://raw.githubusercontent.com/hacksider/Deep-Live-Cam/main/media/demo.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5259,7 +5448,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[无]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/HailToDodongo/pyrite64/main/docs/_static/img/editor00.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5286,8 +5475,35 @@
     "quality": "代码[优秀] 文档[优秀] 测试[无（Notebook 本身即验证）]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
+    "publishedTitle": null
+  },
+  {
+    "slug": "hardikpandya_stop-slop",
+    "title": "0 代码 9.5K Star：一位 Atlassian 设计总监如何用一份 SKILL.md 撬动 AI 写作反 slop 赛道",
+    "originalUrl": "https://github.com/hardikpandya/stop-slop",
+    "summary": "一个零依赖、零代码、零构建的 Agent Skill，把「AI 写作痕迹」（slop）编码成 5 维评分 + 35/50 阈值，让 Claude/Cursor 在写完散文后自我审计并改写，5 个月爆 9.5K Star。",
+    "highlights": [
+      "形态创新: 整个仓库只有 332 行 Markdown，把\"linter\"从 npm install 压缩到 copy-paste 一份文件",
+      "可复用骨架: 三段式 prompt 模板（Rule + Quick Check + Scoring）+ Blacklist 配 Instead-routing，对任何\"反 X 风格\"任务都能直接 fork",
+      "现象级爆款: 12 个 commit、2.7 个月未更新、Star 仍每天涌入"
+    ],
+    "stars": 9555,
+    "forks": 673,
+    "language": "Markdown",
+    "locRaw": "0（332 行 Markdown 规则文档）",
+    "ageMonths": 4.9,
+    "ageRaw": "4.9 个月（2026-01-11 至今）",
+    "stage": "低维护（最近提交 2026-03-18，已停更 ~2.7 个月）",
+    "contribution": "单人主导（Hardik Pandya 占 83.3%，社区贡献者 1 人）",
+    "heat": "大众热门",
+    "heatRaw": "大众热门（爆发型增长，155 个新 Star 全部落在 0 天窗口）",
+    "quality": "文档[优秀] 规则自洽性[一般] 测试[无]",
+    "license": null,
+    "cover": "https://github.com/user-attachments/assets/902afc15-1f40-4a9d-af24-8cd67afb8ebf",
+    "mtime": "2026-06-09",
+    "published": "published:2026-06-09",
     "publishedTitle": null
   },
   {
@@ -5313,7 +5529,7 @@
     "quality": "代码[一般] 文档[良好] 测试[无]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/harry0703/MoneyPrinterTurbo/main/docs/webui-en.jpg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5340,7 +5556,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[良好]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/harvard-edge/cs249r_book/dev/book/quarto/contents/curriculum-map.svg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5367,7 +5583,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分]（测试/源码比 0.79:1）",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5394,7 +5610,7 @@
     "quality": "代码[N/A] 文档[基本] 测试[N/A]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5421,7 +5637,7 @@
     "quality": "工程化[极高] 内容[良好] 自动化[优秀]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5448,7 +5664,7 @@
     "quality": "代码[良好·FastAPI 后端 + 20 测试文件] 文档[优·README+论文+DeepWiki] 测试[有·service/server/tests 20 文件]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/HKUDS/AI-Trader/main/assets/logo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5462,8 +5678,8 @@
       "几个可直接复用的工程范式：① 强约束 SOP 当「生成器」",
       "一个「框架薄、市场厚」的平台样本，但要会拆：HKUDS 维护的框架核心（cli-hub 仅依赖 click+requests）只占很小比例，27.5 万行 Python 绝大部分是社区贡献的 60 个适配器长尾"
     ],
-    "stars": null,
-    "forks": null,
+    "stars": 42525,
+    "forks": 4005,
     "language": "Python",
     "locRaw": "237,095 行（Python 93.2%；JSON 3.5% 是注册表数据；C#/Swift/PS 长尾是各软件原生胶水）；1488 文件；注释比 0.179（健康）",
     "ageMonths": 3.0,
@@ -5473,9 +5689,9 @@
     "heat": "大众热门 · 爆发型",
     "heatRaw": "大众热门 · 爆发型（一周内吸 200+ star，Trendshift 收录）",
     "quality": "文档「优」· 框架核心「良」· 适配器市场「中（高方差）」· 测试「中」· CI「弱（无 harness 测试闸门）」",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/HKUDS/CLI-Anything/main/assets/teaser.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5502,7 +5718,7 @@
     "quality": "代码[B-] 文档[B+] 测试[D]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5529,7 +5745,7 @@
     "quality": null,
     "license": null,
     "cover": "https://raw.githubusercontent.com/HKUDS/DeepTutor/main/assets/figs/dt-chat.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5556,7 +5772,7 @@
     "quality": "代码[良好] 文档[良好] 测试[基本]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/HKUDS/LightRAG/main/README.assets/b2aaf634151b4706892693ffb43d9093.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5581,9 +5797,9 @@
     "heat": "大众热门 · 爆发型",
     "heatRaw": "大众热门 · 爆发型（被 Milvus 官博/36Kr 等列为默认推荐多模态 RAG 框架）",
     "quality": "代码组织/文档/CI/错误处理「★★★★☆」· 测试「★★★☆☆（22 测试文件 ~4.3K 行，但核心算法深度单测偏薄）」",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/HKUDS/RAG-Anything/main/assets/logo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5608,9 +5824,9 @@
     "heat": "现象级爆款",
     "heatRaw": "现象级爆款（5 个月 0→37K star，DeepSeek V4 发布 + 中文社区带动）",
     "quality": "工程执行「强」 fix 占 52%（高速适配）测试「良」 渊源披露「不足」",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/Hmbown/DeepSeek-TUI/main/assets/screenshot.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5635,9 +5851,9 @@
     "heat": "大众热门 · 品类领导者",
     "heatRaw": "大众热门 · 品类领导者（开源智能家居近乎垄断级头部，已自动化 200 万+ 家庭）",
     "quality": "代码[优秀] 文档[优秀] 测试[充分]",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5664,7 +5880,7 @@
     "quality": "代码[良好] 文档[良好] 测试[基本]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5680,7 +5896,7 @@
     ],
     "stars": 5817,
     "forks": 442,
-    "language": null,
+    "language": "Shell",
     "locRaw": null,
     "ageMonths": 39.8,
     "ageRaw": "39.8 个月（约 3.3 年，2023-02 创建）",
@@ -5689,9 +5905,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（高速增长，5.8k star 对应 319 行体量极高，命中真实痛点）",
     "quality": "可配置性[优] CI[良·矩阵出 26 镜像] 文档[中·与代码脱节] Dockerfile[中]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/HQarroum/docker-android/main/assets/icon.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5718,7 +5934,7 @@
     "quality": "中等偏上（文档极佳，但 31% 提交为 Bug 修复，快速迭代牺牲了稳定性）",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5745,7 +5961,7 @@
     "quality": "代码[良好] 文档[一般] 测试[不足]",
     "license": "Apache-2.0",
     "cover": "https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/chat-ui/chat-ui-2026.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5770,9 +5986,9 @@
     "heat": "大众热门 · 被低估的「引擎」",
     "heatRaw": "大众热门 · 被低估的「引擎」（应用层的共同上游）",
     "quality": "代码「优秀」 文档「优秀」 测试「充分」",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/huggingface/diffusers/main/docs/source/en/imgs/diffusers_library.jpg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5797,9 +6013,9 @@
     "heat": "大众热门 + 旗舰级开源参考实现",
     "heatRaw": "大众热门 + 旗舰级开源参考实现（非套利标的，是值得拆解的样本）",
     "quality": "代码[良好·工程深度高] 文档[优·README 含架构图 + DeepWiki] 测试[强·47 个测试文件，含硬核场景]",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/huggingface/ml-intern/main/frontend/public/smolagents.webp",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5826,7 +6042,7 @@
     "quality": "数据集⭐⭐⭐⭐⭐ 代码精简度⭐⭐⭐⭐⭐ 完整度⭐⭐⭐",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5853,7 +6069,7 @@
     "quality": "代码[B+] 文档[A] 测试[D]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5880,7 +6096,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[良好]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5894,7 +6110,7 @@
       "增长势头：近万星（9,960 stars）、856 forks，2025 年 7-10 月进入爆发式开发期（月均 300+ commits），团队仅 3 人却产出惊人",
       "产品转型成功：从单一 SDK 转型为全栈桌面 IDE（Tauri + Go daemon + Claude Code），技术架构完整且大胆"
     ],
-    "stars": 10969,
+    "stars": 10973,
     "forks": 926,
     "language": "TypeScript",
     "locRaw": null,
@@ -5907,7 +6123,7 @@
     "quality": null,
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5934,7 +6150,7 @@
     "quality": null,
     "license": null,
     "cover": "https://raw.githubusercontent.com/HunxByts/GhostTrack/main/asset/bn.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5961,7 +6177,7 @@
     "quality": "代码[不适用] 文档[良好] 测试[不适用]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -5988,7 +6204,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/illuin-tech/colpali/main/assets/colpali_architecture.webp",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6013,9 +6229,9 @@
     "heat": "大众热门 + 健康可持续的开源标杆",
     "heatRaw": "大众热门 + 健康可持续的开源标杆",
     "quality": "代码[优·四端 API-first] 文档[完善] 测试[强·test/e2e 与生产码同步]",
-    "license": null,
+    "license": "AGPL-3.0",
     "cover": "https://raw.githubusercontent.com/immich-app/immich/main/design/immich-screenshots.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6029,7 +6245,7 @@
       "「单文件 vs 拆分」是有意识的设计决策：3,237 行的 README 看似失控，但作者按「主线叙事留主文档 / 纯配置清单拆出去 / 自动化产物跳转到配套 Ansible 仓库」三类标准严格取舍，背后的文档架构方法论可借鉴",
       "「教学 + 复制粘贴」双轨片段：每个 `nano /etc/...` 手动操作都配一行 `sed -i` 或 `echo | sudo tee -a` 自动化片段，并故意不做后置校验"
     ],
-    "stars": 27755,
+    "stars": 27760,
     "forks": 1836,
     "language": "/",
     "locRaw": "0（纯 Markdown 文档，3,237 行 / 4 文件）",
@@ -6042,7 +6258,7 @@
     "quality": "内容[A] 文档[A] 可操作性[A] 时效性[B-]",
     "license": "CC-BY-SA-4.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-06",
     "publishedTitle": null
   },
@@ -6069,7 +6285,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/infiniflow/ragflow-docs/refs/heads/image/image/chunking.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6096,7 +6312,7 @@
     "quality": "代码[良好] 文档[优秀·1852 个 MDX 文件] 测试[有限·BDD 测试]",
     "license": "MIT（核心开源）+ 企业许可证（`ee/` 目录）",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6121,9 +6337,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（行业事实标准级采集器之一）",
     "quality": "代码[优] 文档[优] 测试[优]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/influxdata/telegraf/master/assets/TelegrafTigerSmall.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6150,7 +6366,7 @@
     "quality": "代码[B+] 文档[A] 测试[F]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6177,7 +6393,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[后端良好/前端缺失]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/InsForge/InsForge/main/assets/connect.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6204,7 +6420,7 @@
     "quality": "代码[卓越] 文档[优秀] 测试[无]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/instructkr/claude-code/main/assets/omx/omx-readme-review-1.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-01",
     "publishedTitle": "Claude Code 泄露源码深度分析报告"
   },
@@ -6231,7 +6447,7 @@
     "quality": "代码[A] 文档[A-] 测试[B-]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/iOfficeAI/AionUi/main/resources/aionui-banner-1.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6258,7 +6474,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": "Unlicense",
     "cover": "https://github.com/iptv-org/iptv/raw/master/.readme/preview.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6285,7 +6501,7 @@
     "quality": "代码优秀 / 文档良好 / 测试充分 / CI 完善",
     "license": "GPL-3.0",
     "cover": "https://raw.githubusercontent.com/is-a-dev/register/main/media/banner.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-06",
     "publishedTitle": null
   },
@@ -6312,7 +6528,7 @@
     "quality": "代码[良好] 文档[良好] 测试[无]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/ItzCrazyKns/Vane/master/.assets/vane-screenshot.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6339,7 +6555,7 @@
     "quality": "代码[优秀] 文档[优秀（官网 prek.j178.dev）] 测试[良好]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6353,8 +6569,8 @@
       "几个本地 AI 桌面 app 的硬核工程范式：① Tauri 拉 Python sidecar",
       "MCP 作为「agent 语音层」的生态卡位：内置 FastMCP server 把 `voicebox.speak/.transcribe` 暴露为 agent 工具，`ClientIdMiddleware` 用 `X-Voicebox-Client-Id` 做 per-client 声音绑定（Claude Code 绑一个声音、Cursor 绑另一个）"
     ],
-    "stars": null,
-    "forks": null,
+    "stars": 29637,
+    "forks": 3635,
     "language": "TSX",
     "locRaw": "81,438 行（TSX 31.3% 前端 + Python 21.9% ML 后端 + TS 8.1% + Rust 4.9% Tauri 壳；JSON 31.8% 为 lock/数据）；517 文件；注释比 0.161（健康）",
     "ageMonths": 4.4,
@@ -6364,9 +6580,9 @@
     "heat": "大众热门 · 爆发型",
     "heatRaw": "大众热门 · 爆发型（被多家媒体冠以「免费本地版 ElevenLabs」，停更后 star 仍每天涨近百，系媒体长尾惯性）",
     "quality": "代码组织「优」· 文档「良」· CI 发布「良」· 错误处理「良」· 测试「差（~0.5%，CI 不跑后端/Rust 测试）」",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/jamiepine/voicebox/main/landing/public/assets/app-screenshot-1.webp",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6391,9 +6607,9 @@
     "heat": "大众热门 + 成熟可信选题",
     "heatRaw": "大众热门 + 成熟可信选题（架构定稿、便于深拆，非追新风险标的）",
     "quality": "代码[良好·分层工程化] 文档[优·README + 7 篇 Substack 长文 + DeepWiki] 测试[有·unit/api/integration 三层]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/jamwithai/production-agentic-rag-course/main/static/mother_of_ai_project_rag_architecture.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6418,9 +6634,9 @@
     "heat": "大众热门 · 细分赛道事实标准",
     "heatRaw": "大众热门 · 细分赛道事实标准（持续吸星）",
     "quality": "代码[优秀] 文档[良好] 测试[充分]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/janestreet/magic-trace/master/docs/assets/logo-light.svg?sanitize=true",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6447,7 +6663,7 @@
     "quality": "代码[良好] 文档[良好] 测试[中等]",
     "license": "Apache 2.0（Menlo Research Pte. Ltd. 版权）",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6474,7 +6690,7 @@
     "quality": "代码[A] 文档[A+] 测试[A]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6501,7 +6717,34 @@
     "quality": "代码[学术级] 文档[基本] 测试[无]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
+    "published": null,
+    "publishedTitle": null
+  },
+  {
+    "slug": "jaywcjlove_awesome-mac",
+    "title": "10 万星 Mac 软件清单：一份 README 自动裂变成 6 种分发物",
+    "originalUrl": "https://github.com/jaywcjlove/awesome-mac",
+    "summary": "中文社区最大的 Mac 软件精选清单——苏州全栈工程师 jaywcjlove 用 10 年时间把一份 README 做成了「策展即发布」的全自动内容流水线，10.5 万 Star 背后是一套可整套复刻的内容运营基建。",
+    "highlights": [
+      "「策展即发布」的全自动流水线：一次 push README，CI 自动建站、导出 4 语 JSON 数据集、生成 4 语 RSS、发 npm 包、推 Docker 镜像、打 tag 出 release",
+      "仓库内置 AI 维护 Agent Skill：作者把「选分类、写一句话描述、四语同步、字母序、图例风格」固化成 `.codex/skills/awesome-mac-maintainer`，让贡献者直接调用",
+      "个人开发者的内容变现闭环：用 10.5 万星的旗舰清单做流量入口，README 顶部嵌 30+ 自研付费 Mac App 与赞助位，跑通了「内容引流 → 自研产品变现」的完整飞轮"
+    ],
+    "stars": 105407,
+    "forks": 7870,
+    "language": null,
+    "locRaw": "约 1287 条目 / 22 个 markdown 文件 / 仓库 1.2MB（主体为 markdown 文本，近乎零代码）",
+    "ageMonths": 119.0,
+    "ageRaw": "119 个月（2016-07 ~ 2026-06，约 9.9 年）",
+    "stage": "活跃更新（近 30 天 74 commits，2026-06 仍在更新，RSS 随每次 push 自动重生成）",
+    "contribution": "独立运营 + 社区长尾（jaywcjlove 占 71.9% commits，github-actions[bot] 提交数居首，社区以一次性 PR 投稿）",
+    "heat": "大众热门",
+    "heatRaw": "大众热门（Mac 软件导航的事实标准入口之一）",
+    "quality": "策展[良好] 更新[活跃] 自动化[高]",
+    "license": "CC0-1.0（公有领域，可零成本镜像/商用，也因此直接喂养了「自动更新」差异化的竞品）",
+    "cover": null,
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6528,7 +6771,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分] CI/CD[完善] 错误处理[规范]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-07",
     "publishedTitle": null
   },
@@ -6555,7 +6798,7 @@
     "quality": "代码[良好·18 个测试项目] 文档[优秀·官方网站+API Swagger] 测试[较好·含集成测试和模糊测试]",
     "license": "GNU General Public License v2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6582,7 +6825,7 @@
     "quality": "代码[良好] 文档[一般] 测试[无]",
     "license": "GPL-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6609,7 +6852,7 @@
     "quality": "代码[良好] 文档[一般] 测试[不足]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/Jiayi-Pan/TinyZero/main/cover.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6636,7 +6879,7 @@
     "quality": "代码[良好] 文档[一般] 测试[无]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6663,7 +6906,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/jingyaogong/minimind/master/images/minimind2.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6688,9 +6931,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（前端动画库第一梯队）",
     "quality": "代码「良好」 文档「优秀」 测试「基本」",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/juliangarnier/anime/master/assets/images/animejs-v4-logo-animation.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6715,9 +6958,9 @@
     "heat": "爆发型新星 · 细分蓝海领跑",
     "heatRaw": "爆发型新星 · 细分蓝海领跑（Mac 跑 coding agent）",
     "quality": "代码「优秀」 文档「良好」 测试「充分」",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/jundot/omlx/main/docs/images/omlx_dashboard.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6744,7 +6987,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[良好]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6771,8 +7014,35 @@
     "quality": "文档[优秀] 代码[一般] 测试[不足]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/K-Dense-AI/claude-scientific-skills/main/docs/k-dense-web.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
+    "publishedTitle": null
+  },
+  {
+    "slug": "k-dense-ai_scientific-agent-skills",
+    "title": "半年 27K stars：K-Dense 把 142 个科研 Skill 做成了「科学领域的 npm registry」",
+    "originalUrl": "https://github.com/k-dense-ai/scientific-agent-skills",
+    "summary": "K-Dense 把 142 个科学垂直领域（生信/化信/临床/天文/材料……）的「AI 工作流文档」打包成符合开放 Agent Skills 标准的可分发目录，让 Claude Code、Cursor、Codex、Google Antigravity 等任意通用 AI agent 一键升级为「AI Scientist」。",
+    "highlights": [
+      "垂直 × 标准化的稀缺交叉：科学垂直深度的同类项目（DeepAnalyze 4.2k、NanoResearch 1.5k、AutoR 849）量级都只有它的零头，而通用 AI agent skills（Anthropic 官方）又没有科学深度，这个交叉位置目前只此一家",
+      "真·供应链安全：每周一 Cisco AI Defense Skill Scanner 全量扫描 + PR 时增量扫描，扫描结果自动 commit 到 main 的 `SECURITY.md`（3644 行带 severity badge），把「prompt 注入 / 越权调用」当成 npm 依赖一样审计",
+      "三段式 provenance：`pyproject.toml` 版本 + 每个 skill 自己的 `metadata.version` + git tag/SHA pin，从「包级 → 文件级 → 安全级」三层版本治理，是 prompt/template registry 该有的工程范式"
+    ],
+    "stars": 27646,
+    "forks": 2849,
+    "language": "Python",
+    "locRaw": "96,321 行（Python 59.5% / JSON 28.2% / TeX 10.9%）",
+    "ageMonths": 7.6,
+    "ageRaw": "7.6 个月（首提交 2025-10-19）",
+    "stage": "密集开发（30 天 58 commits，近 90 天 155 commits）",
+    "contribution": "单核心 + 社区辅助（Timothy Kassis 300 commits ≈ 58%，其余 42 人合计 42%）",
+    "heat": "大众热门",
+    "heatRaw": "大众热门（半年 27K stars，垂直赛道头部）",
+    "quality": "代码优秀 / 文档优秀 / 测试不足（仅 4/143 skill 有 unit test）/ CI/CD 完善 / 安全治理完善",
+    "license": null,
+    "cover": "https://api.star-history.com/svg?repos=K-Dense-AI/scientific-agent-skills&type=date&legend=top-left",
+    "mtime": "2026-06-09",
+    "published": "published:2026-06-09",
     "publishedTitle": null
   },
   {
@@ -6798,7 +7068,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[基本]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/KaijuEngine/kaiju_media_files/master/docs/index.md/kaiju_engine_text_wide_logo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6825,7 +7095,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[不足]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6852,7 +7122,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[无]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/karpathy/autoresearch/master/progress.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6879,7 +7149,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[无]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-02",
     "publishedTitle": "$100 从零造 ChatGPT：Karpathy 用 7000 行代码写了一本 LLM 教科书"
   },
@@ -6906,7 +7176,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[基本]",
     "license": "MIT",
     "cover": "https://github.com/user-attachments/assets/7ccaf2c1-9b72-41ae-9a89-5688c94b7abe",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6931,9 +7201,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（6.5K star，稳步增长）",
     "quality": "代码「优」 文档「优」 测试「优」 CI「优」",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/katanemo/plano/main/docs/source/_static/img/plano_network_diagram_high_level.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6958,9 +7228,9 @@
     "heat": "大众热门 · 稳步增长",
     "heatRaw": "大众热门 · 稳步增长（约 150 star/月，持续不衰）",
     "quality": "可复现[优] 文档[良·竞速标准] 依赖[优] 工程 trick 清晰度[良]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/KellerJordan/modded-nanogpt/master/img/nanogpt_speedrun51.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -6987,7 +7257,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[良好]",
     "license": "Apache-2.0",
     "cover": "https://kestra.io/adding-tasks.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7014,7 +7284,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[基准测试]",
     "license": "AGPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7041,7 +7311,7 @@
     "quality": "代码[良好] 文档[优秀（Fern 驱动 API 文档站）] 测试[不足]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7057,7 +7327,7 @@
     ],
     "stars": 25006,
     "forks": 2615,
-    "language": null,
+    "language": "Python",
     "locRaw": null,
     "ageMonths": 228.0,
     "ageRaw": "约 18-19 年（2006 为 Sony PRS-500 创建 libprs500，GitHub 2013 镜像，今日活跃）",
@@ -7066,9 +7336,9 @@
     "heat": "电子书管理/转换事实标准 · 开源单人产出天花板",
     "heatRaw": "电子书管理/转换事实标准 · 开源单人产出天花板",
     "quality": "文档「优（体系化 manual）」· 代码/CI/错误处理「良」· 测试「中」",
-    "license": null,
+    "license": "GPL-3.0",
     "cover": "https://raw.githubusercontent.com/kovidgoyal/calibre/master/resources/images/lt.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7095,7 +7365,7 @@
     "quality": "代码[A] 文档[A-] 测试[A]（WPT 90%+，17K+ 测试文件）",
     "license": "BSD-2-Clause",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7122,7 +7392,7 @@
     "quality": "代码[良好] 文档[良好] 测试[基本] 安全[优秀]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7149,7 +7419,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/langflow-ai/openrag/main/docs/static/img/openrag_readme_downsized.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7176,7 +7446,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[充分]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/langgenius/dify/main/images/GitHub_README_if.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7203,8 +7473,62 @@
     "quality": "代码[优秀] 文档[良好] 测试[中等]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/lbjlaq/Antigravity-Manager/main/docs/images/dashboard-light.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
+    "publishedTitle": null
+  },
+  {
+    "slug": "learningcircuit_local-deep-research",
+    "title": "对标 OpenAI Deep Research 的本地平替：8.4k star，研究全程不出本机、每人一把密钥加密",
+    "originalUrl": "https://github.com/learningcircuit/local-deep-research",
+    "summary": "Local Deep Research（LDR）是 OpenAI Deep Research / Perplexity 的本地优先开源平替——把「提问→多轮自主检索→带引用长报告」整套能力搬到完全本地、数据自主、可审计的环境里跑。它支持任意本地/云 LLM（Ollama/llama.cpp）+ 10+ 搜索引擎（arXiv/PubMed/SearXNG）+ FAISS 私有知识库，每个用户一把 AES-256 密钥独立加密、零知识无后门，号称在 SimpleQA 上用消费级 GPU（3090 跑 27B）逼近前沿（数字有 caveat，见下）。由一位匿名开发者重度 AI 辅助、16 个月 6760 commits 打造。",
+    "highlights": [
+      "「数据主权」是真正的差异化卡位：在 gpt-researcher（27.6k）/STORM（28k）/khoj（35k）的 deep research 红海里，LDR 是唯一把「全本地 + 每用户 SQLCipher AES-256 加密库 + 解密即认证零知识 + 可编程出网边界 + 零遥测」打包成头号卖点的项目",
+      "「系统工程胜过模型规模」的赌注：核心洞察是事实问答的准确率瓶颈不在模型大小，而在检索的广度与迭代深度",
+      "匿名单人 + 重度 AI 辅助的极端样本：一位匿名开发者（占 82.4% 提交）16 个月日均 15 个 commit、产出 11.6 万行业务 + 46 万行测试（4:1）+ 17 个安全扫描器"
+    ],
+    "stars": 8401,
+    "forks": 727,
+    "language": null,
+    "locRaw": null,
+    "ageMonths": 15.9,
+    "ageRaw": "15.9 个月（2025-02 创建）",
+    "stage": "密集开发（近 30 天 455 commits ≈ 日均 15，几乎确定重度 AI 辅助：覆盖率驱动测试 + 单人超人产出）",
+    "contribution": "匿名单核心主导（LearningCircuit 占 82.4%/6149 commits，63 贡献者，真名协作者 Daniel Petti/djpetti 学术背书）",
+    "heat": "大众热门",
+    "heatRaw": "大众热门（爆发型，HN 190+ 分、LangChain 官方推荐、r/LocalLLaMA 破圈）",
+    "quality": "代码[A-] 文档[A·诚实 caveat] 测试[B+·含金量存疑] CI[A·17 扫描器] 加密安全[A]",
+    "license": null,
+    "cover": null,
+    "mtime": "2026-06-09",
+    "published": null,
+    "publishedTitle": null
+  },
+  {
+    "slug": "leonxlnx_taste-skill",
+    "title": "3.6 个月 38K stars：一个人 13 个 SKILL.md，把 Cursor 干不出活的「slop 风」打回原形",
+    "originalUrl": "https://github.com/leonxlnx/taste-skill",
+    "summary": "taste-skill 是 Claude Code / Cursor / Codex / Gemini CLI / v0 等 8 家 agent 平台通用的「反 slop 前端设计」skill 矩阵 —— 13 个独立 SKILL.md 把「设计品味」拆成可机械验证的规则集，让 AI 写前端不再输出满屏 em-dash + 紫色渐变的同质化模板。",
+    "highlights": [
+      "品类占位: 在 frontend design taste 这个 Claude Code skill 细分赛道，taste-skill 几乎是事实上的品类定义者，38k star / 2.7k fork 在 3.6 个月内达成，且 fork:star ≈ 7.1% 说明真实安装使用而非单纯点赞",
+      "方法论升格: `research/laziness/` 子模块把 LLM 偷懒问题（cognitive shortcuts / RLHF 偏向 / training data bias）从轶事升格为有学术数据支撑的系统性方法论，是 prompt-as-product 项目里少见的「边做产品边公开方法论」实践",
+      "可机械验证: 50+ 条 Strict Pre-Flight Checklist（em-dash 字符级禁令、eyebrow 机械计数、palette 旋转矩阵、CTA 唯一性等）把「设计品味」从主观辩论拉成可机械检查的规则集"
+    ],
+    "stars": 38388,
+    "forks": 2729,
+    "language": "Shell",
+    "locRaw": "21 行 Shell 包装（实质资产: 30 个 markdown / ~5,700 行 prompt 文本）",
+    "ageMonths": 3.6,
+    "ageRaw": "3.6 个月（首次提交 2026-02-19，最近推送 2026-05-26，6 周未推但持续接收 star）",
+    "stage": "密集开发（近 90 天 62 commit，占总量 64%）",
+    "contribution": "单人主导（3 个 contributor，Top1 占 96.8%）",
+    "heat": "大众热门 + 爆发型增长",
+    "heatRaw": "大众热门 + 爆发型增长（最近 184 个 star 落在单日内，触发了某个大型传播节点）",
+    "quality": "Prompt 优秀 / 文档优秀 / 测试无（靠 round-N hardening 人工对抗性测试）",
+    "license": null,
+    "cover": "https://raw.githubusercontent.com/leonxlnx/taste-skill/main/assets/readme-banner.png",
+    "mtime": "2026-06-09",
+    "published": "published:2026-06-08",
     "publishedTitle": null
   },
   {
@@ -7230,7 +7554,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[不足]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/lfnovo/open-notebook/main/docs/assets/asset_list.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7257,7 +7581,7 @@
     "quality": "代码 A 文档 B 测试 B-",
     "license": "AGPL-3.0",
     "cover": "https://cdn.lightpanda.io/assets/images/github/execution-time-v2.svg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7282,9 +7606,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（高速增长）",
     "quality": "代码[优] 文档[优] 测试[优·跨平台 VM 集成矩阵] CI[优·供应链安全一等公民]",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/lima-vm/lima/master/website/static/images/logo.svg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7309,9 +7633,9 @@
     "heat": "大众热门 + 复兴中的明星项目",
     "heatRaw": "大众热门 + 复兴中的明星项目（聚合赛道近蓝海）",
     "quality": "代码[良好·插件式清晰] 文档[优·每项检查带教学] 测试[无·Test 0%，靠 lint+typecheck]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/Lissy93/web-check/master/.github/screenshots/web-check-screenshot1.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7336,9 +7660,9 @@
     "heat": "大众热门、爆发型增长",
     "heatRaw": "大众热门、爆发型增长（约 40 star/天，自托管串流赛道事实标准）",
     "quality": "代码[优] 文档[优] 测试[中上]",
-    "license": null,
+    "license": "GPL-3.0",
     "cover": "https://raw.githubusercontent.com/LizardByte/Sunshine/master/sunshine.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7365,7 +7689,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[不足]（Vitest + Cucumber e2e，单测占比 0.6%）",
     "license": null,
     "cover": "https://github.com/user-attachments/assets/0a33365f-b786-48b5-9ed6-f8af7927bccb",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-02",
     "publishedTitle": null
   },
@@ -7392,7 +7716,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7419,7 +7743,7 @@
     "quality": "代码[A] 文档[A] 测试[A] CI/CD[A] 错误处理[A]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/localstack/localstack/main/docs/localstack-concepts/gateway-overview.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-02",
     "publishedTitle": null
   },
@@ -7446,7 +7770,7 @@
     "quality": "代码[B+] 文档[B] 测试[C+]",
     "license": null,
     "cover": "https://github.com/user-attachments/assets/e1ecb9c3-2dd3-431e-bd97-5a819c30e551",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7473,7 +7797,7 @@
     "quality": "代码 [优秀] 文档 [优秀] 测试 [基本] CI/CD [完善] 错误处理 [规范]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/louis-e/arnis/main/assets/git/banner.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-06",
     "publishedTitle": null
   },
@@ -7489,7 +7813,7 @@
     ],
     "stars": 87759,
     "forks": 7967,
-    "language": null,
+    "language": "JavaScript",
     "locRaw": null,
     "ageMonths": 59.5,
     "ageRaw": "59.5 个月（约 5 年，2021-07 创建）",
@@ -7498,9 +7822,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（自托管监控事实标准，Docker 拉取破亿）",
     "quality": "代码[优] 文档[优·22KB CONTRIBUTING] 测试[良] CI[优·20 workflow]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://user-images.githubusercontent.com/1336778/212262296-e6205815-ad62-488c-83ec-a5b0d0689f7c.jpg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7527,7 +7851,7 @@
     "quality": null,
     "license": null,
     "cover": "https://raw.githubusercontent.com/lsdefine/GenericAgent/main/assets/images/workflow.jpg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7552,9 +7876,9 @@
     "heat": "大众热门 + 强品牌背书的话题项目",
     "heatRaw": "大众热门 + 强品牌背书的话题项目（非被低估的潜力股）",
     "quality": "代码[良好·大型 monorepo] 文档[优·README 即架构手册 + DeepWiki] 测试[有·CLI 21 步集成测试 + smoke tests]",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://github.com/user-attachments/assets/3f1f2fe8-7cf6-4487-99ff-76f6c8c0a3fb",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7579,9 +7903,9 @@
     "heat": "大众热门 · 现象级病毒项目",
     "heatRaw": "大众热门 · 现象级病毒项目（2.8 个月 0→5.4 万 star）",
     "quality": "代码[优秀] 文档[优秀] 测试[充分]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/Lum1104/Understand-Anything/main/assets/hero.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7608,7 +7932,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/luongnv89/claude-howto/main/resources/logos/claude-howto-logo.svg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7635,7 +7959,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[无]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7662,7 +7986,7 @@
     "quality": "代码[B+] 文档[A-] 测试[B-]",
     "license": "AGPL-3.0",
     "cover": "https://media.docs.plane.so/GitHub-readme/github-top.webp",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7689,7 +8013,7 @@
     "quality": "工程纪律「优秀」 测试「优秀（~31%）」 god 文件「技术债」",
     "license": null,
     "cover": "https://raw.githubusercontent.com/manaflow-ai/cmux/main/docs/assets/main-first-image.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7716,7 +8040,7 @@
     "quality": "代码[优] 文档[优] 测试[优]",
     "license": null,
     "cover": "https://maplibre.org/img/maplibre-logos/maplibre-logo-for-light-bg.svg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7743,7 +8067,7 @@
     "quality": "代码优秀 / 文档优秀 / 测试充分",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/marimo-team/marimo/main/docs/_static/reactive.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-07",
     "publishedTitle": null
   },
@@ -7768,9 +8092,9 @@
     "heat": "大众热门 / 病毒级",
     "heatRaw": "大众热门 / 病毒级(4 个月 12 万星,日均约 970★,4 月 28 日单日 24 commits)",
     "quality": "代码 N/A(无逻辑代码) / 文档 A+(README+CLAUDE+CONTEXT+ADR+FORMAT 文档齐备) / 测试 无(也无 CI、无 release)",
-    "license": null,
+    "license": "MIT",
     "cover": "https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-08",
     "publishedTitle": null
   },
@@ -7795,9 +8119,9 @@
     "heat": "大众热门 · 爆发型",
     "heatRaw": "大众热门 · 爆发型（但部分 star 疑似购买/协同刷量）",
     "quality": "代码[有亮点但宣称≠实现] 文档[营销跑在实现前] 测试[有纪律]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/MemPalace/mempalace/develop/assets/mempalace_logo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7824,7 +8148,34 @@
     "quality": "架构⭐⭐⭐⭐⭐ 崩溃恢复⭐⭐⭐⭐⭐ 代码⭐⭐⭐⭐",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
+    "published": null,
+    "publishedTitle": null
+  },
+  {
+    "slug": "meshery_meshery",
+    "title": "26 万行代码管 476 个云原生工具：CNCF 项目 Meshery 的「注册表驱动」与 Kanvas 协作设计（1 万 Star）",
+    "originalUrl": null,
+    "summary": null,
+    "highlights": [
+      "「注册表驱动」架构是少见的范式",
+      "OPA Rego → 原生 Go 双引擎迁移是教科书级工程案例",
+      "Kanvas：schema 驱动的协作可视化设计器"
+    ],
+    "stars": 10268,
+    "forks": 3400,
+    "language": null,
+    "locRaw": null,
+    "ageMonths": null,
+    "ageRaw": null,
+    "stage": null,
+    "contribution": null,
+    "heat": null,
+    "heatRaw": null,
+    "quality": null,
+    "license": null,
+    "cover": "https://raw.githubusercontent.com/meshery/meshery/master/.github/assets/images/readme/meshmap.gif",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7851,7 +8202,7 @@
     "quality": "代码[精简] 文档[良好] 测试[最小]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7878,7 +8229,7 @@
     "quality": "代码[优秀] 文档[优秀（MS Learn 完整文档站）] 测试[充分]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7905,7 +8256,7 @@
     "quality": "代码[A-] 文档[A] 测试[B+]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7919,8 +8270,8 @@
       "课程体系前沿且完整：不仅涵盖经典的 Agent 设计模式（Tool Use、Planning、Multi-Agent、Metacognition），还紧跟最新趋势增设了 Agentic Protocols（MCP/A2A/NLWeb）、Context Engineering、Agent Memory、Browser Use 等高价值主题",
       "强大的配套生态：隶属微软 \"for Beginners\" 系列矩阵（含 Generative AI、ML、LangChain 等十余门课），学习路径可串联，且与 Azure AI Foundry 深度集成"
     ],
-    "stars": 66730,
-    "forks": 22025,
+    "stars": 66832,
+    "forks": 22063,
     "language": "Jupyter Notebook",
     "locRaw": null,
     "ageMonths": 18.3,
@@ -7932,7 +8283,7 @@
     "quality": null,
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -7959,7 +8310,7 @@
     "quality": "代码[精简高效] 文档[详尽] 测试[有基准测试] 安装[门槛高]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-04",
     "publishedTitle": "权重只剩 {-1, 0, 1}：微软 BitNet 让百亿大模型在 CPU 上飞起来了"
   },
@@ -7986,7 +8337,7 @@
     "quality": "代码[B+] 文档[A-] 测试[C+]",
     "license": "Apache-2.0",
     "cover": "https://img.youtube.com/vi/i_qhNdUUxSI/maxresdefault.jpg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8013,7 +8364,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[无]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8040,7 +8391,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[基本]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8067,7 +8418,7 @@
     "quality": "工程成熟度⭐⭐⭐⭐⭐ 文档⭐⭐⭐⭐⭐ 测试⭐⭐⭐",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8094,7 +8445,7 @@
     "quality": "代码[优秀] 文档[薄弱] 测试[良好]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8121,7 +8472,7 @@
     "quality": "架构[优秀] 文档[良好] 测试[完善]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8146,9 +8497,9 @@
     "heat": "大众热门 / ML 部署层事实标准之一",
     "heatRaw": "大众热门 / ML 部署层事实标准之一",
     "quality": "代码「优」 文档「优」 测试「优」 CI「优」 构建系统「优」",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/microsoft/onnxruntime/main/docs/images/ONNX_Runtime_logo_dark.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8175,7 +8526,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[良好]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8202,7 +8553,7 @@
     "quality": "代码[A] 文档[A+] 测试[B+]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8229,7 +8580,7 @@
     "quality": "代码[B] 文档[B+] 测试[D]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/microsoft/VibeVoice/main/Figures/VibeVoice-TTS-results.jpg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8254,9 +8605,9 @@
     "heat": "大众热门 + 时代风向标",
     "heatRaw": "大众热门 + 时代风向标（AI 编码时代的 React 确定性代码审查器）",
     "quality": "代码[良好·规则引擎] 文档[良·官网 docs] 测试[强·412 测试文件 + 234 fixture]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/millionco/react-doctor/main/assets/react-doctor-readme-logo-light.svg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8283,7 +8634,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[良好]",
     "license": "Apache-2.0",
     "cover": "https://github.com/user-attachments/assets/51e33300-7f85-43ff-a05a-3a0317a961f3",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8308,9 +8659,9 @@
     "heat": "大众热门 / 转型期老牌平台",
     "heatRaw": "大众热门 / 转型期老牌平台",
     "quality": "代码[良好·插件架构清晰] 文档[优·docs.mindsdb.com] 测试[有·tests/unit 持续投入]",
-    "license": null,
+    "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8335,9 +8686,9 @@
     "heat": "昔日事实标准，今日警示案例 + 技术遗产",
     "heatRaw": "昔日事实标准，今日警示案例 + 技术遗产",
     "quality": "代码[优·纠删码引擎] 文档[曾完善·现转向 AIStor] 测试[有]",
-    "license": null,
+    "license": "AGPL-3.0",
     "cover": "https://raw.githubusercontent.com/minio/minio/master/.github/logo.svg?sanitize=true",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8364,7 +8715,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[不足]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8391,7 +8742,7 @@
     "quality": "代码[A] 文档[B+] 测试[A]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8418,7 +8769,7 @@
     "quality": "代码[一般] 文档[良好] 测试[不足]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8445,7 +8796,7 @@
     "quality": "架构⭐⭐⭐⭐⭐ 代码⭐⭐⭐⭐⭐ 文档⭐⭐⭐⭐",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8472,7 +8823,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[良好]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/modelcontextprotocol/ext-apps/main/media/excalidraw.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8499,7 +8850,7 @@
     "quality": "代码[良好·参考实现定位] 文档[优秀] 测试[基本]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8526,7 +8877,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分]",
     "license": null,
     "cover": "https://mintcdn.com/mcp/bEUxYpZqie0DsluH/images/mcp-simple-diagram.png?fit=max&auto=format&n=bEUxYpZqie0DsluH&q=85&s=35268aa0ad50b8c385913810e7604550",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8553,7 +8904,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[起步]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8580,7 +8931,7 @@
     "quality": "代码[B+] 文档[B+] 测试[C+]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8605,9 +8956,9 @@
     "heat": "小众精品",
     "heatRaw": "小众精品（停更 12 年、零营销仍每月 1-2 颗新 star 的长尾常青）",
     "quality": "代码[优] 文档[良] 测试[良-优，按 2009 年标准]",
-    "license": null,
+    "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8634,7 +8985,7 @@
     "quality": "代码[A-] 文档[A] 测试[B+]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8661,7 +9012,34 @@
     "quality": "代码⭐⭐⭐⭐ 架构⭐⭐⭐⭐⭐ 测试⭐⭐⭐⭐",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/MoonshotAI/kimi-cli/main/docs/media/shell-mode.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
+    "published": null,
+    "publishedTitle": null
+  },
+  {
+    "slug": "morganamilo_paru",
+    "title": "pacman 维护者亲手写的 AUR 助手，功能比 yay 全",
+    "originalUrl": "https://github.com/morganamilo/paru",
+    "summary": "paru 是 Arch Linux 上功能最全的 AUR 助手（AUR helper），用 Rust 编写。它把 pacman 体验无损延伸到 AUR（社区软件源）：一条 `paru` 命令就等于 `pacman -Syu` + AUR 全量升级，还带交互式审阅 PKGBUILD、devel/-git 包更新追踪、clean chroot 构建、显示 Arch news 等。最大的信任点是作者——**Morganamilo（Lulu）本人就是 pacman 的维护者，还写了 libalpm 的 Rust 绑定 alpm.rs，曾是 yay 的共同维护者**。「写这个 AUR 助手的人，就是写底层包管理器的人」，这在 AUR 助手品类里独一档。客观提醒：它已进入成熟低维护期（更新放缓），且与 libalpm 强耦合、pacman 更新 ABI 时会暂时受影响。",
+    "highlights": [
+      "可信度独一档：作者是 pacman 本体维护者 + alpm.rs（libalpm Rust 绑定）作者 + 前 yay 共同维护者",
+      "功能最全 + 默认更安全：交互式审阅 PKGBUILD（彩色 diff，防止盲装恶意脚本）、devel/-git 包追踪、批量操作、clean chroot、PGP 验签、Arch news、查看 AUR 评论",
+      "工程范本价值：整套 Arch 生态的 Rust 工具链（alpm/raur/aur-depends/srcinfo）都出自作者之手，paru 是其集大成上层应用"
+    ],
+    "stars": 8775,
+    "forks": 311,
+    "language": "Rust",
+    "locRaw": "25827（⚠️ **PO 翻译占 59.9%/覆盖 24 语言**，真实业务码是 **Rust 39.1%≈1 万行**）",
+    "ageMonths": 68.2,
+    "ageRaw": "68.2 个月（约 5.7 年，2020-10 起）",
+    "stage": "**低维护**（成熟工具的功能完整后低频维护期：近 90 天 0 commit，作者称不再发新版）",
+    "contribution": "单人核心（morganamilo/Lulu 占 73.8%）+ 庞大翻译者社区（145 人，多为 PO 翻译 PR）",
+    "heat": "大众热门里的「高可信度精品」",
+    "heatRaw": "大众热门里的「高可信度精品」（非被低估，而是权威背书 + 功能最全）",
+    "quality": "代码[优·精炼 Rust] 文档[完善·man+ArchWiki] 测试[有·testdata 夹具活跃]",
+    "license": null,
+    "cover": "https://asciinema.org/a/sEh1ZpZZUgXUsgqKxuDdhpdEE.svg",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8688,7 +9066,7 @@
     "quality": "代码[A] 文档[B] 测试[B]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8715,7 +9093,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[不足]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8742,7 +9120,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[充分(121 文件)]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8769,7 +9147,7 @@
     "quality": "代码组织「优」 测试「优」 文档「良」（有 doc-vs-code 落差） CLI 集成健壮性「中」 License「source-available」",
     "license": null,
     "cover": "https://raw.githubusercontent.com/multica-ai/multica/main/docs/assets/banner.jpg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8796,7 +9174,7 @@
     "quality": "代码[教学级] 文档[优秀] 测试[不足]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8823,7 +9201,7 @@
     "quality": "代码[一般] 文档[优秀] 测试[无]",
     "license": "AGPL-3.0",
     "cover": "https://github.com/MustardChef/WSABuilds/assets/68516357/35cd1d5d-e464-4eb8-a676-b451341f65ad",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8850,7 +9228,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分（42 个测试文件）]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/mvanhorn/last30days-skill/main/assets/swimmom-mockup.jpeg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8864,11 +9242,11 @@
       "研究-生产一致性问题的工程化解决：量化交易领域最大的痛点之一是回测结果无法复现到实盘",
       "21k+ Star、近 18000 次提交、8 年持续开发：这是一个有实质工程深度的项目，不是概念验证或学术玩具"
     ],
-    "stars": 23382,
-    "forks": 2957,
+    "stars": 23403,
+    "forks": 2962,
     "language": "Rust",
     "locRaw": null,
-    "ageMonths": 95.4,
+    "ageMonths": 95.5,
     "ageRaw": null,
     "stage": null,
     "contribution": null,
@@ -8877,7 +9255,7 @@
     "quality": null,
     "license": "LGPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8904,7 +9282,7 @@
     "quality": null,
     "license": null,
     "cover": "https://raw.githubusercontent.com/nesquena/hermes-webui/master/docs/images/ui-workspace.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8929,9 +9307,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（13 年稳态积累，无近期暴涨也无衰退）",
     "quality": "代码[优] 测试[良] CI[优·Coverity+CodeQL 双静态分析] 文档[优]",
-    "license": null,
+    "license": "GPL-3.0",
     "cover": "https://www.netdata.cloud/img/readme-images/netdata_readme_logo_light.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8958,7 +9336,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8985,7 +9363,7 @@
     "quality": "架构⭐⭐⭐⭐⭐ 工程实践⭐⭐⭐⭐⭐ 测试⭐⭐⭐⭐",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -8999,9 +9377,9 @@
       "几个平台治理的范本设计：① OC\\ 私有 / OCP\\ 公开双命名空间 API 治理",
       "一个「开源彻底性 + 数据主权」赢得不可替代性的样本，也是「何时不该坚持单体」的反思：OCM 去中心化联邦（实例间无中心互联，RFC 9421 HTTP 消息签名鉴权）+ AGPL 全开源 + 欧盟政府大单构成商业与品牌双壁垒"
     ],
-    "stars": null,
-    "forks": null,
-    "language": null,
+    "stars": 35715,
+    "forks": 4989,
+    "language": "PHP",
     "locRaw": null,
     "ageMonths": 192.0,
     "ageRaw": "GitHub 2016-06 建库（**代码血脉始于 2010 ownCloud，实际演进 ~16 年**），今日活跃，磁盘 6.6GB",
@@ -9010,9 +9388,9 @@
     "heat": "自托管私有云事实标准 · 欧盟数字主权旗舰",
     "heatRaw": "自托管私有云事实标准 · 欧盟数字主权旗舰",
     "quality": "代码组织/测试/CI「A」· CI「A+（55 workflow 跨 4 DB+多存储后端）」· 文档/错误处理「B」",
-    "license": null,
+    "license": "AGPL-3.0",
     "cover": "https://raw.githubusercontent.com/nextcloud/screenshots/master/nextcloud-hub-25-files.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9039,7 +9417,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[不足]",
     "license": "Zlib",
     "cover": "https://github.com/user-attachments/assets/9986149a-ee0f-449a-a83e-64a392267e3d",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9066,7 +9444,7 @@
     "quality": "代码[C+] 文档[B] 测试[D]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9093,7 +9471,7 @@
     "quality": "代码[优·分层清晰] 文档[优·官网+DeepWiki] 测试[有·vitest 35 文件/5419 行]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9120,7 +9498,7 @@
     "quality": null,
     "license": null,
     "cover": "https://static-docs.nocobase.com/wysiwyg.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9147,7 +9525,7 @@
     "quality": "代码[优·元数据驱动查询引擎] 文档[完善] 测试[强·四库端到端夹具]",
     "license": null,
     "cover": "https://github.com/nocodb/nocodb/assets/86527202/a127c05e-2121-4af2-a342-128e0e2d0291",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9174,7 +9552,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9201,7 +9579,7 @@
     "quality": "代码[一般] 文档[良好] 测试[无]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9228,7 +9606,7 @@
     "quality": "文档[优] notebook 工程化[优] 测试/CI[缺]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/NVIDIA/cosmos/main/cookbooks/cosmos3/cosmos3-model-architecture.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9253,9 +9631,9 @@
     "heat": "大众热门 + 技术稀缺标的",
     "heatRaw": "大众热门 + 技术稀缺标的（同类开源解读供给少）",
     "quality": "代码[一般·研究薄封装] 文档[良·README+论文+Demo] 测试[无·研究代码常态]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/NVIDIA/personaplex/main/assets/architecture_diagram.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9282,7 +9660,7 @@
     "quality": "代码[A-] 文档[A+] 测试[A]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9309,7 +9687,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-01",
     "publishedTitle": "superpowers 深度分析：用心理学工程化驯服 AI 编程助手"
   },
@@ -9336,7 +9714,7 @@
     "quality": "代码[良好] 文档[一般] 测试[不足]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/onlook-dev/onlook/main/assets/web-preview.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9350,8 +9728,8 @@
       "YC W24 + $10M Seed 融资：由 Khosla Ventures 和 First Round Capital 共同领投，背后有 Dropbox 联创、Coinbase/Pinterest 高管等天使投资人",
       "真实的企业落地：部署至 Netflix 全部 14,000+ 员工，以及 Ramp、Thales Group 等安全敏感型国防企业"
     ],
-    "stars": 30081,
-    "forks": 4102,
+    "stars": 30178,
+    "forks": 4113,
     "language": "Python",
     "locRaw": null,
     "ageMonths": 37.4,
@@ -9363,7 +9741,7 @@
     "quality": null,
     "license": "MIT (CE) + Enterprise License (EE)",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9390,7 +9768,7 @@
     "quality": "代码[良] 文档[优] 测试[无]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/Open-LLM-VTuber/Open-LLM-VTuber/main/assets/banner.jpg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9415,9 +9793,9 @@
     "heat": "大众热门、高速增长",
     "heatRaw": "大众热门、高速增长（开源数据目录赛道第二，仅次于 DataHub）",
     "quality": "代码[优] 文档[优] 测试[优]",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://open-metadata.org/assets/header/header.webp",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9444,7 +9822,7 @@
     "quality": "代码[良好] 文档[良好] 测试[不足]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/open-webui/open-webui/main/banner.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9471,7 +9849,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[良好] 稳定性[待改善]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9498,7 +9876,7 @@
     "quality": "代码[良好·mypy strict + ruff lint] 文档[优秀·四语言] 测试[良好·197 个测试文件]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9525,7 +9903,7 @@
     "quality": "代码[良好] 文档[良好] 测试[无]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9552,7 +9930,7 @@
     "quality": "代码[一般] 文档[不足] 测试[无]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9579,7 +9957,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[不足]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9606,7 +9984,7 @@
     "quality": "代码[优] 文档[优] 测试[中] CI/CD[优]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/openai/whisper/main/approach.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-06",
     "publishedTitle": null
   },
@@ -9633,7 +10011,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[充分]",
     "license": null,
     "cover": "https://openbb-cms.directus.app/assets/70b971ef-7a7e-486e-b5ae-1cc602f2162c.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9660,7 +10038,7 @@
     "quality": "代码[良好] 文档[良好] 测试[不足]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/OpenBMB/ChatDev/main/assets/workflow.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9685,9 +10063,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（9 个月 27.5K star，3.1K fork）",
     "quality": "模型代码「优」 文档「优」 推理部署「优」 微调「良」",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/OpenBMB/VoxCPM/main/assets/voxcpm_logo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9714,7 +10092,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9739,9 +10117,9 @@
     "heat": "中等热度 · 被低估",
     "heatRaw": "中等热度 · 被低估（相对 377K 母项目，配套层曝光尚未匹配工程投入）",
     "quality": "代码[优秀] 文档[优秀] 测试[充分]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/openclaw/openclaw-windows-node/master/docs/assets/readme-banner.jpg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9768,7 +10146,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[不足]",
     "license": null,
     "cover": "https://gcore.jsdelivr.net/gh/opendatalab/MinerU@master/docs/images/MinerU-logo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9795,7 +10173,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[良好（0.64:1 测试比）]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9820,9 +10198,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（开源 EHR 事实标准，真实影响力远超 star）",
     "quality": "代码[现代层良/遗留层差] 文档[优] 测试[良] CI[优]",
-    "license": null,
+    "license": "GPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9849,7 +10227,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[良好]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9876,7 +10254,7 @@
     "quality": "代码[B+] 文档[B] 测试[D]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9903,7 +10281,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分]",
     "license": null,
     "cover": "https://github.com/user-attachments/assets/50282090-adfd-4ddb-9e27-c30753c6b161",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-30",
     "publishedTitle": null
   },
@@ -9930,7 +10308,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[无]",
     "license": "AGPL-3.0",
     "cover": "https://github.com/p-e-w/heretic/assets/screenshot.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9957,7 +10335,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[良好]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/main/docs/images/Banner.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -9984,7 +10362,7 @@
     "quality": "代码⭐⭐⭐⭐ 文档⭐⭐⭐⭐⭐ 测试⭐⭐⭐⭐",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/paperclipai/paperclip/master/doc/assets/header.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10009,9 +10387,9 @@
     "heat": "大众热门 · 自托管 DMS 品类冠军",
     "heatRaw": "大众热门 · 自托管 DMS 品类冠军（star 领先同类 15-50 倍）",
     "quality": "代码[优秀] 文档[优秀] 测试[充分]",
-    "license": null,
+    "license": "GPL-3.0",
     "cover": "https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/docs/assets/logo_full_black.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10036,9 +10414,9 @@
     "heat": "大众热门 · 高速增长",
     "heatRaw": "大众热门 · 高速增长（8 个月 16K star，有真 demo 支撑的高质量增长）",
     "quality": "代码组织/文档「优」· 错误处理「良」· 测试/CI「中（92 测试偏 core/mcp，主 CI 不跑测试）」",
-    "license": null,
+    "license": "MIT",
     "cover": "https://opengraph.githubassets.com/1/pascalorg/editor",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10065,7 +10443,7 @@
     "quality": "代码[一般] 文档[良好] 测试[无]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/patchy631/ai-engineering-hub/main/assets/ai-eng-hub.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10092,7 +10470,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[良好]",
     "license": null,
     "cover": "https://d14l3brkh44201.cloudfront.net/pathway-dashboard.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10119,7 +10497,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/pbakaus/impeccable/main/public/antipattern-images/purple-gradients.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10146,7 +10524,7 @@
     "quality": "代码⭐⭐⭐⭐ 安全⭐⭐⭐⭐⭐ 测试⭐⭐⭐⭐",
     "license": "AGPL-3.0",
     "cover": "https://github.com/user-attachments/assets/deaf601d-1898-4ede-bf5a-42e46874ebb3",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10173,7 +10551,7 @@
     "quality": "代码[良好] 文档[良好] 测试[无]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10200,7 +10578,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[不足]",
     "license": "GPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10227,7 +10605,7 @@
     "quality": "文档「优秀」+ 站点工程「完善」+ 协作流程「完善」+ CI/CD「基本」+ 测试「无（合理缺失）」",
     "license": "MIT",
     "cover": "https://api.star-history.com/svg?repos=PKUFlyingPig/cs-self-learning&type=Timeline",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-06",
     "publishedTitle": null
   },
@@ -10254,7 +10632,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10281,7 +10659,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[基本]",
     "license": "MIT",
     "cover": "https://s3-eu-west-1.amazonaws.com/images.playcanvas.com/projects/14705/319531/O4J4VU-image-25.jpg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10297,7 +10675,7 @@
     ],
     "stars": 9042,
     "forks": 1000,
-    "language": null,
+    "language": "TypeScript",
     "locRaw": "32K（业务 TS ≈19K；JSON 32% 是 9 国语言 i18n 文案，非业务代码）",
     "ageMonths": 31.6,
     "ageRaw": "31.6 个月（约 2.5 年，2023-10 起）",
@@ -10306,9 +10684,9 @@
     "heat": "大众热门 + 赛道龙头",
     "heatRaw": "大众热门 + 赛道龙头（「浏览器端 splat 编辑器」近乎垄断）",
     "quality": "代码[优·引擎下沉、核心精简] 文档[优·官方 user guide + DeepWiki] 测试[弱·无显式测试目录]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://github.com/user-attachments/assets/b6cbb5cc-d3cc-4385-8c71-ab2807fd4fba",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10324,7 +10702,7 @@
     ],
     "stars": 34908,
     "forks": 2833,
-    "language": null,
+    "language": "Python",
     "locRaw": null,
     "ageMonths": 72.0,
     "ageRaw": "约 6 年（2020-01-23 建库，今日活跃，磁盘 5.2GB 巨型 monorepo）",
@@ -10335,7 +10713,7 @@
     "quality": "代码/文档(handbook)/测试/CI「优」· 错误处理「良」· 自托管易用性「弱（结构性短板）」",
     "license": null,
     "cover": "https://opengraph.githubassets.com/1/PostHog/posthog",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10349,8 +10727,8 @@
       "几个教科书级的架构设计：① PSObject + 扩展类型系统 ETS（`MshObject.cs:460` 的 `GetMappedAdapter` 按运行时类型选 adapter",
       "一个「优雅与别扭同源」的深刻设计案例：PowerShell 内部用对象表达参数，但原生 exe 只认扁平命令行字符串"
     ],
-    "stars": null,
-    "forks": null,
+    "stars": 53843,
+    "forks": 8345,
     "language": "C#",
     "locRaw": "约 669,027 行（C# 75.8% 引擎+cmdlet / PowerShell 17.4% 内置模块+测试，自举 / .NET Resource 3.6%）；2295 文件；26 个 C# 工程；注释比 0.315（企业级规范）",
     "ageMonths": 124.8,
@@ -10360,9 +10738,9 @@
     "heat": "大众热门 · 基础设施旗舰",
     "heatRaw": "大众热门 · 基础设施旗舰（不靠热度运营，靠装机基础 + RFC/委员会治理 + 发布纪律）",
     "quality": "代码「A-」· 文档/测试/CI/错误处理「A」（warnings-as-errors + Pester 408+ + 三平台 CI + 供应链扫描）",
-    "license": null,
+    "license": "MIT",
     "cover": "https://opengraph.githubassets.com/1/PowerShell/PowerShell",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10389,7 +10767,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[优秀]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10416,7 +10794,34 @@
     "quality": "代码[优·sklearn 兼容工程] 文档[优·Nature 论文 + 技术报告] 测试[强·黄金回归测试，10/15 热点目录为 tests/]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/PriorLabs/tabpfn-extensions/main/tabpfn_summary.webp",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
+    "published": null,
+    "publishedTitle": null
+  },
+  {
+    "slug": "prometheus_alertmanager",
+    "title": "Prometheus Alertmanager：几乎人人在用的告警中枢，靠 gossip 集群避免重复报警",
+    "originalUrl": "https://github.com/prometheus/alertmanager",
+    "summary": "Alertmanager 是 Prometheus 生态的告警「后处理中枢」——接收 Prometheus 等发来的原始告警流，做去重、分组、路由、静默、抑制，再通过 email/Slack/PagerDuty/Webhook 等十几个渠道通知到对的人。它是 CNCF 毕业项目、12.9 年老牌、低 star 高渗透的「隐形基础设施」，技术上最值得学的是一套分层的通知 pipeline 和去中心化的 gossip 高可用集群（靠通知日志跨实例去重，避免同一告警被多个实例重复发出）。",
+    "highlights": [
+      "「低 star 高渗透」的隐形基础设施：仅 8.5k star，但几乎所有部署 Prometheus 的团队都在用它",
+      "分层 Stage 通知管线是优雅的工程抽象：把「路由 → 抑制 → 时段静音 → 静默 → 等待 → 去重 → 重试 → 记录」拆成一串可组合的 Stage（MultiStage 顺序、FanoutStage 并发），告警流像走流水线一样被逐级处理",
+      "去中心化 HA：用 gossip + 通知日志解决「多实例不重复报警」：基于 HashiCorp Memberlist 组 P2P mesh（无主从），同步 silence 规则与 nflog（通知日志），靠「按位置成比例等待 + 查通知日志去重」让多个 Alertmanager 实例既高可用又不会把同一告警发好几遍"
+    ],
+    "stars": 8501,
+    "forks": 2424,
+    "language": "Go",
+    "locRaw": "80,233 行（Go 77.7% 告警处理引擎 + Elm 7.9% 前端 UI + JSON 9.5% 测试夹具；注释比 17.4%）",
+    "ageMonths": 154.8,
+    "ageRaw": "12.9 年（2013-07 创建，起源 SoundCloud，与 Prometheus 同源，最近提交 2026-06-07）",
+    "stage": "密集开发（4008 commit，近 365 天 537；13 年老牌仍活跃，近期反而升温）",
+    "contribution": "CNCF 团队 + 大型社区（444 贡献者，Fabian Reinartz/fabxc Prometheus 联合作者主导仅 16.6%，高度分散，核心维护者横跨 Prometheus/Grafana Labs）",
+    "heat": "大众热门",
+    "heatRaw": "大众热门（CNCF 生态核心，事实标准）",
+    "quality": "代码[优] 文档[优] 测试[优] CI[优]",
+    "license": null,
+    "cover": "https://raw.githubusercontent.com/prometheus/alertmanager/main/doc/arch.svg",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10443,7 +10848,7 @@
     "quality": "代码 A- 文档 A+ 测试 A-",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/promptfoo/promptfoo/main/site/static/img/claude-vs-gpt-example@2x.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10470,7 +10875,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10484,7 +10889,7 @@
       "回溯锚定拆分(reverse-walk pipeline → atomic SELECT) 是其最具技术含量的设计:从输出列反推,贪心装入单条 SELECT,装不下就回退一格拆 CTE",
       "Wes McKinney（Pandas 之父）+ Jeremiah Lowin（Prefect 创始人）公开站台,Apache-2.0、RQ 中间表示公开 JSON 化、7+ 语言绑定、9 个编辑器语法"
     ],
-    "stars": 10856,
+    "stars": 10858,
     "forks": 256,
     "language": "Rust",
     "locRaw": "4.8 万 (Rust 73.7%, JSON 9.5%, JS 2.9%, YAML 2.1%, CSS 1.8%, HTML 1.4%, 其他 6.6%)",
@@ -10497,7 +10902,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分] CI/CD[完善]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-07",
     "publishedTitle": null
   },
@@ -10524,7 +10929,7 @@
     "quality": "代码[良好] 文档[良好] 测试[良好]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10551,7 +10956,7 @@
     "quality": "代码 A- 文档 B+ 测试 C+",
     "license": "MIT",
     "cover": "https://github.com/user-attachments/assets/25e1ae25-ca5e-450f-afa0-01816830b731",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10578,7 +10983,7 @@
     "quality": "代码[A] 文档[A-] 测试[A+]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10605,7 +11010,7 @@
     "quality": "代码[A] 文档[A-] 测试[A-]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10632,7 +11037,7 @@
     "quality": "代码[优] 文档[优] 测试[优]",
     "license": null,
     "cover": "https://www.python.org/static/img/python-logo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10659,7 +11064,7 @@
     "quality": "代码「优」 文档「优」 测试「优」 CI「优」",
     "license": null,
     "cover": "https://raw.githubusercontent.com/pytorch/pytorch/main/docs/source/_static/img/pytorch-logo-dark.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10686,7 +11091,7 @@
     "quality": "代码[C] 文档[B] 测试[F]",
     "license": "AGPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10711,9 +11116,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（量化交易开源引擎头部，约 28 star/天稳定复利增长）",
     "quality": "代码[优] 文档[优] 测试[优]",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://github.com/user-attachments/assets/f482fae4-5908-4d95-a427-4b1d685c355c",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10729,7 +11134,7 @@
     ],
     "stars": 24991,
     "forks": 2475,
-    "language": null,
+    "language": "TypeScript",
     "locRaw": "72 万行 TS（**~95% 继承自 gemini-cli**；Qwen delta = 适配层 + 外围新增包）",
     "ageMonths": 10.0,
     "ageRaw": "git 史 13.7 月（**含继承的上游历史**；Qwen 真实接手约 10 个月，2025-08 起）",
@@ -10738,9 +11143,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（爆发型，吃上游成熟度 + Qwen 模型流量双红利）",
     "quality": "继承底座「高」 Qwen 适配层「高」 fork 同步债「低-中」",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://gw.alicdn.com/imgextra/i1/O1CN01D2DviS1wwtEtMwIzJ_!!6000000006373-2-tps-1600-900.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10767,7 +11172,7 @@
     "quality": "代码[A] 文档[A] 测试[B+]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10794,7 +11199,7 @@
     "quality": "代码[B+] 文档[A-] 测试[D]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10821,7 +11226,7 @@
     "quality": "代码「优秀」 文档「优秀」 测试「充分」",
     "license": null,
     "cover": "https://sebastianraschka.com/images/LLMs-from-scratch-images/cover.jpg?123",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10846,9 +11251,9 @@
     "heat": "大众热门 + 蓝海卡位",
     "heatRaw": "大众热门 + 蓝海卡位（刚一夜涨 184 star 上 Trending，爆发型）",
     "quality": "代码[良好·monorepo 分层清晰] 文档[中·有 docs 但偏薄] 测试[有·core/types 带测试 + CI Python tests]",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://github.com/user-attachments/assets/01eb128e-bef4-486e-9276-c4da58f829ae",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10862,7 +11267,7 @@
       "全栈集成的极致范本：Redwood 是 JS 生态中\"全栈 opinionated 框架\"理念的最完整实现，从路由到数据库、认证到测试全部一站式整合，是研究框架设计哲学的绝佳样本",
       "战略转型的活教材：从 GraphQL-first 全栈框架转向 Cloudflare 原生 RSC 框架（RedwoodSDK），这一转型反映了整个前端生态从\"服务端渲染多选\"向\"边缘优先+RSC\"迁移的行业大势"
     ],
-    "stars": 17616,
+    "stars": 17615,
     "forks": 998,
     "language": "TypeScript",
     "locRaw": null,
@@ -10875,7 +11280,7 @@
     "quality": null,
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10900,9 +11305,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（纯 Python 全栈 UI 框架第一梯队）",
     "quality": "代码[优] 文档[优] 测试[良+]",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/reflex-dev/reflex/main/docs/images/reflex-image-generation-app.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10927,9 +11332,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（React 路由事实标准、成熟存量霸主）",
     "quality": "代码[优] 文档[优] 测试[优]",
-    "license": null,
+    "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10952,7 +11357,7 @@
     "quality": null,
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -10979,7 +11384,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[良好]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11004,9 +11409,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（8.5K stars + 113 open issues）",
     "quality": "代码 A- / 文档 B+ / 测试 C",
-    "license": null,
+    "license": "AGPL-3.0",
     "cover": "https://raw.githubusercontent.com/reorproject/reor/main/logo_or_graphic_representation.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-07",
     "publishedTitle": null
   },
@@ -11033,7 +11438,7 @@
     "quality": "代码[B+] 文档[C+] 测试[D]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11060,7 +11465,7 @@
     "quality": "代码 B+ 文档 A- 测试 A CI/CD A 错误处理 B",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-07",
     "publishedTitle": null
   },
@@ -11087,7 +11492,7 @@
     "quality": "代码[C+] 文档[B-] 测试[F]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11114,7 +11519,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[优秀] CI[优秀] 错误处理[优秀]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/rightnow-ai/openfang/main/public/assets/openfang-logo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-07",
     "publishedTitle": null
   },
@@ -11141,7 +11546,7 @@
     "quality": "代码 A 文档 A 测试 B+",
     "license": "MIT",
     "cover": "https://media.roboflow.com/open-source/supervision/rf-supervision-banner.png?updatedAt=1678995927529",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11166,10 +11571,37 @@
     "heat": "大众热门 / 爆发型",
     "heatRaw": "大众热门 / 爆发型（3.5 个月 21.7K star，DevRel 驱动）",
     "quality": "代码组织「优」 可靠性工程「优」 文档「优（营销重）」 安全「中」 iii 耦合「高」",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/rohitg00/agentmemory/main/assets/banner.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
+    "publishedTitle": null
+  },
+  {
+    "slug": "rohitg00_ai-engineering-from-scratch",
+    "title": "82 天 30K stars：DevRel 大神 Rohit Ghumare 一人写完的 AI 工程全栈课",
+    "originalUrl": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "summary": "资深 DevRel Rohit Ghumare 用 2.7 个月单人主导写完的「AI 工程从零到能 ship」全栈课程仓库——20 个 phase、503 节课，每课强制「先手写后跑库」+ ship 一个可重用 artifact，最终交付 388 个 Claude/Cursor 即用 skill、99 个 prompt、20 个 agent。",
+    "highlights": [
+      "AI 工程转型路径全栈贯通：数学→ML→DL→NLP→CV→LLM→Agent→多智能体→基础设施→伦理→87 个 capstone，不是单点切入",
+      "「内容工程化」示范：README + ROADMAP + glossary 三件套做单一真相，582 行 `build.js` 一键生成静态站，CI 自我修复 + bot commit 防漂移",
+      "MCP/Agent 时代即用资产：388 个 ship 出来的 SKILL.md（`outputs/`）+ `install_skills.py` 一键部署到 Claude/Cursor/Codex，学完不是「我会 X」而是「我的工具体系多 388 件」"
+    ],
+    "stars": 30334,
+    "forks": 4950,
+    "language": "Python",
+    "locRaw": "187,386（Python 55.2% / JSON 14.6% / SVG 10.6% / JS 7.9% / TS 6.9% / ...）",
+    "ageMonths": 2.7,
+    "ageRaw": "2.7 个月（首次提交 2026-03-18）",
+    "stage": "密集开发（每天 20+ 次 commit）",
+    "contribution": null,
+    "heat": "大众热门",
+    "heatRaw": "大众热门（30K stars，HN 推后单日爆发）",
+    "quality": "内容 A / 文档 A / 工程化 A- / 测试 B / 教学一致性 A",
+    "license": null,
+    "cover": "https://raw.githubusercontent.com/rohitg00/ai-engineering-from-scratch/main/site/assets/figures/hero.svg",
+    "mtime": "2026-06-09",
+    "published": "published:2026-06-08",
     "publishedTitle": null
   },
   {
@@ -11195,7 +11627,7 @@
     "quality": "代码[良好] 文档[良好（CLAUDE.md）] 测试[极不足]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11222,7 +11654,7 @@
     "quality": "代码[A-] 文档[B+] 测试[B-]",
     "license": "AGPL-3.0",
     "cover": "https://github.com/user-attachments/assets/35747716-28bf-413a-822b-aa49d49f1aa0",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11247,9 +11679,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（4 个月 9.4K star，爆发型早期增长）",
     "quality": "代码「优」 文档「良」（CHANGELOG 过时） 测试「优」",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://github.com/user-attachments/assets/07ba6a82-6bb1-4dea-b0ef-cad7df7d1622",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11276,7 +11708,7 @@
     "quality": "代码良好 / 文档优秀 / 测试基本 / CI/CD 完善",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-07",
     "publishedTitle": null
   },
@@ -11303,7 +11735,7 @@
     "quality": "代码 B+（unwrap 滥用 1093 处）/ 文档 A（24 语种 README + AGENTS.md）/ 测试 B-（54 个 #[test] 但 tests/ 几乎空）",
     "license": "AGPL-3.0",
     "cover": "https://user-images.githubusercontent.com/71636191/171661982-430285f0-2e12-4b1d-9957-4a58e375304d.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-06",
     "publishedTitle": null
   },
@@ -11330,7 +11762,7 @@
     "quality": "代码[B+] 文档[B] 测试[B]",
     "license": "Apache-2.0",
     "cover": "https://repository-images.githubusercontent.com/722597620/0fa936a2-8164-4f53-867f-def4beb64b21",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11355,9 +11787,9 @@
     "heat": "小众精品/细分标杆",
     "heatRaw": "小众精品/细分标杆（高知名度但定位常被误读——非 CPython 替代品）",
     "quality": "代码[优·19-crate 清晰分层] 文档[良·architecture + 兼容 dashboard] 测试[强·移植 CPython 测试套件]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/RustPython/RustPython/main/logo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11384,7 +11816,7 @@
     "quality": "代码[争议] 文档[华丽但误导] 测试[严重不足]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11411,7 +11843,7 @@
     "quality": "代码[存疑] 文档[营销感极重] 测试[形式化]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11438,7 +11870,7 @@
     "quality": "代码[参差] 文档[大量但营销感重] 测试[16K+ 测试函数但缺端到端验证]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11465,7 +11897,7 @@
     "quality": "代码[参差不齐] 文档[极丰富] 测试[中等]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11488,7 +11920,7 @@
     "quality": null,
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11515,7 +11947,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[无]",
     "license": "GPL-3.0",
     "cover": "https://raw.githubusercontent.com/sansan0/TrendRadar/master/_image/banner.webp",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11542,7 +11974,7 @@
     "quality": "代码[B+] 文档[A-] 测试[B+]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11558,7 +11990,7 @@
     ],
     "stars": 25653,
     "forks": 5969,
-    "language": null,
+    "language": "Objective-C",
     "locRaw": null,
     "ageMonths": 200.4,
     "ageRaw": "约 16.7 年（2009-09 建库，最老牌 iOS 库之一，最后提交 2026-04-15）",
@@ -11567,9 +11999,9 @@
     "heat": "Apple 平台异步图片加载事实标准 · 基础设施级",
     "heatRaw": "Apple 平台异步图片加载事实标准 · 基础设施级",
     "quality": "代码/文档/CI/错误处理「A」· 测试「A-（17 XCTest 多平台 target）」",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/SDWebImage/SDWebImage/master/SDWebImage_logo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11596,7 +12028,7 @@
     "quality": "代码[B+] 文档[B+] 测试[B]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11623,7 +12055,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[良好]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11639,7 +12071,7 @@
     ],
     "stars": 37006,
     "forks": 3658,
-    "language": null,
+    "language": "Rust",
     "locRaw": null,
     "ageMonths": 171.6,
     "ageRaw": "约 14.3 年（2012-02 Mozilla Research 孵化，今日仍活跃）",
@@ -11648,9 +12080,9 @@
     "heat": null,
     "heatRaw": null,
     "quality": "代码组织/文档/CI/安全 lint「优」· 测试「优（跑完整 WPT）但 Web 完整度仍是长尾」",
-    "license": null,
+    "license": "MPL-2.0",
     "cover": "https://opengraph.githubassets.com/1/servo/servo",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11677,7 +12109,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[基本]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11704,7 +12136,7 @@
     "quality": "代码[A-] 文档[A] 测试[A-]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/sgl-project/sglang/main/assets/logo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11731,7 +12163,7 @@
     "quality": "代码[A] 文档[A] 测试[B+]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/shadcn-ui/ui/main/apps/v4/public/opengraph-image.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11758,7 +12190,7 @@
     "quality": "信息密度[极高] 时效性[优秀] 组织[优秀]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/shanraisshan/claude-code-best-practice/main/orchestration-workflow/orchestration-workflow.svg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11785,7 +12217,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[无]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11812,7 +12244,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[充分]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/sherlock-project/sherlock/master/images/sherlock-logo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-31",
     "publishedTitle": null
   },
@@ -11837,9 +12269,9 @@
     "heat": "大众热门 · 爆发型",
     "heatRaw": "大众热门 · 爆发型（采样近 191 star 跨度仅 1 天，约百星/天，恰逢 trending）",
     "quality": "代码「良好」 文档「良好」 测试「基本」",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/shiyu-coder/Kronos/master/figures/logo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11866,7 +12298,7 @@
     "quality": "代码[C+] 文档[B+] 测试[D]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11893,7 +12325,7 @@
     "quality": "代码[良好] 文档[良好] 测试[不足]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/siddharthvaddem/openscreen/main/public/preview3.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11920,7 +12352,7 @@
     "quality": "代码[良好] 文档[良好] 测试[基本]",
     "license": "AGPL-3.0",
     "cover": "https://docs.sillytavern.app/static/screenshot1.jpg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11947,7 +12379,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[基本]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/simstudioai/sim/main/apps/sim/public/static/workflow.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -11974,7 +12406,7 @@
     "quality": "代码[A-] 文档[B+] 测试[A]",
     "license": "GPL-2.0",
     "cover": "https://raw.githubusercontent.com/sinelaw/fresh/master/docs/fresh-demo2.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12001,7 +12433,7 @@
     "quality": "代码[B+] 文档[A] 测试[B-]",
     "license": "AGPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12015,8 +12447,8 @@
       "在 Anthropic 官方推出 Remote Control（2026 年 2 月）之前就已占领市场：15,900+ Star、56 个 npm 版本、iOS/Android/Web 三端覆盖，形成了事实上的社区标准",
       "核心作者 Steve Korshakov（ex3ndr）是前 Telegram 早期工程师，有深厚的加密通信和移动端开发背景，技术可信度高"
     ],
-    "stars": 21706,
-    "forks": 1801,
+    "stars": 21738,
+    "forks": 1808,
     "language": "TypeScript",
     "locRaw": null,
     "ageMonths": 10.7,
@@ -12028,7 +12460,7 @@
     "quality": null,
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12055,7 +12487,7 @@
     "quality": "代码[优·工业级工程纪律] 文档[优·docs.chain.link + DeepWiki] 测试[强·fuzz + integration/system 多层 E2E]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/smartcontractkit/chainlink/develop/docs/logo-chainlink-blue.svg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12080,9 +12512,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（OSINT 用户名赛道第二，仅次于 Sherlock 84.7K）",
     "quality": "维护性「优」 异步引擎「良」 误报检测「良」 测试「良」 隐私伦理「风险（架构固有）」",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/soxoj/maigret/main/static/report_alexaimephotography_html_screenshot.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12109,7 +12541,7 @@
     "quality": "代码[良好·小而精] 文档[优·文档驱动] 测试[无·靠样张人工验证]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/spipm/Depixelization_poc/main/docs/img/Recovering_prototype_latest.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12136,7 +12568,7 @@
     "quality": "代码[良好] 文档[良好] 测试[不足]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/sst/opencode/dev/packages/web/src/assets/lander/screenshot.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12163,7 +12595,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[优秀]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12190,7 +12622,7 @@
     "quality": "代码[良好] 文档[良好] 测试[基本]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-08",
     "publishedTitle": "画基础设施架构图不用再花钱了——FossFLOW 是开源的 Cloudcraft 替代品"
   },
@@ -12217,7 +12649,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[良好]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-06",
     "publishedTitle": "别再手调 Prompt 了：DSPy 用 10 分钟编译出你 20 小时的效果"
   },
@@ -12244,7 +12676,7 @@
     "quality": "代码[A] 文档[A] 测试[A+]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-03",
     "publishedTitle": "OpenAI 员工为 AI Agent 手工打造的 Google 全家桶 CLI——gogcli 的安全设计哲学"
   },
@@ -12271,7 +12703,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[充分]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-09",
     "publishedTitle": "CLI + 浏览器扩展 + 守护进程——summarize 用 AI 摘要打通了全媒体内容链路"
   },
@@ -12298,7 +12730,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[一般] CI/CD[卓越]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/main/images/home-light.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12325,7 +12757,7 @@
     "quality": "代码[良好] 文档[不足] 测试[不足]",
     "license": "GPL-2.0",
     "cover": "https://raw.githubusercontent.com/Stremio/stremio-web/development/assets/screenshots/board.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12352,7 +12784,7 @@
     "quality": "代码[A-] 文档[B+] 测试[A-]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-03",
     "publishedTitle": "法德两国政府为什么要自己造一个 Google Docs——开源协作文档 Docs 的数据主权之路"
   },
@@ -12379,7 +12811,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-29",
     "publishedTitle": "你的 AI 每次对话后都失忆——Supermemory 如何让记忆成为基础设施"
   },
@@ -12406,7 +12838,7 @@
     "quality": "代码[良好] 文档[良好] 测试[不足（6.5%）]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/superset-sh/superset/main/apps/marketing/public/images/readme-hero.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-04",
     "publishedTitle": "当 10 个 AI Agent 同时写代码——Superset 如何用 Git Worktree 隔离管理一群 Agent"
   },
@@ -12431,9 +12863,9 @@
     "heat": "大众热门 · 爆发型",
     "heatRaw": "大众热门 · 爆发型（踩中「小快设备端 TTS」赛道 + HYBE 背书破圈）",
     "quality": "文档「优」· 代码「良」· 错误处理「中」· 测试「弱（仅 test_all.sh 冒烟）」· CI「无（无 .github）」",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/supertone-inc/supertonic/main/img/Supertonic3_HeroImage.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12460,7 +12892,7 @@
     "quality": "文档[优秀] 测试[无] CI/CD[完善]（markdownlint + mkdocs gh-deploy）",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/swisskyrepo/PayloadsAllTheThings/master/.github/banner.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-05",
     "publishedTitle": null
   },
@@ -12487,7 +12919,7 @@
     "quality": "代码[一般] 文档[优秀] 测试[不足]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12503,7 +12935,7 @@
     ],
     "stars": 14587,
     "forks": 1705,
-    "language": null,
+    "language": "TypeScript",
     "locRaw": "55.8 万（**核心库源码仅 ~10 万行/18%**；其余 111 个示例 + 6 个 e2e 夹具 + 5.1 万行自动生成的 routeTree.gen.ts）",
     "ageMonths": 88.8,
     "ageRaw": "7.4 年（2019-01 起，含 react-location 前身）",
@@ -12512,9 +12944,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（高速增长，官方自称「JS 生态增长最快的路由器」）",
     "quality": "核心库「高」 类型体操「复杂双刃」 Start「v1 RC」",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/TanStack/router/main/media/header_router.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12541,7 +12973,7 @@
     "quality": "内容[A] 文档[B] 组织结构[A-]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12568,7 +13000,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[不足]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12595,7 +13027,7 @@
     "quality": "代码[优·工业级超大规模] 文档[弱·README 仅编译指南] 测试[有·Tests 目录，但比例低]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12622,7 +13054,7 @@
     "quality": "代码[B+] 文档[B] 测试[C]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12638,7 +13070,7 @@
     ],
     "stars": 16085,
     "forks": 2188,
-    "language": null,
+    "language": "Python",
     "locRaw": null,
     "ageMonths": 5.0,
     "ageRaw": "5 个月（2026-01-07 创建）",
@@ -12647,9 +13079,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（爆发型，近一周采样 185 星集中在 ~3 天，上 Trendshift 榜）",
     "quality": "代码[优] 文档[优·22 篇 ADR] 测试[优·90% 覆盖闸] CI[优·三平台×5 Python 版本]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/teng-lin/notebooklm-py/main/notebooklm-py.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12674,9 +13106,9 @@
     "heat": "大众热门 · 退位霸主",
     "heatRaw": "大众热门 · 退位霸主（价值高位、动量下行）",
     "quality": "代码[优秀] 文档[良好] 测试[充分]",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://www.tensorflow.org/images/tf_logo_horizontal.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12690,8 +13122,8 @@
       "设计范例教科书级：双引擎宏隔离裁剪（`DISABLED_LEGACY_ENGINE`）、多 OEM/PSM 策略模式、TessResultRenderer 链表串联多输出、CPUID/HWCAP SIMD 探测、组件化 traineddata",
       "生态护城河强到刺不动：组织 tesseract-ocr 下托管 14 个兄弟仓库（tessdoc/tesstrain/tessdata/tessdata_fast/tessdata_best/langdata），模型与引擎解耦让任何\"想换 OCR\"的人都得连带替换一整条工具链"
     ],
-    "stars": 74564,
-    "forks": 10655,
+    "stars": 74578,
+    "forks": 10654,
     "language": "C++",
     "locRaw": "160,700（C++ 69.0% / C Header 27.8% / CMake 1.3% / Automake 0.9% / Java 0.7%）",
     "ageMonths": 231.0,
@@ -12703,7 +13135,7 @@
     "quality": "代码良好 / 文档优秀 / 测试基本 / CI 完善 / 错误处理一般",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-06",
     "publishedTitle": null
   },
@@ -12730,7 +13162,7 @@
     "quality": "代码[6.5/10] 文档[优秀] 测试[基本(66% doctest)]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12746,7 +13178,7 @@
     ],
     "stars": 7097,
     "forks": 964,
-    "language": null,
+    "language": "Python",
     "locRaw": null,
     "ageMonths": 7.3,
     "ageRaw": "7.3 个月（2025-10-29 首发，2026-04-10 停更，近 30 天 0 commit）",
@@ -12755,9 +13187,9 @@
     "heat": "大众热门 · 高速增长",
     "heatRaw": "大众热门 · 高速增长（停更 2 月仍涨星，创作者传播驱动非版本驱动）",
     "quality": "文档/双层架构「优」· 代码/错误处理「良」· 测试「弱（核心评分器零覆盖）」· CI「无」· AI 内容合规风险「高」",
-    "license": null,
+    "license": "MIT",
     "cover": "https://opengraph.githubassets.com/1/thecraighewitt/seomachine",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12784,7 +13216,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[良好]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/thedotmack/claude-mem/main/docs/public/cm-preview.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-11",
     "publishedTitle": "35000 token 压缩到 920——claude-mem 如何用渐进式披露解决 AI 的记忆问题"
   },
@@ -12811,7 +13243,7 @@
     "quality": "架构⭐⭐⭐⭐⭐ 文档⭐⭐⭐⭐⭐ 工程实践⭐⭐⭐⭐⭐",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-11",
     "publishedTitle": "PPO 发明人亲自写的训练代码开源了——Mira Murati $2B 新公司的后训练算法库"
   },
@@ -12836,9 +13268,9 @@
     "heat": "大众热门 / LLM RL 后训练赛道头部",
     "heatRaw": "大众热门 / LLM RL 后训练赛道头部",
     "quality": "代码「优」 文档「优」（中英双语） 测试「优」 CI「优」",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/THUDM/slime/main/imgs/arch.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12854,7 +13286,7 @@
     ],
     "stars": 4701,
     "forks": 315,
-    "language": null,
+    "language": "TypeScript",
     "locRaw": null,
     "ageMonths": 15.6,
     "ageRaw": "15.6 个月（首 commit 2025-02，2025-07 公开，公开前闭源约 5 个月）",
@@ -12863,9 +13295,9 @@
     "heat": "中等热度",
     "heatRaw": "中等热度（4.7k star，高速增长，发布即冲星）",
     "quality": "前端[优] 后端[优] 测试[优·5x 抓 flake] CI[优·跨端 release] 加密安全[良+·E2EE 未过审计]",
-    "license": null,
+    "license": "MPL-2.0",
     "cover": "https://raw.githubusercontent.com/thunderbird/thunderbolt/main/docs/screenshots/main.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12892,7 +13324,7 @@
     "quality": "代码[良好] 文档[良好] 测试[无]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12919,7 +13351,7 @@
     "quality": "代码 A  文档 A  测试 A-",
     "license": "GPL-3.0",
     "cover": "https://raw.githubusercontent.com/tinyhumansai/openhuman/main/gitbooks/.gitbook/assets/demo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-06",
     "publishedTitle": null
   },
@@ -12946,7 +13378,7 @@
     "quality": "代码[A] 文档[A] 测试[A-] CI[A] API 契约[A] 类型安全[A]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/tldraw/tldraw/main/assets/github-hero-light.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -12973,7 +13405,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[优秀]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-09",
     "publishedTitle": "Shopify CEO 每天用的搜索引擎——8 步混合检索管线如何让笔记找得到"
   },
@@ -13000,7 +13432,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分，测试/代码比 1.9:1]",
     "license": "MIT",
     "cover": "https://github.com/tobi/try/raw/main/assets/try-fuzzy-search-demo.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-11",
     "publishedTitle": "Shopify CEO 的周末项目——2500 行代码和一种为 ADHD 设计的开发哲学"
   },
@@ -13027,7 +13459,7 @@
     "quality": "作品完成度 **优秀** / 传播力 **优秀** / 概念深度 **优秀**",
     "license": null,
     "cover": "https://raw.githubusercontent.com/todepond/gulfofmexico/main/shapes.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-08",
     "publishedTitle": null
   },
@@ -13054,7 +13486,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[全面·7 平台 E2E]",
     "license": "混合许可（前端 MIT / 后端 Enterprise Edition License）",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-02",
     "publishedTitle": "文档和白板为什么不能是同一个东西——66K Star 的 AFFiNE 和它的超融合编辑器"
   },
@@ -13081,7 +13513,7 @@
     "quality": "规范表述[优秀] 文档[优秀] 测试[充分]（外置到 toml-test）",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/toml-lang/toml/main/logos/toml-200.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-07",
     "publishedTitle": null
   },
@@ -13108,7 +13540,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[良好]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/topoteretes/cognee/refs/heads/main/assets/cognee_benefits.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -13135,7 +13567,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[完善]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-06",
     "publishedTitle": "1524 行代码统治 Python 进度条 12 年——tqdm 的极简设计哲学"
   },
@@ -13162,7 +13594,7 @@
     "quality": "代码[A-] 文档[A] 测试[A-]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/traefik/traefik/master/docs/content/assets/img/traefik-architecture.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-03",
     "publishedTitle": "指向编排器，其余全自动——Traefik 用 2 个方法的接口统一了 15 种后端"
   },
@@ -13187,9 +13619,9 @@
     "heat": "大众热门 · 爆发型",
     "heatRaw": "大众热门 · 爆发型（约 1300+ star/周，细分赛道领跑者）",
     "quality": "代码[优秀] 文档[优秀] 测试[基本]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/trycua/cua/main/img/cua-architecture.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -13214,9 +13646,9 @@
     "heat": "中等热度",
     "heatRaw": "中等热度（4.5K stars，月入 24-43 stars）",
     "quality": "代码[优秀] 文档[优秀] 测试[基本] CI/CD[完善]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/turboderp-org/exllamav2/master/doc/dynamic_gen.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-08",
     "publishedTitle": null
   },
@@ -13243,7 +13675,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/tursodatabase/turso/main/assets/turso.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -13270,7 +13702,7 @@
     "quality": "架构⭐⭐⭐⭐⭐ 安全⭐⭐⭐⭐⭐ 测试⭐⭐⭐⭐",
     "license": "MIT",
     "cover": "https://gw.alipayobjects.com/zos/k/ro/ZzF8e8.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-30",
     "publishedTitle": "一条命令省掉 $60/年——Pake 作者新作 Mole 半年拿下 45K Star 的秘密"
   },
@@ -13293,7 +13725,7 @@
     "quality": null,
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -13320,7 +13752,7 @@
     "quality": "代码[优秀] 文档[中等] 测试[无]",
     "license": "AGPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-05",
     "publishedTitle": "拆解 Twitter 推荐算法：6000 个特征背后的工业级复杂度"
   },
@@ -13347,7 +13779,7 @@
     "quality": "代码 优秀 / 文档 优秀 / 测试 优秀 / CI 优秀 / 错误处理 优秀",
     "license": "Apache-2.0",
     "cover": "https://user-images.githubusercontent.com/17899797/226108480-722b770e-6313-40d7-84f2-26bebb55a281.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-06",
     "publishedTitle": null
   },
@@ -13372,9 +13804,9 @@
     "heat": "大众热门 / 事实标准型基础设施",
     "heatRaw": "大众热门 / 事实标准型基础设施（已充分定价的头部，非被低估）",
     "quality": "代码[优·统一引擎] 文档[极优·docs 是最大热点、11 语言] 测试[有·随功能演进]",
-    "license": null,
+    "license": "AGPL-3.0",
     "cover": "https://raw.githubusercontent.com/ultralytics/assets/main/docs/ultralytics-yolov8-tasks-banner.avif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -13390,7 +13822,7 @@
     ],
     "stars": 37068,
     "forks": 7255,
-    "language": null,
+    "language": "TypeScript",
     "locRaw": null,
     "ageMonths": 70.8,
     "ageRaw": "70.8 个月（约 5.9 年，2020-07 创建）",
@@ -13399,9 +13831,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（高速增长，隐私分析赛道头部）",
     "quality": "代码[优·全 TS+zod+Prisma] 文档[良] 测试[中·核心归因缺单测] CI[良]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://content.umami.is/website/images/umami-logo.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -13428,7 +13860,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[良好]（测试/核心比 0.77）",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-08",
     "publishedTitle": "62K Star 登顶 GitHub——Crawl4AI 为什么是 LLM 时代的爬虫标准答案"
   },
@@ -13438,8 +13870,8 @@
     "originalUrl": "https://github.com/unionlabs/union",
     "summary": null,
     "highlights": [],
-    "stars": 73982,
-    "forks": 3886,
+    "stars": 73977,
+    "forks": 3884,
     "language": "Rust",
     "locRaw": null,
     "ageMonths": 36.8,
@@ -13451,7 +13883,7 @@
     "quality": null,
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -13478,7 +13910,7 @@
     "quality": "代码[良好] 文档[良好] 测试[基本]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/unslothai/unsloth/main/studio/frontend/public/studio%20github%20landscape%20colab%20display.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -13505,7 +13937,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[良好·有 testcontainers 集成测试]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-01",
     "publishedTitle": "像发微博一样记笔记——58K Star 的 Memos 为什么率先接入了 AI Agent"
   },
@@ -13532,7 +13964,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[不足]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-30",
     "publishedTitle": "让 AI 自主做渗透测试——Strix 的沙箱隔离架构如何安全地释放 Agent 能力"
   },
@@ -13557,9 +13989,9 @@
     "heat": "大众热门 · 营销型爆款",
     "heatRaw": "大众热门 · 营销型爆款（已退潮，约 4.5 star/天长尾惯性）",
     "quality": "代码[一般] 文档[README 良好 / 整体较差] 测试[无]",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": "https://huggingface.co/datasets/reach-vb/random-images/resolve/main/insanely-fast-whisper-img.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -13586,7 +14018,7 @@
     "quality": "代码[B] 文档[A] 测试[D]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -13613,7 +14045,7 @@
     "quality": "代码[优·强类型工程范式] 文档[极优·docs 是全仓最大热点] 测试[有·多与功能提交合并 + 各包 e2e]",
     "license": null,
     "cover": "https://assets.vendure.io/brand/logo-icon-vendure-blue.svg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -13640,7 +14072,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[不足]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-01",
     "publishedTitle": "省掉 90% Token 的浏览器操控——Vercel 的 agent-browser 如何让 AI 更高效地上网"
   },
@@ -13665,9 +14097,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（官方背书，非被低估的冷门）",
     "quality": "代码[良好·边长功能边重构] 文档[优·含给 agent 看的 living docs] 测试[有·核心路径有 route.test/git.test/models.test]",
-    "license": null,
+    "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -13694,7 +14126,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[充分]",
     "license": null,
     "cover": "https://skills.sh/b/vercel-labs/skills",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -13721,7 +14153,7 @@
     "quality": null,
     "license": null,
     "cover": "https://raw.githubusercontent.com/vercel/ai/main/assets/hero.gif",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-06-07",
     "publishedTitle": null
   },
@@ -13746,9 +14178,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（React 全栈框架事实标准，star 仅次于 React 本身）",
     "quality": "工程化「A+」 测试「A+」 可维护性「B-（缓存复杂）」",
-    "license": null,
+    "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -13775,7 +14207,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[充分]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-11",
     "publishedTitle": "写一行 \"use workflow\" 就能持久化——Vercel 用编译器魔法重新定义工作流编排"
   },
@@ -13802,7 +14234,7 @@
     "quality": "代码[B+] 文档[B] 测试[C+]",
     "license": "MIT",
     "cover": "https://github.com/user-attachments/assets/cbae3dcf-b571-490d-b0ad-3f0f035ac0d4",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-02",
     "publishedTitle": "把12位投资大师装进代码里：49K Star 金融 AI 项目深度解析"
   },
@@ -13829,7 +14261,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[较弱]",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-09",
     "publishedTitle": "5 个月 18K Star，这个金融 AI Agent 用「元工具」解决了工具选择的难题"
   },
@@ -13856,7 +14288,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[良好（31.6%）]",
     "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-07",
     "publishedTitle": "文本、图像、视频、语音统一推理——vLLM-Omni 用 Stage 抽象重新定义全模态引擎"
   },
@@ -13883,7 +14315,7 @@
     "quality": "代码[良好] 文档[良好] 测试[良好]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-10",
     "publishedTitle": "943 Star 却有 41 万月下载——这个 AI 代码沙箱被严重低估了"
   },
@@ -13910,7 +14342,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[良好]",
     "license": "AGPL-3.0",
     "cover": "https://raw.githubusercontent.com/volcengine/OpenViking/main/docs/images/banner.jpg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-30",
     "publishedTitle": "给 AI Agent 装一个文件系统——字节 OpenViking 如何用三层摘要省掉 90% token"
   },
@@ -13937,7 +14369,7 @@
     "quality": "代码[A-] 文档[A] 测试[B+]",
     "license": "Apache-2.0",
     "cover": "https://github.com/verl-project/verl-data/blob/main/images/verl-arch.png?raw=true",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-01",
     "publishedTitle": "字节训练 Doubao 的 RL 框架开源了，20K Star 成为 DeepSeek R1 复现标准"
   },
@@ -13964,7 +14396,7 @@
     "quality": "策展[良好] 分类[一般] 安全[优秀]",
     "license": "MIT",
     "cover": "https://github.com/user-attachments/assets/a6f310af-8fed-4766-9649-b190575b399d",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -13991,7 +14423,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[良好（26% Go 测试覆盖）]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -14007,7 +14439,7 @@
     ],
     "stars": 61229,
     "forks": 4920,
-    "language": null,
+    "language": "Rust",
     "locRaw": null,
     "ageMonths": 60.0,
     "ageRaw": "产品 2021 发布（约 5 年闭源），代码 **2026-04-28 首次开源**（git 根 commit「Initial public release」，开源仓约 40 天）",
@@ -14016,9 +14448,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（爆发型，开源公告数小时破 3 万星）",
     "quality": "代码[优] 文档[优·209 spec] 测试[优·真 GPU 集成] CI[优·20+ workflow]",
-    "license": null,
+    "license": "AGPL-3.0",
     "cover": "https://github.com/user-attachments/assets/9976b2da-2edd-4604-a36c-8fd53719c6d4",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -14045,7 +14477,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[基本]",
     "license": "Apache-2.0",
     "cover": "https://raw.githubusercontent.com/wavetermdev/waveterm/main/assets/wave-screenshot.webp",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-05",
     "publishedTitle": "终端里装下编辑器、浏览器和 AI——Wave Terminal 要做开源版 Warp"
   },
@@ -14072,7 +14504,7 @@
     "quality": "实用性⭐⭐⭐⭐⭐ 代码质量⭐⭐ 维护状况⭐",
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -14099,7 +14531,7 @@
     "quality": "代码[良好] 文档[良好] 测试[中低]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -14124,9 +14556,9 @@
     "heat": "爆发型 · 明星团队赛道卡位",
     "heatRaw": "爆发型 · 明星团队赛道卡位（4 个月 4.7K star，品牌充分定价）",
     "quality": "代码[优秀] 文档[优秀] 测试[基本]",
-    "license": null,
+    "license": "Apache-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -14153,7 +14585,7 @@
     "quality": "代码[优秀] 文档[优秀] 测试[不足]",
     "license": null,
     "cover": "https://raw.githubusercontent.com/wolfpld/tracy/master/doc/profiler.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-05-01",
     "publishedTitle": "一个人写了 31 万行 C++，造出 2.25 纳秒开销的性能分析器，还给它接上了 AI"
   },
@@ -14180,7 +14612,7 @@
     "quality": "头部插件[优秀] 尾部插件[一般] 评估框架[优秀]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-11",
     "publishedTitle": "33K Star 的 Claude Code 插件帝国——75 个插件背后的评估框架才是真正的技术壁垒"
   },
@@ -14207,7 +14639,7 @@
     "quality": "代码[B+] 文档[B+] 测试[B-]",
     "license": "MIT",
     "cover": "https://xerrors.oss-cn-shanghai.aliyuncs.com/github/image-20260331204645479.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -14234,7 +14666,7 @@
     "quality": "代码[A-] 文档[A] 测试[C+]",
     "license": "Apache-2.0",
     "cover": "https://github.com/xpipe-io/.github/raw/main/img/banner.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -14261,7 +14693,7 @@
     "quality": "代码[优秀] 文档[良好] 测试[优秀]",
     "license": "CC0-1.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -14288,7 +14720,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[无]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/yangshun/tech-interview-handbook/main/assets/logo.svg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-07",
     "publishedTitle": "面试 11 家拿 9 个 offer，他把方法论开源成了 138K Star 的行业标准"
   },
@@ -14315,7 +14747,7 @@
     "quality": "代码⭐⭐⭐⭐ 文档⭐⭐⭐⭐ 测试⭐⭐⭐⭐⭐",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/Yeachan-Heo/oh-my-claudecode/main/assets/omc-character.jpg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -14342,7 +14774,7 @@
     "quality": "代码[良好] 文档[良好] 测试[基本]",
     "license": "MIT",
     "cover": "https://raw.githubusercontent.com/yichuan-w/LEANN/main/assets/logo-text.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-10",
     "publishedTitle": "201GB 压缩到 6GB：这个向量数据库让 6000 万文档在笔记本上跑 RAG"
   },
@@ -14367,9 +14799,9 @@
     "heat": "大众热门、爆发型增长",
     "heatRaw": "大众热门、爆发型增长（约 1,260 star/月，近期仍在出圈）",
     "quality": "代码[良] 文档[中上] 测试[差]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/yikart/AiToEarn/main/presentation/monetize-cn.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -14396,7 +14828,7 @@
     "quality": "代码[优秀] 文档[较差] 测试[无]",
     "license": "GPL-2.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -14423,7 +14855,7 @@
     "quality": "代码[优秀] 文档[优秀·174K README] 测试[良好·36 个测试文件]",
     "license": "The Unlicense（公共领域等效）",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-10",
     "publishedTitle": "Fork 一个停滞项目，5 年后 Star 数反超原作——yt-dlp 做对了什么"
   },
@@ -14448,9 +14880,9 @@
     "heat": "被低估的潜力股 / 小众精品",
     "heatRaw": "被低估的潜力股 / 小众精品（代码极简但价值密度高）",
     "quality": "创新[高·扩散做草稿器] 背书[硬·MIT 韩松门下] 落地[已入 vLLM 主线]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/jianc99/jianc99.github.io/master/images/dflash_system.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -14475,9 +14907,9 @@
     "heat": "大众热门",
     "heatRaw": "大众热门（最高星安全仓库之一，但星标惯性远超维护投入）",
     "quality": "可扩展性「优」 代码组织「良」 错误处理「中」 shell 安全「中」 运行风险「高（设计固有）」",
-    "license": null,
+    "license": "MIT",
     "cover": "https://raw.githubusercontent.com/Z4nzu/hackingtool/master/images/logo.svg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -14504,7 +14936,7 @@
     "quality": "代码[良好] 文档[优秀] 测试[无]",
     "license": "AGPL-3.0",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": "published:2026-04-10",
     "publishedTitle": "一个人写了 12 万行代码，造出开源版 Perplexity"
   },
@@ -14531,7 +14963,7 @@
     "quality": "代码[良好] 文档[良好] 测试[不足]",
     "license": "MIT",
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -14556,9 +14988,9 @@
     "heat": "大众热门、高速增长",
     "heatRaw": "大众热门、高速增长（编程语言赛道头部）",
     "quality": "代码[良] 文档[中-良] 测试[优]",
-    "license": null,
+    "license": "MIT",
     "cover": "https://ziglang.org/zig-logo-light.svg",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -14585,7 +15017,7 @@
     "quality": null,
     "license": null,
     "cover": "https://raw.githubusercontent.com/zilliztech/claude-context/master/assets/claude-context.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -14608,7 +15040,7 @@
     "quality": null,
     "license": null,
     "cover": null,
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -14624,7 +15056,7 @@
     ],
     "stars": 34362,
     "forks": 4797,
-    "language": null,
+    "language": "TypeScript",
     "locRaw": null,
     "ageMonths": 86.9,
     "ageRaw": "86.9 个月（2019-03 起，含早期 book 内容；App 密集开发实为 2024 年）；最后提交 2026-02-03",
@@ -14633,9 +15065,9 @@
     "heat": "明星英语学习项目",
     "heatRaw": "明星英语学习项目（存量声誉高，增量开发已停）",
     "quality": "CI「B+（四平台构建）」· 代码「B」· 文档「C+」· 测试「D+（仅 2 个 e2e，无单测）」",
-    "license": null,
+    "license": "GPL-3.0",
     "cover": "https://raw.githubusercontent.com/ZuodaoTech/everyone-can-use-english/main/enjoy/snapshots/screenshot-video.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   },
@@ -14662,7 +15094,7 @@
     "quality": "代码[良好] 文档[良好] 测试[不足]",
     "license": "GPL-3.0",
     "cover": "https://raw.githubusercontent.com/zyronon/TypeWords/master/apps/nuxt/public/imgs/words.png",
-    "mtime": "2026-06-08",
+    "mtime": "2026-06-09",
     "published": null,
     "publishedTitle": null
   }

@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+</style>
+</head>
+<body>
+<blockquote>
+<p>GitHub: <a href="https://github.com/rossant/awesome-math">https://github.com/rossant/awesome-math</a></p>
+</blockquote>
+<h2>一句话总结</h2>
+<p>一个神经科学家用 10 年时间把「数学界的 awesome 资源列表」做成 23 个主题分区、600+ 条链接的事实标准合集——整个仓库只有 47 行 Python 脚本，其余 99% 都是 Markdown。</p>
+<h2>值得关注的理由</h2>
+<ol>
+<li><strong>极简仓库的极端杠杆</strong>：3 个文件、47 行 Python、零依赖、零测试，撬动 15.4K stars + 1.5K forks + 83 名贡献者，是「最小可行仓库」（Minimum Viable Repository）范本。
+</li>
+<li><strong>跨界权威</strong>：作者 Cyrille Rossant 主业是巴黎神经科学研究者（int-brain-lab/cortex-lab），用 side project 把数学学习这件事做了工程化策展，展示了学术研究者如何用开源 curator 身份建立跨领域个人 IP。
+</li>
+<li><strong>可迁移的策展模式</strong>：build_toc.py 占位符回填 + contributing.md 格式契约 + 💲 付费标记这三件套，对所有「长 markdown 资源合集」都直接可复用。
+</li>
+</ol>
+<h2>项目画像</h2>
+<table>
+<thead><tr>
+<th>维度</th>
+<th>数据</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>GitHub</td>
+<td><a href="https://github.com/rossant/awesome-math">https://github.com/rossant/awesome-math</a></td>
+</tr>
+<tr>
+<td>Star / Fork</td>
+<td>15,451 / 1,519（watcher 276）</td>
+</tr>
+<tr>
+<td>代码行数</td>
+<td>47 行 Python（README.md 约 52KB Markdown 是主体）</td>
+</tr>
+<tr>
+<td>项目年龄</td>
+<td>129.4 个月（首次提交 2015-08-31）</td>
+</tr>
+<tr>
+<td>开发阶段</td>
+<td>低维护（近 365 天 33 commits，月均 2–5；2023 后回落到长尾）</td>
+</tr>
+<tr>
+<td>贡献模式</td>
+<td>创始者 + 社区 PR（Cyrille 占比 28.5%，前 3 累计 25.3%，83 名贡献者）</td>
+</tr>
+<tr>
+<td>热度定位</td>
+<td>大众热门（数学资源合集类目事实标杆）</td>
+</tr>
+<tr>
+<td>质量评级</td>
+<td>文档[A] 策展[A] 治理[B+] 测试[N/A]（资源合集无测试概念）</td>
+</tr>
+</tbody>
+</table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p><strong>Cyrille Rossant</strong>——巴黎神经科学领域的研究者/工程师，13.9 年 GitHub 老账号（2012-07 注册），同时维护 int-brain-lab、cortex-lab、datoviz 等神经科学可视化工具，以及 awesome-scientific-python（345⭐）、ipycache（143⭐）、smopy（167⭐）等「学术 + 开源 curator」双重身份的产物。这种跨界身份让他既懂科研痛点（数学是神经科学/ML 的基础工程），又懂开源策展（多年维护经验让 contributing.md 极简实用）。</p>
+<h3>问题判断</h3>
+<p>awesome 列表生态存在三类系统性问题被他识别并解决：第一，原 uberwach/awesome-math 自 2017 年起停更，链接老化严重；第二，awesome-deepmath、awesome-math-lectures 等「分支列表」各自维护缺乏统一入口；第三，传统 awesome 列表「按字母排序」或「按提交时间排序」对刚入门的浏览者是反直觉的。</p>
+<h3>解法哲学</h3>
+<p>「策展即工程」——把目录维护从「人手编辑」升级为「脚本自动重生成」：用 build_toc.py 扫描 README 二级/三级标题生成顶部目录区块，接受 PR 时要求贡献者遵守 * [Item Name](link) - Author (University) 的格式契约（README 实际格式，非 Phase 3 描述的 em-dash 格式），把质量门禁前置到协作流程而非后置到审阅。</p>
+<h3>战略意图</h3>
+<p>在作者更大图景里，awesome-math 是「个人 IP 入口 + 学术公益」双层定位：</p>
+<ul>
+<li><strong>入口层</strong>：通过覆盖 23 个数学主题分区（General Resources 12 个 + Branches 11 个）+ 60+ 子分支（Foundations、Algebra、Analysis、Probability 等），把读者导流到他维护的其他工具（datoviz、galileo）</li>
+<li><strong>公益层</strong>：与同类项目（如 EbookFoundation/free-programming-books、sindresorhus/awesome）形成「数学垂直深 vs 跨学科广」互补，自己做上游索引</li>
+</ul>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<ol>
+<li><strong>build_toc.py 占位符回填</strong>：47 行 stdlib-only Python，用 &lt;!-- START_TOC --&gt; / &lt;!-- END_TOC --&gt; 占位符模式，扫 README 的 # 标题生成嵌套目录后回填顶部区块——根除「目录与内容漂移」问题（「新颖度」3/5 「实用性」5/5 「可迁移性」5/5）。
+</li>
+<li><strong>单行格式契约</strong>：contributing.md 明文约束 * [Item Name](link) - Author (University) 格式（README 实测），让脚本可解析、视觉一致、review 速度加快（「新颖度」2/5 「实用性」5/5 「可迁移性」5/5）。
+</li>
+<li><strong>💲 显式付费标记</strong>：「All resources are freely available except those with a 💲 icon」——把「免费 vs 付费」作为头等元数据写进 README 头部契约，3 处显式标记（如《The Princeton Companion to Mathematics》），让用户一眼区分（「新颖度」3/5 「实用性」5/5 「可迁移性」4/5）。
+</li>
+<li><strong>资源类型 emoji 标注</strong>：📝 讲义/论文、📖 教材、🎥 视频（出现在 Topics 杂学类）等——README 末段 Mathematical Physics/Mathematical Biology 等章节甚至只收录 📝（讲义）类资源，是按介质筛选的隐性分类（「新颖度」2/5 「实用性」4/5 「可迁移性」5/5）。
+</li>
+<li><strong>CC0 公有领域 waiver</strong>：README 末尾「To the extent possible under law, Cyrille Rossant has waived all copyright」——把整个 curated list 公共化，去除 fork 心理负担，鼓励衍生（如潜在的中文 awesome-math-zh 分叉）（「新颖度」2/5 「实用性」3/5 「可迁移性」4/5）。
+</li>
+</ol>
+<h3>可复用的模式与技巧</h3>
+<table>
+<thead><tr>
+<th>模式</th>
+<th>描述</th>
+<th>适用场景</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>占位符回填</strong></td>
+<td>&lt;!-- START_TOC --&gt;...&lt;!-- END_TOC --&gt; 注释 + 脚本回填</td>
+<td>任何长 markdown 文档 + GitHub 直出（awesome 列表、cookbook、教程合集）</td>
+</tr>
+<tr>
+<td><strong>格式契约</strong></td>
+<td>单行格式 * [X](url) - desc + contributing.md 明文</td>
+<td>任何协作型 markdown 内容库（FAQ、book 仓库、prompt 集）</td>
+</tr>
+<tr>
+<td><strong>质量契约明文化</strong></td>
+<td>把「质量判断」拆为可勾选条件（开放访问、免费、概念深度）写进 README 头部</td>
+<td>任何内容策展项目</td>
+</tr>
+<tr>
+<td><strong>付费显式标记</strong></td>
+<td>💲 emoji 作为头等元数据 + README 头部契约</td>
+<td>任何「资源/工具合集」类仓库</td>
+</tr>
+<tr>
+<td><strong>去广告赞助模式</strong></td>
+<td>选录标准明文排除营销/付费墙/低质量聚合</td>
+<td>任何以「读者信任」为最重要非功能性需求的内容站</td>
+</tr>
+<tr>
+<td><strong>理论 + 工具双引擎</strong></td>
+<td>把 sympy/Mathematica/Jupyter 等工具与 Algebra 同级并列（Tools 主题分区）</td>
+<td>任何主题域学习平台</td>
+</tr>
+<tr>
+<td><strong>CC0 waiver 降低 fork 门槛</strong></td>
+<td>整张 curated list 公共化</td>
+<td>适合所有希望鼓励衍生翻译/分叉的策展项目</td>
+</tr>
+</tbody>
+</table>
+<h3>关键设计决策</h3>
+<ol>
+<li><strong>决策</strong>: 用 build_toc.py 自动生成 README 顶部目录
+<ul>
+<li><strong>问题</strong>: 23 个主题 + 60+ 子主题，手写目录极易漂移</li>
+<li><strong>方案</strong>: 脚本扫描 # 标题，用 [name](#anchor) 模板生成嵌套目录，写回 &lt;!-- START_TOC --&gt; 占位符</li>
+<li><strong>Trade-off</strong>: 贡献者提交前需本地跑 build_toc.py（或信任 maintainer 合并时跑）；换来的是零目录漂移</li>
+<li><strong>可迁移性</strong>: 高</li>
+</ul>
+</li>
+<li><strong>决策</strong>: 23 个主题按「教学/学习路径」排序（Learning Platforms → Learn to Learn → Youtube Series → Tools → ... → Foundations/Number Theory/Algebra/Combinatorics/Geometry/Analysis/Probability/...）
+<ul>
+<li><strong>问题</strong>: 纯字母排序对入门者是反直觉的</li>
+<li><strong>方案</strong>: 主题顺序按「数学学习自然路径」排，主题内按子标题细分</li>
+<li><strong>Trade-off</strong>: 主题顺序本身带作者主观判断（什么算「基础」）；代价是跨文化/跨学科背景学习者需重排</li>
+<li><strong>可迁移性</strong>: 高</li>
+</ul>
+</li>
+<li><strong>决策</strong>: 工具（Tools 主题分区下的 sympy/Mathematica/Jupyter 等）与理论资源同级
+<ul>
+<li><strong>问题</strong>: 传统 awesome-math 只列教材与论文，数学工具在学习过程中不可缺</li>
+<li><strong>方案</strong>: 工具与理论同权——General Resources 下专门有 Tools 子区</li>
+<li><strong>Trade-off</strong>: 工具更新快，链接易失效（需高频 review）</li>
+<li><strong>可迁移性</strong>: 高</li>
+</ul>
+</li>
+<li><strong>决策</strong>: Students Lecture Notes 独立章节（README 末尾）
+<ul>
+<li><strong>问题</strong>: 经典教材 + 研究论文 + 学生实战讲义三类资源粒度不同，混在一起难找</li>
+<li><strong>方案</strong>: 单独一节收录「MIT 2012-2018 Evan Chen」「Harvard 2013-2018 Dexter Chua」等高质量学生笔记</li>
+<li><strong>Trade-off</strong>: 维护者需对「学生笔记质量」做主观判断</li>
+<li><strong>可迁移性</strong>: 中（仅适用「有大量优秀学生笔记」的领域）</li>
+</ul>
+</li>
+<li><strong>决策</strong>: CC0 公有领域 + Related Awesome Lists 互链
+<ul>
+<li><strong>问题</strong>: 派生作品（翻译、本地化）有版权顾虑；awesome 列表之间缺乏互联</li>
+<li><strong>方案</strong>: CC0 waiver 降低 fork 心理负担；README 末尾显式互链 Theoretical Computer Science 等</li>
+<li><strong>Trade-off</strong>: 失去对衍生版本的「署名权」控制</li>
+<li><strong>可迁移性</strong>: 高</li>
+</ul>
+</li>
+</ol>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table>
+<thead><tr>
+<th>维度</th>
+<th>rossant/awesome-math</th>
+<th>dair-ai/Mathematics-for-ML</th>
+<th>ossu/computer-science</th>
+<th>e-maxx-eng/cp-algorithms</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Stars</td>
+<td>15.4k</td>
+<td>~6.2k</td>
+<td>10w+</td>
+<td>~9k</td>
+</tr>
+<tr>
+<td>覆盖广度</td>
+<td>23 主题 / 60+ 子分支 / 600+ 链接</td>
+<td>仅 ML 所需数学（窄）</td>
+<td>CS 全路径（数学是子模块）</td>
+<td>竞赛算法 + 数学（深）</td>
+</tr>
+<tr>
+<td>资源类型</td>
+<td>书/课程/视频/播客/博客/工具</td>
+<td>书 + 课程为主</td>
+<td>课程 + 配套项目</td>
+<td>算法题解 + 理论</td>
+</tr>
+<tr>
+<td>维护活跃度</td>
+<td>长尾低维护（近 365 天 33 commits）</td>
+<td>中等</td>
+<td>每年 1-2 次大更</td>
+<td>中等</td>
+</tr>
+<tr>
+<td>工具自动化</td>
+<td>build_toc.py 占位符回填</td>
+<td>简单 README</td>
+<td>无</td>
+<td>无</td>
+</tr>
+<tr>
+<td>策展严格度</td>
+<td>4 条筛选原则 + 💲 付费标记</td>
+<td>中</td>
+<td>中</td>
+<td>高（仅 CP 范围）</td>
+</tr>
+<tr>
+<td>国际化</td>
+<td>全英文（CC0 鼓励分叉）</td>
+<td>全英文</td>
+<td>多语言版本</td>
+<td>英文 + 中/俄等多语言</td>
+</tr>
+<tr>
+<td>目标用户</td>
+<td>本科→博士数学学习者</td>
+<td>ML 工程师转行者</td>
+<td>自学 CS 者</td>
+<td>竞赛选手</td>
+</tr>
+</tbody>
+</table>
+<h3>差异化护城河</h3>
+<ol>
+<li><strong>网络效应型广度</strong>：23 主题 + 60+ 子分支 + 600+ 链接的密度是 10 年累计的，短期内无竞品能复现
+</li>
+<li><strong>工具化创新</strong>：build_toc.py + 格式契约 + 💲 付费标记这三件套让维护成本显著低于按字母排序的同类
+</li>
+<li><strong>个人 IP 信任</strong>：Cyrille Rossant 13.9 年账号 + 神经科学背景 + 跨领域 curator 身份建立的「值得信赖」品牌
+</li>
+</ol>
+<h3>竞争风险</h3>
+<ol>
+<li><strong>AI 搜索冲击</strong>：随着 ChatGPT/Perplexity 等 AI 搜索普及，「链接合集」的价值在被「自然语言答案」侵蚀——awesome-math 价值 10 年内可能从「唯一入口」降为「参考索引」
+</li>
+<li><strong>链接腐烂</strong>：#75 「Numerous Dead links」至今仍偶发（#84 「many dead links」仍 open），无自动化巡检机制
+</li>
+<li><strong>数学资源站专业化</strong>：mitmath/18.06、3blue1brown、Brilliant 等专业化平台可能在垂直深度上蚕食 awesome-math 的入门流量
+</li>
+</ol>
+<h3>生态定位</h3>
+<p>在整个数学学习生态中扮演<strong>「数学资源元目录」</strong>角色：不与具体数学分支列表（awesome-geometry、awesome-algebra）竞争，而是做「上游索引」给它们引流；同时通过 Tools 分区触达数学工具开发者社区，把「理论资源站」扩展为「理论 + 工具」双引擎。</p>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>: 数学中文资源合集存在空白——CC0 waiver 降低了 fork 心理负担，理论上 rossant/awesome-math-zh 是一个低门槛可执行的差异化机会（参考 EbookFoundation/free-programming-books 已有中文版先例）</li>
+<li><strong>技术借鉴</strong>: build_toc.py 占位符回填模式可被任何长 README 仓库借鉴（学习路径合集、cookbook、教程合集）</li>
+<li><strong>生态位</strong>: 填补了「数学学习者从入门到博士」的全谱系资源入口空白——同量级竞品（10k+ stars）无垂直数学方向</li>
+<li><strong>趋势判断</strong>: 增长依然稳定（近 19 天 149 个 star，日均 7.8），但增速在 2023 后明显放缓；考虑到 awesome 列表的「长尾低维护」生命周期特征，这反而是健康信号</li>
+<li><strong>后发优势</strong>: 唯一可执行的差异化是「添加 link-check 自动化」+「按受众/难度二级标注」——Phase 3 报告指出的 10 项检查清单里<strong>自动化死链巡检</strong>和<strong>难度/受众标注</strong>是明显缺口</li>
+</ul>
+<h2>风险与不足</h2>
+<ol>
+<li><strong>链接腐烂无自动化应对</strong>：仓库无 .github/workflows/，无 link-check GitHub Action，#75/#84 揭示的死链痛点靠人工 review——这是最大的中长期风险
+</li>
+<li><strong>难度/受众标注缺失</strong>：每个链接没有显式标注「入门/中级/高级」「本科/研究生」「理论/应用」，用户需逐条点开判断
+</li>
+<li><strong>国际化缺失</strong>：全英文界面（虽 CC0 鼓励分叉，但无官方翻译版），对中文学习者门槛高
+</li>
+<li><strong>近 2 年活跃度衰减</strong>：2023-2024 月均 2-5 commits，2015-2017 初创期曾月均 60+——awesome-list 经典生命周期
+</li>
+<li><strong>贡献者集中度仍偏高</strong>：83 名贡献者中 Cyrille 一人占 28.5%，前 3 累计 25.3%——若作者彻底停更，项目可能陷入「wait for maintainer」状态
+</li>
+</ol>
+<h2>行动建议</h2>
+<ul>
+<li><strong>如果你要用它</strong>: 直接用——这是数学学习者的事实标准入口。优先用目录定位你的子领域（从 General Resources 的 Tools/Books 起步，或从 Branches 找到具体分支），再用关键词站内搜索</li>
+<li><strong>如果你要学它</strong>: 重点关注 build_toc.py（47 行 stdlib-only Python）和 contributing.md（9 行极简但严格）这两个文件——它们是「策展即工程」哲学的最小实现</li>
+<li><strong>如果你要 fork 它</strong>: 三个最值得做的方向：</li>
+</ul>
+<ol>
+<li><strong>添加 link-check GitHub Action</strong>——用 lycheeverse/lychee 或 gitleaks 类似方案，CI 跑死链巡检
+</li>
+<li><strong>按受众/难度二级标注</strong>——为每个链接添加 [入门]/[中级]/[高级] 标签
+</li>
+<li><strong>本地化分叉</strong>——rossant/awesome-math-zh 翻译成中文，CC0 waiver 鼓励 fork
+</li>
+</ol>
+<h3>知识入口</h3>
+<table>
+<thead><tr>
+<th>资源</th>
+<th>链接</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>DeepWiki</td>
+<td><a href="https://deepwiki.com/rossant/awesome-math">收录</a>（最后索引 2026-02-24）</td>
+</tr>
+<tr>
+<td>Zread.ai</td>
+<td>未收录</td>
+</tr>
+<tr>
+<td>关联论文</td>
+<td>无（资源索引型项目，无 arXiv 论文）</td>
+</tr>
+<tr>
+<td>在线 Demo</td>
+<td>无</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

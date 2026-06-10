@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+/* table fallback styling */
+table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    margin: 1em 0 !important;
+    font-size: 14px !important;
+}
+th, td {
+    border: 1px solid #ddd !important;
+    padding: 6px 10px !important;
+    text-align: left !important;
+    line-height: 1.6 !important;
+}
+th {
+    background: #f5f5f5 !important;
+    font-weight: bold !important;
+}
+a {
+    color: #576b95 !important;
+    text-decoration: none !important;
+}
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: https://github.com/byoungd/english-level-up-tips</p></blockquote>
+<h2>一句话总结</h2>
+<p>byoungd 一个人用 9 年时间，把"中国程序员英语升级指南"做成 5.2 万 star 的中文圈头部内容资产，并把读者流量自然导到自营 AI 网关 token.love 与资源站 ku0.com，跑通了一条"民间方法论 → 个人 IP → 商业产品"的成熟闭环。</p>
+<h2>值得关注的理由</h2>
+<ul><li><strong>稀缺的位置</strong>：在"中文圈英语学习方法论"细分里，这是唯一一个 5 万★ 量级的仓库，先发+人格化锁定了头部，几乎没有同体量竞品（Anduin2017/HowToCook 是"做饭方法论"赛道同侪，"英语"赛道本身蓝海）。</li><li><strong>可拆解的写作系统</strong>：仓库本身就是一份"民间方法论资源合集"的成功范本——认知前置章节、TL;DR 双层结构、反工具主义、情感锚点、Issue 当论坛、Docsify 零 build 站点、工具增强型内容防腐、商业承接与内容人格分离等 12 个模式都可以拆出来复用。</li><li><strong>AI 时代的方法论升级样本</strong>：第 7 章"AI 学习（2026 版）"不是评测哪个 LLM 最强，而是给出 Gemini / ChatGPT / Claude / Perplexity / DeepL Write 的功能分工与"输入 / 输出 / 纠错 / 复习"四步训练回路，是 LLM 时代"AI 当教学系统而非聊天框"的实战范式。</li></ul>
+<h2>项目展示</h2>
+<blockquote><p>来自 Phase 1 已校验的 README 媒体，按 hero → 水平框架 → 章节封面 排序。</p></blockquote>
+<ol><li>!<a href="https://raw.githubusercontent.com/byoungd/english-level-up-tips/master/docs/assets/my-love.png">项目主视觉</a> — <strong>hero</strong>：作者人格化插图，"我与英语"的开场锚点。</li><li>!<a href="https://raw.githubusercontent.com/byoungd/english-level-up-tips/master/docs/assets/CEFR@2x.png">CEFR 欧洲共同语言参考标准</a> — <strong>水平框架图</strong>：用 CEFR 给读者先定位再讲方法。</li><li>!<a href="https://raw.githubusercontent.com/byoungd/english-level-up-tips/master/docs/assets/feature.svg">仓库特色总览</a> — <strong>特色总览图</strong>：方法论骨架一图流。</li><li>!<a href="https://raw.githubusercontent.com/byoungd/english-level-up-tips/master/docs/assets/understanding@2x.svg">认知篇章节封面</a> — <strong>章节封面</strong>：认知篇（part-1 第 1 章）。</li><li>!<a href="https://raw.githubusercontent.com/byoungd/english-level-up-tips/master/docs/assets/vocabulary@2x.svg">单词篇章节封面</a> — <strong>章节封面</strong>：单词篇（part-1 第 2 章）。</li></ol>
+<blockquote><p>token.love 的官网（homepage_url）已演变为作者的 AI 网关产品，<strong>与本仓"英语学习"主题已脱钩</strong>，不收录为展示素材。</p></blockquote>
+<h2>项目画像</h2>
+<table><thead><tr><th>维度</th><th>数据</th></tr></thead><tbody><tr><td>GitHub</td><td>https://github.com/byoungd/english-level-up-tips</td></tr><tr><td>Star / Fork</td><td>52,943 / 5,467（Watcher 933）</td></tr><tr><td>代码行数</td><td>tokei 计 1,276 行（SVG 94.7% / HTML 5.3%），<strong>真实内容体量 ≈ 3,365 行 markdown</strong>（tokei 不计 .md）</td></tr><tr><td>项目年龄</td><td>108.5 个月（首 commit 2017-05-30，最近 2026-06-10）</td></tr><tr><td>开发阶段</td><td>低维护（三次召回式迭代：2017-06 / 2021Q4 / 2023-09 / 2025-11 至今）</td></tr><tr><td>贡献模式</td><td>独立开发 + 小社区（Top 作者 71.6%，含合并两位 ID；总贡献者 36 人）</td></tr><tr><td>热度定位</td><td>大众热门（中文圈程序员英语方法论的头部）</td></tr><tr><td>质量评级</td><td>内容 9/10 · 文档 7/10 · 仓库卫生 6/10 · 测试/CI 无（内容型不需要）</td></tr><tr><td>话题标签</td><td>chinese, tutorial, english-learning</td></tr><tr><td>License</td><td>README 声明 CC BY-NC-4.0，但<strong>仓库根目录无 LICENSE 文件</strong>（合规灰区）</td></tr></tbody></table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p><strong>Leap 离谱（@byoungd）</strong>，南京人，现挂靠"红力集团"，bio 自挂 token.love（AI 网关）与 ku0.com（AI 资源库）两条变现路径。账号 2015-12 注册，运营 10.5 年，2,583 粉丝，17 个公开仓库。</p>
+<p>作者风格高度一致：<strong>个人方法论资源合集</strong>。除了本仓（52,943★），还有 Resume-template-for-Coder（527★）、how-to-find-love（331★）、modern-vue-template（285★）、how-to-create-a-funny-mini-program（133★）等同类作品。"English-level-up-tips 在其 17 个 repo 中排第 1"——是当之无愧的招牌项目。</p>
+<h3>问题判断</h3>
+<p>项目<strong>不是研究出来的，是被一位姑娘 W. 问出来的</strong>（2017 年 7 月，W. 准备 TOEFL 时追问"如何高效学习英语"）。作者在回答过程中意识到三件事：</p>
+<ol><li>身边同学在英语学习这件事上磕磕绊绊的人群远比想象中大。</li><li>"英语应该像母语一样自然习得"是大部分人从没想过的视角。</li><li>自己从"高考省第一"到"用力过猛反失败"的反思有资格被系统化分享。</li></ol>
+<p>这是"亲密关系触发 → 个人反思 → 公共知识"的典型知识生产链。</p>
+<h3>解法哲学</h3>
+<ul><li><strong>反教条 + 反工具主义</strong>：x-misc 篇直接批"每天 n 分钟英语"是糖衣炮弹；2026 版 AI 篇把"押注一个最强 AI"判为次优。</li><li><strong>先讲人，再讲方法</strong>：把"认知 / 情绪 / 动机"放在 1-understanding 作为 onboarding gate，技能篇按"输入量门槛从低到高"排（单词 &lt; 听力 &lt; 阅读 &lt; 口语 &lt; 写作）。</li><li><strong>数据 + 故事双轮</strong>：艾宾浩斯曲线、CEFR、OEC 7000 词阈值给权威感；part-2 "我的故事"（"花 2000 万开公司倒闭"）给人格化与共情入口。</li><li><strong>作者明确不做什么</strong>：不接赞助、不开通打赏——变现走仓库外的 token.love / ku0.com，"内容人格"与"商业承接"在物理上分离。</li></ul>
+<h3>战略意图</h3>
+<p>本仓在作者商业版图中是<strong>流量入口 / 个人 IP 主阵地</strong>：README 第一屏就挂 token.love + ku0.com 两条变现路径，AI 篇与 token.love 的 LLM API 主题相互呼应，README 最近一次提交（2026-06-10）就是"Add personal X link"——持续把读者向 X / token.love 导流。这是一个"个人品牌 → 内容入口 → 转化到 AI 产品"的成熟闭环案例。</p>
+<blockquote><p>token.love 已是作者的 AI 网关产品（OpenAI 兼容接口 + 40+ 模型聚合 + policy 路由 + p95 412ms / 99.95% 可用性），与本仓"英语学习"主题已脱钩。本节分析基于仓库内文档与作者 GitHub bio，不依赖 token.love 产品页。</p></blockquote>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<p>按新颖度×实用性排序：</p>
+<ol><li><strong>认知前置的章节模型</strong>（新颖 4 / 实用 5 / 迁移 5）— 7 章里第一章不讲技能，讲"为什么要学 / 怎么不死 / 怎么不内耗"。把学习科学（动机 / 自我决定理论）渗透进英语方法论的最直接表达。</li><li><strong>AI 篇 = 工具链而非工具评测</strong>（新颖 5 / 实用 5 / 迁移 4）— 2026 版 AI 篇明确给出 Gemini / ChatGPT / Claude / Perplexity / DeepL Write 的功能分工（"Gem = 长期课程 / Live = 口语 / Guided Learning = 阅读 / Canvas = 写作 / quizzes = 复习"），并附 2026-03-20 资料更新依据。是"AI 当教学系统"的最实用设计。</li><li><strong>"输入 / 输出 / 纠错 / 复习"四步训练回路</strong>（新颖 4 / 实用 5 / 迁移 5）— AI 篇第 10 节把"刻意练习"细化为 5 条可勾选的 weekly template，可直接搬到任何技能训练。</li><li><strong>抽象化的视觉记忆反工具主义</strong>（新颖 4 / 实用 4 / 迁移 4）— vocabulary 篇直接批评"图片卡背单词"工具（你记得是图片不是单词），提出"抽象化"图像：脑内的猫，而非某张具体的图。</li><li><strong>领域最小词表切片</strong>（新颖 3 / 实用 5 / 迁移 5）— word-list/ 按"语言 / 行业"切 30–70 词小表（Common 70 + Java + VibeCoding 40），比 7000 词大表更接近真实需求。</li><li><strong>Issue 当论坛</strong>（新颖 3 / 实用 4 / 迁移 4）— 不开 Discussions，用 issue 自然演化为深度讨论区（#6 单词 App 推荐 62 评论、#3 开放讨论 30 评论），是轻量社区运营模板。</li><li><strong>Docsify + 多插件零 build 站点</strong>（新颖 2 / 实用 4 / 迁移 4）— docs/index.html 纯 CDN 加载 docsify + themeable + sidebar-collapse + KaTeX + mermaid + markmap + zoom-image + copy-code + back-to-top，无 npm / 无 build / 无 CI。个人纯 markdown 站点的最低维护成本方案。</li></ol>
+<h3>可复用的模式与技巧</h3>
+<p>剥离作者可重新包装的 12 个模式（详细见 Phase 3 报告）：</p>
+<table><thead><tr><th>模式</th><th>一句话</th><th>适用场景</th></tr></thead><tbody><tr><td>P-1 认知前置章节</td><td>第一章不讲技能，讲"为什么要 / 怎么不死"</td><td>任何"民间方法论合集"</td></tr><tr><td>P-2 TL;DR + 正文双层</td><td>每章首屏 5 条速览，正文再展开</td><td>任何长 markdown 文档</td></tr><tr><td>P-3 反工具主义</td><td>直接批评流行工具 / App，提出反直觉结论</td><td>任何"学习型内容"想与工具评测差异化</td></tr><tr><td>P-4 情感锚点 + 干货双轮</td><td>献词 / 引言 / 作者故事 + 严肃干货</td><td>个人 IP 写作</td></tr><tr><td>P-5 多渠道分发冗余</td><td>GitHub Pages + 知乎 / 公众号 / 自建站 + X</td><td>个人内容品牌</td></tr><tr><td>P-6 商业承接与内容人格分离</td><td>仓库内零变现，仓库外另起产品</td><td>个人知识生产者</td></tr><tr><td>P-7 工具增强型内容的"日期戳 + 官方链接"</td><td>AI 篇末附"截至 YYYY-MM-DD + 来源链接"</td><td>所有"AI 教程"类内容</td></tr><tr><td>P-8 训练回路 weekly template</td><td>把"刻意练习"细化为可勾选清单</td><td>任何技能训练</td></tr><tr><td>P-9 领域最小词表</td><td>按"语言 / 行业"切 30–70 词小表</td><td>程序员向的 X 入门合集</td></tr><tr><td>P-10 Issue 当论坛</td><td>不开 Discussions，用 issue 做调研 / 持续讨论</td><td>中小型资源仓库</td></tr><tr><td>P-11 Docsify + CDN 零 build 站点</td><td>纯 markdown + CDN 插件栈，零 npm / 零 CI</td><td>个人长尾内容站点</td></tr><tr><td>P-12 双语镜像 WIP 策略</td><td>中文母版 + 英文镜像子集，README 标 WIP</td><td>个人写作项目出海</td></tr></tbody></table>
+<h3>关键设计决策</h3>
+<ol><li><strong>决策</strong>: 章节编排 = 认知 → 单词 → 听力 → 阅读 → 口语 → 写作 → AI - <strong>问题</strong>: 读者带着"应试创伤 + 焦虑"来，第一章不破认知直接讲方法会失败 - <strong>方案</strong>: 把"该不该学 / 为什么学 / 怎么不内耗"放在 1-understanding 作 onboarding gate；技能篇按"输入量门槛从低到高"排；AI 篇作 2025-2026 增量章节压轴 - <strong>Trade-off</strong>: 写作被放到靠后（门槛最高）；AI 篇需持续刷新 - <strong>可迁移性</strong>: <strong>高</strong>。任何"知识 + 方法论"类文档都可借鉴</li></ol>
+<ol><li><strong>决策</strong>: 渲染链迁移 GitBook → Docsify → GitHub Pages - <strong>问题</strong>: Issue #83 暴露 GitBook 托管服务挂了，自托管必须轻量 - <strong>方案</strong>: docs/index.html 纯 CDN 加载 Docsify + 多插件，零 build step - <strong>Trade-off</strong>: 多 CDN 依赖 + KaTeX / mermaid / markmap 几乎未被使用，bundle 有冗余 - <strong>可迁移性</strong>: <strong>中-高</strong></li></ol>
+<ol><li><strong>决策</strong>: 双语策略 = 中文为母版，英文为镜像子集 - <strong>问题</strong>: 项目天然有非中文读者（海外华人 / 英文母语者 / Google 搜索来源） - <strong>方案</strong>: docs/en/ 与 docs/ 同构，README 标 WIP；AI 篇同步率最高 - <strong>Trade-off</strong>: 英文版完成度 &lt; 中文版，需写完后翻译 - <strong>可迁移性</strong>: <strong>高</strong></li></ol>
+<ol><li><strong>决策</strong>: 变现走仓库外，内容人格与商业承接物理分离 - <strong>问题</strong>: 个人 IP 一旦开通打赏，民间方法论就被"利益相关"污染 - <strong>方案</strong>: README 末段声明"不接受赞助"；变现走 token.love / ku0.com - <strong>Trade-off</strong>: 流量变现受限于"道德制高点"约束 - <strong>可迁移性</strong>: <strong>高</strong></li></ol>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table><thead><tr><th>维度</th><th>english-level-up-tips</th><th>HowToCook</th><th>chinese-poetry</th><th>d2l-zh</th></tr></thead><tbody><tr><td><strong>内容哲学</strong></td><td>反教条 + 民间方法论 + 个人 IP + 情绪前置</td><td>同左，更"段子化"</td><td>数据优先 / 学者驱动</td><td>学术翻译 + 教材标准化</td></tr><tr><td><strong>Stars 量级</strong></td><td>52,943</td><td>100,554</td><td>51,749</td><td>78,263</td></tr><tr><td><strong>章节模型</strong></td><td>认知 → 单词 → 听说读写 → AI</td><td>菜谱 + 技法 + 厨房知识</td><td>静态数据库 + 朝代/作者分类</td><td>按 DL 知识体系编排</td></tr><tr><td><strong>更新模式</strong></td><td>单人主导（71.6% 占比），关键章节反复迭代</td><td>单人主导，低频</td><td>多人 PR + 学者审校</td><td>多人 PR 跟英文原书版本</td></tr><tr><td><strong>社区运营</strong></td><td>Issue 当论坛，信号反哺内容</td><td>Issue + PR 都活跃</td><td>Issue 少，像数据仓库</td><td>Issue + PR + 论坛 + 教学网站</td></tr><tr><td><strong>AI 适配</strong></td><td>2026 版 AI 篇是行业前沿样本</td><td>部分菜谱用 AI 生图</td><td>几乎无</td><td>部分 Notebook AI 辅助</td></tr><tr><td><strong>商业化</strong></td><td>内容 → IP → AI 产品（token.love / ku0.com）</td><td>内容 → IP → 接广告 / 出书</td><td>内容 → 学界引用</td><td>内容 → 教材 / 课程 / 培训</td></tr><tr><td><strong>核心壁垒</strong></td><td>个人 IP + 9 年迭代 + 5.2 万★ 飞轮</td><td>同上"民间反智 + 段子化"飞轮</td><td>数据完整度</td><td>教材权威性 + 多版本同步</td></tr></tbody></table>
+<h3>差异化护城河</h3>
+<ul><li><strong>信任护城河（最硬）</strong>：作者 9 年持续运营、单一招牌项目 5.2 万★、曾被 V2EX/知乎反复引用、可读出真实长期写作的诚意。</li><li><strong>个人 IP 护城河</strong>：作者人格（"离谱"自居、敢用粗口、自爆创业失败）已成为内容的一部分，复制需要重塑人设。</li><li><strong>先发护城河</strong>：在"中文圈英语学习方法论"细分里，<strong>目前没有第二个 5 万★ 仓库</strong>，先发+人格化优势明显。</li></ul>
+<h3>竞争风险</h3>
+<ul><li><strong>最可能的替代</strong>：如果出现 LLM 时代原生方法论（"如何用 GPT-5 学英语"），且由更高频更新的英文原版翻译而来，可能蚕食"AI 篇"的相对优势——但本仓 AI 篇已经在 2026-03-20 刷新并附官方链接，<strong>正在主动防守</strong>。</li><li><strong>被 HowToCook "内容哲学"反噬的风险低</strong>：两个赛道主题不同（做饭 vs 英语），互相是"民间方法论"飞轮的正外部性。</li><li><strong>被学术 / 学院派方法论替代的风险低</strong>：本仓定位明确反学院，受众与学术教材错位。</li></ul>
+<h3>生态定位</h3>
+<p>在整个中文技术内容生态中扮演 <strong>"程序员群体的民间英语方法论"</strong> 角色，填补了"反教条 + 反工具主义 + 反学院派 + 个人 IP" 的空白。与 HowToCook 共同构成"中文圈民间反智方法论"双子星，是这一类项目的可复制范本。</p>
+<h2>套利机会分析</h2>
+<ul><li><strong>信息差</strong>: 5.2 万★ + 5.4k Fork 已是大众认知级，<strong>已不是套利窗口</strong>。新进增长仍由存量读者扩散驱动（最近 7 天 ~147★ 月化 ~400）。</li><li><strong>技术借鉴</strong>:</li><li>内容创作者：直接借鉴 P-1 ~ P-12 的 12 个写作 / 运营模式</li><li>程序员学习者：AI 篇的训练回路（输入 / 输出 / 纠错 / 复习）可立即套用</li><li>工具/产品方：学习作者"内容 → IP → 产品"闭环的搭建路径</li><li><strong>生态位</strong>: 填补"中文圈程序员英语学习方法论"空白。9 年 5.2 万★ 飞轮护城河足够深，后来者难以撼动。</li><li><strong>趋势判断</strong>:</li><li>仓库本身在 <strong>2025-11 重新激活</strong>（my-story 重写、AI 篇刷新、加 X 链接），处于"老牌项目二次增长"曲线</li><li>符合 LLM 时代"AI + 学习"工具增强型内容的趋势</li><li><strong>没有后发劣势</strong>——先发 + 持续刷新 = 头部位置稳固</li></ul>
+<h2>风险与不足</h2>
+<ul><li><strong>LICENSE 缺失</strong>: README 标 CC BY-NC-4.0，但<strong>仓库根目录无 LICENSE 文件</strong>，存在法律灰区。商业转载 / fork 需谨慎。</li><li><strong>仓库卫生</strong>: .gitignore 已配 .DS_Store / .idea / node_modules，但历史 IDE 噪声仍在（.idea/workspace.xml 贡献了 62 次 commit，占总 commit 量 19%）。</li><li><strong>英文版完成度不均</strong>: README 标 WIP，部分镜像章节缺导航链接；GitBook 历史 URL（babyyoung.gitbook.io）疑似失效但仍列在 README 多入口。</li><li><strong>无 CI / lint / 死链巡检</strong>: 完全靠人工维护，规模再大易失控。</li><li><strong>无 CONTRIBUTING.md / Discussions</strong>: 社区贡献入口全靠 issue 异步收集。</li><li><strong>2017→2025 期间曾长期静默</strong>（2018-19 几乎停更、2024-05 ~ 2025-10 一年半静默），证明单人主导模式的<strong>可持续性风险</strong>。</li><li><strong>变现路径收窄</strong>: token.love 在 AI 网关赛道竞争激烈（OpenRouter / One API 等），不一定能长期给仓库导流。</li></ul>
+<h2>行动建议</h2>
+<ul><li><strong>如果你要用它（学英语）</strong>:</li><li>把它当 <strong>"民间方法论框架"</strong> 看，不是"系统课程"——读完认知篇 + AI 篇 2026 版即可掌握 80% 价值</li><li>配合 AI 篇的"输入 / 输出 / 纠错 / 复习"四步训练回路立刻执行</li><li>单词篇用 word-list/ 的领域最小词表（Java / Go / VibeCoding）替代通用 7000 词大表</li><li>听力/阅读/口语/写作四章可按个人最弱项挑读</li></ul>
+<ul><li><strong>如果你要学它（学运营 / 学写文档）</strong>:</li><li>重点研读 README.md（9 年 157 次迭代，活的 landing page 范本）</li><li>拆解 part-1/1-understanding.md（认知前置章节模型）</li><li>拆解 part-1/7-ai.md（工具增强型内容防腐 + 训练回路 weekly template）</li><li>拆解 part-2/my-story.md（情感锚点 + 干货双轮的写作范本）</li><li>复制 docs/index.html（Docsify + CDN 零 build 站点方案）</li></ul>
+<ul><li><strong>如果你要 fork 它（做自己的方法论合集）</strong>:</li><li><strong>改进方向 1（最优先）</strong>: 加 LICENSE 文件，启用 GitHub Actions + markdownlint + lychee link checker</li><li><strong>改进方向 2</strong>: 用 docsify 侧边栏自动生成替代手写"下一篇"硬链接</li><li><strong>改进方向 3</strong>: 把"Issue 当论坛"升级为 GitHub Discussions（降低 issue 噪声）</li><li><strong>改进方向 4</strong>: 拆"AI 篇"为独立 repo（english-level-up-tips-ai），降低主仓压力</li><li><strong>改进方向 5</strong>: 启动 2.0：把"民间方法论"升级为"AI 协同学习"，目标受众扩到所有 LLM 时代自学者</li></ul>
+<h3>知识入口</h3>
+<table><thead><tr><th>资源</th><th>链接</th></tr></thead><tbody><tr><td>DeepWiki</td><td><a href="https://deepwiki.com/byoungd/english-level-up-tips">https://deepwiki.com/byoungd/english-level-up-tips</a>（已收录）</td></tr><tr><td>Zread.ai</td><td>未收录（403 错误）</td></tr><tr><td>关联论文</td><td>无（文档型仓库，无学术产出）</td></tr><tr><td>在线 Demo</td><td>无（方法论仓库，无可运行 demo）</td></tr><tr><td>在线阅读入口</td><td>GitHub Pages（最新）+ 知乎专栏（中文主）+ GitBook（历史，部分链接疑似失效）</td></tr><tr><td>作者商业承接</td><td>token.love（AI 网关）/ ku0.com（AI 资源库）/ X @ourleap</td></tr></tbody></table>
+</body>
+</html>

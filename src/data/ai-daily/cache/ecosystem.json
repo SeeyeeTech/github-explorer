@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-06-09",
+    "last_run": "2026-06-10",
     "window_days": 30
   },
   "entries": [
@@ -255,6 +255,30 @@
       "canonical_url": "https://github.com/volcengine/verl",
       "event_date": "2026-06-09",
       "date_seen": "2026-06-09"
+    },
+    {
+      "key": "github.com/harry0703/moneyprinterturbo",
+      "canonical_url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "event_date": "2026-06-10",
+      "date_seen": "2026-06-10"
+    },
+    {
+      "key": "github.com/luongnv89/claude-howto",
+      "canonical_url": "https://github.com/luongnv89/claude-howto",
+      "event_date": "2026-06-10",
+      "date_seen": "2026-06-10"
+    },
+    {
+      "key": "github.com/activeloopai/hivemind",
+      "canonical_url": "https://github.com/activeloopai/hivemind",
+      "event_date": "2026-06-10",
+      "date_seen": "2026-06-10"
+    },
+    {
+      "key": "github.com/fareedkhan-dev/train-llm-from-scratch",
+      "canonical_url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+      "event_date": "2026-06-10",
+      "date_seen": "2026-06-10"
     }
   ]
 }

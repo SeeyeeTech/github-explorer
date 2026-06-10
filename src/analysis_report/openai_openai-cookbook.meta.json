@@ -1,0 +1,6 @@
+{
+ "title": "4 年、74K stars：OpenAI官方 cookbook 的内容治理范本",
+ "digest": "OpenAI官方开发者门户用 registry.yaml + JSON Schema + PR 四准则评分制，把302 条 notebook做成 GitHub 原生可治理的内容站点，是 reference → SDK →案例 →评测闭环的关键节点。",
+ "author": "NVoyager",
+ "theme": "stars,universe,dark"
+}

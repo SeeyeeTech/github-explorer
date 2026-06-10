@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ======微信公众号排版 CSS ====== */
+
+body {
+ max-width:680px;
+ margin:0 auto;
+ padding:20px;
+ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+ color: #3e3e3e;
+ background: #fff;
+}
+
+/* 正文段落 */
+p {
+ font-size:15px !important;
+ line-height:2 !important;
+ margin:0 !important;
+ padding-top:0.5em !important;
+ padding-bottom:0.5em !important;
+ padding-right:1.2em !important;
+ padding-left:1.2em !important;
+ text-align: justify !important;
+}
+p + p {
+ margin-top:0 !important;
+}
+
+/*标题 */
+h1 {
+ font-size:20px !important;
+ color: #e51f42 !important;
+ text-align: center !important;
+ margin:24px016px0 !important;
+ padding:0 !important;
+}
+h2 {
+ font-size:18px !important;
+ color: #e51f42 !important;
+ text-align: center !important;
+ margin:24px024px0 !important;
+ padding:0 !important;
+}
+h3 {
+ font-size:15px !important;
+ font-weight: bold !important;
+ color: #3e3e3e !important;
+ text-align: left !important;
+ margin:16px016px0 !important;
+ padding:0001.2em !important;
+}
+h4 {
+ font-size:15px !important;
+ color: rgb(0,122,170) !important;
+ margin:12px08px0 !important;
+ padding:0 !important;
+}
+
+/*列表 */
+ul,
+ol {
+ padding-left:2em !important;
+ margin:1em0 !important;
+ font-size:15px !important;
+}
+li {
+ margin:0.5em0 !important;
+ line-height:1.8em !important;
+ font-size:15px !important;
+ color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+ margin:0 !important;
+ padding-left:1.2em !important;
+}
+
+/*引用 */
+blockquote {
+ border-left:4px solid #888 !important;
+ padding:8px16px !important;
+ margin:1em0 !important;
+ color: #666 !important;
+ background: #f9f9f9 !important;
+}
+blockquote > p {
+ margin:0.5em0 !important;
+ padding:0 !important;
+}
+blockquote::before,
+blockquote::after {
+ content: none !important;
+}
+
+/* 代码块 */
+pre {
+ font-size:14px !important;
+ line-height:1.4em !important;
+ color: #3e3e3e !important;
+ background: #f8f8f8 !important;
+ padding:12px16px !important;
+ border-radius:4px !important;
+ overflow: auto !important;
+ margin:1em0 !important;
+}
+
+/*脚注 */
+.footnotes {
+ font-size:11px !important;
+ color: #666 !important;
+ line-height:1.2 !important;
+ margin:8px000 !important;
+ padding:4px000 !important;
+ border-top:1px solid #eee !important;
+}
+.footnotes p {
+ font-size:11px !important;
+ line-height:1.2 !important;
+ margin:0 !important;
+ padding:0 !important;
+ color: #666 !important;
+}
+
+/* 上标 */
+sup {
+ font-size:0.75em !important;
+ vertical-align: super !important;
+ color: #e51f42 !important;
+ margin:02px !important;
+}
+</style>
+</head>
+<body>
+
+<blockquote><p>GitHub: <a href="https://github.com/openai/openai-cookbook">https://github.com/openai/openai-cookbook</a></p></blockquote>
+
+<h2>一句话总结</h2>
+
+<p>OpenAI官方维护的「案例驱动 + 可运行」开发者门户：302 条 notebook entry、412 位贡献者、4.3 年演化、74k stars，靠 <strong>registry.yaml + JSON Schema + PR 四准则评分制</strong>把「松散的示例集合」做成「GitHub 原生可治理的内容站点」。</p>
+
+<h2>值得关注的理由</h2>
+
+<ul>
+<li><strong>OpenAI三大门面之一</strong>（仅次于 codex90k、openai-agents-python27k），是 API生态首发的官方权威入口</li>
+<li><strong>registry.yaml声明式治理范式</strong>——YAML + JSON Schema + PR rubric 三件套，零外部工具依赖把302+ 条 entry做成静态站点，社区共建而不腐烂</li>
+<li><strong>commit 月度分布与 OpenAI 模型发布节奏强耦合</strong>——2023-03 GPT-4 单月99 commit（峰值）、2025-08 GPT-5 单月64 commit，hot_dirs排序是 OpenAI战略温度计</li>
+<li><strong>新范式首发实验场</strong>——ExecPlan living spec、self-evolving agents（GEPA + Evals平台）、动态工具生成 + Docker沙箱、crawl→walk→run渐进式 Realtime评测，都先在 cookbook出现</li>
+<li><strong>22 家向量数据库并列 +数十家 ISV 共建</strong>（Pinecone/Weaviate/LlamaIndex/AWS/Bain/MCP）——竞品公司愿意把 cookbook 作为分发渠道本身就是质量信号</li>
+</ul>
+
+<h2>项目展示</h2>
+
+<p><img src="https://raw.githubusercontent.com/openai/openai-cookbook/main/images/openai-cookbook.png" alt="OpenAI Cookbook Logo" /> —仓库唯一被 gh校验存在的本地图，cookbook定位是「代码示例索引页」而非「产品展示页」，无营销视觉合理。</p>
+
+<blockquote><p>cookbook 仅1 个 verified 的 README logo（images/openai-cookbook.png），官网 https://developers.openai.com/cookbook 也无 hero截图/Demo视频——这是内容站点的标准做法。</p></blockquote>
+
+<h2>项目画像</h2>
+
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>数据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GitHub</td>
+<td>https://github.com/openai/openai-cookbook</td>
+</tr>
+<tr>
+<td>Star / Fork</td>
+<td>74,113 /12,547</td>
+</tr>
+<tr>
+<td>代码行数</td>
+<td>165,618 行（700+ Jupyter Notebook +191 .py）</td>
+</tr>
+<tr>
+<td>主语言</td>
+<td>Jupyter Notebook93.1%，次 MDX6.9%</td>
+</tr>
+<tr>
+<td>项目年龄</td>
+<td>51 个月（2022-03-11至今）</td>
+</tr>
+<tr>
+<td>开发阶段</td>
+<td>稳定维护（4.3 年累计1,401 commit）</td>
+</tr>
+<tr>
+<td>贡献模式</td>
+<td>公司主导 +社区协作（OpenAI ~30员工 +412外部贡献者；Top1 ted-at-openai 占28.5%，Top3 占 ~58%）</td>
+</tr>
+<tr>
+<td>热度定位</td>
+<td>大众热门（OpenAI三大主推门面之一）</td>
+</tr>
+<tr>
+<td>质量评级</td>
+<td>治理优秀 /文档优秀 / 可运行性优秀 / 测试 基本 / CI 基本</td>
+</tr>
+</tbody>
+</table>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+
+<p>OpenAI（Organization账号，10.7 年，123k粉丝，255公开仓库）官方维护。Cookbook 不是个人作品，是公司战略级开发者关系资产——它与 codex（编程 agent）和 openai-agents-python（agent SDK）并列 OpenAI三大门面，按最近 push排第3。</p>
+
+<h3>问题判断</h3>
+
+<p>OpenAI看到了「reference文档与真实工程 demo之间的鸿沟」：platform.openai.com/docs 是单点 reference形态（「参数有哪些」），但开发者真正需要的是「怎么把 function calling、RAG、Agents、Evals、Realtime拼成一个能跑的端到端 demo」。Cookbook填补的就是这条 gap——以 Jupyter notebook形态把「典型组合」封装成可复用模板，覆盖9 大主题（agents/evals/multimodal/text/guardrails/optimization/ChatGPT/Codex/gpt-oss）。</p>
+
+<p>时机选择印证问题判断：cookbook始于2022 年底（与 ChatGPT同期），正是 LLM 应用爆发起点；到2024-2025 年 Agents SDK、Realtime API、Codex CLI相继成熟，cookbook 的方向也随之从「GPT API 调用示例」扩展为「OpenAI 全家桶落地手册」。</p>
+
+<h3>解法哲学</h3>
+
+<ul>
+<li><strong>官方权威 ≠闭门造车</strong>：registry.yaml接受外部 PR（412 位贡献者），但用 schema +评分制（relevance/uniqueness/correctness/completeness，1-4 分 ≥3 才接受）保证质量——既开放又治理。</li>
+<li><strong>教学优先 vs 工程优先</strong>：代码风格「教学友好」而非「生产级」——大量 notebook 用 %pip install、变量命名解释性强、注释充分。牺牲「看起来像成熟框架」，换来「零基础能跟下来」。</li>
+<li><strong>声明式 vs 命令式</strong>：registry.yaml 用 YAML 元数据驱动静态站点生成（cookbook.openai.com），新增内容只需追加一条 entry，避免「代码改了但网站没更新」的治理漂移。</li>
+<li><strong>多产品平权 vs 一家独大</strong>：hot_dirs 显示 OpenAI 同时推广 GPT-5、Agents SDK、Codex、Realtime、Evals、gpt-oss——这是「全家桶战略」，cookbook 不偏袒任何单一产品线，保持中立门户人设。</li>
+</ul>
+
+<p>OpenAI明确选择<strong>不做什么</strong>：(1) 不做 Prompt Engineering理论研究（留给 dair-ai 等学术派）；(2) 不做单一 RAG/Prompt 技术专题（留给 NirDiamant 等「教程合集」型项目）；(3) 不做评测基准设计（留给 Promptfoo、Langfuse 等工具型项目）。Cookbook 只做「用 OpenAI工具的端到端案例」。</p>
+
+<h3>战略意图</h3>
+
+<p>Cookbook 在 OpenAI整体战略中扮演「应用层门户与开发者 on-ramp」角色——与 platform.openai.com/docs（API reference）、openai/openai-agents-python（SDK本身）、openai/eval-platform（Evals平台）形成 <strong>reference → SDK →案例 →评测</strong> 的完整闭环。Cookbook处在「案例」层，是连接「产品」与「开发者应用」的关键节点。</p>
+
+<p>无直接商业化（MIT License），但承担开发者 adoption、Retention、Showcase 三重作用——开发者用 cookbook 学到 OpenAI工具组合，自然沉淀到 OpenAI生态。开源策略是 「genuinely open」（MIT +接受外部 PR），但通过 schema/rubric维持「官方权威性」。</p>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处</h3>
+
+<ol>
+<li><strong>声明式内容站点（registry.yaml + JSON Schema + PR rubric）</strong> —9字段元数据 +强校验 + 四准则评分制 + authors.yaml 解耦 + redirects字段支持 URL 重定向。302+ 条 entry全部 schema-validated，错误在编辑器里实时高亮。<strong>新颖度3/5，实用性5/5，可迁移性5/5。</strong></li>
+<li><strong>ExecPlan范式（self-contained living design document）</strong> — articles/codex_exec_plans.md 定义 ExecPlan 必须满足 self-contained / living document / purpose-first / observable outcomes / validation not optional / Progress + Decision Log + Surprises + Outcomes 四节必备——为长任务 agent设计的「抗漂移 spec」。<strong>新颖度4/5，实用性5/5，可迁移性5/5。</strong></li>
+<li><strong>Self-evolving agents（prompt 自动优化循环 + Evals平台 + GEPA）</strong> — examples/partners/self_evolving_agents/autonomous_agent_retraining.ipynb 用 OpenAI Evals平台做评分后端，对比三种 prompt optimization 学派：OpenAI Platform Optimizer /静态 metaprompt / GEPA（Genetic-Pareto论文 arXiv:2507.19457）。<strong>新颖度4/5，实用性5/5，可迁移性5/5。</strong></li>
+<li><strong>动态工具生成 +沙箱执行（o3-mini + Docker sandbox）</strong> — LLM动态生成 Python工具 → Docker沙箱执行（--network none --cap-drop all --pids-limit64），双 agent隔离降低代码注入风险；BaseAgent/ChatMessages/ToolManager/ToolInterface四个核心抽象类 + registry模式。<strong>新颖度4/5，实用性5/5，可迁移性4/5。</strong></li>
+<li><strong>Realtime eval 三阶段渐进（crawl → walk → run）</strong> —合成 TTS 单轮 → 重放 G.711 mu-law WAV8kHz真实音频 → simulator model 生成多轮 +确定性 mock工具 + LLM-as-judge，按 complexity递进，开发者按 maturity渐进升级。<strong>新颖度3/5，实用性5/5，可迁移性5/5。</strong></li>
+</ol>
+
+<h3>可复用的模式与技巧</h3>
+
+<ol>
+<li><strong>YAML + JSON Schema + PR rubric 三件套内容治理</strong>：registry.yaml 作为 single source of truth + authors.yaml 解耦作者元数据 + JSON Schema强校验 + PR模板四准则 checklist + archived字段支持下架。<strong>适用场景：开源文档站、案例库、prompt库、内部知识库、API cookbook。</strong></li>
+<li><strong>教学 vs 工程双轨目录</strong>：主体 notebook教学 + 子项目（带 pyproject.toml/Makefile/Dockerfile）做 reference 实现。<strong>适用场景：SDK教学型仓库、平台/框架教学站。</strong></li>
+<li><strong>产品线对齐目录命名</strong>：examples/ 下30+ 子目录全部直接映射 OpenAI 产品线（agents_sdk/codex/mcp/multimodal/voice_solutions），directory命名即用户心智模型。<strong>适用场景：产品线多、有意分立推广的厂商。</strong></li>
+<li><strong>中立门户的合作伙伴生态</strong>：examples/partners/隔离外部 ISV 共建内容 + examples/vector_databases/ 下22 家数据库并列——让竞品公司愿意把 cookbook 作为分发渠道。<strong>适用场景：平台型公司、SaaS套件、API gateway。</strong></li>
+<li><strong>crawl → walk → run渐进式评测 harness</strong>：按 complexity递进，单轮合成 →真实音频重放 → 多轮模拟。<strong>适用场景：语音 agent、real-time multi-turn agent、任何需要「评测复杂度分级」的场景。</strong></li>
+<li><strong>ExecPlan living document范式</strong>：self-contained spec + Progress + Decision Log + Surprises &amp; Discoveries + Outcomes &amp; Retrospective 四节必备。<strong>适用场景：Codex、Claude Code、Cursor、自研 multi-agent 系统。</strong></li>
+</ol>
+
+<h3>关键设计决策</h3>
+
+<ul>
+<li><strong>决策</strong>：registry.yaml + JSON Schema + PR 四准则评分制<br/><strong>问题</strong>：302+ 条 entry需保证一致性、作者归属准确性、URL 不漂移、tag规范化——传统 markdown链接维护方式会随 contributor 增加而腐烂<br/><strong>方案</strong>：registry.yaml9字段 + # yaml-language-server: $schema=...注释让 VSCode实时校验 + authors.yaml 解耦作者元数据 + PR模板四准则评分 ≥3 才接受<br/><strong>Trade-off</strong>：牺牲「随意 PR 一段 markdown」的低门槛，换来302 条 entry全部 schema-validated、可静态站点化、可全文搜索；Contributor 学习成本↑，治理质量↑↑↑<br/><strong>可迁移性</strong>：高</li>
+<li><strong>决策</strong>：notebook校验只跑「格式合法性」（nbformat.read）+ CI部署 hook，不跑「内容正确性」<br/><strong>问题</strong>：259 个 ipynb +191 个 py，CI 时间预算有限；GPT-5/Codex API 需要真 key，CI跑不动真实 LLM 调用<br/><strong>方案</strong>：validate-notebooks.yaml 只校验「git diff 中的 notebook 是否 nbformat 合规」；build-website.yaml 只 POST 一个 deploy hook<br/><strong>Trade-off</strong>：牺牲「PR合并前自动验证 notebook 可运行」，换来 CI极快（几十秒）+显式把「正确性责任」留给 contributor<br/><strong>可迁移性</strong>：高——任何「教学/示例型仓库」都应明确「我们不测正确性，我们只测结构」</li>
+<li><strong>决策</strong>：examples/agents_sdk/ 下保留6 个完整全栈项目（deployment_manager、sandboxed-code-migration、voice_agents_audio 等）<br/><strong>问题</strong>：notebook教学适合「逐步演示」，但生产部署、CI/CD、UI编排、安全沙箱、跨 SDK迁移等「工程化」环节用 notebook教不清楚<br/><strong>方案</strong>：把「工程化深度」内容放到子项目（带 pyproject.toml / Makefile / vite.config.js / Dockerfile），例如 deployment_manager/ 是完整的 Next.js + FastAPI 全栈<br/><strong>Trade-off</strong>：牺牲「全仓库风格统一」，换来「教学-工程双轨」——读者学完 notebook 后能直接 fork 子项目做生产化起点<br/><strong>可迁移性</strong>：高</li>
+</ul>
+
+<h2>竞品格局与定位</h2>
+
+<blockquote><p><strong>总体判断</strong>：cookbook 没有真正「竞品」，它是 OpenAI官方权威入口；以下是互补生态位。</p></blockquote>
+
+<h3>竞品对比矩阵</h3>
+
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>openai-cookbook</th>
+<th>dair-ai PE Guide</th>
+<th>NirDiamant RAG_Techniques</th>
+<th>NirDiamant PE</th>
+<th>MS GenAI-for-beginners</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>定位</td>
+<td>OpenAI工具实战手册</td>
+<td>PE理论 +论文综述</td>
+<td>RAG专题专精</td>
+<td>22 种 PE 技术 hands-on</td>
+<td>入门课程</td>
+</tr>
+<tr>
+<td>Stars</td>
+<td>74.1k</td>
+<td>75.5k</td>
+<td>27.8k</td>
+<td>7.6k</td>
+<td>~90k（微软对位）</td>
+</tr>
+<tr>
+<td>厂商绑定</td>
+<td>OpenAI 全家桶</td>
+<td>中立</td>
+<td>中立</td>
+<td>中立</td>
+<td>Azure OpenAI</td>
+</tr>
+<tr>
+<td>覆盖主题</td>
+<td>9 大主题全景</td>
+<td>PE理论深度</td>
+<td>仅 RAG</td>
+<td>仅 PE</td>
+<td>21章节入门</td>
+</tr>
+<tr>
+<td>教学形态</td>
+<td>notebook + 子项目</td>
+<td>markdown 文章</td>
+<td>notebook</td>
+<td>notebook</td>
+<td>课程结构</td>
+</tr>
+<tr>
+<td>合作伙伴生态</td>
+<td>22 家向量库 +数十 ISV</td>
+<td>无</td>
+<td>无</td>
+<td>无</td>
+<td>微软生态</td>
+</tr>
+</tbody>
+</table>
+
+<h3>差异化护城河</h3>
+
+<ol>
+<li><strong>官方权威信任护城河</strong>——OpenAI官方维护保证 API/产品同步（GPT-5 系列参数、Responses API、Agents SDK），是任何第三方教程无法复制的</li>
+<li><strong>生态护城河</strong>——30+ 产品线对齐子目录 +22 家向量数据库并列 +数十家 ISV 共建 + Evals平台原生集成，是社区型教程难以追赶的网络效应</li>
+<li><strong>治理护城河</strong>——registry.yaml + JSON Schema + PR rubric 三件套把「内容站点」做到 GitHub 原生工具链的极轻量级，是工程化教学仓库的范本</li>
+</ol>
+
+<h3>竞争风险</h3>
+
+<p>最可能被 <strong>Anthropic 的 claude-cookbook 或类似官方仓库</strong>替代——一旦 Anthropic推出同等质量的官方 cookbook + 同等治理体系 + 同等合作伙伴生态，开源生态会快速分化（用户选 LLM 即选对应 cookbook）。但短期内 cookbook 的内容厚度（302 entry +412 contributors +4.3 年积累）是后来者难以追平的存量壁垒。</p>
+
+<h3>生态定位</h3>
+
+<p>OpenAI整个生态的「应用层门户与开发者 on-ramp」——与 platform.openai.com/docs（API reference）、openai/openai-agents-python（SDK）、openai/eval-platform（评测）形成 reference → SDK →案例 →评测的闭环。Cookbook 是案例层，是开发者从「知道 OpenAI 有 X」过渡到「我能在生产里用 X」的关键节点。</p>
+
+<h2>套利机会分析</h2>
+
+<ul>
+<li><strong>信息差</strong>：低 star × 高质量机会不适用（这是74k stars主流资产）；价值在于「作为 OpenAI官方权威入口」长期阅读/引用价值</li>
+<li><strong>技术借鉴</strong>：
+<ul>
+<li>借鉴 <strong>registry.yaml + JSON Schema + PR rubric治理范式</strong>——任何「社区共建 + 多 entry +需站点化」的项目都能复用</li>
+<li>借鉴 <strong>ExecPlan living document范式</strong>——任何长任务 agent 工作流（Cursor、Claude Code、自研 multi-agent）都能借鉴</li>
+<li>借鉴 <strong>crawl → walk → run渐进式评测 harness</strong>——任何语音 agent、real-time multi-turn agent评测都能复用</li>
+</ul>
+</li>
+<li><strong>生态位</strong>：填补了「OpenAI官方 reference文档」与「社区教程」之间的 gap——既比平台文档工程化更深，又比社区教程权威性更强</li>
+<li><strong>趋势判断</strong>：与 OpenAI 模型发布节奏强相关（commit 月度分布印证）；GPT-5/Agents SDK/Realtime/MCP 等新范式都先在 cookbook出现，是 OpenAI战略温度计</li>
+</ul>
+
+<h2>风险与不足</h2>
+
+<ul>
+<li><strong>强绑定 OpenAI工具链</strong>——想学 Anthropic/Google/Grok不会来 cookbook；这是「权威性」的代价</li>
+<li><strong>notebook教学环境的「自然摩擦」</strong>——主体是 Jupyter notebook，需要 Jupyter 环境才能跑（vs PE Guide 是 markdown 文章零摩擦）</li>
+<li><strong>CI验证不覆盖「内容正确性」</strong>——validate-notebooks.yaml 只校验 JSON 结构，不跑实际 LLM 调用；notebook 是否真能跑通靠 contributor人工验证</li>
+<li><strong>构建步骤在仓库外</strong>——build-website.yaml 只 POST内部 deploy hook，没法在仓库级别验证构建；外部 contributor 无法复现「完整内容站点渲染」流程</li>
+<li><strong>生产级错误处理不教</strong>——教学 notebook倾向最小错误处理，retry/backoff/structured logging 等生产级模式在示例里几乎不教</li>
+<li><strong>冷启动期高门槛</strong>——registry.yaml9字段 + JSON Schema + PR rubric 对新人 contributor 学习成本高；适合「已存在大量 entry」的项目，对0 →1 的内容仓库反而是阻力</li>
+</ul>
+
+<h2>行动建议</h2>
+
+<ul>
+<li><strong>如果你要用它</strong>：
+<ul>
+<li><strong>直接复用</strong>：registry.yaml + authors.yaml + registry_schema.json + pull_request_template.md 四件套原样拷贝（MIT License），加上你自己的 entry——这是 GitHub 原生「内容仓库 → 内容站点」最轻量范本</li>
+<li><strong>新模型首发落地</strong>：GPT-5/Agents/Realtime/MCP任何新范式，先在 cookbook找官方参考实现（它永远比文档新）</li>
+<li><strong>跨厂商参照</strong>：用 cookbook 学 OpenAI范式，去 dair-ai 学 PE理论，去 NirDiamant RAG_Techniques 学 RAG深度——三者互补</li>
+</ul>
+</li>
+<li><strong>如果你要学它</strong>：
+<ul>
+<li><strong>必读</strong>：registry.yaml（3367 行治理范本）+ .github/registry_schema.json（JSON Schema校验范式）+ .github/pull_request_template.md（PR 四准则评分制）</li>
+<li><strong>必读</strong>：articles/codex_exec_plans.md（ExecPlan抗漂移 spec范式）</li>
+<li><strong>必读</strong>：examples/partners/self_evolving_agents/autonomous_agent_retraining.ipynb（三种 prompt optimization 学派对比）</li>
+<li><strong>必读</strong>：examples/object_oriented_agentic_approach/Secure_code_interpreter_tool_for_LLM_agents.ipynb（动态工具生成 + Docker沙箱 + OOP registry模式）</li>
+<li><strong>核心示例</strong>：How_to_call_functions_with_chat_models.ipynb (24 changes)、Using_vector_databases_for_embeddings_search.ipynb (23 changes)、Question_answering_using_embeddings.ipynb (20 changes)、How_to_count_tokens_with_tiktoken.ipynb (19 changes)</li>
+</ul>
+</li>
+<li><strong>如果你要 fork 它</strong>：
+<ul>
+<li><strong>可以改进</strong>：
+<ol>
+<li><strong>notebook 可运行性 CI</strong>——用 openai SDK 的 mock client 在 CI 里跑 notebook核心 cell，捕获 SDK升级导致的 API路径失效</li>
+<li><strong>构建步骤开源化</strong>——build-website.yaml 当前只 POST内部 hook，可改为 Next.js/Astro完整开源在 site/目录</li>
+<li><strong>多语言支持</strong>——当前9 大主题仅英文，可加中日韩等翻译 entry（PR rubric 的 Correctness准则需要本地化专家）</li>
+<li><strong>跨厂商对照表</strong>——在每个能力域下加「等价 Anthropic/Google SDK写法」对照表，从官方权威性升级为「事实标准」</li>
+</ol>
+</li>
+<li><strong>不建议改</strong>：30+ 产品线对齐子目录命名（这是用户心智模型，乱改会破坏可发现性）</li>
+</ul>
+</li>
+</ul>
+
+<h3>知识入口</h3>
+
+<table>
+<thead>
+<tr>
+<th>资源</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DeepWiki</td>
+<td><a href="https://deepwiki.com/openai/openai-cookbook">https://deepwiki.com/openai/openai-cookbook</a> — 已收录（2026-05-07），最系统的第三方架构总结</td>
+</tr>
+<tr>
+<td>Zread.ai</td>
+<td>未收录</td>
+</tr>
+<tr>
+<td>关联论文</td>
+<td>GEPA: <a href="https://arxiv.org/abs/2507.19457">arXiv:2507.19457</a>（Genetic-Pareto prompt进化）</td>
+</tr>
+<tr>
+<td>在线 Demo</td>
+<td>无统一 playground；每个 notebook 自带可运行环境，配 OPENAI_API_KEY 即跑</td>
+</tr>
+<tr>
+<td>官方门户</td>
+<td>https://developers.openai.com/cookbook</td>
+</tr>
+</tbody>
+</table>
+
+</body>
+</html>

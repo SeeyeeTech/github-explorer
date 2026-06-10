@@ -29,6 +29,9 @@ entries:
   - ai-agent
   - education
   - protocol-spec
+  aaif-goose_goose:
+  - ai-agent
+  - protocol-spec
   aandrew-me_ytdownloader:
   - iot-hardware
   - video-audio
@@ -274,6 +277,8 @@ entries:
   browserbase_stagehand:
   - ai-agent
   - workflow-automation
+  byoungd_english-level-up-tips:
+  - uncategorized
   bytedance_deer-flow:
   - uncategorized
   bytedance_dolphin:
@@ -381,6 +386,10 @@ entries:
   - security
   commandcodeai_baseai:
   - ai-agent
+  composiohq_awesome-codex-skills:
+  - workflow-automation
+  - editor-kms
+  - protocol-spec
   continuedev_continue:
   - ai-coding
   copilotkit_copilotkit:
@@ -612,6 +621,9 @@ entries:
   - llm-training
   frappe_erpnext:
   - database
+  free-tv_iptv:
+  - ai-agent
+  - workflow-automation
   fujiwarachoki_moneyprinterv2:
   - llm-inference
   - model-foundation
@@ -763,6 +775,8 @@ entries:
   - devtools
   home-assistant_core:
   - workflow-automation
+  home-assistant_home-assistant.io:
+  - ai-agent
   hoppscotch_hoppscotch:
   - devtools
   - protocol-spec
@@ -805,6 +819,10 @@ entries:
   - video-audio
   illuin-tech_colpali:
   - llm-framework
+  imbad0202_academic-research-skills:
+  - ai-agent
+  - ai-coding
+  - protocol-spec
   immich-app_immich:
   - devtools
   - rag-search
@@ -1122,6 +1140,8 @@ entries:
   microsoft_vibevoice:
   - video-audio
   - media-generation
+  microsoft_web-dev-for-beginners:
+  - education
   millionco_react-doctor:
   - ai-agent
   - ai-coding
@@ -1206,6 +1226,11 @@ entries:
   - rag-search
   - iot-hardware
   - video-audio
+  mukul975_anthropic-cybersecurity-skills:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - security
   multica-ai_multica:
   - ai-agent
   - ai-coding
@@ -1298,6 +1323,8 @@ entries:
   - protocol-spec
   openai_openai-realtime-solar-system:
   - uncategorized
+  openai_plugins:
+  - protocol-spec
   openai_simple-evals:
   - ai-agent
   openai_skills:
@@ -1506,6 +1533,8 @@ entries:
   - ai-coding
   - education
   - protocol-spec
+  rossant_awesome-math:
+  - uncategorized
   rowboatlabs_rowboat:
   - ai-agent
   - llm-framework
@@ -1752,6 +1781,10 @@ entries:
   - ai-agent
   - workflow-automation
   - protocol-spec
+  - security
+  trimstray_the-book-of-secret-knowledge:
+  - devtools
+  - education
   - security
   trycua_cua:
   - ai-agent

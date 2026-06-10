@@ -3,11 +3,11 @@
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "language": "Shell",
-    "stars": 210697,
-    "forks": 18757,
+    "stars": 223223,
+    "forks": 19848,
     "description": "An agentic skills framework & software development methodology that works.",
-    "last_seen": "2026-05-28",
-    "trending_days": 58
+    "last_seen": "2026-06-10",
+    "trending_days": 59
   },
   {
     "name": "TapXWorld/ChinaTextbook",
@@ -290,6 +290,16 @@
     "trending_days": 15
   },
   {
+    "name": "ruvnet/RuView",
+    "url": "https://github.com/ruvnet/ruview",
+    "language": "Rust",
+    "stars": 72695,
+    "forks": 9713,
+    "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+    "last_seen": "2026-06-10",
+    "trending_days": 15
+  },
+  {
     "name": "666ghj/BettaFish",
     "url": "https://github.com/666ghj/bettafish",
     "language": "Python",
@@ -307,6 +317,16 @@
     "forks": 48374,
     "description": "Master programming by recreating your favorite technologies from scratch.",
     "last_seen": "2026-06-01",
+    "trending_days": 14
+  },
+  {
+    "name": "harry0703/MoneyPrinterTurbo",
+    "url": "https://github.com/harry0703/moneyprinterturbo",
+    "language": "Python",
+    "stars": 84565,
+    "forks": 12067,
+    "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+    "last_seen": "2026-06-10",
     "trending_days": 14
   },
   {
@@ -328,26 +348,6 @@
     "description": "A collective list of free APIs",
     "last_seen": "2026-04-30",
     "trending_days": 14
-  },
-  {
-    "name": "ruvnet/RuView",
-    "url": "https://github.com/ruvnet/ruview",
-    "language": "Rust",
-    "stars": 63565,
-    "forks": 8407,
-    "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-    "last_seen": "2026-05-22",
-    "trending_days": 14
-  },
-  {
-    "name": "harry0703/MoneyPrinterTurbo",
-    "url": "https://github.com/harry0703/moneyprinterturbo",
-    "language": "Python",
-    "stars": 76602,
-    "forks": 10870,
-    "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
-    "last_seen": "2026-06-01",
-    "trending_days": 13
   },
   {
     "name": "lfnovo/open-notebook",
@@ -377,6 +377,16 @@
     "forks": 8648,
     "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
     "last_seen": "2026-05-06",
+    "trending_days": 12
+  },
+  {
+    "name": "mvanhorn/last30days-skill",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "language": "Python",
+    "stars": 38757,
+    "forks": 3131,
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "last_seen": "2026-06-10",
     "trending_days": 12
   },
   {
@@ -537,16 +547,6 @@
     "forks": 4042,
     "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
     "last_seen": "2026-05-27",
-    "trending_days": 11
-  },
-  {
-    "name": "mvanhorn/last30days-skill",
-    "url": "https://github.com/mvanhorn/last30days-skill",
-    "language": "Python",
-    "stars": 36325,
-    "forks": 2954,
-    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-    "last_seen": "2026-06-09",
     "trending_days": 11
   },
   {
@@ -850,6 +850,16 @@
     "trending_days": 9
   },
   {
+    "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+    "language": "Unknown",
+    "stars": 139412,
+    "forks": 34580,
+    "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+    "last_seen": "2026-06-10",
+    "trending_days": 9
+  },
+  {
     "name": "Alishahryar1/free-claude-code",
     "url": "https://github.com/alishahryar1/free-claude-code",
     "language": "Python",
@@ -990,16 +1000,6 @@
     "trending_days": 8
   },
   {
-    "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
-    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-    "language": "Unknown",
-    "stars": 139024,
-    "forks": 34545,
-    "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
-    "last_seen": "2026-06-09",
-    "trending_days": 8
-  },
-  {
     "name": "yichuan-w/LEANN",
     "url": "https://github.com/yichuan-w/leann",
     "language": "Python",
@@ -1008,6 +1008,16 @@
     "description": "RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.",
     "last_seen": "2026-01-19",
     "trending_days": 8
+  },
+  {
+    "name": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "language": "Shell",
+    "stars": 50643,
+    "forks": 5622,
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "last_seen": "2026-06-10",
+    "trending_days": 7
   },
   {
     "name": "basecamp/omarchy",
@@ -1160,6 +1170,16 @@
     "trending_days": 7
   },
   {
+    "name": "soxoj/maigret",
+    "url": "https://github.com/soxoj/maigret",
+    "language": "Python",
+    "stars": 31771,
+    "forks": 2318,
+    "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+    "last_seen": "2026-06-10",
+    "trending_days": 7
+  },
+  {
     "name": "twitter/the-algorithm",
     "url": "https://github.com/twitter/the-algorithm",
     "language": "Scala",
@@ -1197,16 +1217,6 @@
     "forks": 346,
     "description": "Coding Agent Harness",
     "last_seen": "2026-05-04",
-    "trending_days": 6
-  },
-  {
-    "name": "addyosmani/agent-skills",
-    "url": "https://github.com/addyosmani/agent-skills",
-    "language": "Shell",
-    "stars": 49551,
-    "forks": 5538,
-    "description": "Production-grade engineering skills for AI coding agents.",
-    "last_seen": "2026-06-09",
     "trending_days": 6
   },
   {
@@ -1470,6 +1480,16 @@
     "trending_days": 6
   },
   {
+    "name": "luongnv89/claude-howto",
+    "url": "https://github.com/luongnv89/claude-howto",
+    "language": "Python",
+    "stars": 36374,
+    "forks": 4402,
+    "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+    "last_seen": "2026-06-10",
+    "trending_days": 6
+  },
+  {
     "name": "microsoft/BitNet",
     "url": "https://github.com/microsoft/bitnet",
     "language": "Python",
@@ -1597,16 +1617,6 @@
     "forks": 6525,
     "description": "Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1",
     "last_seen": "2026-03-29",
-    "trending_days": 6
-  },
-  {
-    "name": "soxoj/maigret",
-    "url": "https://github.com/soxoj/maigret",
-    "language": "Python",
-    "stars": 24386,
-    "forks": 1718,
-    "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
-    "last_seen": "2026-05-04",
     "trending_days": 6
   },
   {
@@ -1880,16 +1890,6 @@
     "trending_days": 5
   },
   {
-    "name": "luongnv89/claude-howto",
-    "url": "https://github.com/luongnv89/claude-howto",
-    "language": "Python",
-    "stars": 35562,
-    "forks": 4336,
-    "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-    "last_seen": "2026-06-08",
-    "trending_days": 5
-  },
-  {
     "name": "mukul975/Anthropic-Cybersecurity-Skills",
     "url": "https://github.com/mukul975/anthropic-cybersecurity-skills",
     "language": "Python",
@@ -1987,6 +1987,16 @@
     "forks": 1885,
     "description": "🎥 Make videos programmatically with React",
     "last_seen": "2026-01-26",
+    "trending_days": 5
+  },
+  {
+    "name": "roboflow/supervision",
+    "url": "https://github.com/roboflow/supervision",
+    "language": "Python",
+    "stars": 43409,
+    "forks": 3860,
+    "description": "We write your reusable computer vision tools. 💜",
+    "last_seen": "2026-06-10",
     "trending_days": 5
   },
   {
@@ -2800,13 +2810,13 @@
     "trending_days": 4
   },
   {
-    "name": "roboflow/supervision",
-    "url": "https://github.com/roboflow/supervision",
-    "language": "Python",
-    "stars": 42732,
-    "forks": 3814,
-    "description": "We write your reusable computer vision tools. 💜",
-    "last_seen": "2026-06-09",
+    "name": "refactoringhq/tolaria",
+    "url": "https://github.com/refactoringhq/tolaria",
+    "language": "TypeScript",
+    "stars": 14704,
+    "forks": 1017,
+    "description": "Desktop app to manage markdown knowledge bases",
+    "last_seen": "2026-06-10",
     "trending_days": 4
   },
   {
@@ -3300,6 +3310,16 @@
     "trending_days": 3
   },
   {
+    "name": "FareedKhan-dev/train-llm-from-scratch",
+    "url": "https://github.com/fareedkhan-dev/train-llm-from-scratch",
+    "language": "Python",
+    "stars": 5025,
+    "forks": 694,
+    "description": "A straightforward method for training your LLM, from downloading data to generating text.",
+    "last_seen": "2026-06-10",
+    "trending_days": 3
+  },
+  {
     "name": "FlowiseAI/Flowise",
     "url": "https://github.com/flowiseai/flowise",
     "language": "TypeScript",
@@ -3600,6 +3620,16 @@
     "trending_days": 3
   },
   {
+    "name": "masterking32/MasterDnsVPN",
+    "url": "https://github.com/masterking32/masterdnsvpn",
+    "language": "Go",
+    "stars": 5011,
+    "forks": 489,
+    "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+    "last_seen": "2026-06-10",
+    "trending_days": 3
+  },
+  {
     "name": "MemPalace/mempalace",
     "url": "https://github.com/mempalace/mempalace",
     "language": "Python",
@@ -3780,6 +3810,16 @@
     "trending_days": 3
   },
   {
+    "name": "phuryn/pm-skills",
+    "url": "https://github.com/phuryn/pm-skills",
+    "language": "Unknown",
+    "stars": 14170,
+    "forks": 1586,
+    "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+    "last_seen": "2026-06-10",
+    "trending_days": 3
+  },
+  {
     "name": "PKUFlyingPig/cs-self-learning",
     "url": "https://github.com/pkuflyingpig/cs-self-learning",
     "language": "HTML",
@@ -3867,16 +3907,6 @@
     "forks": 627,
     "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
     "last_seen": "2026-06-04",
-    "trending_days": 3
-  },
-  {
-    "name": "refactoringhq/tolaria",
-    "url": "https://github.com/refactoringhq/tolaria",
-    "language": "TypeScript",
-    "stars": 14084,
-    "forks": 978,
-    "description": "Desktop app to manage markdown knowledge bases",
-    "last_seen": "2026-06-09",
     "trending_days": 3
   },
   {
@@ -4770,16 +4800,6 @@
     "trending_days": 2
   },
   {
-    "name": "FareedKhan-dev/train-llm-from-scratch",
-    "url": "https://github.com/fareedkhan-dev/train-llm-from-scratch",
-    "language": "JupyterNotebook",
-    "stars": 3557,
-    "forks": 500,
-    "description": "A straightforward method for training your LLM, from downloading data to generating text.",
-    "last_seen": "2026-06-01",
-    "trending_days": 2
-  },
-  {
     "name": "fastapi/fastapi",
     "url": "https://github.com/fastapi/fastapi",
     "language": "Python",
@@ -4987,6 +5007,16 @@
     "forks": 2018,
     "description": "A collection of sample agents built with Agent Development Kit (ADK)",
     "last_seen": "2025-12-10",
+    "trending_days": 2
+  },
+  {
+    "name": "google/skills",
+    "url": "https://github.com/google/skills",
+    "language": "Python",
+    "stars": 13082,
+    "forks": 1001,
+    "description": "Agent Skills for Google products and technologies",
+    "last_seen": "2026-06-10",
     "trending_days": 2
   },
   {
@@ -5410,16 +5440,6 @@
     "trending_days": 2
   },
   {
-    "name": "masterking32/MasterDnsVPN",
-    "url": "https://github.com/masterking32/masterdnsvpn",
-    "language": "Go",
-    "stars": 2784,
-    "forks": 302,
-    "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
-    "last_seen": "2026-05-10",
-    "trending_days": 2
-  },
-  {
     "name": "mastra-ai/mastra",
     "url": "https://github.com/mastra-ai/mastra",
     "language": "TypeScript",
@@ -5427,6 +5447,16 @@
     "forks": 1458,
     "description": "From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern TypeScript stack.",
     "last_seen": "2026-01-23",
+    "trending_days": 2
+  },
+  {
+    "name": "maziyarpanahi/openmed",
+    "url": "https://github.com/maziyarpanahi/openmed",
+    "language": "Python",
+    "stars": 2147,
+    "forks": 236,
+    "description": "open-source healthcare ai",
+    "last_seen": "2026-06-10",
     "trending_days": 2
   },
   {
@@ -5797,16 +5827,6 @@
     "forks": 2778,
     "description": "Penpot: The open-source design tool for design and code collaboration",
     "last_seen": "2026-04-27",
-    "trending_days": 2
-  },
-  {
-    "name": "phuryn/pm-skills",
-    "url": "https://github.com/phuryn/pm-skills",
-    "language": "Unknown",
-    "stars": 13201,
-    "forks": 1516,
-    "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
-    "last_seen": "2026-06-09",
     "trending_days": 2
   },
   {
@@ -6380,6 +6400,16 @@
     "trending_days": 1
   },
   {
+    "name": "activeloopai/hivemind",
+    "url": "https://github.com/activeloopai/hivemind",
+    "language": "TypeScript",
+    "stars": 671,
+    "forks": 43,
+    "description": "One brain for all your agents",
+    "last_seen": "2026-06-10",
+    "trending_days": 1
+  },
+  {
     "name": "activepieces/activepieces",
     "url": "https://github.com/activepieces/activepieces",
     "language": "TypeScript",
@@ -6537,6 +6567,16 @@
     "forks": 68,
     "description": "A Python framework for self-hosted LLM tool-calling and multi-step agentic workflows",
     "last_seen": "2026-05-21",
+    "trending_days": 1
+  },
+  {
+    "name": "apple/container",
+    "url": "https://github.com/apple/container",
+    "language": "Swift",
+    "stars": 28784,
+    "forks": 808,
+    "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+    "last_seen": "2026-06-10",
     "trending_days": 1
   },
   {
@@ -7530,16 +7570,6 @@
     "trending_days": 1
   },
   {
-    "name": "google/skills",
-    "url": "https://github.com/google/skills",
-    "language": "Python",
-    "stars": 12181,
-    "forks": 957,
-    "description": "Agent Skills for Google products and technologies",
-    "last_seen": "2026-06-08",
-    "trending_days": 1
-  },
-  {
     "name": "gorhill/uBlock",
     "url": "https://github.com/gorhill/ublock",
     "language": "JavaScript",
@@ -8097,16 +8127,6 @@
     "forks": 84,
     "description": "Claude Code is powerful. Pilot makes it reliable. Start a task, grab a coffee, come back to production-grade code. Tests enforced. Context preserved. Quality automated.",
     "last_seen": "2026-02-16",
-    "trending_days": 1
-  },
-  {
-    "name": "maziyarpanahi/openmed",
-    "url": "https://github.com/maziyarpanahi/openmed",
-    "language": "Python",
-    "stars": 1615,
-    "forks": 199,
-    "description": "open-source healthcare ai",
-    "last_seen": "2026-06-09",
     "trending_days": 1
   },
   {

@@ -1,0 +1,6 @@
+{
+  "title": "一份 ~4500 行代码跑通 LLM 6 阶段：Fareed Khan 怎么教自己写出 PPO/GRPO",
+  "digest": "~400M Transformer 手写跑通预训练/SFT/RM/DPO/PPO/GRPO 6 阶段后训练流水线，零 trl/peft/transformers 依赖；开源里独一份把 GAE 数学摊开可读的对齐参考实现。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

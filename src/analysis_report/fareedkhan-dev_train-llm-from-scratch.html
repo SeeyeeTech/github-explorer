@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ddd; padding: 8px 12px; text-align: left; vertical-align: top; font-size: 14px; line-height: 1.6; }
+th { background: #f6f6f6; font-weight: bold; }
+img { max-width: 100%; height: auto; display: block; margin: 1em auto; }
+hr { border: 0; border-top: 1px solid #eee; margin: 1em 0; }
+em { font-style: italic; color: #666; }
+li > ul, li > ol { margin-top: 0.3em !important; }
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/fareedkhan-dev/train-llm-from-scratch">https://github.com/fareedkhan-dev/train-llm-from-scratch</a></p></blockquote>
+<h2>一句话总结</h2>
+<p>Fareed Khan 用一份自己手写的 ~400M Transformer，把「预训练 → SFT → Reward Model → DPO/ORPO/KTO → PPO → GRPO/RLVR」6 阶段后训练流水线<strong>全跑通了</strong>——零 trl/peft/transformers 依赖，是开源里<strong>独一份</strong>教学价值完整、且数学不被框架吞掉的 LLM 对齐参考实现。</p>
+<h2>值得关注的理由</h2>
+<ul>
+<li><strong>覆盖度独一份</strong>：把 DPO 三种 loss（DPO/ORPO/KTO）、PPO 的 GAE+clip、GRPO 的 k3 KL+group-relative adv <strong>全部</strong>写在一个仓库，且共用同一份 Transformer 主干——这是 karpathy/nanoGPT、Stanford CS336、HuggingFace TRL 都没单独做的事。
+<li><strong>依赖极简但工程到位</strong>：只用 torch + tiktoken + h5py + tqdm；9 段 MkDocs 文档站 + 9 页 Streamlit 控制面板 + 2×H100 DDP 同一份代码路径——纯 PyTorch 跑出「现代对齐流水线」，适合想读懂 GAE 数学却被 TRL 200k LOC 挡住的人。
+<li><strong>设计哲学值得抄</strong>：「wrap, don't rewrite」+ rollout 用 free function + 配置 4 层覆盖——这 12 条可复用模式几乎都能整段搬走。
+</ul>
+<h2>项目展示</h2>
+<h3>README 媒体</h3>
+<ol>
+<li><img src="https://cdn-images-1.medium.com/max/5200/1*r99Hq3YBd5FTTWLNYKKvPw.png" alt="main image" style="max-width:100%;height:auto;display:block;margin:1em auto;" /> — 类型: hero（Medium 顶部横幅）
+<li><img src="https://raw.githubusercontent.com/fareedkhan-dev/train-llm-from-scratch/main/docs/diagrams/README.png" alt="Post-training pipeline" style="max-width:100%;height:auto;display:block;margin:1em auto;" /> — 类型: architecture（端到端后训练流水线总览）
+<li><img src="https://cdn-images-1.medium.com/max/11808/1*QXmeA-H52C-p82AwawslbQ.png" alt="Transformer Architecture" style="max-width:100%;height:auto;display:block;margin:1em auto;" /> — 类型: architecture（Transformer 主架构图）
+<li><img src="https://cdn-images-1.medium.com/max/6696/1*8Gl7cEbainB4GRVwL3cc7Q.png" alt="Training Loss Comparison" style="max-width:100%;height:auto;display:block;margin:1em auto;" /> — 类型: screenshot（训练 loss 曲线）
+<li><img src="https://raw.githubusercontent.com/fareedkhan-dev/train-llm-from-scratch/main/docs/diagrams/00_overview.png" alt="Post-training overview" style="max-width:100%;height:auto;display:block;margin:1em auto;" /> — 类型: architecture（站点 00_overview 阶段图）
+</ol>
+<h3>官网媒体（docs/diagrams/ 内置 PNG）</h3>
+<ol>
+<li><img src="https://raw.githubusercontent.com/fareedkhan-dev/train-llm-from-scratch/main/docs/diagrams/01_data_pipeline.png" alt="Data Pipeline" style="max-width:100%;height:auto;display:block;margin:1em auto;" /> — 类型: architecture
+<li><img src="https://raw.githubusercontent.com/fareedkhan-dev/train-llm-from-scratch/main/docs/diagrams/02_pretraining.png" alt="Pretraining" style="max-width:100%;height:auto;display:block;margin:1em auto;" /> — 类型: architecture
+<li><img src="https://raw.githubusercontent.com/fareedkhan-dev/train-llm-from-scratch/main/docs/diagrams/03_sft.png" alt="Post-training 阶段图" style="max-width:100%;height:auto;display:block;margin:1em auto;" /> — 类型: architecture（系列，05_dpo / 06_ppo / 07_grpo 同样可链入）
+</ol>
+<h3>视频</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=Ej_02ICOIgs">OOP Python 教程（YouTube）</a> — 前置知识
+<li><a href="https://www.youtube.com/watch?v=Jy4wM2X21u0">Neural Network from Scratch（YouTube）</a> — 前置知识
+<li><a href="https://www.youtube.com/watch?v=V_xro1bcAuA">Neural Network from Scratch part 2（YouTube）</a> — 前置知识
+</ul>
+<h3>筛选说明</h3>
+<ul>
+<li>总发现 8+ 媒体元素（1 hero + 6 中型架构图 + 3 教程视频 + 9 文档站阶段图）
+<li>策展保留 5 README 媒体 + 3 阶段图 + 3 视频，按 hero > 架构图 > 训练曲线 > 视频 排序
+<li>排除 4 个 badge（Python / License / Contributions / Docs）+ 1 个 star-history SVG
+</ul>
+<h2>项目画像</h2>
+<table style="border-collapse:collapse;width:100%;font-size:14px;line-height:1.6;margin:1em 0;"><thead><tr><th style="border:1px solid #ddd;padding:8px 12px;background:#f6f6f6;text-align:left;">维度</th><th style="border:1px solid #ddd;padding:8px 12px;background:#f6f6f6;text-align:left;">数据</th></tr></thead><tbody><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">GitHub</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;"><a href="https://github.com/fareedkhan-dev/train-llm-from-scratch">https://github.com/fareedkhan-dev/train-llm-from-scratch</a></td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">Star / Fork</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">5578 / 737（watcher 40）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">代码行数</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">4,888（Python 92.3% / JSON 3.8% / Shell 1.7% / YAML 1.6% / TOML 0.6%）；注释占比 30.2%</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">项目年龄</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">16.9 个月（首次提交 2025-01-12；最近 2026-06-04）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">开发阶段</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">低维护（最近 30/90 天 commit 都是 13，呈「双峰 + 静默 + 末期回血」节奏）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">贡献模式</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">单人主导（Fareed Khan ~56% commit；外部协作者 TianyiQ ~19% / 其余 ≤5%）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">热度定位</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">大众热门（5.5k star 在 LLM training tutorial 赛道中位偏上）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">主页</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;"><a href="https://fareedkhan-dev.github.io/train-llm-from-scratch/">https://fareedkhan-dev.github.io/train-llm-from-scratch/</a>（MkDocs 静态文档站）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">质量评级</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">代码 良好 / 文档 优秀 / 测试 基本（无 pytest 框架）</td></tr></tbody></table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>Fareed Khan，巴基斯坦 Karachi 的独立学习者/求职 PhD 自学者。账号 6.2 年，2036 粉丝，171 公开仓库。<strong>README 顶部直接写明 「I am Looking for a PhD position in AI」</strong>——项目本身是 PhD 申请的作品集，方法论主线是「手写 PyTorch + 一图流 + Medium 配图引流」。他在同一时期还有 all-agentic-architectures、building-claude-from-scratch、production-grade-mcp-agentic-system 等系列仓库。</p>
+<h3>问题判断</h3>
+<p>作者从 Karpathy 风格的 nanoGPT 教学出发，发现市场存在明显断层：<strong>「会 pretrain 不等于会 align」</strong>——而所有开源 LLM 教学在 Pretrain → 部署之间，要么直接跳到 TRL 这种 200k LOC 的黑盒框架、要么卡在 SFT 看不到 RM/PPO 内部。POST_TRAINING.md:173-188 的 「Design notes」 是这条断层的可执行对策：用「wrap, don't rewrite」 把后训练 5 个算法压缩到同一份 ~2500 LOC 上，让 4 个算法的「控制流」和「目标函数」在同一份代码里可对比阅读。</p>
+<h3>解法哲学</h3>
+<p><strong>「模型是教学文物，流水线是产品。」</strong> 这条线贯穿所有设计选择：</p>
+<ul>
+<li><strong>模型</strong>（src/models/）保留 nanoGPT 级单文件实现，<strong>不动</strong>——只在 transformer.py:56-75 加一个 forward_hidden 方法。
+<li><strong>算法</strong>（src/post_training/）以「一文件一算法」+「共享 free function」拆——ppo.py 装 GAE/clip，grpo.py 装 group_adv/k3_kl，rollout/log-prob 抽到 rollout.py 作为 free function（明确说「对 4 套参数集跑同一份 math」必须 free 而非 method）。
+<li><strong>配置</strong>（config/loader.py）以 dataclass + JSON 4 层覆盖（defaults < base < stage < CLI），让 UI 和 CLI 共享同一份 schema。
+<li><strong>评测</strong>（scripts/eval_post_training.py）把 「Base → SFT → DPO → PPO → GRPO 同一份 GSM8K accuracy 表」 作为唯一 KPI。
+<li><strong>明确不做什么</strong>：不引入 trl/peft/transformers（哪怕只为了省事），不引入 FSDP（2×H100 够用就不上），不写 pytest 框架（if __name__ == "__main__": 手跑就够）——这些是「教学清晰优先于工业鲁棒」的明确选择。
+</ul>
+<h3>战略意图</h3>
+<p>求职导向的「广而可读」作品集：横向 6 阶段、纵向每阶段 ~100-200 行核心模块 + 1 篇 docs + 1 个 UI 页 + 1 张手绘图 + 1 张 smoke 配置，Medium 配图 → POST_TRAINING.md → 文档站 → 仓库形成完整引流链。这不是抢 TRL 的用户，是抢「想读懂 TRL 之前先看一份 ~4500 行等价实现」的读者。</p>
+<blockquote><p>注：作者本人博客与独立长文未单独立项；架构说明直接嵌在 MkDocs 站点 9 段里；外部社区文章搜索受 Google 反爬阻断未找到。仓库 star 增长主要靠作者 Medium 图文化教程引流。</p></blockquote>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<p>按新颖度×实用性排序：</p>
+<ol>
+<li><strong>forward_hidden 单一接口承载全后训练头</strong>（新颖 4 / 实用 5 / 可迁移 5）：RM / value head / 隐式 DPO reward 都消费同一方法，教学 Transformer 一行不改。
+<li><strong>rollout / log-prob 用 free function</strong>（新颖 4 / 实用 5 / 可迁移 5）：PPO 对 4 套参数集（前向/老策略/参考/价值）跑同一份 math，method 绑定反而碍事，配套 _logits_from 用 isinstance 自动 dispatch 两种 forward 形态。
+<li><strong>DPO/ORPO/KTO 三 loss 同文件同输入签名</strong>（新颖 3 / 实用 4 / 可迁移 5）：cfg.loss_type 一键切换；_log1mexp 数值稳定计算 log-odds；KTO 用 batch 估计 KL。
+<li><strong>GRPO 三件套：k3 KL + group-relative adv + arithmetic 暖启动</strong>（新颖 4 / 实用 5 / 可迁移 4）：把 DeepSeek-R1 核心数学压到 70 行；前 100 步用程序生成的算术题预热——这是教学仓库里少见的实用补充，原论文没提。
+<li><strong>4 层配置覆盖 + UI/CLI/Docs 三入口同 schema</strong>（新颖 3 / 实用 4 / 可迁移 4）：dataclass 默认值 < base.json < stage.json < CLI 递归合并；Streamlit/MkDocs/argparse 全部由同一份 dataclass 反射生成。
+<li><strong>跨阶段单一 KPI（greedy GSM8K accuracy）</strong>（新颖 3 / 实用 5 / 可迁移 4）：一个 for s in stages: eval + append JSONL 脚本把 6 阶段结果串到一张表。
+<li><strong>verifier = correctness 主导 + 0.2 格式 bonus + clip 1.2</strong>（新颖 3 / 实用 4 / 可迁移 4）：反 reward hacking；原则（形式分 << 内容分）比具体 0.2 数值更值得搬。
+<li><strong>length-bucket 批处理替代 padding mask</strong>（新颖 3 / 实用 4 / 可迁移 3）：利用 causal mask 的「右 padding 安全」性质 + 同长度一组批处理，attention 层零改动。
+</ol>
+<h3>可复用的模式与技巧</h3>
+<table style="border-collapse:collapse;width:100%;font-size:14px;line-height:1.6;margin:1em 0;"><thead><tr><th style="border:1px solid #ddd;padding:8px 12px;background:#f6f6f6;text-align:left;">模式</th><th style="border:1px solid #ddd;padding:8px 12px;background:#f6f6f6;text-align:left;">出处</th><th style="border:1px solid #ddd;padding:8px 12px;background:#f6f6f6;text-align:left;">一句话</th></tr></thead><tbody><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">wrap-not-rewrite</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">POST_TRAINING.md:175-180</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">教学主干只加一个 forward_hidden；所有头 compose 它</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">free function for log-prob</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">rollout.py:52-285</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">不绑 method，方便切 4 套参数集</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">tuple-returning forward</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">value_head.py:45-49</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">(logits, values) + isinstance 自动 dispatch</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">DDP 上下文 dataclass</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">distributed.py:20-98</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">DDPContext + is_main / enabled + unwrap 让单/多 GPU 同代码</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">4 层配置合并</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">config/loader.py</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">defaults < base < stage < CLI，sibling base.json 自动嗅探</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">SMOKE config</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">post_training_config.py:171-178</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">固定 SMOKE 字典 + smoke(cls) factory，CPU 秒级跑</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">JSONL-only metrics</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">logging_utils.py:46-58</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">先 JSONL（无依赖），wandb 当可选镜像</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">causal padding safe + length-bucket</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">POST_TRAINING.md:177-180</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">右 padding + 同长度一组 + response_mask zero 掉 padding</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">k3 KL + group-relative adv</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">grpo.py:17-70</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">exp(diff) - diff - 1 + (r - group_mean) / (group_std + eps)</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">arithmetic curriculum</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">train_grpo.py:64-65</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">RLVR 起步无方差时用程序生成简单题预热</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">跨阶段单一 KPI 表</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">eval_post_training.py</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">一个 for s in stages: eval + append JSONL 脚本</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">verifier = correctness + bounded format</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">rewards/verifiers.py</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">形式分远小于内容分 + clip 上界</td></tr></tbody></table>
+<h3>关键设计决策</h3>
+<ol>
+<li><strong>决策</strong>：在 Transformer 上只加 forward_hidden 一个方法
+<ul>
+<li><strong>问题</strong>：RM/PPO 都需要 「final hidden state」，但不想为了 RM 改教学代码
+<li><strong>方案</strong>：transformer.py:56-75 加一个 forward_hidden(idx) -&gt; (B, T, n_embed)，forward 内部调它再 lm_head
+<li><strong>Trade-off</strong>：测试 test_forward_hidden_matches_forward 用 allclose(atol=1e-5) 保证不变量；增加「接口多 1 条」的认知成本
+<li><strong>可迁移性</strong>：<strong>极高</strong>——任何「主干 + 多头」教学仓库都能用
+</ul>
+</ol>
+<ol>
+<li><strong>决策</strong>：rollout / log-prob 用 free function，不用 method
+<ul>
+<li><strong>问题</strong>：PPO 一次需要「同一份输入」对 4 套参数集跑 log-prob；method 绑定到 self 不利于 compose
+<li><strong>方案</strong>：rollout.py 全部用 def f(model, ...) -&gt; ... 形式；value_head.py:45-49 返 (logits, values) 元组
+<li><strong>Trade-off</strong>：牺牲 OO 直觉；换 4-参数集复用同一段 math
+<li><strong>可迁移性</strong>：<strong>高</strong>——任何 RL-from-scratch 仓库都建议直接抄
+</ul>
+</ol>
+<ol>
+<li><strong>决策</strong>：DPO 三个变体塞进 95 行同一个 dpo.py
+<ul>
+<li><strong>问题</strong>：DPO/ORPO/KTO 数学相近但 reference/unpaired/paired 不同，教材化讲要放同一处
+<li><strong>方案</strong>：dpo.py:21-90 三函数接受同样的 (policy_chosen_logps, policy_rejected_logps, ...) 形状；train_dpo.py:46-54 用 cfg.loss_type 切换
+<li><strong>Trade-off</strong>：可对比阅读；未来加 IPO/SimPO 要改文件结构
+<li><strong>可迁移性</strong>：<strong>高</strong>——_log1mexp + KTO batch-KL 两点单拎就值得
+</ul>
+</ol>
+<ol>
+<li><strong>决策</strong>：DDP 用 1 个 dataclass 上下文 + 自由函数封装
+<ul>
+<li><strong>问题</strong>：不用 accelerate，又要单/多 GPU 同一份代码；actor-critic + ref + old-policy 哪些 wrap 哪些不 wrap
+<li><strong>方案</strong>：DDPContext 暴露 is_main / enabled；ddp_setup 读 RANK/WORLD_SIZE 自动降级；ddp_wrap 在 enabled=False 时直接 return 原 model
+<li><strong>Trade-off</strong>：无 NCCL/P2P 优化、显式 make_frozen_copy；超 1B param 显存崩
+<li><strong>可迁移性</strong>：<strong>中</strong>——1-2 张卡、≤1B 参数、≤1024 ctx 教学/研究规模可照搬
+</ul>
+</ol>
+<ol>
+<li><strong>决策</strong>：依赖锁死：tiktoken r50k_base 一个特殊 token = EOT
+<ul>
+<li><strong>问题</strong>：不注册新特殊 token，但 chat 需要 role marker + 推理结构 &lt;answer&gt;
+<li><strong>方案</strong>：chat_template.py:38-49 把所有 marker 写成 plain text 模型在 SFT 阶段学会
+<li><strong>Trade-off</strong>：节省「为新 token 扩 embedding」工程量；marker 占多 token，SFT 成本增 5-15%
+<li><strong>可迁移性</strong>：<strong>中</strong>——产品化必然要换 sentencepiece
+</ul>
+</ol>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table style="border-collapse:collapse;width:100%;font-size:14px;line-height:1.6;margin:1em 0;"><thead><tr><th style="border:1px solid #ddd;padding:8px 12px;background:#f6f6f6;text-align:left;">维度</th><th style="border:1px solid #ddd;padding:8px 12px;background:#f6f6f6;text-align:left;">nanoGPT (~38k)</th><th style="border:1px solid #ddd;padding:8px 12px;background:#f6f6f6;text-align:left;">LLM101n (~25k)</th><th style="border:1px solid #ddd;padding:8px 12px;background:#f6f6f6;text-align:left;">CS336 spring2025 (~13k)</th><th style="border:1px solid #ddd;padding:8px 12px;background:#f6f6f6;text-align:left;">nanoChat (~5k)</th><th style="border:1px solid #ddd;padding:8px 12px;background:#f6f6f6;text-align:left;">rasbt (~10k+)</th><th style="border:1px solid #ddd;padding:8px 12px;background:#f6f6f6;text-align:left;"><strong>本项目</strong></th></tr></thead><tbody><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">预训练覆盖</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ 13M 教学</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ 课程化</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ 学术前沿</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ 实战 + 真实成本</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ 书籍配套</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ 400M DDP</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">SFT</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ 浅尝</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ 单 notebook</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ 真 Alpaca/Dolly/GSM8K</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">Reward Model</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ Bradley-Terry</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">DPO/ORPO/KTO</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ 三选一</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">PPO</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ GAE + clip + value clip</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">GRPO/RLVR</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ k3 KL + group adv + curriculum</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">真数据集</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘ tiny shakespeare</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ 教育文本</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ TinyStories</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ SmolTalk 等</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ 章节式</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ 5 个公开集</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">多卡 DDP</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ torchrun 一行</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">真实评测（非 toy）</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ CORE</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ GSM8K 跨阶段</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">依赖</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">torch</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">torch</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">多</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">torch</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">torch + transformers</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;"><strong>torch + tiktoken + h5py</strong>（无 trl/peft/transformers）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">文档站</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ 课程站</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ 视频</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ 书</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ MkDocs 9 段 + 手绘图</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">控制面板 UI</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ Streamlit 9 页</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">单元测试</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✘</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">✔ smoke + RL math</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">LOC（粗算）</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">~300</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">~1k+ 课</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">几百/讲</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">~1.5k</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">~5k+</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;"><strong>~4.5k</strong></td></tr></tbody></table>
+<h3>差异化护城河</h3>
+<p><strong>在 post-training 完整度（6 阶段全包）、真数据集（5 个公开集）、真评测（GSM8K 跨阶段）、多卡（DDP 单代码路径）、测试覆盖（smoke + RL math）、依赖极简（不调 trl/peft/transformers）6 个维度上对所有竞品都有优势</strong>。这是开源里<strong>独一份</strong>的「手写 GAE 数学不被框架吞掉」的参考实现。</p>
+<h3>竞争风险</h3>
+<ul>
+<li><strong>TRL 仍是生产环境默认选择</strong>——trl.Trainer 把多算法 PPO/DPO/GRPO 集成到一个统一 API；本项目无 industrial-grade checkpoint、FSDP、eval harness，长期看还是教学而非生产。
+<li><strong>Karpathy nanoChat 抢占「真做出一个 chat 模型」 的心智</strong>——本项目能教你怎么写 post-training，但教不了你 4 小时训出 500M 可发布模型。
+<li><strong>Stanford CS336 抢占「学术前沿」 心智</strong>——FlashAttention / FSDP / 最新论文导读本项目无。
+</ul>
+<h3>生态定位</h3>
+<p>在 LLM 教学生态里填补<strong>「端到端后训练 + 纯 PyTorch + 不调大框架」</strong>的空白——不是替代品，是阅读 TRL 源码之前的过渡读物。在求职 PhD 作品集赛道里，是中等规模（5.5k star）但<strong>广度 + 文档化 + 真实可跑</strong>三者同时做到的稀缺样本。</p>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：5.5k star 在 LLM training 赛道中位偏上，但 Issue #24 已被 phantomstars 标记「Fake engagement detected」，最近 178 个 star 全部集中在 2026-06 一个月内——star 信号打折看。<strong>「被低估」窗口已关闭</strong>，但「教学参考价值」独立于 star 信号。
+<li><strong>技术借鉴</strong>：12 条可复用模式（见上表）几乎都能整段搬走——其中 wrap-not-rewrite、free function for log-prob、tuple-returning forward、4 层配置合并、k3 KL + group-relative adv、arithmetic curriculum 这 6 条在任何 RL-from-scratch 项目都直接可用。
+<li><strong>生态位</strong>：填补「手写 GAE 数学不被框架吞掉」的空白。读者群体：想读懂 TRL 之前先看等价实现的 ML 工程师、求职 PhD 的学生、对齐方向研究者。
+<li><strong>趋势判断</strong>：项目近 90 天 commit 13、最近 30 天 commit 13——典型的「低维护 + 末期回血」，且伴随 #24 假互动信号，<strong>不能作为长期投入判断依据</strong>；但 POST_TRAINING.md 末尾的 「What's Next」 与 9 段 MkDocs 路线图清晰，作为参考实现的价值<strong>独立于</strong>项目活跃度。
+</ul>
+<h2>风险与不足</h2>
+<ul>
+<li><strong>#24 phantomstars 标记</strong>：社区工具已识别可疑 star 行为，最近 178 star 全部集中在一个月内，star 信号需打折看。
+<li><strong>没有 lockfile</strong>：pyproject.toml 只写 torch 不写 torch==2.6.0；requirements*.txt 用 --extra-index-url 不锁版本——复现性弱，与 Issue #5（默认 3B OOM）可能部分相关。
+<li><strong>没有 PR CI / 没有 pytest 框架</strong>：tests/test_*.py 全是 if __name__ == "__main__":，无法 pytest tests/、无 coverage；Issue #7（包名 config 与顶层 config/ 目录冲突）本应被 CI 卡住。
+<li><strong>torch.load(weights_only=False) 在 4 处出现</strong>（inference.py:22 / reward_model.py:26 / utils.py:82 / eval_post_training.py:29）——接受外部 ckpt 有 RCE 风险。
+<li><strong>Issue #5</strong>：默认 3B 配置 A100 40GB OOM，反映作者倾向展示大模型但对显存/算力门槛的指引不足。
+<li><strong>Issue #16</strong>：post-training 阶段缺 checkpoint resume，对一个号称「单 GPU 可跑数小时」的教程项目是关键缺失。
+<li><strong>没有 FSDP/ZeRO/bucket 调优</strong>：上 1B param 显存就崩；长上下文（>1024）失效。
+<li><strong>没有 Dockerfile / 没有 setup.cfg / 没有 pyrightconfig.json</strong>——部署到非 dev 机器有摩擦。
+</ul>
+<h2>行动建议</h2>
+<ul>
+<li><strong>如果你要用它</strong>：≤400M / ≤1024 ctx / 2×H100 范围内快速多算法对比；学习 RLHF/GRPO 算法的可读参考实现。<strong>不要</strong>作为生产环境基线。
+<li><strong>如果你要学它</strong>：优先读
+<ol>
+<li>POST_TRAINING.md:175-188 的 「Design notes」（设计哲学）
+<li>src/models/transformer.py:56-89（forward_hidden 单一接口）
+<li>src/post_training/rollout.py:52-285（free function 模式）
+<li>src/post_training/{sft,reward_train,dpo,ppo,grpo}.py（一文件一算法 + k3_kl + group_advantages）
+<li>src/post_training/distributed.py（DDP 上下文 dataclass）
+<li>config/loader.py（4 层配置合并）
+<li>docs/02-07_*.md（9 段 MkDocs）
+</ol>
+</ul>
+<ul>
+<li><strong>如果你要 fork 它</strong>：
+<ol>
+<li>把 torch.load(..., weights_only=False) 全部改成 weights_only=True（自产 ckpt 无需 pickle）
+<li>引入 uv.lock 或 poetry.lock 锁依赖
+<li>把 tests/test_*.py 改成 def test_*() + conftest.py 启用 pytest
+<li>补 PR CI：lint + smoke test + docs build
+<li>加 checkpoint resume（Issue #16）和更细粒度的显存感知默认配置（Issue #5）
+<li>把 DPO 三 loss 拆分子模块以容纳 IPO/SimPO
+<li>加 Dockerfile + pyrightconfig.json 提升可移植性
+</ol>
+</ul>
+<h3>知识入口</h3>
+<table style="border-collapse:collapse;width:100%;font-size:14px;line-height:1.6;margin:1em 0;"><thead><tr><th style="border:1px solid #ddd;padding:8px 12px;background:#f6f6f6;text-align:left;">资源</th><th style="border:1px solid #ddd;padding:8px 12px;background:#f6f6f6;text-align:left;">链接</th></tr></thead><tbody><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">DeepWiki</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">未收录（页面持续 Loading，无索引内容）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">Zread.ai</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">403 Forbidden（推断未收录）</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">关联论文</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">仓库本身是 <a href="https://arxiv.org/abs/1706.03762">Attention is All You Need (Vaswani et al., 2017)</a> 的复现 + 现代 alignment 论文（DPO/GRPO）整合；无仓库专属 arXiv 论文</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">在线 Demo</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">无独立在线 Demo；<a href="https://fareedkhan-dev.github.io/train-llm-from-scratch/">MkDocs 文档站</a> 是主要展示窗口</td></tr><tr><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">配套 notebook</td><td style="border:1px solid #ddd;padding:8px 12px;vertical-align:top;">sft_rlhf_guide.ipynb（仓库内置 ~150KB 单文件复现指南）</td></tr></tbody></table>
+</body>
+</html>

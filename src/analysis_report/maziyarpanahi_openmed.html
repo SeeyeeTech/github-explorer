@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: 14px; }
+th, td { border: 1px solid #ddd; padding: 8px; vertical-align: top; }
+th { background: #f5f5f5; text-align: left; }
+a { color: #e51f42; text-decoration: none; }
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/maziyarpanahi/openmed">https://github.com/maziyarpanahi/openmed</a></p></blockquote>
+<h2>一句话总结</h2>
+<p>OpenMed 是一个<strong>端侧优先的医疗 NLP 开源栈</strong>，把 1,000+ 医疗 LLM 模型 + 12 语种 PII 脱敏 + Apple MLX/Swift 原生部署打包成 Apache-2.0 协议下「数据永远不出域」的可验证承诺——单人 9 个月、890 commit、2,733 stars 的蓝海项目。</p>
+<h2>值得关注的理由</h2>
+<ol><li><strong>隐私叙事可被工程验证</strong>：1.4.1 之后 local_files_only=True 被硬编码到所有模型加载路径，配合 __about__.py 的 1.5.2 RCE 修复白名单（trust_remote_code 严格白名单 + 子串防误判），「主权 AI」不再是营销话术。</li><li><strong>端到端跨端栈</strong>：Python openmed[mlx] + Swift OpenMedKit + Dockerized FastAPI 三套部署形态共享同一份模型注册表（models.jsonl 1,518 行），且 MLX 在 Apple Silicon 上比 CPU 快 24–33 倍。</li><li><strong>蓝海中的爆款</strong>：单日涌入 133 stars、最近 30 天 102 commit、单人 99.8% 主导；闭环的「医疗 NER/PII + on-device + Apple 生态」四象限几乎无对位竞争者。</li></ol>
+<h2>项目展示</h2>
+<h3>OpenMed 端侧 PII 脱敏（demo 动图）</h3>
+<p><img src="https://raw.githubusercontent.com/maziyarpanahi/openmed/master/docs/brand/openmed-pii-demo.gif" alt="OpenMed 实时脱敏临床出院小结" style="max-width:100%;height:auto;display:block;margin:1em auto;" /></p>
+<blockquote><p>动图展示对一份临床出院小结进行 PII 实时识别与脱敏——这是项目对外最强的"隐私可验证"卖点。</p></blockquote>
+<h3>iOS 端侧扫描（OpenMedKit on iPhone）</h3>
+<p><img src="https://raw.githubusercontent.com/maziyarpanahi/openmed/master/docs/brand/openmed-ios-scan.png" alt="iPhone 上用 OpenMedKit 扫描病历并做 PII 脱敏" style="max-width:100%;height:auto;display:block;margin:1em auto;" /></p>
+<blockquote><p>Swift OpenMedKit 直接在 iPhone 上跑模型权重（CoreML + MLX），零网络。</p></blockquote>
+<h3>Apple Silicon MLX vs CPU 加速</h3>
+<p><img src="https://raw.githubusercontent.com/maziyarpanahi/openmed/master/docs/brand/openmed-mlx-speedup.png" alt="MLX vs CPU 24–33 倍加速" style="max-width:100%;height:auto;display:block;margin:1em auto;" /></p>
+<blockquote><p>Apple Silicon M 系列芯片上 MLX 后端比 PyTorch CPU 快 24–33 倍，量化后批处理吞吐再涨 2.2 倍。</p></blockquote>
+<h3>PII 批处理吞吐</h3>
+<p><img src="https://raw.githubusercontent.com/maziyarpanahi/openmed/master/docs/assets/pii-batch-benchmark.png" alt="批处理 PII 吞吐：CPU 3.3 倍 / MLX 2.2 倍" style="max-width:100%;height:auto;display:block;margin:1em auto;" /></p>
+<blockquote><p>v1.5.5 引入的 BatchProcessor 在 CPU/MLX 上分别把吞吐量推到 3.3×/2.2×。</p></blockquote>
+<h3>项目 Hero</h3>
+<p><img src="https://raw.githubusercontent.com/maziyarpanahi/openmed/master/docs/brand/openmed-mascot-lockup.png" alt="OpenMed 主视觉" style="max-width:100%;height:auto;display:block;margin:1em auto;" /></p>
+<blockquote><p>Apache-2.0 + 13 个生物医学域 + 12 语种 PII 的"主权医疗 AI"总纲。</p></blockquote>
+<h2>项目画像</h2>
+<table style="border-collapse:collapse;width:100%;margin:1em 0;font-size:14px;"><thead><tr><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">维度</th><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">数据</th></tr></thead><tbody><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">GitHub</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;"><a href="https://github.com/maziyarpanahi/openmed">https://github.com/maziyarpanahi/openmed</a></td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Star / Fork</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">2,733 / 268</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">监看者</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">24</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">开放 Issue / PR</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">65 / 19</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">代码行数</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">54,791（Python 57.8% + Swift 28.2% + CSS/JS/HTML/JSON 等）</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">文件数</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">349</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">项目年龄</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">9 个月（首次提交 2025-09-10）</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">开发阶段</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">密集开发（近 30 天 102 commit）</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">贡献模式</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">单人主导（Maziyar Panahi 99.8%，853/890 commit）</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">热度定位</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">中等热度，单日 133 星爆发型</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">质量评级</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">文档 A+ 测试 A- CI A+ 依赖 A+ 错误处理 B+</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">License</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Apache-2.0</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">最新版本</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">v1.5.5（37 tag，33 release，月均 3.7 个）</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">话题标签</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">healthcare, llm, bert, deepseek, on-device, on-premise, qwen, sovereign-ai, mlx, swift, ios, swift-package, swiftui, ner, pii, pii-detection</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">主页</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;"><a href="https://openmed.life/">https://openmed.life/</a></td></tr></tbody></table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>Maziyar Panahi 12.6 年 GitHub 老账号，bio 写着「AI in Health &amp; Life Sciences」，隶属巴黎复杂系统研究所（@ISCPIF），工作地点在 Paris / London。仓库层面他几乎把所有精力都砸在 openmed（repo_rank=1，最近活跃列表里其他项目 stars 多在 0–14 之间）。<strong>典型画像：欧洲学术圈医疗 AI 研究员，「白天科研 + 夜间 OSS」的副业型主力</strong>——14.9% 周末 commit 偏低、21.7% 深夜 commit 偏高，正好对应这种生活节奏。</p>
+<h3>问题判断</h3>
+<blockquote><p>「医疗 AI 的护城河不是参数规模，而是合规与可验证的隐私。」</p></blockquote>
+<p>医疗数据有 GDPR / HIPAA / LGPD / PIPL 等多套区域法规，<strong>数据出域就构成商业风险</strong>。但市面上主流方案（AWS HealthLake、Azure Health Insights、Google MedLM）恰恰是云 API——把"调一次接口"和"把病历送出医院"画了等号。同时 HF Hub 上 1,000+ 医疗专用 NER/PII 模型长期被"加载即联网"的默认设置绑架，<strong>没法做空隙部署</strong>。作者看到这是被忽视的细分空白。</p>
+<h3>解法哲学</h3>
+<ul><li><strong>Encoder 而非 Decoder</strong>：用 BERT/ELECTRA/DeBERTa 做 token-classification 抽取，刻意避开医疗 chat LLM（生成式不可控 + 模型更大 + 推理更慢）。</li><li><strong>零遥测 + 零出站</strong>：1.4.1 后 local_files_only=True 硬编码到所有加载路径；Anonymizer 拿 Faker 做同语种替代；mapping table 保留 reidentify 链路。</li><li><strong>可验证可审计</strong>：local_files_only=True + _TRUSTED_PRIVACY_FILTER_PREFIXES 白名单 + 公开 models.jsonl 注册表，让"主权 AI"在 CI 流水线里就能被 grep 出来。</li><li><strong>多语种 PII</strong> 做长尾：12 语种 + 210 PII 模型 + 国别 ID 校验（Luhn / French NIR / 土耳其 TCKN / SSN）—— 这是闭源云不愿投入的区域。</li></ul>
+<h3>战略意图</h3>
+<p>三条战线：</p>
+<ul><li><strong>主战场</strong>：主权医疗 NLP（on-device + on-premise + privacy-by-default）—— 是与闭源云的对位；</li><li><strong>第二战场</strong>：多语种 PII 广度（区域化合规市场，巴西/印度/土耳其/日本）—— 是与闭源云的错位；</li><li><strong>第三战场</strong>：Apple 生态（Swift 包 + 200+ MLX 变体）—— 切入 iOS 健康类 App 供应链。</li></ul>
+<p>避战区是云端 LLM 推理（不与 AWS HealthLake、Azure Health Insights 正面对抗）。</p>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<p>按"新颖度×实用性×可迁移性"综合分排序的 Top 5：</p>
+<ol><li><strong>trust_remote_code 白名单 + 子串防误判</strong>（I6，14/15）</li></ol>
+<ul><li>位置：openmed/core/pii.py:140-172</li><li>1.5.2 安全公告修复了原 trust_remote_code=True 的 RCE 漏洞——任何子串含 "privacy-filter" 的仓库名都能触发。修复采用"严格白名单（_PRIVACY_FILTER_FAMILY_ALIASES） + 前缀白名单（_TRUSTED_PRIVACY_FILTER_PREFIXES） + env var 覆盖"三道关。<strong>任何动态加载模型的库都该学</strong>。</li></ul>
+<ol><li><strong>跨标签约定规范化</strong>（I1，13/15）</li></ol>
+<ul><li>位置：openmed/core/labels.py 的 CANONICAL_LABELS（UPPER_SNAKE_CASE）+ normalize_label()</li><li>把 4 套标签约定（snake_case / UPPERCASE / BIOES / B-EMAIL）统一到 canonical 层，下游 Anonymizer 只对接一套。<strong>多源 NER 标签融合的通用模式</strong>。</li></ul>
+<ol><li><strong>跨语言 manifest 协议 openmed-mlx.json</strong>（I3，12/15）</li></ol>
+<ul><li>位置：openmed/mlx/artifact.py，MANIFEST_FORMAT = "openmed-mlx", MANIFEST_VERSION = 2</li><li>自研的 Python↔Swift 共享 manifest 格式，含 format_version / preferred_weights / fallback_weights / available_weights / tokenizer.path / runtime / prompt_spec。与 GGUF / MLX 社区格式并列。</li></ul>
+<ol><li><strong>ML+模式融合的实体合并</strong>（I2，12/15）</li></ol>
+<ul><li>位置：openmed/core/pii_entity_merger.py</li><li>公开承认借鉴 Microsoft Presidio 的 PatternRecognizer（base_score + context_boost + validator 三角验证），把正则当 fallback，模型当主路径——解决编码器把"01/15/1970"切碎成 "01" "/15/1970" 的典型问题。</li></ul>
+<ol><li><strong>跨框架权重键重映射管线</strong>（I4，11/15）</li></ol>
+<ul><li>位置：openmed/mlx/convert.py 5 套 _KEY_REPLACEMENTS（BERT/DeBERTa/RoBERTa/DistilBERT/ELECTRA）</li><li>HuggingFace 权重命名 ≠ MLX 命名，OpenMed 维护了 5 套线性替换表，<strong>任何跨框架 ML 部署都能用</strong>。</li></ul>
+<h3>可复用的模式与技巧</h3>
+<ul><li><strong>后端协议化</strong>（D1）：InferenceBackend Protocol + get_backend() 自动探测（openmed/core/backends.py:115-152），同一份 Python API 跨 PyTorch/MLX/CoreML。<strong>任何多硬件 NLP 栈可复用</strong>。</li><li><strong>注册表外置</strong>（D2）：1,000+ 模型元数据进 models.jsonl（1,518 行），model_registry.py 派生——避免代码膨胀。</li><li><strong>隐私过滤家族感知 fallback</strong>（D8 / I5）：_torch_fallback_for 家族感知（multilingual/nemotron），MLX-only 模型在 Linux 上自动降级到 PyTorch + UserWarning 告知。</li><li><strong>Faker 一致性 + locale 路由</strong>（I8）：openmed/core/anonymizer/ 用 Faker 做同语种替代，跨文档保持一致 hash（hash_value 字段）以做分析链接。</li><li><strong>Service 运行时 keep_alive + 模型卸载</strong>（I11）：service/runtime.py 引用类似 Erlang 进程模型的 keep_alive 卸载语义，长生命周期 ML 服务的资源管理。</li></ul>
+<h3>关键设计决策</h3>
+<h4>决策 1：端侧硬编码 local_files_only=True（D9）</h4>
+<ul><li><strong>问题</strong>：1.4.1 之前模型加载会把 local path 解析成 HF id，存在空隙部署下悄悄联网的风险</li><li><strong>方案</strong>：1.4.1 强制 local_files_only=True + _resolve_model_name 先于 HF 拼接</li><li><strong>Trade-off</strong>：牺牲一点点灵活性（自定义远端微调要走 env var）换取空隙部署真正 0 网络</li><li><strong>可迁移性</strong>：<strong>高</strong> — 任何空隙/合规场景（车机、船舶、政务、医疗）都该这么做</li></ul>
+<h4>决策 2：模型 + 规则融合（D4）</h4>
+<ul><li><strong>问题</strong>：编码器对数字、ID 切分不稳定（"01/15/1970" → "01" "/15/1970"）</li><li><strong>方案</strong>：pii_entity_merger.py PIIPattern（base_score + context_boost + validator 三角验证）</li><li><strong>Trade-off</strong>：借鉴 Presidio 已被验证；增加复杂度；调试更难</li><li><strong>可迁移性</strong>：中（仅 NER/PII 场景）</li></ul>
+<h4>决策 3：跨语言 manifest 协议（D5/I3）</h4>
+<ul><li><strong>问题</strong>：Python 模型权重要在 Swift 端跑</li><li><strong>方案</strong>：openmed-mlx.json manifest + 多种权重候选（safetensors / npz）+ tokenizer 子目录</li><li><strong>Trade-off</strong>：MLX 端零网络；Python↔Swift 共享语义；可重写 1+ 次以收敛</li><li><strong>可迁移性</strong>：中（跨语言 ML 部署通用挑战）</li></ul>
+<h4>决策 4：医疗分词后映射（D7/I7）</h4>
+<ul><li><strong>问题</strong>：传统做法是修改 tokenizer（复杂、需重训）</li><li><strong>方案</strong>：use_medical_tokenizer=True 默认开启，模型照常分词但推理完后把 span 重新映射到医学友好的 token 边界</li><li><strong>Trade-off</strong>：对老模型无痛升级是巨大价值；但边界精度依赖规则</li><li><strong>可迁移性</strong>：中（任何多源 NER 标签融合都能借鉴）</li></ul>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table style="border-collapse:collapse;width:100%;margin:1em 0;font-size:14px;"><thead><tr><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">维度</th><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">OpenMed</th><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">PyHealth</th><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">MedRAX</th><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">闭源云（AWS/Azure/Google）</th></tr></thead><tbody><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">部署位置</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;"><strong>端侧 / 本地</strong></td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">训练侧</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">端侧 + 云混合</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">仅云</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">任务类型</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">NER / PII / 抽取</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">多任务训练</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">视觉问答</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">多模态诊断</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">隐私</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;"><strong>可验证 0 网络</strong></td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">取决于下游</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">数据出端</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">数据必须出端</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">模态</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">文本 (+ Apple 端视觉 demo)</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">多模态</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">图像为主</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">文本+图像+语音</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">许可证</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Apache-2.0</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">MIT</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Apache-2.0</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">专有</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">iOS 支持</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;"><strong>原生 Swift MLX</strong></td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">无</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">无</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">无</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">多语 PII</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">12 语种 + 国别 ID 校验</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">取决于模型</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">英文为主</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">en/es 为主</td></tr></tbody></table>
+<h3>差异化护城河</h3>
+<p><strong>主护城河：主权医疗 NLP</strong>——"data never leaves the device" 是可验证、可营销、可合规审计的硬属性。在 GDPR / LGPD / HIPAA / PIPL 区域强监管下，这是<strong>结构性优势</strong>，不是产品优势。</p>
+<p><strong>次护城河：多语种 PII 广度</strong>——12 语种 + 国别 ID 校验，覆盖新兴市场（巴西/印度/土耳其/日本），是闭源云尚未投入的领域。</p>
+<h3>竞争风险</h3>
+<ol><li><strong>闭源云 LLM 降价</strong>：当 GPT-5/Claude 5 把"病历抽取"变成 prompt 时，专用 NER 价值被稀释。OpenMed 的回应是保持端侧 + 多语种 + 长期可解释。</li><li><strong>Apple Intelligence 集成</strong>：Apple 可能在 HealthKit 中内置 NER/PII，挤压 OpenMedKit 的市场。</li><li><strong>欧盟 AI Act</strong>：医疗 AI 属高风险类，合规成本上升可能反而利好可审计的开源。</li></ol>
+<h3>生态定位</h3>
+<p>OpenMed 处于"医疗 NLP 工具链"的<strong>部署 / 集成</strong>象限，与 PyHealth（研究/训练）、MedRAX（视觉/Agent）、闭源云（API/服务）形成 4 元互补生态——类似 Hugging Face transformers 在通用 NLP 中的事实标准之于 OpenMed 在医疗 NLP 的潜在位置。</p>
+<h2>套利机会分析</h2>
+<ul><li><strong>信息差</strong>：单日 133 星 + 单人主导 + 9 个月 890 commit 的开发密度，在医疗 NLP 这个常被云厂商垄断的领域是罕见的"被低估窗口"；当前 2,733 stars 仍处"刚被发现"阶段，跟踪未来 30 天是否消化为长期社区是关键。</li><li><strong>技术借鉴</strong>：后端协议化（D1）+ manifest 外置（I3）+ 权重重映射（I4）是跨硬件 ML 部署的<strong>三件套</strong>，可直接复用到任何多后端 NLP 项目；trust_remote_code 白名单（I6）是所有动态加载模型库必学的安全模式。</li><li><strong>生态位</strong>：在"医疗 NER + 端侧 + Apple 生态"四象限交叉处无对位竞争者；12 语种 PII 广度是结构性蓝海。</li><li><strong>趋势判断</strong>：合规上云 → 合规下沉的全球监管趋势（GDPR、HIPAA、欧盟 AI Act）下，on-device 医疗 AI 是结构性受益方；Apple Silicon 在 M 系列芯片上的 MLX 加速让"端侧跑 BERT"从不可能变成 24× 加速。</li></ul>
+<h2>风险与不足</h2>
+<ul><li><strong>Bus factor = 1</strong>：Maziyar Panahi 853/890 commit（99.8%），另外两位（Karl Swanson、Qiang Kou）各只贡献 1 次合并。<strong>项目命运完全绑在一个全职研究员的"业余时间"上</strong>——任何机构变故、健康问题都会让这个 2,733 star 的医疗 AI 仓库陷入无人维护。</li><li><strong>analyze_text 职责过重</strong>：~400 行单函数承担句子检测 → 块划分 → 推理 → 实体合并 → 格式输出全链路，违反"短函数"原则，对维护者是负担。</li><li><strong>Refactor = 0%</strong>：尚未触及技术债偿还阶段，但 4 月的 obfuscation 大合并本质上是隐式大重构。<strong>预计 1.x 末或 2.0 之前会出现一次集中 refactor 提交爆发</strong>。</li><li><strong>Release 流程手工化</strong>：38 次改 __about__.py、30 次改 CHANGELOG.md——发版密度高（月均 3.7 个）但靠人手，容易出现"刚发 v1.5.5 又合并新代码到 master"的常见事故。</li><li><strong>测试覆盖无量化阈值</strong>：tests/ 40 个文件齐全（覆盖 PII 准确性、国际化回归、隐私过滤安全、模型注册表多语种），但 pyproject.toml 未配 --cov-fail-under。</li><li><strong>Linter 显式配置缺失</strong>：.pre-commit-config.yaml 在但 pyproject.toml 缺 ruff/black 显式规则，错误处理上 try/except Exception 偏宽。</li><li><strong>无架构图与 benchmark 页</strong>：文档 12 语种 + 28 份 MkDocs 已属上乘，但 README 的 Mermaid 是新加的，没有系统化架构图；GLiNER/Med42 对比只散落在 README。</li></ul>
+<h2>行动建议</h2>
+<h3>如果你要用它</h3>
+<ul><li><strong>需要做 HIPAA/GDPR 区域合规</strong>：OpenMed 是端侧方案的事实候选；先用 v1.5.5 在 Apple Silicon 上跑 12 语种 PII，再决定是否投入生产。</li><li><strong>iOS 健康类 App</strong>：直接用 Swift OpenMedKit，配 OpenMedModelStore 做模型下载管理；MLX 后端在 M1+ 设备上 24–33× 加速。</li><li><strong>替代闭源云 NER API</strong>：当客户合规要求"数据不出域"时，OpenMed 是少有的 Apache-2.0 替代品；建议先用 analyze_text 跑通端到端，再切到 BatchProcessor（v1.5.5）拿 2–3× 吞吐。</li><li><strong>不要把它当云 API 用</strong>：这个项目不是 SaaS，没有 hosted demo，没有企业支持；如果你只想"调一个接口完成病历抽取"，AWS HealthLake / Azure Health Insights 仍是更短路径。</li></ul>
+<h3>如果你要学它</h3>
+<p><strong>重点关注文件</strong>（按可借鉴度排序）：</p>
+<ol><li>openmed/core/pii.py:140-172 — trust_remote_code 白名单 + 子串防误判的完整实现</li><li>openmed/core/backends.py:115-152 — InferenceBackend Protocol 多后端抽象</li><li>openmed/core/labels.py — CANONICAL_LABELS + normalize_label() 多源标签融合</li><li>openmed/mlx/artifact.py — openmed-mlx.json 跨语言 manifest 协议</li><li>openmed/mlx/convert.py — 5 套权重重映射表</li><li>openmed/core/pii_entity_merger.py — Presidio 风格的 ML+规则融合</li><li>swift/OpenMedKit/Sources/OpenMedKit/PostProcessing.swift（47KB）— BIO/BILOU 聚合</li></ol>
+<ul><li><strong>重点关注 Issue</strong>：</li><li><a href="https://github.com/maziyarpanahi/openmed/issues/27">#27 PII 2</a> — PII 已经演进到第二代，看 roadmap 怎么走</li><li><a href="https://github.com/maziyarpanahi/openmed/issues/184">#184 EPIC: SDOH</a> — 社会健康决定因素是医疗 NLP 的下一个增长点</li></ul>
+<h3>如果你要 fork 它</h3>
+<ul><li><strong>改进方向</strong>：</li><li><strong>架构拆分</strong>：把 analyze_text 拆成 sentence_detector / chunker / inferencer / merger / formatter 五个独立可测的 stage</li><li><strong>CI 加 --cov-fail-under=80%</strong>：现在 40 个测试文件齐全但无量化阈值</li><li><strong>release 自动化</strong>：__about__.py 38 次手改应改 hatch version + 自动化 changelog</li><li><strong>多模态扩张</strong>：MedRAX 走视觉 Agent 是结构性互补，可在 openmed/multimodal/ 下加图像/病理切片 NER</li><li><strong>MCP 生态</strong>：openmed/mcp/ 已有 FastMCP，可包装成 Claude/Cursor 的医疗 NER 工具</li><li><strong>招募贡献者</strong>：3 个贡献者 / 99.8% 集中度是单点故障，至少招 2–3 个 committer 分担核心模块</li></ul>
+<h3>知识入口</h3>
+<table style="border-collapse:collapse;width:100%;margin:1em 0;font-size:14px;"><thead><tr><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">资源</th><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">链接</th></tr></thead><tbody><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">DeepWiki</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;"><a href="https://deepwiki.com/maziyarpanahi/openmed">https://deepwiki.com/maziyarpanahi/openmed</a>（已收录，最后索引 2026-06-05，commit 6d094a0f）</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Zread.ai</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;"><a href="https://zread.ai/maziyarpanahi/openmed">https://zread.ai/maziyarpanahi/openmed</a>（已收录）</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">关联论文</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">arXiv:2508.01630（自报 12 项 NER 基准中 10 项 SOTA，第三方独立验证缺失）</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">在线 Demo</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">无（项目定位为本地 SDK，不提供 hosted demo）</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">文档站</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;"><a href="https://openmed.life/">https://openmed.life/</a></td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">品牌站</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">openmed.life（MkDocs + Material 主题）</td></tr></tbody></table>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "title": "2.5 个月 10.9k stars：turbovec 怎么把 Google 论文做成 FAISS 的 ARM 杀手",
+  "digest": "turbovec 把 Google TurboQuant 量化算法工程化为纯本地 Rust+Python 索引库，d=1536 压缩 10.3×，ARM 单线程比 FAISS 快 10-19%，端侧 RAG 的关键基础设施。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

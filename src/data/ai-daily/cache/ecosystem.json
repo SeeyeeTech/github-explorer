@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-06-12",
+    "last_run": "2026-06-13",
     "window_days": 30
   },
   "entries": [
@@ -309,6 +309,12 @@
       "canonical_url": "https://github.com/microsoft/PowerToys",
       "event_date": "2026-06-12",
       "date_seen": "2026-06-12"
+    },
+    {
+      "key": "github.com/andrewyng/aisuite",
+      "canonical_url": "https://github.com/andrewyng/aisuite",
+      "event_date": "2026-06-13",
+      "date_seen": "2026-06-13"
     }
   ]
 }

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/swc-project/swc">https://github.com/swc-project/swc</a></p></blockquote>
+<h2>一句话总结</h2>
+<p>swc 是用 Rust 重写 JavaScript/TypeScript 编译器的「前端工具链 LLVM」——单核作者 9 年、11,919 commits、33,615★，以 20× Babel 的速度被 Vercel/Next.js/Parcel/Deno 钦定为默认编译器，并通过 WASM 插件系统 + 零拷贝序列化把「速度」与「可扩展性」这两个对立面统一起来。</p>
+<h2>值得关注的理由</h2>
+<ol>
+<li><strong>「Babel 之后」的事实标准</strong>：从 Next.js 13 起，<code>.ts</code>/<code>.tsx</code> 编译默认走 swc 而不是 Babel，Vite、Parcel、Deno、Rspack 等十数个工具链直接消费 swc 9 年沉淀的 crate 拆分。</li>
+<li><strong>「极致性能 + 极简可扩展」的工程活标本</strong>：Atom 内联字符串、rkyv 跨 WASM 零拷贝、scoped allocator + <code>Id<T></code> generational handle——三件套是任何写编译器/解析器/插件系统的项目都该照搬的设计。</li>
+<li><strong>「单核 owner 长期主导」的现实样本</strong>：Donny/강동윤（kdy1）个人 43% commits、Apache-2.0 不卖身、不接 Vercel 公司 fork——给「个人 OSS + 公司背书」混合治理打了个标杆。</li>
+</ol>
+<h2>项目展示</h2>
+<p><a href="https://swc.rs/logo.png">swc logo</a> — 类型: hero（官网头图，Speedy Web Compiler 标识）</p>
+<p><a href="https://api.star-history.com/svg?repos=swc-project/swc&type=Timeline">Star History Chart</a> — 类型: hero（时间序列 star 增长图，9 年持续上扬 + 短期脉冲）</p>
+<p><a href="https://raw.githubusercontent.com/swc-project/swc-sponsor-images/main/sponsors.svg">Sponsors</a> — 类型: screenshot（赞助商墙，Vercel/Shopify/Cloudflare/ByteDance 等商业生态）</p>
+<p><a href="https://swc.rs/playground">Online Playground</a> — 类型: demo（官方在线 Playground，可即时输入 TS 看转译输出）</p>
+<blockquote><p>筛选说明：总共发现 11 个媒体元素，筛选后保留 4 个；排除了 ~5 个 npm 下载量徽章、CI 状态、crates.io 版本等纯装饰元素。</p></blockquote>
+<h2>项目画像</h2>
+<table>
+<thead>
+<tr><th>维度</th><th>数据</th></tr>
+</thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/swc-project/swc">https://github.com/swc-project/swc</a></td></tr>
+<tr><td>Star / Fork</td><td>33,615 / 1,398</td></tr>
+<tr><td>代码行数</td><td>9,437,912 总行（产线 Rust ≈ 36.8 万行 / 3.9%；其余为 JSON/JS/TS 测试 fixture 与 conformance 套件）</td></tr>
+<tr><td>主语言</td><td>Rust 97.1%</td></tr>
+<tr><td>项目年龄</td><td>101.8 个月（≈ 8 年 6 个月，首次提交 2017-12-22）</td></tr>
+<tr><td>总 commit</td><td>11,919（近 365 天 1,230 commit，日均 3.4）</td></tr>
+<tr><td>开发阶段</td><td>密集开发（年 commit 1,230，仍在快速迭代）</td></tr>
+<tr><td>开发模式</td><td>职业项目（周末 19.4% / 深夜 28.8%；Organization 账号 + 商业赞助）</td></tr>
+<tr><td>贡献模式</td><td>单核主导（Top 1 <code>kdy1</code> 占 39.7~43.0%，158 长尾贡献者共担其余）</td></tr>
+<tr><td>热度定位</td><td>大众热门（前端工具链基础设施，Top 5 级别）</td></tr>
+<tr><td>质量评级</td><td>代码 A / 文档 A / 测试 A / CI A+（15 个 workflow 含 bench / binary-size / ecosystem-ci）</td></tr>
+<tr><td>许可证</td><td>Apache-2.0</td></tr>
+<tr><td>版本策略</td><td>语义化版本 + 双轨（stable + <code>v1.15.x-nightly-YYYYMMDD.N</code>），8.5 年累计 1,335 tag</td></tr>
+</tbody>
+</table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>Donny/강동윤（kdy1），韩国开发者，2017-12 在 NAVER 体系下启动 swc，定位为「spdy web compiler」。9.2 年下来仍是单一 owner 主导（43% commits），合作者 OJ Kwon 与 Vercel/Next.js 团队形成「原作者 + 核心维护者 + 商业赞助方」三件套。值得注意的是：项目 <code>Cargo.toml</code> 的 authors 字段仍署名个人邮箱「강동윤 <kdy1997.dev@gmail.com>」——<strong>没有把版权转给 Vercel 也没有公司化</strong>，这是「个人 OSS + 公司背书」混合治理的现实样本。</p>
+<h3>问题判断</h3>
+<p>Babel 时代 JS 工具链的核心矛盾：<strong>慢</strong>（JS 写）+ <strong>灵活</strong>（plugin 集市）。Donny 看到的机会窗口是 Rust 在 2017-2018 编译器生态的成熟（rustc、deno 都已证明 Rust 能写工业级编译器），加上 Next.js 8+ Webpack 构建时间爆炸成为业界痛点——这是「速度优先 + WASM 插件保扩展」的时机判断。</p>
+<h3>解法哲学</h3>
+<p><code>AGENTS.md</code> 写明：「Write performant code. Always prefer performance over other things.」——这不是口号而是 commit 评审条款。具体到执行层：</p>
+<ul>
+<li><strong>选 Rust 不选 Go</strong>：与 esbuild 选 Go 不同，Rust 给出更精细的零成本抽象（Atom 内联字符串、scoped allocator、rkyv 零拷贝）以及更可控的 WASM 路径。</li>
+<li><strong>明确不做类型检查</strong>（#571 8 年争论后定）：swc 只做语法层转译，把类型完全交给 tsc——这种「明确不做什么」让 swc 边界清晰、不陷入 TS 类型系统这个无底洞。</li>
+<li><strong>自建 AST 不接 Babel AST</strong>（#1392 长期 open）：拒绝与 Babel 兼容 AST 的生态复用诱惑，换取「为速度重塑数据结构」的自由。</li>
+<li><strong>多 crate workspace 拆分</strong>：v1 把 120+ crate 拆到 workspace，让用户通过 <code>swc_core</code> facade 单一 feature 矩阵选 crate，避免「latest of each crates will work」承诺被破。</li>
+</ul>
+<h3>战略意图</h3>
+<p>swc 在作者更大图景中的位置是 <strong>「上游公共品」</strong>——不是直接面向终端用户的工具，而是被 Next.js/Vite/Parcel/Deno 等十数个工具链消费的中间层。这种定位带来三条商业化路径：</p>
+<ol>
+<li><strong>Open Collective 公开赞助</strong>（Vercel/ByteDance/Shopify/Trip.com 大额赞助方）</li>
+<li><strong>生态捕获</strong>：被 Next.js 锁定 = 锁定 React/Next.js 千万开发者</li>
+<li><strong>不卖身</strong>：Apache-2.0 + 持续在 swc-project 组织下开发，避免变成 framework 锁死</li>
+</ol>
+<blockquote><p>官网设计哲学补充：「extensible」——WASM 插件系统 + rkyv 零拷贝序列化 = 把「JS 写 plugin + 原生级速度」两个以前对立的事统一了。</p></blockquote>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<p>按新颖度×实用性排序：</p>
+<ol>
+<li><strong>rkyv 跨 WASM 零拷贝 AST</strong>（新颖 5 / 实用 4 / 可迁移 4）——把「插件系统性能」从「serde 序列化」拉到「共享内存」级别，社区尚无等价物。</li>
+<li><strong>WASM 插件 + plugin runner（wasmer / wasmtime 双 backend）</strong>（新颖 5 / 实用 4 / 可迁移 3）——提供「JS 写 SWC transform」路径，是 Babel 生态的真正杀手锏。</li>
+<li><strong>hygiene pass（解析后第一次给符号编号，第二次按编号改符号）</strong>（新颖 5 / 实用 4 / 可迁移 3）——工业级实现，借鉴 rustc 宏卫生但更简单；可作为「DSL 卫生」教学样本。</li>
+<li><strong>Atom / Wtf8Atom 内联字符串</strong>（新颖 4 / 实用 5 / 可迁移 5）——改写「JS 工具链 = String 分配机器」这一默认；oxc 直接抄。</li>
+<li><strong>scoped allocator + <code>Id<T></code> generational handle</strong>（新颖 4 / 实用 5 / 可迁移 5）——把 Rust 借用检查器在「pass 之间共享子节点」场景的痛点彻底解决。</li>
+<li><strong>codegen-of-codegen（ast_node/parser/codegen 三件套宏）</strong>（新颖 4 / 实用 4 / 可迁移 4）——把 200+ AST 节点的样板代码降到 0；缺点是 build 慢。</li>
+<li><strong>fast_strip 模式（只剥语法不查类型）</strong>（新颖 3 / 实用 5 / 可迁移 5）——明确边界；与 tsc 互不越权；oxc/esbuild 都已跟随。</li>
+<li><strong>CI 矩阵含 binary-size + bench + ecosystem-ci</strong>（新颖 3 / 实用 5 / 可迁移 5）——<code>.github/workflows/{bench,binary-size,ecosystem-ci,claude}.yml</code> 把「性能回归 + 二进制体积 + 生态集成」全自动化。</li>
+</ol>
+<h3>可复用的模式与技巧</h3>
+<table>
+<thead>
+<tr><th>模式</th><th>简述</th><th>适用场景</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Atom = inline string + CoW</strong></td><td>32 字节内联 + 堆分配 fallback，避免 String 分配</td><td>任何 AST-heavy 库（Tree-sitter、oxc、Biome）</td></tr>
+<tr><td><strong>rkyv 跨 FFI 边界</strong></td><td>编译期 bytecheck + 共享内存传递 AST</td><td>plugin-heavy 系统（编辑器、规则引擎、AI agent runtime）</td></tr>
+<tr><td><strong>scoped allocator + Id<T></strong></td><td>一次性 arena 分配 + 带 generation 的 typed handle</td><td>编译器、查询引擎、游戏 ECS、规则引擎</td></tr>
+<tr><td><strong>Visit/Fold trait + Repeated</strong></td><td>自动重复 pass 直到 fixed point</td><td>多 pass 优化、求解器</td></tr>
+<tr><td><strong>facade crate + feature flag</strong></td><td><code>swc_core</code> 统一 re-export + 互斥约束</td><td>多后端 + 多场景的基础库（数据库驱动、AI 推理、跨平台 GUI）</td></tr>
+<tr><td><strong>明确「不做」清单</strong></td><td>#571 TS type checker 8 年争论后明确拒绝</td><td>任何「自己只做语法、不做语义」的工具</td></tr>
+</tbody>
+</table>
+<h3>关键设计决策</h3>
+<ol>
+<li><strong>决策</strong>: 把 swc_core 做成「feature-flag facade crate」<br/>问题: 120+ crate + 5 种绑定（Node/WASM/CLI/Rust direct）让用户手挑 10+ crate 选版本，必然破「latest of each crates will work」承诺<br/>方案: <code>swc_core</code> 单 facade crate，13 个 feature 在 <code>lib.rs</code> 顶层做 re-export + 互斥约束<br/>Trade-off: 用户爽了，crate 内部出现「feature 矩阵爆炸」「不显式 feature 即编译失败的玄学」<br/>可迁移性: 极高——任何要发「多后端 + 多场景」的基础库都该照搬</li>
+<li><strong>决策</strong>: Atom 用 hstr::Atom 内联 + unsafe 而非 String 分配<br/>问题: JS AST 节点里 80%+ 的字段是 identifier/keyword/property key，String 分配 + 堆指针追踪是主要开销；String 也不支持 WTF-8<br/>方案: <code>#[repr(transparent)] struct Atom(hstr::Atom)</code> 配合 <code>Wtf8Atom</code> 解决 UTF-16 surrogate；序列化端用 <code>cbor4ii</code> 自定义编解码<br/>Trade-off: unsafe 量增加（transmute / from_bytes_unchecked），需要 cbor 端 unsafe 配套<br/>可迁移性: 极高——任何 AST-heavy 库都该走 inline-string + CoW</li>
+<li><strong>决策</strong>: rkyv 跨 WASM boundary 零拷贝<br/>问题: SWC 插件要暴露给 JS/其他语言用，传统 <code>serde_json</code> 跨边界要 marshal → 插件性能死结<br/>方案: rkyv 0.8.16 + rancor 错误体系 + bytecheck 在编译期生成 <code>CheckBytes</code>；<code>memory_interop.rs</code> + <code>runtime.rs</code> 在 <code>swc_plugin_runner</code> 里做 guest→host 共享内存传递<br/>Trade-off: rkyv 0.8 还在快速演进，跨大版本 ABI 不稳；用户必须启用 feature 才能享受<br/>可迁移性: 高——任何「host/guest 跨语言共享复杂数据结构」的场景都能用</li>
+<li><strong>决策</strong>: scoped bump allocator + Id<T> 带 generation 的 typed handle<br/>问题: AST 节点每变换一次都要 <code>clone()</code> 是性能死结；用 Rust 生命周期又会和「pass 之间共享子节点」冲突<br/>方案: <code>crates/swc_allocator</code> 提供 <code>Allocator::scope(fn)</code> 一次性 arena 分配；<code>crates/swc_arena</code> 用 <code>Id<T> = NonZeroU64 + PhantomData</code> 给不带生命周期的 typed handle，配 generation 防止悬垂引用<br/>Trade-off: scope 边界外的对象不能持有 arena 内指针（程序员心智负担），debug 难<br/>可迁移性: 极高——编译器、查询引擎、游戏 ECS 都能直接套</li>
+<li><strong>决策</strong>: TS 「fast strip」而非真 tsc 替换<br/>问题: #571 TS type checker issue 争论 8 年，最终选择不做类型检查——避免在 swc 里重新实现 TS 类型系统<br/>方案: <code>swc_ts_fast_strip</code> 与 <code>binding_typescript_wasm</code> 只做「类型注解剥除 + 枚举/命名空间降级」——把类型完全交给外部 <code>tsc</code><br/>Trade-off: 用户必须双跑（<code>tsc --noEmit && swc</code>）；但与 <code>tsc</code> 行为一致，零边界 bug<br/>可迁移性: 极高——任何「自己只做语法、不做语义」的工具都该这样明确边界</li>
+<li><strong>决策</strong>: ES / CSS / HTML / XML / Regexp 共享 <code>swc_common</code> + <code>swc_atoms</code> + <code>swc_visit</code><br/>问题: 5 种语言管道如果各做各的 span/hygiene/error reporter 就会重复 5 次<br/>方案: <code>swc_common</code>（span/hygiene/SourceMap/SyntaxContext/Mark）、<code>swc_atoms</code>（Atom/Wtf8Atom）、<code>swc_visit</code>（Visit/Fold trait + Repeated）下沉到所有语言管道共享<br/>Trade-off: <code>swc_common</code> 改动一次就影响 5 个语言管道，CI 矩阵必须五向都跑<br/>可迁移性: 中——需要业务真的「多语言同源」才有价值</li>
+</ol>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table>
+<thead>
+<tr><th>维度</th><th>swc</th><th>oxc</th><th>biome</th><th>esbuild</th><th>babel</th></tr>
+</thead>
+<tbody>
+<tr><td>语言</td><td>Rust 97%</td><td>Rust</td><td>Rust + 部分 Go</td><td>Go</td><td>JS</td></tr>
+<tr><td>性能 vs Babel</td><td>20×</td><td>20×+</td><td>10-15×</td><td>15-20×</td><td>1×</td></tr>
+<tr><td>Plugin 系统</td><td>WASM 插件 + rkyv 零拷贝</td><td>无（自建 transform API）</td><td>Rome 风格 config</td><td>不可扩展（明确拒绝）</td><td>JS plugin 集市</td></tr>
+<tr><td>AST</td><td>自建（swc_ecma_ast）</td><td>自建（oxc_ast）</td><td>自建（biome_js_syntax）</td><td>自建</td><td>estree 兼容</td></tr>
+<tr><td>多语言管道</td><td>ES/CSS/HTML/XML/Regexp</td><td>ES（主）/ CSS</td><td>JS/TS + JSON</td><td>ES + CSS（部分）</td><td>JS/TS</td></tr>
+<tr><td>集成规模</td><td>Next.js/Parcel/Deno 默认</td><td>Vite 官方合作</td><td>Rspack/Vite 部分</td><td>Vite/Bun 默认</td><td>几乎所有</td></tr>
+<tr><td>Conformance</td><td>test262 + tsc-references</td><td>test262</td><td>test262</td><td>test262</td><td>test262</td></tr>
+<tr><td>商业赞助</td><td>Vercel/ByteDance/Shopify</td><td>ByteDance/Vite</td><td>社区赞助</td><td>个人 + Cloudflare</td><td>社区 + OpenJSF</td></tr>
+<tr><td>治理</td><td>单核 owner + 公司背书</td><td>较年轻单一团队</td><td>社区主导</td><td>Evan Czaplicki 一人</td><td>基金会 + 社区</td></tr>
+</tbody>
+</table>
+<h3>差异化护城河</h3>
+<ol>
+<li><strong>「WASM 插件 + rkyv 零拷贝」是真正护城河</strong>——把「JS 写 plugin + 原生级速度」两个以前对立的事统一了，oxc/biome 都还没等价物。</li>
+<li><strong>9.2 年沉淀的 <code>swc_ecma_compat_*</code> / <code>swc_ecma_regexp_*</code> / <code>swc_ecma_preset_env</code></strong>——「一个语言版本一个 crate」的细粒度拆分，竞品都在追赶。</li>
+<li><strong>Vercel/Next.js 官方集成 + 五大赞助方</strong>——其他 Rust 竞品短期拿不到的资源。</li>
+<li><strong>多语言管道（ES/CSS/HTML/XML/Regexp）</strong>——oxc 主要是 ES，biome 主要是 JS+JSON，swc 的「全 Web 编译器」定位是唯一。</li>
+<li><strong>Apache-2.0 友好许可 + 不卖身</strong>——对比 esbuild/oxc 的强公司绑定，swc 在企业级采用上有信任优势。</li>
+</ol>
+<h3>竞争风险</h3>
+<ol>
+<li><strong>biome 整合上游</strong>（高）——biome 已经在内化 parser+transformer 层，如果未来 biome 能直接被 swc 之外的工具链消费，会蚕食 swc 在「应用层」的空间。</li>
+<li><strong>oxc 性能 + Vite 绑定</strong>（中）——年轻项目 + 强赞助，性能反超，Vite 生态可能完全切到 oxc；swc 需要保住「多语言 + 插件」双护城河。</li>
+<li><strong>esbuild 默认化</strong>（中）——新项目首选 esbuild 的趋势在 Bun/Vite 生态中加剧；swc 必须靠 WASM 插件留出 plugin 退路。</li>
+<li><strong>Babel 退出历史</strong>（低/利好）——Babel 的退出是 swc 利好。</li>
+<li><strong>terser 被边缘化</strong>（低/利好）——minifier 领域 swc 已经几乎替代 terser。</li>
+</ol>
+<h3>生态定位</h3>
+<blockquote><p>swc 已经从「Babel 的更快替代品」演化为「<strong>前端工具链的 LLVM 中间层</strong>」——不直接面向终端用户，而是被 Next.js/Vite/Parcel/Deno/Nuxt/Rspack 等十数个工具消费。</p></blockquote>
+<p><strong>真正的胜负手是：当 plugin 生态足够大时，swc 不需要自己赢任何单点工具战</strong>——只要继续做「被集成最快的那块拼图」。</p>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>: 否。swc 已是行业基础设施级项目（33,615★、Vercel/ByteDance 真生产负载托底），无套利空间。</li>
+<li><strong>技术借鉴</strong>: 极高。<strong>Atom + rkyv + scoped allocator</strong> 三件套是任何写编译器/解析器/插件系统的项目都该照搬的设计。</li>
+<li><strong>生态位</strong>: 填补「Babel 退出后的 JS 工具链底座」空白。竞品都在追赶，但 swc 9.2 年沉淀的 120+ crate 是事实护城河。</li>
+<li><strong>趋势判断</strong>: swc 处于「成熟期稳定维护 + 持续演进」阶段（2024+ 月均 commit 收敛到 60~210），<strong>主战场是保住 Vercel/Next.js 锁定 + 拓展 WASM 插件生态</strong>；最大变量是 oxc 在 2025-2026 的快速追赶。</li>
+</ul>
+<h2>风险与不足</h2>
+<ol>
+<li><strong>单核 owner 风险</strong>：43% commits 集中在 Donny/강동윤 一人，owner 倦怠/转向任何因素都会导致节奏断档。</li>
+<li><strong>rkyv ABI 不稳</strong>：0.8 版本还在快速演进，跨大版本 ABI 不稳，下游插件开发者需要跟进 breaking change。</li>
+<li><strong>Cargo.lock 治理成本</strong>：4,608 次 Cargo.lock 更新 ≈ 日均 ≥ 1.5 次依赖调整，版本治理不轻。</li>
+<li><strong>unsafe 集中</strong>：Atom/rkyv/FFI 层都涉及 unsafe，core parser 43 unwrap、minifier 97 unwrap（性能优先 tradeoff），安全审计成本不低。</li>
+<li><strong>文档薄文厚码</strong>：ARCHITECTURE.md 只覆盖到 152 行且聚焦于历史宏，深度架构需要从 <code>swc_core/src/</code> 的 <code>__diagnostics.rs</code> <code>plugin.rs</code> <code>quote.rs</code> 推断——新人 onboarding 成本高。</li>
+<li><strong>「untrusted input security scope」v1.15.41 文档化</strong>——项目开始主动收敛「安全边界」承诺，是走向成熟基础设施的信号，但也意味着不要把 swc 当 sandbox 跑不可信代码。</li>
+<li><strong>biome 上游整合</strong>（最大外部风险）——biome 正在把「parser+transformer」层内化，未来可能直接蚕食 swc 在「应用层」的空间。</li>
+</ol>
+<h2>行动建议</h2>
+<ul>
+<li><strong>如果你要用它</strong>:
+<ul>
+<li><strong>大型 Next.js 项目</strong>：直接用 <code>swc</code> 配置（默认就是），20× 速度提升立竿见影</li>
+<li><strong>自定义 transform 需求</strong>：优先用 WASM 插件 + rkyv 模式（不要 fork），保持 swc 上游同步</li>
+<li><strong>TS 类型检查</strong>：双跑 <code>tsc --noEmit && swc</code>（不要期待 swc 做类型检查）</li>
+<li><strong>多语言需求</strong>（CSS/HTML/XML）：swc 是唯一支持全套的 Rust 工具链</li>
+</ul>
+</li>
+<li><strong>如果你要学它</strong>:
+<ul>
+<li><strong>第一站</strong>：<code>crates/swc_atoms/src/lib.rs</code>——Atom 内联字符串是 swc 最值钱的「一行决策」</li>
+<li><strong>第二站</strong>：<code>crates/swc_plugin_runner/src/{runtime.rs, transform_executor.rs, memory_interop.rs}</code>——WASM 插件执行核心</li>
+<li><strong>第三站</strong>：<code>crates/swc_allocator/src/lib.rs</code> + <code>crates/swc_arena/src/lib.rs</code>——scoped allocator + Id<T> 模式</li>
+<li><strong>第四站</strong>：<code>crates/swc_ecma_visit/src/lib.rs</code>——Visit/Fold trait + Repeated 自动重复 pass</li>
+<li><strong>第五站</strong>：<code>crates/swc_core/Cargo.toml</code>——facade crate 的 feature 矩阵设计</li>
+</ul>
+</li>
+<li><strong>如果你要 fork 它</strong>:
+<ul>
+<li>方向 1: <strong>WASM 插件市场</strong>——swc-project/plugins 已有 387★，可深耕插件分发</li>
+<li>方向 2: <strong>swc_ecma_react_compiler</strong> 独立成 npm 包——7,179 次变更说明 React Compiler 集成是高需求方向</li>
+<li>方向 3: <strong>preset_env 优化</strong>——按 browser target 自动选 transform 子集是最干净的实现</li>
+<li>方向 4: <strong>绑定新语言管道</strong>——CSS/HTML 已有，可考虑 SVG/GraphQL/JSON Schema</li>
+<li>方向 5: <strong>避免重做</strong>：不要重做 TS 类型检查、不要做完整 bundler（已有 swc_bundler）——做边界外的事</li>
+</ul>
+</li>
+</ul>
+<h3>知识入口</h3>
+<table>
+<thead>
+<tr><th>资源</th><th>链接</th></tr>
+</thead>
+<tbody>
+<tr><td>DeepWiki</td><td><a href="https://deepwiki.com/swc-project/swc">https://deepwiki.com/swc-project/swc</a>（已收录，含 5 层 crate 架构详解）</td></tr>
+<tr><td>Zread.ai</td><td>未确认收录（当前会话 WebFetch 返回 403）</td></tr>
+<tr><td>关联论文</td><td>无（工程类项目，无对应 arXiv 论文）</td></tr>
+<tr><td>在线 Demo</td><td><a href="https://swc.rs/playground">swc-playground</a>（官方在线 Playground，可即时试转译）</td></tr>
+<tr><td>架构文档</td><td><a href="https://swc.rs/">swc.rs</a> + 仓内 <code>ARCHITECTURE.md</code> / <code>AGENTS.md</code></td></tr>
+<tr><td>关键博客</td><td><a href="https://swc.rs/blog/perf-swc-vs-babel">Performance Comparison of SWC and Babel</a>（Babel 团队本人写的「被超车」基准） + <a href="https://swc.rs/blog/swc-1">Introducing SWC 1.0</a></td></tr>
+</tbody>
+</table>
+</body>
+</html>

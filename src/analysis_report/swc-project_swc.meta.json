@@ -1,0 +1,6 @@
+{
+  "title": "33K★ swc：取代 Babel 的 Rust 编译器，9 年怎么炼成",
+  "digest": "单核 owner 主导 9 年、33,615★ 的 Rust 重写 JS/TS 编译器，20× Babel 速度被 Next.js/Vite/Deno 默认采用；Atom + rkyv + scoped allocator 三件套是任何编译器/插件系统的设计范本。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

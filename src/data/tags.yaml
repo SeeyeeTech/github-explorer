@@ -1042,6 +1042,8 @@ entries:
   lizardbyte_sunshine:
   - iot-hardware
   - protocol-spec
+  lmcache_lmcache:
+  - iot-hardware
   lobehub_lobehub:
   - ai-agent
   - editor-kms
@@ -1742,6 +1744,8 @@ entries:
   - rag-search
   - video-audio
   - media-generation
+  swc-project_swc:
+  - web-framework
   swisskyrepo_payloadsallthethings:
   - iot-hardware
   - security

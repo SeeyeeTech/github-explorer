@@ -33,11 +33,11 @@
     "name": "iptv-org/iptv",
     "url": "https://github.com/iptv-org/iptv",
     "language": "TypeScript",
-    "stars": 118356,
-    "forks": 6324,
+    "stars": 119882,
+    "forks": 6412,
     "description": "Collection of publicly available IPTV channels from all over the world",
-    "last_seen": "2026-06-13",
-    "trending_days": 29
+    "last_seen": "2026-06-14",
+    "trending_days": 30
   },
   {
     "name": "sansan0/TrendRadar",
@@ -370,6 +370,16 @@
     "trending_days": 13
   },
   {
+    "name": "shiyu-coder/Kronos",
+    "url": "https://github.com/shiyu-coder/kronos",
+    "language": "Python",
+    "stars": 29738,
+    "forks": 5137,
+    "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+    "last_seen": "2026-06-14",
+    "trending_days": 13
+  },
+  {
     "name": "bytedance/deer-flow",
     "url": "https://github.com/bytedance/deer-flow",
     "language": "Python",
@@ -397,16 +407,6 @@
     "forks": 74575,
     "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
     "last_seen": "2026-04-26",
-    "trending_days": 12
-  },
-  {
-    "name": "shiyu-coder/Kronos",
-    "url": "https://github.com/shiyu-coder/kronos",
-    "language": "Python",
-    "stars": 26732,
-    "forks": 4637,
-    "description": "Kronos: A Foundation Model for the Language of Financial Markets",
-    "last_seen": "2026-05-27",
     "trending_days": 12
   },
   {
@@ -1770,6 +1770,16 @@
     "trending_days": 5
   },
   {
+    "name": "Free-TV/IPTV",
+    "url": "https://github.com/free-tv/iptv",
+    "language": "Python",
+    "stars": 16792,
+    "forks": 2538,
+    "description": "M3U Playlist for free TV channels",
+    "last_seen": "2026-06-14",
+    "trending_days": 5
+  },
+  {
     "name": "ggml-org/llama.cpp",
     "url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
@@ -1907,6 +1917,16 @@
     "forks": 534,
     "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
     "last_seen": "2026-06-12",
+    "trending_days": 5
+  },
+  {
+    "name": "meshery/meshery",
+    "url": "https://github.com/meshery/meshery",
+    "language": "TypeScript",
+    "stars": 10299,
+    "forks": 3414,
+    "description": "Meshery, the cloud native manager",
+    "last_seen": "2026-06-14",
     "trending_days": 5
   },
   {
@@ -2440,16 +2460,6 @@
     "trending_days": 4
   },
   {
-    "name": "Free-TV/IPTV",
-    "url": "https://github.com/free-tv/iptv",
-    "language": "Python",
-    "stars": 12240,
-    "forks": 1854,
-    "description": "M3U Playlist for free TV channels",
-    "last_seen": "2026-01-27",
-    "trending_days": 4
-  },
-  {
     "name": "gin-gonic/gin",
     "url": "https://github.com/gin-gonic/gin",
     "language": "Go",
@@ -2687,16 +2697,6 @@
     "forks": 294,
     "description": "open-source healthcare ai",
     "last_seen": "2026-06-12",
-    "trending_days": 4
-  },
-  {
-    "name": "meshery/meshery",
-    "url": "https://github.com/meshery/meshery",
-    "language": "JavaScript",
-    "stars": 8617,
-    "forks": 2680,
-    "description": "Meshery, the cloud native manager",
-    "last_seen": "2025-10-06",
     "trending_days": 4
   },
   {
@@ -3180,6 +3180,16 @@
     "trending_days": 3
   },
   {
+    "name": "chatwoot/chatwoot",
+    "url": "https://github.com/chatwoot/chatwoot",
+    "language": "Ruby",
+    "stars": 31046,
+    "forks": 7572,
+    "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+    "last_seen": "2026-06-14",
+    "trending_days": 3
+  },
+  {
     "name": "cheahjs/free-llm-api-resources",
     "url": "https://github.com/cheahjs/free-llm-api-resources",
     "language": "Python",
@@ -3380,6 +3390,16 @@
     "trending_days": 3
   },
   {
+    "name": "freeCodeCamp/freeCodeCamp",
+    "url": "https://github.com/freecodecamp/freecodecamp",
+    "language": "TypeScript",
+    "stars": 446913,
+    "forks": 44936,
+    "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+    "last_seen": "2026-06-14",
+    "trending_days": 3
+  },
+  {
     "name": "Gar-b-age/CookLikeHOC",
     "url": "https://github.com/gar-b-age/cooklikehoc",
     "language": "JavaScript",
@@ -3447,6 +3467,16 @@
     "forks": 121,
     "description": "A JAX-native LLM Post-Training Library",
     "last_seen": "2025-10-04",
+    "trending_days": 3
+  },
+  {
+    "name": "GorvGoyl/Clone-Wars",
+    "url": "https://github.com/gorvgoyl/clone-wars",
+    "language": "Unknown",
+    "stars": 35104,
+    "forks": 3167,
+    "description": "100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars.",
+    "last_seen": "2026-06-14",
     "trending_days": 3
   },
   {
@@ -3760,6 +3790,16 @@
     "trending_days": 3
   },
   {
+    "name": "music-assistant/server",
+    "url": "https://github.com/music-assistant/server",
+    "language": "Python",
+    "stars": 2101,
+    "forks": 434,
+    "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
+    "last_seen": "2026-06-14",
+    "trending_days": 3
+  },
+  {
     "name": "nitrojs/nitro",
     "url": "https://github.com/nitrojs/nitro",
     "language": "TypeScript",
@@ -3797,6 +3837,16 @@
     "forks": 1187,
     "description": "PersonaPlex code.",
     "last_seen": "2026-04-08",
+    "trending_days": 3
+  },
+  {
+    "name": "NVIDIA/SkillSpector",
+    "url": "https://github.com/nvidia/skillspector",
+    "language": "Python",
+    "stars": 4880,
+    "forks": 372,
+    "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+    "last_seen": "2026-06-14",
     "trending_days": 3
   },
   {
@@ -4350,6 +4400,16 @@
     "trending_days": 2
   },
   {
+    "name": "andrewyng/aisuite",
+    "url": "https://github.com/andrewyng/aisuite",
+    "language": "Python",
+    "stars": 14271,
+    "forks": 1493,
+    "description": "Simple, unified interface to multiple Generative AI providers",
+    "last_seen": "2026-06-14",
+    "trending_days": 2
+  },
+  {
     "name": "Andyyyy64/whichllm",
     "url": "https://github.com/andyyyy64/whichllm",
     "language": "Python",
@@ -4597,16 +4657,6 @@
     "forks": 853,
     "description": "Open source Loom alternative. Beautiful, shareable screen recordings.",
     "last_seen": "2025-10-11",
-    "trending_days": 2
-  },
-  {
-    "name": "chatwoot/chatwoot",
-    "url": "https://github.com/chatwoot/chatwoot",
-    "language": "Ruby",
-    "stars": 30662,
-    "forks": 7540,
-    "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
-    "last_seen": "2026-06-13",
     "trending_days": 2
   },
   {
@@ -4920,16 +4970,6 @@
     "trending_days": 2
   },
   {
-    "name": "freeCodeCamp/freeCodeCamp",
-    "url": "https://github.com/freecodecamp/freecodecamp",
-    "language": "TypeScript",
-    "stars": 441119,
-    "forks": 44071,
-    "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-    "last_seen": "2026-04-05",
-    "trending_days": 2
-  },
-  {
     "name": "freemocap/freemocap",
     "url": "https://github.com/freemocap/freemocap",
     "language": "Python",
@@ -5097,16 +5137,6 @@
     "forks": 1491,
     "description": "A modern download manager that supports all platforms. Built with Golang and Flutter.",
     "last_seen": "2025-11-08",
-    "trending_days": 2
-  },
-  {
-    "name": "GorvGoyl/Clone-Wars",
-    "url": "https://github.com/gorvgoyl/clone-wars",
-    "language": "Unknown",
-    "stars": 30982,
-    "forks": 2757,
-    "description": "100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars.",
-    "last_seen": "2025-10-16",
     "trending_days": 2
   },
   {
@@ -5670,16 +5700,6 @@
     "trending_days": 2
   },
   {
-    "name": "music-assistant/server",
-    "url": "https://github.com/music-assistant/server",
-    "language": "Python",
-    "stars": 1906,
-    "forks": 426,
-    "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
-    "last_seen": "2026-06-13",
-    "trending_days": 2
-  },
-  {
     "name": "NanmiCoder/MediaCrawler",
     "url": "https://github.com/nanmicoder/mediacrawler",
     "language": "Python",
@@ -5727,16 +5747,6 @@
     "forks": 49,
     "description": "cuTile is a programming model for writing parallel kernels for NVIDIA GPUs",
     "last_seen": "2025-12-09",
-    "trending_days": 2
-  },
-  {
-    "name": "NVIDIA/SkillSpector",
-    "url": "https://github.com/nvidia/skillspector",
-    "language": "Python",
-    "stars": 3941,
-    "forks": 297,
-    "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
-    "last_seen": "2026-06-13",
     "trending_days": 2
   },
   {
@@ -6097,6 +6107,16 @@
     "forks": 434,
     "description": "A collaborative note taking, wiki and documentation platform that scales. Built with Django and React.",
     "last_seen": "2025-11-02",
+    "trending_days": 2
+  },
+  {
+    "name": "swc-project/swc",
+    "url": "https://github.com/swc-project/swc",
+    "language": "Rust",
+    "stars": 33716,
+    "forks": 1399,
+    "description": "Rust-based platform for the Web",
+    "last_seen": "2026-06-14",
     "trending_days": 2
   },
   {
@@ -6630,16 +6650,6 @@
     "trending_days": 1
   },
   {
-    "name": "andrewyng/aisuite",
-    "url": "https://github.com/andrewyng/aisuite",
-    "language": "Python",
-    "stars": 13988,
-    "forks": 1482,
-    "description": "Simple, unified interface to multiple Generative AI providers",
-    "last_seen": "2026-06-13",
-    "trending_days": 1
-  },
-  {
     "name": "Anduin2017/HowToCook",
     "url": "https://github.com/anduin2017/howtocook",
     "language": "Dockerfile",
@@ -7007,6 +7017,16 @@
     "forks": 7148,
     "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
     "last_seen": "2026-04-26",
+    "trending_days": 1
+  },
+  {
+    "name": "cypress-io/cypress",
+    "url": "https://github.com/cypress-io/cypress",
+    "language": "TypeScript",
+    "stars": 49786,
+    "forks": 3411,
+    "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+    "last_seen": "2026-06-14",
     "trending_days": 1
   },
   {
@@ -7857,6 +7877,16 @@
     "forks": 36,
     "description": "Private, fast, and honest web browser",
     "last_seen": "2025-09-27",
+    "trending_days": 1
+  },
+  {
+    "name": "Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
+    "url": "https://github.com/introduction-to-autonomous-robots/introduction-to-autonomous-robots",
+    "language": "TeX",
+    "stars": 2478,
+    "forks": 583,
+    "description": "Introduction to Autonomous Robots",
+    "last_seen": "2026-06-14",
     "trending_days": 1
   },
   {
@@ -8920,6 +8950,16 @@
     "trending_days": 1
   },
   {
+    "name": "puppeteer/puppeteer",
+    "url": "https://github.com/puppeteer/puppeteer",
+    "language": "TypeScript",
+    "stars": 94572,
+    "forks": 9434,
+    "description": "JavaScript API for Chrome and Firefox",
+    "last_seen": "2026-06-14",
+    "trending_days": 1
+  },
+  {
     "name": "putyy/res-downloader",
     "url": "https://github.com/putyy/res-downloader",
     "language": "Go",
@@ -8927,6 +8967,16 @@
     "forks": 1777,
     "description": "视频号、小程序、抖音、快手、小红书、直播流、m3u8、酷狗、QQ音乐等常见网络资源下载!",
     "last_seen": "2026-01-24",
+    "trending_days": 1
+  },
+  {
+    "name": "pytest-dev/pytest",
+    "url": "https://github.com/pytest-dev/pytest",
+    "language": "Python",
+    "stars": 13942,
+    "forks": 3172,
+    "description": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing",
+    "last_seen": "2026-06-14",
     "trending_days": 1
   },
   {
@@ -9297,16 +9347,6 @@
     "forks": 6105,
     "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
     "last_seen": "2025-12-29",
-    "trending_days": 1
-  },
-  {
-    "name": "swc-project/swc",
-    "url": "https://github.com/swc-project/swc",
-    "language": "Rust",
-    "stars": 33557,
-    "forks": 1397,
-    "description": "Rust-based platform for the Web",
-    "last_seen": "2026-06-13",
     "trending_days": 1
   },
   {

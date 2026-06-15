@@ -20,7 +20,9 @@ concurrency:
 
 jobs:
   analyze:
-    if: contains(github.event.issue.labels.*.name, 'analyze-request')
+    if: >-
+      contains(github.event.issue.labels.*.name, 'analyze-request')
+      || startsWith(github.event.issue.title, '[Analyze]')
     runs-on: ubuntu-latest
     timeout-minutes: 60
     env:
@@ -106,6 +108,14 @@ jobs:
             exit 1
           fi
           echo "lines=$(wc -l < "$REPORT_PATH")" >> "$GITHUB_OUTPUT"
+
+      - name: Prefix report title（统一加「GitHub推荐：」前缀）
+        # 确定性后处理：给新产报告的 H1 加前缀（幂等）。
+        # 必须在 build_reports_index 之前，reports.json 索引的 title 才会带上前缀。
+        # 只改本次新产报告，不动历史。
+        env:
+          REPORT_PATH: ${{ steps.validate.outputs.report_path }}
+        run: python3 src/scripts/prefix_report_title.py "$REPORT_PATH"
 
       - name: Refresh site metadata (DB-backed)
         # 阶段 1-4：reports + tags + starred + trending + publish_history 主写 DB

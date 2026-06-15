@@ -187,6 +187,13 @@ jobs:
           echo "path=$new_md" >> "$GITHUB_OUTPUT"
           echo "::notice::生成报告: $new_md"
 
+      - name: Prefix report title（统一加「GitHub推荐：」前缀）
+        # 确定性后处理：给新产报告的 H1 加前缀（幂等）。
+        # 必须在 md2wechat 之前，公众号 meta.json 的 title 才会带上前缀。
+        # 只改本次新产报告，不动历史。
+        if: steps.report.outputs.path != ''
+        run: python3 src/scripts/prefix_report_title.py "${{ steps.report.outputs.path }}"
+
       - name: Run md2wechat (转 HTML + 元数据 JSON，不发布)
         if: |
           steps.report.outputs.path != '' &&

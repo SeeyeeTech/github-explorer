@@ -1201,7 +1201,8 @@
           "url": "https://github.com/charmbracelet/vhs",
           "stars": 19947,
           "description": "Your CLI home video recorder 📼",
-          "starredAt": "2026-06-14"
+          "starredAt": "2026-06-14",
+          "reportSlug": "charmbracelet_vhs"
         },
         {
           "name": "tamnd/ascii-gif",
@@ -11903,7 +11904,8 @@
           "url": "https://github.com/charmbracelet/vhs",
           "stars": 19947,
           "description": "Your CLI home video recorder 📼",
-          "starredAt": "2026-03-08"
+          "starredAt": "2026-03-08",
+          "reportSlug": "charmbracelet_vhs"
         },
         {
           "name": "shareAI-lab/claw0",

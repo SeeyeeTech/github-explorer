@@ -306,6 +306,10 @@ entries:
   - security
   charmbracelet_glow:
   - devtools
+  charmbracelet_vhs:
+  - uncategorized
+  chatwoot_chatwoot:
+  - education
   cheahjs_free-llm-api-resources:
   - devtools
   - workflow-automation
@@ -637,6 +641,8 @@ entries:
   free-tv_iptv:
   - ai-agent
   - workflow-automation
+  freecodecamp_freecodecamp:
+  - uncategorized
   fujiwarachoki_moneyprinterv2:
   - llm-inference
   - model-foundation
@@ -733,6 +739,8 @@ entries:
   - ai-agent
   - ai-coding
   - devtools
+  gorvgoyl_clone-wars:
+  - education
   greydgl_pentestgpt:
   - ai-agent
   - security
@@ -1264,6 +1272,11 @@ entries:
   - ai-agent
   - ai-coding
   - education
+  music-assistant_server:
+  - ai-agent
+  - iot-hardware
+  - video-audio
+  - protocol-spec
   mustardchef_wsabuilds:
   - workflow-automation
   mvanhorn_last30days-skill:
@@ -1315,6 +1328,12 @@ entries:
   - model-foundation
   - video-audio
   - media-generation
+  nvidia_skillspector:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - protocol-spec
+  - security
   nvm-sh_nvm:
   - devtools
   obra_superpowers:
@@ -1975,6 +1994,9 @@ entries:
   - llm-inference
   - model-foundation
   - devtools
+  weapp-vite_weapp-vite:
+  - design-ui
+  - protocol-spec
   weceng_ticket-purchase:
   - uncategorized
   wei-shaw_claude-relay-service:

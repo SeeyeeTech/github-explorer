@@ -33,11 +33,11 @@
     "name": "iptv-org/iptv",
     "url": "https://github.com/iptv-org/iptv",
     "language": "TypeScript",
-    "stars": 122600,
-    "forks": 6579,
+    "stars": 123765,
+    "forks": 6670,
     "description": "Collection of publicly available IPTV channels from all over the world",
-    "last_seen": "2026-06-15",
-    "trending_days": 31
+    "last_seen": "2026-06-16",
+    "trending_days": 32
   },
   {
     "name": "sansan0/TrendRadar",
@@ -680,6 +680,16 @@
     "trending_days": 10
   },
   {
+    "name": "OpenBMB/VoxCPM",
+    "url": "https://github.com/openbmb/voxcpm",
+    "language": "Python",
+    "stars": 30018,
+    "forks": 3397,
+    "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+    "last_seen": "2026-06-16",
+    "trending_days": 10
+  },
+  {
     "name": "p-e-w/heretic",
     "url": "https://github.com/p-e-w/heretic",
     "language": "Python",
@@ -827,16 +837,6 @@
     "forks": 6330,
     "description": "Financial data platform for analysts, quants and AI agents.",
     "last_seen": "2026-03-30",
-    "trending_days": 9
-  },
-  {
-    "name": "OpenBMB/VoxCPM",
-    "url": "https://github.com/openbmb/voxcpm",
-    "language": "Python",
-    "stars": 25519,
-    "forks": 2907,
-    "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
-    "last_seen": "2026-06-03",
     "trending_days": 9
   },
   {
@@ -1110,6 +1110,16 @@
     "trending_days": 7
   },
   {
+    "name": "meshery/meshery",
+    "url": "https://github.com/meshery/meshery",
+    "language": "TypeScript",
+    "stars": 10781,
+    "forks": 3444,
+    "description": "Meshery, the cloud native manager",
+    "last_seen": "2026-06-16",
+    "trending_days": 7
+  },
+  {
     "name": "mudler/LocalAI",
     "url": "https://github.com/mudler/localai",
     "language": "Go",
@@ -1257,6 +1267,16 @@
     "forks": 534,
     "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
     "last_seen": "2026-03-13",
+    "trending_days": 6
+  },
+  {
+    "name": "alibaba/zvec",
+    "url": "https://github.com/alibaba/zvec",
+    "language": "C++",
+    "stars": 10339,
+    "forks": 604,
+    "description": "A lightweight, lightning-fast, in-process vector database",
+    "last_seen": "2026-06-16",
     "trending_days": 6
   },
   {
@@ -1520,16 +1540,6 @@
     "trending_days": 6
   },
   {
-    "name": "meshery/meshery",
-    "url": "https://github.com/meshery/meshery",
-    "language": "TypeScript",
-    "stars": 10569,
-    "forks": 3430,
-    "description": "Meshery, the cloud native manager",
-    "last_seen": "2026-06-15",
-    "trending_days": 6
-  },
-  {
     "name": "microsoft/BitNet",
     "url": "https://github.com/microsoft/bitnet",
     "language": "Python",
@@ -1710,16 +1720,6 @@
     "trending_days": 5
   },
   {
-    "name": "alibaba/zvec",
-    "url": "https://github.com/alibaba/zvec",
-    "language": "C++",
-    "stars": 4692,
-    "forks": 258,
-    "description": "A lightweight, lightning-fast, in-process vector database",
-    "last_seen": "2026-02-18",
-    "trending_days": 5
-  },
-  {
     "name": "anthropics/financial-services",
     "url": "https://github.com/anthropics/financial-services",
     "language": "Python",
@@ -1787,6 +1787,16 @@
     "forks": 55801,
     "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
     "last_seen": "2026-04-28",
+    "trending_days": 5
+  },
+  {
+    "name": "freeCodeCamp/freeCodeCamp",
+    "url": "https://github.com/freecodecamp/freecodecamp",
+    "language": "TypeScript",
+    "stars": 448355,
+    "forks": 45022,
+    "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+    "last_seen": "2026-06-16",
     "trending_days": 5
   },
   {
@@ -1947,6 +1957,16 @@
     "forks": 944,
     "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
     "last_seen": "2026-02-27",
+    "trending_days": 5
+  },
+  {
+    "name": "music-assistant/server",
+    "url": "https://github.com/music-assistant/server",
+    "language": "Python",
+    "stars": 2502,
+    "forks": 450,
+    "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
+    "last_seen": "2026-06-16",
     "trending_days": 5
   },
   {
@@ -2480,16 +2500,6 @@
     "trending_days": 4
   },
   {
-    "name": "freeCodeCamp/freeCodeCamp",
-    "url": "https://github.com/freecodecamp/freecodecamp",
-    "language": "TypeScript",
-    "stars": 447724,
-    "forks": 44975,
-    "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-    "last_seen": "2026-06-15",
-    "trending_days": 4
-  },
-  {
     "name": "gin-gonic/gin",
     "url": "https://github.com/gin-gonic/gin",
     "language": "Go",
@@ -2787,16 +2797,6 @@
     "forks": 294,
     "description": "Feature packed AUR helper",
     "last_seen": "2025-12-16",
-    "trending_days": 4
-  },
-  {
-    "name": "music-assistant/server",
-    "url": "https://github.com/music-assistant/server",
-    "language": "Python",
-    "stars": 2344,
-    "forks": 442,
-    "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
-    "last_seen": "2026-06-15",
     "trending_days": 4
   },
   {
@@ -4020,6 +4020,16 @@
     "trending_days": 3
   },
   {
+    "name": "rmyndharis/OpenWA",
+    "url": "https://github.com/rmyndharis/openwa",
+    "language": "TypeScript",
+    "stars": 8935,
+    "forks": 1985,
+    "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
+    "last_seen": "2026-06-16",
+    "trending_days": 3
+  },
+  {
     "name": "rustdesk/rustdesk",
     "url": "https://github.com/rustdesk/rustdesk",
     "language": "Rust",
@@ -4107,6 +4117,16 @@
     "forks": 313,
     "description": "Google Suite CLI: Gmail, GCal, GDrive, GContacts.",
     "last_seen": "2026-02-17",
+    "trending_days": 3
+  },
+  {
+    "name": "swc-project/swc",
+    "url": "https://github.com/swc-project/swc",
+    "language": "Rust",
+    "stars": 33919,
+    "forks": 1413,
+    "description": "Rust-based platform for the Web",
+    "last_seen": "2026-06-16",
     "trending_days": 3
   },
   {
@@ -4767,6 +4787,16 @@
     "forks": 114,
     "description": "Cursor plugin specification and official plugins",
     "last_seen": "2026-05-30",
+    "trending_days": 2
+  },
+  {
+    "name": "cypress-io/cypress",
+    "url": "https://github.com/cypress-io/cypress",
+    "language": "TypeScript",
+    "stars": 50125,
+    "forks": 3424,
+    "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+    "last_seen": "2026-06-16",
     "trending_days": 2
   },
   {
@@ -5960,6 +5990,16 @@
     "trending_days": 2
   },
   {
+    "name": "puppeteer/puppeteer",
+    "url": "https://github.com/puppeteer/puppeteer",
+    "language": "TypeScript",
+    "stars": 94824,
+    "forks": 9447,
+    "description": "JavaScript API for Chrome and Firefox",
+    "last_seen": "2026-06-16",
+    "trending_days": 2
+  },
+  {
     "name": "pydantic/monty",
     "url": "https://github.com/pydantic/monty",
     "language": "Rust",
@@ -6007,16 +6047,6 @@
     "forks": 34,
     "description": "Playstation 2 Static Recompiler & Runtime Tool to make native PC ports",
     "last_seen": "2026-01-29",
-    "trending_days": 2
-  },
-  {
-    "name": "rmyndharis/OpenWA",
-    "url": "https://github.com/rmyndharis/openwa",
-    "language": "TypeScript",
-    "stars": 5204,
-    "forks": 1049,
-    "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
-    "last_seen": "2026-05-21",
     "trending_days": 2
   },
   {
@@ -6120,16 +6150,6 @@
     "trending_days": 2
   },
   {
-    "name": "swc-project/swc",
-    "url": "https://github.com/swc-project/swc",
-    "language": "Rust",
-    "stars": 33716,
-    "forks": 1399,
-    "description": "Rust-based platform for the Web",
-    "last_seen": "2026-06-14",
-    "trending_days": 2
-  },
-  {
     "name": "systemd/systemd",
     "url": "https://github.com/systemd/systemd",
     "language": "C",
@@ -6197,6 +6217,16 @@
     "forks": 60,
     "description": "the blockchain for payments",
     "last_seen": "2025-12-12",
+    "trending_days": 2
+  },
+  {
+    "name": "teslamate-org/teslamate",
+    "url": "https://github.com/teslamate-org/teslamate",
+    "language": "Elixir",
+    "stars": 8372,
+    "forks": 953,
+    "description": "A self-hosted data logger for your Tesla 🚘 [main maintainer=@JakobLichterfeld]",
+    "last_seen": "2026-06-16",
     "trending_days": 2
   },
   {
@@ -7027,16 +7057,6 @@
     "forks": 7148,
     "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
     "last_seen": "2026-04-26",
-    "trending_days": 1
-  },
-  {
-    "name": "cypress-io/cypress",
-    "url": "https://github.com/cypress-io/cypress",
-    "language": "TypeScript",
-    "stars": 49786,
-    "forks": 3411,
-    "description": "Fast, easy and reliable testing for anything that runs in a browser.",
-    "last_seen": "2026-06-14",
     "trending_days": 1
   },
   {
@@ -8550,6 +8570,16 @@
     "trending_days": 1
   },
   {
+    "name": "n0-computer/iroh",
+    "url": "https://github.com/n0-computer/iroh",
+    "language": "Rust",
+    "stars": 9137,
+    "forks": 431,
+    "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+    "last_seen": "2026-06-16",
+    "trending_days": 1
+  },
+  {
     "name": "nanobrowser/nanobrowser",
     "url": "https://github.com/nanobrowser/nanobrowser",
     "language": "TypeScript",
@@ -8977,16 +9007,6 @@
     "forks": 94,
     "description": "A lightweight tool for deploying and managing containerised applications across a network of Docker hosts. Bridging the gap between Docker and Kubernetes ✨",
     "last_seen": "2025-12-06",
-    "trending_days": 1
-  },
-  {
-    "name": "puppeteer/puppeteer",
-    "url": "https://github.com/puppeteer/puppeteer",
-    "language": "TypeScript",
-    "stars": 94572,
-    "forks": 9434,
-    "description": "JavaScript API for Chrome and Firefox",
-    "last_seen": "2026-06-14",
     "trending_days": 1
   },
   {
@@ -9440,16 +9460,6 @@
     "trending_days": 1
   },
   {
-    "name": "teslamate-org/teslamate",
-    "url": "https://github.com/teslamate-org/teslamate",
-    "language": "Elixir",
-    "stars": 8180,
-    "forks": 943,
-    "description": "A self-hosted data logger for your Tesla 🚘 [main maintainer=@JakobLichterfeld]",
-    "last_seen": "2026-06-15",
-    "trending_days": 1
-  },
-  {
     "name": "testcontainers/testcontainers-java",
     "url": "https://github.com/testcontainers/testcontainers-java",
     "language": "Java",
@@ -9607,6 +9617,16 @@
     "forks": 339,
     "description": "Specification and documentation for the Universal Commerce Protocol (UCP)",
     "last_seen": "2026-04-25",
+    "trending_days": 1
+  },
+  {
+    "name": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+    "url": "https://github.com/universal-debloater-alliance/universal-android-debloater-next-generation",
+    "language": "Rust",
+    "stars": 7159,
+    "forks": 308,
+    "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
+    "last_seen": "2026-06-16",
     "trending_days": 1
   },
   {

@@ -183,3 +183,4 @@
 {"recorded_at": "2026-06-15T00:52:58.653772+00:00", "slug": "chatwoot_chatwoot", "title": null, "state": "published", "published_at": "2026-06-15", "reason": "自动生成", "ci_run_id": "27517180457"}
 {"recorded_at": "2026-06-15T02:10:01.018435+00:00", "slug": "nvidia_skillspector", "title": null, "state": "published", "published_at": "2026-06-15", "reason": "自动生成", "ci_run_id": "27519250921"}
 {"recorded_at": "2026-06-15T03:31:39.645751+00:00", "slug": "music-assistant_server", "title": null, "state": "published", "published_at": "2026-06-15", "reason": "自动生成", "ci_run_id": "27521481125"}
+{"recorded_at": "2026-06-16T22:53:53.225654+00:00", "slug": "rmyndharis_openwa", "title": null, "state": "published", "published_at": "2026-06-16", "reason": "自动生成", "ci_run_id": "27652689610"}

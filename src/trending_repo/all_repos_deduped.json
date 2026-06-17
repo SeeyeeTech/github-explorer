@@ -3,11 +3,11 @@
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "language": "Shell",
-    "stars": 226512,
-    "forks": 20128,
+    "stars": 230644,
+    "forks": 20509,
     "description": "An agentic skills framework & software development methodology that works.",
-    "last_seen": "2026-06-13",
-    "trending_days": 62
+    "last_seen": "2026-06-17",
+    "trending_days": 63
   },
   {
     "name": "TapXWorld/ChinaTextbook",
@@ -390,6 +390,16 @@
     "trending_days": 12
   },
   {
+    "name": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "language": "Shell",
+    "stars": 132915,
+    "forks": 11553,
+    "description": "Skills for Real Engineers. Straight from my .claude directory.",
+    "last_seen": "2026-06-17",
+    "trending_days": 12
+  },
+  {
     "name": "mvanhorn/last30days-skill",
     "url": "https://github.com/mvanhorn/last30days-skill",
     "language": "Python",
@@ -527,16 +537,6 @@
     "forks": 1148,
     "description": "Free, local, open-source 24/7 Cowork and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!",
     "last_seen": "2026-02-12",
-    "trending_days": 11
-  },
-  {
-    "name": "mattpocock/skills",
-    "url": "https://github.com/mattpocock/skills",
-    "language": "Shell",
-    "stars": 84004,
-    "forks": 7283,
-    "description": "Skills for Real Engineers. Straight from my .claude directory.",
-    "last_seen": "2026-05-15",
     "trending_days": 11
   },
   {
@@ -750,6 +750,16 @@
     "trending_days": 9
   },
   {
+    "name": "bytedance/UI-TARS-desktop",
+    "url": "https://github.com/bytedance/ui-tars-desktop",
+    "language": "TypeScript",
+    "stars": 36608,
+    "forks": 3697,
+    "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+    "last_seen": "2026-06-17",
+    "trending_days": 9
+  },
+  {
     "name": "colbymchenry/codegraph",
     "url": "https://github.com/colbymchenry/codegraph",
     "language": "TypeScript",
@@ -900,16 +910,6 @@
     "trending_days": 8
   },
   {
-    "name": "bytedance/UI-TARS-desktop",
-    "url": "https://github.com/bytedance/ui-tars-desktop",
-    "language": "TypeScript",
-    "stars": 32743,
-    "forks": 3239,
-    "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
-    "last_seen": "2026-05-11",
-    "trending_days": 8
-  },
-  {
     "name": "cjpais/Handy",
     "url": "https://github.com/cjpais/handy",
     "language": "TypeScript",
@@ -977,6 +977,16 @@
     "forks": 3355,
     "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
     "last_seen": "2026-05-28",
+    "trending_days": 8
+  },
+  {
+    "name": "meshery/meshery",
+    "url": "https://github.com/meshery/meshery",
+    "language": "TypeScript",
+    "stars": 10952,
+    "forks": 3454,
+    "description": "Meshery, the cloud native manager",
+    "last_seen": "2026-06-17",
     "trending_days": 8
   },
   {
@@ -1107,16 +1117,6 @@
     "forks": 2605,
     "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
     "last_seen": "2026-06-07",
-    "trending_days": 7
-  },
-  {
-    "name": "meshery/meshery",
-    "url": "https://github.com/meshery/meshery",
-    "language": "TypeScript",
-    "stars": 10781,
-    "forks": 3444,
-    "description": "Meshery, the cloud native manager",
-    "last_seen": "2026-06-16",
     "trending_days": 7
   },
   {
@@ -1410,6 +1410,16 @@
     "trending_days": 6
   },
   {
+    "name": "freeCodeCamp/freeCodeCamp",
+    "url": "https://github.com/freecodecamp/freecodecamp",
+    "language": "TypeScript",
+    "stars": 448990,
+    "forks": 45076,
+    "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+    "last_seen": "2026-06-17",
+    "trending_days": 6
+  },
+  {
     "name": "hardikpandya/stop-slop",
     "url": "https://github.com/hardikpandya/stop-slop",
     "language": "Unknown",
@@ -1567,6 +1577,16 @@
     "forks": 15759,
     "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
     "last_seen": "2026-05-25",
+    "trending_days": 6
+  },
+  {
+    "name": "nautechsystems/nautilus_trader",
+    "url": "https://github.com/nautechsystems/nautilus_trader",
+    "language": "Rust",
+    "stars": 23669,
+    "forks": 3003,
+    "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+    "last_seen": "2026-06-17",
     "trending_days": 6
   },
   {
@@ -1750,6 +1770,16 @@
     "trending_days": 5
   },
   {
+    "name": "chatwoot/chatwoot",
+    "url": "https://github.com/chatwoot/chatwoot",
+    "language": "Ruby",
+    "stars": 32230,
+    "forks": 7692,
+    "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+    "last_seen": "2026-06-17",
+    "trending_days": 5
+  },
+  {
     "name": "chopratejas/headroom",
     "url": "https://github.com/chopratejas/headroom",
     "language": "Python",
@@ -1790,16 +1820,6 @@
     "trending_days": 5
   },
   {
-    "name": "freeCodeCamp/freeCodeCamp",
-    "url": "https://github.com/freecodecamp/freecodecamp",
-    "language": "TypeScript",
-    "stars": 448355,
-    "forks": 45022,
-    "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
-    "last_seen": "2026-06-16",
-    "trending_days": 5
-  },
-  {
     "name": "ggml-org/llama.cpp",
     "url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
@@ -1817,6 +1837,16 @@
     "forks": 182,
     "description": "GitHub Agentic Workflows",
     "last_seen": "2026-02-15",
+    "trending_days": 5
+  },
+  {
+    "name": "google-research/timesfm",
+    "url": "https://github.com/google-research/timesfm",
+    "language": "Python",
+    "stars": 21583,
+    "forks": 2110,
+    "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+    "last_seen": "2026-06-17",
     "trending_days": 5
   },
   {
@@ -1930,6 +1960,16 @@
     "trending_days": 5
   },
   {
+    "name": "makeplane/plane",
+    "url": "https://github.com/makeplane/plane",
+    "language": "TypeScript",
+    "stars": 51064,
+    "forks": 4547,
+    "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+    "last_seen": "2026-06-17",
+    "trending_days": 5
+  },
+  {
     "name": "masterking32/MasterDnsVPN",
     "url": "https://github.com/masterking32/masterdnsvpn",
     "language": "Go",
@@ -1970,16 +2010,6 @@
     "trending_days": 5
   },
   {
-    "name": "nautechsystems/nautilus_trader",
-    "url": "https://github.com/nautechsystems/nautilus_trader",
-    "language": "Rust",
-    "stars": 20561,
-    "forks": 2437,
-    "description": "A high-performance algorithmic trading platform and event-driven backtester",
-    "last_seen": "2026-03-04",
-    "trending_days": 5
-  },
-  {
     "name": "openai/plugins",
     "url": "https://github.com/openai/plugins",
     "language": "JavaScript",
@@ -2007,6 +2037,16 @@
     "forks": 4855,
     "description": "Elegant reading of real-time and hottest news",
     "last_seen": "2026-01-06",
+    "trending_days": 5
+  },
+  {
+    "name": "Panniantong/Agent-Reach",
+    "url": "https://github.com/panniantong/agent-reach",
+    "language": "Python",
+    "stars": 32777,
+    "forks": 2642,
+    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+    "last_seen": "2026-06-17",
     "trending_days": 5
   },
   {
@@ -2340,16 +2380,6 @@
     "trending_days": 4
   },
   {
-    "name": "chatwoot/chatwoot",
-    "url": "https://github.com/chatwoot/chatwoot",
-    "language": "Ruby",
-    "stars": 31551,
-    "forks": 7619,
-    "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
-    "last_seen": "2026-06-15",
-    "trending_days": 4
-  },
-  {
     "name": "CJackHwang/ds2api",
     "url": "https://github.com/cjackhwang/ds2api",
     "language": "Go",
@@ -2540,16 +2570,6 @@
     "trending_days": 4
   },
   {
-    "name": "google-research/timesfm",
-    "url": "https://github.com/google-research/timesfm",
-    "language": "Python",
-    "stars": 13697,
-    "forks": 1169,
-    "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-    "last_seen": "2026-04-03",
-    "trending_days": 4
-  },
-  {
     "name": "google/googletest",
     "url": "https://github.com/google/googletest",
     "language": "C++",
@@ -2720,16 +2740,6 @@
     "trending_days": 4
   },
   {
-    "name": "makeplane/plane",
-    "url": "https://github.com/makeplane/plane",
-    "language": "TypeScript",
-    "stars": 43294,
-    "forks": 3255,
-    "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
-    "last_seen": "2026-01-11",
-    "trending_days": 4
-  },
-  {
     "name": "maziyarpanahi/openmed",
     "url": "https://github.com/maziyarpanahi/openmed",
     "language": "Python",
@@ -2857,16 +2867,6 @@
     "forks": 2747,
     "description": "The most popular open source electronic health records and medical practice management solution.",
     "last_seen": "2026-02-24",
-    "trending_days": 4
-  },
-  {
-    "name": "Panniantong/Agent-Reach",
-    "url": "https://github.com/panniantong/agent-reach",
-    "language": "Python",
-    "stars": 29747,
-    "forks": 2423,
-    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-    "last_seen": "2026-06-15",
     "trending_days": 4
   },
   {
@@ -3897,6 +3897,16 @@
     "forks": 187,
     "description": "Windows companion suite for OpenClaw - System Tray app, Shared library, Node, and PowerToys Command Palette extension",
     "last_seen": "2026-06-06",
+    "trending_days": 3
+  },
+  {
+    "name": "penpot/penpot",
+    "url": "https://github.com/penpot/penpot",
+    "language": "Clojure",
+    "stars": 49934,
+    "forks": 3227,
+    "description": "Penpot: The open-source design tool for design and code collaboration",
+    "last_seen": "2026-06-17",
     "trending_days": 3
   },
   {
@@ -5420,6 +5430,16 @@
     "trending_days": 2
   },
   {
+    "name": "krahets/hello-algo",
+    "url": "https://github.com/krahets/hello-algo",
+    "language": "Java",
+    "stars": 127372,
+    "forks": 15175,
+    "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
+    "last_seen": "2026-06-17",
+    "trending_days": 2
+  },
+  {
     "name": "kubernetes/ingress-nginx",
     "url": "https://github.com/kubernetes/ingress-nginx",
     "language": "Go",
@@ -5740,6 +5760,16 @@
     "trending_days": 2
   },
   {
+    "name": "n0-computer/iroh",
+    "url": "https://github.com/n0-computer/iroh",
+    "language": "Rust",
+    "stars": 9512,
+    "forks": 443,
+    "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+    "last_seen": "2026-06-17",
+    "trending_days": 2
+  },
+  {
     "name": "NanmiCoder/MediaCrawler",
     "url": "https://github.com/nanmicoder/mediacrawler",
     "language": "Python",
@@ -5947,16 +5977,6 @@
     "forks": 4825,
     "description": "A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app",
     "last_seen": "2026-01-31",
-    "trending_days": 2
-  },
-  {
-    "name": "penpot/penpot",
-    "url": "https://github.com/penpot/penpot",
-    "language": "Clojure",
-    "stars": 46324,
-    "forks": 2778,
-    "description": "Penpot: The open-source design tool for design and code collaboration",
-    "last_seen": "2026-04-27",
     "trending_days": 2
   },
   {
@@ -6320,6 +6340,16 @@
     "trending_days": 2
   },
   {
+    "name": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+    "url": "https://github.com/universal-debloater-alliance/universal-android-debloater-next-generation",
+    "language": "Rust",
+    "stars": 7549,
+    "forks": 324,
+    "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
+    "last_seen": "2026-06-17",
+    "trending_days": 2
+  },
+  {
     "name": "Vaibhavs10/insanely-fast-whisper",
     "url": "https://github.com/vaibhavs10/insanely-fast-whisper",
     "language": "JupyterNotebook",
@@ -6650,6 +6680,16 @@
     "trending_days": 1
   },
   {
+    "name": "alexzhang13/rlm",
+    "url": "https://github.com/alexzhang13/rlm",
+    "language": "Python",
+    "stars": 4832,
+    "forks": 820,
+    "description": "General plug-and-play inference library for Recursive Language Models (RLMs), supporting various sandboxes.",
+    "last_seen": "2026-06-17",
+    "trending_days": 1
+  },
+  {
     "name": "alireza0/s-ui",
     "url": "https://github.com/alireza0/s-ui",
     "language": "Go",
@@ -6930,6 +6970,16 @@
     "trending_days": 1
   },
   {
+    "name": "calesthio/OpenMontage",
+    "url": "https://github.com/calesthio/openmontage",
+    "language": "Python",
+    "stars": 5013,
+    "forks": 989,
+    "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+    "last_seen": "2026-06-17",
+    "trending_days": 1
+  },
+  {
     "name": "chartdb/chartdb",
     "url": "https://github.com/chartdb/chartdb",
     "language": "TypeScript",
@@ -7027,6 +7077,16 @@
     "forks": 955,
     "description": "The LLM Evaluation Framework",
     "last_seen": "2025-09-25",
+    "trending_days": 1
+  },
+  {
+    "name": "continuedev/continue",
+    "url": "https://github.com/continuedev/continue",
+    "language": "TypeScript",
+    "stars": 33796,
+    "forks": 4684,
+    "description": "open-source coding agent",
+    "last_seen": "2026-06-17",
     "trending_days": 1
   },
   {
@@ -7167,6 +7227,16 @@
     "forks": 16690,
     "description": "None",
     "last_seen": "2026-04-27",
+    "trending_days": 1
+  },
+  {
+    "name": "DeusData/codebase-memory-mcp",
+    "url": "https://github.com/deusdata/codebase-memory-mcp",
+    "language": "C",
+    "stars": 4449,
+    "forks": 435,
+    "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+    "last_seen": "2026-06-17",
     "trending_days": 1
   },
   {
@@ -8120,16 +8190,6 @@
     "trending_days": 1
   },
   {
-    "name": "krahets/hello-algo",
-    "url": "https://github.com/krahets/hello-algo",
-    "language": "Java",
-    "stars": 126818,
-    "forks": 15131,
-    "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
-    "last_seen": "2026-06-15",
-    "trending_days": 1
-  },
-  {
     "name": "langchain-ai/langchainjs",
     "url": "https://github.com/langchain-ai/langchainjs",
     "language": "TypeScript",
@@ -8567,16 +8627,6 @@
     "forks": 3835,
     "description": "Instant voice cloning by MIT and MyShell. Audio foundation model.",
     "last_seen": "2025-10-19",
-    "trending_days": 1
-  },
-  {
-    "name": "n0-computer/iroh",
-    "url": "https://github.com/n0-computer/iroh",
-    "language": "Rust",
-    "stars": 9137,
-    "forks": 431,
-    "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
-    "last_seen": "2026-06-16",
     "trending_days": 1
   },
   {
@@ -9130,6 +9180,16 @@
     "trending_days": 1
   },
   {
+    "name": "RocketChat/Rocket.Chat",
+    "url": "https://github.com/rocketchat/rocket.chat",
+    "language": "TypeScript",
+    "stars": 45512,
+    "forks": 13656,
+    "description": "The Secure CommsOS™ for mission-critical operations",
+    "last_seen": "2026-06-17",
+    "trending_days": 1
+  },
+  {
     "name": "RooCodeInc/Roo-Code",
     "url": "https://github.com/roocodeinc/roo-code",
     "language": "TypeScript",
@@ -9620,16 +9680,6 @@
     "trending_days": 1
   },
   {
-    "name": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
-    "url": "https://github.com/universal-debloater-alliance/universal-android-debloater-next-generation",
-    "language": "Rust",
-    "stars": 7159,
-    "forks": 308,
-    "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
-    "last_seen": "2026-06-16",
-    "trending_days": 1
-  },
-  {
     "name": "vanilla-wiiu/vanilla",
     "url": "https://github.com/vanilla-wiiu/vanilla",
     "language": "C",
@@ -9777,6 +9827,16 @@
     "forks": 2127,
     "description": "React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.",
     "last_seen": "2025-10-10",
+    "trending_days": 1
+  },
+  {
+    "name": "yairm210/Unciv",
+    "url": "https://github.com/yairm210/unciv",
+    "language": "Kotlin",
+    "stars": 10578,
+    "forks": 1841,
+    "description": "Open-source Android/Desktop remake of Civ V",
+    "last_seen": "2026-06-17",
     "trending_days": 1
   },
   {

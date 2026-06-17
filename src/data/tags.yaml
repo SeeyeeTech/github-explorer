@@ -1589,6 +1589,9 @@ entries:
   - ai-agent
   - protocol-spec
   - security
+  rmyndharis_openwa:
+  - database
+  - protocol-spec
   roboflow_supervision:
   - uncategorized
   rohitg00_agentmemory:

@@ -23,7 +23,13 @@ const daily = defineCollection({
   schema: z
     .object({
       title: z.string().optional(),
-      date: z.string().optional(),
+      // 无引号的 `date: 2026-06-11` 会被 YAML 解析成 Date 对象，而站点下游一律按
+      // "YYYY-MM-DD" 字符串用（排序 / 拼 /daily/<date>/ / <time> 显示）。CI（LLM）偶发
+      // 漏引号，故在 schema 层归一：Date → ISO 日期串，其余原样，从根上杜绝 build 失败。
+      date: z.preprocess(
+        (v) => (v instanceof Date ? v.toISOString().slice(0, 10) : v),
+        z.string().optional(),
+      ),
       summary: z.string().optional(),
       tags: z.array(z.string()).optional(),
       canonical_url: z.string().optional(),

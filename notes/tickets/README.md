@@ -21,6 +21,6 @@ SEO 上线后的待办工单。每条 ticket 标注三档自动化可行度：
 
 所有平台都需要："**SEO 升级方案已上线**" — 即至少 push 一次 main 让 GitHub Pages 重新构建，让以下三个 URL 可访问：
 
-- `https://austinxt.github.io/github-explorer/sitemap-index.xml`
-- `https://austinxt.github.io/github-explorer/robots.txt`
-- `https://austinxt.github.io/github-explorer/rss.xml`
+- `https://seeyeetech.com/github-explorer/sitemap-index.xml`
+- `https://seeyeetech.com/github-explorer/robots.txt`
+- `https://seeyeetech.com/github-explorer/rss.xml`

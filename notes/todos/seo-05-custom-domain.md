@@ -2,7 +2,7 @@
 
 **为什么必须做**：
 
-1. **权重分散**：`austinxt.github.io/github-explorer/` 这种子路径，搜索引擎把 PageRank 算给 `github.io` 母域；母域上其他人的站也共享/竞争权重
+1. **权重分散**：`seeyeetech.com/github-explorer/` 这种子路径，搜索引擎把 PageRank 算给 `github.io` 母域；母域上其他人的站也共享/竞争权重
 2. **百度收录困难**：见 [SEO-04](../tickets/seo-04-baidu-zhanzhang.md) — 百度站长几乎不收录子路径
 3. **品牌可记忆性**：`github-explorer.com` / `gex.tools` 比一串 github.io 路径好记一个数量级
 
@@ -17,7 +17,7 @@
 代码侧已经做了无缝切换准备：
 
 1. **GitHub Pages 设置**：Settings → Pages → Custom domain 填 `域名` → 自动生成 CNAME → 开 HTTPS
-2. **DNS**：域名注册商加 CNAME → `austinxt.github.io`
+2. **DNS**：域名注册商加 CNAME → `seeyeetech.com`
 3. **改两个变量**（**唯一需要的代码动作**）：
    ```
    gh variable set SITE_URL --body "https://your-domain.com"
@@ -27,7 +27,7 @@
 
 ## 旧 URL 重定向
 
-GitHub Pages 切换 custom domain 后，旧的 `austinxt.github.io/github-explorer/*` 会 301 到新域，搜索权重逐步迁移（Google 6-8 周稳定，百度可能更慢）。
+GitHub Pages 切换 custom domain 后，旧的 `seeyeetech.com/github-explorer/*` 会 301 到新域，搜索权重逐步迁移（Google 6-8 周稳定，百度可能更慢）。
 
 ## 切完后的连锁动作
 

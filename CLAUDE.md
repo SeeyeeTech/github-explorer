@@ -90,7 +90,7 @@ python3 src/scripts/record_daily.py --type {ecosystem|frontier} --date <date> --
 
 ## 站点 / 自动化提交流程
 
-公开站点：<https://austinxt.github.io/github-explorer/>
+公开站点：<https://seeyeetech.com/github-explorer/>
 
 **四条 workflow（互不干扰）**：
 

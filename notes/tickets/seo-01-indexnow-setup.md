@@ -26,7 +26,7 @@
 ## 验证
 
 部署后：
-- 浏览器访问 `https://austinxt.github.io/github-explorer/{KEY}.txt` 应返回 key 本身
+- 浏览器访问 `https://seeyeetech.com/github-explorer/{KEY}.txt` 应返回 key 本身
 - 看 `pages.yml` 的 `ping` job 日志，应有：`[indexnow] HTTP 202 Accepted`
 - 一周后查 Bing Webmaster 的"IndexNow 提交"统计
 

@@ -31,7 +31,7 @@
 - [ ] H1 ≤32 字、非模板、无营销词/感叹号/emoji 堆砌，含 ≥2 个钩子要素。
 - [ ] 中文直角引号「」。
 - [ ] frontmatter 含 title/date/summary/tags/canonical_url/syndicate；`canonical_url` 指向站点首页
-      `https://austinxt.github.io/github-explorer/`（篇B 不上站）。
+      `https://seeyeetech.com/github-explorer/`（篇B 不上站）。
 - [ ] meta.json 的 `digest` ≤120 字符、`title` ≤64 字符、`author` 为 NightVoyager、`theme` 合法。
 - [ ] 每条卡片字段齐全：中文标题(原标题) / 分级+评分 / summary_zh / 要点 / method_zh /
       metrics(带 source_url) / repo_url|paper_url / 来源(≥2) / 分类标签。

@@ -11,7 +11,7 @@
 1. 浏览器开 https://search.google.com/search-console
 2. 用你的 Google 账号登录（reCAPTCHA / 2FA 必须真人）
 3. 走到"添加资源"，**选 URL 前缀**（因为是子路径部署，不能用 Domain 类型）
-4. 输入：`https://austinxt.github.io/github-explorer/`
+4. 输入：`https://seeyeetech.com/github-explorer/`
 5. 选验证方式：**HTML 标记** → 复制 meta content 值
 
 ### 阶段 B — Claude 接管（用 claude-in-chrome 直接做）

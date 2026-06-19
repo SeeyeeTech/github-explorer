@@ -1,6 +1,6 @@
 {
   "title": "16年76K stars背后：Elasticsearch称霸搜索的5个关键技术决策",
   "digest": "Elasticsearch 通过分片副本、Translog WAL、不可变 ClusterState 等设计，将 Lucene 改造为分布式搜索引擎，16 年积累 76K stars，成为 AI 时代 RAG 应用基础设施。",
-  "author": "AustinXT",
+  "author": "NVoyager",
   "theme": "stars,universe,dark"
 }

@@ -5,10 +5,10 @@ import tailwindcss from "@tailwindcss/vite";
 import fs from "node:fs";
 import path from "node:path";
 
-// GitHub Pages 部署到 AustinXT/github-explorer
+// GitHub Pages 部署到 SeeyeeTech/github-explorer
 // 仓库子路径 → site + base 必须配对；都允许通过 env 覆盖以便切换自定义域名
 // 用 || 而非 ??：CI 上 env 可能传空字符串，?? 不会 fallback
-const siteUrl = process.env.SITE_URL || "https://austinxt.github.io";
+const siteUrl = process.env.SITE_URL || "https://seeyeetech.com";
 const repoBase = process.env.PUBLIC_BASE_PATH || "/github-explorer";
 
 // 构建期读取 reports.json，用 mtime 为报告 URL 注入 lastmod

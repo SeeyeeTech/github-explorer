@@ -3,7 +3,7 @@
 ## 产物 1：`src/daily_report/<date>.md`
 
 带 YAML frontmatter（供 syndicate `parse_report()` 与站点 content collection 共用）。
-`<base>` = 站点 base（部署为 `https://austinxt.github.io/github-explorer`）。
+`<base>` = 站点 base（部署为 `https://seeyeetech.com/github-explorer`）。
 
 ```markdown
 ---

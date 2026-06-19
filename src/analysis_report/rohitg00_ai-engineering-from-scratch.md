@@ -25,7 +25,7 @@
 
 ### 官网媒体
 官网 `aiengineeringfromscratch.com` 由 `site/build.js` 渲染，无独立 hero 视频；以下为 GitHub Pages 站点入口：
-1. [AI Engineering From Scratch 站点](https://austinxt.github.io/github-explorer/ 仅为类比，实际站点 https://aiengineeringfromscratch.com ) — 类型: homepage
+1. [AI Engineering From Scratch 站点](https://seeyeetech.com/github-explorer/ 仅为类比，实际站点 https://aiengineeringfromscratch.com ) — 类型: homepage
 
 ### 筛选说明
 - 总共发现 305 个 SVG 资产，筛选后保留 5 个最具代表性的（hero + Phase 01 四个核心概念）

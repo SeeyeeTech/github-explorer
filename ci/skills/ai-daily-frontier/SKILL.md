@@ -243,7 +243,7 @@ H1 会被下游公众号发布流程**直接当文章标题**，**严禁** `# YY
 1. **`src/ai_news/<date>.md`** —— 带 YAML frontmatter（`title`/`date`/`summary`/`tags`/
    `canonical_url`/`syndicate: true`）+ H1 + 正文。模板见 reference/template.md。
    **注意：篇B 落在 `src/ai_news/`，不进站点**（无站点详情页），故 `canonical_url` 指向站点首页
-   `https://austinxt.github.io/github-explorer/`（footer 仍会加公众号导流）。H1 同 frontmatter.title。
+   `https://seeyeetech.com/github-explorer/`（footer 仍会加公众号导流）。H1 同 frontmatter.title。
 2. **`src/ai_news/<date>.meta.json`** —— `{title(≤64), digest(≤120), author: "NightVoyager", theme}`，
    `theme` 从 `stars / universe / ocean / desert / forest / green-trees / dark` 任挑组合。
 

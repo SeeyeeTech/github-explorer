@@ -29,6 +29,7 @@ from __future__ import annotations
 import io
 import json
 import mimetypes
+import re
 import sys
 import time
 import urllib.parse
@@ -528,6 +529,19 @@ def publish_report(md_path: Path, *, dry_run: bool = False) -> dict:
     md_text = md_path.read_text(encoding="utf-8")
     meta = json.loads(meta_path.read_text(encoding="utf-8")) if meta_path.is_file() else {}
 
+    # 剥离 YAML frontmatter（AI 日报 md 带 ---title/date/...---，分析报告不带）。
+    # 不剥的话 markdown 会把 frontmatter 当正文渲染成乱码；顺带捕获 canonical_url，
+    # 供下方「阅读原文」按钮指向正确栏目（日报在 /daily/，而非默认的 /reports/）。
+    # 纯正则，不引入 pyyaml 依赖（ali-demo venv 未必装）。
+    canonical_url = None
+    fm_match = re.match(r"^---\s*\n(.*?)\n---\s*\n", md_text, re.S)
+    if fm_match:
+        front = fm_match.group(1)
+        md_text = md_text[fm_match.end():]
+        cm = re.search(r"^canonical_url:\s*[\"']?([^\"'\n]+)", front, re.M)
+        if cm:
+            canonical_url = cm.group(1).strip()
+
     print(f"[0a] 用 markdown 库转 HTML（确定性结构）")
     raw_html = md_to_html(md_text)
     print(f"  ✓ {len(md_text)} → {len(raw_html)} bytes")
@@ -572,7 +586,9 @@ def publish_report(md_path: Path, *, dry_run: bool = False) -> dict:
     ).rstrip("/")
     # 博客 slug = 文件名 stem 小写（与 build_reports_index.py 的 normalization 对齐）
     slug = md_path.stem.lower()
-    content_source_url = f"{blog_base}/{slug}/"
+    # 优先用 frontmatter 里的 canonical_url（日报指向 /daily/<date>/）；
+    # 分析报告无 frontmatter → 退回 blog_base/<slug>/ 的默认构造。
+    content_source_url = canonical_url or f"{blog_base}/{slug}/"
 
     proxy_h = proxy_headers(wx_env)
 

@@ -152,7 +152,7 @@ lint-md 会自动处理中英文间距、标点规范等。执行后需重新 Re
    {
      "title": "Gin 深度分析报告",
      "digest": "Gin 是 Go 生态最流行的 HTTP 框架… (≤120 字)",
-     "author": "AustinXT",
+     "author": "NVoyager",
      "theme": "stars,universe,dark"
    }
    ```

@@ -70,7 +70,7 @@ jobs:
       - name: Build site
         working-directory: site
         env:
-          SITE_URL: ${{ vars.SITE_URL || 'https://austinxt.github.io' }}
+          SITE_URL: ${{ vars.SITE_URL || 'https://seeyeetech.com' }}
           PUBLIC_BASE_PATH: ${{ vars.PUBLIC_BASE_PATH || '/github-explorer' }}
         run: npm run build
 
@@ -106,7 +106,7 @@ jobs:
           cache-dependency-path: requirements-ci.txt
       - name: Push URLs
         env:
-          SITE_URL: ${{ vars.SITE_URL || 'https://austinxt.github.io' }}
+          SITE_URL: ${{ vars.SITE_URL || 'https://seeyeetech.com' }}
           PUBLIC_BASE_PATH: ${{ vars.PUBLIC_BASE_PATH || '/github-explorer' }}
           INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
           BAIDU_PUSH_TOKEN: ${{ secrets.BAIDU_PUSH_TOKEN }}

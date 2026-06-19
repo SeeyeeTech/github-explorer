@@ -13,13 +13,13 @@ name: Daily Digest (AI 日报)
 #   - 要让篇B 富采集，需给 daily 单独配 Anthropic backend（本地可 FORCE_BACKEND=anthropic
 #     + ANTHROPIC_API_KEY 跑 run_skill.sh，或在该机另配支持 WebSearch 的后端）。
 #
-# 排期：UTC 21:00（北京 05:00），排在 refresh-data 的 UTC 20:00 之后，
+# 排期：UTC 22:00（北京 06:00），排在 refresh-data 的 UTC 20:00 之后，
 # 以便吃到当天最新刷新的 trending + starred 数据源。
 # ───────────────────────────────────────────────────────────────────────────
 
 on:
   schedule:
-    - cron: '0 21 * * *'
+    - cron: '0 22 * * *'
   workflow_dispatch:
     inputs:
       date:
@@ -33,9 +33,9 @@ on:
         type: choice
         options: ['both', 'ecosystem', 'frontier']
       skip_publish:
-        description: '跳过公众号发布（默认 true=只产出不发布）'
+        description: '跳过公众号发布（默认 false=定时自动推篇A 入草稿箱）'
         required: false
-        default: true
+        default: false
         type: boolean
 
 permissions:
@@ -80,7 +80,9 @@ jobs:
       MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
       # 应急降级：仅当本地/手动设了 FORCE_BACKEND=anthropic 才会用到
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      # 公众号草稿箱凭证：仅供 setup_ci_env.sh 在 REQUIRE_PUBLISH=1 时 fail-fast 校验
+      # 微信草稿箱凭证：实际发布在 ali-demo 上跑（见下方 SSH 跳板 step），runner 不直连微信/反代。
+      # 这里保留 APPID/APPSECRET 仅供 setup_ci_env.sh 的 REQUIRE_PUBLISH fail-fast 校验。
+      # ali-demo 的 SSH 凭证只在发布 step 的 step-env 注入（缩小密钥暴露面），不放 job-env。
       WECHAT_APPID: ${{ secrets.WECHAT_APPID }}
       WECHAT_APPSECRET: ${{ secrets.WECHAT_APPSECRET }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -118,9 +120,9 @@ jobs:
 
       - name: Bootstrap CI environment
         env:
-          # 仅当手动 dispatch 明确 skip_publish=false 时才硬性校验发布凭证；
-          # 定时（输入为空）/ dispatch 默认 true 都不强制（初期默认跳过发布）。
-          REQUIRE_PUBLISH: ${{ github.event.inputs.skip_publish == 'false' && '1' || '0' }}
+          # 除非手动 dispatch 显式 skip_publish=true，否则都硬性校验发布凭证；
+          # 定时（输入为空）/ dispatch 默认 false 都要求凭证（篇A 自动推草稿箱）。
+          REQUIRE_PUBLISH: ${{ github.event.inputs.skip_publish == 'true' && '0' || '1' }}
         run: bash src/scripts/setup_ci_env.sh
 
       - name: 计算日报日期（dispatch 输入或今天 UTC）
@@ -228,17 +230,74 @@ jobs:
             --summary "$DIGEST_SUMMARY" \
             --ci-run-id "$GITHUB_RUN_ID"
 
-      - name: 发布到公众号草稿箱（默认跳过：先稳产出再开发布）
-        if: steps.locate.outputs.produced == 'true' && github.event.inputs.skip_publish == 'false'
+      - name: 发布篇A 到公众号草稿箱（SSH 跳板到 ali-demo）
+        id: publish
+        # 仅篇A（ecosystem）：日报 md + skill 同产的 .meta.json 打 tar 经 SSH stdin 送到 ali-demo
+        # 白名单机跑 wechat_publish.py 入草稿箱（不群发）。runner 直连微信会被阿里云网络层 RESET，
+        # 故沿用 auto-analyze.yml 的 SSH 跳板方案；日报已自带 .meta.json，省掉 /md2wechat 渲染。
+        if: |
+          steps.locate.outputs.produced == 'true' &&
+          github.event.inputs.skip_publish != 'true' &&
+          matrix.type == 'ecosystem'
         env:
           REPORT_MD: ${{ steps.locate.outputs.md }}
+          SSH_KEY: ${{ secrets.ALI_DEMO_SSH_KEY }}
+          KNOWN_HOSTS: ${{ secrets.ALI_DEMO_KNOWN_HOSTS }}
+        # 故意不开 -e：SSH 失败走 artifact 留种，不让整 job fail（md 已 commit，发布可异步重试）。
         run: |
-          set -euo pipefail
-          # 初期默认跳过：定时触发（skip_publish 为空）与 dispatch 默认 true 都不会进到这里，
-          # 只有手动 dispatch 显式 skip_publish=false 才发布。
-          # 复用一文多发框架的公众号渠道，入草稿箱（不直接群发）。
-          # 备选：若需走 ali-demo，可改用 auto-analyze.yml 的 /md2wechat + SSH 跳板 block。
-          python3 scripts/syndicate_publish.py "$REPORT_MD" --channel wechat
+          set -uo pipefail
+          meta="${REPORT_MD%.md}.meta.json"
+          if [[ ! -f "$meta" ]]; then
+            echo "::warning::缺 $meta（skill 未产出元数据），跳过发布，不 fail"
+            echo "publish_status=skipped" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          mkdir -p ~/.ssh tmp/logs tmp/publish-pending
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/ali_demo
+          chmod 600 ~/.ssh/ali_demo
+          printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+
+          # 打包 md + meta.json（同 auto-analyze.yml 契约：stdin=tar.gz）
+          md_dir=$(dirname "$REPORT_MD")
+          md_name=$(basename "$REPORT_MD")
+          meta_name=$(basename "$meta")
+          tar czf /tmp/payload.tgz -C "$md_dir" "$md_name" "$meta_name"
+
+          publish_ok=0
+          for i in 1 2 3; do
+            # SSH 走 forced-command 自动跑 publish-from-runner.sh
+            # stdin: tar.gz，stdout: last_publish.json，stderr: 日志（落 wechat-publish.log）
+            if ssh -i ~/.ssh/ali_demo \
+                -o UserKnownHostsFile=~/.ssh/known_hosts \
+                -o StrictHostKeyChecking=yes \
+                -o ConnectTimeout=30 \
+                root@47.113.202.7 \
+                < /tmp/payload.tgz \
+                > tmp/last_publish.json \
+                2> tmp/logs/wechat-publish.log; then
+              publish_ok=1
+              break
+            fi
+            echo "::warning::SSH 发布第 $i/3 次失败"
+            cat tmp/logs/wechat-publish.log >&2 || true
+            if [[ $i -lt 3 ]]; then
+              backoff=$((i * 15))
+              echo "  退避 ${backoff}s 后重试"
+              sleep "$backoff"
+            fi
+          done
+
+          if [[ $publish_ok -eq 1 ]]; then
+            echo "publish_status=success" >> "$GITHUB_OUTPUT"
+            echo "=== 远端日志 ==="; cat tmp/logs/wechat-publish.log
+            echo ""; echo "=== last_publish.json ==="; cat tmp/last_publish.json
+          else
+            # 留种到 tmp/publish-pending/，artifact 会带上；md 已 commit，可异步重发
+            cp /tmp/payload.tgz "tmp/publish-pending/$(date -u +%Y%m%d-%H%M%S)-${md_name%.md}.tgz"
+            echo "publish_status=deferred" >> "$GITHUB_OUTPUT"
+            echo "::warning::SSH 发布 3 次失败，已留种到 tmp/publish-pending/，artifact 可下载手动重发"
+          fi
 
       - name: Commit & Push（仅当有产出）
         if: steps.locate.outputs.produced == 'true'
@@ -291,5 +350,6 @@ jobs:
           path: |
             tmp/logs/
             tmp/daily-facts-*.json
+            tmp/publish-pending/
           retention-days: 14
           if-no-files-found: ignore

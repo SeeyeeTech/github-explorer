@@ -265,7 +265,7 @@ export function getAnalyzedUrlIndex(): Map<string, string> {
 
 // 站点元信息（写死，避免再加 site.yaml）
 // SITE_URL/BASE_PATH 在 astro.config.mjs 已经 env 化；这里 siteUrl/basePath 提供运行时只读快照
-const SITE_URL = (import.meta.env.SITE ?? "https://austinxt.github.io").replace(/\/$/, "");
+const SITE_URL = (import.meta.env.SITE ?? "https://seeyeetech.com").replace(/\/$/, "");
 const BASE_PATH = (import.meta.env.BASE_URL ?? "/").replace(/\/$/, "");
 
 export const SITE = {
@@ -273,7 +273,7 @@ export const SITE = {
   subtitle: "深度挖掘 GitHub 仓库价值",
   description:
     "375+ 篇 GitHub 仓库深度分析报告，覆盖 AI Agent、LLM、DevTools 等热门赛道；含每日 Trending 榜与大牛 Star 订阅。",
-  repoUrl: "https://github.com/AustinXT/github-explorer",
+  repoUrl: "https://github.com/SeeyeeTech/github-explorer",
   ownerHandle: "NVoyager",
   // SEO / 社交分享
   siteUrl: SITE_URL,

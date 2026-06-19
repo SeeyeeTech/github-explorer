@@ -8,7 +8,7 @@
 
 百度站长平台对域名要求严格：
 
-1. **不收录子路径**：`austinxt.github.io/github-explorer/` 这种二级路径，百度认定为 `austinxt.github.io` 域名下的内容，不会单独建索引；且 `github.io` 整个母域的权重被其他人共享
+1. **不收录子路径**：`seeyeetech.com/github-explorer/` 这种二级路径，百度认定为 `seeyeetech.com` 域名下的内容，不会单独建索引；且 `github.io` 整个母域的权重被其他人共享
 2. **域名归属验证**：百度要求验证域名的**所有权**（DNS / CNAME），但 `github.io` 子域名你没有 DNS 控制权
 3. **ICP 备案敏感**：境外域名（含 github.io）百度抓取意愿低，收录速度慢一个数量级
 
@@ -48,4 +48,4 @@
 
 - 站长后台 → "普通收录" → 推送配额每天上限正常（默认 10 条/天，加站后会涨）
 - 一周后 → "索引量" 应开始有非零数据
-- `site:austinxt.github.io/github-explorer/` 在百度搜索框能搜到结果（最起码首页）
+- `site:seeyeetech.com/github-explorer/` 在百度搜索框能搜到结果（最起码首页）

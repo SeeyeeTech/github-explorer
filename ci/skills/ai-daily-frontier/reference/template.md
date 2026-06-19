@@ -14,7 +14,7 @@ title: "<按标题创作规则现场生成的 H1，同 # 标题>"
 date: "<YYYY-MM-DD>"
 summary: "<一句话提要，进 RSS/列表/公众号摘要>"
 tags: ["AI 日报", "前沿", "<当日主题如 模型/论文/融资>"]
-canonical_url: "https://austinxt.github.io/github-explorer/"
+canonical_url: "https://seeyeetech.com/github-explorer/"
 syndicate: true
 ---
 
@@ -45,7 +45,7 @@ syndicate: true
 链接：[论文](<paper_url>) · [代码](<repo_url>)
 来源：[<source_name 1>](<url>) · [<佐证源 2>](<secondary_source>)（≥2 独立源）
 标签：`<category>` `<tags>`
-<若 repo_url 命中本站报告：> 📖 本站已有深度报告 → [/reports/{slug}/](https://austinxt.github.io/github-explorer/reports/{slug}/)
+<若 repo_url 命中本站报告：> 📖 本站已有深度报告 → [/reports/{slug}/](https://seeyeetech.com/github-explorer/reports/{slug}/)
 
 #### 2. ...
 
@@ -75,7 +75,7 @@ syndicate: true
 > 来自 Phase 0 内部 facts（GitHub Trending + 大牛 Star 快照）的增强角，外部新闻已合并者不重复
 
 - **[owner/repo](url)** — <N 天上榜 / 被 M 位大牛 Star> · ⭐ stars · <一句话>
-  <若 report_slug 非空：> 📖 深度报告 → [/reports/{slug}/](https://austinxt.github.io/github-explorer/reports/{slug}/)
+  <若 report_slug 非空：> 📖 深度报告 → [/reports/{slug}/](https://seeyeetech.com/github-explorer/reports/{slug}/)
 
 ## 🔧 方法与来源
 
@@ -87,7 +87,7 @@ syndicate: true
 ---
 
 > 本文由「AI 前沿日报」自动汇编，全网采集 + 对抗式事实核验。更多 AI 项目深度解析见
-> https://austinxt.github.io/github-explorer/
+> https://seeyeetech.com/github-explorer/
 ```
 
 ## 产物 2：`src/ai_news/<date>.meta.json`
@@ -106,7 +106,7 @@ syndicate: true
 ## 约定
 
 - **canonical 约定**：篇B 无站点详情页，`canonical_url` 一律指向站点首页
-  `https://austinxt.github.io/github-explorer/`（≠ 篇A 的 `/daily/<date>/`）。
+  `https://seeyeetech.com/github-explorer/`（≠ 篇A 的 `/daily/<date>/`）。
 - 每个板块若为空，**省略该板块标题**，不留空节（但「今日必看/关注/简讯」三级里至少一级有条目，
   否则全 <4.0 时按下条改写）。
 - **0 条达标**（全部 <4.0）：不套上面模板，正文直接写「今日无重大 AI 资讯」并简述采集与核验情况，

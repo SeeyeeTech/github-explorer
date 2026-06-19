@@ -1285,6 +1285,8 @@ entries:
   mvanhorn_last30days-skill:
   - ai-agent
   - rag-search
+  n0-computer_iroh:
+  - protocol-spec
   nautechsystems_nautilus_trader:
   - llm-inference
   - trading-finance
@@ -1773,6 +1775,11 @@ entries:
   - media-generation
   swc-project_swc:
   - web-framework
+  swe-agent_mini-swe-agent:
+  - ai-agent
+  - ai-coding
+  - llm-framework
+  - protocol-spec
   swisskyrepo_payloadsallthethings:
   - iot-hardware
   - security
@@ -1911,6 +1918,10 @@ entries:
   - uncategorized
   unionlabs_union:
   - protocol-spec
+  universal-debloater-alliance_universal-android-debloater-next-generation:
+  - devtools
+  - database
+  - data-pipeline
   unslothai_unsloth:
   - llm-training
   usememos_memos:

@@ -1285,6 +1285,8 @@ entries:
   mvanhorn_last30days-skill:
   - ai-agent
   - rag-search
+  n0-computer_iroh:
+  - protocol-spec
   nautechsystems_nautilus_trader:
   - llm-inference
   - trading-finance
@@ -1724,6 +1726,9 @@ entries:
   - ai-coding
   smartcontractkit_chainlink:
   - security
+  sonofmagic_weapp-tailwindcss:
+  - ai-agent
+  - design-ui
   soxoj_maigret:
   - database
   spipm_depixelization_poc:
@@ -1911,6 +1916,10 @@ entries:
   - uncategorized
   unionlabs_union:
   - protocol-spec
+  universal-debloater-alliance_universal-android-debloater-next-generation:
+  - devtools
+  - database
+  - data-pipeline
   unslothai_unsloth:
   - llm-training
   usememos_memos:

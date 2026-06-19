@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-06-18",
+    "last_run": "2026-06-19",
     "window_days": 30
   },
   "entries": [
@@ -507,6 +507,24 @@
       "canonical_url": "https://github.com/Lightricks/LTX-2",
       "event_date": "2026-06-18",
       "date_seen": "2026-06-18"
+    },
+    {
+      "key": "github.com/builderio/agent-native",
+      "canonical_url": "https://github.com/BuilderIO/agent-native",
+      "event_date": "2026-06-19",
+      "date_seen": "2026-06-19"
+    },
+    {
+      "key": "github.com/chopratejas/headroom",
+      "canonical_url": "https://github.com/chopratejas/headroom",
+      "event_date": "2026-06-19",
+      "date_seen": "2026-06-19"
+    },
+    {
+      "key": "github.com/aishwaryanr/awesome-generative-ai-guide",
+      "canonical_url": "https://github.com/aishwaryanr/awesome-generative-ai-guide",
+      "event_date": "2026-06-19",
+      "date_seen": "2026-06-19"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-06-20",
+    "last_run": "2026-06-21",
     "window_days": 30
   },
   "entries": [
@@ -555,6 +555,66 @@
       "canonical_url": "https://github.com/Choochmeque/tauri-webdriver",
       "event_date": "2026-06-19",
       "date_seen": "2026-06-20"
+    },
+    {
+      "key": "github.com/bytedance/deer-flow",
+      "canonical_url": "https://github.com/bytedance/deer-flow",
+      "event_date": "2026-06-21",
+      "date_seen": "2026-06-21"
+    },
+    {
+      "key": "github.com/zhulinsen/daily_stock_analysis",
+      "canonical_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "event_date": "2026-06-21",
+      "date_seen": "2026-06-21"
+    },
+    {
+      "key": "github.com/mukul975/anthropic-cybersecurity-skills",
+      "canonical_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "event_date": "2026-06-21",
+      "date_seen": "2026-06-21"
+    },
+    {
+      "key": "github.com/topoteretes/cognee",
+      "canonical_url": "https://github.com/topoteretes/cognee",
+      "event_date": "2026-06-21",
+      "date_seen": "2026-06-21"
+    },
+    {
+      "key": "github.com/asgeirtj/system_prompts_leaks",
+      "canonical_url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "event_date": "2026-06-21",
+      "date_seen": "2026-06-21"
+    },
+    {
+      "key": "github.com/raullenchai/rapid-mlx",
+      "canonical_url": "https://github.com/raullenchai/Rapid-MLX",
+      "event_date": "2026-06-21",
+      "date_seen": "2026-06-21"
+    },
+    {
+      "key": "github.com/waybarrios/vllm-mlx",
+      "canonical_url": "https://github.com/waybarrios/vllm-mlx",
+      "event_date": "2026-06-21",
+      "date_seen": "2026-06-21"
+    },
+    {
+      "key": "github.com/oxiglade/mlx-rs",
+      "canonical_url": "https://github.com/oxiglade/mlx-rs",
+      "event_date": "2026-06-21",
+      "date_seen": "2026-06-21"
+    },
+    {
+      "key": "github.com/modelyaml/modelyaml",
+      "canonical_url": "https://github.com/modelyaml/modelyaml",
+      "event_date": "2026-06-21",
+      "date_seen": "2026-06-21"
+    },
+    {
+      "key": "github.com/axios/axios",
+      "canonical_url": "https://github.com/axios/axios",
+      "event_date": "2026-06-21",
+      "date_seen": "2026-06-21"
     }
   ]
 }

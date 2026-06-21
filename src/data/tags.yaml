@@ -302,6 +302,11 @@ entries:
   - iot-hardware
   - web-framework
   - security
+  calesthio_openmontage:
+  - ai-agent
+  - ai-coding
+  - video-audio
+  - media-generation
   can1357_oh-my-pi:
   - ai-agent
   - ai-coding
@@ -1013,6 +1018,9 @@ entries:
   - protocol-spec
   koala73_worldmonitor:
   - ai-agent
+  - devtools
+  - protocol-spec
+  kong_insomnia:
   - devtools
   - protocol-spec
   kovidgoyal_calibre:

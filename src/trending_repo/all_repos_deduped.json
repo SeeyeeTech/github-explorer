@@ -330,6 +330,16 @@
     "trending_days": 14
   },
   {
+    "name": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "language": "Shell",
+    "stars": 139002,
+    "forks": 12058,
+    "description": "Skills for Real Engineers. Straight from my .claude directory.",
+    "last_seen": "2026-06-21",
+    "trending_days": 14
+  },
+  {
     "name": "microsoft/markitdown",
     "url": "https://github.com/microsoft/markitdown",
     "language": "Python",
@@ -360,6 +370,16 @@
     "trending_days": 14
   },
   {
+    "name": "bytedance/deer-flow",
+    "url": "https://github.com/bytedance/deer-flow",
+    "language": "Python",
+    "stars": 72264,
+    "forks": 9799,
+    "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+    "last_seen": "2026-06-21",
+    "trending_days": 13
+  },
+  {
     "name": "lfnovo/open-notebook",
     "url": "https://github.com/lfnovo/open-notebook",
     "language": "TypeScript",
@@ -367,16 +387,6 @@
     "forks": 3066,
     "description": "An Open Source implementation of Notebook LM with more flexibility and features",
     "last_seen": "2026-06-07",
-    "trending_days": 13
-  },
-  {
-    "name": "mattpocock/skills",
-    "url": "https://github.com/mattpocock/skills",
-    "language": "Shell",
-    "stars": 137547,
-    "forks": 11931,
-    "description": "Skills for Real Engineers. Straight from my .claude directory.",
-    "last_seen": "2026-06-20",
     "trending_days": 13
   },
   {
@@ -388,16 +398,6 @@
     "description": "The absolute trainer to light up AI agents.",
     "last_seen": "2026-03-31",
     "trending_days": 13
-  },
-  {
-    "name": "bytedance/deer-flow",
-    "url": "https://github.com/bytedance/deer-flow",
-    "language": "Python",
-    "stars": 65369,
-    "forks": 8648,
-    "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-    "last_seen": "2026-05-06",
-    "trending_days": 12
   },
   {
     "name": "mvanhorn/last30days-skill",
@@ -910,6 +910,16 @@
     "trending_days": 8
   },
   {
+    "name": "chopratejas/headroom",
+    "url": "https://github.com/chopratejas/headroom",
+    "language": "Python",
+    "stars": 43028,
+    "forks": 2972,
+    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+    "last_seen": "2026-06-21",
+    "trending_days": 8
+  },
+  {
     "name": "cjpais/Handy",
     "url": "https://github.com/cjpais/handy",
     "language": "TypeScript",
@@ -1090,6 +1100,16 @@
     "trending_days": 7
   },
   {
+    "name": "asgeirtj/system_prompts_leaks",
+    "url": "https://github.com/asgeirtj/system_prompts_leaks",
+    "language": "JavaScript",
+    "stars": 44053,
+    "forks": 7296,
+    "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+    "last_seen": "2026-06-21",
+    "trending_days": 7
+  },
+  {
     "name": "basecamp/omarchy",
     "url": "https://github.com/basecamp/omarchy",
     "language": "Shell",
@@ -1097,16 +1117,6 @@
     "forks": 2048,
     "description": "Beautiful, Modern & Opinionated Linux",
     "last_seen": "2026-03-01",
-    "trending_days": 7
-  },
-  {
-    "name": "chopratejas/headroom",
-    "url": "https://github.com/chopratejas/headroom",
-    "language": "Python",
-    "stars": 40458,
-    "forks": 2757,
-    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-    "last_seen": "2026-06-20",
     "trending_days": 7
   },
   {
@@ -1317,16 +1327,6 @@
     "forks": 3167,
     "description": "Anthropic's Interactive Prompt Engineering Tutorial",
     "last_seen": "2026-03-02",
-    "trending_days": 6
-  },
-  {
-    "name": "asgeirtj/system_prompts_leaks",
-    "url": "https://github.com/asgeirtj/system_prompts_leaks",
-    "language": "JavaScript",
-    "stars": 28840,
-    "forks": 4650,
-    "description": "Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude & Gemini",
-    "last_seen": "2026-01-31",
     "trending_days": 6
   },
   {
@@ -1610,6 +1610,16 @@
     "trending_days": 6
   },
   {
+    "name": "mukul975/Anthropic-Cybersecurity-Skills",
+    "url": "https://github.com/mukul975/anthropic-cybersecurity-skills",
+    "language": "Python",
+    "stars": 17291,
+    "forks": 2100,
+    "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+    "last_seen": "2026-06-21",
+    "trending_days": 6
+  },
+  {
     "name": "multica-ai/andrej-karpathy-skills",
     "url": "https://github.com/multica-ai/andrej-karpathy-skills",
     "language": "Unknown",
@@ -1657,6 +1667,16 @@
     "forks": 2732,
     "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
     "last_seen": "2026-05-25",
+    "trending_days": 6
+  },
+  {
+    "name": "penpot/penpot",
+    "url": "https://github.com/penpot/penpot",
+    "language": "Clojure",
+    "stars": 51925,
+    "forks": 3324,
+    "description": "Penpot: The open-source design tool for design and code collaboration",
+    "last_seen": "2026-06-21",
     "trending_days": 6
   },
   {
@@ -1800,6 +1820,16 @@
     "trending_days": 5
   },
   {
+    "name": "byoungd/English-level-up-tips",
+    "url": "https://github.com/byoungd/english-level-up-tips",
+    "language": "Unknown",
+    "stars": 53894,
+    "forks": 5550,
+    "description": "An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语",
+    "last_seen": "2026-06-21",
+    "trending_days": 5
+  },
+  {
     "name": "C4illin/ConvertX",
     "url": "https://github.com/c4illin/convertx",
     "language": "TypeScript",
@@ -1837,6 +1867,16 @@
     "forks": 1288,
     "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
     "last_seen": "2026-05-11",
+    "trending_days": 5
+  },
+  {
+    "name": "DeusData/codebase-memory-mcp",
+    "url": "https://github.com/deusdata/codebase-memory-mcp",
+    "language": "C",
+    "stars": 9848,
+    "forks": 748,
+    "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+    "last_seen": "2026-06-21",
     "trending_days": 5
   },
   {
@@ -1980,16 +2020,6 @@
     "trending_days": 5
   },
   {
-    "name": "mukul975/Anthropic-Cybersecurity-Skills",
-    "url": "https://github.com/mukul975/anthropic-cybersecurity-skills",
-    "language": "Python",
-    "stars": 10647,
-    "forks": 1235,
-    "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
-    "last_seen": "2026-05-27",
-    "trending_days": 5
-  },
-  {
     "name": "muratcankoylan/Agent-Skills-for-Context-Engineering",
     "url": "https://github.com/muratcankoylan/agent-skills-for-context-engineering",
     "language": "Python",
@@ -2057,16 +2087,6 @@
     "forks": 2075,
     "description": "Create and share 3D architectural projects.",
     "last_seen": "2026-05-19",
-    "trending_days": 5
-  },
-  {
-    "name": "penpot/penpot",
-    "url": "https://github.com/penpot/penpot",
-    "language": "Clojure",
-    "stars": 50841,
-    "forks": 3281,
-    "description": "Penpot: The open-source design tool for design and code collaboration",
-    "last_seen": "2026-06-20",
     "trending_days": 5
   },
   {
@@ -2210,6 +2230,16 @@
     "trending_days": 5
   },
   {
+    "name": "topoteretes/cognee",
+    "url": "https://github.com/topoteretes/cognee",
+    "language": "Python",
+    "stars": 18433,
+    "forks": 1959,
+    "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
+    "last_seen": "2026-06-21",
+    "trending_days": 5
+  },
+  {
     "name": "trycua/cua",
     "url": "https://github.com/trycua/cua",
     "language": "HTML",
@@ -2217,6 +2247,16 @@
     "forks": 1169,
     "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
     "last_seen": "2026-06-15",
+    "trending_days": 5
+  },
+  {
+    "name": "tursodatabase/turso",
+    "url": "https://github.com/tursodatabase/turso",
+    "language": "Rust",
+    "stars": 20559,
+    "forks": 1052,
+    "description": "Turso is an in-process SQL database, compatible with SQLite.",
+    "last_seen": "2026-06-21",
     "trending_days": 5
   },
   {
@@ -2370,13 +2410,13 @@
     "trending_days": 4
   },
   {
-    "name": "byoungd/English-level-up-tips",
-    "url": "https://github.com/byoungd/english-level-up-tips",
-    "language": "Unknown",
-    "stars": 49965,
-    "forks": 5218,
-    "description": "An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语",
-    "last_seen": "2026-05-30",
+    "name": "calesthio/OpenMontage",
+    "url": "https://github.com/calesthio/openmontage",
+    "language": "Python",
+    "stars": 7681,
+    "forks": 1212,
+    "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+    "last_seen": "2026-06-21",
     "trending_days": 4
   },
   {
@@ -2447,16 +2487,6 @@
     "forks": 1658,
     "description": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
     "last_seen": "2026-01-01",
-    "trending_days": 4
-  },
-  {
-    "name": "DeusData/codebase-memory-mcp",
-    "url": "https://github.com/deusdata/codebase-memory-mcp",
-    "language": "C",
-    "stars": 8835,
-    "forks": 676,
-    "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-    "last_seen": "2026-06-20",
     "trending_days": 4
   },
   {
@@ -2697,6 +2727,16 @@
     "forks": 8537,
     "description": "The simplest, fastest repository for training/finetuning medium-sized GPTs.",
     "last_seen": "2025-12-13",
+    "trending_days": 4
+  },
+  {
+    "name": "koala73/worldmonitor",
+    "url": "https://github.com/koala73/worldmonitor",
+    "language": "TypeScript",
+    "stars": 57767,
+    "forks": 9183,
+    "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+    "last_seen": "2026-06-21",
     "trending_days": 4
   },
   {
@@ -3050,16 +3090,6 @@
     "trending_days": 4
   },
   {
-    "name": "topoteretes/cognee",
-    "url": "https://github.com/topoteretes/cognee",
-    "language": "Python",
-    "stars": 15587,
-    "forks": 1607,
-    "description": "Knowledge Engine for AI Agent Memory in 6 lines of code",
-    "last_seen": "2026-04-16",
-    "trending_days": 4
-  },
-  {
     "name": "trimstray/the-book-of-secret-knowledge",
     "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
     "language": "Unknown",
@@ -3067,16 +3097,6 @@
     "forks": 13407,
     "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
     "last_seen": "2026-05-23",
-    "trending_days": 4
-  },
-  {
-    "name": "tursodatabase/turso",
-    "url": "https://github.com/tursodatabase/turso",
-    "language": "Rust",
-    "stars": 20041,
-    "forks": 1034,
-    "description": "Turso is an in-process SQL database, compatible with SQLite.",
-    "last_seen": "2026-06-20",
     "trending_days": 4
   },
   {
@@ -3267,16 +3287,6 @@
     "forks": 1130,
     "description": "The AI Browser Automation Framework",
     "last_seen": "2025-10-10",
-    "trending_days": 3
-  },
-  {
-    "name": "calesthio/OpenMontage",
-    "url": "https://github.com/calesthio/openmontage",
-    "language": "Python",
-    "stars": 6604,
-    "forks": 1111,
-    "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-    "last_seen": "2026-06-20",
     "trending_days": 3
   },
   {
@@ -3700,16 +3710,6 @@
     "trending_days": 3
   },
   {
-    "name": "koala73/worldmonitor",
-    "url": "https://github.com/koala73/worldmonitor",
-    "language": "TypeScript",
-    "stars": 56924,
-    "forks": 9119,
-    "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-    "last_seen": "2026-06-19",
-    "trending_days": 3
-  },
-  {
     "name": "Kong/insomnia",
     "url": "https://github.com/kong/insomnia",
     "language": "TypeScript",
@@ -3977,6 +3977,16 @@
     "forks": 187,
     "description": "Windows companion suite for OpenClaw - System Tray app, Shared library, Node, and PowerToys Command Palette extension",
     "last_seen": "2026-06-06",
+    "trending_days": 3
+  },
+  {
+    "name": "palmier-io/palmier-pro",
+    "url": "https://github.com/palmier-io/palmier-pro",
+    "language": "Swift",
+    "stars": 4221,
+    "forks": 335,
+    "description": "macOS video editor built for AI",
+    "last_seen": "2026-06-21",
     "trending_days": 3
   },
   {
@@ -4387,6 +4397,16 @@
     "forks": 242,
     "description": "Experimental menu for GTA 5: Enhanced",
     "last_seen": "2025-12-13",
+    "trending_days": 3
+  },
+  {
+    "name": "ZhuLinsen/daily_stock_analysis",
+    "url": "https://github.com/zhulinsen/daily_stock_analysis",
+    "language": "Python",
+    "stars": 43946,
+    "forks": 41272,
+    "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+    "last_seen": "2026-06-21",
     "trending_days": 3
   },
   {
@@ -6050,16 +6070,6 @@
     "trending_days": 2
   },
   {
-    "name": "palmier-io/palmier-pro",
-    "url": "https://github.com/palmier-io/palmier-pro",
-    "language": "Swift",
-    "stars": 2390,
-    "forks": 221,
-    "description": "macOS video editor built for AI",
-    "last_seen": "2026-06-20",
-    "trending_days": 2
-  },
-  {
     "name": "pathwaycom/llm-app",
     "url": "https://github.com/pathwaycom/llm-app",
     "language": "JupyterNotebook",
@@ -6607,16 +6617,6 @@
     "forks": 43,
     "description": "Simple Rust VPN Client / Server",
     "last_seen": "2026-02-06",
-    "trending_days": 2
-  },
-  {
-    "name": "ZhuLinsen/daily_stock_analysis",
-    "url": "https://github.com/zhulinsen/daily_stock_analysis",
-    "language": "Python",
-    "stars": 36842,
-    "forks": 36100,
-    "description": "LLM驱动的 A/H/美股智能分析：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送，零成本定时运行，纯白嫖. LLM-powered stock analysis system for A/H/US markets.",
-    "last_seen": "2026-05-18",
     "trending_days": 2
   },
   {
@@ -8610,6 +8610,16 @@
     "trending_days": 1
   },
   {
+    "name": "mikumifa/biliTickerBuy",
+    "url": "https://github.com/mikumifa/bilitickerbuy",
+    "language": "Python",
+    "stars": 3685,
+    "forks": 462,
+    "description": "b站会员购购票辅助工具",
+    "last_seen": "2026-06-21",
+    "trending_days": 1
+  },
+  {
     "name": "mlabonne/llm-course",
     "url": "https://github.com/mlabonne/llm-course",
     "language": "Unknown",
@@ -9507,6 +9517,16 @@
     "forks": 1822,
     "description": "Presentation Slides for Developers",
     "last_seen": "2025-12-08",
+    "trending_days": 1
+  },
+  {
+    "name": "smicallef/spiderfoot",
+    "url": "https://github.com/smicallef/spiderfoot",
+    "language": "Python",
+    "stars": 18588,
+    "forks": 3094,
+    "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+    "last_seen": "2026-06-21",
     "trending_days": 1
   },
   {

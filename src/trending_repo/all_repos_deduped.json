@@ -290,6 +290,16 @@
     "trending_days": 15
   },
   {
+    "name": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "language": "Shell",
+    "stars": 141236,
+    "forks": 12230,
+    "description": "Skills for Real Engineers. Straight from my .claude directory.",
+    "last_seen": "2026-06-22",
+    "trending_days": 15
+  },
+  {
     "name": "ruvnet/RuView",
     "url": "https://github.com/ruvnet/ruview",
     "language": "Rust",
@@ -310,6 +320,16 @@
     "trending_days": 14
   },
   {
+    "name": "bytedance/deer-flow",
+    "url": "https://github.com/bytedance/deer-flow",
+    "language": "Python",
+    "stars": 73055,
+    "forks": 9879,
+    "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+    "last_seen": "2026-06-22",
+    "trending_days": 14
+  },
+  {
     "name": "codecrafters-io/build-your-own-x",
     "url": "https://github.com/codecrafters-io/build-your-own-x",
     "language": "Markdown",
@@ -327,16 +347,6 @@
     "forks": 12067,
     "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
     "last_seen": "2026-06-10",
-    "trending_days": 14
-  },
-  {
-    "name": "mattpocock/skills",
-    "url": "https://github.com/mattpocock/skills",
-    "language": "Shell",
-    "stars": 139002,
-    "forks": 12058,
-    "description": "Skills for Real Engineers. Straight from my .claude directory.",
-    "last_seen": "2026-06-21",
     "trending_days": 14
   },
   {
@@ -368,16 +378,6 @@
     "description": "Kronos: A Foundation Model for the Language of Financial Markets",
     "last_seen": "2026-06-15",
     "trending_days": 14
-  },
-  {
-    "name": "bytedance/deer-flow",
-    "url": "https://github.com/bytedance/deer-flow",
-    "language": "Python",
-    "stars": 72264,
-    "forks": 9799,
-    "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-    "last_seen": "2026-06-21",
-    "trending_days": 13
   },
   {
     "name": "lfnovo/open-notebook",
@@ -1160,6 +1160,16 @@
     "trending_days": 7
   },
   {
+    "name": "jamiepine/voicebox",
+    "url": "https://github.com/jamiepine/voicebox",
+    "language": "TypeScript",
+    "stars": 31960,
+    "forks": 3919,
+    "description": "The open-source AI voice studio. Clone, dictate, create.",
+    "last_seen": "2026-06-22",
+    "trending_days": 7
+  },
+  {
     "name": "jellyfin/jellyfin",
     "url": "https://github.com/jellyfin/jellyfin",
     "language": "C#",
@@ -1187,6 +1197,16 @@
     "forks": 3420,
     "description": "🤖 The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI, running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, MCP, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference",
     "last_seen": "2026-01-15",
+    "trending_days": 7
+  },
+  {
+    "name": "mukul975/Anthropic-Cybersecurity-Skills",
+    "url": "https://github.com/mukul975/anthropic-cybersecurity-skills",
+    "language": "Python",
+    "stars": 18352,
+    "forks": 2185,
+    "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+    "last_seen": "2026-06-22",
     "trending_days": 7
   },
   {
@@ -1227,6 +1247,16 @@
     "forks": 1517,
     "description": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
     "last_seen": "2026-01-03",
+    "trending_days": 7
+  },
+  {
+    "name": "penpot/penpot",
+    "url": "https://github.com/penpot/penpot",
+    "language": "Clojure",
+    "stars": 52694,
+    "forks": 3373,
+    "description": "Penpot: The open-source design tool for design and code collaboration",
+    "last_seen": "2026-06-22",
     "trending_days": 7
   },
   {
@@ -1400,6 +1430,16 @@
     "trending_days": 6
   },
   {
+    "name": "DeusData/codebase-memory-mcp",
+    "url": "https://github.com/deusdata/codebase-memory-mcp",
+    "language": "C",
+    "stars": 11143,
+    "forks": 830,
+    "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+    "last_seen": "2026-06-22",
+    "trending_days": 6
+  },
+  {
     "name": "DigitalPlatDev/FreeDomain",
     "url": "https://github.com/digitalplatdev/freedomain",
     "language": "HTML",
@@ -1497,16 +1537,6 @@
     "forks": 719,
     "description": "InsForge is a Postgres-based backend with auth, storage, compute, hosting, and AI gateway. Built for coding agents.",
     "last_seen": "2026-05-07",
-    "trending_days": 6
-  },
-  {
-    "name": "jamiepine/voicebox",
-    "url": "https://github.com/jamiepine/voicebox",
-    "language": "TypeScript",
-    "stars": 30771,
-    "forks": 3813,
-    "description": "The open-source AI voice studio. Clone, dictate, create.",
-    "last_seen": "2026-06-20",
     "trending_days": 6
   },
   {
@@ -1610,16 +1640,6 @@
     "trending_days": 6
   },
   {
-    "name": "mukul975/Anthropic-Cybersecurity-Skills",
-    "url": "https://github.com/mukul975/anthropic-cybersecurity-skills",
-    "language": "Python",
-    "stars": 17291,
-    "forks": 2100,
-    "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
-    "last_seen": "2026-06-21",
-    "trending_days": 6
-  },
-  {
     "name": "multica-ai/andrej-karpathy-skills",
     "url": "https://github.com/multica-ai/andrej-karpathy-skills",
     "language": "Unknown",
@@ -1667,16 +1687,6 @@
     "forks": 2732,
     "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
     "last_seen": "2026-05-25",
-    "trending_days": 6
-  },
-  {
-    "name": "penpot/penpot",
-    "url": "https://github.com/penpot/penpot",
-    "language": "Clojure",
-    "stars": 51925,
-    "forks": 3324,
-    "description": "Penpot: The open-source design tool for design and code collaboration",
-    "last_seen": "2026-06-21",
     "trending_days": 6
   },
   {
@@ -1737,6 +1747,16 @@
     "forks": 6525,
     "description": "Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1",
     "last_seen": "2026-03-29",
+    "trending_days": 6
+  },
+  {
+    "name": "tursodatabase/turso",
+    "url": "https://github.com/tursodatabase/turso",
+    "language": "Rust",
+    "stars": 21166,
+    "forks": 1076,
+    "description": "Turso is an in-process SQL database, compatible with SQLite.",
+    "last_seen": "2026-06-22",
     "trending_days": 6
   },
   {
@@ -1840,6 +1860,16 @@
     "trending_days": 5
   },
   {
+    "name": "calesthio/OpenMontage",
+    "url": "https://github.com/calesthio/openmontage",
+    "language": "Python",
+    "stars": 11059,
+    "forks": 1478,
+    "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+    "last_seen": "2026-06-22",
+    "trending_days": 5
+  },
+  {
     "name": "chatwoot/chatwoot",
     "url": "https://github.com/chatwoot/chatwoot",
     "language": "Ruby",
@@ -1867,16 +1897,6 @@
     "forks": 1288,
     "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
     "last_seen": "2026-05-11",
-    "trending_days": 5
-  },
-  {
-    "name": "DeusData/codebase-memory-mcp",
-    "url": "https://github.com/deusdata/codebase-memory-mcp",
-    "language": "C",
-    "stars": 9848,
-    "forks": 748,
-    "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-    "last_seen": "2026-06-21",
     "trending_days": 5
   },
   {
@@ -2250,16 +2270,6 @@
     "trending_days": 5
   },
   {
-    "name": "tursodatabase/turso",
-    "url": "https://github.com/tursodatabase/turso",
-    "language": "Rust",
-    "stars": 20559,
-    "forks": 1052,
-    "description": "Turso is an in-process SQL database, compatible with SQLite.",
-    "last_seen": "2026-06-21",
-    "trending_days": 5
-  },
-  {
     "name": "vxcontrol/pentagi",
     "url": "https://github.com/vxcontrol/pentagi",
     "language": "Go",
@@ -2407,16 +2417,6 @@
     "forks": 391,
     "description": "A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.",
     "last_seen": "2026-01-27",
-    "trending_days": 4
-  },
-  {
-    "name": "calesthio/OpenMontage",
-    "url": "https://github.com/calesthio/openmontage",
-    "language": "Python",
-    "stars": 7681,
-    "forks": 1212,
-    "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-    "last_seen": "2026-06-21",
     "trending_days": 4
   },
   {
@@ -2940,6 +2940,16 @@
     "trending_days": 4
   },
   {
+    "name": "palmier-io/palmier-pro",
+    "url": "https://github.com/palmier-io/palmier-pro",
+    "language": "Swift",
+    "stars": 6855,
+    "forks": 480,
+    "description": "macOS video editor built for AI",
+    "last_seen": "2026-06-22",
+    "trending_days": 4
+  },
+  {
     "name": "pbakaus/impeccable",
     "url": "https://github.com/pbakaus/impeccable",
     "language": "JavaScript",
@@ -3137,6 +3147,16 @@
     "forks": 258,
     "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
     "last_seen": "2026-05-08",
+    "trending_days": 4
+  },
+  {
+    "name": "ZhuLinsen/daily_stock_analysis",
+    "url": "https://github.com/zhulinsen/daily_stock_analysis",
+    "language": "Python",
+    "stars": 45611,
+    "forks": 41862,
+    "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+    "last_seen": "2026-06-22",
     "trending_days": 4
   },
   {
@@ -3507,6 +3527,16 @@
     "forks": 1748,
     "description": "🥢像老乡鸡🐔那样做饭。主要部分于2024年完工，非老乡鸡官方仓库。文字来自《老乡鸡菜品溯源报告》，并做归纳、编辑与整理。CookLikeHOC.",
     "last_seen": "2025-09-24",
+    "trending_days": 3
+  },
+  {
+    "name": "garrytan/gstack",
+    "url": "https://github.com/garrytan/gstack",
+    "language": "TypeScript",
+    "stars": 112841,
+    "forks": 16759,
+    "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+    "last_seen": "2026-06-22",
     "trending_days": 3
   },
   {
@@ -3980,16 +4010,6 @@
     "trending_days": 3
   },
   {
-    "name": "palmier-io/palmier-pro",
-    "url": "https://github.com/palmier-io/palmier-pro",
-    "language": "Swift",
-    "stars": 4221,
-    "forks": 335,
-    "description": "macOS video editor built for AI",
-    "last_seen": "2026-06-21",
-    "trending_days": 3
-  },
-  {
     "name": "PKUFlyingPig/cs-self-learning",
     "url": "https://github.com/pkuflyingpig/cs-self-learning",
     "language": "HTML",
@@ -4397,16 +4417,6 @@
     "forks": 242,
     "description": "Experimental menu for GTA 5: Enhanced",
     "last_seen": "2025-12-13",
-    "trending_days": 3
-  },
-  {
-    "name": "ZhuLinsen/daily_stock_analysis",
-    "url": "https://github.com/zhulinsen/daily_stock_analysis",
-    "language": "Python",
-    "stars": 43946,
-    "forks": 41272,
-    "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-    "last_seen": "2026-06-21",
     "trending_days": 3
   },
   {
@@ -5147,16 +5157,6 @@
     "forks": 159,
     "description": "A platform for reproducible world model research and evaluation",
     "last_seen": "2026-05-30",
-    "trending_days": 2
-  },
-  {
-    "name": "garrytan/gstack",
-    "url": "https://github.com/garrytan/gstack",
-    "language": "TypeScript",
-    "stars": 102118,
-    "forks": 15238,
-    "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
-    "last_seen": "2026-05-25",
     "trending_days": 2
   },
   {
@@ -6257,6 +6257,16 @@
     "forks": 483,
     "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
     "last_seen": "2026-02-27",
+    "trending_days": 2
+  },
+  {
+    "name": "Stirling-Tools/Stirling-PDF",
+    "url": "https://github.com/stirling-tools/stirling-pdf",
+    "language": "TypeScript",
+    "stars": 82591,
+    "forks": 7222,
+    "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
+    "last_seen": "2026-06-22",
     "trending_days": 2
   },
   {
@@ -7570,6 +7580,16 @@
     "trending_days": 1
   },
   {
+    "name": "firecrawl/firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "language": "TypeScript",
+    "stars": 136864,
+    "forks": 7945,
+    "description": "The API to search, scrape, and interact with the web at scale. 🔥",
+    "last_seen": "2026-06-22",
+    "trending_days": 1
+  },
+  {
     "name": "florinpop17/app-ideas",
     "url": "https://github.com/florinpop17/app-ideas",
     "language": "Unknown",
@@ -7970,6 +7990,16 @@
     "trending_days": 1
   },
   {
+    "name": "heygen-com/hyperframes",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "language": "TypeScript",
+    "stars": 29779,
+    "forks": 2813,
+    "description": "Write HTML. Render video. Built for agents.",
+    "last_seen": "2026-06-22",
+    "trending_days": 1
+  },
+  {
     "name": "hiddify/hiddify-app",
     "url": "https://github.com/hiddify/hiddify-app",
     "language": "Dart",
@@ -8127,6 +8157,16 @@
     "forks": 173,
     "description": "magic-trace collects and displays high-resolution traces of what a process is doing",
     "last_seen": "2026-05-23",
+    "trending_days": 1
+  },
+  {
+    "name": "JCodesMore/ai-website-cloner-template",
+    "url": "https://github.com/jcodesmore/ai-website-cloner-template",
+    "language": "TypeScript",
+    "stars": 17525,
+    "forks": 2728,
+    "description": "Clone any website with one command using AI coding agents",
+    "last_seen": "2026-06-22",
     "trending_days": 1
   },
   {
@@ -8417,6 +8457,16 @@
     "forks": 476,
     "description": "Empower the Web community and invite more to build across platforms.",
     "last_seen": "2025-12-06",
+    "trending_days": 1
+  },
+  {
+    "name": "lyogavin/airllm",
+    "url": "https://github.com/lyogavin/airllm",
+    "language": "JupyterNotebook",
+    "stars": 20936,
+    "forks": 2418,
+    "description": "AirLLM 70B inference with single 4GB GPU",
+    "last_seen": "2026-06-22",
     "trending_days": 1
   },
   {
@@ -9577,16 +9627,6 @@
     "forks": 191,
     "description": "WhatsApp CLI",
     "last_seen": "2026-04-16",
-    "trending_days": 1
-  },
-  {
-    "name": "Stirling-Tools/Stirling-PDF",
-    "url": "https://github.com/stirling-tools/stirling-pdf",
-    "language": "Java",
-    "stars": 71871,
-    "forks": 6105,
-    "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
-    "last_seen": "2025-12-29",
     "trending_days": 1
   },
   {

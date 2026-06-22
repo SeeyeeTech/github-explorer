@@ -1234,6 +1234,9 @@ entries:
   modelcontextprotocol_typescript-sdk:
   - ai-agent
   - protocol-spec
+  modelyaml_modelyaml:
+  - llm-inference
+  - model-foundation
   modsetter_surfsense:
   - ai-agent
   - llm-framework
@@ -1451,6 +1454,12 @@ entries:
   - llm-framework
   - llm-inference
   - iot-hardware
+  - protocol-spec
+  palmier-io_palmier-pro:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - video-audio
   - protocol-spec
   panniantong_agent-reach:
   - ai-agent
@@ -2092,6 +2101,8 @@ entries:
   zaidmukaddam_scira:
   - ai-agent
   - rag-search
+  zhulinsen_daily_stock_analysis:
+  - devtools
   zie619_n8n-workflows:
   - devtools
   - workflow-automation

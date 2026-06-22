@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+/* 表格 */
+table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin: 1em 0 !important;
+    font-size: 14px !important;
+}
+th, td {
+    border: 1px solid #ddd !important;
+    padding: 8px 12px !important;
+    text-align: left !important;
+    color: #3e3e3e !important;
+}
+th {
+    background: #f5f5f5 !important;
+    font-weight: bold !important;
+}
+</style>
+</head>
+<body>
+
+<blockquote><p>GitHub: <a href="https://github.com/palmier-io/palmier-pro">https://github.com/palmier-io/palmier-pro</a></p></blockquote>
+
+<h2>一句话总结</h2>
+
+<p>Palmier Pro 是「AI 视频生成 + 原生时间线编辑 + MCP Agent 接入」三合一的开源 macOS NLE，让 Claude/Cursor/Codex 等 Agent 直接在视频时间线上工作，把「网页生成 → 下载 → 导入 NLE」的无限循环一刀切掉。</p>
+
+<h2>值得关注的理由</h2>
+
+<ul>
+<li><strong>稀缺的三位一体定位</strong>：把「AI 生成可编辑的视频项目 + 完整 NLE + MCP 双向暴露」三件事打包的开源产品几乎空白；传统 NLE（Premiere/DaVinci/OpenShot）无生成，生成平台（Runway/Pika）无时间线。</li>
+<li><strong>极致「日更级」节奏</strong>：2.5 个月、656 个 commit、54 个 release，平均 1.4 天发一版，54 个 tag 全部按语义化版本。<code>appcast.xml</code> 用 Sparkle 自动分发，反映职业化团队的持续交付状态。</li>
+<li><strong>MCP-first 设计哲学</strong>：所有剪辑工具的命名直接对应人类手势（<code>move_clips</code> / <code>split_clip</code> / <code>set_clip_properties</code> / <code>ripple_delete</code>），Agent 的 API 表面 = 用户的 UX，零额外学习成本；本地 MCP server 仅绑 IPv4 loopback + Origin/ProtocolVersion 三层验证，安全性设计到位。</li>
+</ul>
+
+<h2>项目展示</h2>
+
+<p><img src="https://raw.githubusercontent.com/palmier-io/palmier-pro/main/assets/palmier-ui.png" alt="Palmier Pro UI" /> — 类型: hero（主时间线 + 媒体面板 + AI 生成面板 + Inspector 四象限布局）</p>
+
+<p><img src="https://api.star-history.com/chart?repos=palmier-io/palmier-pro&amp;type=date&amp;legend=top-left" alt="Star History Chart" /> — 类型: screenshot（增长曲线）</p>
+
+<blockquote><p>官网未暴露可独立外链的图片资源，DMG 内截屏以 SVG 内嵌。</p></blockquote>
+
+<h2>项目画像</h2>
+
+<table>
+<thead>
+<tr><th>维度</th><th>数据</th></tr>
+</thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/palmier-io/palmier-pro">https://github.com/palmier-io/palmier-pro</a></td></tr>
+<tr><td>Star / Fork</td><td>6,182 / 447</td></tr>
+<tr><td>代码行数</td><td>47,849 行（Swift 95.0% / JSON 2.4% / XML 1.3%）</td></tr>
+<tr><td>项目年龄</td><td>2.5 个月（首次提交 2026-04-06）</td></tr>
+<tr><td>开发阶段</td><td>密集开发（近 30 天 266 commit，41% 占比）</td></tr>
+<tr><td>贡献模式</td><td>单人主导（Harrison Tin 占 97.4%，其余 7 位贡献者均 ≤8 次）</td></tr>
+<tr><td>热度定位</td><td>大众热门（2.5 月龄 + 6K+ star + 爆发型增长）</td></tr>
+<tr><td>质量评级</td><td>代码[优秀] 文档[优秀] 测试[充分]</td></tr>
+</tbody>
+</table>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+
+<p>核心人物是 Harrison Tin（htin1），所在的 Palmier Organization 自述 "AI Video Platform"，是一家 YC S24 的小团队。2 年的账号年龄、6 个公开仓库中此项目排第 1，是唯一全量投入的核心产品线。仅 1 篇公开博客「The Aesthetic Problem with Nano Banana」讨论预设风格如何缓解 Nano Banana Pro 同质化审美问题，反映其对 AI 视频质量的前沿关注。</p>
+
+<h3>问题判断</h3>
+
+<p>作者团队本身是痛点用户（FAQ.md 第一段：「We are a YC startup that has been making AI launch videos for other companies. We noticed a big gap between generative AI and the video editor」）。做大量 launch video 后回头造工具——这是典型的 dogfooding 起家路线。</p>
+
+<p>时机踩得很准：2024–2026 期间 Seedance / Kling / Veo / Nano Banana Pro 等模型质量跨过可生产门槛；同时 MCP 协议让 "AI 编辑视频" 这件事首次具备标准化的 Agent↔工具接口。两个条件在 2026 年交集，催生了「AI 进时间线」这个值得做的赛道。</p>
+
+<h3>解法哲学</h3>
+
+<ul>
+<li><strong>不强迫多工具搬素材</strong>：把「生成」与「剪辑」合并到同一个 Project 状态机；编辑器本体免费（FAQ：「You can download it with no login required」），生成/credits 才是付费墙。</li>
+<li><strong>API 表面 = 人体工程学</strong>：所有 MCP 工具的命名/语义和人类的手势一一对应（AgentInstructions.swift「The clip-editing surface mirrors human gestures — one tool per gesture」）。</li>
+<li><strong>明确「不做」</strong>：FAQ 列出 Effects / Transitions / Color grading / Masking / Graphics 全部不做，理由是「先解决 AI 视频这条窄赛道够用」，把 "够用就发" 的 MVP 哲学写在产品决策里。</li>
+<li><strong>可逆性优先</strong>：ToolExecutor 在每次成功改 timeline 的工具执行后自动 push undo action 到 agentUndoStack——Agent 的编辑操作对人类永远是可撤销的。</li>
+<li><strong>Open-core</strong>：核心 NLE + MCP server + in-app chat 全开源，闭源只有「生成 AI 处理」——GPLv3 许可证 + 闭源云端生成，经典 open-core 套利。</li>
+</ul>
+
+<h3>战略意图</h3>
+
+<p>核心产品而非基础设施。SaaS + 订阅 + 按 credits 计费的生成 API 是商业化主线；编辑器本体为获客漏斗。开源编辑器的目的是建立 AI 视频创作者的开发者心智，构建生态护城河，再倒流到闭源云端生成。</p>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处</h3>
+
+<ol>
+<li><strong>Timeline 视图 = Agent 视图（同一份语义）</strong> — 不是把 MCP 当成「额外暴露给机器的接口」，而是「人类手势 = Agent 工具语义」。<strong>新颖度 4/5 | 实用性 5/5 | 可迁移性 5/5</strong></li>
+<li><strong>短 ID 协议层（idPrefix floor + universe-wide uniqueness）</strong> — 在「输出方向」生成项目内最小唯一前缀；「输入方向」用 regex 匹配 UUID 形状并把短前缀解析回全 ID。节省 50%+ token，鲁棒性极强。<strong>新颖度 4/5 | 实用性 5/5 | 可迁移性 5/5</strong></li>
+<li><strong>Timeline 编辑作为 enum Action 集合（pure functions over Clip[]）</strong> — <code>OverwriteEngine</code> / <code>RippleEngine</code> / <code>SnapEngine</code> 全是 <code>enum + 静态函数</code>，纯输入→输出，UI 层只负责 apply。<strong>新颖度 3/5 | 实用性 5/5 | 可迁移性 5/5</strong></li>
+<li><strong>本地视觉搜索管线（FrameSampler → 嵌入 → 盘上 cache → invalidation）</strong> — AVAssetImageGenerator 采样 + 镜头边界检测 + 本地 CLIP/SigLIP 嵌入 + 自定义二进制磁盘格式 + <code>(modelVersion, samplerVersion)</code> invalidation。<strong>新颖度 4/5 | 实用性 5/5 | 可迁移性 4/5</strong></li>
+<li><strong>on-device 转写 → timeline-frame 投影</strong> — 把每个 clip 的 source-time 转写通过 trim/speed/position 折算到项目帧，「删除填充词」类 Agent 编辑的前置条件。<strong>新颖度 4/5 | 实用性 5/5 | 可迁移性 4/5</strong></li>
+<li><strong>NLE XML 互操作选择 XMEML 而非 FCPXML</strong> — 主动看用户群（Premiere 优先）选老格式，注释写得很明白（XMLExporter.swift 第 5–10 行）。<strong>新颖度 3/5 | 实用性 4/5 | 可迁移性 4/5</strong></li>
+<li><strong>本地 MCP HTTP server 三层防御（loopback + Origin + ProtocolVersion）</strong> — <code>params.requiredLocalEndpoint = .hostPort(host: "127.0.0.1", …)</code> + <code>OriginValidator.localhost(port:)</code> + <code>ProtocolVersionValidator()</code>，LAN 隔离做到极致。<strong>新颖度 3/5 | 实用性 5/5 | 可迁移性 5/5</strong></li>
+<li><strong>Agent 自动 undo stack</strong> — 每次成功改 timeline 推一个 undoActionName 到 agentUndoStack。<strong>新颖度 3/5 | 实用性 5/5 | 可迁移性 5/5</strong></li>
+</ol>
+
+<h3>可复用的模式与技巧</h3>
+
+<ul>
+<li><strong>Tool 主干（ToolExecutor + ToolDefinitions.all 枚举）</strong>：UI 与 MCP 共用一份工具实现 — 适用 Agent IDE / 跨 UI↔API 共享能力</li>
+<li><strong>enum 动作集合的纯函数编辑引擎</strong>：编辑语义作为 <code>[Action] / [Shift]</code> 输出 — 适用 NLE / Gantt / 排程 / 表格编辑</li>
+<li><strong>短 ID 协议层</strong>：短前缀 in/out + universe-wide uniqueness — 适用 Agent ↔ 富领域模型</li>
+<li><strong>强制 AppTheme 常量层</strong>：<code>AppTheme.{Spacing, FontSize, ...}</code> + AGENTS.md 守门 — 适用 SwiftUI 设计系统</li>
+<li><strong>本地嵌入 → 盘上二进制 cache + version invalidation</strong>：<code>magic + JSON header + rows + vectors</code> — 适用视觉/语义搜索</li>
+<li><strong>loopback-only HTTP + validation pipeline</strong>：NWListener + 三层验证 — 适用本地 daemon / MCP server</li>
+<li><strong>FrameSampler 镜头边界驱动采样</strong>：luma scene-change + 候选间隔 + 覆盖底线 — 适用视频索引/抽帧/封面选取</li>
+</ul>
+
+<h3>关键设计决策</h3>
+
+<ol>
+<li><strong>决策</strong>：ToolExecutor 是 Agent（外部 MCP）和人（in-app chat）共享的「能力主干」
+<ul>
+<li><strong>问题</strong>：同一套工具集合要同时支撑外部 Claude/Cursor/Codex 和内置 chat 面板</li>
+<li><strong>方案</strong>：<code>ToolExecutor</code> 把工具实现抽象成纯函数 + editorProvider 闭包；MCPService 和 in-app AgentPanel 共享同一份</li>
+<li><strong>Trade-off</strong>：AgentTools 集合被绑定到 EditorViewModel——编辑器未打开时工具直接报「Editor not available」，换来所有工具的语义一致和零代码重复</li>
+<li><strong>可迁移性</strong>：高</li>
+</ul>
+</li>
+<li><strong>决策</strong>：Timeline 操作的纯函数枚举引擎层
+<ul>
+<li><strong>问题</strong>：时间线编辑有大量「给定一组 clip，返回该怎么变」的纯计算逻辑</li>
+<li><strong>方案</strong>：<code>OverwriteEngine</code> / <code>RippleEngine</code> / <code>SnapEngine</code> 全是 <code>enum + 静态纯函数</code>，输入 clips/tracks 返回 Action/ClipShift/SnapResult，UI 层只负责 apply</li>
+<li><strong>Trade-off</strong>：引擎和 UI 解耦便于测试，但 Action 不可变，撤销交给 EditorViewModel.undoManager</li>
+<li><strong>可迁移性</strong>：高</li>
+</ul>
+</li>
+<li><strong>决策</strong>：MCP 工具的「短 ID + 前缀歧义消解」协议层
+<ul>
+<li><strong>问题</strong>：完整 UUID 36 字符让 Agent 上下文爆炸；人类可读短码又被 Agent 误补全</li>
+<li><strong>方案</strong>：输出端生成项目内最小唯一前缀；输入端用 regex 匹配 UUID 形状解析回全 ID</li>
+<li><strong>Trade-off</strong>：实现复杂度集中在 ID 解析层（输入要解析 12+ 种 ID 字段名），换来 Agent 上下文 token 节省 50%+</li>
+<li><strong>可迁移性</strong>：高</li>
+</ul>
+</li>
+</ol>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+
+<table>
+<thead>
+<tr><th>维度</th><th>Palmier Pro</th><th>Runway/Pika</th><th>CapCut Desktop</th><th>DaVinci Resolve</th><th>OpenShot/Kdenlive</th></tr>
+</thead>
+<tbody>
+<tr><td>AI 生成原生集成</td><td>✅（多模型可换）</td><td>✅（自研模型强）</td><td>⚠️（封闭）</td><td>❌</td><td>❌</td></tr>
+<tr><td>完整 NLE 时间线</td><td>✅</td><td>❌（仅输出 MP4）</td><td>✅</td><td>✅</td><td>✅</td></tr>
+<tr><td>MCP Agent 接入</td><td>✅（首批原生）</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr>
+<tr><td>开源</td><td>✅（GPLv3）</td><td>❌</td><td>❌</td><td>❌（部分）</td><td>✅</td></tr>
+<tr><td>本地检索/转写</td><td>✅（CLIP+SF Speech）</td><td>❌</td><td>⚠️</td><td>⚠️</td><td>❌</td></tr>
+<tr><td>跨平台</td><td>macOS only</td><td>跨平台</td><td>跨平台</td><td>跨平台</td><td>跨平台</td></tr>
+</tbody>
+</table>
+
+<h3>差异化护城河</h3>
+
+<ul>
+<li><strong>技术护城河</strong>：「编辑器 + 生成 + Agent 共享同一份 Timeline 状态机」——不是简单地把 NLE + API 拼起来，而是把 MCP tool schema 当成一等公民</li>
+<li><strong>生态护城河</strong>：MCP server + mcpb 一键安装 + 14 套字体（Geist/Playfair/Shrikhand/Permanent Marker）+ AppTheme 设计系统——把「本地 MCP server」真正 ship 给普通用户的标准动作</li>
+<li><strong>信任护城河</strong>：YC S24 + 创始人公开博客 + GPLv3 开源 + Sparkle 自动更新</li>
+</ul>
+
+<h3>竞争风险</h3>
+
+<p>最大风险是 <strong>CapCut Desktop + 字节自研模型 + 模板生态</strong>——一旦字节把 MCP 接入和模型开放做出来，Palmier Pro 的窄用户群会被侵蚀。其次是 <strong>Adobe Firefly + Premiere 的 MCP 整合</strong>——如果 Adobe 把 MCP 做出来，将直接吃掉这条赛道。</p>
+
+<h3>生态定位</h3>
+
+<p>「AI 视频创作者的 MCP-first NLE」——定位在 Web 生成平台（云）和传统 NLE（桌面）的中间层；把自己变成「任何 Agent 都能驱动的 AI 视频编辑器」。</p>
+
+<h2>套利机会分析</h2>
+
+<ul>
+<li><strong>信息差</strong>：低龄 + 高质量 + 快速起量，但 macOS 26 Tahoe 门槛（Issue #14）限制了扩散速度；v0.3.4 在 Agent 多步编辑时 100% CPU 卡死（Issue #58）说明稳定性还在打磨期</li>
+<li><strong>技术借鉴</strong>：<code>ToolExecutor</code> 共享主干 + 短 ID 协议层 + enum 动作集合的纯函数编辑引擎 这三个模式可以原样迁移到任何 Agent IDE / NLE / 排程类产品</li>
+<li><strong>生态位</strong>：填补了「AI 生成可编辑 + 完整 NLE + MCP 暴露」三合一的空白</li>
+<li><strong>趋势判断</strong>：符合 "Agent 化一切富状态应用" 的趋势；MCP 协议红利期还有 1–2 年；先发优势显著</li>
+</ul>
+
+<h2>风险与不足</h2>
+
+<ul>
+<li><strong>macOS 26 only</strong>：Issue #14 反映 14/15.x 版本支持是扩散最大阻力</li>
+<li><strong>单人主导</strong>：Harrison Tin 占 97.4% 提交，bus factor 极低</li>
+<li><strong>MCP 稳定性</strong>：Issue #58 反映 Agent 多步编辑存在 100% CPU 卡死风险</li>
+<li><strong>商业模型风险</strong>：生成端 credits 计费依赖用户持续付费；编辑器开源但商业护城河在云端生成</li>
+<li><strong>测试 / 代码比 1:15</strong>：141 测试 vs 2069 代码改，核心引擎覆盖好但端到端测试可能不足</li>
+</ul>
+
+<h2>行动建议</h2>
+
+<ul>
+<li><strong>如果你要用它</strong>：必须 macOS 26 Tahoe；适合 AI 视频/广告团队 + Agent 化工作流；不适合普通短视频创作者（功能太窄），不适合跨平台需求</li>
+<li><strong>如果你要学它</strong>：重点关注 <code>Sources/PalmierPro/Agent/Tools/</code> 下的 ToolExecutor 实现、<code>Sources/PalmierPro/Timeline/</code> 的纯函数引擎、<code>Sources/PalmierPro/MCP/</code> 的三层验证</li>
+<li><strong>如果你要 fork 它</strong>：可改进方向——跨平台（Linux/Windows）、更多模型 provider、Effects/Transitions 补全（FAQ 明示未做）、测试覆盖率提升</li>
+</ul>
+
+<h3>知识入口</h3>
+
+<table>
+<thead>
+<tr><th>资源</th><th>链接</th></tr>
+</thead>
+<tbody>
+<tr><td>DeepWiki</td><td><a href="https://deepwiki.com/palmier-io/palmier-pro">https://deepwiki.com/palmier-io/palmier-pro</a> （已收录）</td></tr>
+<tr><td>Zread.ai</td><td>未确认收录（403）</td></tr>
+<tr><td>关联论文</td><td>无</td></tr>
+<tr><td>在线 Demo</td><td>无（产品需下载 DMG，本地运行 macOS 26+）</td></tr>
+</tbody>
+</table>
+
+</body>
+</html>

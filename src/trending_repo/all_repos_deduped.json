@@ -100,6 +100,16 @@
     "trending_days": 24
   },
   {
+    "name": "NousResearch/hermes-agent",
+    "url": "https://github.com/nousresearch/hermes-agent",
+    "language": "Python",
+    "stars": 201633,
+    "forks": 36004,
+    "description": "The agent that grows with you",
+    "last_seen": "2026-06-24",
+    "trending_days": 24
+  },
+  {
     "name": "HKUDS/LightRAG",
     "url": "https://github.com/hkuds/lightrag",
     "language": "Python",
@@ -117,16 +127,6 @@
     "forks": 653,
     "description": "Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!",
     "last_seen": "2025-12-04",
-    "trending_days": 23
-  },
-  {
-    "name": "NousResearch/hermes-agent",
-    "url": "https://github.com/nousresearch/hermes-agent",
-    "language": "Python",
-    "stars": 200518,
-    "forks": 35741,
-    "description": "The agent that grows with you",
-    "last_seen": "2026-06-23",
     "trending_days": 23
   },
   {
@@ -630,6 +630,16 @@
     "trending_days": 10
   },
   {
+    "name": "Flowseal/zapret-discord-youtube",
+    "url": "https://github.com/flowseal/zapret-discord-youtube",
+    "language": "Batchfile",
+    "stars": 29979,
+    "forks": 2339,
+    "description": "None",
+    "last_seen": "2026-06-24",
+    "trending_days": 10
+  },
+  {
     "name": "harvard-edge/cs249r_book",
     "url": "https://github.com/harvard-edge/cs249r_book",
     "language": "JavaScript",
@@ -807,16 +817,6 @@
     "forks": 66173,
     "description": "📚 Freely available programming books",
     "last_seen": "2026-04-29",
-    "trending_days": 9
-  },
-  {
-    "name": "Flowseal/zapret-discord-youtube",
-    "url": "https://github.com/flowseal/zapret-discord-youtube",
-    "language": "Batchfile",
-    "stars": 27248,
-    "forks": 2128,
-    "description": "None",
-    "last_seen": "2026-05-04",
     "trending_days": 9
   },
   {
@@ -1140,6 +1140,16 @@
     "trending_days": 7
   },
   {
+    "name": "calesthio/OpenMontage",
+    "url": "https://github.com/calesthio/openmontage",
+    "language": "Python",
+    "stars": 17949,
+    "forks": 2061,
+    "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+    "last_seen": "2026-06-24",
+    "trending_days": 7
+  },
+  {
     "name": "DeusData/codebase-memory-mcp",
     "url": "https://github.com/deusdata/codebase-memory-mcp",
     "language": "C",
@@ -1396,16 +1406,6 @@
     "stars": 54416,
     "forks": 5582,
     "description": "An advanced guide to learn English which might benefit you a lot 🎉 . 人生进阶指南 离谱的人生 离谱的英语学习指南/英语学习教程/英语学习/学英语",
-    "last_seen": "2026-06-23",
-    "trending_days": 6
-  },
-  {
-    "name": "calesthio/OpenMontage",
-    "url": "https://github.com/calesthio/openmontage",
-    "language": "Python",
-    "stars": 14309,
-    "forks": 1738,
-    "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
     "last_seen": "2026-06-23",
     "trending_days": 6
   },
@@ -1810,6 +1810,16 @@
     "trending_days": 6
   },
   {
+    "name": "ZhuLinsen/daily_stock_analysis",
+    "url": "https://github.com/zhulinsen/daily_stock_analysis",
+    "language": "Python",
+    "stars": 48048,
+    "forks": 42831,
+    "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+    "last_seen": "2026-06-24",
+    "trending_days": 6
+  },
+  {
     "name": "aandrew-me/ytDownloader",
     "url": "https://github.com/aandrew-me/ytdownloader",
     "language": "JavaScript",
@@ -1847,6 +1857,16 @@
     "forks": 2319,
     "description": "None",
     "last_seen": "2026-05-10",
+    "trending_days": 5
+  },
+  {
+    "name": "apple/container",
+    "url": "https://github.com/apple/container",
+    "language": "Swift",
+    "stars": 41527,
+    "forks": 1211,
+    "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+    "last_seen": "2026-06-24",
     "trending_days": 5
   },
   {
@@ -2170,6 +2190,16 @@
     "trending_days": 5
   },
   {
+    "name": "revfactory/harness",
+    "url": "https://github.com/revfactory/harness",
+    "language": "HTML",
+    "stars": 7593,
+    "forks": 1050,
+    "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+    "last_seen": "2026-06-24",
+    "trending_days": 5
+  },
+  {
     "name": "roboflow/supervision",
     "url": "https://github.com/roboflow/supervision",
     "language": "Python",
@@ -2320,16 +2350,6 @@
     "trending_days": 5
   },
   {
-    "name": "ZhuLinsen/daily_stock_analysis",
-    "url": "https://github.com/zhulinsen/daily_stock_analysis",
-    "language": "Python",
-    "stars": 46612,
-    "forks": 42247,
-    "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-    "last_seen": "2026-06-23",
-    "trending_days": 5
-  },
-  {
     "name": "aaif-goose/goose",
     "url": "https://github.com/aaif-goose/goose",
     "language": "Rust",
@@ -2407,16 +2427,6 @@
     "forks": 16921,
     "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
     "last_seen": "2026-03-30",
-    "trending_days": 4
-  },
-  {
-    "name": "apple/container",
-    "url": "https://github.com/apple/container",
-    "language": "Swift",
-    "stars": 35792,
-    "forks": 1010,
-    "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
-    "last_seen": "2026-06-13",
     "trending_days": 4
   },
   {
@@ -3017,16 +3027,6 @@
     "forks": 2349,
     "description": "Prometheus Alertmanager",
     "last_seen": "2025-11-10",
-    "trending_days": 4
-  },
-  {
-    "name": "revfactory/harness",
-    "url": "https://github.com/revfactory/harness",
-    "language": "HTML",
-    "stars": 7320,
-    "forks": 1036,
-    "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
-    "last_seen": "2026-06-23",
     "trending_days": 4
   },
   {
@@ -3717,6 +3717,16 @@
     "forks": 7219,
     "description": " Now we have become very big, Different from the original idea. Collect premium software in various categories.",
     "last_seen": "2025-12-19",
+    "trending_days": 3
+  },
+  {
+    "name": "JCodesMore/ai-website-cloner-template",
+    "url": "https://github.com/jcodesmore/ai-website-cloner-template",
+    "language": "TypeScript",
+    "stars": 18975,
+    "forks": 2842,
+    "description": "Clone any website with one command using AI coding agents",
+    "last_seen": "2026-06-24",
     "trending_days": 3
   },
   {
@@ -5440,16 +5450,6 @@
     "trending_days": 2
   },
   {
-    "name": "JCodesMore/ai-website-cloner-template",
-    "url": "https://github.com/jcodesmore/ai-website-cloner-template",
-    "language": "TypeScript",
-    "stars": 18281,
-    "forks": 2784,
-    "description": "Clone any website with one command using AI coding agents",
-    "last_seen": "2026-06-23",
-    "trending_days": 2
-  },
-  {
     "name": "juanfont/headscale",
     "url": "https://github.com/juanfont/headscale",
     "language": "Go",
@@ -6860,6 +6860,16 @@
     "trending_days": 1
   },
   {
+    "name": "andreknieriem/headunit-revived",
+    "url": "https://github.com/andreknieriem/headunit-revived",
+    "language": "Kotlin",
+    "stars": 1361,
+    "forks": 112,
+    "description": "Headunit App for displaying Android Auto",
+    "last_seen": "2026-06-24",
+    "trending_days": 1
+  },
+  {
     "name": "Anduin2017/HowToCook",
     "url": "https://github.com/anduin2017/howtocook",
     "language": "Dockerfile",
@@ -7620,6 +7630,16 @@
     "trending_days": 1
   },
   {
+    "name": "flutter/flutter",
+    "url": "https://github.com/flutter/flutter",
+    "language": "Dart",
+    "stars": 177131,
+    "forks": 30541,
+    "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+    "last_seen": "2026-06-24",
+    "trending_days": 1
+  },
+  {
     "name": "flutter/skills",
     "url": "https://github.com/flutter/skills",
     "language": "Dart",
@@ -7837,6 +7857,16 @@
     "forks": 8241,
     "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
     "last_seen": "2025-09-26",
+    "trending_days": 1
+  },
+  {
+    "name": "google-labs-code/design.md",
+    "url": "https://github.com/google-labs-code/design.md",
+    "language": "TypeScript",
+    "stars": 16792,
+    "forks": 1550,
+    "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+    "last_seen": "2026-06-24",
     "trending_days": 1
   },
   {
@@ -8110,6 +8140,16 @@
     "trending_days": 1
   },
   {
+    "name": "interviewstreet/hiring-agent",
+    "url": "https://github.com/interviewstreet/hiring-agent",
+    "language": "Python",
+    "stars": 1881,
+    "forks": 572,
+    "description": "AI agent to evaluate and score resumes.",
+    "last_seen": "2026-06-24",
+    "trending_days": 1
+  },
+  {
     "name": "isaac-sim/IsaacSim",
     "url": "https://github.com/isaac-sim/isaacsim",
     "language": "Python",
@@ -8317,6 +8357,16 @@
     "forks": 1879,
     "description": "Zigbee 🐝 to MQTT bridge 🌉, get rid of your proprietary Zigbee bridges 🔨",
     "last_seen": "2026-01-02",
+    "trending_days": 1
+  },
+  {
+    "name": "kunchenguid/no-mistakes",
+    "url": "https://github.com/kunchenguid/no-mistakes",
+    "language": "Go",
+    "stars": 1784,
+    "forks": 128,
+    "description": "git push no-mistakes",
+    "last_seen": "2026-06-24",
     "trending_days": 1
   },
   {
@@ -9607,6 +9657,16 @@
     "forks": 243,
     "description": "A contact solver for physics-based simulations involving 👚 shells, 🪵 solids and 🪢 rods.",
     "last_seen": "2026-05-26",
+    "trending_days": 1
+  },
+  {
+    "name": "stablyai/orca",
+    "url": "https://github.com/stablyai/orca",
+    "language": "TypeScript",
+    "stars": 6515,
+    "forks": 475,
+    "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+    "last_seen": "2026-06-24",
     "trending_days": 1
   },
   {

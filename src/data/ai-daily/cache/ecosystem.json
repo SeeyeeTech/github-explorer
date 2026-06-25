@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-06-24",
+    "last_run": "2026-06-25",
     "window_days": 30
   },
   "entries": [
@@ -741,6 +741,36 @@
       "canonical_url": "https://github.com/latias94/merman",
       "event_date": "2026-06-24",
       "date_seen": "2026-06-24"
+    },
+    {
+      "key": "github.com/xbtlin/ai-berkshire",
+      "canonical_url": "https://github.com/xbtlin/ai-berkshire",
+      "event_date": "2026-06-25",
+      "date_seen": "2026-06-25"
+    },
+    {
+      "key": "github.com/aws/agent-toolkit-for-aws",
+      "canonical_url": "https://github.com/aws/agent-toolkit-for-aws",
+      "event_date": "2026-06-25",
+      "date_seen": "2026-06-25"
+    },
+    {
+      "key": "github.com/alibaba/page-agent",
+      "canonical_url": "https://github.com/alibaba/page-agent",
+      "event_date": "2026-06-25",
+      "date_seen": "2026-06-25"
+    },
+    {
+      "key": "github.com/opendatalab/mineru",
+      "canonical_url": "https://github.com/opendatalab/MinerU",
+      "event_date": "2026-06-25",
+      "date_seen": "2026-06-25"
+    },
+    {
+      "key": "github.com/mdn/mcp",
+      "canonical_url": "https://github.com/mdn/mcp",
+      "event_date": "2026-06-25",
+      "date_seen": "2026-06-25"
     }
   ]
 }

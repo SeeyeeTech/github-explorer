@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-06-26",
+    "last_run": "2026-06-27",
     "window_days": 30
   },
   "entries": [
@@ -771,6 +771,72 @@
       "canonical_url": "https://github.com/mdn/mcp",
       "event_date": "2026-06-25",
       "date_seen": "2026-06-25"
+    },
+    {
+      "key": "github.com/simplex-chat/simplex-chat",
+      "canonical_url": "https://github.com/simplex-chat/simplex-chat",
+      "event_date": "2026-06-27",
+      "date_seen": "2026-06-27"
+    },
+    {
+      "key": "github.com/commaai/openpilot",
+      "canonical_url": "https://github.com/commaai/openpilot",
+      "event_date": "2026-06-27",
+      "date_seen": "2026-06-27"
+    },
+    {
+      "key": "github.com/icewhaletech/casaos",
+      "canonical_url": "https://github.com/IceWhaleTech/CasaOS",
+      "event_date": "2026-06-27",
+      "date_seen": "2026-06-27"
+    },
+    {
+      "key": "github.com/ripienaar/free-for-dev",
+      "canonical_url": "https://github.com/ripienaar/free-for-dev",
+      "event_date": "2026-06-27",
+      "date_seen": "2026-06-27"
+    },
+    {
+      "key": "github.com/hugohe3/ppt-master",
+      "canonical_url": "https://github.com/hugohe3/ppt-master",
+      "event_date": "2026-06-27",
+      "date_seen": "2026-06-27"
+    },
+    {
+      "key": "github.com/tapxworld/chinatextbook",
+      "canonical_url": "https://github.com/tapxworld/chinatextbook",
+      "event_date": "2026-06-27",
+      "date_seen": "2026-06-27"
+    },
+    {
+      "key": "github.com/nvm-sh/nvm",
+      "canonical_url": "https://github.com/nvm-sh/nvm",
+      "event_date": "2026-06-27",
+      "date_seen": "2026-06-27"
+    },
+    {
+      "key": "github.com/iptv-org/iptv",
+      "canonical_url": "https://github.com/iptv-org/iptv",
+      "event_date": "2026-06-27",
+      "date_seen": "2026-06-27"
+    },
+    {
+      "key": "github.com/yeongpin/cursor-free-vip",
+      "canonical_url": "https://github.com/yeongpin/cursor-free-vip",
+      "event_date": "2026-06-27",
+      "date_seen": "2026-06-27"
+    },
+    {
+      "key": "github.com/yangshun/tech-interview-handbook",
+      "canonical_url": "https://github.com/yangshun/tech-interview-handbook",
+      "event_date": "2026-06-27",
+      "date_seen": "2026-06-27"
+    },
+    {
+      "key": "github.com/bobeff/open-source-games",
+      "canonical_url": "https://github.com/bobeff/open-source-games",
+      "event_date": "2026-06-27",
+      "date_seen": "2026-06-27"
     }
   ]
 }

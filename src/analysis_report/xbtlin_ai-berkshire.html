@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/xbtlin/ai-berkshire">https://github.com/xbtlin/ai-berkshire</a></p></blockquote>
+
+<h2>一句话总结</h2>
+<p>把巴菲特/芒格/段永平/李录四大师方法论做成 18 个 Claude Code Skill 入口 + 4 Agent 并行对抗 + Python Decimal 工具链，用一台笔记本 + 一个 AI CLI 跑出 2024 年 +69.29% / 2025 年 +66.38% 的可审计研报。</p>
+
+<h2>值得关注的理由</h2>
+<ul>
+<li><strong>方法论产品化范本</strong>：不是又一个「让 AI 帮你分析股票」的玩具 prompt 包，而是把四大师方法论变成可复用、可审计的 18 个 Skill，且同时跑在 Claude Code 与 OpenAI Codex 两个 CLI 上。</li>
+<li><strong>反 LLM 幻觉的工程化纪律</strong>：不信任 LLM 心算——所有 PE/市值/三情景估值都强制走 Python <code>decimal.Decimal</code> 工具；15% 报告数据抽检 + 1% 容差判决，可挂 CI。</li>
+<li><strong>真实 dogfooding 留痕</strong>：作者把从 ❌ 改 ✅ 的「美团挑战」完整记录在 <code>ai_CLAUDE.md</code>，比 +69% 收益数字更可信——这是真实迭代的证据，不是事后包装。</li>
+</ul>
+
+<h2>项目展示</h2>
+<p><img src="https://raw.githubusercontent.com/xbtlin/ai-berkshire/main/assets/2024-returns.jpg" alt="2024 全年实盘收益 +69.29%" /> — 类型: hero（富途账户截图，2024 年跑赢标普 500 约 46pp）</p>
+<p><img src="https://raw.githubusercontent.com/xbtlin/ai-berkshire/main/assets/architecture.png" alt="整体架构" /> — 类型: architecture（Skill 层 → Agent 层 → Tool 层 三层架构图）</p>
+<p><img src="https://raw.githubusercontent.com/xbtlin/ai-berkshire/main/assets/2025-returns.jpg" alt="2025 年至今收益 +66.38%" /> — 类型: screenshot（2025 收益证明，与 2024 一起构成 track record）</p>
+
+<h2>项目画像</h2>
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse:collapse;width:100%;font-size:14px;">
+<thead><tr><th align="left">维度</th><th align="left">数据</th></tr></thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/xbtlin/ai-berkshire">https://github.com/xbtlin/ai-berkshire</a></td></tr>
+<tr><td>Star / Fork</td><td>4,217 / 586</td></tr>
+<tr><td>Watcher</td><td>12</td></tr>
+<tr><td>代码行数</td><td>2,637 行 Python（vs ~30 万行 Markdown 报告）</td></tr>
+<tr><td>语言分布</td><td>Python 95.2% / JSON 2.8% / Shell 1.9% / YAML 0.2%</td></tr>
+<tr><td>文件数量</td><td>2,195（含 18 个 Skill + 200+ 研报）</td></tr>
+<tr><td>项目年龄</td><td>2.7 个月（2026-04-07 创建）</td></tr>
+<tr><td>开发阶段</td><td>密集开发（30 天 752 commit，仍在加速）</td></tr>
+<tr><td>开发模式</td><td>职业项目（周末 29% / 深夜 37% 被 cron 推高）</td></tr>
+<tr><td>贡献模式</td><td>Claude bot 53% + xbtlin 36% + linxuan 8% ≈ 97%，典型「人 + AI Agent」协作</td></tr>
+<tr><td>热度定位</td><td>中等热度，爆发型增长（117 star 集中在 24h 采样窗口）</td></tr>
+<tr><td>质量评级</td><td>代码良好 / 文档优秀 / 测试不足 / 无 CI</td></tr>
+</tbody>
+</table>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+<p>Xbt Lin（xbtlin），12.3 年 GitHub 账号，2026 年才押注「LLM × 价值投资」垂直赛道。Bio 写「Exploring LLMs × value investing」，从账号内 fork 列表看（<code>buffett-chinese</code>、<code>claude-code-source-code</code>、<code>cv-arxiv-daily</code>），是价值投资长期读者 + 认真消化过 Claude Code 上游代码的工程化用户。中文母语，定位大中华区散户+专业投资者。</p>
+
+<h3>问题判断</h3>
+<p>作者看到三个别人没解决透的问题：</p>
+<ol>
+<li><strong>LLM 心算不可靠</strong>——PE 算错、港币/人民币混淆、小数点漂移</li>
+<li><strong>「资料多=确定性高」的幻觉</strong>——LLM 拿一堆资料自动补完一个伪精确结论</li>
+<li><strong>单视角分析无法制造真实方法论对抗</strong>——巴菲特说「够便宜」时，没人追问「10 年后还在吗」</li>
+</ol>
+<p>时机选择：押注 2024-2026 LLM 编程能力跃迁 + Code CLI 普及，单兵 + AI Agent 能达到过去小型投研团队的产能，垂直整合「投研方法论+LLM 工具」窗口期到来。</p>
+
+<h3>解法哲学</h3>
+<ul>
+<li><strong>反「AI 即结论」</strong>：明确反对「AI 给我一篇漂亮的分析」，强制四视角对抗 + 强制结论（通过/不通过/灰色）+ 强制价格区间 + 强制镜子测试（5 句话说不完整=不买）</li>
+<li><strong>Unix 哲学 vs 瑞士军刀的折中</strong>：18 个 Skill 各管一段，但每个 Skill 内部都是同一套「信息丰富度评级 + 工具验算 + 多 Agent 并行 + 数据抽检」流程</li>
+<li><strong>明确不做什么</strong>：不接实时数据（Wind/Bloomberg/MCP 是路线图 P1）、不做回测、不做量化交易（定位是「拿来做决策的研报」而非 alpha 引擎）、不用 LLM 心算</li>
+</ul>
+
+<h3>战略意图</h3>
+<p>项目是作者的核心产品而非基础设施，开源策略是 genuinely open（MIT），不打算做 SaaS/托管版。商业化路径是作者自己公众号 + 实盘业绩（README 称「两年 146 万收益」），把项目作为引流 + 个人品牌建设。单作者 12.3 年账号垂直押注「LLM × 价值投资」，不像 augur / valinvest 那种「AI for finance」通用型，而是把「中国散户 + 四大师方法论 + Claude/Codex CLI」这三个 niche 焊死。</p>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处</h3>
+<ol>
+<li><strong>A/B/C 信息丰富度评级 + 三套研究策略</strong> — 不是给所有公司套同一个框架，而是先按信息丰富度分级，每级对应不同研究策略：A 级警惕共识陷阱、B 级强制置信度标注、C 级切换到第一性原理模式（聚焦 4 个底层问题）。<code>ai_CLAUDE.md</code> 里有「信息丰富度 ≠ 投资确定性」的元认知提醒。新颖度 4/5，实用性 4/5，可迁移性 5/5。</li>
+<li><strong>Python Decimal + 三情景估值的「工具外包心算」模式</strong> — 不信任 LLM 做金融心算，把 PE/PB/ROE/FCF Yield/三情景估值/Benford 检测写成 6 个 CLI 子命令（<code>tools/financial_rigor.py</code>），Skill 文档里嵌入 Bash 调用片段强制 LLM 调用。零外部依赖（仅 Python stdlib）。新颖度 3/5，实用性 5/5，可迁移性 5/5。</li>
+<li><strong>四大师方法论对抗（Buffett-Munger-Duan-Li Lu as adversarial agents）</strong> — 不是把四个大师的视角并列展示（分工），而是让他们「互为质询」：巴菲特说「够便宜」，李录追问「10 年后还在吗」；段永平说「好生意」，芒格追问「怎么会死」。这种对抗制造真实张力，避免「四份报告拼贴」。新颖度 4/5，实用性 3/5，可迁移性 3/5。</li>
+<li><strong><code>report_audit.py</code> 自动从 Markdown 提取数字 + 15% 抽样 + CI 化 PASS/FAIL 判决</strong> — 借鉴软件测试覆盖率思想，从 markdown 报告自动提取所有数字+单位（5 种正则模式：百分数/亿元/x 倍数/万亿/表格行），随机抽 15%，输出 JSON 模板让人工回填独立信源值，最后输出 PASS/FAIL 判决和 FAIL 时非零退出码——可挂 CI。新颖度 4/5，实用性 5/5，可迁移性 4/5。</li>
+<li><strong>Claude Code + Codex 双客户端单源派生（<code>skills/</code> → <code>codex-skills/</code> 通过 <code>sync-codex-skills.py</code>）</strong> — <code>skills/*.md</code> 作为 canonical source，<code>scripts/sync-codex-skills.py</code> 自动生成 Codex 端 <code>codex-skills/*/SKILL.md</code>，每份生成的 Codex skill 头部带「Codex adapter note」翻译 Claude-only 概念到 Codex 等价物。<code>AGENTS.md</code> 是 Codex 端的宪法文件，独立于 Claude Code 的 <code>CLAUDE.md</code>。新颖度 4/5，实用性 5/5，可迁移性 4/5。</li>
+</ol>
+
+<h3>可复用的模式与技巧</h3>
+<ol>
+<li><strong>三段式 Skill 模板（前置评估 → 主流程 → 数据抽检）</strong> — 18 个 Skill 几乎都遵循这个结构：开头强制「AI 研究偏见自觉」（A/B/C 评级），中间是「4 Agent 并行 + 工具校验 + 大师追问」主流程，结尾是「数据抽检 PASS/FAIL」。任何「LLM 做分析+判断」的项目都可套用。</li>
+<li><strong>Skill-as-Markdown-as-Service</strong> — 把 Skill 写成 markdown 而不是代码（不是 Python decorator 也不是 JSON Schema），方便人编辑、版本控制、跨 LLM CLI 移植。</li>
+<li><strong>Tool-as-CLI-with-Argparse</strong> — 工具全部 CLI 化（<code>financial_rigor.py verify-market-cap</code> 等子命令），Bash 可调用、LLM 可调用、CI 可调用（verdict 命令非零退出码）。</li>
+<li><strong>canonical-source 单源派生</strong> — 双客户端场景下维护一份 canonical markdown + 自动派生 + adapter note，比双份手工维护更可靠。可推广到 Claude Code + Codex、Cursor + 其他 CLI 等组合。</li>
+<li><strong>Benford 定律 CLI 化</strong> — 把「首位数字分布异常=可能造假」这个审计技巧做成 CLI 工具，让 LLM 在处理财报时自动跑一遍。</li>
+</ol>
+
+<h3>关键设计决策</h3>
+<ol>
+<li><strong>决策: 三层 Skill → Agent → Tool 架构，而不是单 Agent + Function Calling</strong><br/>问题: LLM Agent 在长 prompt 下会「疲劳」——前半段推理严谨、后半段开始偷懒拼凑结论<br/>方案: Skill 文件只声明流程，Agent 层强制并行（不是 chain），Tool 层把「必须用 Python 计算」的部分完全外包<br/>Trade-off: 牺牲响应速度（4 Agent 并行可能 2-3 分钟）和 token 成本（Issue #11 「太费 token 了」），换四视角独立性 + 数据可审计性<br/>可迁移性: 高</li>
+<li><strong>决策: Python <code>decimal.Decimal</code> 强制替代 LLM 心算，工具调用嵌入 Skill 文本</strong><br/>问题: LLM 心算 PE/市值有约 5-15% 的错误率<br/>方案: <code>tools/financial_rigor.py</code> 提供 6 个子命令，全部使用 <code>decimal.Context(prec=28, ROUND_HALF_EVEN)</code> 精确十进制计算<br/>Trade-off: 多一道 Bash 调用的延迟；放弃了 LLM 直接回答的「丝滑感」<br/>可迁移性: 高</li>
+<li><strong>决策: A/B/C 信息丰富度评级 + 镜子测试 + 8 条快速否决清单的「反偏见三件套」</strong><br/>问题: LLM 最危险的失败模式不是「答错」而是「用推测填满确定性」<br/>方案: ①每个 Skill 开头强制信息丰富度评级；②镜子测试（5 句话说不完整=不买）；③8 条快速否决清单作为硬性红线<br/>Trade-off: 牺牲了「看起来专业」的报告完整度（C 级公司可能只产 1 页核心问题清单）<br/>可迁移性: 高</li>
+<li><strong>决策: 双客户端兼容（Claude Code + Codex）通过 <code>sync-codex-skills.py</code> 单向派生</strong><br/>问题: Claude Code 和 OpenAI Codex 是两个并行的 Code CLI，方法论和子命令体系完全不同<br/>方案: <code>skills/*.md</code> 作为 canonical source，Codex 端用脚本自动生成 <code>codex-skills/*/SKILL.md</code>，每份生成文件头部加「Codex adapter note」<br/>Trade-off: 牺牲了 Codex 端的「原生体验」（必须依赖适配层）<br/>可迁移性: 中</li>
+<li><strong>决策: 报告审计门借鉴软件 CI，把「研报准出」流程化</strong><br/>问题: 主观类报告没有编译器和测试可以兜底<br/>方案: <code>tools/report_audit.py</code> 用正则从 markdown 报告里自动提取数字，随机抽 15%，输出 JSON 模板要求用户填回核验值，FAIL 时非零退出码可用于 CI<br/>Trade-off: 牺牲了「发布效率」（每份报告多一道人工核验步骤）<br/>可迁移性: 高</li>
+</ol>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse:collapse;width:100%;font-size:13px;">
+<thead><tr><th align="left">维度</th><th align="left">ai-berkshire</th><th align="left">augur</th><th align="left">valinvest</th><th align="left">buffett-letters-skill</th><th align="left">Value-Investing-Agent</th></tr></thead>
+<tbody>
+<tr><td>Stars</td><td>4,217</td><td>227</td><td>193</td><td>43</td><td>19</td></tr>
+<tr><td>方法论</td><td>四大师对抗</td><td>多 Agent 加权共识</td><td>Buffett/Piotroski/Graham 指标库</td><td>巴菲特 60 年信源蒸馏</td><td>Graham + Buffett 风格</td></tr>
+<tr><td>数据严谨性</td><td>Python Decimal 强制</td><td>LLM 心算</td><td>指标计算</td><td>蒸馏</td><td>LLM 推理</td></tr>
+<tr><td>客户端</td><td>Claude Code + Codex</td><td>自有 UI</td><td>Python 库</td><td>Claude Skill</td><td>MCP/TypeScript</td></tr>
+<tr><td>反偏见机制</td><td>A/B/C + 镜子测试 + 8 否决</td><td>无</td><td>无</td><td>无</td><td>无</td></tr>
+<tr><td>语言/市场</td><td>中文/港美 A</td><td>英文</td><td>英文</td><td>英文</td><td>英文</td></tr>
+<tr><td>实盘背书</td><td>+69%/+66%</td><td>无</td><td>无</td><td>无</td><td>无</td></tr>
+</tbody>
+</table>
+
+<h3>差异化护城河</h3>
+<ul>
+<li><strong>方法论护城河</strong>：四大师对抗 + 反偏见三件套 + 镜子测试，这些是行业稀缺的「软」资产</li>
+<li><strong>工程纪律护城河</strong>：Python Decimal 强制 + 数据抽检 CI 化 + 多源交叉验证</li>
+<li><strong>生态护城河弱</strong>：主要是 dogfooding 验证而非 community 飞轮</li>
+</ul>
+
+<h3>竞争风险</h3>
+<p>最可能被 augur 替代（如果 augur 增加中文 + 对抗式方法论）或被 super-hedge-fund-skill 替代（如果其多 Agent 路线成熟到机构可用）。valinvest / buffett-letters-skill 是错位竞争而非直接对手。</p>
+
+<h3>生态定位</h3>
+<p>在「AI for finance」赛道上，AI Berkshire 处于「中文散户 + 个人投研深度」 niche 的领先位置；不是工具/库型项目，而是「个人方法论产品化」路线，竞品更像「独立分析框架」而非「工具」。</p>
+
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>: 同 topic 第二名 augur 仅 227 stars（5% 体量），细分赛道事实头部，仍有信息差红利</li>
+<li><strong>技术借鉴</strong>: 三层 Skill → Agent → Tool 架构 + Python Decimal 工具链 + report_audit.py 是高度可迁移的范式，可直接套到法律分析、医学文献综述、尽调报告等「LLM 做主观判断」场景</li>
+<li><strong>生态位</strong>: 填补了「AI 编程 CLI × 垂直领域方法论 × 中文市场」三角的空白——augur/valinvest 是英文通用型，没有中国散户视角</li>
+<li><strong>趋势判断</strong>: 2024-2026 是 LLM 编程能力跃迁期，Claude Code + Codex 推动「单兵+Agent 达到团队产能」范式，项目在加速期（6 月 commit 数是 4 月的 4.1 倍），符合技术趋势且比通用型竞品有先发优势</li>
+</ul>
+
+<h2>风险与不足</h2>
+<ul>
+<li><strong>测试覆盖为 0</strong>：0 个单元测试，ROADMAP 列为 P2 长期项；<code>tools/financial_rigor.py</code> 等核心工具没有自动化验证</li>
+<li><strong>无 CI/CD</strong>：没有 <code>.github/workflows/</code>、无 lint 配置、无 pre-commit；作者 dogfooding 即验证</li>
+<li><strong>保守性偏见（Issue #15）</strong>：芒格式「8 条红线一票否决」+ 段永平「能力圈」天然把模型推向保守，可能错过机会</li>
+<li><strong>Token 成本（Issue #11）</strong>：4 Agent + Team Lead 综合 = 单次跑完烧大量 token，且每步需人工确认（Issue #9 「点了几百次了，不能默认 yes 吗」）</li>
+<li><strong>过度拟合四位大师（Issue #16）</strong>：四大师的合成 ≠ 最优，可能是「用 prompt 工程制造的一种新权威」</li>
+<li><strong>生态护城河弱</strong>：&lt;50 stars 来自国际用户，社区小，无 Discord/Discussion；如果作者停止维护，社区接手困难</li>
+<li><strong>实时数据缺失</strong>：未接 Wind/Bloomberg/Yahoo Finance MCP 实时数据，研报依赖历史财报+人工输入</li>
+</ul>
+
+<h2>行动建议</h2>
+<ul>
+<li><strong>如果你要用它</strong>: 适合中文散户 + 严肃个人投资者，港美 A 三市覆盖；不适合需要实时数据 + 量化回测的机构用户。安装 <code>skills/*.md</code> 到 <code>~/.claude/commands/</code>，跑 <code>/investment-research</code> 即可。注意：每份研报依赖大量 token 预算（Issue #11），建议先用小标的试水。</li>
+<li><strong>如果你要学它</strong>: 重点关注四个文件：
+<ul>
+<li><code>skills/investment-research.md</code>（Skill 模板的范本）</li>
+<li><code>tools/financial_rigor.py</code>（工具链纪律的范本）</li>
+<li><code>tools/report_audit.py</code>（研报 CI 化的范本）</li>
+<li><code>CLAUDE.md</code> + <code>AGENTS.md</code>（AI Agent 工作宪法的写法）</li>
+<li>以及一份旗舰报告 <code>reports/拼多多/</code> 看输出格式</li>
+</ul>
+</li>
+<li><strong>如果你要 fork 它</strong>: 可改进方向：
+<ul>
+<li>加单元测试（ROADMAP P2）</li>
+<li>接实时数据（ROADMAP P1：Wind/Bloomberg/Yahoo Finance MCP）</li>
+<li>加宏观周期框架（ROADMAP P0 未完成）</li>
+<li>加历史回测（ROADMAP P0 未完成）</li>
+<li>引入「反大师」agent（索罗斯/达里奥）做对照（Issue #16 提议）</li>
+<li>实现 Investment Thesis Drift Detection（Issue #19 提议）</li>
+</ul>
+</li>
+</ul>
+
+<h3>知识入口</h3>
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse:collapse;width:100%;font-size:14px;">
+<thead><tr><th align="left">资源</th><th align="left">链接</th></tr></thead>
+<tbody>
+<tr><td>DeepWiki</td><td><a href="https://deepwiki.com/xbtlin/ai-berkshire">https://deepwiki.com/xbtlin/ai-berkshire</a></td></tr>
+<tr><td>Zread.ai</td><td>未收录</td></tr>
+<tr><td>关联论文</td><td>无（应用层 skill 合集，非研究项目）</td></tr>
+<tr><td>在线 Demo</td><td>无（Skill 形态，无 web playground；CLI 内调用为唯一入口）</td></tr>
+</tbody>
+</table>
+</body>
+</html>

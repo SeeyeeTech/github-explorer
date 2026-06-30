@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-06-29",
+    "last_run": "2026-06-30",
     "window_days": 30
   },
   "entries": [
@@ -903,6 +903,72 @@
       "canonical_url": "https://github.com/0xNyk/council-of-high-intelligence",
       "event_date": "2026-06-29",
       "date_seen": "2026-06-29"
+    },
+    {
+      "key": "github.com/diegosouzapw/omniroute",
+      "canonical_url": "https://github.com/diegosouzapw/OmniRoute",
+      "event_date": "2026-06-30",
+      "date_seen": "2026-06-30"
+    },
+    {
+      "key": "github.com/google/agents-cli",
+      "canonical_url": "https://github.com/google/agents-cli",
+      "event_date": "2026-06-30",
+      "date_seen": "2026-06-30"
+    },
+    {
+      "key": "github.com/ogulcancelik/herdr",
+      "canonical_url": "https://github.com/ogulcancelik/herdr",
+      "event_date": "2026-06-30",
+      "date_seen": "2026-06-30"
+    },
+    {
+      "key": "github.com/boundaryml/baml",
+      "canonical_url": "https://github.com/boundaryml/baml",
+      "event_date": "2026-06-30",
+      "date_seen": "2026-06-30"
+    },
+    {
+      "key": "github.com/openai/privacy-filter",
+      "canonical_url": "https://github.com/openai/privacy-filter",
+      "event_date": "2026-06-30",
+      "date_seen": "2026-06-30"
+    },
+    {
+      "key": "github.com/metareflection/guardians",
+      "canonical_url": "https://github.com/metareflection/guardians",
+      "event_date": "2026-06-30",
+      "date_seen": "2026-06-30"
+    },
+    {
+      "key": "github.com/observedobserver/macchiato",
+      "canonical_url": "https://github.com/ObservedObserver/Macchiato",
+      "event_date": "2026-06-30",
+      "date_seen": "2026-06-30"
+    },
+    {
+      "key": "https://seeyeetech.com/github-explorer/reports/openclaw_openclaw",
+      "canonical_url": "https://seeyeetech.com/github-explorer/reports/openclaw_openclaw",
+      "event_date": "2026-06-30",
+      "date_seen": "2026-06-30"
+    },
+    {
+      "key": "https://seeyeetech.com/github-explorer/reports/sst_opencode",
+      "canonical_url": "https://seeyeetech.com/github-explorer/reports/sst_opencode",
+      "event_date": "2026-06-30",
+      "date_seen": "2026-06-30"
+    },
+    {
+      "key": "https://seeyeetech.com/github-explorer/reports/mattpocock_skills",
+      "canonical_url": "https://seeyeetech.com/github-explorer/reports/mattpocock_skills",
+      "event_date": "2026-06-30",
+      "date_seen": "2026-06-30"
+    },
+    {
+      "key": "https://seeyeetech.com/github-explorer/reports/automatic1111_stable-diffusion-webui",
+      "canonical_url": "https://seeyeetech.com/github-explorer/reports/automatic1111_stable-diffusion-webui",
+      "event_date": "2026-06-30",
+      "date_seen": "2026-06-30"
     }
   ]
 }

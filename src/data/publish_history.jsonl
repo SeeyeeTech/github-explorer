@@ -209,3 +209,4 @@
 {"recorded_at": "2026-06-30T22:25:39.535940+00:00", "slug": "boundaryml_baml", "title": null, "state": "pending", "published_at": "2026-06-30", "reason": "待重发", "ci_run_id": "28479048098"}
 {"recorded_at": "2026-07-01T00:11:38.746235+00:00", "slug": "ogulcancelik_herdr", "title": null, "state": "published", "published_at": "2026-07-01", "reason": "自动生成", "ci_run_id": "28483734979"}
 {"recorded_at": "2026-07-01T03:58:12.827824+00:00", "slug": "browser-use_video-use", "title": null, "state": "pending", "published_at": "2026-07-01", "reason": "待重发", "ci_run_id": "28492004855"}
+{"recorded_at": "2026-07-01T08:17:13.317086+00:00", "slug": "mebus_cupp", "title": null, "state": "published", "published_at": "2026-07-01", "reason": "自动生成", "ci_run_id": "28502830933"}

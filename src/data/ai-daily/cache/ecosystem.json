@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-06-30",
+    "last_run": "2026-07-01",
     "window_days": 30
   },
   "entries": [
@@ -969,6 +969,36 @@
       "canonical_url": "https://seeyeetech.com/github-explorer/reports/automatic1111_stable-diffusion-webui",
       "event_date": "2026-06-30",
       "date_seen": "2026-06-30"
+    },
+    {
+      "key": "github.com/facebook/astryx",
+      "canonical_url": "https://github.com/facebook/astryx",
+      "event_date": "2026-07-01",
+      "date_seen": "2026-07-01"
+    },
+    {
+      "key": "github.com/allenai/olmocr",
+      "canonical_url": "https://github.com/allenai/olmocr",
+      "event_date": "2026-07-01",
+      "date_seen": "2026-07-01"
+    },
+    {
+      "key": "github.com/tencentcloud/cubesandbox",
+      "canonical_url": "https://github.com/TencentCloud/CubeSandbox",
+      "event_date": "2026-07-01",
+      "date_seen": "2026-07-01"
+    },
+    {
+      "key": "github.com/togatoga/karukan",
+      "canonical_url": "https://github.com/togatoga/karukan",
+      "event_date": "2026-07-01",
+      "date_seen": "2026-07-01"
+    },
+    {
+      "key": "github.com/run-llama/liteparse",
+      "canonical_url": "https://github.com/run-llama/liteparse",
+      "event_date": "2026-07-01",
+      "date_seen": "2026-07-01"
     }
   ]
 }

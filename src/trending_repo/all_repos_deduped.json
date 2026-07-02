@@ -3,11 +3,11 @@
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "language": "Shell",
-    "stars": 242092,
-    "forks": 21483,
+    "stars": 244019,
+    "forks": 21659,
     "description": "An agentic skills framework & software development methodology that works.",
-    "last_seen": "2026-06-30",
-    "trending_days": 66
+    "last_seen": "2026-07-02",
+    "trending_days": 67
   },
   {
     "name": "TapXWorld/ChinaTextbook",
@@ -210,6 +210,16 @@
     "trending_days": 22
   },
   {
+    "name": "msitarzewski/agency-agents",
+    "url": "https://github.com/msitarzewski/agency-agents",
+    "language": "Shell",
+    "stars": 125020,
+    "forks": 20285,
+    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+    "last_seen": "2026-07-02",
+    "trending_days": 21
+  },
+  {
     "name": "GibsonAI/Memori",
     "url": "https://github.com/gibsonai/memori",
     "language": "Python",
@@ -217,16 +227,6 @@
     "forks": 626,
     "description": "Open-Source Memory Engine for LLMs, AI Agents & Multi-Agent Systems",
     "last_seen": "2025-12-02",
-    "trending_days": 20
-  },
-  {
-    "name": "msitarzewski/agency-agents",
-    "url": "https://github.com/msitarzewski/agency-agents",
-    "language": "Shell",
-    "stars": 122215,
-    "forks": 19943,
-    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-    "last_seen": "2026-07-01",
     "trending_days": 20
   },
   {
@@ -260,6 +260,16 @@
     "trending_days": 18
   },
   {
+    "name": "ChromeDevTools/chrome-devtools-mcp",
+    "url": "https://github.com/chromedevtools/chrome-devtools-mcp",
+    "language": "TypeScript",
+    "stars": 44941,
+    "forks": 2921,
+    "description": "Chrome DevTools for coding agents",
+    "last_seen": "2026-07-02",
+    "trending_days": 16
+  },
+  {
     "name": "abhigyanpatwari/GitNexus",
     "url": "https://github.com/abhigyanpatwari/gitnexus",
     "language": "TypeScript",
@@ -287,16 +297,6 @@
     "forks": 9956,
     "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
     "last_seen": "2026-06-23",
-    "trending_days": 15
-  },
-  {
-    "name": "ChromeDevTools/chrome-devtools-mcp",
-    "url": "https://github.com/chromedevtools/chrome-devtools-mcp",
-    "language": "TypeScript",
-    "stars": 41181,
-    "forks": 2620,
-    "description": "Chrome DevTools for coding agents",
-    "last_seen": "2026-05-23",
     "trending_days": 15
   },
   {
@@ -380,6 +380,16 @@
     "trending_days": 14
   },
   {
+    "name": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ecc",
+    "language": "JavaScript",
+    "stars": 224901,
+    "forks": 34422,
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "last_seen": "2026-07-02",
+    "trending_days": 13
+  },
+  {
     "name": "lfnovo/open-notebook",
     "url": "https://github.com/lfnovo/open-notebook",
     "language": "TypeScript",
@@ -398,16 +408,6 @@
     "description": "The absolute trainer to light up AI agents.",
     "last_seen": "2026-03-31",
     "trending_days": 13
-  },
-  {
-    "name": "affaan-m/ECC",
-    "url": "https://github.com/affaan-m/ecc",
-    "language": "JavaScript",
-    "stars": 220225,
-    "forks": 33744,
-    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "last_seen": "2026-06-23",
-    "trending_days": 12
   },
   {
     "name": "anthropics/claude-plugins-official",
@@ -540,6 +540,16 @@
     "trending_days": 11
   },
   {
+    "name": "harvard-edge/cs249r_book",
+    "url": "https://github.com/harvard-edge/cs249r_book",
+    "language": "Python",
+    "stars": 25187,
+    "forks": 3020,
+    "description": "Machine Learning Systems",
+    "last_seen": "2026-07-02",
+    "trending_days": 11
+  },
+  {
     "name": "iOfficeAI/AionUi",
     "url": "https://github.com/iofficeai/aionui",
     "language": "TypeScript",
@@ -650,16 +660,6 @@
     "trending_days": 10
   },
   {
-    "name": "harvard-edge/cs249r_book",
-    "url": "https://github.com/harvard-edge/cs249r_book",
-    "language": "JavaScript",
-    "stars": 19919,
-    "forks": 2313,
-    "description": "Introduction to Machine Learning Systems",
-    "last_seen": "2026-02-19",
-    "trending_days": 10
-  },
-  {
     "name": "hsliuping/TradingAgents-CN",
     "url": "https://github.com/hsliuping/tradingagents-cn",
     "language": "Python",
@@ -747,6 +747,16 @@
     "forks": 2051,
     "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
     "last_seen": "2026-05-20",
+    "trending_days": 10
+  },
+  {
+    "name": "usestrix/strix",
+    "url": "https://github.com/usestrix/strix",
+    "language": "Python",
+    "stars": 30938,
+    "forks": 3295,
+    "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+    "last_seen": "2026-07-02",
     "trending_days": 10
   },
   {
@@ -927,16 +937,6 @@
     "forks": 49780,
     "description": "All Algorithms implemented in Python",
     "last_seen": "2025-12-29",
-    "trending_days": 9
-  },
-  {
-    "name": "usestrix/strix",
-    "url": "https://github.com/usestrix/strix",
-    "language": "Python",
-    "stars": 28866,
-    "forks": 3181,
-    "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-    "last_seen": "2026-07-01",
     "trending_days": 9
   },
   {
@@ -1580,6 +1580,16 @@
     "trending_days": 6
   },
   {
+    "name": "HKUDS/Vibe-Trading",
+    "url": "https://github.com/hkuds/vibe-trading",
+    "language": "Python",
+    "stars": 17133,
+    "forks": 2856,
+    "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+    "last_seen": "2026-07-02",
+    "trending_days": 6
+  },
+  {
     "name": "Hmbown/DeepSeek-TUI",
     "url": "https://github.com/hmbown/deepseek-tui",
     "language": "Rust",
@@ -1980,6 +1990,16 @@
     "trending_days": 5
   },
   {
+    "name": "browser-use/video-use",
+    "url": "https://github.com/browser-use/video-use",
+    "language": "Python",
+    "stars": 13545,
+    "forks": 1671,
+    "description": "Edit videos with coding agents",
+    "last_seen": "2026-07-02",
+    "trending_days": 5
+  },
+  {
     "name": "C4illin/ConvertX",
     "url": "https://github.com/c4illin/convertx",
     "language": "TypeScript",
@@ -2077,16 +2097,6 @@
     "forks": 2081,
     "description": "\"RAG-Anything: All-in-One RAG Framework\"",
     "last_seen": "2026-04-23",
-    "trending_days": 5
-  },
-  {
-    "name": "HKUDS/Vibe-Trading",
-    "url": "https://github.com/hkuds/vibe-trading",
-    "language": "Python",
-    "stars": 16243,
-    "forks": 2773,
-    "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-    "last_seen": "2026-07-01",
     "trending_days": 5
   },
   {
@@ -2557,16 +2567,6 @@
     "forks": 391,
     "description": "A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.",
     "last_seen": "2026-01-27",
-    "trending_days": 4
-  },
-  {
-    "name": "browser-use/video-use",
-    "url": "https://github.com/browser-use/video-use",
-    "language": "Python",
-    "stars": 13025,
-    "forks": 1640,
-    "description": "Edit videos with coding agents",
-    "last_seen": "2026-07-01",
     "trending_days": 4
   },
   {
@@ -4310,6 +4310,16 @@
     "trending_days": 3
   },
   {
+    "name": "santifer/career-ops",
+    "url": "https://github.com/santifer/career-ops",
+    "language": "JavaScript",
+    "stars": 57367,
+    "forks": 11335,
+    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+    "last_seen": "2026-07-02",
+    "trending_days": 3
+  },
+  {
     "name": "sgl-project/mini-sglang",
     "url": "https://github.com/sgl-project/mini-sglang",
     "language": "Python",
@@ -5490,6 +5500,16 @@
     "trending_days": 2
   },
   {
+    "name": "hasaneyldrm/exercises-dataset",
+    "url": "https://github.com/hasaneyldrm/exercises-dataset",
+    "language": "HTML",
+    "stars": 8928,
+    "forks": 1000,
+    "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+    "last_seen": "2026-07-02",
+    "trending_days": 2
+  },
+  {
     "name": "helm/helm",
     "url": "https://github.com/helm/helm",
     "language": "Go",
@@ -6370,6 +6390,16 @@
     "trending_days": 2
   },
   {
+    "name": "pytorch/pytorch",
+    "url": "https://github.com/pytorch/pytorch",
+    "language": "Python",
+    "stars": 101082,
+    "forks": 28217,
+    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+    "last_seen": "2026-07-02",
+    "trending_days": 2
+  },
+  {
     "name": "qbittorrent/qBittorrent",
     "url": "https://github.com/qbittorrent/qbittorrent",
     "language": "C++",
@@ -6437,16 +6467,6 @@
     "forks": 495,
     "description": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
     "last_seen": "2026-03-28",
-    "trending_days": 2
-  },
-  {
-    "name": "santifer/career-ops",
-    "url": "https://github.com/santifer/career-ops",
-    "language": "JavaScript",
-    "stars": 51161,
-    "forks": 10377,
-    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
-    "last_seen": "2026-06-09",
     "trending_days": 2
   },
   {
@@ -6920,6 +6940,16 @@
     "trending_days": 1
   },
   {
+    "name": "actions/checkout",
+    "url": "https://github.com/actions/checkout",
+    "language": "TypeScript",
+    "stars": 8097,
+    "forks": 2520,
+    "description": "Action for checking out a repo",
+    "last_seen": "2026-07-02",
+    "trending_days": 1
+  },
+  {
     "name": "actions/runner-images",
     "url": "https://github.com/actions/runner-images",
     "language": "PowerShell",
@@ -6977,6 +7007,16 @@
     "forks": 72,
     "description": "🤖 Autonomous agent framework for Elixir. Built for distributed, autonomous behavior and dynamic workflows.",
     "last_seen": "2026-03-07",
+    "trending_days": 1
+  },
+  {
+    "name": "agentskills/agentskills",
+    "url": "https://github.com/agentskills/agentskills",
+    "language": "Python",
+    "stars": 21427,
+    "forks": 1365,
+    "description": "Specification and documentation for Agent Skills",
+    "last_seen": "2026-07-02",
     "trending_days": 1
   },
   {
@@ -8270,16 +8310,6 @@
     "trending_days": 1
   },
   {
-    "name": "hasaneyldrm/exercises-dataset",
-    "url": "https://github.com/hasaneyldrm/exercises-dataset",
-    "language": "HTML",
-    "stars": 8014,
-    "forks": 918,
-    "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
-    "last_seen": "2026-07-01",
-    "trending_days": 1
-  },
-  {
     "name": "hashicorp/terraform",
     "url": "https://github.com/hashicorp/terraform",
     "language": "Go",
@@ -8560,6 +8590,16 @@
     "trending_days": 1
   },
   {
+    "name": "JuliusBrussee/caveman",
+    "url": "https://github.com/juliusbrussee/caveman",
+    "language": "JavaScript",
+    "stars": 79673,
+    "forks": 4481,
+    "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+    "last_seen": "2026-07-02",
+    "trending_days": 1
+  },
+  {
     "name": "jundot/omlx",
     "url": "https://github.com/jundot/omlx",
     "language": "Python",
@@ -8647,6 +8687,16 @@
     "forks": 1771,
     "description": "None",
     "last_seen": "2026-02-02",
+    "trending_days": 1
+  },
+  {
+    "name": "langflow-ai/langflow",
+    "url": "https://github.com/langflow-ai/langflow",
+    "language": "Python",
+    "stars": 150429,
+    "forks": 9385,
+    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+    "last_seen": "2026-07-02",
     "trending_days": 1
   },
   {
@@ -9330,6 +9380,16 @@
     "trending_days": 1
   },
   {
+    "name": "openai/codex-plugin-cc",
+    "url": "https://github.com/openai/codex-plugin-cc",
+    "language": "JavaScript",
+    "stars": 22326,
+    "forks": 1361,
+    "description": "Use Codex from Claude Code to review code or delegate tasks.",
+    "last_seen": "2026-07-02",
+    "trending_days": 1
+  },
+  {
     "name": "opencloud-eu/opencloud",
     "url": "https://github.com/opencloud-eu/opencloud",
     "language": "Go",
@@ -9560,16 +9620,6 @@
     "trending_days": 1
   },
   {
-    "name": "pytorch/pytorch",
-    "url": "https://github.com/pytorch/pytorch",
-    "language": "Python",
-    "stars": 94501,
-    "forks": 25755,
-    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-    "last_seen": "2025-11-03",
-    "trending_days": 1
-  },
-  {
     "name": "qarmin/czkawka",
     "url": "https://github.com/qarmin/czkawka",
     "language": "Rust",
@@ -9707,6 +9757,16 @@
     "forks": 954,
     "description": "Format Rust code",
     "last_seen": "2025-10-09",
+    "trending_days": 1
+  },
+  {
+    "name": "ryanmcdermott/clean-code-javascript",
+    "url": "https://github.com/ryanmcdermott/clean-code-javascript",
+    "language": "JavaScript",
+    "stars": 94480,
+    "forks": 12467,
+    "description": "Clean Code concepts adapted for JavaScript",
+    "last_seen": "2026-07-02",
     "trending_days": 1
   },
   {

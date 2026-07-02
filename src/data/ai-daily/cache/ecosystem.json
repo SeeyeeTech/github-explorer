@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-07-01",
+    "last_run": "2026-07-02",
     "window_days": 30
   },
   "entries": [
@@ -999,6 +999,36 @@
       "canonical_url": "https://github.com/run-llama/liteparse",
       "event_date": "2026-07-01",
       "date_seen": "2026-07-01"
+    },
+    {
+      "key": "github.com/juliusbrussee/caveman",
+      "canonical_url": "https://github.com/JuliusBrussee/caveman",
+      "event_date": "2026-07-02",
+      "date_seen": "2026-07-02"
+    },
+    {
+      "key": "github.com/agentskills/agentskills",
+      "canonical_url": "https://github.com/agentskills/agentskills",
+      "event_date": "2026-07-02",
+      "date_seen": "2026-07-02"
+    },
+    {
+      "key": "github.com/openai/codex-plugin-cc",
+      "canonical_url": "https://github.com/openai/codex-plugin-cc",
+      "event_date": "2026-07-02",
+      "date_seen": "2026-07-02"
+    },
+    {
+      "key": "github.com/langflow-ai/langflow",
+      "canonical_url": "https://github.com/langflow-ai/langflow",
+      "event_date": "2026-07-02",
+      "date_seen": "2026-07-02"
+    },
+    {
+      "key": "github.com/harvard-edge/cs249r_book",
+      "canonical_url": "https://github.com/harvard-edge/cs249r_book",
+      "event_date": "2026-07-02",
+      "date_seen": "2026-07-02"
     }
   ]
 }

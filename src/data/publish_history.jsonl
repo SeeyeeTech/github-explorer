@@ -213,3 +213,4 @@
 {"recorded_at": "2026-07-01T12:14:29.679757+00:00", "slug": "altic-dev_fluidvoice", "title": null, "state": "published", "published_at": "2026-07-01", "reason": "自动生成", "ci_run_id": "28515414357"}
 {"recorded_at": "2026-07-02T22:08:43.951660+00:00", "slug": "juliusbrussee_caveman", "title": null, "state": "published", "published_at": "2026-07-02", "reason": "自动生成", "ci_run_id": "28624218256"}
 {"recorded_at": "2026-07-02T23:27:29.753087+00:00", "slug": "openai_codex-plugin-cc", "title": null, "state": "published", "published_at": "2026-07-02", "reason": "自动生成", "ci_run_id": "28627267684"}
+{"recorded_at": "2026-07-03T02:12:48.764711+00:00", "slug": "santifer_career-ops", "title": null, "state": "published", "published_at": "2026-07-03", "reason": "自动生成", "ci_run_id": "28633383621"}

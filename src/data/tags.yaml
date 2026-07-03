@@ -995,6 +995,9 @@ entries:
   - model-foundation
   juliangarnier_anime:
   - uncategorized
+  juliusbrussee_caveman:
+  - ai-agent
+  - ai-coding
   jundot_omlx:
   - ai-agent
   - ai-coding
@@ -1438,6 +1441,10 @@ entries:
   - ai-coding
   - devtools
   - security
+  openai_codex-plugin-cc:
+  - ai-agent
+  - ai-coding
+  - devtools
   openai_openai-agents-python:
   - ai-agent
   - protocol-spec
@@ -1747,6 +1754,12 @@ entries:
   - trading-finance
   sansan0_trendradar:
   - uncategorized
+  santifer_career-ops:
+  - ai-agent
+  - ai-coding
+  - model-foundation
+  - devtools
+  - web-framework
   screenpipe_screenpipe:
   - ai-agent
   - devtools

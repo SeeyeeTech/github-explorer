@@ -3,11 +3,11 @@
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "language": "Shell",
-    "stars": 244019,
-    "forks": 21659,
+    "stars": 245160,
+    "forks": 21723,
     "description": "An agentic skills framework & software development methodology that works.",
-    "last_seen": "2026-07-02",
-    "trending_days": 67
+    "last_seen": "2026-07-03",
+    "trending_days": 68
   },
   {
     "name": "TapXWorld/ChinaTextbook",
@@ -40,6 +40,16 @@
     "trending_days": 32
   },
   {
+    "name": "anthropics/claude-code",
+    "url": "https://github.com/anthropics/claude-code",
+    "language": "Python",
+    "stars": 135656,
+    "forks": 21847,
+    "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+    "last_seen": "2026-07-03",
+    "trending_days": 27
+  },
+  {
     "name": "sansan0/TrendRadar",
     "url": "https://github.com/sansan0/trendradar",
     "language": "Python",
@@ -48,16 +58,6 @@
     "description": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
     "last_seen": "2026-04-22",
     "trending_days": 27
-  },
-  {
-    "name": "anthropics/claude-code",
-    "url": "https://github.com/anthropics/claude-code",
-    "language": "Python",
-    "stars": 128623,
-    "forks": 20967,
-    "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-    "last_seen": "2026-05-31",
-    "trending_days": 26
   },
   {
     "name": "yeongpin/cursor-free-vip",
@@ -160,6 +160,16 @@
     "trending_days": 22
   },
   {
+    "name": "msitarzewski/agency-agents",
+    "url": "https://github.com/msitarzewski/agency-agents",
+    "language": "Shell",
+    "stars": 126173,
+    "forks": 20477,
+    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+    "last_seen": "2026-07-03",
+    "trending_days": 22
+  },
+  {
     "name": "MustardChef/WSABuilds",
     "url": "https://github.com/mustardchef/wsabuilds",
     "language": "Python",
@@ -210,16 +220,6 @@
     "trending_days": 22
   },
   {
-    "name": "msitarzewski/agency-agents",
-    "url": "https://github.com/msitarzewski/agency-agents",
-    "language": "Shell",
-    "stars": 125020,
-    "forks": 20285,
-    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-    "last_seen": "2026-07-02",
-    "trending_days": 21
-  },
-  {
     "name": "GibsonAI/Memori",
     "url": "https://github.com/gibsonai/memori",
     "language": "Python",
@@ -263,11 +263,11 @@
     "name": "ChromeDevTools/chrome-devtools-mcp",
     "url": "https://github.com/chromedevtools/chrome-devtools-mcp",
     "language": "TypeScript",
-    "stars": 44941,
-    "forks": 2921,
+    "stars": 45340,
+    "forks": 2943,
     "description": "Chrome DevTools for coding agents",
-    "last_seen": "2026-07-02",
-    "trending_days": 16
+    "last_seen": "2026-07-03",
+    "trending_days": 17
   },
   {
     "name": "abhigyanpatwari/GitNexus",
@@ -420,6 +420,16 @@
     "trending_days": 12
   },
   {
+    "name": "harvard-edge/cs249r_book",
+    "url": "https://github.com/harvard-edge/cs249r_book",
+    "language": "Python",
+    "stars": 25966,
+    "forks": 3106,
+    "description": "Machine Learning Systems",
+    "last_seen": "2026-07-03",
+    "trending_days": 12
+  },
+  {
     "name": "mvanhorn/last30days-skill",
     "url": "https://github.com/mvanhorn/last30days-skill",
     "language": "Python",
@@ -540,16 +550,6 @@
     "trending_days": 11
   },
   {
-    "name": "harvard-edge/cs249r_book",
-    "url": "https://github.com/harvard-edge/cs249r_book",
-    "language": "Python",
-    "stars": 25187,
-    "forks": 3020,
-    "description": "Machine Learning Systems",
-    "last_seen": "2026-07-02",
-    "trending_days": 11
-  },
-  {
     "name": "iOfficeAI/AionUi",
     "url": "https://github.com/iofficeai/aionui",
     "language": "TypeScript",
@@ -617,6 +617,16 @@
     "forks": 15873,
     "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
     "last_seen": "2026-06-01",
+    "trending_days": 11
+  },
+  {
+    "name": "usestrix/strix",
+    "url": "https://github.com/usestrix/strix",
+    "language": "Python",
+    "stars": 33691,
+    "forks": 3481,
+    "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+    "last_seen": "2026-07-03",
     "trending_days": 11
   },
   {
@@ -747,16 +757,6 @@
     "forks": 2051,
     "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
     "last_seen": "2026-05-20",
-    "trending_days": 10
-  },
-  {
-    "name": "usestrix/strix",
-    "url": "https://github.com/usestrix/strix",
-    "language": "Python",
-    "stars": 30938,
-    "forks": 3295,
-    "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-    "last_seen": "2026-07-02",
     "trending_days": 10
   },
   {
@@ -2050,6 +2050,16 @@
     "trending_days": 5
   },
   {
+    "name": "elastic/elasticsearch",
+    "url": "https://github.com/elastic/elasticsearch",
+    "language": "Java",
+    "stars": 77236,
+    "forks": 25921,
+    "description": "Free and Open Source, Distributed, RESTful Search Engine",
+    "last_seen": "2026-07-03",
+    "trending_days": 5
+  },
+  {
     "name": "ggml-org/llama.cpp",
     "url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
@@ -2647,16 +2657,6 @@
     "forks": 211,
     "description": "Repository for skills to assist AI coding agents with .NET and C#",
     "last_seen": "2026-05-24",
-    "trending_days": 4
-  },
-  {
-    "name": "elastic/elasticsearch",
-    "url": "https://github.com/elastic/elasticsearch",
-    "language": "Java",
-    "stars": 75254,
-    "forks": 25577,
-    "description": "Free and Open Source, Distributed, RESTful Search Engine",
-    "last_seen": "2025-10-25",
     "trending_days": 4
   },
   {
@@ -3630,6 +3630,16 @@
     "trending_days": 3
   },
   {
+    "name": "facebook/astryx",
+    "url": "https://github.com/facebook/astryx",
+    "language": "TypeScript",
+    "stars": 4132,
+    "forks": 235,
+    "description": "An open source design system that's fully customizable and agent ready",
+    "last_seen": "2026-07-03",
+    "trending_days": 3
+  },
+  {
     "name": "FareedKhan-dev/train-llm-from-scratch",
     "url": "https://github.com/fareedkhan-dev/train-llm-from-scratch",
     "language": "Python",
@@ -4110,6 +4120,16 @@
     "trending_days": 3
   },
   {
+    "name": "ogulcancelik/herdr",
+    "url": "https://github.com/ogulcancelik/herdr",
+    "language": "Rust",
+    "stars": 10412,
+    "forks": 619,
+    "description": "agent multiplexer that lives in your terminal.",
+    "last_seen": "2026-07-03",
+    "trending_days": 3
+  },
+  {
     "name": "Open-LLM-VTuber/Open-LLM-VTuber",
     "url": "https://github.com/open-llm-vtuber/open-llm-vtuber",
     "language": "Python",
@@ -4217,6 +4237,16 @@
     "forks": 33841,
     "description": "The Python programming language",
     "last_seen": "2026-01-06",
+    "trending_days": 3
+  },
+  {
+    "name": "pytorch/pytorch",
+    "url": "https://github.com/pytorch/pytorch",
+    "language": "Python",
+    "stars": 101354,
+    "forks": 28242,
+    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+    "last_seen": "2026-07-03",
     "trending_days": 3
   },
   {
@@ -4620,6 +4650,16 @@
     "trending_days": 2
   },
   {
+    "name": "actions/checkout",
+    "url": "https://github.com/actions/checkout",
+    "language": "TypeScript",
+    "stars": 8222,
+    "forks": 2530,
+    "description": "Action for checking out a repo",
+    "last_seen": "2026-07-03",
+    "trending_days": 2
+  },
+  {
     "name": "adam-maj/tiny-gpu",
     "url": "https://github.com/adam-maj/tiny-gpu",
     "language": "SystemVerilog",
@@ -4637,6 +4677,16 @@
     "forks": 128,
     "description": "ReMe: Memory Management Kit for Agents - Remember Me, Refine Me.",
     "last_seen": "2026-03-04",
+    "trending_days": 2
+  },
+  {
+    "name": "agentskills/agentskills",
+    "url": "https://github.com/agentskills/agentskills",
+    "language": "Python",
+    "stars": 21828,
+    "forks": 1384,
+    "description": "Specification and documentation for Agent Skills",
+    "last_seen": "2026-07-03",
     "trending_days": 2
   },
   {
@@ -5240,16 +5290,6 @@
     "trending_days": 2
   },
   {
-    "name": "facebook/astryx",
-    "url": "https://github.com/facebook/astryx",
-    "language": "TypeScript",
-    "stars": 2172,
-    "forks": 111,
-    "description": "An open source design system that's fully customizable and agent ready",
-    "last_seen": "2026-07-01",
-    "trending_days": 2
-  },
-  {
     "name": "facebook/react",
     "url": "https://github.com/facebook/react",
     "language": "JavaScript",
@@ -5677,6 +5717,16 @@
     "forks": 4312,
     "description": "JavaScript animation engine",
     "last_seen": "2025-10-01",
+    "trending_days": 2
+  },
+  {
+    "name": "JuliusBrussee/caveman",
+    "url": "https://github.com/juliusbrussee/caveman",
+    "language": "JavaScript",
+    "stars": 82428,
+    "forks": 4593,
+    "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+    "last_seen": "2026-07-03",
     "trending_days": 2
   },
   {
@@ -6200,16 +6250,6 @@
     "trending_days": 2
   },
   {
-    "name": "ogulcancelik/herdr",
-    "url": "https://github.com/ogulcancelik/herdr",
-    "language": "Rust",
-    "stars": 9357,
-    "forks": 553,
-    "description": "agent multiplexer that lives in your terminal.",
-    "last_seen": "2026-07-01",
-    "trending_days": 2
-  },
-  {
     "name": "Olow304/memvid",
     "url": "https://github.com/olow304/memvid",
     "language": "Python",
@@ -6237,6 +6277,16 @@
     "forks": 1766,
     "description": "OpenTelemetry Collector",
     "last_seen": "2025-10-31",
+    "trending_days": 2
+  },
+  {
+    "name": "openai/codex-plugin-cc",
+    "url": "https://github.com/openai/codex-plugin-cc",
+    "language": "JavaScript",
+    "stars": 22938,
+    "forks": 1392,
+    "description": "Use Codex from Claude Code to review code or delegate tasks.",
+    "last_seen": "2026-07-03",
     "trending_days": 2
   },
   {
@@ -6387,16 +6437,6 @@
     "forks": 156,
     "description": "A minimal, secure Python interpreter written in Rust for use by AI",
     "last_seen": "2026-02-10",
-    "trending_days": 2
-  },
-  {
-    "name": "pytorch/pytorch",
-    "url": "https://github.com/pytorch/pytorch",
-    "language": "Python",
-    "stars": 101082,
-    "forks": 28217,
-    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-    "last_seen": "2026-07-02",
     "trending_days": 2
   },
   {
@@ -6617,6 +6657,16 @@
     "forks": 60,
     "description": "the blockchain for payments",
     "last_seen": "2025-12-12",
+    "trending_days": 2
+  },
+  {
+    "name": "TencentCloud/CubeSandbox",
+    "url": "https://github.com/tencentcloud/cubesandbox",
+    "language": "Rust",
+    "stars": 7052,
+    "forks": 587,
+    "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+    "last_seen": "2026-07-03",
     "trending_days": 2
   },
   {
@@ -6940,16 +6990,6 @@
     "trending_days": 1
   },
   {
-    "name": "actions/checkout",
-    "url": "https://github.com/actions/checkout",
-    "language": "TypeScript",
-    "stars": 8097,
-    "forks": 2520,
-    "description": "Action for checking out a repo",
-    "last_seen": "2026-07-02",
-    "trending_days": 1
-  },
-  {
     "name": "actions/runner-images",
     "url": "https://github.com/actions/runner-images",
     "language": "PowerShell",
@@ -7007,16 +7047,6 @@
     "forks": 72,
     "description": "🤖 Autonomous agent framework for Elixir. Built for distributed, autonomous behavior and dynamic workflows.",
     "last_seen": "2026-03-07",
-    "trending_days": 1
-  },
-  {
-    "name": "agentskills/agentskills",
-    "url": "https://github.com/agentskills/agentskills",
-    "language": "Python",
-    "stars": 21427,
-    "forks": 1365,
-    "description": "Specification and documentation for Agent Skills",
-    "last_seen": "2026-07-02",
     "trending_days": 1
   },
   {
@@ -7150,6 +7180,16 @@
     "trending_days": 1
   },
   {
+    "name": "ansible/ansible",
+    "url": "https://github.com/ansible/ansible",
+    "language": "Python",
+    "stars": 69097,
+    "forks": 24102,
+    "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
+    "last_seen": "2026-07-03",
+    "trending_days": 1
+  },
+  {
     "name": "antoinezambelli/forge",
     "url": "https://github.com/antoinezambelli/forge",
     "language": "Python",
@@ -7157,6 +7197,16 @@
     "forks": 68,
     "description": "A Python framework for self-hosted LLM tool-calling and multi-step agentic workflows",
     "last_seen": "2026-05-21",
+    "trending_days": 1
+  },
+  {
+    "name": "apache/maven",
+    "url": "https://github.com/apache/maven",
+    "language": "Java",
+    "stars": 5187,
+    "forks": 2900,
+    "description": "Apache Maven core",
+    "last_seen": "2026-07-03",
     "trending_days": 1
   },
   {
@@ -8590,16 +8640,6 @@
     "trending_days": 1
   },
   {
-    "name": "JuliusBrussee/caveman",
-    "url": "https://github.com/juliusbrussee/caveman",
-    "language": "JavaScript",
-    "stars": 79673,
-    "forks": 4481,
-    "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
-    "last_seen": "2026-07-02",
-    "trending_days": 1
-  },
-  {
     "name": "jundot/omlx",
     "url": "https://github.com/jundot/omlx",
     "language": "Python",
@@ -9380,16 +9420,6 @@
     "trending_days": 1
   },
   {
-    "name": "openai/codex-plugin-cc",
-    "url": "https://github.com/openai/codex-plugin-cc",
-    "language": "JavaScript",
-    "stars": 22326,
-    "forks": 1361,
-    "description": "Use Codex from Claude Code to review code or delegate tasks.",
-    "last_seen": "2026-07-02",
-    "trending_days": 1
-  },
-  {
     "name": "opencloud-eu/opencloud",
     "url": "https://github.com/opencloud-eu/opencloud",
     "language": "Go",
@@ -9710,6 +9740,16 @@
     "trending_days": 1
   },
   {
+    "name": "rommapp/romm",
+    "url": "https://github.com/rommapp/romm",
+    "language": "Python",
+    "stars": 9582,
+    "forks": 464,
+    "description": "A beautiful, powerful, self-hosted rom manager and player.",
+    "last_seen": "2026-07-03",
+    "trending_days": 1
+  },
+  {
     "name": "RooCodeInc/Roo-Code",
     "url": "https://github.com/roocodeinc/roo-code",
     "language": "TypeScript",
@@ -9777,6 +9817,16 @@
     "forks": 88,
     "description": "bloom - evaluate any behavior immediately  🌸🌱",
     "last_seen": "2025-12-24",
+    "trending_days": 1
+  },
+  {
+    "name": "safishamsi/graphify",
+    "url": "https://github.com/safishamsi/graphify",
+    "language": "Python",
+    "stars": 76629,
+    "forks": 7600,
+    "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+    "last_seen": "2026-07-03",
     "trending_days": 1
   },
   {
@@ -10000,6 +10050,16 @@
     "trending_days": 1
   },
   {
+    "name": "supabase/supabase",
+    "url": "https://github.com/supabase/supabase",
+    "language": "TypeScript",
+    "stars": 105252,
+    "forks": 12957,
+    "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+    "last_seen": "2026-07-03",
+    "trending_days": 1
+  },
+  {
     "name": "symfony/symfony",
     "url": "https://github.com/symfony/symfony",
     "language": "PHP",
@@ -10037,16 +10097,6 @@
     "forks": 994,
     "description": "None",
     "last_seen": "2026-02-13",
-    "trending_days": 1
-  },
-  {
-    "name": "TencentCloud/CubeSandbox",
-    "url": "https://github.com/tencentcloud/cubesandbox",
-    "language": "Rust",
-    "stars": 6697,
-    "forks": 561,
-    "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
-    "last_seen": "2026-07-01",
     "trending_days": 1
   },
   {

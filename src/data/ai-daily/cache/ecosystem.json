@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-07-02",
+    "last_run": "2026-07-03",
     "window_days": 30
   },
   "entries": [
@@ -1029,6 +1029,18 @@
       "canonical_url": "https://github.com/harvard-edge/cs249r_book",
       "event_date": "2026-07-02",
       "date_seen": "2026-07-02"
+    },
+    {
+      "key": "github.com/safishamsi/graphify",
+      "canonical_url": "https://github.com/safishamsi/graphify",
+      "event_date": "2026-07-03",
+      "date_seen": "2026-07-03"
+    },
+    {
+      "key": "github.com/ansible/ansible",
+      "canonical_url": "https://github.com/ansible/ansible",
+      "event_date": "2026-07-03",
+      "date_seen": "2026-07-03"
     }
   ]
 }

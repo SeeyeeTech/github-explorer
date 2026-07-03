@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/supabase/supabase">https://github.com/supabase/supabase</a></p></blockquote>
+<h2>一句话总结</h2>
+<p>Supabase 不是另一个 BaaS，而是把 Postgres 30 年的工程沉淀（RLS、pg_catalog、logical replication、pg_cron）当作 Lego 块，与 PostgREST、GoTrue、Deno Edge Functions 等开源组件组合，得到的「可独立运行又彼此 10x 放大」的开源 Firebase 替代品。</p>
+<h2>值得关注的理由</h2>
+<ul><li><strong>可独立运行的设计哲学</strong>：每个组件都「能脱离 Supabase 独立工作」，跟 Firebase 的「绑死闭源」根本对立——你随时 pg_dump 迁走。这是它值得研究的核心设计取舍。</li><li><strong>Postgres 当作单一权威数据源</strong>：Auth 用户、Storage 文件元数据、Realtime 事件流都存 Postgres，packages/pg-meta 把 pg_catalog 系统表 join 出 TS 类型——开源界罕见的「schema-driven 类型化」实现。</li><li><strong>AI 时代抢占卡位</strong>：内置 pgvector、Edge Functions（Deno）、ai-commands SchemaBuilder 强类型化 OpenAI 输出——三件套一起做，让 Postgres 同时充当关系库 + 向量库 + AI 后端。</li></ul>
+<h2>项目展示</h2>
+<p><img src="https://raw.githubusercontent.com/supabase/supabase/master/apps/www/public/images/github/supabase-dashboard.png" alt="Supabase Dashboard" /></p>
+<p>*Studio Dashboard：SQL Editor / Table Editor / Auth / Storage / Edge Functions 五大核心模块的整合入口*</p>
+<p><img src="https://raw.githubusercontent.com/supabase/supabase/master/apps/docs/public/img/supabase-architecture.svg" alt="Supabase Architecture" /></p>
+<p>*官方架构图：Postgres 在中央，PostgREST / GoTrue / Realtime / Storage / Edge Functions / Studio 围绕*</p>
+<p><img src="https://user-images.githubusercontent.com/8291514/213727234-cda046d6-28c6-491a-b284-b86c5cede25d.png" alt="Supabase Dashboard light" /></p>
+<p>*浅色模式 Studio 截屏：左侧导航 + 中间 Table Editor*</p>
+<p><img src="https://user-images.githubusercontent.com/8291514/213727225-56186826-bee8-43b5-9b15-86e839d89393.png" alt="Supabase Dashboard dark" /></p>
+<p>*深色模式 Studio 截屏：项目级监控面板 + Realtime 频道管理*</p>
+<h2>项目画像</h2>
+<table><thead><tr><th>维度</th><th>数据</th></tr></thead><tbody><tr><td>GitHub</td><td><a href="https://github.com/supabase/supabase">https://github.com/supabase/supabase</a></td></tr><tr><td>Star / Fork</td><td>105,418 / 12,967</td></tr><tr><td>代码行数</td><td>1,359,208（TSX 34.2% + TypeScript 22.0% + JS 2.8% = TS 系 ~59%）</td></tr><tr><td>文件数</td><td>9,707（含 384 个 JSON 锁文件/配置）</td></tr><tr><td>项目年龄</td><td>80.8 个月（2019-10-12 至今）</td></tr><tr><td>开发阶段</td><td>密集开发（最近 365 天 5,422 commits，2026 年再次提速到 500+/月）</td></tr><tr><td>贡献模式</td><td>公司主导 + 社区广泛参与（2,016 贡献者；Top 10 占 46.8%，前两名 19.9%）</td></tr><tr><td>热度定位</td><td>大众热门 / 行业事实标准</td></tr><tr><td>许可证</td><td>Apache 2.0</td></tr><tr><td>Latest tag</td><td>v1.26.05（仅 54 tag；后端核心服务拆分到独立仓库各自打 tag）</td></tr><tr><td>质量评级</td><td>代码良好 / 文档优秀 / 测试基本 / CI 完善</td></tr></tbody></table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<ul><li><strong>Paul Copplestone（CEO，"kiwicopple"）</strong>：新西兰开发者，前 Bitfount 工程师；早期 Firebase 重度用户，被 NoSQL 与 vendor lock-in 困住后转向 Postgres。</li><li><strong>Ant Wilson（CTO）</strong>：英国 Postgres 顾问，企业级 PG 部署专家。</li><li><strong>公司 Supabase Inc.</strong>：YC S20 毕业，已完成 Series B/C 融资（公司估值报告累计融资 ~$116M），全员远程。</li><li><strong>背景如何塑造项目</strong>：Paul 的「Firebase DX vs Postgres 力量」痛点 + Ant 的 Postgres 深度积累 → 直接催生「开源 Firebase 替代」定位 + Postgres-first 架构选择。</li></ul>
+<h3>问题判断</h3>
+<p>Firebase 是单一厂商闭源产品；单独用 Postgres 需要自己拼 REST / Auth / Realtime / Storage；自托管 BaaS（Appwrite / Pocketbase）跑在 MySQL / MariaDB / SQLite 上——丢掉了关系型 + 30 年 PG 生态。Supabase 的判断：<strong>Postgres 已经够强</strong>（RLS、logical replication、pg_stat、pg_catalog），缺的只是「让它们像 Firebase 一样被按 API 调用」的薄薄一层。</p>
+<h3>解法哲学（官方四大原则）</h3>
+<ol><li><strong>Isolation（隔离）</strong>：每个组件可独立运行（"Can a user run this product with nothing but a Postgres database?" 是组件入选试金石）。</li><li><strong>Integration（集成）</strong>：组件必须能「10x 放大」其他产品的能力。</li><li><strong>Extensibility（可扩展）</strong>：偏好 primitives 而非 niche features（"Less, but better"）。</li><li><strong>Portability（可移植）</strong>：偏好 pg_dump / CSV 等标准，避免 lock-in。</li></ol>
+<p><strong>明确不做什么</strong>：不重写 Postgres；不做 NoSQL；不绑死任何前端框架；不藏 API（PostgREST 就是公开规范）；不绑死云（self-host 是头等公民）。</p>
+<h3>战略意图</h3>
+<p>Open-core 模式：核心产品完全开源 + 自托管完整可用；云上增值（Log Drains、Read Replicas、Point-in-time Recovery、每日 Backups、Compute Add-ons）。<strong>Managed Cloud（Free/Pro/Team/Enterprise 四档）是营收主力；开源是获客漏斗</strong>。Studio Dashboard 完全开源——是建立信任的关键。</p>
+<h2>核心价值提炼</h2>
+<h3>创新之处（按新颖度 × 实用性排序）</h3>
+<ol><li><strong>Postgres pg_catalog 当作 ORM metadata</strong>（novelty 4 / practicality 5）：packages/pg-meta/src/sql/tables.ts 把 pg_class / pg_constraint / pg_index / pg_policy join 起来，输出 TS 类型。Studio UI 完全是这个 schema 的可视化。取代 Prisma / Drizzle 的自有元数据层——schema 即类型。</li><li><strong>Storage 权限统一走 Postgres RLS</strong>（4/5）：apps/studio/components/interfaces/Storage/StoragePolicies/PolicyDefinition.tsx 让用户在 UI 写 USING / WITH CHECK 表达式，底层就是 PG policy，policy 里直接调 auth.uid()。Policy Editor 把 RLS 暴露成表单——开源界首例把「行级权限 + 文件权限」统一在 DB 层的产品。</li><li><strong>Compile-time safe SQL via tagged template</strong>（3/4）：packages/pg-meta/src/pg-format.ts 的 safeSql 是 tagged template literal，类型 SafeSqlFragment | UntrustedSqlFragment 在编译期区分；用户输入 SQL 必须显式 acceptUntrustedSql 才能拼接。Kysely / Drizzle 都未做到编译期区分。</li><li><strong>Postgres 多生态复用为 primitives</strong>（3/5）：Realtime 用 logical replication、CRON 用 pg_cron、webhook 用 pg_net——这些 PG extension 直接当作 Supabase 功能暴露，不重写。</li><li><strong>SchemaBuilder + TS inference 把 OpenAI function calling 类型化</strong>（3/4）：packages/ai-commands 用 @serafin/schema-builder DSL 定义 JSON schema，typeof schema.T 自动生成 TS 类型——LLM 输出是编译期类型，零运行时 schema 同步成本。Prompt 中嵌入 Postgres 偏好（"use bigint identity, prefer text over varchar"）。</li><li><strong>Examples-as-Documentation</strong>（2/5）：examples/user-management 提供 17 个前端框架变体（nextjs / nuxt3 / svelte / sveltekit / react / vue3 / flutter / swift 等），每个都是完整可跑子项目。这是降低 onboarding 成本的硬道理。</li></ol>
+<h3>可复用的模式与技巧</h3>
+<ul><li><strong>Postgres pg_catalog 当 ORM metadata 输出 TS 类型</strong>：取代 Prisma / Drizzle 自有元数据层；schema 即类型（packages/pg-meta/src/sql/*.ts）</li><li><strong>Tagged Template SQL 防注入 + 编译期类型</strong>：packages/pg-meta/src/pg-format.ts 的 safeSql / rawSql / acceptUntrustedSql</li><li><strong>SchemaBuilder DSL → JSON Schema + 推断 TS 类型</strong>：packages/ai-commands/src/sql/functions.ts</li><li><strong>UI 双层设计</strong>：packages/ui（atomic 组件） + packages/ui-patterns（composite 复合模式）</li><li><strong>Compose overlay</strong>：docker/docker-compose.yml 基础 + docker-compose.{caddy,envoy,logs,nginx,rustfs,s3}.yml 场景化</li><li><strong>RLS + Storage 权限统一</strong>：policy 表达式 = 文件读写权限</li><li><strong>Examples-as-Docs</strong>：每语言/框架一个完整可跑子项目</li><li><strong>Braintrust Evals 集成</strong>：AI 输出自动评分入 Braintrust 防止 regression（apps/studio/evals/ + .github/workflows/braintrust-evals.yml）</li></ul>
+<h3>关键设计决策（trade-off 分析）</h3>
+<table><thead><tr><th>决策</th><th>取舍</th><th>适用场景</th></tr></thead><tbody><tr><td>Postgres 作为单一权威数据源 + 一切组件复用 PG 生态</td><td>所有组件可用性绑死 Postgres；连接池压力大（→ Supavisor 存在的原因）</td><td>任何用 Postgres 的项目都可借鉴「元数据也存 PG」</td></tr><tr><td>Studio 用 Next.js + Valtio store + React Query 双轨</td><td>双状态源导致同步复杂度上升（SQL Editor README 自己列出 4 处待重构）</td><td>SQL 编辑器场景专属，但「乐观更新 client store + 服务端数据 React Query」通用</td></tr><tr><td>SQL Template 用 tagged template literal (safeSql)</td><td>多一层抽象；新人 onboarding 成本；IDE 跳转不如 .sql 文件直接</td><td>任何需要「参数化 SQL + 编译期检查」的项目</td></tr><tr><td>Storage Policy Editor 复用 RLS</td><td>RLS 学习曲线比 IAM 陡；性能与 policy 数量相关</td><td>任何「DB + 对象存储」需要权限统一的产品</td></tr><tr><td>Examples-as-Documentation（82 个子目录）</td><td>维护负担重（每个框架升级要同步）；比 docs 更容易过时</td><td>SDK / BaaS 产品降低 onboarding 成本</td></tr><tr><td>Self-hosted 用 docker-compose + 多个 overlay</td><td>overlay 多了维护负担；compose schema 与 managed cloud 有 drift（issue #26785 / #16857 反映自托管是当前痛点）</td><td>「compose 主文件 + overlay」拆分对任何复杂本地栈通用</td></tr></tbody></table>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table><thead><tr><th>维度</th><th>Supabase</th><th>Firebase</th><th>Appwrite</th><th>Pocketbase</th><th>Hasura</th></tr></thead><tbody><tr><td>Stars</td><td>105K</td><td>闭源</td><td>56K</td><td>~45K</td><td>~30K</td></tr><tr><td>数据库</td><td>Postgres</td><td>Firestore (NoSQL)</td><td>MariaDB</td><td>SQLite</td><td>Postgres（无 DB 层）</td></tr><tr><td>自托管</td><td>✅ 完整可用</td><td>❌ 基本不可行</td><td>✅ 简单</td><td>✅ 单二进制</td><td>✅</td></tr><tr><td>关系型 + 生态</td><td>✅ PostGIS / pgvector / TimescaleDB</td><td>❌</td><td>❌</td><td>❌</td><td>✅</td></tr><tr><td>客户端 SDK 数量</td><td>9 语言</td><td>顶级</td><td>28+</td><td>Go / JS</td><td>GraphQL 客户端</td></tr><tr><td>Auth / Storage / Realtime / Functions 全套</td><td>✅</td><td>✅</td><td>✅</td><td>仅 Auth + DB + 文件</td><td>❌ 仅 GraphQL 网关</td></tr><tr><td>多区域 / 企业级 IAM</td><td>✅</td><td>✅ BigQuery 集成</td><td>一般</td><td>弱</td><td>✅</td></tr></tbody></table>
+<h3>差异化护城河</h3>
+<ul><li><strong>生态护城河</strong>：最大 Postgres BaaS，9 个客户端 SDK 语言；NextAuth / Clerk / shadcn 等默认集成</li><li><strong>信任护城河</strong>：Studio 完全开源 + 自托管完整；vs Firebase 闭源是核心信任差异</li><li><strong>转换成本护城河</strong>：RLS policy 一旦写好迁移成本高（policy 表达式是项目级业务资产）</li></ul>
+<h3>竞争风险</h3>
+<ul><li><strong>Neon + Hasura + Clerk + UploadThing 的「best-of-breed 组合」</strong>：理论上的解构者（每个组件都比 Supabase 内置的强，但需要自己拼）</li><li><strong>Pocketbase 在简单场景</strong>：单二进制 + 零依赖，对小型项目/IoT/原型是直接替代</li><li><strong>Appwrite 在数据库无关需求下</strong>：28+ SDK + MongoDB 支持，是 Supabase 的相邻替代</li><li><strong>AI 时代 vector DB</strong>（Turbopuffer / Qdrant）：pgvector 在极端规模可能被独立向量库替代</li></ul>
+<h3>生态定位</h3>
+<p>「Postgres 时代的 Firebase」——把 Postgres 当事实标准的 BaaS 入口。<strong>开放核心（open core）+ 云增值</strong>。在数据基础设施层与 Neon / PlanetScale / TimescaleDB 同台竞争 BaaS 层。</p>
+<h2>套利机会分析</h2>
+<ul><li><strong>信息差</strong>：❌ 不被低估——已是 Postgres BaaS 事实标准、105K stars；属于「已验证的成熟产品深度解读」型选题</li><li><strong>技术借鉴</strong>（✅ 核心价值）：</li><li><strong>pg_catalog 当 ORM metadata</strong>：任何用 PG 的项目都可放弃 Prisma/Drizzle 自有元数据层</li><li><strong>Compile-time safe SQL</strong>：Kysely / Drizzle 都未做到的编译期区分</li><li><strong>SchemaBuilder + TS inference 强类型化 LLM 输出</strong>：任何 AI function calling 项目通用</li><li><strong>RLS 即权限层</strong>：DB + 对象存储需要统一权限时的范式</li><li><strong>Examples-as-Docs</strong>：SDK / BaaS 产品降低 onboarding 的硬道理</li><li><strong>生态位</strong>：✅ 「Postgres 之上的 BaaS」已是事实标准；细分位「可自托管的 enterprise Postgres BaaS」仍有空间（vs Firebase 闭源）</li><li><strong>趋势判断</strong>：✅ 2026 年 commit 提速（500+/月），AI / 向量 / Edge Functions 三件套卡位好；比 Firebase 强在 AI 时代 PG 生态（pgvector）vs Firestore 局限</li></ul>
+<h2>风险与不足</h2>
+<ul><li><strong>自托管 DX 是当前最大痛点</strong>：Top issues 高度集中（#26785 Kong 日志、#16857 Storage 上传、#40985 Auth 安全 API 重构）；compose overlay 维护负担重，与 managed cloud 有 drift</li><li><strong>Studio 复杂度极高</strong>：数个 package.json + 混合 Next.js + TanStack Router + Vite；重构成本高</li><li><strong>测试覆盖率无强制阈值</strong>：仅基本覆盖；Braintrust Evals 覆盖 AI 输出；SQL Editor 核心流程有测试但整体覆盖率不显式</li><li><strong>错误处理「一般」</strong>：console.error 守卫而非统一 error boundary；缺 Result / Either 类型化错误流；运行时错误大多 throw + 上层 catch toast</li><li><strong>monorepo 路径历史复杂</strong>：to-be-cleaned/Storage/ 旧路径已删除；studio/ 与 apps/studio/、web/docs/ 与 apps/docs/ 重叠反映多次重构</li><li><strong>AI 输出仍需二次校验</strong>：ai-commands 用 jsonrepair 兜底，prompt 越长 token 越多</li></ul>
+<h2>行动建议</h2>
+<ul><li><strong>如果你要用它</strong>：</li><li>✅ 选它：Postgres-first 项目；可自托管 / 可迁移需求；AI / 向量场景；中小团队全栈 SaaS</li><li>❌ 不选：极小项目（Pocketbase 更轻）；Firebase 重度迁移成本高的现有项目；多数据库需求（Appwrite 支持 MongoDB）</li><li><strong>如果你要学它</strong>：重点关注</li><li>packages/pg-meta/src/sql/*.ts（pg_catalog-as-ORM 模式）</li><li>packages/pg-meta/src/pg-format.ts（safeSql 编译期防注入）</li><li>packages/ai-commands/src/sql/functions.ts（SchemaBuilder + TS inference）</li><li>apps/studio/components/interfaces/Storage/StoragePolicies/PolicyDefinition.tsx（RLS as Permission）</li><li>apps/studio/components/interfaces/SQLEditor/README.md（团队主动写的架构决策 + 技术债清单——金矿）</li><li><strong>如果你要 fork 它</strong>：</li><li>用 pg_catalog-as-ORM 模式做一个 Postgres 直连的 ORM 替代 Prisma / Drizzle</li><li>用 SchemaBuilder + TS inference 做一个 LLM function calling 的强类型化框架</li><li>用 RLS as Permission 模式做 DB + 对象存储统一的权限中间件</li></ul>
+<h3>知识入口</h3>
+<table><thead><tr><th>资源</th><th>链接</th></tr></thead><tbody><tr><td>DeepWiki</td><td><a href="https://deepwiki.com/supabase/supabase（已收录，索引至">https://deepwiki.com/supabase/supabase（已收录，索引至</a> commit a5f4a59e，2026-04）</td></tr><tr><td>官方文档</td><td><a href="https://supabase.com/docs">https://supabase.com/docs</a></td></tr><tr><td>在线 Studio</td><td><a href="https://supabase.com/dashboard">https://supabase.com/dashboard</a></td></tr><tr><td>架构原理</td><td><a href="https://supabase.com/docs/guides/getting-started/architecture">https://supabase.com/docs/guides/getting-started/architecture</a></td></tr><tr><td>设计哲学</td><td><a href="https://supabase.com/docs/guides/getting-started/architecture#principles">https://supabase.com/docs/guides/getting-started/architecture#principles</a></td></tr><tr><td>关联论文</td><td>无（工程产品，无学术输出）</td></tr></tbody></table>
+</body>
+</html>

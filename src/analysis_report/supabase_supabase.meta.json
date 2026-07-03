@@ -1,0 +1,6 @@
+{
+  "title": "105K stars 的 Postgres Firebase：Supabase 把开源工业级组件拼成事实标准",
+  "digest": "Postgres 30 年沉淀（RLS、pg_catalog、logical replication）当 Lego，与 PostgREST、GoTrue 组合，每个组件可独立运行又彼此 10x 放大，可自托管的开源 Firebase 替代。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

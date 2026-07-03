@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/facebook/astryx">https://github.com/facebook/astryx</a></p></blockquote>
+
+<h2>一句话总结</h2>
+
+<p>Astryx 是 Meta 内部跑了 8 年、撑起 13,000+ 应用的 React 设计系统，2026 年 1 月开源——它把 StyleX zero-runtime、swizzle eject、CSS 变量主题、AI agent 对称 CLI 这四件事捆成一个发布，是当下唯一同时回答「不要运行时税」和「不要黑盒税」且把 AI 工程师视为一等公民的完整方案。</p>
+
+<h2>值得关注的理由</h2>
+
+<ul>
+<li><strong>真「完整系统 + 完全可定制」</strong>：通过 swizzle CLI 把组件源码 eject 到你的仓库（含内部模块 + import 重写），既不像 shadcn 那样复制即失管，也不像 MUI 那样改主题必须包 wrapper——这是其它主流方案都没补上的最后一环。</li>
+<li><strong>zero-runtime 不只是性能</strong>：StyleX 在编译期把所有 atomic class 生成 CSS bundle，运行时零 hydration 零 runtime 开销；同时主题通过 CSS 自定义属性覆盖，切深浅模式只是改 <code>data-theme</code> 属性，零重编译。</li>
+<li><strong>AI 对称不是营销口号</strong>：<code>vibe-test</code> 用 78 个 prompt × 5 个目标 × 5 个评分维度 × 5 条 invariant 盲评流水线，量化「AI 生成的代码到底有没有遵循设计系统规范」；CLI 输出 typed JSON 信封，agent 可直接消费。</li>
+</ul>
+
+<h2>项目展示</h2>
+
+<p><img src="https://lookaside.facebook.com/assets/astryx/Astryx-Banner.png" alt="Astryx 品牌 banner"></p>
+<p><em>Meta 在 2026 年正式开源前的发布主视觉</em></p>
+
+<p><img src="https://astryx.atmeta.com/neutral/preview-watch.png" alt="中性主题预览 — 手表"></p>
+<p><img src="https://astryx.atmeta.com/neutral/preview-headphones.png" alt="中性主题预览 — 耳机"></p>
+<p><img src="https://astryx.atmeta.com/neutral/preview-backpack.png" alt="中性主题预览 — 背包"></p>
+<p><em>neutral 主题——通过 CSS 自定义属性覆盖，可重塑任意品牌而不动组件源码</em></p>
+
+<p><img src="https://lookaside.facebook.com/assets/astryx/Butter-Croissant.png" alt="Butter 主题 — Croissant"></p>
+<p><em>Butter 主题示例——证明同一组件在不同 token 下风格可彻底变化</em></p>
+
+<p><img src="https://astryx.atmeta.com/discover-card-1.png" alt="Discover Card 组件总览"></p>
+<p><img src="https://astryx.atmeta.com/discover-card-3.png" alt="Discover Card 组件总览"></p>
+<p><img src="https://astryx.atmeta.com/discover-card-2.png" alt="Discover Card 组件总览"></p>
+<p><img src="https://astryx.atmeta.com/discover-card-4.png" alt="Discover Card 组件总览"></p>
+<p><em>组件 discover 总览——150+ 可访问组件的整体面貌</em></p>
+
+<h2>项目画像</h2>
+
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>数据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GitHub</td>
+<td><a href="https://github.com/facebook/astryx">https://github.com/facebook/astryx</a></td>
+</tr>
+<tr>
+<td>Star / Fork / Watcher</td>
+<td>4.6K / 266 / 20</td>
+</tr>
+<tr>
+<td>代码行数</td>
+<td>357,649 行 / 3,167 文件（TSX 59.5%、JavaScript 21.3%、TypeScript 14.4%）</td>
+</tr>
+<tr>
+<td>项目年龄</td>
+<td>5.8 个月（首次提交 2026-01-09）</td>
+</tr>
+<tr>
+<td>Commits / 贡献者</td>
+<td>2,213 / 50（main 分支未 squash，保留 XDS 时代全部历史）</td>
+</tr>
+<tr>
+<td>开发阶段</td>
+<td>密集开发 → 稳定发布过渡期（v0.1.2，4 个 GitHub Release）</td>
+</tr>
+<tr>
+<td>贡献模式</td>
+<td>Meta 内部主导（63.3%）+ 外部社区活跃参与（36.7%）</td>
+</tr>
+<tr>
+<td>热度定位</td>
+<td>中等热度（半年 4.6K star，定位错配下偏快增长）</td>
+</tr>
+<tr>
+<td>质量评级</td>
+<td>代码 优秀 / 文档 优秀 / 测试 充分 / CI/CD 完善</td>
+</tr>
+</tbody>
+</table>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+
+<p>Astryx 的设计哲学由 Meta xDesign 团队主创 <strong>Cindy Zhang (cixzhang)</strong> 与 <strong>Catherine (cvkxx)</strong> 主导——她们在 Meta 内部 8 年把 XDS（pre-OSS 代号）一路演化到今天撑起 13,000+ 应用规模的设计系统。30 位贡献者里 Top 1 占 53.2%、前 4 位占 78.6%，核心团队高度集中；外部贡献者已占 36.7%，说明治理结构正在从「内部项目」过渡到「社区开源」。</p>
+
+<h3>问题判断</h3>
+
+<p>设计系统行业长期存在两难：</p>
+
+<ol>
+<li><strong>运行时税</strong>：Emotion、styled-components、MUI 的 emotion runtime 都有 hydration 成本和运行时 bundle 体积</li>
+<li><strong>黑盒税</strong>：shadcn 复制源码后升级路径断裂；MUI 想改品牌必须包 wrapper；Tailwind 写原子类但没有「组件」语义</li>
+</ol>
+
+<p>Meta 在内部 dogfooding 中看得很清楚——13,000 个应用，每个团队都有「完整系统感」和「完全可定制」的双向需求，但市场上两者只能二选一。</p>
+
+<p>为什么 2026 才开源？因为 <strong>StyleX 编译器成熟 + React 19 + LLM agent 普及</strong> 三个外部条件同时到位。把设计系统暴露给外部能让 agent 通过 CLI 直接使用，而不是仅靠检索 docs——这是真实的「Why now」驱动。</p>
+
+<h3>解法哲学</h3>
+
+<p>明文写的「guidance over enforcement」+「strong conventions」+「earned by measurement」三原则：</p>
+
+<ul>
+<li><strong>Guidance over enforcement</strong>：不强制锁死使用方式，swizzle 鼓励你「拿走所有权」</li>
+<li><strong>Strong conventions</strong>：14 个自定义 ESLint 规则编码设计规范（boolean prop 命名、border-shorthand、StyleX 反模式等）</li>
+<li><strong>Earned by measurement</strong>：vibe-test 把「设计系统规范遵循度」变成可量化指标，而不是靠主观 review</li>
+</ul>
+
+<p><strong>明确不做的</strong>：不做品牌默认主题（中性起步，让设计师自己覆盖）、不做运行时主题编排（编译期 CSS 变量即可）、不做 SaaS / token 编译托管。</p>
+
+<h3>战略意图</h3>
+
+<p>Astryx 是 Meta 把内部设计系统「工程化最佳实践」打包开源的产物——不是产品，而是基础设施；不是 SaaS，而是 MIT 全公开的代码与规则。它在 Meta 更大图景中的位置是：<strong>让外部生态反哺 Meta 内部组件库</strong>，同时让 AI agent 在 CLI 层而非纯文本层使用设计系统。</p>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处（按新颖度×实用性×可迁移性排序）</h3>
+
+<ol>
+<li><strong>vibe-test LLM 评测盲评流水线</strong>：4 个目标 × 78 个 prompt × 5 个评分维度 × 5 条 invariant，量化 AI 生成代码是否符合设计系统规范——这是把 ML 界的 LLM-as-judge 范式第一次系统化搬到 UI 工程评测。</li>
+<li><strong>swizzle eject + import 重写</strong>：swizzle 不只是「复制源码」，而是把 <code>../theme/tokens.stylex</code> 自动重写为 <code>@astryxdesign/core/theme</code>，保留内部模块依赖关系，比 shadcn 的手动复制工程化更彻底。</li>
+<li><strong>edge compensation 视觉意图转译</strong>（#958 issue）：设计 token 不只映射「值」，还要把视觉意图（spacing/radius/size 的相对关系）转译为关系驱动——研究深度领先大多数设计系统。</li>
+<li><strong><code>[light, dark]</code> 元组 + <code>light-dark()</code> CSS 原生函数</strong>：<code>defineTheme({ light: {...}, dark: {...} })</code> 一个声明同时给出双模式，5 行解决主题双模式问题。</li>
+<li><strong>StyleX 双分发同源 <code>DefinedTheme</code></strong>：unbuilt/built 两份产物从同一数据结构生成，从源码构建可树摇 ~1/3 体积。</li>
+<li><strong>Tailwind v4 <code>@theme inline</code> 桥接</strong>：让 Tailwind 用户能复用 Astryx token 体系（而非选边站）。</li>
+<li><strong><code>astryx doctor</code> 退出码契约</strong>：typed JSON 信封 + dense 格式 + 退出码设计，让 CLI 可直接做 CI 闸门。</li>
+<li><strong>14 个自定义 ESLint 规则</strong>：把「strong conventions」编码为自动化检查，不是文档里说而是被工具强制。</li>
+</ol>
+
+<h3>可复用的模式与技巧</h3>
+
+<ul>
+<li><strong>SYNC comment + check-sync.js 闸口</strong>：<code>&lt;!-- SYNC CONTRACT: Architecture changes require documentation updates. --&gt;</code> 配合 <code>pnpm check:sync</code> 强制「架构改动必须同步文档」——任何 monorepo 项目可移植。</li>
+<li><strong>CLI <code>--json</code> typed 信封 + 退出码契约</strong>：所有 CLI 命令支持 <code>--json</code> 输出 + 标准化退出码，agent 可直接消费。</li>
+<li><strong><code>astryx upgrade</code> codemod 体系</strong>：按版本目录组织迁移 codemod，把「帮消费方迁移」作为一等公民（v0.1.2 → v0.1.3 的 breaking change 走 codemod 而非文档）。</li>
+<li><strong>agent-docs 多工具检测</strong>：检测当前是 claude / cursor / codex 哪个 agent 上下文，输出对应格式的 agent 文档。</li>
+<li><strong>dual-distribution 同源 <code>DefinedTheme</code></strong>：让「从源码构建」和「预构建」走同一份数据结构。</li>
+<li><strong>HCT 色彩空间落地</strong>：从 Material Design 3 移植 <code>hct.ts</code>（281 行）到 token 层，让色彩对比度按感知而非按 RGB 比例算。</li>
+</ul>
+
+<h3>关键设计决策</h3>
+
+<table>
+<thead>
+<tr>
+<th>决策</th>
+<th>取舍</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>StyleX zero-runtime + CSS 变量</td>
+<td>性能 vs 学习曲线——选前者，代价是 StyleX 需额外引入</td>
+</tr>
+<tr>
+<td>swizzle eject + import 重写</td>
+<td>升级成本 vs 所有权——选前者，代价是 eject 后要跟版本同步</td>
+</tr>
+<tr>
+<td>中性起步主题 + CSS 变量覆盖</td>
+<td>完整系统感 vs 完全可定制——通过 swizzle 同时给两个</td>
+</tr>
+<tr>
+<td>Beta 状态诚实标注</td>
+<td>早期入场红利 vs 信任风险——选前者，配合 changesets + codemod 控风险</td>
+</tr>
+<tr>
+<td>编译期主题 vs 运行时主题编排</td>
+<td>性能 vs 灵活性——CSS 变量已能切深浅/品牌，性能为先</td>
+</tr>
+</tbody>
+</table>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th><strong>Astryx</strong></th>
+<th>shadcn/ui</th>
+<th>Material UI</th>
+<th>Chakra UI</th>
+<th>Mantine</th>
+<th>Ant Design</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Runtime 开销</td>
+<td><strong>零</strong>（StyleX 编译时）</td>
+<td>零（Tailwind）</td>
+<td>有（emotion）</td>
+<td>有（emotion）</td>
+<td>有（CSS-in-JS）</td>
+<td>有（CSS-in-JS）</td>
+</tr>
+<tr>
+<td>主题可定制</td>
+<td><strong>CSS 变量覆盖，零 wrapper</strong></td>
+<td>Tailwind config</td>
+<td>必须 wrapper</td>
+<td>prop 改 token</td>
+<td>CSS 变量</td>
+<td>必须 wrapper</td>
+</tr>
+<tr>
+<td>升级路径</td>
+<td><strong>swizzle eject 保留 owner 依赖</strong></td>
+<td>手动重拷</td>
+<td>npm upgrade</td>
+<td>npm upgrade</td>
+<td>npm upgrade</td>
+<td>npm upgrade</td>
+</tr>
+<tr>
+<td>AI agent 对称</td>
+<td><strong>CLI typed JSON + vibe-test</strong></td>
+<td>无</td>
+<td>无</td>
+<td>无</td>
+<td>无</td>
+<td>无</td>
+</tr>
+<tr>
+<td>组件数</td>
+<td>150+</td>
+<td>~40 (Radix 集合)</td>
+<td>100+</td>
+<td>100+</td>
+<td>100+</td>
+<td>70+</td>
+</tr>
+<tr>
+<td>GitHub Stars</td>
+<td>4.6K（半年新仓）</td>
+<td>~75K</td>
+<td>~96K</td>
+<td>~38K</td>
+<td>~27K</td>
+<td>~95K</td>
+</tr>
+<tr>
+<td>商业化路径</td>
+<td>无（SaaS 拒绝）</td>
+<td>无</td>
+<td>MUI X 付费</td>
+<td>无</td>
+<td>Mantine Charts</td>
+<td>无</td>
+</tr>
+<tr>
+<td>大公司背书</td>
+<td><strong>Meta</strong>（13k 应用内部 dogfood）</td>
+<td>无</td>
+<td>无</td>
+<td>无</td>
+<td>无</td>
+<td>阿里</td>
+</tr>
+</tbody>
+</table>
+
+<h3>差异化护城河</h3>
+
+<p><strong>三件套技术护城河</strong>：StyleX zero-runtime + swizzle eject + agent 对称 CLI——这三者同时交付的完整系统目前没有第二家。</p>
+
+<p><strong>信任护城河强</strong>：Meta 8 年内部 dogfooding + 13,000 应用规模 + 357K 行代码 + 完整测试矩阵（200 单测文件 + 1,160 视觉回归快照 + 730 vibe-test 用例 + axe-core a11y + Playwright）。</p>
+
+<p><strong>生态护城河弱</strong>：Beta 期、v0.1.2、教程生态和 shadcn/MUI 比还差得远。</p>
+
+<h3>竞争风险</h3>
+
+<ul>
+<li><strong>shadcn 若官方出 eject + zero-runtime 选项</strong>：会直接侵蚀「AI 友好」叙事（shadcn 是 GitHub star 最高的 React 设计系统，叙事力强）</li>
+<li><strong>Tailwind v4 + headlessui 组合</strong>：CSS-first 方向 + Headless 组件库可能挤压 zero-runtime + 组件级 API 的中间生态</li>
+<li><strong>Mantine 文档成熟度</strong>：hooks-first API 对 React 开发者更熟悉，社区口碑已建立</li>
+</ul>
+
+<h3>生态定位</h3>
+
+<p><strong>AI-native zero-runtime React 设计系统</strong>——填补「完整系统 + 完全可定制 + AI agent 对称」三合一空白。不是 shadcn 的替代品（后者是 Radix 集合），不是 MUI 的替代品（后者是 Material Design 实现），是设计系统赛道里独立的新象限。</p>
+
+<h2>套利机会分析</h2>
+
+<ul>
+<li><strong>信息差</strong>：v0.1.2 Beta 期 + 「Astryx」陌生命名让多数人不知道这是 Meta 开源——半年 4.6K star 而非 20K star，认知红利仍在；阅读 swizzle 实现和 vibe-test 流水线的人极少。</li>
+<li><strong>技术借鉴</strong>：
+<ul>
+<li>swizzle eject + import 重写 → 任何 monorepo 工具包可学</li>
+<li>vibe-test LLM 盲评 → 任何 AI 生成内容质量评估场景可学</li>
+<li><code>light-dark()</code> 元组约定 → 任何设计系统的双模式主题可简化</li>
+<li>SYNC comment + check-sync 闸口 → 任何需要文档同步的项目可学</li>
+<li>14 个自定义 ESLint 规则编码强约定 → 任何 monorepo 可学</li>
+</ul>
+</li>
+<li><strong>生态位</strong>：填补「完整 + 可定制 + AI 对称」三合一空白，是 Meta xDesign 8 年工程化最佳实践的对外输出。</li>
+<li><strong>趋势判断</strong>：zero-runtime CSS-in-JS 趋势（StyleX / vanilla-extract / Tailwind v4）正在吃掉 emotion/styled-components 市场份额；agent 编程普及让「CLI typed JSON」成为新标准。两条趋势 Astryx 都站在正确方向。</li>
+</ul>
+
+<h2>风险与不足</h2>
+
+<ul>
+<li><strong>Beta 期真实痛点</strong>（来自 GitHub issues）：
+<ul>
+<li>#2240（closed，28 评论）：Vite/npm/Git 集成摩擦——这仍是最大门槛</li>
+<li>#3506（open）：swizzle 在嵌套子目录（Table/plugins）场景下静默丢失——核心特性有 bug</li>
+<li>#958（open）：edge compensation 研究领先但尚未落地到组件</li>
+</ul>
+</li>
+<li><strong>生态薄弱</strong>：半年新仓 + Beta 标签 + 陌生命名让社区认知度与 Meta 实际投入严重错配；教程生态几乎没有（与 shadcn 的海量教程相比是数量级差距）。</li>
+<li><strong>StyleX 学习曲线</strong>：对未用过 atomic CSS-in-JS 的团队，StyleX 心智模型比 Tailwind utility 类更难上手。</li>
+<li><strong>开源治理过渡</strong>：Meta 内部 63.3% vs 外部 36.7% 是健康比例，但 v1.0 之前的 breaking change 节奏（v0.1.2 → v0.1.3 就有 codemod）会让生产用户犹豫。</li>
+</ul>
+
+<h2>行动建议</h2>
+
+<ul>
+<li><strong>如果你要用它</strong>：
+<ul>
+<li>适合：中大型 React 团队、多品牌产品线、性能预算敏感（SaaS/toC）、AI 编程 agent 协同已落地的组织</li>
+<li>不适合：早期原型项目（学 StyleX 投入产出比不高）、单品牌简单应用（MUI/Mantine 更轻量）、完全无 AI agent 工作流的团队（vibe-test 价值浪费）</li>
+<li>当前阶段建议：评估期可试用 sandbox app + 选 1-2 主题 + 跑 vibe-test，但<strong>不建议</strong>在生产关键路径上立即全面替换（#3506 swizzle bug + Beta 期）</li>
+</ul>
+</li>
+<li><strong>如果你要学它</strong>：
+<ul>
+<li>重点读 5 个文件：
+<ul>
+<li><code>packages/cli/src/commands/swizzle.ts</code>（eject + import 重写实现）</li>
+<li><code>packages/cli/src/commands/upgrade/</code>（按版本目录的 codemod 体系）</li>
+<li><code>packages/core/src/theme/defineTheme.ts</code>（dual-distribution + <code>[light, dark]</code> 元组）</li>
+<li><code>packages/cli/src/output/</code>（typed JSON 信封 + 退出码契约）</li>
+<li><code>scripts/check-sync.js</code>（SYNC CONTRACT 闸口）</li>
+</ul>
+</li>
+<li>理解 14 个自定义 ESLint 规则：<code>.eslintrc</code> 配置 + <code>packages/eslint-plugin-astryx/</code> 源码</li>
+<li>跑 <code>pnpm vibe-test</code> 看 vibe-test 流水线的真实输出</li>
+</ul>
+</li>
+<li><strong>如果你要 fork 它</strong>：
+<ul>
+<li>swizzle + vibe-test 是最大杠杆点——把它移植到任何设计系统都能立刻提升「AI 友好」程度</li>
+<li>StyleX 双分发架构可独立抽取为通用模式（不只是设计系统）</li>
+<li>14 个 ESLint 规则可抽取为通用 React + StyleX 编码规范包</li>
+</ul>
+</li>
+</ul>
+
+<h3>知识入口</h3>
+
+<table>
+<thead>
+<tr>
+<th>资源</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DeepWiki</td>
+<td><strong>已收录</strong> — 12 章架构 wiki（overview / monorepo / core / theming / CLI / build / docsite / sandbox / storybook / lab / CI/CD / glossary）</td>
+</tr>
+<tr>
+<td>Zread.ai</td>
+<td>未收录</td>
+</tr>
+<tr>
+<td>官方文档</td>
+<td><a href="https://astryx.atmeta.com">https://astryx.atmeta.com</a></td>
+</tr>
+<tr>
+<td>架构文章</td>
+<td><a href="https://astryx.atmeta.com/blog/how-astryx-works/">https://astryx.atmeta.com/blog/how-astryx-works/</a></td>
+</tr>
+<tr>
+<td>在线 Demo</td>
+<td>docsite + 仓库内 sandbox app + Storybook</td>
+</tr>
+<tr>
+<td>关联论文</td>
+<td>无</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

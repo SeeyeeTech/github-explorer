@@ -626,6 +626,13 @@ entries:
   - workflow-automation
   - web-framework
   - protocol-spec
+  facebook_astryx:
+  - ai-agent
+  - llm-inference
+  - devtools
+  - education
+  - design-ui
+  - trading-finance
   facebookresearch_sam2:
   - education
   - video-audio
@@ -1856,6 +1863,10 @@ entries:
   suitenumerique_docs:
   - editor-kms
   - web-framework
+  supabase_supabase:
+  - llm-framework
+  - rag-search
+  - database
   supermemoryai_supermemory:
   - ai-agent
   - ai-coding

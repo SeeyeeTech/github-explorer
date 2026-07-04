@@ -240,6 +240,16 @@
     "trending_days": 19
   },
   {
+    "name": "ChromeDevTools/chrome-devtools-mcp",
+    "url": "https://github.com/chromedevtools/chrome-devtools-mcp",
+    "language": "TypeScript",
+    "stars": 45619,
+    "forks": 2969,
+    "description": "Chrome DevTools for coding agents",
+    "last_seen": "2026-07-04",
+    "trending_days": 18
+  },
+  {
     "name": "microsoft/VibeVoice",
     "url": "https://github.com/microsoft/vibevoice",
     "language": "Python",
@@ -260,14 +270,14 @@
     "trending_days": 18
   },
   {
-    "name": "ChromeDevTools/chrome-devtools-mcp",
-    "url": "https://github.com/chromedevtools/chrome-devtools-mcp",
-    "language": "TypeScript",
-    "stars": 45340,
-    "forks": 2943,
-    "description": "Chrome DevTools for coding agents",
-    "last_seen": "2026-07-03",
-    "trending_days": 17
+    "name": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "language": "Shell",
+    "stars": 156076,
+    "forks": 13434,
+    "description": "Skills for Real Engineers. Straight from my .claude directory.",
+    "last_seen": "2026-07-04",
+    "trending_days": 16
   },
   {
     "name": "abhigyanpatwari/GitNexus",
@@ -297,16 +307,6 @@
     "forks": 9956,
     "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
     "last_seen": "2026-06-23",
-    "trending_days": 15
-  },
-  {
-    "name": "mattpocock/skills",
-    "url": "https://github.com/mattpocock/skills",
-    "language": "Shell",
-    "stars": 141236,
-    "forks": 12230,
-    "description": "Skills for Real Engineers. Straight from my .claude directory.",
-    "last_seen": "2026-06-22",
     "trending_days": 15
   },
   {
@@ -390,6 +390,16 @@
     "trending_days": 13
   },
   {
+    "name": "harvard-edge/cs249r_book",
+    "url": "https://github.com/harvard-edge/cs249r_book",
+    "language": "Python",
+    "stars": 26387,
+    "forks": 3153,
+    "description": "Machine Learning Systems",
+    "last_seen": "2026-07-04",
+    "trending_days": 13
+  },
+  {
     "name": "lfnovo/open-notebook",
     "url": "https://github.com/lfnovo/open-notebook",
     "language": "TypeScript",
@@ -417,16 +427,6 @@
     "forks": 3356,
     "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
     "last_seen": "2026-06-23",
-    "trending_days": 12
-  },
-  {
-    "name": "harvard-edge/cs249r_book",
-    "url": "https://github.com/harvard-edge/cs249r_book",
-    "language": "Python",
-    "stars": 25966,
-    "forks": 3106,
-    "description": "Machine Learning Systems",
-    "last_seen": "2026-07-03",
     "trending_days": 12
   },
   {
@@ -467,6 +467,16 @@
     "forks": 7392,
     "description": "The open alternative to Salesforce, designed for AI.",
     "last_seen": "2026-06-20",
+    "trending_days": 12
+  },
+  {
+    "name": "usestrix/strix",
+    "url": "https://github.com/usestrix/strix",
+    "language": "Python",
+    "stars": 35482,
+    "forks": 3620,
+    "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+    "last_seen": "2026-07-04",
     "trending_days": 12
   },
   {
@@ -617,16 +627,6 @@
     "forks": 15873,
     "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
     "last_seen": "2026-06-01",
-    "trending_days": 11
-  },
-  {
-    "name": "usestrix/strix",
-    "url": "https://github.com/usestrix/strix",
-    "language": "Python",
-    "stars": 33691,
-    "forks": 3481,
-    "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-    "last_seen": "2026-07-03",
     "trending_days": 11
   },
   {
@@ -940,6 +940,16 @@
     "trending_days": 9
   },
   {
+    "name": "alibaba/page-agent",
+    "url": "https://github.com/alibaba/page-agent",
+    "language": "TypeScript",
+    "stars": 22711,
+    "forks": 1969,
+    "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+    "last_seen": "2026-07-04",
+    "trending_days": 8
+  },
+  {
     "name": "Alishahryar1/free-claude-code",
     "url": "https://github.com/alishahryar1/free-claude-code",
     "language": "Python",
@@ -947,6 +957,16 @@
     "forks": 4324,
     "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
     "last_seen": "2026-05-24",
+    "trending_days": 8
+  },
+  {
+    "name": "asgeirtj/system_prompts_leaks",
+    "url": "https://github.com/asgeirtj/system_prompts_leaks",
+    "language": "JavaScript",
+    "stars": 48419,
+    "forks": 7894,
+    "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+    "last_seen": "2026-07-04",
     "trending_days": 8
   },
   {
@@ -1160,16 +1180,6 @@
     "trending_days": 7
   },
   {
-    "name": "alibaba/page-agent",
-    "url": "https://github.com/alibaba/page-agent",
-    "language": "TypeScript",
-    "stars": 19616,
-    "forks": 1695,
-    "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
-    "last_seen": "2026-06-25",
-    "trending_days": 7
-  },
-  {
     "name": "alibaba/zvec",
     "url": "https://github.com/alibaba/zvec",
     "language": "C++",
@@ -1177,16 +1187,6 @@
     "forks": 642,
     "description": "A lightweight, lightning-fast, in-process vector database",
     "last_seen": "2026-06-18",
-    "trending_days": 7
-  },
-  {
-    "name": "asgeirtj/system_prompts_leaks",
-    "url": "https://github.com/asgeirtj/system_prompts_leaks",
-    "language": "JavaScript",
-    "stars": 44053,
-    "forks": 7296,
-    "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
-    "last_seen": "2026-06-21",
     "trending_days": 7
   },
   {
@@ -2050,6 +2050,16 @@
     "trending_days": 5
   },
   {
+    "name": "dotnet/skills",
+    "url": "https://github.com/dotnet/skills",
+    "language": "C#",
+    "stars": 3674,
+    "forks": 279,
+    "description": "Repository for skills to assist AI coding agents with .NET and C#",
+    "last_seen": "2026-07-04",
+    "trending_days": 5
+  },
+  {
     "name": "elastic/elasticsearch",
     "url": "https://github.com/elastic/elasticsearch",
     "language": "Java",
@@ -2650,16 +2660,6 @@
     "trending_days": 4
   },
   {
-    "name": "dotnet/skills",
-    "url": "https://github.com/dotnet/skills",
-    "language": "C#",
-    "stars": 2834,
-    "forks": 211,
-    "description": "Repository for skills to assist AI coding agents with .NET and C#",
-    "last_seen": "2026-05-24",
-    "trending_days": 4
-  },
-  {
     "name": "emcie-co/parlant",
     "url": "https://github.com/emcie-co/parlant",
     "language": "Python",
@@ -2847,6 +2847,16 @@
     "forks": 1529,
     "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
     "last_seen": "2026-05-21",
+    "trending_days": 4
+  },
+  {
+    "name": "immich-app/immich",
+    "url": "https://github.com/immich-app/immich",
+    "language": "TypeScript",
+    "stars": 105375,
+    "forks": 6015,
+    "description": "High performance self-hosted photo and video management solution.",
+    "last_seen": "2026-07-04",
     "trending_days": 4
   },
   {
@@ -3077,6 +3087,16 @@
     "forks": 446,
     "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
     "last_seen": "2026-06-15",
+    "trending_days": 4
+  },
+  {
+    "name": "ogulcancelik/herdr",
+    "url": "https://github.com/ogulcancelik/herdr",
+    "language": "Rust",
+    "stars": 11085,
+    "forks": 650,
+    "description": "agent multiplexer that lives in your terminal.",
+    "last_seen": "2026-07-04",
     "trending_days": 4
   },
   {
@@ -3337,6 +3357,16 @@
     "forks": 174,
     "description": "Get Spotify tracks in true FLAC from Tidal, Qobuz & Amazon Music — no account required.",
     "last_seen": "2026-01-17",
+    "trending_days": 3
+  },
+  {
+    "name": "agentskills/agentskills",
+    "url": "https://github.com/agentskills/agentskills",
+    "language": "Python",
+    "stars": 22162,
+    "forks": 1402,
+    "description": "Specification and documentation for Agent Skills",
+    "last_seen": "2026-07-04",
     "trending_days": 3
   },
   {
@@ -3810,16 +3840,6 @@
     "trending_days": 3
   },
   {
-    "name": "immich-app/immich",
-    "url": "https://github.com/immich-app/immich",
-    "language": "TypeScript",
-    "stars": 96541,
-    "forks": 5274,
-    "description": "High performance self-hosted photo and video management solution.",
-    "last_seen": "2026-04-06",
-    "trending_days": 3
-  },
-  {
     "name": "influxdata/telegraf",
     "url": "https://github.com/influxdata/telegraf",
     "language": "Go",
@@ -3867,6 +3887,16 @@
     "forks": 443,
     "description": "Jellyfin Desktop Client",
     "last_seen": "2025-12-17",
+    "trending_days": 3
+  },
+  {
+    "name": "JuliusBrussee/caveman",
+    "url": "https://github.com/juliusbrussee/caveman",
+    "language": "JavaScript",
+    "stars": 83444,
+    "forks": 4655,
+    "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+    "last_seen": "2026-07-04",
     "trending_days": 3
   },
   {
@@ -4120,16 +4150,6 @@
     "trending_days": 3
   },
   {
-    "name": "ogulcancelik/herdr",
-    "url": "https://github.com/ogulcancelik/herdr",
-    "language": "Rust",
-    "stars": 10412,
-    "forks": 619,
-    "description": "agent multiplexer that lives in your terminal.",
-    "last_seen": "2026-07-03",
-    "trending_days": 3
-  },
-  {
     "name": "Open-LLM-VTuber/Open-LLM-VTuber",
     "url": "https://github.com/open-llm-vtuber/open-llm-vtuber",
     "language": "Python",
@@ -4147,6 +4167,16 @@
     "forks": 2024,
     "description": "OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.",
     "last_seen": "2026-04-24",
+    "trending_days": 3
+  },
+  {
+    "name": "openai/codex-plugin-cc",
+    "url": "https://github.com/openai/codex-plugin-cc",
+    "language": "JavaScript",
+    "stars": 23617,
+    "forks": 1440,
+    "description": "Use Codex from Claude Code to review code or delegate tasks.",
+    "last_seen": "2026-07-04",
     "trending_days": 3
   },
   {
@@ -4680,16 +4710,6 @@
     "trending_days": 2
   },
   {
-    "name": "agentskills/agentskills",
-    "url": "https://github.com/agentskills/agentskills",
-    "language": "Python",
-    "stars": 21828,
-    "forks": 1384,
-    "description": "Specification and documentation for Agent Skills",
-    "last_seen": "2026-07-03",
-    "trending_days": 2
-  },
-  {
     "name": "AI4Finance-Foundation/FinRobot",
     "url": "https://github.com/ai4finance-foundation/finrobot",
     "language": "JupyterNotebook",
@@ -4727,6 +4747,16 @@
     "forks": 1010,
     "description": "Tongyi Deep Research, the Leading Open-source Deep Research Agent",
     "last_seen": "2025-09-23",
+    "trending_days": 2
+  },
+  {
+    "name": "alirezarezvani/claude-skills",
+    "url": "https://github.com/alirezarezvani/claude-skills",
+    "language": "Python",
+    "stars": 19923,
+    "forks": 2736,
+    "description": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+    "last_seen": "2026-07-04",
     "trending_days": 2
   },
   {
@@ -5720,16 +5750,6 @@
     "trending_days": 2
   },
   {
-    "name": "JuliusBrussee/caveman",
-    "url": "https://github.com/juliusbrussee/caveman",
-    "language": "JavaScript",
-    "stars": 82428,
-    "forks": 4593,
-    "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
-    "last_seen": "2026-07-03",
-    "trending_days": 2
-  },
-  {
     "name": "k2-fsa/sherpa-onnx",
     "url": "https://github.com/k2-fsa/sherpa-onnx",
     "language": "C++",
@@ -6280,16 +6300,6 @@
     "trending_days": 2
   },
   {
-    "name": "openai/codex-plugin-cc",
-    "url": "https://github.com/openai/codex-plugin-cc",
-    "language": "JavaScript",
-    "stars": 22938,
-    "forks": 1392,
-    "description": "Use Codex from Claude Code to review code or delegate tasks.",
-    "last_seen": "2026-07-03",
-    "trending_days": 2
-  },
-  {
     "name": "OpenBMB/MiniCPM-o",
     "url": "https://github.com/openbmb/minicpm-o",
     "language": "Python",
@@ -6487,6 +6497,16 @@
     "forks": 844,
     "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
     "last_seen": "2026-06-30",
+    "trending_days": 2
+  },
+  {
+    "name": "rommapp/romm",
+    "url": "https://github.com/rommapp/romm",
+    "language": "Python",
+    "stars": 9961,
+    "forks": 483,
+    "description": "A beautiful, powerful, self-hosted rom manager and player.",
+    "last_seen": "2026-07-04",
     "trending_days": 2
   },
   {
@@ -7130,16 +7150,6 @@
     "trending_days": 1
   },
   {
-    "name": "alirezarezvani/claude-skills",
-    "url": "https://github.com/alirezarezvani/claude-skills",
-    "language": "Python",
-    "stars": 2943,
-    "forks": 379,
-    "description": "169 production-ready skills & plugins for Claude Code, OpenAI Codex, and OpenClaw — engineering, marketing, product, compliance, C-level advisory, and more. Install via /plugin marketplace.",
-    "last_seen": "2026-03-09",
-    "trending_days": 1
-  },
-  {
     "name": "amantus-ai/vibetunnel",
     "url": "https://github.com/amantus-ai/vibetunnel",
     "language": "TypeScript",
@@ -7460,6 +7470,16 @@
     "trending_days": 1
   },
   {
+    "name": "chthollyphile/folia-major",
+    "url": "https://github.com/chthollyphile/folia-major",
+    "language": "TypeScript",
+    "stars": 921,
+    "forks": 58,
+    "description": "专注于绚丽的歌词动画效果的本地音乐/navidrome/第三方网易云播放器",
+    "last_seen": "2026-07-04",
+    "trending_days": 1
+  },
+  {
     "name": "cilium/cilium",
     "url": "https://github.com/cilium/cilium",
     "language": "Go",
@@ -7550,6 +7570,16 @@
     "trending_days": 1
   },
   {
+    "name": "CoplayDev/unity-mcp",
+    "url": "https://github.com/coplaydev/unity-mcp",
+    "language": "C#",
+    "stars": 11376,
+    "forks": 1249,
+    "description": "Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.",
+    "last_seen": "2026-07-04",
+    "trending_days": 1
+  },
+  {
     "name": "CoreBunch/Instatic",
     "url": "https://github.com/corebunch/instatic",
     "language": "TypeScript",
@@ -7577,6 +7607,16 @@
     "forks": 3748,
     "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
     "last_seen": "2026-04-23",
+    "trending_days": 1
+  },
+  {
+    "name": "crynta/terax-ai",
+    "url": "https://github.com/crynta/terax-ai",
+    "language": "TypeScript",
+    "stars": 7909,
+    "forks": 856,
+    "description": "Lightweight (7MB) Terminal-first AI-native dev workspace",
+    "last_seen": "2026-07-04",
     "trending_days": 1
   },
   {
@@ -9740,16 +9780,6 @@
     "trending_days": 1
   },
   {
-    "name": "rommapp/romm",
-    "url": "https://github.com/rommapp/romm",
-    "language": "Python",
-    "stars": 9582,
-    "forks": 464,
-    "description": "A beautiful, powerful, self-hosted rom manager and player.",
-    "last_seen": "2026-07-03",
-    "trending_days": 1
-  },
-  {
     "name": "RooCodeInc/Roo-Code",
     "url": "https://github.com/roocodeinc/roo-code",
     "language": "TypeScript",
@@ -10467,6 +10497,16 @@
     "forks": 7310,
     "description": "🔥 官方推荐 🔥 RuoYi-Vue 全新 Pro 版本，优化重构所有功能。基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城、CRM、ERP、AI 大模型等功能。你的 ⭐️ Star ⭐️，是作者生发的动力！",
     "last_seen": "2025-11-01",
+    "trending_days": 1
+  },
+  {
+    "name": "Zackriya-Solutions/meetily",
+    "url": "https://github.com/zackriya-solutions/meetily",
+    "language": "Rust",
+    "stars": 14466,
+    "forks": 1597,
+    "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows.",
+    "last_seen": "2026-07-04",
     "trending_days": 1
   },
   {

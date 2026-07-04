@@ -1,0 +1,6 @@
+{
+  "title": "Anthropic 推 Agent Skills 开放标准：6 个月 22K stars 把 30+ agent 厂商统一进同一套打包格式",
+  "digest": "Anthropic 把 Claude Code 的 dogfooding 痛点外化为跨厂商标准：以 SKILL.md 为单元的轻量打包格式，把 metadata → body → resources 三阶段 token 预算写进 spec 主体，6.6 个月已被 Claude Code、Cursor、Copilot、Gemini CLI 等 30+ 客户端采纳，定位 agent 互操作栈中领域知识/工作流层的协议标准，对标 MCP 在 tool calling 层做的事。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

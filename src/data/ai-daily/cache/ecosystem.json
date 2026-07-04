@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-07-03",
+    "last_run": "2026-07-04",
     "window_days": 30
   },
   "entries": [
@@ -1041,6 +1041,54 @@
       "canonical_url": "https://github.com/ansible/ansible",
       "event_date": "2026-07-03",
       "date_seen": "2026-07-03"
+    },
+    {
+      "key": "github.com/zackriya-solutions/meetily",
+      "canonical_url": "https://github.com/Zackriya-Solutions/meetily",
+      "event_date": "2026-07-04",
+      "date_seen": "2026-07-04"
+    },
+    {
+      "key": "github.com/dotnet/skills",
+      "canonical_url": "https://github.com/dotnet/skills",
+      "event_date": "2026-07-04",
+      "date_seen": "2026-07-04"
+    },
+    {
+      "key": "github.com/coplaydev/unity-mcp",
+      "canonical_url": "https://github.com/CoplayDev/unity-mcp",
+      "event_date": "2026-07-04",
+      "date_seen": "2026-07-04"
+    },
+    {
+      "key": "github.com/alirezarezvani/claude-skills",
+      "canonical_url": "https://github.com/alirezarezvani/claude-skills",
+      "event_date": "2026-07-04",
+      "date_seen": "2026-07-04"
+    },
+    {
+      "key": "github.com/jstxn/agentdir",
+      "canonical_url": "https://github.com/jstxn/agentdir",
+      "event_date": "2026-07-04",
+      "date_seen": "2026-07-04"
+    },
+    {
+      "key": "github.com/shopify/string_view",
+      "canonical_url": "https://github.com/shopify/string_view",
+      "event_date": "2026-07-04",
+      "date_seen": "2026-07-04"
+    },
+    {
+      "key": "https://seeyeetech.com/github-explorer/reports/addyosmani_agent-skills",
+      "canonical_url": "https://seeyeetech.com/github-explorer/reports/addyosmani_agent-skills",
+      "event_date": "2026-07-04",
+      "date_seen": "2026-07-04"
+    },
+    {
+      "key": "https://seeyeetech.com/github-explorer/reports/alibaba_page-agent",
+      "canonical_url": "https://seeyeetech.com/github-explorer/reports/alibaba_page-agent",
+      "event_date": "2026-07-04",
+      "date_seen": "2026-07-04"
     }
   ]
 }

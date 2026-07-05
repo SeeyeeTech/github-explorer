@@ -1,0 +1,6 @@
+{
+  "title": "8个月20K star：把Claude Skills做成跨13工具npm的元仓库",
+  "digest": "一个人用354个SKILL.md+593个CLI把agent skill同步到Claude/Codex/Gemini等13工具，靠SKILL.md 100行硬约束与6条CI质量门建立标准化护城河。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

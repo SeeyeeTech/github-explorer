@@ -217,3 +217,4 @@
 {"recorded_at": "2026-07-03T22:09:29.837270+00:00", "slug": "supabase_supabase", "title": null, "state": "published", "published_at": "2026-07-03", "reason": "自动生成", "ci_run_id": "28685021572"}
 {"recorded_at": "2026-07-03T23:11:33.882361+00:00", "slug": "facebook_astryx", "title": null, "state": "published", "published_at": "2026-07-03", "reason": "自动生成", "ci_run_id": "28686847218"}
 {"recorded_at": "2026-07-04T21:58:54.168176+00:00", "slug": "agentskills_agentskills", "title": null, "state": "pending", "published_at": "2026-07-04", "reason": "待重发", "ci_run_id": "28720685194"}
+{"recorded_at": "2026-07-05T21:59:39.071917+00:00", "slug": "alirezarezvani_claude-skills", "title": null, "state": "published", "published_at": "2026-07-05", "reason": "自动生成", "ci_run_id": "28756072416"}

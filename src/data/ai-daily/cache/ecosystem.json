@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-07-04",
+    "last_run": "2026-07-05",
     "window_days": 30
   },
   "entries": [
@@ -1089,6 +1089,42 @@
       "canonical_url": "https://seeyeetech.com/github-explorer/reports/alibaba_page-agent",
       "event_date": "2026-07-04",
       "date_seen": "2026-07-04"
+    },
+    {
+      "key": "github.com/gastownhall/gastown",
+      "canonical_url": "https://github.com/gastownhall/gastown",
+      "event_date": "2026-07-05",
+      "date_seen": "2026-07-05"
+    },
+    {
+      "key": "github.com/othmanadi/planning-with-files",
+      "canonical_url": "https://github.com/OthmanAdi/planning-with-files",
+      "event_date": "2026-07-05",
+      "date_seen": "2026-07-05"
+    },
+    {
+      "key": "github.com/coreyhaines31/marketingskills",
+      "canonical_url": "https://github.com/coreyhaines31/marketingskills",
+      "event_date": "2026-07-05",
+      "date_seen": "2026-07-05"
+    },
+    {
+      "key": "github.com/steipete/codexbar",
+      "canonical_url": "https://github.com/steipete/CodexBar",
+      "event_date": "2026-07-05",
+      "date_seen": "2026-07-05"
+    },
+    {
+      "key": "github.com/json-e/json-e",
+      "canonical_url": "https://github.com/json-e/json-e",
+      "event_date": "2026-07-05",
+      "date_seen": "2026-07-05"
+    },
+    {
+      "key": "github.com/ammaarreshi/generals-mac-ios-ipad",
+      "canonical_url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad",
+      "event_date": "2026-07-05",
+      "date_seen": "2026-07-05"
     }
   ]
 }

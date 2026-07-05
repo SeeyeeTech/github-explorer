@@ -63,6 +63,11 @@ entries:
   - ai-agent
   - llm-framework
   - llm-training
+  agentskills_agentskills:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - protocol-spec
   agentsmd_agents.md:
   - ai-agent
   - ai-coding

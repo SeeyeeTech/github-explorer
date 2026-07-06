@@ -219,3 +219,4 @@
 {"recorded_at": "2026-07-04T21:58:54.168176+00:00", "slug": "agentskills_agentskills", "title": null, "state": "pending", "published_at": "2026-07-04", "reason": "待重发", "ci_run_id": "28720685194"}
 {"recorded_at": "2026-07-05T21:59:39.071917+00:00", "slug": "alirezarezvani_claude-skills", "title": null, "state": "published", "published_at": "2026-07-05", "reason": "自动生成", "ci_run_id": "28756072416"}
 {"recorded_at": "2026-07-05T23:15:33.015458+00:00", "slug": "steipete_codexbar", "title": null, "state": "published", "published_at": "2026-07-05", "reason": "自动生成", "ci_run_id": "28757661350"}
+{"recorded_at": "2026-07-06T00:12:50.361999+00:00", "slug": "rommapp_romm", "title": null, "state": "published", "published_at": "2026-07-06", "reason": "自动生成", "ci_run_id": "28759330433"}

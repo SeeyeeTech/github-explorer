@@ -118,6 +118,11 @@ entries:
   - database
   - iot-hardware
   - trading-finance
+  alirezarezvani_claude-skills:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - workflow-automation
   alishahryar1_free-claude-code:
   - ai-agent
   - ai-coding
@@ -1710,6 +1715,9 @@ entries:
   - ai-coding
   - education
   - protocol-spec
+  rommapp_romm:
+  - database
+  - protocol-spec
   rossant_awesome-math:
   - uncategorized
   rowboatlabs_rowboat:
@@ -1854,6 +1862,8 @@ entries:
   - llm-inference
   - education
   - trading-finance
+  steipete_codexbar:
+  - ai-coding
   steipete_gogcli:
   - ai-agent
   - devtools

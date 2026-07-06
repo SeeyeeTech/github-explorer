@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-07-05",
+    "last_run": "2026-07-06",
     "window_days": 30
   },
   "entries": [
@@ -1125,6 +1125,30 @@
       "canonical_url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad",
       "event_date": "2026-07-05",
       "date_seen": "2026-07-05"
+    },
+    {
+      "key": "github.com/bradautomates/claude-video",
+      "canonical_url": "https://github.com/bradautomates/claude-video",
+      "event_date": "2026-07-06",
+      "date_seen": "2026-07-06"
+    },
+    {
+      "key": "github.com/huggingface/candle",
+      "canonical_url": "https://github.com/huggingface/candle",
+      "event_date": "2026-07-06",
+      "date_seen": "2026-07-06"
+    },
+    {
+      "key": "github.com/1weiho/open-slide",
+      "canonical_url": "https://github.com/1weiho/open-slide",
+      "event_date": "2026-07-06",
+      "date_seen": "2026-07-06"
+    },
+    {
+      "key": "github.com/tensorflow/tensorflow",
+      "canonical_url": "https://github.com/tensorflow/tensorflow",
+      "event_date": "2026-07-06",
+      "date_seen": "2026-07-06"
     }
   ]
 }

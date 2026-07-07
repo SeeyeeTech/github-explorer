@@ -2198,6 +2198,10 @@ entries:
   - model-foundation
   z4nzu_hackingtool:
   - security
+  zackriya-solutions_meetily:
+  - llm-inference
+  - model-foundation
+  - video-audio
   zaidmukaddam_scira:
   - ai-agent
   - rag-search

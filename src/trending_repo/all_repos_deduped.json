@@ -260,6 +260,16 @@
     "trending_days": 18
   },
   {
+    "name": "ruvnet/RuView",
+    "url": "https://github.com/ruvnet/ruview",
+    "language": "Rust",
+    "stars": 78129,
+    "forks": 10515,
+    "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+    "last_seen": "2026-07-07",
+    "trending_days": 18
+  },
+  {
     "name": "virattt/ai-hedge-fund",
     "url": "https://github.com/virattt/ai-hedge-fund",
     "language": "Python",
@@ -268,16 +278,6 @@
     "description": "An AI Hedge Fund Team",
     "last_seen": "2026-04-15",
     "trending_days": 18
-  },
-  {
-    "name": "ruvnet/RuView",
-    "url": "https://github.com/ruvnet/ruview",
-    "language": "Rust",
-    "stars": 77089,
-    "forks": 10340,
-    "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-    "last_seen": "2026-07-06",
-    "trending_days": 17
   },
   {
     "name": "mattpocock/skills",
@@ -440,6 +440,16 @@
     "trending_days": 13
   },
   {
+    "name": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "language": "JavaScript",
+    "stars": 71627,
+    "forks": 7754,
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "last_seen": "2026-07-07",
+    "trending_days": 12
+  },
+  {
     "name": "anthropics/claude-plugins-official",
     "url": "https://github.com/anthropics/claude-plugins-official",
     "language": "Python",
@@ -500,13 +510,13 @@
     "trending_days": 11
   },
   {
-    "name": "addyosmani/agent-skills",
-    "url": "https://github.com/addyosmani/agent-skills",
-    "language": "Shell",
-    "stars": 70401,
-    "forks": 7631,
-    "description": "Production-grade engineering skills for AI coding agents.",
-    "last_seen": "2026-07-06",
+    "name": "asgeirtj/system_prompts_leaks",
+    "url": "https://github.com/asgeirtj/system_prompts_leaks",
+    "language": "JavaScript",
+    "stars": 52470,
+    "forks": 8543,
+    "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+    "last_seen": "2026-07-07",
     "trending_days": 11
   },
   {
@@ -648,16 +658,6 @@
     "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
     "last_seen": "2026-06-13",
     "trending_days": 11
-  },
-  {
-    "name": "asgeirtj/system_prompts_leaks",
-    "url": "https://github.com/asgeirtj/system_prompts_leaks",
-    "language": "JavaScript",
-    "stars": 50900,
-    "forks": 8299,
-    "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
-    "last_seen": "2026-07-06",
-    "trending_days": 10
   },
   {
     "name": "dyad-sh/dyad",
@@ -1210,6 +1210,16 @@
     "trending_days": 7
   },
   {
+    "name": "dotnet/skills",
+    "url": "https://github.com/dotnet/skills",
+    "language": "C#",
+    "stars": 4221,
+    "forks": 320,
+    "description": "Repository for skills to assist AI coding agents with .NET and C#",
+    "last_seen": "2026-07-07",
+    "trending_days": 7
+  },
+  {
     "name": "Fincept-Corporation/FinceptTerminal",
     "url": "https://github.com/fincept-corporation/finceptterminal",
     "language": "Python",
@@ -1537,16 +1547,6 @@
     "forks": 3370,
     "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
     "last_seen": "2026-05-30",
-    "trending_days": 6
-  },
-  {
-    "name": "dotnet/skills",
-    "url": "https://github.com/dotnet/skills",
-    "language": "C#",
-    "stars": 3924,
-    "forks": 297,
-    "description": "Repository for skills to assist AI coding agents with .NET and C#",
-    "last_seen": "2026-07-05",
     "trending_days": 6
   },
   {
@@ -2420,6 +2420,16 @@
     "trending_days": 5
   },
   {
+    "name": "steipete/CodexBar",
+    "url": "https://github.com/steipete/codexbar",
+    "language": "Swift",
+    "stars": 16927,
+    "forks": 1384,
+    "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
+    "last_seen": "2026-07-07",
+    "trending_days": 5
+  },
+  {
     "name": "supertone-inc/supertonic",
     "url": "https://github.com/supertone-inc/supertonic",
     "language": "Swift",
@@ -2860,6 +2870,16 @@
     "trending_days": 4
   },
   {
+    "name": "hesreallyhim/awesome-claude-code",
+    "url": "https://github.com/hesreallyhim/awesome-claude-code",
+    "language": "Python",
+    "stars": 48838,
+    "forks": 4265,
+    "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
+    "last_seen": "2026-07-07",
+    "trending_days": 4
+  },
+  {
     "name": "HKUDS/DeepTutor",
     "url": "https://github.com/hkuds/deeptutor",
     "language": "Python",
@@ -3260,16 +3280,6 @@
     "trending_days": 4
   },
   {
-    "name": "steipete/CodexBar",
-    "url": "https://github.com/steipete/codexbar",
-    "language": "Swift",
-    "stars": 16597,
-    "forks": 1367,
-    "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
-    "last_seen": "2026-07-06",
-    "trending_days": 4
-  },
-  {
     "name": "superset-sh/superset",
     "url": "https://github.com/superset-sh/superset",
     "language": "TypeScript",
@@ -3357,6 +3367,16 @@
     "forks": 258,
     "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
     "last_seen": "2026-05-08",
+    "trending_days": 4
+  },
+  {
+    "name": "Zackriya-Solutions/meetily",
+    "url": "https://github.com/zackriya-solutions/meetily",
+    "language": "Rust",
+    "stars": 20147,
+    "forks": 2020,
+    "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows.",
+    "last_seen": "2026-07-07",
     "trending_days": 4
   },
   {
@@ -3827,16 +3847,6 @@
     "forks": 72,
     "description": "N64 Game-Engine and Editor using libdragon & tiny3d",
     "last_seen": "2026-02-20",
-    "trending_days": 3
-  },
-  {
-    "name": "hesreallyhim/awesome-claude-code",
-    "url": "https://github.com/hesreallyhim/awesome-claude-code",
-    "language": "Python",
-    "stars": 48116,
-    "forks": 4224,
-    "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
-    "last_seen": "2026-07-05",
     "trending_days": 3
   },
   {
@@ -4490,6 +4500,16 @@
     "trending_days": 3
   },
   {
+    "name": "TencentCloud/CubeSandbox",
+    "url": "https://github.com/tencentcloud/cubesandbox",
+    "language": "Rust",
+    "stars": 8213,
+    "forks": 687,
+    "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+    "last_seen": "2026-07-07",
+    "trending_days": 3
+  },
+  {
     "name": "teng-lin/notebooklm-py",
     "url": "https://github.com/teng-lin/notebooklm-py",
     "language": "Python",
@@ -4657,16 +4677,6 @@
     "forks": 242,
     "description": "Experimental menu for GTA 5: Enhanced",
     "last_seen": "2025-12-13",
-    "trending_days": 3
-  },
-  {
-    "name": "Zackriya-Solutions/meetily",
-    "url": "https://github.com/zackriya-solutions/meetily",
-    "language": "Rust",
-    "stars": 18600,
-    "forks": 1899,
-    "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows.",
-    "last_seen": "2026-07-06",
     "trending_days": 3
   },
   {
@@ -5037,6 +5047,16 @@
     "forks": 410,
     "description": "MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.",
     "last_seen": "2026-04-05",
+    "trending_days": 2
+  },
+  {
+    "name": "bradautomates/claude-video",
+    "url": "https://github.com/bradautomates/claude-video",
+    "language": "Python",
+    "stars": 4807,
+    "forks": 635,
+    "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+    "last_seen": "2026-07-07",
     "trending_days": 2
   },
   {
@@ -6730,16 +6750,6 @@
     "trending_days": 2
   },
   {
-    "name": "TencentCloud/CubeSandbox",
-    "url": "https://github.com/tencentcloud/cubesandbox",
-    "language": "Rust",
-    "stars": 7052,
-    "forks": 587,
-    "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
-    "last_seen": "2026-07-03",
-    "trending_days": 2
-  },
-  {
     "name": "teslamate-org/teslamate",
     "url": "https://github.com/teslamate-org/teslamate",
     "language": "Elixir",
@@ -7130,6 +7140,16 @@
     "trending_days": 1
   },
   {
+    "name": "AhmadIbrahiim/Website-downloader",
+    "url": "https://github.com/ahmadibrahiim/website-downloader",
+    "language": "HTML",
+    "stars": 3660,
+    "forks": 965,
+    "description": "💡 Download the complete source code of any website (including all assets). [ Javascripts, Stylesheets, Images ] using Node.js",
+    "last_seen": "2026-07-07",
+    "trending_days": 1
+  },
+  {
     "name": "ai-dynamo/dynamo",
     "url": "https://github.com/ai-dynamo/dynamo",
     "language": "Rust",
@@ -7417,16 +7437,6 @@
     "forks": 909,
     "description": "DPI bypass multi platform",
     "last_seen": "2025-10-27",
-    "trending_days": 1
-  },
-  {
-    "name": "bradautomates/claude-video",
-    "url": "https://github.com/bradautomates/claude-video",
-    "language": "Python",
-    "stars": 3894,
-    "forks": 574,
-    "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
-    "last_seen": "2026-07-06",
     "trending_days": 1
   },
   {
@@ -8580,6 +8590,16 @@
     "trending_days": 1
   },
   {
+    "name": "iOfficeAI/OfficeCLI",
+    "url": "https://github.com/iofficeai/officecli",
+    "language": "C#",
+    "stars": 9365,
+    "forks": 657,
+    "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+    "last_seen": "2026-07-07",
+    "trending_days": 1
+  },
+  {
     "name": "isaac-sim/IsaacSim",
     "url": "https://github.com/isaac-sim/isaacsim",
     "language": "Python",
@@ -8790,6 +8810,16 @@
     "trending_days": 1
   },
   {
+    "name": "kyutai-labs/pocket-tts",
+    "url": "https://github.com/kyutai-labs/pocket-tts",
+    "language": "Python",
+    "stars": 5767,
+    "forks": 616,
+    "description": "A TTS that fits in your CPU (and pocket)",
+    "last_seen": "2026-07-07",
+    "trending_days": 1
+  },
+  {
     "name": "langchain-ai/langchainjs",
     "url": "https://github.com/langchain-ai/langchainjs",
     "language": "TypeScript",
@@ -8957,6 +8987,16 @@
     "forks": 220,
     "description": "A tool designed to simplify the creation of OpenCore EFI",
     "last_seen": "2025-11-11",
+    "trending_days": 1
+  },
+  {
+    "name": "MadsLorentzen/ai-job-search",
+    "url": "https://github.com/madslorentzen/ai-job-search",
+    "language": "TypeScript",
+    "stars": 8681,
+    "forks": 3156,
+    "description": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
+    "last_seen": "2026-07-07",
     "trending_days": 1
   },
   {

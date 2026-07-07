@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-07-06",
+    "last_run": "2026-07-07",
     "window_days": 30
   },
   "entries": [
@@ -1149,6 +1149,66 @@
       "canonical_url": "https://github.com/tensorflow/tensorflow",
       "event_date": "2026-07-06",
       "date_seen": "2026-07-06"
+    },
+    {
+      "key": "github.com/madslorentzen/ai-job-search",
+      "canonical_url": "https://github.com/MadsLorentzen/ai-job-search",
+      "event_date": "2026-07-07",
+      "date_seen": "2026-07-07"
+    },
+    {
+      "key": "github.com/ruvnet/ruview",
+      "canonical_url": "https://github.com/ruvnet/RuView",
+      "event_date": "2026-07-07",
+      "date_seen": "2026-07-07"
+    },
+    {
+      "key": "github.com/iofficeai/officecli",
+      "canonical_url": "https://github.com/iOfficeAI/OfficeCLI",
+      "event_date": "2026-07-07",
+      "date_seen": "2026-07-07"
+    },
+    {
+      "key": "github.com/kyutai-labs/pocket-tts",
+      "canonical_url": "https://github.com/kyutai-labs/pocket-tts",
+      "event_date": "2026-07-07",
+      "date_seen": "2026-07-07"
+    },
+    {
+      "key": "github.com/hesreallyhim/awesome-claude-code",
+      "canonical_url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "event_date": "2026-07-07",
+      "date_seen": "2026-07-07"
+    },
+    {
+      "key": "github.com/mesh-llm/mesh-llm",
+      "canonical_url": "https://github.com/Mesh-LLM/mesh-llm",
+      "event_date": "2026-07-07",
+      "date_seen": "2026-07-07"
+    },
+    {
+      "key": "github.com/adt109119/llamacpp-distributed-inference",
+      "canonical_url": "https://github.com/ADT109119/llamacpp-distributed-inference",
+      "event_date": "2026-07-07",
+      "date_seen": "2026-07-07"
+    },
+    {
+      "key": "github.com/greatv/oar-ocr",
+      "canonical_url": "https://github.com/GreatV/oar-ocr",
+      "event_date": "2026-07-06",
+      "date_seen": "2026-07-07"
+    },
+    {
+      "key": "github.com/wouterdebie/davit",
+      "canonical_url": "https://github.com/wouterdebie/davit",
+      "event_date": "2026-07-07",
+      "date_seen": "2026-07-07"
+    },
+    {
+      "key": "github.com/avencera/smrze",
+      "canonical_url": "https://github.com/avencera/smrze",
+      "event_date": "2026-07-06",
+      "date_seen": "2026-07-07"
     }
   ]
 }

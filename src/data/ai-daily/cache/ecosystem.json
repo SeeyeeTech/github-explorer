@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-07-07",
+    "last_run": "2026-07-08",
     "window_days": 30
   },
   "entries": [
@@ -1209,6 +1209,48 @@
       "canonical_url": "https://github.com/avencera/smrze",
       "event_date": "2026-07-06",
       "date_seen": "2026-07-07"
+    },
+    {
+      "key": "github.com/tencentcloud/tencentdb-agent-memory",
+      "canonical_url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "event_date": "2026-07-08",
+      "date_seen": "2026-07-08"
+    },
+    {
+      "key": "github.com/wonderwhy-er/desktopcommandermcp",
+      "canonical_url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "event_date": "2026-07-08",
+      "date_seen": "2026-07-08"
+    },
+    {
+      "key": "github.com/sonos/tract",
+      "canonical_url": "https://github.com/sonos/tract",
+      "event_date": "2026-07-07",
+      "date_seen": "2026-07-08"
+    },
+    {
+      "key": "github.com/onnx/tensorflow-onnx",
+      "canonical_url": "https://github.com/onnx/tensorflow-onnx",
+      "event_date": "2026-07-07",
+      "date_seen": "2026-07-08"
+    },
+    {
+      "key": "github.com/paddlepaddle/paddle2onnx",
+      "canonical_url": "https://github.com/paddlepaddle/paddle2onnx",
+      "event_date": "2026-07-07",
+      "date_seen": "2026-07-08"
+    },
+    {
+      "key": "github.com/ericlbuehler/candle-vllm",
+      "canonical_url": "https://github.com/ericlbuehler/candle-vllm",
+      "event_date": "2026-07-07",
+      "date_seen": "2026-07-08"
+    },
+    {
+      "key": "github.com/ericlbuehler/candle-lora",
+      "canonical_url": "https://github.com/ericlbuehler/candle-lora",
+      "event_date": "2026-07-07",
+      "date_seen": "2026-07-08"
     }
   ]
 }

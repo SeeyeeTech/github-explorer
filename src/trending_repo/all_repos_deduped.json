@@ -3,11 +3,11 @@
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "language": "Shell",
-    "stars": 245160,
-    "forks": 21723,
+    "stars": 249414,
+    "forks": 22139,
     "description": "An agentic skills framework & software development methodology that works.",
-    "last_seen": "2026-07-03",
-    "trending_days": 68
+    "last_seen": "2026-07-08",
+    "trending_days": 69
   },
   {
     "name": "TapXWorld/ChinaTextbook",
@@ -230,6 +230,16 @@
     "trending_days": 20
   },
   {
+    "name": "ruvnet/RuView",
+    "url": "https://github.com/ruvnet/ruview",
+    "language": "Rust",
+    "stars": 78856,
+    "forks": 10607,
+    "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+    "last_seen": "2026-07-08",
+    "trending_days": 19
+  },
+  {
     "name": "Shubhamsaboo/awesome-llm-apps",
     "url": "https://github.com/shubhamsaboo/awesome-llm-apps",
     "language": "Python",
@@ -257,16 +267,6 @@
     "forks": 5023,
     "description": "Open-Source Frontier Voice AI",
     "last_seen": "2026-04-29",
-    "trending_days": 18
-  },
-  {
-    "name": "ruvnet/RuView",
-    "url": "https://github.com/ruvnet/ruview",
-    "language": "Rust",
-    "stars": 78129,
-    "forks": 10515,
-    "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-    "last_seen": "2026-07-07",
     "trending_days": 18
   },
   {
@@ -370,6 +370,16 @@
     "trending_days": 14
   },
   {
+    "name": "mvanhorn/last30days-skill",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "language": "Python",
+    "stars": 50498,
+    "forks": 4215,
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "last_seen": "2026-07-08",
+    "trending_days": 14
+  },
+  {
     "name": "public-apis/public-apis",
     "url": "https://github.com/public-apis/public-apis",
     "language": "Python",
@@ -388,6 +398,16 @@
     "description": "Kronos: A Foundation Model for the Language of Financial Markets",
     "last_seen": "2026-06-15",
     "trending_days": 14
+  },
+  {
+    "name": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "language": "JavaScript",
+    "stars": 72913,
+    "forks": 7878,
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "last_seen": "2026-07-08",
+    "trending_days": 13
   },
   {
     "name": "affaan-m/ECC",
@@ -420,16 +440,6 @@
     "trending_days": 13
   },
   {
-    "name": "mvanhorn/last30days-skill",
-    "url": "https://github.com/mvanhorn/last30days-skill",
-    "language": "Python",
-    "stars": 49548,
-    "forks": 4124,
-    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-    "last_seen": "2026-07-06",
-    "trending_days": 13
-  },
-  {
     "name": "usestrix/strix",
     "url": "https://github.com/usestrix/strix",
     "language": "Python",
@@ -440,16 +450,6 @@
     "trending_days": 13
   },
   {
-    "name": "addyosmani/agent-skills",
-    "url": "https://github.com/addyosmani/agent-skills",
-    "language": "JavaScript",
-    "stars": 71627,
-    "forks": 7754,
-    "description": "Production-grade engineering skills for AI coding agents.",
-    "last_seen": "2026-07-07",
-    "trending_days": 12
-  },
-  {
     "name": "anthropics/claude-plugins-official",
     "url": "https://github.com/anthropics/claude-plugins-official",
     "language": "Python",
@@ -457,6 +457,16 @@
     "forks": 3356,
     "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
     "last_seen": "2026-06-23",
+    "trending_days": 12
+  },
+  {
+    "name": "asgeirtj/system_prompts_leaks",
+    "url": "https://github.com/asgeirtj/system_prompts_leaks",
+    "language": "JavaScript",
+    "stars": 53643,
+    "forks": 8740,
+    "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+    "last_seen": "2026-07-08",
     "trending_days": 12
   },
   {
@@ -507,16 +517,6 @@
     "forks": 10097,
     "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
     "last_seen": "2026-06-06",
-    "trending_days": 11
-  },
-  {
-    "name": "asgeirtj/system_prompts_leaks",
-    "url": "https://github.com/asgeirtj/system_prompts_leaks",
-    "language": "JavaScript",
-    "stars": 52470,
-    "forks": 8543,
-    "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
-    "last_seen": "2026-07-07",
     "trending_days": 11
   },
   {
@@ -790,6 +790,16 @@
     "trending_days": 9
   },
   {
+    "name": "alibaba/zvec",
+    "url": "https://github.com/alibaba/zvec",
+    "language": "C++",
+    "stars": 14226,
+    "forks": 872,
+    "description": "A lightweight, lightning-fast, in-process vector database",
+    "last_seen": "2026-07-08",
+    "trending_days": 9
+  },
+  {
     "name": "anthropics/claude-cookbooks",
     "url": "https://github.com/anthropics/claude-cookbooks",
     "language": "JupyterNotebook",
@@ -968,16 +978,6 @@
     "description": "All Algorithms implemented in Python",
     "last_seen": "2025-12-29",
     "trending_days": 9
-  },
-  {
-    "name": "alibaba/zvec",
-    "url": "https://github.com/alibaba/zvec",
-    "language": "C++",
-    "stars": 13220,
-    "forks": 800,
-    "description": "A lightweight, lightning-fast, in-process vector database",
-    "last_seen": "2026-07-06",
-    "trending_days": 8
   },
   {
     "name": "Alishahryar1/free-claude-code",
@@ -3290,6 +3290,16 @@
     "trending_days": 4
   },
   {
+    "name": "TencentCloud/CubeSandbox",
+    "url": "https://github.com/tencentcloud/cubesandbox",
+    "language": "Rust",
+    "stars": 8729,
+    "forks": 729,
+    "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+    "last_seen": "2026-07-08",
+    "trending_days": 4
+  },
+  {
     "name": "thinking-machines-lab/tinker-cookbook",
     "url": "https://github.com/thinking-machines-lab/tinker-cookbook",
     "language": "Python",
@@ -3527,6 +3537,16 @@
     "forks": 696,
     "description": "The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one.",
     "last_seen": "2025-10-08",
+    "trending_days": 3
+  },
+  {
+    "name": "bradautomates/claude-video",
+    "url": "https://github.com/bradautomates/claude-video",
+    "language": "Python",
+    "stars": 5714,
+    "forks": 693,
+    "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+    "last_seen": "2026-07-08",
     "trending_days": 3
   },
   {
@@ -4500,16 +4520,6 @@
     "trending_days": 3
   },
   {
-    "name": "TencentCloud/CubeSandbox",
-    "url": "https://github.com/tencentcloud/cubesandbox",
-    "language": "Rust",
-    "stars": 8213,
-    "forks": 687,
-    "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
-    "last_seen": "2026-07-07",
-    "trending_days": 3
-  },
-  {
     "name": "teng-lin/notebooklm-py",
     "url": "https://github.com/teng-lin/notebooklm-py",
     "language": "Python",
@@ -5050,16 +5060,6 @@
     "trending_days": 2
   },
   {
-    "name": "bradautomates/claude-video",
-    "url": "https://github.com/bradautomates/claude-video",
-    "language": "Python",
-    "stars": 4807,
-    "forks": 635,
-    "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
-    "last_seen": "2026-07-07",
-    "trending_days": 2
-  },
-  {
     "name": "bregman-arie/devops-exercises",
     "url": "https://github.com/bregman-arie/devops-exercises",
     "language": "Python",
@@ -5327,6 +5327,16 @@
     "forks": 1434,
     "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
     "last_seen": "2026-07-01",
+    "trending_days": 2
+  },
+  {
+    "name": "Diolinux/PhotoGIMP",
+    "url": "https://github.com/diolinux/photogimp",
+    "language": "CSS",
+    "stars": 14686,
+    "forks": 581,
+    "description": "A Patch for GIMP 3+ for Photoshop Users",
+    "last_seen": "2026-07-08",
     "trending_days": 2
   },
   {
@@ -5810,6 +5820,16 @@
     "trending_days": 2
   },
   {
+    "name": "iOfficeAI/OfficeCLI",
+    "url": "https://github.com/iofficeai/officecli",
+    "language": "C#",
+    "stars": 11012,
+    "forks": 742,
+    "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+    "last_seen": "2026-07-08",
+    "trending_days": 2
+  },
+  {
     "name": "janhq/jan",
     "url": "https://github.com/janhq/jan",
     "language": "TypeScript",
@@ -6087,6 +6107,16 @@
     "forks": 4437,
     "description": "A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python",
     "last_seen": "2026-01-21",
+    "trending_days": 2
+  },
+  {
+    "name": "MadsLorentzen/ai-job-search",
+    "url": "https://github.com/madslorentzen/ai-job-search",
+    "language": "TypeScript",
+    "stars": 13541,
+    "forks": 4240,
+    "description": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
+    "last_seen": "2026-07-08",
     "trending_days": 2
   },
   {
@@ -7290,6 +7320,16 @@
     "trending_days": 1
   },
   {
+    "name": "argoproj/argo-cd",
+    "url": "https://github.com/argoproj/argo-cd",
+    "language": "Go",
+    "stars": 23360,
+    "forks": 7422,
+    "description": "Declarative Continuous Deployment for Kubernetes",
+    "last_seen": "2026-07-08",
+    "trending_days": 1
+  },
+  {
     "name": "Arindam200/awesome-ai-apps",
     "url": "https://github.com/arindam200/awesome-ai-apps",
     "language": "Python",
@@ -7797,16 +7837,6 @@
     "forks": 141,
     "description": "My Codex Skills",
     "last_seen": "2026-03-31",
-    "trending_days": 1
-  },
-  {
-    "name": "Diolinux/PhotoGIMP",
-    "url": "https://github.com/diolinux/photogimp",
-    "language": "CSS",
-    "stars": 10518,
-    "forks": 366,
-    "description": "A Patch for GIMP 3+ for Photoshop Users",
-    "last_seen": "2026-05-19",
     "trending_days": 1
   },
   {
@@ -8590,16 +8620,6 @@
     "trending_days": 1
   },
   {
-    "name": "iOfficeAI/OfficeCLI",
-    "url": "https://github.com/iofficeai/officecli",
-    "language": "C#",
-    "stars": 9365,
-    "forks": 657,
-    "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-    "last_seen": "2026-07-07",
-    "trending_days": 1
-  },
-  {
     "name": "isaac-sim/IsaacSim",
     "url": "https://github.com/isaac-sim/isaacsim",
     "language": "Python",
@@ -8987,16 +9007,6 @@
     "forks": 220,
     "description": "A tool designed to simplify the creation of OpenCore EFI",
     "last_seen": "2025-11-11",
-    "trending_days": 1
-  },
-  {
-    "name": "MadsLorentzen/ai-job-search",
-    "url": "https://github.com/madslorentzen/ai-job-search",
-    "language": "TypeScript",
-    "stars": 8681,
-    "forks": 3156,
-    "description": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
-    "last_seen": "2026-07-07",
     "trending_days": 1
   },
   {
@@ -9740,6 +9750,16 @@
     "trending_days": 1
   },
   {
+    "name": "prisma/prisma",
+    "url": "https://github.com/prisma/prisma",
+    "language": "TypeScript",
+    "stars": 46389,
+    "forks": 2273,
+    "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
+    "last_seen": "2026-07-08",
+    "trending_days": 1
+  },
+  {
     "name": "Project-MONAI/MONAI",
     "url": "https://github.com/project-monai/monai",
     "language": "Python",
@@ -10230,6 +10250,16 @@
     "trending_days": 1
   },
   {
+    "name": "TencentCloud/TencentDB-Agent-Memory",
+    "url": "https://github.com/tencentcloud/tencentdb-agent-memory",
+    "language": "TypeScript",
+    "stars": 7350,
+    "forks": 687,
+    "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
+    "last_seen": "2026-07-08",
+    "trending_days": 1
+  },
+  {
     "name": "tensorflow/tensorflow",
     "url": "https://github.com/tensorflow/tensorflow",
     "language": "C++",
@@ -10547,6 +10577,16 @@
     "forks": 1398,
     "description": "PDF补丁丁——PDF工具箱，可以编辑书签、剪裁旋转页面、解除限制、提取或合并文档，探查文档结构，提取图片、转成图片等等",
     "last_seen": "2025-10-16",
+    "trending_days": 1
+  },
+  {
+    "name": "wonderwhy-er/DesktopCommanderMCP",
+    "url": "https://github.com/wonderwhy-er/desktopcommandermcp",
+    "language": "TypeScript",
+    "stars": 6288,
+    "forks": 742,
+    "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+    "last_seen": "2026-07-08",
     "trending_days": 1
   },
   {

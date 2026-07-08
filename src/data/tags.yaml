@@ -949,6 +949,11 @@ entries:
   - ai-coding
   - devtools
   - protocol-spec
+  iofficeai_officecli:
+  - ai-agent
+  - devtools
+  - workflow-automation
+  - protocol-spec
   iptv-org_iptv:
   - workflow-automation
   - database
@@ -1922,6 +1927,8 @@ entries:
   tencent_weknora:
   - llm-framework
   - workflow-automation
+  tencentcloud_cubesandbox:
+  - ai-agent
   teng-lin_notebooklm-py:
   - ai-agent
   - ai-coding

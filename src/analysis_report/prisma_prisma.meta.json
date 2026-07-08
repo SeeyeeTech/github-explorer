@@ -1,0 +1,6 @@
+{
+  "title": "Prisma 七年长跑:46k stars 的 TypeScript ORM 走向 Agent Infrastructure",
+  "digest": "从 schema-first DSL 到 Rust/Wasm 双形态 query engine,再到 AGENTS.md + MCP server 把 AI Agent 视为一等公民——Prisma 正在从 ORM 工具升级为 Agent 时代的基础设施。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

@@ -223,3 +223,4 @@
 {"recorded_at": "2026-07-06T23:15:40.616836+00:00", "slug": "zackriya-solutions_meetily", "title": null, "state": "published", "published_at": "2026-07-06", "reason": "自动生成", "ci_run_id": "28828979679"}
 {"recorded_at": "2026-07-07T23:06:03.697228+00:00", "slug": "iofficeai_officecli", "title": null, "state": "published", "published_at": "2026-07-07", "reason": "自动生成", "ci_run_id": "28904176320"}
 {"recorded_at": "2026-07-08T00:06:17.767277+00:00", "slug": "tencentcloud_cubesandbox", "title": null, "state": "published", "published_at": "2026-07-08", "reason": "自动生成", "ci_run_id": "28906657703"}
+{"recorded_at": "2026-07-08T22:11:16.867345+00:00", "slug": "prisma_prisma", "title": null, "state": "published", "published_at": "2026-07-08", "reason": "自动生成", "ci_run_id": "28978736973"}

@@ -1,0 +1,6 @@
+{
+  "title": "腾讯云开源CubeSandbox：60ms启动+5MB内存的AI Agent沙箱",
+  "digest": "腾讯云开源MicroVM沙箱CubeSandbox，60毫秒启动、<5MB内存，独立内核隔离，提供E2B兼容网关，让AI Agent业务从海外SaaS迁回私有部署成为改一行URL的事。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

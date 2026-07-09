@@ -330,6 +330,16 @@
     "trending_days": 14
   },
   {
+    "name": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "language": "JavaScript",
+    "stars": 75480,
+    "forks": 8113,
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "last_seen": "2026-07-09",
+    "trending_days": 14
+  },
+  {
     "name": "codecrafters-io/build-your-own-x",
     "url": "https://github.com/codecrafters-io/build-your-own-x",
     "language": "Markdown",
@@ -400,16 +410,6 @@
     "trending_days": 14
   },
   {
-    "name": "addyosmani/agent-skills",
-    "url": "https://github.com/addyosmani/agent-skills",
-    "language": "JavaScript",
-    "stars": 72913,
-    "forks": 7878,
-    "description": "Production-grade engineering skills for AI coding agents.",
-    "last_seen": "2026-07-08",
-    "trending_days": 13
-  },
-  {
     "name": "affaan-m/ECC",
     "url": "https://github.com/affaan-m/ecc",
     "language": "JavaScript",
@@ -417,6 +417,16 @@
     "forks": 34422,
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
     "last_seen": "2026-07-02",
+    "trending_days": 13
+  },
+  {
+    "name": "asgeirtj/system_prompts_leaks",
+    "url": "https://github.com/asgeirtj/system_prompts_leaks",
+    "language": "JavaScript",
+    "stars": 54784,
+    "forks": 8916,
+    "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+    "last_seen": "2026-07-09",
     "trending_days": 13
   },
   {
@@ -457,16 +467,6 @@
     "forks": 3356,
     "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
     "last_seen": "2026-06-23",
-    "trending_days": 12
-  },
-  {
-    "name": "asgeirtj/system_prompts_leaks",
-    "url": "https://github.com/asgeirtj/system_prompts_leaks",
-    "language": "JavaScript",
-    "stars": 53643,
-    "forks": 8740,
-    "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
-    "last_seen": "2026-07-08",
     "trending_days": 12
   },
   {
@@ -660,6 +660,16 @@
     "trending_days": 11
   },
   {
+    "name": "anthropics/claude-cookbooks",
+    "url": "https://github.com/anthropics/claude-cookbooks",
+    "language": "JupyterNotebook",
+    "stars": 46919,
+    "forks": 5545,
+    "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+    "last_seen": "2026-07-09",
+    "trending_days": 10
+  },
+  {
     "name": "dyad-sh/dyad",
     "url": "https://github.com/dyad-sh/dyad",
     "language": "TypeScript",
@@ -797,16 +807,6 @@
     "forks": 872,
     "description": "A lightweight, lightning-fast, in-process vector database",
     "last_seen": "2026-07-08",
-    "trending_days": 9
-  },
-  {
-    "name": "anthropics/claude-cookbooks",
-    "url": "https://github.com/anthropics/claude-cookbooks",
-    "language": "JupyterNotebook",
-    "stars": 43864,
-    "forks": 5034,
-    "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
-    "last_seen": "2026-05-25",
     "trending_days": 9
   },
   {
@@ -1280,6 +1280,16 @@
     "trending_days": 7
   },
   {
+    "name": "imthenachoman/How-To-Secure-A-Linux-Server",
+    "url": "https://github.com/imthenachoman/how-to-secure-a-linux-server",
+    "language": "Unknown",
+    "stars": 28876,
+    "forks": 1929,
+    "description": "An evolving how-to guide for securing a Linux server.",
+    "last_seen": "2026-07-09",
+    "trending_days": 7
+  },
+  {
     "name": "jellyfin/jellyfin",
     "url": "https://github.com/jellyfin/jellyfin",
     "language": "C#",
@@ -1610,16 +1620,6 @@
     "trending_days": 6
   },
   {
-    "name": "imthenachoman/How-To-Secure-A-Linux-Server",
-    "url": "https://github.com/imthenachoman/how-to-secure-a-linux-server",
-    "language": "Unknown",
-    "stars": 26863,
-    "forks": 1760,
-    "description": "An evolving how-to guide for securing a Linux server.",
-    "last_seen": "2026-05-13",
-    "trending_days": 6
-  },
-  {
     "name": "Infisical/infisical",
     "url": "https://github.com/infisical/infisical",
     "language": "TypeScript",
@@ -1907,6 +1907,16 @@
     "forks": 3754,
     "description": "An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees.",
     "last_seen": "2026-01-06",
+    "trending_days": 6
+  },
+  {
+    "name": "vxcontrol/pentagi",
+    "url": "https://github.com/vxcontrol/pentagi",
+    "language": "Go",
+    "stars": 19121,
+    "forks": 2605,
+    "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+    "last_seen": "2026-07-09",
     "trending_days": 6
   },
   {
@@ -2500,16 +2510,6 @@
     "trending_days": 5
   },
   {
-    "name": "vxcontrol/pentagi",
-    "url": "https://github.com/vxcontrol/pentagi",
-    "language": "Go",
-    "stars": 12597,
-    "forks": 1564,
-    "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-    "last_seen": "2026-03-23",
-    "trending_days": 5
-  },
-  {
     "name": "Yeachan-Heo/oh-my-claudecode",
     "url": "https://github.com/yeachan-heo/oh-my-claudecode",
     "language": "TypeScript",
@@ -2637,6 +2637,16 @@
     "forks": 391,
     "description": "A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.",
     "last_seen": "2026-01-27",
+    "trending_days": 4
+  },
+  {
+    "name": "bradautomates/claude-video",
+    "url": "https://github.com/bradautomates/claude-video",
+    "language": "Python",
+    "stars": 6450,
+    "forks": 746,
+    "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+    "last_seen": "2026-07-09",
     "trending_days": 4
   },
   {
@@ -3540,16 +3550,6 @@
     "trending_days": 3
   },
   {
-    "name": "bradautomates/claude-video",
-    "url": "https://github.com/bradautomates/claude-video",
-    "language": "Python",
-    "stars": 5714,
-    "forks": 693,
-    "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
-    "last_seen": "2026-07-08",
-    "trending_days": 3
-  },
-  {
     "name": "browser-use/browser-use",
     "url": "https://github.com/browser-use/browser-use",
     "language": "Python",
@@ -3930,6 +3930,16 @@
     "trending_days": 3
   },
   {
+    "name": "iOfficeAI/OfficeCLI",
+    "url": "https://github.com/iofficeai/officecli",
+    "language": "C#",
+    "stars": 12983,
+    "forks": 873,
+    "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+    "last_seen": "2026-07-09",
+    "trending_days": 3
+  },
+  {
     "name": "j178/prek",
     "url": "https://github.com/j178/prek",
     "language": "Rust",
@@ -4077,6 +4087,16 @@
     "forks": 732,
     "description": "None",
     "last_seen": "2026-04-30",
+    "trending_days": 3
+  },
+  {
+    "name": "MadsLorentzen/ai-job-search",
+    "url": "https://github.com/madslorentzen/ai-job-search",
+    "language": "TypeScript",
+    "stars": 17420,
+    "forks": 5138,
+    "description": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
+    "last_seen": "2026-07-09",
     "trending_days": 3
   },
   {
@@ -5820,16 +5840,6 @@
     "trending_days": 2
   },
   {
-    "name": "iOfficeAI/OfficeCLI",
-    "url": "https://github.com/iofficeai/officecli",
-    "language": "C#",
-    "stars": 11012,
-    "forks": 742,
-    "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-    "last_seen": "2026-07-08",
-    "trending_days": 2
-  },
-  {
     "name": "janhq/jan",
     "url": "https://github.com/janhq/jan",
     "language": "TypeScript",
@@ -5970,6 +5980,16 @@
     "trending_days": 2
   },
   {
+    "name": "kyutai-labs/pocket-tts",
+    "url": "https://github.com/kyutai-labs/pocket-tts",
+    "language": "Python",
+    "stars": 6774,
+    "forks": 686,
+    "description": "A TTS that fits in your CPU (and pocket)",
+    "last_seen": "2026-07-09",
+    "trending_days": 2
+  },
+  {
     "name": "langchain-ai/deepagents",
     "url": "https://github.com/langchain-ai/deepagents",
     "language": "Python",
@@ -6107,16 +6127,6 @@
     "forks": 4437,
     "description": "A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python",
     "last_seen": "2026-01-21",
-    "trending_days": 2
-  },
-  {
-    "name": "MadsLorentzen/ai-job-search",
-    "url": "https://github.com/madslorentzen/ai-job-search",
-    "language": "TypeScript",
-    "stars": 13541,
-    "forks": 4240,
-    "description": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
-    "last_seen": "2026-07-08",
     "trending_days": 2
   },
   {
@@ -6550,6 +6560,16 @@
     "trending_days": 2
   },
   {
+    "name": "prisma/prisma",
+    "url": "https://github.com/prisma/prisma",
+    "language": "TypeScript",
+    "stars": 46776,
+    "forks": 2291,
+    "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
+    "last_seen": "2026-07-09",
+    "trending_days": 2
+  },
+  {
     "name": "puppeteer/puppeteer",
     "url": "https://github.com/puppeteer/puppeteer",
     "language": "TypeScript",
@@ -6890,6 +6910,16 @@
     "trending_days": 2
   },
   {
+    "name": "unclecode/crawl4ai",
+    "url": "https://github.com/unclecode/crawl4ai",
+    "language": "Python",
+    "stars": 71651,
+    "forks": 7367,
+    "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+    "last_seen": "2026-07-09",
+    "trending_days": 2
+  },
+  {
     "name": "Vaibhavs10/insanely-fast-whisper",
     "url": "https://github.com/vaibhavs10/insanely-fast-whisper",
     "language": "JupyterNotebook",
@@ -6967,6 +6997,16 @@
     "forks": 1282,
     "description": "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more.",
     "last_seen": "2025-09-23",
+    "trending_days": 2
+  },
+  {
+    "name": "wonderwhy-er/DesktopCommanderMCP",
+    "url": "https://github.com/wonderwhy-er/desktopcommandermcp",
+    "language": "TypeScript",
+    "stars": 6480,
+    "forks": 753,
+    "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+    "last_seen": "2026-07-09",
     "trending_days": 2
   },
   {
@@ -8580,6 +8620,16 @@
     "trending_days": 1
   },
   {
+    "name": "huxingyi/autoremesher",
+    "url": "https://github.com/huxingyi/autoremesher",
+    "language": "C++",
+    "stars": 2220,
+    "forks": 168,
+    "description": "Automatic quad remeshing tool",
+    "last_seen": "2026-07-09",
+    "trending_days": 1
+  },
+  {
     "name": "HyDE-Project/HyDE",
     "url": "https://github.com/hyde-project/hyde",
     "language": "Shell",
@@ -8827,16 +8877,6 @@
     "forks": 1879,
     "description": "Zigbee 🐝 to MQTT bridge 🌉, get rid of your proprietary Zigbee bridges 🔨",
     "last_seen": "2026-01-02",
-    "trending_days": 1
-  },
-  {
-    "name": "kyutai-labs/pocket-tts",
-    "url": "https://github.com/kyutai-labs/pocket-tts",
-    "language": "Python",
-    "stars": 5767,
-    "forks": 616,
-    "description": "A TTS that fits in your CPU (and pocket)",
-    "last_seen": "2026-07-07",
     "trending_days": 1
   },
   {
@@ -9750,16 +9790,6 @@
     "trending_days": 1
   },
   {
-    "name": "prisma/prisma",
-    "url": "https://github.com/prisma/prisma",
-    "language": "TypeScript",
-    "stars": 46389,
-    "forks": 2273,
-    "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
-    "last_seen": "2026-07-08",
-    "trending_days": 1
-  },
-  {
     "name": "Project-MONAI/MONAI",
     "url": "https://github.com/project-monai/monai",
     "language": "Python",
@@ -10130,6 +10160,16 @@
     "trending_days": 1
   },
   {
+    "name": "SmartlyDressedGames/U3-SDK",
+    "url": "https://github.com/smartlydressedgames/u3-sdk",
+    "language": "C#",
+    "stars": 1795,
+    "forks": 229,
+    "description": "Source code for Unturned, a free open-world zombie survival sandbox game.",
+    "last_seen": "2026-07-09",
+    "trending_days": 1
+  },
+  {
     "name": "smicallef/spiderfoot",
     "url": "https://github.com/smicallef/spiderfoot",
     "language": "Python",
@@ -10440,16 +10480,6 @@
     "trending_days": 1
   },
   {
-    "name": "unclecode/crawl4ai",
-    "url": "https://github.com/unclecode/crawl4ai",
-    "language": "Python",
-    "stars": 66761,
-    "forks": 6845,
-    "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
-    "last_seen": "2026-05-28",
-    "trending_days": 1
-  },
-  {
     "name": "Universal-Commerce-Protocol/ucp",
     "url": "https://github.com/universal-commerce-protocol/ucp",
     "language": "Python",
@@ -10530,6 +10560,16 @@
     "trending_days": 1
   },
   {
+    "name": "VoltAgent/awesome-design-md",
+    "url": "https://github.com/voltagent/awesome-design-md",
+    "language": "Unknown",
+    "stars": 99136,
+    "forks": 11542,
+    "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
+    "last_seen": "2026-07-09",
+    "trending_days": 1
+  },
+  {
     "name": "wanghongenpin/proxypin",
     "url": "https://github.com/wanghongenpin/proxypin",
     "language": "Dart",
@@ -10577,16 +10617,6 @@
     "forks": 1398,
     "description": "PDF补丁丁——PDF工具箱，可以编辑书签、剪裁旋转页面、解除限制、提取或合并文档，探查文档结构，提取图片、转成图片等等",
     "last_seen": "2025-10-16",
-    "trending_days": 1
-  },
-  {
-    "name": "wonderwhy-er/DesktopCommanderMCP",
-    "url": "https://github.com/wonderwhy-er/desktopcommandermcp",
-    "language": "TypeScript",
-    "stars": 6288,
-    "forks": 742,
-    "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
-    "last_seen": "2026-07-08",
     "trending_days": 1
   },
   {

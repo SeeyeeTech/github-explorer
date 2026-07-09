@@ -297,6 +297,11 @@ entries:
   - llm-framework
   - model-foundation
   - devtools
+  bradautomates_claude-video:
+  - ai-agent
+  - ai-coding
+  - llm-framework
+  - video-audio
   browser-use_browser-use:
   - ai-agent
   - llm-inference
@@ -1612,6 +1617,11 @@ entries:
   - llm-training
   - education
   - data-pipeline
+  prisma_prisma:
+  - ai-agent
+  - devtools
+  - database
+  - protocol-spec
   projectdiscovery_nuclei-templates:
   - security
   prometheus_alertmanager:

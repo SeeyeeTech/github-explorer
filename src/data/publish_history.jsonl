@@ -225,3 +225,4 @@
 {"recorded_at": "2026-07-08T00:06:17.767277+00:00", "slug": "tencentcloud_cubesandbox", "title": null, "state": "published", "published_at": "2026-07-08", "reason": "自动生成", "ci_run_id": "28906657703"}
 {"recorded_at": "2026-07-08T22:11:16.867345+00:00", "slug": "prisma_prisma", "title": null, "state": "published", "published_at": "2026-07-08", "reason": "自动生成", "ci_run_id": "28978736973"}
 {"recorded_at": "2026-07-09T00:09:53.476342+00:00", "slug": "bradautomates_claude-video", "title": null, "state": "published", "published_at": "2026-07-09", "reason": "自动生成", "ci_run_id": "28984106987"}
+{"recorded_at": "2026-07-09T22:21:48.260499+00:00", "slug": "madslorentzen_ai-job-search", "title": null, "state": "published", "published_at": "2026-07-09", "reason": "自动生成", "ci_run_id": "29053852948"}

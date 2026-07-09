@@ -1,165 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-07-08",
+    "last_run": "2026-07-09",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/mvanhorn/last30days-skill",
-      "canonical_url": "https://github.com/mvanhorn/last30days-skill",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "github.com/google/skills",
-      "canonical_url": "https://github.com/google/skills",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "github.com/panniantong/agent-reach",
-      "canonical_url": "https://github.com/Panniantong/Agent-Reach",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "github.com/santifer/career-ops",
-      "canonical_url": "https://github.com/santifer/career-ops",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "github.com/phuryn/pm-skills",
-      "canonical_url": "https://github.com/phuryn/pm-skills",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "github.com/andyyyy64/whichllm",
-      "canonical_url": "https://github.com/Andyyyy64/whichllm",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "github.com/danielmiessler/personal_ai_infrastructure",
-      "canonical_url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "github.com/copilotkit/copilotkit",
-      "canonical_url": "https://github.com/CopilotKit/CopilotKit",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "github.com/turboderp-org/exllamav2",
-      "canonical_url": "https://github.com/turboderp-org/exllamav2",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "github.com/turboderp-org/exllamav3",
-      "canonical_url": "https://github.com/turboderp-org/exllamav3",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "github.com/ekzhu/datasketch",
-      "canonical_url": "https://github.com/ekzhu/datasketch",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "github.com/obra/superpowers",
-      "canonical_url": "https://github.com/obra/superpowers",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "github.com/anthropics/claude-code",
-      "canonical_url": "https://github.com/anthropics/claude-code",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "github.com/google/adk-go",
-      "canonical_url": "https://github.com/google/adk-go",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "github.com/thedotmack/claude-mem",
-      "canonical_url": "https://github.com/thedotmack/claude-mem",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "github.com/hkuds/lightrag",
-      "canonical_url": "https://github.com/HKUDS/LightRAG",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "github.com/nousresearch/hermes-agent",
-      "canonical_url": "https://github.com/NousResearch/hermes-agent",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "github.com/openclaw/openclaw",
-      "canonical_url": "https://github.com/openclaw/openclaw",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "github.com/sst/opencode",
-      "canonical_url": "https://github.com/sst/opencode",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "github.com/comfy-org/comfyui",
-      "canonical_url": "https://github.com/comfy-org/comfyui",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "github.com/automatic1111/stable-diffusion-webui",
-      "canonical_url": "https://github.com/automatic1111/stable-diffusion-webui",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps",
-      "canonical_url": "https://mimo.xiaomi.com/blog/mimo-tilert-1000tps",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "https://huggingface.co/blog/openenv-agentic-rl",
-      "canonical_url": "https://huggingface.co/blog/openenv-agentic-rl",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "github.com/mempalace/mempalace",
-      "canonical_url": "https://github.com/MemPalace/mempalace/releases",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "https://simonwillison.net/2026/jun/7/datasette-agent-edit",
-      "canonical_url": "https://simonwillison.net/2026/Jun/7/datasette-agent-edit/",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
-    {
-      "key": "https://ollama.com/blog",
-      "canonical_url": "https://ollama.com/blog",
-      "event_date": "2026-06-08",
-      "date_seen": "2026-06-08"
-    },
     {
       "key": "github.com/aaif-goose/goose",
       "canonical_url": "https://github.com/aaif-goose/goose",
@@ -1251,6 +1095,36 @@
       "canonical_url": "https://github.com/ericlbuehler/candle-lora",
       "event_date": "2026-07-07",
       "date_seen": "2026-07-08"
+    },
+    {
+      "key": "github.com/voltagent/awesome-design-md",
+      "canonical_url": "https://github.com/VoltAgent/awesome-design-md",
+      "event_date": "2026-07-09",
+      "date_seen": "2026-07-09"
+    },
+    {
+      "key": "github.com/anthropics/claude-cookbooks",
+      "canonical_url": "https://github.com/anthropics/claude-cookbooks",
+      "event_date": "2026-07-09",
+      "date_seen": "2026-07-09"
+    },
+    {
+      "key": "github.com/vxcontrol/pentagi",
+      "canonical_url": "https://github.com/vxcontrol/pentagi",
+      "event_date": "2026-07-09",
+      "date_seen": "2026-07-09"
+    },
+    {
+      "key": "github.com/unclecode/crawl4ai",
+      "canonical_url": "https://github.com/unclecode/crawl4ai",
+      "event_date": "2026-07-09",
+      "date_seen": "2026-07-09"
+    },
+    {
+      "key": "github.com/nasa/spacewasm",
+      "canonical_url": "https://github.com/nasa/spacewasm",
+      "event_date": "2026-07-09",
+      "date_seen": "2026-07-09"
     }
   ]
 }

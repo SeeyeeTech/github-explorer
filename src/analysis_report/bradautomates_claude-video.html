@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/bradautomates/claude-video">https://github.com/bradautomates/claude-video</a></p></blockquote>
+<h2>一句话总结</h2>
+<p>/watch 是一个 Claude Code 斜杠命令 skill，把 YouTube / Loom / 本地视频变成 Claude 多模态可读的「帧 + 对齐 transcript」流——一个人 2.5 个月、11 个 commit、7 个 Python 脚本就做出 6036 stars 的爆款。</p>
+<h2>值得关注的理由</h2>
+<ul>
+<li><strong>prompt-as-product 的样本</strong>：SKILL.md 的修改频次和核心 Python 文件几乎持平（4 次 vs 3 次），整个仓库的 product = 1 个 markdown prompt + 7 个 stdlib Python 脚本，这是 agentic 时代特有的产品形态</li>
+<li><strong>零依赖视频 RAG 管线</strong>：16×16 灰度 mean-abs-diff 帧去重 + 三种采样策略 + 25MB chunked Whisper，<strong>整套 dedup 算法不依赖 OpenCV/Pillow</strong>，纯 ffmpeg + stdlib</li>
+<li><strong>跨 50+ agent host 单 SKILL.md 分发</strong>：SKILL_DIR 解析从 Read 返回路径而非 env var，规避 ${CLAUDE_SKILL_DIR} 在 Codex/Cursor/Copilot 上的不兼容</li>
+<li><strong>真实蓝海</strong>：Anthropic Skills 生态内「video input」细分赛道<strong>目前为空白</strong>，最近似竞品 tapestry-skills 仅提供 transcript</li>
+</ul>
+<h2>项目展示</h2>
+<p><img src="https://api.star-history.com/chart?repos=bradautomates/claude-video&type=date&legend=top-left" alt="Star History Chart" style="max-width:100%;"></p>
+<p><em>2.5 个月内 0 → 6036 stars 的爆发曲线，独占性可见一斑</em></p>
+<p><a href="https://youtu.be/dQw4w9WgXcQ">README Demo 链接（Rick Astley 经典示例）</a></p>
+<blockquote><p>README 实际嵌入的展示素材以占位符 URL 为主（&lt;viral-video&gt; / &lt;long-thing&gt;），可用的只有 star-history 图 + 1 个 demo 链接。架构图、dedup 算法可视化均无。</p></blockquote>
+<h2>项目画像</h2>
+<table>
+<thead><tr><th>维度</th><th>数据</th></tr></thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/bradautomates/claude-video">https://github.com/bradautomates/claude-video</a></td></tr>
+<tr><td>Star / Fork / Watcher</td><td>6036 / 721 / 36</td></tr>
+<tr><td>代码行数</td><td>2,777 行（Python 94.7% / Shell 4.7%）+ 519 行注释</td></tr>
+<tr><td>项目年龄</td><td>2.5 个月（首发 2026-04-24，最近 push 2026-07-01）</td></tr>
+<tr><td>提交数</td><td>11 个 commit（5 个 release tag）</td></tr>
+<tr><td>贡献者</td><td>1 人（bradautomates 100%，bus factor = 1）</td></tr>
+<tr><td>开发阶段</td><td>低维护（最近 9 天真空，bugfix 收尾）</td></tr>
+<tr><td>开发模式</td><td>职业项目（深夜占比 36.4%，周末 27.3%）</td></tr>
+<tr><td>开放 PR</td><td>32 个（远超 11 commits，OSS 协作未跑通）</td></tr>
+<tr><td>热度定位</td><td>大众热门（2.5 月爆发型增长）</td></tr>
+<tr><td>License</td><td>MIT</td></tr>
+<tr><td>质量评级</td><td>代码优秀 / 文档优秀 / 测试充分 / CI 仅 release</td></tr>
+</tbody></table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p><strong>Bradley Bonanno</strong>（bradautomates），澳大利亚独立开发者 + 小型工作室主理人，1.7 年 GitHub 账号（2024-10 注册），粉丝 237。主业 <strong>Solaris Automation</strong>（solarisautomation.io）做「端到端 AI 系统」的咨询交付，目标客户：律所 / SaaS / 特许经营等中型企业，固定价 2-6 周项目。副业是 YouTube 频道 <strong>@bradbonanno</strong> 讲 AI 应用。</p>
+<p><strong>双重身份收敛</strong>：作者既是 AI 自动化顾问（客户给 bug screen recording 是日常）又是内容创作者（拆解他人视频找 hook 是日常工作流），两条职业路径共同收敛到「我能不能让 Claude 直接看视频」。</p>
+<h3>问题判断</h3>
+<p>现有 LLM agent 没有视频输入通道：给定 YouTube URL，agent 只能从标题猜测，或者依赖 transcript 文本（<strong>而字幕丢失 90% 视觉信息</strong>——屏幕录制、PPT、UI bug 视频、hook 分析全部失灵）。Anthropic Skills 生态截至 v0.2.0 没有任何 video skill；通用 yt-dlp + whisper 手搓 pipeline 又缺 auto-fps / 场景感知采样 / 帧去重，把 30 分钟视频均匀抽 80 帧等于 token 浪费在「连续相同的幻灯片」上。</p>
+<p><strong>时机判断</strong>：Anthropic Skills 协议刚成熟（SKILL.md frontmatter + npx skills add 通用安装器），仓库 0.1.0 时间线（2026-04-24）跟 Skills 生态标准化几乎同步——是<strong>生态窗口期下的快速占位</strong>。</p>
+<h3>解法哲学</h3>
+<ul>
+<li><strong>极简 / 纯 stdlib</strong>：全部 Python 脚本不依赖 requests/groq/openai SDK，连 multipart/form-data 都是手搓的。SKILL.md 自带「no pip install needed」宣传点</li>
+<li><strong>Unix 哲学组合现成工具</strong>：yt-dlp（下载）+ ffmpeg（抽帧）+ Whisper（转写）+ Claude Read（多模态读取），不自研任何一层</li>
+<li><strong>prompt-as-product</strong>：SKILL.md 是 product spec，不是文档——它包含完整 Step 0→5 操作流，告诉模型什么时候用 AskUserQuestion、什么时候写 .env、什么时候 fallback 到 --no-whisper、exit code 2/3/4 各意味着什么</li>
+<li><strong>细节里的「不做什么」</strong>：不做 video understanding 模型（外包给 Claude）、不做结果缓存（trade-off 绝对隐私 vs 重复视频成本）、不做多视频批处理、不做账号/登录支持</li>
+</ul>
+<h3>战略意图</h3>
+<p>skills/watch/SKILL.md / .claude-plugin/plugin.json / .codex-plugin/plugin.json / README 全部署名 Bradley Bonanno + Solaris Automation + YouTube @bradbonanno——<strong>funnel 设计：skill → 频道订阅 → 顾问咨询</strong>。没有 SaaS/托管版/企业版；商业模型是「内容 + 服务」，不是「工具订阅」。</p>
+<blockquote><p>无独立项目主页（homepage_url 为 null），无博客或文档站；README + CHANGELOG + SKILL.md 自含完整文档。</p></blockquote>
+<h2>核心价值提炼</h2>
+<h3>创新之处（按新颖度×实用性排序）</h3>
+<ol>
+<li><strong>prompt-as-product 范式</strong>：SKILL.md 改频 = 核心代码改频（4 次 vs 3 次），整个 repo 的 product = 1 个 markdown prompt。这是 agentic 时代特有的产品形态，教科书还没写</li>
+<li><strong>「detect all candidates → even-sample cap」范式</strong>：0.2.0 修复长视频尾巴 bug 来源（CHANGELOG 显式记录「previous early-exit was faster but kept only the first cuts and dropped the tail of long videos」）——跟 ffmpeg -frames:v 行为的反直觉很值得写下来</li>
+<li><strong>16×16 灰度 + last-kept 比对 + even-sample 选 first+last 三段式去重管线</strong>：纯 stdlib，无 OpenCV/Pillow/numpy，让 ffmpeg 做 decode + downscale，Python 只做 byte comparison（<a href="../analysis_report/_ref">frames.py:415-460</a>）</li>
+<li><strong>「first run 鼓励 / 后续静默」双 state preflight</strong>：exit code 0/2/3/4 协议 + SETUP_COMPLETE 标记，keyless 用户算 ready 不阻断（[setup.py:259-291]）</li>
+<li><strong>transcript 容许 partial failure + 跨 chunk timestamp stitching</strong>：分布式系统的常识用在 ASR 分片上，25MB cap 自动 chunk，任一段失败不丢整段（[whisper.py:371-400]）</li>
+</ol>
+<h3>可复用的模式与技巧</h3>
+<ol>
+<li><strong>「Read 完 SKILL.md 你就知道文件路径 → SKILL_DIR 是该路径」的跨 host 分发 pattern</strong>：规避 ${CLAUDE_SKILL_DIR} 在 Codex/Cursor/Copilot 上的不兼容，单 SKILL.md 在 50+ host 跑通（[SKILL.md:18-37]）</li>
+<li><strong>「silent-on-success / actionable-on-failure」preflight</strong>：所有被 LLM tool loop 调用的 CLI 都该这么设计——os.Exit(0) 静默 + 3-4 个非零码各对应一种 remediation</li>
+<li><strong>「keyless user 算 ready」的 SETUP_COMPLETE 标记</strong>：适用于任何「key 是 nice-to-have 不是 must-have」的工具（VCS 装 GitHub CLI 但允许只 SSH；Linter 装 Slack webhook 但允许 print-only）</li>
+<li><strong>Cloudflare WAF 规避 UA 硬编码</strong>：whisper.py:250 注释直说「Groq sits behind Cloudflare — the default Python-urllib/3.x UA trips WAF rule 1010 (403) before auth even runs」</li>
+<li><strong>&lt;viral-video&gt; README 占位符模式</strong>：README 自带占位符替换 demo，比一次性 demo URL 更可移植</li>
+<li><strong>-skip_frame nokey keyframe-only 模式</strong>：FFmpeg 老手才知道的「40× 加速帧抽取」技巧，注释直说 「near-instant tier」</li>
+<li><strong>-ss before -i fast seek vs -ss after -i 精确 seek</strong>：区分得清楚是视频处理圈的标准素养</li>
+</ol>
+<h3>关键设计决策</h3>
+<ul>
+<li><strong>帧去重用「last-kept frame 对比」而不是「相邻 frame 对比」</strong>：A,A,B,B,A 序列会保留 A0,B2,A4 三个关键状态（而不是 A0 后所有都被合并成 A），正好覆盖「回到原状态也算 distinct moment」的场景（[frames.py:479-507]）</li>
+<li><strong>三种采样策略 + 单一样后处理管线</strong>：「detect all → dedup → even-sample」是所有 engine 共享的尾段，唯一区别是 detect 阶段用 keyframe 还是 scene filter。cap 永远作用在 dedup 之后，保证「花预算在 distinct 帧上」（[frames.py:510-682]）</li>
+<li><strong>path 解析完全 harness-agnostic</strong>：把 SKILL_DIR 解析的责任推给模型（它 Read 完 SKILL.md 必然知道文件路径），不依赖任何 env var</li>
+<li><strong>transcript 双 provider fallback + auto-chunking</strong>：Groq 优先（cheaper, faster），OpenAI 备选；--whisper openai 强制；25MB cap 留 1MB 边界；plan_chunks 按 duration 均匀分；最后一段吸收 rounding remainder</li>
+</ul>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table>
+<thead><tr><th>维度</th><th>claude-video (/watch)</th><th>tapestry-skills</th><th>手搓 yt-dlp + whisper</th><th>browser-use/video-use</th></tr></thead>
+<tbody>
+<tr><td>视觉帧采样</td><td>✅ 三策略 + dedup</td><td>❌ 仅 transcript</td><td>❌ 需手写</td><td>✅ 多模态帧分析</td></tr>
+<tr><td>transcript</td><td>✅ 双 provider + auto-chunk</td><td>✅ 自研 ASR</td><td>⚠️ 需自接 Whisper</td><td>❌</td></tr>
+<tr><td>跨 agent host</td><td>✅ 50+ host 单 SKILL.md</td><td>⚠️ Claude Code 为主</td><td>⚠️ CLI 单独跑</td><td>⚠️</td></tr>
+<tr><td>零依赖</td><td>✅ 纯 stdlib</td><td>✅</td><td>❌ 取决于 ASR 选型</td><td>❌</td></tr>
+<tr><td>方向</td><td>消费/理解视频</td><td>消费（仅文字）</td><td>消费</td><td>生产（编辑）</td></tr>
+<tr><td>社区热度</td><td>6036 / 721</td><td>低</td><td>—</td><td>中</td></tr>
+</tbody></table>
+<h3>差异化护城河</h3>
+<ul>
+<li><strong>跨 host 分发 + 三档 detail 模式 + dedup 算法</strong> = 「唯一在 Claude 生态里把 video 当一等公民输入」的 skill</li>
+<li><strong>生态护城河强</strong>：已 commit 到 Anthropic + Codex + Agents 三套 manifest；上 50 个 host 不是 50 份 fork，是一份代码 + 一份 manifest</li>
+<li><strong>技术护城河中</strong>：ffmpeg/yt-dlp/whisper 都是公开工具，任何人能复刻，但 dedup 算法 + 跨 host 分发 + prompt-as-product 是组合护城河</li>
+<li><strong>信任护城河弱</strong>：单作者 100% commits，bus factor = 1</li>
+</ul>
+<h3>竞争风险</h3>
+<ul>
+<li><strong>Anthropic 官方 native video input</strong>（如果 Claude 多模态扩展到 video）→ 整个 wrapper 层会塌，single point of failure，发生时间不可控</li>
+<li><strong>YouTube 改 API / 收费墙</strong> → yt-dlp 维护成本上升</li>
+<li><strong>Whisper API 涨费</strong> → Groq 仍是 niche provider，可能被 enterprise 用户嫌弃</li>
+<li><strong>32 个未 review PR（#47 Windows / #31 multi-provider fork / #56 v2）</strong>——都在排队，都没人 review，是社区不健康的明显信号</li>
+<li><strong>Windows 兼容性</strong>：issue #47 还在 open，README 自身标注 Windows 需要 python（非 python3）—— winget / path 分隔符 / cp1252 console 都有遗留</li>
+</ul>
+<h3>生态定位</h3>
+<p><strong>「video → Claude multimodal input」的 thin wrapper</strong>，类似 Anthropic 官方 Skills 里的 PDF/文档处理类——是工具型 skill 而非产品。围绕这个 skill 作者构建的是<strong>内容 + 顾问</strong>生意，不是 skill 本身。</p>
+<blockquote><p>真正的「观看/理解」竞品只有 tapestry-skills（功能更弱，仅 transcript），其他均为「生产」方向——本项目在「AI 消费视频」细分赛道近乎蓝海。</p></blockquote>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：</li>
+<li>Anthropic Skills 生态的「video input」空白是<strong>结构性先发</strong>机会，等 Anthropic 自己做 native video 之前 6-12 个月窗口期</li>
+<li>「16×16 灰度 mean-abs-diff dedup 在零依赖约束下是 trade-off 甜区」——大多数 video-RAG 项目用 OpenCV 算 pHash/SSIM/CLIP embedding</li>
+<li>「SKILL.md 是 product spec 不是 docs」是 agentic 时代的产品形态——市场上 99% 的「Claude skill」还是把 SKILL.md 当 README 写</li>
+<li><strong>技术借鉴</strong>：</li>
+<li>detect all → dedup → even-sample 三段式直接拿来做自己的产品（screen-recording bug tracker / 监控视频摘要 / 长访谈 RAG）</li>
+<li>「SKILL_DIR 解析自 Read 返回的路径」比自己做跨 host skill 时直接抄</li>
+<li>「first run 鼓励 / 后续静默」双 state preflight 用户体验差异巨大</li>
+<li><strong>生态位</strong>：</li>
+<li>横向扩展：同作者可做 /listen（audio 摘要）、/read-paper（PDF → Claude）、/screenshot-watch（desktop 录屏 watch）——同 SKILL.md 范式 + ffmpeg 复用，单 skill 2 个月交付</li>
+<li>纵向加深：video 上加更多 mode（podcast-only ASR / keyframe contact sheet / caption quality scoring）</li>
+<li>企业版：收「custom domain 视频 host + 内部 watch skill」的钱（类似 NotebookLM enterprise 模式）</li>
+<li><strong>趋势判断</strong>：</li>
+<li>Anthropic Skills 协议标准化 + 50+ agent host 兼容是大方向，早占位 = 早拿品牌</li>
+<li>Video → multimodal input 需求会爆发（Gemini video / GPT-4o video / Qwen2-VL video 都是新方向）</li>
+<li>「单作者 + 跨 host 分发 + 内容驱动商业化」是个人 AI 工具的标准路径：1 个独立开发者 + 1 个 SKILL.md + 1 个 YouTube 频道 + 1 个顾问业务</li>
+<li>多模态 RAG 框架会侵蚀 thin wrapper 空间；保持竞争力 = 持续在 dedup 算法 / auto-fps / token 优化上微调领先</li>
+</ul>
+<h2>风险与不足</h2>
+<ol>
+<li><strong>bus factor = 1</strong>：100% commits 单作者，如果 Brad 弃坑无 collaborator 能接手</li>
+<li><strong>32 个 open PR（远超 11 commits）</strong>：维护者 review 速度远低于社区贡献速度 → OSS 协作未跑通 → 重要 issue 都堵在队列里</li>
+<li><strong>Windows 兼容性</strong>：#47 还在 open，README 标注 Windows 需要 python 非 python3</li>
+<li><strong>依赖声明缺失</strong>：无 pyproject.toml / requirements.txt，全部依赖靠运行时 + 文档；新用户首次跑 python3 setup.py 才知道要 brew install ffmpeg，第一次体验不丝滑</li>
+<li><strong>SKILL.md 是 single point of failure</strong>：改坏一个 prompt 可能让所有 50+ host 的 /watch 同时坏；没 PR 流程，全是直推 main</li>
+<li><strong>没有 lint 规范</strong>：no ruff / black / mypy；新 contributor 加的 error path 不会被任何 CI 拦截</li>
+<li><strong>项目太新</strong>：0.2.0 距首次 release 只 2.5 个月，无 production 长期使用数据；「100 帧 + balanced 默认」是经验值，不是 benchmark</li>
+<li><strong>Anthropic native video 是 single point of failure</strong>：发生时整个 wrapper 层价值归零</li>
+</ol>
+<h2>行动建议</h2>
+<h3>如果你要用它</h3>
+<ul>
+<li>给 Claude Code / Codex / Cursor 等 agent host 装一次，/watch &lt;url&gt; [question] 直接用</li>
+<li>keyless 用户先用 --no-whisper 跳过 transcript（只有帧采样 + Read），后续按提示加 Groq key</li>
+<li>长视频（&gt;30 分钟）先用 --start / --end 聚焦到目标段落，避免 100 帧 cap 触发 sparse scan warning</li>
+<li>三档 detail：efficient（默认，适合普通短视频）/ balanced（默认 vs. 详细对比的中间档）/ token-burner（&gt;20 帧上限）</li>
+<li><strong>对比竞品选它的情况</strong>：你需要「agent 直接看视频并推理」，而不是「只要 transcript 文本」——后者选 tapestry-skills 更轻</li>
+</ul>
+<h3>如果你要学它</h3>
+<p>重点关注这些文件，按「产品形态 → 核心算法 → 工程哲学」顺序读：</p>
+<table>
+<thead><tr><th>文件</th><th>学什么</th></tr></thead>
+<tbody>
+<tr><td>skills/watch/SKILL.md（388 行）</td><td>prompt-as-product 范式完整样本——exit code 协议 / AskUserQuestion 用法 / 跨 host 路径解析 / SKILL_DIR 模式</td></tr>
+<tr><td>skills/watch/scripts/frames.py（756 行）</td><td>dedup 算法核心：16×16 灰度 mean-abs-diff + last-kept 对比 + detect all → dedup → even-sample 三段式</td></tr>
+<tr><td>skills/watch/scripts/whisper.py（480 行）</td><td>纯 stdlib multipart + 4 次指数退避 retry + Cloudflare UA 硬编码 + auto-chunking + 容许 partial failure</td></tr>
+<tr><td>skills/watch/scripts/setup.py（364 行）</td><td>「first run 鼓励 / 后续静默」双 state preflight + SETUP_COMPLETE 标记 + exit code 协议</td></tr>
+<tr><td>tests/（10 个 pytest 文件）</td><td>ffmpeg-synthesized clips 离线跑、0 network、字节级断言——如何为 IO-heavy 模块写测试</td></tr>
+<tr><td>hooks/scripts/check-setup.sh</td><td>SessionStart hook 一次性 preflight，避免每个 /watch 都跑 setup 检查</td></tr>
+<tr><td>AGENTS.md</td><td>「product is the slash-command-invoked skill, not a CLI」哲学声明</td></tr>
+</tbody></table>
+<h3>如果你要 fork 它</h3>
+<ul>
+<li><strong>Windows 兼容性</strong>：#47 排队中没人做，是最直接的贡献窗口</li>
+<li><strong>multi-provider transcript</strong>：#31 pheistman/claude-watch fork 已有原型，集成进主线是 v2 信号</li>
+<li><strong>/watch v2 路线图</strong>：#56 作者自发预告 0 comments，是抢答窗口</li>
+<li><strong>结构化输出</strong>：--json flag （#25） 让 machine-readable 输出，是 RAG 索引化的前置</li>
+<li><strong>加 lint / CI 跑测试</strong>：当前零 lint 配置 + 无 test CI，新 contributor 加的代码没有任何 CI 拦截</li>
+</ul>
+<h3>知识入口</h3>
+<table>
+<thead><tr><th>资源</th><th>链接</th></tr></thead>
+<tbody>
+<tr><td>DeepWiki</td><td><a href="https://deepwiki.com/bradautomates/claude-video">已收录</a>（2026-05-04 indexed）</td></tr>
+<tr><td>Zread.ai</td><td>未确认收录（403 拒绝）</td></tr>
+<tr><td>关联论文</td><td>无（应用层 skill，无学术论文）</td></tr>
+<tr><td>在线 Demo</td><td>无独立 playground；需在 Claude Code/Codex/claude.ai 等 50+ host 内安装使用</td></tr>
+</tbody></table>
+</body>
+</html>

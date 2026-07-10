@@ -1178,6 +1178,11 @@ entries:
   lynaghk_vibe:
   - ai-agent
   - security
+  madslorentzen_ai-job-search:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - workflow-automation
   makeplane_plane:
   - web-framework
   - protocol-spec

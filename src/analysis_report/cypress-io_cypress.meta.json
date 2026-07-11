@@ -1,0 +1,6 @@
+{
+  "title": "Cypress 12年50K stars：浏览器内跑测试反杀Selenium，AI时代抢云端",
+  "digest": "Cypress 用「同源执行」反 WebDriver，赌出自动重试+时间旅行+可视化 Runner；12年50K星后，把 Test Replay、Cloud MCP、cy.prompt 锁进 Cypress Cloud。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

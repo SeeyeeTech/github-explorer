@@ -1,0 +1,6 @@
+{
+  "title": "12 年 49K stars：Terraform 怎么把云资源写成可重放的世界模型",
+  "digest": "Terraform 用声明式 HCL + Plan/Apply 两阶段事务 + 进程外 Provider 协议，把任意云资源建模成可重放、可审计、可审批的世界模型，定义 IaC 事实标准。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

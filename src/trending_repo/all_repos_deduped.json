@@ -3,11 +3,11 @@
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "language": "Shell",
-    "stars": 251482,
-    "forks": 22442,
+    "stars": 252135,
+    "forks": 22509,
     "description": "An agentic skills framework & software development methodology that works.",
-    "last_seen": "2026-07-10",
-    "trending_days": 70
+    "last_seen": "2026-07-11",
+    "trending_days": 71
   },
   {
     "name": "TapXWorld/ChinaTextbook",
@@ -430,6 +430,16 @@
     "trending_days": 13
   },
   {
+    "name": "davila7/claude-code-templates",
+    "url": "https://github.com/davila7/claude-code-templates",
+    "language": "Python",
+    "stars": 28868,
+    "forks": 3170,
+    "description": "CLI tool for configuring and monitoring Claude Code",
+    "last_seen": "2026-07-11",
+    "trending_days": 13
+  },
+  {
     "name": "lfnovo/open-notebook",
     "url": "https://github.com/lfnovo/open-notebook",
     "language": "TypeScript",
@@ -467,16 +477,6 @@
     "forks": 3356,
     "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
     "last_seen": "2026-06-23",
-    "trending_days": 12
-  },
-  {
-    "name": "davila7/claude-code-templates",
-    "url": "https://github.com/davila7/claude-code-templates",
-    "language": "Python",
-    "stars": 28656,
-    "forks": 3145,
-    "description": "CLI tool for configuring and monitoring Claude Code",
-    "last_seen": "2026-07-10",
     "trending_days": 12
   },
   {
@@ -527,6 +527,16 @@
     "forks": 10097,
     "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
     "last_seen": "2026-06-06",
+    "trending_days": 11
+  },
+  {
+    "name": "anthropics/claude-cookbooks",
+    "url": "https://github.com/anthropics/claude-cookbooks",
+    "language": "JupyterNotebook",
+    "stars": 47671,
+    "forks": 5636,
+    "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+    "last_seen": "2026-07-11",
     "trending_days": 11
   },
   {
@@ -660,16 +670,6 @@
     "trending_days": 11
   },
   {
-    "name": "anthropics/claude-cookbooks",
-    "url": "https://github.com/anthropics/claude-cookbooks",
-    "language": "JupyterNotebook",
-    "stars": 46919,
-    "forks": 5545,
-    "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
-    "last_seen": "2026-07-09",
-    "trending_days": 10
-  },
-  {
     "name": "dyad-sh/dyad",
     "url": "https://github.com/dyad-sh/dyad",
     "language": "TypeScript",
@@ -707,6 +707,16 @@
     "forks": 21241,
     "description": "12 Lessons to Get Started Building AI Agents",
     "last_seen": "2026-05-19",
+    "trending_days": 10
+  },
+  {
+    "name": "microsoft/PowerToys",
+    "url": "https://github.com/microsoft/powertoys",
+    "language": "C",
+    "stars": 136318,
+    "forks": 8358,
+    "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+    "last_seen": "2026-07-11",
     "trending_days": 10
   },
   {
@@ -910,16 +920,6 @@
     "trending_days": 9
   },
   {
-    "name": "microsoft/PowerToys",
-    "url": "https://github.com/microsoft/powertoys",
-    "language": "C",
-    "stars": 135592,
-    "forks": 8161,
-    "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
-    "last_seen": "2026-06-27",
-    "trending_days": 9
-  },
-  {
     "name": "mukul975/Anthropic-Cybersecurity-Skills",
     "url": "https://github.com/mukul975/anthropic-cybersecurity-skills",
     "language": "Python",
@@ -937,6 +937,16 @@
     "forks": 6330,
     "description": "Financial data platform for analysts, quants and AI agents.",
     "last_seen": "2026-03-30",
+    "trending_days": 9
+  },
+  {
+    "name": "oven-sh/bun",
+    "url": "https://github.com/oven-sh/bun",
+    "language": "Rust",
+    "stars": 94485,
+    "forks": 4957,
+    "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+    "last_seen": "2026-07-11",
     "trending_days": 9
   },
   {
@@ -1127,16 +1137,6 @@
     "forks": 3454,
     "description": "Meshery, the cloud native manager",
     "last_seen": "2026-06-17",
-    "trending_days": 8
-  },
-  {
-    "name": "oven-sh/bun",
-    "url": "https://github.com/oven-sh/bun",
-    "language": "Rust",
-    "stars": 93920,
-    "forks": 4919,
-    "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
-    "last_seen": "2026-07-10",
     "trending_days": 8
   },
   {
@@ -1780,6 +1780,16 @@
     "trending_days": 6
   },
   {
+    "name": "openai/plugins",
+    "url": "https://github.com/openai/plugins",
+    "language": "JavaScript",
+    "stars": 4306,
+    "forks": 643,
+    "description": "OpenAI Plugins",
+    "last_seen": "2026-07-11",
+    "trending_days": 6
+  },
+  {
     "name": "opendataloader-project/opendataloader-pdf",
     "url": "https://github.com/opendataloader-project/opendataloader-pdf",
     "language": "Java",
@@ -2060,6 +2070,16 @@
     "trending_days": 5
   },
   {
+    "name": "DayuanJiang/next-ai-draw-io",
+    "url": "https://github.com/dayuanjiang/next-ai-draw-io",
+    "language": "TypeScript",
+    "stars": 33166,
+    "forks": 3598,
+    "description": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
+    "last_seen": "2026-07-11",
+    "trending_days": 5
+  },
+  {
     "name": "decolua/9router",
     "url": "https://github.com/decolua/9router",
     "language": "JavaScript",
@@ -2277,16 +2297,6 @@
     "forks": 1564,
     "description": "Use Codex from Claude Code to review code or delegate tasks.",
     "last_seen": "2026-07-06",
-    "trending_days": 5
-  },
-  {
-    "name": "openai/plugins",
-    "url": "https://github.com/openai/plugins",
-    "language": "JavaScript",
-    "stars": 2493,
-    "forks": 300,
-    "description": "OpenAI Plugins",
-    "last_seen": "2026-06-09",
     "trending_days": 5
   },
   {
@@ -2697,16 +2707,6 @@
     "forks": 2800,
     "description": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code",
     "last_seen": "2025-12-16",
-    "trending_days": 4
-  },
-  {
-    "name": "DayuanJiang/next-ai-draw-io",
-    "url": "https://github.com/dayuanjiang/next-ai-draw-io",
-    "language": "TypeScript",
-    "stars": 15984,
-    "forks": 1658,
-    "description": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
-    "last_seen": "2026-01-01",
     "trending_days": 4
   },
   {
@@ -3390,6 +3390,16 @@
     "trending_days": 4
   },
   {
+    "name": "wonderwhy-er/DesktopCommanderMCP",
+    "url": "https://github.com/wonderwhy-er/desktopcommandermcp",
+    "language": "TypeScript",
+    "stars": 7662,
+    "forks": 962,
+    "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+    "last_seen": "2026-07-11",
+    "trending_days": 4
+  },
+  {
     "name": "z-lab/dflash",
     "url": "https://github.com/z-lab/dflash",
     "language": "Python",
@@ -3437,6 +3447,16 @@
     "forks": 2476,
     "description": "🔥 MaxKB is an open-source platform for building enterprise-grade agents. MaxKB 是强大易用的开源企业级智能体平台。",
     "last_seen": "2025-11-04",
+    "trending_days": 3
+  },
+  {
+    "name": "actions/checkout",
+    "url": "https://github.com/actions/checkout",
+    "language": "TypeScript",
+    "stars": 8424,
+    "forks": 2712,
+    "description": "Action for checking out a repo",
+    "last_seen": "2026-07-11",
     "trending_days": 3
   },
   {
@@ -3630,6 +3650,16 @@
     "trending_days": 3
   },
   {
+    "name": "cypress-io/cypress",
+    "url": "https://github.com/cypress-io/cypress",
+    "language": "TypeScript",
+    "stars": 50535,
+    "forks": 3582,
+    "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+    "last_seen": "2026-07-11",
+    "trending_days": 3
+  },
+  {
     "name": "dair-ai/Prompt-Engineering-Guide",
     "url": "https://github.com/dair-ai/prompt-engineering-guide",
     "language": "MDX",
@@ -3727,6 +3757,16 @@
     "forks": 227,
     "description": "Legacy-Mess Detector – assess the “legacy-mess level” of your code and output a beautiful report | 屎山代码检测器，评估代码的“屎山等级”并输出美观的报告",
     "last_seen": "2025-10-01",
+    "trending_days": 3
+  },
+  {
+    "name": "dotnet/aspnetcore",
+    "url": "https://github.com/dotnet/aspnetcore",
+    "language": "C#",
+    "stars": 38268,
+    "forks": 10880,
+    "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.",
+    "last_seen": "2026-07-11",
     "trending_days": 3
   },
   {
@@ -3880,6 +3920,16 @@
     "trending_days": 3
   },
   {
+    "name": "hashicorp/terraform",
+    "url": "https://github.com/hashicorp/terraform",
+    "language": "Go",
+    "stars": 49266,
+    "forks": 10683,
+    "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+    "last_seen": "2026-07-11",
+    "trending_days": 3
+  },
+  {
     "name": "HKUDS/AI-Trader",
     "url": "https://github.com/hkuds/ai-trader",
     "language": "Python",
@@ -3887,6 +3937,16 @@
     "forks": 2594,
     "description": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\"",
     "last_seen": "2026-05-12",
+    "trending_days": 3
+  },
+  {
+    "name": "home-assistant/core",
+    "url": "https://github.com/home-assistant/core",
+    "language": "Python",
+    "stars": 88450,
+    "forks": 38021,
+    "description": "🏡 Open source home automation that puts local control and privacy first.",
+    "last_seen": "2026-07-11",
     "trending_days": 3
   },
   {
@@ -4310,6 +4370,16 @@
     "trending_days": 3
   },
   {
+    "name": "prisma/prisma",
+    "url": "https://github.com/prisma/prisma",
+    "language": "TypeScript",
+    "stars": 47112,
+    "forks": 2469,
+    "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
+    "last_seen": "2026-07-11",
+    "trending_days": 3
+  },
+  {
     "name": "projectdiscovery/nuclei-templates",
     "url": "https://github.com/projectdiscovery/nuclei-templates",
     "language": "JavaScript",
@@ -4650,6 +4720,16 @@
     "trending_days": 3
   },
   {
+    "name": "vercel/next.js",
+    "url": "https://github.com/vercel/next.js",
+    "language": "JavaScript",
+    "stars": 140838,
+    "forks": 31540,
+    "description": "The React Framework",
+    "last_seen": "2026-07-11",
+    "trending_days": 3
+  },
+  {
     "name": "volcengine/OpenViking",
     "url": "https://github.com/volcengine/openviking",
     "language": "Python",
@@ -4677,16 +4757,6 @@
     "forks": 605,
     "description": "大麦自动抢票，支持人员、城市、日期场次、价格选择",
     "last_seen": "2025-10-12",
-    "trending_days": 3
-  },
-  {
-    "name": "wonderwhy-er/DesktopCommanderMCP",
-    "url": "https://github.com/wonderwhy-er/desktopcommandermcp",
-    "language": "TypeScript",
-    "stars": 6849,
-    "forks": 883,
-    "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
-    "last_seen": "2026-07-10",
     "trending_days": 3
   },
   {
@@ -4780,13 +4850,13 @@
     "trending_days": 2
   },
   {
-    "name": "actions/checkout",
-    "url": "https://github.com/actions/checkout",
-    "language": "TypeScript",
-    "stars": 8222,
-    "forks": 2530,
-    "description": "Action for checking out a repo",
-    "last_seen": "2026-07-03",
+    "name": "abseil/abseil-cpp",
+    "url": "https://github.com/abseil/abseil-cpp",
+    "language": "C++",
+    "stars": 17581,
+    "forks": 3205,
+    "description": "Abseil Common Libraries (C++)",
+    "last_seen": "2026-07-11",
     "trending_days": 2
   },
   {
@@ -4897,6 +4967,16 @@
     "forks": 58,
     "description": "None",
     "last_seen": "2026-01-31",
+    "trending_days": 2
+  },
+  {
+    "name": "ansible/ansible",
+    "url": "https://github.com/ansible/ansible",
+    "language": "Python",
+    "stars": 69492,
+    "forks": 24271,
+    "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
+    "last_seen": "2026-07-11",
     "trending_days": 2
   },
   {
@@ -5130,6 +5210,16 @@
     "trending_days": 2
   },
   {
+    "name": "catchorg/Catch2",
+    "url": "https://github.com/catchorg/catch2",
+    "language": "C++",
+    "stars": 20677,
+    "forks": 3419,
+    "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
+    "last_seen": "2026-07-11",
+    "trending_days": 2
+  },
+  {
     "name": "chidiwilliams/buzz",
     "url": "https://github.com/chidiwilliams/buzz",
     "language": "Python",
@@ -5147,6 +5237,16 @@
     "forks": 2176,
     "description": "[WIP] Resources for AI engineers. Also contains supporting materials for the book AI Engineering (Chip Huyen, 2025)",
     "last_seen": "2026-04-23",
+    "trending_days": 2
+  },
+  {
+    "name": "chriskohlhoff/asio",
+    "url": "https://github.com/chriskohlhoff/asio",
+    "language": "C++",
+    "stars": 6104,
+    "forks": 1509,
+    "description": "Asio C++ Library",
+    "last_seen": "2026-07-11",
     "trending_days": 2
   },
   {
@@ -5270,16 +5370,6 @@
     "trending_days": 2
   },
   {
-    "name": "cypress-io/cypress",
-    "url": "https://github.com/cypress-io/cypress",
-    "language": "TypeScript",
-    "stars": 50125,
-    "forks": 3424,
-    "description": "Fast, easy and reliable testing for anything that runs in a browser.",
-    "last_seen": "2026-06-16",
-    "trending_days": 2
-  },
-  {
     "name": "danielmiessler/Fabric",
     "url": "https://github.com/danielmiessler/fabric",
     "language": "Go",
@@ -5387,16 +5477,6 @@
     "forks": 147,
     "description": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS",
     "last_seen": "2026-04-05",
-    "trending_days": 2
-  },
-  {
-    "name": "dotnet/aspnetcore",
-    "url": "https://github.com/dotnet/aspnetcore",
-    "language": "C#",
-    "stars": 38068,
-    "forks": 10708,
-    "description": "ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.",
-    "last_seen": "2026-06-18",
     "trending_days": 2
   },
   {
@@ -5640,6 +5720,16 @@
     "trending_days": 2
   },
   {
+    "name": "google-labs-code/stitch-skills",
+    "url": "https://github.com/google-labs-code/stitch-skills",
+    "language": "TypeScript",
+    "stars": 6897,
+    "forks": 939,
+    "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+    "last_seen": "2026-07-11",
+    "trending_days": 2
+  },
+  {
     "name": "google/A2UI",
     "url": "https://github.com/google/a2ui",
     "language": "TypeScript",
@@ -5720,16 +5810,6 @@
     "trending_days": 2
   },
   {
-    "name": "hashicorp/terraform",
-    "url": "https://github.com/hashicorp/terraform",
-    "language": "Go",
-    "stars": 49056,
-    "forks": 10659,
-    "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
-    "last_seen": "2026-07-10",
-    "trending_days": 2
-  },
-  {
     "name": "helm/helm",
     "url": "https://github.com/helm/helm",
     "language": "Go",
@@ -5767,16 +5847,6 @@
     "forks": 404,
     "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
     "last_seen": "2025-11-04",
-    "trending_days": 2
-  },
-  {
-    "name": "home-assistant/core",
-    "url": "https://github.com/home-assistant/core",
-    "language": "Python",
-    "stars": 86273,
-    "forks": 37345,
-    "description": "🏡 Open source home automation that puts local control and privacy first.",
-    "last_seen": "2026-04-26",
     "trending_days": 2
   },
   {
@@ -6590,16 +6660,6 @@
     "trending_days": 2
   },
   {
-    "name": "prisma/prisma",
-    "url": "https://github.com/prisma/prisma",
-    "language": "TypeScript",
-    "stars": 46776,
-    "forks": 2291,
-    "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
-    "last_seen": "2026-07-09",
-    "trending_days": 2
-  },
-  {
     "name": "puppeteer/puppeteer",
     "url": "https://github.com/puppeteer/puppeteer",
     "language": "TypeScript",
@@ -6990,16 +7050,6 @@
     "trending_days": 2
   },
   {
-    "name": "vercel/next.js",
-    "url": "https://github.com/vercel/next.js",
-    "language": "JavaScript",
-    "stars": 140595,
-    "forks": 31513,
-    "description": "The React Framework",
-    "last_seen": "2026-07-10",
-    "trending_days": 2
-  },
-  {
     "name": "viarotel-org/escrcpy",
     "url": "https://github.com/viarotel-org/escrcpy",
     "language": "JavaScript",
@@ -7140,6 +7190,16 @@
     "trending_days": 2
   },
   {
+    "name": "zeux/meshoptimizer",
+    "url": "https://github.com/zeux/meshoptimizer",
+    "language": "C++",
+    "stars": 8075,
+    "forks": 788,
+    "description": "Mesh optimization library that makes meshes smaller and faster to render",
+    "last_seen": "2026-07-11",
+    "trending_days": 2
+  },
+  {
     "name": "0xk1h0/ChatGPT_DAN",
     "url": "https://github.com/0xk1h0/chatgpt_dan",
     "language": "Unknown",
@@ -7177,16 +7237,6 @@
     "forks": 378,
     "description": "Claude Desktop for Debian-based Linux distributions",
     "last_seen": "2026-04-18",
-    "trending_days": 1
-  },
-  {
-    "name": "abseil/abseil-cpp",
-    "url": "https://github.com/abseil/abseil-cpp",
-    "language": "C++",
-    "stars": 17473,
-    "forks": 3188,
-    "description": "Abseil Common Libraries (C++)",
-    "last_seen": "2026-07-10",
     "trending_days": 1
   },
   {
@@ -7377,16 +7427,6 @@
     "forks": 162,
     "description": "Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live streaming, and remote camera control",
     "last_seen": "2026-05-12",
-    "trending_days": 1
-  },
-  {
-    "name": "ansible/ansible",
-    "url": "https://github.com/ansible/ansible",
-    "language": "Python",
-    "stars": 69097,
-    "forks": 24102,
-    "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
-    "last_seen": "2026-07-03",
     "trending_days": 1
   },
   {
@@ -7650,16 +7690,6 @@
     "trending_days": 1
   },
   {
-    "name": "catchorg/Catch2",
-    "url": "https://github.com/catchorg/catch2",
-    "language": "C++",
-    "stars": 20570,
-    "forks": 3403,
-    "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
-    "last_seen": "2026-07-10",
-    "trending_days": 1
-  },
-  {
     "name": "chartdb/chartdb",
     "url": "https://github.com/chartdb/chartdb",
     "language": "TypeScript",
@@ -7677,16 +7707,6 @@
     "forks": 15,
     "description": "Full-throttle, wire-speed hardware implementation of Wireguard VPN, using low-cost Artix7 FPGA with opensource toolchain. If you seek security and privacy, nothing is private in our codebase. Our door is wide open for backdoor scrutiny, be it related to RTL, embedded, build, bitstream or any other aspect of design and delivery package. Bujrum!",
     "last_seen": "2025-10-14",
-    "trending_days": 1
-  },
-  {
-    "name": "chriskohlhoff/asio",
-    "url": "https://github.com/chriskohlhoff/asio",
-    "language": "C++",
-    "stars": 6037,
-    "forks": 1495,
-    "description": "Asio C++ Library",
-    "last_seen": "2026-07-10",
     "trending_days": 1
   },
   {
@@ -8420,16 +8440,6 @@
     "trending_days": 1
   },
   {
-    "name": "google-labs-code/stitch-skills",
-    "url": "https://github.com/google-labs-code/stitch-skills",
-    "language": "TypeScript",
-    "stars": 6584,
-    "forks": 915,
-    "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-    "last_seen": "2026-07-10",
-    "trending_days": 1
-  },
-  {
     "name": "google/adk-docs",
     "url": "https://github.com/google/adk-docs",
     "language": "HTML",
@@ -9140,6 +9150,16 @@
     "trending_days": 1
   },
   {
+    "name": "malisper/pgrust",
+    "url": "https://github.com/malisper/pgrust",
+    "language": "Rust",
+    "stars": 1740,
+    "forks": 45,
+    "description": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+    "last_seen": "2026-07-11",
+    "trending_days": 1
+  },
+  {
     "name": "marcelscruz/public-apis",
     "url": "https://github.com/marcelscruz/public-apis",
     "language": "JavaScript",
@@ -9460,6 +9480,16 @@
     "trending_days": 1
   },
   {
+    "name": "nasa/fprime",
+    "url": "https://github.com/nasa/fprime",
+    "language": "C++",
+    "stars": 11404,
+    "forks": 1728,
+    "description": "F´ - A flight software and embedded systems framework",
+    "last_seen": "2026-07-11",
+    "trending_days": 1
+  },
+  {
     "name": "neovim/neovim",
     "url": "https://github.com/neovim/neovim",
     "language": "VimScript",
@@ -9577,6 +9607,16 @@
     "forks": 1248,
     "description": "Streaming music player that finds free music for you",
     "last_seen": "2026-01-03",
+    "trending_days": 1
+  },
+  {
+    "name": "nuxt/nuxt",
+    "url": "https://github.com/nuxt/nuxt",
+    "language": "TypeScript",
+    "stars": 60674,
+    "forks": 5834,
+    "description": "the full-stack Vue framework",
+    "last_seen": "2026-07-11",
     "trending_days": 1
   },
   {
@@ -10767,16 +10807,6 @@
     "forks": 8113,
     "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
     "last_seen": "2025-10-25",
-    "trending_days": 1
-  },
-  {
-    "name": "zeux/meshoptimizer",
-    "url": "https://github.com/zeux/meshoptimizer",
-    "language": "C++",
-    "stars": 7976,
-    "forks": 777,
-    "description": "Mesh optimization library that makes meshes smaller and faster to render",
-    "last_seen": "2026-07-10",
     "trending_days": 1
   },
   {

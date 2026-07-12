@@ -1,0 +1,6 @@
+{
+  "title": "8.5K stars 严重低估：checkout 撑起 95% GitHub workflow 的真相",
+  "digest": "GitHub 官方把「拉代码」打包成可复用 Action，覆盖 95%+ workflow 调用；7 年 5 次版本就是 5 次安全基线刷新，v7 默认拒绝 fork PR 把 pwn request 风险升级为代码强制。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+  font-size: 14px;
+}
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 6px 8px;
+  text-align: left;
+  vertical-align: top;
+}
+table thead th {
+  background: #f5f5f5;
+  font-weight: bold;
+}
+table tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/actions/checkout">https://github.com/actions/checkout</a></p></blockquote>
+<h2>一句话总结</h2>
+<p>actions/checkout 是 GitHub 官方出的 GitHub Actions 拉代码基础设施，覆盖 95%+ workflow 调用量；它不是产品，而是「在 GitHub Actions 上拉代码」的协议层契约 —— 7 年演进史就是 GitHub Actions 供应链安全史的缩影。</p>
+<h2>值得关注的理由</h2>
+<ol>
+<li><strong>它是「事实标准」仓库的最佳样本</strong>。一个被几十亿次 job 调用的 Action，其设计哲学、版本节奏、默认安全姿态值得任何想成为「行业默认」的项目借鉴。</li>
+<li><strong>v7（2026-06）刚刚完成了一次教科书级的安全翻转</strong>。默认拒绝 fork PR 在 pull_request_target 上下文 checkout —— 这是「为安全牺牲便利」7 年来最严肃的一次默认值变更，背后的 81 行实现是安全设计模式的范本。</li>
+<li><strong>「单文件 Action」形态</strong>（src/ 5,487 行 TS → 30,912 行 dist/index.js 打包产物）是 GitHub 官方 Action 的标配，理解它的代价与收益才能理解 Actions 生态的本质。</li>
+</ol>
+<h2>项目展示</h2>
+<p>Phase 1 调研显示：README 中没有展示性图片（这是工具型项目，README 主要是 YAML 用法与版本说明），官网仅是 marketplace 列表面，亦无 demo gif。<strong>故省略「项目展示」节</strong>。</p>
+<p>唯一可参考的可视化是 README 顶部的 usage 片段（YAML 代码）和 CHANGELOG 的版本时间线 —— 这本身就在传达「这是工具不是产品」的设计取向。</p>
+<h2>项目画像</h2>
+<table>
+<thead><tr>
+<th>维度</th>
+<th>数据</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>GitHub</td>
+<td><a href="https://github.com/actions/checkout">https://github.com/actions/checkout</a></td>
+</tr>
+<tr>
+<td>Star / Fork</td>
+<td>8,477 / 2,715（严重低估真实使用量：>95% workflow 渗透率）</td>
+</tr>
+<tr>
+<td>代码行数</td>
+<td>5,487 行 TypeScript 真实源码（dist/index.js 打包后 30,912 行） + 8,205 行 package-lock.json</td>
+</tr>
+<tr>
+<td>项目年龄</td>
+<td>83.8 个月（2019-07 首发，与 GitHub Actions GA 同期）</td>
+</tr>
+<tr>
+<td>开发阶段</td>
+<td>稳定维护</td>
+</tr>
+<tr>
+<td>贡献模式</td>
+<td>公司主导 + 社区补丁（GitHub 团队 7 人 + dependabot，外部贡献者单人均值极低）</td>
+</tr>
+<tr>
+<td>热度定位</td>
+<td>大众热门（Actions 类顶级，单 star 数字远低于实际影响力）</td>
+</tr>
+<tr>
+<td>质量评级</td>
+<td>代码 A+ / 文档 A+ / 测试 A- / 依赖治理 A+</td>
+</tr>
+</tbody></table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>actions/checkout 的 owner 是 actions 这个组织账号 —— <strong>不是个人，是 GitHub 官方组织</strong>。账号 2018-10-10 注册，与 GitHub Actions GA（2019-11）几乎同期，是 GitHub 专门为平台 Action 设立的组织。下属 81 个公开仓库，涵盖 setup-node/setup-python/setup-go/setup-dotnet 等配套 Action、toolkit（Action 开发 SDK）、actions-runner-controller（K8s 自托管 runner）等，构成完整的 GitHub Actions 工具链。</p>
+<p>实际维护者 <strong>eric sciple</strong> 占 230 commits 的 56.5%（130 commits），是事实上的 maintainer；GitHub 内部另有 Vallie Joseph（45）等 6 名 active 维护者并行迭代，组织级接续能力良好。<strong>这是职业团队，不是个人 side project</strong>。</p>
+<h3>问题判断</h3>
+<p>2019 年 GitHub Actions GA 时，每个 workflow 要拉代码只能写裸的 actions/setup 或自己写 script 调 git。问题有三：</p>
+<ol>
+<li><strong>没有版本化契约</strong>：每个 workflow 自己拼 git 命令，安全实践（如何传 token）参差不齐。</li>
+<li><strong>没有跨平台一致性</strong>：Windows runner、macOS runner、Linux runner 拼 git 命令的细节都不同。</li>
+<li><strong>没有升级通道</strong>：GitHub 升级 Git 版本、Node runtime、协议层（safe.directory、partial clone）时，用户没法跟着平滑升级。</li>
+</ol>
+<p>actions/checkout 把这三件事打包成一个版本化、可复用、平台一致的基础 Action —— 它的存在是 GitHub 把「CI 必备操作」从 runner 内部迁出到 Action 的战略选择。</p>
+<h3>解法哲学</h3>
+<p>eric sciple 在 ADR 0153（v2 设计文档）里写明的设计哲学可归纳为三条：</p>
+<ol>
+<li><strong>「先加约束，再加选项」</strong>。每个 behavior change 都伴随一个对应的新 input；先收紧、再给逃生口。这种节奏贯穿 v6（凭证迁出）和 v7（默认拒绝 fork PR）。</li>
+<li><strong>「为 runner 减负」</strong>。checkout 的 TypeScript 化（v2）本质上是把 git checkout 的逻辑从 runner 内部迁出到 Action，让 runner 保持精简。</li>
+<li><strong>「容器友好」</strong>。set-safe-directory、includeIf for container path、github-server-url —— 几乎每个次要 feature 都是为了让 checkout 在 Docker container action 里也能跑。</li>
+</ol>
+<p><strong>明确不做的</strong>：README 第 38-41 行明确写「right now we are not taking contributions」—— 这是一个被战略锁定的基础设施，接受贡献的边际成本 > 边际价值。</p>
+<h3>战略意图</h3>
+<p>这是 GitHub 围绕 Actions 的完整工具链布局中<strong>使用频率最高但本身极简</strong>的一环。战略意图三件套：</p>
+<ul>
+<li><strong>守住「基础设施契约」</strong>：API/行为要稳到所有人都敢 pin。</li>
+<li><strong>追赶 Git/GitHub/Runtime 的安全基线</strong>：每次 major version 都是一次「安全基线」刷新（v2: 命令行不要带 cred / v3: safe.directory / v4: Node 20 / v6: RUNNER_TEMP / v7: 拒绝 fork PR）。</li>
+<li><strong>拒绝外部 contribution</strong>：把战略锁定的基础设施交给一个稳定的内部团队维护，是<strong>对用户的负责</strong>而非保守。</li>
+</ul>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<p>按新颖度×实用性排序：</p>
+<ol>
+<li><strong>v7 默认拒绝 fork PR checkout</strong>（新颖度 5/5、实用性 5/5、可迁移性 5/5）<br/>81 行 unsafe-pr-checkout-helper.ts 实现教科书级的安全设计模式：默认拒绝 + 显式 opt-in + 三层 sanity check（repo name / ref pattern / commit SHA）+ 错误信息直链风险文档。<strong>行业意义</strong>：把「被忽视的」安全模式从文档约束升级为代码强制约束。</li>
+<li><strong>v6「占位 → 字符串替换 → includeIf」凭证写入</strong>（新颖度 4/5、实用性 5/5、可迁移性 4/5）<br/>过程性安全（process security）设计：先写合法占位让审计日志看不到真实凭证，再在 $RUNNER_TEMP/git-credentials-<uuid>.config 上做字符串替换。<strong>.git/config 用 includeIf.gitdir: 引用而非直接写入</strong>，避免任何后续 git config --list 泄露凭证。</li>
+<li><strong>auth-helper 的统一凭证抽象</strong>（新颖度 4/5、实用性 5/5、可迁移性 5/5）<br/>IGitAuthHelper 把 PAT / SSH key / GitHub App installation token / workflow-runner-default-token 四种凭证形态抽象成 5 个统一接口方法（configureAuth / configureGlobalAuth / configureSubmoduleAuth / configureTempGlobalConfig / removeAuth）。<strong>写自己的 Action 要处理凭证问题，直接 fork 这一个文件</strong>。</li>
+</ol>
+<h3>可复用的模式与技巧</h3>
+<table>
+<thead><tr>
+<th>模式</th>
+<th>适用场景</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>「单文件 Action」形态（@vercel/ncc 打包 + 单一 dist/index.js）</td>
+<td>被高频调用、不希望被 npm registry 状态影响、必须永远可用的 Action</td>
+</tr>
+<tr>
+<td>「状态机 + POST」清理（core.saveState() + core.getState(&#x27;isPost&#x27;) 同一文件判分支）</td>
+<td>任何会产生「需要在 job 结束时清理」副作用的 Action</td>
+</tr>
+<tr>
+<td>「四件套分层」（input-helper → git-auth-helper → git-command-manager → github-api-helper）</td>
+<td>任何需要调外部 CLI 的 Action</td>
+</tr>
+<tr>
+<td>「临时 HOME」避免污染（$RUNNER_TEMP/<uuid>/ 复制原 .gitconfig 后 setEnvironmentVariable）</td>
+<td>Action 需要 git config --global 但又不能影响用户的真实 git config</td>
+</tr>
+<tr>
+<td>「PR head sanity check」（默认拒绝 fork PR，三个独立条件交叉验证）</td>
+<td>任何在 pull_request_target / workflow_run 上跑的 Action</td>
+</tr>
+<tr>
+<td>「接口 + 工厂 + 私有构造」（createCommandManager() 工厂 + private constructor + static async createCommandManager）</td>
+<td>模块需要异步初始化但调用方想用同步 new XxxManager() 风格</td>
+</tr>
+<tr>
+<td>「L1 重试 + 随机 backoff」（retry-helper.ts 默认 3 次、10-20s 随机 backoff）</td>
+<td>网络/远程 API 调用</td>
+</tr>
+<tr>
+<td>「GHES 兼容」URL 处理（isGhes() 判断 → GHES 时 API 走 pathname = &#x27;api/v3&#x27;）</td>
+<td>任何需要支持 GitHub Enterprise Server 的 Action</td>
+</tr>
+</tbody></table>
+<h3>关键设计决策</h3>
+<ol>
+<li><strong>决策：把 src/ + node_modules 打成单文件 dist/index.js</strong><br/>- 问题：Action 要在 runner 上跑，runner 不能假设 npm registry 可用、不能假设 Node 版本统一<br/>- 方案：@vercel/ncc 把 src/ + 5 个 @actions/* 依赖打成 30,912 行的 dist/index.js，配合 .licenses/npm/ 目录记录每个 transitive dep 的 license<br/>- Trade-off：零依赖部署 + 版本不可变 + 加载快 + 审计闭环 ⟷ 任何依赖升级都要重新发版 + 调试难（source map 指向打包后行号）+ 包大小 1MB+<br/>- 可迁移性：<strong>低</strong>（仅适用于「事实标准」型 Action；普通项目不推荐）</li>
+<li><strong>决策：STATE + POST 双段执行模型</strong><br/>- 问题：Action 需要做清理（删凭证、删 SSH key、解除 safe.directory），但 GitHub Actions 没有「deinit hook」<br/>- 方案：同一个 dist/index.js 在 main 阶段跑 run()，在 post 阶段跑 cleanup()，通过 core.getState(&#x27;isPost&#x27;) 字段分支<br/>- Trade-off：清理逻辑和主流程在同一个 code base、同一个 PR review 里被维护 ⟷ 没有任何类型签名表明哪些字段是 main-only、哪些是 post-only，state 跨 stage 状态机较脆弱<br/>- 可迁移性：<strong>高</strong></li>
+<li><strong>决策：v7 默认拒绝 fork PR checkout（input 名 allow-unsafe-pr-checkout）</strong><br/>- 问题：pull_request_target + actions/checkout 默认拉 fork PR 代码 + 后续 step 执行 = 攻击者代码可在持有 base repo secrets 的 runner 上执行（pwn request）<br/>- 方案：81 行 unsafe-pr-checkout-helper.ts 强制 opt-in，三个独立 sanity check（repo name / ref pattern / commit SHA）交叉验证，错误信息直链风险文档<br/>- Trade-off：之前已经显式 opt-in 的 v6 用户不会受影响（v6 没有这个 input）⟷ 增加了 81 行代码 + 多一次 sanity check 失败可能让用户困惑<br/>- 可迁移性：<strong>高</strong>（其他 Action 也可借鉴）</li>
+<li><strong>决策：把「partial clone」翻译成 sparse-checkout 的隐藏默认</strong><br/>- 问题：用户用 sparse-checkout: <dir> 只想拉某目录，但 git 内部 sparse-checkout 是文件级 filter 协议<br/>- 方案：git-source-provider.ts 第 182-186 行把 sparse-checkout 自动转成 --filter=blob:none，用户不用懂 git 的 partial clone 协议<br/>- Trade-off：用户少踩坑 + 体验顺滑 ⟷ 隐藏了 git 协议层细节，调试困难<br/>- 可迁移性：<strong>中</strong></li>
+</ol>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table>
+<thead><tr>
+<th>维度</th>
+<th>actions/checkout</th>
+<th>GitLab CI runner 内建</th>
+<th>Bitbucket 默认 clone</th>
+<th>CircleCI checkout orb</th>
+<th>Jenkins Git Plugin</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>是否独立可版本化</td>
+<td>✅ 独立 Action</td>
+<td>❌ runner 内建</td>
+<td>❌ YAML 默认</td>
+<td>✅ 独立 orb</td>
+<td>✅ 独立插件</td>
+</tr>
+<tr>
+<td>可 fork 修改</td>
+<td>✅ fork 改</td>
+<td>❌ 改 runner</td>
+<td>❌ 改 YAML</td>
+<td>✅ fork orb</td>
+<td>✅ fork 插件</td>
+</tr>
+<tr>
+<td>v7 fork PR 防护</td>
+<td>✅ 默认拒绝</td>
+<td>不适用（GitLab 用 protected branches 解决）</td>
+<td>❌ 无</td>
+<td>❌ 无</td>
+<td>❌ 无</td>
+</tr>
+<tr>
+<td>sparse-checkout 精细控制</td>
+<td>✅（隐藏 partial clone）</td>
+<td>一般</td>
+<td>一般</td>
+<td>一般</td>
+<td>手动配置</td>
+</tr>
+<tr>
+<td>REST API fallback</td>
+<td>✅ tarball/zipball</td>
+<td>❌</td>
+<td>❌</td>
+<td>❌</td>
+<td>❌</td>
+</tr>
+<tr>
+<td>容器原生支持</td>
+<td>✅ first-class</td>
+<td>一般</td>
+<td>一般</td>
+<td>一般</td>
+<td>弱</td>
+</tr>
+<tr>
+<td>行业地位</td>
+<td>95%+ workflow 渗透率</td>
+<td>runner 内置 = 100%</td>
+<td>pipeline 默认</td>
+<td>orb 之一</td>
+<td>主流插件之一</td>
+</tr>
+</tbody></table>
+<h3>差异化护城河</h3>
+<ul>
+<li><strong>协议层契约</strong>：它定义了「在 GitHub Actions 上拉代码」的契约本身。任何挑战者要替代它都要先和 GitHub 平台协议对线。</li>
+<li><strong>GitHub 官方背书</strong>：组织账号 verified、@actions/* 官方包、runner 升级同步 —— 信任位 + 一致性。</li>
+<li><strong>安全示范价值</strong>：每次 major version 都是一次「安全基线」刷新（v2/v3/v4/v6/v7 各对应一次），成为其他 Action 的参考实现。</li>
+</ul>
+<h3>竞争风险</h3>
+<p>GitHub 平台层面如果把 checkout 重新「焊回 runner 内建」（类似 GitLab runner 启动时的隐式 clone），checkout 会变成发布渠道而非独立 Action —— 但这是<strong>组织战略风险</strong>而非技术竞争风险。技术层面无替代品。</p>
+<h3>生态定位</h3>
+<blockquote><p><strong>actions/checkout 是 GitHub 通过把「CI 必备操作」打包成可复用 Action，把 Actions 生态从「工具」升级为「平台」的关键锚点。</strong> 它不是产品，但它定义了 GitHub 上 CI 的「协议层」。</p></blockquote>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：checkout 的 star 数字（8.5K）严重低估真实使用量（>95% workflow 渗透），这是被普遍误解的「事实标准」仓库 —— 任何分析 GitHub Actions 生态的文章都值得引用这个事实。</li>
+<li><strong>技术借鉴</strong>：<br/>- 写新 Action？直接 fork src/git-auth-helper.ts（凭证管理）和 src/unsafe-pr-checkout-helper.ts（安全门）<br/>- 写 CI/CD 平台的 checkout？参考其「四件套分层」+「接口 + 工厂 + 私有构造」模式<br/>- 处理 Windows 审计日志下的凭证写入？参考「占位 → 替换 → includeIf」三段式</li>
+<li><strong>生态位</strong>：填补「GitHub Actions 上把 CI 必备操作做成可版本化、可复用、可 fork 改造」的位置</li>
+<li><strong>趋势判断</strong>：随着 GitHub Actions 渗透率持续提升、供应链安全关注度持续提升（2024 年 pwn request 攻击模式曝光后），checkout 的「默认安全」示范价值会进一步放大</li>
+</ul>
+<h2>风险与不足</h2>
+<p>诚实评估：</p>
+<ol>
+<li><strong>不接受外部贡献</strong>：战略性锁定的副产品是社区参与度低 —— 外部 PR 多被关，外部贡献者很难成为 maintainer。这对事实标准仓库是合理选择，但对其他想模仿的项目需要慎重考虑。</li>
+<li><strong>单一作者占 56.5%</strong>（eric sciple 130/230 commits）：当 eric sciple 离职或转岗时，存在代码主权转移风险（虽然组织账号 + GitHub 内部 7 人团队已部分对冲）。</li>
+<li><strong>单文件 Action 形态的代价</strong>：任何依赖升级都要重新发版，与 Node runtime 升级路径耦合。</li>
+<li><strong>TypeScript 代码风格偏老</strong>：namespace import（import * as core from &#x27;@actions/core&#x27;）而非 named import；as any 转换出现 20+ 次。</li>
+<li><strong>state 跨 stage 状态机脆弱</strong>：state-helper.ts 没有类型签名表明哪些字段是 main-only、哪些是 post-only，靠 || &#x27;&#x27; fallback 处理。</li>
+<li><strong>ESLint 安全规则覆盖不够</strong>：unsafe-pr-checkout-helper.ts 这种安全敏感代码应有更严格的 lint 覆盖（如 no-template-curly-in-string、敏感信息泄露规则）。</li>
+</ol>
+<h2>行动建议</h2>
+<ul>
+<li><strong>如果你要用它</strong>：<br/>- 始终 pin major version（如 @v7 而非 @main），让大版本升级变成显式 review<br/>- v6+ 用户：persist-credentials: false 现在是隐式默认，建议显式写出来以便代码 review<br/>- pull_request_target 上下文必须显式 allow-unsafe-pr-checkout: true 并配合 permissions: read-only 模式</li>
+<li><strong>如果你要学它</strong>：<br/>- 重点阅读 src/git-auth-helper.ts（凭证管理核心抽象，600 行）<br/>- 重点阅读 src/unsafe-pr-checkout-helper.ts（v7 安全门，89 行）<br/>- 重点阅读 adrs/0153-checkout-v2.md（v2 设计 ADR，292 行，v2 至今的设计哲学源头）</li>
+<li><strong>如果你要 fork 它</strong>：<br/>- 如果你想做 GitHub Actions 平台上的「拉代码 N 种方言」（Git LFS-only / monorepo 优化 / 离线模式），fork 后重点改 src/git-source-provider.ts<br/>- 如果你想做 GHES 特定优化，重点改 src/url-helper.ts 和 src/github-api-helper.ts</li>
+</ul>
+<h3>知识入口</h3>
+<table>
+<thead><tr>
+<th>资源</th>
+<th>链接</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>DeepWiki</td>
+<td>未收录（合理 —— Action 类工具的入口价值不在知识图谱里）</td>
+</tr>
+<tr>
+<td>Zread.ai</td>
+<td>未收录（同上）</td>
+</tr>
+<tr>
+<td>ADR 设计文档</td>
+<td>adrs/0153-checkout-v2.md（v2 至今的设计哲学源头，main 分支可见）</td>
+</tr>
+<tr>
+<td>官方文档</td>
+<td><a href="https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions">https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions</a></td>
+</tr>
+<tr>
+<td>Marketplace 页面</td>
+<td><a href="https://github.com/marketplace/actions/checkout">https://github.com/marketplace/actions/checkout</a></td>
+</tr>
+<tr>
+<td>安全指南（v7 pwn request 防护）</td>
+<td><a href="https://gh.io/securely-using-pull_request_target">https://gh.io/securely-using-pull_request_target</a></td>
+</tr>
+<tr>
+<td>关联论文</td>
+<td>无（这是工具型项目，非学术研究）</td>
+</tr>
+<tr>
+<td>在线 Demo</td>
+<td>无（Action 类工具无 demo 概念）</td>
+</tr>
+</tbody></table>
+</body>
+</html>

@@ -230,3 +230,4 @@
 {"recorded_at": "2026-07-11T21:51:03.799517+00:00", "slug": "cypress-io_cypress", "title": null, "state": "published", "published_at": "2026-07-11", "reason": "自动生成", "ci_run_id": "29169159080"}
 {"recorded_at": "2026-07-11T23:54:00.310056+00:00", "slug": "hashicorp_terraform", "title": null, "state": "published", "published_at": "2026-07-11", "reason": "自动生成", "ci_run_id": "29172561900"}
 {"recorded_at": "2026-07-12T02:03:25.725357+00:00", "slug": "dotnet_aspnetcore", "title": null, "state": "published", "published_at": "2026-07-12", "reason": "自动生成", "ci_run_id": "29175749390"}
+{"recorded_at": "2026-07-12T05:29:29.127205+00:00", "slug": "actions_checkout", "title": null, "state": "published", "published_at": "2026-07-12", "reason": "自动生成", "ci_run_id": "29180943706"}

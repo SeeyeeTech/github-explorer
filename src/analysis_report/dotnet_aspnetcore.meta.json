@@ -1,0 +1,6 @@
+{
+  "title": "38K stars：ASP.NET Core 如何把 .NET 平台重新做成 Web 框架事实标准",
+  "digest": "微软用 Kestrel 自研 HTTP/1+2+3 + Middleware 洋葱管道 + 一栈统一抽象，重写绑死在 IIS 的 ASP.NET 成为跨平台框架，并成为 .NET 跨入 NativeAOT 时代的旗舰入口。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

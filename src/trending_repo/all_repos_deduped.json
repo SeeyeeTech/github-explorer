@@ -230,6 +230,16 @@
     "trending_days": 20
   },
   {
+    "name": "Shubhamsaboo/awesome-llm-apps",
+    "url": "https://github.com/shubhamsaboo/awesome-llm-apps",
+    "language": "Python",
+    "stars": 118205,
+    "forks": 17587,
+    "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+    "last_seen": "2026-07-12",
+    "trending_days": 20
+  },
+  {
     "name": "ruvnet/RuView",
     "url": "https://github.com/ruvnet/ruview",
     "language": "Rust",
@@ -240,13 +250,13 @@
     "trending_days": 19
   },
   {
-    "name": "Shubhamsaboo/awesome-llm-apps",
-    "url": "https://github.com/shubhamsaboo/awesome-llm-apps",
+    "name": "virattt/ai-hedge-fund",
+    "url": "https://github.com/virattt/ai-hedge-fund",
     "language": "Python",
-    "stars": 98433,
-    "forks": 14330,
-    "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
-    "last_seen": "2026-03-01",
+    "stars": 61223,
+    "forks": 10837,
+    "description": "An AI Hedge Fund Team",
+    "last_seen": "2026-07-12",
     "trending_days": 19
   },
   {
@@ -267,16 +277,6 @@
     "forks": 5023,
     "description": "Open-Source Frontier Voice AI",
     "last_seen": "2026-04-29",
-    "trending_days": 18
-  },
-  {
-    "name": "virattt/ai-hedge-fund",
-    "url": "https://github.com/virattt/ai-hedge-fund",
-    "language": "Python",
-    "stars": 54663,
-    "forks": 9489,
-    "description": "An AI Hedge Fund Team",
-    "last_seen": "2026-04-15",
     "trending_days": 18
   },
   {
@@ -347,6 +347,16 @@
     "forks": 48374,
     "description": "Master programming by recreating your favorite technologies from scratch.",
     "last_seen": "2026-06-01",
+    "trending_days": 14
+  },
+  {
+    "name": "davila7/claude-code-templates",
+    "url": "https://github.com/davila7/claude-code-templates",
+    "language": "Python",
+    "stars": 29136,
+    "forks": 3197,
+    "description": "CLI tool for configuring and monitoring Claude Code",
+    "last_seen": "2026-07-12",
     "trending_days": 14
   },
   {
@@ -430,16 +440,6 @@
     "trending_days": 13
   },
   {
-    "name": "davila7/claude-code-templates",
-    "url": "https://github.com/davila7/claude-code-templates",
-    "language": "Python",
-    "stars": 28868,
-    "forks": 3170,
-    "description": "CLI tool for configuring and monitoring Claude Code",
-    "last_seen": "2026-07-11",
-    "trending_days": 13
-  },
-  {
     "name": "lfnovo/open-notebook",
     "url": "https://github.com/lfnovo/open-notebook",
     "language": "TypeScript",
@@ -470,6 +470,16 @@
     "trending_days": 13
   },
   {
+    "name": "anthropics/claude-cookbooks",
+    "url": "https://github.com/anthropics/claude-cookbooks",
+    "language": "JupyterNotebook",
+    "stars": 48127,
+    "forks": 5700,
+    "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+    "last_seen": "2026-07-12",
+    "trending_days": 12
+  },
+  {
     "name": "anthropics/claude-plugins-official",
     "url": "https://github.com/anthropics/claude-plugins-official",
     "language": "Python",
@@ -477,6 +487,16 @@
     "forks": 3356,
     "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
     "last_seen": "2026-06-23",
+    "trending_days": 12
+  },
+  {
+    "name": "Crosstalk-Solutions/project-nomad",
+    "url": "https://github.com/crosstalk-solutions/project-nomad",
+    "language": "TypeScript",
+    "stars": 33601,
+    "forks": 3373,
+    "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+    "last_seen": "2026-07-12",
     "trending_days": 12
   },
   {
@@ -530,16 +550,6 @@
     "trending_days": 11
   },
   {
-    "name": "anthropics/claude-cookbooks",
-    "url": "https://github.com/anthropics/claude-cookbooks",
-    "language": "JupyterNotebook",
-    "stars": 47671,
-    "forks": 5636,
-    "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
-    "last_seen": "2026-07-11",
-    "trending_days": 11
-  },
-  {
     "name": "block/goose",
     "url": "https://github.com/block/goose",
     "language": "Rust",
@@ -547,16 +557,6 @@
     "forks": 3621,
     "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
     "last_seen": "2026-04-06",
-    "trending_days": 11
-  },
-  {
-    "name": "Crosstalk-Solutions/project-nomad",
-    "url": "https://github.com/crosstalk-solutions/project-nomad",
-    "language": "TypeScript",
-    "stars": 29451,
-    "forks": 2923,
-    "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
-    "last_seen": "2026-06-07",
     "trending_days": 11
   },
   {
@@ -1280,6 +1280,16 @@
     "trending_days": 7
   },
   {
+    "name": "HKUDS/Vibe-Trading",
+    "url": "https://github.com/hkuds/vibe-trading",
+    "language": "Python",
+    "stars": 20039,
+    "forks": 3525,
+    "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+    "last_seen": "2026-07-12",
+    "trending_days": 7
+  },
+  {
     "name": "huggingface/skills",
     "url": "https://github.com/huggingface/skills",
     "language": "Python",
@@ -1597,16 +1607,6 @@
     "forks": 1669,
     "description": "\"DeepCode: Open Agentic Coding (Paper2Code & Text2Web & Text2Backend)\"",
     "last_seen": "2025-12-16",
-    "trending_days": 6
-  },
-  {
-    "name": "HKUDS/Vibe-Trading",
-    "url": "https://github.com/hkuds/vibe-trading",
-    "language": "Python",
-    "stars": 17133,
-    "forks": 2856,
-    "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-    "last_seen": "2026-07-02",
     "trending_days": 6
   },
   {
@@ -2520,6 +2520,16 @@
     "trending_days": 5
   },
   {
+    "name": "wonderwhy-er/DesktopCommanderMCP",
+    "url": "https://github.com/wonderwhy-er/desktopcommandermcp",
+    "language": "TypeScript",
+    "stars": 7862,
+    "forks": 980,
+    "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+    "last_seen": "2026-07-12",
+    "trending_days": 5
+  },
+  {
     "name": "Yeachan-Heo/oh-my-claudecode",
     "url": "https://github.com/yeachan-heo/oh-my-claudecode",
     "language": "TypeScript",
@@ -2897,6 +2907,16 @@
     "forks": 2148,
     "description": "\"DeepTutor: Agent-Native Personalized Learning Assistant\"",
     "last_seen": "2026-04-11",
+    "trending_days": 4
+  },
+  {
+    "name": "home-assistant/core",
+    "url": "https://github.com/home-assistant/core",
+    "language": "Python",
+    "stars": 88844,
+    "forks": 38056,
+    "description": "🏡 Open source home automation that puts local control and privacy first.",
+    "last_seen": "2026-07-12",
     "trending_days": 4
   },
   {
@@ -3387,16 +3407,6 @@
     "forks": 334,
     "description": "The sandbox agent framework.",
     "last_seen": "2026-06-20",
-    "trending_days": 4
-  },
-  {
-    "name": "wonderwhy-er/DesktopCommanderMCP",
-    "url": "https://github.com/wonderwhy-er/desktopcommandermcp",
-    "language": "TypeScript",
-    "stars": 7662,
-    "forks": 962,
-    "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
-    "last_seen": "2026-07-11",
     "trending_days": 4
   },
   {
@@ -3940,16 +3950,6 @@
     "trending_days": 3
   },
   {
-    "name": "home-assistant/core",
-    "url": "https://github.com/home-assistant/core",
-    "language": "Python",
-    "stars": 88450,
-    "forks": 38021,
-    "description": "🏡 Open source home automation that puts local control and privacy first.",
-    "last_seen": "2026-07-11",
-    "trending_days": 3
-  },
-  {
     "name": "hoppscotch/hoppscotch",
     "url": "https://github.com/hoppscotch/hoppscotch",
     "language": "TypeScript",
@@ -4337,6 +4337,16 @@
     "forks": 187,
     "description": "Windows companion suite for OpenClaw - System Tray app, Shared library, Node, and PowerToys Command Palette extension",
     "last_seen": "2026-06-06",
+    "trending_days": 3
+  },
+  {
+    "name": "pingdotgg/t3code",
+    "url": "https://github.com/pingdotgg/t3code",
+    "language": "TypeScript",
+    "stars": 13632,
+    "forks": 2861,
+    "description": "None",
+    "last_seen": "2026-07-12",
     "trending_days": 3
   },
   {
@@ -6220,6 +6230,16 @@
     "trending_days": 2
   },
   {
+    "name": "malisper/pgrust",
+    "url": "https://github.com/malisper/pgrust",
+    "language": "Rust",
+    "stars": 2257,
+    "forks": 58,
+    "description": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+    "last_seen": "2026-07-12",
+    "trending_days": 2
+  },
+  {
     "name": "manaflow-ai/cmux",
     "url": "https://github.com/manaflow-ai/cmux",
     "language": "Swift",
@@ -6627,16 +6647,6 @@
     "forks": 4825,
     "description": "A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app",
     "last_seen": "2026-01-31",
-    "trending_days": 2
-  },
-  {
-    "name": "pingdotgg/t3code",
-    "url": "https://github.com/pingdotgg/t3code",
-    "language": "TypeScript",
-    "stars": 9683,
-    "forks": 1821,
-    "description": "None",
-    "last_seen": "2026-04-19",
     "trending_days": 2
   },
   {
@@ -7700,6 +7710,16 @@
     "trending_days": 1
   },
   {
+    "name": "chen08209/FlClash",
+    "url": "https://github.com/chen08209/flclash",
+    "language": "Dart",
+    "stars": 45105,
+    "forks": 2848,
+    "description": "A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.",
+    "last_seen": "2026-07-12",
+    "trending_days": 1
+  },
+  {
     "name": "chili-chips-ba/wireguard-fpga",
     "url": "https://github.com/chili-chips-ba/wireguard-fpga",
     "language": "Verilog",
@@ -7767,6 +7787,16 @@
     "forks": 6340,
     "description": "VS Code in the browser",
     "last_seen": "2025-11-08",
+    "trending_days": 1
+  },
+  {
+    "name": "ColeMurray/background-agents",
+    "url": "https://github.com/colemurray/background-agents",
+    "language": "TypeScript",
+    "stars": 2149,
+    "forks": 336,
+    "description": "An open-source background agents coding system",
+    "last_seen": "2026-07-12",
     "trending_days": 1
   },
   {
@@ -7947,6 +7977,16 @@
     "forks": 16690,
     "description": "None",
     "last_seen": "2026-04-27",
+    "trending_days": 1
+  },
+  {
+    "name": "Dicklesworthstone/destructive_command_guard",
+    "url": "https://github.com/dicklesworthstone/destructive_command_guard",
+    "language": "Rust",
+    "stars": 2318,
+    "forks": 87,
+    "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+    "last_seen": "2026-07-12",
     "trending_days": 1
   },
   {
@@ -8910,6 +8950,16 @@
     "trending_days": 1
   },
   {
+    "name": "k1tbyte/Wand-Enhancer",
+    "url": "https://github.com/k1tbyte/wand-enhancer",
+    "language": "C#",
+    "stars": 6539,
+    "forks": 18547,
+    "description": "Advanced UX and interoperability extension for Wand (WeMod) app",
+    "last_seen": "2026-07-12",
+    "trending_days": 1
+  },
+  {
     "name": "k4yt3x/video2x",
     "url": "https://github.com/k4yt3x/video2x",
     "language": "C++",
@@ -9147,16 +9197,6 @@
     "forks": 220,
     "description": "A tool designed to simplify the creation of OpenCore EFI",
     "last_seen": "2025-11-11",
-    "trending_days": 1
-  },
-  {
-    "name": "malisper/pgrust",
-    "url": "https://github.com/malisper/pgrust",
-    "language": "Rust",
-    "stars": 1740,
-    "forks": 45,
-    "description": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
-    "last_seen": "2026-07-11",
     "trending_days": 1
   },
   {
@@ -9610,6 +9650,16 @@
     "trending_days": 1
   },
   {
+    "name": "Nutlope/hallmark",
+    "url": "https://github.com/nutlope/hallmark",
+    "language": "CSS",
+    "stars": 3926,
+    "forks": 238,
+    "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "last_seen": "2026-07-12",
+    "trending_days": 1
+  },
+  {
     "name": "nuxt/nuxt",
     "url": "https://github.com/nuxt/nuxt",
     "language": "TypeScript",
@@ -9830,6 +9880,16 @@
     "trending_days": 1
   },
   {
+    "name": "par274/sharpemu",
+    "url": "https://github.com/par274/sharpemu",
+    "language": "C#",
+    "stars": 984,
+    "forks": 61,
+    "description": "An experimental PlayStation 5 emulator project.",
+    "last_seen": "2026-07-12",
+    "trending_days": 1
+  },
+  {
     "name": "paritytech/polkadot-sdk",
     "url": "https://github.com/paritytech/polkadot-sdk",
     "language": "Rust",
@@ -9897,6 +9957,16 @@
     "forks": 117,
     "description": "Youtube client with older Android version support, background player, Google Gemini ✨ and many more features.",
     "last_seen": "2026-01-07",
+    "trending_days": 1
+  },
+  {
+    "name": "PrefectHQ/prefect",
+    "url": "https://github.com/prefecthq/prefect",
+    "language": "Python",
+    "stars": 23002,
+    "forks": 2379,
+    "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
+    "last_seen": "2026-07-12",
     "trending_days": 1
   },
   {

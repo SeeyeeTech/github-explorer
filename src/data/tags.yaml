@@ -38,6 +38,10 @@ entries:
   abhigyanpatwari_gitnexus:
   - ai-agent
   - llm-framework
+  actions_checkout:
+  - devtools
+  - protocol-spec
+  - security
   ad-on-is_rachoon:
   - web-framework
   adam-maj_tiny-gpu:
@@ -457,6 +461,10 @@ entries:
   - llm-framework
   - llm-inference
   - model-foundation
+  cypress-io_cypress:
+  - llm-framework
+  - workflow-automation
+  - protocol-spec
   czlonkowski_n8n-mcp:
   - devtools
   - workflow-automation
@@ -565,6 +573,9 @@ entries:
   - model-foundation
   - devtools
   - rag-search
+  dotnet_aspnetcore:
+  - web-framework
+  - protocol-spec
   dotnet_skills:
   - ai-agent
   - devtools
@@ -826,6 +837,9 @@ entries:
   - devtools
   - education
   - iot-hardware
+  hashicorp_terraform:
+  - database
+  - protocol-spec
   hashicorp_vault:
   - uncategorized
   hehonghui_awesome-english-ebooks:

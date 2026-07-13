@@ -232,3 +232,4 @@
 {"recorded_at": "2026-07-12T02:03:25.725357+00:00", "slug": "dotnet_aspnetcore", "title": null, "state": "published", "published_at": "2026-07-12", "reason": "自动生成", "ci_run_id": "29175749390"}
 {"recorded_at": "2026-07-12T05:29:29.127205+00:00", "slug": "actions_checkout", "title": null, "state": "published", "published_at": "2026-07-12", "reason": "自动生成", "ci_run_id": "29180943706"}
 {"recorded_at": "2026-07-12T21:50:29.183998+00:00", "slug": "pingdotgg_t3code", "title": null, "state": "published", "published_at": "2026-07-12", "reason": "自动生成", "ci_run_id": "29210030390"}
+{"recorded_at": "2026-07-13T22:16:55.471486+00:00", "slug": "coreyhaines31_marketingskills", "title": null, "state": "published", "published_at": "2026-07-13", "reason": "自动生成", "ci_run_id": "29287435877"}

@@ -1,21 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-07-12",
+    "last_run": "2026-07-13",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/lmcache/lmcache",
-      "canonical_url": "https://github.com/LMCache/LMCache",
-      "event_date": "2026-06-12",
-      "date_seen": "2026-06-12"
-    },
-    {
-      "key": "github.com/microsoft/powertoys",
-      "canonical_url": "https://github.com/microsoft/PowerToys",
-      "event_date": "2026-06-12",
-      "date_seen": "2026-06-12"
-    },
     {
       "key": "github.com/andrewyng/aisuite",
       "canonical_url": "https://github.com/andrewyng/aisuite",
@@ -1131,6 +1119,30 @@
       "canonical_url": "https://github.com/sst/opencode",
       "event_date": "2026-07-12",
       "date_seen": "2026-07-12"
+    },
+    {
+      "key": "github.com/graphify-labs/graphify",
+      "canonical_url": "https://github.com/Graphify-Labs/graphify",
+      "event_date": "2026-07-13",
+      "date_seen": "2026-07-13"
+    },
+    {
+      "key": "github.com/moeru-ai/airi",
+      "canonical_url": "https://github.com/moeru-ai/airi",
+      "event_date": "2026-07-13",
+      "date_seen": "2026-07-13"
+    },
+    {
+      "key": "github.com/gibsonai/memori",
+      "canonical_url": "https://github.com/gibsonai/memori",
+      "event_date": "2026-07-13",
+      "date_seen": "2026-07-13"
+    },
+    {
+      "key": "github.com/microsoft/vibevoice",
+      "canonical_url": "https://github.com/microsoft/vibevoice",
+      "event_date": "2026-07-13",
+      "date_seen": "2026-07-13"
     }
   ]
 }

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/hasaneyldrm/exercises-dataset">https://github.com/hasaneyldrm/exercises-dataset</a></p></blockquote>
+<h2>一句话总结</h2>
+<p><code>exercises-dataset</code> 是一份 1,324 个健身动作的离线即用数据集（JSON + GIF + 9 语言说明），既被作者自己的 RN 健身 App LogPress 直接作为数据底座，也同时作为独立开源资产被全球开发者消费——4 个月内拿到 12.6K stars，靠的是「零依赖 + 多语言 + 本地资源 + AI 友好 setup」四件套。</p>
+<h2>值得关注的理由</h2>
+<ul>
+<li><strong>数据驱动 App 的实战样本</strong>：不是又一个 TodoMVC 或 LLM wrapper——它证明了「一个垂直数据集 + 一个 1 MB 的 HTML 浏览器 + 一个 5 行的 README」足以撑起一个真实商业产品的数据层。</li>
+<li><strong>多语言本地化的 ROI</strong>：把翻译成本沉到数据集层（11,916 条指令 × 9 语言 0 空缺），下游 App 即可「以一当九」，而非每个 App 各自翻译。</li>
+<li><strong>AI 友好文档范本</strong>：<code>setup.html</code> 中 6 框架 × 4 DB 笛卡尔积的「Ask Your LLM」 prompt builder，把文档从「读」升级为「喂给 LLM 当上下文」——这是少见的工程实践。</li>
+</ul>
+<h2>项目展示</h2>
+<p><img src="https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0025-EIeI8Vf.gif" alt="杠铃卧推"><br/><img src="https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0043-qXTaZnJ.gif" alt="杠铃深蹲"><br/><img src="https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0032-ila4NZS.gif" alt="硬拉"><br/><img src="https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0652-lBDjFxJ.gif" alt="引体向上"><br/><img src="https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/videos/0294-NbVPDMW.gif" alt="哑铃弯举"></p>
+<blockquote><p>五个最具代表性的复合 / 单关节动作 GIF。详情可打开仓库根目录的 <code>index.html</code> 浏览全 1,324 条。</p></blockquote>
+<h2>项目画像</h2>
+<ul>
+<li>GitHub：<a href="https://github.com/hasaneyldrm/exercises-dataset">https://github.com/hasaneyldrm/exercises-dataset</a></li>
+<li>Star / Fork：12,588 / 1,478</li>
+<li>Watcher：36</li>
+<li>代码/数据规模：~127 MB；JSON 99%（1324 条主数据 + schema）+ HTML 1%（<code>index.html</code> 14.9 MB 浏览器 + <code>setup.html</code> 60 KB 向导）</li>
+<li>项目年龄：~4 个月（仓库 2026-03-18 创建；git 历史 2026-07-08~09 一次性灌入，6 个 commit）</li>
+<li>开发阶段：稳定维护（一次成型 + 偶发修订，波兰语/韩语新增即最近一次 commit）</li>
+<li>贡献模式：社区协作（3 名贡献者，作者本人占 66.7%）</li>
+<li>热度定位：大众热门（4 个月 12.6K stars，Fork/Star 比 11.7% 显著高于平均，真实数据消费）</li>
+<li>质量评级：数据覆盖 A / 多语言完整性 A / 文档 A- / 测试 C+ / CI/CD C</li>
+</ul>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p><code>hasaneyldrm</code>（Hasan Emir Yıldırım，土耳其伊斯坦布尔），自述「PM @tech · 2x Founder」，账号 9.2 年。代表作品是 <strong>LogPress</strong>（hasaneyldrm/logpress-public，51★，TS + RN 0.80 + Supabase + OpenAI + Adapty）——一个已经在线的 AI 健身追踪 App。本仓库是它的数据底座，与 LogPress 形成「开源数据层 + 商业 App」的垂直整合。作者的 5 个公开仓库（logpress-public / exercises-dataset / reactnativecliboilerplate / projbar / cursor-rules）共同覆盖了「移动健身生态」的每个环节。</p>
+<h3>问题判断</h3>
+<p>健身 / 训练追踪 App 的开发者面临三个备选：(1) ExerciseDB ASCENDAPI 的 SaaS CDN（按量付费 + 商业授权），(2) wger 的 Django REST（运维重），(3) yuhonas/free-exercise-db 等小公域 JSON（动作少、无 GIF、无 i18n）。作者看到了「5 分钟内可被任何 App 接进、能离线使用、覆盖多语言市场」这个交集的空白。</p>
+<h3>解法哲学</h3>
+<ul>
+<li><strong>零依赖 / 零后端</strong>：所有 1324 条记录 + GIF + JPG 都是仓库内相对路径静态资源，<code>file://</code> 打开 <code>index.html</code> 即用——这牺牲了运行时能力（REST、搜索服务），换取最低接入摩擦。</li>
+<li><strong>翻译沉到数据集层</strong>：1,324 × 9 = 11,916 条 instruction 全填，下游 App 拿到即得中文 / 土耳其语 / 印地语 / 韩语本地化，跨 9 个市场。</li>
+<li><strong>可被人复用是显式目标</strong>：README 的 Usage Examples、<code>setup.html</code> 的多框架脚手架 + LLM prompt 都是面向陌生开发者，自家 App 只是其中一个下游。</li>
+</ul>
+<h3>战略意图</h3>
+<blockquote><p><strong>核心信号</strong>：issue #5 已 closed，但作者在 README 与 NOTICE.md 中已主动把媒体来源从「ASCENDAPI（被指 re-host）」切换到「Gym visual（书面授权）」，并把媒体限制在 180×180 红线分辨率。这是聪明品牌重塑 + 合规加固。</p></blockquote>
+<p>属于「用 OSS 数据层给商业 App 增信 + 获客」的成熟开源策略——exercises-dataset 充当 logpress-public 的可信背书（「我们的数据来自公开、有 schema、9 语言、MIT 授权的独立项目」），同时让其他集成方把生态中心保持在 hasaneyldrm 名下。</p>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<ol>
+<li><strong>「AI 友好文档 + 多框架脚手架」</strong>（<code>setup.html</code> 的 "Ask Your LLM"）—— 把数据集接入流程模板化、笛卡尔积化（6 框架 × 4 DB = 24 组合），前端实时拼接一个结构化 LLM prompt（一键复制到 ChatGPT / Claude / Gemini 即得可运行后端）。<strong>新颖度 4/5 / 实用性 5/5 / 可迁移性 5/5</strong></li>
+<li><strong>「Plug-and-play 数据集四件套」</strong> —— 标准化发布配方：<code>data/{dataset}.json</code> + <code>data/{dataset}.schema.json</code> + <code>assets/</code> + <code>index.html</code> + <code>setup.html</code>，让任何中小型领域数据集（菜谱 / 药草 / 字体 / 图标）都能 5 分钟内被外部 App 接入。<strong>新颖度 4/5 / 实用性 5/5 / 可迁移性 5/5</strong></li>
+<li><strong>「双形态 instruction 字段」</strong> —— 同一条 instruction 同时存 <code>instructions.&lt;lang&gt;: string</code>（全文 / 适合语音朗读）和 <code>instruction_steps.&lt;lang&gt;: string[]</code>（数组 / 适合 UI 步骤渲染），通过确定性 split 保证一致。体积 ×2 但下游不必自己做 split。<strong>新颖度 3/5 / 实用性 5/5 / 可迁移性 5/5</strong></li>
+<li><strong>「JSON inline 单文件浏览器」</strong> —— 把整个数据集以 JS literal 直接嵌入 14.9 MB 单 HTML（不用 fetch / IndexedDB），<code>file://</code> / 任意静态托管即开即用。<strong>新颖度 3/5 / 实用性 4/5 / 可迁移性 3/5</strong>（受体积上限约束）</li>
+<li><strong>「红线分辨率媒体」</strong> —— 媒体一律 180×180，许可证把「高于此分辨率」留给版权方授权，下游自动获得「清晰度上限」。这种处理在合规场景下非常聪明。<strong>新颖度 4/5 / 实用性 3/5 / 可迁移性 3/5</strong></li>
+</ol>
+<h3>可复用的模式与技巧</h3>
+<ul>
+<li><strong>「data/ + assets/ + index.html + setup.html」零后端静态发布模式</strong> —— 适合任何 < 50 MB 的中小型领域数据集。</li>
+<li><strong>「AI 友好文档」模式</strong> —— 文档页面同时承担「给人读 + 给 LLM 当上下文 + 一键复制生成后端代码」三重职能。</li>
+<li><strong>「{id}-{media_id}.{ext}」文件命名约定</strong> —— 序号保证字典序即插入序，hash 与原数据源 ID 1-1 映射，便于增量同步与追溯。</li>
+<li><strong>JSON Schema 软扩展策略</strong> —— <code>required</code> 限定 6 语言，但 <code>additionalProperties</code> 允许 <code>hi/pl/ko</code>，渐进式 i18n 扩张不破坏老 validator。</li>
+</ul>
+<h3>关键设计决策</h3>
+<ul>
+<li>媒体本地化相对路径（问题：issue #21/#26 指向外部 CDN 401 导致 App 图挂）：方案 <code>image: "images/0001-2gPfomN.jpg"</code> + <code>gif_url: "videos/...gif"</code>。Trade-off：仓库 ~127 MB，clone 慢，换零网络依赖。</li>
+<li>JSON Schema (Draft 2020-12)（问题：下游各写各的 TS 类型，字段漂移）：方案 <code>$defs</code> 抽象 + <code>additionalProperties: false</code>。Trade-off：发现 1 处 schema/data 不一致（6 必填 vs 9 实有，需升级 schema）。</li>
+<li>双形态 instruction（问题：UI 要全文也要步骤列表）：方案 全文 + 数组同时存。Trade-off：体积 ×2（gzip 后 ~3 MB，可接受）。</li>
+<li><code>setup.html</code> LLM prompt（问题：「从数据集到生产可用 API」的最后 1 km）：方案 6 框架 × 4 DB 笛卡尔积 prompt 模板 + 一键复制。Trade-off：模板与真实数据解耦，LLM 仍可能幻觉。</li>
+</ul>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<ul>
+<li>形式：exercises-dataset（静态 JSON + HTML） vs yuhonas/free-exercise-db（静态 JSON + Vue 站） vs wger（Django REST + YAML） vs ExerciseDB ASCENDAPI（SaaS API + CDN）</li>
+<li>动作规模：exercises-dataset（1,324） vs yuhonas/free-exercise-db（~800） vs wger（多模块） vs ExerciseDB ASCENDAPI（1,300+）</li>
+<li>多语言：exercises-dataset（9，含 zh/hi/ko/pl/tr）vs yuhonas/free-exercise-db（0） vs wger（30+ 社区翻译） vs ExerciseDB ASCENDAPI（1）</li>
+<li>媒体：exercises-dataset（JPG + GIF 双轨） vs yuhonas/free-exercise-db（仅静态图） vs wger（图片） vs ExerciseDB ASCENDAPI（GIF/CDN）</li>
+<li>License：exercises-dataset（MIT + 媒体另授权） vs yuhonas/free-exercise-db（Unlicense 公域） vs wger（AGPL） vs ExerciseDB ASCENDAPI（商用付费）</li>
+<li>部署：exercises-dataset（零依赖 / <code>file://</code> 可开） vs yuhonas/free-exercise-db（零依赖） vs wger（需 Django + 翻译 pipeline） vs ExerciseDB ASCENDAPI（SaaS）</li>
+<li>接入时效：exercises-dataset（5 分钟） vs yuhonas/free-exercise-db（5 分钟） vs wger（数小时） vs ExerciseDB ASCENDAPI（数分钟按量付费）</li>
+<li>集成生态：exercises-dataset（setup.html + LLM prompt） vs yuhonas/free-exercise-db（多 fork 镜像） vs wger（REST + Python SDK） vs ExerciseDB ASCENDAPI（REST + 限流友好）</li>
+</ul>
+<h3>差异化护城河</h3>
+<ol>
+<li><strong>多语言广覆盖</strong>：9 语言 instruction 全填（包含土耳其语等新兴市场），竞品要么无 i18n 要么运维代价重。</li>
+<li><strong>Plug-and-play 极致简单</strong>：从 clone 到接进 App 的摩擦最低；yuhonas 要自己找 GIF，wger 要自己跑 Django。</li>
+<li><strong>AI 友好 setup.html</strong>：其他家都没有 ——「让 LLM 一次性产出后端」的能力对 2025 后的小团队开发很关键。</li>
+<li><strong>LogPress 商业 App 背书</strong>：dogfooding 证明 1,324 动作真的够撑起一个商用健身追踪 App。</li>
+</ol>
+<h3>竞争风险</h3>
+<ul>
+<li><strong>合规争议未关闭</strong>：issue #3「Copyright issues?」仍 open，issue #5「re-host ASCENDAPI」指控的阴影仍在。若 Gym visual 授权链条断裂，整个 media 库可能被迫下架。</li>
+<li><strong>数据量级停滞</strong>：1,324 动作是 ASCENDAPI v1 量级（商业版 v2 已扩到数千），本项目目前依赖《gym visual / 历史 ASCENDAPI》一次性灌入，未见持续增量。</li>
+<li><strong>缺乏 CI 校验</strong>：<code>.github/workflows/</code> 不存在，schema / 语言完整性 / 资产数量都靠人肉，1324 GIF/1324 JPG 与 JSON 100% 对应的保证无法程序化验证。</li>
+<li><strong>schema/data 不一致</strong>：schema required 限定 6 语言（en/es/it/tr/ru/zh），数据实际有 9 语言（含 hi/pl/ko），严格 validator 会报错，需升级 schema。</li>
+</ul>
+<h3>生态定位</h3>
+<p>介于 <strong>「yuhonas 公域简洁」</strong> 与 <strong>「wger 全栈重平台」</strong> 之间的 <strong>「中量级、多语言、开发者友好、AI 引导型」</strong> 数据集层——最适合<strong>想做多市场健身 App 但不想 / 不能自建后端的中小开发者</strong>，定位为商业 App 的「数据中间件」而非「健身平台」。</p>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：合规争议未关闭 + 数据来源仍有疑问 → 任何「重新做同题材、首发即声明清楚 media 来源 + 自有授权 + schema 严格」的下场项目都有空间填充信任空白。</li>
+<li><strong>技术借鉴</strong>：「Plug-and-play 四件套」+「AI 友好 setup.html prompt builder」是<strong>任何 OSS 数据集都可借鉴</strong>的最佳实践模板，比花哨的技术栈更能拿到 star。</li>
+<li><strong>生态位</strong>：健身 App 数据层是个高频刚需、但供给稀薄（公域选项少且小、付费选项贵、重选项运维重）。这是个人开发者可以单点打穿的细分。</li>
+<li><strong>趋势判断</strong>：本地优先（offline-first）+ 多语言本地化 + AI 辅助集成都是正确方向。但数据规模停滞 + 无版本化（无 tag/release）是隐忧，长期竞争力依赖「持续增量 + CI 校验 + 合规透明」。</li>
+</ul>
+<h2>风险与不足</h2>
+<ul>
+<li><strong>合规透明度不足</strong>：issue #5 的 ASCENDAPI re-host 指控在 README 中没有正面回应；<code>NOTICE.md</code> 与 <code>LICENSE</code> 切换为「© Gym visual」是聪明的合规加固，但作者未公开声明这背后的「为什么切换」，对潜在用户（尤其商用 App 团队）的尽调不友好。</li>
+<li><strong>数据来源单点</strong>：媒体 100% 来自 Gym visual 一家授权，无冗余；若合作终止（参考 issue #33「自制内容已撤」），1,324 GIF 可能集体失效。</li>
+<li><strong>版本化缺失</strong>：无 tag、无 release，所有下游必须 pin commit hash 才能保证确定性消费；这种 main-only 模式对想要锁定版本的企业用户不友好。</li>
+<li><strong>CDN 历史依赖未清理</strong>：部分 issue（#21、#26）暗示 README 中仍残留指向 <code>static.exercisedb.dev</code> 等外部 CDN 的指引，本次提交虽已改为本地相对路径，可能仍有未尽。</li>
+<li><strong>schema 与 data 漂移</strong>：JSON Schema 6 required 与实际 9 语言不匹配，严格集成方做 CI 校验时会报错。</li>
+</ul>
+<h2>行动建议</h2>
+<h3>如果你要用它</h3>
+<ul>
+<li><strong>接入顺序</strong>：clone → 解压 → 把 <code>data/exercises.json</code> 灌进 DB（用 <code>setup.html</code> 生成的 SQL）→ 把 <code>images/</code> + <code>videos/</code> 放到 CDN 或对象存储 → 在 App 端按 <code>id</code> 拉取。</li>
+<li><strong>适合场景</strong>：中小团队 / 个人开发者的多市场健身 / 训练 / 康复 App；不适合生产规模需要实时同步 / 数万动作 / 版权完备审计的大型商用项目。</li>
+<li><strong>对比决策</strong>：要公域纯粹选 yuhonas（~800 动作、Unlicense、可商用）；要完整平台选 wger（30+ 语言、有 REST）；要 SaaS 省心选 ASCENDAPI（按量付费）；要 <strong>多语言 + GIF + 5 分钟接入 + AI 引导</strong> 选本项目。</li>
+</ul>
+<h3>如果你要学它</h3>
+<ul>
+<li><strong>重点关注</strong>：
+<ol>
+<li><code>setup.html</code> 的 <code>Ask Your LLM</code> prompt builder 实现 —— 这是「AI 友好文档」的范本</li>
+<li><code>data/exercises.schema.json</code> 的 <code>$defs</code> 抽象（languageMap / languageStepsMap）</li>
+<li><code>index.html</code> 的「单文件 inline 浏览器」思路（适合 < 50 MB 数据集）</li>
+<li>JSON 名 <code>attribution</code> 字段的「每条记录都声明来源」合规模式</li>
+</ol></li>
+<li><strong>少关注</strong>：6 个 git commit（一次性灌入型历史没什么可学的）</li>
+</ul>
+<h3>如果你要 fork 它</h3>
+<ul>
+<li><strong>可改进方向</strong>：
+<ol>
+<li><strong>加 CI</strong>：用 GitHub Actions 自动校验 (a) JSON Schema 合规 (b) 语言完整性 9/9 (c) assets 数量 = json 长度 (d) <code>instruction_steps[lang].join(' ') == instructions[lang]</code> 确定性</li>
+<li><strong>加版本化</strong>：用 SemVer tag（如 v1.0.0）+ GitHub Release Notes，让下游能 pin</li>
+<li><strong>完善 README 合规段</strong>：在 README 头部明示「data 来源说明 + media 来源说明 + 为什么从 ASCENDAPI 时代切换到 Gym visual」，主动回应 issue #5</li>
+<li><strong>schema 升级</strong>：把 <code>required</code> 从 6 语言升到 9（en/es/it/tr/ru/zh/hi/pl/ko）</li>
+<li><strong>动作增量 + 持续维护</strong>：每月新增 / 替换 / 退役动作，建立 commit 模板（feature-add / data-fix / i18n-add）</li>
+</ol></li>
+</ul>
+<h3>知识入口</h3>
+<ul>
+<li>DeepWiki：<a href="https://deepwiki.com/hasaneyldrm/exercises-dataset">hasaneyldrm/exercises-dataset</a></li>
+<li>Zread.ai：未收录</li>
+<li>关联论文：无（产品驱动数据集，非研究产出）</li>
+<li>在线 Demo：<a href="https://raw.githubusercontent.com/hasaneyldrm/exercises-dataset/main/index.html">index.html（浏览器，开箱即用）</a></li>
+<li>配套 App：<a href="https://github.com/hasaneyldrm/logpress-public">hasaneyldrm/logpress-public</a>（RN 健身追踪 App 数据消费方）</li>
+</ul>
+</body>
+</html>

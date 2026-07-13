@@ -1607,6 +1607,9 @@ entries:
   - ai-coding
   - devtools
   - protocol-spec
+  pingdotgg_t3code:
+  - ai-agent
+  - ai-coding
   pixelguys_cubyz:
   - protocol-spec
   pkuflyingpig_cs-self-learning:

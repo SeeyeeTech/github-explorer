@@ -220,6 +220,16 @@
     "trending_days": 22
   },
   {
+    "name": "Shubhamsaboo/awesome-llm-apps",
+    "url": "https://github.com/shubhamsaboo/awesome-llm-apps",
+    "language": "Python",
+    "stars": 119237,
+    "forks": 17711,
+    "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+    "last_seen": "2026-07-13",
+    "trending_days": 21
+  },
+  {
     "name": "GibsonAI/Memori",
     "url": "https://github.com/gibsonai/memori",
     "language": "Python",
@@ -227,16 +237,6 @@
     "forks": 626,
     "description": "Open-Source Memory Engine for LLMs, AI Agents & Multi-Agent Systems",
     "last_seen": "2025-12-02",
-    "trending_days": 20
-  },
-  {
-    "name": "Shubhamsaboo/awesome-llm-apps",
-    "url": "https://github.com/shubhamsaboo/awesome-llm-apps",
-    "language": "Python",
-    "stars": 118205,
-    "forks": 17587,
-    "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
-    "last_seen": "2026-07-12",
     "trending_days": 20
   },
   {
@@ -500,6 +500,16 @@
     "trending_days": 12
   },
   {
+    "name": "moeru-ai/airi",
+    "url": "https://github.com/moeru-ai/airi",
+    "language": "TypeScript",
+    "stars": 41691,
+    "forks": 4182,
+    "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+    "last_seen": "2026-07-13",
+    "trending_days": 12
+  },
+  {
     "name": "openclaw/openclaw",
     "url": "https://github.com/openclaw/openclaw",
     "language": "TypeScript",
@@ -597,16 +607,6 @@
     "forks": 1148,
     "description": "Free, local, open-source 24/7 Cowork and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!",
     "last_seen": "2026-02-12",
-    "trending_days": 11
-  },
-  {
-    "name": "moeru-ai/airi",
-    "url": "https://github.com/moeru-ai/airi",
-    "language": "TypeScript",
-    "stars": 40068,
-    "forks": 4042,
-    "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
-    "last_seen": "2026-05-27",
     "trending_days": 11
   },
   {
@@ -1100,6 +1100,16 @@
     "trending_days": 8
   },
   {
+    "name": "HKUDS/Vibe-Trading",
+    "url": "https://github.com/hkuds/vibe-trading",
+    "language": "Python",
+    "stars": 21267,
+    "forks": 3690,
+    "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+    "last_seen": "2026-07-13",
+    "trending_days": 8
+  },
+  {
     "name": "jamiepine/voicebox",
     "url": "https://github.com/jamiepine/voicebox",
     "language": "TypeScript",
@@ -1147,6 +1157,16 @@
     "forks": 16078,
     "description": "Protocol Buffers - Google's data interchange format",
     "last_seen": "2026-03-21",
+    "trending_days": 8
+  },
+  {
+    "name": "Raphire/Win11Debloat",
+    "url": "https://github.com/raphire/win11debloat",
+    "language": "PowerShell",
+    "stars": 50554,
+    "forks": 2038,
+    "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
+    "last_seen": "2026-07-13",
     "trending_days": 8
   },
   {
@@ -1280,16 +1300,6 @@
     "trending_days": 7
   },
   {
-    "name": "HKUDS/Vibe-Trading",
-    "url": "https://github.com/hkuds/vibe-trading",
-    "language": "Python",
-    "stars": 20039,
-    "forks": 3525,
-    "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-    "last_seen": "2026-07-12",
-    "trending_days": 7
-  },
-  {
     "name": "huggingface/skills",
     "url": "https://github.com/huggingface/skills",
     "language": "Python",
@@ -1377,16 +1387,6 @@
     "forks": 3373,
     "description": "Penpot: The open-source design tool for design and code collaboration",
     "last_seen": "2026-06-22",
-    "trending_days": 7
-  },
-  {
-    "name": "Raphire/Win11Debloat",
-    "url": "https://github.com/raphire/win11debloat",
-    "language": "PowerShell",
-    "stars": 47838,
-    "forks": 1931,
-    "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
-    "last_seen": "2026-06-15",
     "trending_days": 7
   },
   {
@@ -2820,6 +2820,16 @@
     "trending_days": 4
   },
   {
+    "name": "github/spec-kit",
+    "url": "https://github.com/github/spec-kit",
+    "language": "Python",
+    "stars": 120299,
+    "forks": 10669,
+    "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+    "last_seen": "2026-07-13",
+    "trending_days": 4
+  },
+  {
     "name": "google-ai-edge/gallery",
     "url": "https://github.com/google-ai-edge/gallery",
     "language": "Kotlin",
@@ -3660,6 +3670,16 @@
     "trending_days": 3
   },
   {
+    "name": "coreyhaines31/marketingskills",
+    "url": "https://github.com/coreyhaines31/marketingskills",
+    "language": "JavaScript",
+    "stars": 38155,
+    "forks": 6135,
+    "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+    "last_seen": "2026-07-13",
+    "trending_days": 3
+  },
+  {
     "name": "cypress-io/cypress",
     "url": "https://github.com/cypress-io/cypress",
     "language": "TypeScript",
@@ -3880,16 +3900,6 @@
     "trending_days": 3
   },
   {
-    "name": "github/spec-kit",
-    "url": "https://github.com/github/spec-kit",
-    "language": "Python",
-    "stars": 108318,
-    "forks": 9582,
-    "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-    "last_seen": "2026-06-04",
-    "trending_days": 3
-  },
-  {
     "name": "google/magika",
     "url": "https://github.com/google/magika",
     "language": "Python",
@@ -3927,6 +3937,16 @@
     "forks": 72,
     "description": "N64 Game-Engine and Editor using libdragon & tiny3d",
     "last_seen": "2026-02-20",
+    "trending_days": 3
+  },
+  {
+    "name": "hasaneyldrm/exercises-dataset",
+    "url": "https://github.com/hasaneyldrm/exercises-dataset",
+    "language": "HTML",
+    "stars": 12284,
+    "forks": 1441,
+    "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
+    "last_seen": "2026-07-13",
     "trending_days": 3
   },
   {
@@ -5340,16 +5360,6 @@
     "trending_days": 2
   },
   {
-    "name": "coreyhaines31/marketingskills",
-    "url": "https://github.com/coreyhaines31/marketingskills",
-    "language": "JavaScript",
-    "stars": 36186,
-    "forks": 5883,
-    "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-    "last_seen": "2026-07-05",
-    "trending_days": 2
-  },
-  {
     "name": "coze-dev/coze-studio",
     "url": "https://github.com/coze-dev/coze-studio",
     "language": "TypeScript",
@@ -5447,6 +5457,16 @@
     "forks": 956,
     "description": "FlashMLA: Efficient Multi-head Latent Attention Kernels",
     "last_seen": "2026-01-23",
+    "trending_days": 2
+  },
+  {
+    "name": "Dicklesworthstone/destructive_command_guard",
+    "url": "https://github.com/dicklesworthstone/destructive_command_guard",
+    "language": "Rust",
+    "stars": 3650,
+    "forks": 133,
+    "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+    "last_seen": "2026-07-13",
     "trending_days": 2
   },
   {
@@ -5807,16 +5827,6 @@
     "forks": 4342,
     "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
     "last_seen": "2026-04-13",
-    "trending_days": 2
-  },
-  {
-    "name": "hasaneyldrm/exercises-dataset",
-    "url": "https://github.com/hasaneyldrm/exercises-dataset",
-    "language": "HTML",
-    "stars": 8928,
-    "forks": 1000,
-    "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
-    "last_seen": "2026-07-02",
     "trending_days": 2
   },
   {
@@ -6457,6 +6467,16 @@
     "forks": 7978,
     "description": "stb single-file public domain libraries for C/C++",
     "last_seen": "2026-01-09",
+    "trending_days": 2
+  },
+  {
+    "name": "Nutlope/hallmark",
+    "url": "https://github.com/nutlope/hallmark",
+    "language": "CSS",
+    "stars": 4767,
+    "forks": 265,
+    "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "last_seen": "2026-07-13",
     "trending_days": 2
   },
   {
@@ -7980,16 +8000,6 @@
     "trending_days": 1
   },
   {
-    "name": "Dicklesworthstone/destructive_command_guard",
-    "url": "https://github.com/dicklesworthstone/destructive_command_guard",
-    "language": "Rust",
-    "stars": 2318,
-    "forks": 87,
-    "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
-    "last_seen": "2026-07-12",
-    "trending_days": 1
-  },
-  {
     "name": "dimensionalOS/dimos",
     "url": "https://github.com/dimensionalos/dimos",
     "language": "Python",
@@ -8567,6 +8577,16 @@
     "forks": 14115,
     "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.",
     "last_seen": "2026-06-26",
+    "trending_days": 1
+  },
+  {
+    "name": "Graphify-Labs/graphify",
+    "url": "https://github.com/graphify-labs/graphify",
+    "language": "Python",
+    "stars": 83914,
+    "forks": 8280,
+    "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+    "last_seen": "2026-07-13",
     "trending_days": 1
   },
   {
@@ -9650,16 +9670,6 @@
     "trending_days": 1
   },
   {
-    "name": "Nutlope/hallmark",
-    "url": "https://github.com/nutlope/hallmark",
-    "language": "CSS",
-    "stars": 3926,
-    "forks": 238,
-    "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-    "last_seen": "2026-07-12",
-    "trending_days": 1
-  },
-  {
     "name": "nuxt/nuxt",
     "url": "https://github.com/nuxt/nuxt",
     "language": "TypeScript",
@@ -9767,6 +9777,16 @@
     "forks": 118,
     "description": "🌤️This is the main repository of the OpenCloud server. It contains the golang codebase for the backend services.",
     "last_seen": "2025-11-11",
+    "trending_days": 1
+  },
+  {
+    "name": "OpenCut-app/OpenCut",
+    "url": "https://github.com/opencut-app/opencut",
+    "language": "TypeScript",
+    "stars": 64579,
+    "forks": 6902,
+    "description": "The open-source CapCut alternative",
+    "last_seen": "2026-07-13",
     "trending_days": 1
   },
   {

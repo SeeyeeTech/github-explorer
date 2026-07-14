@@ -455,6 +455,10 @@ entries:
   - ai-coding
   - llm-framework
   - protocol-spec
+  coreyhaines31_marketingskills:
+  - ai-agent
+  - devtools
+  - security
   crewaiinc_crewai:
   - ai-agent
   crosstalk-solutions_project-nomad:
@@ -837,6 +841,8 @@ entries:
   - devtools
   - education
   - iot-hardware
+  hasaneyldrm_exercises-dataset:
+  - data-pipeline
   hashicorp_terraform:
   - database
   - protocol-spec

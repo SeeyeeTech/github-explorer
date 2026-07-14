@@ -190,6 +190,16 @@
     "trending_days": 22
   },
   {
+    "name": "Shubhamsaboo/awesome-llm-apps",
+    "url": "https://github.com/shubhamsaboo/awesome-llm-apps",
+    "language": "Python",
+    "stars": 120269,
+    "forks": 17828,
+    "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+    "last_seen": "2026-07-14",
+    "trending_days": 22
+  },
+  {
     "name": "traefik/traefik",
     "url": "https://github.com/traefik/traefik",
     "language": "Go",
@@ -220,16 +230,6 @@
     "trending_days": 22
   },
   {
-    "name": "Shubhamsaboo/awesome-llm-apps",
-    "url": "https://github.com/shubhamsaboo/awesome-llm-apps",
-    "language": "Python",
-    "stars": 119237,
-    "forks": 17711,
-    "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
-    "last_seen": "2026-07-13",
-    "trending_days": 21
-  },
-  {
     "name": "GibsonAI/Memori",
     "url": "https://github.com/gibsonai/memori",
     "language": "Python",
@@ -237,6 +237,16 @@
     "forks": 626,
     "description": "Open-Source Memory Engine for LLMs, AI Agents & Multi-Agent Systems",
     "last_seen": "2025-12-02",
+    "trending_days": 20
+  },
+  {
+    "name": "virattt/ai-hedge-fund",
+    "url": "https://github.com/virattt/ai-hedge-fund",
+    "language": "Python",
+    "stars": 61682,
+    "forks": 10896,
+    "description": "An AI Hedge Fund Team",
+    "last_seen": "2026-07-14",
     "trending_days": 20
   },
   {
@@ -250,16 +260,6 @@
     "trending_days": 19
   },
   {
-    "name": "virattt/ai-hedge-fund",
-    "url": "https://github.com/virattt/ai-hedge-fund",
-    "language": "Python",
-    "stars": 61223,
-    "forks": 10837,
-    "description": "An AI Hedge Fund Team",
-    "last_seen": "2026-07-12",
-    "trending_days": 19
-  },
-  {
     "name": "ChromeDevTools/chrome-devtools-mcp",
     "url": "https://github.com/chromedevtools/chrome-devtools-mcp",
     "language": "TypeScript",
@@ -267,6 +267,16 @@
     "forks": 2969,
     "description": "Chrome DevTools for coding agents",
     "last_seen": "2026-07-04",
+    "trending_days": 18
+  },
+  {
+    "name": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "language": "Shell",
+    "stars": 169397,
+    "forks": 14584,
+    "description": "Skills for Real Engineers. Straight from my .claude directory.",
+    "last_seen": "2026-07-14",
     "trending_days": 18
   },
   {
@@ -278,16 +288,6 @@
     "description": "Open-Source Frontier Voice AI",
     "last_seen": "2026-04-29",
     "trending_days": 18
-  },
-  {
-    "name": "mattpocock/skills",
-    "url": "https://github.com/mattpocock/skills",
-    "language": "Shell",
-    "stars": 164033,
-    "forks": 14115,
-    "description": "Skills for Real Engineers. Straight from my .claude directory.",
-    "last_seen": "2026-07-10",
-    "trending_days": 17
   },
   {
     "name": "abhigyanpatwari/GitNexus",
@@ -890,6 +890,16 @@
     "trending_days": 9
   },
   {
+    "name": "HKUDS/Vibe-Trading",
+    "url": "https://github.com/hkuds/vibe-trading",
+    "language": "Python",
+    "stars": 22442,
+    "forks": 3854,
+    "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+    "last_seen": "2026-07-14",
+    "trending_days": 9
+  },
+  {
     "name": "jwasham/coding-interview-university",
     "url": "https://github.com/jwasham/coding-interview-university",
     "language": "Unknown",
@@ -957,6 +967,16 @@
     "forks": 10641,
     "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
     "last_seen": "2026-06-06",
+    "trending_days": 9
+  },
+  {
+    "name": "Raphire/Win11Debloat",
+    "url": "https://github.com/raphire/win11debloat",
+    "language": "PowerShell",
+    "stars": 51285,
+    "forks": 2105,
+    "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
+    "last_seen": "2026-07-14",
     "trending_days": 9
   },
   {
@@ -1100,16 +1120,6 @@
     "trending_days": 8
   },
   {
-    "name": "HKUDS/Vibe-Trading",
-    "url": "https://github.com/hkuds/vibe-trading",
-    "language": "Python",
-    "stars": 21267,
-    "forks": 3690,
-    "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-    "last_seen": "2026-07-13",
-    "trending_days": 8
-  },
-  {
     "name": "jamiepine/voicebox",
     "url": "https://github.com/jamiepine/voicebox",
     "language": "TypeScript",
@@ -1150,6 +1160,16 @@
     "trending_days": 8
   },
   {
+    "name": "penpot/penpot",
+    "url": "https://github.com/penpot/penpot",
+    "language": "Clojure",
+    "stars": 55919,
+    "forks": 3676,
+    "description": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
+    "last_seen": "2026-07-14",
+    "trending_days": 8
+  },
+  {
     "name": "protocolbuffers/protobuf",
     "url": "https://github.com/protocolbuffers/protobuf",
     "language": "C++",
@@ -1157,16 +1177,6 @@
     "forks": 16078,
     "description": "Protocol Buffers - Google's data interchange format",
     "last_seen": "2026-03-21",
-    "trending_days": 8
-  },
-  {
-    "name": "Raphire/Win11Debloat",
-    "url": "https://github.com/raphire/win11debloat",
-    "language": "PowerShell",
-    "stars": 50554,
-    "forks": 2038,
-    "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
-    "last_seen": "2026-07-13",
     "trending_days": 8
   },
   {
@@ -1377,16 +1387,6 @@
     "forks": 1517,
     "description": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
     "last_seen": "2026-01-03",
-    "trending_days": 7
-  },
-  {
-    "name": "penpot/penpot",
-    "url": "https://github.com/penpot/penpot",
-    "language": "Clojure",
-    "stars": 52694,
-    "forks": 3373,
-    "description": "Penpot: The open-source design tool for design and code collaboration",
-    "last_seen": "2026-06-22",
     "trending_days": 7
   },
   {
@@ -2900,6 +2900,16 @@
     "trending_days": 4
   },
   {
+    "name": "hasaneyldrm/exercises-dataset",
+    "url": "https://github.com/hasaneyldrm/exercises-dataset",
+    "language": "HTML",
+    "stars": 13082,
+    "forks": 1544,
+    "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
+    "last_seen": "2026-07-14",
+    "trending_days": 4
+  },
+  {
     "name": "hesreallyhim/awesome-claude-code",
     "url": "https://github.com/hesreallyhim/awesome-claude-code",
     "language": "Python",
@@ -3770,6 +3780,16 @@
     "trending_days": 3
   },
   {
+    "name": "Dicklesworthstone/destructive_command_guard",
+    "url": "https://github.com/dicklesworthstone/destructive_command_guard",
+    "language": "Rust",
+    "stars": 4079,
+    "forks": 153,
+    "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+    "last_seen": "2026-07-14",
+    "trending_days": 3
+  },
+  {
     "name": "Donchitos/Claude-Code-Game-Studios",
     "url": "https://github.com/donchitos/claude-code-game-studios",
     "language": "Shell",
@@ -3937,16 +3957,6 @@
     "forks": 72,
     "description": "N64 Game-Engine and Editor using libdragon & tiny3d",
     "last_seen": "2026-02-20",
-    "trending_days": 3
-  },
-  {
-    "name": "hasaneyldrm/exercises-dataset",
-    "url": "https://github.com/hasaneyldrm/exercises-dataset",
-    "language": "HTML",
-    "stars": 12284,
-    "forks": 1441,
-    "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
-    "last_seen": "2026-07-13",
     "trending_days": 3
   },
   {
@@ -4297,6 +4307,16 @@
     "forks": 4496,
     "description": "🔥 🔥 🔥 Open Source Airtable Alternative",
     "last_seen": "2026-01-04",
+    "trending_days": 3
+  },
+  {
+    "name": "Nutlope/hallmark",
+    "url": "https://github.com/nutlope/hallmark",
+    "language": "CSS",
+    "stars": 5734,
+    "forks": 332,
+    "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "last_seen": "2026-07-14",
     "trending_days": 3
   },
   {
@@ -5460,16 +5480,6 @@
     "trending_days": 2
   },
   {
-    "name": "Dicklesworthstone/destructive_command_guard",
-    "url": "https://github.com/dicklesworthstone/destructive_command_guard",
-    "language": "Rust",
-    "stars": 3650,
-    "forks": 133,
-    "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
-    "last_seen": "2026-07-13",
-    "trending_days": 2
-  },
-  {
     "name": "diegosouzapw/OmniRoute",
     "url": "https://github.com/diegosouzapw/omniroute",
     "language": "TypeScript",
@@ -5817,6 +5827,16 @@
     "forks": 1491,
     "description": "A modern download manager that supports all platforms. Built with Golang and Flutter.",
     "last_seen": "2025-11-08",
+    "trending_days": 2
+  },
+  {
+    "name": "Graphify-Labs/graphify",
+    "url": "https://github.com/graphify-labs/graphify",
+    "language": "Python",
+    "stars": 85621,
+    "forks": 8440,
+    "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+    "last_seen": "2026-07-14",
     "trending_days": 2
   },
   {
@@ -6470,16 +6490,6 @@
     "trending_days": 2
   },
   {
-    "name": "Nutlope/hallmark",
-    "url": "https://github.com/nutlope/hallmark",
-    "language": "CSS",
-    "stars": 4767,
-    "forks": 265,
-    "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-    "last_seen": "2026-07-13",
-    "trending_days": 2
-  },
-  {
     "name": "NVIDIA-AI-Blueprints/video-search-and-summarization",
     "url": "https://github.com/nvidia-ai-blueprints/video-search-and-summarization",
     "language": "Python",
@@ -6600,6 +6610,16 @@
     "trending_days": 2
   },
   {
+    "name": "OpenCut-app/OpenCut",
+    "url": "https://github.com/opencut-app/opencut",
+    "language": "TypeScript",
+    "stars": 68576,
+    "forks": 7158,
+    "description": "The open-source CapCut alternative",
+    "last_seen": "2026-07-14",
+    "trending_days": 2
+  },
+  {
     "name": "opencv/opencv",
     "url": "https://github.com/opencv/opencv",
     "language": "C++",
@@ -6647,6 +6667,16 @@
     "forks": 2346,
     "description": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
     "last_seen": "2026-06-20",
+    "trending_days": 2
+  },
+  {
+    "name": "par274/sharpemu",
+    "url": "https://github.com/par274/sharpemu",
+    "language": "C#",
+    "stars": 1799,
+    "forks": 113,
+    "description": "An experimental PlayStation 5 emulator project.",
+    "last_seen": "2026-07-14",
     "trending_days": 2
   },
   {
@@ -7370,6 +7400,16 @@
     "trending_days": 1
   },
   {
+    "name": "AIEraDev/Clypra",
+    "url": "https://github.com/aieradev/clypra",
+    "language": "TypeScript",
+    "stars": 2449,
+    "forks": 270,
+    "description": "A modern video editor built with Tauri, React, and TypeScript. Focus on building free capabilities of premium capcut functionalities",
+    "last_seen": "2026-07-14",
+    "trending_days": 1
+  },
+  {
     "name": "aishwaryanr/awesome-generative-ai-guide",
     "url": "https://github.com/aishwaryanr/awesome-generative-ai-guide",
     "language": "HTML",
@@ -7737,6 +7777,16 @@
     "forks": 2848,
     "description": "A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.",
     "last_seen": "2026-07-12",
+    "trending_days": 1
+  },
+  {
+    "name": "chenyme/grok2api",
+    "url": "https://github.com/chenyme/grok2api",
+    "language": "Go",
+    "stars": 5746,
+    "forks": 1917,
+    "description": "面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关",
+    "last_seen": "2026-07-14",
     "trending_days": 1
   },
   {
@@ -8580,16 +8630,6 @@
     "trending_days": 1
   },
   {
-    "name": "Graphify-Labs/graphify",
-    "url": "https://github.com/graphify-labs/graphify",
-    "language": "Python",
-    "stars": 83914,
-    "forks": 8280,
-    "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
-    "last_seen": "2026-07-13",
-    "trending_days": 1
-  },
-  {
     "name": "Greedeks/GTweak",
     "url": "https://github.com/greedeks/gtweak",
     "language": "C#",
@@ -8667,6 +8707,16 @@
     "forks": 637,
     "description": "使用小爱音箱播放音乐，音乐使用 yt-dlp 下载。",
     "last_seen": "2025-11-01",
+    "trending_days": 1
+  },
+  {
+    "name": "HenryNdubuaku/maths-cs-ai-compendium",
+    "url": "https://github.com/henryndubuaku/maths-cs-ai-compendium",
+    "language": "TypeScript",
+    "stars": 4913,
+    "forks": 674,
+    "description": "Become a cracked AI/ML Research Engineer",
+    "last_seen": "2026-07-14",
     "trending_days": 1
   },
   {
@@ -9780,16 +9830,6 @@
     "trending_days": 1
   },
   {
-    "name": "OpenCut-app/OpenCut",
-    "url": "https://github.com/opencut-app/opencut",
-    "language": "TypeScript",
-    "stars": 64579,
-    "forks": 6902,
-    "description": "The open-source CapCut alternative",
-    "last_seen": "2026-07-13",
-    "trending_days": 1
-  },
-  {
     "name": "OpenMind/OM1",
     "url": "https://github.com/openmind/om1",
     "language": "Python",
@@ -9897,16 +9937,6 @@
     "forks": 5954,
     "description": "PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署）",
     "last_seen": "2026-02-28",
-    "trending_days": 1
-  },
-  {
-    "name": "par274/sharpemu",
-    "url": "https://github.com/par274/sharpemu",
-    "language": "C#",
-    "stars": 984,
-    "forks": 61,
-    "description": "An experimental PlayStation 5 emulator project.",
-    "last_seen": "2026-07-12",
     "trending_days": 1
   },
   {

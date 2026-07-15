@@ -1,57 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-07-14",
+    "last_run": "2026-07-15",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/shiyu-coder/kronos",
-      "canonical_url": "https://github.com/shiyu-coder/Kronos",
-      "event_date": "2026-06-14",
-      "date_seen": "2026-06-14"
-    },
-    {
-      "key": "github.com/huggingface/serge",
-      "canonical_url": "https://github.com/huggingface/serge",
-      "event_date": "2026-06-14",
-      "date_seen": "2026-06-14"
-    },
-    {
-      "key": "github.com/huggingface/optimum-intel",
-      "canonical_url": "https://github.com/huggingface/optimum-intel",
-      "event_date": "2026-06-14",
-      "date_seen": "2026-06-14"
-    },
-    {
-      "key": "hf:coherelabs/north-mini-code-1.0",
-      "canonical_url": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0",
-      "event_date": "2026-06-14",
-      "date_seen": "2026-06-14"
-    },
-    {
-      "key": "github.com/charmbracelet/vhs",
-      "canonical_url": "https://github.com/charmbracelet/vhs",
-      "event_date": "2026-06-14",
-      "date_seen": "2026-06-14"
-    },
-    {
-      "key": "github.com/tamnd/ascii-gif",
-      "canonical_url": "https://github.com/tamnd/ascii-gif",
-      "event_date": "2026-06-14",
-      "date_seen": "2026-06-14"
-    },
-    {
-      "key": "github.com/deepseek-ai/deepseek-v3",
-      "canonical_url": "https://github.com/deepseek-ai/deepseek-v3",
-      "event_date": "2026-06-14",
-      "date_seen": "2026-06-14"
-    },
-    {
-      "key": "github.com/pytorch/pytorch",
-      "canonical_url": "https://github.com/pytorch/pytorch",
-      "event_date": "2026-06-14",
-      "date_seen": "2026-06-14"
-    },
     {
       "key": "github.com/trycua/cua",
       "canonical_url": "https://github.com/trycua/cua",
@@ -1155,6 +1107,18 @@
       "canonical_url": "https://seeyeetech.com/github-explorer/reports/garrytan_gstack",
       "event_date": "2026-07-14",
       "date_seen": "2026-07-14"
+    },
+    {
+      "key": "github.com/openinterpreter/openinterpreter",
+      "canonical_url": "https://github.com/openinterpreter/openinterpreter",
+      "event_date": "2026-07-15",
+      "date_seen": "2026-07-15"
+    },
+    {
+      "key": "github.com/hkuds/deeptutor",
+      "canonical_url": "https://github.com/hkuds/deeptutor",
+      "event_date": "2026-07-15",
+      "date_seen": "2026-07-15"
     }
   ]
 }

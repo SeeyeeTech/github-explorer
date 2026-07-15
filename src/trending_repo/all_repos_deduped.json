@@ -130,6 +130,16 @@
     "trending_days": 23
   },
   {
+    "name": "Shubhamsaboo/awesome-llm-apps",
+    "url": "https://github.com/shubhamsaboo/awesome-llm-apps",
+    "language": "Python",
+    "stars": 121533,
+    "forks": 17953,
+    "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+    "last_seen": "2026-07-15",
+    "trending_days": 23
+  },
+  {
     "name": "thedotmack/claude-mem",
     "url": "https://github.com/thedotmack/claude-mem",
     "language": "TypeScript",
@@ -190,16 +200,6 @@
     "trending_days": 22
   },
   {
-    "name": "Shubhamsaboo/awesome-llm-apps",
-    "url": "https://github.com/shubhamsaboo/awesome-llm-apps",
-    "language": "Python",
-    "stars": 120269,
-    "forks": 17828,
-    "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
-    "last_seen": "2026-07-14",
-    "trending_days": 22
-  },
-  {
     "name": "traefik/traefik",
     "url": "https://github.com/traefik/traefik",
     "language": "Go",
@@ -250,6 +250,16 @@
     "trending_days": 20
   },
   {
+    "name": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "language": "Shell",
+    "stars": 171526,
+    "forks": 14738,
+    "description": "Skills for Real Engineers. Straight from my .claude directory.",
+    "last_seen": "2026-07-15",
+    "trending_days": 19
+  },
+  {
     "name": "ruvnet/RuView",
     "url": "https://github.com/ruvnet/ruview",
     "language": "Rust",
@@ -267,16 +277,6 @@
     "forks": 2969,
     "description": "Chrome DevTools for coding agents",
     "last_seen": "2026-07-04",
-    "trending_days": 18
-  },
-  {
-    "name": "mattpocock/skills",
-    "url": "https://github.com/mattpocock/skills",
-    "language": "Shell",
-    "stars": 169397,
-    "forks": 14584,
-    "description": "Skills for Real Engineers. Straight from my .claude directory.",
-    "last_seen": "2026-07-14",
     "trending_days": 18
   },
   {
@@ -460,6 +460,16 @@
     "trending_days": 13
   },
   {
+    "name": "moeru-ai/airi",
+    "url": "https://github.com/moeru-ai/airi",
+    "language": "TypeScript",
+    "stars": 42323,
+    "forks": 4238,
+    "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+    "last_seen": "2026-07-15",
+    "trending_days": 13
+  },
+  {
     "name": "usestrix/strix",
     "url": "https://github.com/usestrix/strix",
     "language": "Python",
@@ -497,16 +507,6 @@
     "forks": 3373,
     "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
     "last_seen": "2026-07-12",
-    "trending_days": 12
-  },
-  {
-    "name": "moeru-ai/airi",
-    "url": "https://github.com/moeru-ai/airi",
-    "language": "TypeScript",
-    "stars": 41691,
-    "forks": 4182,
-    "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
-    "last_seen": "2026-07-13",
     "trending_days": 12
   },
   {
@@ -687,6 +687,16 @@
     "forks": 2339,
     "description": "None",
     "last_seen": "2026-06-24",
+    "trending_days": 10
+  },
+  {
+    "name": "HKUDS/Vibe-Trading",
+    "url": "https://github.com/hkuds/vibe-trading",
+    "language": "Python",
+    "stars": 23352,
+    "forks": 4000,
+    "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+    "last_seen": "2026-07-15",
     "trending_days": 10
   },
   {
@@ -887,16 +897,6 @@
     "forks": 13103,
     "description": "real time face swap and one-click video deepfake with only a single image",
     "last_seen": "2026-04-13",
-    "trending_days": 9
-  },
-  {
-    "name": "HKUDS/Vibe-Trading",
-    "url": "https://github.com/hkuds/vibe-trading",
-    "language": "Python",
-    "stars": 22442,
-    "forks": 3854,
-    "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-    "last_seen": "2026-07-14",
     "trending_days": 9
   },
   {
@@ -2130,6 +2130,16 @@
     "trending_days": 5
   },
   {
+    "name": "hasaneyldrm/exercises-dataset",
+    "url": "https://github.com/hasaneyldrm/exercises-dataset",
+    "language": "HTML",
+    "stars": 14029,
+    "forks": 1678,
+    "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
+    "last_seen": "2026-07-15",
+    "trending_days": 5
+  },
+  {
     "name": "hashicorp/vault",
     "url": "https://github.com/hashicorp/vault",
     "language": "Go",
@@ -2147,6 +2157,16 @@
     "forks": 3698,
     "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
     "last_seen": "2026-05-21",
+    "trending_days": 5
+  },
+  {
+    "name": "HKUDS/DeepTutor",
+    "url": "https://github.com/hkuds/deeptutor",
+    "language": "Python",
+    "stars": 26034,
+    "forks": 3547,
+    "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+    "last_seen": "2026-07-15",
     "trending_days": 5
   },
   {
@@ -2700,6 +2720,16 @@
     "trending_days": 4
   },
   {
+    "name": "coreyhaines31/marketingskills",
+    "url": "https://github.com/coreyhaines31/marketingskills",
+    "language": "JavaScript",
+    "stars": 39401,
+    "forks": 6287,
+    "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+    "last_seen": "2026-07-15",
+    "trending_days": 4
+  },
+  {
     "name": "danielmiessler/Personal_AI_Infrastructure",
     "url": "https://github.com/danielmiessler/personal_ai_infrastructure",
     "language": "TypeScript",
@@ -2717,6 +2747,16 @@
     "forks": 2800,
     "description": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code",
     "last_seen": "2025-12-16",
+    "trending_days": 4
+  },
+  {
+    "name": "Dicklesworthstone/destructive_command_guard",
+    "url": "https://github.com/dicklesworthstone/destructive_command_guard",
+    "language": "Rust",
+    "stars": 4577,
+    "forks": 171,
+    "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+    "last_seen": "2026-07-15",
     "trending_days": 4
   },
   {
@@ -2900,16 +2940,6 @@
     "trending_days": 4
   },
   {
-    "name": "hasaneyldrm/exercises-dataset",
-    "url": "https://github.com/hasaneyldrm/exercises-dataset",
-    "language": "HTML",
-    "stars": 13082,
-    "forks": 1544,
-    "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
-    "last_seen": "2026-07-14",
-    "trending_days": 4
-  },
-  {
     "name": "hesreallyhim/awesome-claude-code",
     "url": "https://github.com/hesreallyhim/awesome-claude-code",
     "language": "Python",
@@ -2917,16 +2947,6 @@
     "forks": 4265,
     "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
     "last_seen": "2026-07-07",
-    "trending_days": 4
-  },
-  {
-    "name": "HKUDS/DeepTutor",
-    "url": "https://github.com/hkuds/deeptutor",
-    "language": "Python",
-    "stars": 16356,
-    "forks": 2148,
-    "description": "\"DeepTutor: Agent-Native Personalized Learning Assistant\"",
-    "last_seen": "2026-04-11",
     "trending_days": 4
   },
   {
@@ -3210,6 +3230,16 @@
     "trending_days": 4
   },
   {
+    "name": "Nutlope/hallmark",
+    "url": "https://github.com/nutlope/hallmark",
+    "language": "CSS",
+    "stars": 6867,
+    "forks": 373,
+    "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "last_seen": "2026-07-15",
+    "trending_days": 4
+  },
+  {
     "name": "NVIDIA/SkillSpector",
     "url": "https://github.com/nvidia/skillspector",
     "language": "Python",
@@ -3427,6 +3457,16 @@
     "forks": 334,
     "description": "The sandbox agent framework.",
     "last_seen": "2026-06-20",
+    "trending_days": 4
+  },
+  {
+    "name": "YimMenu/YimMenuV2",
+    "url": "https://github.com/yimmenu/yimmenuv2",
+    "language": "C++",
+    "stars": 1358,
+    "forks": 349,
+    "description": "Experimental menu for GTA 5: Enhanced",
+    "last_seen": "2026-07-15",
     "trending_days": 4
   },
   {
@@ -3680,16 +3720,6 @@
     "trending_days": 3
   },
   {
-    "name": "coreyhaines31/marketingskills",
-    "url": "https://github.com/coreyhaines31/marketingskills",
-    "language": "JavaScript",
-    "stars": 38155,
-    "forks": 6135,
-    "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-    "last_seen": "2026-07-13",
-    "trending_days": 3
-  },
-  {
     "name": "cypress-io/cypress",
     "url": "https://github.com/cypress-io/cypress",
     "language": "TypeScript",
@@ -3777,16 +3807,6 @@
     "forks": 1586,
     "description": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!",
     "last_seen": "2025-11-12",
-    "trending_days": 3
-  },
-  {
-    "name": "Dicklesworthstone/destructive_command_guard",
-    "url": "https://github.com/dicklesworthstone/destructive_command_guard",
-    "language": "Rust",
-    "stars": 4079,
-    "forks": 153,
-    "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
-    "last_seen": "2026-07-14",
     "trending_days": 3
   },
   {
@@ -4310,16 +4330,6 @@
     "trending_days": 3
   },
   {
-    "name": "Nutlope/hallmark",
-    "url": "https://github.com/nutlope/hallmark",
-    "language": "CSS",
-    "stars": 5734,
-    "forks": 332,
-    "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-    "last_seen": "2026-07-14",
-    "trending_days": 3
-  },
-  {
     "name": "NVIDIA/cosmos",
     "url": "https://github.com/nvidia/cosmos",
     "language": "JupyterNotebook",
@@ -4377,6 +4387,16 @@
     "forks": 187,
     "description": "Windows companion suite for OpenClaw - System Tray app, Shared library, Node, and PowerToys Command Palette extension",
     "last_seen": "2026-06-06",
+    "trending_days": 3
+  },
+  {
+    "name": "OpenCut-app/OpenCut",
+    "url": "https://github.com/opencut-app/opencut",
+    "language": "TypeScript",
+    "stars": 70094,
+    "forks": 7265,
+    "description": "The open-source CapCut alternative",
+    "last_seen": "2026-07-15",
     "trending_days": 3
   },
   {
@@ -4827,16 +4847,6 @@
     "forks": 508,
     "description": "Access your entire server infrastructure from your local desktop",
     "last_seen": "2026-01-10",
-    "trending_days": 3
-  },
-  {
-    "name": "YimMenu/YimMenuV2",
-    "url": "https://github.com/yimmenu/yimmenuv2",
-    "language": "C++",
-    "stars": 830,
-    "forks": 242,
-    "description": "Experimental menu for GTA 5: Enhanced",
-    "last_seen": "2025-12-13",
     "trending_days": 3
   },
   {
@@ -5860,6 +5870,16 @@
     "trending_days": 2
   },
   {
+    "name": "HenryNdubuaku/maths-cs-ai-compendium",
+    "url": "https://github.com/henryndubuaku/maths-cs-ai-compendium",
+    "language": "TypeScript",
+    "stars": 5641,
+    "forks": 728,
+    "description": "Become a cracked AI/ML Research Engineer",
+    "last_seen": "2026-07-15",
+    "trending_days": 2
+  },
+  {
     "name": "HKUDS/VideoRAG",
     "url": "https://github.com/hkuds/videorag",
     "language": "Python",
@@ -6610,16 +6630,6 @@
     "trending_days": 2
   },
   {
-    "name": "OpenCut-app/OpenCut",
-    "url": "https://github.com/opencut-app/opencut",
-    "language": "TypeScript",
-    "stars": 68576,
-    "forks": 7158,
-    "description": "The open-source CapCut alternative",
-    "last_seen": "2026-07-14",
-    "trending_days": 2
-  },
-  {
     "name": "opencv/opencv",
     "url": "https://github.com/opencv/opencv",
     "language": "C++",
@@ -7267,6 +7277,16 @@
     "forks": 958,
     "description": "ChatGPT DAN, Jailbreaks prompt",
     "last_seen": "2025-12-17",
+    "trending_days": 1
+  },
+  {
+    "name": "1c7/chinese-independent-developer",
+    "url": "https://github.com/1c7/chinese-independent-developer",
+    "language": "Python",
+    "stars": 55754,
+    "forks": 4842,
+    "description": "👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么",
+    "last_seen": "2026-07-15",
     "trending_days": 1
   },
   {
@@ -8710,16 +8730,6 @@
     "trending_days": 1
   },
   {
-    "name": "HenryNdubuaku/maths-cs-ai-compendium",
-    "url": "https://github.com/henryndubuaku/maths-cs-ai-compendium",
-    "language": "TypeScript",
-    "stars": 4913,
-    "forks": 674,
-    "description": "Become a cracked AI/ML Research Engineer",
-    "last_seen": "2026-07-14",
-    "trending_days": 1
-  },
-  {
     "name": "hexo-ai/sia",
     "url": "https://github.com/hexo-ai/sia",
     "language": "Python",
@@ -9827,6 +9837,16 @@
     "forks": 118,
     "description": "🌤️This is the main repository of the OpenCloud server. It contains the golang codebase for the backend services.",
     "last_seen": "2025-11-11",
+    "trending_days": 1
+  },
+  {
+    "name": "openinterpreter/openinterpreter",
+    "url": "https://github.com/openinterpreter/openinterpreter",
+    "language": "Rust",
+    "stars": 65157,
+    "forks": 5643,
+    "description": "A coding agent for low-cost models",
+    "last_seen": "2026-07-15",
     "trending_days": 1
   },
   {

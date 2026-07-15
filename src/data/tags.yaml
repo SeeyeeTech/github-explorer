@@ -541,6 +541,10 @@ entries:
   - uncategorized
   dgtlmoon_changedetection.io:
   - uncategorized
+  dicklesworthstone_destructive_command_guard:
+  - ai-agent
+  - ai-coding
+  - security
   dicklesworthstone_pi-agent-rust:
   - ai-agent
   - ai-coding
@@ -1443,6 +1447,11 @@ entries:
   nousresearch_hermes-agent:
   - ai-agent
   - devtools
+  nutlope_hallmark:
+  - ai-agent
+  - ai-coding
+  - model-foundation
+  - protocol-spec
   nutlope_llamacoder:
   - model-foundation
   - design-ui

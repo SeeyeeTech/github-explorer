@@ -1548,6 +1548,9 @@ entries:
   - video-audio
   - protocol-spec
   - security
+  opencut-app_opencut:
+  - editor-kms
+  - video-audio
   opendatalab_mineru:
   - llm-framework
   - workflow-automation

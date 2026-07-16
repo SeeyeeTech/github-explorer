@@ -110,6 +110,16 @@
     "trending_days": 24
   },
   {
+    "name": "Shubhamsaboo/awesome-llm-apps",
+    "url": "https://github.com/shubhamsaboo/awesome-llm-apps",
+    "language": "Python",
+    "stars": 122435,
+    "forks": 18056,
+    "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+    "last_seen": "2026-07-16",
+    "trending_days": 24
+  },
+  {
     "name": "HKUDS/LightRAG",
     "url": "https://github.com/hkuds/lightrag",
     "language": "Python",
@@ -127,16 +137,6 @@
     "forks": 653,
     "description": "Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!",
     "last_seen": "2025-12-04",
-    "trending_days": 23
-  },
-  {
-    "name": "Shubhamsaboo/awesome-llm-apps",
-    "url": "https://github.com/shubhamsaboo/awesome-llm-apps",
-    "language": "Python",
-    "stars": 121533,
-    "forks": 17953,
-    "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
-    "last_seen": "2026-07-15",
     "trending_days": 23
   },
   {
@@ -240,6 +240,16 @@
     "trending_days": 20
   },
   {
+    "name": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "language": "Shell",
+    "stars": 173545,
+    "forks": 14883,
+    "description": "Skills for Real Engineers. Straight from my .claude directory.",
+    "last_seen": "2026-07-16",
+    "trending_days": 20
+  },
+  {
     "name": "virattt/ai-hedge-fund",
     "url": "https://github.com/virattt/ai-hedge-fund",
     "language": "Python",
@@ -248,16 +258,6 @@
     "description": "An AI Hedge Fund Team",
     "last_seen": "2026-07-14",
     "trending_days": 20
-  },
-  {
-    "name": "mattpocock/skills",
-    "url": "https://github.com/mattpocock/skills",
-    "language": "Shell",
-    "stars": 171526,
-    "forks": 14738,
-    "description": "Skills for Real Engineers. Straight from my .claude directory.",
-    "last_seen": "2026-07-15",
-    "trending_days": 19
   },
   {
     "name": "ruvnet/RuView",
@@ -330,6 +330,16 @@
     "trending_days": 15
   },
   {
+    "name": "codecrafters-io/build-your-own-x",
+    "url": "https://github.com/codecrafters-io/build-your-own-x",
+    "language": "Markdown",
+    "stars": 525848,
+    "forks": 49749,
+    "description": "Master programming by recreating your favorite technologies from scratch.",
+    "last_seen": "2026-07-16",
+    "trending_days": 15
+  },
+  {
     "name": "666ghj/BettaFish",
     "url": "https://github.com/666ghj/bettafish",
     "language": "Python",
@@ -337,16 +347,6 @@
     "forks": 7008,
     "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
     "last_seen": "2026-03-09",
-    "trending_days": 14
-  },
-  {
-    "name": "codecrafters-io/build-your-own-x",
-    "url": "https://github.com/codecrafters-io/build-your-own-x",
-    "language": "Markdown",
-    "stars": 510122,
-    "forks": 48374,
-    "description": "Master programming by recreating your favorite technologies from scratch.",
-    "last_seen": "2026-06-01",
     "trending_days": 14
   },
   {
@@ -1600,6 +1600,16 @@
     "trending_days": 6
   },
   {
+    "name": "hasaneyldrm/exercises-dataset",
+    "url": "https://github.com/hasaneyldrm/exercises-dataset",
+    "language": "HTML",
+    "stars": 14724,
+    "forks": 1763,
+    "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
+    "last_seen": "2026-07-16",
+    "trending_days": 6
+  },
+  {
     "name": "HKUDS/DeepCode",
     "url": "https://github.com/hkuds/deepcode",
     "language": "Python",
@@ -1607,6 +1617,16 @@
     "forks": 1669,
     "description": "\"DeepCode: Open Agentic Coding (Paper2Code & Text2Web & Text2Backend)\"",
     "last_seen": "2025-12-16",
+    "trending_days": 6
+  },
+  {
+    "name": "HKUDS/DeepTutor",
+    "url": "https://github.com/hkuds/deeptutor",
+    "language": "Python",
+    "stars": 26669,
+    "forks": 3600,
+    "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+    "last_seen": "2026-07-16",
     "trending_days": 6
   },
   {
@@ -1697,6 +1717,16 @@
     "forks": 43148,
     "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
     "last_seen": "2025-10-18",
+    "trending_days": 6
+  },
+  {
+    "name": "lobehub/lobehub",
+    "url": "https://github.com/lobehub/lobehub",
+    "language": "TypeScript",
+    "stars": 79945,
+    "forks": 15599,
+    "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
+    "last_seen": "2026-07-16",
     "trending_days": 6
   },
   {
@@ -2130,16 +2160,6 @@
     "trending_days": 5
   },
   {
-    "name": "hasaneyldrm/exercises-dataset",
-    "url": "https://github.com/hasaneyldrm/exercises-dataset",
-    "language": "HTML",
-    "stars": 14029,
-    "forks": 1678,
-    "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
-    "last_seen": "2026-07-15",
-    "trending_days": 5
-  },
-  {
     "name": "hashicorp/vault",
     "url": "https://github.com/hashicorp/vault",
     "language": "Go",
@@ -2157,16 +2177,6 @@
     "forks": 3698,
     "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
     "last_seen": "2026-05-21",
-    "trending_days": 5
-  },
-  {
-    "name": "HKUDS/DeepTutor",
-    "url": "https://github.com/hkuds/deeptutor",
-    "language": "Python",
-    "stars": 26034,
-    "forks": 3547,
-    "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-    "last_seen": "2026-07-15",
     "trending_days": 5
   },
   {
@@ -2260,16 +2270,6 @@
     "trending_days": 5
   },
   {
-    "name": "lobehub/lobehub",
-    "url": "https://github.com/lobehub/lobehub",
-    "language": "TypeScript",
-    "stars": 76247,
-    "forks": 15101,
-    "description": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
-    "last_seen": "2026-05-08",
-    "trending_days": 5
-  },
-  {
     "name": "masterking32/MasterDnsVPN",
     "url": "https://github.com/masterking32/masterdnsvpn",
     "language": "Go",
@@ -2307,6 +2307,16 @@
     "forks": 10993,
     "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
     "last_seen": "2026-06-27",
+    "trending_days": 5
+  },
+  {
+    "name": "Nutlope/hallmark",
+    "url": "https://github.com/nutlope/hallmark",
+    "language": "CSS",
+    "stars": 10171,
+    "forks": 509,
+    "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+    "last_seen": "2026-07-16",
     "trending_days": 5
   },
   {
@@ -2387,6 +2397,16 @@
     "forks": 131,
     "description": "Voxel sandbox game with a large render distance, procedurally generated content and some cool graphical effects.",
     "last_seen": "2025-10-13",
+    "trending_days": 5
+  },
+  {
+    "name": "PostHog/posthog",
+    "url": "https://github.com/posthog/posthog",
+    "language": "Python",
+    "stars": 35623,
+    "forks": 2979,
+    "description": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
+    "last_seen": "2026-07-16",
     "trending_days": 5
   },
   {
@@ -2557,6 +2577,16 @@
     "forks": 1267,
     "description": "Teams-first Multi-agent orchestration for Claude Code",
     "last_seen": "2026-03-31",
+    "trending_days": 5
+  },
+  {
+    "name": "YimMenu/YimMenuV2",
+    "url": "https://github.com/yimmenu/yimmenuv2",
+    "language": "C++",
+    "stars": 1482,
+    "forks": 357,
+    "description": "Experimental menu for GTA 5: Enhanced",
+    "last_seen": "2026-07-16",
     "trending_days": 5
   },
   {
@@ -2857,6 +2887,16 @@
     "forks": 810,
     "description": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",
     "last_seen": "2026-02-10",
+    "trending_days": 4
+  },
+  {
+    "name": "github/copilot-sdk",
+    "url": "https://github.com/github/copilot-sdk",
+    "language": "Java",
+    "stars": 9523,
+    "forks": 1309,
+    "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+    "last_seen": "2026-07-16",
     "trending_days": 4
   },
   {
@@ -3230,16 +3270,6 @@
     "trending_days": 4
   },
   {
-    "name": "Nutlope/hallmark",
-    "url": "https://github.com/nutlope/hallmark",
-    "language": "CSS",
-    "stars": 6867,
-    "forks": 373,
-    "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-    "last_seen": "2026-07-15",
-    "trending_days": 4
-  },
-  {
     "name": "NVIDIA/SkillSpector",
     "url": "https://github.com/nvidia/skillspector",
     "language": "Python",
@@ -3247,6 +3277,16 @@
     "forks": 446,
     "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
     "last_seen": "2026-06-15",
+    "trending_days": 4
+  },
+  {
+    "name": "OpenCut-app/OpenCut",
+    "url": "https://github.com/opencut-app/opencut",
+    "language": "TypeScript",
+    "stars": 73517,
+    "forks": 7455,
+    "description": "The open-source CapCut alternative",
+    "last_seen": "2026-07-16",
     "trending_days": 4
   },
   {
@@ -3277,16 +3317,6 @@
     "forks": 162,
     "description": "Agent Orchestration Command Center",
     "last_seen": "2026-02-04",
-    "trending_days": 4
-  },
-  {
-    "name": "PostHog/posthog",
-    "url": "https://github.com/posthog/posthog",
-    "language": "Python",
-    "stars": 33644,
-    "forks": 2621,
-    "description": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
-    "last_seen": "2026-04-26",
     "trending_days": 4
   },
   {
@@ -3457,16 +3487,6 @@
     "forks": 334,
     "description": "The sandbox agent framework.",
     "last_seen": "2026-06-20",
-    "trending_days": 4
-  },
-  {
-    "name": "YimMenu/YimMenuV2",
-    "url": "https://github.com/yimmenu/yimmenuv2",
-    "language": "C++",
-    "stars": 1358,
-    "forks": 349,
-    "description": "Experimental menu for GTA 5: Enhanced",
-    "last_seen": "2026-07-15",
     "trending_days": 4
   },
   {
@@ -3930,16 +3950,6 @@
     "trending_days": 3
   },
   {
-    "name": "github/copilot-sdk",
-    "url": "https://github.com/github/copilot-sdk",
-    "language": "Java",
-    "stars": 9351,
-    "forks": 1233,
-    "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
-    "last_seen": "2026-06-06",
-    "trending_days": 3
-  },
-  {
     "name": "google/magika",
     "url": "https://github.com/google/magika",
     "language": "Python",
@@ -3967,6 +3977,16 @@
     "forks": 3167,
     "description": "100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars.",
     "last_seen": "2026-06-14",
+    "trending_days": 3
+  },
+  {
+    "name": "Graphify-Labs/graphify",
+    "url": "https://github.com/graphify-labs/graphify",
+    "language": "Python",
+    "stars": 88352,
+    "forks": 8646,
+    "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+    "last_seen": "2026-07-16",
     "trending_days": 3
   },
   {
@@ -4387,16 +4407,6 @@
     "forks": 187,
     "description": "Windows companion suite for OpenClaw - System Tray app, Shared library, Node, and PowerToys Command Palette extension",
     "last_seen": "2026-06-06",
-    "trending_days": 3
-  },
-  {
-    "name": "OpenCut-app/OpenCut",
-    "url": "https://github.com/opencut-app/opencut",
-    "language": "TypeScript",
-    "stars": 70094,
-    "forks": 7265,
-    "description": "The open-source CapCut alternative",
-    "last_seen": "2026-07-15",
     "trending_days": 3
   },
   {
@@ -5840,16 +5850,6 @@
     "trending_days": 2
   },
   {
-    "name": "Graphify-Labs/graphify",
-    "url": "https://github.com/graphify-labs/graphify",
-    "language": "Python",
-    "stars": 85621,
-    "forks": 8440,
-    "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
-    "last_seen": "2026-07-14",
-    "trending_days": 2
-  },
-  {
     "name": "gsd-build/get-shit-done",
     "url": "https://github.com/gsd-build/get-shit-done",
     "language": "JavaScript",
@@ -6640,6 +6640,16 @@
     "trending_days": 2
   },
   {
+    "name": "openinterpreter/openinterpreter",
+    "url": "https://github.com/openinterpreter/openinterpreter",
+    "language": "Rust",
+    "stars": 65790,
+    "forks": 5665,
+    "description": "A coding agent for low-cost models",
+    "last_seen": "2026-07-16",
+    "trending_days": 2
+  },
+  {
     "name": "OpenZeppelin/openzeppelin-contracts",
     "url": "https://github.com/openzeppelin/openzeppelin-contracts",
     "language": "Solidity",
@@ -6667,6 +6677,16 @@
     "forks": 1268,
     "description": "🍃 Organic Maps is a free Android & iOS offline maps app for travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by the community. No ads, no tracking, no data collection, no crapware. Please donate to support the development!",
     "last_seen": "2026-01-01",
+    "trending_days": 2
+  },
+  {
+    "name": "ossu/computer-science",
+    "url": "https://github.com/ossu/computer-science",
+    "language": "HTML",
+    "stars": 206247,
+    "forks": 25617,
+    "description": "🎓 Path to a free self-taught education in Computer Science!",
+    "last_seen": "2026-07-16",
     "trending_days": 2
   },
   {
@@ -7537,6 +7557,16 @@
     "forks": 2900,
     "description": "Apache Maven core",
     "last_seen": "2026-07-03",
+    "trending_days": 1
+  },
+  {
+    "name": "apache/ossie",
+    "url": "https://github.com/apache/ossie",
+    "language": "Python",
+    "stars": 748,
+    "forks": 124,
+    "description": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",
+    "last_seen": "2026-07-16",
     "trending_days": 1
   },
   {
@@ -8850,6 +8880,16 @@
     "trending_days": 1
   },
   {
+    "name": "ibelick/ui-skills",
+    "url": "https://github.com/ibelick/ui-skills",
+    "language": "TypeScript",
+    "stars": 3942,
+    "forks": 164,
+    "description": "Skills for Design Engineers",
+    "last_seen": "2026-07-16",
+    "trending_days": 1
+  },
+  {
     "name": "iii-hq/iii",
     "url": "https://github.com/iii-hq/iii",
     "language": "Rust",
@@ -9840,16 +9880,6 @@
     "trending_days": 1
   },
   {
-    "name": "openinterpreter/openinterpreter",
-    "url": "https://github.com/openinterpreter/openinterpreter",
-    "language": "Rust",
-    "stars": 65157,
-    "forks": 5643,
-    "description": "A coding agent for low-cost models",
-    "last_seen": "2026-07-15",
-    "trending_days": 1
-  },
-  {
     "name": "OpenMind/OM1",
     "url": "https://github.com/openmind/om1",
     "language": "Python",
@@ -9907,16 +9937,6 @@
     "forks": 213,
     "description": "Technical resources for AI developers to build applications, agents, and systems using Oracle AI Database and OCI services",
     "last_seen": "2026-05-09",
-    "trending_days": 1
-  },
-  {
-    "name": "ossu/computer-science",
-    "url": "https://github.com/ossu/computer-science",
-    "language": "HTML",
-    "stars": 196587,
-    "forks": 24525,
-    "description": "🎓 Path to a free self-taught education in Computer Science!",
-    "last_seen": "2025-11-01",
     "trending_days": 1
   },
   {
@@ -10047,6 +10067,16 @@
     "forks": 1098,
     "description": "Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)",
     "last_seen": "2026-05-23",
+    "trending_days": 1
+  },
+  {
+    "name": "PrismML-Eng/Bonsai-demo",
+    "url": "https://github.com/prismml-eng/bonsai-demo",
+    "language": "Shell",
+    "stars": 1377,
+    "forks": 149,
+    "description": "Bonsai Demo",
+    "last_seen": "2026-07-16",
     "trending_days": 1
   },
   {

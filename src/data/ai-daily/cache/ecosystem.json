@@ -1,63 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-07-15",
+    "last_run": "2026-07-16",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/trycua/cua",
-      "canonical_url": "https://github.com/trycua/cua",
-      "event_date": "2026-06-15",
-      "date_seen": "2026-06-15"
-    },
-    {
-      "key": "github.com/mikeroyal/self-hosting-guide",
-      "canonical_url": "https://github.com/mikeroyal/Self-Hosting-Guide",
-      "event_date": "2026-06-15",
-      "date_seen": "2026-06-15"
-    },
-    {
-      "key": "hf:google/diffusiongemma-26b-a4b-it",
-      "canonical_url": "https://huggingface.co/google/diffusiongemma-26B-A4B-it",
-      "event_date": "2026-06-15",
-      "date_seen": "2026-06-15"
-    },
-    {
-      "key": "hf:collections/jetbrains",
-      "canonical_url": "https://huggingface.co/collections/JetBrains/mellum-2",
-      "event_date": "2026-06-15",
-      "date_seen": "2026-06-15"
-    },
-    {
-      "key": "github.com/huggingface/openenv",
-      "canonical_url": "https://github.com/huggingface/OpenEnv",
-      "event_date": "2026-06-15",
-      "date_seen": "2026-06-15"
-    },
-    {
-      "key": "github.com/maziyarpanahi/openmed",
-      "canonical_url": "https://github.com/maziyarpanahi/openmed",
-      "event_date": "2026-06-15",
-      "date_seen": "2026-06-15"
-    },
-    {
-      "key": "github.com/meilisearch/arroy",
-      "canonical_url": "https://github.com/meilisearch/arroy",
-      "event_date": "2026-06-15",
-      "date_seen": "2026-06-15"
-    },
-    {
-      "key": "github.com/ryancodrai/turbovec",
-      "canonical_url": "https://github.com/ryancodrai/turbovec",
-      "event_date": "2026-06-15",
-      "date_seen": "2026-06-15"
-    },
-    {
-      "key": "github.com/tursodatabase/turso",
-      "canonical_url": "https://github.com/tursodatabase/turso",
-      "event_date": "2026-06-15",
-      "date_seen": "2026-06-15"
-    },
     {
       "key": "github.com/alibaba/zvec",
       "canonical_url": "https://github.com/alibaba/zvec",
@@ -1119,6 +1065,36 @@
       "canonical_url": "https://github.com/hkuds/deeptutor",
       "event_date": "2026-07-15",
       "date_seen": "2026-07-15"
+    },
+    {
+      "key": "github.com/github/copilot-sdk",
+      "canonical_url": "https://github.com/github/copilot-sdk",
+      "event_date": "2026-07-16",
+      "date_seen": "2026-07-16"
+    },
+    {
+      "key": "github.com/prismml-eng/bonsai-demo",
+      "canonical_url": "https://github.com/PrismML-Eng/Bonsai-demo",
+      "event_date": "2026-07-16",
+      "date_seen": "2026-07-16"
+    },
+    {
+      "key": "github.com/lobehub/lobehub",
+      "canonical_url": "https://github.com/lobehub/lobehub",
+      "event_date": "2026-07-16",
+      "date_seen": "2026-07-16"
+    },
+    {
+      "key": "github.com/xai-org/grok-build",
+      "canonical_url": "https://github.com/xai-org/grok-build",
+      "event_date": "2026-07-16",
+      "date_seen": "2026-07-16"
+    },
+    {
+      "key": "github.com/automatic1111/stable-diffusion-webui",
+      "canonical_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "event_date": "2026-07-16",
+      "date_seen": "2026-07-16"
     }
   ]
 }

@@ -239,3 +239,4 @@
 {"recorded_at": "2026-07-15T22:11:04.418640+00:00", "slug": "opencut-app_opencut", "title": null, "state": "published", "published_at": "2026-07-15", "reason": "自动生成", "ci_run_id": "29453189372"}
 {"recorded_at": "2026-07-16T22:03:48.411439+00:00", "slug": "graphify-labs_graphify", "title": null, "state": "published", "published_at": "2026-07-16", "reason": "自动生成", "ci_run_id": "29537720638"}
 {"recorded_at": "2026-07-16T22:57:51.923147+00:00", "slug": "forrestchang_andrej-karpathy-skills", "title": null, "state": "published", "published_at": "2026-07-16", "reason": "自动生成", "ci_run_id": "29540654492"}
+{"recorded_at": "2026-07-17T21:48:43.421766+00:00", "slug": "openinterpreter_openinterpreter", "title": null, "state": "published", "published_at": "2026-07-17", "reason": "自动生成", "ci_run_id": "29615540973"}

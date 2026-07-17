@@ -708,6 +708,9 @@ entries:
   - rag-search
   flowseal_zapret-discord-youtube:
   - uncategorized
+  forrestchang_andrej-karpathy-skills:
+  - ai-agent
+  - ai-coding
   fosowl_agenticseek:
   - ai-agent
   - llm-training
@@ -823,6 +826,9 @@ entries:
   - devtools
   gorvgoyl_clone-wars:
   - education
+  graphify-labs_graphify:
+  - ai-coding
+  - rag-search
   greydgl_pentestgpt:
   - ai-agent
   - security

@@ -1,27 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-07-16",
+    "last_run": "2026-07-17",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/alibaba/zvec",
-      "canonical_url": "https://github.com/alibaba/zvec",
-      "event_date": "2026-06-16",
-      "date_seen": "2026-06-16"
-    },
-    {
-      "key": "github.com/openbmb/voxcpm",
-      "canonical_url": "https://github.com/OpenBMB/VoxCPM",
-      "event_date": "2026-06-16",
-      "date_seen": "2026-06-16"
-    },
-    {
-      "key": "github.com/reflex-dev/fast-walk",
-      "canonical_url": "https://github.com/reflex-dev/fast-walk",
-      "event_date": "2026-06-16",
-      "date_seen": "2026-06-16"
-    },
     {
       "key": "github.com/deusdata/codebase-memory-mcp",
       "canonical_url": "https://github.com/DeusData/codebase-memory-mcp",
@@ -1095,6 +1077,42 @@
       "canonical_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
       "event_date": "2026-07-16",
       "date_seen": "2026-07-16"
+    },
+    {
+      "key": "github.com/posthog/posthog",
+      "canonical_url": "https://github.com/PostHog/posthog",
+      "event_date": "2026-07-17",
+      "date_seen": "2026-07-17"
+    },
+    {
+      "key": "github.com/anthropics/cwc-workshops",
+      "canonical_url": "https://github.com/anthropics/cwc-workshops",
+      "event_date": "2026-07-17",
+      "date_seen": "2026-07-17"
+    },
+    {
+      "key": "github.com/tirth8205/code-review-graph",
+      "canonical_url": "https://github.com/tirth8205/code-review-graph",
+      "event_date": "2026-07-17",
+      "date_seen": "2026-07-17"
+    },
+    {
+      "key": "github.com/rivet-dev/agentos",
+      "canonical_url": "https://github.com/rivet-dev/agentos",
+      "event_date": "2026-07-17",
+      "date_seen": "2026-07-17"
+    },
+    {
+      "key": "github.com/robertsdotpm/runloom",
+      "canonical_url": "https://github.com/robertsdotpm/runloom",
+      "event_date": "2026-07-17",
+      "date_seen": "2026-07-17"
+    },
+    {
+      "key": "github.com/theogbob/webkitwasm",
+      "canonical_url": "https://github.com/theogbob/WebkitWasm",
+      "event_date": "2026-07-17",
+      "date_seen": "2026-07-17"
     }
   ]
 }

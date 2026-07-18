@@ -1,57 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-07-17",
+    "last_run": "2026-07-18",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/deusdata/codebase-memory-mcp",
-      "canonical_url": "https://github.com/DeusData/codebase-memory-mcp",
-      "event_date": "2026-06-17",
-      "date_seen": "2026-06-17"
-    },
-    {
-      "key": "github.com/google-research/timesfm",
-      "canonical_url": "https://github.com/google-research/timesfm",
-      "event_date": "2026-06-17",
-      "date_seen": "2026-06-17"
-    },
-    {
-      "key": "github.com/continuedev/continue",
-      "canonical_url": "https://github.com/continuedev/continue",
-      "event_date": "2026-06-17",
-      "date_seen": "2026-06-17"
-    },
-    {
-      "key": "github.com/mattpocock/skills",
-      "canonical_url": "https://github.com/mattpocock/skills",
-      "event_date": "2026-06-17",
-      "date_seen": "2026-06-17"
-    },
-    {
-      "key": "github.com/bytedance/ui-tars-desktop",
-      "canonical_url": "https://github.com/bytedance/UI-TARS-desktop",
-      "event_date": "2026-06-17",
-      "date_seen": "2026-06-17"
-    },
-    {
-      "key": "github.com/calesthio/openmontage",
-      "canonical_url": "https://github.com/calesthio/OpenMontage",
-      "event_date": "2026-06-17",
-      "date_seen": "2026-06-17"
-    },
-    {
-      "key": "github.com/alexzhang13/rlm",
-      "canonical_url": "https://github.com/alexzhang13/rlm",
-      "event_date": "2026-06-17",
-      "date_seen": "2026-06-17"
-    },
-    {
-      "key": "github.com/hmbown/codewhale",
-      "canonical_url": "https://github.com/hmbown/codewhale",
-      "event_date": "2026-06-17",
-      "date_seen": "2026-06-17"
-    },
     {
       "key": "github.com/zai-org/glm-5",
       "canonical_url": "https://github.com/zai-org/GLM-5",
@@ -1113,6 +1065,36 @@
       "canonical_url": "https://github.com/theogbob/WebkitWasm",
       "event_date": "2026-07-17",
       "date_seen": "2026-07-17"
+    },
+    {
+      "key": "github.com/moonshotai/kimi-cli",
+      "canonical_url": "https://github.com/MoonshotAI/kimi-cli",
+      "event_date": "2026-07-18",
+      "date_seen": "2026-07-18"
+    },
+    {
+      "key": "github.com/knockoutez/wigolo",
+      "canonical_url": "https://github.com/KnockOutEZ/wigolo",
+      "event_date": "2026-07-18",
+      "date_seen": "2026-07-18"
+    },
+    {
+      "key": "github.com/myriad-dreamin/tinymist",
+      "canonical_url": "https://github.com/Myriad-Dreamin/tinymist",
+      "event_date": "2026-07-18",
+      "date_seen": "2026-07-18"
+    },
+    {
+      "key": "github.com/gitbutlerapp/grit",
+      "canonical_url": "https://github.com/gitbutlerapp/grit",
+      "event_date": "2026-07-18",
+      "date_seen": "2026-07-18"
+    },
+    {
+      "key": "github.com/mattpocock/skills",
+      "canonical_url": "https://github.com/mattpocock/skills",
+      "event_date": "2026-07-18",
+      "date_seen": "2026-07-18"
     }
   ]
 }

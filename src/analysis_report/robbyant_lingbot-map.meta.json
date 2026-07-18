@@ -1,0 +1,6 @@
+{
+  "title": "GitHub推荐：12.8K星的LingBot-Map：三层记忆如何重建万帧世界",
+  "digest": "LingBot-Map 用「尺度锚点 + 近期稠密窗口 + 长期轨迹摘要」三级记忆和 paged KV cache，将静态多视图 Transformer 改造成万帧流式 3D 重建前端。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

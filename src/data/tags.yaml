@@ -861,6 +861,10 @@ entries:
   hehonghui_awesome-english-ebooks:
   - workflow-automation
   - education
+  henryndubuaku_maths-cs-ai-compendium:
+  - ai-coding
+  - education
+  - protocol-spec
   hesreallyhim_awesome-claude-code:
   - ai-coding
   - workflow-automation
@@ -1571,6 +1575,12 @@ entries:
   - model-foundation
   - devtools
   - security
+  openinterpreter_openinterpreter:
+  - ai-agent
+  - ai-coding
+  - model-foundation
+  - devtools
+  - protocol-spec
   ourongxing_newsnow:
   - uncategorized
   oven-sh_bun:

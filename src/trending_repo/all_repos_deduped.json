@@ -293,11 +293,11 @@
     "name": "codecrafters-io/build-your-own-x",
     "url": "https://github.com/codecrafters-io/build-your-own-x",
     "language": "Markdown",
-    "stars": 526829,
-    "forks": 49858,
+    "stars": 527892,
+    "forks": 49951,
     "description": "Master programming by recreating your favorite technologies from scratch.",
-    "last_seen": "2026-07-17",
-    "trending_days": 16
+    "last_seen": "2026-07-18",
+    "trending_days": 17
   },
   {
     "name": "abhigyanpatwari/GitNexus",
@@ -990,6 +990,16 @@
     "trending_days": 9
   },
   {
+    "name": "rohitg00/ai-engineering-from-scratch",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "language": "Python",
+    "stars": 38866,
+    "forks": 6516,
+    "description": "Learn it. Build it. Ship it for others.",
+    "last_seen": "2026-07-18",
+    "trending_days": 9
+  },
+  {
     "name": "soxoj/maigret",
     "url": "https://github.com/soxoj/maigret",
     "language": "Python",
@@ -1190,16 +1200,6 @@
     "trending_days": 8
   },
   {
-    "name": "rohitg00/ai-engineering-from-scratch",
-    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-    "language": "Python",
-    "stars": 32877,
-    "forks": 5386,
-    "description": "Learn it. Build it. Ship it for others.",
-    "last_seen": "2026-06-15",
-    "trending_days": 8
-  },
-  {
     "name": "shadcn-ui/ui",
     "url": "https://github.com/shadcn-ui/ui",
     "language": "TypeScript",
@@ -1397,6 +1397,16 @@
     "forks": 1517,
     "description": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
     "last_seen": "2026-01-03",
+    "trending_days": 7
+  },
+  {
+    "name": "PostHog/posthog",
+    "url": "https://github.com/posthog/posthog",
+    "language": "Python",
+    "stars": 36364,
+    "forks": 3016,
+    "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+    "last_seen": "2026-07-18",
     "trending_days": 7
   },
   {
@@ -1860,16 +1870,6 @@
     "trending_days": 6
   },
   {
-    "name": "PostHog/posthog",
-    "url": "https://github.com/posthog/posthog",
-    "language": "Python",
-    "stars": 36042,
-    "forks": 3003,
-    "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
-    "last_seen": "2026-07-17",
-    "trending_days": 6
-  },
-  {
     "name": "rendercv/rendercv",
     "url": "https://github.com/rendercv/rendercv",
     "language": "Python",
@@ -2317,6 +2317,16 @@
     "forks": 534,
     "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
     "last_seen": "2026-06-12",
+    "trending_days": 5
+  },
+  {
+    "name": "MoonshotAI/kimi-cli",
+    "url": "https://github.com/moonshotai/kimi-cli",
+    "language": "Python",
+    "stars": 9264,
+    "forks": 1151,
+    "description": "Kimi Code CLI is your next CLI agent.",
+    "last_seen": "2026-07-18",
     "trending_days": 5
   },
   {
@@ -3207,16 +3217,6 @@
     "forks": 283,
     "description": "Fast and accurate automatic speech recognition (ASR) for edge devices",
     "last_seen": "2026-02-28",
-    "trending_days": 4
-  },
-  {
-    "name": "MoonshotAI/kimi-cli",
-    "url": "https://github.com/moonshotai/kimi-cli",
-    "language": "Python",
-    "stars": 5428,
-    "forks": 505,
-    "description": "Kimi Code CLI is your next CLI agent.",
-    "last_seen": "2026-01-31",
     "trending_days": 4
   },
   {
@@ -4590,6 +4590,16 @@
     "trending_days": 3
   },
   {
+    "name": "Robbyant/lingbot-map",
+    "url": "https://github.com/robbyant/lingbot-map",
+    "language": "Python",
+    "stars": 12435,
+    "forks": 1304,
+    "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+    "last_seen": "2026-07-18",
+    "trending_days": 3
+  },
+  {
     "name": "rommapp/romm",
     "url": "https://github.com/rommapp/romm",
     "language": "Python",
@@ -5087,6 +5097,16 @@
     "forks": 3241,
     "description": "The automation tower defense RTS",
     "last_seen": "2025-10-21",
+    "trending_days": 2
+  },
+  {
+    "name": "apache/ossie",
+    "url": "https://github.com/apache/ossie",
+    "language": "Python",
+    "stars": 1168,
+    "forks": 146,
+    "description": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",
+    "last_seen": "2026-07-18",
     "trending_days": 2
   },
   {
@@ -5960,6 +5980,16 @@
     "trending_days": 2
   },
   {
+    "name": "ibelick/ui-skills",
+    "url": "https://github.com/ibelick/ui-skills",
+    "language": "TypeScript",
+    "stars": 4690,
+    "forks": 199,
+    "description": "Skills for Design Engineers",
+    "last_seen": "2026-07-18",
+    "trending_days": 2
+  },
+  {
     "name": "icloud-photos-downloader/icloud_photos_downloader",
     "url": "https://github.com/icloud-photos-downloader/icloud_photos_downloader",
     "language": "Python",
@@ -6287,6 +6317,16 @@
     "forks": 4437,
     "description": "A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python",
     "last_seen": "2026-01-21",
+    "trending_days": 2
+  },
+  {
+    "name": "lyogavin/airllm",
+    "url": "https://github.com/lyogavin/airllm",
+    "language": "JupyterNotebook",
+    "stars": 23136,
+    "forks": 2642,
+    "description": "AirLLM 70B inference with single 4GB GPU",
+    "last_seen": "2026-07-18",
     "trending_days": 2
   },
   {
@@ -6820,16 +6860,6 @@
     "trending_days": 2
   },
   {
-    "name": "Robbyant/lingbot-map",
-    "url": "https://github.com/robbyant/lingbot-map",
-    "language": "Python",
-    "stars": 8685,
-    "forks": 844,
-    "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
-    "last_seen": "2026-06-30",
-    "trending_days": 2
-  },
-  {
     "name": "run-llama/liteparse",
     "url": "https://github.com/run-llama/liteparse",
     "language": "Rust",
@@ -7067,6 +7097,16 @@
     "forks": 49,
     "description": "MCP server and Claude plugin for Postgres skills and documentation. Helps AI coding tools generate better PostgreSQL code.",
     "last_seen": "2025-12-31",
+    "trending_days": 2
+  },
+  {
+    "name": "tirth8205/code-review-graph",
+    "url": "https://github.com/tirth8205/code-review-graph",
+    "language": "Python",
+    "stars": 19948,
+    "forks": 2114,
+    "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+    "last_seen": "2026-07-18",
     "trending_days": 2
   },
   {
@@ -7577,16 +7617,6 @@
     "forks": 2900,
     "description": "Apache Maven core",
     "last_seen": "2026-07-03",
-    "trending_days": 1
-  },
-  {
-    "name": "apache/ossie",
-    "url": "https://github.com/apache/ossie",
-    "language": "Python",
-    "stars": 748,
-    "forks": 124,
-    "description": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",
-    "last_seen": "2026-07-16",
     "trending_days": 1
   },
   {
@@ -8237,6 +8267,16 @@
     "forks": 40,
     "description": "Core libraries and experimental work for Effect v4",
     "last_seen": "2026-02-20",
+    "trending_days": 1
+  },
+  {
+    "name": "elder-plinius/G0DM0D3",
+    "url": "https://github.com/elder-plinius/g0dm0d3",
+    "language": "TypeScript",
+    "stars": 9359,
+    "forks": 2242,
+    "description": "LIBERATED AI CHAT",
+    "last_seen": "2026-07-18",
     "trending_days": 1
   },
   {
@@ -8900,16 +8940,6 @@
     "trending_days": 1
   },
   {
-    "name": "ibelick/ui-skills",
-    "url": "https://github.com/ibelick/ui-skills",
-    "language": "TypeScript",
-    "stars": 3942,
-    "forks": 164,
-    "description": "Skills for Design Engineers",
-    "last_seen": "2026-07-16",
-    "trending_days": 1
-  },
-  {
     "name": "iii-hq/iii",
     "url": "https://github.com/iii-hq/iii",
     "language": "Rust",
@@ -9160,6 +9190,16 @@
     "trending_days": 1
   },
   {
+    "name": "KnockOutEZ/wigolo",
+    "url": "https://github.com/knockoutez/wigolo",
+    "language": "TypeScript",
+    "stars": 928,
+    "forks": 70,
+    "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
+    "last_seen": "2026-07-18",
+    "trending_days": 1
+  },
+  {
     "name": "Koenkk/zigbee2mqtt",
     "url": "https://github.com/koenkk/zigbee2mqtt",
     "language": "TypeScript",
@@ -9317,16 +9357,6 @@
     "forks": 476,
     "description": "Empower the Web community and invite more to build across platforms.",
     "last_seen": "2025-12-06",
-    "trending_days": 1
-  },
-  {
-    "name": "lyogavin/airllm",
-    "url": "https://github.com/lyogavin/airllm",
-    "language": "JupyterNotebook",
-    "stars": 20936,
-    "forks": 2418,
-    "description": "AirLLM 70B inference with single 4GB GPU",
-    "last_seen": "2026-06-22",
     "trending_days": 1
   },
   {
@@ -10667,16 +10697,6 @@
     "forks": 3978,
     "description": "You like pytorch? You like micrograd? You love tinygrad! ❤️",
     "last_seen": "2026-03-23",
-    "trending_days": 1
-  },
-  {
-    "name": "tirth8205/code-review-graph",
-    "url": "https://github.com/tirth8205/code-review-graph",
-    "language": "Python",
-    "stars": 19603,
-    "forks": 2100,
-    "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-    "last_seen": "2026-07-17",
     "trending_days": 1
   },
   {

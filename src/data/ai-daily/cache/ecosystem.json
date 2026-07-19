@@ -1,33 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-07-18",
+    "last_run": "2026-07-19",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/zai-org/glm-5",
-      "canonical_url": "https://github.com/zai-org/GLM-5",
-      "event_date": "2026-06-18",
-      "date_seen": "2026-06-18"
-    },
-    {
-      "key": "github.com/kilo-org/kilocode",
-      "canonical_url": "https://github.com/Kilo-Org/kilocode",
-      "event_date": "2026-06-18",
-      "date_seen": "2026-06-18"
-    },
-    {
-      "key": "github.com/withastro/flue",
-      "canonical_url": "https://github.com/withastro/flue",
-      "event_date": "2026-06-18",
-      "date_seen": "2026-06-18"
-    },
-    {
-      "key": "github.com/lightricks/ltx-2",
-      "canonical_url": "https://github.com/Lightricks/LTX-2",
-      "event_date": "2026-06-18",
-      "date_seen": "2026-06-18"
-    },
     {
       "key": "github.com/builderio/agent-native",
       "canonical_url": "https://github.com/BuilderIO/agent-native",
@@ -1095,6 +1071,36 @@
       "canonical_url": "https://github.com/mattpocock/skills",
       "event_date": "2026-07-18",
       "date_seen": "2026-07-18"
+    },
+    {
+      "key": "github.com/kvcache-ai/ktransformers",
+      "canonical_url": "https://github.com/kvcache-ai/ktransformers",
+      "event_date": "2026-07-19",
+      "date_seen": "2026-07-19"
+    },
+    {
+      "key": "github.com/astrbotdevs/astrbot",
+      "canonical_url": "https://github.com/AstrBotDevs/AstrBot",
+      "event_date": "2026-07-19",
+      "date_seen": "2026-07-19"
+    },
+    {
+      "key": "github.com/canner/wrenai",
+      "canonical_url": "https://github.com/Canner/WrenAI",
+      "event_date": "2026-07-19",
+      "date_seen": "2026-07-19"
+    },
+    {
+      "key": "github.com/handy-computer/transcribe.cpp",
+      "canonical_url": "https://github.com/handy-computer/transcribe.cpp",
+      "event_date": "2026-07-19",
+      "date_seen": "2026-07-19"
+    },
+    {
+      "key": "https://seeyeetech.com/github-explorer/reports/tensorflow_tensorflow",
+      "canonical_url": "https://seeyeetech.com/github-explorer/reports/tensorflow_tensorflow/",
+      "event_date": "2026-07-19",
+      "date_seen": "2026-07-19"
     }
   ]
 }

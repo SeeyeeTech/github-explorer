@@ -1,0 +1,6 @@
+{
+  "title": "21k Stars 的 code-review-graph：用一张本地图让 AI 评审只读 1% 代码",
+  "digest": "把仓库预先解析成持久化的本地图，让 Claude/Cursor/Codex 只读 blast radius 相关的最小上下文，大 monorepo 评审 token 平均下降 38 倍、最高 528 倍。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

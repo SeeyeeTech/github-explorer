@@ -1,0 +1,6 @@
+{
+  "title": "GitHub推荐：4GB 跑 70B：AirLLM 如何用流式加载反量化路线",
+  "digest": "AirLLM 选择「不量化、不蒸馏、不剪枝」的第三条路：layer-by-layer 流式加载让 70B 模型跑在 4GB GPU，405B 跑在 8GB VRAM，重塑精度无损推理的极限边界。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

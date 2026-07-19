@@ -1773,6 +1773,8 @@ entries:
   rmyndharis_openwa:
   - database
   - protocol-spec
+  robbyant_lingbot-map:
+  - video-audio
   roboflow_supervision:
   - uncategorized
   rohitg00_agentmemory:

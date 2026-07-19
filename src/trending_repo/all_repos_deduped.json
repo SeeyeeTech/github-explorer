@@ -280,6 +280,16 @@
     "trending_days": 18
   },
   {
+    "name": "codecrafters-io/build-your-own-x",
+    "url": "https://github.com/codecrafters-io/build-your-own-x",
+    "language": "Markdown",
+    "stars": 528608,
+    "forks": 50018,
+    "description": "Master programming by recreating your favorite technologies from scratch.",
+    "last_seen": "2026-07-19",
+    "trending_days": 18
+  },
+  {
     "name": "microsoft/VibeVoice",
     "url": "https://github.com/microsoft/vibevoice",
     "language": "Python",
@@ -288,16 +298,6 @@
     "description": "Open-Source Frontier Voice AI",
     "last_seen": "2026-04-29",
     "trending_days": 18
-  },
-  {
-    "name": "codecrafters-io/build-your-own-x",
-    "url": "https://github.com/codecrafters-io/build-your-own-x",
-    "language": "Markdown",
-    "stars": 527892,
-    "forks": 49951,
-    "description": "Master programming by recreating your favorite technologies from scratch.",
-    "last_seen": "2026-07-18",
-    "trending_days": 17
   },
   {
     "name": "abhigyanpatwari/GitNexus",
@@ -580,6 +580,16 @@
     "trending_days": 11
   },
   {
+    "name": "Flowseal/zapret-discord-youtube",
+    "url": "https://github.com/flowseal/zapret-discord-youtube",
+    "language": "Batchfile",
+    "stars": 30963,
+    "forks": 2374,
+    "description": "None",
+    "last_seen": "2026-07-19",
+    "trending_days": 11
+  },
+  {
     "name": "forrestchang/andrej-karpathy-skills",
     "url": "https://github.com/forrestchang/andrej-karpathy-skills",
     "language": "Unknown",
@@ -680,16 +690,6 @@
     "trending_days": 10
   },
   {
-    "name": "Flowseal/zapret-discord-youtube",
-    "url": "https://github.com/flowseal/zapret-discord-youtube",
-    "language": "Batchfile",
-    "stars": 29979,
-    "forks": 2339,
-    "description": "None",
-    "last_seen": "2026-06-24",
-    "trending_days": 10
-  },
-  {
     "name": "HKUDS/Vibe-Trading",
     "url": "https://github.com/hkuds/vibe-trading",
     "language": "Python",
@@ -767,6 +767,16 @@
     "forks": 2457,
     "description": "Fully automatic censorship removal for language models",
     "last_seen": "2026-06-01",
+    "trending_days": 10
+  },
+  {
+    "name": "rohitg00/ai-engineering-from-scratch",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "language": "Python",
+    "stars": 39362,
+    "forks": 6585,
+    "description": "Learn it. Build it. Ship it for others.",
+    "last_seen": "2026-07-19",
     "trending_days": 10
   },
   {
@@ -900,6 +910,16 @@
     "trending_days": 9
   },
   {
+    "name": "jamiepine/voicebox",
+    "url": "https://github.com/jamiepine/voicebox",
+    "language": "TypeScript",
+    "stars": 42998,
+    "forks": 5261,
+    "description": "The open-source AI voice studio. Clone, dictate, create.",
+    "last_seen": "2026-07-19",
+    "trending_days": 9
+  },
+  {
     "name": "jwasham/coding-interview-university",
     "url": "https://github.com/jwasham/coding-interview-university",
     "language": "Unknown",
@@ -990,16 +1010,6 @@
     "trending_days": 9
   },
   {
-    "name": "rohitg00/ai-engineering-from-scratch",
-    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-    "language": "Python",
-    "stars": 38866,
-    "forks": 6516,
-    "description": "Learn it. Build it. Ship it for others.",
-    "last_seen": "2026-07-18",
-    "trending_days": 9
-  },
-  {
     "name": "soxoj/maigret",
     "url": "https://github.com/soxoj/maigret",
     "language": "Python",
@@ -1028,6 +1038,16 @@
     "description": "All Algorithms implemented in Python",
     "last_seen": "2025-12-29",
     "trending_days": 9
+  },
+  {
+    "name": "1jehuang/jcode",
+    "url": "https://github.com/1jehuang/jcode",
+    "language": "Rust",
+    "stars": 8658,
+    "forks": 998,
+    "description": "Coding Agent Harness",
+    "last_seen": "2026-07-19",
+    "trending_days": 8
   },
   {
     "name": "Alishahryar1/free-claude-code",
@@ -1140,16 +1160,6 @@
     "trending_days": 8
   },
   {
-    "name": "jamiepine/voicebox",
-    "url": "https://github.com/jamiepine/voicebox",
-    "language": "TypeScript",
-    "stars": 32891,
-    "forks": 3973,
-    "description": "The open-source AI voice studio. Clone, dictate, create.",
-    "last_seen": "2026-06-23",
-    "trending_days": 8
-  },
-  {
     "name": "LadybirdBrowser/ladybird",
     "url": "https://github.com/ladybirdbrowser/ladybird",
     "language": "C++",
@@ -1187,6 +1197,16 @@
     "forks": 3676,
     "description": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
     "last_seen": "2026-07-14",
+    "trending_days": 8
+  },
+  {
+    "name": "PostHog/posthog",
+    "url": "https://github.com/posthog/posthog",
+    "language": "Python",
+    "stars": 36770,
+    "forks": 3042,
+    "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+    "last_seen": "2026-07-19",
     "trending_days": 8
   },
   {
@@ -1228,16 +1248,6 @@
     "description": "RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.",
     "last_seen": "2026-01-19",
     "trending_days": 8
-  },
-  {
-    "name": "1jehuang/jcode",
-    "url": "https://github.com/1jehuang/jcode",
-    "language": "Rust",
-    "stars": 7294,
-    "forks": 822,
-    "description": "Coding Agent Harness",
-    "last_seen": "2026-06-20",
-    "trending_days": 7
   },
   {
     "name": "basecamp/omarchy",
@@ -1397,16 +1407,6 @@
     "forks": 1517,
     "description": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
     "last_seen": "2026-01-03",
-    "trending_days": 7
-  },
-  {
-    "name": "PostHog/posthog",
-    "url": "https://github.com/posthog/posthog",
-    "language": "Python",
-    "stars": 36364,
-    "forks": 3016,
-    "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
-    "last_seen": "2026-07-18",
     "trending_days": 7
   },
   {
@@ -1610,6 +1610,16 @@
     "trending_days": 6
   },
   {
+    "name": "github/copilot-sdk",
+    "url": "https://github.com/github/copilot-sdk",
+    "language": "Java",
+    "stars": 9881,
+    "forks": 1344,
+    "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+    "last_seen": "2026-07-19",
+    "trending_days": 6
+  },
+  {
     "name": "hardikpandya/stop-slop",
     "url": "https://github.com/hardikpandya/stop-slop",
     "language": "Unknown",
@@ -1767,6 +1777,16 @@
     "forks": 2795,
     "description": "Official inference framework for 1-bit LLMs",
     "last_seen": "2026-03-13",
+    "trending_days": 6
+  },
+  {
+    "name": "MoonshotAI/kimi-cli",
+    "url": "https://github.com/moonshotai/kimi-cli",
+    "language": "Python",
+    "stars": 9676,
+    "forks": 1171,
+    "description": "Kimi Code CLI is your next CLI agent.",
+    "last_seen": "2026-07-19",
     "trending_days": 6
   },
   {
@@ -1947,6 +1967,16 @@
     "forks": 2230,
     "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
     "last_seen": "2026-06-27",
+    "trending_days": 6
+  },
+  {
+    "name": "trycua/cua",
+    "url": "https://github.com/trycua/cua",
+    "language": "HTML",
+    "stars": 20156,
+    "forks": 1335,
+    "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+    "last_seen": "2026-07-19",
     "trending_days": 6
   },
   {
@@ -2180,16 +2210,6 @@
     "trending_days": 5
   },
   {
-    "name": "github/copilot-sdk",
-    "url": "https://github.com/github/copilot-sdk",
-    "language": "Java",
-    "stars": 9747,
-    "forks": 1323,
-    "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
-    "last_seen": "2026-07-17",
-    "trending_days": 5
-  },
-  {
     "name": "github/gh-aw",
     "url": "https://github.com/github/gh-aw",
     "language": "Go",
@@ -2317,16 +2337,6 @@
     "forks": 534,
     "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
     "last_seen": "2026-06-12",
-    "trending_days": 5
-  },
-  {
-    "name": "MoonshotAI/kimi-cli",
-    "url": "https://github.com/moonshotai/kimi-cli",
-    "language": "Python",
-    "stars": 9264,
-    "forks": 1151,
-    "description": "Kimi Code CLI is your next CLI agent.",
-    "last_seen": "2026-07-18",
     "trending_days": 5
   },
   {
@@ -2587,16 +2597,6 @@
     "forks": 4536,
     "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
     "last_seen": "2026-03-08",
-    "trending_days": 5
-  },
-  {
-    "name": "trycua/cua",
-    "url": "https://github.com/trycua/cua",
-    "language": "HTML",
-    "stars": 18068,
-    "forks": 1169,
-    "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
-    "last_seen": "2026-06-15",
     "trending_days": 5
   },
   {
@@ -3320,6 +3320,16 @@
     "trending_days": 4
   },
   {
+    "name": "PKUFlyingPig/cs-self-learning",
+    "url": "https://github.com/pkuflyingpig/cs-self-learning",
+    "language": "HTML",
+    "stars": 74055,
+    "forks": 7936,
+    "description": "计算机自学指南",
+    "last_seen": "2026-07-19",
+    "trending_days": 4
+  },
+  {
     "name": "PowerShell/PowerShell",
     "url": "https://github.com/powershell/powershell",
     "language": "C#",
@@ -3637,6 +3647,16 @@
     "forks": 246,
     "description": "None",
     "last_seen": "2025-10-02",
+    "trending_days": 3
+  },
+  {
+    "name": "AstrBotDevs/AstrBot",
+    "url": "https://github.com/astrbotdevs/astrbot",
+    "language": "Python",
+    "stars": 36589,
+    "forks": 2538,
+    "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+    "last_seen": "2026-07-19",
     "trending_days": 3
   },
   {
@@ -4240,6 +4260,16 @@
     "trending_days": 3
   },
   {
+    "name": "lyogavin/airllm",
+    "url": "https://github.com/lyogavin/airllm",
+    "language": "JupyterNotebook",
+    "stars": 23505,
+    "forks": 2670,
+    "description": "AirLLM 70B inference with single 4GB GPU",
+    "last_seen": "2026-07-19",
+    "trending_days": 3
+  },
+  {
     "name": "MadsLorentzen/ai-job-search",
     "url": "https://github.com/madslorentzen/ai-job-search",
     "language": "TypeScript",
@@ -4447,16 +4477,6 @@
     "forks": 2861,
     "description": "None",
     "last_seen": "2026-07-12",
-    "trending_days": 3
-  },
-  {
-    "name": "PKUFlyingPig/cs-self-learning",
-    "url": "https://github.com/pkuflyingpig/cs-self-learning",
-    "language": "HTML",
-    "stars": 69074,
-    "forks": 7703,
-    "description": "计算机自学指南",
-    "last_seen": "2025-11-07",
     "trending_days": 3
   },
   {
@@ -4727,6 +4747,16 @@
     "forks": 1980,
     "description": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
     "last_seen": "2026-05-21",
+    "trending_days": 3
+  },
+  {
+    "name": "tirth8205/code-review-graph",
+    "url": "https://github.com/tirth8205/code-review-graph",
+    "language": "Python",
+    "stars": 20490,
+    "forks": 2136,
+    "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+    "last_seen": "2026-07-19",
     "trending_days": 3
   },
   {
@@ -5147,16 +5177,6 @@
     "forks": 159,
     "description": "An extremely fast Python type checker and language server, written in Rust.",
     "last_seen": "2025-12-20",
-    "trending_days": 2
-  },
-  {
-    "name": "AstrBotDevs/AstrBot",
-    "url": "https://github.com/astrbotdevs/astrbot",
-    "language": "Python",
-    "stars": 23434,
-    "forks": 1605,
-    "description": "Agentic IM Chatbot infrastructure that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-    "last_seen": "2026-03-13",
     "trending_days": 2
   },
   {
@@ -6130,6 +6150,16 @@
     "trending_days": 2
   },
   {
+    "name": "KnockOutEZ/wigolo",
+    "url": "https://github.com/knockoutez/wigolo",
+    "language": "TypeScript",
+    "stars": 1534,
+    "forks": 97,
+    "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
+    "last_seen": "2026-07-19",
+    "trending_days": 2
+  },
+  {
     "name": "KotatsuApp/Kotatsu",
     "url": "https://github.com/kotatsuapp/kotatsu",
     "language": "Kotlin",
@@ -6320,16 +6350,6 @@
     "trending_days": 2
   },
   {
-    "name": "lyogavin/airllm",
-    "url": "https://github.com/lyogavin/airllm",
-    "language": "JupyterNotebook",
-    "stars": 23136,
-    "forks": 2642,
-    "description": "AirLLM 70B inference with single 4GB GPU",
-    "last_seen": "2026-07-18",
-    "trending_days": 2
-  },
-  {
     "name": "malisper/pgrust",
     "url": "https://github.com/malisper/pgrust",
     "language": "Rust",
@@ -6457,6 +6477,16 @@
     "forks": 75,
     "description": "CLI for common Playwright actions. Record and generate Playwright code, inspect selectors and take screenshots.",
     "last_seen": "2026-01-31",
+    "trending_days": 2
+  },
+  {
+    "name": "microsoft/terminal",
+    "url": "https://github.com/microsoft/terminal",
+    "language": "C++",
+    "stars": 104012,
+    "forks": 9431,
+    "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
+    "last_seen": "2026-07-19",
     "trending_days": 2
   },
   {
@@ -7100,16 +7130,6 @@
     "trending_days": 2
   },
   {
-    "name": "tirth8205/code-review-graph",
-    "url": "https://github.com/tirth8205/code-review-graph",
-    "language": "Python",
-    "stars": 19948,
-    "forks": 2114,
-    "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-    "last_seen": "2026-07-18",
-    "trending_days": 2
-  },
-  {
     "name": "tobi/qmd",
     "url": "https://github.com/tobi/qmd",
     "language": "TypeScript",
@@ -7570,6 +7590,16 @@
     "trending_days": 1
   },
   {
+    "name": "andrewrabert/jellium-desktop",
+    "url": "https://github.com/andrewrabert/jellium-desktop",
+    "language": "Rust",
+    "stars": 1203,
+    "forks": 103,
+    "description": "An unofficial desktop client for Jellyfin",
+    "last_seen": "2026-07-19",
+    "trending_days": 1
+  },
+  {
     "name": "Anduin2017/HowToCook",
     "url": "https://github.com/anduin2017/howtocook",
     "language": "Dockerfile",
@@ -7857,6 +7887,16 @@
     "forks": 13351,
     "description": "Scheduling infrastructure for absolutely everyone.",
     "last_seen": "2026-05-17",
+    "trending_days": 1
+  },
+  {
+    "name": "Canner/WrenAI",
+    "url": "https://github.com/canner/wrenai",
+    "language": "Python",
+    "stars": 16044,
+    "forks": 1832,
+    "description": "GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data sources, such as BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks and more.",
+    "last_seen": "2026-07-19",
     "trending_days": 1
   },
   {
@@ -9190,16 +9230,6 @@
     "trending_days": 1
   },
   {
-    "name": "KnockOutEZ/wigolo",
-    "url": "https://github.com/knockoutez/wigolo",
-    "language": "TypeScript",
-    "stars": 928,
-    "forks": 70,
-    "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
-    "last_seen": "2026-07-18",
-    "trending_days": 1
-  },
-  {
     "name": "Koenkk/zigbee2mqtt",
     "url": "https://github.com/koenkk/zigbee2mqtt",
     "language": "TypeScript",
@@ -9207,6 +9237,16 @@
     "forks": 1879,
     "description": "Zigbee 🐝 to MQTT bridge 🌉, get rid of your proprietary Zigbee bridges 🔨",
     "last_seen": "2026-01-02",
+    "trending_days": 1
+  },
+  {
+    "name": "kvcache-ai/ktransformers",
+    "url": "https://github.com/kvcache-ai/ktransformers",
+    "language": "Python",
+    "stars": 18148,
+    "forks": 1432,
+    "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+    "last_seen": "2026-07-19",
     "trending_days": 1
   },
   {
@@ -9517,16 +9557,6 @@
     "forks": 873,
     "description": "Research and development (R&D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&D are mainly focused on data and models. We are committed to automating these high-value generic R&D processes through R&D-Agent, which lets AI drive data-driven AI. 🔗https://aka.ms/RD-Agent-Tech-Report",
     "last_seen": "2025-10-10",
-    "trending_days": 1
-  },
-  {
-    "name": "microsoft/terminal",
-    "url": "https://github.com/microsoft/terminal",
-    "language": "C++",
-    "stars": 100542,
-    "forks": 8857,
-    "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
-    "last_seen": "2025-10-19",
     "trending_days": 1
   },
   {

@@ -1,0 +1,6 @@
+{
+  "title": "transcribe.cpp：把 16 个 STT 家族压进同一份 C ABI 的 llama.cpp STT 范本",
+  "digest": "transcribe.cpp 3.4 个月拿下 1.2k stars，把 16 个 STT 家族压进同一份 C ABI，以 WER 发布契约 + 机器门禁守住 ABI 演进纪律，是 ggml 生态 STT 领域的工程范本。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

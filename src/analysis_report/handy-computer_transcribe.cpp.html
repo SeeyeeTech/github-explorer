@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+ul, ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    margin: 1em 0 !important;
+    font-size: 14px !important;
+}
+th, td {
+    border: 1px solid #ddd !important;
+    padding: 6px 10px !important;
+    text-align: left !important;
+    line-height: 1.5 !important;
+}
+th {
+    background: #f5f5f5 !important;
+    font-weight: bold !important;
+}
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/handy-computer/transcribe.cpp">https://github.com/handy-computer/transcribe.cpp</a></p></blockquote>
+<h2>一句话总结</h2>
+<p>一个 ggml 上的 C/C++ 语音转文字推理库，把 <strong>16 个 STT 模型家族</strong>（Whisper / Parakeet / Canary / Qwen3-ASR / Voxtral / MOSS / Granite-Speech 等 60+ 变体）压进同一份 C ABI，并以「<strong>数值对齐参考实现 + Modal WER 校验</strong>」作为发布契约，是 llama.cpp 在 STT 领域的工程范本。</p>
+
+<h2>值得关注的理由</h2>
+<ul>
+<li><strong>工程纪律机器化</strong>：作者把「C++ 异常不出 ABI」「ggml 资源释放走 safe_* 包装」这种「程序员守纪」升级成 CI 门禁（<code>tests/lint_teardown.cmake</code> 字面扫所有源码命中裸 <code>ggml_*_free(</code> 直接 <code>FATAL_ERROR</code>），是 <strong>ggml 生态独此一家</strong>。</li>
+<li><strong>3.4 个月 1.2k stars 的单人速率</strong>：CJ Pais 489 commits / 26% 周末 / 29% 夜间 / 单作者 100%，Mozilla AI BiR 资助 + Hugging Face / Modal / Blacksmith 三方赞助；外加「8 阶段 porting skill + preflight gate」AI-agent 化产线把「加一个新家族」从艺术变成流水线。</li>
+<li><strong>ggml 之上的 llama.cpp 哲学</strong>：<strong>不发明新算法</strong>，而是把 NeMo/transformers/FunASR 生态下 16 个不同范式（CTC/RNN-T/TDT/encoder-decoder/audio-LLM/streaming）拉到同一份 C ABI + 同一份 ggml runtime + 同一套量化预设（F16/Q8/Q6_K/Q5_K_M/Q4_K_M）。</li>
+</ul>
+
+<h2>项目展示</h2>
+<p>README 与官网均无 hero / 架构图 / Demo GIF / 截图。仓库风格是「代码即文档、docs/models/ 即产品页」的工程化呈现，无消费级视觉素材。</p>
+<p>可参考的外部入口：</p>
+<ul>
+<li><a href="https://handy.computer/handy-video.webm">Handy 桌面应用演示视频</a> — 展示 push-to-talk 触发转写的应用层产品流（间接演示 transcribe.cpp 引擎）</li>
+<li><a href="https://deepwiki.com/handy-computer/transcribe.cpp">DeepWiki 系统化索引</a> — 10 章结构化拆解（2026-06-30，commit <code>0926bc0b</code>）</li>
+<li><a href="https://huggingface.co/handy-computer">Hugging Face handy-computer 组织页</a> — 68 个官方验证 GGUF 模型</li>
+</ul>
+
+<h2>项目画像</h2>
+<table>
+<thead>
+<tr><th>维度</th><th>数据</th></tr>
+</thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/handy-computer/transcribe.cpp">https://github.com/handy-computer/transcribe.cpp</a></td></tr>
+<tr><td>Star / Fork</td><td>1216 / 29</td></tr>
+<tr><td>Watcher / Issue / PR</td><td>10 / 12 / 7</td></tr>
+<tr><td>代码行数</td><td>431K（含 69K 注释，实际 ~362K 有效代码 / 1682 文件；ggml vendored fork 占一半）</td></tr>
+<tr><td>语言分布</td><td>C++ 51.0%, C 13.0%, Python 9.6%, C Header 9.1%, JSON 4.5%, GLSL 3.7%, C++ Header 3.1%, Rust 1.1%, Swift 0.5%, TypeScript 0.5%</td></tr>
+<tr><td>项目年龄</td><td>3.4 个月（2026-04-07 ~ 2026-07-20）</td></tr>
+<tr><td>开发阶段</td><td>密集开发（5/6 月稳定 180+ commits/月；7 月进入 bug 治理期）</td></tr>
+<tr><td>贡献模式</td><td>单人主导（bus factor = 1，cjpais 100%）</td></tr>
+<tr><td>热度定位</td><td>中等热度（被低估的潜力股）</td></tr>
+<tr><td>质量评级</td><td>代码[优秀] 文档[优秀] 测试[优秀] CI[优秀]</td></tr>
+<tr><td>License</td><td>MIT</td></tr>
+<tr><td>Topic</td><td>asr, ggml, gguf, speech-to-text</td></tr>
+</tbody>
+</table>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+<p>CJ Pais（GitHub: <a href="https://github.com/cjpais">@cjpais</a>，731 followers、110 repos）以 <code>handy-computer</code> Organization 为载体，构建了一个「应用层 → 推理引擎 → 模型分发」自上而下的语音生态闭环：</p>
+<ul>
+<li><strong>应用层</strong>：Handy（桌面 push-to-talk 应用，27k stars，Tauri 实现）</li>
+<li><strong>推理引擎</strong>：transcribe.cpp（C/C++ 内核，本项目 1216 stars）</li>
+<li><strong>上层封装</strong>：transcribe-rs（Rust wrapper，243 stars）</li>
+<li><strong>平台工具</strong>：handy-keys（cross-platform hotkey 库，22 stars）</li>
+<li><strong>历史遗产</strong>：whisperfile（68 stars，已被新体系取代）</li>
+<li><strong>模型分发</strong>：Hugging Face <code>handy-computer</code> 组织下 68 个官方验证的 GGUF 模型</li>
+</ul>
+<p>资金链全部外部化：Mozilla AI BiR Program（资助 + agentic programming 协助）、Hugging Face（模型托管）、Modal（GPU WER 校验 credits）、Blacksmith（CI runner）。作者本人只做 glue，是个「开源个体户」路线。</p>
+
+<h3>问题判断</h3>
+<p>作者看到了三个具体问题：</p>
+<ol>
+<li><strong>STT 推理栈碎片化</strong>：NeMo 出 Parakeet、transformers 出 Whisper/Canary/Voxtral/Qwen3-ASR、FunASR 自家生态、MOSS 走 audio-LLM——每家一个推理栈，应用层只能选边站，量化/后端优化要每个家族重做一遍。</li>
+<li><strong>ggml 生态只服务 Whisper</strong>：whisper.cpp 35k stars 是 ggml 唯一的 STT 存在，但 llama.cpp 的「模型可移植 + 多后端 + 量化工具链」模式只在 LLM 上跑通，STT 缺一个「对得起 llama.cpp 标准的同等工程」。</li>
+<li><strong>组合爆炸缺乏工业化路径</strong>：16 家族 × 4 后端 × 3 范式 = 维护噩梦。需要把 90% 机械工作（前端、KV cache、decode loop、teardown、log sink）一次写完、可重用、可门禁。</li>
+</ol>
+
+<h3>解法哲学</h3>
+<ol>
+<li><strong>稳定 C ABI = 头文件即合同</strong>。<code>include/transcribe.h</code>（2643 行）是「用户唯一看到的东西」；<code>struct_size</code> + <code>_init()</code> 模式 + ABI hash 共同保证调用方忘 init 就是 <code>BAD_STRUCT_SIZE</code>，版本不一致时 Python binding 拒绝加载。</li>
+<li><strong>C++ exception 不出 ABI</strong>。<code>src/transcribe.cpp</code> 三个函数模板 <code>api_guard_status</code> / <code>api_guard_value</code> / <code>api_guard_void</code>，加上 <code>tests/lint_teardown.cmake</code> 在 CI 字面扫描禁用裸 <code>ggml_*_free(</code>。把「程序员守纪」升级成「<strong>机器门禁</strong>」。</li>
+<li><strong>家族注册表 = 单文件 + 数组</strong>（不是插件机制）。<code>src/transcribe-arch.cpp</code> 用静态指针数组 <code>k_archs[]</code> + 线性 strcmp，加一个家族只需「两个 extern + 一行数组追加」。明确拒绝抽象过度。</li>
+<li><strong>Nullable-pointer View 模式替代 OO 适配器</strong>。<code>src/conformer/conformer.h</code> 的 <code>BlockView</code> / <code>PreEncodeView</code> 是平铺的 <code>ggml_tensor*</code> 字段集合，bias 为 <code>nullptr</code> = 跳过加 bias。比 adapter pattern 短 10×，彻底避免 vtable 调用成本。</li>
+<li><strong>「参考对齐」是契约，不是 nice-to-have</strong>。每个家族都有 <code>tests/golden/&lt;family&gt;/&lt;variant&gt;.manifest.json</code> + <code>tests/tolerances/&lt;family&gt;.json</code>；CI gate 是「所有 gate tensor 在公差内」+「transcript 与参考一致」。</li>
+</ol>
+
+<h3>战略意图</h3>
+<p>作者赌的是「长尾 STT 模型都想要本地化」这条曲线。<strong>Whisper 已经赢了头部</strong>；剩下 Parakeet/Canary/Voxtral/Granite-Speech/Qwen3-ASR 在企业、医疗、多语种场景里都有 niche，谁先把它们搬到 ggml/边缘，谁就吃到第二波红利。本项目在作者更大图景中处于「基础设施层」位置——应用层 Handy 在上面吃流量，下面通过 GGUF 与 llama.cpp 共享 runtime/量化生态。</p>
+<p>商业化路径未明示，但 Hugging Face <code>handy-computer</code> 组织页 + 桌面应用 Handy 的 Tauri 商业化暗示作者在做「应用变现 + 引擎开源」的标准开源核心 + SaaS 闭环。</p>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处（按新颖度 × 实用性排序）</h3>
+<table>
+<thead>
+<tr><th>#</th><th>创新点</th><th>新颖度</th><th>实用性</th><th>可迁移性</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td><strong>ABI 自描述三元组</strong>：<code>struct_size</code> + <code>_init()</code> + <code>transcribe_abi_struct_size()</code> 让 0.x 阶段既前置又后置 ABI 兼容</td><td>★★★</td><td>★★★★★</td><td>★★★★★</td></tr>
+<tr><td>2</td><td><strong><code>api_guard_*</code> + lint_teardown.cmake 门禁</strong>：把 C++ exception 不出 ABI + 资源释放纪律机器化</td><td>★★★</td><td>★★★★★</td><td>★★★★★</td></tr>
+<tr><td>3</td><td><strong>per-tensor numeric-oracle 契约</strong>：dump 点选在 LayerNorm/RMSNorm 之后 + pre-softmax logits 比较，避免 softmax underflow 错位</td><td>★★★★</td><td>★★★★★</td><td>★★★★★</td></tr>
+<tr><td>4</td><td><strong>8 阶段 porting skill + preflight gate 链</strong>：把「加一个新模型家族」从艺术变成 <strong>AI-agent 可驱动</strong>的流水线</td><td>★★★★</td><td>★★★★★</td><td>★★★★</td></tr>
+<tr><td>5</td><td><strong>函数指针 Arch trait + 数组注册表</strong>：可选钩子 = null = 自动 NOT_IMPLEMENTED，加家族 = extern + 一行数组追加</td><td>★★★★</td><td>★★★★★</td><td>★★★★</td></tr>
+<tr><td>6</td><td><strong>nullable-pointer View 模式</strong>：用 nullptr 表示「特征存在性」，比硬编 N 种 derived class 干净</td><td>★★★★</td><td>★★★★★</td><td>★★★★</td></tr>
+<tr><td>7</td><td><strong>WER-as-publication-contract</strong>：Modal GPU credit 跑 WER 作为发布前硬闸，「only publish what we WER-checked」</td><td>★★★</td><td>★★★★★</td><td>★★★★</td></tr>
+<tr><td>8</td><td><strong>load-time <code>pack_gate_up</code></strong>：SwiGLU gate+up 拼接为一次 mul_mat + 一次 swiglu</td><td>★★★</td><td>★★★★</td><td>★★★★</td></tr>
+<tr><td>9</td><td><strong>Streaming snapshot 与 lifecycle 解耦</strong>：append-only committed + 可替换 tentative，UI typo 不毁掉前一段 transcript</td><td>★★★</td><td>★★★★</td><td>★★★★</td></tr>
+</tbody>
+</table>
+
+<h3>可复用的模式与技巧</h3>
+<ol>
+<li><strong><code>api_guard_*</code> + lint_teardown 双层防御</strong>：任何要长期演进的 C++ 库 + 多语言 binding 项目都该抄——上层用 RAII 包裹 lambda 限制异常传播，下层用 CI 字面扫描禁用裸释放函数。</li>
+<li><strong><code>struct_size</code> 自描述 ABI</strong>：0.x 阶段允许「旧 caller + 新库」与「新 caller + 旧库」双向兼容，比 <code>#ifdef VERSION</code> 干净得多。</li>
+<li><strong>Nullable-pointer View 共享算子</strong>：当多个家族共享同一组算子（Conformer 块、LLM block）但「可选槽位不同」时，用平铺 nullable 字段代替 N 个 derived class，编译期多态 + 零 vtable 开销。</li>
+<li><strong>NUMERIC-ORACLE dump 选 norm 边界</strong>：norm 把 scale 重置并抑制累积噪声，norm 后是稳定比较点；pre-softmax logits 不被 -inf 污染——任何 PyTorch→C++ porting 项目都该抄。</li>
+<li><strong>「AI-augmented porting」8 阶段流程</strong>：intake → preflight-A → preflight-B → validation → real-model smokes → ship，每阶段独立 preflight.py --gate 把「加新家族」变成可验证步骤。</li>
+<li><strong><code>safe_backend_free</code> + <code>TRANSCRIBE_TEST_TEARDOWN_THROW</code> 故障注入</strong>：在 release artifact 里保留故障钩子供 wheel CI 用——生产代码保留可注入的「退出失败」通道。</li>
+<li><strong>4 类测试矩阵</strong>（fixture smoke / real structural smoke / real e2e / batch truncation / streaming parity）：每家族都套同一模板，规模化加家族不会拖累测试基线。</li>
+</ol>
+
+<h3>关键设计决策</h3>
+
+<h4>决策 1：函数指针 Arch trait + 数组注册表（不用 C++ vtable）</h4>
+<ul>
+<li><strong>问题</strong>：多家族 STT 需要一个可扩展的 family-level 调度层，但 C++ vtable 抽象过重且难 grep。</li>
+<li><strong>方案</strong>：<code>src/transcribe-arch.cpp</code> 静态数组 <code>k_archs[]</code> + 函数指针 struct；可选钩子 = null = 自动 NOT_IMPLEMENTED。</li>
+<li><strong>Trade-off</strong>：失去一些 C++ 抽象糖（traits/static dispatch），换来了「可从一个文件 grep 全集」+「避免静态初始化顺序坑」+「零开销函数指针调用」。</li>
+<li><strong>可迁移性</strong>：★★★★。</li>
+</ul>
+
+<h4>决策 2：C ABI 例外纪律机器化（<code>api_guard_*</code> + lint_teardown）</h4>
+<ul>
+<li><strong>问题</strong>：跨语言绑定（ctypes / cbindgen / Swift bridging / Node koffi）的 ABI 一旦让异常逃出，要么 host 进程崩溃，要么静默资源泄漏。</li>
+<li><strong>方案</strong>：<code>src/transcribe.cpp</code> 三个 <code>api_guard_*</code> 函数模板 + <code>tests/lint_teardown.cmake</code> 在 CI 字面扫描禁用裸 <code>ggml_*_free(</code>。</li>
+<li><strong>Trade-off</strong>：写新 public entry 时多一层 wrapper，但长期 binding 维护成本断崖式下降。</li>
+<li><strong>可迁移性</strong>：★★★★★。</li>
+</ul>
+
+<h4>决策 3：struct_size + abi_struct_size 自描述 ABI</h4>
+<ul>
+<li><strong>问题</strong>：0.x 阶段频繁调整字段，但下游 4 种语言 binding 已经在生产中用。</li>
+<li><strong>方案</strong>：每个跨 ABI struct 第一个字段 <code>uint64_t struct_size</code>；每个 <code>_init()</code> 函数 stamp 当前 layout 大小；库提供 <code>transcribe_abi_struct_size(which)</code> 让 binding 在构造实例前查询。</li>
+<li><strong>Trade-off</strong>：调用方不能 <code>{0}</code> 初始化（被 <code>BAD_STRUCT_SIZE</code> 拒），但换来的是「前置 + 后置 ABI 双向兼容」。</li>
+<li><strong>可迁移性</strong>：★★★★★。</li>
+</ul>
+
+<h4>决策 4：ggml vendored fork + UPSTREAM 钉 SHA</h4>
+<ul>
+<li><strong>问题</strong>：ggml 是上游依赖，但 <code>ggml/src</code> 1495 次修改 + <code>ggml/examples</code> 848 次修改说明作者实质把 ggml 当自有子模块维护。</li>
+<li><strong>方案</strong>：仓库内置 ggml，<code>ggml/UPSTREAM</code> 钉版本，CMake 显式 <code>set(GGML_* ON) FORCE</code> 抢默认值。</li>
+<li><strong>Trade-off</strong>：自己承担 merge ggml 上游的成本（<code>scripts/sync-ggml.sh</code>），但摆脱「等上游合并才能发版」的束缚。</li>
+<li><strong>可迁移性</strong>：★★★（与 ggml 生态强耦合）。</li>
+</ul>
+
+<h4>决策 5：numeric-oracle dump 在 norm 边界 + pre-softmax logits</h4>
+<ul>
+<li><strong>问题</strong>：PyTorch→C++ porting 时数值对齐困难，softmax 后比较会被 -inf 错位污染。</li>
+<li><strong>方案</strong>：dump 点选在 LayerNorm/RMSNorm/BatchNorm 之后；pre-softmax logits 作为首选比较点；gate tensor 在两侧对称 dump + tolerance entry；debug tensor 不在 tolerance 里就只是 MISSING、不算失败。</li>
+<li><strong>Trade-off</strong>：需要为每个家族定制 dump pipeline，但 debug 时间断崖式缩短。</li>
+<li><strong>可迁移性</strong>：★★★★★。</li>
+</ul>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+<table>
+<thead>
+<tr><th>维度</th><th>transcribe.cpp</th><th>whisper.cpp</th><th>sherpa-onnx</th><th>llama.cpp</th><th>dsnote</th></tr>
+</thead>
+<tbody>
+<tr><td>Stars</td><td>1216</td><td>~35k</td><td>~13.7k</td><td>~130k</td><td>~1.5k</td></tr>
+<tr><td>模型家族数</td><td><strong>16</strong></td><td>1（Whisper）</td><td>~10（含 TTS/VAD/diarize）</td><td>LLM 为主</td><td>应用层封装</td></tr>
+<tr><td>推理后端</td><td>ggml (Metal/Vulkan/CUDA/CPU+BLAS+tinyBLAS)</td><td>ggml 同款</td><td>onnxruntime</td><td>ggml 同款</td><td>whisper.cpp + sherpa-onnx</td></tr>
+<tr><td>范式覆盖</td><td>CTC/RNN-T/TDT/ED/audio-LLM/streaming</td><td>ED only</td><td>多但每类窄</td><td>LLM only</td><td>应用层</td></tr>
+<tr><td>ABI 纪律</td><td><strong>极严</strong>（lint_teardown + struct_size）</td><td>较松</td><td>较松</td><td>中等</td><td>N/A</td></tr>
+<tr><td>数值对齐参考</td><td>每家族 manifest + tolerance</td><td>较粗</td><td>中等</td><td>中等</td><td>N/A</td></tr>
+<tr><td>量化预设</td><td>F16/Q8/Q6_K/Q5_K_M/Q4_K_M</td><td>同</td><td>per-model</td><td>最丰富</td><td>N/A</td></tr>
+<tr><td>发布契约</td><td><strong>「WER-tested before publish」</strong></td><td>无明确</td><td>无明确</td><td>无明确</td><td>无明确</td></tr>
+<tr><td>Binding</td><td>py/rust/swift/typescript</td><td>py/rust/go/swift</td><td>py/java/csharp/rust</td><td>py/rust/go/swift/c++</td><td>GUI only</td></tr>
+<tr><td>流式</td><td>完整生命周期 + commit policy</td><td>简单 chunk</td><td>支持</td><td>仅 LLM streaming</td><td>GUI only</td></tr>
+<tr><td>单作者主导</td><td><strong>是</strong>（489 commits/3.4 月）</td><td>ggerganov 一人</td><td>团队</td><td>ggerganov 一人</td><td>个人</td></tr>
+<tr><td>模型分发</td><td>HuggingFace <code>handy-computer</code> org</td><td>无官方</td><td>无</td><td>HF llama.cpp 社区</td><td>无</td></tr>
+</tbody>
+</table>
+
+<h3>差异化护城河</h3>
+<ol>
+<li><strong>多范式 + 多家族覆盖最广</strong>：whisper.cpp 只服务 Whisper；sherpa-onnx 范式多但每个家族窄；transcribe.cpp 是「宽 + 深」。</li>
+<li><strong>WER-as-publication</strong>：其他三家没有「publish 前必须过 WER 闸」的硬约束。</li>
+<li><strong>ABI 演进纪律</strong>：<code>struct_size</code> + lint_teardown 在 ggml 生态里独此一家。</li>
+<li><strong>AI-augmented porting 工业化</strong>：8 阶段 skill 链 + preflight gate 把「加一个新家族」从艺术变成流水线。</li>
+</ol>
+
+<h3>竞争风险</h3>
+<ul>
+<li><strong>最可能被替代的路径</strong>：ggml 上游（ggerganov）若亲自下场把 llama.cpp 范式扩到 STT，单作者 bus factor 会被直接击穿。</li>
+<li><strong>生产并发场景</strong>：0.x limitation 明示「模型 + 全 session 同时只能一个 run 在 flight；并行只能 load 多份」，这是生产级高并发场景的硬约束。</li>
+<li><strong>AMD GPU 用户绕道</strong>：ROCm 后端缺失（issue #92），AMD 离散 GPU 用户只能走 Vulkan fallback。</li>
+</ul>
+
+<h3>生态定位</h3>
+<p>在整个 AI 推理生态中扮演「STT 垂直领域的 llama.cpp 替身」——填补了「ggml + 多家族 + 多范式 + 严格 ABI + WER 发布契约」这个组合的空白；对位关系是「whisper.cpp 的自然延伸 + sherpa-onnx 的 ggml 替身 + llama.cpp 的 STT 兄弟」。尚未形成红海，但 0.x 阶段需把 ROCm / Tekken tokenizer / TDT 解码鲁棒性补齐才能进入第二梯队头部。</p>
+
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：1216 stars 同期 whisper.cpp 35k+、sherpa-onnx 13k+，但「ggml + 16 家族 + WER parity」组合几乎没有对手；同时 Mozilla AI / Modal / Blacksmith / Hugging Face 四家基础设施级赞助 + Handy 桌面应用引流，是 <strong>被低估的潜力股</strong>。</li>
+<li><strong>技术借鉴</strong>：<code>api_guard_*</code> + lint_teardown 双层防御 / <code>struct_size</code> 自描述 ABI / nullable-pointer View 模式 / numeric-oracle norm 边界 dump / 8 阶段 porting skill——这五条是任何「C++ + 多语言 binding + PyTorch 移植」项目都能直接抄的工程范本。</li>
+<li><strong>生态位</strong>：填补了「ggml 生态只服务 Whisper 与 LLM，STT 跨家族工程化空白」的缝隙；同时与 Handy 应用层 + transcribe-rs 上层形成「自上而下贯通」的 voice-stack 产品矩阵。</li>
+<li><strong>趋势判断</strong>：本地化、离线、隐私优先的语音转文字需求在上升（Handy 27k stars 是侧证）；ROCm 后端（issue #92）与 Audio-LLM tokenizer 多样性（Tekken, issue #82）是下一阶段必须补的能力，否则 AMD GPU 用户与 Voxtral 类 Audio-LLM 用户会流失。</li>
+</ul>
+
+<h2>风险与不足</h2>
+<ul>
+<li><strong>bus factor = 1</strong>：cjpais 一旦暂停 1 个月以上，社区没有维护者接班。CONTRIBUTING.md 自述「submitters may be asked to help maintain」是防御性表述，<strong>多人维护文化尚未建立</strong>。</li>
+<li><strong>0.x 阶段并发 compute 仍串行</strong>：<code>include/transcribe.h:13-20</code> 写明模型 + 全 session 同时只能一个 run 在 flight；生产场景下需 load 多份模型并行——是显式 limitation 不是 bug。</li>
+<li><strong>vendored ggml fork 是双刃剑</strong>：用户拿到所有修复，但也承担 merge 上游 ggml 的负担（<code>scripts/sync-ggml.sh</code> 自动化程度未评估）。</li>
+<li><strong>API 仍高频迭代</strong>：<code>include/transcribe.h</code> 改 59 次 + <code>src/transcribe.cpp</code> 改 49 次——下游 binding 用户可能踩到 break change。</li>
+<li><strong>bug 治理期刚开始</strong>：7 月节奏放缓但 issue 集中在「Parakeet TDT 静默丢字 / Windows IL 异常 / Voxtral Tekken 回退」等核心模型行为异常，下一个 1-2 个月可能进入密集修 bug 期。</li>
+<li><strong>diarization 路径家族特化未提炼共用基类</strong>：MOSS 与 Granite 各一套，若未来接入 pyannote/speechbrain，会需要第三次重构。</li>
+<li><strong>MOSS 的「speaker tag 是普通文本」脆弱性</strong>：模型生成 <code>He said [S1]hello[S2]world</code> 时若空格不规范 parser 会漏，需要 round-trip fixture 测试覆盖。</li>
+</ul>
+
+<h2>行动建议</h2>
+<ul>
+<li><strong>如果你要用它</strong>：
+<ul>
+<li>选它当你的 STT 引擎当且仅当：① 需要 ggml 全后端（Metal/Vulkan/CUDA/CPU）；② 想跑 Whisper 之外的 STT 模型（Parakeet / Canary / Voxtral / Qwen3-ASR 等）；③ 重视 WER 校验与 ABI 长期演进。</li>
+<li>避开它当：① 需要生产级高并发（concurrent compute 仍串行）；② 仅用 Whisper 一家（whisper.cpp 更成熟）；③ 部署到 AMD GPU 且无 Vulkan fallback（ROCm 暂缺）。</li>
+</ul>
+</li>
+<li><strong>如果你要学它</strong>：
+<ul>
+<li>必读文件：<code>include/transcribe.h</code>（2643 行 C ABI 单头文件）/ <code>src/transcribe.cpp</code>（api_guard 三件套）/ <code>src/transcribe-arch.{h,cpp}</code>（Arch trait + 数组注册表）/ <code>src/conformer/conformer.{h,cpp}</code>（nullable View 模式范本）/ <code>src/causal_lm/causal_lm.{h,cpp}</code>（pack_gate_up + slab KV 范本）/ <code>tests/lint_teardown.cmake</code>（CI 门禁范本）。</li>
+<li>必读文档：<code>docs/porting/{0..6}*.md</code>（porting 8 阶段 skill 的 canonical docs）/ <code>docs/model-family-testing.md</code>（family test contract）/ <code>CONTRIBUTING.md</code>（review gates + GGUF policy + AI 协助披露规则）。</li>
+<li>必看设计：<code>struct_size</code> 自描述 ABI / <code>api_guard_*</code> exception 纪律 / numeric-oracle norm 边界 dump / 8 阶段 AI-agent porting 流程。</li>
+</ul>
+</li>
+<li><strong>如果你要 fork 它</strong>：
+<ul>
+<li>可改进方向：① 补 ROCm 后端（issue #92 已有 7 个 thumbs-up）；② 加 Tekken tokenizer 支持（issue #82）；③ 重做 TDT 解码器修复静默丢段（issue #71）；④ 提取 diarization 共享基类；⑤ 加并发 compute 支持；⑥ fork 出医疗垂直 ASR 子项目（MedASR 已经在 docs 里但还没合并）。</li>
+</ul>
+</li>
+</ul>
+
+<h3>知识入口</h3>
+<table>
+<thead>
+<tr><th>资源</th><th>链接</th></tr>
+</thead>
+<tbody>
+<tr><td>DeepWiki</td><td><a href="https://deepwiki.com/handy-computer/transcribe.cpp">已收录</a>（10 章体系化索引）</td></tr>
+<tr><td>Zread.ai</td><td>未收录</td></tr>
+<tr><td>关联论文</td><td>无（项目本身是推理引擎 port，不是研究产出；上游模型各自有论文但不归本仓库）</td></tr>
+<tr><td>在线 Demo</td><td>无（Hugging Face Inference Providers 明确标注「isn't deployed by any Inference Provider」；纯本地推理定位）</td></tr>
+<tr><td>HuggingFace</td><td><a href="https://huggingface.co/handy-computer">handy-computer 组织页</a> — 68 个官方验证 GGUF 模型</td></tr>
+<tr><td>应用层闭环</td><td><a href="https://handy.computer">Handy 桌面应用</a> — push-to-talk 应用层演示</td></tr>
+</tbody>
+</table>
+</body>
+</html>

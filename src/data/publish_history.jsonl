@@ -244,3 +244,4 @@
 {"recorded_at": "2026-07-18T22:03:52.203820+00:00", "slug": "robbyant_lingbot-map", "title": null, "state": "published", "published_at": "2026-07-18", "reason": "自动生成", "ci_run_id": "29662014360"}
 {"recorded_at": "2026-07-19T21:50:55.038953+00:00", "slug": "lyogavin_airllm", "title": null, "state": "published", "published_at": "2026-07-19", "reason": "自动生成", "ci_run_id": "29704800153"}
 {"recorded_at": "2026-07-19T22:50:08.176903+00:00", "slug": "tirth8205_code-review-graph", "title": null, "state": "published", "published_at": "2026-07-19", "reason": "自动生成", "ci_run_id": "29706579336"}
+{"recorded_at": "2026-07-20T22:58:23.899515+00:00", "slug": "handy-computer_transcribe.cpp", "title": null, "state": "published", "published_at": "2026-07-20", "reason": "自动生成", "ci_run_id": "29785019911"}

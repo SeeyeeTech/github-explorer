@@ -1,27 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-07-19",
+    "last_run": "2026-07-20",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/builderio/agent-native",
-      "canonical_url": "https://github.com/BuilderIO/agent-native",
-      "event_date": "2026-06-19",
-      "date_seen": "2026-06-19"
-    },
-    {
-      "key": "github.com/chopratejas/headroom",
-      "canonical_url": "https://github.com/chopratejas/headroom",
-      "event_date": "2026-06-19",
-      "date_seen": "2026-06-19"
-    },
-    {
-      "key": "github.com/aishwaryanr/awesome-generative-ai-guide",
-      "canonical_url": "https://github.com/aishwaryanr/awesome-generative-ai-guide",
-      "event_date": "2026-06-19",
-      "date_seen": "2026-06-19"
-    },
     {
       "key": "github.com/1jehuang/jcode",
       "canonical_url": "https://github.com/1jehuang/jcode",
@@ -1101,6 +1083,30 @@
       "canonical_url": "https://seeyeetech.com/github-explorer/reports/tensorflow_tensorflow/",
       "event_date": "2026-07-19",
       "date_seen": "2026-07-19"
+    },
+    {
+      "key": "github.com/prefecthq/fastmcp",
+      "canonical_url": "https://github.com/PrefectHQ/fastmcp",
+      "event_date": "2026-07-20",
+      "date_seen": "2026-07-20"
+    },
+    {
+      "key": "github.com/microsoft/ontology-playground",
+      "canonical_url": "https://github.com/microsoft/Ontology-Playground",
+      "event_date": "2026-07-20",
+      "date_seen": "2026-07-20"
+    },
+    {
+      "key": "github.com/moonshine-ai/moonshine",
+      "canonical_url": "https://github.com/moonshine-ai/moonshine",
+      "event_date": "2026-07-20",
+      "date_seen": "2026-07-20"
+    },
+    {
+      "key": "github.com/basecompute/basert",
+      "canonical_url": "https://github.com/basecompute/basert",
+      "event_date": "2026-07-20",
+      "date_seen": "2026-07-20"
     }
   ]
 }

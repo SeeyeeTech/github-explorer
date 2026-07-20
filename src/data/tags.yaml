@@ -1212,6 +1212,12 @@ entries:
   lynaghk_vibe:
   - ai-agent
   - security
+  lyogavin_airllm:
+  - ai-agent
+  - llm-inference
+  - model-foundation
+  - rag-search
+  - trading-finance
   madslorentzen_ai-job-search:
   - ai-agent
   - ai-coding
@@ -2039,6 +2045,10 @@ entries:
   tinyhumansai_openhuman:
   - ai-agent
   - editor-kms
+  tirth8205_code-review-graph:
+  - ai-coding
+  - llm-framework
+  - protocol-spec
   tldraw_tldraw:
   - uncategorized
   tobi_qmd:

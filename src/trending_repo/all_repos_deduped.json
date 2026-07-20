@@ -140,6 +140,16 @@
     "trending_days": 23
   },
   {
+    "name": "msitarzewski/agency-agents",
+    "url": "https://github.com/msitarzewski/agency-agents",
+    "language": "Shell",
+    "stars": 134406,
+    "forks": 21929,
+    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+    "last_seen": "2026-07-20",
+    "trending_days": 23
+  },
+  {
     "name": "thedotmack/claude-mem",
     "url": "https://github.com/thedotmack/claude-mem",
     "language": "TypeScript",
@@ -167,16 +177,6 @@
     "forks": 3684,
     "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
     "last_seen": "2025-12-04",
-    "trending_days": 22
-  },
-  {
-    "name": "msitarzewski/agency-agents",
-    "url": "https://github.com/msitarzewski/agency-agents",
-    "language": "Shell",
-    "stars": 126173,
-    "forks": 20477,
-    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-    "last_seen": "2026-07-03",
     "trending_days": 22
   },
   {
@@ -640,6 +640,16 @@
     "trending_days": 11
   },
   {
+    "name": "rohitg00/ai-engineering-from-scratch",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "language": "Python",
+    "stars": 40210,
+    "forks": 6686,
+    "description": "Learn it. Build it. Ship it for others.",
+    "last_seen": "2026-07-20",
+    "trending_days": 11
+  },
+  {
     "name": "shanraisshan/claude-code-best-practice",
     "url": "https://github.com/shanraisshan/claude-code-best-practice",
     "language": "HTML",
@@ -710,6 +720,16 @@
     "trending_days": 10
   },
   {
+    "name": "jamiepine/voicebox",
+    "url": "https://github.com/jamiepine/voicebox",
+    "language": "TypeScript",
+    "stars": 43847,
+    "forks": 5336,
+    "description": "The open-source AI voice studio. Clone, dictate, create.",
+    "last_seen": "2026-07-20",
+    "trending_days": 10
+  },
+  {
     "name": "microsoft/ai-agents-for-beginners",
     "url": "https://github.com/microsoft/ai-agents-for-beginners",
     "language": "JupyterNotebook",
@@ -770,16 +790,6 @@
     "trending_days": 10
   },
   {
-    "name": "rohitg00/ai-engineering-from-scratch",
-    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-    "language": "Python",
-    "stars": 39362,
-    "forks": 6585,
-    "description": "Learn it. Build it. Ship it for others.",
-    "last_seen": "2026-07-19",
-    "trending_days": 10
-  },
-  {
     "name": "ruvnet/ruflo",
     "url": "https://github.com/ruvnet/ruflo",
     "language": "TypeScript",
@@ -818,6 +828,16 @@
     "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
     "last_seen": "2026-05-07",
     "trending_days": 10
+  },
+  {
+    "name": "1jehuang/jcode",
+    "url": "https://github.com/1jehuang/jcode",
+    "language": "Rust",
+    "stars": 9279,
+    "forks": 1063,
+    "description": "The most intelligent agent harness for code",
+    "last_seen": "2026-07-20",
+    "trending_days": 9
   },
   {
     "name": "alibaba/page-agent",
@@ -907,16 +927,6 @@
     "forks": 13103,
     "description": "real time face swap and one-click video deepfake with only a single image",
     "last_seen": "2026-04-13",
-    "trending_days": 9
-  },
-  {
-    "name": "jamiepine/voicebox",
-    "url": "https://github.com/jamiepine/voicebox",
-    "language": "TypeScript",
-    "stars": 42998,
-    "forks": 5261,
-    "description": "The open-source AI voice studio. Clone, dictate, create.",
-    "last_seen": "2026-07-19",
     "trending_days": 9
   },
   {
@@ -1038,16 +1048,6 @@
     "description": "All Algorithms implemented in Python",
     "last_seen": "2025-12-29",
     "trending_days": 9
-  },
-  {
-    "name": "1jehuang/jcode",
-    "url": "https://github.com/1jehuang/jcode",
-    "language": "Rust",
-    "stars": 8658,
-    "forks": 998,
-    "description": "Coding Agent Harness",
-    "last_seen": "2026-07-19",
-    "trending_days": 8
   },
   {
     "name": "Alishahryar1/free-claude-code",
@@ -1370,6 +1370,16 @@
     "trending_days": 7
   },
   {
+    "name": "MoonshotAI/kimi-cli",
+    "url": "https://github.com/moonshotai/kimi-cli",
+    "language": "Python",
+    "stars": 10094,
+    "forks": 1212,
+    "description": "Kimi Code CLI is your next CLI agent.",
+    "last_seen": "2026-07-20",
+    "trending_days": 7
+  },
+  {
     "name": "mudler/LocalAI",
     "url": "https://github.com/mudler/localai",
     "language": "Go",
@@ -1437,6 +1447,16 @@
     "forks": 139,
     "description": "Text editor for your terminal: easy, powerful and fast",
     "last_seen": "2025-12-30",
+    "trending_days": 7
+  },
+  {
+    "name": "topoteretes/cognee",
+    "url": "https://github.com/topoteretes/cognee",
+    "language": "Python",
+    "stars": 28595,
+    "forks": 2730,
+    "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
+    "last_seen": "2026-07-20",
     "trending_days": 7
   },
   {
@@ -1780,16 +1800,6 @@
     "trending_days": 6
   },
   {
-    "name": "MoonshotAI/kimi-cli",
-    "url": "https://github.com/moonshotai/kimi-cli",
-    "language": "Python",
-    "stars": 9676,
-    "forks": 1171,
-    "description": "Kimi Code CLI is your next CLI agent.",
-    "last_seen": "2026-07-19",
-    "trending_days": 6
-  },
-  {
     "name": "mountain-loop/yaak",
     "url": "https://github.com/mountain-loop/yaak",
     "language": "TypeScript",
@@ -1957,16 +1967,6 @@
     "forks": 6525,
     "description": "Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1",
     "last_seen": "2026-03-29",
-    "trending_days": 6
-  },
-  {
-    "name": "topoteretes/cognee",
-    "url": "https://github.com/topoteretes/cognee",
-    "language": "Python",
-    "stars": 23567,
-    "forks": 2230,
-    "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
-    "last_seen": "2026-06-27",
     "trending_days": 6
   },
   {
@@ -2337,6 +2337,16 @@
     "forks": 534,
     "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
     "last_seen": "2026-06-12",
+    "trending_days": 5
+  },
+  {
+    "name": "moonshine-ai/moonshine",
+    "url": "https://github.com/moonshine-ai/moonshine",
+    "language": "C++",
+    "stars": 9474,
+    "forks": 504,
+    "description": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces",
+    "last_seen": "2026-07-20",
     "trending_days": 5
   },
   {
@@ -2717,6 +2727,16 @@
     "forks": 16921,
     "description": "Apache Superset is a Data Visualization and Data Exploration Platform",
     "last_seen": "2026-03-30",
+    "trending_days": 4
+  },
+  {
+    "name": "AstrBotDevs/AstrBot",
+    "url": "https://github.com/astrbotdevs/astrbot",
+    "language": "Python",
+    "stars": 36920,
+    "forks": 2560,
+    "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+    "last_seen": "2026-07-20",
     "trending_days": 4
   },
   {
@@ -3210,16 +3230,6 @@
     "trending_days": 4
   },
   {
-    "name": "moonshine-ai/moonshine",
-    "url": "https://github.com/moonshine-ai/moonshine",
-    "language": "C",
-    "stars": 6079,
-    "forks": 283,
-    "description": "Fast and accurate automatic speech recognition (ASR) for edge devices",
-    "last_seen": "2026-02-28",
-    "trending_days": 4
-  },
-  {
     "name": "Morganamilo/paru",
     "url": "https://github.com/morganamilo/paru",
     "language": "Rust",
@@ -3350,6 +3360,16 @@
     "trending_days": 4
   },
   {
+    "name": "Robbyant/lingbot-map",
+    "url": "https://github.com/robbyant/lingbot-map",
+    "language": "Python",
+    "stars": 13946,
+    "forks": 1463,
+    "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+    "last_seen": "2026-07-20",
+    "trending_days": 4
+  },
+  {
     "name": "rossant/awesome-math",
     "url": "https://github.com/rossant/awesome-math",
     "language": "Python",
@@ -3467,6 +3487,16 @@
     "forks": 263,
     "description": "Run Windows apps on 🐧 Linux with ✨ seamless integration",
     "last_seen": "2025-10-12",
+    "trending_days": 4
+  },
+  {
+    "name": "tirth8205/code-review-graph",
+    "url": "https://github.com/tirth8205/code-review-graph",
+    "language": "Python",
+    "stars": 22418,
+    "forks": 2239,
+    "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+    "last_seen": "2026-07-20",
     "trending_days": 4
   },
   {
@@ -3647,16 +3677,6 @@
     "forks": 246,
     "description": "None",
     "last_seen": "2025-10-02",
-    "trending_days": 3
-  },
-  {
-    "name": "AstrBotDevs/AstrBot",
-    "url": "https://github.com/astrbotdevs/astrbot",
-    "language": "Python",
-    "stars": 36589,
-    "forks": 2538,
-    "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-    "last_seen": "2026-07-19",
     "trending_days": 3
   },
   {
@@ -3857,6 +3877,16 @@
     "forks": 1586,
     "description": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!",
     "last_seen": "2025-11-12",
+    "trending_days": 3
+  },
+  {
+    "name": "diegosouzapw/OmniRoute",
+    "url": "https://github.com/diegosouzapw/omniroute",
+    "language": "TypeScript",
+    "stars": 20808,
+    "forks": 2862,
+    "description": "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Claude, GPT, Gemini, Kimi K3, GLM, DeepSeek. Works with Claude Code, Codex, Cursor, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, multimodal, Desktop/PWA. Built by 500+ contributors.",
+    "last_seen": "2026-07-20",
     "trending_days": 3
   },
   {
@@ -4167,6 +4197,16 @@
     "forks": 468,
     "description": "Klavis AI (YC X25): MCP integration platforms that let AI agents use tools reliably at any scale",
     "last_seen": "2025-10-14",
+    "trending_days": 3
+  },
+  {
+    "name": "KnockOutEZ/wigolo",
+    "url": "https://github.com/knockoutez/wigolo",
+    "language": "TypeScript",
+    "stars": 2249,
+    "forks": 141,
+    "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
+    "last_seen": "2026-07-20",
     "trending_days": 3
   },
   {
@@ -4610,16 +4650,6 @@
     "trending_days": 3
   },
   {
-    "name": "Robbyant/lingbot-map",
-    "url": "https://github.com/robbyant/lingbot-map",
-    "language": "Python",
-    "stars": 12435,
-    "forks": 1304,
-    "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
-    "last_seen": "2026-07-18",
-    "trending_days": 3
-  },
-  {
     "name": "rommapp/romm",
     "url": "https://github.com/rommapp/romm",
     "language": "Python",
@@ -4747,16 +4777,6 @@
     "forks": 1980,
     "description": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
     "last_seen": "2026-05-21",
-    "trending_days": 3
-  },
-  {
-    "name": "tirth8205/code-review-graph",
-    "url": "https://github.com/tirth8205/code-review-graph",
-    "language": "Python",
-    "stars": 20490,
-    "forks": 2136,
-    "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-    "last_seen": "2026-07-19",
     "trending_days": 3
   },
   {
@@ -5560,16 +5580,6 @@
     "trending_days": 2
   },
   {
-    "name": "diegosouzapw/OmniRoute",
-    "url": "https://github.com/diegosouzapw/omniroute",
-    "language": "TypeScript",
-    "stars": 9159,
-    "forks": 1434,
-    "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
-    "last_seen": "2026-07-01",
-    "trending_days": 2
-  },
-  {
     "name": "Diolinux/PhotoGIMP",
     "url": "https://github.com/diolinux/photogimp",
     "language": "CSS",
@@ -5627,6 +5637,16 @@
     "forks": 5107,
     "description": "Cloud-native high-performance edge/middle/service proxy",
     "last_seen": "2025-10-16",
+    "trending_days": 2
+  },
+  {
+    "name": "every-app/open-seo",
+    "url": "https://github.com/every-app/open-seo",
+    "language": "TypeScript",
+    "stars": 5455,
+    "forks": 612,
+    "description": "Open source alternative to Semrush and Ahrefs",
+    "last_seen": "2026-07-20",
     "trending_days": 2
   },
   {
@@ -6150,16 +6170,6 @@
     "trending_days": 2
   },
   {
-    "name": "KnockOutEZ/wigolo",
-    "url": "https://github.com/knockoutez/wigolo",
-    "language": "TypeScript",
-    "stars": 1534,
-    "forks": 97,
-    "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
-    "last_seen": "2026-07-19",
-    "trending_days": 2
-  },
-  {
     "name": "KotatsuApp/Kotatsu",
     "url": "https://github.com/kotatsuapp/kotatsu",
     "language": "Kotlin",
@@ -6197,6 +6207,16 @@
     "forks": 187,
     "description": "git push no-mistakes",
     "last_seen": "2026-06-26",
+    "trending_days": 2
+  },
+  {
+    "name": "kvcache-ai/ktransformers",
+    "url": "https://github.com/kvcache-ai/ktransformers",
+    "language": "Python",
+    "stars": 18620,
+    "forks": 1461,
+    "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+    "last_seen": "2026-07-20",
     "trending_days": 2
   },
   {
@@ -8390,16 +8410,6 @@
     "trending_days": 1
   },
   {
-    "name": "every-app/open-seo",
-    "url": "https://github.com/every-app/open-seo",
-    "language": "TypeScript",
-    "stars": 3158,
-    "forks": 356,
-    "description": "Open source alternative to Semrush and Ahrefs",
-    "last_seen": "2026-06-27",
-    "trending_days": 1
-  },
-  {
     "name": "EvolutionAPI/evolution-api",
     "url": "https://github.com/evolutionapi/evolution-api",
     "language": "TypeScript",
@@ -8850,6 +8860,16 @@
     "trending_days": 1
   },
   {
+    "name": "handy-computer/transcribe.cpp",
+    "url": "https://github.com/handy-computer/transcribe.cpp",
+    "language": "C++",
+    "stars": 1057,
+    "forks": 26,
+    "description": "ggml speech-to-text inference for 16+ model families",
+    "last_seen": "2026-07-20",
+    "trending_days": 1
+  },
+  {
     "name": "hanxi/xiaomusic",
     "url": "https://github.com/hanxi/xiaomusic",
     "language": "Python",
@@ -9240,16 +9260,6 @@
     "trending_days": 1
   },
   {
-    "name": "kvcache-ai/ktransformers",
-    "url": "https://github.com/kvcache-ai/ktransformers",
-    "language": "Python",
-    "stars": 18148,
-    "forks": 1432,
-    "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
-    "last_seen": "2026-07-19",
-    "trending_days": 1
-  },
-  {
     "name": "langchain-ai/langchainjs",
     "url": "https://github.com/langchain-ai/langchainjs",
     "language": "TypeScript",
@@ -9527,6 +9537,16 @@
     "forks": 3848,
     "description": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
     "last_seen": "2026-04-23",
+    "trending_days": 1
+  },
+  {
+    "name": "microsoft/Ontology-Playground",
+    "url": "https://github.com/microsoft/ontology-playground",
+    "language": "TypeScript",
+    "stars": 1552,
+    "forks": 221,
+    "description": "Free, open-source web app for learning about ontologies and Microsoft Fabric IQ. Explore a catalogue of pre-built ontologies, design your own visually, export as RDF/XML, and share interactive diagrams. Zero backend, fully static.",
+    "last_seen": "2026-07-20",
     "trending_days": 1
   },
   {
@@ -9900,6 +9920,16 @@
     "trending_days": 1
   },
   {
+    "name": "oblien/openship",
+    "url": "https://github.com/oblien/openship",
+    "language": "TypeScript",
+    "stars": 4039,
+    "forks": 281,
+    "description": "Self-hosted deployment platform",
+    "last_seen": "2026-07-20",
+    "trending_days": 1
+  },
+  {
     "name": "oceanbase/miniob",
     "url": "https://github.com/oceanbase/miniob",
     "language": "C++",
@@ -10127,6 +10157,16 @@
     "forks": 117,
     "description": "Youtube client with older Android version support, background player, Google Gemini ✨ and many more features.",
     "last_seen": "2026-01-07",
+    "trending_days": 1
+  },
+  {
+    "name": "PrefectHQ/fastmcp",
+    "url": "https://github.com/prefecthq/fastmcp",
+    "language": "Python",
+    "stars": 26382,
+    "forks": 2154,
+    "description": "🚀 The fast, Pythonic way to build MCP servers and clients.",
+    "last_seen": "2026-07-20",
     "trending_days": 1
   },
   {
@@ -10757,6 +10797,16 @@
     "forks": 2797,
     "description": "A runtime for writing reliable asynchronous applications with Rust. Provides I/O, networking, scheduling, timers, ...",
     "last_seen": "2025-10-20",
+    "trending_days": 1
+  },
+  {
+    "name": "tokio-rs/topcoat",
+    "url": "https://github.com/tokio-rs/topcoat",
+    "language": "Rust",
+    "stars": 1311,
+    "forks": 37,
+    "description": "A batteries-included framework for building web apps",
+    "last_seen": "2026-07-20",
     "trending_days": 1
   },
   {

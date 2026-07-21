@@ -549,6 +549,9 @@ entries:
   - ai-agent
   - ai-coding
   - devtools
+  diegosouzapw_omniroute:
+  - ai-coding
+  - devtools
   digitalplatdev_freedomain:
   - uncategorized
   dioxuslabs_awesome-dioxus:
@@ -840,6 +843,11 @@ entries:
   - iot-hardware
   handsonllm_hands-on-large-language-models:
   - education
+  handy-computer_transcribe.cpp:
+  - llm-inference
+  - model-foundation
+  - trading-finance
+  - video-audio
   hardikpandya_stop-slop:
   - ai-agent
   - ai-coding
@@ -1120,6 +1128,11 @@ entries:
   - devtools
   - editor-kms
   - education
+  - protocol-spec
+  knockoutez_wigolo:
+  - ai-agent
+  - llm-framework
+  - rag-search
   - protocol-spec
   koala73_worldmonitor:
   - ai-agent

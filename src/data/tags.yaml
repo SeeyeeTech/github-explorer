@@ -643,6 +643,11 @@ entries:
   evershopcommerce_evershop:
   - database
   - web-framework
+  every-app_open-seo:
+  - ai-agent
+  - ai-coding
+  - database
+  - protocol-spec
   everyinc_compound-engineering-plugin:
   - ai-coding
   - devtools

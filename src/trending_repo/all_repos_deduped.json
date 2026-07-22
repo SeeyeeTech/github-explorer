@@ -250,6 +250,16 @@
     "trending_days": 20
   },
   {
+    "name": "ruvnet/RuView",
+    "url": "https://github.com/ruvnet/ruview",
+    "language": "Rust",
+    "stars": 83020,
+    "forks": 11178,
+    "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+    "last_seen": "2026-07-22",
+    "trending_days": 20
+  },
+  {
     "name": "virattt/ai-hedge-fund",
     "url": "https://github.com/virattt/ai-hedge-fund",
     "language": "Python",
@@ -258,16 +268,6 @@
     "description": "An AI Hedge Fund Team",
     "last_seen": "2026-07-14",
     "trending_days": 20
-  },
-  {
-    "name": "ruvnet/RuView",
-    "url": "https://github.com/ruvnet/ruview",
-    "language": "Rust",
-    "stars": 78856,
-    "forks": 10607,
-    "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-    "last_seen": "2026-07-08",
-    "trending_days": 19
   },
   {
     "name": "ChromeDevTools/chrome-devtools-mcp",
@@ -340,6 +340,16 @@
     "trending_days": 15
   },
   {
+    "name": "shiyu-coder/Kronos",
+    "url": "https://github.com/shiyu-coder/kronos",
+    "language": "Python",
+    "stars": 32444,
+    "forks": 5577,
+    "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+    "last_seen": "2026-07-22",
+    "trending_days": 15
+  },
+  {
     "name": "666ghj/BettaFish",
     "url": "https://github.com/666ghj/bettafish",
     "language": "Python",
@@ -407,16 +417,6 @@
     "forks": 46836,
     "description": "A collective list of free APIs",
     "last_seen": "2026-04-30",
-    "trending_days": 14
-  },
-  {
-    "name": "shiyu-coder/Kronos",
-    "url": "https://github.com/shiyu-coder/kronos",
-    "language": "Python",
-    "stars": 30166,
-    "forks": 5179,
-    "description": "Kronos: A Foundation Model for the Language of Financial Markets",
-    "last_seen": "2026-06-15",
     "trending_days": 14
   },
   {
@@ -520,6 +520,16 @@
     "trending_days": 12
   },
   {
+    "name": "rohitg00/ai-engineering-from-scratch",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "language": "Python",
+    "stars": 41850,
+    "forks": 6971,
+    "description": "Learn it. Build it. Ship it for others.",
+    "last_seen": "2026-07-22",
+    "trending_days": 12
+  },
+  {
     "name": "simstudioai/sim",
     "url": "https://github.com/simstudioai/sim",
     "language": "TypeScript",
@@ -620,6 +630,16 @@
     "trending_days": 11
   },
   {
+    "name": "jamiepine/voicebox",
+    "url": "https://github.com/jamiepine/voicebox",
+    "language": "TypeScript",
+    "stars": 45408,
+    "forks": 5550,
+    "description": "The open-source AI voice studio. Clone, dictate, create.",
+    "last_seen": "2026-07-22",
+    "trending_days": 11
+  },
+  {
     "name": "openai/skills",
     "url": "https://github.com/openai/skills",
     "language": "Python",
@@ -637,16 +657,6 @@
     "forks": 4730,
     "description": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
     "last_seen": "2026-02-13",
-    "trending_days": 11
-  },
-  {
-    "name": "rohitg00/ai-engineering-from-scratch",
-    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-    "language": "Python",
-    "stars": 40210,
-    "forks": 6686,
-    "description": "Learn it. Build it. Ship it for others.",
-    "last_seen": "2026-07-20",
     "trending_days": 11
   },
   {
@@ -727,16 +737,6 @@
     "forks": 4400,
     "description": "基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版",
     "last_seen": "2026-03-25",
-    "trending_days": 10
-  },
-  {
-    "name": "jamiepine/voicebox",
-    "url": "https://github.com/jamiepine/voicebox",
-    "language": "TypeScript",
-    "stars": 43847,
-    "forks": 5336,
-    "description": "The open-source AI voice studio. Clone, dictate, create.",
-    "last_seen": "2026-07-20",
     "trending_days": 10
   },
   {
@@ -1360,6 +1360,16 @@
     "trending_days": 7
   },
   {
+    "name": "koala73/worldmonitor",
+    "url": "https://github.com/koala73/worldmonitor",
+    "language": "TypeScript",
+    "stars": 67543,
+    "forks": 10392,
+    "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+    "last_seen": "2026-07-22",
+    "trending_days": 7
+  },
+  {
     "name": "luongnv89/claude-howto",
     "url": "https://github.com/luongnv89/claude-howto",
     "language": "Python",
@@ -1760,16 +1770,6 @@
     "trending_days": 6
   },
   {
-    "name": "koala73/worldmonitor",
-    "url": "https://github.com/koala73/worldmonitor",
-    "language": "TypeScript",
-    "stars": 63458,
-    "forks": 9943,
-    "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-    "last_seen": "2026-07-21",
-    "trending_days": 6
-  },
-  {
     "name": "lobehub/lobehub",
     "url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
@@ -1980,6 +1980,16 @@
     "trending_days": 6
   },
   {
+    "name": "tirth8205/code-review-graph",
+    "url": "https://github.com/tirth8205/code-review-graph",
+    "language": "Python",
+    "stars": 25069,
+    "forks": 2376,
+    "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+    "last_seen": "2026-07-22",
+    "trending_days": 6
+  },
+  {
     "name": "trycua/cua",
     "url": "https://github.com/trycua/cua",
     "language": "HTML",
@@ -2187,6 +2197,16 @@
     "forks": 1288,
     "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
     "last_seen": "2026-05-11",
+    "trending_days": 5
+  },
+  {
+    "name": "diegosouzapw/OmniRoute",
+    "url": "https://github.com/diegosouzapw/omniroute",
+    "language": "TypeScript",
+    "stars": 24384,
+    "forks": 3254,
+    "description": "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+    "last_seen": "2026-07-22",
     "trending_days": 5
   },
   {
@@ -2610,16 +2630,6 @@
     "trending_days": 5
   },
   {
-    "name": "tirth8205/code-review-graph",
-    "url": "https://github.com/tirth8205/code-review-graph",
-    "language": "Python",
-    "stars": 24217,
-    "forks": 2330,
-    "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-    "last_seen": "2026-07-21",
-    "trending_days": 5
-  },
-  {
     "name": "toeverything/AFFiNE",
     "url": "https://github.com/toeverything/affine",
     "language": "TypeScript",
@@ -2800,6 +2810,16 @@
     "trending_days": 4
   },
   {
+    "name": "chrislgarry/Apollo-11",
+    "url": "https://github.com/chrislgarry/apollo-11",
+    "language": "Assembly",
+    "stars": 70313,
+    "forks": 7862,
+    "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+    "last_seen": "2026-07-22",
+    "trending_days": 4
+  },
+  {
     "name": "CJackHwang/ds2api",
     "url": "https://github.com/cjackhwang/ds2api",
     "language": "Go",
@@ -2857,16 +2877,6 @@
     "forks": 171,
     "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
     "last_seen": "2026-07-15",
-    "trending_days": 4
-  },
-  {
-    "name": "diegosouzapw/OmniRoute",
-    "url": "https://github.com/diegosouzapw/omniroute",
-    "language": "TypeScript",
-    "stars": 22778,
-    "forks": 3059,
-    "description": "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Claude, GPT, Gemini, Kimi K3, GLM, DeepSeek. Works with Claude Code, Codex, Cursor, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, multimodal, Desktop/PWA. Built by 500+ contributors.",
-    "last_seen": "2026-07-21",
     "trending_days": 4
   },
   {
@@ -3780,16 +3790,6 @@
     "trending_days": 3
   },
   {
-    "name": "chrislgarry/Apollo-11",
-    "url": "https://github.com/chrislgarry/apollo-11",
-    "language": "Assembly",
-    "stars": 69552,
-    "forks": 7813,
-    "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
-    "last_seen": "2026-07-21",
-    "trending_days": 3
-  },
-  {
     "name": "clash-verge-rev/clash-verge-rev",
     "url": "https://github.com/clash-verge-rev/clash-verge-rev",
     "language": "TypeScript",
@@ -3817,6 +3817,16 @@
     "forks": 445,
     "description": "Generate code from the terminal!",
     "last_seen": "2026-03-05",
+    "trending_days": 3
+  },
+  {
+    "name": "ComposioHQ/awesome-claude-skills",
+    "url": "https://github.com/composiohq/awesome-claude-skills",
+    "language": "Python",
+    "stars": 68515,
+    "forks": 7783,
+    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+    "last_seen": "2026-07-22",
     "trending_days": 3
   },
   {
@@ -3907,6 +3917,16 @@
     "forks": 1586,
     "description": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!",
     "last_seen": "2025-11-12",
+    "trending_days": 3
+  },
+  {
+    "name": "DioxusLabs/dioxus",
+    "url": "https://github.com/dioxuslabs/dioxus",
+    "language": "Rust",
+    "stars": 37875,
+    "forks": 1779,
+    "description": "Fullstack app framework for web, desktop, and mobile.",
+    "last_seen": "2026-07-22",
     "trending_days": 3
   },
   {
@@ -4260,6 +4280,16 @@
     "trending_days": 3
   },
   {
+    "name": "likec4/likec4",
+    "url": "https://github.com/likec4/likec4",
+    "language": "TypeScript",
+    "stars": 4086,
+    "forks": 291,
+    "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
+    "last_seen": "2026-07-22",
+    "trending_days": 3
+  },
+  {
     "name": "lima-vm/lima",
     "url": "https://github.com/lima-vm/lima",
     "language": "Go",
@@ -4477,6 +4507,16 @@
     "forks": 1187,
     "description": "PersonaPlex code.",
     "last_seen": "2026-04-08",
+    "trending_days": 3
+  },
+  {
+    "name": "oblien/openship",
+    "url": "https://github.com/oblien/openship",
+    "language": "TypeScript",
+    "stars": 6835,
+    "forks": 494,
+    "description": "Self-hosted deployment platform",
+    "last_seen": "2026-07-22",
     "trending_days": 3
   },
   {
@@ -4717,6 +4757,16 @@
     "forks": 11335,
     "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
     "last_seen": "2026-07-02",
+    "trending_days": 3
+  },
+  {
+    "name": "schollz/croc",
+    "url": "https://github.com/schollz/croc",
+    "language": "Go",
+    "stars": 37189,
+    "forks": 1470,
+    "description": "Easily and securely send things from one computer to another 🐊 📦",
+    "last_seen": "2026-07-22",
     "trending_days": 3
   },
   {
@@ -5040,6 +5090,16 @@
     "trending_days": 2
   },
   {
+    "name": "agegr/pi-web",
+    "url": "https://github.com/agegr/pi-web",
+    "language": "TypeScript",
+    "stars": 1931,
+    "forks": 295,
+    "description": "Web UI for the pi coding agent",
+    "last_seen": "2026-07-22",
+    "trending_days": 2
+  },
+  {
     "name": "agentscope-ai/ReMe",
     "url": "https://github.com/agentscope-ai/reme",
     "language": "Python",
@@ -5280,6 +5340,16 @@
     "trending_days": 2
   },
   {
+    "name": "ayghri/i-have-adhd",
+    "url": "https://github.com/ayghri/i-have-adhd",
+    "language": "Python",
+    "stars": 7655,
+    "forks": 330,
+    "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+    "last_seen": "2026-07-22",
+    "trending_days": 2
+  },
+  {
     "name": "bambulab/BambuStudio",
     "url": "https://github.com/bambulab/bambustudio",
     "language": "C++",
@@ -5460,16 +5530,6 @@
     "trending_days": 2
   },
   {
-    "name": "ComposioHQ/awesome-claude-skills",
-    "url": "https://github.com/composiohq/awesome-claude-skills",
-    "language": "Python",
-    "stars": 32361,
-    "forks": 3098,
-    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-    "last_seen": "2026-02-08",
-    "trending_days": 2
-  },
-  {
     "name": "ComposioHQ/composio",
     "url": "https://github.com/composiohq/composio",
     "language": "TypeScript",
@@ -5600,16 +5660,6 @@
     "trending_days": 2
   },
   {
-    "name": "DioxusLabs/dioxus",
-    "url": "https://github.com/dioxuslabs/dioxus",
-    "language": "Rust",
-    "stars": 37463,
-    "forks": 1763,
-    "description": "Fullstack app framework for web, desktop, and mobile.",
-    "last_seen": "2026-07-21",
-    "trending_days": 2
-  },
-  {
     "name": "directus/directus",
     "url": "https://github.com/directus/directus",
     "language": "TypeScript",
@@ -5627,6 +5677,16 @@
     "forks": 147,
     "description": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS",
     "last_seen": "2026-04-05",
+    "trending_days": 2
+  },
+  {
+    "name": "dottxt-ai/outlines",
+    "url": "https://github.com/dottxt-ai/outlines",
+    "language": "Python",
+    "stars": 15002,
+    "forks": 801,
+    "description": "Structured Outputs",
+    "last_seen": "2026-07-22",
     "trending_days": 2
   },
   {
@@ -6020,6 +6080,16 @@
     "trending_days": 2
   },
   {
+    "name": "hyprwm/Hyprland",
+    "url": "https://github.com/hyprwm/hyprland",
+    "language": "C++",
+    "stars": 37188,
+    "forks": 1866,
+    "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+    "last_seen": "2026-07-22",
+    "trending_days": 2
+  },
+  {
     "name": "iamgio/quarkdown",
     "url": "https://github.com/iamgio/quarkdown",
     "language": "Kotlin",
@@ -6297,16 +6367,6 @@
     "forks": 759,
     "description": "Official repository for LTX-Video",
     "last_seen": "2025-10-25",
-    "trending_days": 2
-  },
-  {
-    "name": "likec4/likec4",
-    "url": "https://github.com/likec4/likec4",
-    "language": "TypeScript",
-    "stars": 2201,
-    "forks": 150,
-    "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
-    "last_seen": "2026-02-08",
     "trending_days": 2
   },
   {
@@ -6670,16 +6730,6 @@
     "trending_days": 2
   },
   {
-    "name": "oblien/openship",
-    "url": "https://github.com/oblien/openship",
-    "language": "TypeScript",
-    "stars": 5522,
-    "forks": 387,
-    "description": "Self-hosted deployment platform",
-    "last_seen": "2026-07-21",
-    "trending_days": 2
-  },
-  {
     "name": "obsproject/obs-studio",
     "url": "https://github.com/obsproject/obs-studio",
     "language": "C",
@@ -6957,16 +7007,6 @@
     "forks": 495,
     "description": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
     "last_seen": "2026-03-28",
-    "trending_days": 2
-  },
-  {
-    "name": "schollz/croc",
-    "url": "https://github.com/schollz/croc",
-    "language": "Go",
-    "stars": 36447,
-    "forks": 1442,
-    "description": "Easily and securely send things from one computer to another 🐊 📦",
-    "last_seen": "2026-07-21",
     "trending_days": 2
   },
   {
@@ -7520,16 +7560,6 @@
     "trending_days": 1
   },
   {
-    "name": "agegr/pi-web",
-    "url": "https://github.com/agegr/pi-web",
-    "language": "TypeScript",
-    "stars": 1614,
-    "forks": 270,
-    "description": "Web UI for the pi coding agent",
-    "last_seen": "2026-07-21",
-    "trending_days": 1
-  },
-  {
     "name": "agentjido/jido",
     "url": "https://github.com/agentjido/jido",
     "language": "Elixir",
@@ -7817,16 +7847,6 @@
     "forks": 714,
     "description": "Amazon Bedrock Agentcore accelerates AI agents into production with the scale, reliability, and security, critical to real-world deployment.",
     "last_seen": "2026-01-01",
-    "trending_days": 1
-  },
-  {
-    "name": "ayghri/i-have-adhd",
-    "url": "https://github.com/ayghri/i-have-adhd",
-    "language": "Unknown",
-    "stars": 5998,
-    "forks": 237,
-    "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
-    "last_seen": "2026-07-21",
     "trending_days": 1
   },
   {
@@ -8370,13 +8390,13 @@
     "trending_days": 1
   },
   {
-    "name": "dottxt-ai/outlines",
-    "url": "https://github.com/dottxt-ai/outlines",
-    "language": "Python",
-    "stars": 14641,
-    "forks": 790,
-    "description": "Structured Outputs",
-    "last_seen": "2026-07-21",
+    "name": "dreamhunter2333/cloudflare_temp_email",
+    "url": "https://github.com/dreamhunter2333/cloudflare_temp_email",
+    "language": "TypeScript",
+    "stars": 10690,
+    "forks": 7260,
+    "description": "CloudFlare free temp domain email 免费收发 临时域名邮箱 支持附件 IMAP SMTP TelegramBot",
+    "last_seen": "2026-07-22",
     "trending_days": 1
   },
   {
@@ -9087,16 +9107,6 @@
     "forks": 491,
     "description": "HyDE, your Development Environment 🖥️💻",
     "last_seen": "2025-11-10",
-    "trending_days": 1
-  },
-  {
-    "name": "hyprwm/Hyprland",
-    "url": "https://github.com/hyprwm/hyprland",
-    "language": "C++",
-    "stars": 36848,
-    "forks": 1857,
-    "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
-    "last_seen": "2026-07-21",
     "trending_days": 1
   },
   {
@@ -10297,6 +10307,16 @@
     "forks": 94,
     "description": "A lightweight tool for deploying and managing containerised applications across a network of Docker hosts. Bridging the gap between Docker and Kubernetes ✨",
     "last_seen": "2025-12-06",
+    "trending_days": 1
+  },
+  {
+    "name": "Pumpkin-MC/Pumpkin",
+    "url": "https://github.com/pumpkin-mc/pumpkin",
+    "language": "Rust",
+    "stars": 8137,
+    "forks": 577,
+    "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+    "last_seen": "2026-07-22",
     "trending_days": 1
   },
   {

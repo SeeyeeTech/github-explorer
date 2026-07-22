@@ -1,69 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-07-20",
+    "last_run": "2026-07-22",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/bytedance/deer-flow",
-      "canonical_url": "https://github.com/bytedance/deer-flow",
-      "event_date": "2026-06-21",
-      "date_seen": "2026-06-21"
-    },
-    {
-      "key": "github.com/zhulinsen/daily_stock_analysis",
-      "canonical_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "event_date": "2026-06-21",
-      "date_seen": "2026-06-21"
-    },
-    {
-      "key": "github.com/mukul975/anthropic-cybersecurity-skills",
-      "canonical_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "event_date": "2026-06-21",
-      "date_seen": "2026-06-21"
-    },
-    {
-      "key": "github.com/topoteretes/cognee",
-      "canonical_url": "https://github.com/topoteretes/cognee",
-      "event_date": "2026-06-21",
-      "date_seen": "2026-06-21"
-    },
-    {
-      "key": "github.com/asgeirtj/system_prompts_leaks",
-      "canonical_url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "event_date": "2026-06-21",
-      "date_seen": "2026-06-21"
-    },
-    {
-      "key": "github.com/raullenchai/rapid-mlx",
-      "canonical_url": "https://github.com/raullenchai/Rapid-MLX",
-      "event_date": "2026-06-21",
-      "date_seen": "2026-06-21"
-    },
-    {
-      "key": "github.com/waybarrios/vllm-mlx",
-      "canonical_url": "https://github.com/waybarrios/vllm-mlx",
-      "event_date": "2026-06-21",
-      "date_seen": "2026-06-21"
-    },
-    {
-      "key": "github.com/oxiglade/mlx-rs",
-      "canonical_url": "https://github.com/oxiglade/mlx-rs",
-      "event_date": "2026-06-21",
-      "date_seen": "2026-06-21"
-    },
-    {
-      "key": "github.com/modelyaml/modelyaml",
-      "canonical_url": "https://github.com/modelyaml/modelyaml",
-      "event_date": "2026-06-21",
-      "date_seen": "2026-06-21"
-    },
-    {
-      "key": "github.com/axios/axios",
-      "canonical_url": "https://github.com/axios/axios",
-      "event_date": "2026-06-21",
-      "date_seen": "2026-06-21"
-    },
     {
       "key": "github.com/garrytan/gstack",
       "canonical_url": "https://github.com/garrytan/gstack",
@@ -1077,6 +1017,42 @@
       "canonical_url": "https://github.com/basecompute/basert",
       "event_date": "2026-07-20",
       "date_seen": "2026-07-20"
+    },
+    {
+      "key": "github.com/composiohq/awesome-claude-skills",
+      "canonical_url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "event_date": null,
+      "date_seen": "2026-07-22"
+    },
+    {
+      "key": "github.com/shiyu-coder/kronos",
+      "canonical_url": "https://github.com/shiyu-coder/Kronos",
+      "event_date": null,
+      "date_seen": "2026-07-22"
+    },
+    {
+      "key": "github.com/ayghri/i-have-adhd",
+      "canonical_url": "https://github.com/ayghri/i-have-adhd",
+      "event_date": null,
+      "date_seen": "2026-07-22"
+    },
+    {
+      "key": "github.com/agegr/pi-web",
+      "canonical_url": "https://github.com/agegr/pi-web",
+      "event_date": null,
+      "date_seen": "2026-07-22"
+    },
+    {
+      "key": "github.com/blaizzy/nativ",
+      "canonical_url": "https://github.com/Blaizzy/nativ",
+      "event_date": null,
+      "date_seen": "2026-07-22"
+    },
+    {
+      "key": "github.com/igloomatics/deepseek-v4-book",
+      "canonical_url": "https://github.com/igloomatics/DeepSeek-V4-book",
+      "event_date": null,
+      "date_seen": "2026-07-22"
     }
   ]
 }

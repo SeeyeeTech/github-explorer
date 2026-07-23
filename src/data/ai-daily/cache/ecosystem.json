@@ -1,63 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-07-22",
+    "last_run": "2026-07-23",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/garrytan/gstack",
-      "canonical_url": "https://github.com/garrytan/gstack",
-      "event_date": "2026-06-22",
-      "date_seen": "2026-06-22"
-    },
-    {
-      "key": "github.com/heygen-com/hyperframes",
-      "canonical_url": "https://github.com/heygen-com/hyperframes",
-      "event_date": "2026-06-22",
-      "date_seen": "2026-06-22"
-    },
-    {
-      "key": "github.com/lyogavin/airllm",
-      "canonical_url": "https://github.com/lyogavin/airllm",
-      "event_date": "2026-06-22",
-      "date_seen": "2026-06-22"
-    },
-    {
-      "key": "github.com/jcodesmore/ai-website-cloner-template",
-      "canonical_url": "https://github.com/JCodesMore/ai-website-cloner-template",
-      "event_date": "2026-06-22",
-      "date_seen": "2026-06-22"
-    },
-    {
-      "key": "github.com/alibaba-nlp/deepresearch",
-      "canonical_url": "https://github.com/Alibaba-NLP/DeepResearch",
-      "event_date": "2026-06-22",
-      "date_seen": "2026-06-22"
-    },
-    {
-      "key": "github.com/esengine/deepseek-reasonix",
-      "canonical_url": "https://github.com/esengine/DeepSeek-Reasonix",
-      "event_date": "2026-06-22",
-      "date_seen": "2026-06-22"
-    },
-    {
-      "key": "github.com/magenta/magenta-realtime",
-      "canonical_url": "https://github.com/magenta/magenta-realtime",
-      "event_date": "2026-06-22",
-      "date_seen": "2026-06-22"
-    },
-    {
-      "key": "github.com/liuzh-19/songgen",
-      "canonical_url": "https://github.com/LiuZH-19/SongGen",
-      "event_date": "2026-06-22",
-      "date_seen": "2026-06-22"
-    },
-    {
-      "key": "github.com/pykeio/ort",
-      "canonical_url": "https://github.com/pykeio/ort",
-      "event_date": "2026-06-22",
-      "date_seen": "2026-06-22"
-    },
     {
       "key": "github.com/anthropics/claude-plugins-official",
       "canonical_url": "https://github.com/anthropics/claude-plugins-official",
@@ -1053,6 +999,24 @@
       "canonical_url": "https://github.com/igloomatics/DeepSeek-V4-book",
       "event_date": null,
       "date_seen": "2026-07-22"
+    },
+    {
+      "key": "github.com/alibaba/open-code-review",
+      "canonical_url": "https://github.com/alibaba/open-code-review",
+      "event_date": "2026-07-23",
+      "date_seen": "2026-07-23"
+    },
+    {
+      "key": "github.com/citrolabs/ego-lite",
+      "canonical_url": "https://github.com/citrolabs/ego-lite",
+      "event_date": "2026-07-23",
+      "date_seen": "2026-07-23"
+    },
+    {
+      "key": "github.com/earthtojake/text-to-cad",
+      "canonical_url": "https://github.com/earthtojake/text-to-cad",
+      "event_date": "2026-07-23",
+      "date_seen": "2026-07-23"
     }
   ]
 }

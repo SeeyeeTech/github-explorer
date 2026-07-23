@@ -444,6 +444,13 @@ entries:
   - security
   commandcodeai_baseai:
   - ai-agent
+  composiohq_awesome-claude-skills:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - workflow-automation
+  - editor-kms
+  - protocol-spec
   composiohq_awesome-codex-skills:
   - workflow-automation
   - editor-kms
@@ -556,6 +563,8 @@ entries:
   - uncategorized
   dioxuslabs_awesome-dioxus:
   - uncategorized
+  dioxuslabs_dioxus:
+  - security
   docling-project_docling:
   - ai-agent
   - devtools
@@ -1183,6 +1192,11 @@ entries:
   lightpanda-io_browser:
   - ai-agent
   - protocol-spec
+  likec4_likec4:
+  - ai-agent
+  - devtools
+  - database
+  - protocol-spec
   lima-vm_lima:
   - ai-agent
   - devtools
@@ -1505,6 +1519,10 @@ entries:
   - security
   nvm-sh_nvm:
   - devtools
+  oblien_openship:
+  - ai-agent
+  - devtools
+  - protocol-spec
   obra_superpowers:
   - ai-agent
   - devtools
@@ -1877,6 +1895,9 @@ entries:
   - model-foundation
   - devtools
   - web-framework
+  schollz_croc:
+  - devtools
+  - protocol-spec
   screenpipe_screenpipe:
   - ai-agent
   - devtools

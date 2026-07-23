@@ -251,3 +251,4 @@
 {"recorded_at": "2026-07-22T22:07:31.693437+00:00", "slug": "composiohq_awesome-claude-skills", "title": null, "state": "published", "published_at": "2026-07-22", "reason": "自动生成", "ci_run_id": "29961072986"}
 {"recorded_at": "2026-07-22T23:07:37.451269+00:00", "slug": "dioxuslabs_dioxus", "title": null, "state": "published", "published_at": "2026-07-22", "reason": "自动生成", "ci_run_id": "29964521211"}
 {"recorded_at": "2026-07-23T00:07:36.401133+00:00", "slug": "schollz_croc", "title": null, "state": "published", "published_at": "2026-07-23", "reason": "自动生成", "ci_run_id": "29967586650"}
+{"recorded_at": "2026-07-23T02:20:11.680557+00:00", "slug": "oblien_openship", "title": null, "state": "published", "published_at": "2026-07-23", "reason": "自动生成", "ci_run_id": "29973174299"}

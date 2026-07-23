@@ -1,0 +1,6 @@
+{
+  "title": "GitHub推荐：4 个月 7.3K stars：OpenShip 把 Vercel 搬回你的服务器",
+  "digest": "4 个月 7.3K stars 的开源部署控制平面：用 SSH 而非专有 Agent 管理服务器，journaled exactly-once 远程命令、反向 SSH 隧道传 Git 凭证、按 runtime 能力切换部署时序，把 Vercel 体验带回你的 VPS。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

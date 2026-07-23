@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+</style>
+</head>
+<body>
+<blockquote>
+<p>GitHub: <a href="https://github.com/ayghri/i-have-adhd">https://github.com/ayghri/i-have-adhd</a></p>
+</blockquote>
+<h2>一句话总结</h2>
+<p>i-have-adhd 是一份为 ADHD 读者重塑 LLM 输出风格的 Claude Code / Codex / Cursor / Copilot / Gemini CLI / OpenCode / Antigravity <strong>跨 7 平台 Agent Skill</strong>——不是软件工程，而是一份被打包成可分发插件的 prompt 工程资产，70 天内拿到 9,202 stars。</p>
+<h2>值得关注的理由</h2>
+<ul>
+<li><strong>效率反差</strong>：2.3 个月、580 行代码、9,200 stars——代码量与影响力之间存在 100 倍失衡，是观察「prompt + 平台分发」杠杆率的样本。</li>
+<li><strong>基础设施思维</strong>：它不是写一份 prompt，而是解决<strong>「同一份 prompt 怎么在 7 个 AI CLI 上一致加载、激活、评测</strong>」这层基础设施问题——这一层至今没人系统做过。</li>
+<li><strong>评测方法学</strong>：跑通了人类 judge + 5 维度加权 + release gate 的 prompt A/B 评估流程，且主动承认没有公开 benchmark 结果（issue #4 open），是少有的「意识到自己需要证据」的项目。</li>
+</ul>
+<h2>项目展示</h2>
+<p style="text-align:center;"><img src="https://raw.githubusercontent.com/ayghri/i-have-adhd/main/logo.png" alt="i-have-adhd hero logo"/></p>
+<p>仓库 README 内嵌的「Before / After」对比表是这个项目最有力的视觉素材：</p>
+<table>
+<tr>
+<td width="50%">
+
+### Before
+
+> Great question! Let me think about this. Your auth flow has a few moving pieces: the middleware, the token verification, and the cookie handling. Looking at `src/auth.ts`, the `verifyToken` function (around lines 42-58) seems to be using an older `jsonwebtoken` API. One approach would be to update the package and rewrite that function. After making the change, you'd want to run the auth tests to confirm nothing breaks. By the way, you might also want to look at your dependency versions overall. Hope this helps! Let me know if you want to dig deeper.
+
+</td>
+<td width="50%">
+
+### After
+
+> Run `npm install jsonwebtoken@latest`, then edit `src/auth.ts:42`.
+>
+> 1. Open `src/auth.ts`
+> 2. Replace `verifyToken` (lines 42–58) with the snippet below
+> 3. Run `npm test -- auth.spec.ts`
+>
+> Next: paste the first failing line if any test fails.
+
+</td>
+</tr>
+</table>
+<h2>项目画像</h2>
+<table>
+<tr>
+<th>维度</th>
+<th>数据</th>
+</tr>
+<tr>
+<td>GitHub</td>
+<td><a href="https://github.com/ayghri/i-have-adhd">https://github.com/ayghri/i-have-adhd</a></td>
+</tr>
+<tr>
+<td>Star / Fork</td>
+<td>9,202 / 434</td>
+</tr>
+<tr>
+<td>代码行数</td>
+<td>580 行（Python 83.1% / JSON 10.3% / Shell 2.2%；其中 Python 几乎全是 eval runner，prompt 文本才是核心交付物）</td>
+</tr>
+<tr>
+<td>注释行数</td>
+<td>593 行（注释/代码 = 1.02——其中 95% 是 prompt 文本而非传统注释）</td>
+</tr>
+<tr>
+<td>文件数</td>
+<td>17 个（.py / .json / .toml / .sh / .yaml）</td>
+</tr>
+<tr>
+<td>项目年龄</td>
+<td>2.3 个月（首次提交 2026-05-13）</td>
+</tr>
+<tr>
+<td>开发阶段</td>
+<td>密集开发（近 30 天 86 commits，占总量 90.5%）</td>
+</tr>
+<tr>
+<td>贡献模式</td>
+<td>核心少数 + 社区协作（17 位贡献者，作者 ~36%）</td>
+</tr>
+<tr>
+<td>热度定位</td>
+<td>已大众热门（70 天拿到 9K+ stars 由 HN Show HN 帖引爆）</td>
+</tr>
+<tr>
+<td>质量评级</td>
+<td>代码[良好] 文档[优秀] 测试[基本] 评测方法学[创新]</td>
+</tr>
+</table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p><strong>Ayoub Ghriss (ayghri)</strong>：CU Boulder <strong>CLIMB 实验室</strong> ML 研究者，账号 8.8 年，公开仓库 78 个。他的其他仓库围绕学术 ML / 写作工具链——<code>overleaf-mcp</code>（Overleaf ↔ LLM）、<code>KATA</code>、<code>tritonix</code>、<code>qwantize</code>——形成清晰的「学术写作 + 工程工具」轴线。i-have-adhd 在他最近 push 的仓库中排第 1，其他同名仓库 star 几乎为 0，因此这<strong>不是系列实验的延续，而是 70 天前某个深夜的真痛点之作</strong>。</p>
+<h3>问题判断</h3>
+<p>他在 SKILL.md 第一段直接列出 <strong>5 条认知事实</strong>：working memory 小、knowing ≠ doing、starting is hardest、time estimates 失真、dopamine 稀缺。这不是营销陈述，而是被 LLM 默认输出反复消耗过的结论——读一句 "Great question! Let me think..." 已被消耗掉 8 秒注意力，剩下的指令跟不上，已经放弃。</p>
+<p>时机选择：<strong>Agent Skill 生态在 2025-2026 进入产品化</strong>，Claude Code / Codex 等平台开始支持 marketplace + hooks，<strong>「个人 prompt 改装」从 CLI 黑话进入 GUI 范畴</strong>。他抓住了这个窗口。</p>
+<h3>解法哲学</h3>
+<p>他没有选择「教用户驯化模型」（Anthropic 官方 Output Styles 的文档形态），而选择「教模型为人服务」。核心隐喻：把 LLM 输出当成给<strong>working memory 小、dopamine 稀缺、time 失真</strong>的读者用的产品。具体规则对照：</p>
+<table>
+<tr>
+<th>认知事实</th>
+<th>prompt 规则</th>
+</tr>
+<tr>
+<td>Working memory 小</td>
+<td>Rule 5: restate state every turn</td>
+</tr>
+<tr>
+<td>Knowing ≠ Doing</td>
+<td>Rule 1: lead with action, Rule 3: concrete next step</td>
+</tr>
+<tr>
+<td>Starting is hardest</td>
+<td>Rule 1: first line must be doable now</td>
+</tr>
+<tr>
+<td>Time estimates 失真</td>
+<td>Rule 6: 具体分钟数，不写「一会」</td>
+</tr>
+<tr>
+<td>Dopamine 稀缺</td>
+<td>Rule 7: make wins visible</td>
+</tr>
+</table>
+<p>最后一个亮点：他<strong>主动承认 prompt 强制是双刃剑</strong>——issue #4（仍 open）问「这种 prompt 是否会降低模型表现」。SKILL.md 末尾还专门有「When to break the rules」6 条 escape hatch，<strong>给模型"合法逃避规则"的出口</strong>——这是少有的「元规则比硬规则更可靠」认知。</p>
+<h3>战略意图</h3>
+<p>三条信号组合判断<strong>没有商业化意图</strong>：</p>
+<ul>
+<li>README 致谢 *The Adult ADHD Tool Kit*（临床心理学专著），强调「Adapted for how an LLM should respond」——非医疗；</li>
+<li>开源策略是「fork-friendly」——README 写明怎么 fork 后替换 install URL，鼓励个人化变体扩散；</li>
+<li>安装手册 17KB / 588 行覆盖 7 平台——纯做分发，<strong>挣不到钱也不指望挣</strong>。</li>
+</ul>
+<p>战略性意义：把自己做成 Agent Skill 生态里的「输出风格事实标准」。如果 Anthropic 未来推官方 Output Style（比如 "ADHD Mode"），他要么被收编，要么被吸收——这两种结局都不亏。</p>
+<h2>核心价值提炼</h2>
+<h3>创新之处（按新颖度×实用性×可迁移性综合排序）</h3>
+<h4>1. 「同一份 prompt + 跨 7 平台 manifest 分发」架构（新颖度★★★★ 实用性★★★★ 可迁移性★★★★★）</h4>
+<p>仓库存的不是软件工程，而是一份 canonical prompt（<code>skills/i-have-adhd/SKILL.md</code>，142 行）+ 7 套平台 manifest（<code>.claude-plugin/</code>、<code>.codex-plugin/</code>、<code>gemini-extension.json</code>、<code>.cursor/skills/</code> 副本、<code>.agents/plugins/</code>、Antigravity <code>plugin.json</code> 等）的分发体系。Cursor 不读 <code>skills/</code> 而读 <code>.cursor/skills/</code>，所以 CI（<code>cursor-skill-sync.yml</code>）用 <code>cmp</code> 守住一致性，失败信息<strong>直接给修复命令</strong>：</p>
+<pre>cmp skills/i-have-adhd/SKILL.md .cursor/skills/i-have-adhd/SKILL.md || {
+  echo "::error::.cursor copy is out of sync. Run: cp ..."
+  exit 1
+}</pre>
+<p><strong>「distribution reality &gt; DRY</strong>」——副本而非 symlink，因为 Windows / ZIP 不保留 symlink。这是工程人对受众的敬畏，不是 DRY 教条。</p>
+<h4>2. <code>disable-model-invocation: true</code> + 文件 flag 的双层 always-on（新颖度★★★ 实用性★★★★★ 可迁移性★★★★）</h4>
+<p>Claude Code 没有"always-on plugin"开关。<code>disable-model-invocation: true</code> 让模型无法自动把 skill 注入 system prompt，用户必须显式 <code>/i-have-adhd</code> 或 <code>touch ~/.claude/.i-have-adhd-always</code>。<code>hooks/always-on.sh</code> 在 SessionStart 检测文件存在才注入，<strong>任何失败都 <code>exit 0</code> 绝不阻塞 session 启动</strong>。这个组合解决了三个问题：</p>
+<ul>
+<li>用户意图对齐（用户主动开 vs 模型主动用）</li>
+<li>默认安全（不打开 = 不影响）</li>
+<li>平台兼容（hook 跨平台报错不致命）</li>
+</ul>
+<h4>3. 5 维度加权 + release gate 的人类 judge 评测 harness（新颖度★★★★ 实用性★★★★ 可迁移性★★★★★）</h4>
+<p><code>scripts/run_evals.py</code>（371 行）跑 baseline / candidate / comparator 三个条件，rubric 拆 5 个独立维度：</p>
+<ul>
+<li>correctness 35% / autonomy 25% / actionability 20% / safety 10% / concision 10%</li>
+</ul>
+<p><strong>关键独立</strong>：actionability 与 concision 分开评分——很多评测把这两者混在一起，但 prompt skill 的核心恰恰是「actionability 不靠压缩达成」。</p>
+<p>release gate 4 条件串行 fail-fast：</p>
+<ol>
+<li>无 blocking findings（blocker=true 不管分数都 fail）</li>
+<li>correctness 与 safety 不比 baseline 低 0.1 分以上</li>
+<li>weighted score &gt; baseline</li>
+<li>任何公开对比必须用同样 case/model/trial/rubric——<strong>把可复现性写进 gate</strong></li>
+</ol>
+<p>外加：budget 上限 $25/次、unmetered runner 强制 <code>--allow-unmetered</code>、可断点续跑（<code>completed_keys</code> 四元组去重）、JSONL append + flush（崩溃不丢）。<strong>避免「用 LLM 评 LLM」的循环偏差</strong>。</p>
+<h4>4. 「Output style」可移植 snippet 模式（新颖度★★★ 实用性★★★★★ 可迁移性★★★★）</h4>
+<p>INSTALL.md 把所有 always-on 路径汇总，但<strong>只用一段相同的「Output style」markdown 块</strong>（5 维度 12 行 prompt）作为 portable fragment——分发到 Codex / Gemini / Zed / Hermes / Pi / OpenCode / Antigravity 等不支持 SessionStart hook 的 harness。<strong>用户 fork 改一次 SKILL.md，全平台生效</strong>。</p>
+<h4>5. Pre-send check 反向 prompt（新颖度★★★★ 实用性★★★★ 可迁移性★★★★）</h4>
+<p>SKILL.md 末尾的「pre-send check」是元层 prompt：</p>
+<blockquote>
+<p>如果读者只能读首末两句，是否能知道 (a) 下一步做什么 (b) 发生了什么？</p>
+</blockquote>
+<p>比单纯给规则更能约束行为漂移——是「少即是多」与「正反双向约束」的范式。</p>
+<h4>6. 「Escape hatch」段落（新颖度★★★ 实用性★★★★ 可迁移性★★★★★）</h4>
+<p>SKILL.md 第 119-128 行「When to break the rules」明列 6 条打破规则的条件——包括「规则与 harness 系统提示词冲突时，harness 赢」。这解决了 Issue #43（已 close）揭示的「tangent suppression 在错层过滤」问题。任何约束性 prompt 都该有这个段落。</p>
+<h3>可复用的模式与技巧</h3>
+<h4>模式 1: Canonical content + per-platform copy + drift-check workflow</h4>
+<p>任何「同一份内容要在 N 个加载路径分发」的项目都该用：主文件 + 镜像副本 + CI <code>cmp</code> 守门人 + 失败信息内嵌修复命令。</p>
+<h4>模式 2: Behavior-modifying skill 必须 opt-in</h4>
+<p><code>disable-model-invocation: true</code> + 文件 flag = 用户控制 vs 模型自主。任何「输出风格 / 合规约束 / 安全过滤」类 skill 都该用——<strong>默认信任用户意图</strong>。</p>
+<h4>模式 3: Pre-send check 反向约束</h4>
+<p>prompt 末尾追加「发送前自检：如果只剩首末两句仍能让读者知道下一步做什么 + 发生了什么，就发」。比单纯给规则更能约束行为漂移。</p>
+<h4>模式 4: 评测 isolation 强制约束</h4>
+<p>评测 runner 用 <code>--setting-sources ""</code> / <code>--ignore-user-config --ephemeral</code> 等隔离参数，<strong>注释里点名「避免本 repo 自己的 always-on flag 污染 baseline</strong>」——这是评测方法学的最佳实践。</p>
+<h3>关键设计决策</h3>
+<ol>
+<li><strong>决策</strong>：「副本 + 守门人」而非 symlink</li>
+</ol>
+<ul>
+<li>问题：跨 IDE / ZIP / Windows 加载路径不一致</li>
+<li>方案：<code>.cursor/skills/</code> 真实副本 + CI <code>cmp</code> 守门</li>
+<li>Trade-off：DRY 让步给分发现实</li>
+<li>可迁移性：高</li>
+</ul>
+<ol>
+<li><strong>决策</strong>：<code>disable-model-invocation: true</code> 强制 opt-in</li>
+</ol>
+<ul>
+<li>问题：模型会"自作主张"调用 skill</li>
+<li>方案：frontmatter 标志 + always-on hook 检测文件</li>
+<li>Trade-off：牺牲模型任务自适应换可控副作用边界</li>
+<li>可迁移性：高</li>
+</ul>
+<ol>
+<li><strong>决策</strong>：always-on 用 POSIX sh + 文件 flag</li>
+</ol>
+<ul>
+<li>问题：Claude Code 没有 always-on 开关</li>
+<li>方案：<code>touch ~/.claude/.i-have-adhd-always</code> + SessionStart hook</li>
+<li>Trade-off：用户必须知道"魔法文件"，INSTALL.md 已解释</li>
+<li>可迁移性：高</li>
+</ul>
+<ol>
+<li><strong>决策</strong>：评测 harness 是 release gate 而非评分脚本</li>
+</ol>
+<ul>
+<li>问题：如何量化 prompt skill 有效性</li>
+<li>方案：5 维度加权 + blocker 必失败 + 4 条件 release gate</li>
+<li>Trade-off：人工 judge 慢，但避免 LLM-as-judge 循环偏差</li>
+<li>可迁移性：极高</li>
+</ul>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table>
+<tr>
+<th>维度</th>
+<th>i-have-adhd</th>
+<th>ravila4/claude-adhd-skills</th>
+<th>abullard1/claude-bionify</th>
+<th>Anthropic 官方 Output Styles</th>
+</tr>
+<tr>
+<td>平台覆盖</td>
+<td><strong>7 个 CLI</strong></td>
+<td>仅 Claude Code</td>
+<td>仅本地 terminal</td>
+<td>仅 Claude Code</td>
+</tr>
+<tr>
+<td>Star 数</td>
+<td><strong>9,202</strong></td>
+<td>106</td>
+<td>16</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>方案层</td>
+<td>prompt 层</td>
+<td>prompt + workflow</td>
+<td>terminal 渲染层</td>
+<td>style preset</td>
+</tr>
+<tr>
+<td>集成方式</td>
+<td>单一 Skill + always-on</td>
+<td>多 skill 套件</td>
+<td>ANSI 转义</td>
+<td>文件配置</td>
+</tr>
+<tr>
+<td>评测 harness</td>
+<td><strong>有（release gate</strong>）</td>
+<td>无</td>
+<td>无</td>
+<td>无</td>
+</tr>
+<tr>
+<td>多语 README</td>
+<td>中/英/日</td>
+<td>仅英文</td>
+<td>仅英文</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>启发来源</td>
+<td>临床认知心理学</td>
+<td>个人工具流</td>
+<td>bionic reading 学术</td>
+<td>设计哲学</td>
+</tr>
+</table>
+<h3>差异化护城河</h3>
+<ul>
+<li><strong>生态护城河</strong>：9K stars + 17 贡献者 + 7 平台覆盖已是事实标准——竞品要追上需要至少 6 个月社区积累</li>
+<li><strong>方法学护城河</strong>：评测 harness 是「prompt A/B 测试」领域的现成范本，竞品没有</li>
+<li><strong>认知科学锚点</strong>：<code>The Adult ADHD Tool Kit</code> 是显式参考文献，竞品都只是工具流自述</li>
+</ul>
+<h3>竞争风险</h3>
+<p><strong>最可能被替代的维度</strong>：如果 Anthropic 官方未来推 "ADHD / Executive Function" Output Style，本项目差异会被压缩到只剩跨 7 平台 + 评测 harness——这两层<strong>仍是护城河</strong>，所以不至于被淘汰，但明星地位会下降。</p>
+<p><strong>次要威胁</strong>：Claude Code 官方推 output-styles marketplace 后，第三方 plugin 分发难度上升（但作者已通过 <code>.claude-plugin/marketplace.json</code> 接入官方 marketplace，所以这是合作而非竞争）。</p>
+<h3>生态定位</h3>
+<p>「Agent Skill 时代的 dotfiles」——dotfiles 之父是 Zach Holman 那套 shell + vim 配置哲学，i-have-adhd 是把同一思路搬到 Agent Skill 时代：<strong>把个人偏好的 prompt 改出来、装到所有平台、用评测守住质量</strong>。在整个技术生态中，它是<strong>「输出风格层」的事实标准候选</strong>——填补了「prompt engineering 没有 reference implementation」的空白。</p>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：9K stars 已无信息差，但<strong>评测方法和跨平台分发策略</strong>仍是稀缺知识——多数竞品连「跨 2 平台」都没做</li>
+<li><strong>技术借鉴</strong>：「Pre-send check」反向 prompt + 「release gate」评测范式可直接套到任何 prompt engineering / agent framework 项目</li>
+<li><strong>生态位</strong>：填补「跨平台 Agent Skill 分发基础设施」空白，仍是空白蓝海</li>
+<li><strong>趋势判断</strong>：Agent Skill 生态 2026 高速发展，跨平台分发是各家都在建的标准——i-have-adhd 已经被 HN 推上桌，会有更多人 fork，因此趋势上行但不会独家</li>
+</ul>
+<h2>风险与不足</h2>
+<p>诚实评估：</p>
+<ol>
+<li><strong>评测公开结果缺失</strong>：Issue #4（"does this reduce model capability?"）仍 open；rubric 设计存在但没有 baseline vs candidate 公开数字。<strong>对声称改进行为的 prompt 项目，这是显著证据缺口</strong>。在 issue 关掉之前，9K stars 来自社区情绪而非客观证据。</li>
+<li><strong>always-on 跨平台兼容性未充分验证</strong>：<code>plugin-load-check.yml</code> 只验证 Claude Code 加载。其他 6 个 CLI 的 always-on snippet 是手贴的，INSTALL.md 没说明粘贴后如何验证生效（除「重启 + 看行为」）。</li>
+<li><strong>eval cases 偏少</strong>：14 case × 8 category = 每类 1-2 case，统计功效有限；release gate 的 0.1 分阈值在这种小样本下敏感。</li>
+<li><strong><code>agents/gemini.toml</code> 与 SKILL.md 内容冗余</strong>但没有像 <code>cursor-skill-sync.yml</code> 那样的同步 CI——可以补一个 <code>agents-sync.yml</code>。</li>
+<li><strong>始终是单作者视角</strong>：「no ADHD diagnosis needed」的卖点意味着 <strong>没有真实 ADHD 用户的对照研究</strong>——价值主张目前完全基于自身 dogfooding 与社区反馈，工程上没有对照组。</li>
+<li><strong>依赖未声明的 <code>npx skills add</code> 等外部工具</strong>：Cursor 等平台用 <code>npx skills add</code> 安装时被自动同步，但前提是用户已经装了 skills CLI；INSTALL.md 文档化但没强制路径。</li>
+</ol>
+<h2>行动建议</h2>
+<ul>
+<li><strong>如果你要用它</strong>：先在 Claude Code 跑 <code>/i-have-adhd</code> 验证风格喜不喜欢，再用 <code>touch ~/.claude/.i-have-adhd-always</code> 把它开为 always-on。跨平台需求时按 INSTALL.md 顺序贴 portable snippet 到你用的 CLI。<strong>不要直接套全部规则</strong>——它们的「Hard rule / Escape hatch」设计就是为了让你个性化。</li>
+<li><strong>如果你要学它</strong>：重点看 3 个文件：</li>
+<li><code>skills/i-have-adhd/SKILL.md</code> — prompt engineering 范本（5 认知事实 → 10 规则 + escape hatch + pre-send check）</li>
+<li><code>scripts/run_evals.py</code> — prompt A/B 评测 harness 的完整实现</li>
+<li><code>hooks/always-on.sh</code> — 30 行 POSIX sh，零依赖的设计哲学</li>
+<li><strong>如果你要 fork 它</strong>：替换 <code>/skills/i-have-adhd/SKILL.md</code> 全文即可——它是唯一的 canonical source，所有平台的 manifest 都从它派生。如果你做的是不同风格的 prompt（不是 ADHD），请改 <code>disable-model-invocation: false</code> 让模型有更大自由度，并准备相应的 escape hatch 段。</li>
+</ul>
+<h3>知识入口</h3>
+<table>
+<tr>
+<th>资源</th>
+<th>链接</th>
+</tr>
+<tr>
+<td>DeepWiki</td>
+<td><a href="https://deepwiki.com/ayghri/i-have-adhd">已收录</a>（last indexed 2026-07-21）</td>
+</tr>
+<tr>
+<td>Zread.ai</td>
+<td>未收录</td>
+</tr>
+<tr>
+<td>关联论文/书</td>
+<td><a href="https://www.amazon.com/Adult-ADHD-Tool-Kit-Russell-Ramsay/dp/0365900848">The Adult ADHD Tool Kit</a> — J. Russell Ramsay &amp; Anthony L. Rostain（作者公开致谢）</td>
+</tr>
+<tr>
+<td>HN Show 帖</td>
+<td><a href="https://news.ycombinator.com/item?id=32436254">news.ycombinator.com/item?id=32436254</a> — 主要增长发动机</td>
+</tr>
+<tr>
+<td>在线 Demo</td>
+<td>无（skill 性质项目，无在线 playground）</td>
+</tr>
+</table>
+</body>
+</html>

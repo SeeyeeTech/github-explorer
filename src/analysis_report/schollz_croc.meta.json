@@ -1,0 +1,6 @@
+{
+  "title": "一个人 8 年写 37K stars：croc 如何用一行命令把文件传输做到 fast + secure + easy 三不妥协",
+  "digest": "croc 用 PAKE + 自建 relay 模式，让任意两台机器跨 NAT/防火墙用一条命令完成端到端加密传输，三权分立的极简哲学 8.5 年磨成事实标准。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

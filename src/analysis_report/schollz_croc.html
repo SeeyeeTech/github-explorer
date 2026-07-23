@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+<blockquote>
+<p>GitHub: <a href="https://github.com/schollz/croc">https://github.com/schollz/croc</a></p>
+</blockquote>
+<h2>一句话总结</h2>
+<p>croc 是一款用 Go 写的端到端加密 P2P 文件传输 CLI，通过 PAKE 密码短语 + 自建 relay 房间模式，让任意两台机器（跨 NAT/防火墙）用一条命令完成加密传输，是 8.5 年磨出的事实标准级工具。</p>
+<h2>值得关注的理由</h2>
+<ul>
+<li><strong>三权分立的极简哲学</strong>：「Fast + Secure + Easy」一个都不妥协，是它从 magic-wormhole / rsync / scp 嘴里抢下 37.5K stars 的根本。</li>
+<li><strong>PAKE + Room 模式的工程典范</strong>：把学院的 OPAQUE/CPace 协议落地成一行 CLI，密码短语 = 房间名 + 加密密钥的派生源头，零证书、零配置。</li>
+<li><strong>单人 8.5 年磨一工具的运营范本</strong>：1.5k 仓库作者、主版本号 v10 跨 200 个 tag 稳如老狗，是工具型 CLI 长期可持续维护的样板。</li>
+</ul>
+<h2>项目展示</h2>
+<p><img src="https://raw.githubusercontent.com/schollz/croc/main/src/install/customization.gif" alt="croc demo" /> — sender→receiver 完整流程的 demo（来自 README customization.gif）</p>
+<p><img src="https://user-images.githubusercontent.com/6550035/46709024-9b23ad00-cbf6-11e8-9fb2-ca8b20b7dbec.jpg" alt="croc logo" /> — 项目 logo</p>
+<h2>项目画像</h2>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse;width:100%;font-size:14px;">
+<thead><tr><th>维度</th><th>数据</th></tr></thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/schollz/croc">https://github.com/schollz/croc</a></td></tr>
+<tr><td>Star / Fork</td><td>37,548 / 1,483（watchers 252）</td></tr>
+<tr><td>代码行数</td><td>10,582（Go 99.3% / Shell 0.4% / Dockerfile 0.2% / Makefile 0.2%，31 个 .go 文件）</td></tr>
+<tr><td>项目年龄</td><td>105 个月（2017-10-17 至今，fork 自 wormhole 起步）</td></tr>
+<tr><td>开发阶段</td><td>稳定维护（近 365 天 138 commits，2026-07 重新活跃）</td></tr>
+<tr><td>贡献模式</td><td>独立开发（Zack Scholl 单一占比 ~91%，单人主导）</td></tr>
+<tr><td>热度定位</td><td>大众热门（Tranding 复登，事实标准级工具）</td></tr>
+<tr><td>质量评级</td><td>代码良好 / 文档良好 / 测试充分 / CI 完善（13 个 target 跨平台矩阵）</td></tr>
+</tbody>
+</table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>Zack Scholl 是 Seattle 的独立开发者（自述 "Software Engineer + Scientist"），12.5 年 GitHub 账号、3,660 粉丝、1,151 个公开仓库。代表作两条线：<code>croc</code>（37.5K stars）与 <code>progressbar/v3</code>（4.6K stars）—— 都是「把繁琐过程压缩成一条 CLI」的实用工具，体现典型的「工具型」工程师偏好。覆盖 Go/C/C++/Lua/Python，硬件（pikocore、_core）和音乐相关项目都做，但精力以 croc 为绝对核心（在他最近 push 仓库中排第 1）。</p>
+<h3>问题判断</h3>
+<p>Scholl 反复遇到同一类「人类尺寸的文件传输问题」：要把一个文件从 Seattle 的工作站传给另一个城市的朋友——SSH 配置麻烦、iCloud 不安全、Tailscale 重型。两端不需要都是工程师、对端可能在 NAT/咖啡馆/公司内网——他敏锐地看到了一个被忽视的事实：<strong>主流工具里 fast / secure / easy 只能三选二</strong>，于是他要把这个空白补上。</p>
+<h3>解法哲学</h3>
+<ul>
+<li><strong>三权分立</strong>：Fast + Secure + Easy 一个都不妥协（README 第一页、issue 模板、博客都强调）</li>
+<li><strong>Go 单二进制 = 易用</strong>：用户安装一次即可多平台复用</li>
+<li><strong>PAKE 而非预共享证书</strong>：用户不需要发 fingerprint，输入一段口令即可派生端到端密钥</li>
+<li><strong>Relay 而非 P2P 直连</strong>：牺牲绝对去中心化换任意两台机器真能连上</li>
+<li><strong>多 socket 并行</strong>：牺牲带宽换高丢包场景的速度和稳定性</li>
+<li><strong>可恢复</strong>：PAKE salt + 临时「reconnect room」让人被打断也不丢</li>
+</ul>
+<h3>战略意图</h3>
+<p>croc 是 Scholl 收入预期直接挂钩的项目（README 顶部挂「Sponsor today」）。<strong>轻商业化</strong> = 默认公共 relay（croc.schollz.com）是其基础设施，但代码 MIT + 自带 relay 子命令 + Docker image，genuinely open 而非 open-core。F-Droid 上已上架两种 Android 客户端（crocgui / native Kotlin），说明他把 croc 从「server-client CLI」拉成「核心 CLI + 多端 GUI」生态。v10 主版本号稳定多年，commit 集中在 bugfix + reconnect + 多平台兼容性——他押注 croc 当协议稳定的传输层，而非继续发明新机制。</p>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<ol>
+<li><strong>Code-Phrase 即房间名（SHA-256 prefix + salt）</strong> — 收发两端用相同输入（前几个字符）算出唯一「房间 hash」，不需要注册、不需要服务端查表；新颖度 3/5、实用性 5/5、可迁移性 5/5</li>
+<li><strong>PAKE 派生 reconnect session</strong> — 不打断用户、不重新输 code 也能续传；随机 room 加密传输；新颖度 4/5、实用性 5/5、可迁移性 4/5</li>
+<li><strong>MissingChunks 零字节段启发式局部续传</strong> — 不算 hash，仅看 64KB 段是否全 0 识别待补传范围；新颖度 4/5、实用性 4/5、可迁移性 5/5</li>
+<li><strong>Lan-first + 公网 fallback 双 relay 模式</strong> — 本地 UDP multicast + 主控端口开临时 relay + 公网固定 relay 三重尝试；新颖度 3/5、实用性 5/5、可迁移性 5/5</li>
+<li><strong>Relay "rooms" 模式 + 弱口令 SPAKE2 握手</strong> — 每个 relay 进程内 <code>roomMap</code> 由 SHA-256(secret_prefix) 派生，PAKE 派生密钥后再 AES-GCM 鉴权；新颖度 3/5、实用性 5/5、可迁移性 4/5</li>
+<li><strong>多 socket 并行（multi-port multiplex）</strong> — 1 控制端口 + 4 数据端口独立 TCP，round-robin 调度 chunk；每 chunk 走 4 路 = 4 倍带宽换稳定性；新颖度 3/5、实用性 5/5、可迁移性 4/5</li>
+</ol>
+<h3>可复用的模式与技巧</h3>
+<ul>
+<li><strong>CLI <code>Options</code> + <code>New(opts)</code> 构造 + 异步状态机</strong>：5 个 Step（channel secured → file info → recipient requests file → file transferred → close channels），每个 Step 有布尔字段，重连整体 reset —— 适合所有需要可恢复握手的长连接协议</li>
+<li><strong><code>stop</code> 抽象（context cancel + sync.WaitGroup + stopChan）</strong>：<code>tcp.RunCtx</code> 注入 ctx，协程检测 <code>&lt;-ctx.Done()</code> 关闭 server + 清理 rooms —— 可独立抽出作为 CLI daemon 工具的 stop 管理库</li>
+<li><strong>Socks5 / HTTP CONNECT 双代理自动切换</strong>：<code>comm.NewConnection</code> 根据 env var 切换 proxy，工具内部不感知</li>
+<li><strong>MNEMONIC PIN + 单词字典 = 可读 code phrase</strong>：<code>4 位随机数字 + 4 个 mnemonicode 单词</code>，人类能口述且 entropy 足够</li>
+<li><strong>CLI default + <code>CROC_SECRET</code>/<code>--classic</code> opt-in 兼容</strong>：security-by-default 但保留 escape hatch；CVE-2023-43621 修复标准答案（多用户系统 <code>--code</code> 走 argv 会被 <code>ps</code> 偷看，强制走 env）</li>
+<li><strong>14 个公共 DNS 并发查询 + 500ms deadline</strong>：突破企业 DNS 把默认 relay 域名解析走私地址的硬约束</li>
+</ul>
+<h3>关键设计决策</h3>
+<ol>
+<li><strong>Relay rooms + PAKE 握手</strong>：放弃 zero-config（必须服务端配默认 pass），换来 NAT/防火墙无感 + 口令知识隔离；房间一次握手 + 4 数据端口</li>
+<li><strong>多 socket 并行</strong>：4 倍字节数中转流量换任一连接丢包不影响其它三路；Issue #602 至今还在讨论「重复传一遍是否浪费」</li>
+<li><strong>MissingChunks 启发式</strong>：依赖零字节段 vs Partial failure 大多丢整段的经验吻合，换不用 hash 比对就只发真正丢的</li>
+<li><strong>CVE-2023-43621 → <code>CROC_SECRET</code> 环境变量</strong>：增加 UX 摩擦（多打 env 前缀）换多用户系统安全</li>
+<li><strong>受信 relay 的「口令 + PAKE」双层</strong>：让 relay 端必须实现 PAKE，三五行代码换「即使口令被 env 泄露也不知对方在说什么」</li>
+</ol>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse;width:100%;font-size:14px;">
+<thead><tr><th>维度</th><th>croc</th><th>magic-wormhole</th><th>rsync</th><th>scp/sftp</th><th>wormhole-william</th><th>LocalSend</th></tr></thead>
+<tbody>
+<tr><td>单二进制 / 零依赖</td><td>✅ Go 静态</td><td>❌ Python wheel</td><td>系统自带</td><td>系统自带</td><td>✅ Go</td><td>✅ 多端</td></tr>
+<tr><td>跨 NAT/防火墙</td><td>✅ relay</td><td>✅ relay</td><td>❌ 需 SSH 端口</td><td>❌ 需 SSH 端口</td><td>✅ relay</td><td>❌ 仅 LAN</td></tr>
+<tr><td>断点续传</td><td>✅ 内置</td><td>⚠️ 弱</td><td>✅ 滚动 checksum</td><td>❌ 无</td><td>⚠️ 弱</td><td>⚠️</td></tr>
+<tr><td>加密</td><td>✅ PAKE + AES-GCM</td><td>✅ SPAKE2</td><td>⚠️ 借 SSH</td><td>✅ SSH</td><td>✅ SPAKE2</td><td>⚠️ 自签证书</td></tr>
+<tr><td>GUI 移动端</td><td>✅ Android F-Droid</td><td>✅ Warp/Winden</td><td>❌</td><td>❌</td><td>❌</td><td>✅ 主流</td></tr>
+<tr><td>协议标准化</td><td>⚠️ 自研</td><td>✅ 学术级</td><td>✅ 30 年</td><td>✅ RFC</td><td>✅ wormhole 协议</td><td>⚠️</td></tr>
+<tr><td>Stars 数量</td><td>37.5K</td><td>~10K+</td><td>n/a</td><td>n/a</td><td>~1K</td><td>~38K</td></tr>
+</tbody>
+</table>
+<h3>差异化护城河</h3>
+<ul>
+<li><strong>技术护城河</strong>：「任意两台机器」+「code 而非证书」+「单二进制」三重叠加，再加上 IPv6 + Tor 代理 + 多 socket + 断点续传，几乎不与单一竞品完全重叠</li>
+<li><strong>体验护城河</strong>：「fast + secure + easy」三不妥协的极简 CLI 哲学 + 8 年打磨的 UX 细节（progress bar / QR / 剪贴板自动写 / 中文助记码），是用户口碑来源</li>
+<li><strong>品牌护城河</strong>：单人作者 + 持续 8 年高频 release + 公开 blog 分享「Sponsor」友好型独立项目——开发者社区对其「这哥们靠得住」的心理账户很强</li>
+</ul>
+<h3>竞争风险</h3>
+<ul>
+<li><strong>最大风险</strong>：OS 自带「近距文件传输」—— Apple AirDrop / Android Nearby Share / Windows Phone Link——用户不装即可用，会切走「快速传个文件」这类高频轻量场景</li>
+<li><strong>次大风险</strong>：Cloudflare Tunnel / Tailscale Funnel 把 SSH/SFTP 也能轻松穿透，croc「跨 NAT」的易用性溢价被吃掉</li>
+<li><strong>协议级风险</strong>：magic-wormhole 的协议标准化程度更高（多语言实现齐全 + 学术审查更多），一旦 wormhole-william 把体验追上来，croc 的「wormhole-go-衍生差异化」会被压缩</li>
+</ul>
+<h3>生态定位</h3>
+<p>「CLI-only 的 file transfer utility」品类里的事实标准（37.5K stars）。<strong>不是协议/SDK</strong>——生态护城河较薄；但单点体验护城河厚。上游用法已孵化出多端 GUI（F-Droid），这种「核心 CLI + 多端 GUI 拼贴」的开源模式越来越被验证。</p>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：无明显被低估信号。37.5K stars、Trending 复登、Dependabot + Copilot agent 持续提交——croc 已是事实标准级工具，准确说是「已发掘价值、长期复利的旗舰项目」而非被低估潜力股</li>
+<li><strong>技术借鉴</strong>：
+<ul>
+<li><strong>rooms 模式</strong> + <strong>PAKE 握手</strong> = 一套「无需预共享密钥的临时通信房间」模板，可套到任何 P2P / 跨端协作场景</li>
+<li><strong>多 socket 多路复用</strong>：传输层做 multi-connection 来对抗丢包，比应用层重试更彻底；HTTP/2 多 stream 是同思路的协议层实现</li>
+<li><strong>MissingChunks 零字节启发式</strong>：便宜的 range-detection 算法可独立抽出</li>
+<li><strong>14 个公共 DNS 并发查询 + 500ms deadline</strong>：适合任何「默认部署域名可能被 DNS 中毒」的小工具</li>
+</ul>
+</li>
+<li><strong>生态位</strong>：「跨网段 E2EE P2P CLI 传输」细分蓝海里的事实标准；只有 magic-wormhole 系是直接对手</li>
+<li><strong>趋势判断</strong>：长尾复利项目，不会暴涨但也很难归零。v10 主版本号稳定多年说明协议已收敛，新增价值主要在多平台兼容 + 体验打磨 + 多端 GUI 生态</li>
+</ul>
+<h2>风险与不足</h2>
+<ul>
+<li><strong>稳定性天花板</strong>（Issue #437）：大文件传输仍存在 freeze/stall，31 条评论 + closed；多路复用 / TCP 拥塞控制 / 文件 hash 校验链路间存在资源争抢 / 死锁路径</li>
+<li><strong>多 socket 设计张力</strong>（Issue #602）：每个 chunk 复制到 N 个端口 = 4 倍中转流量，社区至今还在质疑「重复传一遍是否浪费」</li>
+<li><strong>架构路线悬而未决</strong>（Issue #108）：是否用 WebRTC 替代自研 relay，in-progress 状态 28 条评论——是「要不要拥抱浏览器/Web 平台」的战略选择题</li>
+<li><strong>单点故障风险</strong>：主作者 Zack Scholl 占比 ~91%，bus factor ≈ 1；项目长期可持续性完全绑定在个人精力</li>
+<li><strong>代码质量小毛病</strong>：<code>panic</code> 在 <code>setupLocalRelay</code> / throttle 解析处仍被当 error 用；缺 <code>.golangci.yml</code> / <code>.editorconfig</code>；无独立 <code>examples/</code> 目录</li>
+<li><strong>CLI 集成测试少</strong>：79 个 Test 函数里 E2E 靠 docs 描述手测，自动化覆盖薄弱</li>
+<li><strong>与 OS 级近距离传输 / 企业 IM 内置文件传输功能竞争</strong>：用户不装即可用，会切走「快速传个文件」高频轻量场景</li>
+</ul>
+<h2>行动建议</h2>
+<ul>
+<li><strong>如果你要用它</strong>：跨网段 / 跨 NAT 场景、对安全敏感（不愿走 iCloud / 微信文件传输）、不想配 SSH——croc 是单点最优解；纯 LAN 内部传文件优先 LocalSend（UI 友好）、运维批量同步选 rsync、已有 SSH 信任链选 scp</li>
+<li><strong>如果你要学它</strong>：重点读 <code>src/croc/croc.go</code>（协议层状态机）+ <code>src/tcp/tcp.go</code>（relay 实现）+ <code>src/comm/comm.go</code>（framing）+ <code>src/utils/utils.go</code>（MissingChunks / 启发式算法）；外部参考资料 <a href="https://blog.cryptography.dk/2024/02/05/deep-dive-into-croc-process-architecture/">blog.cryptography.dk 8 篇 deep dive 连载</a> 是最好的「用代码读架构」教程</li>
+<li><strong>如果你要 fork 它</strong>：可改进方向
+<ul>
+<li>WebRTC relay 替代（Issue #108 悬而未决）</li>
+<li>E2E 自动化测试（手测 → 集成测试）</li>
+<li>引入 <code>.golangci.yml</code> + golangci-lint + CI 强制检查</li>
+<li>把 <code>panic</code> 替换为 error + 优雅退出</li>
+<li>把 progressbar/v3 抽象成可选（嵌入式场景）</li>
+</ul>
+</li>
+</ul>
+<h3>知识入口</h3>
+<table border="1" cellpadding="6" cellspacing="0" style="border-collapse:collapse;width:100%;font-size:14px;">
+<thead><tr><th>资源</th><th>链接</th></tr></thead>
+<tbody>
+<tr><td>DeepWiki</td><td><a href="https://deepwiki.com/schollz/croc">https://deepwiki.com/schollz/croc</a>（已收录，覆盖 Overview / User Guide / Architecture / Development / Glossary）</td></tr>
+<tr><td>Zread.ai</td><td>未收录</td></tr>
+<tr><td>关联论文</td><td>无（工具型项目，无学术对应）</td></tr>
+<tr><td>在线 Demo</td><td>无官方 playground；<a href="https://blog.cryptography.dk/2024/02/05/deep-dive-into-croc-process-architecture/">blog.cryptography.dk 8 篇 deep dive 连载</a> 是最好的「用代码读架构」教程</td></tr>
+</tbody>
+</table>
+</body>
+</html>

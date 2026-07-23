@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+
+<blockquote>
+<p>GitHub: <a href="https://github.com/likec4/likec4">https://github.com/likec4/likec4</a></p>
+</blockquote>
+
+<h2>一句话总结</h2>
+<p>用自有 <code>.c4</code> DSL 把软件架构描述成「<strong>模型而非图</strong>」，CLI/VSCode/JetBrains/SPA/MCP 全栈统一从同一份模型派生，让架构图永远随代码同步，并被 AI Agent <strong>像数据库一样查询与回写</strong>。</p>
+
+<h2>值得关注的理由</h2>
+<ul>
+<li><strong>架构图的「图-模分离」已完成产品化闭环</strong>：手工图永远过时，LikeC4 把模型当事实源，DSL 改动瞬间反映到所有视图；这不是又一个 Mermaid，而是 C4 Model + LSP + 模型编译器 + 渲染引擎 + 编辑器全家桶。</li>
+<li><strong>率先把架构 DSL 暴露给 AI Agent</strong>：自带的 MCP 服务器提供 20+ 工具（<code>list-projects</code> / <code>query-graph</code> / <code>element-diff</code> / <code>apply-semantic-layout</code> 等），Agent 不再看图，而是直接查询模型；这是「代码化架构」与 LLM 工作流的天然契合点。</li>
+<li><strong>40 个月 191 个版本、CLI+编辑器+渲染+布局四件套深度集成</strong>：Langium（解析）+ Graphviz（节点图布局）+ @lume/kiwi（序列图约束求解）+ React Flow（交互）的组合在 C4 工具里做到最深，单一作者主导也能维持月均 2.5 个正式 Release 的节奏。</li>
+</ul>
+
+<h2>项目展示</h2>
+
+<p><img src="https://github.com/likec4/likec4/assets/824903/d6994540-55d1-4167-b66b-45056754cc29" alt="LikeC4 VS Code extension"></p>
+<p>VS Code 中编辑 <code>.c4</code> 文件时实时预览架构图，HMR 直接驱动浏览器 SPA</p>
+
+<p><img src="https://likec4.dev/_astro/realtime-visualization.DZL7jcxz_p5sDu.webp" alt="LikeC4 real-time workflow visualization"></p>
+<p>官网展示的实时工作流：模型变化 → 视图同步 → 自动布局</p>
+
+<p><img src="https://github.com/likec4/.github/assets/824903/c0f22106-dba6-469e-ab47-85e7b8565513" alt="LikeC4 product showcase"></p>
+<p>多视图切换：element view / dynamic view / deployment view 共享同一份模型</p>
+
+<p><img src="https://github.com/likec4/likec4/assets/824903/27eabe54-7d97-47a8-a7e4-1bb44a8e03e5" alt="LikeC4 interactive diagram"></p>
+<p>交互式架构图：层级可折叠、节点可拖拽、连线自动避让</p>
+
+<blockquote>
+<p>在线试用：<a href="https://playground.likec4.dev/w/tutorial/">https://playground.likec4.dev/w/tutorial/</a></p>
+</blockquote>
+
+<h2>项目画像</h2>
+
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse:collapse;border-color:#ddd;font-size:14px;">
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/likec4/likec4">https://github.com/likec4/likec4</a></td></tr>
+<tr><td>Star / Fork</td><td>4,400 / 305</td></tr>
+<tr><td>代码行数</td><td>337,402 行（TypeScript 46.4% + TSX 44.5% + YAML/JSON 其他）</td></tr>
+<tr><td>文件数量</td><td>6,871</td></tr>
+<tr><td>项目年龄</td><td>40 个月（首次提交 2023-03-24）</td></tr>
+<tr><td>开发阶段</td><td>密集开发（近 90 天 303 次 commit，v1.59.2 持续发版）</td></tr>
+<tr><td>开发模式</td><td>业余 Side Project（周末 28.7% + 深夜 49.0%，但 3 年节奏已近职业化）</td></tr>
+<tr><td>贡献模式</td><td>单人主导（Top 贡献者占比 64.5%，30 名 API 可见贡献者）</td></tr>
+<tr><td>热度定位</td><td>中等热度（Architecture-as-Code 细分领域小众精品）</td></tr>
+<tr><td>质量评级</td><td>代码[优秀] 文档[优秀] 测试[充分] CI/CD[完善]</td></tr>
+</tbody>
+</table>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+<p>核心作者 Denis Davydkov（GitHub: <code>davydkov</code>）自 2014 年起持续在 monaco-editor、graphql-js 工具链等编辑器基础设施领域贡献，对 VS Code 语言服务器协议、DSL 工程化、TypeScript 类型系统都有深度积累。LikeC4 是他「把自己擅长的 DSL+IDE 工具集能力，反向应用到软件架构领域」的产物——他看到的不是 C4 缺不缺工具，而是 C4 缺一个「能让 PR 评审通过的架构表达」。组织位于 Netherlands，仓库组合（VSCode / JetBrains / Neovim / MkDocs / GitHub Actions / examples）也透露其团队重点是「架构建模 DSL + IDE 工具链 + 文档集成」。</p>
+
+<h3>问题判断</h3>
+<p>Denis 反复强调的反常识命题是：<strong>架构图最大的敌人不是复杂度，而是「跨视图一致性」</strong>。手工画的图在 PR 评审里根本无法被验证，跨视图必然出现不一致（同一个服务在 Component 图和 Deployment 图里叫不同名字），且没有人愿意手工维护文档图。C4 Model 给出了正确的「模型分层 + 视图投影」概念，但截至 2023 年所有落地工具要么是 SaaS（IcePanel）、要么把图当事实源（PlantUML/Mermaid）、要么 IDE 体验割裂（Structurizr Lite）。LikeC4 选择的时机是 Langium 这类 DSL 框架成熟 + Graphviz WASM 可用 + LLM Agent 开始吃工具的窗口期，三者叠加才让「模型即文档 + AI 友好」有了技术底座。</p>
+
+<h3>解法哲学</h3>
+<p><strong>模型即文档（Model-as-Document）</strong>：图形只是模型的一次性投影，DSL 改动瞬间反映到所有视图。<strong>小而专的视图 DSL</strong>：specification / model / views / deployment / globals 五块分离，predicate 决定视图内容（<code>include</code> / <code>exclude</code> + <code>where</code> + <code>with</code>），视图完全由谓词组合派生。<strong>故意不做什么</strong>：不绑 SaaS、不绑某个图引擎、不绑某个渲染器；不替代 Graphviz（而是给 Graphviz 出 hints）；不强推协作后台（VSCode 协同通过 manual layout + Git 完成）。这种克制让 LikeC4 不会陷入「自己重写所有组件」的陷阱，把力量集中在「DSL 解析→模型计算→视图 predicate→布局适配→渲染」这条主链路的工程深度上。</p>
+
+<h3>战略意图</h3>
+<p>LikeC4 是核心产品也是战略锚点。MIT license + OpenCollective/GitHub Sponsors 资助 = genuinely open，没有企业版闭源。商业化路径有两层：一是 <code>leanix-bridge</code> 包提供与 LeanIX（企业架构管理 SaaS）的双向同步，桥接而非替代；二是 MCP 暴露的 <code>apply-semantic-layout</code> 工具通过 <code>sampling/createMessage</code> 反过来调宿主 LLM，让 Agent 在不直接看图的情况下「AI 增强布局」。换句话说，LikeC4 不和 SaaS 抢用户，而是让所有架构 SaaS 都愿意接入的「模型 + 视图标准」。这也是为什么 issue #2636「Claude/Agent skill」成为社区最热议题——项目正在从「给人看的架构图」扩展为「给 Agent 消费的架构上下文」，产品边界正在被重新定义。</p>
+
+<blockquote>
+<p>官网未发布独立技术博客；架构设计哲学散落在 AGENTS.md、docs 教程与 <code>packages/core/src/model/views/</code> 注释中。</p>
+</blockquote>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处</h3>
+
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse:collapse;border-color:#ddd;font-size:14px;">
+<thead>
+<tr><th>创新点</th><th>新颖度</th><th>实用性</th><th>可迁移性</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>三阶段 Model 流水线 + Phantom-Type Ledger</strong>：<code>Parsed/Computed/Layouted</code> 三套 <code>[$stage]</code> 品牌类型 + <code>Aux&lt;Stage,…&gt;</code> 辅助类型，把 DSL 字面量固化到 TS 类型系统</td><td>4/5</td><td>5/5</td><td>4/5</td></tr>
+<tr><td><strong>Predicate-driven views with Memory+Stage</strong>：视图求值建模为「显式集+隐式集+连接集+分组」累积状态机，<code>include cloud.backend.api</code> 自动拉入祖先 <code>cloud.backend</code></td><td>5/5</td><td>5/5</td><td>3/5</td></tr>
+<tr><td><strong>AI Layout Advisor（LLM → Graphviz hints → DOT）</strong>：把 AI 美化布局严格约束在 <code>AILayoutHints</code> 结构化 schema（ranks/edgeWeight/invisibleEdges 等）内，失败时静默回退</td><td>4/5</td><td>4/5</td><td>4/5</td></tr>
+<tr><td><strong>Graphviz 双适配器 + 队列化执行</strong>：<code>GraphvizPort</code> 接口抽象 + <code>GraphvizWasmAdapter</code>（每 20 次强制 unload 防内存泄漏）+ <code>GraphvizBinaryAdapter</code>（nano-spawn 调 dot/unflatten） + <code>QueueGraphvizLayoter</code>（<code>p-queue</code> + batch 防并行递归锁）</td><td>3/5</td><td>5/5</td><td>5/5</td></tr>
+<tr><td><strong>Sequence Layout 用 Cassowary 约束求解器 (@lume/kiwi)</strong>：行高/列间距/subflow 嵌套全部建模为 Strength 约束，而非手工布局循环</td><td>4/5</td><td>4/5</td><td>3/5</td></tr>
+<tr><td><strong>MCP-as-Model-API</strong>：模型完整暴露为 20+ zod-validated 工具，95% <code>readOnlyHint + idempotentHint</code>，唯一修改工具通过 snapshot + schema 校验限爆炸半径</td><td>4/5</td><td>5/5</td><td>5/5</td></tr>
+<tr><td><strong>Manual Layout Drift Detection</strong>：用户拖拽改坐标 + 模型重算的三向 merge（auto-apply style/icon；5px 阈值过滤坐标漂移；显式标记 added/removed）</td><td>3/5</td><td>5/5</td><td>4/5</td></tr>
+</tbody>
+</table>
+
+<h3>可复用的模式与技巧</h3>
+<ul>
+<li><strong>DSL → TypeScript Phantom-Type Bridge</strong>：<code>Types&lt;…&gt;</code> 累积字面量 + <code>Builder&lt;T&gt;</code> 链式返回 <code>Builder&lt;Out&gt;</code> + <code>BuilderMode</code> ('editable'/'strict')，任何「DSL 即代码」项目都能套（适用：GraphQL schema builder、AWS CDK、Terraform DSL）。</li>
+<li><strong>Predicate-driven view computation</strong>：policy-as-code 工具可以用同样模式做规则累积执行（适用：ArchUnit、Sentinel、OPA）。</li>
+<li><strong>AI-enhancement as structured hints + silent fallback</strong>：LLM 输出严格 schema 失败时静默回退到纯算法骨干（适用：SQL 查询计划、UI 自动着色、报表生成）。</li>
+<li><strong>Vite virtual module + birpc over HMR</strong>：<code>likec4:rpc</code> 命名空间 + dev 模式 RPC + 生产模式静态 JSON（适用：任何「编辑器 HMR ↔ 浏览器 SPA」需要双向同步的工具）。</li>
+<li><strong>MCP tool taxonomy (read-only hint vs mutation hint)</strong>：把领域 API 暴露给 Agent 时，95% 工具标 read-only，唯一修改工具走 snapshot + zod 校验（适用：数据库工具、CI 工具、文档工具）。</li>
+<li><strong>Layered pnpm monorepo with import direction rules</strong>：每个包 AGENTS.md 强制规定「imports flow upward only」（适用：任何需要长期维护的中大型 monorepo）。</li>
+</ul>
+
+<h3>关键设计决策</h3>
+<ul>
+<li><strong>「成熟组件 + 自有胶水」而非自研</strong>：Langium 提供 DSL 解析+作用域+补全+LSP scaffolding（1254 行 grammar）；Graphviz 负责节点图布局（DOT 作为 IR）；@lume/kiwi 做序列图约束求解；@xyflow/react 做交互渲染；自己不重写任何环节，只做适配层。</li>
+<li><strong>DSL 写回有意为之的有损化</strong>：<code>LikeC4.toDSL()</code> 明确不保留注释/位置/格式，把「load + patch + emit」作为合法工作流（外部事实源 → DSL），把「format」工作流明确排除——这是工程化的诚实。</li>
+<li><strong>三层 monorepo 硬约束</strong>：core → language-server → language-services → (likec4 | vite-plugin | mcp | vscode)，导入只能向上，diagram 与 likec4-spa 同样遵循。AGENTS.md 用大量篇幅规定导入方向防止新人踩坑。</li>
+<li><strong>Graphviz WASM 偶发内存泄漏的工程化应对</strong>：每 20 次操作强制 <code>Graphviz.unload()</code> 重启 + 失败重试 30ms 抖动；不是 fix 根源，而是把不稳定性变成可控的运维模式。</li>
+</ul>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse:collapse;border-color:#ddd;font-size:14px;">
+<thead>
+<tr><th>维度</th><th>LikeC4</th><th>Structurizr DSL</th><th>C4-PlantUML</th><th>Mermaid</th><th>IcePanel</th></tr>
+</thead>
+<tbody>
+<tr><td>模型/图定位</td><td>模型即事实源</td><td>模型即事实源</td><td>图模板</td><td>图模板</td><td>可视化模型</td></tr>
+<tr><td>IDE 集成</td><td>VSCode+JetBrains+Neovim</td><td>Lite 桌面/Web</td><td>仅图片渲染</td><td>仅图片渲染</td><td>Web SaaS</td></tr>
+<tr><td>视图谓词</td><td>✅ 完整 predicate 系统</td><td>✅ element/filtered</td><td>❌</td><td>❌</td><td>✅ 可视化筛选</td></tr>
+<tr><td>动态视图（sequence）</td><td>✅ + 自动布局</td><td>⚠️ DSL 表达力有限</td><td>✅ via PlantUML</td><td>✅ via sequenceDiagram</td><td>✅ 可视化</td></tr>
+<tr><td>LLM / Agent</td><td>✅ MCP 20+ 工具 + AI Layout</td><td>⚠️ 间接</td><td>❌</td><td>⚠️ 仅文本生成</td><td>❌</td></tr>
+<tr><td>自托管 / 开源</td><td>✅ MIT</td><td>✅ Apache</td><td>✅ MIT</td><td>✅ MIT</td><td>❌ 商业 SaaS</td></tr>
+<tr><td>实时渲染</td><td>✅ React Flow + HMR</td><td>⚠️ Structurizr Lite</td><td>❌</td><td>❌</td><td>✅</td></tr>
+<tr><td>协作模式</td><td>Git + VSCode</td><td>Git + SaaS</td><td>Git + 图片</td><td>Git + 图片</td><td>实时多人</td></tr>
+</tbody>
+</table>
+
+<h3>差异化护城河</h3>
+<ul>
+<li><strong>技术护城河</strong>：Langium + Graphviz + @lume/kiwi 三件套集成做得最深的 C4 工具（其他竞品要么只取其一再自己实现其余，要么干脆走 SaaS）。</li>
+<li><strong>生态护城河</strong>：VSCode/JetBrains/Neovim/MkDocs/CI/Docker/MCP/LeanIX/Draw.io 全覆盖；<code>packages/generators</code> 支持 Mermaid/PlantUML/D2/Draw.io 互转，可作为生态节点而非孤岛。</li>
+<li><strong>信任护城河</strong>：MIT + OpenCollective + 3.3 年 108 followers + 30 contributors + 191 个版本标签；top 贡献者占 64.5% 不算社区化，但「单人主导 + 稳定节奏 + 完整工具链」在 C4 工具里是最稳的。</li>
+</ul>
+
+<h3>竞争风险</h3>
+<ul>
+<li><strong>最可能被「LLM 直接画图」产品替代</strong>：ChatGPT/Claude 直接生成 draw.io/Excalidraw 的体验正在快速提升，LikeC4 的护城河在于「模型可被 Agent 反复查询修改」，如果 Agent 直接画图习惯固化，DSL-first 工作流会被绕过。</li>
+<li><strong>最可能被「GitHub 内置架构图工具」侵蚀低复杂度用户</strong>：Mermaid 已经在 GitHub README 原生渲染，LikeC4 的入门门槛（DSL 学习曲线）对「只想画一张图」的开发者仍然偏高。</li>
+</ul>
+
+<h3>生态定位</h3>
+<p>在整个技术生态中，LikeC4 扮演「代码化架构文档的事实源标准 + AI Agent 友好的模型 API」角色。它给人类架构师 DSL-first 工具（VSCode + 实时预览），也给 Agent 提供结构化模型查询/修改能力（MCP + LeanIX bridge）。在 Structurizr DSL（最接近的理念竞品）发展缓慢、Mermaid 只解决「画图」不解决「维护」的格局下，LikeC4 占据了「中等复杂度、需要长期维护、想用 LLM 协作的团队」这个明确生态位。</p>
+
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：4,400 stars + 191 版本 + 40 个月持续维护 + MCP 集成，Architecture-as-Code 细分领域内<strong>关注度严重低估</strong>——很多架构师只听过 C4 没听过 LikeC4，把它当 Structurizr Lite 替代品的认知是错误的（功能面其实更深）。</li>
+<li><strong>技术借鉴</strong>：<code>DSL → Phantom-Type Builder</code> 模式可移植到任何「DSL 即代码」场景；<code>Predicate + Memory + Stage</code> 状态机可移植到 policy-as-code；<code>AI hints + 静默回退</code> 范式可移植到所有「传统算法骨干 + LLM 微调」场景。</li>
+<li><strong>生态位</strong>：填补了「C4 + AI Agent + 自托管 + 现代 IDE」四象限空白；和 Structurizr（缺现代 IDE+Agent）、IcePanel（缺自托管+DSL）、Mermaid（缺架构语义）的错位都很明显。</li>
+<li><strong>趋势判断</strong>：① 增长中：v1.59.x 发版频率（每月 2.5 个正式 Release）持续；② 符合 LLM-Agent 化趋势：MCP 是 2025-2026 年最热门的 Agent 接入协议；③ 比 Structurizr 有后发优势：现代 TS/React/Langium 技术栈的边际成本远低于维护 10+ 年历史的 Java/Lite 客户端。</li>
+</ul>
+
+<h2>风险与不足</h2>
+<ul>
+<li><strong>单人主导风险</strong>：Top 贡献者占 64.5%，社区参与度虽存在但深度依赖作者；<code>davydkov</code> 一旦退出节奏会受影响。</li>
+<li><strong>业余 Side Project 的可持续性</strong>：深夜提交占 49.0%，作者全职工作之外的精力能否再支撑 3+ 年是个未知数。</li>
+<li><strong>Phantom-Type 体系的 onboarding 成本</strong>：AGENTS.md 专门有「Builder type-loss when loading from runtime data」一节解释，新人理解三阶段品牌类型 + Builder 链式 + <code>Aux</code> 辅助类型需要 1-2 周。</li>
+<li><strong>Graphviz 自动布局在高密度视图下仍然糟糕</strong>（issue #1624）：AI Layout Advisor 是缓解而非根治，对几百个节点的单视图仍需手工拆分。</li>
+<li><strong>DSL 写回的有损性</strong>：注释/位置/格式不保留，限制了「DSL 即开发语言」的可能（VSCode 保存时不能格式化）。</li>
+<li><strong>Zread.ai 收录不可用</strong>（Cloudflare 403），学习者多走 DeepWiki；外部深度分析文章稀缺，SEO/内容生态还需要作者本人补。</li>
+</ul>
+
+<h2>行动建议</h2>
+<ul>
+<li><strong>如果你要用它</strong>：选 LikeC4 当你的（1）团队需要长期维护的架构文档、（2）想用 LLM Agent 查询/修改架构、（3）拒绝 SaaS 锁定、坚持 GitOps 中任一条满足时。简单的「画一张 C4 图」请直接用 Mermaid。</li>
+<li><strong>如果你要学它</strong>：必读文件 <code>packages/core/src/model/views/</code>（<code>memory.ts</code> + 6 个 stage + 8 个 predicate，理解视图谓词的状态机本质）+ <code>packages/language-server/src/like-c4.langium</code>（1254 行 grammar，看 Langium 怎么把解析+作用域+LSP 串起来）+ <code>packages/layouts/src/sequence/layouter.ts</code>（891 行看 @lume/kiwi 约束求解的实际用法）+ <code>packages/mcp/</code>（20+ zod 工具的设计范式）。</li>
+<li><strong>如果你要 fork 它</strong>：可改进方向——（1）补全 Zread/官方独立博客降低学习门槛；（2）开放 Builder 类型的简化模式（'strict' vs 'editable' 之外加 'loose'）；（3）增加 Graphviz 之外的 layout 后端（如 dagre/elk）；（4）把 AI Layout Advisor 从「实验性」升级到「默认开启」并把失败回退做成可观察事件。</li>
+</ul>
+
+<h3>知识入口</h3>
+
+<table border="1" cellspacing="0" cellpadding="6" style="border-collapse:collapse;border-color:#ddd;font-size:14px;">
+<tbody>
+<tr><td>DeepWiki</td><td><a href="https://deepwiki.com/likec4/likec4">https://deepwiki.com/likec4/likec4</a></td></tr>
+<tr><td>Zread.ai</td><td>未收录（Cloudflare 403）</td></tr>
+<tr><td>关联论文</td><td>无</td></tr>
+<tr><td>在线 Demo</td><td><a href="https://playground.likec4.dev/w/tutorial/">https://playground.likec4.dev/w/tutorial/</a></td></tr>
+<tr><td>空白 Playground</td><td><a href="https://playground.likec4.dev/w/blank/">https://playground.likec4.dev/w/blank/</a></td></tr>
+<tr><td>官方文档</td><td><a href="https://likec4.dev/docs">https://likec4.dev/docs</a></td></tr>
+<tr><td>Agent Skill</td><td><code>skills/likec4-dsl/SKILL.md</code>（仓库内 17 个 references）</td></tr>
+</tbody>
+</table>
+
+</body>
+</html>

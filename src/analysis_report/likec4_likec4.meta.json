@@ -1,0 +1,6 @@
+{
+  "title": "4400 stars、191 版本：LikeC4 把架构图变成 AI Agent 可直接消费的 API",
+  "digest": "LikeC4 用自有 .c4 DSL 把架构描述成模型而非图，CLI/VSCode/JetBrains/SPA/MCP 全栈派生同一份模型；自带 MCP 暴露 20+ 工具，让 Agent 像查询数据库一样读写架构。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

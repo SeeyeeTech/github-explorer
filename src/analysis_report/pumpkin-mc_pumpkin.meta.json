@@ -1,0 +1,6 @@
+{
+  "title": "9.3K stars 的 Rust Minecraft 服务器：Pumpkin 的 DAG 调度与 WASM 插件野心",
+  "digest": "Rust 完整重写 MC 服务器（Java+Bedrock 双协议），自研 DAG chunk 调度 + 跨线程 MPMC 通道把 5ms 启动 / 100MB 内存当基线，WIT 契约探索跨语言插件生态。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

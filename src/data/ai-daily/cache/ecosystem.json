@@ -1,57 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-07-23",
+    "last_run": "2026-07-24",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/anthropics/claude-plugins-official",
-      "canonical_url": "https://github.com/anthropics/claude-plugins-official",
-      "event_date": "2026-06-23",
-      "date_seen": "2026-06-23"
-    },
-    {
-      "key": "github.com/shanraisshan/claude-code-best-practice",
-      "canonical_url": "https://github.com/shanraisshan/claude-code-best-practice",
-      "event_date": "2026-06-23",
-      "date_seen": "2026-06-23"
-    },
-    {
-      "key": "github.com/revfactory/harness",
-      "canonical_url": "https://github.com/revfactory/harness",
-      "event_date": "2026-06-23",
-      "date_seen": "2026-06-23"
-    },
-    {
-      "key": "github.com/affaan-m/ecc",
-      "canonical_url": "https://github.com/affaan-m/ECC",
-      "event_date": "2026-06-23",
-      "date_seen": "2026-06-23"
-    },
-    {
-      "key": "https://seeyeetech.com/github-explorer/reports/affaan-m_everything-claude-code",
-      "canonical_url": "https://seeyeetech.com/github-explorer/reports/affaan-m_everything-claude-code/",
-      "event_date": "2026-06-23",
-      "date_seen": "2026-06-23"
-    },
-    {
-      "key": "https://seeyeetech.com/github-explorer/reports/anthropics_skills",
-      "canonical_url": "https://seeyeetech.com/github-explorer/reports/anthropics_skills/",
-      "event_date": "2026-06-23",
-      "date_seen": "2026-06-23"
-    },
-    {
-      "key": "https://seeyeetech.com/github-explorer/reports/modelcontextprotocol_servers",
-      "canonical_url": "https://seeyeetech.com/github-explorer/reports/modelcontextprotocol_servers/",
-      "event_date": "2026-06-23",
-      "date_seen": "2026-06-23"
-    },
-    {
-      "key": "https://seeyeetech.com/github-explorer/reports/github_spec-kit",
-      "canonical_url": "https://seeyeetech.com/github-explorer/reports/github_spec-kit/",
-      "event_date": "2026-06-23",
-      "date_seen": "2026-06-23"
-    },
     {
       "key": "github.com/google-labs-code/design.md",
       "canonical_url": "https://github.com/google-labs-code/design.md",
@@ -1017,6 +969,24 @@
       "canonical_url": "https://github.com/earthtojake/text-to-cad",
       "event_date": "2026-07-23",
       "date_seen": "2026-07-23"
+    },
+    {
+      "key": "github.com/corebunch/instatic",
+      "canonical_url": "https://github.com/CoreBunch/Instatic",
+      "event_date": "2026-07-24",
+      "date_seen": "2026-07-24"
+    },
+    {
+      "key": "github.com/lordog/dive-into-llms",
+      "canonical_url": "https://github.com/Lordog/dive-into-llms",
+      "event_date": "2026-07-24",
+      "date_seen": "2026-07-24"
+    },
+    {
+      "key": "github.com/sunblaze-ucb/exploitgym",
+      "canonical_url": "https://github.com/sunblaze-ucb/exploitgym",
+      "event_date": "2026-07-24",
+      "date_seen": "2026-07-24"
     }
   ]
 }

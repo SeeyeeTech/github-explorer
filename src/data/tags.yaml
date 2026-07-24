@@ -63,6 +63,10 @@ entries:
   afkarxyz_spotiflac:
   - devtools
   - video-audio
+  agegr_pi-web:
+  - ai-agent
+  - web-framework
+  - protocol-spec
   agentscope-ai_agentscope:
   - ai-agent
   - llm-framework
@@ -250,6 +254,10 @@ entries:
   - security
   axorax_awesome-free-apps:
   - workflow-automation
+  ayghri_i-have-adhd:
+  - ai-agent
+  - ai-coding
+  - devtools
   badlogic_pi-mono:
   - ai-agent
   - ai-coding

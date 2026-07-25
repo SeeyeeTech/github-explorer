@@ -1,0 +1,6 @@
+{
+  "title": "GitHub推荐：15K Stars 的 aisuite：一行切模型，能否上生产",
+  "digest": "aisuite 用统一 API 和 provider:model 约定实现一行切换多家模型，并延伸到工具、MCP 与 Agent 治理；轻量易学，但生产韧性仍需应用层补齐。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

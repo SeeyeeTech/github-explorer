@@ -1745,6 +1745,8 @@ entries:
   - editor-kms
   pulldown-cmark_pulldown-cmark:
   - uncategorized
+  pumpkin-mc_pumpkin:
+  - protocol-spec
   pydantic_monty:
   - ai-agent
   - security

@@ -3,11 +3,11 @@
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "language": "Shell",
-    "stars": 252135,
-    "forks": 22509,
+    "stars": 260797,
+    "forks": 23267,
     "description": "An agentic skills framework & software development methodology that works.",
-    "last_seen": "2026-07-11",
-    "trending_days": 71
+    "last_seen": "2026-07-25",
+    "trending_days": 72
   },
   {
     "name": "TapXWorld/ChinaTextbook",
@@ -170,6 +170,16 @@
     "trending_days": 23
   },
   {
+    "name": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "language": "Shell",
+    "stars": 187585,
+    "forks": 16106,
+    "description": "Skills for Real Engineers. Straight from my .agents directory.",
+    "last_seen": "2026-07-25",
+    "trending_days": 22
+  },
+  {
     "name": "milvus-io/milvus",
     "url": "https://github.com/milvus-io/milvus",
     "language": "Go",
@@ -240,16 +250,6 @@
     "trending_days": 22
   },
   {
-    "name": "mattpocock/skills",
-    "url": "https://github.com/mattpocock/skills",
-    "language": "Shell",
-    "stars": 185931,
-    "forks": 15958,
-    "description": "Skills for Real Engineers. Straight from my .agents directory.",
-    "last_seen": "2026-07-24",
-    "trending_days": 21
-  },
-  {
     "name": "GibsonAI/Memori",
     "url": "https://github.com/gibsonai/memori",
     "language": "Python",
@@ -303,11 +303,11 @@
     "name": "shiyu-coder/Kronos",
     "url": "https://github.com/shiyu-coder/kronos",
     "language": "Python",
-    "stars": 33341,
-    "forks": 5666,
+    "stars": 33646,
+    "forks": 5689,
     "description": "Kronos: A Foundation Model for the Language of Financial Markets",
-    "last_seen": "2026-07-24",
-    "trending_days": 17
+    "last_seen": "2026-07-25",
+    "trending_days": 18
   },
   {
     "name": "abhigyanpatwari/GitNexus",
@@ -357,6 +357,16 @@
     "forks": 7008,
     "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
     "last_seen": "2026-03-09",
+    "trending_days": 14
+  },
+  {
+    "name": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ecc",
+    "language": "JavaScript",
+    "stars": 233072,
+    "forks": 35525,
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "last_seen": "2026-07-25",
     "trending_days": 14
   },
   {
@@ -420,13 +430,13 @@
     "trending_days": 14
   },
   {
-    "name": "affaan-m/ECC",
-    "url": "https://github.com/affaan-m/ecc",
-    "language": "JavaScript",
-    "stars": 224901,
-    "forks": 34422,
-    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "last_seen": "2026-07-02",
+    "name": "anthropics/claude-cookbooks",
+    "url": "https://github.com/anthropics/claude-cookbooks",
+    "language": "JupyterNotebook",
+    "stars": 49680,
+    "forks": 5888,
+    "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+    "last_seen": "2026-07-25",
     "trending_days": 13
   },
   {
@@ -478,16 +488,6 @@
     "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
     "last_seen": "2026-07-05",
     "trending_days": 13
-  },
-  {
-    "name": "anthropics/claude-cookbooks",
-    "url": "https://github.com/anthropics/claude-cookbooks",
-    "language": "JupyterNotebook",
-    "stars": 48127,
-    "forks": 5700,
-    "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
-    "last_seen": "2026-07-12",
-    "trending_days": 12
   },
   {
     "name": "anthropics/claude-plugins-official",
@@ -1190,6 +1190,16 @@
     "trending_days": 8
   },
   {
+    "name": "Lordog/dive-into-llms",
+    "url": "https://github.com/lordog/dive-into-llms",
+    "language": "JupyterNotebook",
+    "stars": 45230,
+    "forks": 5406,
+    "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+    "last_seen": "2026-07-25",
+    "trending_days": 8
+  },
+  {
     "name": "Lum1104/Understand-Anything",
     "url": "https://github.com/lum1104/understand-anything",
     "language": "TypeScript",
@@ -1377,16 +1387,6 @@
     "forks": 1929,
     "description": "An evolving how-to guide for securing a Linux server.",
     "last_seen": "2026-07-09",
-    "trending_days": 7
-  },
-  {
-    "name": "Lordog/dive-into-llms",
-    "url": "https://github.com/lordog/dive-into-llms",
-    "language": "JupyterNotebook",
-    "stars": 44839,
-    "forks": 5375,
-    "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
-    "last_seen": "2026-07-24",
     "trending_days": 7
   },
   {
@@ -1617,6 +1617,16 @@
     "forks": 2744,
     "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
     "last_seen": "2026-04-13",
+    "trending_days": 6
+  },
+  {
+    "name": "ComposioHQ/awesome-claude-skills",
+    "url": "https://github.com/composiohq/awesome-claude-skills",
+    "language": "Python",
+    "stars": 70331,
+    "forks": 7924,
+    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+    "last_seen": "2026-07-25",
     "trending_days": 6
   },
   {
@@ -1910,6 +1920,16 @@
     "trending_days": 6
   },
   {
+    "name": "palmier-io/palmier-pro",
+    "url": "https://github.com/palmier-io/palmier-pro",
+    "language": "Swift",
+    "stars": 12002,
+    "forks": 887,
+    "description": "macOS video editor built for AI",
+    "last_seen": "2026-07-25",
+    "trending_days": 6
+  },
+  {
     "name": "Panniantong/Agent-Reach",
     "url": "https://github.com/panniantong/agent-reach",
     "language": "Python",
@@ -2187,16 +2207,6 @@
     "forks": 7692,
     "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
     "last_seen": "2026-06-17",
-    "trending_days": 5
-  },
-  {
-    "name": "ComposioHQ/awesome-claude-skills",
-    "url": "https://github.com/composiohq/awesome-claude-skills",
-    "language": "Python",
-    "stars": 69784,
-    "forks": 7873,
-    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-    "last_seen": "2026-07-24",
     "trending_days": 5
   },
   {
@@ -2490,16 +2500,6 @@
     "trending_days": 5
   },
   {
-    "name": "palmier-io/palmier-pro",
-    "url": "https://github.com/palmier-io/palmier-pro",
-    "language": "Swift",
-    "stars": 8213,
-    "forks": 538,
-    "description": "macOS video editor built for AI",
-    "last_seen": "2026-06-23",
-    "trending_days": 5
-  },
-  {
     "name": "pascalorg/editor",
     "url": "https://github.com/pascalorg/editor",
     "language": "TypeScript",
@@ -2567,6 +2567,16 @@
     "forks": 1066,
     "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
     "last_seen": "2026-04-12",
+    "trending_days": 5
+  },
+  {
+    "name": "RyanCodrai/turbovec",
+    "url": "https://github.com/ryancodrai/turbovec",
+    "language": "Python",
+    "stars": 14148,
+    "forks": 1264,
+    "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+    "last_seen": "2026-07-25",
     "trending_days": 5
   },
   {
@@ -3420,6 +3430,16 @@
     "trending_days": 4
   },
   {
+    "name": "Pumpkin-MC/Pumpkin",
+    "url": "https://github.com/pumpkin-mc/pumpkin",
+    "language": "Rust",
+    "stars": 9499,
+    "forks": 638,
+    "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+    "last_seen": "2026-07-25",
+    "trending_days": 4
+  },
+  {
     "name": "Robbyant/lingbot-map",
     "url": "https://github.com/robbyant/lingbot-map",
     "language": "Python",
@@ -3447,16 +3467,6 @@
     "forks": 189,
     "description": "RuVector is a High Performance, Real-Time, Self-Learning, Vector Graph Neural Network, and Database built in Rust.",
     "last_seen": "2026-02-27",
-    "trending_days": 4
-  },
-  {
-    "name": "RyanCodrai/turbovec",
-    "url": "https://github.com/ryancodrai/turbovec",
-    "language": "Python",
-    "stars": 13166,
-    "forks": 1165,
-    "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
-    "last_seen": "2026-07-17",
     "trending_days": 4
   },
   {
@@ -3720,6 +3730,16 @@
     "trending_days": 3
   },
   {
+    "name": "andrewyng/aisuite",
+    "url": "https://github.com/andrewyng/aisuite",
+    "language": "Python",
+    "stars": 15126,
+    "forks": 1609,
+    "description": "Simple, unified interface to multiple Generative AI providers",
+    "last_seen": "2026-07-25",
+    "trending_days": 3
+  },
+  {
     "name": "Anil-matcha/Open-Generative-AI",
     "url": "https://github.com/anil-matcha/open-generative-ai",
     "language": "JavaScript",
@@ -3747,6 +3767,16 @@
     "forks": 2416,
     "description": "Audio Editor",
     "last_seen": "2025-10-07",
+    "trending_days": 3
+  },
+  {
+    "name": "Automattic/harper",
+    "url": "https://github.com/automattic/harper",
+    "language": "Rust",
+    "stars": 13208,
+    "forks": 493,
+    "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+    "last_seen": "2026-07-25",
     "trending_days": 3
   },
   {
@@ -3790,6 +3820,16 @@
     "trending_days": 3
   },
   {
+    "name": "block/buzz",
+    "url": "https://github.com/block/buzz",
+    "language": "Rust",
+    "stars": 10917,
+    "forks": 848,
+    "description": "A hive mind communication platform",
+    "last_seen": "2026-07-25",
+    "trending_days": 3
+  },
+  {
     "name": "browser-use/browser-use",
     "url": "https://github.com/browser-use/browser-use",
     "language": "Python",
@@ -3830,6 +3870,16 @@
     "trending_days": 3
   },
   {
+    "name": "citrolabs/ego-lite",
+    "url": "https://github.com/citrolabs/ego-lite",
+    "language": "JavaScript",
+    "stars": 3104,
+    "forks": 150,
+    "description": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+    "last_seen": "2026-07-25",
+    "trending_days": 3
+  },
+  {
     "name": "clash-verge-rev/clash-verge-rev",
     "url": "https://github.com/clash-verge-rev/clash-verge-rev",
     "language": "TypeScript",
@@ -3857,6 +3907,16 @@
     "forks": 445,
     "description": "Generate code from the terminal!",
     "last_seen": "2026-03-05",
+    "trending_days": 3
+  },
+  {
+    "name": "CoreBunch/Instatic",
+    "url": "https://github.com/corebunch/instatic",
+    "language": "TypeScript",
+    "stars": 4469,
+    "forks": 420,
+    "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
+    "last_seen": "2026-07-25",
     "trending_days": 3
   },
   {
@@ -4660,16 +4720,6 @@
     "trending_days": 3
   },
   {
-    "name": "Pumpkin-MC/Pumpkin",
-    "url": "https://github.com/pumpkin-mc/pumpkin",
-    "language": "Rust",
-    "stars": 9160,
-    "forks": 622,
-    "description": "Empowering everyone to host fast and efficient Minecraft servers.",
-    "last_seen": "2026-07-24",
-    "trending_days": 3
-  },
-  {
     "name": "python/cpython",
     "url": "https://github.com/python/cpython",
     "language": "Python",
@@ -5170,6 +5220,16 @@
     "trending_days": 2
   },
   {
+    "name": "alibaba/open-code-review",
+    "url": "https://github.com/alibaba/open-code-review",
+    "language": "Go",
+    "stars": 12578,
+    "forks": 857,
+    "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "last_seen": "2026-07-25",
+    "trending_days": 2
+  },
+  {
     "name": "allenai/olmocr",
     "url": "https://github.com/allenai/olmocr",
     "language": "Python",
@@ -5187,16 +5247,6 @@
     "forks": 556,
     "description": "A Download Manager that speeds up your downloads",
     "last_seen": "2025-10-05",
-    "trending_days": 2
-  },
-  {
-    "name": "andrewyng/aisuite",
-    "url": "https://github.com/andrewyng/aisuite",
-    "language": "Python",
-    "stars": 14271,
-    "forks": 1493,
-    "description": "Simple, unified interface to multiple Generative AI providers",
-    "last_seen": "2026-06-14",
     "trending_days": 2
   },
   {
@@ -5330,16 +5380,6 @@
     "trending_days": 2
   },
   {
-    "name": "Automattic/harper",
-    "url": "https://github.com/automattic/harper",
-    "language": "Rust",
-    "stars": 12719,
-    "forks": 471,
-    "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
-    "last_seen": "2026-07-24",
-    "trending_days": 2
-  },
-  {
     "name": "automazeio/ccpm",
     "url": "https://github.com/automazeio/ccpm",
     "language": "Shell",
@@ -5427,16 +5467,6 @@
     "forks": 410,
     "description": "MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.",
     "last_seen": "2026-04-05",
-    "trending_days": 2
-  },
-  {
-    "name": "block/buzz",
-    "url": "https://github.com/block/buzz",
-    "language": "Rust",
-    "stars": 8514,
-    "forks": 656,
-    "description": "A hive mind communication platform",
-    "last_seen": "2026-07-24",
     "trending_days": 2
   },
   {
@@ -5540,16 +5570,6 @@
     "trending_days": 2
   },
   {
-    "name": "citrolabs/ego-lite",
-    "url": "https://github.com/citrolabs/ego-lite",
-    "language": "JavaScript",
-    "stars": 2145,
-    "forks": 108,
-    "description": "The best browser for both you and your AI agents work in parallel.",
-    "last_seen": "2026-07-24",
-    "trending_days": 2
-  },
-  {
     "name": "cloudflare/vibesdk",
     "url": "https://github.com/cloudflare/vibesdk",
     "language": "TypeScript",
@@ -5587,16 +5607,6 @@
     "forks": 1268,
     "description": "Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.",
     "last_seen": "2026-07-05",
-    "trending_days": 2
-  },
-  {
-    "name": "CoreBunch/Instatic",
-    "url": "https://github.com/corebunch/instatic",
-    "language": "TypeScript",
-    "stars": 4060,
-    "forks": 387,
-    "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
-    "last_seen": "2026-07-24",
     "trending_days": 2
   },
   {
@@ -6920,6 +6930,16 @@
     "trending_days": 2
   },
   {
+    "name": "OtterMind/Chat2DB",
+    "url": "https://github.com/ottermind/chat2db",
+    "language": "Java",
+    "stars": 26495,
+    "forks": 2891,
+    "description": "🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
+    "last_seen": "2026-07-25",
+    "trending_days": 2
+  },
+  {
     "name": "owainlewis/awesome-artificial-intelligence",
     "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
     "language": "Unknown",
@@ -7727,16 +7747,6 @@
     "forks": 820,
     "description": "General plug-and-play inference library for Recursive Language Models (RLMs), supporting various sandboxes.",
     "last_seen": "2026-06-17",
-    "trending_days": 1
-  },
-  {
-    "name": "alibaba/open-code-review",
-    "url": "https://github.com/alibaba/open-code-review",
-    "language": "Go",
-    "stars": 11110,
-    "forks": 772,
-    "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-    "last_seen": "2026-07-23",
     "trending_days": 1
   },
   {
@@ -10220,16 +10230,6 @@
     "trending_days": 1
   },
   {
-    "name": "OtterMind/Chat2DB",
-    "url": "https://github.com/ottermind/chat2db",
-    "language": "Java",
-    "stars": 26150,
-    "forks": 2874,
-    "description": "🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
-    "last_seen": "2026-07-24",
-    "trending_days": 1
-  },
-  {
     "name": "p2r3/convert",
     "url": "https://github.com/p2r3/convert",
     "language": "TypeScript",
@@ -10267,6 +10267,16 @@
     "forks": 1087,
     "description": "The Parity Polkadot Blockchain SDK",
     "last_seen": "2025-12-06",
+    "trending_days": 1
+  },
+  {
+    "name": "permissionlesstech/bitchat",
+    "url": "https://github.com/permissionlesstech/bitchat",
+    "language": "Swift",
+    "stars": 28052,
+    "forks": 3949,
+    "description": "bluetooth mesh chat, IRC vibes",
+    "last_seen": "2026-07-25",
     "trending_days": 1
   },
   {

@@ -261,3 +261,4 @@
 {"recorded_at": "2026-07-26T00:04:38.644290+00:00", "slug": "block_buzz", "title": null, "state": "published", "published_at": "2026-07-26", "reason": "自动生成", "ci_run_id": "30180142593"}
 {"recorded_at": "2026-07-26T02:05:46.915072+00:00", "slug": "corebunch_instatic", "title": null, "state": "published", "published_at": "2026-07-26", "reason": "自动生成", "ci_run_id": "30183522051"}
 {"recorded_at": "2026-07-26T05:47:02.366165+00:00", "slug": "citrolabs_ego-lite", "title": null, "state": "published", "published_at": "2026-07-26", "reason": "自动生成", "ci_run_id": "30189250502"}
+{"recorded_at": "2026-07-26T23:05:22.188063+00:00", "slug": "nodejs_node", "title": null, "state": "published", "published_at": "2026-07-26", "reason": "自动生成", "ci_run_id": "30223933781"}

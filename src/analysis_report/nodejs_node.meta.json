@@ -1,0 +1,6 @@
+{
+  "title": "17.5 年 118K stars：Node.js 凭什么仍是 JS 生态事实标准",
+  "digest": "Node.js 17.5 年累计 47,543 次提交，靠 Current/LTS 双轨、N-API 稳定 ABI 与 libuv 统一抽象维持生态兼容，是 JS 生态不可替代的基础设施。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

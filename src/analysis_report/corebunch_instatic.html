@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+img { max-width: 100% !important; height: auto !important; }
+a { color: #576b95 !important; text-decoration: none !important; }
+table { word-break: break-word; }
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/corebunch/instatic">https://github.com/corebunch/instatic</a></p></blockquote>
+<h2>一句话总结</h2>
+<p>Instatic 是一款 MIT 协议、自托管、可视化编辑、原子发布为纯静态 HTML 的现代 CMS，单个 Bun 进程吃下编辑器 / 内容引擎 / 媒体 / 鉴权 / 表单 / 插件 / MCP / AI，把 Webflow 式的可视化生产力与「数据 + 产物 100% 归用户」打包在一起。</p>
+<h2>值得关注的理由</h2>
+<ul><li><strong>稀缺定位：</strong>「可视化编辑 + 静态发布 + 自托管 + MCP/AI 原生」四要素同时成立的产品几乎空缺；Strapi/Payload 是动态 headless，Tina 强 Git 绑定，Builder.io 强商业锁定，WordPress 自带历史包袱。</li><li><strong>作者经验真实可验证：</strong> 主导者是 WordPress 圈 Core Framework / Motion.page 创始人 DavidBabinec，1080 commits / 99.1% 自有贡献、13 个语义化版本，闭环率极高的工程治理证明这不是「套壳 demo」。</li><li><strong>架构纪律感强：</strong> 约 81 个 architecture tests 把依赖方向、安全规则、禁用模式写成可执行契约，非常适合 Agent 协作开发与高频重构；快速迭代下仍能保持「从 SQL 到底层都是一类抽象」的整洁。</li></ul>
+<h2>项目展示</h2>
+<p><img src="https://instatic.com/uploads/mjbd7VIrxODSNo1N-rpkj-hero-editor.webp" alt="Hero 编辑器主视觉" style="max-width:100%;height:auto;display:block;margin:12px auto;"/> — 官方 hero 主视觉，编辑器主屏</p>
+<p><img src="https://raw.githubusercontent.com/corebunch/instatic/main/docs/assets/readme/design-framework.webp" alt="Core Framework 设计 token 流体排版" style="max-width:100%;height:auto;display:block;margin:12px auto;"/> — Design 支柱：颜色 / 排版 / 间距 token 化，改一个 token 全站生效</p>
+<p><img src="https://raw.githubusercontent.com/corebunch/instatic/main/docs/assets/readme/build-components.webp" alt="Visual Components 类型化参数编辑" style="max-width:100%;height:auto;display:block;margin:12px auto;"/> — Build 支柱：可视化组件的参数化编辑面板</p>
+<p><img src="https://raw.githubusercontent.com/corebunch/instatic/main/docs/assets/readme/manage-media.webp" alt="Media workspace 文件管理器" style="max-width:100%;height:auto;display:block;margin:12px auto;"/> — Manage 支柱：内建媒体工作区</p>
+<p><img src="https://raw.githubusercontent.com/corebunch/instatic/main/docs/assets/readme/analyze-dashboard.webp" alt="Dashboard 12 栅格可定制" style="max-width:100%;height:auto;display:block;margin:12px auto;"/> — Analyze 支柱：可视化 Dashboard</p>
+<p><img src="https://raw.githubusercontent.com/corebunch/instatic/main/docs/assets/readme/railway-deploy.gif" alt="Railway 一键部署动图" style="max-width:100%;height:auto;display:block;margin:12px auto;"/> — Railway 一键部署 Demo</p>
+<p><a href="https://www.youtube.com/watch?v=zyjCF_TaLlg">Interface tour video</a> — 编辑器完整导览视频</p>
+<h2>项目画像</h2>
+<table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:14px;"><thead><tr><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">维度</th><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">数据</th></tr></thead><tbody><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">GitHub</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;"><a href="https://github.com/corebunch/instatic">https://github.com/corebunch/instatic</a></td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Star / Fork</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">5,102 / 481</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Watcher</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">42</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">代码行数</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">335,040（TypeScript 63.3% / TSX 29.4% / CSS 6.7%，不计空行/注释）</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">文件数量</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">3,073</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">依赖数量</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">74（运行时 44 + 开发依赖 30，来源 package.json）</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">项目年龄</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">2.8 个月（首次提交 2026-04-30）</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">总 commits</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">1,080</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">贡献者</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">11 人（主作者 DavidBabinec 占 99.1%）</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">开发阶段</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">密集开发（近 30 天仍有 99 次 commit）</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">贡献模式</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">独立开发（DavidBabinec 主导）</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">热度定位</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">大众热门（短期爆款型，2.8 月 5K star）</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">质量评级</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">代码优秀 / 文档优秀 / 测试充分</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">License</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">MIT</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">最新版本</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">v0.0.13（共 13 个 tag，语义化版本）</td></tr></tbody></table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>corebunch 是 GitHub Organization，背后的实体 DavidBabinec 单人主导。同主体还运营 <strong>Core Framework</strong>（WordPress 圈知名的 CSS 设计系统框架）和 <strong>Motion.page</strong>（可视化动画 / 微交互编辑器），是真实存在的商业品牌方。账号 1.4 年龄、3 个公开仓库，但 Instatic 是其中唯一持续活跃的主仓库——意味着团队把它当作战略重心。</p>
+<h3>问题判断</h3>
+<p>Instatic 不是抽象市场调研驱动的题目，而是<strong>长期 dogfooding</strong> 的结果。DavidBabinec 与 corebunch 团队长期为 WordPress 用户解决设计系统、视觉动画、编辑体验问题，亲历了 WordPress 可扩展性的价值，也亲历了历史标记、插件信任、平台商业模式带来的摩擦。README 的动机表述很直接：「We spent years making other people's platforms bearable. Then we built the one we wanted underneath」。</p>
+<p>时机判断同样清晰：2024–2026 年正是 AI Agent / MCP 协议进入大众视野、headless CMS 与 SSG 范式被广泛接受、Webflow/Wix 锁定焦虑被反复曝光的窗口期。一个把「自托管 + 静态可移植 + AI/MCP 原生」当作一等公民而非后加补丁的 CMS，在此刻切入有显著的红利。</p>
+<h3>解法哲学</h3>
+<p>核心价值观是<strong>所有权优先、静态优先、显式信任、少而完整</strong>。具体选择包括：</p>
+<ul><li>单 Bun 进程自托管，<strong>不</strong>把自己定位为多租户 SaaS；</li><li>发布时生成干净 HTML/CSS，<strong>不</strong>让 React / 编辑器属性 / 厂商 runtime 上线，动态部分才降级为服务端洞（server islands）；</li><li>SQLite 默认 / Postgres 可切换，<strong>不</strong>强迫小站部署外部数据库，也不把成长路径锁死在 SQLite；</li><li><strong>TypeBox 单一事实源</strong>贯穿 HTTP / 持久化 / 插件 manifest / AI tools / MCP，明确禁用 Zod 与模型厂商 SDK；</li><li>QuickJS-WASM 沙箱 + 显式声明 capability，<strong>不</strong>默认信任插件；同时诚实区分 editor.code 这种无法沙箱化的高危浏览器代码；</li><li>pre-1.0 主动破坏内部 API，<strong>不</strong>堆兼容层；唯一明确保守的边界是数据库迁移必须增量、不可破坏。</li></ul>
+<h3>战略意图</h3>
+<p>Instatic 很可能是 corebunch 从「依附 WordPress 的增强工具」升级为「拥有完整建站底座」的战略核心。Core Framework 被内建降低既有用户迁移成本；Motion.page 积累的设计师 / 代理商关系提供早期分发渠道。MIT + 无订阅 + 自托管表明当前<strong>不</strong>靠代码授权制造锁定，但商业意图并非不存在：Railway 推荐部署带 referral 参数、品牌官网、托管协助、模板 / 插件生态、培训或专业服务都是潜在承载。更长期看，是把 Instatic 做成「网站的本地优先操作系统」：人通过画布编辑，Agent 通过 MCP 编辑，插件通过受限 SDK 扩展，最后都收敛到可移植静态产物。Issue #262 对桌面应用的诉求正与这个方向相容。</p>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<ol><li><strong>自动静态/动态分层发布器</strong> —— 不要求作者理解 SSG/SSR/islands，而是从模块元数据、binding、loop source、递归视觉组件中自动找出请求时节点；静态 shell 原子发布，动态片段由 ~1.1 KB IntersectionObserver runtime 延迟加载。<strong>判定、诊断、hole 发射共用一个 walker</strong>，规则一致性强。</li></ol>
+<ul><li>新颖度 5/5 · 实用性 5/5 · 可迁移性 4/5</li></ul>
+<ol><li><strong>两槽 symlink 原子发布 + 版本化 live fallback</strong> —— 完整发布在 inactive slot 构建所有页面和 hash assets，再通过 symlink rename 单 inode 切换；增量发布用 tmp + rename 单文件；读取端处理 APFS 瞬态错误并可退回 Layer B，避免「发布一半」状态。</li></ol>
+<ul><li>新颖度 4/5 · 实用性 5/5 · 可迁移性 5/5</li></ul>
+<ol><li><strong>可视化编辑器、插件与 Agent 共用树操作协议</strong> —— 扁平 NodeTree 与 tree-agnostic mutations 同时承载画布动作、patch undo、插件 RPC 与 AI/MCP 工具；AI 产物是可继续编辑、撤销、发布的真实节点，而非另一个代码生成旁路。</li></ol>
+<ul><li>新颖度 4/5 · 实用性 5/5 · 可迁移性 5/5</li></ul>
+<ol><li><strong>QuickJS-in-Worker 的插件双隔离模型</strong> —— QuickJS 隔离 ambient authority，Bun Worker 隔离崩溃与阻塞；网络层加入 allowlist、DNS rebinding 防护与重定向逐跳复验；权限从 manifest 声明到 grantedPermissions 实际授权三处共享。</li></ol>
+<ul><li>新颖度 4/5 · 实用性 5/5 · 可迁移性 3/5</li></ul>
+<ol><li><strong>MCP 与实时编辑器桥接，而非数据库旁路</strong> —— 外部 Agent 的编辑请求被路由到指定用户当前打开的 Site/Content 工作区；服务端保留鉴权与协议，浏览器保留未保存状态与 undo 的事实权。</li></ol>
+<ul><li>新颖度 5/5 · 实用性 4/5 · 可迁移性 4/5</li></ul>
+<ol><li><strong>AI 工具循环中的过期重证据淘汰</strong> —— 以工具名追踪截图、整页 HTML/CSS 等「大且会过期」的 tool result，只保留最新完整版本，旧版本变成可重取 breadcrumb。</li></ol>
+<ul><li>新颖度 4/5 · 实用性 5/5 · 可迁移性 5/5</li></ul>
+<ol><li><strong>TypeBox 贯穿 HTTP / 持久化 / AI tools / MCP</strong> —— 同一 JSON Schema 既产生 TS 类型，又验证运行时边界，还直接成为模型与 MCP 工具定义；低级 MCP Server API 被用来绕过高层 API 对 Zod 的依赖。</li></ol>
+<ul><li>新颖度 3/5 · 实用性 5/5 · 可迁移性 5/5</li></ul>
+<ol><li><strong>数据化设计系统直接参与发布</strong> —— Core Framework 的颜色 shade、fluid type/spacing 与 utility 规则作为站点数据存储，生成经过 CSS value sanitizer 的小型 bundle；改一个 token，全站发布产物随之更新。</li></ol>
+<ul><li>新颖度 3/5 · 实用性 5/5 · 可迁移性 4/5</li></ul>
+<h3>可复用的模式与技巧</h3>
+<ul><li><strong>空值路由责任链</strong> —— handler 返回 Response 代表接管，返回 null 代表继续；命名空间吸收各自 404。可用于边缘服务 / 插件 host / 小型协议网关。</li><li><strong>构建 inactive、原子切指针</strong> —— 完整生成下一代产物后原子替换稳定入口；单项更新用 tmp + rename。可用于静态站 / 搜索索引 / 配置集发布。</li><li><strong>版本捕获 + single-flight</strong> —— render 开始时记录版本，并发请求共享 promise；版本变化则丢弃结果。可用于有后台刷新动作的动态缓存。</li><li><strong>扁平节点图 + 单一 mutation 引擎</strong> —— 节点映射获得 O(1) 定位，人类 UI、插件、Agent 都提交同一 operation union。可用于编辑器 / 工作流图 / 场景树。</li><li><strong>动态边界单 walker</strong> —— 分类、渲染决策、诊断原因从同一遍历产生，避免多层规则漂移。可用于 SSR/SSG 分层 / 权限传播 / 依赖分析。</li><li><strong>声明权限与实际授权分离</strong> —— manifest 的 declaredPermissions 只服务 consent，所有执行点只信 grantedPermissions；VM 与 host 共用 target-to-permission 映射。可用于插件平台 / 内部自动化 / Agent tool gateway。</li><li><strong>高危扩展面显式分级</strong> —— 无法沙箱化的 browser extension 不伪装安全，而是标为独立危险权限、安装必审、运行前再检查。可用于 IDE 扩展 / 浏览器内微前端 / 低代码插件。</li><li><strong>架构测试作为治理层</strong> —— 对依赖方向、禁用包、schema 边界、样式 token、生成物新鲜度写源码级 gate。可用于高频迭代、多 Agent 改动的大型单仓。</li><li><strong>重证据按语义淘汰</strong> —— 保留最新状态快照，旧快照替换为 breadcrumb，而不是按 token 截断。可用于多轮视觉 / 浏览器 / 代码 Agent。</li><li><strong>小站默认、大站逃生口</strong> —— SQLite 零依赖默认，通过窄接口保留 Postgres、多实例 leader lock 与托管备份路径。可用于从个人部署平滑成长到团队部署的自托管产品。</li></ul>
+<h3>关键设计决策</h3>
+<ol><li><strong>决策</strong>：用单个 Bun 进程承载 CMS / 后台 / 公开站 / AI 流 / 媒体，仅把高风险或 CPU 密集工作移入 Worker。</li></ol>
+<ul><li><strong>问题</strong>：小站若依赖 Node + 队列 + DB + 对象存储 + 多微服务，部署运维成本会吞噬产品价值。</li><li><strong>方案</strong>：server/index.ts 依次配置安全边界、创建 DB、跑迁移、同步角色、激活插件并启动 Bun.serve；插件进 Bun Worker 内 QuickJS VM；图片变体进 worker pool。</li><li><strong>Trade-off</strong>：换来低部署门槛、统一故障观测；牺牲微服务级独立扩缩容与故障域隔离，Bun 版本被锁 &gt;=1.3 &lt;1.4 增加运行时依赖。</li><li><strong>可迁移性</strong>：中</li></ul>
+<ol><li><strong>决策</strong>：使用有序手写 RouteHandler[]，以 Response | null 表达是否拥有请求。</li></ol>
+<ul><li><strong>问题</strong>：全栈 CMS 协议面很多，框架路由可能引入额外运行时与隐式优先级。</li><li><strong>方案</strong>：server/router.ts 把 health / MCP OAuth / MCP / AI / CMS / hole / forms / 静态 / admin SPA / 公开页 / 404 按优先级排列。</li><li><strong>Trade-off</strong>：路由顺序与所有权透明、零框架开销；URL 参数、middleware 组合、冲突检测需要自己维护。</li><li><strong>可迁移性</strong>：高</li></ul>
+<ol><li><strong>决策</strong>：用统一 data_tables + data_rows 表达页面、文章、视觉组件、布局、自定义集合。</li></ol>
+<ul><li><strong>问题</strong>：每增加一种内容类型就增加专用表 / API / 编辑逻辑会让 CMS 功能分叉，插件也难以使用统一协议。</li><li><strong>方案</strong>：系统只锁定几种内建 table kind 与系统表身份，字段 schema 决定 typed cells；页面 body 与组件 body 都是 page tree。</li><li><strong>Trade-off</strong>：获得统一 CRUD、导入导出、表格 UI、发布与插件访问面；EAV 风格模型在复杂查询上不如专用关系表直接。</li><li><strong>可迁移性</strong>：中</li></ul>
+<ol><li><strong>决策</strong>：把所有可编辑树统一成扁平 NodeTree&lt;TNode&gt; = { nodes, rootNodeId }，mutation 与页面/组件模式无关。</li></ol>
+<ul><li><strong>方案</strong>：节点以 ID 映射存储，O(1) 查找；slot fill 物化为消费页面中的锁定节点；11 种 store action 都经 mutateActiveTree 路由到同一 mutation 引擎。</li><li><strong>Trade-off</strong>：人工 / 插件 / Agent 编辑协议统一，patch undo 只按变化量增长；children 引用、root 可达性、无环不变量需要额外维护。</li><li><strong>可迁移性</strong>：高</li></ul>
+<ol><li><strong>决策</strong>：发布采用「磁盘静态产物 + 版本化 LRU + 自动 server islands」三层流水线。</li></ol>
+<ul><li><strong>方案</strong>：Layer A 烘焙到 inactive slot 再原子 swap；Layer B 按 (urlPath, canonicalQuery) 缓存，发布发生于 render 中途时丢弃旧结果；Layer C 由 findDynamicNodeIds 自动识别动态模块并发出 &lt;instatic-hole&gt;。</li><li><strong>Trade-off</strong>：静态页面无 DB、无 hydration；代价是发布器、快照一致性、缓存失效、洞上下文显著复杂，Windows 缺少 POSIX symlink 只能以 live-render fallback 弥补。</li><li><strong>可迁移性</strong>：高</li></ul>
+<ol><li><strong>决策</strong>：动态判定集中为一棵 walker，而不是让烘焙器和 hole renderer 各自判断。</li></ol>
+<ul><li><strong>方案</strong>：dynamicDetection.ts 的 classifyNode 是逐节点规则单一事实源；同一遍历处理结构化 binding、内联 token、loop source、VC 递归与 loop body 提升。</li><li><strong>Trade-off</strong>：规则一致性与诊断性很强；默认把未知 binding source 当静态，插件扩展动态源需注册机制。</li><li><strong>可迁移性</strong>：高</li></ul>
+<ol><li><strong>决策</strong>：插件后端采用「每插件 Bun Worker + QuickJS-WASM + capability RPC」双层隔离。</li></ol>
+<ul><li><strong>方案</strong>：宿主不直接 import 插件 server bundle；QuickJS 无 Node/Bun/syscall，API 只能经 schema 化 RPC；权限从 manifest 到 grantedPermissions 三处执行；VM 有内存 / 栈 / 时间预算，worker 有 RPC timeout、崩溃预算与自动恢复。</li><li><strong>Trade-off</strong>：比传统 WordPress / Node 插件安全得多；WASM VM 内存与序列化开销大，SDK 需重复实现 Web API，生态作者不能直接使用 Node 包。editor.code 与 app admin page 仍在主浏览器上下文运行，只能以高危授权管理。</li><li><strong>可迁移性</strong>：中</li></ul>
+<ol><li><strong>决策</strong>：SQLite 与 Postgres 共享极小 DbClient 协议，repository 保持 ANSI SQL，迁移双份但 ID 对齐。</li></ol>
+<ul><li><strong>方案</strong>：DbClient 只暴露 tagged template、unsafe、transaction、dialect；连接由 DATABASE_URL 决定；JSON 列以 _json 命名供 SQLite adapter 自动 hydrate。</li><li><strong>Trade-off</strong>：一套 repository 支持两种部署级别；双迁移需人工保持语义一致，ANSI 子集限制了 Postgres 特性利用。</li><li><strong>可迁移性</strong>：高</li></ul>
+<ol><li><strong>决策</strong>：TypeBox schema 是所有不可信边界与领域类型的事实源，禁止并行 schema 体系。</li></ol>
+<ul><li><strong>方案</strong>：从 Static&lt;typeof Schema&gt; 派生类型；请求 / 响应 / JSON.parse 都经共享 helper；AI provider 直接 REST/SSE，MCP 低级 SDK handler 直接发布 TypeBox JSON Schema，architecture tests 禁止 Zod / raw fetch / JSON cast / 厂商 SDK 越界。</li><li><strong>Trade-off</strong>：类型、运行时校验、模型工具定义高度统一，vendor lock-in 较低；自建 provider mapping、SSE、重试逻辑会拖慢新 API 接入。</li><li><strong>可迁移性</strong>：高</li></ul>
+<ol><li><strong>决策</strong>：AI provider 不使用厂商 SDK，共享直接 HTTP/SSE 的多轮 tool loop，主动削减过期重载荷证据。</li></ol>
+<ul><li><strong>方案</strong>：provider 仅实现 history mapping / body / header / turn translator；公共循环负责 fetch/SSE、tool dispatch、abort、usage；同名重载荷工具只保留最新完整结果，旧截图或页面快照替换为可重取 breadcrumb。</li><li><strong>Trade-off</strong>：provider 矩阵扩展更轻、上下文成本可控；协议变化、边缘错误、缓存计费、多模态兼容都由项目自行追赶。</li><li><strong>可迁移性</strong>：高</li></ul>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:14px;"><thead><tr><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">维度</th><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">Instatic</th><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">Payload CMS</th><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">TinaCMS</th><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">Directus</th><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">Emdash CMS</th></tr></thead><tbody><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">定位</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">视觉建站 + 静态发布 + 自托管 + AI/MCP</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Next.js 全栈框架 + 后台</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Git-based headless</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">既有 DB 包装为 headless</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Astro 全栈 TS CMS</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Stars</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">5,102</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">43k</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">13k</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">36k</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">11k</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">输出</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">干净静态 HTML + 可选洞</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Next.js / Node 应用</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Markdown + Git</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">API + admin UI</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Astro SSG/SSR</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">可视化编辑</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">强（画布 + 设计 token）</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">后台 admin，弱可视化</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">中等（基于 Markdown）</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">数据后台</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">中等</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">插件隔离</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">QuickJS-WASM + Worker</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Node 包，无沙箱</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">无后端插件</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Node 包</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Node 包</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">AI/MCP 原生</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">强（多 provider + MCP server）</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">弱</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">弱</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">弱</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">弱</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">License / 锁定</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">MIT / 自托管</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">MIT / 自托管</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Apache / 自托管</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">自托管 / 商业双轨</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">较新项目</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">数据库</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">SQLite 默认 / Postgres 可切</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">MongoDB / Postgres</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Git 文件</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">任意 SQL</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Postgres / SQLite</td></tr></tbody></table>
+<h3>差异化护城河</h3>
+<p>最难复制的不是单项 feature，而是作者多年 WordPress 视觉工具经验形成的组合：</p>
+<ul><li><strong>Core Framework 设计系统</strong> + <strong>真实画布</strong> + <strong>统一可编辑树</strong> + <strong>AI/MCP 共用 mutation 协议</strong> + <strong>干净静态输出</strong> + <strong>按不可信插件设计的 QuickJS capability runtime</strong>——六者共享同一内容模型与编辑状态机。竞品可以增加 MCP 或静态导出，但要让这些能力在同一底层协同，需要重构产品。</li><li><strong>设计 token 直接进发布产物</strong>：颜色、排版、间距作为站点数据存储，发布时生成经过 sanitizer 的小型 CSS bundle；这是设计师工作流与最终产物之间少见的桥。</li></ul>
+<h3>竞争风险</h3>
+<p>最大风险不是某个竞品逐项复制，而是<strong>成熟平台用生态和稳定性让用户不愿承担迁移</strong>：</p>
+<ul><li><strong>Payload / Directus</strong> 在开发者与数据后台上占优；</li><li><strong>Builder.io</strong> 在企业视觉平台上占优；</li><li><strong>WordPress</strong> 仍有无可比拟的插件供给；</li><li>Instatic 还面临 <strong>0.0.x API 变化、单人 bus factor、插件稀缺、访客分析尚未实现、E2E 未进 CI</strong>、Issue #124 所示基础富文本能力仍有缺口；</li><li>若插件生态与迁移工具增长慢，完整自研栈可能由优势转为维护负担。</li></ul>
+<h3>生态定位</h3>
+<p>Instatic 最合理的生态位不是替代所有 CMS，而是成为<strong>「自托管、设计师友好、Agent-native、静态输出」的窄而深建站系统</strong>：介于 WordPress / Webflow 的视觉生产体验、Astro 的静态产物质量与现代 Agent 工具协议之间。短期适合代理商、作品集、品牌站、小企业站；复杂应用后端、超大内容组织、强 SLA 场景仍应选成熟平台。</p>
+<h2>套利机会分析</h2>
+<ul><li><strong>信息差</strong>：5102 star / 481 fork / 23 open issues + 25 open PR，体量与能力完整度不匹配——大众热门级别但 issue 闭环率极高，<strong>属于被低估的「大众热门型精品」</strong>。5K star 体量下能做到原子静态发布 + QuickJS-WASM 沙箱 + MCP + 多 AI provider + 三层流水线的产品几乎只此一家。</li><li><strong>技术借鉴</strong>：</li><li>架构测试即治理：~81 个 architecture gates 把「依赖方向、禁用包、schema 边界、UI 规范、生成物新鲜度」做成 CI 规则。对任何高频迭代、多 Agent 协作的仓库都值得抄。</li><li>动态边界单 walker：分类 / 渲染 / 诊断共用一个遍历，避免多层规则漂移。</li><li>扁平节点图 + 单一 mutation 引擎：让人类 UI、插件、Agent 共享同一 operation union。</li><li>过期重证据按语义淘汰：保留最新状态快照，旧快照变 breadcrumb，而不是按 token 截断。</li><li>声明权限与实际授权分离：manifest 的 declaredPermissions 只服务 consent，执行点只信 grantedPermissions。</li><li><strong>生态位</strong>：填补了「可视化生产力 + 静态可移植性 + 自托管 + AI/MCP 原生」这一交叉象限。/submit 这类用户群体（被 Webflow 锁定焦虑 + 熟悉视觉建站 + 想自托管 + 想让 AI 真正改页面）有真实付费意愿。</li><li><strong>趋势判断</strong>：</li><li><strong>符合趋势</strong>：AI Agent 进入大众视野、MCP 协议成熟、自托管回潮、Webflow 锁定焦虑被反复曝光。</li><li><strong>有后发优势</strong>：作为 2026 年初发布的新项目，可以从一开始就把 MCP、AI、多 provider、原子静态发布作为一等公民设计，而老牌 headless CMS 需要大量重构。</li><li><strong>风险</strong>：0.0.x API 频繁变化 + 单人 bus factor + 插件生态空白。</li></ul>
+<h2>风险与不足</h2>
+<ul><li><strong>API 不稳定</strong>：当前 v0.0.13，全部 1080 commits 发生在近 90 天，core_files 中 package.json (67 次)、src/core/publisher/render.ts (54 次)、src/core/page-tree/index.ts (49 次)、server/router.ts (44 次)、server/db/migrations-sqlite.ts (40 次)、bun.lock (38 次) 都处于高频变更期。Fix 类提交占 44.0%，明显高于 Feature 的 17.5%，说明产品仍在密集修复与稳定化阶段。</li><li><strong>单点维护</strong>：99.1% 提交来自 DavidBabinec，关键知识与维护能力集中于单人；商业实体运营可能带来可持续性，但作者精力是真实瓶颈。</li><li><strong>插件生态空白</strong>：examples/plugins 仅 654 次修改且主要是模板示例；浏览器级 E2E 约 156 个串行 case 需 45–60 分钟且<strong>未进 CI</strong>，浏览器回归无法阻断 PR。</li><li><strong>缺失能力</strong>：访客分析公开路线图中明确尚未实现；CORS / origin 校验在 Issue #185 中暴露部署摩擦；Issue #124 显示「单文本元素内混排粗体/斜体/链接」这一基础富文本能力仍有缺口。</li><li><strong>数据可信度提示</strong>：stargazer 列表接口在 gh integration 下被限流，star 时间分布未精确采样，但 2.8 月 5K star + 月均 ~1800 star 的爆款量级不存疑。</li><li><strong>外部独立视角稀缺</strong>：主流 WebSearch 仅命中 CSDN 等自动生成 SEO 内容，<strong>未找到对 Instatic 的独立深度评测</strong>，本报告对其「作者视角」与「设计哲学」的判断高度依赖其官方 README / docs / 架构文档自述。</li></ul>
+<h2>行动建议</h2>
+<h3>如果你要用它</h3>
+<p>适合场景：代理商作品集 / 品牌站 / 内容型小企业站 / 想摆脱 WordPress 又不愿上 Webflow / 想让 AI 真正修改可编辑页面节点 / 已有 Bun + Docker + Railway / 自托管能力的团队。<strong>不适合</strong>：复杂应用后端、超大内容组织、强 SLA / 长期 API 稳定性的企业场景。部署优先选 Railway 一键（README 自带 referral 参数），本地用 SQLite；规模成长后切 Postgres，schema 兼容。</p>
+<h3>如果你要学它</h3>
+<p>重点关注以下文件 / 模块：</p>
+<ul><li>src/core/publisher/ —— 三层发布流水线（静态 + 缓存 + server islands）的实现</li><li>src/core/page-tree/ —— 扁平 NodeTree 与 tree-agnostic mutations</li><li>src/core/db/ —— DbClient 抽象与 SQLite/Postgres 双方言</li><li>src/core/framework/ —— Core Framework 设计 token 数据化与发布期发射</li><li>server/router.ts 与 server/handlers/ —— 手写路由责任链</li><li>server/plugins/ —— QuickJS-WASM 沙箱 + capability RPC</li><li>server/ai/ —— 多 provider tool loop + 过期重证据淘汰</li><li>src/__tests__/architecture/ —— 约 81 个架构 gate 的源码</li><li>docs/architecture.md 与 docs/features/plugin-system.md —— 权威架构文档</li></ul>
+<h3>如果你要 fork 它</h3>
+<p>可改进的方向：</p>
+<ol><li><strong>插件生态冷启动</strong>：把 examples/plugins/ 扩成完整 SDK + 模板市场 + 发布审核流；当前仅有 template 与 motion page 一个真实集成。</li><li><strong>访客分析</strong>：公开路线图中明确尚未实现，是商业化承载点。</li><li><strong>迁移工具</strong>：从 Webflow / WordPress / Builder.io 导入内容、页面树、媒体；当前完全靠手动，是 onboarding 最大摩擦。</li><li><strong>多实例 / 集群</strong>：当前单进程 + SQLite 默认；Postgres 路径已有，但多实例 leader lock 与缓存协调尚未完善。</li><li><strong>桌面客户端</strong>：Issue #262 已是高频需求，Electron / Tauri 形态与「自托管、便携」哲学天然契合。</li><li><strong>CI 补全 E2E</strong>：当前 156 个 Playwright case 因脆弱 / 耗时未进 CI，是质量风险；可分层为 smoke + critical path 进 CI，full suite 留 nightly。</li><li><strong>第三方 CRDT / 协作编辑</strong>：当前 patch undo 是单人本地；多人同时编辑同一页面的合并策略尚未涉及。</li></ol>
+<h3>知识入口</h3>
+<table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:14px;"><thead><tr><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">资源</th><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">链接</th></tr></thead><tbody><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">DeepWiki</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">未收录</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Zread.ai</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">未收录</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">GitHub 官方文档（权威）</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;"><a href="https://github.com/corebunch/instatic/tree/main/docs">https://github.com/corebunch/instatic/tree/main/docs</a></td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">架构文档</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;"><a href="https://github.com/corebunch/instatic/blob/main/docs/architecture.md">https://github.com/corebunch/instatic/blob/main/docs/architecture.md</a></td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">插件系统文档</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;"><a href="https://github.com/corebunch/instatic/blob/main/docs/features/plugin-system.md">https://github.com/corebunch/instatic/blob/main/docs/features/plugin-system.md</a></td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">关联论文</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">无</td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">在线 Demo</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;"><a href="https://instatic.com（官网即产品演示）">https://instatic.com（官网即产品演示）</a></td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">编辑器完整导览视频</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;"><a href="https://www.youtube.com/watch?v=zyjCF_TaLlg">https://www.youtube.com/watch?v=zyjCF_TaLlg</a></td></tr><tr><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">Railway 一键部署</td><td style="border:1px solid #ddd;padding:8px;vertical-align:top;">README 自带</td></tr></tbody></table>
+</body>
+</html>

@@ -270,6 +270,16 @@
     "trending_days": 20
   },
   {
+    "name": "shiyu-coder/Kronos",
+    "url": "https://github.com/shiyu-coder/kronos",
+    "language": "Python",
+    "stars": 33960,
+    "forks": 5730,
+    "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+    "last_seen": "2026-07-26",
+    "trending_days": 19
+  },
+  {
     "name": "ChromeDevTools/chrome-devtools-mcp",
     "url": "https://github.com/chromedevtools/chrome-devtools-mcp",
     "language": "TypeScript",
@@ -297,16 +307,6 @@
     "forks": 5023,
     "description": "Open-Source Frontier Voice AI",
     "last_seen": "2026-04-29",
-    "trending_days": 18
-  },
-  {
-    "name": "shiyu-coder/Kronos",
-    "url": "https://github.com/shiyu-coder/kronos",
-    "language": "Python",
-    "stars": 33646,
-    "forks": 5689,
-    "description": "Kronos: A Foundation Model for the Language of Financial Markets",
-    "last_seen": "2026-07-25",
     "trending_days": 18
   },
   {
@@ -370,6 +370,16 @@
     "trending_days": 14
   },
   {
+    "name": "anthropics/claude-cookbooks",
+    "url": "https://github.com/anthropics/claude-cookbooks",
+    "language": "JupyterNotebook",
+    "stars": 50054,
+    "forks": 5907,
+    "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+    "last_seen": "2026-07-26",
+    "trending_days": 14
+  },
+  {
     "name": "davila7/claude-code-templates",
     "url": "https://github.com/davila7/claude-code-templates",
     "language": "Python",
@@ -428,16 +438,6 @@
     "description": "A collective list of free APIs",
     "last_seen": "2026-04-30",
     "trending_days": 14
-  },
-  {
-    "name": "anthropics/claude-cookbooks",
-    "url": "https://github.com/anthropics/claude-cookbooks",
-    "language": "JupyterNotebook",
-    "stars": 49680,
-    "forks": 5888,
-    "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
-    "last_seen": "2026-07-25",
-    "trending_days": 13
   },
   {
     "name": "asgeirtj/system_prompts_leaks",
@@ -2510,6 +2510,16 @@
     "trending_days": 5
   },
   {
+    "name": "pbakaus/impeccable",
+    "url": "https://github.com/pbakaus/impeccable",
+    "language": "JavaScript",
+    "stars": 50281,
+    "forks": 2966,
+    "description": "The design language that makes your AI harness better at design.",
+    "last_seen": "2026-07-26",
+    "trending_days": 5
+  },
+  {
     "name": "phuryn/pm-skills",
     "url": "https://github.com/phuryn/pm-skills",
     "language": "Unknown",
@@ -2527,6 +2537,16 @@
     "forks": 131,
     "description": "Voxel sandbox game with a large render distance, procedurally generated content and some cool graphical effects.",
     "last_seen": "2025-10-13",
+    "trending_days": 5
+  },
+  {
+    "name": "Pumpkin-MC/Pumpkin",
+    "url": "https://github.com/pumpkin-mc/pumpkin",
+    "language": "Rust",
+    "stars": 9834,
+    "forks": 666,
+    "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+    "last_seen": "2026-07-26",
     "trending_days": 5
   },
   {
@@ -2760,6 +2780,16 @@
     "trending_days": 4
   },
   {
+    "name": "andrewyng/aisuite",
+    "url": "https://github.com/andrewyng/aisuite",
+    "language": "Python",
+    "stars": 15313,
+    "forks": 1622,
+    "description": "Simple, unified interface to multiple Generative AI providers",
+    "last_seen": "2026-07-26",
+    "trending_days": 4
+  },
+  {
     "name": "anthropics/claude-quickstarts",
     "url": "https://github.com/anthropics/claude-quickstarts",
     "language": "Python",
@@ -2830,6 +2860,16 @@
     "trending_days": 4
   },
   {
+    "name": "block/buzz",
+    "url": "https://github.com/block/buzz",
+    "language": "Rust",
+    "stars": 12605,
+    "forks": 1015,
+    "description": "A hive mind communication platform",
+    "last_seen": "2026-07-26",
+    "trending_days": 4
+  },
+  {
     "name": "bradautomates/claude-video",
     "url": "https://github.com/bradautomates/claude-video",
     "language": "Python",
@@ -2850,6 +2890,16 @@
     "trending_days": 4
   },
   {
+    "name": "citrolabs/ego-lite",
+    "url": "https://github.com/citrolabs/ego-lite",
+    "language": "JavaScript",
+    "stars": 3998,
+    "forks": 197,
+    "description": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+    "last_seen": "2026-07-26",
+    "trending_days": 4
+  },
+  {
     "name": "CJackHwang/ds2api",
     "url": "https://github.com/cjackhwang/ds2api",
     "language": "Go",
@@ -2867,6 +2917,16 @@
     "forks": 606,
     "description": "Incremental engine for long horizon agents 🌟 Star if you like it!",
     "last_seen": "2026-05-05",
+    "trending_days": 4
+  },
+  {
+    "name": "CoreBunch/Instatic",
+    "url": "https://github.com/corebunch/instatic",
+    "language": "TypeScript",
+    "stars": 5353,
+    "forks": 503,
+    "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
+    "last_seen": "2026-07-26",
     "trending_days": 4
   },
   {
@@ -3380,16 +3440,6 @@
     "trending_days": 4
   },
   {
-    "name": "pbakaus/impeccable",
-    "url": "https://github.com/pbakaus/impeccable",
-    "language": "JavaScript",
-    "stars": 32452,
-    "forks": 1770,
-    "description": "The design language that makes your AI harness better at design.",
-    "last_seen": "2026-06-01",
-    "trending_days": 4
-  },
-  {
     "name": "pedramamini/Maestro",
     "url": "https://github.com/pedramamini/maestro",
     "language": "TypeScript",
@@ -3397,6 +3447,16 @@
     "forks": 162,
     "description": "Agent Orchestration Command Center",
     "last_seen": "2026-02-04",
+    "trending_days": 4
+  },
+  {
+    "name": "pingdotgg/t3code",
+    "url": "https://github.com/pingdotgg/t3code",
+    "language": "TypeScript",
+    "stars": 14918,
+    "forks": 3284,
+    "description": "None",
+    "last_seen": "2026-07-26",
     "trending_days": 4
   },
   {
@@ -3427,16 +3487,6 @@
     "forks": 2349,
     "description": "Prometheus Alertmanager",
     "last_seen": "2025-11-10",
-    "trending_days": 4
-  },
-  {
-    "name": "Pumpkin-MC/Pumpkin",
-    "url": "https://github.com/pumpkin-mc/pumpkin",
-    "language": "Rust",
-    "stars": 9499,
-    "forks": 638,
-    "description": "Empowering everyone to host fast and efficient Minecraft servers.",
-    "last_seen": "2026-07-25",
     "trending_days": 4
   },
   {
@@ -3720,6 +3770,16 @@
     "trending_days": 3
   },
   {
+    "name": "alibaba/open-code-review",
+    "url": "https://github.com/alibaba/open-code-review",
+    "language": "Go",
+    "stars": 13415,
+    "forks": 918,
+    "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "last_seen": "2026-07-26",
+    "trending_days": 3
+  },
+  {
     "name": "alibaba/spring-ai-alibaba",
     "url": "https://github.com/alibaba/spring-ai-alibaba",
     "language": "Java",
@@ -3727,16 +3787,6 @@
     "forks": 1351,
     "description": "Agentic AI Framework for Java Developers",
     "last_seen": "2025-10-15",
-    "trending_days": 3
-  },
-  {
-    "name": "andrewyng/aisuite",
-    "url": "https://github.com/andrewyng/aisuite",
-    "language": "Python",
-    "stars": 15126,
-    "forks": 1609,
-    "description": "Simple, unified interface to multiple Generative AI providers",
-    "last_seen": "2026-07-25",
     "trending_days": 3
   },
   {
@@ -3820,16 +3870,6 @@
     "trending_days": 3
   },
   {
-    "name": "block/buzz",
-    "url": "https://github.com/block/buzz",
-    "language": "Rust",
-    "stars": 10917,
-    "forks": 848,
-    "description": "A hive mind communication platform",
-    "last_seen": "2026-07-25",
-    "trending_days": 3
-  },
-  {
     "name": "browser-use/browser-use",
     "url": "https://github.com/browser-use/browser-use",
     "language": "Python",
@@ -3870,16 +3910,6 @@
     "trending_days": 3
   },
   {
-    "name": "citrolabs/ego-lite",
-    "url": "https://github.com/citrolabs/ego-lite",
-    "language": "JavaScript",
-    "stars": 3104,
-    "forks": 150,
-    "description": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-    "last_seen": "2026-07-25",
-    "trending_days": 3
-  },
-  {
     "name": "clash-verge-rev/clash-verge-rev",
     "url": "https://github.com/clash-verge-rev/clash-verge-rev",
     "language": "TypeScript",
@@ -3907,16 +3937,6 @@
     "forks": 445,
     "description": "Generate code from the terminal!",
     "last_seen": "2026-03-05",
-    "trending_days": 3
-  },
-  {
-    "name": "CoreBunch/Instatic",
-    "url": "https://github.com/corebunch/instatic",
-    "language": "TypeScript",
-    "stars": 4469,
-    "forks": 420,
-    "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
-    "last_seen": "2026-07-25",
     "trending_days": 3
   },
   {
@@ -4650,13 +4670,13 @@
     "trending_days": 3
   },
   {
-    "name": "pingdotgg/t3code",
-    "url": "https://github.com/pingdotgg/t3code",
-    "language": "TypeScript",
-    "stars": 13632,
-    "forks": 2861,
-    "description": "None",
-    "last_seen": "2026-07-12",
+    "name": "OtterMind/Chat2DB",
+    "url": "https://github.com/ottermind/chat2db",
+    "language": "Java",
+    "stars": 26889,
+    "forks": 2929,
+    "description": "🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
+    "last_seen": "2026-07-26",
     "trending_days": 3
   },
   {
@@ -5217,16 +5237,6 @@
     "forks": 1010,
     "description": "Tongyi Deep Research, the Leading Open-source Deep Research Agent",
     "last_seen": "2025-09-23",
-    "trending_days": 2
-  },
-  {
-    "name": "alibaba/open-code-review",
-    "url": "https://github.com/alibaba/open-code-review",
-    "language": "Go",
-    "stars": 12578,
-    "forks": 857,
-    "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-    "last_seen": "2026-07-25",
     "trending_days": 2
   },
   {
@@ -6930,16 +6940,6 @@
     "trending_days": 2
   },
   {
-    "name": "OtterMind/Chat2DB",
-    "url": "https://github.com/ottermind/chat2db",
-    "language": "Java",
-    "stars": 26495,
-    "forks": 2891,
-    "description": "🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
-    "last_seen": "2026-07-25",
-    "trending_days": 2
-  },
-  {
     "name": "owainlewis/awesome-artificial-intelligence",
     "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
     "language": "Unknown",
@@ -6977,6 +6977,16 @@
     "forks": 4825,
     "description": "A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app",
     "last_seen": "2026-01-31",
+    "trending_days": 2
+  },
+  {
+    "name": "permissionlesstech/bitchat",
+    "url": "https://github.com/permissionlesstech/bitchat",
+    "language": "Swift",
+    "stars": 29224,
+    "forks": 4492,
+    "description": "bluetooth mesh chat, IRC vibes",
+    "last_seen": "2026-07-26",
     "trending_days": 2
   },
   {
@@ -7500,6 +7510,16 @@
     "trending_days": 2
   },
   {
+    "name": "yorukot/superfile",
+    "url": "https://github.com/yorukot/superfile",
+    "language": "Go",
+    "stars": 19949,
+    "forks": 630,
+    "description": "Pretty fancy and modern terminal file manager",
+    "last_seen": "2026-07-26",
+    "trending_days": 2
+  },
+  {
     "name": "ytdl-org/youtube-dl",
     "url": "https://github.com/ytdl-org/youtube-dl",
     "language": "Python",
@@ -7767,6 +7787,16 @@
     "forks": 223,
     "description": "Turn any browser into your terminal & command your agents on the go.",
     "last_seen": "2026-02-01",
+    "trending_days": 1
+  },
+  {
+    "name": "amnezia-vpn/amnezia-client",
+    "url": "https://github.com/amnezia-vpn/amnezia-client",
+    "language": "C++",
+    "stars": 13068,
+    "forks": 997,
+    "description": "Amnezia VPN Client (Desktop+Mobile)",
+    "last_seen": "2026-07-26",
     "trending_days": 1
   },
   {
@@ -9280,6 +9310,16 @@
     "trending_days": 1
   },
   {
+    "name": "jenkinsci/jenkins",
+    "url": "https://github.com/jenkinsci/jenkins",
+    "language": "Java",
+    "stars": 25628,
+    "forks": 9653,
+    "description": "Jenkins automation server",
+    "last_seen": "2026-07-26",
+    "trending_days": 1
+  },
+  {
     "name": "JetBrains/kotlin",
     "url": "https://github.com/jetbrains/kotlin",
     "language": "Kotlin",
@@ -10030,6 +10070,16 @@
     "trending_days": 1
   },
   {
+    "name": "nodejs/node",
+    "url": "https://github.com/nodejs/node",
+    "language": "JavaScript",
+    "stars": 118399,
+    "forks": 36159,
+    "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+    "last_seen": "2026-07-26",
+    "trending_days": 1
+  },
+  {
     "name": "ntdevlabs/tiny11builder",
     "url": "https://github.com/ntdevlabs/tiny11builder",
     "language": "PowerShell",
@@ -10270,13 +10320,13 @@
     "trending_days": 1
   },
   {
-    "name": "permissionlesstech/bitchat",
-    "url": "https://github.com/permissionlesstech/bitchat",
-    "language": "Swift",
-    "stars": 28052,
-    "forks": 3949,
+    "name": "permissionlesstech/bitchat-android",
+    "url": "https://github.com/permissionlesstech/bitchat-android",
+    "language": "Kotlin",
+    "stars": 6334,
+    "forks": 1519,
     "description": "bluetooth mesh chat, IRC vibes",
-    "last_seen": "2026-07-25",
+    "last_seen": "2026-07-26",
     "trending_days": 1
   },
   {
@@ -11237,16 +11287,6 @@
     "forks": 1841,
     "description": "Open-source Android/Desktop remake of Civ V",
     "last_seen": "2026-06-17",
-    "trending_days": 1
-  },
-  {
-    "name": "yorukot/superfile",
-    "url": "https://github.com/yorukot/superfile",
-    "language": "Go",
-    "stars": 19143,
-    "forks": 587,
-    "description": "Pretty fancy and modern terminal file manager",
-    "last_seen": "2026-07-24",
     "trending_days": 1
   },
   {

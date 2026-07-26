@@ -144,6 +144,9 @@ entries:
   - ai-agent
   - llm-framework
   - security
+  andrewyng_aisuite:
+  - ai-agent
+  - protocol-spec
   andyyyy64_whichllm:
   - llm-inference
   - model-foundation
@@ -250,6 +253,8 @@ entries:
   automatic1111_stable-diffusion-webui:
   - devtools
   - media-generation
+  automattic_harper:
+  - devtools
   axios_axios:
   - security
   axorax_awesome-free-apps:
@@ -293,6 +298,11 @@ entries:
   - rag-search
   - iot-hardware
   - video-audio
+  block_buzz:
+  - ai-agent
+  - devtools
+  - rag-search
+  - protocol-spec
   block_goose:
   - ai-agent
   - ai-coding
@@ -390,6 +400,11 @@ entries:
   - protocol-spec
   cinnamon_kotaemon:
   - llm-framework
+  citrolabs_ego-lite:
+  - ai-agent
+  - devtools
+  - workflow-automation
+  - education
   cjackhwang_ds2api:
   - ai-agent
   - model-foundation
@@ -470,6 +485,10 @@ entries:
   - ai-coding
   - llm-framework
   - protocol-spec
+  corebunch_instatic:
+  - ai-agent
+  - protocol-spec
+  - security
   coreyhaines31_marketingskills:
   - ai-agent
   - devtools

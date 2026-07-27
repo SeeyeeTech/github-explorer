@@ -111,6 +111,12 @@ entries:
   - ai-agent
   - llm-training
   - model-foundation
+  alibaba_open-code-review:
+  - ai-agent
+  - ai-coding
+  - llm-framework
+  - llm-inference
+  - model-foundation
   alibaba_opensandbox:
   - ai-agent
   - security
@@ -1519,6 +1525,8 @@ entries:
   - uncategorized
   nocodb_nocodb:
   - database
+  nodejs_node:
+  - web-framework
   nousresearch_hermes-agent:
   - ai-agent
   - devtools
@@ -1650,6 +1658,12 @@ entries:
   - model-foundation
   - devtools
   - protocol-spec
+  ottermind_chat2db:
+  - ai-agent
+  - llm-framework
+  - database
+  - protocol-spec
+  - security
   ourongxing_newsnow:
   - uncategorized
   oven-sh_bun:

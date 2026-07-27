@@ -260,6 +260,16 @@
     "trending_days": 20
   },
   {
+    "name": "shiyu-coder/Kronos",
+    "url": "https://github.com/shiyu-coder/kronos",
+    "language": "Python",
+    "stars": 34416,
+    "forks": 5786,
+    "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+    "last_seen": "2026-07-27",
+    "trending_days": 20
+  },
+  {
     "name": "virattt/ai-hedge-fund",
     "url": "https://github.com/virattt/ai-hedge-fund",
     "language": "Python",
@@ -268,16 +278,6 @@
     "description": "An AI Hedge Fund Team",
     "last_seen": "2026-07-14",
     "trending_days": 20
-  },
-  {
-    "name": "shiyu-coder/Kronos",
-    "url": "https://github.com/shiyu-coder/kronos",
-    "language": "Python",
-    "stars": 33960,
-    "forks": 5730,
-    "description": "Kronos: A Foundation Model for the Language of Financial Markets",
-    "last_seen": "2026-07-26",
-    "trending_days": 19
   },
   {
     "name": "ChromeDevTools/chrome-devtools-mcp",
@@ -347,6 +347,16 @@
     "forks": 9956,
     "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
     "last_seen": "2026-06-23",
+    "trending_days": 15
+  },
+  {
+    "name": "mvanhorn/last30days-skill",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "language": "Python",
+    "stars": 53969,
+    "forks": 4686,
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "last_seen": "2026-07-27",
     "trending_days": 15
   },
   {
@@ -420,13 +430,13 @@
     "trending_days": 14
   },
   {
-    "name": "mvanhorn/last30days-skill",
-    "url": "https://github.com/mvanhorn/last30days-skill",
-    "language": "Python",
-    "stars": 50498,
-    "forks": 4215,
-    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-    "last_seen": "2026-07-08",
+    "name": "moeru-ai/airi",
+    "url": "https://github.com/moeru-ai/airi",
+    "language": "TypeScript",
+    "stars": 43756,
+    "forks": 4378,
+    "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+    "last_seen": "2026-07-27",
     "trending_days": 14
   },
   {
@@ -467,16 +477,6 @@
     "forks": 1388,
     "description": "The absolute trainer to light up AI agents.",
     "last_seen": "2026-03-31",
-    "trending_days": 13
-  },
-  {
-    "name": "moeru-ai/airi",
-    "url": "https://github.com/moeru-ai/airi",
-    "language": "TypeScript",
-    "stars": 42323,
-    "forks": 4238,
-    "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
-    "last_seen": "2026-07-15",
     "trending_days": 13
   },
   {
@@ -1860,6 +1860,16 @@
     "trending_days": 6
   },
   {
+    "name": "NanmiCoder/MediaCrawler",
+    "url": "https://github.com/nanmicoder/mediacrawler",
+    "language": "Python",
+    "stars": 57979,
+    "forks": 11566,
+    "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+    "last_seen": "2026-07-27",
+    "trending_days": 6
+  },
+  {
     "name": "nautechsystems/nautilus_trader",
     "url": "https://github.com/nautechsystems/nautilus_trader",
     "language": "Rust",
@@ -1947,6 +1957,16 @@
     "forks": 2732,
     "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
     "last_seen": "2026-05-25",
+    "trending_days": 6
+  },
+  {
+    "name": "pbakaus/impeccable",
+    "url": "https://github.com/pbakaus/impeccable",
+    "language": "JavaScript",
+    "stars": 51173,
+    "forks": 3010,
+    "description": "The design language that makes your AI harness better at design.",
+    "last_seen": "2026-07-27",
     "trending_days": 6
   },
   {
@@ -2177,6 +2197,16 @@
     "forks": 936,
     "description": "Get 10X more out of Claude Code, Codex or any coding agent",
     "last_seen": "2026-01-01",
+    "trending_days": 5
+  },
+  {
+    "name": "bradautomates/claude-video",
+    "url": "https://github.com/bradautomates/claude-video",
+    "language": "Python",
+    "stars": 10728,
+    "forks": 1115,
+    "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+    "last_seen": "2026-07-27",
     "trending_days": 5
   },
   {
@@ -2440,16 +2470,6 @@
     "trending_days": 5
   },
   {
-    "name": "NanmiCoder/MediaCrawler",
-    "url": "https://github.com/nanmicoder/mediacrawler",
-    "language": "Python",
-    "stars": 53600,
-    "forks": 10993,
-    "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
-    "last_seen": "2026-06-27",
-    "trending_days": 5
-  },
-  {
     "name": "openai/codex-plugin-cc",
     "url": "https://github.com/openai/codex-plugin-cc",
     "language": "JavaScript",
@@ -2507,16 +2527,6 @@
     "forks": 2075,
     "description": "Create and share 3D architectural projects.",
     "last_seen": "2026-05-19",
-    "trending_days": 5
-  },
-  {
-    "name": "pbakaus/impeccable",
-    "url": "https://github.com/pbakaus/impeccable",
-    "language": "JavaScript",
-    "stars": 50281,
-    "forks": 2966,
-    "description": "The design language that makes your AI harness better at design.",
-    "last_seen": "2026-07-26",
     "trending_days": 5
   },
   {
@@ -2760,6 +2770,16 @@
     "trending_days": 4
   },
   {
+    "name": "alibaba/open-code-review",
+    "url": "https://github.com/alibaba/open-code-review",
+    "language": "Go",
+    "stars": 14438,
+    "forks": 977,
+    "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "last_seen": "2026-07-27",
+    "trending_days": 4
+  },
+  {
     "name": "alirezarezvani/claude-skills",
     "url": "https://github.com/alirezarezvani/claude-skills",
     "language": "Python",
@@ -2867,16 +2887,6 @@
     "forks": 1015,
     "description": "A hive mind communication platform",
     "last_seen": "2026-07-26",
-    "trending_days": 4
-  },
-  {
-    "name": "bradautomates/claude-video",
-    "url": "https://github.com/bradautomates/claude-video",
-    "language": "Python",
-    "stars": 6450,
-    "forks": 746,
-    "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
-    "last_seen": "2026-07-09",
     "trending_days": 4
   },
   {
@@ -3767,16 +3777,6 @@
     "forks": 1743,
     "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
     "last_seen": "2026-05-05",
-    "trending_days": 3
-  },
-  {
-    "name": "alibaba/open-code-review",
-    "url": "https://github.com/alibaba/open-code-review",
-    "language": "Go",
-    "stars": 13415,
-    "forks": 918,
-    "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-    "last_seen": "2026-07-26",
     "trending_days": 3
   },
   {
@@ -4680,6 +4680,16 @@
     "trending_days": 3
   },
   {
+    "name": "permissionlesstech/bitchat",
+    "url": "https://github.com/permissionlesstech/bitchat",
+    "language": "Swift",
+    "stars": 31646,
+    "forks": 4976,
+    "description": "bluetooth mesh chat, IRC vibes",
+    "last_seen": "2026-07-27",
+    "trending_days": 3
+  },
+  {
     "name": "playcanvas/supersplat",
     "url": "https://github.com/playcanvas/supersplat",
     "language": "TypeScript",
@@ -5110,6 +5120,16 @@
     "trending_days": 3
   },
   {
+    "name": "yorukot/superfile",
+    "url": "https://github.com/yorukot/superfile",
+    "language": "Go",
+    "stars": 20602,
+    "forks": 653,
+    "description": "Pretty fancy and modern terminal file manager",
+    "last_seen": "2026-07-27",
+    "trending_days": 3
+  },
+  {
     "name": "ziglang/zig",
     "url": "https://github.com/ziglang/zig",
     "language": "Zig",
@@ -5257,6 +5277,16 @@
     "forks": 556,
     "description": "A Download Manager that speeds up your downloads",
     "last_seen": "2025-10-05",
+    "trending_days": 2
+  },
+  {
+    "name": "amnezia-vpn/amnezia-client",
+    "url": "https://github.com/amnezia-vpn/amnezia-client",
+    "language": "C++",
+    "stars": 13601,
+    "forks": 1018,
+    "description": "Amnezia VPN Client (Desktop+Mobile)",
+    "last_seen": "2026-07-27",
     "trending_days": 2
   },
   {
@@ -6240,6 +6270,16 @@
     "trending_days": 2
   },
   {
+    "name": "jenkinsci/jenkins",
+    "url": "https://github.com/jenkinsci/jenkins",
+    "language": "Java",
+    "stars": 25814,
+    "forks": 9665,
+    "description": "Jenkins automation server",
+    "last_seen": "2026-07-27",
+    "trending_days": 2
+  },
+  {
     "name": "juanfont/headscale",
     "url": "https://github.com/juanfont/headscale",
     "language": "Go",
@@ -6980,16 +7020,6 @@
     "trending_days": 2
   },
   {
-    "name": "permissionlesstech/bitchat",
-    "url": "https://github.com/permissionlesstech/bitchat",
-    "language": "Swift",
-    "stars": 29224,
-    "forks": 4492,
-    "description": "bluetooth mesh chat, IRC vibes",
-    "last_seen": "2026-07-26",
-    "trending_days": 2
-  },
-  {
     "name": "plausible/analytics",
     "url": "https://github.com/plausible/analytics",
     "language": "Elixir",
@@ -7510,16 +7540,6 @@
     "trending_days": 2
   },
   {
-    "name": "yorukot/superfile",
-    "url": "https://github.com/yorukot/superfile",
-    "language": "Go",
-    "stars": 19949,
-    "forks": 630,
-    "description": "Pretty fancy and modern terminal file manager",
-    "last_seen": "2026-07-26",
-    "trending_days": 2
-  },
-  {
     "name": "ytdl-org/youtube-dl",
     "url": "https://github.com/ytdl-org/youtube-dl",
     "language": "Python",
@@ -7790,16 +7810,6 @@
     "trending_days": 1
   },
   {
-    "name": "amnezia-vpn/amnezia-client",
-    "url": "https://github.com/amnezia-vpn/amnezia-client",
-    "language": "C++",
-    "stars": 13068,
-    "forks": 997,
-    "description": "Amnezia VPN Client (Desktop+Mobile)",
-    "last_seen": "2026-07-26",
-    "trending_days": 1
-  },
-  {
     "name": "andreknieriem/headunit-revived",
     "url": "https://github.com/andreknieriem/headunit-revived",
     "language": "Kotlin",
@@ -7857,6 +7867,16 @@
     "forks": 68,
     "description": "A Python framework for self-hosted LLM tool-calling and multi-step agentic workflows",
     "last_seen": "2026-05-21",
+    "trending_days": 1
+  },
+  {
+    "name": "apache/cassandra",
+    "url": "https://github.com/apache/cassandra",
+    "language": "Java",
+    "stars": 9897,
+    "forks": 3989,
+    "description": "Open source transactional distributed database. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure without compromising performance.",
+    "last_seen": "2026-07-27",
     "trending_days": 1
   },
   {
@@ -9310,16 +9330,6 @@
     "trending_days": 1
   },
   {
-    "name": "jenkinsci/jenkins",
-    "url": "https://github.com/jenkinsci/jenkins",
-    "language": "Java",
-    "stars": 25628,
-    "forks": 9653,
-    "description": "Jenkins automation server",
-    "last_seen": "2026-07-26",
-    "trending_days": 1
-  },
-  {
     "name": "JetBrains/kotlin",
     "url": "https://github.com/jetbrains/kotlin",
     "language": "Kotlin",
@@ -10157,6 +10167,16 @@
     "forks": 1470,
     "description": "MiniOB is a compact database that assists developers in understanding the fundamental workings of a database.",
     "last_seen": "2025-10-21",
+    "trending_days": 1
+  },
+  {
+    "name": "ocornut/imgui",
+    "url": "https://github.com/ocornut/imgui",
+    "language": "C++",
+    "stars": 75129,
+    "forks": 11964,
+    "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
+    "last_seen": "2026-07-27",
     "trending_days": 1
   },
   {
@@ -11197,6 +11217,16 @@
     "forks": 11542,
     "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
     "last_seen": "2026-07-09",
+    "trending_days": 1
+  },
+  {
+    "name": "vudovn/ag-kit",
+    "url": "https://github.com/vudovn/ag-kit",
+    "language": "TypeScript",
+    "stars": 7862,
+    "forks": 1505,
+    "description": "None",
+    "last_seen": "2026-07-27",
     "trending_days": 1
   },
   {

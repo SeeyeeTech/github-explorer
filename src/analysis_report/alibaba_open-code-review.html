@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+<blockquote>
+<p>GitHub: <a href="https://github.com/alibaba/open-code-review">https://github.com/alibaba/open-code-review</a></p>
+<p>官网： <a href="https://open-codereview.ai">https://open-codereview.ai</a></p>
+</blockquote>
+
+<h2>一句话总结</h2>
+
+<p>阿里把内部已用 2 年的 AI Code Review 平台以 Apache-2.0 开源，2.3 个月斩获 13.9K stars、~1/9 token vs Claude Code 的更高 Precision/F1，<strong>靠的不是更大的模型</strong>，而是「<strong>确定性工程做硬约束 + Agent 做软决策</strong>」的混合架构。</p>
+
+<h2>值得关注的理由</h2>
+
+<ol>
+<li><strong>大厂背书的「成品」而非「玩具」</strong>：阿里内部已用 2 年、数万开发者、数百万缺陷的真实落地，开源时已发到 v1.7.17（88 个 release）——不是 PoC，是已经在淘宝/支付宝级别 codebase 跑过的工业级方案。</li>
+<li><strong>「通用 Agent 做 review 不行」的工程化反驳</strong>：Claude Code / Cursor 这类通才 Agent 在大 changeset 上<strong>覆盖不全 / 位置漂移 / 质量不稳</strong>三个硬伤，OCR 用「bundle sub-agent + 模板规则 + 两阶段 line resolution + 三区异步 memory 压缩」逐个解决，且自报家丑式地承认「<strong>Recall 更低是 deliberate trade-off</strong>」。</li>
+<li><strong>真正的 model-agnostic</strong>：内置 17 家 LLM 厂商白名单 + 自定义 provider TUI + <code>delegate</code> 模式复用 Claude Code / Codex 的订阅 + Ollama Cloud / LiteLLM 网关全部支持——把 LLM 当成可替换零件而非产品壁垒。</li>
+</ol>
+
+<h2>项目展示</h2>
+
+<p><img src="https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/highlights-en.png" alt="Highlights"><br><em>OCR 核心能力面板：line-level 精度、动态并发、智能压缩、内置规则</em></p>
+
+<p><img src="https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/benchmark-en.png" alt="Benchmark"><br><em>与 Claude Code 五维对比：Precision ↑ / F1 ↑ / Recall ↓（取舍） / Time ↓ / Token ~1/9</em></p>
+
+<p><img src="https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/providers.jpg" alt="Provider TUI"><br><em><code>ocr config provider</code> 交互式配置 TUI（Charm land bubbletea 实现）</em></p>
+
+<p><img src="https://raw.githubusercontent.com/alibaba/open-code-review/main/imgs/logo-core.svg" alt="Logo"></p>
+
+<blockquote>
+<p>官网 <a href="https://open-codereview.ai">https://open-codereview.ai</a> 另有 6+ 张 SVG 架构图（混合架构、3-tier 定位、并发调度、三区压缩、多模型集成），适合需要做架构图复用的读者直接抄作业。</p>
+</blockquote>
+
+<h2>项目画像</h2>
+
+<p>| 维度 | 数据 |<br>|------|------|<br>| GitHub | <a href="https://github.com/alibaba/open-code-review">https://github.com/alibaba/open-code-review</a> |<br>| Star / Fork / Watcher | 13,881 / 941 / 49 |<br>| 代码行数 | 64,291（不含注释/空行），注释占比 23% |<br>| 语言分布 | Go 67.9% / TS+TSX 15.4% / JS 5.4% / CSS 4.7% / Python 2.2% / 其他 5.4% |<br>| 文件数 | 496 |<br>| 项目年龄 | 2.3 个月（首版 2026-05-18，v1.7.17 / 88 release） |<br>| 开发阶段 | 密集开发期（5 月 46 commits → 6 月 196 → 7 月 150+，月均 170+） |<br>| 贡献模式 | 核心少数 + 社区（72 git author，主作者 <code>kite</code> 67%，前 3 名合计 95.4%） |<br>| 热度定位 | 大众热门（2.3 月达成万星） |<br>| 质量评级 | 代码 优秀 / 文档 优秀 / 测试 充分（93 test 文件 / 31K 行，~3.4:1 测试：核心，覆盖率强制 ≥80%） |<br>| 合规 | Apache-2.0 + OpenSSF Silver + DeepWiki 已收录 + GitHub Marketplace Action |<br>| npm | <code>@alibaba-group/open-code-review</code>，周下载 25,891，7 日内日下载从 937 → 5,337（5.7× 增长） |<br>| 日均 Star 净增 | ~155 stars/天 |</p>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+
+<p>不是个人项目，是 <strong>Alibaba Group 工程效能/AI Infra 团队</strong>的官方开源。Organization <code>alibaba</code> 14 年老号、540 公开仓、20K followers，旗下 spring-ai-alibaba（10.4K stars）、zvec（15.3K stars）、ROLL（3.3K stars）已证明「<strong>把内部基础设施外开源</strong>」是阿里的稳定打法。代码层维护者主要是阿里员工 <code>kite</code>（350 commits ≈ 89%，含 <code>lizhengfeng101</code> 222 commits 同一真名），第二梯队 Lei Zhang / chethanuk 各 21 commits，构成可识别的「核心 maintainer + 社区补丁」结构。</p>
+
+<h3>问题判断</h3>
+
+<p>阿里内部跑两年识别出通用 Agent 在大 changeset 上的三个硬伤：</p>
+
+<ol>
+<li><strong>覆盖不全</strong>——一个 context 塞整个 PR，注意力被稀释</li>
+<li><strong>位置漂移</strong>——LLM 报告的 line/column 在合并后位置错误</li>
+<li><strong>质量不稳</strong>——同份 diff 两次跑结果不同</li>
+</ol>
+
+<p>而当时能买到的解决方案（CodeRabbit 闭源、Sourcery 偏前端、Qodana 静态分析颗粒度粗、Claude Code Skills 把「必须稳定的工程决策」也丢给 LLM）都没法直接消化阿里级别的代码规模。</p>
+
+<h3>解法哲学</h3>
+
+<p><code>internal/agent/agent.go</code> 和 <code>internal/config/rules/system_rules.go</code> 一句话能讲清楚：<strong>「Stable engineering first, dynamic AI second」</strong>。</p>
+
+<ul>
+<li>规则匹配用<strong>模板引擎</strong>（不是 prompt）——<code>system_rules.go:33-81</code> 的 ordered pattern→rule map 是 <strong>deterministic + 审计友好 + 可 diff</strong> 的</li>
+<li>Diff 不进 system prompt，而是做成 read-only <code>DiffMap</code> 让 LLM 用 <code>file_read_diff</code> 工具按需拉——保注意力</li>
+<li>每个文件 bundle 是独立 sub-agent（隔离上下文）+ 并发执行——解决覆盖问题</li>
+<li>评论定位走「diff 精确匹配 → 全文件滑窗 → LLM 二次重定位」三段 fallback——解决位置漂移</li>
+<li>全局 <code>gitcmd.Runner</code> 信号量（默认 16）限制子进程并发——解决 OS fd 撑爆</li>
+</ul>
+
+<p>明确<strong>不做什么</strong>：不碰 IDE live edit（VS Code 扩展是分发而非主战场）、不抢占 PR 平台评论位、不做 web SaaS。</p>
+
+<h3>战略意图</h3>
+
+<p><code>ROADMAP.md</code> + <code>GOVERNANCE.md</code> + <code>ASSURANCE_CASE.md</code> 三件套暴露了真实意图——把 OCR 当成「集团内规」开源，反向约束和收口；商业化潜在点是内置 DashScope / 火山引擎 / Qwen 模型白名单 + <code>setupCiEnv.sh</code> 鼓励 CI 集成（间接拉新自家云），Open-core 信号弱，没有 SaaS / hosted / 企业版裸收费暗示。</p>
+
+<blockquote>
+<p>OpenSSF Silver + Apache-2.0 + 完整 GOVERNANCE 文档，已经在为「如果成为行业标准」做准备了。</p>
+</blockquote>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处（按新颖度×实用性排序）</h3>
+
+<p>| # | 创新点 | 新颖度 | 实用性 | 可迁移性 |<br>|---|--------|--------|--------|----------|<br>| 1 | <strong>三区异步 memory compression</strong>（frozen / compressed / active + cancel + ownership + snapshotLen）| 4/5 | 5/5 | 任何长会话 LLM agent |<br>| 2 | <strong>Bundle sub-agent + 异步 comment worker pool</strong>（每文件独立 goroutine + semaphore + code_comment 后台处理）| 4/5 | 5/5 | 任何「按 X 切分」的多步任务 |<br>| 3 | <strong>两阶段 line resolution</strong>（diff → file → LLM 三段 fallback，95% 走 deterministic）| 3/5 | 5/5 | 论文引文定位 / issue 回链 / 文档段落引用 |<br>| 4 | <strong>ReviewFilterTask LLM 自我审计</strong>（第二轮 LLM 投票砍可证伪项）| 3/5 | 4/5 | LLM-as-judge 范式 |<br>| 5 | <strong>DiffMap 当工具而非 prompt</strong>（节省 token + 保注意力）| 3/5 | 4/5 | 任何 LLM 工程应用 |<br>| 6 | <strong>PATH-based 模板规则引擎</strong>（deterministic + 可审计 + 可 diff）| 3/5 | 4/5 | policy-as-code 方向 |<br>| 7 | <strong>协议 canonical 化 + 4 级 resolver fallback</strong>（3 个协议覆盖 17 厂商）| 2/5 | 5/5 | 任何多 LLM SDK 集成 |<br>| 8 | <strong><code>promptOverheadTokens + avgMainRoundsPerFile</code> 成本预估</strong>（跑前看账单）| 2/5 | 5/5 | 任何 LLM CLI |<br>| 9 | <strong>Session JSONL 决策可审计 + <code>--resume</code> 指纹续跑</strong>（sha256(mode+oldPath+newPath+diff)）| 2/5 | 4/5 | 任何长任务 |<br>| 10 | <strong>per-context state 不放 Runner</strong>（避免 race 的 slot 设计）| 3/5 | 4/5 | 任何共享调度器 |</p>
+
+<h3>可复用的模式与技巧</h3>
+
+<p>任何 Go + LLM 项目可直接抄：</p>
+
+<ul>
+<li><strong><code>internal/llmloop/compression.go</code> 的三区异步压缩模板</strong>：~360 行黄金模板，cancel + ownership + snapshotLen 三件套</li>
+<li><strong><code>internal/agent/agent.go:351-451 + llmloop/pool.go</code> 的 bundle sub-agent 模式</strong>：goroutine + semaphore + 异步后处理</li>
+<li><strong><code>internal/tool/definitions.go:10-22</code> 单字段 Newtype <code>Tool</code> + <code>Registry.Freeze()</code></strong>：想做插件系统？直接抄</li>
+<li><strong><code>internal/llm/protocol.go + resolver.go:58-99</code> 的协议枚举 + 4 级 fallback</strong>：别为每家 LLM 厂商写一套 SDK，固定 2-3 个协议 + resolver 兜底 17 baseURL</li>
+<li><strong><code>internal/gitcmd/runner.go:86-127</code> 的 git 子进程共享信号量 + Stream API</strong>：所有外部 git 调用收敛到单点</li>
+<li><strong><code>internal/viewer/hostguard.go</code> 防 DNS rebinding</strong>：任何本地 web 工具都该抄</li>
+<li><strong><code>internal/scan/estimate.go:42-120</code> 的成本预估 + MaxTokensBudget 边跑边停</strong>：CLI 必备 UX</li>
+<li><strong><code>comment_collector.Snapshot() / Since() / ReplaceSince()</code></strong>（<code>comment_collector.go:53-89</code>）：按下标切片的语义用到 collector，batch-level dedup/replace 不需要复制整个 slice</li>
+</ul>
+
+<h3>关键设计决策与 trade-off</h3>
+
+<p>| 决策 | Trade-off |<br>|------|-----------|<br>| <strong>双 Agent 共享 Runner</strong>（<code>internal/agent</code> vs <code>internal/scan</code> 都用 <code>llmloop.Runner</code>）| scan 必须把全文件塞进 <code>Diff.NewFileContent</code> 假装有 diff——换来 token 预算/compression/dedup 0 拷贝复用 |<br>| <strong>模板引擎而非 prompt 链</strong>（<code>internal/config/template/</code>）| 字符串 ReplaceAll 不是类型安全模板引擎，escape 处理需作者自觉 |<br>| <strong>80% MaxTokens 作为 prompt 硬阈值</strong>（<code>PromptTokenLimit(maxTokens) = int(0.8 * float(maxTokens))</code>，3 处共用）| 阈值偏高，对小 max_tokens 模型较紧 |<br>| <strong>Sub-agent 隔离上下文</strong>（文件级 goroutine + semaphore）| 跨文件 dependency 难处理，只能通过 <code>changeFiles</code> 列表静态传给 LLM |<br>| <strong>Delegation mode</strong>（让 Claude Code / Codex 替自己 review）| 牺牲了 LLM 调用可控性（无法压 token / 改 prompt），换来 onboarding 零成本 |<br>| <strong>BatchStrategy 三选</strong>（none/by-language/by-directory）保证同 language 文件相邻以提升 prompt cache 命中率 | 批间 sequential 不能跨批共享 worker pool，但 cache 收益 > 吞吐损失 |</p>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+
+<p>| 维度 | OpenCodeReview | Claude Code Skills | CodeRabbit | Sourcery AI | JetBrains Qodana |<br>|------|----------------|-------------------|------------|-------------|------------------|<br>| <strong>开源 / 自托管</strong> | ✅ Apache-2.0 | ❌ 闭源 CLI | ❌ SaaS | ❌ SaaS | 部分（SonarQube） |<br>| <strong>多 LLM provider</strong> | ✅ 17 厂商 + 自定义 | ❌ 绑 Anthropic | ❌ 自有后端 | ❌ 自有后端 | ❌ 自有后端 |<br>| <strong>本地模型 / 私有部署</strong> | ✅ Ollama / 自托管 | ⚠️ 部分 | ❌ | ❌ | ⚠️ 企业版 |<br>| <strong>line-level 精度</strong> | ✅ 三段 fallback + reflection | ⚠️ 通用 Agent 漂移 | ✅ UI 体验最好 | ⚠️ PR 级别 | ❌ 文件级静态 |<br>| <strong>Token 经济</strong> | ✅ ~1/9 vs 通才 Agent | ❌ 9× token | N/A | N/A | N/A |<br>| <strong>跨平台 CI</strong> | ✅ GitHub/GitLab/Gerrit/GitFlic/Bitbucket | ⚠️ 部分 | ❌ | ⚠️ GitHub only | ⚠️ 部分 |<br>| <strong>JS/Python/Go 规则成熟度</strong> | ⚠️ Java 偏置（内置规则面向企业级 Java）| ✅ 全语言 | ✅ 全语言 | ✅ Python 强 | ✅ 全语言静态 |<br>| <strong>决策可审计</strong> | ✅ Session JSONL + viewer | ❌ 黑盒 | ❌ 黑盒 | ❌ 黑盒 | ✅ 报告 |</p>
+
+<h3>差异化护城河</h3>
+
+<p><strong>「确定性工程护栏 + sub-agent 并发 + 多模型 + 本地化部署」组合目前在 GitHub 上几乎没有直接开源对手</strong>：</p>
+
+<ol>
+<li>17 厂商白名单 + 协议 canonical 化 → model-agnostic 是阿里自家云外厂商都能跑的承诺</li>
+<li>模板化规则 + reflection → 比纯 prompt 工程多一层 deterministic</li>
+<li>三区压缩 + bundle sub-agent → 跑大 changeset 也能稳</li>
+<li>Session JSONL + viewer → 决策可审计，企业落地刚需</li>
+</ol>
+
+<h3>竞争风险</h3>
+
+<p><strong>最危险的是 Anthropic 自己做 code review sub-agent</strong>（Claude Code 加 <code>review</code> 模式）——会直接吃掉 OCR 的「通用 Agent 不擅长 review」叙事。次风险是 CodeRabbit 推出自托管版。阿里本身<strong>不是竞争对手而是基础设施供应商</strong>（Qwen / DashScope / 火山引擎都被 OCR 内置）。</p>
+
+<h3>生态定位</h3>
+
+<p><strong>「LLM 时代的 ESLint」</strong>——CLI、可嵌入、规则可写、不绑云、不绑模型。填补的不是「又一个 code review 工具」，而是「<strong>企业级 monorepo / 大 MR 场景下，能跑得动且跑得稳的 LLM 审查基础设施</strong>」。</p>
+
+<h2>套利机会分析</h2>
+
+<ul>
+<li><strong>信息差</strong>：⭐⭐⭐⭐⭐ 13K stars + 2.3 月 + 阿里背书，是已经站在台面上的高热度项目；但「确定性 × Agent 混合架构」叙事在<strong>中文圈外讨论度仍低</strong>，存在 1-2 月的<strong>认知红利窗口</strong></li>
+<li><strong>技术借鉴</strong>：⭐⭐⭐⭐⭐ 上述 10 条创新点几乎全部可直接迁移（特别是三区异步压缩、bundle sub-agent、协议 canonical 化、Session JSONL 决策审计）</li>
+<li><strong>生态位</strong>：⭐⭐⭐⭐ 填补「企业级 monorepo + 多 LLM + 自托管」空白</li>
+<li><strong>趋势判断</strong>：⭐⭐⭐⭐ AI Code Review 赛道 2026 年仍是红海，但 OCR 的「工程化护栏」定位差异化明显，符合「从 demo 走向落地」趋势；当前 bus factor 偏高（kite 67%），需观察 6-12 月内是否能孵化 2-3 位 submodule owner</li>
+</ul>
+
+<h2>风险与不足</h2>
+
+<h3>诚实短板</h3>
+
+<ol>
+<li><strong>Java 偏置</strong>：内置 10+ 语言规则但深度偏向企业级 Java（NPE / 线程安全 / XSS / SQL 注入等），JS/Python/Go 用户需额外配置</li>
+<li><strong>小项目 overkill</strong>：个人开发者用 Claude Code / Cursor 更划算，OCR 的工程护栏是给团队规模用的</li>
+<li><strong>「数百万缺陷」是自家口径，无第三方验证</strong>（Tencent Cloud 拆解文尖锐指出）</li>
+<li><strong>#409 大 MR token 成本问题</strong>仍 open（8 条评论）——bundle 拆分虽隔离上下文但放大了总调用次数，规模化落地有待优化</li>
+<li><strong>bus factor 偏高</strong>：<code>kite</code> 1 人占 67%，第二梯队 Lei Zhang / chethanuk 各 21 commits，<strong>离分布式 maintainer 团队还远</strong></li>
+<li><strong>refactor 仅 2%</strong>：项目还在「先堆功能」阶段，技术债进入沉淀期前需关注</li>
+<li><strong>第三方拆解质疑「工程+AI 非 OCR 独有」</strong>：递归 LLM-as-judge 也能达到类似护栏</li>
+</ol>
+
+<h3>何时不该选它</h3>
+
+<ul>
+<li>单人小项目 / 单 PR 级别 review（用 Sourcery / Cursor 更快）</li>
+<li>需要 GitHub 原生 PR 评论 UI（用 CodeRabbit）</li>
+<li>强 type system / taint flow 静态分析（用 SonarQube / Qodana，OCR 是互补不是替代）</li>
+<li>强实时 IDE live edit（OCR 是 review 工具，不是编码辅助）</li>
+</ul>
+
+<h2>行动建议</h2>
+
+<h3>如果你要用它</h3>
+
+<ul>
+<li><strong>CI 流水线集成</strong>：examples/github_actions / gitlab_ci / gerrit_ci 现成模板，~1 小时接入</li>
+<li><strong>本地模型</strong>：用 Ollama Cloud / LiteLLM 网关 / 自定义 OpenAI-兼容端点，<strong>model-agnostic 承诺是真的</strong></li>
+<li><strong>企业落地</strong>：从 GitHub Action → 自托管 runner → 完整 CI 集成三步走，参考 <code>setupCiEnv.sh</code></li>
+<li><strong>成本控制</strong>：先用 <code>ocr scan --estimate</code> 看账单再跑，<code>MaxTokensBudget</code> 边跑边停</li>
+</ul>
+
+<h3>如果你要学它</h3>
+
+<p><strong>重点关注文件</strong>（按重要性排序）：</p>
+
+<ol>
+<li><code>internal/agent/agent.go</code>（核心 Agent 循环，bundle sub-agent 调度、review_filter_task、resume 指纹续跑）</li>
+<li><code>internal/llmloop/compression.go</code>（三区异步压缩，黄金模板）</li>
+<li><code>internal/llmloop/pool.go</code>（异步 comment worker pool）</li>
+<li><code>internal/diff/{resolver,relocation}.go</code>（两阶段 line resolution）</li>
+<li><code>internal/config/rules/system_rules.go</code>（模板规则引擎）</li>
+<li><code>internal/config/template/template.go</code>（prompt 模板化）</li>
+<li><code>internal/llm/{protocol,resolver,providers}.go</code>（多 LLM 抽象）</li>
+<li><code>internal/tool/definitions.go</code>（Newtype Tool + Registry.Freeze 模式）</li>
+<li><code>internal/viewer/store.go + hostguard.go</code>（Session JSONL + DNS rebinding 防护）</li>
+<li><code>internal/scan/estimate.go</code>（成本预估 + MaxTokensBudget）</li>
+</ol>
+
+<h3>如果你要 fork 它</h3>
+
+<p>可改进方向（基于已识别的不足）：</p>
+
+<ol>
+<li><strong>#409 token 成本优化</strong>：bundle 拆分粒度自适应（小文件合并 / 大文件预筛），加 budget-aware concurrency</li>
+<li><strong>JS/Python/Go 规则补齐</strong>：把 Java 偏置的规则库做语言均衡</li>
+<li><strong>第二轮 LLM filter 的 cost/quality trade-off</strong>：可选关闭 review_filter_task 省 token（高级用户）</li>
+<li><strong>Cursor / Windsurf IDE 一等公民集成</strong>：当前 delegate mode 是过渡方案，原生 IDE live review 集成有空间</li>
+<li><strong>Webhook → 自动 review trigger</strong>：CI 集成之外的 GitHub/GitLab 原生 webhook 入口</li>
+<li><strong>distribute maintainer 团队</strong>：把 Lei Zhang / chethanuk 提升为 submodule owner，降低 bus factor</li>
+</ol>
+
+<h3>知识入口</h3>
+
+<p>| 资源 | 链接 |<br>|------|------|<br>| DeepWiki | <a href="https://deepwiki.com/alibaba/open-code-review">已收录</a>（10 大节 wiki，最后索引 2026-07-26 commit <code>74f5cde8</code>） |<br>| Zread.ai | 未收录 |<br>| 关联论文 | 无（未发表学术论文） |<br>| 在线 Demo | 无独立 playground；<code>npm install -g @alibaba-group/open-code-review && ocr review</code> 即用 |<br>| 官方文档 | <a href="https://open-codereview.ai/docs">https://open-codereview.ai/docs</a>（Quickstart / Installation / CLI Reference / Review Rules / Configuration / MCP / CI/CD / Session Viewer / Telemetry / FAQ） |<br>| 第三方拆解 | <a href="https://cloud.tencent.com/developer/article/2715243">Tencent Cloud「拆解」文</a>（5 项批判，争议点必读） |</p>
+
+<hr>
+
+<p><em>数据采集日期 2026-07-27，报告基于 Phase 1（网络分析）+ Phase 2（元分析）+ Phase 3（内容分析）三阶段结构化摘要组装。中间产物 <code>tmp/open-code-review-{phase}-analysis.md</code> 与确定性数据 <code>tmp/repo-facts-open-code-review.json</code> 已落盘。</em></p>
+</body>
+</html>

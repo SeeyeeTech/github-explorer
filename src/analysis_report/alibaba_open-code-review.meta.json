@@ -1,0 +1,6 @@
+{
+  "title": "阿里开源 OpenCodeReview：13K stars + 1/9 token 的确定性 × Agent 审查引擎",
+  "digest": "阿里内部 2 年 AI Code Review 平台 Apache-2.0 开源，2.3 月 13K stars。靠「确定性工程 + Agent」混合架构，~1/9 token 与更高 Precision/F1，LLM 时代 ESLint。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

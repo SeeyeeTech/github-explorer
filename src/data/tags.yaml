@@ -1717,6 +1717,8 @@ entries:
   - security
   penpot_penpot:
   - design-ui
+  permissionlesstech_bitchat:
+  - protocol-spec
   peterc_engblogs:
   - database
   phuryn_pm-skills:
@@ -2360,6 +2362,8 @@ entries:
   - video-audio
   - protocol-spec
   yimmenu_yimmenuv2:
+  - uncategorized
+  yorukot_superfile:
   - uncategorized
   yt-dlp_yt-dlp:
   - video-audio

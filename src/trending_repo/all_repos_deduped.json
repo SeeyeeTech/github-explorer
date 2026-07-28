@@ -330,6 +330,16 @@
     "trending_days": 15
   },
   {
+    "name": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ecc",
+    "language": "JavaScript",
+    "stars": 234465,
+    "forks": 35738,
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "last_seen": "2026-07-28",
+    "trending_days": 15
+  },
+  {
     "name": "aquasecurity/trivy",
     "url": "https://github.com/aquasecurity/trivy",
     "language": "Go",
@@ -350,6 +360,16 @@
     "trending_days": 15
   },
   {
+    "name": "moeru-ai/airi",
+    "url": "https://github.com/moeru-ai/airi",
+    "language": "TypeScript",
+    "stars": 44502,
+    "forks": 4430,
+    "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+    "last_seen": "2026-07-28",
+    "trending_days": 15
+  },
+  {
     "name": "mvanhorn/last30days-skill",
     "url": "https://github.com/mvanhorn/last30days-skill",
     "language": "Python",
@@ -367,16 +387,6 @@
     "forks": 7008,
     "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
     "last_seen": "2026-03-09",
-    "trending_days": 14
-  },
-  {
-    "name": "affaan-m/ECC",
-    "url": "https://github.com/affaan-m/ecc",
-    "language": "JavaScript",
-    "stars": 233072,
-    "forks": 35525,
-    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "last_seen": "2026-07-25",
     "trending_days": 14
   },
   {
@@ -427,16 +437,6 @@
     "forks": 9725,
     "description": "Python tool for converting files and office documents to Markdown.",
     "last_seen": "2026-06-03",
-    "trending_days": 14
-  },
-  {
-    "name": "moeru-ai/airi",
-    "url": "https://github.com/moeru-ai/airi",
-    "language": "TypeScript",
-    "stars": 43756,
-    "forks": 4378,
-    "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
-    "last_seen": "2026-07-27",
     "trending_days": 14
   },
   {
@@ -1560,6 +1560,16 @@
     "trending_days": 6
   },
   {
+    "name": "bradautomates/claude-video",
+    "url": "https://github.com/bradautomates/claude-video",
+    "language": "Python",
+    "stars": 11664,
+    "forks": 1182,
+    "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+    "last_seen": "2026-07-28",
+    "trending_days": 6
+  },
+  {
     "name": "browserbase/skills",
     "url": "https://github.com/browserbase/skills",
     "language": "JavaScript",
@@ -1960,6 +1970,16 @@
     "trending_days": 6
   },
   {
+    "name": "pascalorg/editor",
+    "url": "https://github.com/pascalorg/editor",
+    "language": "TypeScript",
+    "stars": 18293,
+    "forks": 2498,
+    "description": "Create and share 3D architectural projects.",
+    "last_seen": "2026-07-28",
+    "trending_days": 6
+  },
+  {
     "name": "pbakaus/impeccable",
     "url": "https://github.com/pbakaus/impeccable",
     "language": "JavaScript",
@@ -2160,6 +2180,16 @@
     "trending_days": 5
   },
   {
+    "name": "andrewyng/aisuite",
+    "url": "https://github.com/andrewyng/aisuite",
+    "language": "Python",
+    "stars": 15573,
+    "forks": 1649,
+    "description": "Simple, unified interface to multiple Generative AI providers",
+    "last_seen": "2026-07-28",
+    "trending_days": 5
+  },
+  {
     "name": "anomalyco/opencode",
     "url": "https://github.com/anomalyco/opencode",
     "language": "TypeScript",
@@ -2197,16 +2227,6 @@
     "forks": 936,
     "description": "Get 10X more out of Claude Code, Codex or any coding agent",
     "last_seen": "2026-01-01",
-    "trending_days": 5
-  },
-  {
-    "name": "bradautomates/claude-video",
-    "url": "https://github.com/bradautomates/claude-video",
-    "language": "Python",
-    "stars": 10728,
-    "forks": 1115,
-    "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
-    "last_seen": "2026-07-27",
     "trending_days": 5
   },
   {
@@ -2520,16 +2540,6 @@
     "trending_days": 5
   },
   {
-    "name": "pascalorg/editor",
-    "url": "https://github.com/pascalorg/editor",
-    "language": "TypeScript",
-    "stars": 15746,
-    "forks": 2075,
-    "description": "Create and share 3D architectural projects.",
-    "last_seen": "2026-05-19",
-    "trending_days": 5
-  },
-  {
     "name": "phuryn/pm-skills",
     "url": "https://github.com/phuryn/pm-skills",
     "language": "Unknown",
@@ -2797,16 +2807,6 @@
     "forks": 318,
     "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model - Local Wispr Flow alternative. One ⭐ takes us a long way :)) Windows, iOS and Linux coming soon.",
     "last_seen": "2026-07-01",
-    "trending_days": 4
-  },
-  {
-    "name": "andrewyng/aisuite",
-    "url": "https://github.com/andrewyng/aisuite",
-    "language": "Python",
-    "stars": 15313,
-    "forks": 1622,
-    "description": "Simple, unified interface to multiple Generative AI providers",
-    "last_seen": "2026-07-26",
     "trending_days": 4
   },
   {
@@ -3660,6 +3660,16 @@
     "trending_days": 4
   },
   {
+    "name": "yorukot/superfile",
+    "url": "https://github.com/yorukot/superfile",
+    "language": "Go",
+    "stars": 21206,
+    "forks": 681,
+    "description": "Pretty fancy and modern terminal file manager",
+    "last_seen": "2026-07-28",
+    "trending_days": 4
+  },
+  {
     "name": "z-lab/dflash",
     "url": "https://github.com/z-lab/dflash",
     "language": "Python",
@@ -4337,6 +4347,16 @@
     "forks": 443,
     "description": "Jellyfin Desktop Client",
     "last_seen": "2025-12-17",
+    "trending_days": 3
+  },
+  {
+    "name": "jenkinsci/jenkins",
+    "url": "https://github.com/jenkinsci/jenkins",
+    "language": "Java",
+    "stars": 25981,
+    "forks": 9681,
+    "description": "Jenkins automation server",
+    "last_seen": "2026-07-28",
     "trending_days": 3
   },
   {
@@ -5117,16 +5137,6 @@
     "forks": 508,
     "description": "Access your entire server infrastructure from your local desktop",
     "last_seen": "2026-01-10",
-    "trending_days": 3
-  },
-  {
-    "name": "yorukot/superfile",
-    "url": "https://github.com/yorukot/superfile",
-    "language": "Go",
-    "stars": 20602,
-    "forks": 653,
-    "description": "Pretty fancy and modern terminal file manager",
-    "last_seen": "2026-07-27",
     "trending_days": 3
   },
   {
@@ -6267,16 +6277,6 @@
     "forks": 2344,
     "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
     "last_seen": "2025-11-01",
-    "trending_days": 2
-  },
-  {
-    "name": "jenkinsci/jenkins",
-    "url": "https://github.com/jenkinsci/jenkins",
-    "language": "Java",
-    "stars": 25814,
-    "forks": 9665,
-    "description": "Jenkins automation server",
-    "last_seen": "2026-07-27",
     "trending_days": 2
   },
   {
@@ -9180,6 +9180,16 @@
     "trending_days": 1
   },
   {
+    "name": "huggingface/speech-to-speech",
+    "url": "https://github.com/huggingface/speech-to-speech",
+    "language": "Python",
+    "stars": 6819,
+    "forks": 932,
+    "description": "Build local voice agents with open-source models",
+    "last_seen": "2026-07-28",
+    "trending_days": 1
+  },
+  {
     "name": "hugohe3/ppt-master",
     "url": "https://github.com/hugohe3/ppt-master",
     "language": "Python",
@@ -9760,6 +9770,16 @@
     "trending_days": 1
   },
   {
+    "name": "microsoft/agent-governance-toolkit",
+    "url": "https://github.com/microsoft/agent-governance-toolkit",
+    "language": "Python",
+    "stars": 4993,
+    "forks": 830,
+    "description": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
+    "last_seen": "2026-07-28",
+    "trending_days": 1
+  },
+  {
     "name": "microsoft/mcp-for-beginners",
     "url": "https://github.com/microsoft/mcp-for-beginners",
     "language": "JupyterNotebook",
@@ -10230,6 +10250,16 @@
     "trending_days": 1
   },
   {
+    "name": "opengeos/GeoLibre",
+    "url": "https://github.com/opengeos/geolibre",
+    "language": "TypeScript",
+    "stars": 3069,
+    "forks": 372,
+    "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+    "last_seen": "2026-07-28",
+    "trending_days": 1
+  },
+  {
     "name": "OpenMind/OM1",
     "url": "https://github.com/openmind/om1",
     "language": "Python",
@@ -10327,6 +10357,16 @@
     "forks": 5954,
     "description": "PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署）",
     "last_seen": "2026-02-28",
+    "trending_days": 1
+  },
+  {
+    "name": "paperswithbacktest/awesome-systematic-trading",
+    "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+    "language": "Python",
+    "stars": 9199,
+    "forks": 1280,
+    "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+    "last_seen": "2026-07-28",
     "trending_days": 1
   },
   {
@@ -11187,6 +11227,16 @@
     "forks": 1256,
     "description": "The open agent skills tool - npx skills",
     "last_seen": "2026-04-22",
+    "trending_days": 1
+  },
+  {
+    "name": "virgiliojr94/book-to-skill",
+    "url": "https://github.com/virgiliojr94/book-to-skill",
+    "language": "Python",
+    "stars": 10791,
+    "forks": 1300,
+    "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+    "last_seen": "2026-07-28",
     "trending_days": 1
   },
   {

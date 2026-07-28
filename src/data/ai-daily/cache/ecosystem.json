@@ -1,75 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-07-27",
+    "last_run": "2026-07-28",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/simplex-chat/simplex-chat",
-      "canonical_url": "https://github.com/simplex-chat/simplex-chat",
-      "event_date": "2026-06-27",
-      "date_seen": "2026-06-27"
-    },
-    {
-      "key": "github.com/commaai/openpilot",
-      "canonical_url": "https://github.com/commaai/openpilot",
-      "event_date": "2026-06-27",
-      "date_seen": "2026-06-27"
-    },
-    {
-      "key": "github.com/icewhaletech/casaos",
-      "canonical_url": "https://github.com/IceWhaleTech/CasaOS",
-      "event_date": "2026-06-27",
-      "date_seen": "2026-06-27"
-    },
-    {
-      "key": "github.com/ripienaar/free-for-dev",
-      "canonical_url": "https://github.com/ripienaar/free-for-dev",
-      "event_date": "2026-06-27",
-      "date_seen": "2026-06-27"
-    },
-    {
-      "key": "github.com/hugohe3/ppt-master",
-      "canonical_url": "https://github.com/hugohe3/ppt-master",
-      "event_date": "2026-06-27",
-      "date_seen": "2026-06-27"
-    },
-    {
-      "key": "github.com/tapxworld/chinatextbook",
-      "canonical_url": "https://github.com/tapxworld/chinatextbook",
-      "event_date": "2026-06-27",
-      "date_seen": "2026-06-27"
-    },
-    {
-      "key": "github.com/nvm-sh/nvm",
-      "canonical_url": "https://github.com/nvm-sh/nvm",
-      "event_date": "2026-06-27",
-      "date_seen": "2026-06-27"
-    },
-    {
-      "key": "github.com/iptv-org/iptv",
-      "canonical_url": "https://github.com/iptv-org/iptv",
-      "event_date": "2026-06-27",
-      "date_seen": "2026-06-27"
-    },
-    {
-      "key": "github.com/yeongpin/cursor-free-vip",
-      "canonical_url": "https://github.com/yeongpin/cursor-free-vip",
-      "event_date": "2026-06-27",
-      "date_seen": "2026-06-27"
-    },
-    {
-      "key": "github.com/yangshun/tech-interview-handbook",
-      "canonical_url": "https://github.com/yangshun/tech-interview-handbook",
-      "event_date": "2026-06-27",
-      "date_seen": "2026-06-27"
-    },
-    {
-      "key": "github.com/bobeff/open-source-games",
-      "canonical_url": "https://github.com/bobeff/open-source-games",
-      "event_date": "2026-06-27",
-      "date_seen": "2026-06-27"
-    },
     {
       "key": "github.com/robbyant/lingbot-map",
       "canonical_url": "https://github.com/Robbyant/lingbot-map",
@@ -981,6 +915,24 @@
       "canonical_url": "https://github.com/cabinetai/cabinet",
       "event_date": "2026-07-27",
       "date_seen": "2026-07-27"
+    },
+    {
+      "key": "github.com/microsoft/agent-governance-toolkit",
+      "canonical_url": "https://github.com/microsoft/agent-governance-toolkit",
+      "event_date": null,
+      "date_seen": "2026-07-28"
+    },
+    {
+      "key": "github.com/huggingface/speech-to-speech",
+      "canonical_url": "https://github.com/huggingface/speech-to-speech",
+      "event_date": null,
+      "date_seen": "2026-07-28"
+    },
+    {
+      "key": "github.com/virgiliojr94/book-to-skill",
+      "canonical_url": "https://github.com/virgiliojr94/book-to-skill",
+      "event_date": null,
+      "date_seen": "2026-07-28"
     }
   ]
 }

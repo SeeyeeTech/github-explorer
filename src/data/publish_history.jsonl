@@ -266,3 +266,4 @@
 {"recorded_at": "2026-07-27T02:22:11.268275+00:00", "slug": "alibaba_open-code-review", "title": null, "state": "published", "published_at": "2026-07-27", "reason": "自动生成", "ci_run_id": "30230979575"}
 {"recorded_at": "2026-07-27T23:07:23.248517+00:00", "slug": "permissionlesstech_bitchat", "title": null, "state": "published", "published_at": "2026-07-27", "reason": "自动生成", "ci_run_id": "30312175440"}
 {"recorded_at": "2026-07-28T00:12:48.290508+00:00", "slug": "yorukot_superfile", "title": null, "state": "published", "published_at": "2026-07-28", "reason": "自动生成", "ci_run_id": "30315673740"}
+{"recorded_at": "2026-07-28T22:22:22.412994+00:00", "slug": "jenkinsci_jenkins", "title": null, "state": "published", "published_at": "2026-07-28", "reason": "自动生成", "ci_run_id": "30403128197"}

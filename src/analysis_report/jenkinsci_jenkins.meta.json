@@ -1,0 +1,6 @@
+{
+  "title": "GitHub推荐：26k stars、1,800 插件：Jenkins 单例控制器如何扛住 20 年",
+  "digest": "Jenkins 凭「单例控制器 + 插件 ClassLoader 隔离 + 注解扩展 + Remote Callable」四件套，撑起 1,800+ 插件与 20 年生产验证，是可扩展系统设计的长期教科书。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

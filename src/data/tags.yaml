@@ -1101,6 +1101,8 @@ entries:
   - iot-hardware
   jellyfin_jellyfin-desktop:
   - uncategorized
+  jenkinsci_jenkins:
+  - uncategorized
   jiayi-pan_tinyzero:
   - model-foundation
   jina-ai_reader:

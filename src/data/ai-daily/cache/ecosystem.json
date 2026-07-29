@@ -1,45 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-07-28",
+    "last_run": "2026-07-29",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/robbyant/lingbot-map",
-      "canonical_url": "https://github.com/Robbyant/lingbot-map",
-      "event_date": "2026-06-28",
-      "date_seen": "2026-06-28"
-    },
-    {
-      "key": "github.com/hkuds/vibe-trading",
-      "canonical_url": "https://github.com/HKUDS/Vibe-Trading",
-      "event_date": "2026-06-28",
-      "date_seen": "2026-06-28"
-    },
-    {
-      "key": "github.com/browser-use/video-use",
-      "canonical_url": "https://github.com/browser-use/video-use",
-      "event_date": "2026-06-28",
-      "date_seen": "2026-06-28"
-    },
-    {
-      "key": "github.com/z-lab/dflash",
-      "canonical_url": "https://github.com/z-lab/dflash",
-      "event_date": "2026-06-28",
-      "date_seen": "2026-06-28"
-    },
-    {
-      "key": "github.com/deepseek-ai/deepspec",
-      "canonical_url": "https://github.com/deepseek-ai/deepspec",
-      "event_date": "2026-06-28",
-      "date_seen": "2026-06-28"
-    },
-    {
-      "key": "github.com/sgl-project/specforge",
-      "canonical_url": "https://github.com/sgl-project/specforge",
-      "event_date": "2026-06-28",
-      "date_seen": "2026-06-28"
-    },
     {
       "key": "github.com/sandai-org/magi-1",
       "canonical_url": "https://github.com/sandai-org/magi-1",
@@ -933,6 +897,24 @@
       "canonical_url": "https://github.com/virgiliojr94/book-to-skill",
       "event_date": null,
       "date_seen": "2026-07-28"
+    },
+    {
+      "key": "github.com/different-ai/openwork",
+      "canonical_url": "https://github.com/different-ai/openwork",
+      "event_date": "2026-07-29",
+      "date_seen": "2026-07-29"
+    },
+    {
+      "key": "github.com/maderix/ane",
+      "canonical_url": "https://github.com/maderix/ANE",
+      "event_date": "2026-07-29",
+      "date_seen": "2026-07-29"
+    },
+    {
+      "key": "github.com/rhaiscript/rhai",
+      "canonical_url": "https://github.com/rhaiscript/rhai",
+      "event_date": "2026-07-29",
+      "date_seen": "2026-07-29"
     }
   ]
 }

@@ -1,39 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-07-29",
+    "last_run": "2026-07-30",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/sandai-org/magi-1",
-      "canonical_url": "https://github.com/sandai-org/magi-1",
-      "event_date": "2026-06-29",
-      "date_seen": "2026-06-29"
-    },
-    {
-      "key": "github.com/sandai-org/magicompiler",
-      "canonical_url": "https://github.com/sandai-org/magicompiler",
-      "event_date": "2026-06-29",
-      "date_seen": "2026-06-29"
-    },
-    {
-      "key": "github.com/jeremytregunna/foldb",
-      "canonical_url": "https://github.com/jeremytregunna/foldb",
-      "event_date": "2026-06-29",
-      "date_seen": "2026-06-29"
-    },
-    {
-      "key": "github.com/unclecheng-li/vulnclaw",
-      "canonical_url": "https://github.com/Unclecheng-li/VulnClaw",
-      "event_date": "2026-06-29",
-      "date_seen": "2026-06-29"
-    },
-    {
-      "key": "github.com/0xnyk/council-of-high-intelligence",
-      "canonical_url": "https://github.com/0xNyk/council-of-high-intelligence",
-      "event_date": "2026-06-29",
-      "date_seen": "2026-06-29"
-    },
     {
       "key": "github.com/diegosouzapw/omniroute",
       "canonical_url": "https://github.com/diegosouzapw/OmniRoute",
@@ -915,6 +885,24 @@
       "canonical_url": "https://github.com/rhaiscript/rhai",
       "event_date": "2026-07-29",
       "date_seen": "2026-07-29"
+    },
+    {
+      "key": "github.com/microsoft/ai-for-beginners",
+      "canonical_url": "https://github.com/microsoft/AI-For-Beginners",
+      "event_date": "2026-07-30",
+      "date_seen": "2026-07-30"
+    },
+    {
+      "key": "github.com/microsoft/powertoys",
+      "canonical_url": "https://github.com/microsoft/PowerToys",
+      "event_date": "2026-07-30",
+      "date_seen": "2026-07-30"
+    },
+    {
+      "key": "https://seeyeetech.com/github-explorer/reports/microsoft_powertoys",
+      "canonical_url": "https://seeyeetech.com/github-explorer/reports/microsoft_powertoys",
+      "event_date": "2026-07-30",
+      "date_seen": "2026-07-30"
     }
   ]
 }

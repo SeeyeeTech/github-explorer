@@ -1,0 +1,6 @@
+{
+  "title": "14 年 70k Star：Ansible 凭什么打败 Puppet、Chef 与 Salt？",
+  "digest": "Ansible 用 agentless、SSH 与 YAML 把部署摩擦降到最低，并以瘦核心、插件体系和 Collection 生态成为运维自动化事实标准。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

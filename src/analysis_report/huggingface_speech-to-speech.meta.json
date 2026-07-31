@@ -1,0 +1,6 @@
+{
+  "title": "HF 官方语音 Agent 框架：640 commits 把 OpenAI Realtime 协议塞进开源级联栈",
+  "digest": "HF 官方 voice agent 旗舰，唯一在「开源级联栈 + OpenAI Realtime 协议兼容」交集下同时支持 STT/TTS/LLM 任意替换，640 commits 已用于 Reachy Mini 量产。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

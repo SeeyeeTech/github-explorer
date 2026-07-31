@@ -270,3 +270,4 @@
 {"recorded_at": "2026-07-30T22:07:50.320988+00:00", "slug": "ansible_ansible", "title": null, "state": "published", "published_at": "2026-07-30", "reason": "自动生成", "ci_run_id": "30585464302"}
 {"recorded_at": "2026-07-30T23:19:05.313588+00:00", "slug": "microsoft_ai-for-beginners", "title": null, "state": "published", "published_at": "2026-07-30", "reason": "自动生成", "ci_run_id": "30589546469"}
 {"recorded_at": "2026-07-31T02:04:23.361054+00:00", "slug": "paperswithbacktest_awesome-systematic-trading", "title": null, "state": "published", "published_at": "2026-07-31", "reason": "自动生成", "ci_run_id": "30597424235"}
+{"recorded_at": "2026-07-31T05:41:34.317479+00:00", "slug": "huggingface_speech-to-speech", "title": null, "state": "published", "published_at": "2026-07-31", "reason": "自动生成", "ci_run_id": "30606748299"}

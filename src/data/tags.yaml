@@ -169,6 +169,10 @@ entries:
   - ai-agent
   - ai-coding
   - devtools
+  ansible_ansible:
+  - ai-agent
+  - workflow-automation
+  - protocol-spec
   anthropic-experimental_sandbox-runtime:
   - ai-agent
   - ai-coding
@@ -987,6 +991,11 @@ entries:
   huggingface_smolagents:
   - ai-agent
   - protocol-spec
+  huggingface_speech-to-speech:
+  - ai-agent
+  - devtools
+  - media-generation
+  - protocol-spec
   humanlayer_humanlayer:
   - ai-agent
   - ai-coding
@@ -1342,6 +1351,9 @@ entries:
   - education
   - video-audio
   - protocol-spec
+  microsoft_ai-for-beginners:
+  - workflow-automation
+  - education
   microsoft_bitnet:
   - llm-inference
   - model-foundation
@@ -1699,6 +1711,10 @@ entries:
   - rag-search
   - protocol-spec
   - security
+  paperswithbacktest_awesome-systematic-trading:
+  - llm-inference
+  - trading-finance
+  - video-audio
   pascalorg_editor:
   - ai-agent
   - editor-kms

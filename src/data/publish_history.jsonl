@@ -273,3 +273,4 @@
 {"recorded_at": "2026-07-31T05:41:34.317479+00:00", "slug": "huggingface_speech-to-speech", "title": null, "state": "published", "published_at": "2026-07-31", "reason": "自动生成", "ci_run_id": "30606748299"}
 {"recorded_at": "2026-07-31T22:07:04.386678+00:00", "slug": "different-ai_openwork", "title": null, "state": "published", "published_at": "2026-07-31", "reason": "自动生成", "ci_run_id": "30668305780"}
 {"recorded_at": "2026-08-01T21:55:16.287713+00:00", "slug": "microsoft_generative-ai-for-beginners", "title": null, "state": "published", "published_at": "2026-08-01", "reason": "自动生成", "ci_run_id": "30719739294"}
+{"recorded_at": "2026-08-01T23:00:02.654232+00:00", "slug": "tencentcloud_tencentdb-agent-memory", "title": null, "state": "published", "published_at": "2026-08-01", "reason": "自动生成", "ci_run_id": "30721885664"}

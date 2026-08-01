@@ -596,6 +596,11 @@ entries:
   diegosouzapw_omniroute:
   - ai-coding
   - devtools
+  different-ai_openwork:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - protocol-spec
   digitalplatdev_freedomain:
   - uncategorized
   dioxuslabs_awesome-dioxus:

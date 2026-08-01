@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+<blockquote>
+<p>GitHub: <a href="https://github.com/microsoft/generative-ai-for-beginners">https://github.com/microsoft/generative-ai-for-beginners</a></p>
+</blockquote>
+<h2>一句话总结</h2>
+<p>微软 Cloud Advocates 用 21 节课程、22 个 Jupyter Notebook、165 名贡献者、55 语种自动翻译，把一份 GenAI 入门教程做成「端到端 + 多语言 + 多后端」的官方 anchor reference——同时也是 Azure / Microsoft Foundry 商业产品的开发者 onboarding funnel。</p>
+<h2>值得关注的理由</h2>
+<ul>
+<li><strong>品牌复利价值</strong>：114K stars、37.5 个月持续迭代、4 名 Microsoft Cloud Advocate 核心维护者，是 GitHub 上 LLM 应用入门赛道的头部官方教程，入门者绕不开。</li>
+<li><strong>「教学仓库即 funnel」的工程化范式</strong>：每个 microsoft.com / aka.ms / azure.com 链接强制带 <code>?WT.mc_id=academic-105485-koreyst</code> 营销参数，由 <code>validate-markdown.yml</code> 在 PR 阶段强制校验，把 OSS 营销做成了 CI 规则。</li>
+<li><strong>AI 时代的新型仓库资产</strong>：<code>.github/skills/azure-openai-to-responses/</code> 是入仓的、面向 Claude/Copilot 的迁移 playbook，由它驱动了 2026-07-06 的 Chat Completions → Responses API 全仓重构——「把 skill 入仓给 agent 用」是 SDK 大版本迁移的全新范式。</li>
+</ul>
+<h2>项目展示</h2>
+<p><img src="https://raw.githubusercontent.com/microsoft/generative-ai-for-beginners/main/images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst" alt="Generative AI For Beginners hero"></p>
+<p><em>仓库门面图，21 节课程 + Python/TypeScript 双语代码 + Microsoft Foundry / Azure OpenAI / Foundry Local / OpenAI 4 后端可选</em></p>
+<h2>项目画像</h2>
+<table>
+<thead>
+<tr><th>维度</th><th>数据</th></tr>
+</thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/microsoft/generative-ai-for-beginners">https://github.com/microsoft/generative-ai-for-beginners</a></td></tr>
+<tr><td>Star / Fork</td><td>114,158 / 61,211</td></tr>
+<tr><td>代码行数</td><td>13,915 代码行 + 231,698 注释行（教学课程故极高 comment ratio），3,903 文件（实质可执行 ~2k Python + ~650 JS/TS）</td></tr>
+<tr><td>主语言</td><td>Jupyter Notebook 99.7%（GitHub 视角）；tokei 视角下 Python 12.8% + JS/TS 4.6%</td></tr>
+<tr><td>项目年龄</td><td>37.5 个月（2023-06-19 至今）</td></tr>
+<tr><td>开发阶段</td><td>密集开发（last 30d 103 commits / 90d 153 / 365d 874）</td></tr>
+<tr><td>贡献模式</td><td>公司组织主理（Microsoft Cloud Advocates 团队）+ 社区翻译协作（165 贡献者，bot 占比 24.2%）</td></tr>
+<tr><td>热度定位</td><td>大众热门（114K stars，处于 GitHub AI 教育类项目头部）</td></tr>
+<tr><td>质量评级</td><td>代码 良好（shared/ 严格 ruff+black+pytest+mypy）/ 文档 优秀（README + CHANGELOG + CONTRIBUTING + AGENTS）/ 测试 基本（41 pytest 限 shared/）</td></tr>
+</tbody>
+</table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>这是 Microsoft <strong>Organization</strong> 账号下的官方项目，不是个人作品。核心维护者 koreyst（Korey Stegared-Pace）、leestott（Lee Stott）、skytin1004、koreyspace 都是 <strong>Microsoft Cloud Advocates</strong> 团队成员——他们的本职就是「让开发者上 Azure」。README 致谢中特别点名的 John Aziz（所有 GitHub Actions 流水线作者）、Bernhard Merkle（每节课代码改进者）也都是 Microsoft 员工。</p>
+<p>这意味着该项目不是「中立教学仓」，而是 Microsoft 开发者 onboarding funnel 的入口层。<strong>README 的每条 microsoft.com / aka.ms / azure.com 链接都强制带 <code>?WT.mc_id=academic-105485-koreyst</code> 营销参数</strong>，把 OSS 项目当作可度量转化的 funnel 在做——而不是把它当成「公益教程」。</p>
+<h3>问题判断</h3>
+<p>团队自己 dogfooding 出了三个痛点：</p>
+<ol>
+<li><strong>课程与商业脱节</strong>：GitHub Models 平台是 Microsoft 自家入门工具，但外部开发者搞不清它和 Azure OpenAI、OpenAI API 的关系，需要一份「能跨厂商后端跑通」的统一课程。</li>
+<li><strong>GenAI 入门市场碎片化</strong>：DeepLearning.AI Short Courses 是单点概念演示；fast.ai / Hugging Face 偏传统 ML；NirDiamant/RAG_Techniques 是 RAG 单点深耕。市场缺一个「同栈 + 端到端 + 双语（Python/TS）+ 多厂商后端可切换」的 anchor reference。</li>
+<li><strong>教学仓库难维护</strong>：模型生命周期迭代极快（<code>gpt-4o-mini</code> 2026-10-01 退役、<code>dall-e-3</code> 从 Azure 目录移除、GPT-5 强制 Responses API），传统按版本号发布的课程会瞬间过时；需要「滚动课程（rolling curriculum）」机制。</li>
+</ol>
+<h3>解法哲学</h3>
+<p>AGENTS.md 明确「这是教学仓库，不是生产代码」，所有示例都以可读性为先而非鲁棒性。具体取舍：</p>
+<ul>
+<li><strong>「简单 &gt; 功能完整」</strong>（Unix 教学哲学）：每个 lesson 子目录独立、自包含、无 framework 重型抽象；samples 用 <code># pylint: disable=all</code> 注释明确放弃 lint 完整度。</li>
+<li><strong>「开放 &gt; 封闭」</strong>：同时支持 Azure OpenAI、OpenAI、Microsoft Foundry Models、Foundry Local 4 个后端，每个 lesson 提供 <code>aoai-*</code> / <code>oai-*</code> / <code>githubmodels-*</code> 前缀并列文件。</li>
+<li><strong>「时新 &gt; 稳定」</strong>：CHANGELOG 显示仓库会因模型生命周期<strong>主动重构</strong>——<code>gpt-4o-mini</code> → <code>gpt-5-mini</code>、DALL·E 2/3 → <code>gpt-image-2</code>、Chat Completions → Responses API 都是 2026 上半年的主动选择。</li>
+<li><strong>明确不做什么</strong>：不做 release / tag（rolling on main）；不做重 CI（lesson samples 只 advisory lint）；不接 Assistants API（被 Responses API 取代）。</li>
+</ul>
+<h3>战略意图</h3>
+<p>这是 Microsoft 开发者 onboarding 基础设施的一部分——README「Other Courses」一段罗列 <strong>13+ 个姐妹仓</strong>（LangChain 三件套、AZD、Edge AI、MCP、AI Agents、Generative AI .NET/Java/JS、ML/AI/Data Science for Beginners、Cybersecurity、Web Dev、IoT、XR、Copilot 系列），构成完整的「Microsoft 开发者课程矩阵」。</p>
+<p>商业意图很直白：<strong>课程免费，但把开发者导向 Azure 商业产品</strong>——README「Building a Startup?」直接链 Microsoft for Startups 申请 Azure credits。</p>
+<blockquote>
+<p>官方文档洞察：README 指向 <code>aka.ms/genai-beginners</code> 短链与 <code>microsoft.github.io/generative-ai-for-beginners/</code> GitHub Pages 站点。<strong>Zread.ai 已收录</strong>完整 wiki（Devin 自动生成于 2026-06-24）；DeepWiki 收录但页面受限。</p>
+</blockquote>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<p>按新颖度×实用性排序：</p>
+<ol>
+<li><strong>Agent Skill 入仓作为迁移 playbook</strong>（新颖度 4/5，实用性 5/5，可迁移性 5/5）— <code>.github/skills/azure-openai-to-responses/</code> 是入仓的、面向 Claude/Copilot 的迁移 playbook，含触发条件、before/after 对照、验收标准。<strong>由它驱动了 2026-07-06 的 Chat Completions → Responses API 全仓重构</strong>。任何「SDK 大版本迁移」项目可直接复用。</li>
+<li><strong>「分层 CI 严格度」</strong>（新颖度 3/5，实用性 5/5，可迁移性 5/5）— ruff + black + pytest 在 <code>shared/</code> 强制失败，在 lesson samples <code>continue-on-error: true</code> 仅提示；CodeQL 每周 cron 跑。教学 / 文档占主体的项目可直接复用。</li>
+<li><strong>多 provider 并列文件命名</strong>（新颖度 3/5，实用性 4/5，可迁移性 4/5）— 不抽象 Provider 接口，而是文件名前缀区分（<code>aoai-*</code> / <code>oai-*</code> / <code>githubmodels-*</code>），运行时通过 <code>.env</code> 选择。教学项目 / 多后端 SDK 兼容性代码可直接复用。</li>
+<li><strong><code>shared/python/input_validation.py</code> 的 prompt-injection sanitizer</strong>（新颖度 3/5，实用性 4/5，可迁移性 4/5）— 教学仓库主动引入 OWASP-style 输入清洗（<code>{{...}}</code> / <code>${...}</code> / <code>&lt;script&gt;</code> / <code>javascript:</code> 正则过滤），README 13（Securing AI）教学对应落地。任何用户输入直接拼到 prompt 的初学者 demo 都该借鉴。</li>
+<li><strong>「tracking ID 必填」作为营销 funnel 硬约束</strong>（新颖度 2/5，实用性 4/5，可迁移性 3/5）— <code>validate-markdown.yml</code> 4 个 job 检查 tracking、本地化、相对路径、broken link。任何带 marketing KPI 的开源项目可直接复制。</li>
+</ol>
+<h3>可复用的模式与技巧</h3>
+<ol>
+<li><strong>编号课程目录 + 三语言并列 + provider 前缀</strong> — 顶层 22 个 <code>00-course-setup/</code> ~ <code>21-meta/</code> 目录，每节独立子目录、自包含；同概念 Python/TypeScript/.NET 各写一遍。教学项目结构模板。</li>
+<li><strong><code>.github/skills/</code> 入仓 agent playbook</strong> — 让 AI 协助代码迁移，比写一份长篇迁移指南更适合 AI 时代。SDK 大版本升级场景通用。</li>
+<li><strong>CI 分层严格度（maintained / advisory）</strong> — 「代码标准」按模块严格度分层，避免 lesson 06 改一个字就让 50+ 翻译 PR 失败。文档占主体的开源项目通用。</li>
+<li><strong><code>.env.copy</code> 模板 + <code>get_required_env()</code></strong> — 教学仓库的密钥管理：缺失即抛带说明的 ValueError，新手第一次跑就知道哪里出问题。任何教 API Key 配置的样例项目通用。</li>
+<li><strong><code>shared/python/</code> 工具化 + lesson 自包含</strong> — 双层复用结构：横向共享工具（<code>env_utils.py</code> / <code>api_utils.py</code> / <code>input_validation.py</code>），纵向每课独立子目录。多课程、多示例但共享工具的项目通用。</li>
+<li><strong><code># CO-OP TRANSLATOR LANGUAGES TABLE START/END</code> 锚点</strong> — 让自动翻译工具识别可翻译块，55 语种 PR 自动化。i18n 重的开源项目通用。</li>
+</ol>
+<h3>关键设计决策</h3>
+<table>
+<thead>
+<tr><th>决策</th><th>方案</th><th>取舍</th><th>可迁移性</th></tr>
+</thead>
+<tbody>
+<tr><td>三语言并列（Python + TS + 可选 .NET）</td><td>同一概念写 3 次，文件命名带后端前缀</td><td>代码重复（每次模型升级要同步改三份）换零依赖切换与可读性</td><td>高</td></tr>
+<tr><td>强制 marketing tracking</td><td><code>validate-markdown.yml</code> 4 job 校验 <code>?WT.mc_id=</code></td><td>贡献者必须手动加 tracking，贡献摩擦变大，换 funnel 可观测</td><td>高</td></tr>
+<tr><td>教学简化 vs 工程严谨分两层</td><td><code>shared/</code> 强制 ruff+black+pytest，lesson samples <code>continue-on-error: true</code></td><td>课程样例可能不符合 PEP 8，换 CI 通过率</td><td>中</td></tr>
+<tr><td>Agent Skill 入仓</td><td><code>.github/skills/azure-openai-to-responses/</code> SKILL.md + cheat-sheet</td><td>skill 维护成本，换 AI 时代最佳迁移范式</td><td>高</td></tr>
+<tr><td>模型生命周期追踪嵌入 AGENTS.md</td><td>「Model conventions」段把模型族、reasoning 参数、provider 后端约定写成机器可读 rules</td><td>仓库对推理模型有强假设</td><td>高</td></tr>
+<tr><td>0/1 编号 + Learn/Build 标签 + 5 阶段</td><td>README 课程表每节标 Learn/Build，按 Foundations → App Building → Concerns → Advanced → Specific Models 五段递进</td><td>重构课程结构要全局重编号，换零认知负担</td><td>高</td></tr>
+</tbody>
+</table>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table>
+<thead>
+<tr><th>维度</th><th>本项目（GenAI for Beginners）</th><th>DeepLearning.AI Short Courses</th><th>fast.ai / Hugging Face Course</th><th>NirDiamant/RAG_Techniques</th></tr>
+</thead>
+<tbody>
+<tr><td>课程形态</td><td>端到端 21 节系统课</td><td>单点概念短视频</td><td>偏 ML 原理 + 应用</td><td>单点 RAG 深耕</td></tr>
+<tr><td>编程语言</td><td>Python + TypeScript + .NET</td><td>Python</td><td>Python</td><td>Python</td></tr>
+<tr><td>后端选择</td><td>Azure OpenAI / Microsoft Foundry / Foundry Local / OpenAI 4 后端</td><td>OpenAI 为主</td><td>本地/HF Hub</td><td>OpenAI / HF</td></tr>
+<tr><td>翻译覆盖</td><td>55 语种自动化</td><td>英文为主</td><td>英文为主</td><td>英文为主</td></tr>
+<tr><td>学习曲线</td><td>入门到中级应用</td><td>概念入门</td><td>入门到研究级</td><td>RAG 进阶</td></tr>
+<tr><td>代码深度</td><td>教学简化，# pylint: disable=all</td><td>单点深入（Function Calling 比 lesson 11 深）</td><td>原理 + 工程级代码</td><td>30+ 种 RAG 变体实现</td></tr>
+<tr><td>商业归属</td><td>Microsoft（funnel）</td><td>OpenAI 背书</td><td>独立社区</td><td>独立社区</td></tr>
+<tr><td>当前 star</td><td>114K</td><td>n/a</td><td>n/a</td><td>28.9K</td></tr>
+</tbody>
+</table>
+<h3>差异化护城河</h3>
+<ul>
+<li><strong>信任护城河</strong>：Microsoft 官方 + 37.5 个月持续迭代 + 4 核心 + 165 贡献者 + dependabot 工业化</li>
+<li><strong>生态护城河</strong>：13+ 姐妹仓矩阵 + Microsoft Foundry 后端独家</li>
+<li><strong>翻译护城河</strong>：55 语种覆盖（其他竞品几乎都没做）</li>
+<li><strong>教学仓库即 funnel</strong> 的工程化（其他竞品做不来，因为没有同等规模的 engineering 团队投入）</li>
+</ul>
+<h3>竞争风险</h3>
+<ul>
+<li><strong>DeepLearning.AI 广度扩张</strong>：Andrew Ng 的 Short Courses 矩阵在扩，如果也做端到端系统课会直接冲击</li>
+<li><strong>NirDiamant RAG 单点深耕</strong>：RAG_Techniques 28.9K stars 增速快，本仓库 lesson 15 入门后可被它吸走进阶用户</li>
+<li><strong>Kaggle Learn / Anthropic Cookbook 入门分流</strong>：Kaggle 的 GenAI 入门课免费、Anthropic Cookbook 工程化更强，会分流 Python 入门者</li>
+<li><strong>Microsoft 自家产品迭代风险</strong>：GitHub Models 已退役，下次 Foundry 改名会再次触发全仓重构（CHANGELOG 已证明这是常规操作）</li>
+</ul>
+<h3>生态定位</h3>
+<p>在整个 GenAI 教育生态中，本项目扮演 <strong>「Microsoft 开发者 funnel 的入口层」+ 「GenAI 入门课程的 anchor reference」</strong>——不是单纯教学仓库，而是 Azure / Foundry 商业生态的开发者 onboarding 引擎。</p>
+<blockquote>
+<p>官方文档：README + CHANGELOG + CONTRIBUTING + AGENTS.md + docs/，四层文档严格分级（README 用户视角、CHANGELOG 版本视角、CONTRIBUTING 贡献者视角、AGENTS.md agent / IDE 视角），docs/ENHANCED_FEATURES_ROADMAP.md 自我审视。中文社区（CSDN/微博/今日头条）多为搬运介绍，无独立 critique。</p>
+</blockquote>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：<strong>完全无套利空间</strong>——这是头部公开 AI 教育项目，不存在被低估窗口；但具备 <strong>品牌复利价值</strong>——未来 3-5 年内仍将是入门者首选参考。</li>
+<li><strong>技术借鉴</strong>：<ul>
+<li>「教学仓库即 funnel」的工程化（tracking ID + CI 校验）适合任何公司想做 OSS 营销项目时复用</li>
+<li>「Agent Skill 入仓驱动代码迁移」适合任何正在做大版本 SDK 升级的项目（不用写人肉迁移指南了）</li>
+<li>「分层 CI 严格度」适合任何文档/教学占比高的开源项目</li>
+</ul>
+</li>
+<li><strong>生态位</strong>：填补了「端到端 + 多语言 + 多后端 + 官方背书 + 55 语种」的入门课空白，短期内不会被替代</li>
+<li><strong>趋势判断</strong>：仍处 steady+ 增长期（最近 30d 103 commits / 90d 153 / 365d 874，2026-01 单月 245 commits 峰值对应 Microsoft Foundry / GPT 集成重构）；课程会持续跟进 Microsoft 产品迭代，但产品矩阵定型后增速可能放缓</li>
+</ul>
+<h2>风险与不足</h2>
+<ul>
+<li><strong>课程技术含量有限</strong>：lesson samples 故意简化（<code># pylint: disable=all</code>），不要把它当生产代码参考；高阶内容（RAG / Fine-tuning / Agent）只是入门级，深度不如 NirDiamant 系列</li>
+<li><strong>per-lesson 代码覆盖不一致</strong>：issue #413 显示部分高阶章节（function calling/RAG）的 Python 代码覆盖滞后；用子目录独立结构换来清晰度，代价是覆盖度</li>
+<li><strong>55 语种翻译同步延迟</strong>：issue #713 显示中、日等高优先级语言偶发空洞；「机翻+人审」漏检在 55 语种矩阵下不可避免</li>
+<li><strong>强 Azure 商业绑定</strong>：所有 microsoft.com 链接都带营销 tracking，对想学通用 GenAI 而不被 funnel 的开发者不友好</li>
+<li><strong>教学与产品迭代强耦合</strong>：模型退役（gpt-4o-mini 2026-10-01）、API 演进（Chat Completions → Responses API）、平台更名（GitHub Models → Foundry Models）会触发频繁重构，对自学读者造成「lesson 跑不通」的困扰</li>
+<li><strong>课程演进机制封闭</strong>：issue #87 揭示开放 issue 收集建议但实际由微软内部规划驱动，社区 feedback 渠道是 form 形式而非驱动</li>
+</ul>
+<h2>行动建议</h2>
+<ul>
+<li><strong>如果你要用它</strong>：作为入门 anchor reference 没问题（README「What You Need」列的 4 后端灵活选），但<strong>别当生产代码范本</strong>——每个 lesson 末尾都有 <code>AGENTS.md</code> 提示「intentionally kept simple」。RAG / Agent 进阶建议跳到 NirDiamant 系列；ML 原理补 fast.ai；Function Calling 深入补 DeepLearning.AI Short Courses。</li>
+<li><strong>如果你要学它</strong>：重点关注以下文件/模块（按优先级）：<ol>
+<li><code>AGENTS.md</code> — 仓库的「运行时契约」，模型族、provider 后端、迁移规则的工程化范式</li>
+<li><code>.github/skills/azure-openai-to-responses/</code> — Agent Skill 入仓范式（一份完整的 SKILL.md + cheat-sheet.md）</li>
+<li><code>.github/workflows/validate-markdown.yml</code> — tracking ID / 本地化 / 相对路径 / broken link 4 类校验，是「OSS 营销 funnel 工程化」的范本</li>
+<li><code>shared/python/</code> — <code>env_utils.py</code> / <code>api_utils.py</code> / <code>input_validation.py</code> 三件套是教学仓库的工程化骨架</li>
+<li><code>CHANGELOG.md</code> — 严格 Keep a Changelog 1.1.0 格式，是教科书级范例</li>
+<li><code>.github/workflows/code-quality.yml</code> — 「分层 CI 严格度」的具体落地</li>
+</ol>
+</li>
+<li><strong>如果你要 fork 它</strong>：可以改进的方向：<ul>
+<li>把 lesson samples 也接入 pytest（当前 AGENTS.md「No Automated Tests」是显式声明，可以挑战这个取舍）</li>
+<li>把 Microsoft 营销 tracking 抽象成可配置项，方便 fork 后做中立教学</li>
+<li>把 provider 前缀文件合并成 Provider 接口抽象层（牺牲可读性换工程严谨度，但适合生产场景）</li>
+<li>把 <code># CO-OP TRANSLATOR LANGUAGES TABLE</code> 锚点机制抽出来做成独立 i18n 工具</li>
+<li>把 <code>.github/skills/</code> 模式推广到其他需要大版本迁移的 SDK 教学仓</li>
+</ul>
+</li>
+</ul>
+<h3>知识入口</h3>
+<table>
+<thead>
+<tr><th>资源</th><th>链接</th></tr>
+</thead>
+<tbody>
+<tr><td>DeepWiki</td><td><a href="https://deepwiki.com/microsoft/generative-ai-for-beginners">收录</a>（页面受限，仅返回标题）</td></tr>
+<tr><td>Zread.ai</td><td><a href="https://zread.ai/microsoft/generative-ai-for-beginners">收录</a>（Devin 自动生成完整 wiki，2026-06-24 更新）</td></tr>
+<tr><td>关联论文</td><td>无（教学仓库，非研究项目）</td></tr>
+<tr><td>在线 Demo</td><td>无集中 playground；各 lesson 笔记本可在 GitHub Codespaces 直接运行</td></tr>
+<tr><td>官方文档</td><td>aka.ms/genai-beginners（短链）/ microsoft.github.io/generative-ai-for-beginners/（GitHub Pages）</td></tr>
+</tbody>
+</table>
+</body>
+</html>

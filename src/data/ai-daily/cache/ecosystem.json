@@ -1,39 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-08-01",
+    "last_run": "2026-08-02",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/juliusbrussee/caveman",
-      "canonical_url": "https://github.com/JuliusBrussee/caveman",
-      "event_date": "2026-07-02",
-      "date_seen": "2026-07-02"
-    },
-    {
-      "key": "github.com/agentskills/agentskills",
-      "canonical_url": "https://github.com/agentskills/agentskills",
-      "event_date": "2026-07-02",
-      "date_seen": "2026-07-02"
-    },
-    {
-      "key": "github.com/openai/codex-plugin-cc",
-      "canonical_url": "https://github.com/openai/codex-plugin-cc",
-      "event_date": "2026-07-02",
-      "date_seen": "2026-07-02"
-    },
-    {
-      "key": "github.com/langflow-ai/langflow",
-      "canonical_url": "https://github.com/langflow-ai/langflow",
-      "event_date": "2026-07-02",
-      "date_seen": "2026-07-02"
-    },
-    {
-      "key": "github.com/harvard-edge/cs249r_book",
-      "canonical_url": "https://github.com/harvard-edge/cs249r_book",
-      "event_date": "2026-07-02",
-      "date_seen": "2026-07-02"
-    },
     {
       "key": "github.com/safishamsi/graphify",
       "canonical_url": "https://github.com/safishamsi/graphify",
@@ -867,6 +837,48 @@
       "canonical_url": "https://github.com/openai/ten-proofs",
       "event_date": "2026-08-01",
       "date_seen": "2026-08-01"
+    },
+    {
+      "key": "github.com/panniantong/agent-reach",
+      "canonical_url": "https://github.com/Panniantong/Agent-Reach",
+      "event_date": "2026-08-02",
+      "date_seen": "2026-08-02"
+    },
+    {
+      "key": "github.com/esengine/deepseek-reasonix",
+      "canonical_url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "event_date": "2026-08-02",
+      "date_seen": "2026-08-02"
+    },
+    {
+      "key": "github.com/antirez/ds4",
+      "canonical_url": "https://github.com/antirez/ds4",
+      "event_date": "2026-08-02",
+      "date_seen": "2026-08-02"
+    },
+    {
+      "key": "github.com/lyogavin/airllm",
+      "canonical_url": "https://github.com/lyogavin/airllm",
+      "event_date": "2026-08-02",
+      "date_seen": "2026-08-02"
+    },
+    {
+      "key": "github.com/sqliteai/waste",
+      "canonical_url": "https://github.com/sqliteai/waste",
+      "event_date": "2026-08-02",
+      "date_seen": "2026-08-02"
+    },
+    {
+      "key": "github.com/oframe/ogl",
+      "canonical_url": "https://github.com/oframe/ogl",
+      "event_date": "2026-08-02",
+      "date_seen": "2026-08-02"
+    },
+    {
+      "key": "github.com/syncular/syncular",
+      "canonical_url": "https://github.com/syncular/syncular",
+      "event_date": "2026-08-02",
+      "date_seen": "2026-08-02"
     }
   ]
 }

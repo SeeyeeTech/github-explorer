@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+/* 微信文章中的图片、链接和表格 */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 16px auto;
+}
+a {
+    color: #007aaa;
+    text-decoration: none;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    font-size: 14px;
+    line-height: 1.7;
+}
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+}
+th {
+    background: #f5f5f5;
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+<p><strong>GitHub 推荐：2 个月 2.9 万 Star：DeepSeek 代理押注缓存</strong></p>
+
+<blockquote><p>GitHub：<a href="https://github.com/esengine/deepseek-reasonix">https://github.com/esengine/deepseek-reasonix</a></p></blockquote>
+
+<h2>一句话总结</h2>
+
+<p>DeepSeek-Reasonix 是一个把「字节级前缀缓存」提升为核心架构约束的多端 AI 编码代理：用 Go 重写 Claude Code 式工作流，以单一引擎覆盖 CLI、TUI、桌面、Web 和 ACP 编辑器接入。</p>
+
+<h2>值得关注的理由</h2>
+
+<ul>
+<li><strong>增长速度极端</strong>：仓库创建于 2026-04-21，采集时已有 29,004 Star、1,868 Fork 和 1,147 个 Open Issues；v2 从 TypeScript 到 Go 的重写在短时间内完成了 3,858 次提交。</li>
+<li><strong>成本优化不是宣传语，而是架构约束</strong>：系统提示、工具描述和记忆在会话启动时冻结，只追加 turn tail，专门维持 DeepSeek byte-stable prefix cache。</li>
+<li><strong>多端复用做得很彻底</strong>：CLI/TUI、HTTP/SSE Web、Wails 桌面端共享 <span>internal/control/Controller</span>，新能力不需要在多个前端重复实现。</li>
+</ul>
+
+<h2>项目展示</h2>
+
+<p><img src="https://raw.githubusercontent.com/esengine/deepseek-reasonix/main-v2/docs/logo.svg" alt="Reasonix Logo"></p>
+
+<p>项目 Logo。仓库还提供了贡献者头像墙，但没有可直接验证的产品演示截图或公开 Playground。</p>
+
+<h2>项目画像</h2>
+
+<table>
+<thead><tr><th>维度</th><th>数据</th></tr></thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/esengine/deepseek-reasonix">https://github.com/esengine/deepseek-reasonix</a></td></tr>
+<tr><td>Star / Fork</td><td>29,004 / 1,868</td></tr>
+<tr><td>代码行数</td><td>619,341 行（Go 69.6%，TSX 10.1%，TypeScript 8.8%，CSS 5.9%）</td></tr>
+<tr><td>项目年龄</td><td>约 2.1 个月（事实采集时间：2026-08-02）</td></tr>
+<tr><td>开发阶段</td><td>密集开发</td></tr>
+<tr><td>贡献模式</td><td>核心少数 + 社区协作；215 位贡献者，主作者占提交约 28.4%</td></tr>
+<tr><td>热度定位</td><td>大众热门；但 stargazer 时间序列因 GitHub API 403 缺失</td></tr>
+<tr><td>质量评级</td><td>代码优秀；文档优秀；测试充分；CI/CD 完善</td></tr>
+</tbody>
+</table>
+
+<blockquote><p>元数据中最近提交时间出现 2026-08-03，晚于本次采集日期 2026-08-02，可能来自远端时钟或采集窗口边界；报告以采集时点的仓库指标为准。</p></blockquote>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+
+<p>作者 YHH（GitHub ID：<span>esengine</span>）是拥有 10.3 年账号历史的独立开发者，维护 114 个公开仓库，个人主页为 <span>esengine.cn</span>。DeepSeek-Reasonix 拥有远高于其第二大仓库的关注度，是其绝对旗舰项目。项目由 YHH、SivanCola 等核心贡献者推动，同时吸收社区协作，采用 MIT License。</p>
+
+<h3>问题判断</h3>
+
+<p>作者抓住了一个通用编码代理尚未充分产品化的问题：长会话中，系统提示、工具定义和历史前缀频繁变化会导致缓存失效，Token 成本随会话膨胀。DeepSeek 的前缀缓存按字节稳定性命中，因此<strong>「上下文管理」不再只是 Agent 的内部实现细节，而是直接决定产品经济性的核心设计</strong>。</p>
+
+<p>此外，TypeScript/Node 运行时和 Electron 式桌面路径提高了安装与分发门槛。Issue <a href="https://github.com/esengine/deepseek-reasonix/issues/2398">#2398</a> 记录了从 v1 TypeScript 到 v2 Go 的 ground-up rewrite，目标是单二进制、CGO-free、跨平台发布。</p>
+
+<h3>解法哲学</h3>
+
+<p>项目选择「一个内核、多个前端」而不是为每种 UI 单独做 Agent。<span>internal/control/Controller</span> 负责行为和事件，CLI/TUI、Web、桌面端负责 transport 和渲染。项目还明确放弃让 Agent 自动决定是否进入 Plan Mode，改为用户显式选择 Ask、Auto、Plan 或 YOLO 等自主性档位。</p>
+
+<p>它也不试图重造模型：DeepSeek 是优化重点，但其他 OpenAI-compatible endpoint 通过 provider 配置接入；工具系统采用内建注册与 MCP-compatible 外部插件并存的方式。</p>
+
+<h3>战略意图</h3>
+
+<p>目前看不到 SaaS 或企业版路线，更接近 genuinely open 的桌面/终端产品，商业化信号主要是赞助。国际化、三语 locale、Homebrew、npm shim、原生安装包、SignPath 签名和 AtomGit 镜像，说明作者的战略重点是降低全球用户的安装成本，而不是构建封闭平台。</p>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处</h3>
+
+<ol>
+<li><strong>Byte-stable prefix cache 一等公民</strong>（新颖度 4/5，实用性 5/5，可迁移性 4/5）<br/>- 会话启动时冻结 base prompt、tools、memory，运行中只追加 turn tail；适用于任何支持 Prompt Cache 的 Agent。</li>
+<li><strong>单 Controller 覆盖多端</strong>（3/5，5/5，5/5）<br/>- CLI/TUI、HTTP-SSE 和 Wails 桌面端共用控制器，避免功能在前端分叉。</li>
+<li><strong>内建工具与外部插件同质化</strong>（3/5，5/5，5/5）<br/>- Go blank import 让内建工具编译期自注册，外部工具走 stdio JSON-RPC/MCP，最终进入同一个 registry。</li>
+<li><strong>显式自主性档位</strong>（4/5，4/5，4/5）<br/>- 用户在 Ask、Auto、Plan、YOLO 间切换，避免不可预测的自动规划行为。</li>
+<li><strong>executor + planner 双模型</strong>（4/5，4/5，5/5）<br/>- 用不同模型分工规划与执行，并让两者各自维持 cache-stable session。</li>
+<li><strong>Provider schema canonicalization</strong>（3/5，5/5，5/5）<br/>- 先把 Anthropic、OpenAI、Responses API 的工具 schema 归一为内部表达，再翻译回各方言，减少 Agent loop 对供应商差异的耦合。</li>
+</ol>
+
+<h3>可复用的模式与技巧</h3>
+
+<ul>
+<li><strong>Transport-agnostic core + sink</strong>：Controller 处理行为，UI 只消费事件；适合 CLI、Web、GUI 共存的应用。</li>
+<li><strong>Cache-shape 自报</strong>：不仅追求缓存命中，还把前缀形状和命中影响做成诊断/监控信号。</li>
+<li><strong>Canonical schema + dialect adapter</strong>：多模型供应商接入的长期可维护结构。</li>
+<li><strong>Worktree-isolated delivery</strong>：代理修改用户代码前按任务隔离工作区，便于回滚、并行和交付审查。</li>
+<li><strong>层次化项目记忆</strong>：<span>REASONIX.md</span>、目录级 <span>AGENTS.md</span>、个人 local 文件和受限 <span>@import</span> 分层加载，并纳入稳定前缀。</li>
+<li><strong>Progress lease / runtime epoch fence</strong>：为长任务进度和异步运行时提供过期检测，减少僵尸状态污染。</li>
+</ul>
+
+<h3>关键设计决策</h3>
+
+<table>
+<thead><tr><th>决策</th><th>解决的问题</th><th>Trade-off</th></tr></thead>
+<tbody>
+<tr><td>冻结 system prompt + tools + memory</td><td>保持 DeepSeek 前缀缓存命中</td><td>运行中动态改变 system prompt 的自由度降低</td></tr>
+<tr><td><span>Controller</span> 作为所有前端的唯一行为入口</td><td>多端功能一致、避免重复 Agent loop</td><td>Controller API 需要长期稳定，抽象泄漏会影响所有前端</td></tr>
+<tr><td>Provider interface + canonical schema + dialect</td><td>支持多家 API 而不污染核心循环</td><td>增加 schema 双向转换和边界测试成本</td></tr>
+<tr><td>Policy 与 Sandbox 正交</td><td>把「用户是否允许」和「进程能否执行」分开</td><td>权限模型与平台沙箱的组合更复杂</td></tr>
+<tr><td>显式 Plan / Ask / Auto / YOLO</td><td>让自主性边界可预测</td><td>用户需要理解更多模式，交互复杂度上升</td></tr>
+<tr><td>Go 单二进制 + Wails + npm 包装</td><td>降低安装和跨平台分发门槛</td><td>同时维护 CLI、桌面、Web 和发行链路成本高</td></tr>
+</tbody>
+</table>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+
+<table>
+<thead><tr><th>维度</th><th>DeepSeek-Reasonix</th><th>Aider</th><th>Cline</th><th>OpenHands</th><th>Goose</th></tr></thead>
+<tbody>
+<tr><td>核心形态</td><td>终端/桌面/Web/ACP 多端 Agent</td><td>终端配对编程</td><td>VS Code 自治代理</td><td>Web/SWE Agent</td><td>MCP 驱动 CLI/UI</td></tr>
+<tr><td>主要优势</td><td>Prefix cache、单 Go 二进制、多端共享内核</td><td>Git 工作流成熟</td><td>IDE 生态和长任务体验</td><td>SWE 研究与端到端能力</td><td>MCP 集成与扩展性</td></tr>
+<tr><td>模型策略</td><td>DeepSeek 优化 + OpenAI-compatible</td><td>多模型</td><td>多模型</td><td>多模型</td><td>多模型</td></tr>
+<tr><td>部署门槛</td><td>原生二进制、Wails、npm</td><td>Python 环境</td><td>VS Code 扩展</td><td>通常较重</td><td>相对轻量</td></tr>
+<tr><td>主要短板</td><td>v2 年轻、产品变化快、依赖 DeepSeek 缓存特性</td><td>非专门 cache-first</td><td>VS Code 锁定</td><td>部署重、日常使用成本高</td><td>社区成熟度较低</td></tr>
+</tbody>
+</table>
+
+<h3>差异化护城河</h3>
+
+<ul>
+<li><strong>技术护城河</strong>：cache-shape 约束、分层压缩、双模型 session、统一 Controller 与跨平台沙箱组合。</li>
+<li><strong>生态护城河</strong>：DeepSeek/中文开发者场景、MCP、ACP、多端分发和双语社区形成组合优势。</li>
+<li><strong>信任护城河</strong>：MIT 开源、10 年老账号、215 位贡献者，以及密集 CI、发布、崩溃上报和安全扫描。</li>
+</ul>
+
+<h3>竞争风险</h3>
+
+<p>最大风险是 Claude Code 或 OpenHands 将 prefix-cache 优化与终端体验补齐；其次是 DeepSeek 改变缓存算法或商业策略，使当前最强差异化变弱。项目自身 2 个月内 3,858 次提交、Fix 占 54.5%，也说明它仍处在高速变化和修 bug 的早期阶段。</p>
+
+<h3>生态定位</h3>
+
+<p>在「终端/桌面原生 + DeepSeek 成本优化 + 多端共享内核」的窄生态位中，Reasonix 已是高热度代表；放到整个 AI 编码代理市场，它仍是差异化玩家，而非通用能力最强的绝对标准。</p>
+
+<h2>套利机会分析</h2>
+
+<ul>
+<li><strong>信息差</strong>：项目已不是低关注度项目，但其 <span>cache_shape</span>、context compaction、双模型协作和多端 Controller 仍是值得拆解的工程样本。</li>
+<li><strong>技术借鉴</strong>：优先研究 <span>internal/agent/cache_shape.go</span>、<span>internal/control/</span>、<span>internal/provider/</span>、<span>internal/tool/registry.go</span>、<span>internal/worktree/</span> 和 <span>internal/sandbox/</span>。</li>
+<li><strong>生态位</strong>：它验证了「模型供应商特性可以反向塑造 Agent 架构」这一产品方向；中文/DeepSeek 用户可能比通用代理更看重成本和本地化。</li>
+<li><strong>趋势判断</strong>：Agent 竞争会从「能不能调用工具」转向「长任务成本、上下文稳定性、权限治理、跨端交付」。Reasonix 在这些方向上有先发实践，但缓存优势具有供应商依赖性。</li>
+</ul>
+
+<h2>风险与不足</h2>
+
+<ol>
+<li><strong>数据窗口很短</strong>：仓库创建仅约两个月，当前高活跃度不能等同于长期维护能力；commit 类型中 Fix 占 54.5%，测试提交仅 4%，应关注 v2 稳定化后的节奏。</li>
+<li><strong>平台耦合</strong>：DeepSeek prefix cache 是最鲜明的卖点，也是单点风险。缓存命中效果需要在不同模型、不同上下文形状和真实账单中持续验证。</li>
+<li><strong>竞争激烈</strong>：Cline、Aider、OpenHands、Goose 以及 Claude Code 都有更成熟的用户心智或生态入口。</li>
+<li><strong>产品复杂度高</strong>：CLI/TUI、Web、Wails、ACP、Remote SSH、MCP、桌面更新和沙箱同时推进，可能造成维护面过宽。</li>
+<li><strong>安全与体验存在张力</strong>：Issue <a href="https://github.com/esengine/deepseek-reasonix/issues/6078">#6078</a> 反映桌面安全机制与可用性的争论；Agent 一旦拥有 shell、文件和工作区权限，默认策略仍需谨慎评估。</li>
+<li><strong>缺乏公开独立评测</strong>：未找到有深度的第三方架构评测或公开在线 Demo，成本优势和 SWE 能力不宜只依据项目自述判断。</li>
+</ol>
+
+<h2>行动建议</h2>
+
+<ul>
+<li><strong>如果你要用它</strong>：适合 DeepSeek API 用户、终端优先、长期运行编码会话并重视成本的人。若团队依赖成熟 benchmark、VS Code 深度集成或稳定的 Git 自动提交，先与 Aider、Cline、OpenHands 做小规模 A/B 测试。</li>
+<li><strong>如果你要学它</strong>：先读 <span>internal/agent/cache_shape.go</span> 与上下文压缩，再读 <span>internal/control/</span> 理解多前端共享内核，随后研究 <span>internal/provider/</span> 的 schema 归一和 <span>internal/worktree/</span>、<span>internal/sandbox/</span> 的交付与安全边界。</li>
+<li><strong>如果你要 fork 它</strong>：不要先扩展 UI。优先补充真实缓存命中/账单基准、跨模型回归测试、任务级安全策略、公开 SWE 评测，以及把快速迭代中积累的复杂度收敛为稳定插件 API。</li>
+</ul>
+
+<h3>知识入口</h3>
+
+<table>
+<thead><tr><th>资源</th><th>链接</th></tr></thead>
+<tbody>
+<tr><td>DeepWiki</td><td>未收录（页面无实质内容）</td></tr>
+<tr><td>Zread.ai</td><td>未收录（Cloudflare 403）</td></tr>
+<tr><td>关联论文</td><td>无</td></tr>
+<tr><td>在线 Demo</td><td>无公开 Playground；官网 <a href="http://reasonix.io/">http://reasonix.io/</a></td></tr>
+</tbody>
+</table>
+
+<h2>数据来源与限制</h2>
+
+<ul>
+<li>仓库客观指标来自本次确定性采集：<span>tmp/repo-facts-deepseek-reasonix.json</span>。</li>
+<li>关键设计与质量判断来自仓库代码、<span>docs/</span>、<span>REASONIX.md</span>、CHANGELOG、Issue <a href="https://github.com/esengine/deepseek-reasonix/issues/1285">#1285</a>、<a href="https://github.com/esengine/deepseek-reasonix/issues/2398">#2398</a>、<a href="https://github.com/esengine/deepseek-reasonix/issues/4966">#4966</a>、<a href="https://github.com/esengine/deepseek-reasonix/issues/6078">#6078</a>。</li>
+<li>GitHub stargazer 时间序列采样因 API 403 失败，因此「爆发型」判断主要依据 Star 规模、Fork 规模和提交节奏，不能替代完整增长曲线。</li>
+</ul>
+</body>
+</html>

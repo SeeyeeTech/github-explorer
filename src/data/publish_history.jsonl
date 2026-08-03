@@ -277,3 +277,4 @@
 {"recorded_at": "2026-08-02T22:11:33.361114+00:00", "slug": "esengine_deepseek-reasonix", "title": null, "state": "published", "published_at": "2026-08-02", "reason": "自动生成", "ci_run_id": "30768539288"}
 {"recorded_at": "2026-08-02T23:16:21.134513+00:00", "slug": "iv-org_invidious", "title": null, "state": "published", "published_at": "2026-08-02", "reason": "自动生成", "ci_run_id": "30770767754"}
 {"recorded_at": "2026-08-03T00:21:17.557908+00:00", "slug": "zhaoxuya520_reverse-skill", "title": null, "state": "published", "published_at": "2026-08-03", "reason": "自动生成", "ci_run_id": "30773077944"}
+{"recorded_at": "2026-08-03T02:25:29.399476+00:00", "slug": "usekaneo_kaneo", "title": null, "state": "published", "published_at": "2026-08-03", "reason": "自动生成", "ci_run_id": "30777858643"}

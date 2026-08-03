@@ -1,21 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-08-02",
+    "last_run": "2026-08-03",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/safishamsi/graphify",
-      "canonical_url": "https://github.com/safishamsi/graphify",
-      "event_date": "2026-07-03",
-      "date_seen": "2026-07-03"
-    },
-    {
-      "key": "github.com/ansible/ansible",
-      "canonical_url": "https://github.com/ansible/ansible",
-      "event_date": "2026-07-03",
-      "date_seen": "2026-07-03"
-    },
     {
       "key": "github.com/zackriya-solutions/meetily",
       "canonical_url": "https://github.com/Zackriya-Solutions/meetily",
@@ -879,6 +867,36 @@
       "canonical_url": "https://github.com/syncular/syncular",
       "event_date": "2026-08-02",
       "date_seen": "2026-08-02"
+    },
+    {
+      "key": "github.com/livekit/agents",
+      "canonical_url": "https://github.com/livekit/agents",
+      "event_date": "2026-08-03",
+      "date_seen": "2026-08-03"
+    },
+    {
+      "key": "github.com/alishahryar1/free-claude-code",
+      "canonical_url": "https://github.com/Alishahryar1/free-claude-code",
+      "event_date": "2026-08-03",
+      "date_seen": "2026-08-03"
+    },
+    {
+      "key": "github.com/loongphy/codex-auth",
+      "canonical_url": "https://github.com/Loongphy/codex-auth",
+      "event_date": "2026-08-03",
+      "date_seen": "2026-08-03"
+    },
+    {
+      "key": "github.com/hamzarehmandeveloper/claude-account",
+      "canonical_url": "https://github.com/hamzarehmandeveloper/claude-account",
+      "event_date": "2026-08-03",
+      "date_seen": "2026-08-03"
+    },
+    {
+      "key": "github.com/mgaitan/pytest-leak-finder",
+      "canonical_url": "https://github.com/mgaitan/pytest-leak-finder",
+      "event_date": "2026-08-03",
+      "date_seen": "2026-08-03"
     }
   ]
 }

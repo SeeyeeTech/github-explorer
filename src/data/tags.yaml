@@ -689,6 +689,11 @@ entries:
   - llm-inference
   - model-foundation
   - trading-finance
+  esengine_deepseek-reasonix:
+  - ai-agent
+  - ai-coding
+  - model-foundation
+  - devtools
   eslint_eslint:
   - uncategorized
   evershopcommerce_evershop:
@@ -1070,6 +1075,8 @@ entries:
   itzcrazykns_vane:
   - llm-framework
   - rag-search
+  - protocol-spec
+  iv-org_invidious:
   - protocol-spec
   j178_prek:
   - uncategorized
@@ -2239,6 +2246,10 @@ entries:
   - data-pipeline
   unslothai_unsloth:
   - llm-training
+  usekaneo_kaneo:
+  - ai-agent
+  - devtools
+  - protocol-spec
   usememos_memos:
   - ai-agent
   - llm-inference
@@ -2408,6 +2419,11 @@ entries:
   zaidmukaddam_scira:
   - ai-agent
   - rag-search
+  zhaoxuya520_reverse-skill:
+  - ai-agent
+  - devtools
+  - protocol-spec
+  - security
   zhulinsen_daily_stock_analysis:
   - devtools
   zie619_n8n-workflows:

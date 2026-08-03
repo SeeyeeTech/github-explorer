@@ -250,6 +250,16 @@
     "trending_days": 22
   },
   {
+    "name": "shiyu-coder/Kronos",
+    "url": "https://github.com/shiyu-coder/kronos",
+    "language": "Python",
+    "stars": 35734,
+    "forks": 5955,
+    "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+    "last_seen": "2026-08-03",
+    "trending_days": 21
+  },
+  {
     "name": "GibsonAI/Memori",
     "url": "https://github.com/gibsonai/memori",
     "language": "Python",
@@ -257,16 +267,6 @@
     "forks": 626,
     "description": "Open-Source Memory Engine for LLMs, AI Agents & Multi-Agent Systems",
     "last_seen": "2025-12-02",
-    "trending_days": 20
-  },
-  {
-    "name": "shiyu-coder/Kronos",
-    "url": "https://github.com/shiyu-coder/kronos",
-    "language": "Python",
-    "stars": 34416,
-    "forks": 5786,
-    "description": "Kronos: A Foundation Model for the Language of Financial Markets",
-    "last_seen": "2026-07-27",
     "trending_days": 20
   },
   {
@@ -520,6 +520,16 @@
     "trending_days": 12
   },
   {
+    "name": "jamiepine/voicebox",
+    "url": "https://github.com/jamiepine/voicebox",
+    "language": "TypeScript",
+    "stars": 48428,
+    "forks": 5964,
+    "description": "The open-source AI voice studio. Clone, dictate, create.",
+    "last_seen": "2026-08-03",
+    "trending_days": 12
+  },
+  {
     "name": "openclaw/openclaw",
     "url": "https://github.com/openclaw/openclaw",
     "language": "TypeScript",
@@ -637,16 +647,6 @@
     "forks": 1148,
     "description": "Free, local, open-source 24/7 Cowork and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!",
     "last_seen": "2026-02-12",
-    "trending_days": 11
-  },
-  {
-    "name": "jamiepine/voicebox",
-    "url": "https://github.com/jamiepine/voicebox",
-    "language": "TypeScript",
-    "stars": 45408,
-    "forks": 5550,
-    "description": "The open-source AI voice studio. Clone, dictate, create.",
-    "last_seen": "2026-07-22",
     "trending_days": 11
   },
   {
@@ -860,6 +860,16 @@
     "trending_days": 9
   },
   {
+    "name": "Alishahryar1/free-claude-code",
+    "url": "https://github.com/alishahryar1/free-claude-code",
+    "language": "Python",
+    "stars": 43865,
+    "forks": 7232,
+    "description": "Use Claude Code, Codex and Pi for free from your terminal, app, IDE, or phone like OpenClaw (voice supported)",
+    "last_seen": "2026-08-03",
+    "trending_days": 9
+  },
+  {
     "name": "bytedance/UI-TARS-desktop",
     "url": "https://github.com/bytedance/ui-tars-desktop",
     "language": "TypeScript",
@@ -1060,16 +1070,6 @@
     "trending_days": 9
   },
   {
-    "name": "Alishahryar1/free-claude-code",
-    "url": "https://github.com/alishahryar1/free-claude-code",
-    "language": "Python",
-    "stars": 28844,
-    "forks": 4324,
-    "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
-    "last_seen": "2026-05-24",
-    "trending_days": 8
-  },
-  {
     "name": "badlogic/pi-mono",
     "url": "https://github.com/badlogic/pi-mono",
     "language": "TypeScript",
@@ -1227,6 +1227,16 @@
     "forks": 3454,
     "description": "Meshery, the cloud native manager",
     "last_seen": "2026-06-17",
+    "trending_days": 8
+  },
+  {
+    "name": "Panniantong/Agent-Reach",
+    "url": "https://github.com/panniantong/agent-reach",
+    "language": "Python",
+    "stars": 65385,
+    "forks": 5407,
+    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+    "last_seen": "2026-08-03",
     "trending_days": 8
   },
   {
@@ -1420,6 +1430,16 @@
     "trending_days": 7
   },
   {
+    "name": "microsoft/AI-For-Beginners",
+    "url": "https://github.com/microsoft/ai-for-beginners",
+    "language": "JupyterNotebook",
+    "stars": 60361,
+    "forks": 11814,
+    "description": "12 Weeks, 24 Lessons, AI for All!",
+    "last_seen": "2026-08-03",
+    "trending_days": 7
+  },
+  {
     "name": "MoonshotAI/kimi-cli",
     "url": "https://github.com/moonshotai/kimi-cli",
     "language": "Python",
@@ -1467,16 +1487,6 @@
     "forks": 3670,
     "description": "A lightweight, powerful framework for multi-agent workflows",
     "last_seen": "2026-04-20",
-    "trending_days": 7
-  },
-  {
-    "name": "Panniantong/Agent-Reach",
-    "url": "https://github.com/panniantong/agent-reach",
-    "language": "Python",
-    "stars": 64299,
-    "forks": 5319,
-    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-    "last_seen": "2026-08-02",
     "trending_days": 7
   },
   {
@@ -1720,6 +1730,16 @@
     "trending_days": 6
   },
   {
+    "name": "donnemartin/system-design-primer",
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "language": "Python",
+    "stars": 360308,
+    "forks": 57512,
+    "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+    "last_seen": "2026-08-03",
+    "trending_days": 6
+  },
+  {
     "name": "exo-explore/exo",
     "url": "https://github.com/exo-explore/exo",
     "language": "Python",
@@ -1877,16 +1897,6 @@
     "forks": 4591,
     "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
     "last_seen": "2026-06-18",
-    "trending_days": 6
-  },
-  {
-    "name": "microsoft/AI-For-Beginners",
-    "url": "https://github.com/microsoft/ai-for-beginners",
-    "language": "JupyterNotebook",
-    "stars": 58408,
-    "forks": 11509,
-    "description": "12 Weeks, 24 Lessons, AI for All!",
-    "last_seen": "2026-08-02",
     "trending_days": 6
   },
   {
@@ -2320,16 +2330,6 @@
     "trending_days": 5
   },
   {
-    "name": "donnemartin/system-design-primer",
-    "url": "https://github.com/donnemartin/system-design-primer",
-    "language": "Python",
-    "stars": 345547,
-    "forks": 55801,
-    "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
-    "last_seen": "2026-04-28",
-    "trending_days": 5
-  },
-  {
     "name": "elastic/elasticsearch",
     "url": "https://github.com/elastic/elasticsearch",
     "language": "Java",
@@ -2470,6 +2470,16 @@
     "trending_days": 5
   },
   {
+    "name": "lyogavin/airllm",
+    "url": "https://github.com/lyogavin/airllm",
+    "language": "JupyterNotebook",
+    "stars": 26390,
+    "forks": 2932,
+    "description": "AirLLM 70B inference with single 4GB GPU",
+    "last_seen": "2026-08-03",
+    "trending_days": 5
+  },
+  {
     "name": "masterking32/MasterDnsVPN",
     "url": "https://github.com/masterking32/masterdnsvpn",
     "language": "Go",
@@ -2477,6 +2487,16 @@
     "forks": 534,
     "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
     "last_seen": "2026-06-12",
+    "trending_days": 5
+  },
+  {
+    "name": "microsoft/generative-ai-for-beginners",
+    "url": "https://github.com/microsoft/generative-ai-for-beginners",
+    "language": "JupyterNotebook",
+    "stars": 115284,
+    "forks": 61397,
+    "description": "21 Lessons, Get Started Building with Generative AI",
+    "last_seen": "2026-08-03",
     "trending_days": 5
   },
   {
@@ -2727,6 +2747,16 @@
     "forks": 948,
     "description": "LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm.",
     "last_seen": "2025-12-14",
+    "trending_days": 5
+  },
+  {
+    "name": "TencentCloud/TencentDB-Agent-Memory",
+    "url": "https://github.com/tencentcloud/tencentdb-agent-memory",
+    "language": "TypeScript",
+    "stars": 11717,
+    "forks": 1116,
+    "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+    "last_seen": "2026-08-03",
     "trending_days": 5
   },
   {
@@ -3280,6 +3310,16 @@
     "trending_days": 4
   },
   {
+    "name": "iv-org/invidious",
+    "url": "https://github.com/iv-org/invidious",
+    "language": "Crystal",
+    "stars": 22154,
+    "forks": 2469,
+    "description": "Invidious is an alternative front-end to YouTube",
+    "last_seen": "2026-08-03",
+    "trending_days": 4
+  },
+  {
     "name": "jenkinsci/jenkins",
     "url": "https://github.com/jenkinsci/jenkins",
     "language": "Java",
@@ -3390,16 +3430,6 @@
     "trending_days": 4
   },
   {
-    "name": "lyogavin/airllm",
-    "url": "https://github.com/lyogavin/airllm",
-    "language": "JupyterNotebook",
-    "stars": 25196,
-    "forks": 2837,
-    "description": "AirLLM 70B inference with single 4GB GPU",
-    "last_seen": "2026-08-02",
-    "trending_days": 4
-  },
-  {
     "name": "maziyarpanahi/openmed",
     "url": "https://github.com/maziyarpanahi/openmed",
     "language": "Python",
@@ -3417,16 +3447,6 @@
     "forks": 2057,
     "description": "Common User Passwords Profiler (CUPP)",
     "last_seen": "2026-07-01",
-    "trending_days": 4
-  },
-  {
-    "name": "microsoft/generative-ai-for-beginners",
-    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-    "language": "JupyterNotebook",
-    "stars": 114478,
-    "forks": 61254,
-    "description": "21 Lessons, Get Started Building with Generative AI",
-    "last_seen": "2026-08-02",
     "trending_days": 4
   },
   {
@@ -3680,16 +3700,6 @@
     "trending_days": 4
   },
   {
-    "name": "TencentCloud/TencentDB-Agent-Memory",
-    "url": "https://github.com/tencentcloud/tencentdb-agent-memory",
-    "language": "TypeScript",
-    "stars": 10585,
-    "forks": 1007,
-    "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-    "last_seen": "2026-08-02",
-    "trending_days": 4
-  },
-  {
     "name": "thinking-machines-lab/tinker-cookbook",
     "url": "https://github.com/thinking-machines-lab/tinker-cookbook",
     "language": "Python",
@@ -3727,6 +3737,16 @@
     "forks": 13407,
     "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
     "last_seen": "2026-05-23",
+    "trending_days": 4
+  },
+  {
+    "name": "usekaneo/kaneo",
+    "url": "https://github.com/usekaneo/kaneo",
+    "language": "TypeScript",
+    "stars": 6593,
+    "forks": 538,
+    "description": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
+    "last_seen": "2026-08-03",
     "trending_days": 4
   },
   {
@@ -3787,6 +3807,16 @@
     "forks": 2020,
     "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows.",
     "last_seen": "2026-07-07",
+    "trending_days": 4
+  },
+  {
+    "name": "zhaoxuya520/reverse-skill",
+    "url": "https://github.com/zhaoxuya520/reverse-skill",
+    "language": "PowerShell",
+    "stars": 15023,
+    "forks": 2215,
+    "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+    "last_seen": "2026-08-03",
     "trending_days": 4
   },
   {
@@ -4397,16 +4427,6 @@
     "forks": 5798,
     "description": "Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
     "last_seen": "2026-05-15",
-    "trending_days": 3
-  },
-  {
-    "name": "iv-org/invidious",
-    "url": "https://github.com/iv-org/invidious",
-    "language": "Crystal",
-    "stars": 21751,
-    "forks": 2440,
-    "description": "Invidious is an alternative front-end to YouTube",
-    "last_seen": "2026-08-02",
     "trending_days": 3
   },
   {
@@ -5140,16 +5160,6 @@
     "trending_days": 3
   },
   {
-    "name": "usekaneo/kaneo",
-    "url": "https://github.com/usekaneo/kaneo",
-    "language": "TypeScript",
-    "stars": 5893,
-    "forks": 496,
-    "description": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
-    "last_seen": "2026-08-02",
-    "trending_days": 3
-  },
-  {
     "name": "vendure-ecommerce/vendure",
     "url": "https://github.com/vendure-ecommerce/vendure",
     "language": "TypeScript",
@@ -5227,16 +5237,6 @@
     "forks": 508,
     "description": "Access your entire server infrastructure from your local desktop",
     "last_seen": "2026-01-10",
-    "trending_days": 3
-  },
-  {
-    "name": "zhaoxuya520/reverse-skill",
-    "url": "https://github.com/zhaoxuya520/reverse-skill",
-    "language": "PowerShell",
-    "stars": 12486,
-    "forks": 1873,
-    "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-    "last_seen": "2026-08-02",
     "trending_days": 3
   },
   {
@@ -5427,6 +5427,16 @@
     "forks": 58,
     "description": "None",
     "last_seen": "2026-01-31",
+    "trending_days": 2
+  },
+  {
+    "name": "antirez/ds4",
+    "url": "https://github.com/antirez/ds4",
+    "language": "C",
+    "stars": 20230,
+    "forks": 1789,
+    "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
+    "last_seen": "2026-08-03",
     "trending_days": 2
   },
   {
@@ -5947,6 +5957,16 @@
     "forks": 5107,
     "description": "Cloud-native high-performance edge/middle/service proxy",
     "last_seen": "2025-10-16",
+    "trending_days": 2
+  },
+  {
+    "name": "esengine/DeepSeek-Reasonix",
+    "url": "https://github.com/esengine/deepseek-reasonix",
+    "language": "Go",
+    "stars": 29637,
+    "forks": 1909,
+    "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+    "last_seen": "2026-08-03",
     "trending_days": 2
   },
   {
@@ -6627,6 +6647,16 @@
     "forks": 240,
     "description": "DeepAudit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。国内首个开源的代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计 + 自动化沙箱 PoC 验证。支持 Ollama 私有部署 ，一键生成报告。​让安全不再昂贵，让审计不再复杂。",
     "last_seen": "2025-12-22",
+    "trending_days": 2
+  },
+  {
+    "name": "livekit/agents",
+    "url": "https://github.com/livekit/agents",
+    "language": "Python",
+    "stars": 11813,
+    "forks": 3451,
+    "description": "A framework for building realtime voice AI agents 🤖🎙️📹",
+    "last_seen": "2026-08-03",
     "trending_days": 2
   },
   {
@@ -7980,16 +8010,6 @@
     "trending_days": 1
   },
   {
-    "name": "antirez/ds4",
-    "url": "https://github.com/antirez/ds4",
-    "language": "C",
-    "stars": 19832,
-    "forks": 1759,
-    "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
-    "last_seen": "2026-08-02",
-    "trending_days": 1
-  },
-  {
     "name": "antoinezambelli/forge",
     "url": "https://github.com/antoinezambelli/forge",
     "language": "Python",
@@ -8740,16 +8760,6 @@
     "trending_days": 1
   },
   {
-    "name": "esengine/DeepSeek-Reasonix",
-    "url": "https://github.com/esengine/deepseek-reasonix",
-    "language": "Go",
-    "stars": 28726,
-    "forks": 1850,
-    "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-    "last_seen": "2026-08-02",
-    "trending_days": 1
-  },
-  {
     "name": "etcd-io/etcd",
     "url": "https://github.com/etcd-io/etcd",
     "language": "Go",
@@ -8797,6 +8807,16 @@
     "forks": 1271,
     "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI.",
     "last_seen": "2026-02-26",
+    "trending_days": 1
+  },
+  {
+    "name": "firecrawl/pdf-inspector",
+    "url": "https://github.com/firecrawl/pdf-inspector",
+    "language": "Rust",
+    "stars": 6923,
+    "forks": 487,
+    "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+    "last_seen": "2026-08-03",
     "trending_days": 1
   },
   {
@@ -9757,16 +9777,6 @@
     "forks": 597,
     "description": "⚡ Lingo.dev - open-source, AI-powered i18n toolkit for instant localization with LLMs. Bring your own LLM or use Lingo.dev Localization Engine. Join discord:",
     "last_seen": "2025-11-01",
-    "trending_days": 1
-  },
-  {
-    "name": "livekit/agents",
-    "url": "https://github.com/livekit/agents",
-    "language": "Python",
-    "stars": 8655,
-    "forks": 2306,
-    "description": "A powerful framework for building realtime voice AI agents 🤖🎙️📹",
-    "last_seen": "2026-01-01",
     "trending_days": 1
   },
   {

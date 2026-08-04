@@ -3,11 +3,11 @@
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "language": "Shell",
-    "stars": 262967,
-    "forks": 23489,
+    "stars": 266090,
+    "forks": 23791,
     "description": "An agentic skills framework & software development methodology that works.",
-    "last_seen": "2026-07-29",
-    "trending_days": 73
+    "last_seen": "2026-08-04",
+    "trending_days": 74
   },
   {
     "name": "TapXWorld/ChinaTextbook",
@@ -930,6 +930,16 @@
     "trending_days": 9
   },
   {
+    "name": "EveryInc/compound-engineering-plugin",
+    "url": "https://github.com/everyinc/compound-engineering-plugin",
+    "language": "TypeScript",
+    "stars": 23772,
+    "forks": 1944,
+    "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+    "last_seen": "2026-08-04",
+    "trending_days": 9
+  },
+  {
     "name": "hacksider/Deep-Live-Cam",
     "url": "https://github.com/hacksider/deep-live-cam",
     "language": "Python",
@@ -1137,16 +1147,6 @@
     "forks": 1351,
     "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
     "last_seen": "2026-06-28",
-    "trending_days": 8
-  },
-  {
-    "name": "EveryInc/compound-engineering-plugin",
-    "url": "https://github.com/everyinc/compound-engineering-plugin",
-    "language": "TypeScript",
-    "stars": 19026,
-    "forks": 1424,
-    "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
-    "last_seen": "2026-06-01",
     "trending_days": 8
   },
   {
@@ -1620,6 +1620,16 @@
     "trending_days": 6
   },
   {
+    "name": "browser-use/video-use",
+    "url": "https://github.com/browser-use/video-use",
+    "language": "Python",
+    "stars": 19001,
+    "forks": 2383,
+    "description": "Edit videos with coding agents",
+    "last_seen": "2026-08-04",
+    "trending_days": 6
+  },
+  {
     "name": "browserbase/skills",
     "url": "https://github.com/browserbase/skills",
     "language": "JavaScript",
@@ -1890,6 +1900,16 @@
     "trending_days": 6
   },
   {
+    "name": "lyogavin/airllm",
+    "url": "https://github.com/lyogavin/airllm",
+    "language": "JupyterNotebook",
+    "stars": 28000,
+    "forks": 3032,
+    "description": "AirLLM 70B inference with single 4GB GPU",
+    "last_seen": "2026-08-04",
+    "trending_days": 6
+  },
+  {
     "name": "makeplane/plane",
     "url": "https://github.com/makeplane/plane",
     "language": "TypeScript",
@@ -1907,6 +1927,16 @@
     "forks": 2795,
     "description": "Official inference framework for 1-bit LLMs",
     "last_seen": "2026-03-13",
+    "trending_days": 6
+  },
+  {
+    "name": "microsoft/generative-ai-for-beginners",
+    "url": "https://github.com/microsoft/generative-ai-for-beginners",
+    "language": "JupyterNotebook",
+    "stars": 116027,
+    "forks": 61517,
+    "description": "21 Lessons, Get Started Building with Generative AI",
+    "last_seen": "2026-08-04",
     "trending_days": 6
   },
   {
@@ -2090,6 +2120,16 @@
     "trending_days": 6
   },
   {
+    "name": "TencentCloud/TencentDB-Agent-Memory",
+    "url": "https://github.com/tencentcloud/tencentdb-agent-memory",
+    "language": "TypeScript",
+    "stars": 12853,
+    "forks": 1218,
+    "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+    "last_seen": "2026-08-04",
+    "trending_days": 6
+  },
+  {
     "name": "tirth8205/code-review-graph",
     "url": "https://github.com/tirth8205/code-review-graph",
     "language": "Python",
@@ -2267,16 +2307,6 @@
     "forks": 936,
     "description": "Get 10X more out of Claude Code, Codex or any coding agent",
     "last_seen": "2026-01-01",
-    "trending_days": 5
-  },
-  {
-    "name": "browser-use/video-use",
-    "url": "https://github.com/browser-use/video-use",
-    "language": "Python",
-    "stars": 13545,
-    "forks": 1671,
-    "description": "Edit videos with coding agents",
-    "last_seen": "2026-07-02",
     "trending_days": 5
   },
   {
@@ -2470,16 +2500,6 @@
     "trending_days": 5
   },
   {
-    "name": "lyogavin/airllm",
-    "url": "https://github.com/lyogavin/airllm",
-    "language": "JupyterNotebook",
-    "stars": 26390,
-    "forks": 2932,
-    "description": "AirLLM 70B inference with single 4GB GPU",
-    "last_seen": "2026-08-03",
-    "trending_days": 5
-  },
-  {
     "name": "masterking32/MasterDnsVPN",
     "url": "https://github.com/masterking32/masterdnsvpn",
     "language": "Go",
@@ -2487,16 +2507,6 @@
     "forks": 534,
     "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
     "last_seen": "2026-06-12",
-    "trending_days": 5
-  },
-  {
-    "name": "microsoft/generative-ai-for-beginners",
-    "url": "https://github.com/microsoft/generative-ai-for-beginners",
-    "language": "JupyterNotebook",
-    "stars": 115284,
-    "forks": 61397,
-    "description": "21 Lessons, Get Started Building with Generative AI",
-    "last_seen": "2026-08-03",
     "trending_days": 5
   },
   {
@@ -2750,16 +2760,6 @@
     "trending_days": 5
   },
   {
-    "name": "TencentCloud/TencentDB-Agent-Memory",
-    "url": "https://github.com/tencentcloud/tencentdb-agent-memory",
-    "language": "TypeScript",
-    "stars": 11717,
-    "forks": 1116,
-    "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-    "last_seen": "2026-08-03",
-    "trending_days": 5
-  },
-  {
     "name": "TheCraigHewitt/seomachine",
     "url": "https://github.com/thecraighewitt/seomachine",
     "language": "Python",
@@ -2777,6 +2777,16 @@
     "forks": 4536,
     "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
     "last_seen": "2026-03-08",
+    "trending_days": 5
+  },
+  {
+    "name": "usekaneo/kaneo",
+    "url": "https://github.com/usekaneo/kaneo",
+    "language": "TypeScript",
+    "stars": 7118,
+    "forks": 572,
+    "description": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
+    "last_seen": "2026-08-04",
     "trending_days": 5
   },
   {
@@ -2807,6 +2817,16 @@
     "forks": 357,
     "description": "Experimental menu for GTA 5: Enhanced",
     "last_seen": "2026-07-16",
+    "trending_days": 5
+  },
+  {
+    "name": "zhaoxuya520/reverse-skill",
+    "url": "https://github.com/zhaoxuya520/reverse-skill",
+    "language": "PowerShell",
+    "stars": 17205,
+    "forks": 2387,
+    "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+    "last_seen": "2026-08-04",
     "trending_days": 5
   },
   {
@@ -3007,6 +3027,16 @@
     "forks": 6287,
     "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
     "last_seen": "2026-07-15",
+    "trending_days": 4
+  },
+  {
+    "name": "cypress-io/cypress",
+    "url": "https://github.com/cypress-io/cypress",
+    "language": "TypeScript",
+    "stars": 50677,
+    "forks": 3621,
+    "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+    "last_seen": "2026-08-04",
     "trending_days": 4
   },
   {
@@ -3740,16 +3770,6 @@
     "trending_days": 4
   },
   {
-    "name": "usekaneo/kaneo",
-    "url": "https://github.com/usekaneo/kaneo",
-    "language": "TypeScript",
-    "stars": 6593,
-    "forks": 538,
-    "description": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
-    "last_seen": "2026-08-03",
-    "trending_days": 4
-  },
-  {
     "name": "vllm-project/vllm-omni",
     "url": "https://github.com/vllm-project/vllm-omni",
     "language": "Python",
@@ -3807,16 +3827,6 @@
     "forks": 2020,
     "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows.",
     "last_seen": "2026-07-07",
-    "trending_days": 4
-  },
-  {
-    "name": "zhaoxuya520/reverse-skill",
-    "url": "https://github.com/zhaoxuya520/reverse-skill",
-    "language": "PowerShell",
-    "stars": 15023,
-    "forks": 2215,
-    "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-    "last_seen": "2026-08-03",
     "trending_days": 4
   },
   {
@@ -4080,16 +4090,6 @@
     "trending_days": 3
   },
   {
-    "name": "cypress-io/cypress",
-    "url": "https://github.com/cypress-io/cypress",
-    "language": "TypeScript",
-    "stars": 50535,
-    "forks": 3582,
-    "description": "Fast, easy and reliable testing for anything that runs in a browser.",
-    "last_seen": "2026-07-11",
-    "trending_days": 3
-  },
-  {
     "name": "dair-ai/Prompt-Engineering-Guide",
     "url": "https://github.com/dair-ai/prompt-engineering-guide",
     "language": "MDX",
@@ -4217,6 +4217,16 @@
     "forks": 858,
     "description": "Eigent: The Open Source Cowork Desktop to Unlock Your Exceptional Productivity.",
     "last_seen": "2026-01-17",
+    "trending_days": 3
+  },
+  {
+    "name": "esengine/DeepSeek-Reasonix",
+    "url": "https://github.com/esengine/deepseek-reasonix",
+    "language": "Go",
+    "stars": 30521,
+    "forks": 1966,
+    "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+    "last_seen": "2026-08-04",
     "trending_days": 3
   },
   {
@@ -4537,6 +4547,16 @@
     "forks": 2335,
     "description": "🕵️‍♂️ All-in-one OSINT tool for analysing any website",
     "last_seen": "2026-01-09",
+    "trending_days": 3
+  },
+  {
+    "name": "livekit/agents",
+    "url": "https://github.com/livekit/agents",
+    "language": "Python",
+    "stars": 12232,
+    "forks": 3463,
+    "description": "A framework for building realtime voice AI agents 🤖🎙️📹",
+    "last_seen": "2026-08-04",
     "trending_days": 3
   },
   {
@@ -5960,16 +5980,6 @@
     "trending_days": 2
   },
   {
-    "name": "esengine/DeepSeek-Reasonix",
-    "url": "https://github.com/esengine/deepseek-reasonix",
-    "language": "Go",
-    "stars": 29637,
-    "forks": 1909,
-    "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-    "last_seen": "2026-08-03",
-    "trending_days": 2
-  },
-  {
     "name": "expressjs/express",
     "url": "https://github.com/expressjs/express",
     "language": "JavaScript",
@@ -6027,6 +6037,16 @@
     "forks": 8392,
     "description": "The API to search, scrape, and interact with the web at scale. 🔥",
     "last_seen": "2026-07-06",
+    "trending_days": 2
+  },
+  {
+    "name": "firecrawl/pdf-inspector",
+    "url": "https://github.com/firecrawl/pdf-inspector",
+    "language": "Rust",
+    "stars": 9329,
+    "forks": 619,
+    "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+    "last_seen": "2026-08-04",
     "trending_days": 2
   },
   {
@@ -6647,16 +6667,6 @@
     "forks": 240,
     "description": "DeepAudit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。国内首个开源的代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计 + 自动化沙箱 PoC 验证。支持 Ollama 私有部署 ，一键生成报告。​让安全不再昂贵，让审计不再复杂。",
     "last_seen": "2025-12-22",
-    "trending_days": 2
-  },
-  {
-    "name": "livekit/agents",
-    "url": "https://github.com/livekit/agents",
-    "language": "Python",
-    "stars": 11813,
-    "forks": 3451,
-    "description": "A framework for building realtime voice AI agents 🤖🎙️📹",
-    "last_seen": "2026-08-03",
     "trending_days": 2
   },
   {
@@ -7990,6 +8000,16 @@
     "trending_days": 1
   },
   {
+    "name": "angular/angular",
+    "url": "https://github.com/angular/angular",
+    "language": "TypeScript",
+    "stars": 100715,
+    "forks": 27384,
+    "description": "Deliver web apps with confidence 🚀",
+    "last_seen": "2026-08-04",
+    "trending_days": 1
+  },
+  {
     "name": "anonfaded/FadCam",
     "url": "https://github.com/anonfaded/fadcam",
     "language": "Java",
@@ -8580,6 +8600,16 @@
     "trending_days": 1
   },
   {
+    "name": "denoland/deno",
+    "url": "https://github.com/denoland/deno",
+    "language": "Rust",
+    "stars": 107991,
+    "forks": 6298,
+    "description": "A modern runtime for JavaScript and TypeScript.",
+    "last_seen": "2026-08-04",
+    "trending_days": 1
+  },
+  {
     "name": "dimensionalOS/dimos",
     "url": "https://github.com/dimensionalos/dimos",
     "language": "Python",
@@ -8810,16 +8840,6 @@
     "trending_days": 1
   },
   {
-    "name": "firecrawl/pdf-inspector",
-    "url": "https://github.com/firecrawl/pdf-inspector",
-    "language": "Rust",
-    "stars": 6923,
-    "forks": 487,
-    "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
-    "last_seen": "2026-08-03",
-    "trending_days": 1
-  },
-  {
     "name": "Fission-AI/OpenSpec",
     "url": "https://github.com/fission-ai/openspec",
     "language": "TypeScript",
@@ -8907,6 +8927,16 @@
     "forks": 5311,
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
     "last_seen": "2026-03-27",
+    "trending_days": 1
+  },
+  {
+    "name": "gabime/spdlog",
+    "url": "https://github.com/gabime/spdlog",
+    "language": "C++",
+    "stars": 29345,
+    "forks": 5366,
+    "description": "Fast C++ logging library.",
+    "last_seen": "2026-08-04",
     "trending_days": 1
   },
   {
@@ -11140,6 +11170,16 @@
     "trending_days": 1
   },
   {
+    "name": "tailwindlabs/tailwindcss",
+    "url": "https://github.com/tailwindlabs/tailwindcss",
+    "language": "TypeScript",
+    "stars": 96277,
+    "forks": 5523,
+    "description": "A utility-first CSS framework for rapid UI development.",
+    "last_seen": "2026-08-04",
+    "trending_days": 1
+  },
+  {
     "name": "TanStack/router",
     "url": "https://github.com/tanstack/router",
     "language": "TypeScript",
@@ -11360,6 +11400,16 @@
     "trending_days": 1
   },
   {
+    "name": "uber/ADR",
+    "url": "https://github.com/uber/adr",
+    "language": "Python",
+    "stars": 538,
+    "forks": 61,
+    "description": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.",
+    "last_seen": "2026-08-04",
+    "trending_days": 1
+  },
+  {
     "name": "Universal-Commerce-Protocol/ucp",
     "url": "https://github.com/universal-commerce-protocol/ucp",
     "language": "Python",
@@ -11457,6 +11507,16 @@
     "forks": 897,
     "description": "Open source free capture HTTP(S) traffic software ProxyPin, supporting full platform systems",
     "last_seen": "2025-09-27",
+    "trending_days": 1
+  },
+  {
+    "name": "webpack/webpack",
+    "url": "https://github.com/webpack/webpack",
+    "language": "JavaScript",
+    "stars": 65887,
+    "forks": 9520,
+    "description": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
+    "last_seen": "2026-08-04",
     "trending_days": 1
   },
   {

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+
+<blockquote>
+<p>GitHub: <a href="https://github.com/firecrawl/pdf-inspector">https://github.com/firecrawl/pdf-inspector</a></p>
+</blockquote>
+
+<h2>一句话总结</h2>
+
+<p>Firecrawl 把生产环境的 PDF 解析痛点（54% PDF 不需要 OCR、表格恢复、CJK/RTL 兜底）做成 Rust 内核 + 多绑定的开源库，靠「按页 OCR 路由」+「结构树/几何/文本对齐三层证据表格恢复」在 PDF→Markdown 赛道 <strong>5.9 个月拿下 11.4k stars</strong>，benchmark 横扫 PyMuPDF4LLM、MarkItDown、OpenDataLoader、LiteParse 等竞品。</p>
+
+<h2>值得关注的理由</h2>
+
+<ol>
+<li><strong>AI 数据管道的「OCR 成本控制器」</strong>：~54% PDF 是原生文本型，传统方案无差别送 OCR。pdf-inspector 用 20ms 级分类器带原因码（TextBased/Scanned/VectorText/SuspectedGarbled）做逐页路由，从架构上直接砍掉 5 成以上 OCR 费用，这是 LLM 数据 ingestion 的真实痛点。</li>
+<li><strong>Rust 内核 + Node/Python/WASM 三栈交付，同一份代码同时服务服务器、Python 数据栈和浏览器</strong>：CMap 在 native 走文件系统、在 WASM 用 <code>include_dir</code> 编译期嵌入，跨运行时零配置；尤其浏览器内嵌 CMaps 让「敏感 PDF 不出 tab」成为可能。</li>
+<li><strong>Phase 1 关键 Issue 揭示的真实工程张力</strong>：#212 Arabic RTL 视觉序 / #252 detect 与 extract 判定矛盾 / #254/#247/#266 用户反向 push 暴露 OCR 阈值——这是一个「能力已经超出文档」的成长阵痛项目，对想学习真实生产解析器的人极具价值。</li>
+</ol>
+
+<h2>项目展示</h2>
+
+<blockquote>
+<p>README 与本地 media.candidates 为空，按 hero>架构>benchmark 顺序从官方文档站补全：</p>
+</blockquote>
+
+<ol>
+<li><strong>架构 pipeline 图</strong>（hero）— <a href="https://firecrawl.github.io/pdf-inspector/">https://firecrawl.github.io/pdf-inspector/</a> 上的 <code>PDF bytes → detector / extractor → tables → markdown</code> 流程，展示「detect / extract 共享解析 + 分类元数据驱动路由」的核心设计。</li>
+<li><strong>Benchmark 对比表</strong>（关键卖点）— 官方 <code>opendataloader-bench</code> 200 PDFs / Apple M4 Pro 上 5 引擎对比：pdf-inspector 0.875 vs PyMuPDF4LLM 0.735 vs MarkItDown 0.589，速度 0.470s vs 17.117s（<strong>快 36 倍</strong>），直观证伪「Python 系够用」叙事。</li>
+<li><strong>OCR 路由决策图</strong>（应用价值）— <code>PDF → classify (~20ms) → TextBased+high? YES extract local / NO send OCR</code> 三步图，把「跳过 54% PDF 的 OCR 成本」这一商业价值可视化。</li>
+<li><strong>多 binding 矩阵图</strong>（覆盖度）— Rust core / Python PyO3 / Node napi-rs / WASM wasm-bindgen 三栈交付，强调「一份代码到处跑」。</li>
+<li><strong>CLI 截屏示意</strong>（上手体验）— <code>pdf2md document.pdf</code> / <code>detect-pdf document.pdf --analyze --json</code> 即开即用，无 ML 模型、无外部服务、纯本地。</li>
+</ol>
+
+<blockquote>
+<p>在线 Demo：CLI <code>pdf2md document.pdf</code> 即开即用，覆盖 Python / Node / WASM / Rust 五种用法。</p>
+</blockquote>
+
+<h2>项目画像</h2>
+
+<p>维度 | 数据</p>
+<p>------ | ------</p>
+<p>GitHub | <a href="https://github.com/firecrawl/pdf-inspector">https://github.com/firecrawl/pdf-inspector</a></p>
+<p>Star / Fork | 11,416 / 760</p>
+<p>Watcher / Open Issue / Open PR | 27 / 35 / 43</p>
+<p>License | MIT</p>
+<p>代码行数 | 75,370（不含空行/注释）— Rust 98.5% / Python 0.5% / HTML 0.5% / JS 0.3%</p>
+<p>文件数 | 74</p>
+<p>注释行 / 注释比 | 5,510 / 7.3%</p>
+<p>依赖 | 13 个 runtime（Cargo.toml）</p>
+<p>项目年龄 | 5.9 个月（2026-02-06 首提交）</p>
+<p>总 commit | 425（近 30 天 80 / 近 90 天 110）</p>
+<p>贡献者 | 10 人（主作者 Abimael Martell 占 97.6%，9 位外部贡献者各 &lt; 5 commit）</p>
+<p>版本 | v0.7.0（18 个 tag，语义化版本）</p>
+<p>开发阶段 | 密集开发</p>
+<p>开发模式 | 职业项目（周末 16.7% + 夜间 16.2%）</p>
+<p>热度定位 | 大众热门（5.9 月 11.4k stars，issue #271 自报 1,717 stars/天）</p>
+<p>质量评级 | 代码「良好」 文档「良好」 测试「充分」 CI「完善」</p>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+
+<ul>
+<li><strong>维护主体</strong>：Firecrawl 公司（Organization），YC 投资，「Web data API for AI」，旗下 104 个 repo，主力 firecrawl 主仓 16.17 万 stars（全 GitHub 前 100），账号年龄 3.2 年、3038 followers。</li>
+<li><strong>核心开发者</strong>：Abimael Martell @abimaelmartell，单人 414/425 commit（97.6%），外部 9 位贡献者各仅 1-3 commit，属「公司全职 + 单人专注」结构。</li>
+<li><strong>背景推断</strong>：Firecrawl 商业产品需要把网页和文档统一转 AI 可消费内容；PDF 是其中最昂贵最不稳定的输入。作者从生产 dogfooding 出发，把节省的 OCR 成本直接转化为公司毛利，而非从论文出发的实验项目。</li>
+</ul>
+
+<h3>问题判断</h3>
+
+<p>作者真正看到的不是「还缺一个 PDF 文本库」，而是：</p>
+
+<ol>
+<li><strong>文档解析成本分布极不均匀</strong>：文本 PDF 本地数百毫秒，扫描 PDF 需 2-10 秒级 OCR，但 ~54% PDF 是文本型，OCR 全跑是浪费金钱 + 延迟。</li>
+<li><strong>全文件二元路由过于粗糙</strong>：混合 PDF 只有少数页需要 OCR，整份送 OCR 会把成本放大到页数规模。</li>
+<li><strong>提取失败不只是空文本</strong>：Identity-H 无 ToUnicode、Type3 字体、矢量描边文字、乱码文本层都会制造「看起来提取成功、实际不可用」的假阳性。</li>
+<li><strong>AI 数据质量由结构而非纯字符决定</strong>：表格、标题、多列阅读顺序错误，比漏掉装饰字符更伤害检索与推理。</li>
+</ol>
+
+<p><strong>时机为什么是现在</strong>：AI 抓取和 RAG 把 PDF→Markdown 从边缘需求变成基础设施；同时 Rust、NAPI、PyO3、WASM 已足够成熟，可以用一个核心覆盖服务器、Python 数据栈和浏览器。</p>
+
+<h3>解法哲学</h3>
+
+<p>作者的价值观是 <strong>semantic over visual fidelity</strong>，围绕它形成清晰选择：</p>
+
+<ul>
+<li><strong>廉价分类无条件运行，昂贵 OCR 条件运行</strong>：分类不是最终产品，而是控制后续成本的决策层。</li>
+<li><strong>确定性信号优先于模型推断</strong>：读取内容流操作符、字体资源、图像覆盖、路径数量和坐标，<strong>不引入 ML 模型</strong>。</li>
+<li><strong>语义证据优先，几何/启发式逐级退化</strong>：Tagged PDF 结构树优先；表格再按矢量矩形、线段、文本对齐逐层兜底。</li>
+<li><strong>保守拒绝优于输出貌似漂亮的错误结构</strong>：表格候选有 prose density、句子延续、numeric ratio、列填充率等反证门；低可信结果转向 OCR，而不是硬生成 Markdown。</li>
+<li><strong>保留位置证据再决定序列化</strong>：<code>TextItem</code> 同时携带坐标、字体、样式、页码、类型和 MCID，避免提取阶段过早丢失结构。</li>
+<li><strong>不追求大而全</strong>：不自带 OCR、不支持所有办公格式、不复刻页面像素、不加入运行时外部服务。</li>
+<li><strong>显式输出 policy</strong>：默认 <code>Fidelity</code> profile 保持来源忠实，token 压缩放进显式 <code>Compact</code> profile，不静默改写文本。</li>
+</ul>
+
+<h3>战略意图</h3>
+
+<ul>
+<li><strong>产品位置</strong>：Firecrawl <code>/parse</code> 等商业能力的底层效率组件，不是与主产品割裂的开源试验。</li>
+<li><strong>商业意图</strong>：通过本地解析削减 Adobe、Mathpix、OCR GPU 或第三方 API 成本，同时改善延迟和隐私。</li>
+<li><strong>开源策略</strong>：核心 MIT、Rust 内核 + 三套绑定 + CMaps 全开放，更接近 genuinely open（而非 open-core 阉割）。商业价值留在托管抓取、规模化调度、OCR fallback 和数据服务。</li>
+<li><strong>战略飞轮</strong>：Firecrawl 生产流量暴露长尾 PDF → 样本沉淀为 fixture 和 benchmark → 内核精度与速度提升 → 开源用户扩大输入分布并反馈 Issue → 改进反哺商业产品。</li>
+</ul>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处</h3>
+
+<p>按新颖度×实用性排序：</p>
+
+<ol>
+<li><strong>OCR 路由不是分类标签，而是可解释的逐页执行计划</strong>（新颖度 4 / 实用性 5 / 可迁移性 5）— 从文本操作符、图片覆盖、矢量路径、字体可解码性推导具体 OCR 页与原因码，并让 extract API 与 detect API 共享路由信号。</li>
+<li><strong>结构树、矢量几何与文本对齐的证据优先级表格恢复</strong>（4 / 5 / 4）— 不简单并列三种 detector，而是用 item claim、覆盖率门槛（Tagged PDF 仅在覆盖 ≥50% item 时主导）、候选质量闸和反证机制组织它们。</li>
+<li><strong>图表与表格的竞争解释机制</strong>（4 / 5 / 4）— 通过 rect/line 密度识别 chart region，并将其作为共享 mask 同时约束布局分析和 Markdown 表格检测，避免两个 API 对同一几何做不同解释。</li>
+<li><strong>针对坏 PDF 的 CMap 修复链</strong>（5 / 5 / 2）— 解析 ToUnicode 后还检查稀疏度、subset GID mismatch、CIDToGIDMap、W 数组覆盖、embedded font cmap，以候选映射完整度决定主次。</li>
+<li><strong>跨 native/WASM 的预定义 Adobe CMap 同构运行</strong>（4 / 5 / 4）— 同一解析器在服务器读取 bcmap 文件、在浏览器编译期嵌入，不依赖服务端字体映射。</li>
+<li><strong>按文档上下文过滤 folio，但让表格先保留数字单元格</strong>（4 / 5 / 4）— 页码数字与表格短数字结构上不可区分，先保留原 item 给表格 claim，再应用预计算删除 mask。</li>
+<li><strong>对字距跟踪文本做 run-local 双峰阈值</strong>（4 / 4 / 3）— 单字 glyph run 不使用固定空格阈值，而从本 run 的 gap 分布区分字距与词距；CJK 直接保持无空格，用大写约束避免误合并变量列表。</li>
+<li><strong>Fidelity 与 Compact 显式输出 policy</strong>（3 / 5 / 5）— 把来源忠实和 token 节省视为不同 profile，避免面向 Agent 的压缩优化污染默认语义。</li>
+<li><strong>表格结构识别 + 原生文本填充的混合接口</strong>（4 / 5 / 3）— 外部 TSR 模型只提供结构 token 和 cell bbox，项目从 PDF 文本层填充单元格；结构不佳时退回本地几何/启发式路径。</li>
+</ol>
+
+<h3>可复用的模式与技巧</h3>
+
+<ol>
+<li><strong>Cheap classifier → expensive fallback</strong>：先用确定性低成本信号判断是否调用昂贵模型，并输出原因码而非布尔值。适用 OCR、LLM 路由、媒体转码、异常检测。</li>
+<li><strong>稳定 IR 分隔采集与解释</strong>：原始解析只生成富位置对象，结构推断和序列化作为独立 pass。适用编译器、抓取器、Office/HTML 转换。</li>
+<li><strong>证据优先级 + claim set</strong>：强证据先认领对象，弱证据只处理未认领部分。适用多解析器融合、规则引擎、实体抽取。</li>
+<li><strong>覆盖率决定元数据权威性</strong>：标签覆盖高时主导输出，覆盖低时只作辅助。适用 schema-on-read、用户标注、半结构化数据。</li>
+<li><strong>正向规则后增加反证门</strong>：不只问候选「像不像表格」，还问是否更像 prose、chart 或 fragment。适用高假阳性分类任务。</li>
+<li><strong>共享派生信号避免 API 漂移</strong>：OCR signal、chart mask、文档字体统计由统一入口计算，多个 API 复用。适用同内核暴露多产品接口。</li>
+<li><strong>病理输入的业务上限剪枝</strong>：union-find 组件超过真实表格合理范围（如 2000 rect）后停止 O（n²）扩张。适用几何、图、日志聚类。</li>
+<li><strong>Fallback 也要做质量评分</strong>：字体 fallback 不是拿到非空结果就接受，而要比较映射覆盖并在输出后检查乱码。</li>
+<li><strong>同核多绑定，绑定只做类型和错误转换</strong>：Rust 保持唯一实现，PyO3/NAPI/WASM 不复制解析算法。</li>
+<li><strong>FFI panic containment</strong>：native 模块在宿主边界捕获 panic，密码等敏感选项从 Debug 输出脱敏。</li>
+<li><strong>语义 benchmark 替代纯文本 diff</strong>：用 TEDS、MHS、reading order、列表保持等任务指标裁决结构变更。</li>
+<li><strong>排他空间归属</strong>：重叠 bbox 中每个实体只分给最大重叠区域，并保存「曾重叠」元数据。适用 OCR/layout 后处理。</li>
+<li><strong>资源加载双策略</strong>：native 外置大资源、WASM 编译期嵌入，核心查询接口不变。适用字典、规则库、模型小权重跨平台部署。</li>
+</ol>
+
+<h3>关键设计决策</h3>
+
+<ol>
+<li><strong>决策</strong>：把 PDF 分类做成按页、带原因码的 OCR 路由器，而非文档级枚举。
+<ul>
+<li><strong>问题</strong>：<code>TextBased/Scanned</code> 二元标签无法处理混合文档、乱码文本层、矢量文字或只有封面需要 OCR 的情况。</li>
+<li><strong>方案</strong>：综合文本操作符数量、字符多样性、图片数量与面积、路径操作符、字体可解码性、Type3/Identity-H 状态；输出 <code>pages_needing_ocr</code> + 原因码。</li>
+<li><strong>Trade-off</strong>：路由比单看 <code>Tj/TJ</code> 更可信，但阈值依赖样本校准；默认 <code>Sample(8)</code> 提速也可能漏掉未采样的特殊页。</li>
+<li><strong>可迁移性</strong>：高。适用 OCR、模型推理、病毒扫描、转码等昂贵后端前的分级路由。</li>
+</ul>
+</li>
+<li><strong>决策</strong>：默认均匀采样 8 页，而非全页 EarlyExit。
+<ul>
+<li><strong>问题</strong>：图片封面后跟大量文本的年报会被 EarlyExit 误判；全页扫描又会放大超长文档成本。</li>
+<li><strong>方案</strong>：首尾必选、其余均匀分布，分类后再针对 OCR 页和字体问题补查。</li>
+<li><strong>Trade-off</strong>：牺牲文档级完全确定性，换取对封面噪声的鲁棒性和长文档速度。<strong>README 仍描述「EarlyExit 默认」，与代码默认 <code>Sample(8)</code> 已产生文档漂移</strong>。</li>
+<li><strong>可迁移性</strong>：高。适合长序列质量检查，但必须显式记录采样语义和漏检边界。</li>
+</ul>
+</li>
+<li><strong>决策</strong>：文档只解析一次，detection / extraction / layout / Markdown 共享 <code>lopdf::Document</code>。
+<ul>
+<li><strong>问题</strong>：独立调用分类和提取会重复解压对象、读取页面树和建立字体状态。</li>
+<li><strong>方案</strong>：<code>process_pdf_with_options</code> / memory 入口统一加载，再调用内部 <code>process_document</code>；定位提取还缓存文档级字体样式。</li>
+<li><strong>Trade-off</strong>：降低 I/O 与解析开销，但公共 API 内仍保留低层独立函数，调用方若自行组合仍可能重复加载。</li>
+<li><strong>可迁移性</strong>：高。任何多阶段媒体处理都应共享已解析 IR，而非阶段间回到原始字节。</li>
+</ul>
+</li>
+<li><strong>决策</strong>：使用富 <code>TextItem</code> 作为稳定中间表示。
+<ul>
+<li><strong>问题</strong>：直接输出字符串会永久丢失坐标、字体、样式、链接、图像、表单、MCID。</li>
+<li><strong>方案</strong>：内容流状态机生成带 X/Y、宽高、字体、字号、样式、页码、类型、MCID 的 item；布局、表格、区域提取和 Markdown 都消费它。</li>
+<li><strong>Trade-off</strong>：内存开销高于流式纯文本；许多 pass 会 clone item，超大文档峰值内存需关注。</li>
+<li><strong>可迁移性</strong>：高。本质是编译器 IR 模式，适用于 HTML、Office、OCR、日志结构化。</li>
+</ul>
+</li>
+<li><strong>决策</strong>：表格使用有优先级的多证据竞争，而非单一算法。
+<ul>
+<li><strong>方案</strong>：① 结构树表格 ② 矩形网格 ③ 线段网格 ④ rect-guided 候选 ⑤ 文本启发式 ⑥ column-based borderless ⑦ thin-rect 合成线兜底；已被前级认领的 item 不再被后级重复消费。</li>
+<li><strong>Trade-off</strong>：覆盖率高且每层可独立回归，但优先级和 claim 机制会让早期假阳性压制更好的后续候选。</li>
+<li><strong>可迁移性</strong>：高。适用有多种证据质量等级的结构恢复系统。</li>
+</ul>
+</li>
+<li><strong>决策</strong>：CMap 在 native 与 WASM 用不同资源加载策略。
+<ul>
+<li><strong>问题</strong>：native 读取文件系统，浏览器 <code>wasm32-unknown-unknown</code> 没有部署时文件路径。</li>
+<li><strong>方案</strong>：native 从 <code>external/bcmaps</code> 或环境变量目录加载；WASM 用 <code>include_dir</code> 编译期嵌入全部 CMaps；同时 WASM 关闭 rayon，避免跨源隔离和线程要求。</li>
+<li><strong>Trade-off</strong>：浏览器端真正零服务、行为一致，但 WASM 体积增加、单线程性能低于 native。</li>
+<li><strong>可迁移性</strong>：高。跨 native/WASM 的资源型库可采用「文件系统外置 vs 编译期嵌入」。</li>
+</ul>
+</li>
+<li><strong>决策</strong>：对 FFI 边界采取运行时隔离。
+<ul>
+<li><strong>问题</strong>：Rust panic 穿过 NAPI 可能终止 Node 进程。</li>
+<li><strong>方案</strong>：Node 绑定对公共调用执行 <code>catch_unwind</code> 并转成 NAPI error；密码从 <code>PdfOptions::Debug</code> 中显式脱敏；WASM 安装 panic hook。</li>
+<li><strong>Trade-off</strong>：提高宿主稳定性，但 <code>catch_unwind</code> 不能恢复 abort 或所有外部错误；各绑定错误类型仍被压平。</li>
+<li><strong>可迁移性</strong>：高。native extension 应把 panic、错误、敏感参数视为边界契约的一部分。</li>
+</ul>
+</li>
+</ol>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+
+<p>维度 | pdf-inspector | PyMuPDF4LLM | MarkItDown | OpenDataLoader | LiteParse | Adobe PDF Extract API</p>
+<p>------ | --------------- | ------------- | ------------ | ---------------- | ----------- | ------------------------</p>
+<p>总体得分（200 PDF）| <strong>0.875</strong> | 0.735 | 0.589 | 0.831 | 0.873 | 商业级无公开</p>
+<p>表格 TEDS | <strong>0.814</strong> | 0.401 | 0.273 | 0.489 | 0.693 | 商业级</p>
+<p>完整运行时间 | <strong>0.470s</strong> | 17.117s | 16.165s | 2.569s | 0.750s | 网络</p>
+<p>是否有 OCR 路由 | <strong>✓ 逐页 + 原因码</strong> | ✗ | ✗ | ✗ | 部分 | ✗（全文件）</p>
+<p>部署形态 | Rust+Node+Python+WASM | Python | Python | Rust | Rust | SaaS</p>
+<p>成本 | MIT 免费 | MIT 免费 | MIT 免费 | MIT 免费 | MIT 免费 | 按页计费</p>
+<p>CJK/RTL 兜底 | 仍在追赶 | 一般 | 弱 | 弱 | 一般 | 商业级</p>
+<p>浏览器内嵌 | <strong>✓ WASM + CMap 嵌入</strong> | ✗ | ✗ | ✗ | ✗ | ✗</p>
+
+<h3>差异化护城河</h3>
+
+<ul>
+<li><strong>技术护城河</strong>：CMap/font fallback 修复链、表格多证据竞争 + 反证门，这些来自长尾 PDF 与回归样本，复制代码比复制经验容易。</li>
+<li><strong>数据护城河</strong>：Firecrawl 生产文档流 + 外部 200 文档语义 benchmark 形成反馈闭环。</li>
+<li><strong>分发护城河</strong>：Rust、Node、Python、WASM 四入口，尤其浏览器端内嵌 CMap 是明显差异点。</li>
+<li><strong>信任护城河</strong>：Firecrawl 自家生产使用，且公开 benchmark 方法与结果分支。</li>
+</ul>
+
+<h3>竞争风险</h3>
+
+<ol>
+<li><strong>LiteParse 是最直接风险</strong>：总分仅差 0.002（0.875 vs 0.873），标题 MHS 0.811 vs 0.788 已领先；若补齐表格和多语言绑定，替换门槛不高。</li>
+<li><strong>PyMuPDF/MuPDF 是底层能力风险</strong>：成熟引擎一旦加入同类结构化 pass，规范覆盖优势可能压过纯 Rust 性能差异。</li>
+<li><strong>模型解析器是能力上限风险</strong>：推理成本持续下降后，复杂版面可能不再值得维护大量手写阈值。</li>
+<li><strong>单人维护是组织风险</strong>：97.6% commit 集中一人，护城河高度集中在核心开发者脑中。</li>
+</ol>
+
+<h3>生态定位</h3>
+
+<p>位于「传统文本提取器（pdfminer.six/pypdf/pdfplumber）」与「昂贵视觉/OCR 解析器（Marker / unstructured / Adobe）」之间；最有价值的角色不是取代所有工具，而是成为 <strong>默认 fast path、质量探针和 OCR 成本控制器</strong>——把扫描/复杂版式留给模型或商业 API，自己做 AI 数据 ingestion 的「可解释、可验证、可回退」第一道闸门。</p>
+
+<h2>套利机会分析</h2>
+
+<ul>
+<li><strong>信息差</strong>：项目热度（11.4k stars / 1,717 stars/天）与认知度不匹配——很多人仍把 PDF→Markdown 等同于 PyMuPDF/MarkItDown，不知道有 Rust 内核 + OCR 路由的 OSS 替代；中文技术圈对「WASM 浏览器内嵌 CMap」+「跨运行时三栈交付」几乎没有公开报道。</li>
+<li><strong>技术借鉴</strong>：
+<ul>
+<li>「Cheap classifier → 原因码 → 共享派生信号」是任何按量计费 AI 服务的通用模式（OCR、LLM 路由、API 计量）。</li>
+<li>「稳定 IR + 多 pass 分阶段处理」可迁移到 HTML 转 PDF、Office 转 Markdown、爬虫内容结构化。</li>
+<li>「证据优先级 + claim set + 反证门」适用于多源/多模型融合的 NER、文档分类。</li>
+<li>「CMap 跨 native/WASM 双策略」是任何需要浏览器内嵌大型静态资源的库的现成参考。</li>
+</ul>
+</li>
+<li><strong>生态位</strong>：填补「AI 数据 ingestion 链路上，OCR 太贵、Python 太慢、商业 API 太贵」的三角空白；尤其在 RAG/Agent 团队把 PDF 解析成本做回归时，路由收益是立竿见影的。</li>
+<li><strong>趋势判断</strong>：
+<ul>
+<li>趋势向好：AI 抓取 + RAG 把 PDF→Markdown 从边缘需求变成基础设施，5.9 月 11.4k stars 是需求爆发信号。</li>
+<li>后发优势：Rust + NAPI + PyO3 + WASM + CMap 是过去 3 年才齐备的技术栈，作者切入时机精准。</li>
+<li>风险：LiteParse（同语言最近性能最接近）若补齐多 binding，6-12 个月内可能成为替代候选。</li>
+</ul>
+</li>
+</ul>
+
+<h2>风险与不足</h2>
+
+<ol>
+<li><strong>单人维护 bus factor 极高</strong>：414/425 commit 来自一个开发者，关键阈值调优和长尾 PDF 处理经验高度集中；外部贡献度极低（9 人合计 11 commit）。</li>
+<li><strong>国际文本兜底仍在追赶</strong>：issue #212 Arabic RTL 视觉序（29 评论）、#246 CJK 在 dompdf CIDFontType2 部分乱码、#272 z-library 中文 PDF 崩溃 + 错分类 + 静默空提取——这是真实生产场景的高频痛点。</li>
+<li><strong>detect vs extract API 一致性问题（#252）</strong>：同库两个入口对纯文本 PDF 给出相反结论，直接威胁 OCR 路由核心价值主张；项目已引入 <code>page_ocr_signals</code> 共享，但契约仍未正式收敛。</li>
+<li><strong>文档/阈值暴露滞后于能力</strong>：#254/#248/#247/#266 集中表达「能力已超出文档」的张力，OCR 路由阈值、Mixed-PDF 处理范例缺乏官方推荐。</li>
+<li><strong>文档漂移</strong>：README 描述默认 <code>EarlyExit</code>，实际代码默认 <code>Sample(8)</code>；索引存在 0-based/1-based 混用；0/1-based 页码混用是持续 API 风险。</li>
+<li><strong>核心代码演化型复杂度</strong>：<code>lib.rs</code>、<code>detector.rs</code>、<code>extractor/mod.rs</code>、表格模块已非常庞大，经验规则密度高；规则之间高度耦合，局部修改容易触发跨文档回归。</li>
+<li><strong>FFI 绑定一致性不完整</strong>：Rust API 清晰但 PyO3/NAPI/WASM 对能力的暴露并不完全等价，绑定仍需手工同步；Node 的错误 bbox 长度会被静默转换为零 bbox，而 Python 返回清晰错误。</li>
+<li><strong>CI 不跑完整外部 <code>pdf-evals</code></strong>：~200 文档外部语义回归不在主仓库 CI，完整质量门依赖核心维护者流程。</li>
+<li><strong>缺少 CHANGELOG 和 CONTRIBUTING</strong>：开源治理文档不全。</li>
+<li><strong>大型文档峰值内存</strong>：许多 pass 会 clone TextItem，超大 PDF 的内存上限需关注。</li>
+</ol>
+
+<h2>行动建议</h2>
+
+<h3>如果你要用它</h3>
+
+<ul>
+<li><strong>数据 ingestion 场景</strong>（RAG、Agent 知识库）：直接采用 <code>extract_pages_markdown_bytes</code> + <code>detect_pdf_bytes</code> 双调用，让路由跳过 54% PDF 的 OCR 成本。</li>
+<li><strong>浏览器侧解析</strong>（隐私敏感、离线应用）：用 WASM 包 <code>@firecrawl/pdf-inspector-wasm</code>，CMap 已编译期嵌入，零服务端。</li>
+<li><strong>Python 数据栈</strong>：用 <code>pdf-inspector</code> PyPI 包，但注意绑定能力未完全等价于 Rust core，复杂场景可能需要 Rust 旁路。</li>
+<li><strong>生产文档类型混合</strong>：先 detect，文本型走本地路径，只有 <code>pages_needing_ocr</code> 送商业 OCR/视觉模型——架构上「fast path + fallback」是最优解。</li>
+<li><strong>不要</strong>：不要把它当作 OCR 引擎或 Adobe PDF Extract 的全能力替代品；不要假定 1.0 之前的 API 稳定。</li>
+</ul>
+
+<h3>如果你要学它</h3>
+
+<p>重点关注以下文件/模块：</p>
+
+<p>模块 | 路径 | 学到什么</p>
+<p>------ | ------ | ----------</p>
+<p>OCR 路由 | <code>src/detector.rs</code> | 逐页 + 原因码 + 共享派生信号的分级路由</p>
+<p>位置感知的中间表示 | <code>src/extractor/content_stream.rs</code> | 稳定 IR 设计</p>
+<p>表格多策略 | <code>src/tables/detect_rects.rs</code> + <code>src/tables/mod.rs</code> | 证据优先级 + claim set + 反证门</p>
+<p>CMap 修复 | <code>src/tounicode.rs</code> + <code>external/bcmaps</code> | 字体 fallback 链</p>
+<p>跨 native/WASM | <code>src/lib.rs</code> 的 feature 切换 + <code>wasm/</code> | 资源加载双策略</p>
+<p>FFI 隔离 | <code>napi/src/lib.rs</code> | panic containment + 敏感参数脱敏</p>
+<p>输出 policy | <code>src/markdown/mod.rs</code> 的 Fidelity/Compact | 显式 profile 设计</p>
+<p>Benchmark 体系 | 外部 <code>opendataloader-bench</code> | 语义指标替代纯文本 diff</p>
+
+<h3>如果你要 fork 它</h3>
+
+<p>可改进的方向：</p>
+
+<ol>
+<li><strong>OCR 路由信号统一收敛</strong>：把所有页面评估逻辑统一投影到单一 <code>PageAssessment</code>，由 detect / extract / bindings 共享，彻底解决 #252 一致性问题。</li>
+<li><strong>Arabic 完整 bidi 语义</strong>：当前行级 RTL X 排序只能修复简单视觉序，逻辑序、双向文本、嵌套拉丁串需要完整 bidi 算法。</li>
+<li><strong>CJK 完整化</strong>：把 <code>external/bcmaps</code> 维护做成自动化（基于上游 PDF 规范的 CMap 仓库），并加入更多生成器（dompdf、wkhtmltopdf、Chrome print）的特异性适配。</li>
+<li><strong>OCR 路由阈值配置化</strong>：把隐含训练结果抽到 YAML/JSON，并附 benchmark 来源和版本化决策记录——回应 #254/#247/#266。</li>
+<li><strong>多 binding 能力对齐</strong>：把 Rust API 用 <code>inventory</code> 或 trait 自动同步到 NAPI/PyO3/WASM 的能力矩阵。</li>
+<li><strong>CHANGELOG + CONTRIBUTING + 主仓库 CI 跑完整 pdf-evals</strong>：开源治理三件套补齐。</li>
+<li><strong>wasm 体积优化</strong>：考虑 zstd 压缩 + wasm-feature-detect 条件 include，进一步减小浏览器侧 CMap 体积。</li>
+<li><strong>分块 / 流式输出</strong>：当前文档需完整加载，对超大型 PDF（&gt;100MB）支持度弱；可加 streaming IR。</li>
+</ol>
+
+<h3>知识入口</h3>
+
+<p>资源 | 链接</p>
+<p>------ | ------</p>
+<p>官方文档站 | <a href="https://firecrawl.github.io/pdf-inspector/">https://firecrawl.github.io/pdf-inspector/</a></p>
+<p>DeepWiki | 未收录（返回 403）</p>
+<p>Zread.ai | <a href="https://zread.ai/firecrawl/pdf-inspector">https://zread.ai/firecrawl/pdf-inspector</a></p>
+<p>crates.io | <a href="https://crates.io/crates/pdf-inspector">https://crates.io/crates/pdf-inspector</a></p>
+<p>npm | <a href="https://www.npmjs.com/package/@firecrawl/pdf-inspector">https://www.npmjs.com/package/@firecrawl/pdf-inspector</a></p>
+<p>PyPI | <a href="https://pypi.org/project/pdf-inspector">https://pypi.org/project/pdf-inspector</a></p>
+<p>关联论文 | 无（纯工程实现，无学术论文）</p>
+<p>在线 Demo | CLI <code>pdf2md document.pdf</code> 即开即用，覆盖 Python / Node / WASM / Rust / CLI 五种用法</p>
+<p>Firecrawl 公司主页 | <a href="https://firecrawl.dev">https://firecrawl.dev</a>（主产品 firecrawl 16.17 万 stars，pdf-inspector 是其开源基础设施）</p>
+
+</body>
+</html>

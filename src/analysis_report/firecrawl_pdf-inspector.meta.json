@@ -1,0 +1,6 @@
+{
+  "title": "Firecrawl pdf-inspector：5.9 月 11.4k stars，PDF→Markdown 快 36 倍",
+  "digest": "Firecrawl 用 Rust 内核 + 按页 OCR 路由把 PDF→Markdown 做到 0.875 分（PyMuPDF4LLM 0.735），速度 0.470s 对 17.117s，5.9 月 11.4k stars。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

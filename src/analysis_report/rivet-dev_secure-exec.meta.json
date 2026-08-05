@@ -1,0 +1,6 @@
+{
+  "title": "950 stars 的 V8 沙箱：把 AI Agent 代码执行压到 17.9ms 的 Rivet 关键拼图",
+  "digest": "Secure Exec 把 V8 isolate 做成 npm 包级 AI Agent 沙箱：p95 17.9ms 冷启动、3.4MB/实例、56× 成本优势；用户态虚拟内核 + 默认拒绝的 capability bridge 填补中间空缺",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

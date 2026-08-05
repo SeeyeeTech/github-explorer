@@ -1259,6 +1259,9 @@ entries:
   lissy93_web-check:
   - web-framework
   - security
+  livekit_agents:
+  - ai-agent
+  - media-generation
   lizardbyte_sunshine:
   - iot-hardware
   - protocol-spec

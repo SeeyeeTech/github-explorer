@@ -3,11 +3,11 @@
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "language": "Shell",
-    "stars": 266090,
-    "forks": 23791,
+    "stars": 266966,
+    "forks": 23859,
     "description": "An agentic skills framework & software development methodology that works.",
-    "last_seen": "2026-08-04",
-    "trending_days": 74
+    "last_seen": "2026-08-05",
+    "trending_days": 75
   },
   {
     "name": "TapXWorld/ChinaTextbook",
@@ -330,6 +330,16 @@
     "trending_days": 17
   },
   {
+    "name": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "language": "JavaScript",
+    "stars": 81785,
+    "forks": 8808,
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "last_seen": "2026-08-05",
+    "trending_days": 16
+  },
+  {
     "name": "bytedance/deer-flow",
     "url": "https://github.com/bytedance/deer-flow",
     "language": "Python",
@@ -357,16 +367,6 @@
     "forks": 3747,
     "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
     "last_seen": "2026-04-29",
-    "trending_days": 15
-  },
-  {
-    "name": "addyosmani/agent-skills",
-    "url": "https://github.com/addyosmani/agent-skills",
-    "language": "JavaScript",
-    "stars": 76498,
-    "forks": 8210,
-    "description": "Production-grade engineering skills for AI coding agents.",
-    "last_seen": "2026-07-10",
     "trending_days": 15
   },
   {
@@ -1330,6 +1330,16 @@
     "trending_days": 7
   },
   {
+    "name": "donnemartin/system-design-primer",
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "language": "Python",
+    "stars": 361185,
+    "forks": 57587,
+    "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+    "last_seen": "2026-08-05",
+    "trending_days": 7
+  },
+  {
     "name": "dotnet/skills",
     "url": "https://github.com/dotnet/skills",
     "language": "C#",
@@ -1430,6 +1440,16 @@
     "trending_days": 7
   },
   {
+    "name": "lyogavin/airllm",
+    "url": "https://github.com/lyogavin/airllm",
+    "language": "JupyterNotebook",
+    "stars": 28805,
+    "forks": 3100,
+    "description": "AirLLM 70B inference with single 4GB GPU",
+    "last_seen": "2026-08-05",
+    "trending_days": 7
+  },
+  {
     "name": "microsoft/AI-For-Beginners",
     "url": "https://github.com/microsoft/ai-for-beginners",
     "language": "JupyterNotebook",
@@ -1510,6 +1530,16 @@
     "trending_days": 7
   },
   {
+    "name": "roboflow/supervision",
+    "url": "https://github.com/roboflow/supervision",
+    "language": "Python",
+    "stars": 48769,
+    "forks": 4611,
+    "description": "We write your reusable computer vision tools. 💜",
+    "last_seen": "2026-08-05",
+    "trending_days": 7
+  },
+  {
     "name": "rohitg00/agentmemory",
     "url": "https://github.com/rohitg00/agentmemory",
     "language": "TypeScript",
@@ -1527,6 +1557,16 @@
     "forks": 139,
     "description": "Text editor for your terminal: easy, powerful and fast",
     "last_seen": "2025-12-30",
+    "trending_days": 7
+  },
+  {
+    "name": "TencentCloud/TencentDB-Agent-Memory",
+    "url": "https://github.com/tencentcloud/tencentdb-agent-memory",
+    "language": "TypeScript",
+    "stars": 14681,
+    "forks": 1332,
+    "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+    "last_seen": "2026-08-05",
     "trending_days": 7
   },
   {
@@ -1740,16 +1780,6 @@
     "trending_days": 6
   },
   {
-    "name": "donnemartin/system-design-primer",
-    "url": "https://github.com/donnemartin/system-design-primer",
-    "language": "Python",
-    "stars": 360308,
-    "forks": 57512,
-    "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
-    "last_seen": "2026-08-03",
-    "trending_days": 6
-  },
-  {
     "name": "exo-explore/exo",
     "url": "https://github.com/exo-explore/exo",
     "language": "Python",
@@ -1897,16 +1927,6 @@
     "forks": 15599,
     "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
     "last_seen": "2026-07-16",
-    "trending_days": 6
-  },
-  {
-    "name": "lyogavin/airllm",
-    "url": "https://github.com/lyogavin/airllm",
-    "language": "JupyterNotebook",
-    "stars": 28000,
-    "forks": 3032,
-    "description": "AirLLM 70B inference with single 4GB GPU",
-    "last_seen": "2026-08-04",
     "trending_days": 6
   },
   {
@@ -2080,16 +2100,6 @@
     "trending_days": 6
   },
   {
-    "name": "roboflow/supervision",
-    "url": "https://github.com/roboflow/supervision",
-    "language": "Python",
-    "stars": 45737,
-    "forks": 4059,
-    "description": "We write your reusable computer vision tools. 💜",
-    "last_seen": "2026-06-30",
-    "trending_days": 6
-  },
-  {
     "name": "rowboatlabs/rowboat",
     "url": "https://github.com/rowboatlabs/rowboat",
     "language": "TypeScript",
@@ -2117,16 +2127,6 @@
     "forks": 6525,
     "description": "Bash is all you need - A nano claude code–like 「agent harness」, built from 0 to 1",
     "last_seen": "2026-03-29",
-    "trending_days": 6
-  },
-  {
-    "name": "TencentCloud/TencentDB-Agent-Memory",
-    "url": "https://github.com/tencentcloud/tencentdb-agent-memory",
-    "language": "TypeScript",
-    "stars": 12853,
-    "forks": 1218,
-    "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-    "last_seen": "2026-08-04",
     "trending_days": 6
   },
   {
@@ -3100,6 +3100,16 @@
     "trending_days": 4
   },
   {
+    "name": "esengine/DeepSeek-Reasonix",
+    "url": "https://github.com/esengine/deepseek-reasonix",
+    "language": "Go",
+    "stars": 31258,
+    "forks": 2008,
+    "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+    "last_seen": "2026-08-05",
+    "trending_days": 4
+  },
+  {
     "name": "eslint/eslint",
     "url": "https://github.com/eslint/eslint",
     "language": "JavaScript",
@@ -3770,6 +3780,16 @@
     "trending_days": 4
   },
   {
+    "name": "vercel/next.js",
+    "url": "https://github.com/vercel/next.js",
+    "language": "JavaScript",
+    "stars": 141400,
+    "forks": 31679,
+    "description": "The React Framework",
+    "last_seen": "2026-08-05",
+    "trending_days": 4
+  },
+  {
     "name": "vllm-project/vllm-omni",
     "url": "https://github.com/vllm-project/vllm-omni",
     "language": "Python",
@@ -4220,16 +4240,6 @@
     "trending_days": 3
   },
   {
-    "name": "esengine/DeepSeek-Reasonix",
-    "url": "https://github.com/esengine/deepseek-reasonix",
-    "language": "Go",
-    "stars": 30521,
-    "forks": 1966,
-    "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-    "last_seen": "2026-08-04",
-    "trending_days": 3
-  },
-  {
     "name": "evershopcommerce/evershop",
     "url": "https://github.com/evershopcommerce/evershop",
     "language": "TypeScript",
@@ -4257,6 +4267,16 @@
     "forks": 694,
     "description": "A straightforward method for training your LLM, from downloading data to generating text.",
     "last_seen": "2026-06-10",
+    "trending_days": 3
+  },
+  {
+    "name": "firecrawl/pdf-inspector",
+    "url": "https://github.com/firecrawl/pdf-inspector",
+    "language": "Rust",
+    "stars": 10877,
+    "forks": 718,
+    "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+    "last_seen": "2026-08-05",
     "trending_days": 3
   },
   {
@@ -5200,16 +5220,6 @@
     "trending_days": 3
   },
   {
-    "name": "vercel/next.js",
-    "url": "https://github.com/vercel/next.js",
-    "language": "JavaScript",
-    "stars": 140838,
-    "forks": 31540,
-    "description": "The React Framework",
-    "last_seen": "2026-07-11",
-    "trending_days": 3
-  },
-  {
     "name": "volcengine/OpenViking",
     "url": "https://github.com/volcengine/openviking",
     "language": "Python",
@@ -6037,16 +6047,6 @@
     "forks": 8392,
     "description": "The API to search, scrape, and interact with the web at scale. 🔥",
     "last_seen": "2026-07-06",
-    "trending_days": 2
-  },
-  {
-    "name": "firecrawl/pdf-inspector",
-    "url": "https://github.com/firecrawl/pdf-inspector",
-    "language": "Rust",
-    "stars": 9329,
-    "forks": 619,
-    "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
-    "last_seen": "2026-08-04",
     "trending_days": 2
   },
   {
@@ -7360,6 +7360,16 @@
     "trending_days": 2
   },
   {
+    "name": "tailwindlabs/tailwindcss",
+    "url": "https://github.com/tailwindlabs/tailwindcss",
+    "language": "TypeScript",
+    "stars": 96675,
+    "forks": 5541,
+    "description": "A utility-first CSS framework for rapid UI development.",
+    "last_seen": "2026-08-05",
+    "trending_days": 2
+  },
+  {
     "name": "tambo-ai/tambo",
     "url": "https://github.com/tambo-ai/tambo",
     "language": "TypeScript",
@@ -7517,6 +7527,16 @@
     "forks": 208,
     "description": "XZ Utils",
     "last_seen": "2026-02-28",
+    "trending_days": 2
+  },
+  {
+    "name": "uber/ADR",
+    "url": "https://github.com/uber/adr",
+    "language": "Python",
+    "stars": 877,
+    "forks": 79,
+    "description": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.",
+    "last_seen": "2026-08-05",
     "trending_days": 2
   },
   {
@@ -9390,6 +9410,16 @@
     "trending_days": 1
   },
   {
+    "name": "huangruiteng/loopx",
+    "url": "https://github.com/huangruiteng/loopx",
+    "language": "Python",
+    "stars": 1779,
+    "forks": 137,
+    "description": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
+    "last_seen": "2026-08-05",
+    "trending_days": 1
+  },
+  {
     "name": "huggingface/diffusers",
     "url": "https://github.com/huggingface/diffusers",
     "language": "Python",
@@ -11170,16 +11200,6 @@
     "trending_days": 1
   },
   {
-    "name": "tailwindlabs/tailwindcss",
-    "url": "https://github.com/tailwindlabs/tailwindcss",
-    "language": "TypeScript",
-    "stars": 96277,
-    "forks": 5523,
-    "description": "A utility-first CSS framework for rapid UI development.",
-    "last_seen": "2026-08-04",
-    "trending_days": 1
-  },
-  {
     "name": "TanStack/router",
     "url": "https://github.com/tanstack/router",
     "language": "TypeScript",
@@ -11397,16 +11417,6 @@
     "forks": 1904,
     "description": "Emoji for everyone. https://twemoji.twitter.com/",
     "last_seen": "2026-01-11",
-    "trending_days": 1
-  },
-  {
-    "name": "uber/ADR",
-    "url": "https://github.com/uber/adr",
-    "language": "Python",
-    "stars": 538,
-    "forks": 61,
-    "description": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.",
-    "last_seen": "2026-08-04",
     "trending_days": 1
   },
   {

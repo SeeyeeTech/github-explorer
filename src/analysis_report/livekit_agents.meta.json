@@ -1,0 +1,6 @@
+{
+  "title": "LiveKit Agents：把 WebRTC + AI 模型做成一等公民的实时语音 Agent 框架",
+  "digest": "12.5K Stars 的实时语音 Agent 框架,基于 WebRTC SFU + 50+ 模型插件,preemptive generation 显著降低端到端延迟,自带进程级调度与 LLM-as-judge 测试。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

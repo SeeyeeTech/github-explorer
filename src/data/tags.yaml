@@ -759,6 +759,8 @@ entries:
   - protocol-spec
   firecrawl_firecrawl:
   - uncategorized
+  firecrawl_pdf-inspector:
+  - data-pipeline
   fishaudio_fish-speech:
   - video-audio
   fission-ai_openspec:
@@ -1892,6 +1894,8 @@ entries:
   - protocol-spec
   - security
   ripienaar_free-for-dev:
+  - ai-agent
+  rivet-dev_secure-exec:
   - ai-agent
   rmyndharis_openwa:
   - database

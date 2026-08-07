@@ -3,21 +3,21 @@
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "language": "Shell",
-    "stars": 266966,
-    "forks": 23859,
+    "stars": 267779,
+    "forks": 23920,
     "description": "An agentic skills framework & software development methodology that works.",
-    "last_seen": "2026-08-05",
-    "trending_days": 75
+    "last_seen": "2026-08-06",
+    "trending_days": 76
   },
   {
     "name": "TapXWorld/ChinaTextbook",
     "url": "https://github.com/tapxworld/chinatextbook",
     "language": "Roff",
-    "stars": 73877,
-    "forks": 16533,
+    "stars": 76940,
+    "forks": 17387,
     "description": "所有小初高、大学PDF教材。",
-    "last_seen": "2026-06-11",
-    "trending_days": 38
+    "last_seen": "2026-08-06",
+    "trending_days": 39
   },
   {
     "name": "nvm-sh/nvm",
@@ -130,6 +130,16 @@
     "trending_days": 23
   },
   {
+    "name": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "language": "Shell",
+    "stars": 206061,
+    "forks": 17793,
+    "description": "Skills for Real Engineers. Straight from my .agents directory.",
+    "last_seen": "2026-08-06",
+    "trending_days": 23
+  },
+  {
     "name": "microsoft/call-center-ai",
     "url": "https://github.com/microsoft/call-center-ai",
     "language": "Python",
@@ -168,16 +178,6 @@
     "description": "all of the workflows of n8n i could find (also from the site itself)",
     "last_seen": "2025-12-04",
     "trending_days": 23
-  },
-  {
-    "name": "mattpocock/skills",
-    "url": "https://github.com/mattpocock/skills",
-    "language": "Shell",
-    "stars": 187585,
-    "forks": 16106,
-    "description": "Skills for Real Engineers. Straight from my .agents directory.",
-    "last_seen": "2026-07-25",
-    "trending_days": 22
   },
   {
     "name": "milvus-io/milvus",
@@ -320,6 +320,16 @@
     "trending_days": 18
   },
   {
+    "name": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "language": "JavaScript",
+    "stars": 82360,
+    "forks": 8847,
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "last_seen": "2026-08-06",
+    "trending_days": 17
+  },
+  {
     "name": "affaan-m/ECC",
     "url": "https://github.com/affaan-m/ecc",
     "language": "JavaScript",
@@ -328,16 +338,6 @@
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
     "last_seen": "2026-07-30",
     "trending_days": 17
-  },
-  {
-    "name": "addyosmani/agent-skills",
-    "url": "https://github.com/addyosmani/agent-skills",
-    "language": "JavaScript",
-    "stars": 81785,
-    "forks": 8808,
-    "description": "Production-grade engineering skills for AI coding agents.",
-    "last_seen": "2026-08-05",
-    "trending_days": 16
   },
   {
     "name": "bytedance/deer-flow",
@@ -1300,6 +1300,16 @@
     "trending_days": 8
   },
   {
+    "name": "TencentCloud/TencentDB-Agent-Memory",
+    "url": "https://github.com/tencentcloud/tencentdb-agent-memory",
+    "language": "TypeScript",
+    "stars": 15756,
+    "forks": 1419,
+    "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+    "last_seen": "2026-08-06",
+    "trending_days": 8
+  },
+  {
     "name": "yichuan-w/LEANN",
     "url": "https://github.com/yichuan-w/leann",
     "language": "Python",
@@ -1560,13 +1570,13 @@
     "trending_days": 7
   },
   {
-    "name": "TencentCloud/TencentDB-Agent-Memory",
-    "url": "https://github.com/tencentcloud/tencentdb-agent-memory",
-    "language": "TypeScript",
-    "stars": 14681,
-    "forks": 1332,
-    "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-    "last_seen": "2026-08-05",
+    "name": "tirth8205/code-review-graph",
+    "url": "https://github.com/tirth8205/code-review-graph",
+    "language": "Python",
+    "stars": 28829,
+    "forks": 2671,
+    "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+    "last_seen": "2026-08-06",
     "trending_days": 7
   },
   {
@@ -2130,16 +2140,6 @@
     "trending_days": 6
   },
   {
-    "name": "tirth8205/code-review-graph",
-    "url": "https://github.com/tirth8205/code-review-graph",
-    "language": "Python",
-    "stars": 25069,
-    "forks": 2376,
-    "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-    "last_seen": "2026-07-22",
-    "trending_days": 6
-  },
-  {
     "name": "trycua/cua",
     "url": "https://github.com/trycua/cua",
     "language": "HTML",
@@ -2367,6 +2367,16 @@
     "forks": 25921,
     "description": "Free and Open Source, Distributed, RESTful Search Engine",
     "last_seen": "2026-07-03",
+    "trending_days": 5
+  },
+  {
+    "name": "esengine/DeepSeek-Reasonix",
+    "url": "https://github.com/esengine/deepseek-reasonix",
+    "language": "Go",
+    "stars": 32102,
+    "forks": 2072,
+    "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+    "last_seen": "2026-08-06",
     "trending_days": 5
   },
   {
@@ -3100,16 +3110,6 @@
     "trending_days": 4
   },
   {
-    "name": "esengine/DeepSeek-Reasonix",
-    "url": "https://github.com/esengine/deepseek-reasonix",
-    "language": "Go",
-    "stars": 31258,
-    "forks": 2008,
-    "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-    "last_seen": "2026-08-05",
-    "trending_days": 4
-  },
-  {
     "name": "eslint/eslint",
     "url": "https://github.com/eslint/eslint",
     "language": "JavaScript",
@@ -3157,6 +3157,16 @@
     "forks": 333,
     "description": "FFmpeg Assembly Language Lessons",
     "last_seen": "2025-11-09",
+    "trending_days": 4
+  },
+  {
+    "name": "firecrawl/pdf-inspector",
+    "url": "https://github.com/firecrawl/pdf-inspector",
+    "language": "Rust",
+    "stars": 12025,
+    "forks": 807,
+    "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+    "last_seen": "2026-08-06",
     "trending_days": 4
   },
   {
@@ -4267,16 +4277,6 @@
     "forks": 694,
     "description": "A straightforward method for training your LLM, from downloading data to generating text.",
     "last_seen": "2026-06-10",
-    "trending_days": 3
-  },
-  {
-    "name": "firecrawl/pdf-inspector",
-    "url": "https://github.com/firecrawl/pdf-inspector",
-    "language": "Rust",
-    "stars": 10877,
-    "forks": 718,
-    "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
-    "last_seen": "2026-08-05",
     "trending_days": 3
   },
   {
@@ -6327,6 +6327,16 @@
     "forks": 278,
     "description": "Harden Windows Safely, Securely using Official Supported Microsoft methods and proper explanation | Always up-to-date and works with the latest build of Windows | Provides tools and Guides for Personal, Enterprise, Government and Military security levels | SLSA Level 3 Compliant for Secure Development and Build Process | Apps Available on MS Store✨",
     "last_seen": "2025-12-12",
+    "trending_days": 2
+  },
+  {
+    "name": "huangruiteng/loopx",
+    "url": "https://github.com/huangruiteng/loopx",
+    "language": "Python",
+    "stars": 2612,
+    "forks": 192,
+    "description": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
+    "last_seen": "2026-08-06",
     "trending_days": 2
   },
   {
@@ -8420,6 +8430,16 @@
     "trending_days": 1
   },
   {
+    "name": "cloudflare/computer",
+    "url": "https://github.com/cloudflare/computer",
+    "language": "TypeScript",
+    "stars": 4380,
+    "forks": 212,
+    "description": "Give your agent a computer 👾",
+    "last_seen": "2026-08-06",
+    "trending_days": 1
+  },
+  {
     "name": "cloudflare/workerd",
     "url": "https://github.com/cloudflare/workerd",
     "language": "C++",
@@ -9060,6 +9080,16 @@
     "trending_days": 1
   },
   {
+    "name": "goauthentik/authentik",
+    "url": "https://github.com/goauthentik/authentik",
+    "language": "Python",
+    "stars": 22836,
+    "forks": 1757,
+    "description": "The authentication glue you need.",
+    "last_seen": "2026-08-06",
+    "trending_days": 1
+  },
+  {
     "name": "godotengine/godot",
     "url": "https://github.com/godotengine/godot",
     "language": "C++",
@@ -9197,6 +9227,16 @@
     "forks": 64,
     "description": "None",
     "last_seen": "2025-10-09",
+    "trending_days": 1
+  },
+  {
+    "name": "google/guava",
+    "url": "https://github.com/google/guava",
+    "language": "Java",
+    "stars": 51559,
+    "forks": 11155,
+    "description": "Google core libraries for Java",
+    "last_seen": "2026-08-06",
     "trending_days": 1
   },
   {
@@ -9407,16 +9447,6 @@
     "forks": 5313,
     "description": "An automated phishing tool with 30+ templates. This Tool is made for educational purpose only ! Author will not be responsible for any misuse of this toolkit !",
     "last_seen": "2025-10-06",
-    "trending_days": 1
-  },
-  {
-    "name": "huangruiteng/loopx",
-    "url": "https://github.com/huangruiteng/loopx",
-    "language": "Python",
-    "stars": 1779,
-    "forks": 137,
-    "description": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
-    "last_seen": "2026-08-05",
     "trending_days": 1
   },
   {
@@ -11037,6 +11067,16 @@
     "forks": 600,
     "description": "Home to the Signal Protocol as well as other cryptographic primitives which make Signal possible.",
     "last_seen": "2025-10-04",
+    "trending_days": 1
+  },
+  {
+    "name": "Significant-Gravitas/AutoGPT",
+    "url": "https://github.com/significant-gravitas/autogpt",
+    "language": "Python",
+    "stars": 185866,
+    "forks": 46048,
+    "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+    "last_seen": "2026-08-06",
     "trending_days": 1
   },
   {

@@ -281,3 +281,4 @@
 {"recorded_at": "2026-08-05T07:49:30.390373+00:00", "slug": "livekit_agents", "title": null, "state": "published", "published_at": "2026-08-05", "reason": "自动生成", "ci_run_id": "30985390991"}
 {"recorded_at": "2026-08-05T22:25:25.913353+00:00", "slug": "rivet-dev_secure-exec", "title": null, "state": "published", "published_at": "2026-08-05", "reason": "自动生成", "ci_run_id": "31051486517"}
 {"recorded_at": "2026-08-05T23:59:41.518659+00:00", "slug": "firecrawl_pdf-inspector", "title": null, "state": "published", "published_at": "2026-08-05", "reason": "自动生成", "ci_run_id": "31057619207"}
+{"recorded_at": "2026-08-07T21:37:25.068187+00:00", "slug": "google_skills", "title": null, "state": "published", "published_at": "2026-08-07", "reason": "自动生成", "ci_run_id": "31220141577"}

@@ -879,6 +879,30 @@
       "canonical_url": "https://github.com/codecrafters-io/build-your-own-x",
       "event_date": null,
       "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/primeintellect-ai/prime-agent",
+      "canonical_url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/unclebob/swarm-forge",
+      "canonical_url": "https://github.com/unclebob/swarm-forge",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/google/skills",
+      "canonical_url": "https://github.com/google/skills",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/tobi/omatrack",
+      "canonical_url": "https://github.com/tobi/omatrack",
+      "event_date": null,
+      "date_seen": "2026-08-07"
     }
   ]
 }

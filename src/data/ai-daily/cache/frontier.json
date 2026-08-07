@@ -1,4 +1,152 @@
 {
-  "meta": { "last_run": null, "window_days": 30 },
-  "entries": []
+  "meta": {
+    "last_run": "2026-08-07",
+    "window_days": 30
+  },
+  "entries": [
+    {
+      "key": "https://github.com/trending?since=daily",
+      "canonical_url": "https://github.com/trending?since=daily",
+      "event_date": "2026-08-07",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "hf:inclusionai/ling-3.0-flash",
+      "canonical_url": "https://huggingface.co/inclusionAI/Ling-3.0-flash",
+      "event_date": "2026-08-04",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/primeintellect-ai/prime-agent",
+      "canonical_url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "event_date": "2026-08-05",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "https://36kr.com/p/3929369029868677",
+      "canonical_url": "https://36kr.com/p/3929369029868677",
+      "event_date": "2026-08-07",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
+      "canonical_url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "event_date": "2026-08-06",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "https://nature.com/articles/s41586-026-10953-2",
+      "canonical_url": "https://www.nature.com/articles/s41586-026-10953-2",
+      "event_date": "2026-08-06",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "https://qbitai.com/2026/08/467487.html",
+      "canonical_url": "https://www.qbitai.com/2026/08/467487.html",
+      "event_date": "2026-08-06",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "https://36kr.com/p/3929123308459655",
+      "canonical_url": "https://36kr.com/p/3929123308459655",
+      "event_date": "2026-08-06",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "hf:moonshotai/kimi-k3",
+      "canonical_url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "event_date": "2026-07-29",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "hf:liquidai/lfm2.5-2.6b",
+      "canonical_url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+      "event_date": "2026-08-05",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "https://mistral.ai/news/shieldstral",
+      "canonical_url": "https://mistral.ai/news/shieldstral/",
+      "event_date": "2026-08-04",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "hf:sand-ai/magi-1",
+      "canonical_url": "https://huggingface.co/sand-ai/MAGI-1",
+      "event_date": "2026-08-06",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "https://qbitai.com/2026/08/466847.html",
+      "canonical_url": "https://www.qbitai.com/2026/08/466847.html",
+      "event_date": "2026-08-06",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "https://anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "canonical_url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "event_date": "2026-08-07",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "https://huggingface.co/papers/2608.01964",
+      "canonical_url": "https://huggingface.co/papers/2608.01964",
+      "event_date": "2026-08-03",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "https://huggingface.co/papers/2608.03974",
+      "canonical_url": "https://huggingface.co/papers/2608.03974",
+      "event_date": "2026-08-04",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "https://36kr.com/p/3929144353242499",
+      "canonical_url": "https://36kr.com/p/3929144353242499",
+      "event_date": "2026-08-07",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/agentic-community/agent-plugins",
+      "canonical_url": "https://github.com/agentic-community/agent-plugins",
+      "event_date": "2026-08-07",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/nvidia/tensorrt-model-optimizer",
+      "canonical_url": "https://github.com/NVIDIA/TensorRT-Model-Optimizer",
+      "event_date": "2026-08-07",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/666ghj/mirofish",
+      "canonical_url": "https://github.com/666ghj/MiroFish",
+      "event_date": "2026-08-07",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/semantica-agi/semantica",
+      "canonical_url": "https://github.com/semantica-agi/semantica",
+      "event_date": "2026-08-07",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/rivet-dev/secure-exec",
+      "canonical_url": "https://github.com/rivet-dev/secure-exec",
+      "event_date": "2026-08-07",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/sqliteai/waste",
+      "canonical_url": "https://github.com/sqliteai/waste",
+      "event_date": "2026-08-07",
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/syncular/syncular",
+      "canonical_url": "https://github.com/syncular/syncular",
+      "event_date": "2026-08-07",
+      "date_seen": "2026-08-07"
+    }
+  ]
 }

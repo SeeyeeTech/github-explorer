@@ -1,93 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-08-05",
+    "last_run": "2026-08-07",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/bradautomates/claude-video",
-      "canonical_url": "https://github.com/bradautomates/claude-video",
-      "event_date": "2026-07-06",
-      "date_seen": "2026-07-06"
-    },
-    {
-      "key": "github.com/huggingface/candle",
-      "canonical_url": "https://github.com/huggingface/candle",
-      "event_date": "2026-07-06",
-      "date_seen": "2026-07-06"
-    },
-    {
-      "key": "github.com/1weiho/open-slide",
-      "canonical_url": "https://github.com/1weiho/open-slide",
-      "event_date": "2026-07-06",
-      "date_seen": "2026-07-06"
-    },
-    {
-      "key": "github.com/tensorflow/tensorflow",
-      "canonical_url": "https://github.com/tensorflow/tensorflow",
-      "event_date": "2026-07-06",
-      "date_seen": "2026-07-06"
-    },
-    {
-      "key": "github.com/madslorentzen/ai-job-search",
-      "canonical_url": "https://github.com/MadsLorentzen/ai-job-search",
-      "event_date": "2026-07-07",
-      "date_seen": "2026-07-07"
-    },
-    {
-      "key": "github.com/ruvnet/ruview",
-      "canonical_url": "https://github.com/ruvnet/RuView",
-      "event_date": "2026-07-07",
-      "date_seen": "2026-07-07"
-    },
-    {
-      "key": "github.com/iofficeai/officecli",
-      "canonical_url": "https://github.com/iOfficeAI/OfficeCLI",
-      "event_date": "2026-07-07",
-      "date_seen": "2026-07-07"
-    },
-    {
-      "key": "github.com/kyutai-labs/pocket-tts",
-      "canonical_url": "https://github.com/kyutai-labs/pocket-tts",
-      "event_date": "2026-07-07",
-      "date_seen": "2026-07-07"
-    },
-    {
-      "key": "github.com/hesreallyhim/awesome-claude-code",
-      "canonical_url": "https://github.com/hesreallyhim/awesome-claude-code",
-      "event_date": "2026-07-07",
-      "date_seen": "2026-07-07"
-    },
-    {
-      "key": "github.com/mesh-llm/mesh-llm",
-      "canonical_url": "https://github.com/Mesh-LLM/mesh-llm",
-      "event_date": "2026-07-07",
-      "date_seen": "2026-07-07"
-    },
-    {
-      "key": "github.com/adt109119/llamacpp-distributed-inference",
-      "canonical_url": "https://github.com/ADT109119/llamacpp-distributed-inference",
-      "event_date": "2026-07-07",
-      "date_seen": "2026-07-07"
-    },
-    {
-      "key": "github.com/greatv/oar-ocr",
-      "canonical_url": "https://github.com/GreatV/oar-ocr",
-      "event_date": "2026-07-06",
-      "date_seen": "2026-07-07"
-    },
-    {
-      "key": "github.com/wouterdebie/davit",
-      "canonical_url": "https://github.com/wouterdebie/davit",
-      "event_date": "2026-07-07",
-      "date_seen": "2026-07-07"
-    },
-    {
-      "key": "github.com/avencera/smrze",
-      "canonical_url": "https://github.com/avencera/smrze",
-      "event_date": "2026-07-06",
-      "date_seen": "2026-07-07"
-    },
     {
       "key": "github.com/tencentcloud/tencentdb-agent-memory",
       "canonical_url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
@@ -843,6 +759,126 @@
       "canonical_url": "https://seeyeetech.com/github-explorer/reports/mattpocock_skills/",
       "event_date": "2026-08-05",
       "date_seen": "2026-08-05"
+    },
+    {
+      "key": "github.com/cloudflare/computer",
+      "canonical_url": "https://github.com/cloudflare/computer",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/goauthentik/authentik",
+      "canonical_url": "https://github.com/goauthentik/authentik",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/google/guava",
+      "canonical_url": "https://github.com/google/guava",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/tapxworld/chinatextbook",
+      "canonical_url": "https://github.com/TapXWorld/ChinaTextbook",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/significant-gravitas/autogpt",
+      "canonical_url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/firecrawl/pdf-inspector",
+      "canonical_url": "https://github.com/firecrawl/pdf-inspector",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/starknightt/jungle-trail",
+      "canonical_url": "https://github.com/starknightt/jungle-trail",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/nvm-sh/nvm",
+      "canonical_url": "https://github.com/nvm-sh/nvm",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/iptv-org/iptv",
+      "canonical_url": "https://github.com/iptv-org/iptv",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/yeongpin/cursor-free-vip",
+      "canonical_url": "https://github.com/yeongpin/cursor-free-vip",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/yangshun/tech-interview-handbook",
+      "canonical_url": "https://github.com/yangshun/tech-interview-handbook",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/bobeff/open-source-games",
+      "canonical_url": "https://github.com/bobeff/open-source-games",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/zie619/n8n-workflows",
+      "canonical_url": "https://github.com/zie619/n8n-workflows",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/ruvnet/ruview",
+      "canonical_url": "https://github.com/ruvnet/ruview",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/traefik/traefik",
+      "canonical_url": "https://github.com/traefik/traefik",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/wolfpld/tracy",
+      "canonical_url": "https://github.com/wolfpld/tracy",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/mustardchef/wsabuilds",
+      "canonical_url": "https://github.com/mustardchef/wsabuilds",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/playcanvas/engine",
+      "canonical_url": "https://github.com/playcanvas/engine",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/virattt/ai-hedge-fund",
+      "canonical_url": "https://github.com/virattt/ai-hedge-fund",
+      "event_date": null,
+      "date_seen": "2026-08-07"
+    },
+    {
+      "key": "github.com/codecrafters-io/build-your-own-x",
+      "canonical_url": "https://github.com/codecrafters-io/build-your-own-x",
+      "event_date": null,
+      "date_seen": "2026-08-07"
     }
   ]
 }

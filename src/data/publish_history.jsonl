@@ -284,3 +284,4 @@
 {"recorded_at": "2026-08-07T21:37:25.068187+00:00", "slug": "google_skills", "title": null, "state": "published", "published_at": "2026-08-07", "reason": "自动生成", "ci_run_id": "31220141577"}
 {"recorded_at": "2026-08-08T21:33:36.423884+00:00", "slug": "significant-gravitas_autogpt", "title": null, "state": "published", "published_at": "2026-08-08", "reason": "自动生成", "ci_run_id": "31279029682"}
 {"recorded_at": "2026-08-08T22:26:59.423675+00:00", "slug": "google_guava", "title": null, "state": "published", "published_at": "2026-08-08", "reason": "自动生成", "ci_run_id": "31281349317"}
+{"recorded_at": "2026-08-08T23:26:58.654718+00:00", "slug": "goauthentik_authentik", "title": null, "state": "published", "published_at": "2026-08-08", "reason": "自动生成", "ci_run_id": "31283662221"}

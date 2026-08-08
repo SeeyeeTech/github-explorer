@@ -879,6 +879,11 @@ entries:
   - uncategorized
   google_magika:
   - security
+  google_skills:
+  - ai-agent
+  - ai-coding
+  - llm-framework
+  - devtools
   google_tunix:
   - ai-agent
   - llm-training

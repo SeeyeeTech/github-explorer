@@ -3,11 +3,11 @@
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "language": "Shell",
-    "stars": 268465,
-    "forks": 23985,
+    "stars": 269030,
+    "forks": 24027,
     "description": "An agentic skills framework & software development methodology that works.",
-    "last_seen": "2026-08-07",
-    "trending_days": 77
+    "last_seen": "2026-08-08",
+    "trending_days": 78
   },
   {
     "name": "TapXWorld/ChinaTextbook",
@@ -80,6 +80,16 @@
     "trending_days": 25
   },
   {
+    "name": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "language": "Shell",
+    "stars": 209396,
+    "forks": 18088,
+    "description": "Skills for Real Engineers. Straight from my .agents directory.",
+    "last_seen": "2026-08-08",
+    "trending_days": 25
+  },
+  {
     "name": "yangshun/tech-interview-handbook",
     "url": "https://github.com/yangshun/tech-interview-handbook",
     "language": "TypeScript",
@@ -97,16 +107,6 @@
     "forks": 762,
     "description": "A list of open source games.",
     "last_seen": "2025-12-04",
-    "trending_days": 24
-  },
-  {
-    "name": "mattpocock/skills",
-    "url": "https://github.com/mattpocock/skills",
-    "language": "Shell",
-    "stars": 208084,
-    "forks": 17961,
-    "description": "Skills for Real Engineers. Straight from my .agents directory.",
-    "last_seen": "2026-08-07",
     "trending_days": 24
   },
   {
@@ -280,6 +280,16 @@
     "trending_days": 20
   },
   {
+    "name": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "language": "JavaScript",
+    "stars": 84181,
+    "forks": 8990,
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "last_seen": "2026-08-08",
+    "trending_days": 19
+  },
+  {
     "name": "ChromeDevTools/chrome-devtools-mcp",
     "url": "https://github.com/chromedevtools/chrome-devtools-mcp",
     "language": "TypeScript",
@@ -308,16 +318,6 @@
     "description": "Open-Source Frontier Voice AI",
     "last_seen": "2026-07-29",
     "trending_days": 19
-  },
-  {
-    "name": "addyosmani/agent-skills",
-    "url": "https://github.com/addyosmani/agent-skills",
-    "language": "JavaScript",
-    "stars": 83428,
-    "forks": 8929,
-    "description": "Production-grade engineering skills for AI coding agents.",
-    "last_seen": "2026-08-07",
-    "trending_days": 18
   },
   {
     "name": "mvanhorn/last30days-skill",
@@ -450,6 +450,16 @@
     "trending_days": 14
   },
   {
+    "name": "666ghj/MiroFish",
+    "url": "https://github.com/666ghj/mirofish",
+    "language": "Python",
+    "stars": 70698,
+    "forks": 11005,
+    "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+    "last_seen": "2026-08-08",
+    "trending_days": 13
+  },
+  {
     "name": "asgeirtj/system_prompts_leaks",
     "url": "https://github.com/asgeirtj/system_prompts_leaks",
     "language": "JavaScript",
@@ -497,16 +507,6 @@
     "forks": 1588,
     "description": "The most RAM efficient harness",
     "last_seen": "2026-07-31",
-    "trending_days": 12
-  },
-  {
-    "name": "666ghj/MiroFish",
-    "url": "https://github.com/666ghj/mirofish",
-    "language": "Python",
-    "stars": 70259,
-    "forks": 10978,
-    "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
-    "last_seen": "2026-08-07",
     "trending_days": 12
   },
   {
@@ -3250,6 +3250,16 @@
     "trending_days": 4
   },
   {
+    "name": "google/skills",
+    "url": "https://github.com/google/skills",
+    "language": "Python",
+    "stars": 16452,
+    "forks": 1302,
+    "description": "Agent Skills for Google products and technologies",
+    "last_seen": "2026-08-08",
+    "trending_days": 4
+  },
+  {
     "name": "GoogleCloudPlatform/generative-ai",
     "url": "https://github.com/googlecloudplatform/generative-ai",
     "language": "JupyterNotebook",
@@ -4090,6 +4100,16 @@
     "trending_days": 3
   },
   {
+    "name": "chenyme/grok2api",
+    "url": "https://github.com/chenyme/grok2api",
+    "language": "Go",
+    "stars": 7191,
+    "forks": 2175,
+    "description": "Multi-account API gateway for Grok Build, Grok Web, and Grok Console",
+    "last_seen": "2026-08-08",
+    "trending_days": 3
+  },
+  {
     "name": "clash-verge-rev/clash-verge-rev",
     "url": "https://github.com/clash-verge-rev/clash-verge-rev",
     "language": "TypeScript",
@@ -4107,6 +4127,16 @@
     "forks": 413,
     "description": "Build and deploy AI Agents on Cloudflare",
     "last_seen": "2026-02-23",
+    "trending_days": 3
+  },
+  {
+    "name": "cloudflare/computer",
+    "url": "https://github.com/cloudflare/computer",
+    "language": "TypeScript",
+    "stars": 6192,
+    "forks": 309,
+    "description": "Give your agent a computer 👾",
+    "last_seen": "2026-08-08",
     "trending_days": 3
   },
   {
@@ -4330,6 +4360,26 @@
     "trending_days": 3
   },
   {
+    "name": "goauthentik/authentik",
+    "url": "https://github.com/goauthentik/authentik",
+    "language": "Python",
+    "stars": 23811,
+    "forks": 1822,
+    "description": "The authentication glue you need.",
+    "last_seen": "2026-08-08",
+    "trending_days": 3
+  },
+  {
+    "name": "google/guava",
+    "url": "https://github.com/google/guava",
+    "language": "Java",
+    "stars": 51796,
+    "forks": 11177,
+    "description": "Google core libraries for Java",
+    "last_seen": "2026-08-08",
+    "trending_days": 3
+  },
+  {
     "name": "google/magika",
     "url": "https://github.com/google/magika",
     "language": "Python",
@@ -4337,16 +4387,6 @@
     "forks": 821,
     "description": "Fast and accurate AI powered file content types detection",
     "last_seen": "2026-04-17",
-    "trending_days": 3
-  },
-  {
-    "name": "google/skills",
-    "url": "https://github.com/google/skills",
-    "language": "Python",
-    "stars": 15974,
-    "forks": 1271,
-    "description": "Agent Skills for Google products and technologies",
-    "last_seen": "2026-08-07",
     "trending_days": 3
   },
   {
@@ -4870,6 +4910,16 @@
     "trending_days": 3
   },
   {
+    "name": "pranshuparmar/witr",
+    "url": "https://github.com/pranshuparmar/witr",
+    "language": "Go",
+    "stars": 20021,
+    "forks": 653,
+    "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
+    "last_seen": "2026-08-08",
+    "trending_days": 3
+  },
+  {
     "name": "PriorLabs/TabPFN",
     "url": "https://github.com/priorlabs/tabpfn",
     "language": "Python",
@@ -5057,6 +5107,16 @@
     "forks": 143,
     "description": "None",
     "last_seen": "2025-12-21",
+    "trending_days": 3
+  },
+  {
+    "name": "Significant-Gravitas/AutoGPT",
+    "url": "https://github.com/significant-gravitas/autogpt",
+    "language": "Python",
+    "stars": 186429,
+    "forks": 46066,
+    "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+    "last_seen": "2026-08-08",
     "trending_days": 3
   },
   {
@@ -5720,16 +5780,6 @@
     "trending_days": 2
   },
   {
-    "name": "chenyme/grok2api",
-    "url": "https://github.com/chenyme/grok2api",
-    "language": "Go",
-    "stars": 7076,
-    "forks": 2156,
-    "description": "Multi-account API gateway for Grok Build, Grok Web, and Grok Console",
-    "last_seen": "2026-08-07",
-    "trending_days": 2
-  },
-  {
     "name": "chidiwilliams/buzz",
     "url": "https://github.com/chidiwilliams/buzz",
     "language": "Python",
@@ -5777,16 +5827,6 @@
     "forks": 406,
     "description": "Yet another matrix client",
     "last_seen": "2026-02-14",
-    "trending_days": 2
-  },
-  {
-    "name": "cloudflare/computer",
-    "url": "https://github.com/cloudflare/computer",
-    "language": "TypeScript",
-    "stars": 5215,
-    "forks": 265,
-    "description": "Give your agent a computer 👾",
-    "last_seen": "2026-08-07",
     "trending_days": 2
   },
   {
@@ -5937,6 +5977,16 @@
     "forks": 956,
     "description": "FlashMLA: Efficient Multi-head Latent Attention Kernels",
     "last_seen": "2026-01-23",
+    "trending_days": 2
+  },
+  {
+    "name": "denoland/celld",
+    "url": "https://github.com/denoland/celld",
+    "language": "Rust",
+    "stars": 2375,
+    "forks": 67,
+    "description": "self-hosted, distributed Durable Objects",
+    "last_seen": "2026-08-08",
     "trending_days": 2
   },
   {
@@ -6220,16 +6270,6 @@
     "trending_days": 2
   },
   {
-    "name": "goauthentik/authentik",
-    "url": "https://github.com/goauthentik/authentik",
-    "language": "Python",
-    "stars": 23346,
-    "forks": 1784,
-    "description": "The authentication glue you need.",
-    "last_seen": "2026-08-07",
-    "trending_days": 2
-  },
-  {
     "name": "google-ai-edge/LiteRT",
     "url": "https://github.com/google-ai-edge/litert",
     "language": "C++",
@@ -6267,16 +6307,6 @@
     "forks": 2018,
     "description": "A collection of sample agents built with Agent Development Kit (ADK)",
     "last_seen": "2025-12-10",
-    "trending_days": 2
-  },
-  {
-    "name": "google/guava",
-    "url": "https://github.com/google/guava",
-    "language": "Java",
-    "stars": 51706,
-    "forks": 11167,
-    "description": "Google core libraries for Java",
-    "last_seen": "2026-08-07",
     "trending_days": 2
   },
   {
@@ -6480,6 +6510,16 @@
     "trending_days": 2
   },
   {
+    "name": "jdx/mise",
+    "url": "https://github.com/jdx/mise",
+    "language": "Rust",
+    "stars": 32142,
+    "forks": 1339,
+    "description": "dev tools, env vars, task runner",
+    "last_seen": "2026-08-08",
+    "trending_days": 2
+  },
+  {
     "name": "juanfont/headscale",
     "url": "https://github.com/juanfont/headscale",
     "language": "Go",
@@ -6507,6 +6547,16 @@
     "forks": 935,
     "description": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, x86_64 servers, websocket server/client, support 12 programming languages",
     "last_seen": "2025-10-24",
+    "trending_days": 2
+  },
+  {
+    "name": "K2SOsint/Legendary_OSINT",
+    "url": "https://github.com/k2sosint/legendary_osint",
+    "language": "Unknown",
+    "stars": 1626,
+    "forks": 204,
+    "description": "A list of OSINT tools & resources for (fraud-)investigators, CTI-analysts, KYC, AML and more.",
+    "last_seen": "2026-08-08",
     "trending_days": 2
   },
   {
@@ -7240,13 +7290,13 @@
     "trending_days": 2
   },
   {
-    "name": "pranshuparmar/witr",
-    "url": "https://github.com/pranshuparmar/witr",
-    "language": "Go",
-    "stars": 19346,
-    "forks": 628,
-    "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
-    "last_seen": "2026-08-07",
+    "name": "PrimeIntellect-ai/prime-agent",
+    "url": "https://github.com/primeintellect-ai/prime-agent",
+    "language": "TypeScript",
+    "stars": 7522,
+    "forks": 624,
+    "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+    "last_seen": "2026-08-08",
     "trending_days": 2
   },
   {
@@ -7350,13 +7400,13 @@
     "trending_days": 2
   },
   {
-    "name": "Significant-Gravitas/AutoGPT",
-    "url": "https://github.com/significant-gravitas/autogpt",
+    "name": "semantica-agi/semantica",
+    "url": "https://github.com/semantica-agi/semantica",
     "language": "Python",
-    "stars": 186192,
-    "forks": 46056,
-    "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-    "last_seen": "2026-08-07",
+    "stars": 2475,
+    "forks": 314,
+    "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+    "last_seen": "2026-08-08",
     "trending_days": 2
   },
   {
@@ -7607,6 +7657,16 @@
     "forks": 79,
     "description": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.",
     "last_seen": "2026-08-05",
+    "trending_days": 2
+  },
+  {
+    "name": "unclebob/swarm-forge",
+    "url": "https://github.com/unclebob/swarm-forge",
+    "language": "Clojure",
+    "stars": 1930,
+    "forks": 206,
+    "description": "A simple tool for coordinating several AI agents.",
+    "last_seen": "2026-08-08",
     "trending_days": 2
   },
   {
@@ -8680,16 +8740,6 @@
     "trending_days": 1
   },
   {
-    "name": "denoland/celld",
-    "url": "https://github.com/denoland/celld",
-    "language": "Rust",
-    "stars": 1926,
-    "forks": 52,
-    "description": "self-hosted, distributed Durable Objects",
-    "last_seen": "2026-08-07",
-    "trending_days": 1
-  },
-  {
     "name": "denoland/deno",
     "url": "https://github.com/denoland/deno",
     "language": "Rust",
@@ -9630,16 +9680,6 @@
     "trending_days": 1
   },
   {
-    "name": "jdx/mise",
-    "url": "https://github.com/jdx/mise",
-    "language": "Rust",
-    "stars": 31961,
-    "forks": 1325,
-    "description": "dev tools, env vars, task runner",
-    "last_seen": "2026-08-07",
-    "trending_days": 1
-  },
-  {
     "name": "Jeffallan/claude-skills",
     "url": "https://github.com/jeffallan/claude-skills",
     "language": "Python",
@@ -9737,16 +9777,6 @@
     "forks": 18547,
     "description": "Advanced UX and interoperability extension for Wand (WeMod) app",
     "last_seen": "2026-07-12",
-    "trending_days": 1
-  },
-  {
-    "name": "K2SOsint/Legendary_OSINT",
-    "url": "https://github.com/k2sosint/legendary_osint",
-    "language": "Unknown",
-    "stars": 1135,
-    "forks": 174,
-    "description": "A list of OSINT tools & resources for (fraud-)investigators, CTI-analysts, KYC, AML and more.",
-    "last_seen": "2026-08-07",
     "trending_days": 1
   },
   {
@@ -10790,16 +10820,6 @@
     "trending_days": 1
   },
   {
-    "name": "PrimeIntellect-ai/prime-agent",
-    "url": "https://github.com/primeintellect-ai/prime-agent",
-    "language": "TypeScript",
-    "stars": 5062,
-    "forks": 405,
-    "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-    "last_seen": "2026-08-07",
-    "trending_days": 1
-  },
-  {
     "name": "Project-MONAI/MONAI",
     "url": "https://github.com/project-monai/monai",
     "language": "Python",
@@ -11037,16 +11057,6 @@
     "forks": 2501,
     "description": "SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files! Blob store has O(1) disk seek, cloud tiering. Filer supports Cloud Drive, xDC replication, Kubernetes, POSIX FUSE mount, S3 API, S3 Gateway, Hadoop, WebDAV, encryption, Erasure Coding. Enterprise version is at seaweedfs.com.",
     "last_seen": "2025-10-25",
-    "trending_days": 1
-  },
-  {
-    "name": "semantica-agi/semantica",
-    "url": "https://github.com/semantica-agi/semantica",
-    "language": "Python",
-    "stars": 2169,
-    "forks": 294,
-    "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
-    "last_seen": "2026-08-07",
     "trending_days": 1
   },
   {
@@ -11507,16 +11517,6 @@
     "forks": 1904,
     "description": "Emoji for everyone. https://twemoji.twitter.com/",
     "last_seen": "2026-01-11",
-    "trending_days": 1
-  },
-  {
-    "name": "unclebob/swarm-forge",
-    "url": "https://github.com/unclebob/swarm-forge",
-    "language": "Clojure",
-    "stars": 1697,
-    "forks": 190,
-    "description": "A simple tool for coordinating several AI agents.",
-    "last_seen": "2026-08-07",
     "trending_days": 1
   },
   {

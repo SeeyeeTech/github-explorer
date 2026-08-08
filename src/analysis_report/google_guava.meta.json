@@ -1,0 +1,6 @@
+{
+  "title": "Google Guava：Java 工具库事实标准 17 年演化与设计哲学",
+  "digest": "Google 17 年持续维护的 Java 核心扩展库，靠强二进制兼容、@Beta 渐进演进、内部 dogfooding 三件套奠定基础设施地位；JDK 21 时代仍在二次活跃。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

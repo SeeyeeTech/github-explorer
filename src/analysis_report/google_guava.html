@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+ul, ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul, ul ol, ol ul, ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before, blockquote::after {
+    content: none !important;
+}
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/google/guava">https://github.com/google/guava</a></p></blockquote>
+
+<h2>一句话总结</h2>
+
+<p>Google 17 年持续维护的 Java 核心扩展库——集合、并发、缓存、IO、图、散列、bloom filter 等一站式通用工具集，靠「强二进制兼容承诺 + <code>@Beta</code> 渐进式 API 演进 + 内部 dogfooding 验证」三件套，奠定了 Java 生态基础设施级地位，至今仍在 JDK 21 升级驱动下进入二次活跃期。</p>
+
+<h2>值得关注的理由</h2>
+
+<ul>
+<li><strong>事实标准</strong>：50K+ stars、11K+ forks、几乎所有 Java 后端项目都依赖（直接/间接），是 Java 工程师「JCF 之后」的必备核心库。</li>
+<li><strong>17 年演化样本</strong>：从 2009 年到 2026 年，跨越 JDK 6 到 JDK 21 五代演进，是「如何在大型工程里长期维护 API」的最佳活教材。</li>
+<li><strong>二级活跃期</strong>：2024–2026 月均 40+ commits，远高于 2018–2022 平稳期；Guava 33 系列的 JPMS 适配、JSpecify 集成都说明项目并未进入养老期。</li>
+<li><strong>可学的设计范式</strong>：<code>@Beta</code> + <code>@since</code> + <code>module-info</code> + <code>failureaccess</code> 极简依赖 + <code>-jre / -android</code> 双 flavor——每一个都值得独立研究。</li>
+</ul>
+
+<h2>项目展示</h2>
+
+<blockquote><p>README 与 guava.dev 主页均为纯文本，无 hero 截图 / 架构图 / Demo GIF。Guava 是 library，传播靠 Maven 坐标，不靠视觉素材。</p></blockquote>
+
+<h2>项目画像</h2>
+
+<table style="border-collapse: collapse; width: 100%; margin: 1em 0; font-size: 14px;">
+<thead>
+<tr><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">维度</th><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">数据</th></tr>
+</thead>
+<tbody>
+<tr><td style="border:1px solid #ddd;padding:8px;">GitHub</td><td style="border:1px solid #ddd;padding:8px;"><a href="https://github.com/google/guava">https://github.com/google/guava</a></td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Star / Fork / Watcher</td><td style="border:1px solid #ddd;padding:8px;">51,839 / 11,180 / 2,328</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">代码行数</td><td style="border:1px solid #ddd;padding:8px;">516,955 行 Java（99.1%）+ XML/Shell/JSON 等 0.9%</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">文件数量</td><td style="border:1px solid #ddd;padding:8px;">3,299 个源文件</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">项目年龄</td><td style="border:1px solid #ddd;padding:8px;">205.9 个月（17 年 2 个月，首次提交 2009-06-18）</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">最近提交</td><td style="border:1px solid #ddd;padding:8px;">2026-08-07（Remove view caching from <code>CompactHashMap</code>）</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">开发阶段</td><td style="border:1px solid #ddd;padding:8px;">密集开发（近 365 天 455 commits，月均 40+，远高于稳定维护阈值）</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">贡献模式</td><td style="border:1px solid #ddd;padding:8px;">单点核心 + 工厂机器人同步 + 社区 PR（513 贡献者，Top 1 cpovirk 1,800 commits 占 16.8%）</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">热度定位</td><td style="border:1px solid #ddd;padding:8px;">大众热门 · 基础设施级 library</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">质量评级</td><td style="border:1px solid #ddd;padding:8px;">代码优秀 · 文档优秀 · 测试充分 · CI 完善</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">最新版本</td><td style="border:1px solid #ddd;padding:8px;">v33.6.0（共 121 tag / 58 GitHub Release / 语义化版本）</td></tr>
+</tbody>
+</table>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+
+<p>Guava 由 Google 内部 Java 团队主导，公开仓库归属于 google Org 账号（76,630 followers / 2,890 公开仓库 / 14.6 年账号），实际核心维护者长期集中在 <code>cpovirk</code>（Chris Povirk 1,800 + 1,182 commits，两账号归属同人）一人身上，辅以 cgdecker、kluever、lowasser、kak 等 Google 内部 5–8 人小团队。这不是「一个独立的开源项目」，而是「<strong>Google 内部大规模 Java 工程实践</strong>的对外开源版本」——是 AdWords、Spanner 等关键服务的内部依赖沉淀。</p>
+
+<h3>问题判断</h3>
+
+<p>Java 标准库在 2009 年之前明显缺位：</p>
+
+<ul>
+<li><strong>集合缺口</strong>：JDK 没有 <code>Multimap</code> / <code>Multiset</code> / <code>BiMap</code> / <code>Table</code> / <code>Range</code>——关系型容器只能用第三方或自行封装。</li>
+<li><strong>Future 缺口</strong>：<code>java.util.concurrent.Future</code> 没有 listener、没有组合子、没有超时回调——Google 内部 RPC 框架需要 <code>ListenableFuture</code> 才能串联 2007 年的服务调用链。</li>
+<li><strong>缓存缺口</strong>：JDK 无本地缓存抽象；<code>ConcurrentHashMap</code> 不会淘汰、不会刷新、不会按加载语义。</li>
+<li><strong>不可变集合缺口</strong>：<code>Collections.unmodifiableXxx</code> 只返回视图，性能差且易被绕开。</li>
+<li><strong>工具方法零散</strong>：<code>Preconditions</code> / <code>Throwables</code> / <code>Stopwatch</code> / <code>Strings.padStart</code> 这些「每个项目都重写一遍」的小工具没有官方版。</li>
+</ul>
+
+<h3>解法哲学</h3>
+
+<p>Guava 选择了一系列<strong>比 commons-lang 更现代、更严格、更可演进</strong>的设计：</p>
+
+<ul>
+<li><strong>默认不可变</strong>：<code>ImmutableList</code> / <code>ImmutableMap</code> / <code>ImmutableSet</code> 是新代码的默认选择；视图集合也优先返回 <code>ImmutableXxx</code>。</li>
+<li><strong>view vs. snapshot 双 API</strong>：宁可 API 表面膨胀（<code>Maps.asMap</code> view + <code>Maps.toMap</code> snapshot），也不强迫用户二选一（issue #56 是典型）。</li>
+<li><strong><code>@Beta</code> 渐进演进</strong>：给 API 加 <code>@Beta</code> 注解 + Guava Beta Checker 工具——既不锁死 API，也明确告诉用户「这个还没保证稳定」。</li>
+<li><strong>强二进制兼容承诺</strong>：README 写明非 <code>@Beta</code> API「for the indefinite future」保持兼容，最后一次删 API 是 Guava 21.0（2015 年）。这是 Java 生态几乎绝无仅有的承诺强度。</li>
+<li><strong>jre / android 双 flavor</strong>：通过 Maven <code>&lt;version&gt;</code> 后缀 <code>-jre</code> / <code>-android</code> 区分两个平台的编译产物；同一源代码服务多个 JVM 平台。</li>
+</ul>
+
+<h3>战略意图</h3>
+
+<p>Guava 在 Google OSS 矩阵里是 <strong>JVM 基础设施基座</strong>——上层所有 Java OSS（gRPC、protobuf-java、Closure Compiler）几乎都依赖它；下层只有 JDK + Error Prone 静态检查工具。这是公司战略级 OSS 输出，不是「开源版 demo」。<strong>许可协议 Apache 2.0；贡献者必须签 Google CLA。</strong></p>
+
+<p>开源策略：genuinely open（不是 open-core），但有单向同步机制——内部 monorepo 是主仓库，公共 GitHub 是镜像 + PR 收集端，<code>copybara-service[bot]</code> 自动同步内部变更到公开仓库（该 bot 贡献了 1,317 commits）。</p>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处</h3>
+
+<p>按新颖度 × 实用性排序：</p>
+
+<ol>
+<li><strong><code>CompactHashMap</code> 紧凑哈希表</strong> — <code>byte[]</code> / <code>short[]</code> / <code>int[]</code> 动态元数据布局，迭代只与 <code>size()</code> 成正比（不是 <code>HashMap</code> 的 <code>O(capacity)</code>），对象分配极小。Derr / Manzhosova / Tarjan 论文「Compact Hash Tables in Java」的工程化落地，Guava 团队本身就是论文合作者。<strong>实用性 5 / 新颖度 4 / 可迁移性 4</strong>。</li>
+<li><strong><code>Futures</code> 链式 Future 编排</strong> — <code>transform</code> / <code>catching</code> / <code>catchingAsync</code> / <code>withFallback</code> / <code>withTimeout</code> / <code>whenAllSucceed</code> 20+ 静态方法，组合子式 DSL。在 Java 8 <code>CompletableFuture</code> 之前，<strong>没有任何竞品提供「Future 链式 + 异常处理 + 超时」三件套</strong>。<strong>实用性 5 / 新颖度 4 / 可迁移性 3</strong>。</li>
+<li><strong><code>AbstractFuture</code> 无锁 ListenableFuture 实现</strong> — <code>VarHandle.compareAndSet</code> + Treiber 栈（listener）+ Waiter 链表（park/unpark），教科书级 concurrent stack。<code>Trusted&lt;V&gt;</code> 内部接口允许 trusted 子类走 fast path 优化。<strong>实用性 5 / 新颖度 4 / 可迁移性 4</strong>。</li>
+<li><strong><code>LocalCache</code>：LRU + Segment + Reference 队列</strong> — 基于 ConcurrentHashMap 1.96 segment 设计 + access queue + write queue + <code>ReferenceQueue</code> 清理 weak/soft values，直接演化成可淘汰的本地缓存。<strong>实用性 5 / 新颖度 3 / 可迁移性 4</strong>。</li>
+<li><strong><code>BloomFilter</code> Kirsch-Mitzenmacher 双策略</strong> — <code>MURMUR128_MITZ_32</code>（高低 32 位 + <code>h1 + i*h2</code> 派生）+ <code>MURMUR128_MITZ_64</code>（用加法替代乘法，CPU 友好）；<code>AtomicLongArray + CAS</code> 实现 <code>LockFreeBitArray</code>。<strong>实用性 5 / 新颖度 4 / 可迁移性 4</strong>。</li>
+<li><strong><code>@Beta</code> 注解体系 + 严格语义边界</strong> — 公开 API + 自由演进空间，比 deprecate 更轻量，比 internal package 更透明，让 Guava 可以在不破坏兼容承诺的前提下持续添加新能力。<strong>实用性 5 / 新颖度 3 / 可迁移性 5</strong>。</li>
+<li><strong><code>Graph</code> / <code>ValueGraph</code> / <code>Network</code> 三件套</strong> — 按「边承载的信息量」分层：Graph（无标识、无权）→ ValueGraph（有权）→ Network（带 identity，允许 parallel edges）。实现类 package-private 强迫走 <code>GraphBuilder</code>。<strong>实用性 4 / 新颖度 5 / 可迁移性 3</strong>。</li>
+<li><strong><code>RateLimiter</code> warm-up 模式</strong> — <code>SmoothWarmingUp</code> 在冷启动期平均分配 permit 速度从慢到快，专门解决「远程服务冷启动」场景。Google 内部 dogfood 出来的实用模型。<strong>实用性 4 / 新颖度 4 / 可迁移性 3</strong>。</li>
+</ol>
+
+<h3>可复用的模式与技巧</h3>
+
+<ol>
+<li><strong><code>@Beta</code> + <code>@VisibleForTesting</code> + <code>@since</code> + <code>@InlineMe(replacement="...")</code> 注解矩阵</strong> — 用注解而非 internal package 来标记 API 成熟度，让公开库在持续演进时不损失兼容承诺。<strong>适用场景</strong>：任何需要长期维护的公开 API 库。</li>
+<li><strong><code>CacheBuilderSpec</code> 字符串配置 + fluent builder 双用法</strong> — 代码内用 fluent API（编译时类型安全），运维配置用 string spec（<code>maximumSize=10000,expireAfterWrite=10m</code>，运行时解析）。<strong>适用场景</strong>：需要支持配置中心 / 命令行注入配置的库。</li>
+<li><strong><code>AbstractFuture.Trusted&lt;V&gt;</code> 内部接口给 trusted 实现开放 fast path</strong> — 保持 public API 简洁的同时给 trusted 子类（如 <code>SettableFuture</code>）绕过 <code>instanceof</code> 检查的优化通道。<strong>适用场景</strong>：任何需要「公开抽象类 + 高频 trust 实现 + 性能优化」的场景。</li>
+<li><strong><code>Preconditions.checkArgument(condition, fmt, args...)</code> 错误消息模板 + 格式化参数</strong> — <code>%s</code> 占位符 + <code>checkNotNull</code> + <code>checkState</code>，把每个公共方法的参数校验统一为同一套 API。<strong>适用场景</strong>：所有 Java 项目都应该采用。</li>
+<li><strong><code>Stopwatch.createUnstarted(Ticker)</code> 注入时间源</strong> — 单元测试可注入 fake ticker，运行时用真实 <code>Ticker.systemTicker()</code>。<strong>适用场景</strong>：所有需要测试时间相关代码的项目（几乎所有人）。</li>
+<li><strong><code>module-info.java</code> + <code>requires static</code> + 显式 exports</strong> — <code>failureaccess</code> / <code>error_prone_annotations</code> / <code>jspecify</code> 等编译期依赖用 <code>requires static</code>，避免污染下游 module；Java 9+ 模块系统的优雅接入范式。<strong>适用场景</strong>：所有现代 Java 库。</li>
+<li><strong><code>Copybara</code> 单向同步 + <code>mirrorbot</code> 双镜像策略</strong> — 内部 monorepo 主仓库 + 公共 GitHub 镜像 + PR 收集，通过 <code>copybara-service[bot]</code> 自动同步；外部 PR 不能直接 merge，由内部 maintainer cherry-pick。<strong>适用场景</strong>：大厂 OSS 中「保持内部主仓库权威性 + 接收外部 PR」诉求。</li>
+<li><strong><code>-jre</code> / <code>-android</code> 双 flavor 用 Maven version 后缀区分</strong> — 同一源代码 + 不同 classifier，分别打包 JRE 与 Android 平台 artifact，避免 fork 维护。<strong>适用场景</strong>：多 JVM 平台共享代码库。</li>
+</ol>
+
+<h3>关键设计决策</h3>
+
+<p><strong>决策</strong>：默认不可变优先</p>
+<ul>
+<li><strong>问题</strong>：如何让大型 Java 工程在并发场景下减少隐藏的共享状态？</li>
+<li><strong>方案</strong>：<code>ImmutableList</code> / <code>ImmutableMap</code> / <code>ImmutableSet</code> 作为新代码默认返回类型；视图集合返回 <code>ImmutableXxx</code>；可变集合需显式 <code>.builder()</code> 链式构建。</li>
+<li><strong>Trade-off</strong>：频繁修改场景下要写 builder，但换来线程安全、防御性拷贝、可哈希。</li>
+<li><strong>可迁移性</strong>：高——任何 Java 库都能渐进式采用。</li>
+</ul>
+
+<p><strong>决策</strong>：<code>@Beta</code> 渐进式 API 演进</p>
+<ul>
+<li><strong>问题</strong>：公开 API 库如何在不锁定兼容承诺的前提下持续添加实验性能力？</li>
+<li><strong>方案</strong>：所有未稳定 API 标 <code>@Beta</code>；README 第 1 条警告明确告知用户「不要在生产中依赖 <code>@Beta</code> API」；Guava Beta Checker 工具自动检查。</li>
+<li><strong>Trade-off</strong>：用户要主动过滤 <code>@Beta</code> API，但换来库能自由探索新设计。</li>
+<li><strong>可迁移性</strong>：高。</li>
+</ul>
+
+<p><strong>决策</strong>：运行时只依赖 <code>failureaccess</code> 一个 jar</p>
+<ul>
+<li><strong>问题</strong>：Guava 用户基数巨大——如何减少传递依赖体积？</li>
+<li><strong>方案</strong>：把 <code>InternalFutureFailureAccess</code> 等最小内部支撑拆成独立 <code>failureaccess</code> jar，所有 <code>error_prone_annotations</code> / <code>jspecify</code> / <code>j2objc-annotations</code> / <code>checker-qual</code> 都是 <code>optional=true + scope=provided</code>，只在编译期需要。</li>
+<li><strong>Trade-off</strong>：多一个 artifact 在 Maven 中央，但换来到下游项目的极简传递依赖。</li>
+<li><strong>可迁移性</strong>：中——需要用户也接受类似拆分。</li>
+</ul>
+
+<p><strong>决策</strong>：JPMS <code>module-info</code> 显式 <code>exports</code> + <code>requires static</code></p>
+<ul>
+<li><strong>问题</strong>：如何在不破坏向后兼容承诺的前提下接入 Java 9+ 模块系统？</li>
+<li><strong>方案</strong>：v33.4.5 引入 <code>guava/src/module-info.java</code>，把 <code>failureaccess</code> 透传给用户（<code>requires transitive</code>），把编译期注解（<code>requires static</code>）排除运行时依赖；显式 <code>exports</code> 列出所有包，避免 split package 陷阱。</li>
+<li><strong>Trade-off</strong>：依赖反射的库会受限，但 Guava 自己保证不依赖反射。</li>
+<li><strong>可迁移性</strong>：高——是 Java 生态接入 JPMS 的范本。</li>
+</ul>
+
+<p><strong>决策</strong>：view vs snapshot 都提供</p>
+<ul>
+<li><strong>问题</strong>：同一个集合转换语义——lazy view（实时反映底层变化）还是 eager snapshot（拷贝）？</li>
+<li><strong>方案</strong>：<code>Maps.asMap</code>（view）+ <code>Maps.toMap</code>（snapshot）并存（issue #56 案例）。</li>
+<li><strong>Trade-off</strong>：API 表面膨胀，但用户永远能找到正确选择。</li>
+<li><strong>可迁移性</strong>：高——但需要团队愿意承担 API 膨胀的成本。</li>
+</ul>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+
+<table style="border-collapse: collapse; width: 100%; margin: 1em 0; font-size: 14px;">
+<thead>
+<tr><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">维度</th><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">Guava</th><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">Apache Commons</th><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">Caffeine</th><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">Eclipse Collections</th></tr>
+</thead>
+<tbody>
+<tr><td style="border:1px solid #ddd;padding:8px;">API 风格</td><td style="border:1px solid #ddd;padding:8px;">现代 fluent + builder</td><td style="border:1px solid #ddd;padding:8px;">pre-Java-5 静态方法集</td><td style="border:1px solid #ddd;padding:8px;">与 Guava Cache 兼容</td><td style="border:1px solid #ddd;padding:8px;">工厂 + 函数式</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">默认可变性</td><td style="border:1px solid #ddd;padding:8px;"><strong>不可变</strong></td><td style="border:1px solid #ddd;padding:8px;">可变</td><td style="border:1px solid #ddd;padding:8px;">不可变</td><td style="border:1px solid #ddd;padding:8px;">部分（<code>ImmutableXxx</code> 单独类）</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">二进制兼容承诺</td><td style="border:1px solid #ddd;padding:8px;"><strong>极强</strong>（明确承诺「非 <code>@Beta</code> 不破」）</td><td style="border:1px solid #ddd;padding:8px;">中</td><td style="border:1px solid #ddd;padding:8px;">N/A（处于活跃演化）</td><td style="border:1px solid #ddd;padding:8px;">中</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">集合</td><td style="border:1px solid #ddd;padding:8px;">Multimap/Graph/Table 全套</td><td style="border:1px solid #ddd;padding:8px;">Bag/MultiMap（年代久远）</td><td style="border:1px solid #ddd;padding:8px;">无</td><td style="border:1px solid #ddd;padding:8px;">primitive 集合专长</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">并发</td><td style="border:1px solid #ddd;padding:8px;">ListenableFuture 链式</td><td style="border:1px solid #ddd;padding:8px;">无</td><td style="border:1px solid #ddd;padding:8px;">无</td><td style="border:1px solid #ddd;padding:8px;">无</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">缓存</td><td style="border:1px solid #ddd;padding:8px;"><code>CacheBuilder</code> (LRU)</td><td style="border:1px solid #ddd;padding:8px;">无</td><td style="border:1px solid #ddd;padding:8px;"><strong>W-TinyLFU 性能更优</strong></td><td style="border:1px solid #ddd;padding:8px;">无</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">静态类型</td><td style="border:1px solid #ddd;padding:8px;">JSpecify + Error Prone</td><td style="border:1px solid #ddd;padding:8px;">无</td><td style="border:1px solid #ddd;padding:8px;">JSpecify 部分</td><td style="border:1px solid #ddd;padding:8px;">部分</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">维护方</td><td style="border:1px solid #ddd;padding:8px;">Google 官方持续 17 年</td><td style="border:1px solid #ddd;padding:8px;">社区为主</td><td style="border:1px solid #ddd;padding:8px;">社区为主（Ben Manes 仍活跃）</td><td style="border:1px solid #ddd;padding:8px;">Eclipse 基金会</td></tr>
+</tbody>
+</table>
+
+<h3>差异化护城河</h3>
+
+<ol>
+<li><strong>强二进制兼容承诺</strong> + Google 内 17 年狗粮积累——其他竞品很难承诺同样强度的稳定性。</li>
+<li><strong><code>@Beta</code> 注解矩阵</strong> + Guava Beta Checker 工具——给「公开库如何渐进演进」设立了行业范本。</li>
+<li><strong><code>-jre</code> / <code>-android</code> 双 flavor</strong> + GWT 兼容子集——多 JVM 平台覆盖范围无人能出其右。</li>
+<li><strong>自我集成 Error Prone / NullAway / JSpecify</strong> ——既是用户也是工具链贡献者，工具链 ↔ 库演进同步。</li>
+</ol>
+
+<h3>竞争风险</h3>
+
+<ul>
+<li><strong>本地缓存场景被 Caffeine 实质取代</strong> —— Ben Manes（Guava Cache 原作者之一）创造的 Caffeine API 是 Guava Cache 的超集，W-TinyLFU 抗扫描性能更优；新项目首选 Caffeine。</li>
+<li><strong>JDK 自身在追赶</strong> —— <code>java.util.Optional</code>、<code>CompletableFuture</code>、<code>Map.of</code> / <code>List.of</code> 工厂、<code>var</code>、Record 都从 Guava 吸收了部分 API 范式，Guava 的部分功能被 JDK 自身覆盖（虽然语法不可变集合、Cache、RateLimiter 等仍是 Guava 独门）。</li>
+<li><strong>不可变对象生成被 Immutables / Records 蚕食</strong> —— 对于「用注解 / Record 自动生成不可变值对象」场景，Immutables / Java 14+ Records 比 <code>ImmutableXxx.builder()</code> 更轻量。</li>
+</ul>
+
+<h3>生态定位</h3>
+
+<p><strong>Java 生态基础设施级基座</strong>——上层所有 Java OSS（gRPC、protobuf-java、Apache Beam、Gradle、Spring 三方包等）几乎都依赖 Guava。在「JCF → Guava → JDK 增强」三级堆叠里，Guava 是承上启下的中间层。</p>
+
+<h2>套利机会分析</h2>
+
+<ul>
+<li><strong>信息差</strong>：Guava 已被严重高估（市值 50K+ stars），但<strong>「Java 工程师几乎人手一份」的实际渗透率远高于 star 数</strong>——意味着「被使用 ≠ 被 star」，Guava 在中文圈的深度技术解读仍稀缺（公众号 / 博客多为 <code>ImmutableList</code> 教程级内容）。对内容创作者而言，发布「Guava 33 时代的设计哲学变更」「CompactHashMap 论文解读」「ListenableFuture 已过时了吗？」等深度长文仍有差异化空间。</li>
+<li><strong>技术借鉴</strong>：Compact 集合族（用 <code>byte[]</code> / <code>short[]</code> 紧凑表示元数据）、<code>@Beta</code> 渐进式注解、<code>CacheBuilderSpec</code> 双用法、<code>failureaccess</code> 极简依赖拆分、<code>-jre / -android</code> 双 flavor——这些模式可直接迁移到自研库的架构设计。</li>
+<li><strong>生态位</strong>：在「JDK 还未覆盖的通用工具」领域事实标准。未来 JDK 21+ 升级还会再吃一波红利（v33 系列正在做这件事）。</li>
+<li><strong>趋势判断</strong>：增长趋于平稳（基础设施级库的必然归宿），但 Guava 33 系列（JDK 21 baseline / JPMS / JSpecify）说明项目在 JDK 21 LTS 周期里仍有结构性二次增长。<strong>比 Caffeine / Apache Commons 的"后发优势"</strong> = Google 官方 + JPMS 标准集成 + 强兼容承诺。</li>
+</ul>
+
+<h2>风险与不足</h2>
+
+<ul>
+<li><strong>API 表面膨胀</strong>：<code>Maps.asMap</code> vs <code>Maps.toMap</code> / <code>catching</code> vs <code>catchingAsync</code> 等并存 API 让学习曲线比 Caffeine / Immutables 陡。</li>
+<li><strong>Caffeine 蚕食本地缓存场景</strong>：高命中 / 抗扫描场景新项目首选 Caffeine，Guava Cache 进入维护期。</li>
+<li><strong>仓库数据噪声</strong>：<code>copybara-service[bot]</code> (1,317) + <code>travis-ci</code> (920) + <code>guava.mirrorbot@gmail.com</code> (414) 三类机器人贡献占比 ~36%，社区 PR 要经过 copybara 单向同步，外部贡献者反馈周期长。</li>
+<li><strong>JDK 自身追赶</strong>：<code>CompletableFuture</code> (Java 8) / <code>Map.of</code> <code>List.of</code> (Java 9) / 不可变集合工厂方法 (Java 9+) / Record (Java 14) / <code>SequencedCollection</code> (Java 21) 都在吸收 Guava 设计。</li>
+<li><strong>GWT 兼容的维护成本</strong>：<code>guava-gwt</code> 模块仍在维护但用户极少（行业趋势已弃 GWT），是拖累版本发布速度的重量。</li>
+<li><strong>样本偏差</strong>：公众 GitHub 是镜像，主仓库在 Google 内部 monorepo——外部贡献者对项目治理的影响力有限。</li>
+</ul>
+
+<h2>行动建议</h2>
+
+<ul>
+<li><strong>如果你要用它</strong>：在做 JDK 21 LTS 项目时直接用 Guava 33 系列；做本地缓存场景单独评估 Caffeine；做内存敏感集合（金融 / 大数据）评估 Eclipse Collections。常见子项目组合：<code>Guava Immutable + Lombok @Value + Immutables + Eclipse Collections primitive</code> 各取所长。</li>
+<li><strong>如果你要学它</strong>：重点研究源码 <code>collect/CompactHashMap.java</code>（紧凑表示）、<code>util/concurrent/AbstractFuture.java</code>（无锁实现）、<code>cache/LocalCache.java</code>（LRU 淘汰）、<code>hash/BloomFilterStrategies.java</code>（双策略 BloomFilter）、<code>base/Preconditions.java</code>（统一校验 API）。这些都是「教科书级」的工程实现。</li>
+<li><strong>如果你要 fork 它</strong>：可以从「减小体积」方向 fork——Guava 51.7 万行 Java 单 jar 对 Android / Lambda 部署偏重，可以拆出「Guava Lite: Immutable Collections + Caching + Futures + Base Utils」的精简子集。或者从「JDK 21+ 体验优化」方向——把 Guava Bridge（<code>Futures</code> ↔ <code>CompletableFuture</code> 双向桥接、<code>RateLimiter</code> ↔ JDK 21 structured concurrency）做成可选扩展。</li>
+</ul>
+
+<h3>知识入口</h3>
+
+<table style="border-collapse: collapse; width: 100%; margin: 1em 0; font-size: 14px;">
+<thead>
+<tr><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">资源</th><th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;text-align:left;">链接</th></tr>
+</thead>
+<tbody>
+<tr><td style="border:1px solid #ddd;padding:8px;">DeepWiki</td><td style="border:1px solid #ddd;padding:8px;"><a href="https://deepwiki.com/google/guava">https://deepwiki.com/google/guava</a></td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">Zread.ai</td><td style="border:1px solid #ddd;padding:8px;">未收录</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">关联论文</td><td style="border:1px solid #ddd;padding:8px;">「Compact Hash Tables in Java」(Derr / Manzhosova / Tarjan, 2017)；「Networking Layers, Parallel and Distributed Computing」-「Bloom Filters」(Kirsch / Mitzenmacher)</td></tr>
+<tr><td style="border:1px solid #ddd;padding:8px;">在线 Demo</td><td style="border:1px solid #ddd;padding:8px;">无（library 无 playground；Baeldung 提供大量可运行示例 <a href="https://www.baeldung.com/guava-guide">https://www.baeldung.com/guava-guide</a> ）</td></tr>
+</tbody>
+</table>
+</body>
+</html>

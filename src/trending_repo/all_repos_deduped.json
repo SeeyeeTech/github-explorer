@@ -110,6 +110,16 @@
     "trending_days": 24
   },
   {
+    "name": "msitarzewski/agency-agents",
+    "url": "https://github.com/msitarzewski/agency-agents",
+    "language": "Shell",
+    "stars": 140044,
+    "forks": 22844,
+    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+    "last_seen": "2026-08-09",
+    "trending_days": 24
+  },
+  {
     "name": "NousResearch/hermes-agent",
     "url": "https://github.com/nousresearch/hermes-agent",
     "language": "Python",
@@ -147,16 +157,6 @@
     "forks": 653,
     "description": "Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!",
     "last_seen": "2025-12-04",
-    "trending_days": 23
-  },
-  {
-    "name": "msitarzewski/agency-agents",
-    "url": "https://github.com/msitarzewski/agency-agents",
-    "language": "Shell",
-    "stars": 134406,
-    "forks": 21929,
-    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-    "last_seen": "2026-07-20",
     "trending_days": 23
   },
   {
@@ -260,6 +260,16 @@
     "trending_days": 21
   },
   {
+    "name": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "language": "JavaScript",
+    "stars": 84850,
+    "forks": 9134,
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "last_seen": "2026-08-09",
+    "trending_days": 20
+  },
+  {
     "name": "GibsonAI/Memori",
     "url": "https://github.com/gibsonai/memori",
     "language": "Python",
@@ -278,16 +288,6 @@
     "description": "An AI Hedge Fund Team",
     "last_seen": "2026-07-14",
     "trending_days": 20
-  },
-  {
-    "name": "addyosmani/agent-skills",
-    "url": "https://github.com/addyosmani/agent-skills",
-    "language": "JavaScript",
-    "stars": 84181,
-    "forks": 8990,
-    "description": "Production-grade engineering skills for AI coding agents.",
-    "last_seen": "2026-08-08",
-    "trending_days": 19
   },
   {
     "name": "ChromeDevTools/chrome-devtools-mcp",
@@ -1620,6 +1620,16 @@
     "trending_days": 7
   },
   {
+    "name": "ZhuLinsen/daily_stock_analysis",
+    "url": "https://github.com/zhulinsen/daily_stock_analysis",
+    "language": "Python",
+    "stars": 60890,
+    "forks": 51897,
+    "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+    "last_seen": "2026-08-09",
+    "trending_days": 7
+  },
+  {
     "name": "alibaba/OpenSandbox",
     "url": "https://github.com/alibaba/opensandbox",
     "language": "Python",
@@ -2210,16 +2220,6 @@
     "trending_days": 6
   },
   {
-    "name": "ZhuLinsen/daily_stock_analysis",
-    "url": "https://github.com/zhulinsen/daily_stock_analysis",
-    "language": "Python",
-    "stars": 48048,
-    "forks": 42831,
-    "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-    "last_seen": "2026-06-24",
-    "trending_days": 6
-  },
-  {
     "name": "aandrew-me/ytDownloader",
     "url": "https://github.com/aandrew-me/ytdownloader",
     "language": "JavaScript",
@@ -2397,6 +2397,16 @@
     "forks": 182,
     "description": "GitHub Agentic Workflows",
     "last_seen": "2026-02-15",
+    "trending_days": 5
+  },
+  {
+    "name": "google/skills",
+    "url": "https://github.com/google/skills",
+    "language": "Python",
+    "stars": 16971,
+    "forks": 1383,
+    "description": "Agent Skills for Google products and technologies",
+    "last_seen": "2026-08-09",
     "trending_days": 5
   },
   {
@@ -2617,6 +2627,16 @@
     "forks": 1726,
     "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
     "last_seen": "2026-06-12",
+    "trending_days": 5
+  },
+  {
+    "name": "pingdotgg/t3code",
+    "url": "https://github.com/pingdotgg/t3code",
+    "language": "TypeScript",
+    "stars": 17472,
+    "forks": 3971,
+    "description": "None",
+    "last_seen": "2026-08-09",
     "trending_days": 5
   },
   {
@@ -3210,6 +3230,16 @@
     "trending_days": 4
   },
   {
+    "name": "goauthentik/authentik",
+    "url": "https://github.com/goauthentik/authentik",
+    "language": "Python",
+    "stars": 24113,
+    "forks": 1849,
+    "description": "The authentication glue you need.",
+    "last_seen": "2026-08-09",
+    "trending_days": 4
+  },
+  {
     "name": "google-ai-edge/gallery",
     "url": "https://github.com/google-ai-edge/gallery",
     "language": "Kotlin",
@@ -3247,16 +3277,6 @@
     "forks": 10663,
     "description": "GoogleTest - Google Testing and Mocking Framework",
     "last_seen": "2026-01-10",
-    "trending_days": 4
-  },
-  {
-    "name": "google/skills",
-    "url": "https://github.com/google/skills",
-    "language": "Python",
-    "stars": 16452,
-    "forks": 1302,
-    "description": "Agent Skills for Google products and technologies",
-    "last_seen": "2026-08-08",
     "trending_days": 4
   },
   {
@@ -3630,16 +3650,6 @@
     "trending_days": 4
   },
   {
-    "name": "pingdotgg/t3code",
-    "url": "https://github.com/pingdotgg/t3code",
-    "language": "TypeScript",
-    "stars": 14918,
-    "forks": 3284,
-    "description": "None",
-    "last_seen": "2026-07-26",
-    "trending_days": 4
-  },
-  {
     "name": "PKUFlyingPig/cs-self-learning",
     "url": "https://github.com/pkuflyingpig/cs-self-learning",
     "language": "HTML",
@@ -3657,6 +3667,16 @@
     "forks": 8285,
     "description": "PowerShell for every system!",
     "last_seen": "2026-04-25",
+    "trending_days": 4
+  },
+  {
+    "name": "pranshuparmar/witr",
+    "url": "https://github.com/pranshuparmar/witr",
+    "language": "Go",
+    "stars": 20220,
+    "forks": 669,
+    "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
+    "last_seen": "2026-08-09",
     "trending_days": 4
   },
   {
@@ -4360,16 +4380,6 @@
     "trending_days": 3
   },
   {
-    "name": "goauthentik/authentik",
-    "url": "https://github.com/goauthentik/authentik",
-    "language": "Python",
-    "stars": 23811,
-    "forks": 1822,
-    "description": "The authentication glue you need.",
-    "last_seen": "2026-08-08",
-    "trending_days": 3
-  },
-  {
     "name": "google/guava",
     "url": "https://github.com/google/guava",
     "language": "Java",
@@ -4910,13 +4920,13 @@
     "trending_days": 3
   },
   {
-    "name": "pranshuparmar/witr",
-    "url": "https://github.com/pranshuparmar/witr",
-    "language": "Go",
-    "stars": 20021,
-    "forks": 653,
-    "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
-    "last_seen": "2026-08-08",
+    "name": "PrimeIntellect-ai/prime-agent",
+    "url": "https://github.com/primeintellect-ai/prime-agent",
+    "language": "TypeScript",
+    "stars": 9850,
+    "forks": 961,
+    "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+    "last_seen": "2026-08-09",
     "trending_days": 3
   },
   {
@@ -7290,16 +7300,6 @@
     "trending_days": 2
   },
   {
-    "name": "PrimeIntellect-ai/prime-agent",
-    "url": "https://github.com/primeintellect-ai/prime-agent",
-    "language": "TypeScript",
-    "stars": 7522,
-    "forks": 624,
-    "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-    "last_seen": "2026-08-08",
-    "trending_days": 2
-  },
-  {
     "name": "PrismML-Eng/Bonsai-demo",
     "url": "https://github.com/prismml-eng/bonsai-demo",
     "language": "Shell",
@@ -8570,6 +8570,16 @@
     "trending_days": 1
   },
   {
+    "name": "Comfy-Org/ComfyUI",
+    "url": "https://github.com/comfy-org/comfyui",
+    "language": "Python",
+    "stars": 125094,
+    "forks": 14815,
+    "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+    "last_seen": "2026-08-09",
+    "trending_days": 1
+  },
+  {
     "name": "comfyanonymous/ComfyUI",
     "url": "https://github.com/comfyanonymous/comfyui",
     "language": "Python",
@@ -9240,6 +9250,16 @@
     "trending_days": 1
   },
   {
+    "name": "google-deepmind/weathernext",
+    "url": "https://github.com/google-deepmind/weathernext",
+    "language": "Python",
+    "stars": 6914,
+    "forks": 910,
+    "description": "None",
+    "last_seen": "2026-08-09",
+    "trending_days": 1
+  },
+  {
     "name": "google-gemini/computer-use-preview",
     "url": "https://github.com/google-gemini/computer-use-preview",
     "language": "Python",
@@ -9467,6 +9487,16 @@
     "forks": 13,
     "description": "None",
     "last_seen": "2026-08-02",
+    "trending_days": 1
+  },
+  {
+    "name": "harveyai/harvey-labs",
+    "url": "https://github.com/harveyai/harvey-labs",
+    "language": "Python",
+    "stars": 686,
+    "forks": 170,
+    "description": "A benchmark built to evaluate and improve agent capabilities for supporting legal work.",
+    "last_seen": "2026-08-09",
     "trending_days": 1
   },
   {
@@ -11577,6 +11607,16 @@
     "forks": 127,
     "description": "[ICLR 26] Stable Video Infinity: Infinite-Length Video Generation with Error Recycling",
     "last_seen": "2026-02-01",
+    "trending_days": 1
+  },
+  {
+    "name": "vitali87/code-graph-rag",
+    "url": "https://github.com/vitali87/code-graph-rag",
+    "language": "Python",
+    "stars": 2661,
+    "forks": 444,
+    "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+    "last_seen": "2026-08-09",
     "trending_days": 1
   },
   {

@@ -393,6 +393,9 @@ entries:
   chenglou_pretext:
   - ai-coding
   - workflow-automation
+  chenyme_grok2api:
+  - ai-coding
+  - protocol-spec
   cherryhq_cherry-studio:
   - llm-framework
   - model-foundation
@@ -442,6 +445,11 @@ entries:
   - protocol-spec
   cloudflare_capnweb:
   - uncategorized
+  cloudflare_computer:
+  - ai-agent
+  - ai-coding
+  - database
+  - protocol-spec
   cocoindex-io_cocoindex:
   - ai-agent
   - llm-framework
@@ -853,6 +861,9 @@ entries:
   - ai-coding
   - protocol-spec
   - security
+  goauthentik_authentik:
+  - web-framework
+  - security
   google-ai-edge_gallery:
   - model-foundation
   - iot-hardware
@@ -874,6 +885,8 @@ entries:
   - ai-agent
   - protocol-spec
   google_googletest:
+  - uncategorized
+  google_guava:
   - uncategorized
   google_langextract:
   - uncategorized
@@ -1797,6 +1810,8 @@ entries:
   - security
   powershell_powershell:
   - workflow-automation
+  pranshuparmar_witr:
+  - devtools
   prefecthq_fastmcp:
   - ai-coding
   - devtools
@@ -2036,6 +2051,12 @@ entries:
   - protocol-spec
   siddharthvaddem_openscreen:
   - video-audio
+  significant-gravitas_autogpt:
+  - ai-agent
+  - llm-framework
+  - devtools
+  - video-audio
+  - protocol-spec
   sillytavern_sillytavern:
   - uncategorized
   simplex-chat_simplex-chat:

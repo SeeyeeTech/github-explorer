@@ -6857,6 +6857,33 @@
     "publishedTitle": null
   },
   {
+    "slug": "happier-dev_happier",
+    "title": "GitHub推荐：1.4k stars 却写 290 万行：把 6 个 AI 编码 agent 装进端到端加密的多端「中继」",
+    "originalUrl": "https://github.com/happier-dev/happier",
+    "summary": "Happier 是一个**端到端加密、跨设备、自托管的 AI 编码 agent 中继客户端**——把你的 Claude Code / Codex / OpenCode / Cursor / Pi 等 CLI 会话安全地同步到手机、Web、桌面，并在路上继续它们。",
+    "highlights": [
+      "Agent 世界的 1Password + Tailscale：在「你的 AI 编码数据比源码还敏感」这件事上，它是目前最系统化做端到端加密 + 零知识中继 + 自托管的开源方案，已经在 App Store 上架并拥有真实的桌面/移动/Web 三端用户",
+      "Provider 抽象层的工程范式：它把 Claude Code、Codex、OpenCode、Cursor、Pi 等 6+ 个「长得不一样」的 agent 装到同一套协议 + UI 上，提供了一个多 provider adapter 框架的范本（manifest-driven + 三档分级 + tool normalization）",
+      "被低估的潜力股：13 个月、290 万行代码、700+ tag、几乎全职团队节奏，仅 1.4k star"
+    ],
+    "stars": 1445,
+    "forks": 122,
+    "language": null,
+    "locRaw": "2,909,756 行（17,663 文件）",
+    "ageMonths": 12.9,
+    "ageRaw": "12.9 个月（首 commit 2025-07-12，仍在频繁 push）",
+    "stage": "**密集开发**（近 30 天 791 commit、近 90 天 1,514）",
+    "contribution": "**单人主导 + 小核心团队 + 社区协作**（75 贡献者，Top 1 占 81.3%）",
+    "heat": "**被低估的潜力股**",
+    "heatRaw": "**被低估的潜力股**（2.9M 行 / 728 tag / 6+ agent 兼容，仅 1.4k star）",
+    "quality": "代码[良好] 文档[优秀] 测试[充分]",
+    "license": null,
+    "cover": "https://raw.githubusercontent.com/happier-dev/happier/dev/apps/website/public/images/logotype-dark.png",
+    "mtime": "2026-08-08",
+    "published": null,
+    "publishedTitle": null
+  },
+  {
     "slug": "hardikpandya_stop-slop",
     "title": "0 代码 9.5K Star：一位 Atlassian 设计总监如何用一份 SKILL.md 撬动 AI 写作反 slop 赛道",
     "originalUrl": "https://github.com/hardikpandya/stop-slop",

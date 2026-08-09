@@ -1,0 +1,6 @@
+{
+  "title": "7.6 个月 20k stars：witr 一个 Go 命令干掉诊断四件套",
+  "digest": "witr 是 Go 写的进程排查 CLI，统一入口（PID/端口/容器/文件/进程名）→ 自动给出「祖先链+启动上下文+红旗警告」，把运维日常从 4 工具拼装压缩到 1 行命令。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

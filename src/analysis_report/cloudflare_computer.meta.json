@@ -1,0 +1,6 @@
+{
+  "title": "Cloudflare Computer：把 Agent 工作区挂进 Durable Object",
+  "digest": "Cloudflare 官方把 VFS、执行、持久化三合一挂到 DO：DO SQLite 为权威单点，三种后端共享同一份状态，Sync Bracket 协议拒绝 rename opcode，把「给 Agent 一个工作目录」压成一行业务代码。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

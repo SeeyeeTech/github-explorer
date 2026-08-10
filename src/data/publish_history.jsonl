@@ -289,3 +289,4 @@
 {"recorded_at": "2026-08-09T03:04:55.746292+00:00", "slug": "chenyme_grok2api", "title": null, "state": "published", "published_at": "2026-08-09", "reason": "自动生成", "ci_run_id": "31291437419"}
 {"recorded_at": "2026-08-09T04:26:10.074737+00:00", "slug": "cloudflare_computer", "title": null, "state": "published", "published_at": "2026-08-09", "reason": "自动生成", "ci_run_id": "31294194148"}
 {"recorded_at": "2026-08-09T21:35:57.871343+00:00", "slug": "primeintellect-ai_prime-agent", "title": null, "state": "published", "published_at": "2026-08-09", "reason": "自动生成", "ci_run_id": "31336612240"}
+{"recorded_at": "2026-08-10T21:54:52.601295+00:00", "slug": "semantica-agi_semantica", "title": null, "state": "published", "published_at": "2026-08-10", "reason": "自动生成", "ci_run_id": "31434249859"}

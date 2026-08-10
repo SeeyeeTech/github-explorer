@@ -90,6 +90,16 @@
     "trending_days": 25
   },
   {
+    "name": "msitarzewski/agency-agents",
+    "url": "https://github.com/msitarzewski/agency-agents",
+    "language": "Shell",
+    "stars": 141365,
+    "forks": 23056,
+    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+    "last_seen": "2026-08-10",
+    "trending_days": 25
+  },
+  {
     "name": "yangshun/tech-interview-handbook",
     "url": "https://github.com/yangshun/tech-interview-handbook",
     "language": "TypeScript",
@@ -107,16 +117,6 @@
     "forks": 762,
     "description": "A list of open source games.",
     "last_seen": "2025-12-04",
-    "trending_days": 24
-  },
-  {
-    "name": "msitarzewski/agency-agents",
-    "url": "https://github.com/msitarzewski/agency-agents",
-    "language": "Shell",
-    "stars": 140044,
-    "forks": 22844,
-    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-    "last_seen": "2026-08-09",
     "trending_days": 24
   },
   {
@@ -157,6 +157,16 @@
     "forks": 653,
     "description": "Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!",
     "last_seen": "2025-12-04",
+    "trending_days": 23
+  },
+  {
+    "name": "ruvnet/RuView",
+    "url": "https://github.com/ruvnet/ruview",
+    "language": "Rust",
+    "stars": 89163,
+    "forks": 11873,
+    "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+    "last_seen": "2026-08-10",
     "trending_days": 23
   },
   {
@@ -210,16 +220,6 @@
     "trending_days": 22
   },
   {
-    "name": "ruvnet/RuView",
-    "url": "https://github.com/ruvnet/ruview",
-    "language": "Rust",
-    "stars": 85624,
-    "forks": 11414,
-    "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-    "last_seen": "2026-07-24",
-    "trending_days": 22
-  },
-  {
     "name": "traefik/traefik",
     "url": "https://github.com/traefik/traefik",
     "language": "Go",
@@ -250,6 +250,16 @@
     "trending_days": 22
   },
   {
+    "name": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "language": "JavaScript",
+    "stars": 85473,
+    "forks": 9191,
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "last_seen": "2026-08-10",
+    "trending_days": 21
+  },
+  {
     "name": "shiyu-coder/Kronos",
     "url": "https://github.com/shiyu-coder/kronos",
     "language": "Python",
@@ -258,16 +268,6 @@
     "description": "Kronos: A Foundation Model for the Language of Financial Markets",
     "last_seen": "2026-08-03",
     "trending_days": 21
-  },
-  {
-    "name": "addyosmani/agent-skills",
-    "url": "https://github.com/addyosmani/agent-skills",
-    "language": "JavaScript",
-    "stars": 84850,
-    "forks": 9134,
-    "description": "Production-grade engineering skills for AI coding agents.",
-    "last_seen": "2026-08-09",
-    "trending_days": 20
   },
   {
     "name": "GibsonAI/Memori",
@@ -570,6 +570,16 @@
     "trending_days": 12
   },
   {
+    "name": "TauricResearch/TradingAgents",
+    "url": "https://github.com/tauricresearch/tradingagents",
+    "language": "Python",
+    "stars": 96950,
+    "forks": 18713,
+    "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+    "last_seen": "2026-08-10",
+    "trending_days": 12
+  },
+  {
     "name": "twentyhq/twenty",
     "url": "https://github.com/twentyhq/twenty",
     "language": "TypeScript",
@@ -697,16 +707,6 @@
     "forks": 2199,
     "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
     "last_seen": "2026-06-03",
-    "trending_days": 11
-  },
-  {
-    "name": "TauricResearch/TradingAgents",
-    "url": "https://github.com/tauricresearch/tradingagents",
-    "language": "Python",
-    "stars": 81584,
-    "forks": 15873,
-    "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-    "last_seen": "2026-06-01",
     "trending_days": 11
   },
   {
@@ -980,6 +980,16 @@
     "trending_days": 9
   },
   {
+    "name": "LadybirdBrowser/ladybird",
+    "url": "https://github.com/ladybirdbrowser/ladybird",
+    "language": "C++",
+    "stars": 65139,
+    "forks": 3113,
+    "description": "Truly independent web browser",
+    "last_seen": "2026-08-10",
+    "trending_days": 9
+  },
+  {
     "name": "Leonxlnx/taste-skill",
     "url": "https://github.com/leonxlnx/taste-skill",
     "language": "JavaScript",
@@ -1190,16 +1200,6 @@
     "trending_days": 8
   },
   {
-    "name": "LadybirdBrowser/ladybird",
-    "url": "https://github.com/ladybirdbrowser/ladybird",
-    "language": "C++",
-    "stars": 62840,
-    "forks": 2990,
-    "description": "Truly independent web browser",
-    "last_seen": "2026-05-06",
-    "trending_days": 8
-  },
-  {
     "name": "Lordog/dive-into-llms",
     "url": "https://github.com/lordog/dive-into-llms",
     "language": "JupyterNotebook",
@@ -1227,6 +1227,16 @@
     "forks": 3454,
     "description": "Meshery, the cloud native manager",
     "last_seen": "2026-06-17",
+    "trending_days": 8
+  },
+  {
+    "name": "NanmiCoder/MediaCrawler",
+    "url": "https://github.com/nanmicoder/mediacrawler",
+    "language": "Python",
+    "stars": 60723,
+    "forks": 11942,
+    "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+    "last_seen": "2026-08-10",
     "trending_days": 8
   },
   {
@@ -1497,16 +1507,6 @@
     "forks": 3881,
     "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
     "last_seen": "2026-05-24",
-    "trending_days": 7
-  },
-  {
-    "name": "NanmiCoder/MediaCrawler",
-    "url": "https://github.com/nanmicoder/mediacrawler",
-    "language": "Python",
-    "stars": 58933,
-    "forks": 11660,
-    "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
-    "last_seen": "2026-07-29",
     "trending_days": 7
   },
   {
@@ -2090,6 +2090,16 @@
     "trending_days": 6
   },
   {
+    "name": "pingdotgg/t3code",
+    "url": "https://github.com/pingdotgg/t3code",
+    "language": "TypeScript",
+    "stars": 17848,
+    "forks": 4033,
+    "description": "None",
+    "last_seen": "2026-08-10",
+    "trending_days": 6
+  },
+  {
     "name": "rendercv/rendercv",
     "url": "https://github.com/rendercv/rendercv",
     "language": "Python",
@@ -2627,16 +2637,6 @@
     "forks": 1726,
     "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
     "last_seen": "2026-06-12",
-    "trending_days": 5
-  },
-  {
-    "name": "pingdotgg/t3code",
-    "url": "https://github.com/pingdotgg/t3code",
-    "language": "TypeScript",
-    "stars": 17472,
-    "forks": 3971,
-    "description": "None",
-    "last_seen": "2026-08-09",
     "trending_days": 5
   },
   {
@@ -3680,6 +3680,16 @@
     "trending_days": 4
   },
   {
+    "name": "PrimeIntellect-ai/prime-agent",
+    "url": "https://github.com/primeintellect-ai/prime-agent",
+    "language": "TypeScript",
+    "stars": 12498,
+    "forks": 1261,
+    "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+    "last_seen": "2026-08-10",
+    "trending_days": 4
+  },
+  {
     "name": "prometheus/alertmanager",
     "url": "https://github.com/prometheus/alertmanager",
     "language": "Go",
@@ -4330,6 +4340,16 @@
     "trending_days": 3
   },
   {
+    "name": "firecrawl/firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "language": "TypeScript",
+    "stars": 164572,
+    "forks": 9263,
+    "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
+    "last_seen": "2026-08-10",
+    "trending_days": 3
+  },
+  {
     "name": "FlowiseAI/Flowise",
     "url": "https://github.com/flowiseai/flowise",
     "language": "TypeScript",
@@ -4920,16 +4940,6 @@
     "trending_days": 3
   },
   {
-    "name": "PrimeIntellect-ai/prime-agent",
-    "url": "https://github.com/primeintellect-ai/prime-agent",
-    "language": "TypeScript",
-    "stars": 9850,
-    "forks": 961,
-    "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-    "last_seen": "2026-08-09",
-    "trending_days": 3
-  },
-  {
     "name": "PriorLabs/TabPFN",
     "url": "https://github.com/priorlabs/tabpfn",
     "language": "Python",
@@ -5107,6 +5117,16 @@
     "forks": 1470,
     "description": "Easily and securely send things from one computer to another 🐊 📦",
     "last_seen": "2026-07-22",
+    "trending_days": 3
+  },
+  {
+    "name": "semantica-agi/semantica",
+    "url": "https://github.com/semantica-agi/semantica",
+    "language": "Python",
+    "stars": 3664,
+    "forks": 412,
+    "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+    "last_seen": "2026-08-10",
     "trending_days": 3
   },
   {
@@ -5860,6 +5880,16 @@
     "trending_days": 2
   },
   {
+    "name": "Comfy-Org/ComfyUI",
+    "url": "https://github.com/comfy-org/comfyui",
+    "language": "Python",
+    "stars": 125994,
+    "forks": 14880,
+    "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+    "last_seen": "2026-08-10",
+    "trending_days": 2
+  },
+  {
     "name": "ComposioHQ/composio",
     "url": "https://github.com/composiohq/composio",
     "language": "TypeScript",
@@ -6130,16 +6160,6 @@
     "trending_days": 2
   },
   {
-    "name": "firecrawl/firecrawl",
-    "url": "https://github.com/firecrawl/firecrawl",
-    "language": "TypeScript",
-    "stars": 145790,
-    "forks": 8392,
-    "description": "The API to search, scrape, and interact with the web at scale. 🔥",
-    "last_seen": "2026-07-06",
-    "trending_days": 2
-  },
-  {
     "name": "firefly-iii/firefly-iii",
     "url": "https://github.com/firefly-iii/firefly-iii",
     "language": "PHP",
@@ -6287,6 +6307,16 @@
     "forks": 221,
     "description": "LiteRT, successor to TensorFlow Lite. is Google's On-device framework for high-performance ML & GenAI deployment on edge platforms, via efficient conversion, runtime, and optimization",
     "last_seen": "2026-03-13",
+    "trending_days": 2
+  },
+  {
+    "name": "google-deepmind/weathernext",
+    "url": "https://github.com/google-deepmind/weathernext",
+    "language": "Python",
+    "stars": 7237,
+    "forks": 946,
+    "description": "None",
+    "last_seen": "2026-08-10",
     "trending_days": 2
   },
   {
@@ -7400,16 +7430,6 @@
     "trending_days": 2
   },
   {
-    "name": "semantica-agi/semantica",
-    "url": "https://github.com/semantica-agi/semantica",
-    "language": "Python",
-    "stars": 2475,
-    "forks": 314,
-    "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
-    "last_seen": "2026-08-08",
-    "trending_days": 2
-  },
-  {
     "name": "SimoneAvogadro/android-reverse-engineering-skill",
     "url": "https://github.com/simoneavogadro/android-reverse-engineering-skill",
     "language": "Shell",
@@ -7737,6 +7757,16 @@
     "forks": 1384,
     "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
     "last_seen": "2026-07-29",
+    "trending_days": 2
+  },
+  {
+    "name": "vitali87/code-graph-rag",
+    "url": "https://github.com/vitali87/code-graph-rag",
+    "language": "Python",
+    "stars": 3348,
+    "forks": 539,
+    "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+    "last_seen": "2026-08-10",
     "trending_days": 2
   },
   {
@@ -8570,16 +8600,6 @@
     "trending_days": 1
   },
   {
-    "name": "Comfy-Org/ComfyUI",
-    "url": "https://github.com/comfy-org/comfyui",
-    "language": "Python",
-    "stars": 125094,
-    "forks": 14815,
-    "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
-    "last_seen": "2026-08-09",
-    "trending_days": 1
-  },
-  {
     "name": "comfyanonymous/ComfyUI",
     "url": "https://github.com/comfyanonymous/comfyui",
     "language": "Python",
@@ -8657,6 +8677,16 @@
     "forks": 2720,
     "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
     "last_seen": "2026-04-24",
+    "trending_days": 1
+  },
+  {
+    "name": "danielmiessler/LifeOS",
+    "url": "https://github.com/danielmiessler/lifeos",
+    "language": "TypeScript",
+    "stars": 17639,
+    "forks": 2359,
+    "description": "⛰️A General Hill-climbing AI harness that helps you move from Current State to Ideal State in both Life and Work.",
+    "last_seen": "2026-08-10",
     "trending_days": 1
   },
   {
@@ -9247,16 +9277,6 @@
     "forks": 21,
     "description": "None",
     "last_seen": "2026-02-13",
-    "trending_days": 1
-  },
-  {
-    "name": "google-deepmind/weathernext",
-    "url": "https://github.com/google-deepmind/weathernext",
-    "language": "Python",
-    "stars": 6914,
-    "forks": 910,
-    "description": "None",
-    "last_seen": "2026-08-09",
     "trending_days": 1
   },
   {
@@ -10610,6 +10630,16 @@
     "trending_days": 1
   },
   {
+    "name": "opa334/Dopamine",
+    "url": "https://github.com/opa334/dopamine",
+    "language": "C",
+    "stars": 5900,
+    "forks": 6185,
+    "description": "Dopamine is a semi-untethered jailbreak for iOS 15 to 26(.0.1)",
+    "last_seen": "2026-08-10",
+    "trending_days": 1
+  },
+  {
     "name": "Open-Dev-Society/OpenStock",
     "url": "https://github.com/open-dev-society/openstock",
     "language": "TypeScript",
@@ -10747,6 +10777,16 @@
     "forks": 5954,
     "description": "PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署）",
     "last_seen": "2026-02-28",
+    "trending_days": 1
+  },
+  {
+    "name": "paperclipai/paperclip",
+    "url": "https://github.com/paperclipai/paperclip",
+    "language": "TypeScript",
+    "stars": 76168,
+    "forks": 14179,
+    "description": "The open-source app everyone uses to manage agents at work",
+    "last_seen": "2026-08-10",
     "trending_days": 1
   },
   {
@@ -11607,16 +11647,6 @@
     "forks": 127,
     "description": "[ICLR 26] Stable Video Infinity: Infinite-Length Video Generation with Error Recycling",
     "last_seen": "2026-02-01",
-    "trending_days": 1
-  },
-  {
-    "name": "vitali87/code-graph-rag",
-    "url": "https://github.com/vitali87/code-graph-rag",
-    "language": "Python",
-    "stars": 2661,
-    "forks": 444,
-    "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
-    "last_seen": "2026-08-09",
     "trending_days": 1
   },
   {

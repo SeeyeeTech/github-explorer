@@ -1818,6 +1818,9 @@ entries:
   - workflow-automation
   - web-framework
   - protocol-spec
+  primeintellect-ai_prime-agent:
+  - ai-agent
+  - ai-coding
   priorlabs_tabpfn:
   - llm-training
   - education

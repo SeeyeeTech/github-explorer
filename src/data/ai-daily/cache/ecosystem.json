@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-08-09",
+    "last_run": "2026-08-10",
     "window_days": 30
   },
   "entries": [
@@ -867,6 +867,36 @@
       "canonical_url": "https://github.com/Comfy-Org/ComfyUI",
       "event_date": "2026-08-09",
       "date_seen": "2026-08-09"
+    },
+    {
+      "key": "github.com/paperclipai/paperclip",
+      "canonical_url": "https://github.com/paperclipai/paperclip",
+      "event_date": "2026-08-10",
+      "date_seen": "2026-08-10"
+    },
+    {
+      "key": "github.com/tauricresearch/tradingagents",
+      "canonical_url": "https://github.com/TauricResearch/TradingAgents",
+      "event_date": "2026-08-10",
+      "date_seen": "2026-08-10"
+    },
+    {
+      "key": "github.com/eugene1g/agent-safehouse",
+      "canonical_url": "https://github.com/eugene1g/agent-safehouse",
+      "event_date": "2026-08-10",
+      "date_seen": "2026-08-10"
+    },
+    {
+      "key": "github.com/firecrawl/anydoc",
+      "canonical_url": "https://github.com/firecrawl/anydoc",
+      "event_date": "2026-08-10",
+      "date_seen": "2026-08-10"
+    },
+    {
+      "key": "github.com/block/buzz",
+      "canonical_url": "https://github.com/block/buzz",
+      "event_date": "2026-08-10",
+      "date_seen": "2026-08-10"
     }
   ]
 }

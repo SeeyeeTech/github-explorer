@@ -1,63 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-08-10",
+    "last_run": "2026-08-11",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/google-labs-code/stitch-skills",
-      "canonical_url": "https://github.com/google-labs-code/stitch-skills",
-      "event_date": "2026-07-11",
-      "date_seen": "2026-07-11"
-    },
-    {
-      "key": "github.com/openai/plugins",
-      "canonical_url": "https://github.com/openai/plugins",
-      "event_date": "2026-07-11",
-      "date_seen": "2026-07-11"
-    },
-    {
-      "key": "github.com/davila7/claude-code-templates",
-      "canonical_url": "https://github.com/davila7/claude-code-templates",
-      "event_date": "2026-07-11",
-      "date_seen": "2026-07-11"
-    },
-    {
-      "key": "github.com/obra/superpowers",
-      "canonical_url": "https://github.com/obra/superpowers",
-      "event_date": "2026-07-11",
-      "date_seen": "2026-07-11"
-    },
-    {
-      "key": "github.com/addyosmani/agent-skills",
-      "canonical_url": "https://github.com/addyosmani/agent-skills",
-      "event_date": "2026-07-11",
-      "date_seen": "2026-07-11"
-    },
-    {
-      "key": "github.com/thedotmack/claude-mem",
-      "canonical_url": "https://github.com/thedotmack/claude-mem",
-      "event_date": "2026-07-11",
-      "date_seen": "2026-07-11"
-    },
-    {
-      "key": "github.com/hkuds/lightrag",
-      "canonical_url": "https://github.com/HKUDS/LightRAG",
-      "event_date": "2026-07-11",
-      "date_seen": "2026-07-11"
-    },
-    {
-      "key": "github.com/chromedevtools/chrome-devtools-mcp",
-      "canonical_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "event_date": "2026-07-11",
-      "date_seen": "2026-07-11"
-    },
-    {
-      "key": "github.com/msitarzewski/agency-agents",
-      "canonical_url": "https://github.com/msitarzewski/agency-agents",
-      "event_date": "2026-07-11",
-      "date_seen": "2026-07-11"
-    },
     {
       "key": "github.com/dicklesworthstone/destructive_command_guard",
       "canonical_url": "https://github.com/Dicklesworthstone/destructive_command_guard",
@@ -897,6 +843,54 @@
       "canonical_url": "https://github.com/block/buzz",
       "event_date": "2026-08-10",
       "date_seen": "2026-08-10"
+    },
+    {
+      "key": "github.com/msitarzewski/agency-agents",
+      "canonical_url": "https://github.com/msitarzewski/agency-agents",
+      "event_date": "2026-08-11",
+      "date_seen": "2026-08-11"
+    },
+    {
+      "key": "github.com/anthropics/skills",
+      "canonical_url": "https://github.com/anthropics/skills",
+      "event_date": "2026-08-11",
+      "date_seen": "2026-08-11"
+    },
+    {
+      "key": "github.com/stablyai/orca",
+      "canonical_url": "https://github.com/stablyai/orca",
+      "event_date": "2026-08-11",
+      "date_seen": "2026-08-11"
+    },
+    {
+      "key": "github.com/calesthio/openmontage",
+      "canonical_url": "https://github.com/calesthio/OpenMontage",
+      "event_date": "2026-08-11",
+      "date_seen": "2026-08-11"
+    },
+    {
+      "key": "github.com/agentplugins/agent-plugins-spec",
+      "canonical_url": "https://github.com/agentplugins/agent-plugins-spec",
+      "event_date": "2026-08-11",
+      "date_seen": "2026-08-11"
+    },
+    {
+      "key": "github.com/obra/superpowers",
+      "canonical_url": "https://github.com/obra/superpowers",
+      "event_date": "2026-08-11",
+      "date_seen": "2026-08-11"
+    },
+    {
+      "key": "github.com/addyosmani/agent-skills",
+      "canonical_url": "https://github.com/addyosmani/agent-skills",
+      "event_date": "2026-08-11",
+      "date_seen": "2026-08-11"
+    },
+    {
+      "key": "github.com/hkuds/lightrag",
+      "canonical_url": "https://github.com/HKUDS/LightRAG",
+      "event_date": "2026-08-11",
+      "date_seen": "2026-08-11"
     }
   ]
 }

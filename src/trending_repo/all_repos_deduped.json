@@ -23,11 +23,11 @@
     "name": "nvm-sh/nvm",
     "url": "https://github.com/nvm-sh/nvm",
     "language": "Shell",
-    "stars": 91436,
-    "forks": 9828,
+    "stars": 94412,
+    "forks": 10347,
     "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
-    "last_seen": "2026-02-06",
-    "trending_days": 34
+    "last_seen": "2026-08-11",
+    "trending_days": 35
   },
   {
     "name": "iptv-org/iptv",
@@ -60,6 +60,16 @@
     "trending_days": 27
   },
   {
+    "name": "msitarzewski/agency-agents",
+    "url": "https://github.com/msitarzewski/agency-agents",
+    "language": "Shell",
+    "stars": 142289,
+    "forks": 23179,
+    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+    "last_seen": "2026-08-11",
+    "trending_days": 26
+  },
+  {
     "name": "yeongpin/cursor-free-vip",
     "url": "https://github.com/yeongpin/cursor-free-vip",
     "language": "Python",
@@ -87,16 +97,6 @@
     "forks": 18088,
     "description": "Skills for Real Engineers. Straight from my .agents directory.",
     "last_seen": "2026-08-08",
-    "trending_days": 25
-  },
-  {
-    "name": "msitarzewski/agency-agents",
-    "url": "https://github.com/msitarzewski/agency-agents",
-    "language": "Shell",
-    "stars": 141365,
-    "forks": 23056,
-    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-    "last_seen": "2026-08-10",
     "trending_days": 25
   },
   {
@@ -190,6 +190,16 @@
     "trending_days": 23
   },
   {
+    "name": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "language": "JavaScript",
+    "stars": 86028,
+    "forks": 9252,
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "last_seen": "2026-08-11",
+    "trending_days": 22
+  },
+  {
     "name": "milvus-io/milvus",
     "url": "https://github.com/milvus-io/milvus",
     "language": "Go",
@@ -248,16 +258,6 @@
     "description": "Frame profiler",
     "last_seen": "2025-12-04",
     "trending_days": 22
-  },
-  {
-    "name": "addyosmani/agent-skills",
-    "url": "https://github.com/addyosmani/agent-skills",
-    "language": "JavaScript",
-    "stars": 85473,
-    "forks": 9191,
-    "description": "Production-grade engineering skills for AI coding agents.",
-    "last_seen": "2026-08-10",
-    "trending_days": 21
   },
   {
     "name": "shiyu-coder/Kronos",
@@ -720,6 +720,16 @@
     "trending_days": 11
   },
   {
+    "name": "calesthio/OpenMontage",
+    "url": "https://github.com/calesthio/openmontage",
+    "language": "Python",
+    "stars": 46976,
+    "forks": 5867,
+    "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+    "last_seen": "2026-08-11",
+    "trending_days": 10
+  },
+  {
     "name": "dyad-sh/dyad",
     "url": "https://github.com/dyad-sh/dyad",
     "language": "TypeScript",
@@ -877,16 +887,6 @@
     "forks": 3697,
     "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
     "last_seen": "2026-06-17",
-    "trending_days": 9
-  },
-  {
-    "name": "calesthio/OpenMontage",
-    "url": "https://github.com/calesthio/openmontage",
-    "language": "Python",
-    "stars": 23056,
-    "forks": 2564,
-    "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-    "last_seen": "2026-06-26",
     "trending_days": 9
   },
   {
@@ -1190,6 +1190,16 @@
     "trending_days": 8
   },
   {
+    "name": "HKUDS/DeepTutor",
+    "url": "https://github.com/hkuds/deeptutor",
+    "language": "Python",
+    "stars": 34338,
+    "forks": 4395,
+    "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+    "last_seen": "2026-08-11",
+    "trending_days": 8
+  },
+  {
     "name": "jellyfin/jellyfin",
     "url": "https://github.com/jellyfin/jellyfin",
     "language": "C#",
@@ -1330,6 +1340,16 @@
     "trending_days": 8
   },
   {
+    "name": "ZhuLinsen/daily_stock_analysis",
+    "url": "https://github.com/zhulinsen/daily_stock_analysis",
+    "language": "Python",
+    "stars": 61897,
+    "forks": 52347,
+    "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+    "last_seen": "2026-08-11",
+    "trending_days": 8
+  },
+  {
     "name": "basecamp/omarchy",
     "url": "https://github.com/basecamp/omarchy",
     "language": "Shell",
@@ -1417,16 +1437,6 @@
     "forks": 5207,
     "description": "Official code repo for the O'Reilly Book - \"Hands-On Large Language Models\"",
     "last_seen": "2026-02-21",
-    "trending_days": 7
-  },
-  {
-    "name": "HKUDS/DeepTutor",
-    "url": "https://github.com/hkuds/deeptutor",
-    "language": "Python",
-    "stars": 27179,
-    "forks": 3636,
-    "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-    "last_seen": "2026-07-17",
     "trending_days": 7
   },
   {
@@ -1617,16 +1627,6 @@
     "forks": 13840,
     "description": "A feature-rich command-line audio/video downloader",
     "last_seen": "2026-05-23",
-    "trending_days": 7
-  },
-  {
-    "name": "ZhuLinsen/daily_stock_analysis",
-    "url": "https://github.com/zhulinsen/daily_stock_analysis",
-    "language": "Python",
-    "stars": 60890,
-    "forks": 51897,
-    "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-    "last_seen": "2026-08-09",
     "trending_days": 7
   },
   {
@@ -2300,6 +2300,16 @@
     "trending_days": 5
   },
   {
+    "name": "anthropics/skills",
+    "url": "https://github.com/anthropics/skills",
+    "language": "Python",
+    "stars": 167800,
+    "forks": 20003,
+    "description": "Public repository for Agent Skills",
+    "last_seen": "2026-08-11",
+    "trending_days": 5
+  },
+  {
     "name": "AstrBotDevs/AstrBot",
     "url": "https://github.com/astrbotdevs/astrbot",
     "language": "Python",
@@ -2650,6 +2660,16 @@
     "trending_days": 5
   },
   {
+    "name": "PrimeIntellect-ai/prime-agent",
+    "url": "https://github.com/primeintellect-ai/prime-agent",
+    "language": "TypeScript",
+    "stars": 13617,
+    "forks": 1399,
+    "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+    "last_seen": "2026-08-11",
+    "trending_days": 5
+  },
+  {
     "name": "Pumpkin-MC/Pumpkin",
     "url": "https://github.com/pumpkin-mc/pumpkin",
     "language": "Rust",
@@ -2937,16 +2957,6 @@
     "forks": 2002,
     "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
     "last_seen": "2026-05-27",
-    "trending_days": 4
-  },
-  {
-    "name": "anthropics/skills",
-    "url": "https://github.com/anthropics/skills",
-    "language": "Python",
-    "stars": 142500,
-    "forks": 16824,
-    "description": "Public repository for Agent Skills",
-    "last_seen": "2026-05-28",
     "trending_days": 4
   },
   {
@@ -3400,6 +3410,16 @@
     "trending_days": 4
   },
   {
+    "name": "jaywcjlove/awesome-mac",
+    "url": "https://github.com/jaywcjlove/awesome-mac",
+    "language": "Swift",
+    "stars": 110171,
+    "forks": 8399,
+    "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
+    "last_seen": "2026-08-11",
+    "trending_days": 4
+  },
+  {
     "name": "jenkinsci/jenkins",
     "url": "https://github.com/jenkinsci/jenkins",
     "language": "Java",
@@ -3680,16 +3700,6 @@
     "trending_days": 4
   },
   {
-    "name": "PrimeIntellect-ai/prime-agent",
-    "url": "https://github.com/primeintellect-ai/prime-agent",
-    "language": "TypeScript",
-    "stars": 12498,
-    "forks": 1261,
-    "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-    "last_seen": "2026-08-10",
-    "trending_days": 4
-  },
-  {
     "name": "prometheus/alertmanager",
     "url": "https://github.com/prometheus/alertmanager",
     "language": "Go",
@@ -3737,6 +3747,16 @@
     "forks": 6001,
     "description": "Asynchronous image downloader with cache support as a UIImageView category",
     "last_seen": "2025-10-03",
+    "trending_days": 4
+  },
+  {
+    "name": "semantica-agi/semantica",
+    "url": "https://github.com/semantica-agi/semantica",
+    "language": "Python",
+    "stars": 4555,
+    "forks": 504,
+    "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+    "last_seen": "2026-08-11",
     "trending_days": 4
   },
   {
@@ -3927,6 +3947,16 @@
     "forks": 2476,
     "description": "🔥 MaxKB is an open-source platform for building enterprise-grade agents. MaxKB 是强大易用的开源企业级智能体平台。",
     "last_seen": "2025-11-04",
+    "trending_days": 3
+  },
+  {
+    "name": "3b1b/manim",
+    "url": "https://github.com/3b1b/manim",
+    "language": "Python",
+    "stars": 89942,
+    "forks": 7467,
+    "description": "Animation engine for explanatory math videos",
+    "last_seen": "2026-08-11",
     "trending_days": 3
   },
   {
@@ -4560,16 +4590,6 @@
     "trending_days": 3
   },
   {
-    "name": "jaywcjlove/awesome-mac",
-    "url": "https://github.com/jaywcjlove/awesome-mac",
-    "language": "JavaScript",
-    "stars": 96142,
-    "forks": 7219,
-    "description": " Now we have become very big, Different from the original idea. Collect premium software in various categories.",
-    "last_seen": "2025-12-19",
-    "trending_days": 3
-  },
-  {
     "name": "jellyfin/jellyfin-desktop",
     "url": "https://github.com/jellyfin/jellyfin-desktop",
     "language": "C++",
@@ -5120,16 +5140,6 @@
     "trending_days": 3
   },
   {
-    "name": "semantica-agi/semantica",
-    "url": "https://github.com/semantica-agi/semantica",
-    "language": "Python",
-    "stars": 3664,
-    "forks": 412,
-    "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
-    "last_seen": "2026-08-10",
-    "trending_days": 3
-  },
-  {
     "name": "sgl-project/mini-sglang",
     "url": "https://github.com/sgl-project/mini-sglang",
     "language": "Python",
@@ -5320,6 +5330,16 @@
     "trending_days": 3
   },
   {
+    "name": "vitali87/code-graph-rag",
+    "url": "https://github.com/vitali87/code-graph-rag",
+    "language": "Python",
+    "stars": 3685,
+    "forks": 554,
+    "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+    "last_seen": "2026-08-11",
+    "trending_days": 3
+  },
+  {
     "name": "volcengine/OpenViking",
     "url": "https://github.com/volcengine/openviking",
     "language": "Python",
@@ -5407,16 +5427,6 @@
     "forks": 235,
     "description": "18 AI personas deliberate your hardest decisions across multiple LLM providers. Aristotle, Feynman, Kahneman, Torvalds & more — structured multi-round deliberation with genuine model diversity. One command: /council",
     "last_seen": "2026-07-01",
-    "trending_days": 2
-  },
-  {
-    "name": "3b1b/manim",
-    "url": "https://github.com/3b1b/manim",
-    "language": "Python",
-    "stars": 83384,
-    "forks": 7049,
-    "description": "Animation engine for explanatory math videos",
-    "last_seen": "2026-01-06",
     "trending_days": 2
   },
   {
@@ -6390,6 +6400,16 @@
     "trending_days": 2
   },
   {
+    "name": "harveyai/harvey-labs",
+    "url": "https://github.com/harveyai/harvey-labs",
+    "language": "Python",
+    "stars": 980,
+    "forks": 190,
+    "description": "A benchmark built to evaluate and improve agent capabilities for supporting legal work.",
+    "last_seen": "2026-08-11",
+    "trending_days": 2
+  },
+  {
     "name": "helm/helm",
     "url": "https://github.com/helm/helm",
     "language": "Go",
@@ -7280,6 +7300,16 @@
     "trending_days": 2
   },
   {
+    "name": "paperclipai/paperclip",
+    "url": "https://github.com/paperclipai/paperclip",
+    "language": "TypeScript",
+    "stars": 76903,
+    "forks": 14223,
+    "description": "The open-source app everyone uses to manage agents at work",
+    "last_seen": "2026-08-11",
+    "trending_days": 2
+  },
+  {
     "name": "par274/sharpemu",
     "url": "https://github.com/par274/sharpemu",
     "language": "C#",
@@ -7457,6 +7487,16 @@
     "forks": 1615,
     "description": "Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.",
     "last_seen": "2026-04-13",
+    "trending_days": 2
+  },
+  {
+    "name": "stablyai/orca",
+    "url": "https://github.com/stablyai/orca",
+    "language": "TypeScript",
+    "stars": 42161,
+    "forks": 2943,
+    "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+    "last_seen": "2026-08-11",
     "trending_days": 2
   },
   {
@@ -7757,16 +7797,6 @@
     "forks": 1384,
     "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
     "last_seen": "2026-07-29",
-    "trending_days": 2
-  },
-  {
-    "name": "vitali87/code-graph-rag",
-    "url": "https://github.com/vitali87/code-graph-rag",
-    "language": "Python",
-    "stars": 3348,
-    "forks": 539,
-    "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
-    "last_seen": "2026-08-10",
     "trending_days": 2
   },
   {
@@ -9510,16 +9540,6 @@
     "trending_days": 1
   },
   {
-    "name": "harveyai/harvey-labs",
-    "url": "https://github.com/harveyai/harvey-labs",
-    "language": "Python",
-    "stars": 686,
-    "forks": 170,
-    "description": "A benchmark built to evaluate and improve agent capabilities for supporting legal work.",
-    "last_seen": "2026-08-09",
-    "trending_days": 1
-  },
-  {
     "name": "hexo-ai/sia",
     "url": "https://github.com/hexo-ai/sia",
     "language": "Python",
@@ -9597,6 +9617,16 @@
     "forks": 2787,
     "description": "🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning",
     "last_seen": "2025-10-20",
+    "trending_days": 1
+  },
+  {
+    "name": "huggingface/transformers",
+    "url": "https://github.com/huggingface/transformers",
+    "language": "Python",
+    "stars": 163591,
+    "forks": 34191,
+    "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+    "last_seen": "2026-08-11",
     "trending_days": 1
   },
   {
@@ -10780,16 +10810,6 @@
     "trending_days": 1
   },
   {
-    "name": "paperclipai/paperclip",
-    "url": "https://github.com/paperclipai/paperclip",
-    "language": "TypeScript",
-    "stars": 76168,
-    "forks": 14179,
-    "description": "The open-source app everyone uses to manage agents at work",
-    "last_seen": "2026-08-10",
-    "trending_days": 1
-  },
-  {
     "name": "paritytech/polkadot-sdk",
     "url": "https://github.com/paritytech/polkadot-sdk",
     "language": "Rust",
@@ -10847,6 +10867,16 @@
     "forks": 3270,
     "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
     "last_seen": "2026-06-20",
+    "trending_days": 1
+  },
+  {
+    "name": "practical-tutorials/project-based-learning",
+    "url": "https://github.com/practical-tutorials/project-based-learning",
+    "language": "Python",
+    "stars": 278146,
+    "forks": 35757,
+    "description": "Curated list of project-based tutorials",
+    "last_seen": "2026-08-11",
     "trending_days": 1
   },
   {
@@ -11297,16 +11327,6 @@
     "forks": 243,
     "description": "A contact solver for physics-based simulations involving 👚 shells, 🪵 solids and 🪢 rods.",
     "last_seen": "2026-05-26",
-    "trending_days": 1
-  },
-  {
-    "name": "stablyai/orca",
-    "url": "https://github.com/stablyai/orca",
-    "language": "TypeScript",
-    "stars": 6515,
-    "forks": 475,
-    "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
-    "last_seen": "2026-06-24",
     "trending_days": 1
   },
   {

@@ -2022,6 +2022,8 @@ entries:
   seaweedfs_seaweedfs:
   - llm-framework
   - education
+  semantica-agi_semantica:
+  - ai-agent
   serengil_deepface:
   - uncategorized
   servo_servo:

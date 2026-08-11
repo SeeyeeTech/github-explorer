@@ -1,0 +1,6 @@
+{
+  "title": "code-graph-rag 深度分析：用 Tree-sitter + Memgraph 把图 RAG 召回率做成开源议题",
+  "digest": "3 天涨 1100 star，主打 AST 图谱 + Cypher 替代 chunk+embedding；用三值流判定 + 七套原生 oracle 评测，把图 RAG 召回率公开量化，挑战 MCP 主流 RAG 范式。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

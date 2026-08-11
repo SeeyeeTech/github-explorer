@@ -1,0 +1,6 @@
+{
+  "title": "GitHub推荐：16万星的模型标准：Transformers v5为何重写底层",
+  "digest": "Transformers 真正的产品是 AI 模型定义与 checkpoint 互操作层；v5 重写权重加载、Attention、量化底层，PyTorch-only 路线换更窄维护面。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

@@ -1,0 +1,6 @@
+{
+  "title": "GitHub推荐：14MB 跑通函数调用：Cactus 用 Walsh-Hadamard 把 LLM 压进 RPi Zero",
+  "digest": "Cactus 把 Gemini function-calling 蒸馏到 14MB 端侧模型，靠去 FFN 的 SAN + byte-level grammar + 单文件 .cact，让 RPi Zero 也能跑工具调用。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

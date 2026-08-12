@@ -50,6 +50,16 @@
     "trending_days": 28
   },
   {
+    "name": "msitarzewski/agency-agents",
+    "url": "https://github.com/msitarzewski/agency-agents",
+    "language": "Shell",
+    "stars": 144219,
+    "forks": 23385,
+    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+    "last_seen": "2026-08-12",
+    "trending_days": 27
+  },
+  {
     "name": "sansan0/TrendRadar",
     "url": "https://github.com/sansan0/trendradar",
     "language": "Python",
@@ -58,16 +68,6 @@
     "description": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
     "last_seen": "2026-04-22",
     "trending_days": 27
-  },
-  {
-    "name": "msitarzewski/agency-agents",
-    "url": "https://github.com/msitarzewski/agency-agents",
-    "language": "Shell",
-    "stars": 142289,
-    "forks": 23179,
-    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-    "last_seen": "2026-08-11",
-    "trending_days": 26
   },
   {
     "name": "yeongpin/cursor-free-vip",
@@ -230,6 +230,16 @@
     "trending_days": 22
   },
   {
+    "name": "shiyu-coder/Kronos",
+    "url": "https://github.com/shiyu-coder/kronos",
+    "language": "Python",
+    "stars": 36816,
+    "forks": 6135,
+    "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+    "last_seen": "2026-08-12",
+    "trending_days": 22
+  },
+  {
     "name": "traefik/traefik",
     "url": "https://github.com/traefik/traefik",
     "language": "Go",
@@ -258,16 +268,6 @@
     "description": "Frame profiler",
     "last_seen": "2025-12-04",
     "trending_days": 22
-  },
-  {
-    "name": "shiyu-coder/Kronos",
-    "url": "https://github.com/shiyu-coder/kronos",
-    "language": "Python",
-    "stars": 35734,
-    "forks": 5955,
-    "description": "Kronos: A Foundation Model for the Language of Financial Markets",
-    "last_seen": "2026-08-03",
-    "trending_days": 21
   },
   {
     "name": "GibsonAI/Memori",
@@ -1010,6 +1010,16 @@
     "trending_days": 9
   },
   {
+    "name": "NanmiCoder/MediaCrawler",
+    "url": "https://github.com/nanmicoder/mediacrawler",
+    "language": "Python",
+    "stars": 61826,
+    "forks": 12106,
+    "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+    "last_seen": "2026-08-12",
+    "trending_days": 9
+  },
+  {
     "name": "OpenBB-finance/OpenBB",
     "url": "https://github.com/openbb-finance/openbb",
     "language": "Python",
@@ -1237,16 +1247,6 @@
     "forks": 3454,
     "description": "Meshery, the cloud native manager",
     "last_seen": "2026-06-17",
-    "trending_days": 8
-  },
-  {
-    "name": "NanmiCoder/MediaCrawler",
-    "url": "https://github.com/nanmicoder/mediacrawler",
-    "language": "Python",
-    "stars": 60723,
-    "forks": 11942,
-    "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
-    "last_seen": "2026-08-10",
     "trending_days": 8
   },
   {
@@ -2730,6 +2730,16 @@
     "trending_days": 5
   },
   {
+    "name": "semantica-agi/semantica",
+    "url": "https://github.com/semantica-agi/semantica",
+    "language": "Python",
+    "stars": 5380,
+    "forks": 589,
+    "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+    "last_seen": "2026-08-12",
+    "trending_days": 5
+  },
+  {
     "name": "simplex-chat/simplex-chat",
     "url": "https://github.com/simplex-chat/simplex-chat",
     "language": "Haskell",
@@ -2877,6 +2887,16 @@
     "forks": 2387,
     "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
     "last_seen": "2026-08-04",
+    "trending_days": 5
+  },
+  {
+    "name": "ZuodaoTech/everyone-can-use-english",
+    "url": "https://github.com/zuodaotech/everyone-can-use-english",
+    "language": "TypeScript",
+    "stars": 35929,
+    "forks": 5019,
+    "description": "人人都能用英语",
+    "last_seen": "2026-08-12",
     "trending_days": 5
   },
   {
@@ -3750,16 +3770,6 @@
     "trending_days": 4
   },
   {
-    "name": "semantica-agi/semantica",
-    "url": "https://github.com/semantica-agi/semantica",
-    "language": "Python",
-    "stars": 4555,
-    "forks": 504,
-    "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
-    "last_seen": "2026-08-11",
-    "trending_days": 4
-  },
-  {
     "name": "servo/servo",
     "url": "https://github.com/servo/servo",
     "language": "Rust",
@@ -3927,16 +3937,6 @@
     "forks": 678,
     "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
     "last_seen": "2026-04-24",
-    "trending_days": 4
-  },
-  {
-    "name": "ZuodaoTech/everyone-can-use-english",
-    "url": "https://github.com/zuodaotech/everyone-can-use-english",
-    "language": "TypeScript",
-    "stars": 30614,
-    "forks": 4362,
-    "description": "人人都能用英语",
-    "last_seen": "2025-09-28",
     "trending_days": 4
   },
   {
@@ -4560,6 +4560,16 @@
     "trending_days": 3
   },
   {
+    "name": "infiniflow/ragflow",
+    "url": "https://github.com/infiniflow/ragflow",
+    "language": "Go",
+    "stars": 87369,
+    "forks": 10295,
+    "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+    "last_seen": "2026-08-12",
+    "trending_days": 3
+  },
+  {
     "name": "influxdata/telegraf",
     "url": "https://github.com/influxdata/telegraf",
     "language": "Go",
@@ -4647,6 +4657,16 @@
     "forks": 231,
     "description": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch.",
     "last_seen": "2026-03-14",
+    "trending_days": 3
+  },
+  {
+    "name": "Lightricks/LTX-2",
+    "url": "https://github.com/lightricks/ltx-2",
+    "language": "Python",
+    "stars": 8606,
+    "forks": 1389,
+    "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+    "last_seen": "2026-08-12",
     "trending_days": 3
   },
   {
@@ -4940,6 +4960,16 @@
     "trending_days": 3
   },
   {
+    "name": "paperclipai/paperclip",
+    "url": "https://github.com/paperclipai/paperclip",
+    "language": "TypeScript",
+    "stars": 77452,
+    "forks": 14278,
+    "description": "The open-source app everyone uses to manage agents at work",
+    "last_seen": "2026-08-12",
+    "trending_days": 3
+  },
+  {
     "name": "permissionlesstech/bitchat",
     "url": "https://github.com/permissionlesstech/bitchat",
     "language": "Swift",
@@ -5177,6 +5207,16 @@
     "forks": 269,
     "description": "Depix is a PoC for a technique to recover plaintext from pixelized screenshots.",
     "last_seen": "2025-12-13",
+    "trending_days": 3
+  },
+  {
+    "name": "stablyai/orca",
+    "url": "https://github.com/stablyai/orca",
+    "language": "TypeScript",
+    "stars": 43350,
+    "forks": 3024,
+    "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+    "last_seen": "2026-08-12",
     "trending_days": 3
   },
   {
@@ -6470,6 +6510,16 @@
     "trending_days": 2
   },
   {
+    "name": "hugohe3/ppt-master",
+    "url": "https://github.com/hugohe3/ppt-master",
+    "language": "Python",
+    "stars": 45126,
+    "forks": 3687,
+    "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+    "last_seen": "2026-08-12",
+    "trending_days": 2
+  },
+  {
     "name": "humanlayer/12-factor-agents",
     "url": "https://github.com/humanlayer/12-factor-agents",
     "language": "TypeScript",
@@ -6537,16 +6587,6 @@
     "forks": 348,
     "description": "Lightning-Fast RL for LLM Reasoning and Agents. Made Simple & Flexible.",
     "last_seen": "2026-03-06",
-    "trending_days": 2
-  },
-  {
-    "name": "infiniflow/ragflow",
-    "url": "https://github.com/infiniflow/ragflow",
-    "language": "Python",
-    "stars": 69601,
-    "forks": 7550,
-    "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-    "last_seen": "2025-12-12",
     "trending_days": 2
   },
   {
@@ -6777,16 +6817,6 @@
     "forks": 270,
     "description": "LTX-Video Support for ComfyUI",
     "last_seen": "2026-01-09",
-    "trending_days": 2
-  },
-  {
-    "name": "Lightricks/LTX-2",
-    "url": "https://github.com/lightricks/ltx-2",
-    "language": "Python",
-    "stars": 7598,
-    "forks": 1216,
-    "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
-    "last_seen": "2026-06-19",
     "trending_days": 2
   },
   {
@@ -7300,16 +7330,6 @@
     "trending_days": 2
   },
   {
-    "name": "paperclipai/paperclip",
-    "url": "https://github.com/paperclipai/paperclip",
-    "language": "TypeScript",
-    "stars": 76903,
-    "forks": 14223,
-    "description": "The open-source app everyone uses to manage agents at work",
-    "last_seen": "2026-08-11",
-    "trending_days": 2
-  },
-  {
     "name": "par274/sharpemu",
     "url": "https://github.com/par274/sharpemu",
     "language": "C#",
@@ -7480,6 +7500,16 @@
     "trending_days": 2
   },
   {
+    "name": "smicallef/spiderfoot",
+    "url": "https://github.com/smicallef/spiderfoot",
+    "language": "Python",
+    "stars": 20211,
+    "forks": 3283,
+    "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+    "last_seen": "2026-08-12",
+    "trending_days": 2
+  },
+  {
     "name": "snarktank/ralph",
     "url": "https://github.com/snarktank/ralph",
     "language": "TypeScript",
@@ -7487,16 +7517,6 @@
     "forks": 1615,
     "description": "Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.",
     "last_seen": "2026-04-13",
-    "trending_days": 2
-  },
-  {
-    "name": "stablyai/orca",
-    "url": "https://github.com/stablyai/orca",
-    "language": "TypeScript",
-    "stars": 42161,
-    "forks": 2943,
-    "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
-    "last_seen": "2026-08-11",
     "trending_days": 2
   },
   {
@@ -8510,6 +8530,16 @@
     "trending_days": 1
   },
   {
+    "name": "cactus-compute/needle",
+    "url": "https://github.com/cactus-compute/needle",
+    "language": "Python",
+    "stars": 3854,
+    "forks": 293,
+    "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+    "last_seen": "2026-08-12",
+    "trending_days": 1
+  },
+  {
     "name": "calcom/cal.diy",
     "url": "https://github.com/calcom/cal.diy",
     "language": "TypeScript",
@@ -8527,6 +8557,16 @@
     "forks": 1832,
     "description": "GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data sources, such as BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks and more.",
     "last_seen": "2026-07-19",
+    "trending_days": 1
+  },
+  {
+    "name": "cathrynlavery/diagram-design",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "language": "HTML",
+    "stars": 8242,
+    "forks": 541,
+    "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+    "last_seen": "2026-08-12",
     "trending_days": 1
   },
   {
@@ -8947,6 +8987,16 @@
     "forks": 2242,
     "description": "LIBERATED AI CHAT",
     "last_seen": "2026-07-18",
+    "trending_days": 1
+  },
+  {
+    "name": "embabel/embabel-agent",
+    "url": "https://github.com/embabel/embabel-agent",
+    "language": "Kotlin",
+    "stars": 4164,
+    "forks": 410,
+    "description": "Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/",
+    "last_seen": "2026-08-12",
     "trending_days": 1
   },
   {
@@ -9630,16 +9680,6 @@
     "trending_days": 1
   },
   {
-    "name": "hugohe3/ppt-master",
-    "url": "https://github.com/hugohe3/ppt-master",
-    "language": "Python",
-    "stars": 32649,
-    "forks": 2791,
-    "description": "AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He",
-    "last_seen": "2026-06-27",
-    "trending_days": 1
-  },
-  {
     "name": "HuLaSpark/HuLa",
     "url": "https://github.com/hulaspark/hula",
     "language": "Vue",
@@ -10050,6 +10090,16 @@
     "trending_days": 1
   },
   {
+    "name": "localsend/localsend",
+    "url": "https://github.com/localsend/localsend",
+    "language": "Dart",
+    "stars": 87488,
+    "forks": 4856,
+    "description": "An open-source cross-platform alternative to AirDrop",
+    "last_seen": "2026-08-12",
+    "trending_days": 1
+  },
+  {
     "name": "lukas-blecher/LaTeX-OCR",
     "url": "https://github.com/lukas-blecher/latex-ocr",
     "language": "Python",
@@ -10087,6 +10137,16 @@
     "forks": 220,
     "description": "A tool designed to simplify the creation of OpenCore EFI",
     "last_seen": "2025-11-11",
+    "trending_days": 1
+  },
+  {
+    "name": "macro-inc/macro",
+    "url": "https://github.com/macro-inc/macro",
+    "language": "Rust",
+    "stars": 1141,
+    "forks": 180,
+    "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+    "last_seen": "2026-08-12",
     "trending_days": 1
   },
   {
@@ -10587,6 +10647,16 @@
     "forks": 5834,
     "description": "the full-stack Vue framework",
     "last_seen": "2026-07-11",
+    "trending_days": 1
+  },
+  {
+    "name": "NVIDIA-NeMo/Switchyard",
+    "url": "https://github.com/nvidia-nemo/switchyard",
+    "language": "Rust",
+    "stars": 602,
+    "forks": 70,
+    "description": "None",
+    "last_seen": "2026-08-12",
     "trending_days": 1
   },
   {
@@ -11287,16 +11357,6 @@
     "forks": 229,
     "description": "Source code for Unturned, a free open-world zombie survival sandbox game.",
     "last_seen": "2026-07-09",
-    "trending_days": 1
-  },
-  {
-    "name": "smicallef/spiderfoot",
-    "url": "https://github.com/smicallef/spiderfoot",
-    "language": "Python",
-    "stars": 18588,
-    "forks": 3094,
-    "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
-    "last_seen": "2026-06-21",
     "trending_days": 1
   },
   {

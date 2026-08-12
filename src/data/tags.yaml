@@ -1032,6 +1032,10 @@ entries:
   - devtools
   - media-generation
   - protocol-spec
+  huggingface_transformers:
+  - llm-inference
+  - llm-training
+  - trading-finance
   humanlayer_humanlayer:
   - ai-agent
   - ai-coding
@@ -2346,6 +2350,11 @@ entries:
   virattt_dexter:
   - ai-agent
   - ai-coding
+  - trading-finance
+  vitali87_code-graph-rag:
+  - llm-framework
+  - llm-inference
+  - rag-search
   - trading-finance
   vllm-project_vllm-omni:
   - llm-inference

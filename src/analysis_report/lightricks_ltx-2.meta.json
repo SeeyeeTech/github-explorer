@@ -1,0 +1,6 @@
+{
+  "title": "GitHub 推荐：22B 单流 DiT 把音视频一次出齐：LTX-2 如何把视频生成压到 Mac 也能跑",
+  "digest": "LTX-2 是首个开源单流 DiT 联合音视频方案，22B 参数一次流匹配出 video+audio+refiner，配合块级流式加载与磁盘 offload，让 4K HDR 联合音视频在 16G 桌面卡乃至 Mac 上即可出片。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

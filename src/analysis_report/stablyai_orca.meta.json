@@ -1,0 +1,6 @@
+{
+  "title": "5个月43K stars的YC W26项目：Orca如何用worktree隔离25个编码代理",
+  "digest": "YC W26押注Orca把「Agent IDE(ADE)」从营销变成工程形态：用git worktree做隔离原子、daemon守护PTY、preamble当协议层，让25+编码代理在桌面+移动+远端协同工作。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

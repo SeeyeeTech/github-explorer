@@ -295,3 +295,4 @@
 {"recorded_at": "2026-08-12T21:43:25.844978+00:00", "slug": "cactus-compute_needle", "title": null, "state": "published", "published_at": "2026-08-12", "reason": "自动生成", "ci_run_id": "31643131718"}
 {"recorded_at": "2026-08-12T22:40:59.515920+00:00", "slug": "stablyai_orca", "title": null, "state": "published", "published_at": "2026-08-12", "reason": "自动生成", "ci_run_id": "31647184628"}
 {"recorded_at": "2026-08-12T23:37:33.280923+00:00", "slug": "lightricks_ltx-2", "title": null, "state": "published", "published_at": "2026-08-12", "reason": "自动生成", "ci_run_id": "31651068874"}
+{"recorded_at": "2026-08-13T21:40:28.522597+00:00", "slug": "kepano_obsidian-skills", "title": null, "state": "published", "published_at": "2026-08-13", "reason": "自动生成", "ci_run_id": "31746231646"}

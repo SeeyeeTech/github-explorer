@@ -367,6 +367,9 @@ entries:
   - database
   - design-ui
   - video-audio
+  cactus-compute_needle:
+  - llm-training
+  - education
   calcom_cal.com:
   - iot-hardware
   - web-framework
@@ -1278,6 +1281,11 @@ entries:
   lightpanda-io_browser:
   - ai-agent
   - protocol-spec
+  lightricks_ltx-2:
+  - llm-inference
+  - iot-hardware
+  - trading-finance
+  - video-audio
   likec4_likec4:
   - ai-agent
   - devtools
@@ -2096,6 +2104,10 @@ entries:
   - ai-coding
   sst_opentui:
   - ai-agent
+  stablyai_orca:
+  - ai-agent
+  - ai-coding
+  - protocol-spec
   stan-smith_fossflow:
   - uncategorized
   stanfordnlp_dspy:

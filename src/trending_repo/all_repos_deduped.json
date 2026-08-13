@@ -53,11 +53,11 @@
     "name": "msitarzewski/agency-agents",
     "url": "https://github.com/msitarzewski/agency-agents",
     "language": "Shell",
-    "stars": 144219,
-    "forks": 23385,
+    "stars": 144971,
+    "forks": 23457,
     "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-    "last_seen": "2026-08-12",
-    "trending_days": 27
+    "last_seen": "2026-08-13",
+    "trending_days": 28
   },
   {
     "name": "sansan0/TrendRadar",
@@ -1650,6 +1650,16 @@
     "trending_days": 6
   },
   {
+    "name": "anthropics/skills",
+    "url": "https://github.com/anthropics/skills",
+    "language": "Python",
+    "stars": 168717,
+    "forks": 20102,
+    "description": "Public repository for Agent Skills",
+    "last_seen": "2026-08-13",
+    "trending_days": 6
+  },
+  {
     "name": "apple/container",
     "url": "https://github.com/apple/container",
     "language": "Swift",
@@ -2150,6 +2160,16 @@
     "trending_days": 6
   },
   {
+    "name": "semantica-agi/semantica",
+    "url": "https://github.com/semantica-agi/semantica",
+    "language": "Python",
+    "stars": 6079,
+    "forks": 654,
+    "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+    "last_seen": "2026-08-13",
+    "trending_days": 6
+  },
+  {
     "name": "shareAI-lab/learn-claude-code",
     "url": "https://github.com/shareai-lab/learn-claude-code",
     "language": "TypeScript",
@@ -2270,6 +2290,16 @@
     "trending_days": 5
   },
   {
+    "name": "altic-dev/FluidVoice",
+    "url": "https://github.com/altic-dev/fluidvoice",
+    "language": "Swift",
+    "stars": 9662,
+    "forks": 650,
+    "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
+    "last_seen": "2026-08-13",
+    "trending_days": 5
+  },
+  {
     "name": "andrewyng/aisuite",
     "url": "https://github.com/andrewyng/aisuite",
     "language": "Python",
@@ -2297,16 +2327,6 @@
     "forks": 2319,
     "description": "None",
     "last_seen": "2026-05-10",
-    "trending_days": 5
-  },
-  {
-    "name": "anthropics/skills",
-    "url": "https://github.com/anthropics/skills",
-    "language": "Python",
-    "stars": 167800,
-    "forks": 20003,
-    "description": "Public repository for Agent Skills",
-    "last_seen": "2026-08-11",
     "trending_days": 5
   },
   {
@@ -2730,16 +2750,6 @@
     "trending_days": 5
   },
   {
-    "name": "semantica-agi/semantica",
-    "url": "https://github.com/semantica-agi/semantica",
-    "language": "Python",
-    "stars": 5380,
-    "forks": 589,
-    "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
-    "last_seen": "2026-08-12",
-    "trending_days": 5
-  },
-  {
     "name": "simplex-chat/simplex-chat",
     "url": "https://github.com/simplex-chat/simplex-chat",
     "language": "Haskell",
@@ -2900,6 +2910,16 @@
     "trending_days": 5
   },
   {
+    "name": "3b1b/manim",
+    "url": "https://github.com/3b1b/manim",
+    "language": "Python",
+    "stars": 90657,
+    "forks": 7517,
+    "description": "Animation engine for explanatory math videos",
+    "last_seen": "2026-08-13",
+    "trending_days": 4
+  },
+  {
     "name": "aaif-goose/goose",
     "url": "https://github.com/aaif-goose/goose",
     "language": "Rust",
@@ -2937,16 +2957,6 @@
     "forks": 2822,
     "description": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
     "last_seen": "2026-07-06",
-    "trending_days": 4
-  },
-  {
-    "name": "altic-dev/FluidVoice",
-    "url": "https://github.com/altic-dev/fluidvoice",
-    "language": "Swift",
-    "stars": 5282,
-    "forks": 318,
-    "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model - Local Wispr Flow alternative. One ⭐ takes us a long way :)) Windows, iOS and Linux coming soon.",
-    "last_seen": "2026-07-01",
     "trending_days": 4
   },
   {
@@ -3400,6 +3410,16 @@
     "trending_days": 4
   },
   {
+    "name": "infiniflow/ragflow",
+    "url": "https://github.com/infiniflow/ragflow",
+    "language": "Go",
+    "stars": 87818,
+    "forks": 10340,
+    "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+    "last_seen": "2026-08-13",
+    "trending_days": 4
+  },
+  {
     "name": "iOfficeAI/OfficeCLI",
     "url": "https://github.com/iofficeai/officecli",
     "language": "C#",
@@ -3517,6 +3537,16 @@
     "forks": 744,
     "description": "Lightpanda: the headless browser designed for AI and automation",
     "last_seen": "2026-03-16",
+    "trending_days": 4
+  },
+  {
+    "name": "Lightricks/LTX-2",
+    "url": "https://github.com/lightricks/ltx-2",
+    "language": "Python",
+    "stars": 8807,
+    "forks": 1400,
+    "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+    "last_seen": "2026-08-13",
     "trending_days": 4
   },
   {
@@ -3860,6 +3890,16 @@
     "trending_days": 4
   },
   {
+    "name": "unslothai/unsloth",
+    "url": "https://github.com/unslothai/unsloth",
+    "language": "Python",
+    "stars": 70777,
+    "forks": 6392,
+    "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+    "last_seen": "2026-08-13",
+    "trending_days": 4
+  },
+  {
     "name": "vercel/next.js",
     "url": "https://github.com/vercel/next.js",
     "language": "JavaScript",
@@ -3947,16 +3987,6 @@
     "forks": 2476,
     "description": "🔥 MaxKB is an open-source platform for building enterprise-grade agents. MaxKB 是强大易用的开源企业级智能体平台。",
     "last_seen": "2025-11-04",
-    "trending_days": 3
-  },
-  {
-    "name": "3b1b/manim",
-    "url": "https://github.com/3b1b/manim",
-    "language": "Python",
-    "stars": 89942,
-    "forks": 7467,
-    "description": "Animation engine for explanatory math videos",
-    "last_seen": "2026-08-11",
     "trending_days": 3
   },
   {
@@ -4560,16 +4590,6 @@
     "trending_days": 3
   },
   {
-    "name": "infiniflow/ragflow",
-    "url": "https://github.com/infiniflow/ragflow",
-    "language": "Go",
-    "stars": 87369,
-    "forks": 10295,
-    "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-    "last_seen": "2026-08-12",
-    "trending_days": 3
-  },
-  {
     "name": "influxdata/telegraf",
     "url": "https://github.com/influxdata/telegraf",
     "language": "Go",
@@ -4620,6 +4640,16 @@
     "trending_days": 3
   },
   {
+    "name": "kepano/obsidian-skills",
+    "url": "https://github.com/kepano/obsidian-skills",
+    "language": "Unknown",
+    "stars": 45302,
+    "forks": 3279,
+    "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
+    "last_seen": "2026-08-13",
+    "trending_days": 3
+  },
+  {
     "name": "Klavis-AI/klavis",
     "url": "https://github.com/klavis-ai/klavis",
     "language": "Python",
@@ -4657,16 +4687,6 @@
     "forks": 231,
     "description": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch.",
     "last_seen": "2026-03-14",
-    "trending_days": 3
-  },
-  {
-    "name": "Lightricks/LTX-2",
-    "url": "https://github.com/lightricks/ltx-2",
-    "language": "Python",
-    "stars": 8606,
-    "forks": 1389,
-    "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
-    "last_seen": "2026-08-12",
     "trending_days": 3
   },
   {
@@ -5200,6 +5220,16 @@
     "trending_days": 3
   },
   {
+    "name": "smicallef/spiderfoot",
+    "url": "https://github.com/smicallef/spiderfoot",
+    "language": "Python",
+    "stars": 20491,
+    "forks": 3308,
+    "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+    "last_seen": "2026-08-13",
+    "trending_days": 3
+  },
+  {
     "name": "spipm/Depixelization_poc",
     "url": "https://github.com/spipm/depixelization_poc",
     "language": "Python",
@@ -5337,16 +5367,6 @@
     "forks": 335,
     "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
     "last_seen": "2026-06-18",
-    "trending_days": 3
-  },
-  {
-    "name": "unslothai/unsloth",
-    "url": "https://github.com/unslothai/unsloth",
-    "language": "Python",
-    "stars": 56326,
-    "forks": 4724,
-    "description": "Unified web UI for training and running open models like Qwen, DeepSeek, gpt-oss and Gemma locally.",
-    "last_seen": "2026-03-19",
     "trending_days": 3
   },
   {
@@ -5840,6 +5860,16 @@
     "trending_days": 2
   },
   {
+    "name": "cactus-compute/needle",
+    "url": "https://github.com/cactus-compute/needle",
+    "language": "Python",
+    "stars": 4617,
+    "forks": 321,
+    "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+    "last_seen": "2026-08-13",
+    "trending_days": 2
+  },
+  {
     "name": "CapSoftware/Cap",
     "url": "https://github.com/capsoftware/cap",
     "language": "TypeScript",
@@ -5857,6 +5887,16 @@
     "forks": 3419,
     "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
     "last_seen": "2026-07-11",
+    "trending_days": 2
+  },
+  {
+    "name": "cathrynlavery/diagram-design",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "language": "HTML",
+    "stars": 12688,
+    "forks": 772,
+    "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+    "last_seen": "2026-08-13",
     "trending_days": 2
   },
   {
@@ -6690,16 +6730,6 @@
     "trending_days": 2
   },
   {
-    "name": "kepano/obsidian-skills",
-    "url": "https://github.com/kepano/obsidian-skills",
-    "language": "Unknown",
-    "stars": 20090,
-    "forks": 1253,
-    "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
-    "last_seen": "2026-04-06",
-    "trending_days": 2
-  },
-  {
     "name": "keycloak/keycloak",
     "url": "https://github.com/keycloak/keycloak",
     "language": "Java",
@@ -6897,6 +6927,16 @@
     "forks": 4437,
     "description": "A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python",
     "last_seen": "2026-01-21",
+    "trending_days": 2
+  },
+  {
+    "name": "macro-inc/macro",
+    "url": "https://github.com/macro-inc/macro",
+    "language": "Rust",
+    "stars": 2382,
+    "forks": 262,
+    "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+    "last_seen": "2026-08-13",
     "trending_days": 2
   },
   {
@@ -7157,6 +7197,16 @@
     "forks": 27,
     "description": "Build RL environments for LLM training",
     "last_seen": "2025-12-19",
+    "trending_days": 2
+  },
+  {
+    "name": "NVIDIA-NeMo/Switchyard",
+    "url": "https://github.com/nvidia-nemo/switchyard",
+    "language": "Rust",
+    "stars": 1008,
+    "forks": 98,
+    "description": "None",
+    "last_seen": "2026-08-13",
     "trending_days": 2
   },
   {
@@ -7497,16 +7547,6 @@
     "forks": 874,
     "description": "Use Claude Code, Cursor CLI or Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Code session and projects remotely",
     "last_seen": "2026-02-25",
-    "trending_days": 2
-  },
-  {
-    "name": "smicallef/spiderfoot",
-    "url": "https://github.com/smicallef/spiderfoot",
-    "language": "Python",
-    "stars": 20211,
-    "forks": 3283,
-    "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
-    "last_seen": "2026-08-12",
     "trending_days": 2
   },
   {
@@ -8530,16 +8570,6 @@
     "trending_days": 1
   },
   {
-    "name": "cactus-compute/needle",
-    "url": "https://github.com/cactus-compute/needle",
-    "language": "Python",
-    "stars": 3854,
-    "forks": 293,
-    "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
-    "last_seen": "2026-08-12",
-    "trending_days": 1
-  },
-  {
     "name": "calcom/cal.diy",
     "url": "https://github.com/calcom/cal.diy",
     "language": "TypeScript",
@@ -8557,16 +8587,6 @@
     "forks": 1832,
     "description": "GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data sources, such as BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks and more.",
     "last_seen": "2026-07-19",
-    "trending_days": 1
-  },
-  {
-    "name": "cathrynlavery/diagram-design",
-    "url": "https://github.com/cathrynlavery/diagram-design",
-    "language": "HTML",
-    "stars": 8242,
-    "forks": 541,
-    "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
-    "last_seen": "2026-08-12",
     "trending_days": 1
   },
   {
@@ -9640,6 +9660,16 @@
     "trending_days": 1
   },
   {
+    "name": "holaboss-ai/holaOS",
+    "url": "https://github.com/holaboss-ai/holaos",
+    "language": "TypeScript",
+    "stars": 6146,
+    "forks": 522,
+    "description": "Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.",
+    "last_seen": "2026-08-13",
+    "trending_days": 1
+  },
+  {
     "name": "htr-tech/zphisher",
     "url": "https://github.com/htr-tech/zphisher",
     "language": "HTML",
@@ -10050,6 +10080,16 @@
     "trending_days": 1
   },
   {
+    "name": "lightningpixel/modly",
+    "url": "https://github.com/lightningpixel/modly",
+    "language": "TypeScript",
+    "stars": 5129,
+    "forks": 565,
+    "description": "Desktop app to generate 3D models from images using local AI — runs entirely on your GPU",
+    "last_seen": "2026-08-13",
+    "trending_days": 1
+  },
+  {
     "name": "lingfengQAQ/webnovel-writer",
     "url": "https://github.com/lingfengqaq/webnovel-writer",
     "language": "Python",
@@ -10140,16 +10180,6 @@
     "trending_days": 1
   },
   {
-    "name": "macro-inc/macro",
-    "url": "https://github.com/macro-inc/macro",
-    "language": "Rust",
-    "stars": 1141,
-    "forks": 180,
-    "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
-    "last_seen": "2026-08-12",
-    "trending_days": 1
-  },
-  {
     "name": "maderix/ANE",
     "url": "https://github.com/maderix/ane",
     "language": "Objective-C",
@@ -10197,6 +10227,16 @@
     "forks": 4442,
     "description": "The world's most flexible commerce platform.",
     "last_seen": "2026-05-17",
+    "trending_days": 1
+  },
+  {
+    "name": "megadose/holehe",
+    "url": "https://github.com/megadose/holehe",
+    "language": "Python",
+    "stars": 12173,
+    "forks": 1646,
+    "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+    "last_seen": "2026-08-13",
     "trending_days": 1
   },
   {
@@ -10647,16 +10687,6 @@
     "forks": 5834,
     "description": "the full-stack Vue framework",
     "last_seen": "2026-07-11",
-    "trending_days": 1
-  },
-  {
-    "name": "NVIDIA-NeMo/Switchyard",
-    "url": "https://github.com/nvidia-nemo/switchyard",
-    "language": "Rust",
-    "stars": 602,
-    "forks": 70,
-    "description": "None",
-    "last_seen": "2026-08-12",
     "trending_days": 1
   },
   {

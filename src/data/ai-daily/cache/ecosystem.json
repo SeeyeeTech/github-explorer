@@ -1,27 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-08-13",
+    "last_run": "2026-08-14",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/henryndubuaku/maths-cs-ai-compendium",
-      "canonical_url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
-      "event_date": "2026-07-14",
-      "date_seen": "2026-07-14"
-    },
-    {
-      "key": "github.com/headinthebox/automind",
-      "canonical_url": "https://github.com/headinthebox/automind",
-      "event_date": "2026-07-14",
-      "date_seen": "2026-07-14"
-    },
-    {
-      "key": "https://seeyeetech.com/github-explorer/reports/garrytan_gstack",
-      "canonical_url": "https://seeyeetech.com/github-explorer/reports/garrytan_gstack",
-      "event_date": "2026-07-14",
-      "date_seen": "2026-07-14"
-    },
     {
       "key": "github.com/openinterpreter/openinterpreter",
       "canonical_url": "https://github.com/openinterpreter/openinterpreter",
@@ -921,6 +903,48 @@
       "canonical_url": "https://github.com/google-ai-edge/LiteRT-LM",
       "event_date": "2026-08-13",
       "date_seen": "2026-08-13"
+    },
+    {
+      "key": "github.com/prime-radiant-inc/engineering-notebook",
+      "canonical_url": "https://github.com/prime-radiant-inc/engineering-notebook",
+      "event_date": "2026-08-14",
+      "date_seen": "2026-08-14"
+    },
+    {
+      "key": "github.com/deepseek-ai/awesome-deepseek-agent",
+      "canonical_url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
+      "event_date": "2026-08-14",
+      "date_seen": "2026-08-14"
+    },
+    {
+      "key": "github.com/lightningpixel/modly",
+      "canonical_url": "https://github.com/lightningpixel/modly",
+      "event_date": "2026-08-14",
+      "date_seen": "2026-08-14"
+    },
+    {
+      "key": "github.com/tooljet/tooljet",
+      "canonical_url": "https://github.com/ToolJet/ToolJet",
+      "event_date": "2026-08-14",
+      "date_seen": "2026-08-14"
+    },
+    {
+      "key": "github.com/microsoft/call-center-ai",
+      "canonical_url": "https://github.com/microsoft/call-center-ai",
+      "event_date": "2026-08-14",
+      "date_seen": "2026-08-14"
+    },
+    {
+      "key": "github.com/milvus-io/milvus",
+      "canonical_url": "https://github.com/milvus-io/milvus",
+      "event_date": "2026-08-14",
+      "date_seen": "2026-08-14"
+    },
+    {
+      "key": "github.com/gibsonai/memori",
+      "canonical_url": "https://github.com/GibsonAI/Memori",
+      "event_date": "2026-08-14",
+      "date_seen": "2026-08-14"
     }
   ]
 }

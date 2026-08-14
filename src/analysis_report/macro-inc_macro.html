@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/macro-inc/macro">https://github.com/macro-inc/macro</a></p></blockquote>
+<h2>一句话总结</h2>
+<p>Macro 是用 Rust + SolidJS + Loro CRDT + MCP 重新打造的「AI 时代工作操作系统」，把邮件/消息/文档/任务/CRM/通话/Agent 全部统一在一张实体图上，用「单数据图 + 双向链接 + Agent 一等公民」对抗 SaaS 工具拼凑的「公司不可计算」困境。</p>
+<h2>值得关注的理由</h2>
+<ul>
+<li><strong>AI-native workspace 的工程样板</strong>：9.5 个月从 0 到 5024 commits，Claude 已占第 7 大贡献者（457 commits）——这是少数把「AI 既是产品又是工程基础设施」做到位的项目。</li>
+<li><strong>monorepo 工程纪律的极致</strong>：167 crates + 42 services + 30+ CI workflows，自研 <code>workspace-dep-closures.json</code> + cargo-hakari + xtask 子 crate 化做到「改一个 leaf crate 不污染其他 service 的 Nix cache」，这是大厂级 monorepo 性能与运维的可复用样板。</li>
+<li><strong>MCP-first 的 workspace API</strong>：把整个业务能力暴露为 MCP tool（<code>rmcp streamable-http</code>），让 UI 操作、AI 操作、外部编程 agent 共享同一 API 表面——这是 2025 年「AI 时代 SaaS 该长什么样」的范式级答案。</li>
+</ul>
+<h2>项目展示</h2>
+<h3>README 媒体（按 hero > 架构 > demo > 截图 策展）</h3>
+<p>1. <img src="https://raw.githubusercontent.com/macro-inc/macro/main/.github/readme/email-thread.png" alt="Macro 邮件线程视图" /> — 类型: hero。<strong>核心叙事图</strong>：邮件是一等公民 entity，左侧 thread + 右侧 sidebar actions/tags/properties，把邮件直接变成可操作的工作对象。</p>
+<p>2. <img src="https://raw.githubusercontent.com/macro-inc/macro/main/.github/readme/messages-channel.png" alt="Messages channel 集成 GitHub check" /> — 类型: 集成演示。把 Slack、GitHub PR review、Linear-style 工作流合并到一个 panel，体现 all-in-one 的真正落地。</p>
+<p>3. <img src="https://raw.githubusercontent.com/macro-inc/macro/main/.github/readme/agents-task-handoff.png" alt="任务交接给 coding agent" /> — 类型: 差异化亮点。<strong>最能体现 AI-native 的一张图</strong>：人把任务交给 coding agent，agent 关联到一个 GitHub 分支——这是 Macro 区别于「AI 插件型」竞品的杀手锏。</p>
+<p>4. <img src="https://raw.githubusercontent.com/macro-inc/macro/main/.github/readme/crm-board.png" alt="CRM 看板按 pipeline 阶段分组" /> — 类型: 功能截图。CRM 是 Macro 七大模块之一；这张图证明 CRM 不是占位而是真实可用的 pipeline 视图。</p>
+<p>5. <img src="https://raw.githubusercontent.com/macro-inc/macro/main/.github/readme/star-history-light.svg" alt="Star history 增长曲线" /> — 类型: 数据可视化。增长曲线（已渲染到 1,698 stars 时刻），适合放在「社区热度」一节作为可视化证据。</p>
+<blockquote><p>总共发现 10+ 个候选媒体元素，筛选后保留 5 个；排除了 CI 状态图标和无差异化价值的截图。</p></blockquote>
+<h2>项目画像</h2>
+<table>
+<thead><tr><th>维度</th><th>数据</th></tr></thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/macro-inc/macro">https://github.com/macro-inc/macro</a></td></tr>
+<tr><td>Star / Fork</td><td>2,996 / 303（Fork/Star 比 ≈ 10%，健康）</td></tr>
+<tr><td>代码行数</td><td>1,299,690 行（Rust 42.9% / TypeScript 27.4% / TSX 14.3% / JSON 11.1% / SQL 1.6% / 其他）</td></tr>
+<tr><td>项目年龄</td><td>9.5 个月（2025-11-08 首次提交 → 2026-08-14 最新推送）</td></tr>
+<tr><td>开发阶段</td><td>密集开发</td></tr>
+<tr><td>贡献模式</td><td>职业项目（周末占比 1.8%，深夜占比 1.2%）</td></tr>
+<tr><td>热度定位</td><td>中等热度（9.5 个月冲到近 3k stars，2026-07 单月 787 commits）</td></tr>
+<tr><td>质量评级</td><td>代码优秀 / 文档优秀 / 测试充分</td></tr>
+<tr><td>License</td><td>GNU Affero GPL v3（<strong>强 copyleft</strong>，商业 fork 须开源）</td></tr>
+<tr><td>团队投入</td><td>41 贡献者；Top1 占比 10.6%（分散）；Claude 排第 7（457 commits）</td></tr>
+</tbody>
+</table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>Organization 账号 macro-inc 自 2020-05 注册（6.2 年历史），主仓 <code>macro</code> 2025-11 才创建——明显是「成熟团队的新一轮押注」。公共仓库 25 个，多为上游 fork（tauri、rig=Anthropic Rust agent SDK、pdf.js、libreoffice bindings），策略是「fork 主流生态再改造」。Top 贡献者都是 macro-inc 内部员工（whutchinson98、gbirman、synoet、sedson、evanhutnik 等），第 7 大贡献者是 Claude——团队重度使用 AI 编程 agent。</p>
+<p>从 NYC 总部 + dogfooded 两年 + a16z 站台 + 公开披露的 $30M+ 融资推断：<strong>这是一支 A16Z 系、有产品野心的初创团队，目标是用 Rust + AI 重做办公套件</strong>。</p>
+<h3>问题判断</h3>
+<p>创始人在 README 里反复追问一个比表面 UX 更深的问题：<strong>为什么所有 issue tracker/CRM 用半年就过期？为什么「在 Slack 里聊的真实工作」永远跑不出 Slack？</strong></p>
+<p>这个观察指向「工具分立」的结构性矛盾：如果你把 conversation（Slack）和 record-of-truth（Linear）分成两个系统，那 record-of-truth 一定会过期——因为人不可能每次聊完都回去手动同步。Macro 的回答是「把 conversation 和 record-of-truth 放进同一个数据图」，让同步从「人的责任」变成「系统的副产物」。</p>
+<p>创始人前一次创业到 ~20 人时，公司被「MCP 和 Zapier」拼凑起来，是 <em>computable</em> 不了的、混沌的。这个自陈痛点决定了整个工程方向：<strong>所有工具必须落到一个共享的数据图上，否则再多 surface 也只是把混乱从 5 个窗口挪到 1 个窗口</strong>。</p>
+<h3>解法哲学</h3>
+<p><strong>Single Source of Truth + Bidirectional Graph + Agent-first</strong>：</p>
+<ol>
+<li><strong>每一个 surface 都 best-in-class，但共享同一份后端</strong>——不要做 Slack 风格的轻量级全合一，而是每个 block 各自做到本类目最优，再在共享数据层上做组合。</li>
+<li><strong>Bidirectional @linking 是一切 UX 的第一性原理</strong>——用户提到的任何 entity 在另一个 entity 里都自动可见，反向链接自动建立。让「issue tracker 不更新」「CRM 过期」「文档无人问」三个经典 SaaS 病在结构层就被切断。</li>
+<li><strong>Agent 是 first-class citizen</strong>——不是给 AI 加个聊天面板，而是给 AI 完整的 workspace API（近 100% UI 操作的 MCP surface）、完整的权限继承（Agent 用 narrow JWT 而非用户主 token）、完整的记忆（夜间 cron 聚合团队对话+邮件+任务+文档）。</li>
+</ol>
+<p>明确选择不做什么：</p>
+<ul>
+<li><strong>不做单点最强的工具</strong>（Macro 不挑战 Linear 的 issue tracker、Superhuman 的邮件体验）——它赌的是整合后的「跨维度协同密度」溢价。</li>
+<li><strong>不做 open-core</strong>（100% AGPLv3，自托管友好）——和 Linear/Notion 的「open core 锁企业部署」策略反向，赌的是 agent 时代单点 SaaS 会被组合自托管方案吃掉。</li>
+</ul>
+<h3>战略意图</h3>
+<ul>
+<li><strong>商业化路径</strong>：freemium 入口（macro.com/app）+ Enterprise 走 Cal.com demo + SOC 2 Type II 合规（已公开）。</li>
+<li><strong>开源战略</strong>：100% AGPLv3，自托管是战略性产品价值，不是意识形态——和 Cloudflare（DO/wrangler）、Vercel（Next.js）等 AGPL 阵营站在同一边。</li>
+<li><strong>赛道押注</strong>：当 agent 能大规模执行 workspace 操作时，「工具的数量」就不再是瓶颈，「工具间的对话带宽」才是。Macro 押注的不是 UI（已被 Slack/Linear 摸到顶），而是 <strong>agent ↔ data ↔ human 三方协作的统一带宽</strong>。</li>
+</ul>
+<h2>核心价值提炼</h2>
+<h3>创新之处（按新颖度 × 实用性排序）</h3>
+<ol>
+<li><strong>统一 <code>EntityType</code> 枚举 + 单张 <code>entity_access</code> 表</strong> — 15 种实体类型（User/Chat/Channel/EmailThread/Document/Project/CRM...）共享一张权限表 <code>(entity_type, entity_id, user_id, access_level)</code>。让「跨实体 @mention / 权限 / 搜索」成为统一原语，整个 UX 都建立在它之上。<strong>新颖度 3/5 | 实用性 5/5 | 可迁移性 4/5</strong>。</li>
+<li><strong>MCP 作为 workspace API 网关</strong> — <code>services/mcp_service/</code> 用 <code>rmcp streamable-http</code> 暴露 <code>crates/ai_tools</code> 定义的 tool 集（与 UI 操作一对一对应），<code>mcp_auth_proxy</code> 给外部 agent 签发 narrow-scope token。<strong>MCP surface 覆盖率 ≈ AI 能做的事的范围</strong>，这是 2024-2025 才出现的范式。<strong>新颖度 5/5 | 实用性 4/5 | 可迁移性 3/5</strong>。</li>
+<li><strong><code>workspace-dep-closures.json</code> + <code>xtask_deps</code>（guppy 生成）自动 monorepo 部署图</strong> — 把每个 workspace member 的 transitive dep closure 算成 JSON，flake.nix 据此生成每个 deploy artifact 的「最小源码树」。改一个 leaf crate 只 hash 该 source tree，其他 41 个 service 的 Nix cache 不动。<strong>新颖度 4/5 | 实用性 5/5 | 可迁移性 3/5</strong>。</li>
+<li><strong>AI projection（夜间团队记忆构建）</strong> — <code>ai_projections_refresh_handler</code> 是 Lambda cron，按 cadence（daily/weekly）批量从 MacroDB 拉数据 → 喂给 LLM → 写回结构化 markdown 投影。<strong>比实时 RAG 简单一个数量级</strong>，用户能像看 git diff 一样审阅/导出自己的记忆。<strong>新颖度 3/5 | 实用性 4/5 | 可迁移性 4/5</strong>。</li>
+<li><strong>Loro CRDT + Lexical 富文本整合</strong> — 在 Lexical 节点树和 Loro Map 之间做双向同步，支持「offline 编辑 + 自动 reconcile + 版本分叉」。Notion/Linear 不支持 offline-edit-then-merge；Macro 支持。<strong>新颖度 4/5 | 实用性 4/5 | 可迁移性 2/5</strong>。</li>
+<li><strong>CLAUDE.md + STYLE_GUIDE.md CS-NN/FE-NN 编号化工程规约</strong> — 把 50 条 Rust 后端规则 + 29 条前端规则编号化，每条带 issue 引用和强制级别（hint/warning/error）。<strong>这是 LLM 时代工程师协作规范做到「机器友好+人类可读」程度的范本</strong>——Claude 在 Macro 仓库贡献 457 commits 证明这套规范对 AI agent 有效。<strong>新颖度 4/5 | 实用性 5/5 | 可迁移性 5/5</strong>。</li>
+<li><strong>cargo-hakari + xtask 子 crate 化</strong> — 所有第三方依赖集中到 <code>workspace-hack</code> 单 crate；xtask 每个子命令独立 crate，由零依赖 launcher（83 行 main.rs）分发。<strong>跑 <code>cargo x cache-wasm</code> 时只编译 anyhow，不拖入 guppy/hakari/aws-sdk/tokio</strong>——这是 monorepo 编译时间从小时级降到分钟级的关键。<strong>新颖度 3/5 | 实用性 5/5 | 可迁移性 4/5</strong>。</li>
+</ol>
+<h3>可复用的模式与技巧</h3>
+<ol>
+<li><strong>统一权限表模式</strong> — 任何需要在多实体类型上做权限/计费/搜索的系统都可用。前提是 entity 数量相对有限（<50）。</li>
+<li><strong>MCP 二次抽象模式</strong> — 把业务 API 二次抽象为语义化操作（<code>crates/ai_tools</code>），让任何 SaaS 想让 AI agent 操作时只需包装现有 HTTP API 为 MCP server，无需重写后端。</li>
+<li><strong>Projection Pattern for AI Memory</strong> — 用 batch + 物化视图代替实时 RAG，省掉向量数据库的运维负担；用户可读、可审、可改自己的记忆。</li>
+<li><strong>CSS 颜色令牌与 Tailwind 默认调色板隔离</strong> — <code>index.css</code> 用 <code>--color-*: initial</code> 禁用整个 Tailwind 默认调色板，CI 用 <code>ast-grep tsx-no-raw-tailwind-palette</code> 强制执行。<strong>成本低、收益高，任何用 Tailwind 的团队都应该做这个</strong>。</li>
+<li><strong>Per-artifact Nix 源树剪枝</strong> — 用 guppy 算每个 workspace member 的 transitive dep closure，配合 Nix 做部署级 cache 隔离。<strong>任何 monorepo + Nix + 多 artifact 部署的团队都能用</strong>。</li>
+</ol>
+<h3>关键设计决策</h3>
+<table>
+<thead><tr><th>决策</th><th>问题</th><th>方案</th><th>Trade-off</th><th>可迁移性</th></tr></thead>
+<tbody>
+<tr><td>统一 EntityType + entity_access 表</td><td>跨实体权限的 N² join 噩梦</td><td>单一枚举 + 单表，按 type 分发</td><td>Schema 不"领域纯净"，但跨实体查询变成单表索引扫描</td><td>高（<50 实体）</td></tr>
+<tr><td>Loro + Cloudflare DO</td><td>实时协作文档的房间调度</td><td>sync-service 是 CF Worker，每个文档一个 DO + 5s alarm</td><td>锁定 Cloudflare 生态，脱离需重写房间调度</td><td>中</td></tr>
+<tr><td>MCP-first workspace API</td><td>UI/AI/外部 agent 用同一种语言</td><td>rmcp streamable-http + narrow JWT</td><td>MCP surface 覆盖率 ≈ AI 能力上限</td><td>高</td></tr>
+<tr><td>夜间 batch projection</td><td>实时 RAG 太贵且噪音大</td><td>Lambda cron + 结构化 markdown 投影表</td><td>最长 24h 延迟；聚合信号远多于实时</td><td>高</td></tr>
+<tr><td>Hakari + workspace-hack</td><td>Rust monorepo 编译时间</td><td>第三方依赖集中单 crate</td><td>学习成本 + 配置维护</td><td>高（任何 Rust monorepo）</td></tr>
+<tr><td>Polyglot persistence</td><td>不同 workload 需要不同存储</td><td>Postgres + D1 + OpenSearch + Redis + DynamoDB + Kafka</td><td>运维复杂度高，心智切换成本高</td><td>中（需强 SRE 文化）</td></tr>
+<tr><td>CSS 调色板隔离</td><td>品牌改色成本爆炸</td><td>--color-*: initial + ast-grep 强制</td><td>新开发者需先学令牌</td><td>极高（成本极低）</td></tr>
+</tbody>
+</table>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table>
+<thead><tr><th>维度</th><th>Macro</th><th>Notion+Slack+Linear 组合</th><th>ClickUp</th><th>Edworking</th><th>Attio/Folk</th></tr></thead>
+<tbody>
+<tr><td>AI 集成深度</td><td>深度（MCP-first，Agent 一等公民）</td><td>浅（每个工具单独的 AI 插件）</td><td>中（ClickUp AI 通用）</td><td>弱</td><td>中（单点 AI CRM）</td></tr>
+<tr><td>跨实体协同</td><td>极致（统一数据图）</td><td>弱（拼凑，靠 Zapier）</td><td>中（ClickUp 内整合强）</td><td>中</td><td>弱（单点 CRM）</td></tr>
+<tr><td>单点体验深度</td><td>中等（足够好）</td><td>各自最深</td><td>深（DIY 强）</td><td>浅</td><td>深（CRM 内）</td></tr>
+<tr><td>开源/自托管</td><td>AGPLv3 + 自托管</td><td>闭源</td><td>闭源</td><td>开源</td><td>闭源</td></tr>
+<tr><td>数据出口</td><td>全量（AGPL 强制）</td><td>锁定</td><td>锁定</td><td>全量</td><td>锁定</td></tr>
+<tr><td>上手成本</td><td>高（IDE 风）</td><td>低</td><td>中</td><td>低</td><td>中</td></tr>
+<tr><td>价格</td><td>Freemium + Enterprise</td><td>高（7 个订阅叠加）</td><td>中（一个订阅）</td><td>低</td><td>中</td></tr>
+<tr><td>技术栈</td><td>Rust + SolidJS + CRDT + MCP</td><td>各家异构</td><td>自研 JS</td><td>Node + Mongo</td><td>自研</td></tr>
+</tbody>
+</table>
+<h3>差异化护城河</h3>
+<ul>
+<li><strong>技术护城河</strong>：MCP surface 覆盖率 + Loro CRDT 整合 + monorepo 工程纪律（dep-closures、hakari、xtask 子 crate 化）——这些都是单点工具很难快速赶上的「体系级能力」。</li>
+<li><strong>生态护城河</strong>：AGPLv3 强制开源 + 自托管友好 = 数据出口自由，对受够了 SaaS 锁定的企业有结构性吸引力。</li>
+<li><strong>信任护城河</strong>：第 7 大贡献者是 Claude = 团队自己就是产品的深度用户（dogfooding + AI-assisted engineering），产品迭代节奏匹配团队实际工作流。</li>
+</ul>
+<h3>竞争风险</h3>
+<ul>
+<li><strong>最可能的替代者</strong>：当 Linear/Notion/Slack 各自添加「跨产品 bidirectional linking」后，单点工具的整合体验差距会缩小——但他们有路径依赖（每个产品都是独立单元，独立公司利益），Macro 的统一数据图优势至少 2-3 年难以被复制。</li>
+<li><strong>CRM 大厂威胁</strong>：HubSpot/Salesforce 拥有销售网络效应，但他们的 AI 整合是「附加」而非「原生」，2-3 年内难以重构成 MCP-first 架构。</li>
+<li><strong>真正致命风险</strong>：如果 Loro CRDT 出现大规模生产事故（生态成熟度比 Yjs 小一个数量级），自救成本高。</li>
+</ul>
+<h3>生态定位</h3>
+<p><strong>Macro 不在任何一个单点赛道竞争</strong>——它的对手是「Notion + Slack + Linear + Superhuman + HubSpot + Calendly 的总和」。在整个技术生态中，Macro 填补的是「<strong>AI 时代的工作操作系统</strong>」这个空白：不是单点工具，不是工具拼凑，而是「公司可计算」的统一 substrate。</p>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：低关注度（2,996 stars）+ 高质量（$30M 融资、a16z 站台、近 3k commits、Claude 排第 7 贡献者）+ 强差异化（MCP-first、AI-native workspace）= <strong>明确被低估</strong>。同类项目（ClickUp、Asana）已是 200+ 亿美元市值，Macro 在 GitHub 上关注度远低于其真实价值。</li>
+</ul>
+<ul>
+<li><strong>技术借鉴</strong>：以下 5 项可立即迁移到自己的项目（按 ROI 排序）：<ol>
+<li><strong>CLAUDE.md + CS-NN/FE-NN 编号化工程规约</strong>（零成本，立即可抄）</li>
+<li><strong><code>workspace-dep-closures.json</code> + <code>xtask_deps</code></strong>（任何 monorepo + Nix 团队必备）</li>
+<li><strong>统一 <code>EntityType</code> 枚举 + 统一 <code>entity_access</code> 表</strong>（任何做"多实体超集 workspace"的产品核心）</li>
+<li><strong>xtask 子 crate 化 + 零依赖 launcher</strong>（任何 Rust monorepo 都应做）</li>
+<li><strong>MCP 作为 workspace API 网关</strong>（任何 SaaS 想让 AI agent 操作的最佳模式）</li>
+</ol></li>
+<li><strong>生态位</strong>：填补「公司可计算操作系统」空白——单点工具的整合体验天花板被架构决定，Macro 的统一数据图是结构性突破。</li>
+<li><strong>趋势判断</strong>：是否在增长？<strong>是</strong>（2026-07 单月 787 commits、Claude 排第 7 贡献者说明工程节奏仍在加速）。是否符合技术趋势？<strong>强烈符合</strong>（MCP 在 2024-2025 已成为 Anthropic 推的事实标准，AI-native workspace 是 SaaS 行业不可避免的演进方向）。比竞品有没有后发优势？<strong>有</strong>——Macro 是从 0 设计时就按 MCP-first 思维构建，不存在「重构既有架构」的路径依赖。</li>
+</ul>
+<h2>风险与不足</h2>
+<ol>
+<li><strong>Vendor 锁定到 Cloudflare</strong>（DO + Workers + D1）——自托管需要 fork/重写 <code>sync-service</code>，对企业自部署是显著门槛。</li>
+<li><strong>Rust 后端的人才壁垒</strong>——招人速度限制增长，SaaS 行业竞争本质是招人速度的竞争。</li>
+<li><strong><code>ai_projections_refresh_handler</code> 24h 延迟</strong>——对「agent 立即知道最新事」的实时场景不够用，未来可能需要实时 + 离线双轨。</li>
+<li><strong>167 crates / 42 services 的认知复杂度</strong>——新人 onboarding 难度高（这也是为什么他们写那么详尽的 CLAUDE.md 和 STYLE_GUIDE）。</li>
+<li><strong>Loro CRDT 生态成熟度</strong>——比 Yjs 小一个数量级，出了 bug 自救成本高；目前依赖商业支持而非社区生态。</li>
+<li><strong>AGPLv3 商业风险</strong>——大企业法务对 AGPL 普遍有抵触，可能限制 enterprise 销售。</li>
+<li><strong>43 个 open PRs 远多于 9 个 open issues</strong> ——说明外部贡献者积极，但维护负担在增长；如果 review 跟不上，会反向打击贡献者积极性。</li>
+</ol>
+<h2>行动建议</h2>
+<h3>如果你要用它</h3>
+<p>适合场景：<strong>5-50 人初创团队 / 远程团队 / 不想在 7 个 SaaS 订阅上烧钱的团队 / 对数据出口有强需求的企业 / IDE 重度用户</strong>。</p>
+<p>不建议场景：<strong>需要单点极致体验的团队（如邮件重度用户选 Superhuman、issue tracker 重度选 Linear） / 50+ 人企业（CRM 销售流程复杂） / 不愿自托管的小团队（freemium 上手成本高）</strong>。</p>
+<p>具体决策：如果你已经在用 3+ 个 SaaS 工具（邮件 + 聊天 + 任务 + 文档 + CRM），并且对「跨工具数据不同步」感到痛，Macro 是当下唯一能提供统一数据图的方案。</p>
+<h3>如果你要学它</h3>
+<p>重点关注以下文件/模块（按学习价值排序）：</p>
+<table>
+<thead><tr><th>优先级</th><th>路径</th><th>学什么</th></tr></thead>
+<tbody>
+<tr><td>1</td><td><code>CLAUDE.md</code> + <code>docs/STYLE_GUIDE.md</code></td><td>AI 时代工程规约的范本（CS-NN/FE-NN 编号化）</td></tr>
+<tr><td>2</td><td><code>Cargo.toml</code> + <code>.config/hakari.toml</code> + <code>crates/workspace-hack/</code></td><td>cargo-hakari 单 crate 依赖集中化</td></tr>
+<tr><td>3</td><td><code>.github/workspace-dep-closures.json</code> + <code>tooling/xtask/crates/xtask_deps/</code></td><td>guppy 算 dep closure + Nix 源树剪枝</td></tr>
+<tr><td>4</td><td><code>crates/model-entity/src/lib.rs</code> + <code>crates/entity_access/src/domain/models.rs</code></td><td>统一 EntityType + entity_access 表模式</td></tr>
+<tr><td>5</td><td><code>services/mcp_service/src/main.rs</code> + <code>crates/ai_tools/</code></td><td>MCP 作为 workspace API 网关模式</td></tr>
+<tr><td>6</td><td><code>services/ai_projections_refresh_handler/</code></td><td>Projection pattern for AI memory</td></tr>
+<tr><td>7</td><td><code>services/sync-service/</code></td><td>Loro CRDT + Cloudflare DO 整合</td></tr>
+<tr><td>8</td><td><code>tooling/xtask/src/main.rs</code></td><td>xtask 子 crate 化 + 零依赖 launcher</td></tr>
+<tr><td>9</td><td><code>apps/web/src/index.css</code> + <code>biome.base.jsonc</code> + <code>sgconfig.yml</code></td><td>CSS 调色板隔离 + biome + ast-grep 工具栈选型</td></tr>
+<tr><td>10</td><td><code>.github/workflows/</code>（30+ 文件）</td><td>monorepo CI/CD 按子目录 lint、按 artifact deploy</td></tr>
+</tbody>
+</table>
+<h3>如果你要 fork 它</h3>
+<p>可改进的方向：</p>
+<ul>
+<li><strong>降低自托管门槛</strong>：把 <code>sync-service</code> 从 Cloudflare DO 抽象成 portable runtime（支持自部署的 room scheduler），打开企业自托管市场。</li>
+<li><strong>替换 Loro 为 Automerge</strong>：如果担心 Loro 生态成熟度，可以做 Loro/Automerge 双后端抽象。</li>
+<li><strong>拆分 monorepo</strong>：167 crates / 42 services 对小团队是 over-engineering，可以拆出 <code>loro-mirror</code>、<code>lexical-core</code>、<code>xtask_deps</code>、<code>workspace-dep-closures</code> 作为独立 crate（<code>packages/loro-mirror/</code> 已独立开源）。</li>
+<li><strong>补充实时记忆层</strong>：<code>ai_projections_refresh_handler</code> 是 batch，可以叠加实时 memory（增量更新）以支持「agent 立即知道最新事」场景。</li>
+<li><strong>强化企业级 RBAC</strong>：当前 channel-scoped permissions 适合团队，企业级需要更细粒度的 role-based 控制。</li>
+</ul>
+<h3>知识入口</h3>
+<table>
+<thead><tr><th>资源</th><th>链接</th></tr></thead>
+<tbody>
+<tr><td>DeepWiki</td><td><a href="https://deepwiki.com/macro-inc/macro">https://deepwiki.com/macro-inc/macro</a>（已收录，可访问）</td></tr>
+<tr><td>Zread.ai</td><td>待验证</td></tr>
+<tr><td>关联论文</td><td>无（工程实践项目，无学术论文）</td></tr>
+<tr><td>在线 Demo</td><td><a href="https://macro.com/app">https://macro.com/app</a>（freemium 入口，需 Google SSO）</td></tr>
+<tr><td>官方博客</td><td><a href="https://macro.com">https://macro.com</a>（无独立博客栏目，价值主张在首页）</td></tr>
+<tr><td>融资/站台</td><td>A16Z 站台（Alex Rampell），公开披露 $30M+ 融资</td></tr>
+</tbody>
+</table>
+</body>
+</html>

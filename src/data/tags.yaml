@@ -1215,6 +1215,10 @@ entries:
   - ai-agent
   - ai-coding
   - devtools
+  kepano_obsidian-skills:
+  - ai-agent
+  - ai-coding
+  - editor-kms
   kestra-io_kestra:
   - devtools
   - workflow-automation
@@ -2092,6 +2096,9 @@ entries:
   - ai-coding
   smartcontractkit_chainlink:
   - security
+  smicallef_spiderfoot:
+  - workflow-automation
+  - database
   sonofmagic_weapp-tailwindcss:
   - ai-agent
   - design-ui

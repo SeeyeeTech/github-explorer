@@ -1570,6 +1570,16 @@
     "trending_days": 7
   },
   {
+    "name": "semantica-agi/semantica",
+    "url": "https://github.com/semantica-agi/semantica",
+    "language": "Python",
+    "stars": 7254,
+    "forks": 758,
+    "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+    "last_seen": "2026-08-14",
+    "trending_days": 7
+  },
+  {
     "name": "sinelaw/fresh",
     "url": "https://github.com/sinelaw/fresh",
     "language": "Rust",
@@ -2060,6 +2070,16 @@
     "trending_days": 6
   },
   {
+    "name": "OpenCut-app/OpenCut",
+    "url": "https://github.com/opencut-app/opencut",
+    "language": "TypeScript",
+    "stars": 82871,
+    "forks": 8214,
+    "description": "The open-source CapCut alternative",
+    "last_seen": "2026-08-14",
+    "trending_days": 6
+  },
+  {
     "name": "opendataloader-project/opendataloader-pdf",
     "url": "https://github.com/opendataloader-project/opendataloader-pdf",
     "language": "Java",
@@ -2157,16 +2177,6 @@
     "forks": 2360,
     "description": "WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.",
     "last_seen": "2026-03-02",
-    "trending_days": 6
-  },
-  {
-    "name": "semantica-agi/semantica",
-    "url": "https://github.com/semantica-agi/semantica",
-    "language": "Python",
-    "stars": 6079,
-    "forks": 654,
-    "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
-    "last_seen": "2026-08-13",
     "trending_days": 6
   },
   {
@@ -2360,6 +2370,16 @@
     "trending_days": 5
   },
   {
+    "name": "citrolabs/ego-lite",
+    "url": "https://github.com/citrolabs/ego-lite",
+    "language": "JavaScript",
+    "stars": 10077,
+    "forks": 518,
+    "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+    "last_seen": "2026-08-14",
+    "trending_days": 5
+  },
+  {
     "name": "ComposioHQ/awesome-codex-skills",
     "url": "https://github.com/composiohq/awesome-codex-skills",
     "language": "Python",
@@ -2440,6 +2460,16 @@
     "trending_days": 5
   },
   {
+    "name": "github/spec-kit",
+    "url": "https://github.com/github/spec-kit",
+    "language": "Python",
+    "stars": 127948,
+    "forks": 11438,
+    "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+    "last_seen": "2026-08-14",
+    "trending_days": 5
+  },
+  {
     "name": "google/skills",
     "url": "https://github.com/google/skills",
     "language": "Python",
@@ -2517,6 +2547,16 @@
     "forks": 6043,
     "description": "High performance self-hosted photo and video management solution.",
     "last_seen": "2026-07-05",
+    "trending_days": 5
+  },
+  {
+    "name": "infiniflow/ragflow",
+    "url": "https://github.com/infiniflow/ragflow",
+    "language": "Go",
+    "stars": 88273,
+    "forks": 10368,
+    "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+    "last_seen": "2026-08-14",
     "trending_days": 5
   },
   {
@@ -2617,16 +2657,6 @@
     "forks": 3984,
     "description": "ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration",
     "last_seen": "2026-03-31",
-    "trending_days": 5
-  },
-  {
-    "name": "OpenCut-app/OpenCut",
-    "url": "https://github.com/opencut-app/opencut",
-    "language": "TypeScript",
-    "stars": 74548,
-    "forks": 7525,
-    "description": "The open-source CapCut alternative",
-    "last_seen": "2026-07-17",
     "trending_days": 5
   },
   {
@@ -2850,6 +2880,16 @@
     "trending_days": 5
   },
   {
+    "name": "unslothai/unsloth",
+    "url": "https://github.com/unslothai/unsloth",
+    "language": "Python",
+    "stars": 71284,
+    "forks": 6425,
+    "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+    "last_seen": "2026-08-14",
+    "trending_days": 5
+  },
+  {
     "name": "usekaneo/kaneo",
     "url": "https://github.com/usekaneo/kaneo",
     "language": "TypeScript",
@@ -3047,16 +3087,6 @@
     "forks": 755,
     "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
     "last_seen": "2026-06-01",
-    "trending_days": 4
-  },
-  {
-    "name": "citrolabs/ego-lite",
-    "url": "https://github.com/citrolabs/ego-lite",
-    "language": "JavaScript",
-    "stars": 3998,
-    "forks": 197,
-    "description": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-    "last_seen": "2026-07-26",
     "trending_days": 4
   },
   {
@@ -3260,16 +3290,6 @@
     "trending_days": 4
   },
   {
-    "name": "github/spec-kit",
-    "url": "https://github.com/github/spec-kit",
-    "language": "Python",
-    "stars": 120299,
-    "forks": 10669,
-    "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-    "last_seen": "2026-07-13",
-    "trending_days": 4
-  },
-  {
     "name": "goauthentik/authentik",
     "url": "https://github.com/goauthentik/authentik",
     "language": "Python",
@@ -3407,16 +3427,6 @@
     "forks": 1529,
     "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
     "last_seen": "2026-05-21",
-    "trending_days": 4
-  },
-  {
-    "name": "infiniflow/ragflow",
-    "url": "https://github.com/infiniflow/ragflow",
-    "language": "Go",
-    "stars": 87818,
-    "forks": 10340,
-    "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-    "last_seen": "2026-08-13",
     "trending_days": 4
   },
   {
@@ -3780,6 +3790,16 @@
     "trending_days": 4
   },
   {
+    "name": "rustdesk/rustdesk",
+    "url": "https://github.com/rustdesk/rustdesk",
+    "language": "Rust",
+    "stars": 120428,
+    "forks": 18446,
+    "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+    "last_seen": "2026-08-14",
+    "trending_days": 4
+  },
+  {
     "name": "ruvnet/ruvector",
     "url": "https://github.com/ruvnet/ruvector",
     "language": "Rust",
@@ -3827,6 +3847,16 @@
     "forks": 1558,
     "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.",
     "last_seen": "2026-04-06",
+    "trending_days": 4
+  },
+  {
+    "name": "smicallef/spiderfoot",
+    "url": "https://github.com/smicallef/spiderfoot",
+    "language": "Python",
+    "stars": 20778,
+    "forks": 3328,
+    "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+    "last_seen": "2026-08-14",
     "trending_days": 4
   },
   {
@@ -3887,16 +3917,6 @@
     "forks": 13407,
     "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
     "last_seen": "2026-05-23",
-    "trending_days": 4
-  },
-  {
-    "name": "unslothai/unsloth",
-    "url": "https://github.com/unslothai/unsloth",
-    "language": "Python",
-    "stars": 70777,
-    "forks": 6392,
-    "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
-    "last_seen": "2026-08-13",
     "trending_days": 4
   },
   {
@@ -4170,6 +4190,26 @@
     "trending_days": 3
   },
   {
+    "name": "cactus-compute/needle",
+    "url": "https://github.com/cactus-compute/needle",
+    "language": "Python",
+    "stars": 5273,
+    "forks": 352,
+    "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+    "last_seen": "2026-08-14",
+    "trending_days": 3
+  },
+  {
+    "name": "cathrynlavery/diagram-design",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "language": "HTML",
+    "stars": 16320,
+    "forks": 981,
+    "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+    "last_seen": "2026-08-14",
+    "trending_days": 3
+  },
+  {
     "name": "charmbracelet/glow",
     "url": "https://github.com/charmbracelet/glow",
     "language": "Go",
@@ -4237,6 +4277,16 @@
     "forks": 445,
     "description": "Generate code from the terminal!",
     "last_seen": "2026-03-05",
+    "trending_days": 3
+  },
+  {
+    "name": "cursor/plugins",
+    "url": "https://github.com/cursor/plugins",
+    "language": "TypeScript",
+    "stars": 2718,
+    "forks": 221,
+    "description": "Cursor plugin specification and official plugins",
+    "last_seen": "2026-08-14",
     "trending_days": 3
   },
   {
@@ -4760,6 +4810,16 @@
     "trending_days": 3
   },
   {
+    "name": "macro-inc/macro",
+    "url": "https://github.com/macro-inc/macro",
+    "language": "Rust",
+    "stars": 2821,
+    "forks": 290,
+    "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+    "last_seen": "2026-08-14",
+    "trending_days": 3
+  },
+  {
     "name": "MadsLorentzen/ai-job-search",
     "url": "https://github.com/madslorentzen/ai-job-search",
     "language": "TypeScript",
@@ -5140,16 +5200,6 @@
     "trending_days": 3
   },
   {
-    "name": "rustdesk/rustdesk",
-    "url": "https://github.com/rustdesk/rustdesk",
-    "language": "Rust",
-    "stars": 111810,
-    "forks": 16743,
-    "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
-    "last_seen": "2026-04-18",
-    "trending_days": 3
-  },
-  {
     "name": "RustPython/RustPython",
     "url": "https://github.com/rustpython/rustpython",
     "language": "Rust",
@@ -5217,16 +5267,6 @@
     "forks": 1896,
     "description": "node of the decentralized oracle network, bridging on and off-chain computation",
     "last_seen": "2025-10-31",
-    "trending_days": 3
-  },
-  {
-    "name": "smicallef/spiderfoot",
-    "url": "https://github.com/smicallef/spiderfoot",
-    "language": "Python",
-    "stars": 20491,
-    "forks": 3308,
-    "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
-    "last_seen": "2026-08-13",
     "trending_days": 3
   },
   {
@@ -5860,16 +5900,6 @@
     "trending_days": 2
   },
   {
-    "name": "cactus-compute/needle",
-    "url": "https://github.com/cactus-compute/needle",
-    "language": "Python",
-    "stars": 4617,
-    "forks": 321,
-    "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
-    "last_seen": "2026-08-13",
-    "trending_days": 2
-  },
-  {
     "name": "CapSoftware/Cap",
     "url": "https://github.com/capsoftware/cap",
     "language": "TypeScript",
@@ -5887,16 +5917,6 @@
     "forks": 3419,
     "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
     "last_seen": "2026-07-11",
-    "trending_days": 2
-  },
-  {
-    "name": "cathrynlavery/diagram-design",
-    "url": "https://github.com/cathrynlavery/diagram-design",
-    "language": "HTML",
-    "stars": 12688,
-    "forks": 772,
-    "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
-    "last_seen": "2026-08-13",
     "trending_days": 2
   },
   {
@@ -6017,16 +6037,6 @@
     "forks": 1077,
     "description": "NumPy & SciPy for GPU",
     "last_seen": "2026-06-29",
-    "trending_days": 2
-  },
-  {
-    "name": "cursor/plugins",
-    "url": "https://github.com/cursor/plugins",
-    "language": "TypeScript",
-    "stars": 1367,
-    "forks": 114,
-    "description": "Cursor plugin specification and official plugins",
-    "last_seen": "2026-05-30",
     "trending_days": 2
   },
   {
@@ -6530,6 +6540,16 @@
     "trending_days": 2
   },
   {
+    "name": "holaboss-ai/holaOS",
+    "url": "https://github.com/holaboss-ai/holaos",
+    "language": "TypeScript",
+    "stars": 6922,
+    "forks": 620,
+    "description": "Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.",
+    "last_seen": "2026-08-14",
+    "trending_days": 2
+  },
+  {
     "name": "HotCakeX/Harden-Windows-Security",
     "url": "https://github.com/hotcakex/harden-windows-security",
     "language": "C#",
@@ -6840,6 +6860,16 @@
     "trending_days": 2
   },
   {
+    "name": "lightningpixel/modly",
+    "url": "https://github.com/lightningpixel/modly",
+    "language": "TypeScript",
+    "stars": 5713,
+    "forks": 595,
+    "description": "Desktop app to generate 3D models from images using local AI — runs entirely on your GPU",
+    "last_seen": "2026-08-14",
+    "trending_days": 2
+  },
+  {
     "name": "Lightricks/ComfyUI-LTXVideo",
     "url": "https://github.com/lightricks/comfyui-ltxvideo",
     "language": "Python",
@@ -6930,16 +6960,6 @@
     "trending_days": 2
   },
   {
-    "name": "macro-inc/macro",
-    "url": "https://github.com/macro-inc/macro",
-    "language": "Rust",
-    "stars": 2382,
-    "forks": 262,
-    "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
-    "last_seen": "2026-08-13",
-    "trending_days": 2
-  },
-  {
     "name": "malisper/pgrust",
     "url": "https://github.com/malisper/pgrust",
     "language": "Rust",
@@ -6997,6 +7017,16 @@
     "forks": 634,
     "description": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
     "last_seen": "2026-06-26",
+    "trending_days": 2
+  },
+  {
+    "name": "megadose/holehe",
+    "url": "https://github.com/megadose/holehe",
+    "language": "Python",
+    "stars": 12602,
+    "forks": 1690,
+    "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+    "last_seen": "2026-08-14",
     "trending_days": 2
   },
   {
@@ -8860,6 +8890,16 @@
     "trending_days": 1
   },
   {
+    "name": "deepseek-ai/awesome-deepseek-agent",
+    "url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
+    "language": "Unknown",
+    "stars": 5517,
+    "forks": 684,
+    "description": "None",
+    "last_seen": "2026-08-14",
+    "trending_days": 1
+  },
+  {
     "name": "deepseek-ai/DeepSeek-V3",
     "url": "https://github.com/deepseek-ai/deepseek-v3",
     "language": "Python",
@@ -9660,16 +9700,6 @@
     "trending_days": 1
   },
   {
-    "name": "holaboss-ai/holaOS",
-    "url": "https://github.com/holaboss-ai/holaos",
-    "language": "TypeScript",
-    "stars": 6146,
-    "forks": 522,
-    "description": "Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.",
-    "last_seen": "2026-08-13",
-    "trending_days": 1
-  },
-  {
     "name": "htr-tech/zphisher",
     "url": "https://github.com/htr-tech/zphisher",
     "language": "HTML",
@@ -10080,16 +10110,6 @@
     "trending_days": 1
   },
   {
-    "name": "lightningpixel/modly",
-    "url": "https://github.com/lightningpixel/modly",
-    "language": "TypeScript",
-    "stars": 5129,
-    "forks": 565,
-    "description": "Desktop app to generate 3D models from images using local AI — runs entirely on your GPU",
-    "last_seen": "2026-08-13",
-    "trending_days": 1
-  },
-  {
     "name": "lingfengQAQ/webnovel-writer",
     "url": "https://github.com/lingfengqaq/webnovel-writer",
     "language": "Python",
@@ -10227,16 +10247,6 @@
     "forks": 4442,
     "description": "The world's most flexible commerce platform.",
     "last_seen": "2026-05-17",
-    "trending_days": 1
-  },
-  {
-    "name": "megadose/holehe",
-    "url": "https://github.com/megadose/holehe",
-    "language": "Python",
-    "stars": 12173,
-    "forks": 1646,
-    "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
-    "last_seen": "2026-08-13",
     "trending_days": 1
   },
   {
@@ -11617,6 +11627,16 @@
     "forks": 19,
     "description": "Toolchain for TON smart contract development and beyond",
     "last_seen": "2026-05-13",
+    "trending_days": 1
+  },
+  {
+    "name": "ToolJet/ToolJet",
+    "url": "https://github.com/tooljet/tooljet",
+    "language": "JavaScript",
+    "stars": 38750,
+    "forks": 5236,
+    "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+    "last_seen": "2026-08-14",
     "trending_days": 1
   },
   {

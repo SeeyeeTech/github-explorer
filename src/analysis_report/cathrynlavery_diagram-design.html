@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+
+<blockquote><p>GitHub: <a href="https://github.com/cathrynlavery/diagram-design">https://github.com/cathrynlavery/diagram-design</a></p></blockquote>
+
+<h2>一句话总结</h2>
+
+<p>这是一份给 Claude Code / Codex / Pi 等 AI Agent 用的「编辑级画图」Skill 包 —— 核心资产是 1 份 SKILL.md + 39 份 references + 5 份 ADR + 17 个 Python 校验脚本，让 Agent 能输出「设计师不会想帮你改」的、绑定品牌色字体的 SVG/HTML 静态成品图。</p>
+
+<h2>值得关注的理由</h2>
+
+<ol>
+<li><strong>AI 工具的下半场不是「更能画」，而是「画得更像你」</strong>：onboarding 时拉取你网站的 body 背景、CTA 色、h1 字体，把品牌 token 灌进调色板，再用 WCAG AA 对比度护栏；这是「个性化 LLM 输出」的正确姿势。</li>
+<li><strong>把「设计品味」做成 CI 是真本事</strong>：17 个 Python 校验脚本把网格 4 倍数、accesible motion、文档顺序作几何冲突判据、SHA-pinned 单 controller 等模糊规则，全部变成 PR 红线；Issue #45（label mask 被 node fill 裁掉）就是被 <code>verify-geometry.py</code> 在 CI 阶段抓住的。</li>
+<li><strong>跨 4 平台 Agent 分发的样板</strong>：Claude Code / Codex / Pi / Cowork 共用同一份 SKILL.md 和 references/，差异仅在 manifest 与 invocation wrapping，是「一份 Skill 多端消费」最完整的工程示范。</li>
+</ol>
+
+<h2>项目展示</h2>
+
+<p><img src="https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/docs/screenshots/architecture.png" alt="Content site architecture" /> — README 头部首图，展示如何在文章/文档流里嵌入成品图。</p>
+
+<p><img src="https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/docs/screenshots/loop.png" alt="The self-improving loop" /> — 2.0 新增的「自我改进循环」主视觉，agent 输出 → lint-skin 自检 → 反馈修复 → 重新生成。</p>
+
+<p><img src="https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/docs/screenshots/import-drawio.png" alt="Redrawn from a .drawio file" /> — <code>/import-drawio</code> 命令的输入→输出对比图，证明能把企业最普及的 <code>.drawio</code> 文件重新排版成品牌级图。</p>
+
+<p><img src="https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/docs/screenshots/flowchart.png" alt="Flowchart" /> — 通用流程图成品代表，9 节点预算 + 4px 网格 + 1 个 accent 色的设计哲学视觉化。</p>
+
+<p><img src="https://raw.githubusercontent.com/cathrynlavery/diagram-design/main/docs/screenshots/sequence.png" alt="Sequence" /> — OAuth/refresh token 这类真实场景的可读性证明。</p>
+
+<blockquote><p>另可访问实时 gallery：<a href="https://cathrynlavery.github.io/diagram-design/">https://cathrynlavery.github.io/diagram-design/</a> —— 27 类型 × 3 主题 tab 切换 + dark mode。</p></blockquote>
+
+<h2>项目画像</h2>
+
+<table>
+<thead>
+<tr><th>维度</th><th>数据</th></tr>
+</thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/cathrynlavery/diagram-design">https://github.com/cathrynlavery/diagram-design</a></td></tr>
+<tr><td>Star / Fork</td><td>17,087 / 1,012（71 watchers）</td></tr>
+<tr><td>代码行数</td><td>18,479 行（HTML 54.2% / Python 39.9% / SVG 5.9%），注释占 36.2%</td></tr>
+<tr><td>项目年龄</td><td>3.9 个月（首次提交 2026-04-16）</td></tr>
+<tr><td>开发阶段</td><td>密集开发（5-6 月沉寂 → 8 月单月 77 commits，占总量 78%）</td></tr>
+<tr><td>贡献模式</td><td>主作者主导 + 社区贡献（Top 1 占比 44%，Top 3 占比 73%，17 个贡献者）</td></tr>
+<tr><td>热度定位</td><td>大众热门（fork:star ≈ 1:17，「作品级资产被取用」型热度）</td></tr>
+<tr><td>质量评级</td><td>代码优秀 / 文档优秀 / 测试充分（17 个 verify 脚本 + adversarial test）</td></tr>
+</tbody>
+</table>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+
+<p>Cathryn Lavery（cathrynlavery），独立创业者，BestSelf.co 自营至 $55M+ 营收，2022 卖给 PE 后又于 2024 回购。她的 bio 一句话自我定位：<em>「Becoming AI Native &amp; documenting as I go」</em> —— 这不是修辞，而是字面意义上的工作方式：把自营 SaaS 公司沉淀下来的品牌/产品工艺，翻译成 AI Agent 可直接消费的 Skill 包。diagram-design 是这条 AI Native 叙事的第一块公开拼图（其 portfolio 还有 shipstats / agent-improvement-loop / repo-atlas / codex-build 同系列仓库）。</p>
+
+<h3>问题判断</h3>
+
+<p>作者识别了一个被低估的真问题：<strong>「AI 生成的图」和「能放进博客/Slides/Figma 的图」之间存在巨大鸿沟</strong>。Mermaid 解决的是「文本→图」的语法问题，但视觉默认工程感重；Excalidraw/tldraw 需要人在回路，Agent 流水线无法自然消费；D2 是更现代的语法层，但仍不解决「输出能直接对外发布」的最后一公里。<strong>作者把这条鸿沟命名为 editorial quality（编辑级品质）</strong> —— 不是更花哨，而是「关掉 AI 味」：1 个 accent 色、4px 网格、密度 4/10、可访问 motion 默认关。</p>
+
+<h3>解法哲学</h3>
+
+<p>极简且可证伪的三个原则：</p>
+
+<ol>
+<li><strong>「The highest-quality move is usually deletion」</strong> —— 9 节点预算、12 箭头上限，超出就拆 overview + detail。每个节点/连线必须自证必要性。</li>
+<li><strong>静止 HTML 是默认，motion 是可选且 a11y 严格</strong> —— 唯一允许的 inline JS 是 <code>template-motion.html</code> 那一份（SHA-256 pinned），<code>prefers-reduced-motion</code> 必须命中静态首帧。</li>
+<li><strong>prose rule + Python checker + adversarial test 三件套</strong> —— ADR-0005（label geometry is verified）就是这条信念的产物：Issue #45 证明「标签几何不能靠肉眼抽检」，必须用文档顺序作判据。</li>
+</ol>
+
+<p>明确不做的（更重要）：不替代 Mermaid/D2/Excalidraw，而是把它们做成 primitive（<code>/import-mermaid</code>、<code>/import-drawio</code>、<code>primitive-sketchy</code>）；不堆 100+ 图类型，27 个 layout + 7 个 semantic pattern 锁死（ADR-0002：semantic patterns 不新增 type）。</p>
+
+<h3>战略意图</h3>
+
+<p>在作者「独立创业者把自己的工艺做成 AI 可消费的资产」这条战略线上，diagram-design 是「品牌/设计能力 token 化」的样板 —— 不是 BestSelf 这种 SaaS 产品的核心，而是<strong>一种新的轻量商业模式</strong>：用 SKILL.md 分发高密度人类工艺，让 agent 在写作流里按需调用。下一步可能是：把 BestSelf 14 年的「产品经理 + 设计师 + 开发者」协作剧本也做成 Skill 包，构成系列。同时 17 个外部贡献者 + 5 份 ADR 表明项目正在从「个人作品」演化成「社区公约」，是「个人项目 → 开源基础设施」的成熟拐点。</p>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处</h3>
+
+<p>按新颖度×实用性排序：</p>
+
+<ol>
+<li><strong>把「设计品味」做成 CI 校验脚本（新颖度 5 / 实用性 5 / 可迁移性 5）</strong>：17 个 Python verify 脚本覆盖网格 / 配色 / a11y / 资源 / 几何 / motion / 类型不变性 / 文档同步；这是目前开源界对「AI 输出物做视觉回归」的工程化最完整样本。</li>
+<li><strong>Progressive disclosure 三层契约（新颖度 4 / 实用性 5 / 可迁移性 5）</strong>：L0 manifest（触发词 + 能力声明，每次启动都看）→ L1 SKILL.md（哲学+路由表，加载到上下文）→ L2 references/（按需加载）。SKILL.md byte cap 40000 + frontmatter description 必须含全部 27 类型词 —— 把「触发命中率」当成 CI 守的硬约束。</li>
+<li><strong>文档顺序作几何冲突判据（新颖度 5 / 实用性 4 / 可迁移性 4）</strong>：<code>verify-geometry.py</code> 不只看 AABB 碰撞，而是判断 label mask 是否出现在「后来绘制的 node」之前；把 SVG 渲染顺序这一隐性约束变成机器可验证。可推广到任何「顺序影响正确性」的渲染问题。</li>
+<li><strong>Canonical-controller + SHA-pinning（新颖度 4 / 实用性 5 / 可迁移性 5）</strong>：当允许用户产物携带 inline JS 时，用同一个 git 内文件作 controller 真值，所有提交 hash-equal；既允许 JS 又不让 JS 分叉的最简解。</li>
+<li><strong>跨 4 平台分发用同一份内容（新颖度 4 / 实用性 4 / 可迁移性 5）</strong>：Claude Code / Codex / Pi / Cowork 共用同一份 SKILL.md 和 references/，差异仅在 manifest 与 invocation wrapping。任何「多 wrapper 单核心」项目（VS Code + JetBrains + Cursor + …）都可以这样。</li>
+<li><strong>DTD bomb 拒绝 + 容器格式防御（新颖度 3 / 实用性 5 / 可迁移性 5）</strong>：<code>drawio_extract.py</code> 在 decode 前显式拒绝 <code>&lt;!DOCTYPE&gt;</code>/<code>&lt;!ENTITY&gt;</code>（包括压缩 payload 里），并通过 <code>_decompress_limited()</code> 限制膨胀比例 —— 经典 XXE/billion-laughs 防御。</li>
+<li><strong>Discarded-counter 暴露审计面（新颖度 3 / 实用性 4 / 可迁移性 5）</strong>：Mermaid extractor 报 <code>discarded: {style_directives: 4, click_handlers: 1}</code>，把「我扔了你什么」从黑盒变白盒。对所有「我接管你输入」的中间层都该有。</li>
+</ol>
+
+<h3>可复用的模式与技巧</h3>
+
+<ul>
+<li><strong>ADR + verify 脚本 + adversarial test 三件套</strong>：任何想「工程化模糊规则」的团队都该照搬这种结构 —— 规则文本 + 可执行校验 + mutate-期望失败测试。</li>
+<li><strong>PR 触发外部测试 + 子目录白名单</strong>：CI 用 path filter 跑子集，新代码不在 baseline 内强制全 lint —— 渐进迁移的稳健做法。</li>
+<li><strong>GitHub Pages 当 Gallery</strong>：仓库本身就是产品页面，<code>assets/index.html</code> 直接生成静态站点，零托管成本。</li>
+<li><strong>prompt injection 当 IR 安全测试集</strong>：fixture 里塞 <code>IGNORE ALL PREVIOUS INSTRUCTIONS</code>，既保留在 IR 里作为 inert text，又确保序列化输出里剔除；把安全测试嵌进解析层而非外挂。</li>
+<li><strong>CI matrix 是真矩阵</strong>：ubuntu + windows + macos × Python 3.11 + 3.12；<code>core.autocrlf=false</code> 强制 + <code>PYTHONIOENCODING=utf-8</code> + <code>PYTHONUTF8=1</code>；解决 CRLF、UTF-8、subprocess locale 三类真实跨平台问题。</li>
+</ul>
+
+<h3>关键设计决策</h3>
+
+<table>
+<thead>
+<tr><th>决策</th><th>问题</th><th>方案</th><th>Trade-off</th></tr>
+</thead>
+<tbody>
+<tr><td>27 类型 + 7 pattern + 3 primitive 三轴独立</td><td>类型数量膨胀会让 SKILL.md 字节爆</td><td>ADR-0002 锁死 type 不变，行为轴独立叠加</td><td>加新行为模式不破坏现有资产</td></tr>
+<tr><td>Motion 默认关 + 单 controller SHA-pinned</td><td>「每个文件都允许 inline JS」无法审计</td><td>唯一允许的 JS = <code>template-motion.html</code>，三处 hash 比对</td><td>牺牲灵活性换可审计性</td></tr>
+<tr><td>SKILL.md byte cap 40000 + 全类型词在 description</td><td>删 description 来腾字节会让触发命中率归零</td><td>CI 强制 byte cap + regex 含 27 类型词</td><td>牺牲字数为可发现性</td></tr>
+<tr><td>几何冲突用文档顺序判据</td><td>单纯 AABB 碰撞会误判「zone eyebrow」合法情况</td><td>require mask 在 node 之前</td><td>把隐性约束变显性</td></tr>
+<tr><td>多 marketplace 4 套 manifest</td><td>单 marketplace 会绑定单一 Agent</td><td>差异仅在 manifest + invocation wrapping</td><td>多一份 CI 同步成本</td></tr>
+</tbody>
+</table>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+
+<table>
+<thead>
+<tr><th>维度</th><th>diagram-design</th><th>Mermaid</th><th>D2</th><th>Excalidraw</th><th>draw.io</th><th>tldraw</th></tr>
+</thead>
+<tbody>
+<tr><td>形态</td><td>Agent Skill 包</td><td>DSL + 渲染器</td><td>DSL + CLI</td><td>手绘 SaaS + 库</td><td>离线工具</td><td>白板 + AI</td></tr>
+<tr><td>触发方式</td><td>自然语言 → Agent → SVG</td><td>文本 → DSL</td><td>文本 → DSL</td><td>鼠标点击</td><td>鼠标点击</td><td>鼠标 + AI</td></tr>
+<tr><td>视觉可品牌化</td><td>强（onboarding 拉品牌 token）</td><td>弱（默认主题）</td><td>中（主题引擎）</td><td>弱</td><td>弱</td><td>中</td></tr>
+<tr><td>输出形式</td><td>self-contained HTML/SVG</td><td>SVG/PNG</td><td>SVG/PNG</td><td>JSON/.excalidraw</td><td>.drawio（XML）</td><td>JSON</td></tr>
+<tr><td>Agent 可消费</td><td>是（直接出图）</td><td>是（语法层）</td><td>是（语法层）</td><td>否（需人在回路）</td><td>否</td><td>否</td></tr>
+<tr><td>与本项目关系</td><td>—</td><td>上游（被 <code>/import-mermaid</code> 消费）</td><td>同维错位</td><td>互补（被做成 <code>primitive-sketchy</code>）</td><td>上游（被 <code>/import-drawio</code> 消费）</td><td>同维错位</td></tr>
+</tbody>
+</table>
+
+<h3>差异化护城河</h3>
+
+<ol>
+<li><strong>「编辑级品质」品牌叙事</strong>：onboarding 拉品牌 token + WCAG AA + 设计哲学（最高质量的改动是删除）这套<strong>叙事+工具+CI</strong>三位一体，竞品需要重新发力气。</li>
+<li><strong>AI 时代的「质量护栏」先发</strong>：Mermaid/D2/Excalidraw 都没解决「AI 输出的视觉回归」问题；diagram-design 用 17 个 Python 脚本在 CI 阶段就锁住 —— 这是<strong>最难复制的部分</strong>，因为它需要设计 + 工程双背景。</li>
+<li><strong>跨 4 平台分发的工程纵深</strong>：单一仓库多端消费，对任何想复制者都是劝退级的工程投入。</li>
+</ol>
+
+<h3>竞争风险</h3>
+
+<p>最可能被 <strong>「大型模型厂商内嵌的设计 skill」</strong> 替代 —— 当 Anthropic/OpenAI 自己下场做「内置 design quality 的画图能力」，社区 skill 的护城河会被压缩。但项目已经从「个人作品」演化成「社区公约」（17 个贡献者 + 5 份 ADR），抗冲击能力较强。</p>
+
+<h3>生态定位</h3>
+
+<p>在整个技术生态里，diagram-design 卡在<strong>「AI 流水线 → 编辑级成品」中间层</strong>：上游消费 Mermaid/draw.io（语法层），下游交付 SVG/HTML（成品层）。它不抢任何一方的位置，反而把两端的生态「升级」一遍 —— 这是最稳的 niche 站位。</p>
+
+<h2>套利机会分析</h2>
+
+<ul>
+<li><strong>信息差</strong>：低 star 项目的红利窗已过（17K stars 大众热门），但<strong>国内中文技术社区对 AI Skills 这一品类的认知仍处于早期</strong> —— 把这套「progressive disclosure + CI verify」结构翻译给中文工程师，是真正的信息差。</li>
+<li><strong>技术借鉴</strong>：17 个 verify 脚本里的 <code>verify-geometry.py</code>、<code>lint-skin.py</code>、<code>drawio_extract.py</code> 三件套是<strong>可直接 fork 改写到自己项目</strong>的资产，零上下文假设。</li>
+<li><strong>生态位</strong>：填补「AI 输出的视觉品质护栏」空白 —— 这是 Mermaid/D2/Excalidraw 都没做的层面。</li>
+<li><strong>趋势判断</strong>：增长曲线是脉冲式（5-6 月 0 commits → 8 月 77 commits + 17K stars），说明<strong>外部引爆点正在驱动作者 all-in</strong>；比竞品有「社区公约 + CI 护栏」双重先发优势，但窗口期可能只剩 3-6 个月（大型模型厂商内嵌风险）。</li>
+</ul>
+
+<h2>风险与不足</h2>
+
+<ul>
+<li><strong>无 git tag</strong>：99 commits / 17K stars 但 0 个 git tag，下游消费者没有 pin 点；plugin 通过 marketplace.json 滚动分发，影响有限但仍是治理瑕疵。</li>
+<li><strong>零 Refactor commit</strong>：Fix > Feature（37 vs 34），还没有进入大规模重构期；这是项目年龄决定的，但累积 6-12 个月后可能出现技术债。</li>
+<li><strong>单一品牌皮肤强约束</strong>：默认 jet-black + atomic-tangerine 高度 opinionated；onboarding 虽支持 5 类入口，但「6+ 颜色品牌」会被强制降级。</li>
+<li><strong>CI matrix 成本高</strong>：3 OS × 2 Python × 14 个 step（含 Playwright 截图）每次 PR 跑十几分钟。</li>
+<li><strong>依赖 LLM 决定 layout</strong>：对「想要 pixel-perfect 重复结果」的工程（如 IDE 内置 SVG 编辑器）这条路不适用。</li>
+</ul>
+
+<h2>行动建议</h2>
+
+<ul>
+<li><strong>如果你要用它</strong>：在写博客/文档/Slides 时调用 <code>/diagram-design</code>，先用 onboarding 流程拉取你网站的 brand token，再用 <code>/import-drawio</code> 改造既有的 <code>.drawio</code> 资产 —— 比手工重画省 10x 时间。</li>
+<li><strong>如果你要学它</strong>：重点读 <code>docs/adr/0005-label-geometry-is-verified.md</code>、<code>scripts/verify-geometry.py</code>、<code>scripts/lint-skin.py</code> 三件套，理解「把模糊规则工程化」的范式；其次读 SKILL.md 的 progressive disclosure 三层结构。</li>
+<li><strong>如果你要 fork 它</strong>：可改进方向 ——①把 27 类型中至少 5 个补全 machine-verified 的 stroke 几何校验（目前只有 rect 几何）；②把品牌 onboarding 流程支持导入 Figma variables；③把 verification 脚本拆成独立 PyPI 包，让其他 AI 输出场景复用。</li>
+</ul>
+
+<h3>知识入口</h3>
+
+<table>
+<thead>
+<tr><th>资源</th><th>链接</th></tr>
+</thead>
+<tbody>
+<tr><td>DeepWiki</td><td><a href="https://deepwiki.com/cathrynlavery/diagram-design">https://deepwiki.com/cathrynlavery/diagram-design</a> （已收录，5 大节覆盖 System Architecture / 13 种 Diagram Types / Claude Code Integration / Design Philosophy / Repository Organization）</td></tr>
+<tr><td>Zread.ai</td><td><a href="https://zread.ai/cathrynlavery/diagram-design">https://zread.ai/cathrynlavery/diagram-design</a> （已收录，指向 GitHub Pages gallery 列出 41 个模板按类型分组）</td></tr>
+<tr><td>关联论文</td><td>无（工程 + 设计实践，无 arXiv 论文）</td></tr>
+<tr><td>在线 Demo</td><td><a href="https://cathrynlavery.github.io/diagram-design/">https://cathrynlavery.github.io/diagram-design/</a> （GitHub Pages 实时 gallery，27 类型 × 3 主题 tab 切换）</td></tr>
+<tr><td>作者博客</td><td><a href="http://littlemight.com">http://littlemight.com</a> （已上线，作者发起 <code>$ start ai-native</code> 7 天挑战）</td></tr>
+</tbody>
+</table>
+
+</body>
+</html>

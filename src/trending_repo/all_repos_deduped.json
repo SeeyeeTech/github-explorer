@@ -380,6 +380,16 @@
     "trending_days": 15
   },
   {
+    "name": "public-apis/public-apis",
+    "url": "https://github.com/public-apis/public-apis",
+    "language": "Python",
+    "stars": 459233,
+    "forks": 50768,
+    "description": "A collective list of free APIs",
+    "last_seen": "2026-08-15",
+    "trending_days": 15
+  },
+  {
     "name": "666ghj/BettaFish",
     "url": "https://github.com/666ghj/bettafish",
     "language": "Python",
@@ -437,16 +447,6 @@
     "forks": 9725,
     "description": "Python tool for converting files and office documents to Markdown.",
     "last_seen": "2026-06-03",
-    "trending_days": 14
-  },
-  {
-    "name": "public-apis/public-apis",
-    "url": "https://github.com/public-apis/public-apis",
-    "language": "Python",
-    "stars": 429074,
-    "forks": 46836,
-    "description": "A collective list of free APIs",
-    "last_seen": "2026-04-30",
     "trending_days": 14
   },
   {
@@ -1650,6 +1650,16 @@
     "trending_days": 6
   },
   {
+    "name": "altic-dev/FluidVoice",
+    "url": "https://github.com/altic-dev/fluidvoice",
+    "language": "Swift",
+    "stars": 10150,
+    "forks": 687,
+    "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
+    "last_seen": "2026-08-15",
+    "trending_days": 6
+  },
+  {
     "name": "anthropics/prompt-eng-interactive-tutorial",
     "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
     "language": "JupyterNotebook",
@@ -1750,6 +1760,16 @@
     "trending_days": 6
   },
   {
+    "name": "citrolabs/ego-lite",
+    "url": "https://github.com/citrolabs/ego-lite",
+    "language": "JavaScript",
+    "stars": 10588,
+    "forks": 532,
+    "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+    "last_seen": "2026-08-15",
+    "trending_days": 6
+  },
+  {
     "name": "clockworklabs/SpacetimeDB",
     "url": "https://github.com/clockworklabs/spacetimedb",
     "language": "Rust",
@@ -1840,6 +1860,16 @@
     "trending_days": 6
   },
   {
+    "name": "github/spec-kit",
+    "url": "https://github.com/github/spec-kit",
+    "language": "Python",
+    "stars": 128815,
+    "forks": 11519,
+    "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+    "last_seen": "2026-08-15",
+    "trending_days": 6
+  },
+  {
     "name": "hardikpandya/stop-slop",
     "url": "https://github.com/hardikpandya/stop-slop",
     "language": "Unknown",
@@ -1857,6 +1887,16 @@
     "forks": 1763,
     "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
     "last_seen": "2026-07-16",
+    "trending_days": 6
+  },
+  {
+    "name": "HKUDS/CLI-Anything",
+    "url": "https://github.com/hkuds/cli-anything",
+    "language": "Python",
+    "stars": 47137,
+    "forks": 4379,
+    "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+    "last_seen": "2026-08-15",
     "trending_days": 6
   },
   {
@@ -2210,6 +2250,16 @@
     "trending_days": 6
   },
   {
+    "name": "unslothai/unsloth",
+    "url": "https://github.com/unslothai/unsloth",
+    "language": "Python",
+    "stars": 71686,
+    "forks": 6470,
+    "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+    "last_seen": "2026-08-15",
+    "trending_days": 6
+  },
+  {
     "name": "usememos/memos",
     "url": "https://github.com/usememos/memos",
     "language": "Go",
@@ -2300,16 +2350,6 @@
     "trending_days": 5
   },
   {
-    "name": "altic-dev/FluidVoice",
-    "url": "https://github.com/altic-dev/fluidvoice",
-    "language": "Swift",
-    "stars": 9662,
-    "forks": 650,
-    "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
-    "last_seen": "2026-08-13",
-    "trending_days": 5
-  },
-  {
     "name": "andrewyng/aisuite",
     "url": "https://github.com/andrewyng/aisuite",
     "language": "Python",
@@ -2367,16 +2407,6 @@
     "forks": 766,
     "description": "💾 Self-hosted online file converter. Supports 1000+ formats ⚙️",
     "last_seen": "2026-01-11",
-    "trending_days": 5
-  },
-  {
-    "name": "citrolabs/ego-lite",
-    "url": "https://github.com/citrolabs/ego-lite",
-    "language": "JavaScript",
-    "stars": 10077,
-    "forks": 518,
-    "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-    "last_seen": "2026-08-14",
     "trending_days": 5
   },
   {
@@ -2460,16 +2490,6 @@
     "trending_days": 5
   },
   {
-    "name": "github/spec-kit",
-    "url": "https://github.com/github/spec-kit",
-    "language": "Python",
-    "stars": 127948,
-    "forks": 11438,
-    "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-    "last_seen": "2026-08-14",
-    "trending_days": 5
-  },
-  {
     "name": "google/skills",
     "url": "https://github.com/google/skills",
     "language": "Python",
@@ -2487,16 +2507,6 @@
     "forks": 4575,
     "description": "A tool for secrets management, encryption as a service, and privileged access management",
     "last_seen": "2026-01-31",
-    "trending_days": 5
-  },
-  {
-    "name": "HKUDS/CLI-Anything",
-    "url": "https://github.com/hkuds/cli-anything",
-    "language": "Python",
-    "stars": 38911,
-    "forks": 3698,
-    "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-    "last_seen": "2026-05-21",
     "trending_days": 5
   },
   {
@@ -2880,16 +2890,6 @@
     "trending_days": 5
   },
   {
-    "name": "unslothai/unsloth",
-    "url": "https://github.com/unslothai/unsloth",
-    "language": "Python",
-    "stars": 71284,
-    "forks": 6425,
-    "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
-    "last_seen": "2026-08-14",
-    "trending_days": 5
-  },
-  {
     "name": "usekaneo/kaneo",
     "url": "https://github.com/usekaneo/kaneo",
     "language": "TypeScript",
@@ -3080,6 +3080,16 @@
     "trending_days": 4
   },
   {
+    "name": "cactus-compute/needle",
+    "url": "https://github.com/cactus-compute/needle",
+    "language": "Python",
+    "stars": 5822,
+    "forks": 390,
+    "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+    "last_seen": "2026-08-15",
+    "trending_days": 4
+  },
+  {
     "name": "can1357/oh-my-pi",
     "url": "https://github.com/can1357/oh-my-pi",
     "language": "TypeScript",
@@ -3087,6 +3097,16 @@
     "forks": 755,
     "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
     "last_seen": "2026-06-01",
+    "trending_days": 4
+  },
+  {
+    "name": "cathrynlavery/diagram-design",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "language": "HTML",
+    "stars": 17925,
+    "forks": 1074,
+    "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+    "last_seen": "2026-08-15",
     "trending_days": 4
   },
   {
@@ -3127,6 +3147,16 @@
     "forks": 6287,
     "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
     "last_seen": "2026-07-15",
+    "trending_days": 4
+  },
+  {
+    "name": "cursor/plugins",
+    "url": "https://github.com/cursor/plugins",
+    "language": "TypeScript",
+    "stars": 2863,
+    "forks": 230,
+    "description": "Cursor plugin specification and official plugins",
+    "last_seen": "2026-08-15",
     "trending_days": 4
   },
   {
@@ -4190,26 +4220,6 @@
     "trending_days": 3
   },
   {
-    "name": "cactus-compute/needle",
-    "url": "https://github.com/cactus-compute/needle",
-    "language": "Python",
-    "stars": 5273,
-    "forks": 352,
-    "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
-    "last_seen": "2026-08-14",
-    "trending_days": 3
-  },
-  {
-    "name": "cathrynlavery/diagram-design",
-    "url": "https://github.com/cathrynlavery/diagram-design",
-    "language": "HTML",
-    "stars": 16320,
-    "forks": 981,
-    "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
-    "last_seen": "2026-08-14",
-    "trending_days": 3
-  },
-  {
     "name": "charmbracelet/glow",
     "url": "https://github.com/charmbracelet/glow",
     "language": "Go",
@@ -4277,16 +4287,6 @@
     "forks": 445,
     "description": "Generate code from the terminal!",
     "last_seen": "2026-03-05",
-    "trending_days": 3
-  },
-  {
-    "name": "cursor/plugins",
-    "url": "https://github.com/cursor/plugins",
-    "language": "TypeScript",
-    "stars": 2718,
-    "forks": 221,
-    "description": "Cursor plugin specification and official plugins",
-    "last_seen": "2026-08-14",
     "trending_days": 3
   },
   {
@@ -4837,6 +4837,16 @@
     "forks": 973,
     "description": "MapLibre GL JS - Interactive vector tile maps in the browser",
     "last_seen": "2026-01-06",
+    "trending_days": 3
+  },
+  {
+    "name": "megadose/holehe",
+    "url": "https://github.com/megadose/holehe",
+    "language": "Python",
+    "stars": 12977,
+    "forks": 1731,
+    "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+    "last_seen": "2026-08-15",
     "trending_days": 3
   },
   {
@@ -7020,16 +7030,6 @@
     "trending_days": 2
   },
   {
-    "name": "megadose/holehe",
-    "url": "https://github.com/megadose/holehe",
-    "language": "Python",
-    "stars": 12602,
-    "forks": 1690,
-    "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
-    "last_seen": "2026-08-14",
-    "trending_days": 2
-  },
-  {
     "name": "MemoriLabs/Memori",
     "url": "https://github.com/memorilabs/memori",
     "language": "Python",
@@ -7777,6 +7777,16 @@
     "forks": 1156,
     "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
     "last_seen": "2026-04-07",
+    "trending_days": 2
+  },
+  {
+    "name": "ToolJet/ToolJet",
+    "url": "https://github.com/tooljet/tooljet",
+    "language": "JavaScript",
+    "stars": 39285,
+    "forks": 5277,
+    "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+    "last_seen": "2026-08-15",
     "trending_days": 2
   },
   {
@@ -8757,6 +8767,16 @@
     "forks": 4684,
     "description": "open-source coding agent",
     "last_seen": "2026-06-17",
+    "trending_days": 1
+  },
+  {
+    "name": "cordiverse/cordis",
+    "url": "https://github.com/cordiverse/cordis",
+    "language": "TypeScript",
+    "stars": 3673,
+    "forks": 177,
+    "description": "Meta-Framework of Spatiotemporal Composability",
+    "last_seen": "2026-08-15",
     "trending_days": 1
   },
   {
@@ -10210,6 +10230,16 @@
     "trending_days": 1
   },
   {
+    "name": "MakazhanAlpamys/Soup",
+    "url": "https://github.com/makazhanalpamys/soup",
+    "language": "Python",
+    "stars": 1420,
+    "forks": 239,
+    "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+    "last_seen": "2026-08-15",
+    "trending_days": 1
+  },
+  {
     "name": "marcelscruz/public-apis",
     "url": "https://github.com/marcelscruz/public-apis",
     "language": "JavaScript",
@@ -11627,16 +11657,6 @@
     "forks": 19,
     "description": "Toolchain for TON smart contract development and beyond",
     "last_seen": "2026-05-13",
-    "trending_days": 1
-  },
-  {
-    "name": "ToolJet/ToolJet",
-    "url": "https://github.com/tooljet/tooljet",
-    "language": "JavaScript",
-    "stars": 38750,
-    "forks": 5236,
-    "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
-    "last_seen": "2026-08-14",
     "trending_days": 1
   },
   {

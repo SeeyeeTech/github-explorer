@@ -384,6 +384,9 @@ entries:
   - ai-coding
   carlini_yet-another-applied-llm-benchmark:
   - security
+  cathrynlavery_diagram-design:
+  - ai-agent
+  - ai-coding
   charmbracelet_glow:
   - devtools
   charmbracelet_vhs:
@@ -520,6 +523,10 @@ entries:
   - llm-framework
   - llm-inference
   - model-foundation
+  cursor_plugins:
+  - ai-agent
+  - ai-coding
+  - protocol-spec
   cypress-io_cypress:
   - llm-framework
   - workflow-automation
@@ -1351,6 +1358,10 @@ entries:
   - model-foundation
   - rag-search
   - trading-finance
+  macro-inc_macro:
+  - ai-agent
+  - devtools
+  - protocol-spec
   madslorentzen_ai-job-search:
   - ai-agent
   - ai-coding

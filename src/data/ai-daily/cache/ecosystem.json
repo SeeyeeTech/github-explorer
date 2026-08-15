@@ -1,21 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-08-14",
+    "last_run": "2026-08-15",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/openinterpreter/openinterpreter",
-      "canonical_url": "https://github.com/openinterpreter/openinterpreter",
-      "event_date": "2026-07-15",
-      "date_seen": "2026-07-15"
-    },
-    {
-      "key": "github.com/hkuds/deeptutor",
-      "canonical_url": "https://github.com/hkuds/deeptutor",
-      "event_date": "2026-07-15",
-      "date_seen": "2026-07-15"
-    },
     {
       "key": "github.com/github/copilot-sdk",
       "canonical_url": "https://github.com/github/copilot-sdk",
@@ -945,6 +933,24 @@
       "canonical_url": "https://github.com/GibsonAI/Memori",
       "event_date": "2026-08-14",
       "date_seen": "2026-08-14"
+    },
+    {
+      "key": "github.com/hkuds/cli-anything",
+      "canonical_url": "https://github.com/HKUDS/CLI-Anything",
+      "event_date": "2026-08-15",
+      "date_seen": "2026-08-15"
+    },
+    {
+      "key": "github.com/makazhanalpamys/soup",
+      "canonical_url": "https://github.com/MakazhanAlpamys/Soup",
+      "event_date": "2026-08-15",
+      "date_seen": "2026-08-15"
+    },
+    {
+      "key": "github.com/huggingface/transformers",
+      "canonical_url": "https://github.com/huggingface/transformers",
+      "event_date": "2026-08-15",
+      "date_seen": "2026-08-15"
     }
   ]
 }

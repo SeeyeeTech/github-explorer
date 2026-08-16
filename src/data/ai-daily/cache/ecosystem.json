@@ -1,39 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-08-15",
+    "last_run": "2026-08-16",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/github/copilot-sdk",
-      "canonical_url": "https://github.com/github/copilot-sdk",
-      "event_date": "2026-07-16",
-      "date_seen": "2026-07-16"
-    },
-    {
-      "key": "github.com/prismml-eng/bonsai-demo",
-      "canonical_url": "https://github.com/PrismML-Eng/Bonsai-demo",
-      "event_date": "2026-07-16",
-      "date_seen": "2026-07-16"
-    },
-    {
-      "key": "github.com/lobehub/lobehub",
-      "canonical_url": "https://github.com/lobehub/lobehub",
-      "event_date": "2026-07-16",
-      "date_seen": "2026-07-16"
-    },
-    {
-      "key": "github.com/xai-org/grok-build",
-      "canonical_url": "https://github.com/xai-org/grok-build",
-      "event_date": "2026-07-16",
-      "date_seen": "2026-07-16"
-    },
-    {
-      "key": "github.com/automatic1111/stable-diffusion-webui",
-      "canonical_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
-      "event_date": "2026-07-16",
-      "date_seen": "2026-07-16"
-    },
     {
       "key": "github.com/posthog/posthog",
       "canonical_url": "https://github.com/PostHog/posthog",
@@ -951,6 +921,12 @@
       "canonical_url": "https://github.com/huggingface/transformers",
       "event_date": "2026-08-15",
       "date_seen": "2026-08-15"
+    },
+    {
+      "key": "github.com/akitaonrails/ai-memory",
+      "canonical_url": "https://github.com/akitaonrails/ai-memory",
+      "event_date": "2026-08-16",
+      "date_seen": "2026-08-16"
     }
   ]
 }

@@ -360,6 +360,16 @@
     "trending_days": 16
   },
   {
+    "name": "public-apis/public-apis",
+    "url": "https://github.com/public-apis/public-apis",
+    "language": "Python",
+    "stars": 460777,
+    "forks": 50911,
+    "description": "A collective list of free APIs",
+    "last_seen": "2026-08-16",
+    "trending_days": 16
+  },
+  {
     "name": "abhigyanpatwari/GitNexus",
     "url": "https://github.com/abhigyanpatwari/gitnexus",
     "language": "TypeScript",
@@ -377,16 +387,6 @@
     "forks": 449,
     "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
     "last_seen": "2026-06-06",
-    "trending_days": 15
-  },
-  {
-    "name": "public-apis/public-apis",
-    "url": "https://github.com/public-apis/public-apis",
-    "language": "Python",
-    "stars": 459233,
-    "forks": 50768,
-    "description": "A collective list of free APIs",
-    "last_seen": "2026-08-15",
     "trending_days": 15
   },
   {
@@ -1110,6 +1110,16 @@
     "trending_days": 8
   },
   {
+    "name": "basecamp/omarchy",
+    "url": "https://github.com/basecamp/omarchy",
+    "language": "Shell",
+    "stars": 25067,
+    "forks": 2555,
+    "description": "Beautiful, Modern & Opinionated Linux",
+    "last_seen": "2026-08-16",
+    "trending_days": 8
+  },
+  {
     "name": "chopratejas/headroom",
     "url": "https://github.com/chopratejas/headroom",
     "language": "Python",
@@ -1350,16 +1360,6 @@
     "trending_days": 8
   },
   {
-    "name": "basecamp/omarchy",
-    "url": "https://github.com/basecamp/omarchy",
-    "language": "Shell",
-    "stars": 20639,
-    "forks": 2048,
-    "description": "Beautiful, Modern & Opinionated Linux",
-    "last_seen": "2026-03-01",
-    "trending_days": 7
-  },
-  {
     "name": "diegosouzapw/OmniRoute",
     "url": "https://github.com/diegosouzapw/omniroute",
     "language": "TypeScript",
@@ -1530,6 +1530,16 @@
     "trending_days": 7
   },
   {
+    "name": "OpenCut-app/OpenCut",
+    "url": "https://github.com/opencut-app/opencut",
+    "language": "TypeScript",
+    "stars": 83503,
+    "forks": 8262,
+    "description": "The open-source CapCut alternative",
+    "last_seen": "2026-08-16",
+    "trending_days": 7
+  },
+  {
     "name": "pathwaycom/pathway",
     "url": "https://github.com/pathwaycom/pathway",
     "language": "Python",
@@ -1617,6 +1627,16 @@
     "forks": 13159,
     "description": "Source code for the X Recommendation Algorithm",
     "last_seen": "2026-01-23",
+    "trending_days": 7
+  },
+  {
+    "name": "unslothai/unsloth",
+    "url": "https://github.com/unslothai/unsloth",
+    "language": "Python",
+    "stars": 72243,
+    "forks": 6505,
+    "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+    "last_seen": "2026-08-16",
     "trending_days": 7
   },
   {
@@ -2110,16 +2130,6 @@
     "trending_days": 6
   },
   {
-    "name": "OpenCut-app/OpenCut",
-    "url": "https://github.com/opencut-app/opencut",
-    "language": "TypeScript",
-    "stars": 82871,
-    "forks": 8214,
-    "description": "The open-source CapCut alternative",
-    "last_seen": "2026-08-14",
-    "trending_days": 6
-  },
-  {
     "name": "opendataloader-project/opendataloader-pdf",
     "url": "https://github.com/opendataloader-project/opendataloader-pdf",
     "language": "Java",
@@ -2247,16 +2257,6 @@
     "forks": 1076,
     "description": "Turso is an in-process SQL database, compatible with SQLite.",
     "last_seen": "2026-06-22",
-    "trending_days": 6
-  },
-  {
-    "name": "unslothai/unsloth",
-    "url": "https://github.com/unslothai/unsloth",
-    "language": "Python",
-    "stars": 71686,
-    "forks": 6470,
-    "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
-    "last_seen": "2026-08-15",
     "trending_days": 6
   },
   {
@@ -2407,6 +2407,16 @@
     "forks": 766,
     "description": "💾 Self-hosted online file converter. Supports 1000+ formats ⚙️",
     "last_seen": "2026-01-11",
+    "trending_days": 5
+  },
+  {
+    "name": "cactus-compute/needle",
+    "url": "https://github.com/cactus-compute/needle",
+    "language": "Python",
+    "stars": 6258,
+    "forks": 415,
+    "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+    "last_seen": "2026-08-16",
     "trending_days": 5
   },
   {
@@ -3077,16 +3087,6 @@
     "forks": 1015,
     "description": "A hive mind communication platform",
     "last_seen": "2026-07-26",
-    "trending_days": 4
-  },
-  {
-    "name": "cactus-compute/needle",
-    "url": "https://github.com/cactus-compute/needle",
-    "language": "Python",
-    "stars": 5822,
-    "forks": 390,
-    "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
-    "last_seen": "2026-08-15",
     "trending_days": 4
   },
   {
@@ -5370,6 +5370,16 @@
     "trending_days": 3
   },
   {
+    "name": "ToolJet/ToolJet",
+    "url": "https://github.com/tooljet/tooljet",
+    "language": "JavaScript",
+    "stars": 39725,
+    "forks": 5309,
+    "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+    "last_seen": "2026-08-16",
+    "trending_days": 3
+  },
+  {
     "name": "tractorjuice/arc-kit",
     "url": "https://github.com/tractorjuice/arc-kit",
     "language": "HTML",
@@ -6027,6 +6037,16 @@
     "forks": 1268,
     "description": "Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.",
     "last_seen": "2026-07-05",
+    "trending_days": 2
+  },
+  {
+    "name": "cordiverse/cordis",
+    "url": "https://github.com/cordiverse/cordis",
+    "language": "TypeScript",
+    "stars": 4405,
+    "forks": 219,
+    "description": "Meta-Framework of Spatiotemporal Composability",
+    "last_seen": "2026-08-16",
     "trending_days": 2
   },
   {
@@ -7780,16 +7800,6 @@
     "trending_days": 2
   },
   {
-    "name": "ToolJet/ToolJet",
-    "url": "https://github.com/tooljet/tooljet",
-    "language": "JavaScript",
-    "stars": 39285,
-    "forks": 5277,
-    "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
-    "last_seen": "2026-08-15",
-    "trending_days": 2
-  },
-  {
     "name": "truelockmc/streambert",
     "url": "https://github.com/truelockmc/streambert",
     "language": "JavaScript",
@@ -8217,6 +8227,16 @@
     "forks": 5735,
     "description": "A one stop repository for generative AI research updates, interview resources, notebooks and much more!",
     "last_seen": "2026-06-19",
+    "trending_days": 1
+  },
+  {
+    "name": "akitaonrails/ai-memory",
+    "url": "https://github.com/akitaonrails/ai-memory",
+    "language": "Rust",
+    "stars": 1526,
+    "forks": 162,
+    "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+    "last_seen": "2026-08-16",
     "trending_days": 1
   },
   {
@@ -8767,16 +8787,6 @@
     "forks": 4684,
     "description": "open-source coding agent",
     "last_seen": "2026-06-17",
-    "trending_days": 1
-  },
-  {
-    "name": "cordiverse/cordis",
-    "url": "https://github.com/cordiverse/cordis",
-    "language": "TypeScript",
-    "stars": 3673,
-    "forks": 177,
-    "description": "Meta-Framework of Spatiotemporal Composability",
-    "last_seen": "2026-08-15",
     "trending_days": 1
   },
   {

@@ -1393,6 +1393,8 @@ entries:
   - devtools
   - education
   - security
+  megadose_holehe:
+  - devtools
   mempalace_mempalace:
   - database
   - protocol-spec
@@ -1950,6 +1952,8 @@ entries:
   - protocol-spec
   - security
   ripienaar_free-for-dev:
+  - ai-agent
+  rivet-dev_dynamic-apps:
   - ai-agent
   rivet-dev_secure-exec:
   - ai-agent

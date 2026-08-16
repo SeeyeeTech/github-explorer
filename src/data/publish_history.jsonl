@@ -302,3 +302,4 @@
 {"recorded_at": "2026-08-14T23:23:41.375596+00:00", "slug": "cursor_plugins", "title": null, "state": "published", "published_at": "2026-08-14", "reason": "自动生成", "ci_run_id": "31849480076"}
 {"recorded_at": "2026-08-15T21:19:03.073596+00:00", "slug": "rivet-dev_dynamic-apps", "title": null, "state": "published", "published_at": "2026-08-15", "reason": "自动生成", "ci_run_id": "31908738666"}
 {"recorded_at": "2026-08-15T22:22:55.881766+00:00", "slug": "megadose_holehe", "title": null, "state": "published", "published_at": "2026-08-15", "reason": "自动生成", "ci_run_id": "31911421112"}
+{"recorded_at": "2026-08-16T21:36:21.462910+00:00", "slug": "tooljet_tooljet", "title": null, "state": "published", "published_at": "2026-08-16", "reason": "自动生成", "ci_run_id": "31972705795"}

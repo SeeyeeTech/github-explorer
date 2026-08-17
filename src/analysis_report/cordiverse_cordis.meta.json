@@ -1,0 +1,6 @@
+{
+  "title": "7,600 行 TS 撬动 5.5K stars：Cordis 让 Koishi 作者再写一遍 Node 框架",
+  "digest": "运行时零依赖的 Node.js 元框架，把 Spring 风格 DI、Rust 风格 RAII、Erlang 风格进程隔离缝合成 7,634 行 TS，已被 deepseek-harness 采纳为 Agent runtime。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

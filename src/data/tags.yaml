@@ -2269,6 +2269,8 @@ entries:
   - database
   toml-lang_toml:
   - uncategorized
+  tooljet_tooljet:
+  - ai-agent
   topoteretes_cognee:
   - ai-agent
   - llm-framework

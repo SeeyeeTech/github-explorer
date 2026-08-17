@@ -390,6 +390,16 @@
     "trending_days": 15
   },
   {
+    "name": "harry0703/MoneyPrinterTurbo",
+    "url": "https://github.com/harry0703/moneyprinterturbo",
+    "language": "Python",
+    "stars": 105201,
+    "forks": 16003,
+    "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+    "last_seen": "2026-08-17",
+    "trending_days": 15
+  },
+  {
     "name": "666ghj/BettaFish",
     "url": "https://github.com/666ghj/bettafish",
     "language": "Python",
@@ -420,16 +430,6 @@
     "trending_days": 14
   },
   {
-    "name": "harry0703/MoneyPrinterTurbo",
-    "url": "https://github.com/harry0703/moneyprinterturbo",
-    "language": "Python",
-    "stars": 84565,
-    "forks": 12067,
-    "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
-    "last_seen": "2026-06-10",
-    "trending_days": 14
-  },
-  {
     "name": "harvard-edge/cs249r_book",
     "url": "https://github.com/harvard-edge/cs249r_book",
     "language": "Python",
@@ -447,6 +447,16 @@
     "forks": 9725,
     "description": "Python tool for converting files and office documents to Markdown.",
     "last_seen": "2026-06-03",
+    "trending_days": 14
+  },
+  {
+    "name": "usestrix/strix",
+    "url": "https://github.com/usestrix/strix",
+    "language": "Python",
+    "stars": 53591,
+    "forks": 5741,
+    "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+    "last_seen": "2026-08-17",
     "trending_days": 14
   },
   {
@@ -487,16 +497,6 @@
     "forks": 1388,
     "description": "The absolute trainer to light up AI agents.",
     "last_seen": "2026-03-31",
-    "trending_days": 13
-  },
-  {
-    "name": "usestrix/strix",
-    "url": "https://github.com/usestrix/strix",
-    "language": "Python",
-    "stars": 36600,
-    "forks": 3710,
-    "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-    "last_seen": "2026-07-05",
     "trending_days": 13
   },
   {
@@ -770,6 +770,16 @@
     "trending_days": 10
   },
   {
+    "name": "mukul975/Anthropic-Cybersecurity-Skills",
+    "url": "https://github.com/mukul975/anthropic-cybersecurity-skills",
+    "language": "Python",
+    "stars": 28077,
+    "forks": 3418,
+    "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+    "last_seen": "2026-08-17",
+    "trending_days": 10
+  },
+  {
     "name": "NevaMind-AI/memU",
     "url": "https://github.com/nevamind-ai/memu",
     "language": "Python",
@@ -997,16 +1007,6 @@
     "forks": 3987,
     "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
     "last_seen": "2026-07-06",
-    "trending_days": 9
-  },
-  {
-    "name": "mukul975/Anthropic-Cybersecurity-Skills",
-    "url": "https://github.com/mukul975/anthropic-cybersecurity-skills",
-    "language": "Python",
-    "stars": 20877,
-    "forks": 2415,
-    "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
-    "last_seen": "2026-06-25",
     "trending_days": 9
   },
   {
@@ -1520,6 +1520,16 @@
     "trending_days": 7
   },
   {
+    "name": "nautechsystems/nautilus_trader",
+    "url": "https://github.com/nautechsystems/nautilus_trader",
+    "language": "Rust",
+    "stars": 25662,
+    "forks": 3357,
+    "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+    "last_seen": "2026-08-17",
+    "trending_days": 7
+  },
+  {
     "name": "openai/openai-agents-python",
     "url": "https://github.com/openai/openai-agents-python",
     "language": "Python",
@@ -1940,6 +1950,16 @@
     "trending_days": 6
   },
   {
+    "name": "immich-app/immich",
+    "url": "https://github.com/immich-app/immich",
+    "language": "TypeScript",
+    "stars": 110830,
+    "forks": 6561,
+    "description": "High performance self-hosted photo and video management solution.",
+    "last_seen": "2026-08-17",
+    "trending_days": 6
+  },
+  {
     "name": "Infisical/infisical",
     "url": "https://github.com/infisical/infisical",
     "language": "TypeScript",
@@ -2077,16 +2097,6 @@
     "forks": 15759,
     "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
     "last_seen": "2026-05-25",
-    "trending_days": 6
-  },
-  {
-    "name": "nautechsystems/nautilus_trader",
-    "url": "https://github.com/nautechsystems/nautilus_trader",
-    "language": "Rust",
-    "stars": 23669,
-    "forks": 3003,
-    "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
-    "last_seen": "2026-06-17",
     "trending_days": 6
   },
   {
@@ -2557,16 +2567,6 @@
     "forks": 1824,
     "description": "Useful tool to track location or mobile number",
     "last_seen": "2026-06-07",
-    "trending_days": 5
-  },
-  {
-    "name": "immich-app/immich",
-    "url": "https://github.com/immich-app/immich",
-    "language": "TypeScript",
-    "stars": 105850,
-    "forks": 6043,
-    "description": "High performance self-hosted photo and video management solution.",
-    "last_seen": "2026-07-05",
     "trending_days": 5
   },
   {
@@ -3840,6 +3840,16 @@
     "trending_days": 4
   },
   {
+    "name": "santifer/career-ops",
+    "url": "https://github.com/santifer/career-ops",
+    "language": "JavaScript",
+    "stars": 64170,
+    "forks": 12635,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+    "last_seen": "2026-08-17",
+    "trending_days": 4
+  },
+  {
     "name": "SDWebImage/SDWebImage",
     "url": "https://github.com/sdwebimage/sdwebimage",
     "language": "Objective-C",
@@ -4287,6 +4297,16 @@
     "forks": 445,
     "description": "Generate code from the terminal!",
     "last_seen": "2026-03-05",
+    "trending_days": 3
+  },
+  {
+    "name": "cordiverse/cordis",
+    "url": "https://github.com/cordiverse/cordis",
+    "language": "TypeScript",
+    "stars": 5353,
+    "forks": 290,
+    "description": "Meta-Framework of Spatiotemporal Composability",
+    "last_seen": "2026-08-17",
     "trending_days": 3
   },
   {
@@ -5230,16 +5250,6 @@
     "trending_days": 3
   },
   {
-    "name": "santifer/career-ops",
-    "url": "https://github.com/santifer/career-ops",
-    "language": "JavaScript",
-    "stars": 57367,
-    "forks": 11335,
-    "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
-    "last_seen": "2026-07-02",
-    "trending_days": 3
-  },
-  {
     "name": "schollz/croc",
     "url": "https://github.com/schollz/croc",
     "language": "Go",
@@ -5617,6 +5627,16 @@
     "forks": 2555,
     "description": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
     "last_seen": "2026-06-26",
+    "trending_days": 2
+  },
+  {
+    "name": "AlexsJones/llmfit",
+    "url": "https://github.com/alexsjones/llmfit",
+    "language": "Rust",
+    "stars": 31980,
+    "forks": 1985,
+    "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+    "last_seen": "2026-08-17",
     "trending_days": 2
   },
   {
@@ -6037,16 +6057,6 @@
     "forks": 1268,
     "description": "Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.",
     "last_seen": "2026-07-05",
-    "trending_days": 2
-  },
-  {
-    "name": "cordiverse/cordis",
-    "url": "https://github.com/cordiverse/cordis",
-    "language": "TypeScript",
-    "stars": 4405,
-    "forks": 219,
-    "description": "Meta-Framework of Spatiotemporal Composability",
-    "last_seen": "2026-08-16",
     "trending_days": 2
   },
   {
@@ -6727,6 +6737,16 @@
     "forks": 4312,
     "description": "JavaScript animation engine",
     "last_seen": "2025-10-01",
+    "trending_days": 2
+  },
+  {
+    "name": "jundot/omlx",
+    "url": "https://github.com/jundot/omlx",
+    "language": "Python",
+    "stars": 18836,
+    "forks": 1638,
+    "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+    "last_seen": "2026-08-17",
     "trending_days": 2
   },
   {
@@ -8160,6 +8180,16 @@
     "trending_days": 1
   },
   {
+    "name": "agalwood/Motrix",
+    "url": "https://github.com/agalwood/motrix",
+    "language": "TypeScript",
+    "stars": 52794,
+    "forks": 4913,
+    "description": "A full-featured download manager.",
+    "last_seen": "2026-08-17",
+    "trending_days": 1
+  },
+  {
     "name": "agentjido/jido",
     "url": "https://github.com/agentjido/jido",
     "language": "Elixir",
@@ -8247,16 +8277,6 @@
     "forks": 1325,
     "description": "💅🏻 ⚒ A collection of awesome design systems",
     "last_seen": "2026-04-11",
-    "trending_days": 1
-  },
-  {
-    "name": "AlexsJones/llmfit",
-    "url": "https://github.com/alexsjones/llmfit",
-    "language": "Rust",
-    "stars": 29961,
-    "forks": 1829,
-    "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
-    "last_seen": "2026-07-21",
     "trending_days": 1
   },
   {
@@ -9967,16 +9987,6 @@
     "forks": 162,
     "description": "None",
     "last_seen": "2026-07-23",
-    "trending_days": 1
-  },
-  {
-    "name": "jundot/omlx",
-    "url": "https://github.com/jundot/omlx",
-    "language": "Python",
-    "stars": 13079,
-    "forks": 1122,
-    "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
-    "last_seen": "2026-05-10",
     "trending_days": 1
   },
   {

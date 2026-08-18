@@ -340,6 +340,16 @@
     "trending_days": 17
   },
   {
+    "name": "public-apis/public-apis",
+    "url": "https://github.com/public-apis/public-apis",
+    "language": "Python",
+    "stars": 463645,
+    "forks": 51243,
+    "description": "A collective list of free APIs",
+    "last_seen": "2026-08-18",
+    "trending_days": 17
+  },
+  {
     "name": "bytedance/deer-flow",
     "url": "https://github.com/bytedance/deer-flow",
     "language": "Python",
@@ -350,6 +360,16 @@
     "trending_days": 16
   },
   {
+    "name": "harry0703/MoneyPrinterTurbo",
+    "url": "https://github.com/harry0703/moneyprinterturbo",
+    "language": "Python",
+    "stars": 107439,
+    "forks": 16288,
+    "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+    "last_seen": "2026-08-18",
+    "trending_days": 16
+  },
+  {
     "name": "moeru-ai/airi",
     "url": "https://github.com/moeru-ai/airi",
     "language": "TypeScript",
@@ -357,16 +377,6 @@
     "forks": 4468,
     "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
     "last_seen": "2026-07-29",
-    "trending_days": 16
-  },
-  {
-    "name": "public-apis/public-apis",
-    "url": "https://github.com/public-apis/public-apis",
-    "language": "Python",
-    "stars": 460777,
-    "forks": 50911,
-    "description": "A collective list of free APIs",
-    "last_seen": "2026-08-16",
     "trending_days": 16
   },
   {
@@ -387,16 +397,6 @@
     "forks": 449,
     "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
     "last_seen": "2026-06-06",
-    "trending_days": 15
-  },
-  {
-    "name": "harry0703/MoneyPrinterTurbo",
-    "url": "https://github.com/harry0703/moneyprinterturbo",
-    "language": "Python",
-    "stars": 105201,
-    "forks": 16003,
-    "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-    "last_seen": "2026-08-17",
     "trending_days": 15
   },
   {
@@ -670,6 +670,16 @@
     "trending_days": 11
   },
   {
+    "name": "mukul975/Anthropic-Cybersecurity-Skills",
+    "url": "https://github.com/mukul975/anthropic-cybersecurity-skills",
+    "language": "Python",
+    "stars": 28777,
+    "forks": 3469,
+    "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+    "last_seen": "2026-08-18",
+    "trending_days": 11
+  },
+  {
     "name": "openai/skills",
     "url": "https://github.com/openai/skills",
     "language": "Python",
@@ -767,16 +777,6 @@
     "forks": 21241,
     "description": "12 Lessons to Get Started Building AI Agents",
     "last_seen": "2026-05-19",
-    "trending_days": 10
-  },
-  {
-    "name": "mukul975/Anthropic-Cybersecurity-Skills",
-    "url": "https://github.com/mukul975/anthropic-cybersecurity-skills",
-    "language": "Python",
-    "stars": 28077,
-    "forks": 3418,
-    "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
-    "last_seen": "2026-08-17",
     "trending_days": 10
   },
   {
@@ -887,6 +887,16 @@
     "forks": 7232,
     "description": "Use Claude Code, Codex and Pi for free from your terminal, app, IDE, or phone like OpenClaw (voice supported)",
     "last_seen": "2026-08-03",
+    "trending_days": 9
+  },
+  {
+    "name": "basecamp/omarchy",
+    "url": "https://github.com/basecamp/omarchy",
+    "language": "Shell",
+    "stars": 26171,
+    "forks": 2669,
+    "description": "Beautiful, Modern & Opinionated Linux",
+    "last_seen": "2026-08-18",
     "trending_days": 9
   },
   {
@@ -1110,16 +1120,6 @@
     "trending_days": 8
   },
   {
-    "name": "basecamp/omarchy",
-    "url": "https://github.com/basecamp/omarchy",
-    "language": "Shell",
-    "stars": 25067,
-    "forks": 2555,
-    "description": "Beautiful, Modern & Opinionated Linux",
-    "last_seen": "2026-08-16",
-    "trending_days": 8
-  },
-  {
     "name": "chopratejas/headroom",
     "url": "https://github.com/chopratejas/headroom",
     "language": "Python",
@@ -1257,6 +1257,16 @@
     "forks": 3454,
     "description": "Meshery, the cloud native manager",
     "last_seen": "2026-06-17",
+    "trending_days": 8
+  },
+  {
+    "name": "OpenCut-app/OpenCut",
+    "url": "https://github.com/opencut-app/opencut",
+    "language": "TypeScript",
+    "stars": 84467,
+    "forks": 8334,
+    "description": "The open-source CapCut alternative",
+    "last_seen": "2026-08-18",
     "trending_days": 8
   },
   {
@@ -1537,16 +1547,6 @@
     "forks": 3670,
     "description": "A lightweight, powerful framework for multi-agent workflows",
     "last_seen": "2026-04-20",
-    "trending_days": 7
-  },
-  {
-    "name": "OpenCut-app/OpenCut",
-    "url": "https://github.com/opencut-app/opencut",
-    "language": "TypeScript",
-    "stars": 83503,
-    "forks": 8262,
-    "description": "The open-source CapCut alternative",
-    "last_seen": "2026-08-16",
     "trending_days": 7
   },
   {
@@ -3980,6 +3980,16 @@
     "trending_days": 4
   },
   {
+    "name": "volcengine/OpenViking",
+    "url": "https://github.com/volcengine/openviking",
+    "language": "Python",
+    "stars": 29010,
+    "forks": 2284,
+    "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+    "last_seen": "2026-08-18",
+    "trending_days": 4
+  },
+  {
     "name": "Wei-Shaw/claude-relay-service",
     "url": "https://github.com/wei-shaw/claude-relay-service",
     "language": "JavaScript",
@@ -4697,6 +4707,16 @@
     "forks": 443,
     "description": "Jellyfin Desktop Client",
     "last_seen": "2025-12-17",
+    "trending_days": 3
+  },
+  {
+    "name": "jundot/omlx",
+    "url": "https://github.com/jundot/omlx",
+    "language": "Python",
+    "stars": 19178,
+    "forks": 1650,
+    "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+    "last_seen": "2026-08-18",
     "trending_days": 3
   },
   {
@@ -5470,16 +5490,6 @@
     "trending_days": 3
   },
   {
-    "name": "volcengine/OpenViking",
-    "url": "https://github.com/volcengine/openviking",
-    "language": "Python",
-    "stars": 13414,
-    "forks": 922,
-    "description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.",
-    "last_seen": "2026-03-16",
-    "trending_days": 3
-  },
-  {
     "name": "warpdotdev/warp",
     "url": "https://github.com/warpdotdev/warp",
     "language": "Rust",
@@ -5590,6 +5600,16 @@
     "trending_days": 2
   },
   {
+    "name": "agalwood/Motrix",
+    "url": "https://github.com/agalwood/motrix",
+    "language": "TypeScript",
+    "stars": 53404,
+    "forks": 4935,
+    "description": "A full-featured download manager.",
+    "last_seen": "2026-08-18",
+    "trending_days": 2
+  },
+  {
     "name": "agavra/tuicr",
     "url": "https://github.com/agavra/tuicr",
     "language": "Rust",
@@ -5617,6 +5637,16 @@
     "forks": 955,
     "description": "FinRobot: An Open-Source AI Agent Platform for Financial Analysis using LLMs 🚀 🚀 🚀",
     "last_seen": "2026-01-26",
+    "trending_days": 2
+  },
+  {
+    "name": "akitaonrails/ai-memory",
+    "url": "https://github.com/akitaonrails/ai-memory",
+    "language": "Rust",
+    "stars": 2432,
+    "forks": 214,
+    "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+    "last_seen": "2026-08-18",
     "trending_days": 2
   },
   {
@@ -5907,6 +5937,16 @@
     "forks": 410,
     "description": "MLX-VLM is a package for inference and fine-tuning of Vision Language Models (VLMs) on your Mac using MLX.",
     "last_seen": "2026-04-05",
+    "trending_days": 2
+  },
+  {
+    "name": "bojieli/ai-agent-book",
+    "url": "https://github.com/bojieli/ai-agent-book",
+    "language": "Python",
+    "stars": 38863,
+    "forks": 4287,
+    "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+    "last_seen": "2026-08-18",
     "trending_days": 2
   },
   {
@@ -6737,16 +6777,6 @@
     "forks": 4312,
     "description": "JavaScript animation engine",
     "last_seen": "2025-10-01",
-    "trending_days": 2
-  },
-  {
-    "name": "jundot/omlx",
-    "url": "https://github.com/jundot/omlx",
-    "language": "Python",
-    "stars": 18836,
-    "forks": 1638,
-    "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
-    "last_seen": "2026-08-17",
     "trending_days": 2
   },
   {
@@ -8180,16 +8210,6 @@
     "trending_days": 1
   },
   {
-    "name": "agalwood/Motrix",
-    "url": "https://github.com/agalwood/motrix",
-    "language": "TypeScript",
-    "stars": 52794,
-    "forks": 4913,
-    "description": "A full-featured download manager.",
-    "last_seen": "2026-08-17",
-    "trending_days": 1
-  },
-  {
     "name": "agentjido/jido",
     "url": "https://github.com/agentjido/jido",
     "language": "Elixir",
@@ -8257,16 +8277,6 @@
     "forks": 5735,
     "description": "A one stop repository for generative AI research updates, interview resources, notebooks and much more!",
     "last_seen": "2026-06-19",
-    "trending_days": 1
-  },
-  {
-    "name": "akitaonrails/ai-memory",
-    "url": "https://github.com/akitaonrails/ai-memory",
-    "language": "Rust",
-    "stars": 1526,
-    "forks": 162,
-    "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-    "last_seen": "2026-08-16",
     "trending_days": 1
   },
   {
@@ -8560,16 +8570,6 @@
     "trending_days": 1
   },
   {
-    "name": "bojieli/ai-agent-book",
-    "url": "https://github.com/bojieli/ai-agent-book",
-    "language": "Python",
-    "stars": 13376,
-    "forks": 1271,
-    "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
-    "last_seen": "2026-07-21",
-    "trending_days": 1
-  },
-  {
     "name": "bol-van/zapret",
     "url": "https://github.com/bol-van/zapret",
     "language": "C",
@@ -8667,6 +8667,16 @@
     "forks": 1832,
     "description": "GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data sources, such as BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks and more.",
     "last_seen": "2026-07-19",
+    "trending_days": 1
+  },
+  {
+    "name": "chaitanyagiri/munder-difflin",
+    "url": "https://github.com/chaitanyagiri/munder-difflin",
+    "language": "TypeScript",
+    "stars": 1626,
+    "forks": 208,
+    "description": "local multi-agent harness",
+    "last_seen": "2026-08-18",
     "trending_days": 1
   },
   {
@@ -9307,6 +9317,16 @@
     "forks": 5366,
     "description": "Fast C++ logging library.",
     "last_seen": "2026-08-04",
+    "trending_days": 1
+  },
+  {
+    "name": "genlayerlabs/genlayer-project-boilerplate",
+    "url": "https://github.com/genlayerlabs/genlayer-project-boilerplate",
+    "language": "TypeScript",
+    "stars": 15705,
+    "forks": 791,
+    "description": "None",
+    "last_seen": "2026-08-18",
     "trending_days": 1
   },
   {
@@ -10607,6 +10627,16 @@
     "forks": 1728,
     "description": "F´ - A flight software and embedded systems framework",
     "last_seen": "2026-07-11",
+    "trending_days": 1
+  },
+  {
+    "name": "NawfalMotii79/PLFM_RADAR",
+    "url": "https://github.com/nawfalmotii79/plfm_radar",
+    "language": "PLSQL",
+    "stars": 24143,
+    "forks": 5565,
+    "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+    "last_seen": "2026-08-18",
     "trending_days": 1
   },
   {

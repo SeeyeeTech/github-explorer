@@ -509,6 +509,8 @@ entries:
   - ai-coding
   - llm-framework
   - protocol-spec
+  cordiverse_cordis:
+  - uncategorized
   corebunch_instatic:
   - ai-agent
   - protocol-spec

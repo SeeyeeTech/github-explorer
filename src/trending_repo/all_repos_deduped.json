@@ -330,6 +330,16 @@
     "trending_days": 18
   },
   {
+    "name": "public-apis/public-apis",
+    "url": "https://github.com/public-apis/public-apis",
+    "language": "Python",
+    "stars": 465332,
+    "forks": 51378,
+    "description": "A collective list of free APIs",
+    "last_seen": "2026-08-19",
+    "trending_days": 18
+  },
+  {
     "name": "affaan-m/ECC",
     "url": "https://github.com/affaan-m/ecc",
     "language": "JavaScript",
@@ -340,13 +350,13 @@
     "trending_days": 17
   },
   {
-    "name": "public-apis/public-apis",
-    "url": "https://github.com/public-apis/public-apis",
+    "name": "harry0703/MoneyPrinterTurbo",
+    "url": "https://github.com/harry0703/moneyprinterturbo",
     "language": "Python",
-    "stars": 463645,
-    "forks": 51243,
-    "description": "A collective list of free APIs",
-    "last_seen": "2026-08-18",
+    "stars": 109609,
+    "forks": 16643,
+    "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+    "last_seen": "2026-08-19",
     "trending_days": 17
   },
   {
@@ -357,16 +367,6 @@
     "forks": 10727,
     "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
     "last_seen": "2026-08-01",
-    "trending_days": 16
-  },
-  {
-    "name": "harry0703/MoneyPrinterTurbo",
-    "url": "https://github.com/harry0703/moneyprinterturbo",
-    "language": "Python",
-    "stars": 107439,
-    "forks": 16288,
-    "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-    "last_seen": "2026-08-18",
     "trending_days": 16
   },
   {
@@ -540,6 +540,16 @@
     "trending_days": 12
   },
   {
+    "name": "mukul975/Anthropic-Cybersecurity-Skills",
+    "url": "https://github.com/mukul975/anthropic-cybersecurity-skills",
+    "language": "Python",
+    "stars": 29529,
+    "forks": 3510,
+    "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+    "last_seen": "2026-08-19",
+    "trending_days": 12
+  },
+  {
     "name": "openclaw/openclaw",
     "url": "https://github.com/openclaw/openclaw",
     "language": "TypeScript",
@@ -670,16 +680,6 @@
     "trending_days": 11
   },
   {
-    "name": "mukul975/Anthropic-Cybersecurity-Skills",
-    "url": "https://github.com/mukul975/anthropic-cybersecurity-skills",
-    "language": "Python",
-    "stars": 28777,
-    "forks": 3469,
-    "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
-    "last_seen": "2026-08-18",
-    "trending_days": 11
-  },
-  {
     "name": "openai/skills",
     "url": "https://github.com/openai/skills",
     "language": "Python",
@@ -728,6 +728,16 @@
     "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
     "last_seen": "2026-06-13",
     "trending_days": 11
+  },
+  {
+    "name": "basecamp/omarchy",
+    "url": "https://github.com/basecamp/omarchy",
+    "language": "Shell",
+    "stars": 26638,
+    "forks": 2709,
+    "description": "Beautiful, Modern & Opinionated Linux",
+    "last_seen": "2026-08-19",
+    "trending_days": 10
   },
   {
     "name": "calesthio/OpenMontage",
@@ -890,16 +900,6 @@
     "trending_days": 9
   },
   {
-    "name": "basecamp/omarchy",
-    "url": "https://github.com/basecamp/omarchy",
-    "language": "Shell",
-    "stars": 26171,
-    "forks": 2669,
-    "description": "Beautiful, Modern & Opinionated Linux",
-    "last_seen": "2026-08-18",
-    "trending_days": 9
-  },
-  {
     "name": "bytedance/UI-TARS-desktop",
     "url": "https://github.com/bytedance/ui-tars-desktop",
     "language": "TypeScript",
@@ -1037,6 +1037,16 @@
     "forks": 6330,
     "description": "Financial data platform for analysts, quants and AI agents.",
     "last_seen": "2026-03-30",
+    "trending_days": 9
+  },
+  {
+    "name": "OpenCut-app/OpenCut",
+    "url": "https://github.com/opencut-app/opencut",
+    "language": "TypeScript",
+    "stars": 85094,
+    "forks": 8377,
+    "description": "The open-source CapCut alternative",
+    "last_seen": "2026-08-19",
     "trending_days": 9
   },
   {
@@ -1257,16 +1267,6 @@
     "forks": 3454,
     "description": "Meshery, the cloud native manager",
     "last_seen": "2026-06-17",
-    "trending_days": 8
-  },
-  {
-    "name": "OpenCut-app/OpenCut",
-    "url": "https://github.com/opencut-app/opencut",
-    "language": "TypeScript",
-    "stars": 84467,
-    "forks": 8334,
-    "description": "The open-source CapCut alternative",
-    "last_seen": "2026-08-18",
     "trending_days": 8
   },
   {
@@ -2910,6 +2910,16 @@
     "trending_days": 5
   },
   {
+    "name": "volcengine/OpenViking",
+    "url": "https://github.com/volcengine/openviking",
+    "language": "Python",
+    "stars": 29800,
+    "forks": 2319,
+    "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+    "last_seen": "2026-08-19",
+    "trending_days": 5
+  },
+  {
     "name": "wonderwhy-er/DesktopCommanderMCP",
     "url": "https://github.com/wonderwhy-er/desktopcommandermcp",
     "language": "TypeScript",
@@ -3520,6 +3530,16 @@
     "trending_days": 4
   },
   {
+    "name": "jundot/omlx",
+    "url": "https://github.com/jundot/omlx",
+    "language": "Python",
+    "stars": 19641,
+    "forks": 1682,
+    "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+    "last_seen": "2026-08-19",
+    "trending_days": 4
+  },
+  {
     "name": "K-Dense-AI/claude-scientific-skills",
     "url": "https://github.com/k-dense-ai/claude-scientific-skills",
     "language": "Python",
@@ -3980,16 +4000,6 @@
     "trending_days": 4
   },
   {
-    "name": "volcengine/OpenViking",
-    "url": "https://github.com/volcengine/openviking",
-    "language": "Python",
-    "stars": 29010,
-    "forks": 2284,
-    "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
-    "last_seen": "2026-08-18",
-    "trending_days": 4
-  },
-  {
     "name": "Wei-Shaw/claude-relay-service",
     "url": "https://github.com/wei-shaw/claude-relay-service",
     "language": "JavaScript",
@@ -4090,6 +4100,16 @@
     "trending_days": 3
   },
   {
+    "name": "agalwood/Motrix",
+    "url": "https://github.com/agalwood/motrix",
+    "language": "TypeScript",
+    "stars": 53955,
+    "forks": 4958,
+    "description": "A full-featured download manager.",
+    "last_seen": "2026-08-19",
+    "trending_days": 3
+  },
+  {
     "name": "agegr/pi-web",
     "url": "https://github.com/agegr/pi-web",
     "language": "TypeScript",
@@ -4127,6 +4147,16 @@
     "forks": 1743,
     "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
     "last_seen": "2026-05-05",
+    "trending_days": 3
+  },
+  {
+    "name": "akitaonrails/ai-memory",
+    "url": "https://github.com/akitaonrails/ai-memory",
+    "language": "Rust",
+    "stars": 3030,
+    "forks": 252,
+    "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+    "last_seen": "2026-08-19",
     "trending_days": 3
   },
   {
@@ -4707,16 +4737,6 @@
     "forks": 443,
     "description": "Jellyfin Desktop Client",
     "last_seen": "2025-12-17",
-    "trending_days": 3
-  },
-  {
-    "name": "jundot/omlx",
-    "url": "https://github.com/jundot/omlx",
-    "language": "Python",
-    "stars": 19178,
-    "forks": 1650,
-    "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
-    "last_seen": "2026-08-18",
     "trending_days": 3
   },
   {
@@ -5600,16 +5620,6 @@
     "trending_days": 2
   },
   {
-    "name": "agalwood/Motrix",
-    "url": "https://github.com/agalwood/motrix",
-    "language": "TypeScript",
-    "stars": 53404,
-    "forks": 4935,
-    "description": "A full-featured download manager.",
-    "last_seen": "2026-08-18",
-    "trending_days": 2
-  },
-  {
     "name": "agavra/tuicr",
     "url": "https://github.com/agavra/tuicr",
     "language": "Rust",
@@ -5637,16 +5647,6 @@
     "forks": 955,
     "description": "FinRobot: An Open-Source AI Agent Platform for Financial Analysis using LLMs 🚀 🚀 🚀",
     "last_seen": "2026-01-26",
-    "trending_days": 2
-  },
-  {
-    "name": "akitaonrails/ai-memory",
-    "url": "https://github.com/akitaonrails/ai-memory",
-    "language": "Rust",
-    "stars": 2432,
-    "forks": 214,
-    "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-    "last_seen": "2026-08-18",
     "trending_days": 2
   },
   {
@@ -5997,6 +5997,16 @@
     "forks": 3419,
     "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
     "last_seen": "2026-07-11",
+    "trending_days": 2
+  },
+  {
+    "name": "chaitanyagiri/munder-difflin",
+    "url": "https://github.com/chaitanyagiri/munder-difflin",
+    "language": "TypeScript",
+    "stars": 2420,
+    "forks": 282,
+    "description": "local multi-agent harness",
+    "last_seen": "2026-08-19",
     "trending_days": 2
   },
   {
@@ -6437,6 +6447,16 @@
     "forks": 1534,
     "description": "Gas Town - multi-agent workspace manager",
     "last_seen": "2026-07-06",
+    "trending_days": 2
+  },
+  {
+    "name": "genlayerlabs/genlayer-project-boilerplate",
+    "url": "https://github.com/genlayerlabs/genlayer-project-boilerplate",
+    "language": "TypeScript",
+    "stars": 16113,
+    "forks": 802,
+    "description": "None",
+    "last_seen": "2026-08-19",
     "trending_days": 2
   },
   {
@@ -7257,6 +7277,16 @@
     "forks": 1522,
     "description": "Blazor Component Library based on Material Design principles with an emphasis on ease of use and extensibility",
     "last_seen": "2025-10-04",
+    "trending_days": 2
+  },
+  {
+    "name": "NawfalMotii79/PLFM_RADAR",
+    "url": "https://github.com/nawfalmotii79/plfm_radar",
+    "language": "PLSQL",
+    "stars": 24490,
+    "forks": 5616,
+    "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+    "last_seen": "2026-08-19",
     "trending_days": 2
   },
   {
@@ -8670,16 +8700,6 @@
     "trending_days": 1
   },
   {
-    "name": "chaitanyagiri/munder-difflin",
-    "url": "https://github.com/chaitanyagiri/munder-difflin",
-    "language": "TypeScript",
-    "stars": 1626,
-    "forks": 208,
-    "description": "local multi-agent harness",
-    "last_seen": "2026-08-18",
-    "trending_days": 1
-  },
-  {
     "name": "chartdb/chartdb",
     "url": "https://github.com/chartdb/chartdb",
     "language": "TypeScript",
@@ -9317,16 +9337,6 @@
     "forks": 5366,
     "description": "Fast C++ logging library.",
     "last_seen": "2026-08-04",
-    "trending_days": 1
-  },
-  {
-    "name": "genlayerlabs/genlayer-project-boilerplate",
-    "url": "https://github.com/genlayerlabs/genlayer-project-boilerplate",
-    "language": "TypeScript",
-    "stars": 15705,
-    "forks": 791,
-    "description": "None",
-    "last_seen": "2026-08-18",
     "trending_days": 1
   },
   {
@@ -10627,16 +10637,6 @@
     "forks": 1728,
     "description": "F´ - A flight software and embedded systems framework",
     "last_seen": "2026-07-11",
-    "trending_days": 1
-  },
-  {
-    "name": "NawfalMotii79/PLFM_RADAR",
-    "url": "https://github.com/nawfalmotii79/plfm_radar",
-    "language": "PLSQL",
-    "stars": 24143,
-    "forks": 5565,
-    "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
-    "last_seen": "2026-08-18",
     "trending_days": 1
   },
   {

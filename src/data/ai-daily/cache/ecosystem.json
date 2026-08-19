@@ -1,39 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-08-18",
+    "last_run": "2026-08-19",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/kvcache-ai/ktransformers",
-      "canonical_url": "https://github.com/kvcache-ai/ktransformers",
-      "event_date": "2026-07-19",
-      "date_seen": "2026-07-19"
-    },
-    {
-      "key": "github.com/astrbotdevs/astrbot",
-      "canonical_url": "https://github.com/AstrBotDevs/AstrBot",
-      "event_date": "2026-07-19",
-      "date_seen": "2026-07-19"
-    },
-    {
-      "key": "github.com/canner/wrenai",
-      "canonical_url": "https://github.com/Canner/WrenAI",
-      "event_date": "2026-07-19",
-      "date_seen": "2026-07-19"
-    },
-    {
-      "key": "github.com/handy-computer/transcribe.cpp",
-      "canonical_url": "https://github.com/handy-computer/transcribe.cpp",
-      "event_date": "2026-07-19",
-      "date_seen": "2026-07-19"
-    },
-    {
-      "key": "https://seeyeetech.com/github-explorer/reports/tensorflow_tensorflow",
-      "canonical_url": "https://seeyeetech.com/github-explorer/reports/tensorflow_tensorflow/",
-      "event_date": "2026-07-19",
-      "date_seen": "2026-07-19"
-    },
     {
       "key": "github.com/prefecthq/fastmcp",
       "canonical_url": "https://github.com/PrefectHQ/fastmcp",

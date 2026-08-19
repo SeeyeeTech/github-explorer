@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+/* table */
+table{border-collapse:collapse!important;width:100%!important;margin:1em 0!important;font-size:14px!important;}
+th,td{border:1px solid #ddd!important;padding:6px 10px!important;text-align:left!important;line-height:1.6!important;}
+th{background:#f5f5f5!important;color:#3e3e3e!important;font-weight:bold!important;}
+td{color:#3e3e3e!important;}
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/agalwood/motrix">https://github.com/agalwood/motrix</a></p></blockquote>
+<h2>一句话总结</h2>
+<p>Motrix 是开源领域唯一一个把「aria2 内核 + BitTorrent + 磁链 + 浏览器扩展 + CLI + Docker headless server」统一抽象到 host-neutral core、并通过同一套 MDXP 协议让桌面 / NAS / AI Agent 五端共享的跨平台下载管理器。</p>
+<h2>值得关注的理由</h2>
+<ul><li><strong>架构纪律罕见</strong>：单作者主导（占 88.6% commit）的项目，却用 CLAUDE.md + 12 份路径限定规则 + check:boundaries 自动守门，把「core 不能 import electron / renderer 不能 import core」这些架构铁律写进 commit 闸——架构驱动的单兵作战典范。</li><li><strong>协议级创新</strong>：QuickJS 沙箱 + capability × phase 双轴授权，让插件在 hook 不同时刻只能做被允许的事；MDXP 把 OAuth 的 device-code 配对搬到桌面↔NAS 的本地配对流，是面向 AI Agent 工作流（断网/进程崩后从 outbox 续跑）的明确信号。</li><li><strong>v2 turbo 的一次性重写</strong>：2024-01 ~ 2026-08 main 分支 0 commit，31 个月沉默后直接删 v1（37K 行）灌 turbo snapshot（317K 行），是「长期不维护的开源项目应该 hard reset 而不是半死升级」的活案例。</li></ul>
+<h2>项目展示</h2>
+<p><img src="https://raw.githubusercontent.com/agalwood/motrix/main/screenshots/motrix-dashboard.webp" alt="Motrix Dashboard" style="max-width:100%;display:block;margin:8px auto;"/></p>
+<p><img src="https://raw.githubusercontent.com/agalwood/motrix/main/screenshots/motrix-downloads.webp" alt="Motrix Downloads" style="max-width:100%;display:block;margin:8px auto;"/></p>
+<p><img src="https://raw.githubusercontent.com/agalwood/motrix/main/screenshots/motrix-settings.webp" alt="Motrix Settings" style="max-width:100%;display:block;margin:8px auto;"/></p>
+<blockquote><p>截图展示 v2 turbo（Electron 43 + React 19 + Tailwind 4）新版界面：左侧任务流、中间仪表盘、右侧节点图（基于 @xyflow/react）；深色与中文 UI 同套图组。</p></blockquote>
+<p>视频：README 与官网均无 demo video。</p>
+<h2>项目画像</h2>
+<table><thead><tr><th>维度</th><th>数据</th></tr></thead><tbody><tr><td>GitHub</td><td><a href="https://github.com/agalwood/motrix">https://github.com/agalwood/motrix</a></td></tr><tr><td>Star / Fork</td><td>54,010 / 4,963（Watch 489）</td></tr><tr><td>代码行数</td><td>300,433 行（TS 62.6% + TSX 20.3% + JS 6.0% + Rust 1.6% + YAML/CSS 等），主仓 + 测试约 110K 行单测 + 19 个 Playwright e2e</td></tr><tr><td>项目年龄</td><td>92 个月（2018-12 至今），v2 turbo 重启于 2026-08-09</td></tr><tr><td>开发阶段</td><td>阶段性「重新激活」：v1 休眠 31 个月后由 turbo snapshot 一次性接管；当前 v2.0.0-beta.19（19 个 beta）</td></tr><tr><td>贡献模式</td><td><strong>单人主导</strong>：Dr_rOot（agalwood）1015 / 1224 = 82.9% commit；#2 Shatyuka 18 commit（1.6%）；75 名贡献者多为 i18n / 小修</td></tr><tr><td>热度定位</td><td>大众热门：54K stars 跨平台下载管理器 OpenRank 第 1</td></tr><tr><td>质量评级</td><td>代码 优秀 / 文档 优秀 / 测试 充分（test:source ≈ 1.2×）</td></tr></tbody></table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p><strong>Dr_rOot / 登录 agalwood</strong>，账号注册 2011-09（15 年），独立开发者、设计师风 portfolio（个人站 agalwood.net 链 Behance / Dribbble / Motrix），2021 年公司化运营「AGALWOOD, Inc.」。早期 fork 过 electron / aria2 / open-source-mac-os-apps 等学习型仓库——是设计驱动 + 工程师型 founder 的典型画像。</p>
+<h3>问题判断</h3>
+<p>下载管理器这个品类长期被三类问题困住：① 丑、臃肿、满屏广告（IDM/FDM 阵营）；② 功能边界死板、协议单一（qBittorrent 偏 BT、Aria2GUI 只覆盖 macOS、AriaNg 要自部署）；③ 完全没有为 AI Agent / CLI / NAS / headless server 这类「无人值守 + 跨端」场景设计的产品形态。作者在 issue #553（公开拒绝 ed2k）和 #1396（坦荡承认 31 个月停更）中都体现「主动产品边界 + 诚实表态」的态度。</p>
+<h3>解法哲学</h3>
+<p>「Clean, full-featured」而不是「大而全」——README 自述「stays simple to use」。具体表现：</p>
+<ul><li><strong>架构上</strong>：核心抽到 src/core/（host-neutral，纯 TS、依赖最小），main/ 和 server/ 是两个薄壳共享同一组 TaskManager / EngineSupervisor / PluginHost / SessionManager；这是把 Cloudflare Workers「host-neutral 业务核心 + 多壳」的 serverless 架构范式搬到了 Electron。</li><li><strong>生态策略</strong>：插件走 QuickJS 沙箱 + capability consent，不是开放 native API——目标是构建 marketplace，而不是 dlopen 式扩展。</li><li><strong>性能观</strong>：CLI / 远端 NAS 走 device-code 配对（user-code 5 分钟 TTL + Crockford 字母表，无 0/O/1/I），浏览器扩展 → 本地服务走标准 native messaging；性能 vs 易用性明显偏后者。</li></ul>
+<h3>战略意图</h3>
+<p>AGALWOOD, Inc. 的商业化路径<strong>不在 Motrix 桌面 license</strong>（MIT），而大概率在 ① Marketplace 抽成 / ② NAS 部署咨询 / ③ 企业插件开发 / ④ 自托管「Motrix Cloud」SaaS。Code 内的 device-code + 签名 .moext + registry.json 已为「官方插件分发平台」铺好基础设施。</p>
+<p>更长期的信号：把 MDXP、@motrix/cli、@motrix/plugin-sdk 都拆成独立 npm 包 + 独立 GitHub org（motrixapp），让 Motrix 不止是「一个 App」而是一组可被其他应用嵌入的协议/工具链——这是开源领域唯一这么做的下载器。</p>
+<h2>核心价值提炼</h2>
+<h3>创新之处（按新颖度 × 实用性 × 可迁移性排序）</h3>
+<ol><li><strong>Capability × Phase Matrix（plugin 调度安全门）</strong><br/>phase-matrix.ts 把「cap.method × hook 阶段」映射到 immediate | staged | disallowed，再叠加 runtime permission gate。组合后插件在 beforeCreate 能 staged 写 metadata，到 afterComplete 就 disallowed——ffmpeg 因为路径相关走出独立 gate。</li><li><strong>MDXP + Device-Code 双传输身份模型</strong><br/>同一份 JSON-RPC schema 同时支撑「extension /pair WebSocket」「/v1 WebSocket 重连」「unary HTTP 仅 agent-facing」「device-code CLI 配对」四种入口；每种入口的可用 method 集合在 dispatcher 层强制白名单；PairingService token rotation / revoke 事件统一强制下线旧 SSE/WS。</li><li><strong>host-neutral core/ 双壳共享 + check:boundaries 自动守门</strong><br/>scripts/check-boundaries.mjs 用 grep 在 CI 卡死 4 类违规（core 不能 import electron / renderer 不能 import core / server 不能 import electron / shared 不能用 Node API）。配合 vite alias 限定（worker 端只暴露 @shared+@core）构成多层防御——单人主导却撑住 5 壳镜像的根本原因。</li><li><strong>aria2 SQLite3 Persistence + Recovery 状态机（fsState × phase × aria2HasMatchingInfoHash）</strong><br/>determineAction() 把（renaming/reseeding/idle）× (temp_only/final_only/both/neither) × taskType × aria2 状态映射到 6 个恢复动作；SessionManager.resolveCurrentAria2Rows() 用 tellStatus 仲裁重复 GID（active/waiting/stopped 三 snapshot 并发）——任何 wrap 第三方 daemon + 需要崩溃恢复的项目都适用。</li><li><strong>DNS Fallback Consumer（dnsMode=auto 智能切换）</strong><br/>occurrence consumer 形态——第一次 c-ares 传输失败（特定 ares_strerror 文本）就热切到系统 resolver 并自动 retry 一次该 task；每 session 只 fallback 一次，按 taskId 去重避免循环——校园网/企业网/CN 局域网连通性兜底。</li><li><strong>进程 Ownership + 版本感知 Feature Report</strong><br/>aria2-process-manager.ts 写 owner record（pid + 三个 marker flags）让下个 boot 能识别「上一个是我自己的 aria2」；feature-report.ts 根据 motrix fork 版本字符串决定是否能信任 removeDownloadResult 的 not-found 语义——区分「真没了」和「sqlite3 删除失败但行还在」。aria2 feature-report 版本感知是供应链治理教科书案例。</li></ol>
+<h3>可复用的模式与技巧</h3>
+<ul><li><strong>三层依赖守门</strong>：CLAUDE.md 文字 + .claude/rules/*.md 路径限定 + check:boundaries grep——把架构约束变成 commit-time 校验</li><li><strong>Manifest 单一信源 = 远端 schema 包</strong>（@motrix/plugin-manifest-schema）+ 本仓纯 re-export + check:schema-parity 校验。避免「文档说一套代码用另一套」</li><li><strong>L4→L1 argv 层叠</strong>（aria2 flags）：wrap 子进程 binary 时的「不可篡改 invariants」写尾部，aria2「最后一个重复 flag 胜出」语义天然保护产品契约</li><li><strong>Occurrence 持久化 + at-least-once dispatch + drainAtStartup</strong>：事件溯源式业务状态迁移，崩溃安全 + 可重放</li><li><strong>fs-sandbox.realpath 双重检查</strong>（realRoot 父目录 realpath + cmp 平台大小写）：插件 fs 越权检测</li><li><strong>native-host Rust 独立二进制 + endpoint.json + 一次性 stdout</strong>：把「浏览器扩展 ↔ 本地服务」的握手做成无 Node 依赖的微二进制</li></ul>
+<h3>关键设计决策（精选 trade-off）</h3>
+<table><thead><tr><th>决策</th><th>收益</th><th>代价</th></tr></thead><tbody><tr><td><strong>v2 turbo 一次性重写</strong></td><td>把 31 个月休眠拖出的技术债一次性清掉（Electron22/Vue2 → Electron43/React19/Vite）</td><td>失去 75 名历史贡献者中大多数 commit 上下文、社区中断</td></tr><tr><td><strong>JS 风沙箱（QuickJS）vs 原生 Node addon</strong></td><td>跨 host、签名可控、ABI 稳定</td><td>性能 + 调试 + 二进制依赖（quickjs-emscripten WASM）</td></tr><tr><td><strong>aria2 GPL 兼容策略</strong></td><td>通过「系统进程隔离 + RPC 通信」避开静态链接污染，README/package.json 明示 MIT</td><td>必须带 THIRD_PARTY_NOTICES.md 披露（GPL 强 copyleft → 披露义务）</td></tr><tr><td><strong>持久化所有 task_occurrences（无 dead-letter）</strong></td><td>强 at-least-once + drainAtStartup 崩溃恢复</td><td>永久失败 consumer 永远重发（注释里点名 follow-up）</td></tr><tr><td><strong>三层 alias 防御</strong>（tsconfig + vite per-target + worker 限定）</td><td>worker 只暴露 @shared/@core，编译期保证「插件 worker 拿不到 Electron」</td><td>阅读时需要理解 argv 层叠 / alias 链语义</td></tr></tbody></table>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table><thead><tr><th>维度</th><th>Motrix</th><th>qBittorrent</th><th>Aria2GUI (macOS)</th><th>AriaNg</th><th>Persepolis</th></tr></thead><tbody><tr><td>协议覆盖</td><td>HTTP/FTP/BT/磁链/插件</td><td>BT 为主</td><td>aria2（HTTP/FTP/BT）</td><td>aria2 全</td><td>aria2 全</td></tr><tr><td>跨平台</td><td>Win/Mac/Linux + Docker/NAS</td><td>Win/Mac/Linux + headless</td><td>macOS only</td><td>Web（自部署）</td><td>Win/Mac/Linux</td></tr><tr><td>扩展机制</td><td>QuickJS 沙箱 + 签名插件</td><td>WebUI API</td><td>无</td><td>无</td><td>无</td></tr><tr><td>自动化入口</td><td>MDXP + device-code CLI + AI Agent</td><td>WebUI API</td><td>无</td><td>HTTP RPC</td><td>无</td></tr><tr><td>License</td><td>MIT</td><td>GPL-2.0+</td><td>MIT</td><td>MIT</td><td>GPL-3.0</td></tr><tr><td>维护状态</td><td>单作者 31 月休眠后 v2 重启</td><td>社区驱动稳</td><td>多年未更新</td><td>低频维护</td><td>多年断更</td></tr></tbody></table>
+<h3>差异化护城河</h3>
+<ul><li><strong>技术</strong>：core 双壳 + MDXP 跨端 + QuickJS 沙箱 + 设备码配对——开源领域几乎没有同款</li><li><strong>生态</strong>：浏览器扩展 + CLI + AI Agent + 插件 Marketplace 端到端</li><li><strong>信任</strong>：MIT + 显式 third-party NOTICE + 签名 plugin 供应链治理</li></ul>
+<h3>竞争风险</h3>
+<ul><li><strong>qBittorrent 在纯 BT 用户盘里几乎不可撼动</strong>——但作者已主动让出这一定位</li><li><strong>闭源商业（FDM/IDM）的视频嗅探/浏览器集成</strong>，开源领域短期内难以追上</li><li><strong>单作者主导是最大单点风险</strong>——社区焦虑信号 #1379「还有人维护吗」/ #1396「停更原因」已显现</li></ul>
+<h3>生态定位</h3>
+<p>开源下载层的「<strong>操作系统</strong>」——上接 Marketplace / 插件 / AI Agent，下接 aria2 fork；横向可被任何带下载需求的桌面应用通过 MDXP 集成。这是「下载器」品类里目前唯一把自己定位成「平台」的开源项目。</p>
+<h2>套利机会分析</h2>
+<ul><li><strong>信息差</strong>：qBittorrent 在 BT 圈是默认首选，但「统一多协议 + AI Agent + NAS」维度没有任何竞品做到 Motrix 这种程度；NAS / 家庭服务器玩家对 AriaNg 自部署 + Motrix Desktop 都嫌重，能直接在群晖 / fnOS 上 run motrix/motrix-server Docker 镜像是个明确空白</li><li><strong>技术借鉴</strong>：<ul><li>src/core/plugin/host/capability-bridge.ts + phase-matrix.ts —— 给任何「想开插件但怕越权」的 Electron/Tauri 应用抄</li><li>scripts/check-boundaries.mjs —— 给任何 monorepo 当架构守门范例</li><li>src/core/bridge/device-code-service.ts —— 给「本地守护 + 远端 CLI」场景的标准配对实现</li><li>aria2-config-builder.ts 的 L4→L1 argv 层叠 —— 给所有 wrap GPL binary 到 MIT 项目的工程模板</li></ul></li><li><strong>生态位</strong>：填补「干净、跨平台、可扩展、能上 NAS、能脚本化」的下载器空白；与 qBittorrent 互补（BT 专属 vs 多协议）、与 AriaNg 互补（桌面 vs Web）</li><li><strong>趋势判断</strong>：增长曲线在 v2 turbo 重启后重新加速；比竞品的后发优势是「架构纪律 + 协议级抽象」——但前提是作者维持住更新节奏</li></ul>
+<h2>风险与不足</h2>
+<ul><li><strong>bus factor = 1</strong>：82.9% commit 来自单一作者；#1379 / #1396 是社区焦虑已经显化的标志</li><li><strong>间歇式维护</strong>：2024-01 ~ 2026-08 main 分支 0 commit；这种「主动休眠-重启」模式能成功的前提是 v2 turbo 一次性重写收尾，否则会再次陷入「半年不更新-突然 commit 大爆炸」的剧本</li><li><strong>v2 仍在 beta</strong>：v2.0.0-beta.19 未发 stable；#1502 白屏问题仍 open——Electron 43 + React 19 + Tailwind 4 兼容性是新栈常见隐患</li><li><strong>License 标注混乱</strong>：GitHub API license=「Other」（bundled aria2 GPL-2.0-or-later 混业所致），本地 LICENSE 明文 MIT——下游 fork 合规需要自己看 THIRD_PARTY_NOTICES.md</li><li><strong>平台缺位</strong>：Windows arm64 / 32-bit / Flatpak / Snap 等渠道不齐</li><li><strong>无商业化路径</strong>：纯靠 GitHub Release + 官网引流，无 paid tier / SaaS</li><li><strong>hot-spot 大文件</strong>：src/main/index.ts 2,443 行、src/core/plugin/host/capability-bridge.ts 1,623 行、src/main/ipc/commands.ts 1,509 行——装配集中度过高，建议按域拆分</li><li><strong>CI 暴露 3 处已知失败</strong>：渲染器 dashboard tile / app-layout / geo-ip 间歇性 ENOTEMPTY 标 continue-on-error: true——质量门在跑但容忍了主线遗留问题</li></ul>
+<h2>行动建议</h2>
+<ul><li><strong>如果你要用它</strong>：macOS / Win / Linux 全平台桌面下载管理器首选；用 Docker 镜像部署到 NAS 比 AriaNg 自部署省心；AI Agent 工作流直接走 @motrix/cli + MDXP。如果你的场景是「纯 BT」或「Windows-only + 浏览器深度集成」，分别选 qBittorrent / IDM 更划算。</li><li><strong>如果你要学它</strong>：必读文件清单（按重要性）：<ul><li>src/core/plugin/host/capability-bridge.ts + phase-matrix.ts —— 安全门模式</li><li>src/core/bridge/web-socket-bridge-server.ts + device-code-service.ts —— MDXP 网关 + 设备码配对</li><li>src/core/engine/aria2/aria2-config-builder.ts —— argv 层叠</li><li>src/core/task/task-recovery-service.ts + occurrence-dispatcher.ts —— 状态机 + at-least-once</li><li>src/core/engine/engine-adapter.ts —— 引擎中立抽象</li><li>scripts/check-boundaries.mjs + .claude/rules/architecture.md —— 架构守门 + 单兵作战纪律</li><li>src/shared/protocol/bridge.ts —— 跨壳契约信源</li></ul></li><li><strong>如果你要 fork 它</strong>：<ul><li>先解决 src/main/index.ts 装配层冗长（按 capability host 拆）</li><li>补 DLQ 上限，让 at-least-once dispatch 有界（注释已点名）</li><li>跑 check:schema-parity + check:registry-runtime + check:third-party-notices 三件套确保 manifest 单一信源</li><li>把 v1 Vue 组件 / src/main/Application.js 等残留从主路径剥离</li><li>找两个 maintainer 把 bus factor 从 1 拉到 ≥2</li></ul></li></ul>
+<h3>知识入口</h3>
+<table><thead><tr><th>资源</th><th>链接</th></tr></thead><tbody><tr><td>DeepWiki</td><td>已被索引但内容 Loading（页面可达）</td></tr><tr><td>Zread.ai</td><td>返回 403，未能收录</td></tr><tr><td>关联论文</td><td>无</td></tr><tr><td>在线 Demo</td><td>无（可本地 pnpm dev 启动）</td></tr><tr><td>作者 insight（「停更与重启」复盘）</td><td><a href="https://github.com/agalwood/motrix/issues/1396">issue #1396</a></td></tr><tr><td>Docker 镜像</td><td>Docker Hub / GHCR（motrix/motrix-server）</td></tr></tbody></table>
+</body>
+</html>

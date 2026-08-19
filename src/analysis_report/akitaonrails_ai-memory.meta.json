@@ -1,0 +1,6 @@
+{
+  "title": "3 个月 1318 commits 91 个 release：Rust 写的 AI 编码 agent 外挂大脑",
+  "digest": "ai-memory 用单 Rust 二进制 + SQLite + Git Markdown wiki 给 22 种 AI 编码 agent 装跨会话外脑，反 vector DB 的工程化路线 + Akita 18 年老兵的架构品味。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

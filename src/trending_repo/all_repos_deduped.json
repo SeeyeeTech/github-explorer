@@ -3,11 +3,11 @@
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "language": "Shell",
-    "stars": 269030,
-    "forks": 24027,
+    "stars": 274625,
+    "forks": 24579,
     "description": "An agentic skills framework & software development methodology that works.",
-    "last_seen": "2026-08-08",
-    "trending_days": 78
+    "last_seen": "2026-08-20",
+    "trending_days": 79
   },
   {
     "name": "TapXWorld/ChinaTextbook",
@@ -70,6 +70,16 @@
     "trending_days": 27
   },
   {
+    "name": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "language": "Shell",
+    "stars": 224773,
+    "forks": 19311,
+    "description": "Skills for Real Engineers. Straight from my .agents directory.",
+    "last_seen": "2026-08-20",
+    "trending_days": 26
+  },
+  {
     "name": "yeongpin/cursor-free-vip",
     "url": "https://github.com/yeongpin/cursor-free-vip",
     "language": "Python",
@@ -87,16 +97,6 @@
     "forks": 407,
     "description": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
     "last_seen": "2025-12-04",
-    "trending_days": 25
-  },
-  {
-    "name": "mattpocock/skills",
-    "url": "https://github.com/mattpocock/skills",
-    "language": "Shell",
-    "stars": 209396,
-    "forks": 18088,
-    "description": "Skills for Real Engineers. Straight from my .agents directory.",
-    "last_seen": "2026-08-08",
     "trending_days": 25
   },
   {
@@ -320,6 +320,16 @@
     "trending_days": 19
   },
   {
+    "name": "harry0703/MoneyPrinterTurbo",
+    "url": "https://github.com/harry0703/moneyprinterturbo",
+    "language": "Python",
+    "stars": 112329,
+    "forks": 17014,
+    "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+    "last_seen": "2026-08-20",
+    "trending_days": 18
+  },
+  {
     "name": "mvanhorn/last30days-skill",
     "url": "https://github.com/mvanhorn/last30days-skill",
     "language": "Python",
@@ -347,16 +357,6 @@
     "forks": 35900,
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
     "last_seen": "2026-07-30",
-    "trending_days": 17
-  },
-  {
-    "name": "harry0703/MoneyPrinterTurbo",
-    "url": "https://github.com/harry0703/moneyprinterturbo",
-    "language": "Python",
-    "stars": 109609,
-    "forks": 16643,
-    "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-    "last_seen": "2026-08-19",
     "trending_days": 17
   },
   {
@@ -1070,6 +1070,16 @@
     "trending_days": 9
   },
   {
+    "name": "PostHog/posthog",
+    "url": "https://github.com/posthog/posthog",
+    "language": "Python",
+    "stars": 37814,
+    "forks": 3206,
+    "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+    "last_seen": "2026-08-20",
+    "trending_days": 9
+  },
+  {
     "name": "protocolbuffers/protobuf",
     "url": "https://github.com/protocolbuffers/protobuf",
     "language": "C++",
@@ -1300,16 +1310,6 @@
     "trending_days": 8
   },
   {
-    "name": "PostHog/posthog",
-    "url": "https://github.com/posthog/posthog",
-    "language": "Python",
-    "stars": 36770,
-    "forks": 3042,
-    "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
-    "last_seen": "2026-07-19",
-    "trending_days": 8
-  },
-  {
     "name": "refactoringhq/tolaria",
     "url": "https://github.com/refactoringhq/tolaria",
     "language": "TypeScript",
@@ -1487,6 +1487,16 @@
     "forks": 3100,
     "description": "AirLLM 70B inference with single 4GB GPU",
     "last_seen": "2026-08-05",
+    "trending_days": 7
+  },
+  {
+    "name": "makeplane/plane",
+    "url": "https://github.com/makeplane/plane",
+    "language": "TypeScript",
+    "stars": 56195,
+    "forks": 5378,
+    "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+    "last_seen": "2026-08-20",
     "trending_days": 7
   },
   {
@@ -2050,16 +2060,6 @@
     "trending_days": 6
   },
   {
-    "name": "makeplane/plane",
-    "url": "https://github.com/makeplane/plane",
-    "language": "TypeScript",
-    "stars": 51642,
-    "forks": 4591,
-    "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
-    "last_seen": "2026-06-18",
-    "trending_days": 6
-  },
-  {
     "name": "microsoft/BitNet",
     "url": "https://github.com/microsoft/bitnet",
     "language": "Python",
@@ -2240,6 +2240,16 @@
     "trending_days": 6
   },
   {
+    "name": "RyanCodrai/turbovec",
+    "url": "https://github.com/ryancodrai/turbovec",
+    "language": "Rust",
+    "stars": 15746,
+    "forks": 1376,
+    "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+    "last_seen": "2026-08-20",
+    "trending_days": 6
+  },
+  {
     "name": "shareAI-lab/learn-claude-code",
     "url": "https://github.com/shareai-lab/learn-claude-code",
     "language": "TypeScript",
@@ -2277,6 +2287,16 @@
     "forks": 3754,
     "description": "An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees.",
     "last_seen": "2026-01-06",
+    "trending_days": 6
+  },
+  {
+    "name": "volcengine/OpenViking",
+    "url": "https://github.com/volcengine/openviking",
+    "language": "Python",
+    "stars": 30742,
+    "forks": 2374,
+    "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+    "last_seen": "2026-08-20",
     "trending_days": 6
   },
   {
@@ -2440,6 +2460,16 @@
     "trending_days": 5
   },
   {
+    "name": "cursor/plugins",
+    "url": "https://github.com/cursor/plugins",
+    "language": "TypeScript",
+    "stars": 3858,
+    "forks": 315,
+    "description": "Cursor plugin specification and official plugins",
+    "last_seen": "2026-08-20",
+    "trending_days": 5
+  },
+  {
     "name": "DayuanJiang/next-ai-draw-io",
     "url": "https://github.com/dayuanjiang/next-ai-draw-io",
     "language": "TypeScript",
@@ -2577,6 +2607,16 @@
     "forks": 10368,
     "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
     "last_seen": "2026-08-14",
+    "trending_days": 5
+  },
+  {
+    "name": "JuliusBrussee/caveman",
+    "url": "https://github.com/juliusbrussee/caveman",
+    "language": "Go",
+    "stars": 99340,
+    "forks": 5760,
+    "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+    "last_seen": "2026-08-20",
     "trending_days": 5
   },
   {
@@ -2790,13 +2830,13 @@
     "trending_days": 5
   },
   {
-    "name": "RyanCodrai/turbovec",
-    "url": "https://github.com/ryancodrai/turbovec",
-    "language": "Python",
-    "stars": 14148,
-    "forks": 1264,
-    "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
-    "last_seen": "2026-07-25",
+    "name": "santifer/career-ops",
+    "url": "https://github.com/santifer/career-ops",
+    "language": "JavaScript",
+    "stars": 66198,
+    "forks": 12777,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+    "last_seen": "2026-08-20",
     "trending_days": 5
   },
   {
@@ -2910,16 +2950,6 @@
     "trending_days": 5
   },
   {
-    "name": "volcengine/OpenViking",
-    "url": "https://github.com/volcengine/openviking",
-    "language": "Python",
-    "stars": 29800,
-    "forks": 2319,
-    "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
-    "last_seen": "2026-08-19",
-    "trending_days": 5
-  },
-  {
     "name": "wonderwhy-er/DesktopCommanderMCP",
     "url": "https://github.com/wonderwhy-er/desktopcommandermcp",
     "language": "TypeScript",
@@ -3007,6 +3037,16 @@
     "forks": 2099,
     "description": "Build and run agents you can see, understand and trust.",
     "last_seen": "2026-03-28",
+    "trending_days": 4
+  },
+  {
+    "name": "akitaonrails/ai-memory",
+    "url": "https://github.com/akitaonrails/ai-memory",
+    "language": "Rust",
+    "stars": 3366,
+    "forks": 272,
+    "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+    "last_seen": "2026-08-20",
     "trending_days": 4
   },
   {
@@ -3157,16 +3197,6 @@
     "forks": 6287,
     "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
     "last_seen": "2026-07-15",
-    "trending_days": 4
-  },
-  {
-    "name": "cursor/plugins",
-    "url": "https://github.com/cursor/plugins",
-    "language": "TypeScript",
-    "stars": 2863,
-    "forks": 230,
-    "description": "Cursor plugin specification and official plugins",
-    "last_seen": "2026-08-15",
     "trending_days": 4
   },
   {
@@ -3520,16 +3550,6 @@
     "trending_days": 4
   },
   {
-    "name": "JuliusBrussee/caveman",
-    "url": "https://github.com/juliusbrussee/caveman",
-    "language": "JavaScript",
-    "stars": 84473,
-    "forks": 4708,
-    "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
-    "last_seen": "2026-07-05",
-    "trending_days": 4
-  },
-  {
     "name": "jundot/omlx",
     "url": "https://github.com/jundot/omlx",
     "language": "Python",
@@ -3860,16 +3880,6 @@
     "trending_days": 4
   },
   {
-    "name": "santifer/career-ops",
-    "url": "https://github.com/santifer/career-ops",
-    "language": "JavaScript",
-    "stars": 64170,
-    "forks": 12635,
-    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
-    "last_seen": "2026-08-17",
-    "trending_days": 4
-  },
-  {
     "name": "SDWebImage/SDWebImage",
     "url": "https://github.com/sdwebimage/sdwebimage",
     "language": "Objective-C",
@@ -4150,16 +4160,6 @@
     "trending_days": 3
   },
   {
-    "name": "akitaonrails/ai-memory",
-    "url": "https://github.com/akitaonrails/ai-memory",
-    "language": "Rust",
-    "stars": 3030,
-    "forks": 252,
-    "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-    "last_seen": "2026-08-19",
-    "trending_days": 3
-  },
-  {
     "name": "alibaba/spring-ai-alibaba",
     "url": "https://github.com/alibaba/spring-ai-alibaba",
     "language": "Java",
@@ -4267,6 +4267,16 @@
     "forks": 1130,
     "description": "The AI Browser Automation Framework",
     "last_seen": "2025-10-10",
+    "trending_days": 3
+  },
+  {
+    "name": "chaitanyagiri/munder-difflin",
+    "url": "https://github.com/chaitanyagiri/munder-difflin",
+    "language": "TypeScript",
+    "stars": 2943,
+    "forks": 340,
+    "description": "local multi-agent harness",
+    "last_seen": "2026-08-20",
     "trending_days": 3
   },
   {
@@ -5997,16 +6007,6 @@
     "forks": 3419,
     "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
     "last_seen": "2026-07-11",
-    "trending_days": 2
-  },
-  {
-    "name": "chaitanyagiri/munder-difflin",
-    "url": "https://github.com/chaitanyagiri/munder-difflin",
-    "language": "TypeScript",
-    "stars": 2420,
-    "forks": 282,
-    "description": "local multi-agent harness",
-    "last_seen": "2026-08-19",
     "trending_days": 2
   },
   {
@@ -8240,6 +8240,16 @@
     "trending_days": 1
   },
   {
+    "name": "agent-substrate/substrate",
+    "url": "https://github.com/agent-substrate/substrate",
+    "language": "Go",
+    "stars": 1279,
+    "forks": 246,
+    "description": "Agent Substrate: the core system",
+    "last_seen": "2026-08-20",
+    "trending_days": 1
+  },
+  {
     "name": "agentjido/jido",
     "url": "https://github.com/agentjido/jido",
     "language": "Elixir",
@@ -8447,6 +8457,16 @@
     "forks": 2900,
     "description": "Apache Maven core",
     "last_seen": "2026-07-03",
+    "trending_days": 1
+  },
+  {
+    "name": "AprilNEA/OpenLogi",
+    "url": "https://github.com/aprilnea/openlogi",
+    "language": "Rust",
+    "stars": 11033,
+    "forks": 305,
+    "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+    "last_seen": "2026-08-20",
     "trending_days": 1
   },
   {
@@ -10280,6 +10300,16 @@
     "trending_days": 1
   },
   {
+    "name": "mahlernim/google-timeline-visualizer",
+    "url": "https://github.com/mahlernim/google-timeline-visualizer",
+    "language": "Kotlin",
+    "stars": 910,
+    "forks": 102,
+    "description": "Visualize your year in travel using your Google Location History (Timeline) data",
+    "last_seen": "2026-08-20",
+    "trending_days": 1
+  },
+  {
     "name": "MakazhanAlpamys/Soup",
     "url": "https://github.com/makazhanalpamys/soup",
     "language": "Python",
@@ -10517,6 +10547,16 @@
     "forks": 91,
     "description": "Light Video Generation Inference Framework",
     "last_seen": "2025-12-25",
+    "trending_days": 1
+  },
+  {
+    "name": "modular/modular",
+    "url": "https://github.com/modular/modular",
+    "language": "Mojo",
+    "stars": 27477,
+    "forks": 2975,
+    "description": "The Modular Platform (includes MAX & Mojo)",
+    "last_seen": "2026-08-20",
     "trending_days": 1
   },
   {
@@ -11587,6 +11627,16 @@
     "forks": 994,
     "description": "None",
     "last_seen": "2026-02-13",
+    "trending_days": 1
+  },
+  {
+    "name": "Tencent/AI-Infra-Guard",
+    "url": "https://github.com/tencent/ai-infra-guard",
+    "language": "Python",
+    "stars": 4751,
+    "forks": 471,
+    "description": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
+    "last_seen": "2026-08-20",
     "trending_days": 1
   },
   {

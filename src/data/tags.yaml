@@ -63,6 +63,10 @@ entries:
   afkarxyz_spotiflac:
   - devtools
   - video-audio
+  agalwood_motrix:
+  - ai-agent
+  - devtools
+  - protocol-spec
   agegr_pi-web:
   - ai-agent
   - web-framework
@@ -104,6 +108,11 @@ entries:
   - database
   - trading-finance
   - protocol-spec
+  akitaonrails_ai-memory:
+  - ai-agent
+  - ai-coding
+  - rag-search
+  - database
   alexzhang13_rlm:
   - ai-agent
   - model-foundation

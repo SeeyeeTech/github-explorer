@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-08-20",
+    "last_run": "2026-08-21",
     "window_days": 30
   },
   "entries": [
@@ -927,6 +927,30 @@
       "canonical_url": "https://github.com/Tencent/AI-Infra-Guard",
       "event_date": "2026-08-20",
       "date_seen": "2026-08-20"
+    },
+    {
+      "key": "github.com/openai/codex",
+      "canonical_url": "https://github.com/openai/codex",
+      "event_date": "2026-08-21",
+      "date_seen": "2026-08-21"
+    },
+    {
+      "key": "https://developers.openai.com/blog/codex-as-a-platform",
+      "canonical_url": "https://developers.openai.com/blog/codex-as-a-platform",
+      "event_date": "2026-08-21",
+      "date_seen": "2026-08-21"
+    },
+    {
+      "key": "https://ithome.com/0/992/656.htm",
+      "canonical_url": "https://www.ithome.com/0/992/656.htm",
+      "event_date": "2026-08-21",
+      "date_seen": "2026-08-21"
+    },
+    {
+      "key": "https://news.qiniu.com/archives/1787276125198",
+      "canonical_url": "https://news.qiniu.com/archives/1787276125198",
+      "event_date": "2026-08-21",
+      "date_seen": "2026-08-21"
     }
   ]
 }

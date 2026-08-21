@@ -396,6 +396,10 @@ entries:
   cathrynlavery_diagram-design:
   - ai-agent
   - ai-coding
+  chaitanyagiri_munder-difflin:
+  - ai-agent
+  - ai-coding
+  - devtools
   charmbracelet_glow:
   - devtools
   charmbracelet_vhs:

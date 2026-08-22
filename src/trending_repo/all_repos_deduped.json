@@ -3,11 +3,11 @@
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "language": "Shell",
-    "stars": 275333,
-    "forks": 24625,
+    "stars": 275873,
+    "forks": 24665,
     "description": "An agentic skills framework & software development methodology that works.",
-    "last_seen": "2026-08-21",
-    "trending_days": 80
+    "last_seen": "2026-08-22",
+    "trending_days": 81
   },
   {
     "name": "TapXWorld/ChinaTextbook",
@@ -50,6 +50,16 @@
     "trending_days": 28
   },
   {
+    "name": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "language": "Shell",
+    "stars": 230697,
+    "forks": 19704,
+    "description": "Skills for Real Engineers. Straight from my .agents directory.",
+    "last_seen": "2026-08-22",
+    "trending_days": 28
+  },
+  {
     "name": "msitarzewski/agency-agents",
     "url": "https://github.com/msitarzewski/agency-agents",
     "language": "Shell",
@@ -58,16 +68,6 @@
     "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
     "last_seen": "2026-08-13",
     "trending_days": 28
-  },
-  {
-    "name": "mattpocock/skills",
-    "url": "https://github.com/mattpocock/skills",
-    "language": "Shell",
-    "stars": 228073,
-    "forks": 19525,
-    "description": "Skills for Real Engineers. Straight from my .agents directory.",
-    "last_seen": "2026-08-21",
-    "trending_days": 27
   },
   {
     "name": "sansan0/TrendRadar",
@@ -280,6 +280,16 @@
     "trending_days": 20
   },
   {
+    "name": "harry0703/MoneyPrinterTurbo",
+    "url": "https://github.com/harry0703/moneyprinterturbo",
+    "language": "Python",
+    "stars": 114359,
+    "forks": 17357,
+    "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+    "last_seen": "2026-08-22",
+    "trending_days": 20
+  },
+  {
     "name": "virattt/ai-hedge-fund",
     "url": "https://github.com/virattt/ai-hedge-fund",
     "language": "Python",
@@ -310,16 +320,6 @@
     "trending_days": 19
   },
   {
-    "name": "harry0703/MoneyPrinterTurbo",
-    "url": "https://github.com/harry0703/moneyprinterturbo",
-    "language": "Python",
-    "stars": 113475,
-    "forks": 17213,
-    "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-    "last_seen": "2026-08-21",
-    "trending_days": 19
-  },
-  {
     "name": "microsoft/VibeVoice",
     "url": "https://github.com/microsoft/vibevoice",
     "language": "Python",
@@ -328,6 +328,16 @@
     "description": "Open-Source Frontier Voice AI",
     "last_seen": "2026-07-29",
     "trending_days": 19
+  },
+  {
+    "name": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ecc",
+    "language": "JavaScript",
+    "stars": 241962,
+    "forks": 36676,
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "last_seen": "2026-08-22",
+    "trending_days": 18
   },
   {
     "name": "mvanhorn/last30days-skill",
@@ -348,16 +358,6 @@
     "description": "A collective list of free APIs",
     "last_seen": "2026-08-19",
     "trending_days": 18
-  },
-  {
-    "name": "affaan-m/ECC",
-    "url": "https://github.com/affaan-m/ecc",
-    "language": "JavaScript",
-    "stars": 236002,
-    "forks": 35900,
-    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "last_seen": "2026-07-30",
-    "trending_days": 17
   },
   {
     "name": "bytedance/deer-flow",
@@ -700,6 +700,26 @@
     "trending_days": 11
   },
   {
+    "name": "PostHog/posthog",
+    "url": "https://github.com/posthog/posthog",
+    "language": "Python",
+    "stars": 38423,
+    "forks": 3237,
+    "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+    "last_seen": "2026-08-22",
+    "trending_days": 11
+  },
+  {
+    "name": "ruvnet/ruflo",
+    "url": "https://github.com/ruvnet/ruflo",
+    "language": "TypeScript",
+    "stars": 68787,
+    "forks": 8256,
+    "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+    "last_seen": "2026-08-22",
+    "trending_days": 11
+  },
+  {
     "name": "shanraisshan/claude-code-best-practice",
     "url": "https://github.com/shanraisshan/claude-code-best-practice",
     "language": "HTML",
@@ -830,23 +850,13 @@
     "trending_days": 10
   },
   {
-    "name": "PostHog/posthog",
-    "url": "https://github.com/posthog/posthog",
-    "language": "Python",
-    "stars": 38141,
-    "forks": 3225,
-    "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
-    "last_seen": "2026-08-21",
-    "trending_days": 10
-  },
-  {
-    "name": "ruvnet/ruflo",
-    "url": "https://github.com/ruvnet/ruflo",
-    "language": "TypeScript",
-    "stars": 44726,
-    "forks": 4957,
-    "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
-    "last_seen": "2026-05-06",
+    "name": "protocolbuffers/protobuf",
+    "url": "https://github.com/protocolbuffers/protobuf",
+    "language": "C++",
+    "stars": 71804,
+    "forks": 16237,
+    "description": "Protocol Buffers - Google's data interchange format",
+    "last_seen": "2026-08-22",
     "trending_days": 10
   },
   {
@@ -1077,16 +1087,6 @@
     "forks": 10641,
     "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
     "last_seen": "2026-06-06",
-    "trending_days": 9
-  },
-  {
-    "name": "protocolbuffers/protobuf",
-    "url": "https://github.com/protocolbuffers/protobuf",
-    "language": "C++",
-    "stars": 71510,
-    "forks": 16191,
-    "description": "Protocol Buffers - Google's data interchange format",
-    "last_seen": "2026-07-17",
     "trending_days": 9
   },
   {
@@ -1380,6 +1380,16 @@
     "trending_days": 8
   },
   {
+    "name": "cursor/plugins",
+    "url": "https://github.com/cursor/plugins",
+    "language": "TypeScript",
+    "stars": 4520,
+    "forks": 372,
+    "description": "Cursor plugin specification and official plugins",
+    "last_seen": "2026-08-22",
+    "trending_days": 7
+  },
+  {
     "name": "diegosouzapw/OmniRoute",
     "url": "https://github.com/diegosouzapw/omniroute",
     "language": "TypeScript",
@@ -1607,6 +1617,16 @@
     "forks": 1392,
     "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
     "last_seen": "2026-08-21",
+    "trending_days": 7
+  },
+  {
+    "name": "santifer/career-ops",
+    "url": "https://github.com/santifer/career-ops",
+    "language": "JavaScript",
+    "stars": 67690,
+    "forks": 12885,
+    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+    "last_seen": "2026-08-22",
     "trending_days": 7
   },
   {
@@ -1877,16 +1897,6 @@
     "forks": 4290,
     "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol",
     "last_seen": "2026-06-08",
-    "trending_days": 6
-  },
-  {
-    "name": "cursor/plugins",
-    "url": "https://github.com/cursor/plugins",
-    "language": "TypeScript",
-    "stars": 4240,
-    "forks": 353,
-    "description": "Cursor plugin specification and official plugins",
-    "last_seen": "2026-08-21",
     "trending_days": 6
   },
   {
@@ -2277,16 +2287,6 @@
     "forks": 2360,
     "description": "WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.",
     "last_seen": "2026-03-02",
-    "trending_days": 6
-  },
-  {
-    "name": "santifer/career-ops",
-    "url": "https://github.com/santifer/career-ops",
-    "language": "JavaScript",
-    "stars": 67105,
-    "forks": 12851,
-    "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
-    "last_seen": "2026-08-21",
     "trending_days": 6
   },
   {
@@ -4200,6 +4200,16 @@
     "trending_days": 3
   },
   {
+    "name": "AprilNEA/OpenLogi",
+    "url": "https://github.com/aprilnea/openlogi",
+    "language": "Rust",
+    "stars": 13371,
+    "forks": 360,
+    "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+    "last_seen": "2026-08-22",
+    "trending_days": 3
+  },
+  {
     "name": "audacity/audacity",
     "url": "https://github.com/audacity/audacity",
     "language": "C++",
@@ -4900,6 +4910,16 @@
     "trending_days": 3
   },
   {
+    "name": "mahlernim/google-timeline-visualizer",
+    "url": "https://github.com/mahlernim/google-timeline-visualizer",
+    "language": "Kotlin",
+    "stars": 2417,
+    "forks": 277,
+    "description": "Visualize your year in travel using your Google Location History (Timeline) data",
+    "last_seen": "2026-08-22",
+    "trending_days": 3
+  },
+  {
     "name": "maplibre/maplibre-gl-js",
     "url": "https://github.com/maplibre/maplibre-gl-js",
     "language": "TypeScript",
@@ -4960,6 +4980,16 @@
     "trending_days": 3
   },
   {
+    "name": "microsoft/TypeScript",
+    "url": "https://github.com/microsoft/typescript",
+    "language": "Go",
+    "stars": 110441,
+    "forks": 13745,
+    "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+    "last_seen": "2026-08-22",
+    "trending_days": 3
+  },
+  {
     "name": "microsoft/Web-Dev-For-Beginners",
     "url": "https://github.com/microsoft/web-dev-for-beginners",
     "language": "JavaScript",
@@ -5007,6 +5037,16 @@
     "forks": 135,
     "description": "Official repo for spec & SDK of MCP Apps protocol - standard for UIs embedded AI chatbots, served by MCP servers",
     "last_seen": "2026-01-31",
+    "trending_days": 3
+  },
+  {
+    "name": "modular/modular",
+    "url": "https://github.com/modular/modular",
+    "language": "Mojo",
+    "stars": 28767,
+    "forks": 3061,
+    "description": "The Modular Platform (includes MAX & Mojo)",
+    "last_seen": "2026-08-22",
     "trending_days": 3
   },
   {
@@ -5807,16 +5847,6 @@
     "forks": 2118,
     "description": "Hysteria is a powerful, lightning fast and censorship resistant proxy.",
     "last_seen": "2026-05-13",
-    "trending_days": 2
-  },
-  {
-    "name": "AprilNEA/OpenLogi",
-    "url": "https://github.com/aprilnea/openlogi",
-    "language": "Rust",
-    "stars": 12429,
-    "forks": 339,
-    "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
-    "last_seen": "2026-08-21",
     "trending_days": 2
   },
   {
@@ -7080,16 +7110,6 @@
     "trending_days": 2
   },
   {
-    "name": "mahlernim/google-timeline-visualizer",
-    "url": "https://github.com/mahlernim/google-timeline-visualizer",
-    "language": "Kotlin",
-    "stars": 1982,
-    "forks": 214,
-    "description": "Visualize your year in travel using your Google Location History (Timeline) data",
-    "last_seen": "2026-08-21",
-    "trending_days": 2
-  },
-  {
     "name": "malisper/pgrust",
     "url": "https://github.com/malisper/pgrust",
     "language": "Rust",
@@ -7190,6 +7210,16 @@
     "trending_days": 2
   },
   {
+    "name": "microsoft/onnxruntime",
+    "url": "https://github.com/microsoft/onnxruntime",
+    "language": "C++",
+    "stars": 21577,
+    "forks": 4152,
+    "description": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
+    "last_seen": "2026-08-22",
+    "trending_days": 2
+  },
+  {
     "name": "microsoft/Ontology-Playground",
     "url": "https://github.com/microsoft/ontology-playground",
     "language": "TypeScript",
@@ -7217,16 +7247,6 @@
     "forks": 9431,
     "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
     "last_seen": "2026-07-19",
-    "trending_days": 2
-  },
-  {
-    "name": "microsoft/TypeScript",
-    "url": "https://github.com/microsoft/typescript",
-    "language": "TypeScript",
-    "stars": 109728,
-    "forks": 13625,
-    "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
-    "last_seen": "2026-07-10",
     "trending_days": 2
   },
   {
@@ -7287,16 +7307,6 @@
     "forks": 694,
     "description": "The official Java SDK for Model Context Protocol servers and clients. Maintained in collaboration with Spring AI",
     "last_seen": "2025-10-18",
-    "trending_days": 2
-  },
-  {
-    "name": "modular/modular",
-    "url": "https://github.com/modular/modular",
-    "language": "Mojo",
-    "stars": 28375,
-    "forks": 3022,
-    "description": "The Modular Platform (includes MAX & Mojo)",
-    "last_seen": "2026-08-21",
     "trending_days": 2
   },
   {
@@ -7940,6 +7950,16 @@
     "trending_days": 2
   },
   {
+    "name": "TryGhost/Ghost",
+    "url": "https://github.com/tryghost/ghost",
+    "language": "JavaScript",
+    "stars": 55016,
+    "forks": 11909,
+    "description": "Independent technology for modern publishing, memberships, subscriptions and newsletters.",
+    "last_seen": "2026-08-22",
+    "trending_days": 2
+  },
+  {
     "name": "tukaani-project/xz",
     "url": "https://github.com/tukaani-project/xz",
     "language": "C",
@@ -8487,6 +8507,16 @@
     "forks": 3989,
     "description": "Open source transactional distributed database. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure without compromising performance.",
     "last_seen": "2026-07-27",
+    "trending_days": 1
+  },
+  {
+    "name": "apache/maka",
+    "url": "https://github.com/apache/maka",
+    "language": "TypeScript",
+    "stars": 2137,
+    "forks": 248,
+    "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+    "last_seen": "2026-08-22",
     "trending_days": 1
   },
   {
@@ -9177,6 +9207,16 @@
     "forks": 2242,
     "description": "LIBERATED AI CHAT",
     "last_seen": "2026-07-18",
+    "trending_days": 1
+  },
+  {
+    "name": "elder-plinius/OBLITERATUS",
+    "url": "https://github.com/elder-plinius/obliteratus",
+    "language": "Python",
+    "stars": 7916,
+    "forks": 1438,
+    "description": "OBLITERATE THE CHAINS THAT BIND YOU",
+    "last_seen": "2026-08-22",
     "trending_days": 1
   },
   {
@@ -10457,16 +10497,6 @@
     "forks": 4833,
     "description": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration.",
     "last_seen": "2026-03-05",
-    "trending_days": 1
-  },
-  {
-    "name": "microsoft/onnxruntime",
-    "url": "https://github.com/microsoft/onnxruntime",
-    "language": "C++",
-    "stars": 19981,
-    "forks": 3848,
-    "description": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
-    "last_seen": "2026-04-23",
     "trending_days": 1
   },
   {
@@ -11797,16 +11827,6 @@
     "forks": 3134,
     "description": "The Social-Engineer Toolkit (SET) repository from TrustedSec - All new versions of SET will be deployed here.",
     "last_seen": "2025-12-05",
-    "trending_days": 1
-  },
-  {
-    "name": "TryGhost/Ghost",
-    "url": "https://github.com/tryghost/ghost",
-    "language": "JavaScript",
-    "stars": 53063,
-    "forks": 11590,
-    "description": "Independent technology for modern publishing, memberships, subscriptions and newsletters.",
-    "last_seen": "2026-05-17",
     "trending_days": 1
   },
   {

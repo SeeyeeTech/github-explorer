@@ -309,3 +309,4 @@
 {"recorded_at": "2026-08-20T21:25:13.158441+00:00", "slug": "chaitanyagiri_munder-difflin", "title": null, "state": "published", "published_at": "2026-08-20", "reason": "自动生成", "ci_run_id": "32418668829"}
 {"recorded_at": "2026-08-22T21:25:05.195053+00:00", "slug": "microsoft_typescript", "title": null, "state": "published", "published_at": "2026-08-22", "reason": "自动生成", "ci_run_id": "32598892978"}
 {"recorded_at": "2026-08-22T22:23:24.756053+00:00", "slug": "modular_modular", "title": null, "state": "published", "published_at": "2026-08-22", "reason": "自动生成", "ci_run_id": "32601716762"}
+{"recorded_at": "2026-08-22T23:25:02.418654+00:00", "slug": "aprilnea_openlogi", "title": null, "state": "published", "published_at": "2026-08-22", "reason": "自动生成", "ci_run_id": "32604500495"}

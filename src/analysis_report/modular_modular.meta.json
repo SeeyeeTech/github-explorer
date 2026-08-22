@@ -1,0 +1,6 @@
+{
+  "title": "GitHub推荐：Mojo + MAX — 高通花 9 个月收购的「AI 推理版 LLVM」",
+  "digest": "Modular 把自研语言 Mojo + MLIR 编译器 KGEN + 跨硬件推理引擎 MAX 塞进 174 万行 monorepo，用一套栈替代「Python + CUDA + TensorRT-LLM」三段拼凑的旧范式。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

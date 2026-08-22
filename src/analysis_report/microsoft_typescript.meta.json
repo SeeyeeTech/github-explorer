@@ -1,0 +1,6 @@
+{
+  "title": "110K stars 的 TypeScript：12 年后用 Go 重写自己，启动快 10 倍",
+  "digest": "Anders Hejlsberg 主导的 TypeScript v7.0 跨语言自举重写,VS Code 启动快 10×、内存降到 1/3;剖析 arena 分配、xxh3 缓存、LSP 双层拆分等可复用模式。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

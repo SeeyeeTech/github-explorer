@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+
+<blockquote>
+<p>GitHub: <a href="https://github.com/mahlernim/google-timeline-visualizer">https://github.com/mahlernim/google-timeline-visualizer</a></p>
+</blockquote>
+
+<h2>一句话总结</h2>
+
+<p>把 Google Maps Timeline 导出的 JSON 在本地端渲染成可分享的 MP4 旅行视频，<strong>JSON 从不上传、零账户、零订阅</strong>，Android APK + iPhone Safari Web App + Python CLI <strong>三端共享同一套决定性渲染管线</strong>。</p>
+
+<h2>值得关注的理由</h2>
+
+<p>1. <strong>「8 个月年龄 = 1 个月项目」的反常节奏</strong>：105/106 commit 集中在最近 30 天，单月 45 个 tag，单日发版是常态 — 是观察「个人开发者如何把上架做成工程纪律」的活样本。</p>
+
+<p>2. <strong>三套独立实现 + 测试驱动一致性的跨端架构</strong>：Kotlin / TypeScript / Python 三端各自独立强类型实现，靠 <code>test-fixtures/</code> 五份真实格式样本 + 50+ 测试保证端到端像素一致 — <strong>比 WASM/Rust 共享更轻量、比完全独立更可靠</strong>，是少见的多端渲染范式。</p>
+
+<p>3. <strong>把视频摄影思维搬进数据可视化</strong>：相机 dead-zone + 非对称 zoom smoothing + ±0.15 zoom hysteresis、H.264 Annex A macroblock → level 反查、polor branch correction 修跨极地航线 — 这些都是从电影摄影、编码工程、遥测领域「跨界」移植的细节，<strong>是判断「作者懂产品」而非「玩具型 vibe-coded 工具」的硬证据</strong>。</p>
+
+<h2>项目展示</h2>
+
+<p><img src="https://raw.githubusercontent.com/mahlernim/google-timeline-visualizer/main/play-store/assets/screenshots/en-US/01-videos.png" alt="Videos library"></p>
+
+<blockquote>
+<p>视频库主界面：导入过的 Timeline 与生成的 MP4 都被索引到本地，可作为「旅行日记」回看。</p>
+</blockquote>
+
+<p><img src="https://raw.githubusercontent.com/mahlernim/google-timeline-visualizer/main/play-store/assets/screenshots/en-US/03-selected-period.png" alt="Selected period"></p>
+
+<blockquote>
+<p>时间段选择 + 相机模式预览：选定起止日期后能即时预览镜头走向，确认后再正式导出。</p>
+</blockquote>
+
+<blockquote>
+<p>说明：仓库<strong>没有</strong>架构图、没有 demo GIF、没有成片示例，README 只引用了上述 2 张截图。<code>travel_history_sample.gif</code> 虽在仓库根目录（16MB），但未被 README 引用 — 「灵魂素材」的缺失是这个以视频为核心产品的项目最明显的文档短板。</p>
+</blockquote>
+
+<h2>项目画像</h2>
+
+<p>| 维度 | 数据 |<br>|------|------|<br>| GitHub | <a href="https://github.com/mahlernim/google-timeline-visualizer">https://github.com/mahlernim/google-timeline-visualizer</a> |<br>| Star / Fork | 2,564 / 301 |<br>| Watcher | 165 |<br>| License | MIT |<br>| 代码行数 | 25,967（Kotlin 51% / TypeScript 25% / XML 14% / Python 4% / 其它 6%） |<br>| 文件数量 | 269 |<br>| 项目年龄 | 8.2 个月（首次提交 2025-12-16；真实开发集中在最近 30 天） |<br>| 最新版本 | v2.3.2（44 个 release tag，平均约 5.4 天一版） |<br>| 开发阶段 | 密集开发 |<br>| 开发模式 | 职业化个人项目（周末 17.9%、深夜 27.4%） |<br>| 贡献模式 | 单人主导（mahlernim + mahler83 合计 92%，其余 6 人各 2-7 commit） |<br>| 热度定位 | 小众精品的天花板（垂直隐私工具类 2.5k star 已是头部） |<br>| 质量评级 | 代码 优秀 · 文档 优秀 · 测试 充分 · CI/CD 完善 |</p>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+
+<p>- <strong>账号</strong>：mahlernim（display name 留空），2017-10 注册至今 8.8 年，South Korea，公开仓库 35 个 — <strong>此项目是其代表作</strong>（其它仓库 star 数均远低于此）。<br>- <strong>公司字段</strong>：空，独立开发者。<br>- <strong>博客</strong>：blog.mahler83.net 已 301 到 <code>largelearningmodel.wordpress.com</code>（「Large Learning Model」命名暗示 ML / 数据 / 可视化背景）。<br>- <strong>开发者署名</strong>：<code>docs/privacy.md</code> 自报「Developer: MahlerLab」，联系邮箱 <code>mahlerlabdiy@gmail.com</code>。<br>- <strong>iPhone 入口域名</strong>：自建 <code>ahn-lab.org</code> 域名承接 Web App 流量，是产品侧的运营投入证据。</p>
+
+<p>「MahlerLab + Large Learning Model + ML/数据背景 + 8 年持续开源」拼在一起，作者是一个<strong>资深独立开发者</strong>：项目不是「业余时间练手 vibe-coded 玩具」，而是经过 8 个月酝酿后启动工程化迭代的旗舰作品。</p>
+
+<h3>问题判断</h3>
+
+<p>Google Maps Timeline 官方查看器只有<strong>静态地图叠加</strong>：用户想看「我这三年到底去了哪些地方、每年有什么长途旅行、能不能剪成可分享的视频」，Google 不会做这件事。问题窗口在 2025-2026 收紧 — Google 持续把 Timeline 导出入口埋深、把关闭后的恢复路径复杂化（<code>docs/restore-google-maps-timeline.md</code> 单独成文说明），让「脱机备份 + 二次加工」这件事越来越痛。</p>
+
+<p>作者的判断很清晰：<strong>官方不会做、闭源 SaaS 不敢信（必须上传 JSON）、通用 GIS 工具学习曲线太陡</strong> — 中间是一片「一次性本地化离线渲染」的真空白。</p>
+
+<h3>解法哲学</h3>
+
+<p>1. <strong>极端本地优先 = 产品主张</strong>：零账户、零云端、零分析，唯一网络出口是 CARTO 瓦片（首次加载 Timeline 前强制勾选知情同意）。<br>2. <strong>三端覆盖但拒绝代码共享</strong>：Android APK + iPhone Web App + Python CLI，用「测试驱动一致性」替代 wasm/Rust-to-wasm — 换来部署零摩擦，代价是 bug 要改三处。<br>3. <strong>摄影感 > 工程感</strong>：相机 dead-zone、非对称 zoom smoothing、H.264 macroblock 反查 — 这些「把电影摄影/编码工程经验搬进数据可视化」的选择，比技术栈选择更能体现作者的世界观。<br>4. <strong>明确不做的</strong>：不做云端、不做协同、不做订阅、不做品牌植入（<code>docs/brand.md</code> 明确禁止 Google 色 + Google Maps pin + Google wordmark）、不在 Web 端 cache 用户 Timeline（注释明写原因）。<br>5. <strong>发版即工程纪律</strong>：44 个 tag、几乎每天一版、CHANGELOG.md 改 34 次 — 是「把 Play Store 上架当作一等公民」而非「写完代码顺手提交」的项目。</p>
+
+<h3>战略意图</h3>
+
+<p>- <strong>MIT License</strong> + <strong>无 SaaS / Pro / Enterprise 字样</strong> + <strong>无付费墙</strong> = 暂无商业化意图。<br>- <strong>APK 走 GitHub Release 直发</strong>（README 明确「Do not download the <code>.sha256</code> checksum file」），<strong>故意绕开 Google Play 审核/抽成/账号绑定</strong>，把「零账号体系」做成产品叙事本身。<br>- <strong>iPhone Web App 部署在作者自有域名 ahn-lab.org</strong> 作为吸引 iOS 用户的关键入口，构成轻量运营护城河。<br>- 这是<strong>旗舰个人作品</strong>，是个人品牌的代表作 — 不是基础设施。</p>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处（按新颖度 × 实用性排序）</h3>
+
+<p>1. <strong>跨平台决定性渲染管线（Kotlin ↔ TypeScript ↔ Python 三独立实现 + 测试驱动一致）</strong> — 新颖 3/5，实用 5/5<br>2. <strong>相机 dead-zone + 非对称 smoothing + ±0.15 zoom hysteresis 三件套</strong> — 新颖 3/5，实用 5/5<br>3. <strong>预计算 480 采样相机轨道统一 preview / export</strong> — 新颖 4/5，实用 5/5<br>4. <strong>H.264 Annex A macroblock → level 反查（avc1.42001f / 420020 / 420028 / 42002a）+ 浏览器能力先探针后启用</strong> — 新颖 4/5，实用 5/5<br>5. <strong>极地路径分支校正（lat≥70 corridor + greatCircleReferenceX）</strong> — 新颖 4/5，实用 4/5<br>6. <strong>AtomicFile + 自定义二进制 cache + 三段 fingerprint（URI/size/mtime）+ PARSER_VERSION 防 stale</strong> — 新颖 3/5，实用 5/5<br>7. <strong>5 字段 preset link（aspect / zoom style / long-trip detection / local trip framing / pacing）+ 强制用户确认后再用</strong> — 新颖 3/5，实用 5/5<br>8. <strong>WebCodecs / mediabunny 失败处理必须 <code>output.cancel()</code> 释放 encoder</strong> — 新颖 3/5，实用 5/5</p>
+
+<h3>可复用的模式与技巧</h3>
+
+<p>1. <strong>「三端同源 + 测试驱动一致性」模式</strong>：跨 iOS / Android / Web / CLI 的同质化渲染/计算 pipeline，且不想引入 wasm — 用「一致的固定 fixture + 共享参数常量（1300 kmh、500 km、120 km、480 samples）」保证行为一致。<code>test-fixtures/</code> 5 种真实格式样本是关键基础设施。<br>2. <strong>「Foreground Service + START_REDELIVER_INTENT + persistent request store」模式</strong>：<code>VideoExportService</code> + <code>VideoExportRequestStore</code> 保证 Android 杀进程后可恢复 — 几乎所有「长任务离线导出/上传」场景都需要。<br>3. <strong>「知情同意前置 + 缓存」模式</strong>：瓦片是唯一网络出口；首次加载 Timeline 前必须勾选；瓦片用 zoom/x/y 去重缓存。几乎所有「数据本地、瓦片/字体/静态资源走 CDN」的可视化项目都应套用。<br>4. <strong>「决定性 preview/export pipeline」模式</strong>：导出前一次性冻结 overlay text + 相机轨道 + JourneyTiming，让 preview 与 export 像素一致 — 凡是「先生成预览，再离线渲染」都适用。<br>5. <strong>「5 字段 preset link + 强制用户确认」模式</strong>：分享粒度只到配置不到数据；UI 必须先展示 5 个值让用户决定是否采纳 — 任何「用户间分享配置」都适用。<br>6. <strong>「l10n 拆出 catalog/formatting/tag」三元组</strong>：<code>i18n.ts</code> 把 message catalog、Intl format tag、locale-aware label 解耦 — 9 语种级别的多语言 UI。<br>7. <strong>「品牌规则文档化」模式</strong>（<code>docs/brand.md</code>）：色板、商标用法、字号、所有变化点都文档化 — 任何 wrap 第三方平台的开源项目都应做类似 brand guide。</p>
+
+<h3>关键设计决策</h3>
+
+<p>1. <strong>跨平台三独立实现 + 不做代码共享</strong>：避免 wasm/JS bundle 兼容层 → 部署零摩擦。代价是 bug 要改 3 处。<br>2. <strong>480 采样相机轨道一次性预计算</strong>：preview 与 export 像素完全一致。代价是长 timeline 上 dynamic camera 的 leg-aware 计算要扫一遍。<br>3. <strong>首次加载 Timeline 前弹一次性 CARTO 瓦片告知</strong>：唯一网络出口必须显式同意。代价是用户多一步勾选。<br>4. <strong>Foreground Service + 4 类通知通道 + ETA 用近期帧吞吐量估算</strong>：切走 app / 关屏导出不能断。代价是通知配置复杂。<br>5. <strong>WebCodecs <code>output.cancel()</code> 强制释放 encoder</strong>：避免下一轮重试泄漏。代价是必须 try/finally。<br>6. <strong>极地路径分支校正</strong>：跨极地航线不会画出凭空一圈。代价是算法复杂、注释极详。<br>7. <strong>video export pipeline「先 prepare 全部 tiles，再 encode」两阶段</strong>：视频中不会出现地图黑洞。代价是拉瓦片阶段不能给用户看进度画面。</p>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+
+<p>| 维度 | 本项目 | Dawarich | Location History Visualizer Pro | GPXSee | Kepler.gl |<br>|------|--------|----------|------------------------------|--------|-----------|<br>| 定位 | 一次性本地渲染 → MP4 | 自托管 Timeline 替代品 | 商业 SaaS | 桌面 GPX 可视化 | Uber 开源地理可视化 |<br>| Stars | 2.5k+ | ~4k+ | 闭源 | ~3k+ | ~10k+ |<br>| 账户体系 | 无 | 自建服务 | 强制注册 | 无 | 无 |<br>| 数据上传 | <strong>永不上传 JSON</strong> | 自托管可控 | 必须上传 | 本地 | 本地 |<br>| 输出 | <strong>MP4 视频</strong> | 静态地图 / 统计 | 网页报告 | 静态地图 | 交互式地图 |<br>| 学习曲线 | 零 | 中（Docker） | 低 | 中（GIS 知识） | 中-高 |<br>| 跨平台 | Android / iPhone Web / CLI | 自托管 Web | Web only | 桌面（多 OS） | Web only |<br>| 价格 | 免费 | 免费 / €60-150/年 | 订阅 | 免费 | 免费 |<br>| 商业模式 | 无 | 开源 + Cloud | SaaS | 无 | 无 |</p>
+
+<h3>差异化护城河</h3>
+
+<p><strong>「隐私 + 离线 + 跨平台 + MP4 导出」</strong>这 4 项<strong>没有任何竞品同时具备</strong>；特别是「无账户 + 出视频」的组合形成了清晰的产品护城河。</p>
+
+<p>- vs <strong>Dawarich</strong>：本项目是「轻量前端可视化」，Dawarich 是「重量后端持续追踪」— 完全互补而非替代。<br>- vs <strong>Location History Visualizer Pro</strong>：商业 SaaS 与隐私优先工具的根本立场冲突。<br>- vs <strong>GPXSee / Kepler.gl / QGIS</strong>：通用数据分析师工具，学习曲线 + 不出视频 + 不能直接吃 Timeline JSON。</p>
+
+<h3>竞争风险</h3>
+
+<p>1. <strong>Dawarich 若推出「导出视频」功能</strong>会直接侵蚀主要价值 — 但二者目标场景重叠度不高（年终回顾 vs 持续追踪）。<br>2. <strong>Google 官方 Timeline 站点若支持视频导出</strong> — 这是「平台官方下场」的根本性风险，但作者已经把跨端架构 + 隐私品牌 + 离线渲染做成护城河。<br>3. <strong>play store 上架时间窗</strong> — 延迟上架可能错过算法红利期。</p>
+
+<h3>生态定位</h3>
+
+<p>在「个人位置数据」工具生态中，本项目是<strong>消费侧</strong>（可视化输出），Dawarich / OwnTracks / Overland 是<strong>采集侧</strong>（数据收集）。<strong>两者不冲突、反而互补</strong> — 这是为什么 Dawarich 官方博客把它定位为「Google Timeline 入口的可视化伴侣」。</p>
+
+<h2>套利机会分析</h2>
+
+<p>- <strong>信息差</strong>：被 Dawarich 等项目反向引用为「Google Timeline 入口的可视化伴侣」— 大部分中文社区还没意识到这类工具的存在；Dawarich 官方博客的「Best Google Timeline Alternatives in 2026 (Ranked)」明确点名了本项目，但中文渠道几乎无报道。<br>- <strong>技术借鉴</strong>：相机 dead-zone + 极地路径分支校正 + 跨平台测试驱动一致性 + 决定性 preview/export pipeline 这 4 个模式对<strong>任何做地理/轨迹可视化的项目都直接可用</strong>。<br>- <strong>生态位</strong>：填补了「一次性本地化离线渲染 + 出视频」的真空白，与官方 Timeline 站点形成正面产品形态差异。<br>- <strong>趋势判断</strong>：star 增长在爆发期（8 月单月 105 commit + 2.5k+ star），Google 持续收紧 Timeline 导出入口的趋势会让本项目获得长尾需求；Dawarich 等生态项目反向引用会持续带来 SEO/推荐流量。</p>
+
+<h2>风险与不足</h2>
+
+<p>1. <strong>大文件 OOM（Issue #44 / #64）</strong>：25 评论的「导入大 Chronology.json 崩溃」是当前最大的工程债，作者通过 v2.1.1 减内存、v2.1.2 primitive arrays + 虚拟插值、v2.1.3 相机轨道后台预计算三个版本系统化解决，但同类问题反复出现，<strong>说明大文件 IO/内存管理仍是当前风险源</strong>。<br>2. <strong>Bus factor = 1</strong>：mahlernim + mahler83 合计 92%，主作者 66% — 离开主作者项目可能停滞。<br>3. <strong>文档缺成片示例</strong>：作为以视频为核心产品的项目，README 没有 demo GIF、没有成片示例 — <code>travel_history_sample.gif</code> 在仓库根目录 16MB 都没被引用。<br>4. <strong>跨端 bug fix 成本高</strong>：3 套独立实现 + 不做代码共享意味着每改一处 bug 要同步 3 处。<br>5. <strong>商业化路径不明</strong>：MIT + 无 SaaS + APK 走 GitHub Release 直发（绕过 Google Play 抽成）— 独立开发者长期投入需要持续动力来源。<br>6. <strong>Play Store 审核风险</strong>：品牌规则文档化已规避大部分商标问题，但「无障碍 / 数据安全 / 隐私政策」红线仍是上架风险源（<code>submission-checklist.md</code> 改 27 次的副作用）。<br>7. <strong>Issue #66「Safe Sharing Mode」仍未关闭</strong>：路线图显示下一步要从「个人私密使用」扩张到「可公开分享」，但关键功能未落地。</p>
+
+<h2>行动建议</h2>
+
+<h3>如果你要用它</h3>
+
+<p>- <strong>核心场景</strong>：想分享自己的年度/季度旅行轨迹给家人朋友，且对「把位置历史交给第三方 SaaS」有顾虑。<br>- <strong>首选 iPhone Web App</strong>：零安装、零账户、零上传，能跑就用；Safari 16.4+ 必须。<br>- <strong>首选 Android 隐私用户</strong>：从 GitHub Release 直接下载 APK（注意是 <code>.apk</code> 不是 <code>.sha256</code>），允许「安装未知应用」。<br>- <strong>CI / 自动化批量出视频</strong>：用 Python CLI（<code>visualizer.py</code> 765 行单文件）。<br>- <strong>不推荐</strong>：Dawarich 用户本来就在自托管位置数据，再用本项目更合适；纯 GIS 分析师请直接上 QGIS / Kepler.gl。</p>
+
+<h3>如果你要学它</h3>
+
+<p><strong>重点关注以下文件 / 模块</strong>（按可迁移性排序）：</p>
+
+<p>| 优先级 | 文件 | 学习点 |<br>|--------|------|--------|<br>| ⭐⭐⭐ | <code>web/src/camera.ts</code>（459 行）+ <code>app/src/main/java/.../render/CameraTrack.kt</code> | 相机 dead-zone + 非对称 smoothing + zoom hysteresis |<br>| ⭐⭐⭐ | <code>app/src/main/java/.../data/TimelineCache.kt</code> + <code>web/src/timeline.ts</code> | AtomicFile + fingerprint + PARSER_VERSION 三件套 |<br>| ⭐⭐⭐ | <code>app/src/main/java/.../export/VideoExportService.kt</code> | Foreground Service + START_REDELIVER_INTENT + ETA 估算 |<br>| ⭐⭐ | <code>web/src/video.ts</code>（232 行）+ <code>app/src/main/java/.../export/Mp4Exporter.kt</code> | H.264 macroblock → level 反查 + 能力探针 |<br>| ⭐⭐ | <code>web/src/geo.ts</code> <code>unwrapJourneyPoints</code> | 极地路径分支校正 |<br>| ⭐⭐ | <code>app/src/main/java/.../data/LocationOutlierFilter.kt</code> + <code>web/src/outlier.ts</code> | 跨语言一致的 GPS 异常值识别 |<br>| ⭐ | <code>app/src/main/java/.../render/JourneyTiming.kt</code> | monotone cubic spline for long-trip compression |<br>| ⭐ | <code>app/src/main/java/.../presets/PresetCodec.kt</code> + <code>web/src/preset-link.ts</code> | 5 字段 preset link + 强制确认 |<br>| ⭐ | <code>docs/brand.md</code> + <code>docs/privacy.md</code> | 品牌规则 + 隐私设计文档化的范本 |</p>
+
+<p><strong>核心学习主题</strong>：</p>
+
+<p>- 跨端架构的「测试驱动一致性」模式（Kotlin / TS / Python 三独立实现 + test-fixtures 验证）。<br>- 摄影感 + 编码工程经验跨界迁移到数据可视化。<br>- 「严格本地优先」的产品主张如何在代码层落地（MediaStore 不复制 JSON、AtomicFile 私有缓存、唯一网络出口首次同意、cache 排除 Android backup）。<br>- 上架型开源项目的工程纪律（Play Store 素材自动化校验 + 三语 README + 三语 strings + 三语 privacy）。</p>
+
+<h3>如果你要 fork 它</h3>
+
+<p><strong>可以改进的方向</strong>（按优先级）：</p>
+
+<p>1. <strong>实现 Issue #66 Safe Sharing Mode</strong> — 分享视频时自动模糊家/办公室等敏感 POI，把产品边界从「个人私密使用」扩张到「可公开分享」，是流量增长的下一跳。<br>2. <strong>添加 demo GIF / 成片示例到 README</strong> — 这是文档层面最明显的短板。<br>3. <strong>把「跨端测试驱动一致性」抽成可复用模板</strong> — 现有 <code>test-fixtures/</code> 5 种真实格式样本 + 50+ 测试已经是范式资产，提取出来可服务其他多端项目。<br>4. <strong>优化大文件 OOM 的最后 10%</strong> — Issue #44 25 评论说明还没彻底解决，可以考虑 Streaming JSON Parser + Out-of-Core 异常值过滤。<br>5. <strong>添加 TypeScript SDK 给第三方嵌入</strong> — 现有 web/src/ 已经是模块化的核心管线，包装成 SDK 可让第三方网站嵌入「Timeline Visualizer 按钮」。</p>
+
+<h3>知识入口</h3>
+
+<p>| 资源 | 链接 |<br>|------|------|<br>| DeepWiki | <a href="https://deepwiki.com/mahlernim/google-timeline-visualizer">https://deepwiki.com/mahlernim/google-timeline-visualizer</a>（已收录） |<br>| Zread.ai | 未收录 |<br>| 关联论文 | 无（这是工程型产品，非研究项目） |<br>| 在线 Demo | <a href="https://ahn-lab.org/google-timeline-visualizer/">https://ahn-lab.org/google-timeline-visualizer/</a>（iPhone Web App 本身即 Demo，需自备 Timeline JSON） |<br>| 作者博客 | <a href="https://largelearningmodel.wordpress.com">https://largelearningmodel.wordpress.com</a>（blog.mahler83.net 301 重定向至此） |<br>| 开发者署名 | MahlerLab（<code>docs/privacy.md</code> 自报） · 邮箱 <code>mahlerlabdiy@gmail.com</code> |<br>| 关键 Issue | <a href="https://github.com/mahlernim/google-timeline-visualizer/issues/44">#44 大文件崩溃（已关闭）</a> · <a href="https://github.com/mahlernim/google-timeline-visualizer/issues/66">#66 Safe Sharing Mode（仍 open）</a> · <a href="https://github.com/mahlernim/google-timeline-visualizer/issues/129">#129 镜头预设（已关闭）</a> |<br>| 第三方深度评测 | <a href="https://dawarich.app/blog/best-google-timeline-alternatives-in-2026-ranked">Dawarich: Best Google Timeline Alternatives in 2026 (Ranked)</a> · <a href="https://explainx.ai/blog/google-timeline-visualizer-travel-video-app-guide-2026">explainx.ai: Google Timeline Visualizer App Guide 2026</a> |</p>
+
+</body>
+</html>

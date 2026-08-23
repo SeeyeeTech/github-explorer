@@ -40,6 +40,16 @@
     "trending_days": 32
   },
   {
+    "name": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "language": "Shell",
+    "stars": 233126,
+    "forks": 19889,
+    "description": "Skills for Real Engineers. Straight from my .agents directory.",
+    "last_seen": "2026-08-23",
+    "trending_days": 29
+  },
+  {
     "name": "anthropics/claude-code",
     "url": "https://github.com/anthropics/claude-code",
     "language": "Python",
@@ -47,16 +57,6 @@
     "forks": 21899,
     "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
     "last_seen": "2026-07-05",
-    "trending_days": 28
-  },
-  {
-    "name": "mattpocock/skills",
-    "url": "https://github.com/mattpocock/skills",
-    "language": "Shell",
-    "stars": 230697,
-    "forks": 19704,
-    "description": "Skills for Real Engineers. Straight from my .agents directory.",
-    "last_seen": "2026-08-22",
     "trending_days": 28
   },
   {
@@ -100,6 +100,16 @@
     "trending_days": 25
   },
   {
+    "name": "NousResearch/hermes-agent",
+    "url": "https://github.com/nousresearch/hermes-agent",
+    "language": "Python",
+    "stars": 234572,
+    "forks": 47226,
+    "description": "The agent that grows with you",
+    "last_seen": "2026-08-23",
+    "trending_days": 25
+  },
+  {
     "name": "yangshun/tech-interview-handbook",
     "url": "https://github.com/yangshun/tech-interview-handbook",
     "language": "TypeScript",
@@ -117,16 +127,6 @@
     "forks": 762,
     "description": "A list of open source games.",
     "last_seen": "2025-12-04",
-    "trending_days": 24
-  },
-  {
-    "name": "NousResearch/hermes-agent",
-    "url": "https://github.com/nousresearch/hermes-agent",
-    "language": "Python",
-    "stars": 201633,
-    "forks": 36004,
-    "description": "The agent that grows with you",
-    "last_seen": "2026-06-24",
     "trending_days": 24
   },
   {
@@ -300,6 +300,16 @@
     "trending_days": 20
   },
   {
+    "name": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ecc",
+    "language": "JavaScript",
+    "stars": 242354,
+    "forks": 36709,
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "last_seen": "2026-08-23",
+    "trending_days": 19
+  },
+  {
     "name": "ChromeDevTools/chrome-devtools-mcp",
     "url": "https://github.com/chromedevtools/chrome-devtools-mcp",
     "language": "TypeScript",
@@ -328,16 +338,6 @@
     "description": "Open-Source Frontier Voice AI",
     "last_seen": "2026-07-29",
     "trending_days": 19
-  },
-  {
-    "name": "affaan-m/ECC",
-    "url": "https://github.com/affaan-m/ecc",
-    "language": "JavaScript",
-    "stars": 241962,
-    "forks": 36676,
-    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "last_seen": "2026-08-22",
-    "trending_days": 18
   },
   {
     "name": "mvanhorn/last30days-skill",
@@ -570,6 +570,16 @@
     "trending_days": 12
   },
   {
+    "name": "ruvnet/ruflo",
+    "url": "https://github.com/ruvnet/ruflo",
+    "language": "TypeScript",
+    "stars": 68907,
+    "forks": 8265,
+    "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+    "last_seen": "2026-08-23",
+    "trending_days": 12
+  },
+  {
     "name": "simstudioai/sim",
     "url": "https://github.com/simstudioai/sim",
     "language": "TypeScript",
@@ -608,6 +618,16 @@
     "description": "An autonomous agent for deep financial research",
     "last_seen": "2026-05-06",
     "trending_days": 12
+  },
+  {
+    "name": "basecamp/omarchy",
+    "url": "https://github.com/basecamp/omarchy",
+    "language": "Shell",
+    "stars": 28603,
+    "forks": 2914,
+    "description": "Beautiful, Modern & Opinionated Linux",
+    "last_seen": "2026-08-23",
+    "trending_days": 11
   },
   {
     "name": "block/goose",
@@ -710,16 +730,6 @@
     "trending_days": 11
   },
   {
-    "name": "ruvnet/ruflo",
-    "url": "https://github.com/ruvnet/ruflo",
-    "language": "TypeScript",
-    "stars": 68787,
-    "forks": 8256,
-    "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-    "last_seen": "2026-08-22",
-    "trending_days": 11
-  },
-  {
     "name": "shanraisshan/claude-code-best-practice",
     "url": "https://github.com/shanraisshan/claude-code-best-practice",
     "language": "HTML",
@@ -740,6 +750,16 @@
     "trending_days": 11
   },
   {
+    "name": "tinyhumansai/openhuman",
+    "url": "https://github.com/tinyhumansai/openhuman",
+    "language": "Rust",
+    "stars": 36514,
+    "forks": 3658,
+    "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+    "last_seen": "2026-08-23",
+    "trending_days": 11
+  },
+  {
     "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
     "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
     "language": "Unknown",
@@ -750,13 +770,13 @@
     "trending_days": 11
   },
   {
-    "name": "basecamp/omarchy",
-    "url": "https://github.com/basecamp/omarchy",
-    "language": "Shell",
-    "stars": 26638,
-    "forks": 2709,
-    "description": "Beautiful, Modern & Opinionated Linux",
-    "last_seen": "2026-08-19",
+    "name": "Alishahryar1/free-claude-code",
+    "url": "https://github.com/alishahryar1/free-claude-code",
+    "language": "Python",
+    "stars": 47550,
+    "forks": 7837,
+    "description": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
+    "last_seen": "2026-08-23",
     "trending_days": 10
   },
   {
@@ -870,16 +890,6 @@
     "trending_days": 10
   },
   {
-    "name": "tinyhumansai/openhuman",
-    "url": "https://github.com/tinyhumansai/openhuman",
-    "language": "Rust",
-    "stars": 23115,
-    "forks": 2051,
-    "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
-    "last_seen": "2026-05-20",
-    "trending_days": 10
-  },
-  {
     "name": "VectifyAI/PageIndex",
     "url": "https://github.com/vectifyai/pageindex",
     "language": "Python",
@@ -907,16 +917,6 @@
     "forks": 872,
     "description": "A lightweight, lightning-fast, in-process vector database",
     "last_seen": "2026-07-08",
-    "trending_days": 9
-  },
-  {
-    "name": "Alishahryar1/free-claude-code",
-    "url": "https://github.com/alishahryar1/free-claude-code",
-    "language": "Python",
-    "stars": 43865,
-    "forks": 7232,
-    "description": "Use Claude Code, Codex and Pi for free from your terminal, app, IDE, or phone like OpenClaw (voice supported)",
-    "last_seen": "2026-08-03",
     "trending_days": 9
   },
   {
@@ -1560,6 +1560,16 @@
     "trending_days": 7
   },
   {
+    "name": "openai/codex",
+    "url": "https://github.com/openai/codex",
+    "language": "Rust",
+    "stars": 114665,
+    "forks": 17494,
+    "description": "Lightweight coding agent that runs in your terminal",
+    "last_seen": "2026-08-23",
+    "trending_days": 7
+  },
+  {
     "name": "openai/openai-agents-python",
     "url": "https://github.com/openai/openai-agents-python",
     "language": "Python",
@@ -1587,6 +1597,16 @@
     "forks": 14454,
     "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
     "last_seen": "2026-05-13",
+    "trending_days": 7
+  },
+  {
+    "name": "ripienaar/free-for-dev",
+    "url": "https://github.com/ripienaar/free-for-dev",
+    "language": "HTML",
+    "stars": 134147,
+    "forks": 14041,
+    "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+    "last_seen": "2026-08-23",
     "trending_days": 7
   },
   {
@@ -2170,16 +2190,6 @@
     "trending_days": 6
   },
   {
-    "name": "openai/codex",
-    "url": "https://github.com/openai/codex",
-    "language": "Rust",
-    "stars": 72364,
-    "forks": 10125,
-    "description": "Lightweight coding agent that runs in your terminal",
-    "last_seen": "2026-04-02",
-    "trending_days": 6
-  },
-  {
     "name": "openai/plugins",
     "url": "https://github.com/openai/plugins",
     "language": "JavaScript",
@@ -2257,16 +2267,6 @@
     "forks": 2589,
     "description": "SoTA open-source TTS",
     "last_seen": "2025-12-31",
-    "trending_days": 6
-  },
-  {
-    "name": "ripienaar/free-for-dev",
-    "url": "https://github.com/ripienaar/free-for-dev",
-    "language": "HTML",
-    "stars": 127143,
-    "forks": 13293,
-    "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
-    "last_seen": "2026-06-30",
     "trending_days": 6
   },
   {
@@ -2457,6 +2457,16 @@
     "forks": 2599,
     "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
     "last_seen": "2026-07-21",
+    "trending_days": 5
+  },
+  {
+    "name": "block/buzz",
+    "url": "https://github.com/block/buzz",
+    "language": "Rust",
+    "stars": 29877,
+    "forks": 3799,
+    "description": "A hive mind communication platform",
+    "last_seen": "2026-08-23",
     "trending_days": 5
   },
   {
@@ -3100,6 +3110,16 @@
     "trending_days": 4
   },
   {
+    "name": "AprilNEA/OpenLogi",
+    "url": "https://github.com/aprilnea/openlogi",
+    "language": "Rust",
+    "stars": 14373,
+    "forks": 383,
+    "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+    "last_seen": "2026-08-23",
+    "trending_days": 4
+  },
+  {
     "name": "AUTOMATIC1111/stable-diffusion-webui",
     "url": "https://github.com/automatic1111/stable-diffusion-webui",
     "language": "Python",
@@ -3127,16 +3147,6 @@
     "forks": 391,
     "description": "A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.",
     "last_seen": "2026-01-27",
-    "trending_days": 4
-  },
-  {
-    "name": "block/buzz",
-    "url": "https://github.com/block/buzz",
-    "language": "Rust",
-    "stars": 12605,
-    "forks": 1015,
-    "description": "A hive mind communication platform",
-    "last_seen": "2026-07-26",
     "trending_days": 4
   },
   {
@@ -4200,16 +4210,6 @@
     "trending_days": 3
   },
   {
-    "name": "AprilNEA/OpenLogi",
-    "url": "https://github.com/aprilnea/openlogi",
-    "language": "Rust",
-    "stars": 13371,
-    "forks": 360,
-    "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
-    "last_seen": "2026-08-22",
-    "trending_days": 3
-  },
-  {
     "name": "audacity/audacity",
     "url": "https://github.com/audacity/audacity",
     "language": "C++",
@@ -4357,6 +4357,16 @@
     "forks": 445,
     "description": "Generate code from the terminal!",
     "last_seen": "2026-03-05",
+    "trending_days": 3
+  },
+  {
+    "name": "Comfy-Org/ComfyUI",
+    "url": "https://github.com/comfy-org/comfyui",
+    "language": "Python",
+    "stars": 129103,
+    "forks": 15235,
+    "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+    "last_seen": "2026-08-23",
     "trending_days": 3
   },
   {
@@ -5550,6 +5560,16 @@
     "trending_days": 3
   },
   {
+    "name": "virgiliojr94/book-to-skill",
+    "url": "https://github.com/virgiliojr94/book-to-skill",
+    "language": "Python",
+    "stars": 24313,
+    "forks": 2564,
+    "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+    "last_seen": "2026-08-23",
+    "trending_days": 3
+  },
+  {
     "name": "vitali87/code-graph-rag",
     "url": "https://github.com/vitali87/code-graph-rag",
     "language": "Python",
@@ -5827,6 +5847,16 @@
     "forks": 3241,
     "description": "The automation tower defense RTS",
     "last_seen": "2025-10-21",
+    "trending_days": 2
+  },
+  {
+    "name": "apache/maka",
+    "url": "https://github.com/apache/maka",
+    "language": "TypeScript",
+    "stars": 2182,
+    "forks": 259,
+    "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+    "last_seen": "2026-08-23",
     "trending_days": 2
   },
   {
@@ -6130,16 +6160,6 @@
     "trending_days": 2
   },
   {
-    "name": "Comfy-Org/ComfyUI",
-    "url": "https://github.com/comfy-org/comfyui",
-    "language": "Python",
-    "stars": 125994,
-    "forks": 14880,
-    "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
-    "last_seen": "2026-08-10",
-    "trending_days": 2
-  },
-  {
     "name": "ComposioHQ/composio",
     "url": "https://github.com/composiohq/composio",
     "language": "TypeScript",
@@ -6177,6 +6197,16 @@
     "forks": 1077,
     "description": "NumPy & SciPy for GPU",
     "last_seen": "2026-06-29",
+    "trending_days": 2
+  },
+  {
+    "name": "dani-garcia/vaultwarden",
+    "url": "https://github.com/dani-garcia/vaultwarden",
+    "language": "Rust",
+    "stars": 65866,
+    "forks": 3124,
+    "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+    "last_seen": "2026-08-23",
     "trending_days": 2
   },
   {
@@ -8050,16 +8080,6 @@
     "trending_days": 2
   },
   {
-    "name": "virgiliojr94/book-to-skill",
-    "url": "https://github.com/virgiliojr94/book-to-skill",
-    "language": "Python",
-    "stars": 12190,
-    "forks": 1384,
-    "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-    "last_seen": "2026-07-29",
-    "trending_days": 2
-  },
-  {
     "name": "vm0-ai/vm0",
     "url": "https://github.com/vm0-ai/vm0",
     "language": "TypeScript",
@@ -8077,6 +8097,16 @@
     "forks": 69,
     "description": "Vite+ is the unified toolchain and entry point for web development. It manages your runtime, package manager, and frontend toolchain in one place.",
     "last_seen": "2026-03-16",
+    "trending_days": 2
+  },
+  {
+    "name": "VoltAgent/awesome-agent-skills",
+    "url": "https://github.com/voltagent/awesome-agent-skills",
+    "language": "Unknown",
+    "stars": 30996,
+    "forks": 3349,
+    "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+    "last_seen": "2026-08-23",
     "trending_days": 2
   },
   {
@@ -8480,6 +8510,16 @@
     "trending_days": 1
   },
   {
+    "name": "anthropics/claude-plugins-community",
+    "url": "https://github.com/anthropics/claude-plugins-community",
+    "language": "Python",
+    "stars": 694,
+    "forks": 116,
+    "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+    "last_seen": "2026-08-23",
+    "trending_days": 1
+  },
+  {
     "name": "anthropics/cwc-workshops",
     "url": "https://github.com/anthropics/cwc-workshops",
     "language": "TypeScript",
@@ -8507,16 +8547,6 @@
     "forks": 3989,
     "description": "Open source transactional distributed database. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure without compromising performance.",
     "last_seen": "2026-07-27",
-    "trending_days": 1
-  },
-  {
-    "name": "apache/maka",
-    "url": "https://github.com/apache/maka",
-    "language": "TypeScript",
-    "stars": 2137,
-    "forks": 248,
-    "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
-    "last_seen": "2026-08-22",
     "trending_days": 1
   },
   {
@@ -8947,16 +8977,6 @@
     "forks": 7148,
     "description": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features",
     "last_seen": "2026-04-26",
-    "trending_days": 1
-  },
-  {
-    "name": "dani-garcia/vaultwarden",
-    "url": "https://github.com/dani-garcia/vaultwarden",
-    "language": "Rust",
-    "stars": 59035,
-    "forks": 2720,
-    "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
-    "last_seen": "2026-04-24",
     "trending_days": 1
   },
   {
@@ -9417,6 +9437,16 @@
     "forks": 5311,
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
     "last_seen": "2026-03-27",
+    "trending_days": 1
+  },
+  {
+    "name": "freestylefly/awesome-gpt-image-2",
+    "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+    "language": "JavaScript",
+    "stars": 12372,
+    "forks": 1403,
+    "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+    "last_seen": "2026-08-23",
     "trending_days": 1
   },
   {
@@ -11917,16 +11947,6 @@
     "forks": 127,
     "description": "[ICLR 26] Stable Video Infinity: Infinite-Length Video Generation with Error Recycling",
     "last_seen": "2026-02-01",
-    "trending_days": 1
-  },
-  {
-    "name": "VoltAgent/awesome-agent-skills",
-    "url": "https://github.com/voltagent/awesome-agent-skills",
-    "language": "Unknown",
-    "stars": 17599,
-    "forks": 1897,
-    "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
-    "last_seen": "2026-04-23",
     "trending_days": 1
   },
   {

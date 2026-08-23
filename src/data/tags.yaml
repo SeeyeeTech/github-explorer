@@ -245,6 +245,10 @@ entries:
   - education
   - iot-hardware
   - security
+  aprilnea_openlogi:
+  - ai-agent
+  - devtools
+  - protocol-spec
   aquasecurity_trivy:
   - security
   arize-ai_phoenix:
@@ -1382,6 +1386,9 @@ entries:
   - ai-coding
   - devtools
   - workflow-automation
+  mahlernim_google-timeline-visualizer:
+  - devtools
+  - video-audio
   makeplane_plane:
   - web-framework
   - protocol-spec
@@ -1476,6 +1483,8 @@ entries:
   - protocol-spec
   microsoft_powertoys:
   - uncategorized
+  microsoft_typescript:
+  - web-framework
   microsoft_vibevoice:
   - video-audio
   - media-generation
@@ -1534,6 +1543,9 @@ entries:
   - education
   - web-framework
   - protocol-spec
+  modular_modular:
+  - llm-inference
+  - iot-hardware
   moeru-ai_airi:
   - ai-agent
   - database

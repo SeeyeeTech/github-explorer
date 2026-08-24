@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+</style>
+</head>
+<body>
+<blockquote>
+<p>GitHub: <a href="https://github.com/apache/maka">https://github.com/apache/maka</a></p>
+</blockquote>
+<h2>一句话总结</h2>
+<p>Apache 旗下首个面向工程师/研究员的 local-first Agent Runtime，以「Log is the Runtime」—— 把 append-only 事件流当作 source of truth、把 UI/context/recovery 当作投影——为核心理念，让 AI Agent 真正可审计、可重放、可恢复。</p>
+<h2>值得关注的理由</h2>
+<ol>
+<li><strong>Apache 孵化器首款 Agent Runtime</strong>：由 Apache Arrow/DataFusion/Doris 生态背景的工程师发起，把分布式系统里「WAL + materialized view」的成熟范式搬到 AI Agent 域；3 个月、3,827 commit、89 位贡献者、月度 commit 仍在加速（5月771 → 8月1,305）。</li>
+<li><strong>与所有主流 Agent 框架错位竞争</strong>：LangGraph 强绑 LangChain 与云 SaaS、Letta 主打长期记忆、OpenHands/Cline 偏 IDE 消费、Google ADK 紧绑 Vertex —— 而 Maka 同时是 local-first、event sourcing 一等公民、跨 surface（Desktop/CLI/TUI/Eval）共享单一 Runtime authority，组合维度在开源界几乎空白。</li>
+<li><strong>10 项工程化设计决策可直接借鉴</strong>：从「terminal fact-before-state 双层 commit」到「沙箱边界作为 typed RuntimeEvent action 而非 UI dialog」，每个决策都把数据库/分布式系统的硬骨头解法显式落地到 Agent Runtime 领域。</li>
+</ol>
+<h2>项目展示</h2>
+<p><img alt="Maka — Your work. Your agent. (hero)" src="https://raw.githubusercontent.com/apache/maka/main/.github/assets/maka-hero.en.png" /></p>
+<blockquote>
+<p>官方品牌主图：「Your work. Your agent.」—— 强调 Maka 是为「工作」而不是「聊天」打造的 agent 工作空间。</p>
+</blockquote>
+<p><img alt="Maka app icon" src="https://raw.githubusercontent.com/apache/maka/main/apps/desktop/assets/app-icons/sky.png" /></p>
+<blockquote>
+<p>桌面端应用图标（macOS / Windows），是当前最优先打磨的 surface。</p>
+<p>视频链接：无 hosted demo；可自装 Desktop (macOS Apple Silicon 已签发 / Windows x64 preview 未签名) 或 <code>maka</code> CLI。</p>
+</blockquote>
+<h2>项目画像</h2>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>数据</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GitHub</td>
+<td>https://github.com/apache/maka</td>
+</tr>
+<tr>
+<td>Star / Fork</td>
+<td>2,877 / 305</td>
+</tr>
+<tr>
+<td>Watcher</td>
+<td>12</td>
+</tr>
+<tr>
+<td>代码行数</td>
+<td>893,001（TypeScript 80.6% · JSON 8.5% · TSX 5.6% · JS 3.3% · CSS 0.9% · Python 0.4% · Rust 0.4%）</td>
+</tr>
+<tr>
+<td>文件数</td>
+<td>2,907</td>
+</tr>
+<tr>
+<td>项目年龄</td>
+<td>3.2 个月（2026-05-19 ~ 2026-08-25）</td>
+</tr>
+<tr>
+<td>Commit</td>
+<td>3,827（近 30 天 1,476 ≈ 49/天，近 90 天 3,588 占全量 94%）</td>
+</tr>
+<tr>
+<td>贡献者</td>
+<td>89 人（Top1 jackwener 1,793 占 48%，Top2 Astro-Han 861）</td>
+</tr>
+<tr>
+<td>开发阶段</td>
+<td>密集开发（0→1 加速期，月度单调递增）</td>
+</tr>
+<tr>
+<td>贡献模式</td>
+<td>职业项目 · 团队化 · 多时区协同</td>
+</tr>
+<tr>
+<td>版本</td>
+<td>v0.1.11（共 14 个 tag，语义化版本，0.1.x 快速迭代）</td>
+</tr>
+<tr>
+<td>License</td>
+<td>Apache 2.0（ASF Incubator）</td>
+</tr>
+<tr>
+<td>热度定位</td>
+<td>小众精品（中等热度但增长势能强；3 个月 2.9k stars 偏低估）</td>
+</tr>
+<tr>
+<td>质量评级</td>
+<td>代码优秀 · 文档优秀 · 测试充分 · CI/CD 完善</td>
+</tr>
+</tbody>
+</table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>Top1 贡献者 jackwener（48% commits）的来源是 Apache Arrow / DataFusion / Doris 生态——这是一个「WAL 是真相源、materialized view 是投影、state machine replication 决定不变量」的分布式 OLAP 工程师群体。把这套范式搬到 AI Agent runtime 域，本质上是把「事实流驱动状态机」从 OLAP 的成熟地带移植到 LLM 的新生域。第二根智识线写在 <code>docs/architecture/runtime-core-architecture-draft.md</code> 末尾：Google ADK「Session 作为事实容器」+ Kafka Design 文档共同组成了「log-first」叙事的两个明确智识来源。</p>
+<p>组织层面：apache (The Apache Software Foundation) 持有仓库，17.6 年组织年龄、3,163 个 public repos、23,947 followers；项目走 ASF Incubator 标准路径——podling PPMC → Incubator PMC → TLP，贡献须 ICLA。</p>
+<h3>问题判断</h3>
+<p>作者在 <code>ARCHITECTURE.md</code>、<code>DESIGN.md</code> 与 13 篇架构 RFC 中明确点出当前主流 agent runtime 的四类失败模式：</p>
+<ol>
+<li><strong>上下文压缩等于历史删除</strong>：所有把「会话历史 = UI 投影 + 模型上下文」绑在一起的实现，压缩 context 时都会让 audit/replay 链路断裂；</li>
+<li><strong>process crash 让 Run 永远卡 running</strong>：缺少 terminal fact-before-state 硬不变量；</li>
+<li><strong>用户点 stop 后 provider 延迟事件改写 completed</strong>：late event 没有拒收机制；</li>
+<li><strong>不同 surface 各跑一套 Runtime</strong>：Desktop / CLI / Eval 各自维护执行权威，cross-surface 行为漂移。</li>
+</ol>
+<p>时机为什么是现在：2024-2025 AI coding agent 爆发期，开发者社区开始意识到这些不是 UX 问题而是结构性问题；本地算力（Apple Silicon）+ local-first 主张恰好在 ASF 治理下能给出独立的「开源 + 可审计」答案。</p>
+<h3>解法哲学</h3>
+<ul>
+<li><strong>Unix 哲学 &gt; 大而全</strong>：选「一个 Runtime Host 一个 execution authority」；<code>ARCHITECTURE.md</code> 明确写「Desktop, TUI, CLI, bots, and evaluation clients ask Runtime Host to execute work; none owns a second Runtime」。</li>
+<li><strong>可审计 &gt; 易用性</strong>：付出了「迁移期内 SessionEvent/StoredMessage/RuntimeEvent/operational events 四种形态共存，event mapping 维护成本高」的代价。</li>
+<li><strong>Genuinely open &gt; vendor-bound</strong>：Apache 2.0、不绑 LangChain、不绑云、不绑特定存储（local-first SQLite 默认）、不绑特定模型（Vercel AI SDK 隔离在 ModelAdapter 之后）。</li>
+<li><strong>明确不做什么</strong>：不做云托管默认路径（<a href="https://github.com/apache/maka/issues/1286">#1286</a>「cloud agent 必须用 ephemeral sandbox」是后续工作）；不把上下文压缩 = 历史删除（<a href="https://github.com/apache/maka/issues/1615">#1615</a>「automatic long-term memory lifecycle」作为独立机制存在）；不让 Session = Run（架构文档明确「Turn is not Run, chat messages are not execution state」）。</li>
+</ul>
+<h3>战略意图</h3>
+<p>是核心产品而不是基础设施组件：Maka 提供 Desktop + CLI + Eval 一整套。商业化走 open-core 倾向，但 README/ASF_NOTICE 显式说当前不是 Apache 发布（所有发布的包都明确标注「pre-incubation, not an ASF release」），这是 ASF 法律要求而非产品形态。后续 roadmap 暗示 multi-language SDK 路线（README 写明 Python/Go SDK 计划）。</p>
+<blockquote>
+<p>官方文档/博客支持：本节直接基于 <code>ARCHITECTURE.md</code> / <code>DESIGN.md</code> / 13 篇 architecture doc / <code>runtime-core-architecture-draft.md</code> 等结构化 RFC，不依赖二手解读。</p>
+</blockquote>
+<h2>核心价值提炼</h2>
+<h3>创新之处（按 新颖度 × 实用性 排序）</h3>
+<ol>
+<li><strong>RuntimeEvent 7 维正交字段模型</strong>（identity/ordering/source/content/actions/correlation/lifecycle）—— 把传统 chat log 的 <code>role + text</code> 拆成可独立校验的 7 个维度，让 partial stream、permission action、tool call pairing、step ID、signed thinking 在同一份事实表里共存而不丢语义。新颖度 4/5 · 实用性 5/5。</li>
+<li><strong>Terminal fact-before-terminal state 不变量 + AgentRun 双层 commit 协议</strong> —— Run header 不能独立声明 completion；terminal RuntimeEvent 必须先 durable；duplicate terminal 合并；recovery 把「header running + event terminal」自动 repair 成 header 跟随 event。新颖度 4/5 · 实用性 5/5。</li>
+<li><strong><code>State(t) = Project(RuntimeEvents[0..t], policy, runtime configuration)</code> 一等公民化</strong> —— 显式分层「canonical log → checkpoint (durable projection) → provider request (ephemeral projection)」，checkpoint 是 materialized view，<strong>不能声明 log obsolete</strong>。新颖度 4/5 · 实用性 5/5。</li>
+<li><strong>单一 Runtime Host 跨 surface authority</strong>（<a href="https://github.com/apache/maka/issues/853">#853</a> RFC 已 merged）—— Desktop/TUI/CLI/Bot/Eval 都通过同一个 Runtime Host IPC/WS 协议；Eval 只拥有 experiment/score 语义。新颖度 4/5 · 实用性 4/5。</li>
+<li><strong>沙箱边界作为 typed RuntimeEvent action</strong>（不是 UI dialog）—— <code>role=system, author=user</code> 两轴正交表达「系统 lane 语义 + 人类产出」，权限决策直接入 runtime fact 模型，可重放/审计/恢复。新颖度 5/5 · 实用性 5/5。</li>
+<li><strong>可重建的 bounded partial snapshot</strong>（不是 append-only JSONL）—— streaming text/thinking 用 bounded replaceable partial；最终非 partial 事件 supersede snapshot；避免 10000 个 delta 变 10000 行永久 ledger。新颖度 3/5 · 实用性 5/5。</li>
+<li><strong>safe_boundary_continuation 作为可验证续跑</strong>（不是 checkpoint resume）—— crash recovery 不重放 LLM 请求，只确定「哪些 fact 是 durable 的」并收敛成 explainable outcome。新颖度 4/5 · 实用性 4/5。</li>
+<li><strong>Schema V2/V3 双形态 checkpoint + rolling update</strong> —— 不同 provider 的 compact 状态走不同 schema；Codex 走 Codex remote compaction V2；OpenAI Responses 走 provider-native；通用 provider 走 text summary。新颖度 4/5 · 实用性 5/5。</li>
+<li><strong>AgentGraph 把每次 activation 重新路由回 Runtime</strong> —— 多 agent 调度不绕过 Runtime；supervisor wake 调度 + reconcile 持续对齐期望图与事实图。新颖度 3/5 · 实用性 4/5。</li>
+<li><strong>runtime-policy 独立目录 + 多策略 profile</strong> —— 把可调策略抽离到独立 stores + 多 profile（如 Maka / Maka Dev），CLI 用 Dev profile，release 用 Maka profile，profile 不互相同步。新颖度 3/5 · 实用性 4/5。</li>
+</ol>
+<h3>可复用的模式与技巧</h3>
+<p>可直接迁移到其他项目的 10 个模式：</p>
+<ul>
+<li><strong>Log-first Runtime 模式</strong>：log 是 canonical、projection 是派生；任何「多视图 + 单一真相」场景可套。</li>
+<li><strong>Checkpoint + Raw tail 双层压缩模式</strong>：materialized view 思想搬到 LLM 历史；适用任何「历史太长但要保留语义」的流式系统。</li>
+<li><strong>Terminal fact-before-state 双层 commit 模式</strong>：防止「header 先 commit 但事实没落盘」的分布式不变量标准做法；可直接套到 task/job runner。</li>
+<li><strong>One Runtime Host 跨 surface</strong>：多端共享单一执行权威；适合多客户端 + 强一致性 + recovery 需求的复杂产品。</li>
+<li><strong>Permission as typed RuntimeEvent action</strong>：权限决策进事实流，可重放/审计；适合高权限 agent 系统。</li>
+<li><strong>Bounded partial snapshot 替代 append-only</strong>：流式输出持久化的通用 pattern；可套到 telemetry、监控、analytics 写入。</li>
+<li><strong>Multi-profile policy stores</strong>：同一代码多渠道差异化发布；适合 monorepo + 灰度/实验场景。</li>
+<li><strong>Provider Adapter + Router</strong>：把多变 provider 隔离到 adapter；agent/IDE/工具集成通用做法。</li>
+<li><strong>Eval 隔离（no Runtime state pollution）</strong>：让 evaluator 不能作弊的硬约束；任何 benchmark/A/B 测试都适用。</li>
+<li><strong>Schema-versioned checkpoint (V2/V3)</strong>：多 provider / 多版本兼容的流式压缩策略通用做法。</li>
+</ul>
+<h3>关键设计决策（trade-off 分析）</h3>
+<table>
+<thead>
+<tr>
+<th>决策</th>
+<th>价值</th>
+<th>代价</th>
+<th>是否值得</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Runtime Event Log 作为唯一语义真相（7 维字段）</td>
+<td>让 partial stream、permission action、tool call pairing、step ID、signed thinking 共存而不丢语义</td>
+<td>迁移期内 SessionEvent/StoredMessage/RuntimeEvent/operational events 四种形态共存，mapping 维护成本高</td>
+<td>值得：未来 5+ 年的 agent runtime 都需要这套</td>
+</tr>
+<tr>
+<td>单一 Runtime Host 跨 surface authority</td>
+<td>Eval 与 production 行为一致；recovery 不分裂</td>
+<td>Runtime Host 成单点；必须有 exclusive lease + 严格 startup/shutdown 协议</td>
+<td>值得：把单点风险显式化比隐藏更安全</td>
+</tr>
+<tr>
+<td>Terminal fact-before-terminal state 不变量</td>
+<td>杜绝「Run header 写 completed 但 ledger 没 terminal event」「用户 stop 后 provider 补 complete」</td>
+<td>每次 send 前一次「exact active Run revalidation」同步检查；silent stream drain 期间窗口不可见</td>
+<td>必选：这是 agent runtime 最硬的骨头</td>
+</tr>
+<tr>
+<td>沙箱边界是 typed RuntimeEvent action 而非 UI dialog</td>
+<td>权限决策可重放/审计/恢复</td>
+<td>模型必须学会 raise boundary request；tool 失败语义变厚</td>
+<td>必选：消费级 IDE agent 把权限弹框当 UX 而非事实，Maka 把权限当事实是范式差异</td>
+</tr>
+<tr>
+<td>Compaction 是 projection 而非 mutation</td>
+<td>context 缩短不等于历史删除</td>
+<td>同时维护 log + checkpoint + provider request 三层投影</td>
+<td>必选：这是 Maka 与所有「context 压缩 = history 删除」方案的范式差异</td>
+</tr>
+<tr>
+<td>单一 SQLite operational-state DB（不是 per-run JSONL）</td>
+<td>cross-session 查询、recovery、aggregation 友好</td>
+<td>SQLite 写放大；用 bounded replaceable snapshot 替代 append-only 缓解</td>
+<td>短中期划算，长期需要 Postgres 路径（roadmap 阶段）</td>
+</tr>
+<tr>
+<td>Provider SDK 隔离在 ModelAdapter 之后</td>
+<td>不绑特定模型，便于多 provider</td>
+<td>adapter 层维护 N 个 provider 的差异化逻辑（step limit / step-id / thinking signature 翻译都在 adapter 层）</td>
+<td>必选：AI 模型生态还在演化，不绑是唯一长期策略</td>
+</tr>
+<tr>
+<td>Agent Graph child Session = 完整 Run</td>
+<td>多 agent 编排 audit/状态不分裂</td>
+<td>每个 child activation 走完整 Runtime 路径，性能/复杂度更高</td>
+<td>值得：换来多 agent 行为可审计</td>
+</tr>
+<tr>
+<td>Eval 严格隔离（result kernel 只含 score/usage/cost/duration/status/failure/artifacts）</td>
+<td>「earliest-valid selection」可信；operator 不能选 preferred outcome</td>
+<td>eval subject 必须 crossed public client/protocol boundary（不能走内部 shortcut）</td>
+<td>必选：所有 eval 框架的核心信条</td>
+</tr>
+<tr>
+<td>runtime-policy 多 profile 隔离（Dev/Release）</td>
+<td>同一份代码多发布渠道差异化策略</td>
+<td>profile 不互相同步，调试时要小心 cross-profile 假设</td>
+<td>划算：避免 dev 配置污染 release</td>
+</tr>
+</tbody>
+</table>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>Apache Maka</th>
+<th>LangGraph</th>
+<th>Letta</th>
+<th>Google ADK</th>
+<th>OpenHands/Cline/Continue.dev</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>local-first by default</td>
+<td>✅ 默认 SQLite</td>
+<td>❌ 强绑 LangSmith 云</td>
+<td>⚠️ 部分支持</td>
+<td>❌ 紧绑 Vertex</td>
+<td>⚠️ 各家不同</td>
+</tr>
+<tr>
+<td>event sourcing 一等公民</td>
+<td>✅ Runtime 不变量</td>
+<td>❌ 附加层</td>
+<td>⚠️ 事后补</td>
+<td>⚠️ Session-based</td>
+<td>❌ 不强调</td>
+</tr>
+<tr>
+<td>跨 surface 共享单一 Runtime</td>
+<td>✅ Runtime Host authority</td>
+<td>❌ 各 surface 各 Runtime</td>
+<td>⚠️ 偏单一 SDK</td>
+<td>⚠️ Runner 紧绑 Vertex</td>
+<td>❌ 偏 IDE 单 surface</td>
+</tr>
+<tr>
+<td>terminal fact-before-state</td>
+<td>✅ 硬不变量</td>
+<td>❌ 无</td>
+<td>❌ 无</td>
+<td>⚠️ 部分</td>
+<td>❌ 无</td>
+</tr>
+<tr>
+<td>Eval 隔离不让 evaluator 作弊</td>
+<td>✅ hard rule</td>
+<td>⚠️ 部分</td>
+<td>❌ 无</td>
+<td>⚠️ 部分</td>
+<td>❌ 无</td>
+</tr>
+<tr>
+<td>ASF / 治理背书</td>
+<td>✅ Apache Incubator</td>
+<td>❌ LangChain 商业公司</td>
+<td>❌ 商业公司</td>
+<td>⚠️ Google 内部</td>
+<td>❌ 商业公司</td>
+</tr>
+<tr>
+<td>多 model provider</td>
+<td>✅ ModelAdapter 隔离</td>
+<td>⚠️ 偏 LangChain 生态</td>
+<td>✅ 多 provider</td>
+<td>❌ 紧绑 Gemini</td>
+<td>✅ 多 provider</td>
+</tr>
+<tr>
+<td>终端用户量 / IDE 集成</td>
+<td>⚠️ 早期</td>
+<td>⚠️ 中等</td>
+<td>⚠️ 中等</td>
+<td>⚠️ GCP 用户</td>
+<td>✅ 高</td>
+</tr>
+<tr>
+<td>可观测生态成熟度</td>
+<td>⚠️ 自带 Runtime Host 协议</td>
+<td>✅ LangSmith 成熟</td>
+<td>⚠️ 中等</td>
+<td>⚠️ GCP 生态</td>
+<td>⚠️ IDE 自带</td>
+</tr>
+</tbody>
+</table>
+<h3>差异化护城河</h3>
+<ul>
+<li><strong>技术护城河</strong>：log-first runtime 一等公民 + terminal fact-before-state 硬不变量 + Runtime Host 跨 surface authority——三层叠加在开源界几乎无重叠。</li>
+<li><strong>治理护城河</strong>：Apache Incubator 治理 + ASF 法律保护 + ICLA 贡献者网络——这不是技术能力问题，而是信任基础设施问题。</li>
+<li><strong>信任护城河</strong>：local-first by default + credential vault 在 OS 账户下 + Electron <code>safeStorage</code>——三者同时满足的 Agent Runtime 开源项目稀缺。</li>
+</ul>
+<h3>竞争风险</h3>
+<ul>
+<li><strong>LangSmith 这类 observability 厂商一旦做 local-first 复刻</strong>，会蚕食 audit/replay 叙事；</li>
+<li><strong>Letta / LangGraph 若获得类似 ASF / Apache 2.0 治理背书</strong>，会削弱治理护城河；</li>
+<li><strong>Cloud agent（<a href="https://github.com/apache/maka/issues/1286">#1286</a> 是 roadmap）若一直不开</strong>，Cloud SaaS 玩家会抢占 cloud 叙事；</li>
+<li><strong>桌面端体验被消费级 IDE agent 持续打磨超过</strong>，长期 UX 差距需要补齐。</li>
+</ul>
+<h3>生态定位</h3>
+<p>在整个 AI Agent 生态中扮演「可审计、local-first、跨 surface 的 agent workspace」角色，填补了「工程化 Agent Runtime」与「消费级 IDE Agent」之间的真空地带。与 LangGraph（生产编排）、Letta（长期记忆）、OpenHands（IDE 消费）、Google ADK（云绑定）四家都是错位竞争，蓝海明确。</p>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：偏低估。Apache 品牌加持 + 清晰差异化（event-sourced append-only log）+ 三月内达 2.9k stars，但远低于 Claude Code/Cursor 等消费级 IDE agent。ASF 孵化器的品牌效应会让它未来 12 个月持续被低估——这是「基金会治理型项目」被市场重新发现前的典型窗口期。</li>
+<li><strong>技术借鉴</strong>：上面 10 个可复用模式与技巧是核心套利点。其中：</li>
+<li>「Log-first Runtime」与「Checkpoint + Raw tail 双层压缩」可直接套到任何 agent / 流式系统；</li>
+<li>「Terminal fact-before-state 双层 commit」与「Permission as typed RuntimeEvent action」可移植到任何 long-running task runner 与高权限 agent。</li>
+<li><strong>生态位</strong>：填补了「跨 surface + 可审计 + local-first + ASF 治理」组合的开源空白；其他 local-first 项目（swarmclaw/sandbase-harness/Hypha 等）都缺 ASF 治理，工程深度远不及。</li>
+<li><strong>趋势判断</strong>：高速增长中。月度 commit 仍在加速（5月771 → 8月1,305，1.7 倍），PR/issue 高活跃（141/110 open），技术路线图清晰（Cloud agent/Windows/Memory/Work Board）。比 LangGraph/Letta 等成熟竞品的后发优势是：Apache 治理下能给出 vendor-neutral 答案，而前者已经绑了 LangChain/Letta 商业公司；比 IDE 类 agent 的后发优势是：工程化抽象层级（Runtime Host）远高于 IDE 集成层。</li>
+</ul>
+<h2>风险与不足</h2>
+<p>诚实评估：</p>
+<ol>
+<li><strong>Cloud agent 仍是 roadmap</strong>：<a href="https://github.com/apache/maka/issues/1286">#1286</a>「Cloud Agent runtime on ephemeral sandboxes」是后续工作；这意味着 Maka 当前只服务 local-first 用户，cloud-first 团队无法采用。</li>
+<li><strong>平台覆盖不全</strong>：<a href="https://github.com/apache/maka/issues/2142">#2142</a>「Windows supported platform」揭示 Apple Silicon 是唯一签发构建，Windows x64 preview 未签名（SmartScreen 摩擦），Linux 缺位。Electron 单一架构拖住产品成熟度。</li>
+<li><strong>fix 占比 53.5% 是早期阶段诚实信号</strong>：feature 21%、fix 53.5%，意味着超过一半 commit 在「修 bug/对齐预期」。0.1.x 阶段正常，但若 6 个月后 fix 占比仍 &gt;50%，需要警惕。</li>
+<li><strong>Conventional commits 规范未全面推广</strong>：3,600+ commit 中仅 ~200 带 conventional 前缀，意味着 changelog 自动生成、语义化发布、CI 类型检查等下游工具链还没完全建立。</li>
+<li><strong>Runtime 内部边界仍在反复重画</strong>：最近的 commit「collapse runner shell into kernel #3718」是 runtime 内部折叠重构，0.1.x 期间 API 稳定性无法保证——这是 0→1 期的合理代价，但是下游 SDK 消费者要承担风险。</li>
+<li><strong>Eval 路径尚未充分暴露</strong>：仅 277 次修改的 <code>packages/eval</code> 是架构文档点名的「Eval subject 必经 Runtime Host 客户端协议边界」位置，但相对于 runtime 的 5,994 次修改，体量偏小——评估子系统的成熟度可能滞后于 Runtime。</li>
+<li><strong>MCP 与 computer-use 是后期才出现的扩展点</strong>：分别只 93 与 146 次修改，作为「架构可扩展性」的论据充分，但作为「成熟扩展」还早。</li>
+</ol>
+<h2>行动建议</h2>
+<ul>
+<li><strong>如果你要用它</strong>：</li>
+<li>适合：工程师/研究员团队，需要「AI Agent 真实执行了什么」可审计、可重放、可恢复；local-first 工作流优先；多 surface（Desktop/CLI/TUI）需求。</li>
+<li>不适合：消费级聊天 UI 场景（用 Letta/OpenHands）、LangChain 栈内生产级多 agent（用 LangGraph）、GCP 深度集成（用 Google ADK）。</li>
+<li>部署：当前只能在 macOS Apple Silicon（已签发）/ Windows x64 preview（未签名，需手动 bypass SmartScreen）跑 Desktop；CLI 可在 macOS/Linux 上跑；Linux 桌面待跟进。</li>
+<li><strong>如果你要学它</strong>：</li>
+<li>必读：<code>packages/core/src/runtime-event.ts</code>（7 维正交字段）、<code>packages/runtime/src/runtime-kernel.ts</code>（terminal fact-before-state）、<code>packages/runtime-host/</code>（跨 surface authority）、<code>docs/architecture/runtime-core-architecture-draft.md</code>（Chapter 1: Log Is the Runtime）。</li>
+<li>次读：<code>packages/storage/src/runtime-event-persistence.ts</code>（SQLite 持久化）、<code>packages/runtime/src/ai-sdk-backend.ts</code>（Provider 适配层）、<code>packages/runtime/src/agent-graph-timeline.ts</code>（多 agent 编排）、<code>docs/architecture/runtime-resume-architecture.md</code>（safe_boundary_continuation）。</li>
+<li>关联 RFC：<code>#853</code> One Runtime Host、<code>#1286</code> Cloud agent、<code>#1615</code> Memory lifecycle、<code>#2142</code> Windows、<code>#2290</code> Session Task Ledger 瘦身——这五个 issue 直接揭示了架构演进方向。</li>
+<li><strong>如果你要 fork 它</strong>：</li>
+<li>Cloud agent 是最大价值点：基于 <a href="https://github.com/apache/maka/issues/1286">#1286</a>「ephemeral sandbox」设计，是开源 agent runtime 的稀缺方向；</li>
+<li>Memory lifecycle 是第二大价值点：基于 <a href="https://github.com/apache/maka/issues/1615">#1615</a>「compaction ≠ memory」的边界设计；</li>
+<li>Linux 桌面支持是第三大价值点：补足 <a href="https://github.com/apache/maka/issues/2142">#2142</a> 平台覆盖的 Linux 侧。</li>
+<li>谨慎点：fork 时不要拆分 Runtime Host 的 exclusive lease 设计——这是社区共识（<a href="https://github.com/apache/maka/issues/853">#853</a> closed），拆分会失去跨 surface authority 保证。</li>
+</ul>
+<h3>知识入口</h3>
+<table>
+<thead>
+<tr>
+<th>资源</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DeepWiki</td>
+<td>未收录（HTTP 403）</td>
+</tr>
+<tr>
+<td>Zread.ai</td>
+<td>收录但详情页被 Cloudflare 拦截 — <a href="https://zread.ai/apache/maka（仅有「local-first">https://zread.ai/apache/maka（仅有「local-first</a> agent workspace for professional engineering and research workflows」一句简介）</td>
+</tr>
+<tr>
+<td>关联论文</td>
+<td>无（这是工程框架，非学术产物）；架构 RFC 文档末尾引用了 Google ADK 架构博客 + Kafka Design 文档作为 further reading</td>
+</tr>
+<tr>
+<td>在线 Demo</td>
+<td>无 hosted demo；自装 Desktop（macOS Apple Silicon 已签发 / Windows x64 preview 未签名）或 <code>maka</code> CLI</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

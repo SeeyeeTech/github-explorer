@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 1em auto !important;
+}
+
+table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    margin: 1em 0 !important;
+    font-size: 14px !important;
+}
+th, td {
+    border: 1px solid #ddd !important;
+    padding: 8px 12px !important;
+    text-align: left !important;
+    color: #3e3e3e !important;
+}
+th {
+    background: #f5f5f5 !important;
+    font-weight: bold !important;
+}
+
+code {
+    font-family: Consolas, Monaco, "Courier New", monospace !important;
+    background: #f8f8f8 !important;
+    padding: 2px 6px !important;
+    border-radius: 3px !important;
+    font-size: 14px !important;
+    color: #e51f42 !important;
+}
+</style>
+</head>
+<body>
+
+<p><a href="https://github.com/voltagent/awesome-agent-skills">GitHub: https://github.com/voltagent/awesome-agent-skills</a></p>
+
+<h2>一句话总结</h2>
+
+<p>由 VoltAgent（一家 AI Agent 平台公司）运营的 1217 条 Agent Skills 跨厂商策展清单——通过单 curator + Sponsor slot + 自建 hub 站三件套，把一个 awesome-list 仓库做成 AI 编程助手赛道的开发者流量入口。</p>
+
+<h2>值得关注的理由</h2>
+
+<ol>
+<li><strong>不是普通 awesome-list</strong>：31k stars / 9.9 个月 / 单人主导 64% commits / 582 处官方链接经自建 hub 站二次跳转——这是一套<strong>已经验证的策展型流量生意</strong>，不是技术社区的副产物。</li>
+<li><strong>同组织 5 个姐妹仓构成矩阵</strong>：awesome-agent-skills(31k) + awesome-openclaw-skills(52k) + awesome-design-md(110k) + awesome-claude-code-subagents(24k) + awesome-codex-subagents(6k)——同一家公司用一套策展方法论吃下整个 AI 编程助手细分赛道。</li>
+<li><strong>Sponsor slot 经济学已跑通</strong>：4 张 sponsor banner + 2 个付费位置（TestMu AI / Modem），31k stars 头部 awesome-list 的 sponsor 报价能力是 awesome-list 圈子里可参考的样本。</li>
+</ol>
+
+<h2>项目展示</h2>
+
+<p><img src="https://github.com/user-attachments/assets/a890e563-e999-4b1f-8ce1-20399b0574f8" alt="VoltAgent awesome-agent-skills 顶图"></p>
+
+<p><em>hero：README 顶部主图，传递「Hand-picked, not AI-slop generated」的策展叙事</em></p>
+
+<p><strong>Sponsor 区</strong>（4 个 banner，按 README 自上而下）：</p>
+
+<p><img src="https://cdn.voltagent.dev/awesome-repo/testmui/testmuai-black.png" alt="Sponsor TestMu AI"></p>
+<p><img src="https://cdn.voltagent.dev/awesome-repo/modemlabs/modemlab-light.svg" alt="Sponsor Modem"></p>
+<p><img src="https://cdn.voltagent.dev/awesome-repo/everyfeed-social.png" alt="Sponsor EveryFeed"></p>
+<p><img src="https://cdn.voltagent.dev/awesome-repo/new-launchkit.png" alt="Sponsor LaunchKit"></p>
+
+<p><em>其中 TestMu AI 与 Modem 为外部付费 sponsor；EveryFeed / LaunchKit 为 VoltAgent 自家产品交叉推广——sponsor 区同时承担「变现」与「自家产品矩阵曝光」双重职能</em></p>
+
+<p><img src="https://cdn.voltagent.dev/website/logo/logo-2-svg.svg" alt="VoltAgent logo"></p>
+
+<p><em>品牌徽标：README 多次回链到 voltagent.dev，把 awesome-list 流量导向自有商业产品</em></p>
+
+<blockquote><p>无演示视频；hub 站 https://officialskills.sh 即动态目录（649 skills × 54 dev teams × 8 AI 编程工具），README 是静态目录源。</p></blockquote>
+
+<h2>项目画像</h2>
+
+<table>
+<thead>
+<tr><th>维度</th><th>数据</th></tr>
+</thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/voltagent/awesome-agent-skills">https://github.com/voltagent/awesome-agent-skills</a></td></tr>
+<tr><td>Star / Fork</td><td>31,826 / 3,394</td></tr>
+<tr><td>Watcher / Issue</td><td>229 / 0 open</td></tr>
+<tr><td>内容规模</td><td>1,995 行 Markdown / 1217 条 skill / 64 官方 vendor 分章 / 7 社区类别</td></tr>
+<tr><td>代码行数</td><td>0（纯 Markdown 策展仓库）</td></tr>
+<tr><td>项目年龄</td><td>9.9 个月（2025-10-28 启动，2026-08-24 最新）</td></tr>
+<tr><td>总 commits / 近 30 天</td><td>563 / 121（当前二次爆发期）</td></tr>
+<tr><td>开发阶段</td><td>密集开发（且热度仍在上升）</td></tr>
+<tr><td>贡献模式</td><td>单 curator 主导（Necati Özmen 占 64% / 360 commits）+ 大规模外部 PR（195 条 PR 合入 / 34.6%）</td></tr>
+<tr><td>贡献者总数</td><td>167 人（其中 ~163 人为一次性 PR 贡献者）</td></tr>
+<tr><td>Tag / Release</td><td>0 / 0（awesome-list 不需要版本化）</td></tr>
+<tr><td>热度定位</td><td><strong>大众热门</strong>（awesome-list 头部）</td></tr>
+<tr><td>License</td><td>MIT</td></tr>
+<tr><td>质量评级</td><td>内容策展[优] 文档结构[优] 自动化[无 CI/无 PR 模板]</td></tr>
+</tbody>
+</table>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+
+<ul>
+<li><strong>组织主体</strong>：VoltAgent Organization，不是个人作者——背后是 <a href="https://voltagent.dev">voltagent.dev</a> 这个商业 AI Agent 平台，自有 TypeScript AI Agent Framework（主仓 10k+ stars）+ LaunchKit（产品发布工具）+ EveryFeed（社区动态聚合）+ Design-MD（设计资源清单，110k stars）。</li>
+<li><strong>核心 curator</strong>：Necati Özmen 占 64% commits（360 次），但 git log 显示同一作者用了 3 个 name 变体（<code>Necati Özmen</code> 62 + <code>necatiozmen</code> 31 + <code>Necati Özmen</code> 29 ≈ 122 commits 直接 commit + 其余通过 PR 合入）——疑似长期未统一 git config，作者身份实际单一。</li>
+<li><strong>背景判断</strong>：商业 AI Agent 平台团队，靠 awesome-list + Sponsor 组合做<strong>开发者流量入口</strong>；不是技术布道，是市场策略产物。</li>
+</ul>
+
+<h3>问题判断</h3>
+
+<p>2025 年下半年开始，Anthropic / OpenAI / Google 等厂商各自发布 Skills / Subagents / Extensions 概念，开发者面对「零散、无质量标准、跨工具不互通」的 skill 资源海洋。VoltAgent 看到的空白：<strong>缺一个跨厂商、有人工质量背书、能一键装到 8 套 AI 编程工具的统一目录</strong>。</p>
+
+<p>时机为什么是现在？AI 编程助手赛道 2026 H1 进入「生态争夺战」，每个 vendor 都需要第三方策展来弥补自家生态冷启动——awesome-agent-skills 正好填了这个生态位。</p>
+
+<h3>解法哲学</h3>
+
+<p><strong>做明确，不做模糊</strong>：</p>
+<ul>
+<li>✅ 跨厂商统一目录（不做单 vendor 锁定）</li>
+<li>✅ 人工筛选 + 三层质量门（不做「自动收录」）</li>
+<li>✅ README 主仓 + officialskills.sh 二次跳转（不做单点暴露）</li>
+<li>❌ 不做 skill 市场（marketplace）—— 不抢 vendor 的应用层</li>
+<li>❌ 不做 skill 评分系统—— 评分会让 Sponsor 关系复杂化</li>
+</ul>
+
+<h3>战略意图</h3>
+
+<p>这是 VoltAgent 在 AI Agent 平台赛道的<strong>侧翼入口策略</strong>：</p>
+
+<blockquote><p>awesome-agent-skills (31k) ← 开发者找 skill 时第一站<br/>
+　　↓ 链接 582 处二次跳转<br/>
+officialskills.sh (hub 站) ← 沉淀流量 + 收集用户行为<br/>
+　　↓ 商业转化<br/>
+voltagent.dev + TypeScript Framework ← 主产品</p></blockquote>
+
+<p>主仓 0 收入，但 Sponsor banner + 自家产品曝光 + 流量导向 voltagent.dev，整体投入产出清晰。<strong>awesome-list 是入口，自家产品是变现点，hub 站是护城河</strong>——三段式商业闭环。</p>
+
+<blockquote><p>官方文档（officialskills.sh）支撑度充足：649 skills / 54 dev teams / 9 categories / 8 AI 编程工具兼容，公开叙事与 sponsor 关系透明。</p></blockquote>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处</h3>
+
+<p>按<strong>新颖度 × 实用性</strong>排序：</p>
+
+<ol>
+<li><strong>跨 8 套 AI 编程工具的 skill 路径映射</strong>（README 1948-1957 行）—— 把同一份 skill 适配 Claude Code / Codex / Cursor / Gemini / OpenCode / etc. 的命令速查表，awesome-list 圈首创。</li>
+<li><strong>三层 Quality Gate 设计</strong>：README 内联「Skill Quality Standards」条款 + CONTRIBUTING.md PR 流程 + Issue 预审通道——比大多数 awesome-list 仅 README 写规则要严一个量级。</li>
+<li><strong>README 二次跳转流量护城河</strong>：582 处 GitHub 链接全部走 officialskills.sh 跳转，既给 hub 站带来 SEO 反链，也收集点击数据；这是把 awesome-list 升级为「流量生意」的关键设计。</li>
+<li><strong>Sponsor slot 经济学样板</strong>：4 banner + 2 付费 sponsor（TestMu AI / Modem）+ 2 自家产品交叉推广——头部 awesome-list 怎么定价、怎么排位、怎么不喧宾夺主，可以直接借鉴。</li>
+<li><strong><code>&lt;details&gt;</code> 折叠长清单</strong>：1995 行 README 不靠 ToC 跳转，靠折叠块降低视觉负担——比传统 awesome-list 一坨 markdown 友好很多。</li>
+<li><strong>GitHub Issue 预审文化</strong>（#669/672/624）：先问再 PR，避免大量低质量 PR 浪费 reviewer 时间——社区运营层面的工程化思维。</li>
+<li><strong>Vendor + 社区双轴策展</strong>：64 个官方 vendor 分章 + 7 个社区类别（.NET/Java/Python/Rust/TypeScript/NVIDIA NeMo/...）——既给 vendor 面子，也给独立开发者路径。</li>
+</ol>
+
+<h3>可复用的模式与技巧</h3>
+
+<p><strong>项目结构层</strong>：</p>
+<ul>
+<li>6 shields.io 徽章作为信任信号（stars/forks/license/PRs/contributors/last commit）</li>
+<li>4 列 ToC 把 1995 行 README 切成可扫描的导航</li>
+<li>README 顶部 Sponsors 区、底部 License + Contributor Thanks 区的固定结构</li>
+</ul>
+
+<p><strong>社区运营层</strong>：</p>
+<ul>
+<li><code>CONTRIBUTING.md</code> 明确写出「brand new skills created 3 hours ago are not accepted」——直接挡住刷量 PR</li>
+<li>Issue 模板 <code>[Suggestion] add</code> 收口所有添加请求，避免 PR + Issue 两条线索分裂</li>
+<li>Contributor Thanks 区列出所有合入者名字——把一次性贡献者变成长期关注者</li>
+</ul>
+
+<p><strong>流量变现层</strong>：</p>
+<ul>
+<li>所有 GitHub 链接改写为官方 hub 站跳转 → 沉淀用户行为数据</li>
+<li>Sponsor banner 用外部 CDN 托管 → 不污染 README 主仓体积</li>
+<li>自家产品 banner 与付费 sponsor 视觉等大但区分明显（自家用品牌色，付费用中性色）</li>
+</ul>
+
+<p><strong>质量护栏层</strong>：</p>
+<ul>
+<li>README 内联「Skill Quality Standards」表格（三身描述 / ~100 token top-level / 500 行 body 上限 / 禁用绝对路径 / scoped tools）</li>
+<li>三层质量门：内联规范 → CONTRIBUTING → Issue 预审，逐级加严</li>
+<li><code>🔒 Security Notice</code> 章节单独提示 skill 可能带来的安全风险（awesome-list 极少做这事）</li>
+</ul>
+
+<h3>关键设计决策</h3>
+
+<table>
+<thead>
+<tr><th>决策</th><th>选择</th><th>反例</th><th>Trade-off</th></tr>
+</thead>
+<tbody>
+<tr><td>仓库名演化</td><td><code>awesome-claude-skills</code> → <code>awesome-agent-skills</code>（2026-01）</td><td>锁死单 vendor</td><td>改名成本（外链失效）vs 覆盖更广赛道</td></tr>
+<tr><td>主入口</td><td>GitHub README + hub 站二次跳转</td><td>只做 GitHub / 只做 hub 站</td><td>GitHub 拿 SEO + 信任，hub 站拿流量 + 数据</td></tr>
+<tr><td>提交策略</td><td>195 PR 合入（34.6%）+ 大量直 push</td><td>纯直 push / 纯 PR</td><td>PR 流程给贡献者参与感，但合并成本上升</td></tr>
+<tr><td>Sponsor 位置</td><td>README 顶部 + 章节间穿插</td><td>全部集中在底部</td><td>顶部高曝光 vs 不打扰内容</td></tr>
+<tr><td>Skill 标准</td><td>内联规范 + 限制行数（100/500）</td><td>不限制</td><td>收紧质量 vs 拒绝大量野生 skill</td></tr>
+</tbody>
+</table>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+
+<table>
+<thead>
+<tr><th>维度</th><th><strong>awesome-agent-skills</strong></th><th>sindresorhus/awesome</th><th>f/prompts.chat</th><th>anthropics/skills</th></tr>
+</thead>
+<tbody>
+<tr><td>Star 数</td><td>31,826</td><td>499,000</td><td>167,000</td><td>24,000+（2026）</td></tr>
+<tr><td>定位</td><td>Agent skills 跨厂商目录</td><td>Awesome-list 母索引（只做主题目录）</td><td>Prompt 共享平台（不是 skill）</td><td>Anthropic 官方 skill 仓（单一 vendor）</td></tr>
+<tr><td>内容粒度</td><td>1217 条 skill + 64 vendor 分章</td><td>主题列表（再下钻到具体 awesome 仓）</td><td>单条 prompt + 投票</td><td>一手 skill 源码</td></tr>
+<tr><td>跨工具支持</td><td>8 套 AI 编程助手路径映射</td><td>N/A（不做内容）</td><td>仅 ChatGPT 类</td><td>仅 Claude Code</td></tr>
+<tr><td>流量护城河</td><td>hub 站二次跳转（officialskills.sh）</td><td>无</td><td>站内闭环</td><td>GitHub 原生</td></tr>
+<tr><td>Sponsor 变现</td><td>4 banner + 付费 sponsor</td><td>无</td><td>无</td><td>无</td></tr>
+<tr><td>单 curator 主导</td><td>64% commits</td><td>99% commits（个人项目）</td><td>社区驱动</td><td>官方维护</td></tr>
+<tr><td>商业模式</td><td>Sponsor + 自家产品导流</td><td>无（个人）</td><td>流量 + 会员（早期）</td><td>无（Anthropic 官方）</td></tr>
+</tbody>
+</table>
+
+<h3>差异化护城河</h3>
+
+<ol>
+<li><strong>跨厂商统一目录的不可替代性</strong>：sindresorhus/awesome 只做主题目录、anthropics/skills 锁定单 vendor——「跨厂商 + 人工筛选 + 8 套工具路径映射」三合一，本仓目前是事实标准。</li>
+<li><strong>hub 站 + GitHub 双入口</strong>：把 GitHub SEO 信任与 hub 站数据沉淀结合起来，新进入者复制的不是 README，是整套流量架构。</li>
+<li><strong>Sponsor slot 已锁定头部位置</strong>：31k stars + 4 banner 位的 awesome-list，新进入者很难用更低价格挖走赞助商。</li>
+</ol>
+
+<h3>竞争风险</h3>
+
+<ul>
+<li><strong>Anthropic 官方下场</strong>（anthropics/skills）—— 单一 vendor 但权威性强，若 Anthropic 推出「官方策展」标签，本仓的「跨厂商 + 第三方筛选」价值会被削弱</li>
+<li><strong>同组织姐妹仓内卷</strong> —— VoltAgent 自家 5 个 awesome-* 仓互相抢用户注意力，可能分散 sponsor 资源</li>
+<li><strong>2026 H2 fork/镜像潮</strong> —— Phase 1 发现已出现多个镜像（DantesPeak85 / liudezheng11 / kharom12），长期可能被 fork 瓜分流量</li>
+<li><strong>awesome-list 整体热度退潮</strong> —— 任何策展型仓库都依赖「生态新生事物 > curation 速度」的赛跑</li>
+</ul>
+
+<h3>生态定位</h3>
+
+<p><strong>AI 编程助手赛道的「开发者找资源第一站」</strong>——填补了「vendor 官方生态覆盖窄 / 个人 awesome-list 质量参差 / 跨工具不互通」三段空白。VoltAgent 通过这仓把自家产品（TypeScript Framework / LaunchKit）植入到开发者日常工具链入口。</p>
+
+<h2>套利机会分析</h2>
+
+<ul>
+<li><strong>信息差</strong>: 本仓自身<strong>不低估</strong>（31k stars 已是头部），但其<strong>运营方法论</strong>极度被低估——单 curator + Sponsor slot + hub 站二次跳转这套打法，套到任何细分赛道（AI 安全 / AI 测试 / MCP servers / Prompt Library）都能复刻，是真正的可复制模板。</li>
+<li><strong>技术借鉴</strong>: 不适用（本仓 0 行代码）。可借鉴的是<strong>仓库运营</strong>而非技术实现。</li>
+<li><strong>生态位</strong>: 「跨厂商 AI 编程助手资源目录」——目前是事实标准，但 Anthropics/skills 等官方仓可能侵蚀这条线。</li>
+<li><strong>趋势判断</strong>: 热度仍在上升（2026-08 单月 115 commits 已超历史最高峰），生命周期处于顶峰期；fork/镜像潮已现，<strong>未来 12 个月可能从「独占」走向「多家并存」</strong>。</li>
+</ul>
+
+<h2>风险与不足</h2>
+
+<ol>
+<li><strong>单点 curator 风险</strong>：Necati Özmen 占 64% commits，若其离职或失去兴趣，整个仓库更新与质量门会迅速崩塌。</li>
+<li><strong>README 维护负担触顶</strong>：1995 行已接近 GitHub 渲染上限（#490 issue 报道过 malformed HTML in TOC），再多加内容会触发渲染异常。</li>
+<li><strong>hub 站二次跳转的脆弱性</strong>：#458 issue 报道过 officialskills.sh 链接 broken——主仓所有 582 处 GitHub 链接全部依赖外部站点的可用性，单点失效会大面积影响。</li>
+<li><strong>缺 .github/ 目录</strong>：无 CI、无 PR 模板、无 Issue 模板（除人工维护 Issue 预审通道），自动化程度与 31k stars 不匹配。</li>
+<li><strong>Sponsor 转化数据不公开</strong>：无法判断 Sponsor slot 的实际 ROI，新进入者难以定价。</li>
+<li><strong>同组织内卷</strong>：5 个姐妹 awesome-* 仓分散维护精力，单仓质量可能下降。</li>
+<li><strong>vendor 关系依赖</strong>：64 个官方分章的 vendor 关系一旦变化（如某 vendor 自己下场做 awesome-list），相关章节会迅速过时。</li>
+</ol>
+
+<h2>行动建议</h2>
+
+<ul>
+<li><strong>如果你要用它</strong>: 作为 AI 编程助手的「找 skill 第一站」——优先看 Official Skills by <code>&lt;vendor&gt;</code> 章节，质量门最严；跨工具时直接用「Skills Paths for Other AI Coding Assistants」速查表（README 1948-1957）。</li>
+<li><strong>如果你要学它</strong>: 不要学技术（0 行代码没东西可学），要学<strong>仓库运营方法论</strong>：
+<ul>
+<li>三层 Quality Gate 设计（README 内联规范 + CONTRIBUTING + Issue 预审）</li>
+<li>hub 站 + GitHub 双入口的流量架构</li>
+<li>Sponsor slot 的位置设计与变现模板</li>
+<li>同组织矩阵化运营（5 个 awesome-* 仓覆盖整个赛道）</li>
+</ul>
+</li>
+<li><strong>如果你要 fork 它</strong>:
+<ul>
+<li><strong>可改进方向 1</strong>：拆出 <code>.github/</code> 目录 + 写 CI（自动校验链接 / 自动生成 ToC / 自动统计 sponsor 点击）</li>
+<li><strong>可改进方向 2</strong>：README 拆分——主仓只放索引，详情页下钻到 hub 站，解决 #490 渲染瓶颈</li>
+<li><strong>可改进方向 3</strong>：公开 Sponsor slot 定价与 ROI 数据，做成可参照的 awesome-list 商业化样板</li>
+<li><strong>可改进方向 4</strong>：建立 contributor 梯队，避免 Necati 单点——参考 Rust / Kubernetes 的 submodule 维护模式</li>
+</ul>
+</li>
+</ul>
+
+<h3>知识入口</h3>
+
+<table>
+<thead>
+<tr><th>资源</th><th>链接</th></tr>
+</thead>
+<tbody>
+<tr><td>DeepWiki</td><td>未收录</td></tr>
+<tr><td>Zread.ai</td><td>未收录</td></tr>
+<tr><td>官方 hub 站</td><td><a href="https://officialskills.sh">https://officialskills.sh</a></td></tr>
+<tr><td>关联论文</td><td>无</td></tr>
+<tr><td>在线 Demo</td><td>无（hub 站即动态目录）</td></tr>
+<tr><td>作者主站</td><td><a href="https://voltagent.dev">https://voltagent.dev</a></td></tr>
+<tr><td>同组织矩阵</td><td>awesome-openclaw-skills / awesome-claude-code-subagents / awesome-codex-subagents / awesome-design-md / awesome-claude-design</td></tr>
+</tbody>
+</table>
+
+</body>
+</html>

@@ -80,6 +80,16 @@
     "trending_days": 27
   },
   {
+    "name": "NousResearch/hermes-agent",
+    "url": "https://github.com/nousresearch/hermes-agent",
+    "language": "Python",
+    "stars": 235425,
+    "forks": 47445,
+    "description": "The agent that grows with you",
+    "last_seen": "2026-08-24",
+    "trending_days": 26
+  },
+  {
     "name": "yeongpin/cursor-free-vip",
     "url": "https://github.com/yeongpin/cursor-free-vip",
     "language": "Python",
@@ -97,16 +107,6 @@
     "forks": 407,
     "description": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
     "last_seen": "2025-12-04",
-    "trending_days": 25
-  },
-  {
-    "name": "NousResearch/hermes-agent",
-    "url": "https://github.com/nousresearch/hermes-agent",
-    "language": "Python",
-    "stars": 234572,
-    "forks": 47226,
-    "description": "The agent that grows with you",
-    "last_seen": "2026-08-23",
     "trending_days": 25
   },
   {
@@ -500,6 +500,26 @@
     "trending_days": 13
   },
   {
+    "name": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "language": "TypeScript",
+    "stars": 387298,
+    "forks": 81332,
+    "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+    "last_seen": "2026-08-24",
+    "trending_days": 13
+  },
+  {
+    "name": "rohitg00/ai-engineering-from-scratch",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "language": "Python",
+    "stars": 48029,
+    "forks": 8468,
+    "description": "Learn it. Build it. Ship it for others.",
+    "last_seen": "2026-08-24",
+    "trending_days": 13
+  },
+  {
     "name": "1jehuang/jcode",
     "url": "https://github.com/1jehuang/jcode",
     "language": "Rust",
@@ -517,6 +537,16 @@
     "forks": 3356,
     "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
     "last_seen": "2026-06-23",
+    "trending_days": 12
+  },
+  {
+    "name": "basecamp/omarchy",
+    "url": "https://github.com/basecamp/omarchy",
+    "language": "Shell",
+    "stars": 29643,
+    "forks": 3001,
+    "description": "Beautiful, Modern & Opinionated Linux",
+    "last_seen": "2026-08-24",
     "trending_days": 12
   },
   {
@@ -550,23 +580,13 @@
     "trending_days": 12
   },
   {
-    "name": "openclaw/openclaw",
-    "url": "https://github.com/openclaw/openclaw",
-    "language": "TypeScript",
-    "stars": 364158,
-    "forks": 74575,
-    "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
-    "last_seen": "2026-04-26",
-    "trending_days": 12
-  },
-  {
-    "name": "rohitg00/ai-engineering-from-scratch",
-    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "name": "PostHog/posthog",
+    "url": "https://github.com/posthog/posthog",
     "language": "Python",
-    "stars": 41850,
-    "forks": 6971,
-    "description": "Learn it. Build it. Ship it for others.",
-    "last_seen": "2026-07-22",
+    "stars": 38817,
+    "forks": 3266,
+    "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+    "last_seen": "2026-08-24",
     "trending_days": 12
   },
   {
@@ -600,6 +620,16 @@
     "trending_days": 12
   },
   {
+    "name": "tinyhumansai/openhuman",
+    "url": "https://github.com/tinyhumansai/openhuman",
+    "language": "Rust",
+    "stars": 37011,
+    "forks": 3682,
+    "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+    "last_seen": "2026-08-24",
+    "trending_days": 12
+  },
+  {
     "name": "twentyhq/twenty",
     "url": "https://github.com/twentyhq/twenty",
     "language": "TypeScript",
@@ -620,13 +650,13 @@
     "trending_days": 12
   },
   {
-    "name": "basecamp/omarchy",
-    "url": "https://github.com/basecamp/omarchy",
-    "language": "Shell",
-    "stars": 28603,
-    "forks": 2914,
-    "description": "Beautiful, Modern & Opinionated Linux",
-    "last_seen": "2026-08-23",
+    "name": "Alishahryar1/free-claude-code",
+    "url": "https://github.com/alishahryar1/free-claude-code",
+    "language": "Python",
+    "stars": 48407,
+    "forks": 7926,
+    "description": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
+    "last_seen": "2026-08-24",
     "trending_days": 11
   },
   {
@@ -720,16 +750,6 @@
     "trending_days": 11
   },
   {
-    "name": "PostHog/posthog",
-    "url": "https://github.com/posthog/posthog",
-    "language": "Python",
-    "stars": 38423,
-    "forks": 3237,
-    "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
-    "last_seen": "2026-08-22",
-    "trending_days": 11
-  },
-  {
     "name": "shanraisshan/claude-code-best-practice",
     "url": "https://github.com/shanraisshan/claude-code-best-practice",
     "language": "HTML",
@@ -750,16 +770,6 @@
     "trending_days": 11
   },
   {
-    "name": "tinyhumansai/openhuman",
-    "url": "https://github.com/tinyhumansai/openhuman",
-    "language": "Rust",
-    "stars": 36514,
-    "forks": 3658,
-    "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
-    "last_seen": "2026-08-23",
-    "trending_days": 11
-  },
-  {
     "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
     "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
     "language": "Unknown",
@@ -768,16 +778,6 @@
     "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
     "last_seen": "2026-06-13",
     "trending_days": 11
-  },
-  {
-    "name": "Alishahryar1/free-claude-code",
-    "url": "https://github.com/alishahryar1/free-claude-code",
-    "language": "Python",
-    "stars": 47550,
-    "forks": 7837,
-    "description": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
-    "last_seen": "2026-08-23",
-    "trending_days": 10
   },
   {
     "name": "calesthio/OpenMontage",
@@ -1040,6 +1040,16 @@
     "trending_days": 9
   },
   {
+    "name": "makeplane/plane",
+    "url": "https://github.com/makeplane/plane",
+    "language": "TypeScript",
+    "stars": 57641,
+    "forks": 5472,
+    "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+    "last_seen": "2026-08-24",
+    "trending_days": 9
+  },
+  {
     "name": "NanmiCoder/MediaCrawler",
     "url": "https://github.com/nanmicoder/mediacrawler",
     "language": "Python",
@@ -1270,16 +1280,6 @@
     "trending_days": 8
   },
   {
-    "name": "makeplane/plane",
-    "url": "https://github.com/makeplane/plane",
-    "language": "TypeScript",
-    "stars": 56762,
-    "forks": 5416,
-    "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
-    "last_seen": "2026-08-21",
-    "trending_days": 8
-  },
-  {
     "name": "meshery/meshery",
     "url": "https://github.com/meshery/meshery",
     "language": "TypeScript",
@@ -1287,6 +1287,16 @@
     "forks": 3454,
     "description": "Meshery, the cloud native manager",
     "last_seen": "2026-06-17",
+    "trending_days": 8
+  },
+  {
+    "name": "openai/codex",
+    "url": "https://github.com/openai/codex",
+    "language": "Rust",
+    "stars": 116615,
+    "forks": 17776,
+    "description": "Lightweight coding agent that runs in your terminal",
+    "last_seen": "2026-08-24",
     "trending_days": 8
   },
   {
@@ -1540,6 +1550,16 @@
     "trending_days": 7
   },
   {
+    "name": "multica-ai/andrej-karpathy-skills",
+    "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+    "language": "Unknown",
+    "stars": 206106,
+    "forks": 21057,
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+    "last_seen": "2026-08-24",
+    "trending_days": 7
+  },
+  {
     "name": "multica-ai/multica",
     "url": "https://github.com/multica-ai/multica",
     "language": "TypeScript",
@@ -1557,16 +1577,6 @@
     "forks": 3357,
     "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
     "last_seen": "2026-08-17",
-    "trending_days": 7
-  },
-  {
-    "name": "openai/codex",
-    "url": "https://github.com/openai/codex",
-    "language": "Rust",
-    "stars": 114665,
-    "forks": 17494,
-    "description": "Lightweight coding agent that runs in your terminal",
-    "last_seen": "2026-08-23",
     "trending_days": 7
   },
   {
@@ -2160,16 +2170,6 @@
     "trending_days": 6
   },
   {
-    "name": "multica-ai/andrej-karpathy-skills",
-    "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-    "language": "Unknown",
-    "stars": 153894,
-    "forks": 15759,
-    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-    "last_seen": "2026-05-25",
-    "trending_days": 6
-  },
-  {
     "name": "Nutlope/hallmark",
     "url": "https://github.com/nutlope/hallmark",
     "language": "CSS",
@@ -2447,6 +2447,16 @@
     "forks": 2319,
     "description": "None",
     "last_seen": "2026-05-10",
+    "trending_days": 5
+  },
+  {
+    "name": "AprilNEA/OpenLogi",
+    "url": "https://github.com/aprilnea/openlogi",
+    "language": "Rust",
+    "stars": 15458,
+    "forks": 416,
+    "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+    "last_seen": "2026-08-24",
     "trending_days": 5
   },
   {
@@ -3110,16 +3120,6 @@
     "trending_days": 4
   },
   {
-    "name": "AprilNEA/OpenLogi",
-    "url": "https://github.com/aprilnea/openlogi",
-    "language": "Rust",
-    "stars": 14373,
-    "forks": 383,
-    "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
-    "last_seen": "2026-08-23",
-    "trending_days": 4
-  },
-  {
     "name": "AUTOMATIC1111/stable-diffusion-webui",
     "url": "https://github.com/automatic1111/stable-diffusion-webui",
     "language": "Python",
@@ -3680,6 +3680,16 @@
     "trending_days": 4
   },
   {
+    "name": "MadsLorentzen/ai-job-search",
+    "url": "https://github.com/madslorentzen/ai-job-search",
+    "language": "Python",
+    "stars": 33405,
+    "forks": 11737,
+    "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+    "last_seen": "2026-08-24",
+    "trending_days": 4
+  },
+  {
     "name": "maziyarpanahi/openmed",
     "url": "https://github.com/maziyarpanahi/openmed",
     "language": "Python",
@@ -4210,6 +4220,16 @@
     "trending_days": 3
   },
   {
+    "name": "apache/maka",
+    "url": "https://github.com/apache/maka",
+    "language": "TypeScript",
+    "stars": 2559,
+    "forks": 285,
+    "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+    "last_seen": "2026-08-24",
+    "trending_days": 3
+  },
+  {
     "name": "audacity/audacity",
     "url": "https://github.com/audacity/audacity",
     "language": "C++",
@@ -4387,6 +4407,16 @@
     "forks": 6663,
     "description": "🐙 Guides, papers, lecture, notebooks and resources for prompt engineering",
     "last_seen": "2025-10-15",
+    "trending_days": 3
+  },
+  {
+    "name": "dani-garcia/vaultwarden",
+    "url": "https://github.com/dani-garcia/vaultwarden",
+    "language": "Rust",
+    "stars": 66036,
+    "forks": 3133,
+    "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+    "last_seen": "2026-08-24",
     "trending_days": 3
   },
   {
@@ -4907,16 +4937,6 @@
     "forks": 290,
     "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
     "last_seen": "2026-08-14",
-    "trending_days": 3
-  },
-  {
-    "name": "MadsLorentzen/ai-job-search",
-    "url": "https://github.com/madslorentzen/ai-job-search",
-    "language": "TypeScript",
-    "stars": 17420,
-    "forks": 5138,
-    "description": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
-    "last_seen": "2026-07-09",
     "trending_days": 3
   },
   {
@@ -5580,6 +5600,16 @@
     "trending_days": 3
   },
   {
+    "name": "VoltAgent/awesome-agent-skills",
+    "url": "https://github.com/voltagent/awesome-agent-skills",
+    "language": "Unknown",
+    "stars": 31589,
+    "forks": 3376,
+    "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+    "last_seen": "2026-08-24",
+    "trending_days": 3
+  },
+  {
     "name": "warpdotdev/warp",
     "url": "https://github.com/warpdotdev/warp",
     "language": "Rust",
@@ -5820,6 +5850,16 @@
     "trending_days": 2
   },
   {
+    "name": "anthropics/claude-plugins-community",
+    "url": "https://github.com/anthropics/claude-plugins-community",
+    "language": "Python",
+    "stars": 1186,
+    "forks": 141,
+    "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+    "last_seen": "2026-08-24",
+    "trending_days": 2
+  },
+  {
     "name": "antirez/ds4",
     "url": "https://github.com/antirez/ds4",
     "language": "C",
@@ -5847,16 +5887,6 @@
     "forks": 3241,
     "description": "The automation tower defense RTS",
     "last_seen": "2025-10-21",
-    "trending_days": 2
-  },
-  {
-    "name": "apache/maka",
-    "url": "https://github.com/apache/maka",
-    "language": "TypeScript",
-    "stars": 2182,
-    "forks": 259,
-    "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
-    "last_seen": "2026-08-23",
     "trending_days": 2
   },
   {
@@ -6200,16 +6230,6 @@
     "trending_days": 2
   },
   {
-    "name": "dani-garcia/vaultwarden",
-    "url": "https://github.com/dani-garcia/vaultwarden",
-    "language": "Rust",
-    "stars": 65866,
-    "forks": 3124,
-    "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
-    "last_seen": "2026-08-23",
-    "trending_days": 2
-  },
-  {
     "name": "danielmiessler/Fabric",
     "url": "https://github.com/danielmiessler/fabric",
     "language": "Go",
@@ -6477,6 +6497,16 @@
     "forks": 436,
     "description": "Free Motion Capture for Everyone 💀✨",
     "last_seen": "2026-02-20",
+    "trending_days": 2
+  },
+  {
+    "name": "freestylefly/awesome-gpt-image-2",
+    "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+    "language": "JavaScript",
+    "stars": 14780,
+    "forks": 1580,
+    "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+    "last_seen": "2026-08-24",
     "trending_days": 2
   },
   {
@@ -8100,16 +8130,6 @@
     "trending_days": 2
   },
   {
-    "name": "VoltAgent/awesome-agent-skills",
-    "url": "https://github.com/voltagent/awesome-agent-skills",
-    "language": "Unknown",
-    "stars": 30996,
-    "forks": 3349,
-    "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
-    "last_seen": "2026-08-23",
-    "trending_days": 2
-  },
-  {
     "name": "winapps-org/winapps",
     "url": "https://github.com/winapps-org/winapps",
     "language": "Shell",
@@ -8350,6 +8370,16 @@
     "trending_days": 1
   },
   {
+    "name": "AgriciDaniel/claude-obsidian",
+    "url": "https://github.com/agricidaniel/claude-obsidian",
+    "language": "Python",
+    "stars": 11471,
+    "forks": 1311,
+    "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
+    "last_seen": "2026-08-24",
+    "trending_days": 1
+  },
+  {
     "name": "agrinman/tunnelto",
     "url": "https://github.com/agrinman/tunnelto",
     "language": "Rust",
@@ -8507,16 +8537,6 @@
     "forks": 162,
     "description": "Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live streaming, and remote camera control",
     "last_seen": "2026-05-12",
-    "trending_days": 1
-  },
-  {
-    "name": "anthropics/claude-plugins-community",
-    "url": "https://github.com/anthropics/claude-plugins-community",
-    "language": "Python",
-    "stars": 694,
-    "forks": 116,
-    "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
-    "last_seen": "2026-08-23",
     "trending_days": 1
   },
   {
@@ -9437,16 +9457,6 @@
     "forks": 5311,
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
     "last_seen": "2026-03-27",
-    "trending_days": 1
-  },
-  {
-    "name": "freestylefly/awesome-gpt-image-2",
-    "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-    "language": "JavaScript",
-    "stars": 12372,
-    "forks": 1403,
-    "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
-    "last_seen": "2026-08-23",
     "trending_days": 1
   },
   {
@@ -11690,6 +11700,16 @@
     "trending_days": 1
   },
   {
+    "name": "tashfeenahmed/freellmapi",
+    "url": "https://github.com/tashfeenahmed/freellmapi",
+    "language": "TypeScript",
+    "stars": 19581,
+    "forks": 2855,
+    "description": "OpenAI-compatible proxy that stacks the free tiers of 28 LLM providers (~4B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+    "last_seen": "2026-08-24",
+    "trending_days": 1
+  },
+  {
     "name": "TelegramMessenger/MTProxy",
     "url": "https://github.com/telegrammessenger/mtproxy",
     "language": "C",
@@ -11957,6 +11977,16 @@
     "forks": 11542,
     "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
     "last_seen": "2026-07-09",
+    "trending_days": 1
+  },
+  {
+    "name": "vorssaint/vorssaint-utils",
+    "url": "https://github.com/vorssaint/vorssaint-utils",
+    "language": "Swift",
+    "stars": 9862,
+    "forks": 323,
+    "description": "Free and open-source macOS menu bar toolkit.",
+    "last_seen": "2026-08-24",
     "trending_days": 1
   },
   {

@@ -2414,6 +2414,13 @@ entries:
   - ai-agent
   - ai-coding
   - trading-finance
+  virgiliojr94_book-to-skill:
+  - ai-agent
+  - ai-coding
+  - llm-framework
+  - devtools
+  - education
+  - security
   vitali87_code-graph-rag:
   - llm-framework
   - llm-inference

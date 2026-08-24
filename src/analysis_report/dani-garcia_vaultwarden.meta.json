@@ -1,0 +1,6 @@
+{
+  "title": "66K stars 的 Vaultwarden:用 50MB 单二进制重写 Bitwarden 服务端",
+  "digest": "用单个 Rust 二进制(50–100MB RAM)重写官方 Bitwarden 服务端,让官方客户端零修改跑在 Raspberry Pi 上,8.5 年稳坐自托管密码管理赛道头把交椅。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

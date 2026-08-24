@@ -1,27 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-08-23",
+    "last_run": "2026-08-24",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/corebunch/instatic",
-      "canonical_url": "https://github.com/CoreBunch/Instatic",
-      "event_date": "2026-07-24",
-      "date_seen": "2026-07-24"
-    },
-    {
-      "key": "github.com/lordog/dive-into-llms",
-      "canonical_url": "https://github.com/Lordog/dive-into-llms",
-      "event_date": "2026-07-24",
-      "date_seen": "2026-07-24"
-    },
-    {
-      "key": "github.com/sunblaze-ucb/exploitgym",
-      "canonical_url": "https://github.com/sunblaze-ucb/exploitgym",
-      "event_date": "2026-07-24",
-      "date_seen": "2026-07-24"
-    },
     {
       "key": "github.com/andrewyng/aisuite",
       "canonical_url": "https://github.com/andrewyng/aisuite",
@@ -963,6 +945,12 @@
       "canonical_url": "https://github.com/shiyu-coder/Kronos",
       "event_date": null,
       "date_seen": "2026-08-23"
+    },
+    {
+      "key": "github.com/madslorentzen/ai-job-search",
+      "canonical_url": "https://github.com/MadsLorentzen/ai-job-search",
+      "event_date": "2026-08-24",
+      "date_seen": "2026-08-24"
     }
   ]
 }

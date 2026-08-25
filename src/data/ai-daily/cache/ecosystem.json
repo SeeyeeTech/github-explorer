@@ -1,27 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-08-24",
+    "last_run": "2026-08-25",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/andrewyng/aisuite",
-      "canonical_url": "https://github.com/andrewyng/aisuite",
-      "event_date": "2026-07-25",
-      "date_seen": "2026-07-25"
-    },
-    {
-      "key": "github.com/affaan-m/ecc",
-      "canonical_url": "https://github.com/affaan-m/ECC",
-      "event_date": "2026-07-25",
-      "date_seen": "2026-07-25"
-    },
-    {
-      "key": "github.com/garrytan/gstack",
-      "canonical_url": "https://github.com/garrytan/gstack",
-      "event_date": "2026-07-25",
-      "date_seen": "2026-07-25"
-    },
     {
       "key": "github.com/mozilla/sccache",
       "canonical_url": "https://github.com/mozilla/sccache",
@@ -951,6 +933,36 @@
       "canonical_url": "https://github.com/MadsLorentzen/ai-job-search",
       "event_date": "2026-08-24",
       "date_seen": "2026-08-24"
+    },
+    {
+      "key": "github.com/agricidaniel/claude-obsidian",
+      "canonical_url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "event_date": "2026-08-25",
+      "date_seen": "2026-08-25"
+    },
+    {
+      "key": "github.com/multica-ai/andrej-karpathy-skills",
+      "canonical_url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "event_date": "2026-08-25",
+      "date_seen": "2026-08-25"
+    },
+    {
+      "key": "github.com/marin-community/marin",
+      "canonical_url": "https://github.com/marin-community/marin",
+      "event_date": "2026-08-25",
+      "date_seen": "2026-08-25"
+    },
+    {
+      "key": "github.com/dietrichgebert/ponytail",
+      "canonical_url": "https://github.com/DietrichGebert/ponytail",
+      "event_date": "2026-08-25",
+      "date_seen": "2026-08-25"
+    },
+    {
+      "key": "github.com/anthropics/claude-plugins-official",
+      "canonical_url": "https://github.com/anthropics/claude-plugins-official",
+      "event_date": "2026-08-25",
+      "date_seen": "2026-08-25"
     }
   ]
 }

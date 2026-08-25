@@ -316,3 +316,4 @@
 {"recorded_at": "2026-08-24T22:26:59.740154+00:00", "slug": "voltagent_awesome-agent-skills", "title": null, "state": "published", "published_at": "2026-08-24", "reason": "自动生成", "ci_run_id": "32783729073"}
 {"recorded_at": "2026-08-24T23:22:20.553101+00:00", "slug": "apache_maka", "title": null, "state": "published", "published_at": "2026-08-24", "reason": "自动生成", "ci_run_id": "32788359595"}
 {"recorded_at": "2026-08-25T21:28:01.421544+00:00", "slug": "freestylefly_awesome-gpt-image-2", "title": null, "state": "published", "published_at": "2026-08-25", "reason": "自动生成", "ci_run_id": "32900201087"}
+{"recorded_at": "2026-08-25T22:24:15.440076+00:00", "slug": "anthropics_claude-plugins-community", "title": null, "state": "published", "published_at": "2026-08-25", "reason": "自动生成", "ci_run_id": "32905261776"}

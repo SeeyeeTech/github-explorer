@@ -1,0 +1,6 @@
+{
+  "title": "Anthropic 把 Claude 插件市场做成「SHA 钉死 + AI 自审」的供应链范例",
+  "digest": "Anthropic 用 GitOps 镜像仓把社区插件市场做成 SHA 强制钉死 + 11 条 invariant + Claude headless 自审的可审计分发样板,是 AI 时代 OSS 供应链治理最干净的工程范本。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+/* 图片 */
+img {
+    max-width: 100% !important;
+    display: block !important;
+    margin: 1em auto !important;
+    border-radius: 4px !important;
+}
+
+/* 表格 */
+table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    margin: 1em 0 !important;
+    font-size: 14px !important;
+}
+table th,
+table td {
+    border: 1px solid #ddd !important;
+    padding: 8px 12px !important;
+    text-align: left !important;
+    vertical-align: top !important;
+}
+table th {
+    background: #f5f5f5 !important;
+    font-weight: bold !important;
+}
+
+/* 链接 */
+a {
+    color: #1a73e8 !important;
+    text-decoration: none !important;
+    word-break: break-all !important;
+}
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/freestylefly/awesome-gpt-image-2">https://github.com/freestylefly/awesome-gpt-image-2</a></p></blockquote>
+
+<h2>一句话总结</h2>
+
+<p>这是一个被命名误导的「资源库」——表面是 awesome-list，实则是「Prompt as Code 资产库 + 配套可视化 SaaS + Agent Skill 包」三合一的工业化提示词引擎：把 532 个爆款图逆向成 13 字段 schema + 22 个工业模板，让 Claude Code / Codex / Cursor 能像 npx skills add 一行命令一样自动调用。</p>
+
+<h2>值得关注的理由</h2>
+
+<ol>
+<li><strong>稀缺的方法论溢出</strong>：17.5k Star 不是案例堆出来的，是把 prompt 从「自由散文」拆成「结构化工程资产」做出来的——这套 SoT markdown → 编译 JSON → Agent reference 的工作流，国内 prompt 资源库目前仅此一份跑通。</li>
+<li><strong>金融级工程严谨度做内容项目</strong>：PL/pgSQL Reservation Saga 三段式事务扣费、pg_advisory_xact_lock 配合 unique partial index 做付费群 QR「一张当前码」热替换、Stripe + 支付宝双支付单表 SKU——一个 4 个月的 side project 在后端严谨性上超过大量商业 SaaS。</li>
+<li><strong>Skill 化分发是新分发渠道的早期卡位</strong>：通过 bin/install.mjs 把 Skill 同时写到 ~/.claude/skills / ~/.codex/skills / ~/.agents/skills，搭 GitHub Packages + npm 双仓发布，是 Agent 时代「仓库即插件」的工程化范本。</li>
+</ol>
+
+<h2>项目展示</h2>
+
+<p><img src="https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/banner.svg" alt="GPT-Image2 Prompt System banner"></p>
+<p><em>项目品牌横幅 SVG——把「GPT-Image2 + Prompt as Code」做成一张产品级封面</em></p>
+
+<p><img src="https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/site-preview.png" alt="GPT-Image2 Gallery website preview"></p>
+<p><em>产品化站点截图：gpt-image2.canghe.ai，532 case 瀑布流 + 分类筛选 + 提示词复制</em></p>
+
+<p><img src="https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/case1.jpg" alt="Urban Metabolism Atlas — case1 信息图"></p>
+<p><em>信息图类别代表案例：展示 GPT-Image-2 的精确中文渲染 + 结构化排版能力</em></p>
+
+<p><img src="https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/case17.jpg" alt="Interaction design diagram — case17 UI 设计"></p>
+<p><em>UI/Interfaces 类别代表案例：组件层级 + 界面纹理的工业化模板</em></p>
+
+<p><img src="https://raw.githubusercontent.com/freestylefly/awesome-gpt-image-2/main/data/images/case310.jpg" alt="Snack brand technical breakdown — case310 产品拆解"></p>
+<p><em>Products &amp; E-commerce 类别代表案例：自动标注组件名 + 卖点的产品拆解风格</em></p>
+
+<blockquote><p>总共发现 47 个媒体元素，筛选后保留 5 个最具代表性样本；已排除 badge/CI 状态图标、赞助商 logo、二维码等非展示性内容。</p></blockquote>
+
+<h2>项目画像</h2>
+
+<table>
+<thead>
+<tr><th>维度</th><th>数据</th></tr>
+</thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/freestylefly/awesome-gpt-image-2">https://github.com/freestylefly/awesome-gpt-image-2</a></td></tr>
+<tr><td>Star / Fork</td><td>17,497 / 1,810（Watchers 58）</td></tr>
+<tr><td>代码行数</td><td>31,312 行（JSON 51.5% / JavaScript 17.8% / JSX 13.3% / CSS 10.7% / SQL 6.2%）</td></tr>
+<tr><td>项目年龄</td><td>4 个月（首次提交 2026-04-25）</td></tr>
+<tr><td>开发阶段</td><td>稳定维护（5 月单月 102 commit 爆量后转维护）</td></tr>
+<tr><td>贡献模式</td><td>单人主导（freestylefly 81% commits，6 名贡献者）</td></tr>
+<tr><td>热度定位</td><td>大众热门（2026-08-24 空降 GitHub Trending 第二 +628 stars）</td></tr>
+<tr><td>质量评级</td><td>代码 优秀 / 文档 优秀 / 测试 基本 / CI/CD 基本 / 错误处理 优秀</td></tr>
+</tbody>
+</table>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+
+<p>苍何（freestylefly），Microsoft MVP，WeSight 创始人，公众号「苍何」主理人，武汉。账号年龄 7.9 年，公开仓库 81 个，粉丝 1661。他的其他旗舰仓库 CodexGuide（3,284 Star）、wesight（894 Star）都不及本项目的 17.5k Star——这是他目前最具影响力的旗舰项目。Bio 自述「Sharing thoughtful insights on AI, building cool things along the way」——典型的「公众号 / Sponsors / 付费社群」三位一体个人开发者。</p>
+
+<h3>问题判断</h3>
+
+<p>2026-05 启动 schema 化迁移（Supabase migration 起始时间戳 202605090001），正值 GPT-Image-2 走红 + 社区爆款集中涌现 + Agent 编程工具普及三重叠加。早做没需求，晚做红海已被锁死。Issue #2「在线站点」直接揭示演化路径：用户逼着作者从「静态 README 列表」升级到「实时 SaaS 付费会员」——不是预先规划，是被需求推出来的。</p>
+
+<h3>解法哲学</h3>
+
+<ul>
+<li><strong>结构化 &gt; 自由文本</strong>：把同一张爆款图逆向成 {subject, composition, materials, lighting, text, aspect_ratio, constraints, negative} 8 大块原子字段 + 13 字段 case schema + 22 工业模板，让 Agent 可以「先锁结构，再换主语」。</li>
+<li><strong>Prompt as Code = 提示词界的 Tailwind / CSS Variables</strong>：每一类风格（UI / 海报 / 商品 / 插画……）是一段「约束条件 + 反模式 + 案例指针」，可被程序化匹配、引用、组合。</li>
+<li><strong>数据即代码</strong>：532 个 case 在编译期就 schema 化（scripts/generate-site-data.mjs），不是运行时拼字符串——LLM 选模板时拿到的是「结构化索引」而非「自然语言摘要」，幻觉率显著下降。</li>
+<li><strong>明确不做什么</strong>：不做模型微调/LoRA；不做纯文生 UI 的「设计稿转代码」；不和 Midjourney 拼通用提示词（只针对 GPT-Image-2）；不做付费模板锁闭（核心库继续 MIT）。</li>
+</ul>
+
+<h3>战略意图</h3>
+
+<p>data/cases.json + data/style-library.json 是 IP 资产，gpt-image2.canghe.ai 是流量入口，Agent Skill 是分发渠道（让 skill 自己滚雪球）。飞轮结构：公众号引流 → 站点付费生成 → Sponsors 反哺 → 新 prompt 持续入库 → Skill 在 Agent 工具链扩散。<strong>genuinely open 但带 open-core 后端</strong>：核心 532 case + 22 template + 13 category 全部 MIT；商业化是「站点付费生成 + 付费交流群（¥9.90） + 公众号会员」三层，后端 SKU 与开放 repo 解耦。</p>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处</h3>
+
+<ol>
+<li><strong>「Prompt as Code」13 字段 case schema</strong>——把 532 个自由散文 prompt 拆成 {id, title, image, prompt, category, styles, scenes, featured, sourceUrl ...} 结构化资产；新颖度 4 / 实用性 5 / 可迁移性 4</li>
+<li><strong>Markdown → JSON → Agent reference 编译链（SoT 单一可信源）</strong>——人在 docs/gallery-part-{1,2}.md 写，机器派生 data/cases.json 和 agents/skills/.../references/style-library.md，避免「文档 + JSON + Skill」三份数据漂移；新颖度 4 / 实用性 5 / 可迁移性 5</li>
+<li><strong>PL/pgSQL Reservation Saga</strong>——reserve_generation_usage 三段式事务（reserve → complete/release），单事务内 FOR UPDATE 行锁 + 决策路径（免费额度 / 扣 1 credit / raise）+ refund 流水；新颖度 3 / 实用性 5 / 可迁移性 5</li>
+<li><strong>双支付 + 双 SKU 单表</strong>——Stripe USD + 支付宝 CNY 共享 membership_plans 表 + amount_cents / alipay_amount_cents 显式金额列，前端无法绕过；新颖度 3 / 实用性 4 / 可迁移性 5</li>
+<li><strong>付费 QR 资产 + pg_advisory_xact_lock + unique partial index「一张当前码」</strong>——community_group_qr_assets 表只允许一行 is_current=true，QR bytes 走 bytea + magic bytes 校验，非 PAID 用户拿不到字节；新颖度 4 / 实用性 4 / 可迁移性 4</li>
+</ol>
+
+<h3>可复用的模式与技巧</h3>
+
+<ol>
+<li><strong>「SoT markdown → 编译 JSON → Agent reference」三件套</strong>：人在 markdown 写、机器在 JSON 查、Agent 在 reference 里找——任何「内容/工具库想同时被人和 AI 消费」的场景都适用</li>
+<li><strong>PL/pgSQL Reservation Saga</strong>（先冻结再决策再回滚）：所有「API 计费 / 钱包扣费 / 配额预占」类 SaaS 后端的样板</li>
+<li><strong>pg_advisory_xact_lock + unique partial index「一张当前 X」</strong>：付费群 QR / 限流配置 / 热替换轮播图 / 当前生效的优惠码</li>
+<li><strong>跨 agent Skill 一键分发</strong>（bin/install.mjs 写 ~/.claude/skills / ~/.codex/skills / ~/.agents/skills）：任何想把自家 Skill 同时装到 Claude Code + Codex + Cursor 的工具作者</li>
+<li><strong>「双支付单表 SKU」</strong>（USD Stripe + CNY 支付宝共享 membership_plans）：跨境订阅/数字商品 SaaS 的极简模板</li>
+<li><strong>sanitizeAlipayNotifyParams 白名单过滤</strong>：剔除 sign/buyer_id 等敏感字段后再落 DB——所有第三方支付回调持久化的安全样板</li>
+</ol>
+
+<h3>关键设计决策</h3>
+
+<p><strong>决策 1</strong>: 把 markdown 视为单一可信源（SoT），用编译脚本派生 JSON 和 Agent Skill 引用</p>
+<ul>
+<li><strong>问题</strong>: 同时维护「给人看的 gallery」「给站点用的 JSON」「给 Agent 用的 reference」会互相漂移，且 prompt 案例每周都在新增</li>
+<li><strong>方案</strong>: docs/gallery-part-{1,2}.md 是人维护的 SoT；scripts/generate-site-data.mjs 用正则解析出 13 字段 case；scripts/generate-style-skill.mjs 反向从 data/style-library.json 编译成 markdown 给 Agent 当参考；npm run prebuild 钩子强制每次 dev/build 前重新生成</li>
+<li><strong>Trade-off</strong>: 牺牲「修改响应速度」换「跨下游一致性」</li>
+<li><strong>可迁移性</strong>: 高</li>
+</ul>
+
+<p><strong>决策 2</strong>: PL/pgSQL 的 reserve_generation_usage 三段式事务做图生成扣费</p>
+<ul>
+<li><strong>问题</strong>: GPT-Image-2 调用是慢操作（数秒～数分钟），且上游可能 429 / 5xx；「先扣费再调用」上游失败要回退，「先调用再扣费」并发或网络异常会导致重复扣费或漏扣</li>
+<li><strong>方案</strong>: 单条语句里 FOR UPDATE 锁 profile 行 → 决策路径（免费额度 / 扣 1 credit / raise）→ insert reservation → 回填 -1 流水；完成后 complete_generation_reservation 置 succeeded；失败 release_generation_reservation 回滚 + refund 流水</li>
+<li><strong>Trade-off</strong>: 牺牲「简单性」（事务逻辑进数据库）换「强一致性 + 幂等」</li>
+<li><strong>可迁移性</strong>: 高</li>
+</ul>
+
+<p><strong>决策 3</strong>: 把 Agent Skill 设计成「可独立 npm publish + 可被 npx skills add 安装」的 npm 包形态</p>
+<ul>
+<li><strong>问题</strong>: Agent Skill 分发渠道碎片化（Claude Code / Codex / Cursor / plugin marketplace 协议各不相同）</li>
+<li><strong>方案</strong>: agents/skills/gpt-image-2-style-library/package.json 独立 name、bin/install.mjs、publishConfig.access=public；.github/workflows/publish-style-skill.yml 在 tag gpt-image-2-style-library-v* 触发 GitHub Packages 发布</li>
+<li><strong>Trade-off</strong>: 牺牲「包大小」（Skill 包 9KB + references 17KB 跟着 npm 走）换「跨工具一键安装 + 版本管理 + 双仓分发」</li>
+<li><strong>可迁移性</strong>: 极高</li>
+</ul>
+
+<p><strong>决策 4</strong>: 双支付 + 双渠道（Stripe USD + 支付宝 CNY）但 SKU 表合一</p>
+<ul>
+<li><strong>问题</strong>: 海外用 Stripe，国内用支付宝；两套 SKU 难以共享定价，又要防「前端改价格绕过扣费」</li>
+<li><strong>方案</strong>: membership_plans.amount_cents + currency='usd' 给 Stripe；同一行额外 alipay_amount_cents 字段给支付宝；所有金额最终落到 payment_orders 一行；支付宝回调用 parseAlipayAmount 把 "9.90" 解析成整数 cents（避浮点）</li>
+<li><strong>Trade-off</strong>: 牺牲「数据库简洁性」（多两个冗余字段）换「前后端价格不会被绕过」</li>
+<li><strong>可迁移性</strong>: 高</li>
+</ul>
+
+<p><strong>决策 5</strong>: 付费交流群走 ¥9.90 一次性付费 + 单独 QR 码资产库 + pg_advisory_xact_lock 保证「一张当前码」</p>
+<ul>
+<li><strong>问题</strong>: 付费群 QR 码容易被截图外泄，需要随时换码 + 只有 PAID 用户能拿到 + 切换瞬间不能让多个用户拿到不同码</li>
+<li><strong>方案</strong>: community_group_qr_assets 表只允许一行 is_current=true（unique partial index）；replace_community_group_qr_asset 在事务里 advisory lock + 旧行 false + 新行 insert；QR bytes 走 bytea + magic bytes 校验</li>
+<li><strong>Trade-off</strong>: 牺牲「QR 码可以走 CDN」（直接 bytea 拉取，DB 流量翻倍）换「QR 资产与权限绑死、热替换无竞态」</li>
+<li><strong>可迁移性</strong>: 中</li>
+</ul>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+
+<table>
+<thead>
+<tr><th>维度</th><th>freestylefly/awesome-gpt-image-2</th><th>EvoLinkAI/awesome-gpt-image-2-prompts</th><th>YouMind-OpenLab/awesome-gpt-image-2</th><th>Anil-matcha/Awesome-GPT-Image-2-API-Prompts</th></tr>
+</thead>
+<tbody>
+<tr><td>案例规模</td><td>532 case（高结构化）</td><td>精选数十 case</td><td>3600+ case（弱结构化）</td><td>数百 case</td></tr>
+<tr><td>Schema</td><td>13 字段 + 19 styles + 10 scenes</td><td>无（纯 markdown）</td><td>无（弱结构）</td><td>仅 API 示例</td></tr>
+<tr><td>Agent 集成</td><td>Skill 跨 Claude Code/Codex/Cursor + npm + GitHub Packages</td><td>无</td><td>无</td><td>无</td></tr>
+<tr><td>在线产品</td><td>gpt-image2.canghe.ai（生成 + 付费会员 + 付费群）</td><td>无</td><td>无</td><td>无</td></tr>
+<tr><td>国际化</td><td>英 / 简中 / 日三语</td><td>英文</td><td>17 种语言</td><td>英文</td></tr>
+<tr><td>Stars</td><td>17,497</td><td>~数千</td><td>~数千</td><td>数百</td></tr>
+</tbody>
+</table>
+
+<h3>差异化护城河</h3>
+
+<ul>
+<li><strong>技术护城河</strong>: cases.json 13 字段 schema + style-library.json 22 templates + PL/pgSQL Reservation Saga + 双支付单表——都可被学，但沉淀成本高</li>
+<li><strong>生态护城河</strong>: Agent Skill 跨 Claude Code/Codex/Cursor/npm + GitHub Packages 分发，是国内 prompt 资源库第一个把分发做穿到 Agent 工具链的</li>
+<li><strong>信任护城河</strong>: Issue #13「社区造假」+ 三语 disclaimer + source 字段溯源（每条 prompt 都有 sourceLabel + sourceUrl）——是资源类项目面对 AI 时代版权问题的成熟解法</li>
+</ul>
+
+<h3>竞争风险</h3>
+
+<p>最可能被 <strong>YouMind 量级</strong> 击穿（对方 3600+ 案例 + 多模型 + 17 种语言，规模碾压）。一旦 YouMind 把 Schema 化 + Agent Skill 补齐，本项目差异化会被严重侵蚀。短期护城河来自「先发 + 单模型聚焦 + 商业闭环跑通」；长期需在「内容增量」「Skill 生态」「商业化收入」三轴上保持领先。</p>
+
+<h3>生态定位</h3>
+
+<p>在「prompt 资源 → 工程化资产」转化路径上，国内目前是唯一「schema + 编译链 + Skill + SaaS 全栈」跑通的样本；定位类似 npm 上「Tailwind / shadcn」级别——<strong>不做模型，做模型之上的「设计 token + 工厂」</strong>。作者苍何本人把它类比为「提示词界的 Tailwind / CSS Variables」，外部独立分析（wuqishi.com / 腾讯云开发者社区）也认同这个定位。</p>
+
+<h2>套利机会分析</h2>
+
+<ul>
+<li><strong>信息差</strong>: 17.5k Star 已经脱离「被低估」区间，但<strong>「Prompt as Code」方法论 + Skill 包封装 + 真实运营数据</strong>仍有溢出价值——对 Agent 开发者是真有用的工程范式，不是单纯资源堆砌</li>
+<li><strong>技术借鉴</strong>: SoT markdown → 编译 JSON → Agent reference 三件套、PL/pgSQL Reservation Saga、跨 agent Skill 一键分发这三套模式可迁移到任何「内容资源库」/「API 计费 SaaS」/「Agent 工具作者」场景</li>
+<li><strong>生态位</strong>: 填补了「模型之上的设计 token 与工厂」的空白——同赛道无第二家把 schema + 编译链 + Skill + 商业化全栈跑通</li>
+<li><strong>趋势判断</strong>: 在增长（8 月仍 +628 stars/day）；符合「Agent 工具链 + 内容工程化」两大技术趋势；比 YouMind 类纯资源库有显著工程化后发优势</li>
+</ul>
+
+<h2>风险与不足</h2>
+
+<ol>
+<li><strong>后端测试覆盖基本</strong>：3 个测试文件 ~50 用例集中在 _lib（金额解析 / alipay 验签 / community rate limit），前端 Vite 无单测，无 e2e 测试；0 refactor + 0 test 意味着后端 API（billing/admin/community）长期处于无测试保护状态</li>
+<li><strong>CI/CD 仅基本配置</strong>：仅 publish-style-skill.yml 发布 workflow，无 PR CI / lint / format 检查；ESLint/Prettier 无配置</li>
+<li><strong>贡献集中度过高</strong>：Top 贡献者占比 81%（4 名 GitHub 贡献者中 152/154 commit 来自作者），单人 side project 风险显著；一旦作者中断维护，演化难以为继</li>
+<li><strong>模型版本飘移</strong>：techmoon 评测指出 GPT-Image-2 模型本身在迭代，已沉淀的 prompt 模板可能在 6-12 月后失效；这是所有 prompt 资源库的固有风险</li>
+<li><strong>法律与版权风险</strong>：Issue #13 揭示的「第三方伪造案例混进社区」是持续威胁；尽管加了 disclaimer，但 AI 时代版权判定仍处灰色地带</li>
+</ol>
+
+<h2>行动建议</h2>
+
+<ul>
+<li><strong>如果你要用它</strong>: 直接 npx skills add freestylefly/awesome-gpt-image-2 --global --all --copy 把 Skill 装到 Claude Code / Codex / Cursor，让 Agent 在做产品图 / 信息图 / UI mockup 时自动选模板；或访问 gpt-image2.canghe.ai 手动翻案例抄作业（免费浏览 + Google 登录）</li>
+<li><strong>如果你要学它</strong>: 重点关注 scripts/generate-site-data.mjs（SoT→JSON 编译链）、agents/skills/gpt-image-2-style-library/（独立 npm 包形态 Skill）、supabase/migrations/202605090001_user_credits.sql 起 12 个 migrations（Reservation Saga / unique partial index / advisory lock 实战）、api/_lib/alipay.test.js（白名单过滤 + 验签测试样板）</li>
+<li><strong>如果你要 fork 它</strong>: 改进方向——（a） 接入 Midjourney v7 / Sora / Claude 多模型，跨模型工程化；（b） 把 schema 抽象成可配置（用户上传案例时自动结构化）；（c） 加 PR CI + ESLint + 前端单测；（d） 用社区贡献替代单人主导，把贡献门槛降到「PR 一个 case」级别</li>
+</ul>
+
+<h3>知识入口</h3>
+
+<table>
+<thead>
+<tr><th>资源</th><th>链接</th></tr>
+</thead>
+<tbody>
+<tr><td>DeepWiki</td><td>未收录</td></tr>
+<tr><td>Zread.ai</td><td><a href="https://zread.ai/freestylefly/awesome-gpt-image-2">https://zread.ai/freestylefly/awesome-gpt-image-2</a></td></tr>
+<tr><td>关联论文</td><td>无（应用层项目）</td></tr>
+<tr><td>在线 Demo</td><td><a href="https://gpt-image2.canghe.ai/">https://gpt-image2.canghe.ai/</a>（Vite + Supabase 站点，需 Google 登录）</td></tr>
+<tr><td>Agent Skill 安装</td><td><code>npx skills add freestylefly/awesome-gpt-image-2 --global --all --copy</code></td></tr>
+</tbody>
+</table>
+</body>
+</html>

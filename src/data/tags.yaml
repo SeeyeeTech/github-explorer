@@ -234,6 +234,11 @@ entries:
   - model-foundation
   - education
   - security
+  apache_maka:
+  - ai-agent
+  - llm-framework
+  - devtools
+  - database
   apache_superset:
   - ai-agent
   - workflow-automation
@@ -564,6 +569,8 @@ entries:
   - security
   dair-ai_prompt-engineering-guide:
   - education
+  dani-garcia_vaultwarden:
+  - iot-hardware
   danielmiessler_fabric:
   - llm-inference
   - model-foundation
@@ -2446,6 +2453,9 @@ entries:
   volcengine_verl:
   - llm-training
   - model-foundation
+  voltagent_awesome-agent-skills:
+  - ai-agent
+  - ai-coding
   voltagent_awesome-openclaw-skills:
   - ai-agent
   - security

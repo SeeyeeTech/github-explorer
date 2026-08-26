@@ -206,6 +206,11 @@ entries:
   - ai-coding
   - education
   - protocol-spec
+  anthropics_claude-plugins-community:
+  - ai-coding
+  - devtools
+  - workflow-automation
+  - security
   anthropics_claude-plugins-official:
   - ai-agent
   - ai-coding
@@ -831,6 +836,10 @@ entries:
   - workflow-automation
   freecodecamp_freecodecamp:
   - uncategorized
+  freestylefly_awesome-gpt-image-2:
+  - ai-agent
+  - ai-coding
+  - trading-finance
   fujiwarachoki_moneyprinterv2:
   - llm-inference
   - model-foundation

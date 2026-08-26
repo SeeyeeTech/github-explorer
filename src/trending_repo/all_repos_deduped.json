@@ -90,6 +90,16 @@
     "trending_days": 26
   },
   {
+    "name": "Shubhamsaboo/awesome-llm-apps",
+    "url": "https://github.com/shubhamsaboo/awesome-llm-apps",
+    "language": "Python",
+    "stars": 134484,
+    "forks": 19767,
+    "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+    "last_seen": "2026-08-26",
+    "trending_days": 26
+  },
+  {
     "name": "yeongpin/cursor-free-vip",
     "url": "https://github.com/yeongpin/cursor-free-vip",
     "language": "Python",
@@ -107,16 +117,6 @@
     "forks": 407,
     "description": "An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
     "last_seen": "2025-12-04",
-    "trending_days": 25
-  },
-  {
-    "name": "Shubhamsaboo/awesome-llm-apps",
-    "url": "https://github.com/shubhamsaboo/awesome-llm-apps",
-    "language": "Python",
-    "stars": 134002,
-    "forks": 19721,
-    "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-    "last_seen": "2026-08-25",
     "trending_days": 25
   },
   {
@@ -400,6 +400,16 @@
     "trending_days": 15
   },
   {
+    "name": "rohitg00/ai-engineering-from-scratch",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "language": "Python",
+    "stars": 49373,
+    "forks": 8607,
+    "description": "Learn it. Build it. Ship it for others.",
+    "last_seen": "2026-08-26",
+    "trending_days": 15
+  },
+  {
     "name": "666ghj/BettaFish",
     "url": "https://github.com/666ghj/bettafish",
     "language": "Python",
@@ -417,6 +427,26 @@
     "forks": 5907,
     "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
     "last_seen": "2026-07-26",
+    "trending_days": 14
+  },
+  {
+    "name": "anthropics/claude-plugins-official",
+    "url": "https://github.com/anthropics/claude-plugins-official",
+    "language": "Python",
+    "stars": 34232,
+    "forks": 3877,
+    "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+    "last_seen": "2026-08-26",
+    "trending_days": 14
+  },
+  {
+    "name": "basecamp/omarchy",
+    "url": "https://github.com/basecamp/omarchy",
+    "language": "Shell",
+    "stars": 31666,
+    "forks": 3216,
+    "description": "Beautiful, Modern & Opinionated Linux",
+    "last_seen": "2026-08-26",
     "trending_days": 14
   },
   {
@@ -450,13 +480,23 @@
     "trending_days": 14
   },
   {
-    "name": "rohitg00/ai-engineering-from-scratch",
-    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "name": "TauricResearch/TradingAgents",
+    "url": "https://github.com/tauricresearch/tradingagents",
     "language": "Python",
-    "stars": 48580,
-    "forks": 8522,
-    "description": "Learn it. Build it. Ship it for others.",
-    "last_seen": "2026-08-25",
+    "stars": 100643,
+    "forks": 19403,
+    "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+    "last_seen": "2026-08-26",
+    "trending_days": 14
+  },
+  {
+    "name": "tinyhumansai/openhuman",
+    "url": "https://github.com/tinyhumansai/openhuman",
+    "language": "Rust",
+    "stars": 38005,
+    "forks": 3744,
+    "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+    "last_seen": "2026-08-26",
     "trending_days": 14
   },
   {
@@ -480,16 +520,6 @@
     "trending_days": 13
   },
   {
-    "name": "anthropics/claude-plugins-official",
-    "url": "https://github.com/anthropics/claude-plugins-official",
-    "language": "Python",
-    "stars": 33948,
-    "forks": 3864,
-    "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-    "last_seen": "2026-08-25",
-    "trending_days": 13
-  },
-  {
     "name": "asgeirtj/system_prompts_leaks",
     "url": "https://github.com/asgeirtj/system_prompts_leaks",
     "language": "JavaScript",
@@ -497,16 +527,6 @@
     "forks": 8916,
     "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
     "last_seen": "2026-07-09",
-    "trending_days": 13
-  },
-  {
-    "name": "basecamp/omarchy",
-    "url": "https://github.com/basecamp/omarchy",
-    "language": "Shell",
-    "stars": 30694,
-    "forks": 3116,
-    "description": "Beautiful, Modern & Opinionated Linux",
-    "last_seen": "2026-08-25",
     "trending_days": 13
   },
   {
@@ -537,26 +557,6 @@
     "forks": 81332,
     "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
     "last_seen": "2026-08-24",
-    "trending_days": 13
-  },
-  {
-    "name": "TauricResearch/TradingAgents",
-    "url": "https://github.com/tauricresearch/tradingagents",
-    "language": "Python",
-    "stars": 99828,
-    "forks": 19312,
-    "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-    "last_seen": "2026-08-25",
-    "trending_days": 13
-  },
-  {
-    "name": "tinyhumansai/openhuman",
-    "url": "https://github.com/tinyhumansai/openhuman",
-    "language": "Rust",
-    "stars": 37524,
-    "forks": 3716,
-    "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
-    "last_seen": "2026-08-25",
     "trending_days": 13
   },
   {
@@ -850,6 +850,16 @@
     "trending_days": 10
   },
   {
+    "name": "openai/codex",
+    "url": "https://github.com/openai/codex",
+    "language": "Rust",
+    "stars": 118600,
+    "forks": 18077,
+    "description": "Lightweight coding agent that runs in your terminal",
+    "last_seen": "2026-08-26",
+    "trending_days": 10
+  },
+  {
     "name": "OpenBMB/VoxCPM",
     "url": "https://github.com/openbmb/voxcpm",
     "language": "Python",
@@ -1050,6 +1060,16 @@
     "trending_days": 9
   },
   {
+    "name": "multica-ai/andrej-karpathy-skills",
+    "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+    "language": "Unknown",
+    "stars": 207495,
+    "forks": 21158,
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+    "last_seen": "2026-08-26",
+    "trending_days": 9
+  },
+  {
     "name": "NanmiCoder/MediaCrawler",
     "url": "https://github.com/nanmicoder/mediacrawler",
     "language": "Python",
@@ -1057,16 +1077,6 @@
     "forks": 12106,
     "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
     "last_seen": "2026-08-12",
-    "trending_days": 9
-  },
-  {
-    "name": "openai/codex",
-    "url": "https://github.com/openai/codex",
-    "language": "Rust",
-    "stars": 117777,
-    "forks": 17964,
-    "description": "Lightweight coding agent that runs in your terminal",
-    "last_seen": "2026-08-25",
     "trending_days": 9
   },
   {
@@ -1297,16 +1307,6 @@
     "forks": 3454,
     "description": "Meshery, the cloud native manager",
     "last_seen": "2026-06-17",
-    "trending_days": 8
-  },
-  {
-    "name": "multica-ai/andrej-karpathy-skills",
-    "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-    "language": "Unknown",
-    "stars": 206899,
-    "forks": 21118,
-    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-    "last_seen": "2026-08-25",
     "trending_days": 8
   },
   {
@@ -2140,6 +2140,16 @@
     "trending_days": 6
   },
   {
+    "name": "MadsLorentzen/ai-job-search",
+    "url": "https://github.com/madslorentzen/ai-job-search",
+    "language": "Python",
+    "stars": 35942,
+    "forks": 12262,
+    "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+    "last_seen": "2026-08-26",
+    "trending_days": 6
+  },
+  {
     "name": "microsoft/BitNet",
     "url": "https://github.com/microsoft/bitnet",
     "language": "Python",
@@ -2450,6 +2460,16 @@
     "trending_days": 5
   },
   {
+    "name": "apache/maka",
+    "url": "https://github.com/apache/maka",
+    "language": "TypeScript",
+    "stars": 3537,
+    "forks": 346,
+    "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+    "last_seen": "2026-08-26",
+    "trending_days": 5
+  },
+  {
     "name": "AprilNEA/OpenLogi",
     "url": "https://github.com/aprilnea/openlogi",
     "language": "Rust",
@@ -2697,16 +2717,6 @@
     "forks": 329,
     "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
     "last_seen": "2026-07-24",
-    "trending_days": 5
-  },
-  {
-    "name": "MadsLorentzen/ai-job-search",
-    "url": "https://github.com/madslorentzen/ai-job-search",
-    "language": "Python",
-    "stars": 34664,
-    "forks": 11998,
-    "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-    "last_seen": "2026-08-25",
     "trending_days": 5
   },
   {
@@ -3100,6 +3110,16 @@
     "trending_days": 4
   },
   {
+    "name": "anthropics/claude-plugins-community",
+    "url": "https://github.com/anthropics/claude-plugins-community",
+    "language": "Python",
+    "stars": 2016,
+    "forks": 185,
+    "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+    "last_seen": "2026-08-26",
+    "trending_days": 4
+  },
+  {
     "name": "anthropics/claude-quickstarts",
     "url": "https://github.com/anthropics/claude-quickstarts",
     "language": "Python",
@@ -3117,16 +3137,6 @@
     "forks": 2002,
     "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
     "last_seen": "2026-05-27",
-    "trending_days": 4
-  },
-  {
-    "name": "apache/maka",
-    "url": "https://github.com/apache/maka",
-    "language": "TypeScript",
-    "stars": 3117,
-    "forks": 314,
-    "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
-    "last_seen": "2026-08-25",
     "trending_days": 4
   },
   {
@@ -3377,6 +3387,16 @@
     "forks": 11302,
     "description": "Free and Open Source Enterprise Resource Planning (ERP)",
     "last_seen": "2026-05-19",
+    "trending_days": 4
+  },
+  {
+    "name": "freestylefly/awesome-gpt-image-2",
+    "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+    "language": "JavaScript",
+    "stars": 20390,
+    "forks": 2051,
+    "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+    "last_seen": "2026-08-26",
     "trending_days": 4
   },
   {
@@ -4180,6 +4200,16 @@
     "trending_days": 3
   },
   {
+    "name": "AgriciDaniel/claude-obsidian",
+    "url": "https://github.com/agricidaniel/claude-obsidian",
+    "language": "Python",
+    "stars": 13082,
+    "forks": 1393,
+    "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
+    "last_seen": "2026-08-26",
+    "trending_days": 3
+  },
+  {
     "name": "ahujasid/blender-mcp",
     "url": "https://github.com/ahujasid/blender-mcp",
     "language": "Python",
@@ -4227,16 +4257,6 @@
     "forks": 246,
     "description": "None",
     "last_seen": "2025-10-02",
-    "trending_days": 3
-  },
-  {
-    "name": "anthropics/claude-plugins-community",
-    "url": "https://github.com/anthropics/claude-plugins-community",
-    "language": "Python",
-    "stars": 1530,
-    "forks": 164,
-    "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
-    "last_seen": "2026-08-25",
     "trending_days": 3
   },
   {
@@ -4607,16 +4627,6 @@
     "forks": 2491,
     "description": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin993886460 (Beware of fake account)",
     "last_seen": "2025-11-04",
-    "trending_days": 3
-  },
-  {
-    "name": "freestylefly/awesome-gpt-image-2",
-    "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-    "language": "JavaScript",
-    "stars": 16448,
-    "forks": 1715,
-    "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
-    "last_seen": "2026-08-25",
     "trending_days": 3
   },
   {
@@ -5770,16 +5780,6 @@
     "trending_days": 2
   },
   {
-    "name": "AgriciDaniel/claude-obsidian",
-    "url": "https://github.com/agricidaniel/claude-obsidian",
-    "language": "Python",
-    "stars": 12281,
-    "forks": 1361,
-    "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
-    "last_seen": "2026-08-25",
-    "trending_days": 2
-  },
-  {
     "name": "AI4Finance-Foundation/FinRobot",
     "url": "https://github.com/ai4finance-foundation/finrobot",
     "language": "JupyterNotebook",
@@ -5937,6 +5937,16 @@
     "forks": 577,
     "description": "AI-Powered Dark Web OSINT Tool",
     "last_seen": "2025-12-26",
+    "trending_days": 2
+  },
+  {
+    "name": "asciimoo/hister",
+    "url": "https://github.com/asciimoo/hister",
+    "language": "Go",
+    "stars": 3023,
+    "forks": 134,
+    "description": "Your own search engine",
+    "last_seen": "2026-08-26",
     "trending_days": 2
   },
   {
@@ -6337,6 +6347,16 @@
     "forks": 67,
     "description": "self-hosted, distributed Durable Objects",
     "last_seen": "2026-08-08",
+    "trending_days": 2
+  },
+  {
+    "name": "DietrichGebert/ponytail",
+    "url": "https://github.com/dietrichgebert/ponytail",
+    "language": "JavaScript",
+    "stars": 111814,
+    "forks": 6140,
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "last_seen": "2026-08-26",
     "trending_days": 2
   },
   {
@@ -7197,6 +7217,16 @@
     "forks": 1464,
     "description": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents",
     "last_seen": "2026-05-25",
+    "trending_days": 2
+  },
+  {
+    "name": "marin-community/marin",
+    "url": "https://github.com/marin-community/marin",
+    "language": "Python",
+    "stars": 2333,
+    "forks": 204,
+    "description": "Open-source framework for the research and development of foundation models.",
+    "last_seen": "2026-08-26",
     "trending_days": 2
   },
   {
@@ -8620,16 +8650,6 @@
     "trending_days": 1
   },
   {
-    "name": "asciimoo/hister",
-    "url": "https://github.com/asciimoo/hister",
-    "language": "Go",
-    "stars": 2542,
-    "forks": 115,
-    "description": "Your own search engine",
-    "last_seen": "2026-08-25",
-    "trending_days": 1
-  },
-  {
     "name": "ashishps1/awesome-system-design-resources",
     "url": "https://github.com/ashishps1/awesome-system-design-resources",
     "language": "Java",
@@ -9127,16 +9147,6 @@
     "forks": 6298,
     "description": "A modern runtime for JavaScript and TypeScript.",
     "last_seen": "2026-08-04",
-    "trending_days": 1
-  },
-  {
-    "name": "DietrichGebert/ponytail",
-    "url": "https://github.com/dietrichgebert/ponytail",
-    "language": "JavaScript",
-    "stars": 110238,
-    "forks": 6070,
-    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "last_seen": "2026-08-25",
     "trending_days": 1
   },
   {
@@ -10447,16 +10457,6 @@
     "forks": 669,
     "description": "A collaborative list of public APIs for developers",
     "last_seen": "2026-01-07",
-    "trending_days": 1
-  },
-  {
-    "name": "marin-community/marin",
-    "url": "https://github.com/marin-community/marin",
-    "language": "Python",
-    "stars": 1890,
-    "forks": 183,
-    "description": "Open-source framework for the research and development of foundation models.",
-    "last_seen": "2026-08-25",
     "trending_days": 1
   },
   {

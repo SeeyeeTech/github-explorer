@@ -1,39 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-08-25",
+    "last_run": "2026-08-27",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/mozilla/sccache",
-      "canonical_url": "https://github.com/mozilla/sccache",
-      "event_date": "2026-07-26",
-      "date_seen": "2026-07-26"
-    },
-    {
-      "key": "github.com/marcelroed/gigatoken",
-      "canonical_url": "https://github.com/marcelroed/gigatoken",
-      "event_date": "2026-07-26",
-      "date_seen": "2026-07-26"
-    },
-    {
-      "key": "github.com/tmux/tmux",
-      "canonical_url": "https://github.com/tmux/tmux",
-      "event_date": "2026-07-26",
-      "date_seen": "2026-07-26"
-    },
-    {
-      "key": "github.com/mvanhorn/last30days-skill",
-      "canonical_url": "https://github.com/mvanhorn/last30days-skill",
-      "event_date": "2026-07-27",
-      "date_seen": "2026-07-27"
-    },
-    {
-      "key": "github.com/cabinetai/cabinet",
-      "canonical_url": "https://github.com/cabinetai/cabinet",
-      "event_date": "2026-07-27",
-      "date_seen": "2026-07-27"
-    },
     {
       "key": "github.com/microsoft/agent-governance-toolkit",
       "canonical_url": "https://github.com/microsoft/agent-governance-toolkit",

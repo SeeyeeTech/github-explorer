@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+
+<blockquote><p>GitHub: <a href="https://github.com/agricidaniel/claude-obsidian">https://github.com/agricidaniel/claude-obsidian</a></p></blockquote>
+
+<h2>一句话总结</h2>
+
+<p>把「AI 写 Obsidian 笔记」从 demo 级 prompt 教程升级为<strong>带事务、审批哈希、双 ledger、多 Agent 编排的工程协议</strong>——plan-then-apply with SHA-256 approval、worker-draft / orchestrator-apply、vault lock + atomic replace + journal restore、provenance 双账本，是目前 AI × PKM 领域<strong>唯一做到 medical-grade 写入安全</strong>的开源实现。</p>
+
+<h2>值得关注的理由</h2>
+
+<ul>
+<li><strong>事务级写入协议</strong>：plan-then-apply + SHA-256 approval hash 把 LLM 写副作用操作变成可审计、可回滚的「数据库事务」——这是任何竞品（kepano / eugeniughelbur / Claudian）都没碰过的工程深度。</li>
+<li><strong>多 host 协议中立</strong>：一份代码同时驱动 Claude Code / Codex / OpenCode / Gemini / Cursor / Windsurf 6+ host，避免被单一 vendor 锁定；<code>.claude-plugin/</code> 主路径 + 适配文件覆盖。</li>
+<li><strong>Provenance 双 ledger + 双源独立证据</strong>：把学术 citation / peer review 模式搬进 LLM 输出审计；每个 source/claim 都有 authority/freshness/support/contradiction/confidence/review state 显式字段。</li>
+<li><strong>Honest degradation + fail-closed</strong>：embedding 不可信时降级到 BM25，Windows 原生写 vault 直接 <code>UNSUPPORTED_PLATFORM</code> 强制 WSL——这是 medical-grade 系统的工程纪律，不假装、不兼容低质。</li>
+</ul>
+
+<h2>项目展示</h2>
+
+<p><a href="https://raw.githubusercontent.com/agricidaniel/claude-obsidian/main/assets/cover.png">Astronaut/Obsidian crystal/connected knowledge graph 封面</a> — <em>Hero：把 vault 描绘成「astronaut + crystal + knowledge graph」一体化的视觉锚点</em></p>
+
+<p><a href="https://raw.githubusercontent.com/agricidaniel/claude-obsidian/main/assets/diagrams/knowledge-loop.svg">The claude-obsidian compounding knowledge loop</a> — <em>架构图：compounding knowledge loop（capture → file → link → query → compound）</em></p>
+
+<p><a href="https://raw.githubusercontent.com/agricidaniel/claude-obsidian/main/assets/diagrams/product-vault-boundary.svg">The claude-obsidian product and vault trust boundary</a> — <em>架构图：明确划分 product repository 与 user vault 的 trust boundary</em></p>
+
+<p><a href="https://raw.githubusercontent.com/agricidaniel/claude-obsidian/main/assets/screenshots/graph-view.png">Example claude-obsidian vault in Obsidian Graph view</a> — <em>截图：vault 在 Obsidian Graph view 里的真实呈现</em></p>
+
+<p><a href="https://raw.githubusercontent.com/agricidaniel/claude-obsidian/main/assets/screenshots/wiki-map-view.png">Example claude-obsidian knowledge map in Obsidian Canvas</a> — <em>截图：knowledge map 在 Obsidian Canvas 视图里的实体关系可视化</em></p>
+
+<h2>项目画像</h2>
+
+<table><tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/agricidaniel/claude-obsidian">https://github.com/agricidaniel/claude-obsidian</a></td></tr>
+<tr><td>Star / Fork</td><td>13,481 / 1,402</td></tr>
+<tr><td>代码行数</td><td>42,074（Python 89.7% / JSON 6.1% / Shell 3.5% / SVG 0.5%）</td></tr>
+<tr><td>项目年龄</td><td>4.6 个月（2026-04-07 首次提交）</td></tr>
+<tr><td>开发阶段</td><td>稳定维护（fix 已超 feature，refactor = 0，6 月整月停滞后回血）</td></tr>
+<tr><td>贡献模式</td><td>单人主导（94.5% commit 集中在作者，含 12 次 Claude 自动化 commit）</td></tr>
+<tr><td>热度定位</td><td>大众热门（同主题分发前列，但赛道已拥挤：Karpathy LLM Wiki 实现已 10+）</td></tr>
+<tr><td>质量评级</td><td>代码 A / 文档 A / 测试 B+ / CI B / 错误处理 A</td></tr>
+<tr><td>最新版本</td><td>v2.1.1（共 17 tag、10 release，语义化版本）</td></tr>
+<tr><td>License</td><td>MIT</td></tr>
+</tbody></table>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+
+<p>Agrici.Daniel（agricidaniel），1.1 年新账号、自定位 <strong>"AI Marketing Systems Architect"</strong>，主营 SEO/Ads/Content 的 AI 自动化；同时是 Skool 社群运营者、AI Marketing Hub Pro 创始人。在最近活跃的 63 个公开仓库中，按 Star 排第 2（仅次于 claude-seo 15.4k★），claude-blog（1.9k★）、youtubepro、sync、secretary、compass 等围绕「AI × 内容/营销」形成完整产品矩阵。</p>
+
+<h3>问题判断</h3>
+
+<p>作者从自身跨多个 AI 项目的实战中识别出一个反复出现的痛点：<strong>当 Claude/Codex/Gemini 等不同 Agent 同时对一个 vault 操作时，「谁改了什么 / 改的边界在哪 / 改错了怎么回滚」这三件事没有工程答案</strong>。现有方案存在三层缺口：</p>
+<ul>
+<li><strong>kepano/obsidian-skills</strong> 是「风格层」（Markdown 规约），不是「事务层」；</li>
+<li><strong>eugeniughelbur / ballred</strong> 是「prompt workflow / 模板集」，没有 trust boundary 概念；</li>
+<li><strong>Claudian</strong> 把 vault 隐藏在 plugin cache 后，丧失「vault 就是普通目录」的可移植性。</li>
+</ul>
+
+<p>时机选择：<strong>2026 年 Claude Code plugin marketplace 成熟 + Anthropic 把 skill 协议标准化</strong>——这是「AI 写用户本地数据」从演示变成工程部署的时间窗口，作者刚好赶上。</p>
+
+<h3>解法哲学</h3>
+
+<p>作者的核心哲学是「<strong>把 vault 当作数据库，把写入当作 transaction，把 plan 当作 spec</strong>」：</p>
+<ul>
+<li><strong>Local-first / User-owned</strong>：vault 永远是普通 Markdown/JSON 目录，AI 是访客不是所有者。</li>
+<li><strong>Plan-then-apply</strong>：所有写操作先生成可审计的 plan（带 generated-at、operation-id、SHA-256 三元组），再由用户在 review 环境 approve，再 apply。</li>
+<li><strong>One operation = One transaction</strong>：并行 Agent 只返回 drafts，由一个 orchestrator 合并为单一可回滚事务；冲突按目标 SHA-256 检测，绝不静默覆盖。</li>
+<li><strong>Honest degradation</strong>：能力缺失时清晰退化（BM25 取代 embedding），绝不「假装」成功。</li>
+<li><strong>Fail-closed</strong>：Windows 原生写 vault 直接拒绝（<code>UNSUPPORTED_PLATFORM</code>），强制 WSL——反直觉但工程正确。</li>
+<li><strong>Lineage transparency</strong>：明确承认 Andrej Karpathy 的 LLM Wiki 范式 + kepano 的 Obsidian Markdown 风格参考，不假装发明一切。</li>
+</ul>
+
+<h3>战略意图</h3>
+
+<p>从单项目到 Skill 协议层：<code>claude-obsidian</code> 是「AI × 长期知识」场景的一次完整工程化示范；同作者的 <code>claude-seo</code> / <code>claude-blog</code> / <code>youtubepro</code> / <code>sync</code> 走同一套 skill packaging + multi-host 适配思路，形成<strong>可复用的「Claude Skill 生产线」</strong>。从 SaaS 反向走 Local-first：作者主页是 Skool 营销社区、AI Marketing Hub 商业产品，但仓库本体是 MIT、local-first——这是「用商业可持续性反哺开源工具」的飞轮模型。</p>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处（按可迁移性排序）</h3>
+
+<p>1. <strong>Plan-then-apply with approval SHA-256</strong>（新颖 5 / 实用 5 / 可迁 5）</p>
+<p>把 LLM 写副作用操作抽象为「生成 plan → review 环境批准 → apply 时再次校验 bundle 完整性」三段式协议。Plan 内容、生成时刻、批准时刻各自 SHA-256 哈希，filesystem drift 或 bundle 变更即拒绝执行——本质上是把 Terraform / K8s admission / Git signed commit 三个不同领域的「防漂移」模式，统一成一个 LLM-native 协议。<strong>任何 LLM 写本地状态（文件批量改写、数据库 migration、CRM 更新、PR 创建、邮件发送、支付操作）都该套这个</strong>。</p>
+
+<p>2. <strong>One Operation = One Transaction</strong>（新颖 4 / 实用 5 / 可迁 5）</p>
+<p>并行 Agent 只返回 drafts，orchestrator 把 drafts 合并为单一 bundle，统一 inspect、统一 apply；冲突检测靠目标 SHA-256。这是 DBMS write-ahead log + shadow paging 的范式移植到 LLM Agent 场景。<strong>适用：多 LLM Agent 同时操作共享状态（共享 Git 仓库、共享 Notion、共享数据库、共享 CRM 记录）</strong>。</p>
+
+<p>3. <strong>Vault ↔ Product 分离 + Trust Boundary 主动声明</strong>（新颖 4 / 实用 5 / 可迁 5）</p>
+<p>明确「产品仓库」≠「用户 vault」，并把 vault 选择做成 fail-closed 决策树（env var → manifest → ancestor → exit）。这不是简单的目录布局，而是把「AI 写哪里」当成 first-class 安全问题来工程化。</p>
+
+<p>4. <strong>Provenance 双 ledger + 双源独立证据要求</strong>（新颖 5 / 实用 4 / 可迁 4）</p>
+<p>每个 source 和每个 claim 都进 ledger，字段包括 authority / freshness / support / contradiction / confidence / review state；<strong>高风险接受断言必须两个独立来源支持</strong>；矛盾证据不被隐藏而是保持可见。这把学术 citation + peer review 模式搬进 LLM 输出审计。<strong>适用：RAG、企业知识库、医疗/法律 AI、新闻核查、AI 教学内容</strong>。</p>
+
+<p>5. <strong>Capability 表 + Consent plans</strong>（新颖 4 / 实用 5 / 可迁 4）</p>
+<p>把 URL fetch / YouTube 转写 / OCR / 远程模型调用等副作用能力从「默认启用」改为「显式 consent plan」；外部 runner 隔离高副作用动作。这把 OAuth scope / Android permission / iOS privacy nutrition label 模式引入 AI Agent 工具。<strong>适用：所有 AI Agent 工具——防止 prompt injection 触发的数据外泄</strong>。</p>
+
+<p>6. <strong>Multi-host adapter via discovery files</strong>（新颖 4 / 实用 5 / 可迁 4）</p>
+<p>以 <code>.claude-plugin/</code> 主路径（plugin.json + marketplace.json）实现 Claude Code 原生支持；其它 host 用 discovery 文件（<code>AGENTS.md</code> / <code>GEMINI.md</code> / <code>.cursor/rules/</code> / <code>.windsurf/rules/</code>）覆盖；附 <code>bin/setup-multi-agent.sh --host &lt;host&gt;</code> 一键接入。一次编写，6 个 host 落地。</p>
+
+<p>7. <strong>Honest degradation（BM25 兜底 embedding/rerank）</strong>（新颖 3 / 实用 5 / 可迁 5）</p>
+<p>检索层分两段（BM25 + 可选 embedding/rerank），embedding 不可信时清晰退化到纯 BM25 并告知用户。这是「医疗级系统」的常用策略——宁可降级也不假装。</p>
+
+<p>8. <strong>Methodology plug-in（4 种 filing convention）</strong>（新颖 3 / 实用 4 / 可迁 4）</p>
+<p><code>wiki-mode</code> skill 把 Generic / LYT / PARA / Zettelkasten 四种笔记哲学实现为「路由方言」——切换 mode 只影响新笔记路由，不重写已有笔记。这是 ORM dialect 模式在 PKM 领域的迁移。</p>
+
+<h3>可复用的模式与技巧</h3>
+
+<ol>
+<li><strong>Plan-then-apply with approval hash 协议</strong> — 任何 LLM 写副作用操作的样板工程；适用：批量文件改写、数据库 migration、PR 创建、邮件发送、支付操作。</li>
+<li><strong>Worker-draft / Orchestrator-apply 模式</strong> — 并行 LLM Agent 只返回 drafts，单一 orchestrator 合并、inspect、commit。适用：多 Agent 同时操作共享状态。</li>
+<li><strong>Source ledger + Claim ledger + 双源独立证据要求</strong> — 适用：RAG、企业知识库、医疗/法律 AI。</li>
+<li><strong>Fail-closed vault selection (env var → manifest → ancestor → exit)</strong> — 任何 AI 工具的「写用户数据」动作。</li>
+<li><strong>Honest degradation with deterministic fallback</strong> — 所有 LLM 应用都该有 deterministic fallback（避免「全栈失效」）。</li>
+<li><strong>Multi-host adapter via discovery files + marketplace manifest</strong> — 跨 IDE / 跨 CLI 工具分发。</li>
+</ol>
+
+<h3>关键设计决策</h3>
+
+<table><tbody>
+<tr><th>决策</th><th>问题</th><th>方案</th><th>Trade-off</th><th>可迁移性</th></tr>
+<tr><td>Vault ≠ Product 严格分离</td><td>AI 误写到无关路径</td><td>env var → manifest → ancestor → fail-closed</td><td>多一步 init 操作</td><td>高</td></tr>
+<tr><td>Plan-then-apply with approval SHA-256</td><td>LLM 输出漂移污染 vault</td><td>生成 plan → review 环境算 SHA-256 → apply 时校验</td><td>用户多一次批准步骤</td><td>高</td></tr>
+<tr><td>One Operation = One Transaction</td><td>并行 Agent 覆盖冲突</td><td>workers 只返回 drafts，orchestrator 单事务 apply</td><td>引入编排开销</td><td>高</td></tr>
+<tr><td>Vault lock + atomic replace + journal</td><td>崩溃/半写/竞态导致不一致</td><td>进程级锁 → journal 备份 → 写临时文件 → rename(2) → 失败回滚</td><td>实现复杂、跨平台受限</td><td>中</td></tr>
+<tr><td>Fail-closed on Windows native</td><td>Windows fs 行为与 POSIX 不同</td><td>读可用，写要求 WSL，否则 <code>UNSUPPORTED_PLATFORM</code></td><td>失去 Windows 原生用户</td><td>中</td></tr>
+<tr><td>4 种 methodology plug-in</td><td>用户笔记哲学不同</td><td>Generic/LYT/PARA/Zettelkasten 实现为路由方言</td><td>实现复杂度上升</td><td>高</td></tr>
+</tbody></table>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+
+<table><tbody>
+<tr><th>维度</th><th>claude-obsidian</th><th>kepano/obsidian-skills</th><th>eugeniughelbur/obsidian-second-brain</th><th>ballred/obsidian-claude-pkm</th><th>Claudian</th></tr>
+<tr><td>定位</td><td>多 host 工程化协议</td><td>风格规约（Obsidian CEO 出品）</td><td>prompt 模板/工作流演示</td><td>单 host 简化 PKM</td><td>Obsidian 插件形态</td></tr>
+<tr><td>Stars</td><td>13.4k</td><td>14.9k</td><td>1.7k</td><td>1.35k</td><td>中等</td></tr>
+<tr><td>事务安全</td><td>✅ plan-then-apply + SHA-256</td><td>❌ 风格层</td><td>❌ 单 prompt</td><td>❌ 单 file</td><td>❌ plugin API</td></tr>
+<tr><td>多 Agent 协调</td><td>✅ worker-draft/orchestrator-apply</td><td>❌</td><td>⚠️ 多 CLI 共享</td><td>❌</td><td>❌</td></tr>
+<tr><td>Provenance ledger</td><td>✅ 双账本 + 双源证据</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr>
+<tr><td>多 host 适配</td><td>✅ 6+ host</td><td>❌ Claude Code 单平台</td><td>⚠️ 多 CLI 共享</td><td>❌ Claude 单 host</td><td>❌ Obsidian 内</td></tr>
+<tr><td>Methodology plug-in</td><td>✅ 4 种</td><td>❌</td><td>⚠️ 单一</td><td>⚠️ 简化</td><td>❌</td></tr>
+<tr><td>Capability + consent</td><td>✅ URL/OCR/远程模型</td><td>❌</td><td>❌</td><td>❌</td><td>⚠️ 部分</td></tr>
+<tr><td>上手难度</td><td>高（transaction 概念）</td><td>低（prompt 文档集）</td><td>低（工作流教程）</td><td>低（开箱即用）</td><td>低（plugin 一键装）</td></tr>
+<tr><td>Vault 数据主权</td><td>✅ vault = 普通目录</td><td>✅</td><td>✅</td><td>✅</td><td>❌ 隐藏在 plugin cache</td></tr>
+</tbody></table>
+
+<h3>差异化护城河</h3>
+
+<ol>
+<li><strong>真正的 transaction 安全</strong>：plan-then-apply + approval hash + worker-draft/orchestrator-apply + atomic replace + journal restore——这是任何其它竞品没有的工程深度。</li>
+<li><strong>多 host 协议中立</strong>：6+ host 适配能力，让用户不被单一 vendor 锁定。</li>
+<li><strong>Vault 主权</strong>：vault 永远是普通 Markdown 目录，AI 是访客不是所有者。</li>
+<li><strong>Provenance ledger</strong>：双账本 + 双源独立证据，是 enterprise-grade RAG 的审计要求。</li>
+<li><strong>Honest degradation</strong>：宁可降级也不假装，是 medical-grade 系统的工程纪律。</li>
+</ol>
+
+<h3>竞争风险</h3>
+
+<ol>
+<li><strong>门槛高</strong>：transaction、approval hash、SHA-256、ledger 等概念对非工程师不友好——kepano / eugeniughelbur / ballred 学习曲线低得多。</li>
+<li><strong>生态绑 Claude Code</strong>：虽宣称 6+ host，但 <code>.claude-plugin/</code> 是主路径，其它 host 是「兼容」——Cursor/Windsurf 用户可能感知「二等公民」。</li>
+<li><strong>Windows 用户门槛</strong>：fail-closed + WSL 要求会丢失大量 Windows 原生用户。</li>
+<li><strong>缺乏 Obsidian 原生插件形态</strong>：Claudian 那种 IDE 内集成体验是 vault + CLI 模式做不到的。</li>
+</ol>
+
+<h3>生态定位</h3>
+
+<p>claude-obsidian 应被定位为「<strong>AI × Obsidian 写入协议层</strong>」——既不是单一 host 插件（Claudian）、也不是风格规约（kepano）、也不是 prompt 教程（eugeniughelbur / ballred），而是「多 Agent 安全写 vault 的工程基础」。真正的竞合关系：与 kepano 是「规约层 ↔ 协议层」互补关系（kepano 定义风格、claude-obsidian 执行事务）；与 Claudian 是「插件形态 ↔ CLI 协议形态」互补关系（两者甚至可以共存——Claudian 调 claude-obsidian 作为后端写入引擎）。</p>
+
+<h2>套利机会分析</h2>
+
+<ul>
+<li><strong>信息差</strong>：项目热度高（13.4k★）但<strong>工程深度被严重低估</strong>——多数评测把它和 kepano/eugeniughelbur 放一起比较，关注点都在「风格/prompt」层面，<strong>没人讨论它的 transaction 协议</strong>。这是套利窗口。</li>
+<li><strong>技术借鉴</strong>：项目里 5 个 5/5 可迁移性创新（plan-then-apply、worker-draft/orchestrator-apply、trust boundary、honest degradation、capability consent）<strong>应该被写进所有 LLM Agent 工程的 checklist</strong>——任何「AI 帮我做点事」的真实部署都该采用这些 pattern。</li>
+<li><strong>生态位</strong>：填补了「AI × 长期记忆」领域<strong>唯一带事务安全的开源实现</strong>这一空白。同作者矩阵 claude-seo（13.5k★）已经把同套 skill packaging 思路验证成功，claude-obsidian 是这套思路在 PKM 场景的落地。</li>
+<li><strong>趋势判断</strong>：Anthropic / OpenAI 都在把 Agent SDK 标准化，<strong>未来 12-24 个月「AI 写用户数据」的工程需求会指数级增长</strong>，plan-then-apply 协议很可能成为事实标准；现在入场理解是 time-sensitive 套利。</li>
+</ul>
+
+<h2>风险与不足</h2>
+
+<ul>
+<li><strong>学习曲线陡峭</strong>：15 个 skill + 27KB 核心 + 复杂 transaction 流程 → 对非工程师不友好，是其装机量比 kepano 小（13.4k vs 14.9k）的主因。</li>
+<li><strong>Windows 用户门槛</strong>：fail-closed + WSL 要求会丢失大量 Windows 原生用户。</li>
+<li><strong>生态绑定 Claude Code</strong>：虽宣称 6+ host，但主路径仍是 <code>.claude-plugin/</code>，其它 host 是「兼容」而非「平等」——Cursor/Windsurf 用户可能感知「二等公民」。</li>
+<li><strong>缺乏 Obsidian 原生插件形态</strong>：Claudian 那种 IDE 内集成体验（侧边栏对话、内联编辑）是 vault + CLI 模式做不到的。</li>
+<li><strong>社区贡献稀缺</strong>：5 个贡献者、主作者占 94.5%——典型「明星级曝光但单人维护」的 Side Project 困境；67 个 open issues + 71 个 PR 长期积压。</li>
+<li><strong>公开测试覆盖率数据缺失</strong>：tests/ 目录有 hermetic 套件但未公开覆盖率。</li>
+</ul>
+
+<h2>行动建议</h2>
+
+<p><strong>如果你要用它</strong>：</p>
+<ul>
+<li>适用场景：你是 Claude Code / Codex / OpenCode 重度用户 + 有长期 vault 沉淀需求 + 接受 transaction 学习曲线 + 能跑 WSL/macOS/Linux。</li>
+<li>不适用：你只是想要一个轻量 prompt 工作流（选 kepano / eugeniughelbur）；你想要 Obsidian 内 IDE 体验（选 Claudian）；你只用单一 host（选对应 host 的轻量插件）。</li>
+<li>入门路径：先 <code>bin/setup-multi-agent.sh --host claude-code</code> 一键安装 → 用 <code>init</code> 子命令初始化 vault → 从 <code>wiki-mode</code> skill 选 methodology → 用 <code>wiki-query</code> 跑 read-only 验证 → 再尝试 <code>wiki-ingest</code> 走 plan-then-apply。</li>
+</ul>
+
+<p><strong>如果你要学它</strong>：</p>
+<ul>
+<li>必读文件：<code>claude_obsidian/transaction.py</code>（4771 行事务核心）、<code>claude_obsidian/contracts.py</code>（1365 行 capability 三态）、<code>docs/compound-vault-guide.md</code>（架构设计文档）。</li>
+<li>必读 skill：<code>skills/wiki/SKILL.md</code>（init/adopt/diagnose 入口）、<code>skills/wiki/references/operation-transactions.md</code>（plan-then-apply 操作流）。</li>
+<li>必读 hook：<code>hooks/hooks.json</code>（最小契约，只保留 SessionStart|Stop 两个事件，是与 Claude Code 的边界）。</li>
+<li>必读 agent：<code>agents/verifier.md</code>（独立 fresh-context 审查 sub-agent）。</li>
+</ul>
+
+<p><strong>如果你要 fork 它</strong>：</p>
+<ul>
+<li>改进方向 1：补 Windows 原生写入支持（牺牲部分一致性换取用户面）。</li>
+<li>改进方向 2：把 transaction 抽象成独立 Python 包，脱离 Obsidian / vault 概念——让其它 AI × 文件系统场景复用。</li>
+<li>改进方向 3：加 Obsidian 原生插件形态（在 vault + CLI 之外再加 IDE 内集成入口）。</li>
+<li>改进方向 4：补 Obsidian Bases / JSON Canvas 2 的写入支持（目前明确为 reference 而非 source）。</li>
+</ul>
+
+<h3>知识入口</h3>
+
+<table><tbody>
+<tr><td>DeepWiki</td><td>未收录</td></tr>
+<tr><td>Zread.ai</td><td>未收录</td></tr>
+<tr><td>关联论文</td><td>无（无 arXiv 收录）</td></tr>
+<tr><td>在线 Demo</td><td>无（Claude Code 订阅即可用）</td></tr>
+<tr><td>外部深度视角 1</td><td><a href="https://puvaan.dev/posts/building-a-persistent-knowledge-base-for-claude-code">puvaan.dev — Building a Persistent Knowledge Base for Claude Code</a></td></tr>
+<tr><td>外部深度视角 2</td><td><a href="https://newsletter.digital-upstream.com/p/obsidian-claude-ai-how-solo-founders-build-a-second-brain-that-actually-thinks-2026">Digital Upstream 评测</a></td></tr>
+<tr><td>外部深度视角 3</td><td><a href="https://blog.csdn.net/aidoudoulong/article/details/163666931">CSDN 5 项目对比</a></td></tr>
+</tbody></table>
+
+</body>
+</html>

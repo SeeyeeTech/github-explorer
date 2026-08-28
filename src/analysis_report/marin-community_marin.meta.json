@@ -1,0 +1,6 @@
+{
+  "title": "GitHub推荐：Marin 如何把 LLM 训练做成「可复现的科研流程」",
+  "digest": "Stanford CRFM 与 Open Athena 联合推出 LLM 研发全栈框架，以内容寻址 DAG + Open Development 范式把数据/训练/检查点/失败实验完整归档，让 8B/32B 前沿模型可在开源圈被完整复跑。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

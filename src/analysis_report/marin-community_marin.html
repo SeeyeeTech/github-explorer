@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/marin-community/marin">https://github.com/marin-community/marin</a></p></blockquote>
+<h2>一句话总结</h2>
+<p>Stanford CRFM 与 Open Athena 联合推出的 LLM 研发全栈框架——把数据管线、训练配方、检查点、失败实验统一进内容寻址 DAG，让 8B/32B 前沿模型能在开源圈里被完整复跑。</p>
+<h2>值得关注的理由</h2>
+<ul><li><strong>真实反超 OLMo 2 32B</strong>：14/19 基准胜出，已发布的 Marin-32B-Base 是目前公开权重里最完整的&quot;开源 frontier recipe&quot;之一</li><li><strong>Open Development 范式独特</strong>：provenance graph + 失败实验也保留 + name@version 内容寻址——把&quot;Nix 的内容寻址思想&quot;完整迁移到 ML pipeline</li><li><strong>Grug MoE + Muon 优化器</strong>是路线上的&quot;实然差异化&quot;——7 种 EP 后端可热切换、1e22 FLOPs 实测 vs 业界 AdamW + DeepSeek 默认</li></ul>
+<h2>项目展示</h2>
+<blockquote><p>README 与官网均无架构图/训练曲线/demo 截图，技术叙事主要靠 DeepWiki 文本 + Open Athena 博客承载。</p></blockquote>
+<p><a href="https://raw.githubusercontent.com/marin-community/marin/main/docs/design/marin-logo.svg">Marin Logo</a><br/><small>— 类型： hero（项目标识）</small></p>
+<p><a href="https://raw.githubusercontent.com/marin-community/marin/main/docs/design/crfm-rgb.png">Stanford CRFM</a><br/><small>— 类型： screenshot（学术合作方）</small></p>
+<p><a href="https://raw.githubusercontent.com/marin-community/marin/main/docs/design/open-athena.svg">Open Athena</a><br/><small>— 类型： screenshot（主导组织）</small></p>
+<p><a href="https://raw.githubusercontent.com/marin-community/marin/main/docs/design/google-trc.png">Google TPU Research Cloud</a><br/><small>— 类型： architecture（算力赞助方）</small></p>
+<p><a href="https://raw.githubusercontent.com/marin-community/marin/main/docs/design/supporter-sfe.png">Siegel Family Endowment</a><br/><small>— 类型： screenshot（资助方）</small></p>
+<p><a href="https://raw.githubusercontent.com/marin-community/marin/main/docs/design/supporter-schmidt-sciences.svg">Schmidt Sciences</a><br/><small>— 类型： screenshot（资助方）</small></p>
+<h2>项目画像</h2>
+<table><thead><tr><th>维度</th><th>数据</th></tr></thead><tbody><tr><td>GitHub</td><td><a href="https://github.com/marin-community/marin">https://github.com/marin-community/marin</a></td></tr><tr><td>Star / Fork</td><td>2,870 / 237</td></tr><tr><td>代码行数</td><td>624,421（Python 74.5% / JSON 8.1% / HTML 6.8% / Rust 6.2%）</td></tr><tr><td>项目年龄</td><td>51 个月（首次提交 2022-05-23）</td></tr><tr><td>开发阶段</td><td>密集开发（近 30 天 585 commits，月均 300+）</td></tr><tr><td>贡献模式</td><td>核心少数 + 社区（135 贡献者，Top1 David Hall 23.7%）</td></tr><tr><td>热度定位</td><td>中等热度（被低估的潜力股）</td></tr><tr><td>质量评级</td><td>代码 A 文档 A 测试 A CI/CD A 错误处理 A</td></tr></tbody></table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>Open Athena 自比&quot;Bell Labs 式开放基础研究机构&quot;，由 Two Sigma 联合创始人 <strong>David Siegel</strong> 领衔，COO/CSO Jared Crooks；学术侧与 Stanford CRFM 深度合作（Percy Liang 为 #10 贡献者、CRFM logo 出现在 README）；算力由 Google TPU Research Cloud 提供，资助来自 Siegel Family Endowment 与 Schmidt Sciences。Top1 贡献者 David Hall（dlwh）是这个 monorepo 的实际操盘手——他在跨子模块累计 67.8% 的贡献占比，远高于 GitHub 接口显示的 22.8%。</p>
+<h3>问题判断</h3>
+<p>闭源 frontier model 把&quot;开源社区能做的上限&quot;钉死在 OLMo/Pythia 量级。原因不是开源社区没有研究能力，而是 <strong>frontier 训练的工程复杂度跨越了一个阈值</strong>：数据管线、tokenizer、训练配方、超参、检查点散落在不同脚本里；权重 release 时没人能完整复跑 dataset pipeline；学术界既无算力也无全栈框架去撼动 frontier。David Hall 与 Percy Liang 看到了&quot;复现性本身可以成为护城河&quot;——当全流程记录在案、失败实验也被保留，&quot;个人/小团队也能跑 frontier recipe&quot;就从口号变成入场券。</p>
+<h3>解法哲学</h3>
+<p><strong>明确选择</strong>：JAX/Haliax（不是 PyTorch）走 TPU + 多 slice pod；Grug MoE + Muon optimizer（不是 AdamW 默认）押注 orthogonalization 在 large-MLP 上更优；executor 用自研 StepRunner（不再用 Ray Driver）摆脱自定义门槛。</p>
+<p><strong>明确不做什么</strong>：</p>
+<ul><li><strong>不做 backward compatibility</strong>（AGENTS.md 明文 &quot;NO BACKWARD COMPATIBILITY&quot;）——快速演进优先于长期 API 承诺</li><li><strong>不做 ray serve / kubernetes operator</strong>——IAP 鉴权走 GCP IAP，controller pod 不持云凭证；不内置 vLLM/sglang，tpu_inference 是单独栈</li><li><strong>不做&quot;通用 DAG 引擎&quot;</strong>——Marin 的 DAG 是 ML-specific：name@version 显式身份 + fingerprint drift 检查 + recipe adoption（ArtifactStep.adopt），不接外部触发器/cron/event source</li></ul>
+<h3>战略意图</h3>
+<p>短期：Marin-8B/32B 已反超 OLMo 2 32B 14/19 基准，赢得&quot;open-weights 数据 + 训练 + 评估全栈&quot;叙事的首发优势；中期：5e24 FLOPs / 500B+ 参数 MoE + Async RL on TPUs（#6227）+ agent MoE（#7368），从预训练框架跃迁为 post-train + RL + Agent 全栈；长期：Marin Fold / MarinDNA（1B 基因组 LM）/ Samudra（神经海洋模拟器）等外延项目验证&quot;同一栈跑不同 modality&quot;，把开放研究范式从 LLM 推广到任意 foundation model。</p>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<ol><li><strong>内容寻址 + 显式版本双层身份</strong>（新颖 4/5 | 实用 5/5 | 可迁移 5/5）：用户写 name@version 显式版本（可复跑/可发布），底层用 sha256(name, hash_attrs, deps)[:8] 内容寻址（自动缓存）；fingerprint 做 advisory drift check。</li><li><strong>失败实验作为一等公民</strong>（3/4/3）：每一步的输出 + 失败状态都写入 provenance，&quot;失败的实验也是记录的一部分&quot;。</li><li><strong>MoE Quantile Balancing 1e22 FLOPs 验证</strong>（4/5/3）：动态量化专家容量分配，让 expert load 在 32B-A5B 量级实测而非 toy scale 验证——区别于 MegaBlocks/DeepSeek 多在 ≤8B 量级验证。</li><li><strong>Grug MoE 7 EP 后端可热切换</strong>（4/5/3）：MoeImplementation Literal 路由 ring/ragged_all_to_all/fixed/deepep/scatter/sonic/sonic_cute。</li><li><strong>Scaling Laws 外推 300×</strong>（Delphi 3e18 → 1e23 FLOPs）（3/4/3）：用小模型拟合、外推 300× 到 1e23 FLOPs 验证；区别于 Chinchilla 的&quot;训练最优&quot;静态结论。</li><li><strong>Iris controller 用 IAP 鉴权 + GCP Secret 投影</strong>（3/5/4）：controller pod 不持云凭证，gcp-secret:// scheme 由 operator shell 解析后投影进 pod。</li><li><strong>Advisory drift check</strong>（4/5/5）：recipe 配置变化与记录 fingerprint 不一致时只打 warning，并输出字段级 diff（cap 20 行）。</li><li><strong>依赖方向严格单向</strong>（AGENTS.md 强制）（2/5/5）：{iris, haliax} → {levanter, zephyr} → marin，禁止反向依赖；Protocol 解耦、TYPE_CHECKING 禁用。</li></ol>
+<h3>可复用的模式与技巧</h3>
+<ul><li><strong>双层身份（content-addressed + human-versioned）</strong>：ML pipeline 想要&quot;既能复跑、又能复现&quot;的标准解</li><li><strong>Advisory fingerprint drift check</strong>：配置变化不阻塞但显式告警 + 字段级 diff</li><li><strong>显式依赖方向（AGENTS.md 强制分层）</strong>：monorepo 长期演进的工程规范</li><li><strong>content-addressed + Nix 思想</strong>：把构建系统的内容寻址迁移到 ML</li><li><strong>Grug-style 命名 + Literal 路由</strong>：用工具/角色名（&quot;Grug MoE&quot;、&quot;Grug Muon&quot;）作为差异化品牌</li><li><strong>controller 不持云凭证 + IAP + Secret 投影</strong>：K8s 上的长跑 privileged 服务的安全模式</li><li><strong>StepRunner yield 式 DAG</strong>：简单的&quot;DAG 节点 yield 出来即可发射&quot;模式</li></ul>
+<h3>关键设计决策</h3>
+<ul><li><strong>ExecutorStep 双层抽象</strong>（StepSpec 内容寻址 + ArtifactStep 显式版本）：既要&quot;配方变化即缓存失效&quot;，又要&quot;用户可在不重写代码时覆盖版本号复用旧 cache&quot;。Trade-off：身份由双重定义，多了&quot;哪个先到&quot;的判定开销；换来已发布的检查点永远可寻址 + 配方改了不会误命中旧 cache。可迁移性：高。</li><li><strong>放弃 Ray Driver 改用自研 StepRunner</strong>：Ray 的 @ray.remote 资源声明对 ML 工作负载（GPU/TPU 配额、prefix storage 挂载、心跳/lock）不够。Trade-off：失去 Ray actor / serve / placement group 等生态便利；换来 step 控制流可单步追踪、跨 TPU pod 与 GPU 节点一致行为。</li><li><strong>JAX + Haliax（NamedArray）而非 PyTorch</strong>：需要同一栈跑 TPU pod + 多 slice + GPU。Haliax 把 JAX 数组加一层&quot;命名轴&quot;，sharding 用 PartitionSpec 但人能读。Trade-off：JAX 编译时间长、PyTorch 生态（如 vLLM、Triton kernel）需自研；换来 TPU 原生支持 + XLA 编译统一。</li><li><strong>依赖方向严格单向</strong>（AGENTS.md 强制）：monorepo 容易出反向依赖，循环引用让分层失效。强制分层远比口头约定有效。</li></ul>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table><thead><tr><th>维度</th><th>marin-community/marin</th><th>allenai/OLMo</th><th>NVIDIA/Megatron-LM</th><th>DeepSeek-MoE</th><th>Prime Intellect/SYNTHETIC-2</th></tr></thead><tbody><tr><td>Stars</td><td>2,870</td><td>8,000+</td><td>12,000+</td><td>数千</td><td>千级</td></tr><tr><td>主栈</td><td>JAX/Haliax</td><td>PyTorch</td><td>PyTorch+CUDA</td><td>PyTorch+自定义</td><td>PyTorch+分布式</td></tr><tr><td>数据+训练+评估全栈</td><td>✅</td><td>✅</td><td>❌（只训练内核）</td><td>❌（仅 MoE 训练栈）</td><td>⚠️（RL 众包）</td></tr><tr><td>内容寻址缓存/Provenance</td><td>✅</td><td>⚠️（数据透明但无 provenance graph）</td><td>❌</td><td>❌</td><td>❌</td></tr><tr><td>Open Development 范式</td><td>✅（失败实验也保留）</td><td>⚠️（仅&quot;赢的实验&quot;）</td><td>❌</td><td>❌</td><td>⚠️</td></tr><tr><td>TPU 原生</td><td>✅</td><td>❌</td><td>❌</td><td>❌</td><td>❌</td></tr><tr><td>MoE 路线</td><td>Grug（7 EP 后端）+ 1e22 FLOPs 验证</td><td>OLMoE（中等规模）</td><td>Megatron-Core MoE</td><td>DeepSeek-MoE（实战）</td><td>❌</td></tr><tr><td>优化器</td><td>Muon-for-2D + AdamW 自动路由</td><td>AdamW</td><td>AdamW</td><td>AdamW + auxiliary-loss-free</td><td>AdamW</td></tr><tr><td>Async RL on TPU</td><td>在研（#6227）</td><td>❌</td><td>❌</td><td>❌</td><td>✅（GPU 众包）</td></tr></tbody></table>
+<h3>差异化护城河</h3>
+<ol><li><strong>Open Development 范式</strong>——provenance graph + 失败实验记录 + 内容寻址缓存是&quot;文化 + 工程&quot;耦合护城河</li><li><strong>Grug MoE + Muon 优化器</strong>——在 large-MLP / MoE 上的实证结果 vs 业界 AdamW 默认</li><li><strong>跨栈一致性</strong>——同一 StepSpec 既能跑 TPU 多 slice pod，又能跑 GPU 多节点</li><li><strong>Research-to-Recipe 输出</strong>——Delphi / Quantile Balancing / Pretraining Efficiency 等论文直接带可跑 recipe</li></ol>
+<h3>竞争风险</h3>
+<ul><li><strong>JAX 生态风险</strong>（vLLM / sglang / HF Transformers 都在 PyTorch）；Marin 必须自建 inference stack（已部分做了 tpu_inference）</li><li><strong>Iris 自研调度器的运维成本</strong>（K8s operator / controller 都要长期维护）vs Ray 的成熟生态</li><li><strong>5e24 FLOPs MoE 训练能否在公开预算内完成</strong>——与 Google TRC、Siegel、Schmidt 资助依赖度高</li><li><strong>学术界 PyTorch 惯性</strong>——很多研究者不愿迁移到 JAX</li></ul>
+<h3>生态定位</h3>
+<p>&quot;Open Development of Frontier AI&quot;——介于&quot;纯学术研究&quot;与&quot;工业训练&quot;之间，目标群体：想跑 frontier recipe 但无 frontier 算力的实验室 + 想做开放权重的开源贡献者。与 OLMo 是&quot;开放理念盟友 + 技术路线竞争&quot;关系（共享&quot;开放&quot;但 JAX vs PyTorch）；与 Megatron 是&quot;研究/工业&quot;分工；与 DeepSeek-MoE 是&quot;开放 vs 内部产物&quot;对照。</p>
+<h2>套利机会分析</h2>
+<ul><li><strong>信息差</strong>：2870 stars 对应 624k 行代码（Python 74.5%）、135 贡献者、Apache 2.0 + 内容寻址版本化 + 自研 monorepo——是 OLMo 之外少有的&quot;全栈开源前置&quot;框架，但 topics 为空、自述简介偏极简，社区曝光未匹配技术深度</li><li><strong>技术借鉴</strong>：双层身份（content-addressed + human-versioned）可迁移到任何 ML/数据管线；Iris controller IAP + Secret 投影模式可迁移到 K8s 上的 ML 平台</li><li><strong>生态位</strong>：填补&quot;开源 frontier recipe 可被完整复跑&quot;的空白——目前该领域只有 OLMo 和 Marin 两个玩家，而 OLMo 偏 PyTorch/GPU</li><li><strong>趋势判断</strong>：Open Development 范式正获得更多关注（DeepSeek R1 也开始发&quot;完整复现&quot;文档）；Marin 是这个趋势里&quot;工程化最深&quot;的玩家；如果 JAX 生态借 LLM 之势继续扩张，Marin 会有显著后发优势</li></ul>
+<h2>风险与不足</h2>
+<ul><li><strong>JAX 编译时间 + 调试工具链不成熟</strong>：影响日常开发体验，对习惯了 PyTorch eager mode 的研究者不友好</li><li><strong>自研栈运维负担重</strong>：Iris 集群调度器、Zephyr 数据流引擎、Finelog 分布式日志、Dupekit 文本去重（Rust）——任何一个子项目出问题都需要专人维护</li><li><strong>依赖 292 个 runtime + 51 个月演进</strong>：快速演进的代价是 on-ramp 陡峭，新贡献者从零到能合 PR 需要数周</li><li><strong>commit type 分布严重偏向 Other（87.5%）</strong>：仓库 tag 全是 research/... / experiment: ... 语义前缀——本质是&quot;研究日志 + 实验存档&quot;而非软件工程的版本管理，对依赖它做下游集成的人不太友好</li><li><strong>无独立 arXiv 论文</strong>：Marin 8B/32B 模型为内部报告形式，技术细节散落于 Open Athena 博客，学术引用门槛高</li><li><strong>infra/grafana 修改 696 次</strong>：团队&quot;把监控当一等公民&quot;是对的，但说明集群层问题频发，新硬件（GB200/B200）迁移仍是大坑</li></ul>
+<h2>行动建议</h2>
+<ul><li><strong>如果你要用它</strong>：</li><li>想跑 frontier recipe 但无 frontier 算力 → Marin + Google TRC 是当前最优解</li><li>想做 TPU + MoE 训练 → Grug MoE 7 EP 后端值得深入；grugmuon 优化器可直接换</li><li>想做 RL from scratch on TPU → 关注 #6227，#4898（已 closed）可作为参考</li><li><strong>不要在以下场景用</strong>：小规模 PyTorch 实验（HF transformers 更轻）、单节点 GPU 调试（JAX 编译时间会拖慢迭代）、vLLM/sglang 等 inference 优化场景（Marin 自有 tpu_inference 但与 PyTorch 生态不通）</li></ul>
+<ul><li><strong>如果你要学它</strong>：</li><li>必读：lib/marin/src/marin/execution/step_spec.py（双层身份核心）+ lib/marin/src/marin/execution/fingerprint.py（advisory drift check）+ lib/marin/src/marin/execution/step_runner.py（yield 式 DAG）</li><li>必读：lib/iris/src/iris/cluster/controller/scheduling/meta_scheduler.py（constraint-index routing）+ lib/iris/src/iris/cluster/controller/controller.py</li><li>必读：lib/levanter/src/levanter/grug/grug_moe.py + _moe/（Grug MoE 7 后端）+ lib/levanter/src/levanter/optim/grugmuon.py</li><li>必读：AGENTS.md（依赖方向强制约束 + NO BACKWARD COMPAT 文化）</li><li>进阶：lib/zephyr/src/zephyr/plan.py（SQL-like 数据流算子）+ lib/haliax/src/haliax/__init__.py（NamedArray 命名轴）</li></ul>
+<ul><li><strong>如果你要 fork 它</strong>：</li><li><strong>可改进方向 1：PyTorch 后端</strong>——把 Levanter trainer 的部分核心（checkpoint、gradient accumulation）剥离出 JAX 依赖，让 PyTorch 用户也能用 StepSpec + 内容寻址缓存</li><li><strong>可改进方向 2：Inference 优先</strong>——Marin 目前 inference 是 tpu_inference 单独栈，缺少与 PyTorch vLLM/sglang 生态互通的路径；如果补齐这条，学术 PyTorch 用户的迁移门槛会显著降低</li><li><strong>可改进方向 3：CHANGELOG + Conventional Commits</strong>——commit type 87.5% 是 Other，下游集成者很难从 git log 推断 breaking change</li><li><strong>可改进方向 4：单 GPU 调试路径</strong>——JAX 编译时间 + 多 slice pod 假设让单卡贡献者体验差；提供 MARIN_DEV_MODE=local 类似开关可显著降低 on-ramp</li></ul>
+<h3>知识入口</h3>
+<table><thead><tr><th>资源</th><th>链接</th></tr></thead><tbody><tr><td>DeepWiki</td><td><a href="<a href="https://deepwiki.com/marin-community/marin&quot;">https://deepwiki.com/marin-community/marin"</a>><a href="<a href="https://deepwiki.com/marin-community/marin&quot;">https://deepwiki.com/marin-community/marin"</a>><a href="https://deepwiki.com/marin-community/marin">https://deepwiki.com/marin-community/marin</a></a></a></td></tr><tr><td>Zread.ai</td><td>未收录</td></tr><tr><td>关联论文</td><td>无独立 arXiv 论文（Marin 8B/32B 为内部报告形式，技术细节散落于 Open Athena 博客）</td></tr><tr><td>在线 Demo</td><td>无 hosted playground；marin.community 为社区/文档入口</td></tr><tr><td>架构博客</td><td><a href="<a href="https://openathena.ai/blog/&quot;">https://openathena.ai/blog/"</a>>Open Athena Blog</a> — Marin 8B/32B Retrospective、Scaling Laws That Extrapolate 300× Past the Fit (Delphi)、Mixture of Experts Quantile Balancing、Cluster Scheduling with Iris、Improving our LLM Pretraining Efficiency</td></tr></tbody></table>
+</body>
+</html>

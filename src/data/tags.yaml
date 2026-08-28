@@ -83,6 +83,14 @@ entries:
   agentsmd_agents.md:
   - ai-agent
   - ai-coding
+  agricidaniel_claude-obsidian:
+  - ai-agent
+  - ai-coding
+  - editor-kms
+  - database
+  - education
+  - protocol-spec
+  - security
   ahujasid_blender-mcp:
   - video-audio
   - protocol-spec

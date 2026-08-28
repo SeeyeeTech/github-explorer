@@ -1,27 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-08-27",
+    "last_run": "2026-08-28",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/microsoft/agent-governance-toolkit",
-      "canonical_url": "https://github.com/microsoft/agent-governance-toolkit",
-      "event_date": null,
-      "date_seen": "2026-07-28"
-    },
-    {
-      "key": "github.com/huggingface/speech-to-speech",
-      "canonical_url": "https://github.com/huggingface/speech-to-speech",
-      "event_date": null,
-      "date_seen": "2026-07-28"
-    },
-    {
-      "key": "github.com/virgiliojr94/book-to-skill",
-      "canonical_url": "https://github.com/virgiliojr94/book-to-skill",
-      "event_date": null,
-      "date_seen": "2026-07-28"
-    },
     {
       "key": "github.com/different-ai/openwork",
       "canonical_url": "https://github.com/different-ai/openwork",
@@ -933,6 +915,30 @@
       "canonical_url": "https://github.com/anthropics/claude-plugins-official",
       "event_date": "2026-08-25",
       "date_seen": "2026-08-25"
+    },
+    {
+      "key": "github.com/k-dense-ai/scientific-agent-skills",
+      "canonical_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "event_date": "2026-08-28",
+      "date_seen": "2026-08-28"
+    },
+    {
+      "key": "github.com/tt-a1i/archify",
+      "canonical_url": "https://github.com/tt-a1i/archify",
+      "event_date": "2026-08-28",
+      "date_seen": "2026-08-28"
+    },
+    {
+      "key": "github.com/jetbrains/go-modern-guidelines",
+      "canonical_url": "https://github.com/JetBrains/go-modern-guidelines",
+      "event_date": "2026-08-28",
+      "date_seen": "2026-08-28"
+    },
+    {
+      "key": "github.com/composiohq/awesome-claude-skills",
+      "canonical_url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "event_date": "2026-08-28",
+      "date_seen": "2026-08-28"
     }
   ]
 }

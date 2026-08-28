@@ -318,3 +318,4 @@
 {"recorded_at": "2026-08-25T21:28:01.421544+00:00", "slug": "freestylefly_awesome-gpt-image-2", "title": null, "state": "published", "published_at": "2026-08-25", "reason": "自动生成", "ci_run_id": "32900201087"}
 {"recorded_at": "2026-08-25T22:24:15.440076+00:00", "slug": "anthropics_claude-plugins-community", "title": null, "state": "published", "published_at": "2026-08-25", "reason": "自动生成", "ci_run_id": "32905261776"}
 {"recorded_at": "2026-08-27T02:42:56.475945+00:00", "slug": "agricidaniel_claude-obsidian", "title": null, "state": "published", "published_at": "2026-08-27", "reason": "自动生成", "ci_run_id": "33033158293"}
+{"recorded_at": "2026-08-28T08:07:27.427585+00:00", "slug": "dietrichgebert_ponytail", "title": null, "state": "published", "published_at": "2026-08-28", "reason": "自动生成", "ci_run_id": "33153098823"}

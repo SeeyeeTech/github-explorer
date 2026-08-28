@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/dietrichgebert/ponytail">https://github.com/dietrichgebert/ponytail</a></p></blockquote>
+<h2>一句话总结</h2>
+<p>ponytail 是一个把「最厉害的工程师就是少写代码的那位」做成可注入到 14 款 AI 编程 agent 的规则集（ruleset），通过一份共享 SKILL.md + 多平台 thin adapter 的架构，让 Claude Code、Cursor、Codex、Gemini、Grok、Devin、Kiro、Qoder、Windsurf、OpenCode、Cline、Zed、Copilot CLI、pi 在每个会话里都被同一句「先停在该停的那一档」约束。</p>
+<h2>值得关注的理由</h2>
+<ol><li><strong>爆款单点产品，方法论 ≠ 覆盖度</strong>：在 90k stars 的 addyosmani/agent-skills 和 38k stars 的 github/awesome-copilot 把市场塞满的时候，ponytail 凭 6 个 skill + 一份 SKILL.md 拿下 114k stars，说明它卖的不是 skill 数量，而是「锐度」。</li><li><strong>AI 工具自证伪的工程范式</strong>：自建 agentic benchmark，用 --plugin-dir 隔离 + LLM judge + selftest-first + 离线 --rescore，把早期被社区质疑的 80-94% 减码数字主动降级到 54% 并公开，是少数「方法论+评测」一起交付的 agent 工具。</li><li><strong>多平台 plugin 漂移的零依赖解法</strong>：14 个平台 / 5 种 host 适配器共用一份 source-of-truth + INVARIANTS canary linter + version 同步检测，零运行时依赖。这是「跨 N 平台统一一套 LLM 行为」的工业级参考实现。</li></ol>
+<h2>项目展示</h2>
+<p style="text-align:center;margin:1em 0;"><img src="https://raw.githubusercontent.com/dietrichgebert/ponytail/main/assets/logo.png" alt="Ponytail 品牌图" style="max-width:100%;height:auto;"/></p>
+<p>*「Ponytail, the lazy senior dev」— 单图锚定 persona*</p>
+<p style="text-align:center;margin:1em 0;"><img src="https://raw.githubusercontent.com/dietrichgebert/ponytail/main/assets/waitlist-banner.png" alt="Waitlist Banner" style="max-width:100%;height:auto;"/></p>
+<p>*官方 waitlist 营销图，配合 ponytail.dev 的 "Something's coming" 叙事*</p>
+<p style="text-align:center;margin:1em 0;"><img src="https://raw.githubusercontent.com/dietrichgebert/ponytail/main/assets/benchmark-agentic.svg" alt="Benchmark agentic" style="max-width:100%;height:auto;"/></p>
+<p>*Agentic benchmark 全栈结果：LOC 46% / tokens 78% / cost 80% / time 73% 全部最低，safety 100% 保持*</p>
+<p style="text-align:center;margin:1em 0;"><img src="https://raw.githubusercontent.com/dietrichgebert/ponytail/main/assets/benchmark-3model.svg" alt="Benchmark 3-model" style="max-width:100%;height:auto;"/></p>
+<p>*跨 Haiku/Sonnet/Opus 三模型的 LOC 中位数对比，ponytail 优势跨模型稳健*</p>
+<p style="text-align:center;margin:1em 0;"><img src="https://raw.githubusercontent.com/dietrichgebert/ponytail/main/assets/logo-greenpt.svg" alt="GreenPT logo" style="max-width:100%;height:auto;"/></p>
+<p>*相关项目露出（外部合作 / 关联项目品牌）*</p>
+<h2>项目画像</h2>
+<table style="border-collapse:collapse;width:100%;font-size:14px;line-height:1.6;margin:1em 0;">
+<thead><tr>
+<th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;color:#3e3e3e;text-align:left;">维度</th>
+<th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;color:#3e3e3e;text-align:left;">数据</th>
+</tr></thead><tbody>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">GitHub</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;"><a href="https://github.com/dietrichgebert/ponytail">https://github.com/dietrichgebert/ponytail</a></td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">Star / Fork</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">114,505 / 6,258</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">Watcher / Open Issue / Open PR</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">281 / 68 / 108</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">代码行数</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">5,828（JS 56% / Python 34% / SVG 4% / YAML+JSON+其他 6%）</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">依赖</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">0（runtime） / 0（dev），仅子包 ponytail-mcp 用 @modelcontextprotocol/sdk + zod</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">项目年龄</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">2.5 个月（首次提交 2026-06-12）</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">总 commit / 贡献者</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">210 / 70 人（主作者 DietrichGebert 占比 30.2%，社区广度极高）</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">开发阶段</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">密集开发（30 天 commit 已降至 4 个，<strong>爆发后短暂盘整期</strong>）</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">开发模式</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">业余 Side Project（深夜占比 55.7%、周末占比 11%）</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">版本</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">v4.9.0（共 15 个 tag，2.5 月迭代 9 个 minor + 1 个 major）</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">热度定位</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">大众热门</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">质量评级</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">代码[优秀] 文档[优秀] 测试[良好]</td>
+</tr>
+</tbody></table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>Dietrich Gebert 是一位 <strong>沉默多年的独立开发者</strong>。GitHub 账号注册于 2023-06，bio/blog/company/location 全部为 null，账号早期两年几乎不活跃。在 ponytail 之前，他的两个公开仓库（DietrichGebert 12 stars、maxfelker.com fork 2 stars）几乎不投入。2026-06-12，ponytail 立项，2.5 个月内吃下 114k stars，把账号的关注度瞬间拉满——这是典型的「单点爆款型」开发者，账号几乎所有技术权威都绑在 ponytail 这一个项目上。</p>
+<h3>问题判断</h3>
+<p>Dietrich 看到了 AI 编程 agent 的一个普遍病灶：<strong>agent 普遍 over-engineering</strong>——把 1 行能写完的事拆成 20 行，把 5 行能搭的栈扩展到 500 行。早期的实测数据显示，未加约束的 agent baseline 代码量是 ponytail 版本的 2-3 倍，而 80-94% 的减码数字就是 baseline chatty 拉大差距的结果。这是一个被 agent-skills 市场低估的「姿势问题」——不是「做多少」，而是「不做多少」。</p>
+<h3>解法哲学</h3>
+<p>「The best code is the code you never wrote.」这是 ponytail 的座右铭。它的解法哲学是把 30 年资深工程师的口头禅（boring over clever / deletion over addition / pick the correct edge-case option when two stdlib paths are same size）压缩成 120 行可注入文本，封装在 7-rung ladder（存在性 → 复用 → 标准库 → 平台特性 → 已装依赖 → one-liner → 最小代码）里，跨 14 个 agent 平台统一生效。同时引入 <strong>ponytail: &lt;ceiling&gt;, &lt;upgrade path&gt; ceiling-comment</strong> 把「为 lazy 切掉的真实约束」做成可审计的延迟债务——禁止静默删，禁止"以后再说"变成"永远不会说"，而是用 grep 显式审计延迟债务。这是把"less is more"做成无脑默认的 hook 注入，本质上是一种软件工程角度的"Kantian categorical imperative"——任何删改必须能被自己未来扫描并被触发升级。</p>
+<h3>战略意图</h3>
+<p>战略选择清晰：用「单点方法的尖锐度」对抗「覆盖 agent 数竞赛」。ponytail 选择「Only 6 skills total, not 50」，配一个巨大 README 装"works with 20 agents" 的 badge，但底层规则只有一份。landing page ponytail.dev/soon 暗示下一步是从「开源 SKILL.md」向「付费产品/平台」转化——把方法论 IP 转化为 SaaS 形态（waitlist 收集中）。这是开源 + 商业化双轨策略：用 0 依赖、MIT License 的 SKILL.md 占领心智，把 14 平台分发 + LLM judge benchmark + ceiling-comment debt ledger 打包成付费 SKU。</p>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<ol><li><strong>ponytail: ceiling-comment 可审计延迟债务</strong>：每处「为 lazy 切掉的真实约束」必须留特定语法注释；ponytail-debt skill 用 grep 扫成 ledger；写代码与记债务是一笔原子动作。<strong>新颖度 4/5 / 实用性 5/5 / 可迁移性 5/5</strong>——任何「promote shortcuts to tracked tech debt」的场景都适用。</li><li><strong>lite/full/ultra 三档 + 单 SKILL.md 行级标记过滤</strong>：用正则 ^\|\s*\*\*(.+?)\*\*\s*\| + ^-\s*([^:]+):\s*&quot; 把不在当前 mode 的节奏表行和示例行从 SKILL.md 删除；同一份 SKILL.md 对 lite/full/ultra 输出三种不同规则集，避免 3 份独立文件漂移。<strong>新颖度 3/5 / 实用性 5/5 / 可迁移性 5/5</strong>。</li><li><strong>跨 14 平台 Single Source of Truth + INVARIANTS canary + 多 manifest version linter</strong>：scripts/check-rule-copies.js 用 10 条 invariants 锁 7 个平台的规则同步；scripts/check-versions.js 锁 8 份 manifest 版本同步（v4.8.0 bug 的正面回应）。<strong>新颖度 4/5 / 实用性 5/5 / 可迁移性 5/5</strong>——在 N-platform 横分插件领域少见。</li><li><strong>PONYTAIL_SUBAGENT_MATCHER regex 作用域 + fail-open + stdin-timeout 兜底</strong>：把「plugin 规则扩散到子 agent 而不污染只读 agent」做成可配置 + 永不阻塞会话。<strong>新颖度 4/5 / 实用性 5/5 / 可迁移性 5/5</strong>。</li><li><strong>Agentic benchmark with --plugin-dir 隔离 + LLM judge + selftest-first + offline --rescore</strong>：解决 single-shot baseline chatty + plugin hook leak baseline 两大陷坑，5 个独立 arm（baseline / ponytail / caveman / yagni / yagni-oneliner）。<strong>新颖度 4/5 / 实用性 5/5 / 可迁移性 5/5</strong>——社区对 AI 工具 benchmark 的怀疑会越来越多，这是工程范式答案。</li><li><strong>Persona + 极致方法论反「覆盖 agent 数」竞赛</strong>：把「长辫子、椭圆眼镜、待得比 version control 还久、看着 50 行啥也不说然后改成一行的老家伙」作为认知锚，替换抽象描述（"principles-based minimalism"），把方法论变叙事。<strong>新颖度 4/5 / 实用性 4/5 / 可迁移性 5/5</strong>——所有「competitor in a crowded space」的开源工具都该用 persona 做认知差异化。</li><li><strong>statusline nudge once flag（.ponytail-statusline-nudged）</strong>：用文件标记让 setup 提示每次会话只显示一次，避免把 hint 变成 nag。<strong>新颖度 3/5 / 实用性 5/5 / 可迁移性 5/5</strong>。</li></ol>
+<h3>可复用的模式与技巧</h3>
+<ol><li><strong>「thin adapter + 单一 source + invariant canary + version linter」四件套</strong>：所有"跨 N 个 agent 平台统一一套 LLM 行为规范"的项目都应抄这套架构。</li><li><strong>「selftest-first + 实 run + 离线 --rescore」五件套</strong>：任何 "AI 工具效果" 项目都该照搬——避免 single-shot baseline chatty、避免 plugin hook leak baseline、改 scorer 不需要重复花 API 钱。</li><li><strong>File-flag state machine（off|lite|full|ultra + session review）作为 mode source of truth</strong>：用 $CLAUDE_DIR/.ponytail-active 普通文本文件作为 mode 状态机，跨 5 秒 hook timeout + 3 种 host 事件 + 5 种 process env 同步状态。normalizeMode() 第 92-93 行显式 guard review 不能成 default。</li><li><strong>isShellSafe() allowlist 正则嵌入 shell snippet</strong>：/^[A-Za-z0-9 _.\-:/\\~]+$/ 拒绝含 shell metachars 的安装路径，要求用户手装。这是 statusline / launcher snippets 的标准范式——escape 每一个 shell 的 metachars 不如直接禁。</li><li><strong>Hook 自动防 hang</strong>：setTimeout(..., 1000).unref() 兜底 stdin hang（Windows PowerShell if {} 吞噬 stdin JSON 会导致 hook 永久挂起）。所有需要 stdin 同步的 hook 都该抄。</li></ol>
+<h3>关键设计决策</h3>
+<table style="border-collapse:collapse;width:100%;font-size:14px;line-height:1.6;margin:1em 0;">
+<thead><tr>
+<th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;color:#3e3e3e;text-align:left;">决策</th>
+<th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;color:#3e3e3e;text-align:left;">问题</th>
+<th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;color:#3e3e3e;text-align:left;">方案</th>
+<th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;color:#3e3e3e;text-align:left;">Trade-off</th>
+<th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;color:#3e3e3e;text-align:left;">可迁移性</th>
+</tr></thead><tbody>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">一份 SKILL.md + 多 thin adapter 注入 14 平台</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">14 平台规则漂移是默认状态</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">单一 source-of-truth（SKILL.md + ponytail-instructions.js），平台适配只是 host-specific frontmatter + 注入 API；check-rule-copies.js 10 条 invariants 锁同步</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">单点 source 是单点故障；check-versions.js 再为 8 份 version manifest 上保险</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">极高</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">File-flag state machine（off/lite/full/ultra）作为 mode 状态机</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">5 秒 hook timeout + 3 种 host 事件 + 5 种 process env 同步 mode</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">setMode/readMode/clearMode 操作单文件 + 多平台 process env 嗅探（process.env.COPILOT_PLUGIN_DATA / CLAUDE_PLUGIN_ROOT / PLUGIN_DATA / QODER_SESSION_ID）；isShellSafe() allowlist 防止 statusline 注入</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">进程重启会丢 mode（除非 env 或 ~/.config/ponytail/config.json）</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">高</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">升级到 SubagentStart hook + PONYTAIL_SUBAGENT_MATCHER regex 作用域</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">SessionStart context 只到父 thread，子 agent 拿不到 ponytail 人格；同时用户希望保留只读 search agent 不被污染</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">双层 fallback：no matcher → 无 stdin 同步注入（绕开 #443 Windows stdin hang）；matcher set → 读 stdin JSON 拿 agent_type；unparseable → fail-open</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">匹配器需要"宽容"以防 hook crash 阻塞整个会话</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">极高</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">3-level 强度（lite/full/ultra）通过 SKILL.md 行级标记过滤</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">给同一个 persona 三档强度时，传统做法是维护 3 份文件，结果就是漂移</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">filterSkillBodyForMode() 用正则 + - mode: &quot;value&quot; 语法约束；保留单文件、文档化的强度差异</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">增加"规则行的语法约束"——任何新例子必须以 - lite: &quot;...&quot; 形式，否则被吃掉</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">高</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">零运行时依赖 / 零 dev 依赖，但保留 MCP server 子包分层</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">"share-paste prompt" 体验的入门门槛是 14 平台分发的生死线</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">核心 = pure stdlib（Node 12+ fs/path 内建就够）；MCP/pi 拓展作为子包，依赖隔离到 node_modules/ponytail-mcp/ 下</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">无法在不重写的情况下引入 axios / lodash 等现代库</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">高</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">agentic benchmark 用真实 headless Claude Code session + LLM judge + selftest-first</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">single-shot baseline chatty artifact + plugin 注入污染 baseline + "more lines ≠ better" 三个独立陷阱</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">隔离 + selftest-first + --keep workspaces + offline rescore + 5 个独立 arm</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">依赖 Claude CLI 与 --plugin-dir 行为（host 工艺依赖）；bench 跑一次花真钱</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">极高</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">PI 命名 + 「lazy senior dev with ponytail」的人文 persona 作为认知锚</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">90k-star 的 agent-skills 市场，SKILL.md 必须能被记住 + 复制 + 自传播</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">单一具体角色替换抽象描述，把方法论变叙事；"caveman 缩 talk，ponytail 缩 build" 的对照做协作互补 framing</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">persona 会过气（不致命但有保质期）；靠纯方法论 + benchmark 硬数字兜底</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">极高</td>
+</tr>
+</tbody></table>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table style="border-collapse:collapse;width:100%;font-size:14px;line-height:1.6;margin:1em 0;">
+<thead><tr>
+<th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;color:#3e3e3e;text-align:left;">维度</th>
+<th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;color:#3e3e3e;text-align:left;">ponytail</th>
+<th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;color:#3e3e3e;text-align:left;">obra/superpowers</th>
+<th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;color:#3e3e3e;text-align:left;">jnMetaCode/superpowers-zh</th>
+<th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;color:#3e3e3e;text-align:left;">addyosmani/agent-skills</th>
+</tr></thead><tbody>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">Stars</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">114k</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">(spirit ancestor)</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">7.8k</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">90k</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">定位</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">单方法论锐度 + 跨 14 平台统一规则</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">几十个独立 skills（brainstorm/tester/code-reviewer……）</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">superpowers 中文 + 跨 16 agent</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">Marketplace / catalog（数十个 skills）</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">单一 source-of-truth</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">★★★★★（1 份 SKILL.md + invariant linter）</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">★★（多 skill 分散）</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">★★</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">★★</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">Agentic benchmark 自证</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">★★★★★（LLM judge + selftest + offline rescore）</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">无</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">无</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">无</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">Persona 锚定</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">★★★★★（「lazy senior dev」）</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">中</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">中</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">弱</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">跨平台分发</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">★★★★★（14 平台 thin adapter）</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">★★★★（多平台但独立 skill 漂移）</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">★★★★★（16 agent）</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">★★★★</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">零运行时依赖</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">★★★★★</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">不详</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">不详</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">不详</td>
+</tr>
+</tbody></table>
+<h3>差异化护城河</h3>
+<p>ponytail 的护城河不是「agent 数」（这是 superpowers-zh 更强）也不是「skill 数」（superpowers 在此处领先），而是 <strong>「方法论的尖锐度 + agentic benchmark 自我证伪 + ceiling-comment 债务审计」</strong>——三者一体，单独拆开来都比不过专门做该项的工具。这是一种「<strong>用锐度对覆盖</strong>」的策略：Tier 1 走 "more skills = more value" 路线，ponytail 走 "one sharp method = more value" 路线。</p>
+<h3>竞争风险</h3>
+<p>最可能被 <strong>addyosmani/agent-skills（90k stars，Google Addy Osmani 主理）</strong> 替代——如果它未来引入类似 ponytail 的 YAGNI 哲学 skill + cross-platform adapter，将直接吃掉 ponytail 的差异化。其次是 <strong>superpowers-zh</strong>：跨 16 agent 的中文本地化对中文用户群吸引力强，但 benchmark 友好度不如 ponytail。</p>
+<h3>生态定位</h3>
+<p>在整个 AI agent 生态中扮演 <strong>「方法论层」</strong>——不是 framework（LangChain/CrewAI/AutoGen 那一层），不是 skill marketplace（agent-skills 那一层），而是 <strong>「ruleset / prompt overlay」</strong>。换言之：agent framework 决定 agent 能做什么，skill marketplace 决定 agent 能做什么样的事，ponytail 决定 agent 做事的姿势。它填补的是「<strong>AI coding agent 普遍 over-engineering</strong>」这一空白——没人专门治这个。</p>
+<h2>套利机会分析</h2>
+<ul><li><strong>信息差</strong>：低关注度但高质量？ponytail 的 114k stars 已经不「低关注度」，但其<strong>方法论维度</strong>（YAGNI / lazy senior dev）在国内中文社区尚未被广泛讨论——是套利点。</li><li><strong>技术借鉴</strong>：「thin adapter + 单一 source + invariant canary + version linter」的多平台分发模式 + 「selftest-first + 实 run + 离线 rescore」的 AI 工具评测模式，可直接用于任何「跨 N 个 AI agent 平台分发一套规范」的项目。</li><li><strong>生态位</strong>：填补「AI coding agent 普遍 over-engineering」的空白；在 90k stars 的 agent-skills 和 38k stars 的 awesome-copilot 之间，开辟了「<strong>方法论 IP + 多平台分发 + 自证伪 benchmark</strong>」的三位一体生态位。</li><li><strong>趋势判断</strong>：30 天 commit 骤降到 4 个、landing page 是 waitlist 形态，说明项目<strong>当前处于「开源爆发后向 SaaS 转化」的临界点</strong>——短期可能是 SaaS 上线，长期可能引入更多 method 维度（如 ponytail-fast 极致性能版、ponytail-safe 极致安全版）扩展 SKU。</li></ul>
+<h2>风险与不足</h2>
+<ol><li><strong>单人深度依赖</strong>：主作者 DietrichGebert 占 30.2% commits，30 位 GitHub 端贡献者多为一次性 PR；账号其他维度（bio/social/blog）几乎空白——一旦作者失去动力，整个项目进入软死亡。</li><li><strong>30 天 commit 骤降</strong>：210 个 commit 全压在 2.5 个月内，最近 30 天只有 4 commit，已显衰减信号。如果再持续 30-60 天低活跃，可能转为低维护 / 已放弃。</li><li><strong>核心单人作者深夜作业</strong>：深夜占比 55.7% 远超职业项目典型区间（<30%），可持续性存疑。</li><li><strong>缺正式 ARCHITECTURE.md / 数据流图</strong>：仅 docs/agent-portability.md 一份平台映射，缺数据流图，新人 onboarding 成本高。</li><li><strong>缺 ESLint/Prettier/Ruff 配置文件</strong>：hook 用 assert 风格单文件测试，没有 lint 但有重 invariant assertions；缺类型检查（node --check 缺位但 happy-path 跑得到）。</li><li><strong>没 mutation testing</strong>：测试覆盖良好（2125 LOC tests + 154 LOC complete.py + 185 LOC judge.py + 471 LOC run.py + 968 LOC tasks.py），但没 mutation testing。</li><li><strong>自营 benchmark 信任度</strong>：issue #236 暗示社区对自营 benchmark 持怀疑态度，需要持续引入外部独立 bench（KuldeepB19 / RicardoCostaGit）才能完全打消疑虑。</li><li><strong>landing page waitlist 形态可能意味着商业化转型</strong>：开源版可能逐步切到付费 SKU，社区维护承诺存疑。</li></ol>
+<h2>行动建议</h2>
+<ul><li><strong>如果你要用它</strong>：跨 14 平台统一一套「不要 over-engineering」约束时选 ponytail；需要为不同任务 route 到不同 personas（如 brainstorm / tester / code-reviewer）时选 superpowers；想自己挑选要装哪些 skills 时选 addyosmani/agent-skills。</li><li><strong>如果你要学它</strong>：重点关注 ①hooks/ponytail-instructions.js（filterSkillBodyForMode 三档过滤逻辑）；②scripts/check-rule-copies.js（10 条 invariants canary linter）；③benchmarks/agentic/run.py（selftest-first + 隔离 + LLM judge + 离线 rescore）；④docs/agent-portability.md（14 平台映射表）。</li><li><strong>如果你要 fork 它</strong>：可改进方向：①加入 ESLint/Prettier/Ruff 配置 + mutation testing；②补 ARCHITECTURE.md / 数据流图；③引入更多 method 维度（如性能 / 安全 / 可读性 SKU）扩展 persona 库；④把 waitlist 形态的 landing page 提前公开化，消除社区对商业化转型的疑虑。</li></ul>
+<h3>知识入口</h3>
+<table style="border-collapse:collapse;width:100%;font-size:14px;line-height:1.6;margin:1em 0;">
+<thead><tr>
+<th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;color:#3e3e3e;text-align:left;">资源</th>
+<th style="border:1px solid #ddd;padding:8px;background:#f5f5f5;color:#3e3e3e;text-align:left;">链接</th>
+</tr></thead><tbody>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">DeepWiki</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;"><a href="https://deepwiki.com/dietrichgebert/ponytail">https://deepwiki.com/dietrichgebert/ponytail</a>（页面存在但内容 lazy-load 未抓到）</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">Zread.ai</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;"><a href="https://zread.ai/dietrichgebert/ponytail">https://zread.ai/dietrichgebert/ponytail</a>（有完整 entry）</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">关联论文</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">无</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">在线 Demo</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">无独立 demo 链接（__init__.py 可跑本地 demo）</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">自营 benchmark</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">benchmarks/results/2026-06-18-agentic.md（诚实数字）</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">14 平台映射</td>
+<td style="border:1px solid #ddd;padding:8px;color:#3e3e3e;">docs/agent-portability.md</td>
+</tr>
+</tbody></table>
+</body>
+</html>

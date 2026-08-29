@@ -1,7 +1,7 @@
 {
   "https://github.com/1jehuang/jcode": {
-    "stars": 18756,
-    "forks": 2129,
+    "stars": 18784,
+    "forks": 2141,
     "language": "Rust",
     "license": "MIT",
     "age_months": 7.8,
@@ -9,7 +9,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/1panel-dev/maxkb": {
-    "stars": 22640,
+    "stars": 22647,
     "forks": 3126,
     "language": "Python",
     "license": "GPL-3.0",
@@ -18,7 +18,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/3b1b/manim": {
-    "stars": 92154,
+    "stars": 92173,
     "forks": 7592,
     "language": "Python",
     "license": "MIT",
@@ -27,8 +27,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/666ghj/bettafish": {
-    "stars": 42100,
-    "forks": 7629,
+    "stars": 42109,
+    "forks": 7630,
     "language": "Python",
     "license": "GPL-2.0",
     "age_months": 25.9,
@@ -36,8 +36,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/666ghj/mirofish": {
-    "stars": 71683,
-    "forks": 11139,
+    "stars": 71734,
+    "forks": 11144,
     "language": "Python",
     "license": "AGPL-3.0",
     "age_months": 9.1,
@@ -45,8 +45,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/78/xiaozhi-esp32": {
-    "stars": 29404,
-    "forks": 6787,
+    "stars": 29445,
+    "forks": 6790,
     "language": "C++",
     "license": "MIT",
     "age_months": 23.9,
@@ -54,7 +54,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/a16z-infra/ai-town": {
-    "stars": 10405,
+    "stars": 10408,
     "forks": 1176,
     "language": "TypeScript",
     "license": "MIT",
@@ -63,7 +63,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/a2aproject/a2a": {
-    "stars": 25532,
+    "stars": 25543,
     "forks": 2590,
     "language": "Shell",
     "license": "Apache-2.0",
@@ -72,8 +72,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/aaif-goose/goose": {
-    "stars": 53625,
-    "forks": 6132,
+    "stars": 53661,
+    "forks": 6135,
     "language": "Rust",
     "license": "Apache-2.0",
     "age_months": 24.2,
@@ -81,8 +81,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/aandrew-me/ytdownloader": {
-    "stars": 10243,
-    "forks": 909,
+    "stars": 10249,
+    "forks": 908,
     "language": "JavaScript",
     "license": "GPL-3.0",
     "age_months": 49.1,
@@ -90,8 +90,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/abhigyanpatwari/gitnexus": {
-    "stars": 46176,
-    "forks": 5103,
+    "stars": 46387,
+    "forks": 5115,
     "language": "TypeScript",
     "license": null,
     "age_months": 12.9,
@@ -99,8 +99,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/actions/checkout": {
-    "stars": 8776,
-    "forks": 2752,
+    "stars": 8795,
+    "forks": 2755,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 85.3,
@@ -117,8 +117,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/adam-maj/tiny-gpu": {
-    "stars": 12871,
-    "forks": 1240,
+    "stars": 12875,
+    "forks": 1241,
     "language": "SystemVerilog",
     "license": null,
     "age_months": 28.6,
@@ -126,8 +126,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/addyosmani/agent-skills": {
-    "stars": 90530,
-    "forks": 9688,
+    "stars": 90698,
+    "forks": 9706,
     "language": "JavaScript",
     "license": "MIT",
     "age_months": 6.4,
@@ -135,8 +135,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/affaan-m/ecc": {
-    "stars": 243986,
-    "forks": 36903,
+    "stars": 244209,
+    "forks": 36928,
     "language": "JavaScript",
     "license": "MIT",
     "age_months": 7.3,
@@ -144,8 +144,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/affaan-m/everything-claude-code": {
-    "stars": 243986,
-    "forks": 36903,
+    "stars": 244209,
+    "forks": 36928,
     "language": "JavaScript",
     "license": "MIT",
     "age_months": 7.3,
@@ -153,8 +153,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/afkarxyz/spotiflac": {
-    "stars": 10784,
-    "forks": 559,
+    "stars": 10797,
+    "forks": 560,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 19.6,
@@ -162,8 +162,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/agalwood/motrix": {
-    "stars": 54785,
-    "forks": 5005,
+    "stars": 54820,
+    "forks": 5007,
     "language": "TypeScript",
     "license": null,
     "age_months": 92.3,
@@ -171,8 +171,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/agegr/pi-web": {
-    "stars": 5532,
-    "forks": 748,
+    "stars": 5576,
+    "forks": 757,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 5.3,
@@ -180,8 +180,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/agentscope-ai/agentscope": {
-    "stars": 29950,
-    "forks": 3415,
+    "stars": 30043,
+    "forks": 3414,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 31.5,
@@ -189,8 +189,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/agentskills/agentskills": {
-    "stars": 24831,
-    "forks": 1840,
+    "stars": 24857,
+    "forks": 1845,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 8.4,
@@ -198,8 +198,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/agentsmd/agents.md": {
-    "stars": 23970,
-    "forks": 1813,
+    "stars": 23980,
+    "forks": 1815,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 12.3,
@@ -207,8 +207,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/agricidaniel/claude-obsidian": {
-    "stars": 14305,
-    "forks": 1435,
+    "stars": 14347,
+    "forks": 1436,
     "language": "Python",
     "license": "MIT",
     "age_months": 4.7,
@@ -216,8 +216,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/ahujasid/blender-mcp": {
-    "stars": 26436,
-    "forks": 2499,
+    "stars": 26477,
+    "forks": 2504,
     "language": "Python",
     "license": "MIT",
     "age_months": 17.7,
@@ -225,8 +225,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/aidc-ai/pixelle-video": {
-    "stars": 27433,
-    "forks": 3991,
+    "stars": 27467,
+    "forks": 4001,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 9.7,
@@ -234,8 +234,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/aidenybai/react-scan": {
-    "stars": 21813,
-    "forks": 386,
+    "stars": 21815,
+    "forks": 387,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 23.9,
@@ -243,8 +243,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/aider-ai/aider": {
-    "stars": 48560,
-    "forks": 4897,
+    "stars": 48583,
+    "forks": 4900,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 39.7,
@@ -270,8 +270,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/akitaonrails/ai-memory": {
-    "stars": 5085,
-    "forks": 353,
+    "stars": 5126,
+    "forks": 354,
     "language": "Rust",
     "license": "MIT",
     "age_months": 3.3,
@@ -279,8 +279,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/alexzhang13/rlm": {
-    "stars": 5554,
-    "forks": 895,
+    "stars": 5557,
+    "forks": 896,
     "language": "Python",
     "license": "MIT",
     "age_months": 8.3,
@@ -288,8 +288,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/alibaba-nlp/deepresearch": {
-    "stars": 19883,
-    "forks": 1520,
+    "stars": 19888,
+    "forks": 1524,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 19.6,
@@ -297,8 +297,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/alibaba/page-agent": {
-    "stars": 28892,
-    "forks": 2587,
+    "stars": 28902,
+    "forks": 2590,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 11.2,
@@ -306,7 +306,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/alibaba/spring-ai-alibaba": {
-    "stars": 10739,
+    "stars": 10742,
     "forks": 2380,
     "language": "Java",
     "license": "Apache-2.0",
@@ -315,8 +315,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/alibaba/zvec": {
-    "stars": 15532,
-    "forks": 983,
+    "stars": 15537,
+    "forks": 984,
     "language": "C++",
     "license": "Apache-2.0",
     "age_months": 8.8,
@@ -324,8 +324,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/alirezarezvani/claude-skills": {
-    "stars": 25166,
-    "forks": 3563,
+    "stars": 25217,
+    "forks": 3572,
     "language": "Python",
     "license": "MIT",
     "age_months": 10.3,
@@ -333,8 +333,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/alishahryar1/free-claude-code": {
-    "stars": 51210,
-    "forks": 8247,
+    "stars": 51408,
+    "forks": 8280,
     "language": "Python",
     "license": "MIT",
     "age_months": 7.0,
@@ -342,8 +342,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/altic-dev/fluidvoice": {
-    "stars": 11036,
-    "forks": 764,
+    "stars": 11061,
+    "forks": 768,
     "language": "Swift",
     "license": "GPL-3.0",
     "age_months": 11.2,
@@ -360,8 +360,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/andrewyng/aisuite": {
-    "stars": 16198,
-    "forks": 1718,
+    "stars": 16201,
+    "forks": 1720,
     "language": "Python",
     "license": "MIT",
     "age_months": 26.0,
@@ -369,7 +369,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/andyyyy64/whichllm": {
-    "stars": 6511,
+    "stars": 6522,
     "forks": 357,
     "language": "Python",
     "license": "MIT",
@@ -378,8 +378,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/anil-matcha/open-generative-ai": {
-    "stars": 27313,
-    "forks": 4824,
+    "stars": 27360,
+    "forks": 4831,
     "language": "JavaScript",
     "license": "MIT",
     "age_months": 39.7,
@@ -387,8 +387,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/anomalyco/models.dev": {
-    "stars": 6636,
-    "forks": 1561,
+    "stars": 6643,
+    "forks": 1570,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 14.8,
@@ -396,8 +396,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/anomalyco/opencode": {
-    "stars": 202218,
-    "forks": 26260,
+    "stars": 202382,
+    "forks": 26295,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 16.0,
@@ -405,7 +405,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/ansible/ansible": {
-    "stars": 70491,
+    "stars": 70496,
     "forks": 24328,
     "language": "Python",
     "license": "GPL-3.0",
@@ -414,7 +414,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/anthropic-experimental/sandbox-runtime": {
-    "stars": 5087,
+    "stars": 5092,
     "forks": 418,
     "language": "TypeScript",
     "license": "Apache-2.0",
@@ -423,7 +423,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/anthropics/claude-agent-sdk-python": {
-    "stars": 7997,
+    "stars": 8000,
     "forks": 1250,
     "language": "Python",
     "license": "MIT",
@@ -432,8 +432,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/anthropics/claude-code": {
-    "stars": 143314,
-    "forks": 22921,
+    "stars": 143392,
+    "forks": 22930,
     "language": "Python",
     "license": null,
     "age_months": 18.2,
@@ -441,8 +441,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/anthropics/claude-code-action": {
-    "stars": 8747,
-    "forks": 2099,
+    "stars": 8753,
+    "forks": 2103,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 15.3,
@@ -450,8 +450,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/anthropics/claude-cookbooks": {
-    "stars": 52248,
-    "forks": 6235,
+    "stars": 52280,
+    "forks": 6237,
     "language": "Jupyter Notebook",
     "license": "MIT",
     "age_months": 36.5,
@@ -459,8 +459,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/anthropics/claude-plugins-community": {
-    "stars": 2599,
-    "forks": 213,
+    "stars": 2715,
+    "forks": 226,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 5.3,
@@ -468,8 +468,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/anthropics/claude-plugins-official": {
-    "stars": 35061,
-    "forks": 3937,
+    "stars": 35375,
+    "forks": 3957,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 9.3,
@@ -477,8 +477,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/anthropics/claude-quickstarts": {
-    "stars": 17568,
-    "forks": 3025,
+    "stars": 17574,
+    "forks": 3026,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 24.0,
@@ -486,8 +486,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/anthropics/financial-services": {
-    "stars": 34564,
-    "forks": 5154,
+    "stars": 34580,
+    "forks": 5155,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 6.1,
@@ -495,8 +495,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/anthropics/knowledge-work-plugins": {
-    "stars": 23726,
-    "forks": 2866,
+    "stars": 23741,
+    "forks": 2867,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 7.2,
@@ -504,8 +504,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/anthropics/prompt-eng-interactive-tutorial": {
-    "stars": 37827,
-    "forks": 4169,
+    "stars": 37841,
+    "forks": 4171,
     "language": "Jupyter Notebook",
     "license": null,
     "age_months": 28.9,
@@ -513,8 +513,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/anthropics/skills": {
-    "stars": 172299,
-    "forks": 20480,
+    "stars": 172460,
+    "forks": 20492,
     "language": "Python",
     "license": null,
     "age_months": 11.2,
@@ -522,8 +522,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/antirez/ds4": {
-    "stars": 21894,
-    "forks": 2037,
+    "stars": 21911,
+    "forks": 2042,
     "language": "C",
     "license": "MIT",
     "age_months": 3.8,
@@ -531,8 +531,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/apache/maka": {
-    "stars": 3911,
-    "forks": 364,
+    "stars": 4033,
+    "forks": 374,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 3.1,
@@ -540,8 +540,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/apple/container": {
-    "stars": 49487,
-    "forks": 1756,
+    "stars": 49499,
+    "forks": 1758,
     "language": "Swift",
     "license": "Apache-2.0",
     "age_months": 15.0,
@@ -549,8 +549,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/aprilnea/openlogi": {
-    "stars": 17423,
-    "forks": 499,
+    "stars": 17632,
+    "forks": 512,
     "language": "Rust",
     "license": "Apache-2.0",
     "age_months": 3.2,
@@ -558,8 +558,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/aquasecurity/trivy": {
-    "stars": 37679,
-    "forks": 637,
+    "stars": 37690,
+    "forks": 639,
     "language": "Go",
     "license": "Apache-2.0",
     "age_months": 88.6,
@@ -567,8 +567,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/arize-ai/phoenix": {
-    "stars": 11227,
-    "forks": 1081,
+    "stars": 11243,
+    "forks": 1084,
     "language": "Python",
     "license": null,
     "age_months": 45.6,
@@ -576,7 +576,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/asg017/sqlite-vec": {
-    "stars": 8052,
+    "stars": 8056,
     "forks": 348,
     "language": "C",
     "license": "Apache-2.0",
@@ -585,8 +585,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/asgeirtj/system_prompts_leaks": {
-    "stars": 63766,
-    "forks": 10458,
+    "stars": 63799,
+    "forks": 10464,
     "language": "JavaScript",
     "license": "CC0-1.0",
     "age_months": 15.9,
@@ -594,7 +594,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/aspen-cloud/triplit": {
-    "stars": 3110,
+    "stars": 3111,
     "forks": 103,
     "language": "TypeScript",
     "license": "AGPL-3.0",
@@ -603,8 +603,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/astral-sh/ruff": {
-    "stars": 49375,
-    "forks": 2365,
+    "stars": 49385,
+    "forks": 2370,
     "language": "Rust",
     "license": "MIT",
     "age_months": 48.7,
@@ -612,8 +612,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/astral-sh/uv": {
-    "stars": 89203,
-    "forks": 3526,
+    "stars": 89218,
+    "forks": 3529,
     "language": "Rust",
     "license": "Apache-2.0",
     "age_months": 34.9,
@@ -621,8 +621,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/astrbotdevs/astrbot": {
-    "stars": 39738,
-    "forks": 2847,
+    "stars": 39769,
+    "forks": 2851,
     "language": "Python",
     "license": "AGPL-3.0",
     "age_months": 44.7,
@@ -630,8 +630,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/audacity/audacity": {
-    "stars": 17652,
-    "forks": 2616,
+    "stars": 17658,
+    "forks": 2617,
     "language": "C++",
     "license": null,
     "age_months": 137.1,
@@ -639,8 +639,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/automatic1111/stable-diffusion-webui": {
-    "stars": 164709,
-    "forks": 30556,
+    "stars": 164723,
+    "forks": 30557,
     "language": "Python",
     "license": "AGPL-3.0",
     "age_months": 48.2,
@@ -648,8 +648,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/automattic/harper": {
-    "stars": 14774,
-    "forks": 586,
+    "stars": 14792,
+    "forks": 588,
     "language": "Rust",
     "license": "Apache-2.0",
     "age_months": 34.2,
@@ -657,8 +657,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/axios/axios": {
-    "stars": 109192,
-    "forks": 11829,
+    "stars": 109194,
+    "forks": 11830,
     "language": "JavaScript",
     "license": "MIT",
     "age_months": 144.3,
@@ -666,8 +666,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/axorax/awesome-free-apps": {
-    "stars": 7565,
-    "forks": 458,
+    "stars": 7568,
+    "forks": 459,
     "language": "JavaScript",
     "license": null,
     "age_months": 22.1,
@@ -675,8 +675,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/ayghri/i-have-adhd": {
-    "stars": 25363,
-    "forks": 1600,
+    "stars": 25564,
+    "forks": 1609,
     "language": "Python",
     "license": "MIT",
     "age_months": 3.5,
@@ -684,8 +684,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/badlogic/pi-mono": {
-    "stars": 98799,
-    "forks": 12232,
+    "stars": 99073,
+    "forks": 12284,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 12.6,
@@ -693,7 +693,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/badlogic/pi-skills": {
-    "stars": 2447,
+    "stars": 2452,
     "forks": 213,
     "language": "JavaScript",
     "license": "MIT",
@@ -702,8 +702,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/basecamp/omarchy": {
-    "stars": 33615,
-    "forks": 3481,
+    "stars": 34744,
+    "forks": 3566,
     "language": "Shell",
     "license": "MIT",
     "age_months": 14.9,
@@ -711,7 +711,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/beehiveinnovations/zen-mcp-server": {
-    "stars": 11727,
+    "stars": 11728,
     "forks": 1029,
     "language": "Python",
     "license": null,
@@ -720,8 +720,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/better-auth/better-auth": {
-    "stars": 29744,
-    "forks": 2851,
+    "stars": 29752,
+    "forks": 2853,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 27.3,
@@ -729,8 +729,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/black-forest-labs/flux": {
-    "stars": 25923,
-    "forks": 1913,
+    "stars": 25930,
+    "forks": 1914,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 24.9,
@@ -738,8 +738,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/blaizzy/mlx-audio": {
-    "stars": 7800,
-    "forks": 699,
+    "stars": 7803,
+    "forks": 700,
     "language": "Python",
     "license": "MIT",
     "age_months": 21.0,
@@ -747,8 +747,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/blakeblackshear/frigate": {
-    "stars": 35470,
-    "forks": 3536,
+    "stars": 35487,
+    "forks": 3540,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 91.1,
@@ -756,8 +756,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/block/buzz": {
-    "stars": 31315,
-    "forks": 3998,
+    "stars": 31429,
+    "forks": 4017,
     "language": "Rust",
     "license": "Apache-2.0",
     "age_months": 5.8,
@@ -765,8 +765,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/block/goose": {
-    "stars": 53625,
-    "forks": 6132,
+    "stars": 53661,
+    "forks": 6135,
     "language": "Rust",
     "license": "Apache-2.0",
     "age_months": 24.2,
@@ -774,7 +774,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/bloopai/vibe-kanban": {
-    "stars": 27947,
+    "stars": 27952,
     "forks": 2997,
     "language": "Rust",
     "license": "Apache-2.0",
@@ -783,7 +783,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/bobeff/open-source-games": {
-    "stars": 13501,
+    "stars": 13509,
     "forks": 1070,
     "language": "Python",
     "license": "CC0-1.0",
@@ -792,8 +792,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/boundaryml/baml": {
-    "stars": 9088,
-    "forks": 488,
+    "stars": 9096,
+    "forks": 489,
     "language": "Rust",
     "license": "Apache-2.0",
     "age_months": 34.8,
@@ -801,8 +801,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/bradautomates/claude-video": {
-    "stars": 16411,
-    "forks": 1631,
+    "stars": 16462,
+    "forks": 1639,
     "language": "Python",
     "license": "MIT",
     "age_months": 4.2,
@@ -810,8 +810,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/browser-use/browser-use": {
-    "stars": 111589,
-    "forks": 12246,
+    "stars": 111662,
+    "forks": 12251,
     "language": "Python",
     "license": "MIT",
     "age_months": 21.9,
@@ -819,8 +819,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/browser-use/video-use": {
-    "stars": 21547,
-    "forks": 2669,
+    "stars": 21571,
+    "forks": 2671,
     "language": "Python",
     "license": "MIT",
     "age_months": 4.6,
@@ -828,7 +828,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/browserbase/skills": {
-    "stars": 3702,
+    "stars": 3703,
     "forks": 237,
     "language": "JavaScript",
     "license": null,
@@ -837,7 +837,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/browserbase/stagehand": {
-    "stars": 24091,
+    "stars": 24095,
     "forks": 1658,
     "language": "TypeScript",
     "license": "MIT",
@@ -846,8 +846,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/byoungd/english-level-up-tips": {
-    "stars": 61920,
-    "forks": 6273,
+    "stars": 61963,
+    "forks": 6274,
     "language": "JavaScript",
     "license": null,
     "age_months": 111.0,
@@ -855,7 +855,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/bytedance/dolphin": {
-    "stars": 9048,
+    "stars": 9049,
     "forks": 777,
     "language": "Python",
     "license": null,
@@ -864,8 +864,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/bytedance/ui-tars-desktop": {
-    "stars": 38737,
-    "forks": 3914,
+    "stars": 38742,
+    "forks": 3916,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 19.3,
@@ -873,8 +873,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/c4illin/convertx": {
-    "stars": 18621,
-    "forks": 1046,
+    "stars": 18630,
+    "forks": 1045,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "age_months": 28.7,
@@ -882,8 +882,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/cactus-compute/needle": {
-    "stars": 9584,
-    "forks": 613,
+    "stars": 9664,
+    "forks": 622,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 6.1,
@@ -891,8 +891,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/calcom/cal.com": {
-    "stars": 47985,
-    "forks": 14943,
+    "stars": 48013,
+    "forks": 14951,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 65.2,
@@ -900,8 +900,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/calesthio/openmontage": {
-    "stars": 53371,
-    "forks": 6654,
+    "stars": 54024,
+    "forks": 6710,
     "language": "Python",
     "license": "AGPL-3.0",
     "age_months": 5.0,
@@ -918,8 +918,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/cathrynlavery/diagram-design": {
-    "stars": 28335,
-    "forks": 1782,
+    "stars": 28569,
+    "forks": 1806,
     "language": "HTML",
     "license": "MIT",
     "age_months": 4.4,
@@ -927,8 +927,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/chaitanyagiri/munder-difflin": {
-    "stars": 5230,
-    "forks": 630,
+    "stars": 5474,
+    "forks": 656,
     "language": "JavaScript",
     "license": null,
     "age_months": 3.0,
@@ -936,8 +936,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/charmbracelet/glow": {
-    "stars": 27103,
-    "forks": 756,
+    "stars": 27118,
+    "forks": 758,
     "language": "Go",
     "license": "MIT",
     "age_months": 81.8,
@@ -945,8 +945,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/charmbracelet/vhs": {
-    "stars": 20757,
-    "forks": 462,
+    "stars": 20768,
+    "forks": 463,
     "language": "Go",
     "license": "MIT",
     "age_months": 49.3,
@@ -954,8 +954,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/chatwoot/chatwoot": {
-    "stars": 36284,
-    "forks": 8746,
+    "stars": 36297,
+    "forks": 8754,
     "language": "Ruby",
     "license": null,
     "age_months": 84.5,
@@ -972,8 +972,8 @@
     "fetched_at": "2026-08-05"
   },
   "https://github.com/chenglou/pretext": {
-    "stars": 50093,
-    "forks": 2736,
+    "stars": 50106,
+    "forks": 2735,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 5.7,
@@ -981,8 +981,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/chenyme/grok2api": {
-    "stars": 7548,
-    "forks": 2279,
+    "stars": 7552,
+    "forks": 2281,
     "language": "Go",
     "license": "MIT",
     "age_months": 10.6,
@@ -990,8 +990,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/cherryhq/cherry-studio": {
-    "stars": 51205,
-    "forks": 4890,
+    "stars": 51234,
+    "forks": 4892,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "age_months": 27.2,
@@ -999,8 +999,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/chopratejas/headroom": {
-    "stars": 67933,
-    "forks": 5255,
+    "stars": 68006,
+    "forks": 5265,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 7.7,
@@ -1008,8 +1008,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/chrislgarry/apollo-11": {
-    "stars": 72218,
-    "forks": 7986,
+    "stars": 72222,
+    "forks": 7987,
     "language": "Assembly",
     "license": null,
     "age_months": 148.9,
@@ -1017,8 +1017,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/chromedevtools/chrome-devtools-mcp": {
-    "stars": 49988,
-    "forks": 3503,
+    "stars": 50156,
+    "forks": 3518,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 11.6,
@@ -1026,8 +1026,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/cinnamon/kotaemon": {
-    "stars": 25723,
-    "forks": 2150,
+    "stars": 25724,
+    "forks": 2149,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 29.1,
@@ -1035,8 +1035,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/citrolabs/ego-lite": {
-    "stars": 14195,
-    "forks": 727,
+    "stars": 14314,
+    "forks": 734,
     "language": "JavaScript",
     "license": "MIT",
     "age_months": 4.4,
@@ -1044,8 +1044,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/cjackhwang/ds2api": {
-    "stars": 4749,
-    "forks": 1609,
+    "stars": 4751,
+    "forks": 1610,
     "language": "Go",
     "license": "AGPL-3.0",
     "age_months": 7.2,
@@ -1053,8 +1053,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/cjpais/handy": {
-    "stars": 30568,
-    "forks": 2751,
+    "stars": 30637,
+    "forks": 2760,
     "language": "Rust",
     "license": "MIT",
     "age_months": 18.5,
@@ -1062,8 +1062,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/clash-verge-rev/clash-verge-rev": {
-    "stars": 140798,
-    "forks": 10135,
+    "stars": 140971,
+    "forks": 10149,
     "language": "TypeScript",
     "license": "GPL-3.0",
     "age_months": 33.2,
@@ -1071,8 +1071,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/cline/cline": {
-    "stars": 67091,
-    "forks": 7243,
+    "stars": 67129,
+    "forks": 7249,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 25.8,
@@ -1080,8 +1080,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/cloakhq/cloakbrowser": {
-    "stars": 30930,
-    "forks": 2555,
+    "stars": 30947,
+    "forks": 2558,
     "language": "Python",
     "license": "MIT",
     "age_months": 6.2,
@@ -1089,8 +1089,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/clockworklabs/spacetimedb": {
-    "stars": 25081,
-    "forks": 1049,
+    "stars": 25085,
+    "forks": 1051,
     "language": "Rust",
     "license": null,
     "age_months": 38.4,
@@ -1098,8 +1098,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/cloudflare/agents": {
-    "stars": 5497,
-    "forks": 689,
+    "stars": 5499,
+    "forks": 692,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 19.0,
@@ -1107,7 +1107,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/cloudflare/capnweb": {
-    "stars": 3961,
+    "stars": 3962,
     "forks": 142,
     "language": "TypeScript",
     "license": "MIT",
@@ -1116,8 +1116,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/cocoindex-io/cocoindex": {
-    "stars": 11430,
-    "forks": 891,
+    "stars": 11432,
+    "forks": 892,
     "language": "Rust",
     "license": "Apache-2.0",
     "age_months": 17.9,
@@ -1125,8 +1125,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/codebuffai/codebuff": {
-    "stars": 11103,
-    "forks": 1192,
+    "stars": 11179,
+    "forks": 1197,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 25.7,
@@ -1135,7 +1135,7 @@
   },
   "https://github.com/coinbase/x402": {
     "stars": 149,
-    "forks": 192,
+    "forks": 193,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 4.9,
@@ -1143,8 +1143,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/colbymchenry/codegraph": {
-    "stars": 68508,
-    "forks": 4367,
+    "stars": 68597,
+    "forks": 4377,
     "language": "C",
     "license": "MIT",
     "age_months": 7.3,
@@ -1152,8 +1152,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/coleam00/archon": {
-    "stars": 23295,
-    "forks": 3467,
+    "stars": 23305,
+    "forks": 3468,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 18.7,
@@ -1161,8 +1161,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/comfy-org/comfyui": {
-    "stars": 130481,
-    "forks": 15374,
+    "stars": 130619,
+    "forks": 15391,
     "language": "Python",
     "license": "GPL-3.0",
     "age_months": 43.4,
@@ -1170,8 +1170,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/commaai/openpilot": {
-    "stars": 63527,
-    "forks": 11292,
+    "stars": 63530,
+    "forks": 11296,
     "language": "Python",
     "license": "MIT",
     "age_months": 117.1,
@@ -1188,8 +1188,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/composiohq/awesome-claude-skills": {
-    "stars": 73820,
-    "forks": 8457,
+    "stars": 73901,
+    "forks": 8468,
     "language": "Python",
     "license": null,
     "age_months": 10.4,
@@ -1197,8 +1197,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/composiohq/awesome-codex-skills": {
-    "stars": 16096,
-    "forks": 1571,
+    "stars": 16108,
+    "forks": 1573,
     "language": "Python",
     "license": null,
     "age_months": 7.5,
@@ -1206,8 +1206,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/continuedev/continue": {
-    "stars": 35667,
-    "forks": 5297,
+    "stars": 35688,
+    "forks": 5302,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 39.2,
@@ -1215,8 +1215,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/copilotkit/copilotkit": {
-    "stars": 37093,
-    "forks": 4586,
+    "stars": 37105,
+    "forks": 4588,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 38.3,
@@ -1224,8 +1224,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/cordiverse/cordis": {
-    "stars": 7771,
-    "forks": 468,
+    "stars": 7815,
+    "forks": 472,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 51.4,
@@ -1233,8 +1233,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/corebunch/instatic": {
-    "stars": 8283,
-    "forks": 761,
+    "stars": 8294,
+    "forks": 762,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 4.0,
@@ -1242,8 +1242,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/coreyhaines31/marketingskills": {
-    "stars": 45998,
-    "forks": 7189,
+    "stars": 46071,
+    "forks": 7202,
     "language": "JavaScript",
     "license": "MIT",
     "age_months": 7.4,
@@ -1251,8 +1251,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/craft-ai-agents/craft-agents-oss": {
-    "stars": 7127,
-    "forks": 1063,
+    "stars": 7128,
+    "forks": 1062,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 7.3,
@@ -1260,8 +1260,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/crewaiinc/crewai": {
-    "stars": 57763,
-    "forks": 8278,
+    "stars": 57796,
+    "forks": 8283,
     "language": "Python",
     "license": "MIT",
     "age_months": 34.1,
@@ -1269,8 +1269,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/crosstalk-solutions/project-nomad": {
-    "stars": 36365,
-    "forks": 3630,
+    "stars": 36379,
+    "forks": 3631,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 14.2,
@@ -1278,8 +1278,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/cursor/plugins": {
-    "stars": 5978,
-    "forks": 478,
+    "stars": 6158,
+    "forks": 488,
     "language": "TypeScript",
     "license": null,
     "age_months": 7.2,
@@ -1287,8 +1287,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/cypress-io/cypress": {
-    "stars": 51012,
-    "forks": 3647,
+    "stars": 51013,
+    "forks": 3649,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 137.8,
@@ -1296,7 +1296,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/czlonkowski/n8n-mcp": {
-    "stars": 22795,
+    "stars": 22800,
     "forks": 3634,
     "language": "TypeScript",
     "license": "MIT",
@@ -1305,8 +1305,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/d4vinci/scrapling": {
-    "stars": 76977,
-    "forks": 7709,
+    "stars": 77163,
+    "forks": 7735,
     "language": "Python",
     "license": "BSD-3-Clause",
     "age_months": 22.5,
@@ -1314,7 +1314,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/dagger/container-use": {
-    "stars": 4022,
+    "stars": 4023,
     "forks": 201,
     "language": "Go",
     "license": "Apache-2.0",
@@ -1323,8 +1323,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/dair-ai/prompt-engineering-guide": {
-    "stars": 77877,
-    "forks": 8557,
+    "stars": 77885,
+    "forks": 8555,
     "language": "MDX",
     "license": "MIT",
     "age_months": 44.4,
@@ -1332,8 +1332,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/dani-garcia/vaultwarden": {
-    "stars": 66435,
-    "forks": 3161,
+    "stars": 66469,
+    "forks": 3164,
     "language": "Rust",
     "license": "AGPL-3.0",
     "age_months": 102.3,
@@ -1341,7 +1341,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/danielmiessler/fabric": {
-    "stars": 43545,
+    "stars": 43559,
     "forks": 4234,
     "language": "Go",
     "license": "MIT",
@@ -1350,7 +1350,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/danielmiessler/personal_ai_infrastructure": {
-    "stars": 18775,
+    "stars": 18793,
     "forks": 2440,
     "language": "TypeScript",
     "license": "MIT",
@@ -1359,7 +1359,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/datalab-to/chandra": {
-    "stars": 12181,
+    "stars": 12182,
     "forks": 1238,
     "language": "Python",
     "license": "Apache-2.0",
@@ -1368,8 +1368,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/datalab-to/marker": {
-    "stars": 39350,
-    "forks": 2835,
+    "stars": 39369,
+    "forks": 2838,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 34.0,
@@ -1377,8 +1377,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/datawhalechina/easy-vibe": {
-    "stars": 19164,
-    "forks": 1831,
+    "stars": 19175,
+    "forks": 1832,
     "language": "JavaScript",
     "license": null,
     "age_months": 8.0,
@@ -1386,8 +1386,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/datawhalechina/hello-agents": {
-    "stars": 75409,
-    "forks": 9381,
+    "stars": 75476,
+    "forks": 9388,
     "language": "Python",
     "license": null,
     "age_months": 11.7,
@@ -1404,8 +1404,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/davila7/claude-code-templates": {
-    "stars": 30435,
-    "forks": 3442,
+    "stars": 30443,
+    "forks": 3445,
     "language": "Python",
     "license": "MIT",
     "age_months": 13.8,
@@ -1413,8 +1413,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/daytonaio/daytona": {
-    "stars": 71864,
-    "forks": 5649,
+    "stars": 71857,
+    "forks": 5648,
     "language": null,
     "license": null,
     "age_months": 30.7,
@@ -1422,8 +1422,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/dayuanjiang/next-ai-draw-io": {
-    "stars": 35379,
-    "forks": 3801,
+    "stars": 35401,
+    "forks": 3804,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 17.2,
@@ -1431,7 +1431,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/dearva/everywhere": {
-    "stars": 6251,
+    "stars": 6254,
     "forks": 389,
     "language": "C#",
     "license": null,
@@ -1440,7 +1440,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/decoderesearch/circuit-tracer": {
-    "stars": 2896,
+    "stars": 2897,
     "forks": 343,
     "language": "Python",
     "license": "MIT",
@@ -1449,8 +1449,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/decolua/9router": {
-    "stars": 26579,
-    "forks": 4820,
+    "stars": 26631,
+    "forks": 4840,
     "language": "JavaScript",
     "license": "MIT",
     "age_months": 7.8,
@@ -1458,8 +1458,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/deepseek-ai/deepseek-v3": {
-    "stars": 104430,
-    "forks": 16742,
+    "stars": 104437,
+    "forks": 16743,
     "language": "Python",
     "license": "MIT",
     "age_months": 20.1,
@@ -1467,7 +1467,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/deepseek-ai/smallpond": {
-    "stars": 5001,
+    "stars": 5002,
     "forks": 454,
     "language": "Python",
     "license": "MIT",
@@ -1476,8 +1476,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/deusdata/codebase-memory-mcp": {
-    "stars": 41017,
-    "forks": 3337,
+    "stars": 41098,
+    "forks": 3348,
     "language": "C",
     "license": "MIT",
     "age_months": 6.1,
@@ -1485,7 +1485,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/devcaress/guia-entrevistas-de-programacion": {
-    "stars": 8084,
+    "stars": 8087,
     "forks": 1096,
     "language": "MDX",
     "license": "MIT",
@@ -1494,8 +1494,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/devlikeapro/waha": {
-    "stars": 7279,
-    "forks": 1706,
+    "stars": 7284,
+    "forks": 1705,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 70.3,
@@ -1503,7 +1503,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/dgtlmoon/changedetection.io": {
-    "stars": 33396,
+    "stars": 33414,
     "forks": 1979,
     "language": "Python",
     "license": "Apache-2.0",
@@ -1512,7 +1512,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/dicklesworthstone/destructive_command_guard": {
-    "stars": 5861,
+    "stars": 5865,
     "forks": 239,
     "language": "Rust",
     "license": null,
@@ -1521,7 +1521,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/dicklesworthstone/pi_agent_rust": {
-    "stars": 1667,
+    "stars": 1671,
     "forks": 201,
     "language": "Rust",
     "license": null,
@@ -1530,17 +1530,26 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/diegosouzapw/omniroute": {
-    "stars": 57580,
-    "forks": 7928,
+    "stars": 58064,
+    "forks": 8012,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 6.5,
     "description": "Never stop coding. Free MIT AI gateway: one endpoint, 350 providers (90+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 450+ contributors",
     "fetched_at": "2026-08-29"
   },
+  "https://github.com/dietrichgebert/ponytail": {
+    "stars": 116355,
+    "forks": 6350,
+    "language": "JavaScript",
+    "license": "MIT",
+    "age_months": 2.6,
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "fetched_at": "2026-08-29"
+  },
   "https://github.com/different-ai/openwork": {
-    "stars": 23161,
-    "forks": 2296,
+    "stars": 23193,
+    "forks": 2299,
     "language": "TypeScript",
     "license": null,
     "age_months": 7.5,
@@ -1548,8 +1557,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/digitalplatdev/freedomain": {
-    "stars": 196239,
-    "forks": 4249,
+    "stars": 196373,
+    "forks": 4258,
     "language": "Markdown",
     "license": "AGPL-3.0",
     "age_months": 27.0,
@@ -1566,8 +1575,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/dioxuslabs/dioxus": {
-    "stars": 38904,
-    "forks": 1858,
+    "stars": 38907,
+    "forks": 1859,
     "language": "Rust",
     "license": "Apache-2.0",
     "age_months": 67.4,
@@ -1575,8 +1584,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/docling-project/docling": {
-    "stars": 65706,
-    "forks": 4715,
+    "stars": 65726,
+    "forks": 4720,
     "language": "Python",
     "license": "MIT",
     "age_months": 25.7,
@@ -1584,8 +1593,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/dokploy/dokploy": {
-    "stars": 36934,
-    "forks": 2918,
+    "stars": 36958,
+    "forks": 2919,
     "language": "TypeScript",
     "license": null,
     "age_months": 28.3,
@@ -1593,8 +1602,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/donchitos/claude-code-game-studios": {
-    "stars": 24641,
-    "forks": 3527,
+    "stars": 24656,
+    "forks": 3532,
     "language": "Shell",
     "license": "MIT",
     "age_months": 6.5,
@@ -1602,7 +1611,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/done-0/fuck-u-code": {
-    "stars": 7277,
+    "stars": 7276,
     "forks": 329,
     "language": "TypeScript",
     "license": "MIT",
@@ -1611,8 +1620,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/donnemartin/system-design-primer": {
-    "stars": 366594,
-    "forks": 58120,
+    "stars": 366745,
+    "forks": 58128,
     "language": "Python",
     "license": null,
     "age_months": 114.0,
@@ -1620,7 +1629,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/dontizi/rlama": {
-    "stars": 1094,
+    "stars": 1095,
     "forks": 73,
     "language": "Go",
     "license": "Apache-2.0",
@@ -1638,8 +1647,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/dotnet/skills": {
-    "stars": 5282,
-    "forks": 401,
+    "stars": 5292,
+    "forks": 402,
     "language": "C#",
     "license": "MIT",
     "age_months": 6.8,
@@ -1647,8 +1656,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/drawdb-io/drawdb": {
-    "stars": 39302,
-    "forks": 3213,
+    "stars": 39306,
+    "forks": 3212,
     "language": "JavaScript",
     "license": "AGPL-3.0",
     "age_months": 37.5,
@@ -1656,8 +1665,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/drewthomasson/ebook2audiobook": {
-    "stars": 20062,
-    "forks": 1725,
+    "stars": 20064,
+    "forks": 1724,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 31.2,
@@ -1674,8 +1683,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/dyad-sh/dyad": {
-    "stars": 21328,
-    "forks": 2602,
+    "stars": 21333,
+    "forks": 2604,
     "language": "TypeScript",
     "license": null,
     "age_months": 16.6,
@@ -1683,8 +1692,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/earendil-works/pi": {
-    "stars": 98799,
-    "forks": 12232,
+    "stars": 99073,
+    "forks": 12284,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 12.6,
@@ -1692,8 +1701,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/ebookfoundation/free-programming-books": {
-    "stars": 395479,
-    "forks": 66724,
+    "stars": 395546,
+    "forks": 66720,
     "language": "Python",
     "license": "CC-BY-4.0",
     "age_months": 154.6,
@@ -1701,8 +1710,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/edent/supertinyicons": {
-    "stars": 15380,
-    "forks": 966,
+    "stars": 15381,
+    "forks": 965,
     "language": "Python",
     "license": null,
     "age_months": 112.5,
@@ -1710,7 +1719,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/eigent-ai/eigent": {
-    "stars": 15149,
+    "stars": 15159,
     "forks": 1801,
     "language": "TypeScript",
     "license": "Apache-2.0",
@@ -1728,8 +1737,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/elastic/elasticsearch": {
-    "stars": 77877,
-    "forks": 26065,
+    "stars": 77875,
+    "forks": 26064,
     "language": "Java",
     "license": null,
     "age_months": 198.6,
@@ -1737,8 +1746,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/eleutherai/lm-evaluation-harness": {
-    "stars": 13823,
-    "forks": 3522,
+    "stars": 13827,
+    "forks": 3525,
     "language": "Python",
     "license": "MIT",
     "age_months": 72.0,
@@ -1746,7 +1755,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/emcie-co/parlant": {
-    "stars": 18270,
+    "stars": 18271,
     "forks": 1557,
     "language": "Python",
     "license": "Apache-2.0",
@@ -1755,7 +1764,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/ericlbuehler/mistral.rs": {
-    "stars": 7634,
+    "stars": 7636,
     "forks": 689,
     "language": "Rust",
     "license": "MIT",
@@ -1764,8 +1773,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/esengine/deepseek-reasonix": {
-    "stars": 35238,
-    "forks": 2355,
+    "stars": 35240,
+    "forks": 2356,
     "language": "Go",
     "license": "MIT",
     "age_months": 4.3,
@@ -1774,7 +1783,7 @@
   },
   "https://github.com/eslint/eslint": {
     "stars": 27489,
-    "forks": 5174,
+    "forks": 5176,
     "language": "JavaScript",
     "license": "MIT",
     "age_months": 158.0,
@@ -1782,8 +1791,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/evershopcommerce/evershop": {
-    "stars": 10428,
-    "forks": 2408,
+    "stars": 10429,
+    "forks": 2409,
     "language": "TypeScript",
     "license": "GPL-3.0",
     "age_months": 63.8,
@@ -1791,8 +1800,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/every-app/open-seo": {
-    "stars": 14212,
-    "forks": 1700,
+    "stars": 14610,
+    "forks": 1753,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 6.0,
@@ -1800,8 +1809,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/everyinc/compound-engineering-plugin": {
-    "stars": 24657,
-    "forks": 2028,
+    "stars": 24672,
+    "forks": 2031,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 10.6,
@@ -1809,8 +1818,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/evomap/evolver": {
-    "stars": 9015,
-    "forks": 839,
+    "stars": 9019,
+    "forks": 840,
     "language": "JavaScript",
     "license": "GPL-3.0",
     "age_months": 6.9,
@@ -1818,8 +1827,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/exo-explore/exo": {
-    "stars": 47123,
-    "forks": 3470,
+    "stars": 47137,
+    "forks": 3475,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 26.1,
@@ -1827,7 +1836,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/eyaltoledano/claude-task-master": {
-    "stars": 28031,
+    "stars": 28036,
     "forks": 2628,
     "language": "JavaScript",
     "license": null,
@@ -1836,8 +1845,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/f/prompts.chat": {
-    "stars": 168125,
-    "forks": 21686,
+    "stars": 168175,
+    "forks": 21683,
     "language": "HTML",
     "license": null,
     "age_months": 44.8,
@@ -1845,8 +1854,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/facebook/astryx": {
-    "stars": 12558,
-    "forks": 1069,
+    "stars": 12587,
+    "forks": 1071,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 7.6,
@@ -1854,8 +1863,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/facebookresearch/sam2": {
-    "stars": 19777,
-    "forks": 2537,
+    "stars": 19778,
+    "forks": 2536,
     "language": "Jupyter Notebook",
     "license": "Apache-2.0",
     "age_months": 25.0,
@@ -1863,7 +1872,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/facebookresearch/xformers": {
-    "stars": 10544,
+    "stars": 10543,
     "forks": 786,
     "language": "Python",
     "license": null,
@@ -1872,7 +1881,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/fareedkhan-dev/train-llm-from-scratch": {
-    "stars": 9472,
+    "stars": 9483,
     "forks": 1312,
     "language": "Python",
     "license": "MIT",
@@ -1881,8 +1890,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/farion1231/cc-switch": {
-    "stars": 129940,
-    "forks": 8912,
+    "stars": 130086,
+    "forks": 8922,
     "language": "Rust",
     "license": "MIT",
     "age_months": 12.8,
@@ -1890,8 +1899,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/fincept-corporation/finceptterminal": {
-    "stars": 30752,
-    "forks": 4347,
+    "stars": 30792,
+    "forks": 4349,
     "language": "C++",
     "license": null,
     "age_months": 24.0,
@@ -1899,8 +1908,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/firecrawl/firecrawl": {
-    "stars": 173680,
-    "forks": 9563,
+    "stars": 174041,
+    "forks": 9574,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "age_months": 28.4,
@@ -1908,8 +1917,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/firecrawl/pdf-inspector": {
-    "stars": 16840,
-    "forks": 1168,
+    "stars": 16885,
+    "forks": 1172,
     "language": "Rust",
     "license": "MIT",
     "age_months": 6.7,
@@ -1917,8 +1926,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/fission-ai/openspec": {
-    "stars": 66579,
-    "forks": 4584,
+    "stars": 66642,
+    "forks": 4588,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 12.8,
@@ -1926,7 +1935,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/flowiseai/flowise": {
-    "stars": 55401,
+    "stars": 55399,
     "forks": 24963,
     "language": "TypeScript",
     "license": null,
@@ -1935,8 +1944,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/flowseal/zapret-discord-youtube": {
-    "stars": 32638,
-    "forks": 2508,
+    "stars": 32672,
+    "forks": 2509,
     "language": "Batchfile",
     "license": null,
     "age_months": 22.7,
@@ -1944,8 +1953,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/forrestchang/andrej-karpathy-skills": {
-    "stars": 208430,
-    "forks": 21234,
+    "stars": 208651,
+    "forks": 21251,
     "language": null,
     "license": null,
     "age_months": 7.0,
@@ -1953,7 +1962,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/fosowl/agenticseek": {
-    "stars": 27055,
+    "stars": 27061,
     "forks": 3025,
     "language": "Python",
     "license": "GPL-3.0",
@@ -1962,8 +1971,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/frappe/erpnext": {
-    "stars": 38615,
-    "forks": 12636,
+    "stars": 38646,
+    "forks": 12644,
     "language": "Python",
     "license": "GPL-3.0",
     "age_months": 182.7,
@@ -1971,8 +1980,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/free-tv/iptv": {
-    "stars": 20062,
-    "forks": 2898,
+    "stars": 20077,
+    "forks": 2899,
     "language": "Python",
     "license": null,
     "age_months": 64.5,
@@ -1980,8 +1989,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/freecodecamp/freecodecamp": {
-    "stars": 454753,
-    "forks": 46071,
+    "stars": 454799,
+    "forks": 46075,
     "language": "TypeScript",
     "license": "BSD-3-Clause",
     "age_months": 140.1,
@@ -1989,8 +1998,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/freestylefly/awesome-gpt-image-2": {
-    "stars": 24325,
-    "forks": 2403,
+    "stars": 25042,
+    "forks": 2458,
     "language": "JavaScript",
     "license": "MIT",
     "age_months": 4.1,
@@ -1998,8 +2007,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/fujiwarachoki/moneyprinterv2": {
-    "stars": 31677,
-    "forks": 3417,
+    "stars": 31685,
+    "forks": 3418,
     "language": "Python",
     "license": "AGPL-3.0",
     "age_months": 30.5,
@@ -2007,8 +2016,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/gar-b-age/cooklikehoc": {
-    "stars": 24506,
-    "forks": 2391,
+    "stars": 24514,
+    "forks": 2390,
     "language": "Dockerfile",
     "license": null,
     "age_months": 28.6,
@@ -2016,8 +2025,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/garrytan/gstack": {
-    "stars": 130229,
-    "forks": 19584,
+    "stars": 130338,
+    "forks": 19601,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 5.6,
@@ -2025,8 +2034,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/geeeekexplorer/nano-vllm": {
-    "stars": 15204,
-    "forks": 2529,
+    "stars": 15218,
+    "forks": 2533,
     "language": "Python",
     "license": "MIT",
     "age_months": 14.7,
@@ -2043,8 +2052,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/getzep/graphiti": {
-    "stars": 30386,
-    "forks": 3083,
+    "stars": 30400,
+    "forks": 3085,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 24.7,
@@ -2052,8 +2061,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/ggml-org/ggml": {
-    "stars": 15252,
-    "forks": 1795,
+    "stars": 15258,
+    "forks": 1798,
     "language": "C++",
     "license": "MIT",
     "age_months": 47.3,
@@ -2061,8 +2070,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/ggml-org/llama.cpp": {
-    "stars": 126124,
-    "forks": 22358,
+    "stars": 126251,
+    "forks": 22429,
     "language": "C++",
     "license": "MIT",
     "age_months": 41.7,
@@ -2070,8 +2079,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/ghostty-org/ghostty": {
-    "stars": 60393,
-    "forks": 3360,
+    "stars": 60431,
+    "forks": 3363,
     "language": "Zig",
     "license": "MIT",
     "age_months": 53.0,
@@ -2079,8 +2088,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/gibsonai/memori": {
-    "stars": 16261,
-    "forks": 3263,
+    "stars": 16266,
+    "forks": 3267,
     "language": "Python",
     "license": null,
     "age_months": 13.2,
@@ -2088,8 +2097,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/gin-gonic/gin": {
-    "stars": 89129,
-    "forks": 8682,
+    "stars": 89139,
+    "forks": 8683,
     "language": "Go",
     "license": "MIT",
     "age_months": 146.4,
@@ -2097,7 +2106,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/git-bug/git-bug": {
-    "stars": 10017,
+    "stars": 10018,
     "forks": 317,
     "language": "Go",
     "license": "GPL-3.0",
@@ -2106,8 +2115,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/gitbutlerapp/gitbutler": {
-    "stars": 21586,
-    "forks": 1012,
+    "stars": 21588,
+    "forks": 1013,
     "language": "Rust",
     "license": null,
     "age_months": 42.9,
@@ -2115,7 +2124,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/github/copilot-sdk": {
-    "stars": 10439,
+    "stars": 10441,
     "forks": 1421,
     "language": "Java",
     "license": "MIT",
@@ -2124,8 +2133,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/github/gh-aw": {
-    "stars": 5031,
-    "forks": 514,
+    "stars": 5042,
+    "forks": 526,
     "language": "Go",
     "license": "MIT",
     "age_months": 12.5,
@@ -2133,8 +2142,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/github/spec-kit": {
-    "stars": 132064,
-    "forks": 11871,
+    "stars": 132181,
+    "forks": 11895,
     "language": "Python",
     "license": "MIT",
     "age_months": 12.3,
@@ -2142,8 +2151,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/goauthentik/authentik": {
-    "stars": 25221,
-    "forks": 1972,
+    "stars": 25238,
+    "forks": 1975,
     "language": "Python",
     "license": null,
     "age_months": 80.0,
@@ -2151,7 +2160,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/google-ai-edge/litert-lm": {
-    "stars": 6313,
+    "stars": 6319,
     "forks": 701,
     "language": "C++",
     "license": "Apache-2.0",
@@ -2160,8 +2169,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/google-gemini/gemini-cli": {
-    "stars": 106733,
-    "forks": 14497,
+    "stars": 106741,
+    "forks": 14505,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 16.4,
@@ -2169,8 +2178,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/google-labs-code/design.md": {
-    "stars": 27577,
-    "forks": 2288,
+    "stars": 27595,
+    "forks": 2286,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 4.6,
@@ -2178,8 +2187,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/google-research/timesfm": {
-    "stars": 28292,
-    "forks": 2767,
+    "stars": 28309,
+    "forks": 2769,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 28.0,
@@ -2187,8 +2196,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/google/adk-go": {
-    "stars": 8719,
-    "forks": 981,
+    "stars": 8721,
+    "forks": 983,
     "language": "Go",
     "license": "Apache-2.0",
     "age_months": 15.8,
@@ -2196,8 +2205,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/google/googletest": {
-    "stars": 39186,
-    "forks": 10873,
+    "stars": 39309,
+    "forks": 10877,
     "language": "C++",
     "license": "BSD-3-Clause",
     "age_months": 133.0,
@@ -2205,7 +2214,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/google/guava": {
-    "stars": 51896,
+    "stars": 51895,
     "forks": 11194,
     "language": "Java",
     "license": "Apache-2.0",
@@ -2214,8 +2223,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/google/langextract": {
-    "stars": 38501,
-    "forks": 2707,
+    "stars": 38504,
+    "forks": 2705,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 13.7,
@@ -2223,7 +2232,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/google/magika": {
-    "stars": 17982,
+    "stars": 17983,
     "forks": 1121,
     "language": "Python",
     "license": "Apache-2.0",
@@ -2232,8 +2241,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/google/skills": {
-    "stars": 18929,
-    "forks": 1521,
+    "stars": 18970,
+    "forks": 1527,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 5.0,
@@ -2241,7 +2250,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/google/tunix": {
-    "stars": 2419,
+    "stars": 2421,
     "forks": 340,
     "language": "Python",
     "license": "Apache-2.0",
@@ -2250,8 +2259,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/googlecloudplatform/generative-ai": {
-    "stars": 17635,
-    "forks": 4426,
+    "stars": 17639,
+    "forks": 4429,
     "language": "Jupyter Notebook",
     "license": "Apache-2.0",
     "age_months": 39.8,
@@ -2259,7 +2268,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/googleworkspace/cli": {
-    "stars": 30628,
+    "stars": 30639,
     "forks": 1796,
     "language": "Rust",
     "license": "Apache-2.0",
@@ -2269,7 +2278,7 @@
   },
   "https://github.com/gorvgoyl/clone-wars": {
     "stars": 36665,
-    "forks": 3313,
+    "forks": 3312,
     "language": null,
     "license": "AGPL-3.0",
     "age_months": 68.9,
@@ -2277,8 +2286,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/graphify-labs/graphify": {
-    "stars": 112030,
-    "forks": 10886,
+    "stars": 112283,
+    "forks": 10929,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 4.9,
@@ -2286,8 +2295,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/greydgl/pentestgpt": {
-    "stars": 15127,
-    "forks": 2639,
+    "stars": 15139,
+    "forks": 2638,
     "language": "Python",
     "license": "MIT",
     "age_months": 42.0,
@@ -2295,8 +2304,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/hacksider/deep-live-cam": {
-    "stars": 96187,
-    "forks": 14033,
+    "stars": 96190,
+    "forks": 14035,
     "language": "Python",
     "license": "AGPL-3.0",
     "age_months": 35.2,
@@ -2304,8 +2313,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/hailtododongo/pyrite64": {
-    "stars": 3238,
-    "forks": 142,
+    "stars": 3240,
+    "forks": 143,
     "language": "C++",
     "license": "MIT",
     "age_months": 11.2,
@@ -2313,8 +2322,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/handsonllm/hands-on-large-language-models": {
-    "stars": 28722,
-    "forks": 6592,
+    "stars": 28740,
+    "forks": 6595,
     "language": "Jupyter Notebook",
     "license": "Apache-2.0",
     "age_months": 26.0,
@@ -2322,8 +2331,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/handy-computer/transcribe.cpp": {
-    "stars": 1852,
-    "forks": 93,
+    "stars": 1854,
+    "forks": 94,
     "language": "C++",
     "license": "MIT",
     "age_months": 4.7,
@@ -2331,8 +2340,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/happier-dev/happier": {
-    "stars": 1533,
-    "forks": 137,
+    "stars": 1585,
+    "forks": 140,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 8.4,
@@ -2340,8 +2349,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/hardikpandya/stop-slop": {
-    "stars": 16533,
-    "forks": 1187,
+    "stars": 16564,
+    "forks": 1191,
     "language": null,
     "license": "MIT",
     "age_months": 7.6,
@@ -2349,8 +2358,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/harry0703/moneyprinterturbo": {
-    "stars": 118188,
-    "forks": 18002,
+    "stars": 118470,
+    "forks": 18086,
     "language": "Python",
     "license": "MIT",
     "age_months": 29.6,
@@ -2358,7 +2367,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/harvard-edge/cs249r_book": {
-    "stars": 28049,
+    "stars": 28053,
     "forks": 3538,
     "language": "Python",
     "license": null,
@@ -2367,8 +2376,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/hasaneyldrm/exercises-dataset": {
-    "stars": 21069,
-    "forks": 2659,
+    "stars": 21089,
+    "forks": 2663,
     "language": "HTML",
     "license": null,
     "age_months": 5.4,
@@ -2376,8 +2385,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/hashicorp/terraform": {
-    "stars": 49562,
-    "forks": 10614,
+    "stars": 49571,
+    "forks": 10616,
     "language": "Go",
     "license": null,
     "age_months": 149.5,
@@ -2385,7 +2394,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/hashicorp/vault": {
-    "stars": 36183,
+    "stars": 36186,
     "forks": 4746,
     "language": "Go",
     "license": null,
@@ -2394,8 +2403,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/hehonghui/awesome-english-ebooks": {
-    "stars": 35578,
-    "forks": 2969,
+    "stars": 35621,
+    "forks": 2973,
     "language": "CSS",
     "license": null,
     "age_months": 50.0,
@@ -2403,7 +2412,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/henryndubuaku/maths-cs-ai-compendium": {
-    "stars": 7377,
+    "stars": 7379,
     "forks": 903,
     "language": "TypeScript",
     "license": "Apache-2.0",
@@ -2412,8 +2421,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/hesreallyhim/awesome-claude-code": {
-    "stars": 53146,
-    "forks": 4633,
+    "stars": 53186,
+    "forks": 4638,
     "language": "Python",
     "license": null,
     "age_months": 16.3,
@@ -2421,8 +2430,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/hkuds/ai-trader": {
-    "stars": 21788,
-    "forks": 3315,
+    "stars": 21836,
+    "forks": 3323,
     "language": "Python",
     "license": null,
     "age_months": 10.2,
@@ -2430,8 +2439,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/hkuds/cli-anything": {
-    "stars": 48528,
-    "forks": 4503,
+    "stars": 48599,
+    "forks": 4508,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 5.7,
@@ -2439,8 +2448,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/hkuds/deepcode": {
-    "stars": 16443,
-    "forks": 2146,
+    "stars": 16448,
+    "forks": 2148,
     "language": "Python",
     "license": "MIT",
     "age_months": 15.5,
@@ -2448,7 +2457,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/hkuds/lightrag": {
-    "stars": 39256,
+    "stars": 39262,
     "forks": 5521,
     "language": "Python",
     "license": "MIT",
@@ -2457,8 +2466,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/hkuds/rag-anything": {
-    "stars": 23096,
-    "forks": 2678,
+    "stars": 23105,
+    "forks": 2677,
     "language": "Python",
     "license": "MIT",
     "age_months": 14.8,
@@ -2466,8 +2475,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/hkuds/vibe-trading": {
-    "stars": 31982,
-    "forks": 5220,
+    "stars": 32056,
+    "forks": 5230,
     "language": "Python",
     "license": "MIT",
     "age_months": 4.9,
@@ -2476,7 +2485,7 @@
   },
   "https://github.com/hmbown/deepseek-tui": {
     "stars": 40863,
-    "forks": 3541,
+    "forks": 3539,
     "language": "Rust",
     "license": "MIT",
     "age_months": 7.3,
@@ -2484,7 +2493,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/home-assistant/core": {
-    "stars": 90168,
+    "stars": 90178,
     "forks": 38428,
     "language": "Python",
     "license": "Apache-2.0",
@@ -2493,8 +2502,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/home-assistant/home-assistant.io": {
-    "stars": 9747,
-    "forks": 8501,
+    "stars": 9748,
+    "forks": 8505,
     "language": "HTML",
     "license": null,
     "age_months": 140.2,
@@ -2502,8 +2511,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/hoppscotch/hoppscotch": {
-    "stars": 80114,
-    "forks": 6060,
+    "stars": 80116,
+    "forks": 6063,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 84.3,
@@ -2511,7 +2520,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/hqarroum/docker-android": {
-    "stars": 7247,
+    "stars": 7249,
     "forks": 558,
     "language": "Shell",
     "license": "MIT",
@@ -2520,8 +2529,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/hsliuping/tradingagents-cn": {
-    "stars": 31433,
-    "forks": 6609,
+    "stars": 31450,
+    "forks": 6610,
     "language": "Python",
     "license": null,
     "age_months": 14.1,
@@ -2529,8 +2538,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/huggingface/chat-ui": {
-    "stars": 10917,
-    "forks": 1668,
+    "stars": 10919,
+    "forks": 1670,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 42.3,
@@ -2538,8 +2547,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/huggingface/diffusers": {
-    "stars": 34403,
-    "forks": 7273,
+    "stars": 34404,
+    "forks": 7276,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 51.0,
@@ -2547,7 +2556,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/huggingface/ml-intern": {
-    "stars": 10753,
+    "stars": 10755,
     "forks": 1172,
     "language": "Python",
     "license": "Apache-2.0",
@@ -2556,8 +2565,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/huggingface/open-r1": {
-    "stars": 26447,
-    "forks": 2445,
+    "stars": 26446,
+    "forks": 2444,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 19.1,
@@ -2565,7 +2574,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/huggingface/skills": {
-    "stars": 10981,
+    "stars": 10986,
     "forks": 737,
     "language": "Python",
     "license": "Apache-2.0",
@@ -2574,8 +2583,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/huggingface/smolagents": {
-    "stars": 29038,
-    "forks": 2901,
+    "stars": 29042,
+    "forks": 2904,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 20.8,
@@ -2583,8 +2592,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/huggingface/speech-to-speech": {
-    "stars": 12919,
-    "forks": 1600,
+    "stars": 12934,
+    "forks": 1602,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 24.7,
@@ -2592,8 +2601,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/huggingface/transformers": {
-    "stars": 164584,
-    "forks": 34400,
+    "stars": 164614,
+    "forks": 34386,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 94.0,
@@ -2601,7 +2610,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/humanlayer/humanlayer": {
-    "stars": 11348,
+    "stars": 11354,
     "forks": 944,
     "language": "TypeScript",
     "license": null,
@@ -2610,8 +2619,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/iam-veeramalla/aws-devops-zero-to-hero": {
-    "stars": 11450,
-    "forks": 15559,
+    "stars": 11456,
+    "forks": 15562,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 38.3,
@@ -2619,8 +2628,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/icewhaletech/casaos": {
-    "stars": 37150,
-    "forks": 2193,
+    "stars": 37160,
+    "forks": 2194,
     "language": "Go",
     "license": "Apache-2.0",
     "age_months": 59.1,
@@ -2628,7 +2637,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/illuin-tech/colpali": {
-    "stars": 2801,
+    "stars": 2802,
     "forks": 262,
     "language": "Python",
     "license": "MIT",
@@ -2637,8 +2646,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/imbad0202/academic-research-skills": {
-    "stars": 44096,
-    "forks": 3498,
+    "stars": 44177,
+    "forks": 3503,
     "language": "Python",
     "license": null,
     "age_months": 6.0,
@@ -2646,8 +2655,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/immich-app/immich": {
-    "stars": 112887,
-    "forks": 6748,
+    "stars": 112932,
+    "forks": 6757,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "age_months": 54.8,
@@ -2655,8 +2664,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/imthenachoman/how-to-secure-a-linux-server": {
-    "stars": 30315,
-    "forks": 2025,
+    "stars": 30318,
+    "forks": 2026,
     "language": null,
     "license": "CC-BY-SA-4.0",
     "age_months": 90.6,
@@ -2664,8 +2673,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/infiniflow/ragflow": {
-    "stars": 89542,
-    "forks": 10548,
+    "stars": 89596,
+    "forks": 10561,
     "language": "Go",
     "license": "Apache-2.0",
     "age_months": 32.6,
@@ -2673,8 +2682,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/infisical/infisical": {
-    "stars": 29012,
-    "forks": 2225,
+    "stars": 29022,
+    "forks": 2227,
     "language": "TypeScript",
     "license": null,
     "age_months": 48.8,
@@ -2682,8 +2691,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/influxdata/telegraf": {
-    "stars": 17776,
-    "forks": 5838,
+    "stars": 17779,
+    "forks": 5837,
     "language": "Go",
     "license": "MIT",
     "age_months": 136.9,
@@ -2691,7 +2700,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/inkonchain/docs": {
-    "stars": 36516,
+    "stars": 36515,
     "forks": 479,
     "language": "MDX",
     "license": null,
@@ -2700,8 +2709,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/insforge/insforge": {
-    "stars": 12793,
-    "forks": 1165,
+    "stars": 12820,
+    "forks": 1167,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 13.0,
@@ -2709,8 +2718,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/instructkr/claude-code": {
-    "stars": 195137,
-    "forks": 108861,
+    "stars": 195151,
+    "forks": 108841,
     "language": "Rust",
     "license": "MIT",
     "age_months": 5.0,
@@ -2718,8 +2727,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/iofficeai/aionui": {
-    "stars": 32385,
-    "forks": 3326,
+    "stars": 32405,
+    "forks": 3327,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 12.7,
@@ -2727,8 +2736,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/iofficeai/officecli": {
-    "stars": 29458,
-    "forks": 2007,
+    "stars": 29498,
+    "forks": 2005,
     "language": "C#",
     "license": "Apache-2.0",
     "age_months": 5.5,
@@ -2736,8 +2745,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/iptv-org/iptv": {
-    "stars": 136924,
-    "forks": 7921,
+    "stars": 137020,
+    "forks": 7933,
     "language": "TypeScript",
     "license": "Unlicense",
     "age_months": 93.5,
@@ -2745,8 +2754,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/is-a-dev/register": {
-    "stars": 11100,
-    "forks": 28082,
+    "stars": 11108,
+    "forks": 28133,
     "language": "JavaScript",
     "license": "MIT",
     "age_months": 70.8,
@@ -2754,8 +2763,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/itzcrazykns/vane": {
-    "stars": 36531,
-    "forks": 4059,
+    "stars": 36545,
+    "forks": 4061,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 28.6,
@@ -2763,8 +2772,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/iv-org/invidious": {
-    "stars": 22949,
-    "forks": 2610,
+    "stars": 22967,
+    "forks": 2613,
     "language": "Crystal",
     "license": "AGPL-3.0",
     "age_months": 102.7,
@@ -2772,8 +2781,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/j178/prek": {
-    "stars": 8337,
-    "forks": 236,
+    "stars": 8341,
+    "forks": 237,
     "language": "Rust",
     "license": "MIT",
     "age_months": 22.7,
@@ -2781,8 +2790,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/jamiepine/voicebox": {
-    "stars": 51731,
-    "forks": 6442,
+    "stars": 51798,
+    "forks": 6450,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 7.1,
@@ -2790,8 +2799,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/jamwithai/production-agentic-rag-course": {
-    "stars": 8517,
-    "forks": 1879,
+    "stars": 8524,
+    "forks": 1880,
     "language": "Python",
     "license": "MIT",
     "age_months": 12.7,
@@ -2808,8 +2817,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/janhq/jan": {
-    "stars": 44234,
-    "forks": 2997,
+    "stars": 44251,
+    "forks": 2998,
     "language": "TypeScript",
     "license": null,
     "age_months": 36.4,
@@ -2817,7 +2826,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/jarrodwatts/claude-hud": {
-    "stars": 27712,
+    "stars": 27725,
     "forks": 1281,
     "language": "JavaScript",
     "license": "MIT",
@@ -2826,7 +2835,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/jasonppy/voicecraft": {
-    "stars": 8574,
+    "stars": 8575,
     "forks": 804,
     "language": "Jupyter Notebook",
     "license": null,
@@ -2835,8 +2844,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/jaywcjlove/awesome-mac": {
-    "stars": 112033,
-    "forks": 8593,
+    "stars": 112084,
+    "forks": 8603,
     "language": "Swift",
     "license": "CC0-1.0",
     "age_months": 121.4,
@@ -2844,8 +2853,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/jcodesmore/ai-website-cloner-template": {
-    "stars": 33310,
-    "forks": 4865,
+    "stars": 33354,
+    "forks": 4872,
     "language": "JavaScript",
     "license": "MIT",
     "age_months": 5.6,
@@ -2853,7 +2862,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/jekyll/jekyll": {
-    "stars": 51657,
+    "stars": 51659,
     "forks": 10300,
     "language": "Ruby",
     "license": "MIT",
@@ -2862,8 +2871,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/jellyfin/jellyfin": {
-    "stars": 56308,
-    "forks": 5374,
+    "stars": 56340,
+    "forks": 5380,
     "language": "C#",
     "license": "GPL-2.0",
     "age_months": 92.6,
@@ -2871,7 +2880,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/jellyfin/jellyfin-desktop": {
-    "stars": 5669,
+    "stars": 5672,
     "forks": 532,
     "language": "C++",
     "license": "GPL-2.0",
@@ -2880,7 +2889,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/jenkinsci/jenkins": {
-    "stars": 26513,
+    "stars": 26514,
     "forks": 9811,
     "language": "Java",
     "license": "MIT",
@@ -2898,7 +2907,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/jina-ai/reader": {
-    "stars": 11926,
+    "stars": 11930,
     "forks": 876,
     "language": "TypeScript",
     "license": "Apache-2.0",
@@ -2907,8 +2916,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/jingyaogong/minimind": {
-    "stars": 55116,
-    "forks": 7188,
+    "stars": 55142,
+    "forks": 7193,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 25.1,
@@ -2916,8 +2925,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/juliangarnier/anime": {
-    "stars": 72492,
-    "forks": 4895,
+    "stars": 72509,
+    "forks": 4897,
     "language": "JavaScript",
     "license": "MIT",
     "age_months": 125.5,
@@ -2925,8 +2934,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/juliusbrussee/caveman": {
-    "stars": 101644,
-    "forks": 5906,
+    "stars": 101754,
+    "forks": 5917,
     "language": "Go",
     "license": null,
     "age_months": 4.8,
@@ -2934,8 +2943,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/jundot/omlx": {
-    "stars": 20905,
-    "forks": 1770,
+    "stars": 20956,
+    "forks": 1779,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 6.5,
@@ -2943,8 +2952,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/juspay/hyperswitch": {
-    "stars": 43539,
-    "forks": 5103,
+    "stars": 43543,
+    "forks": 5102,
     "language": "Rust",
     "license": "Apache-2.0",
     "age_months": 46.4,
@@ -2952,26 +2961,26 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/k-dense-ai/claude-scientific-skills": {
-    "stars": 36710,
-    "forks": 3489,
+    "stars": 37891,
+    "forks": 3569,
     "language": "Python",
     "license": "MIT",
     "age_months": 10.3,
-    "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+    "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
     "fetched_at": "2026-08-29"
   },
   "https://github.com/k-dense-ai/scientific-agent-skills": {
-    "stars": 36710,
-    "forks": 3489,
+    "stars": 37891,
+    "forks": 3569,
     "language": "Python",
     "license": "MIT",
     "age_months": 10.3,
-    "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+    "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
     "fetched_at": "2026-08-29"
   },
   "https://github.com/kaijuengine/kaiju": {
-    "stars": 4695,
-    "forks": 208,
+    "stars": 4696,
+    "forks": 209,
     "language": "Go",
     "license": null,
     "age_months": 33.4,
@@ -2979,8 +2988,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/kamranahmedse/developer-roadmap": {
-    "stars": 365792,
-    "forks": 44876,
+    "stars": 365861,
+    "forks": 44881,
     "language": "TypeScript",
     "license": null,
     "age_months": 113.5,
@@ -2988,7 +2997,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/karpathy/autoresearch": {
-    "stars": 94868,
+    "stars": 94912,
     "forks": 13366,
     "language": "Python",
     "license": null,
@@ -2997,8 +3006,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/karpathy/nanochat": {
-    "stars": 57606,
-    "forks": 8017,
+    "stars": 57633,
+    "forks": 8019,
     "language": "Python",
     "license": "MIT",
     "age_months": 10.5,
@@ -3006,8 +3015,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/karpathy/nanogpt": {
-    "stars": 62555,
-    "forks": 10768,
+    "stars": 62617,
+    "forks": 10773,
     "language": "Python",
     "license": "MIT",
     "age_months": 44.0,
@@ -3015,8 +3024,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/katanemo/plano": {
-    "stars": 7020,
-    "forks": 488,
+    "stars": 7022,
+    "forks": 487,
     "language": "Rust",
     "license": "Apache-2.0",
     "age_months": 25.7,
@@ -3033,8 +3042,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/kenn-io/agentsview": {
-    "stars": 5311,
-    "forks": 614,
+    "stars": 5535,
+    "forks": 626,
     "language": "Go",
     "license": "MIT",
     "age_months": 6.3,
@@ -3042,7 +3051,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/kepano/obsidian-skills": {
-    "stars": 47454,
+    "stars": 47505,
     "forks": 3411,
     "language": null,
     "license": "MIT",
@@ -3051,8 +3060,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/kestra-io/kestra": {
-    "stars": 27945,
-    "forks": 2952,
+    "stars": 27951,
+    "forks": 2953,
     "language": "Java",
     "license": "Apache-2.0",
     "age_months": 84.2,
@@ -3060,7 +3069,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/keygraphhq/shannon": {
-    "stars": 47277,
+    "stars": 47285,
     "forks": 5436,
     "language": "TypeScript",
     "license": "AGPL-3.0",
@@ -3078,7 +3087,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/knockoutez/wigolo": {
-    "stars": 4741,
+    "stars": 4752,
     "forks": 349,
     "language": "TypeScript",
     "license": null,
@@ -3087,8 +3096,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/koala73/worldmonitor": {
-    "stars": 84700,
-    "forks": 12719,
+    "stars": 84892,
+    "forks": 12756,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "age_months": 7.7,
@@ -3096,7 +3105,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/kong/insomnia": {
-    "stars": 39958,
+    "stars": 39959,
     "forks": 2363,
     "language": "TypeScript",
     "license": "Apache-2.0",
@@ -3105,8 +3114,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/kovidgoyal/calibre": {
-    "stars": 25753,
-    "forks": 2660,
+    "stars": 25765,
+    "forks": 2662,
     "language": "Python",
     "license": "GPL-3.0",
     "age_months": 159.0,
@@ -3114,8 +3123,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/ladybirdbrowser/ladybird": {
-    "stars": 65888,
-    "forks": 3139,
+    "stars": 65900,
+    "forks": 3137,
     "language": "C++",
     "license": "BSD-2-Clause",
     "age_months": 27.0,
@@ -3123,8 +3132,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/langchain-ai/open-swe": {
-    "stars": 10626,
-    "forks": 1250,
+    "stars": 10633,
+    "forks": 1252,
     "language": "Python",
     "license": "MIT",
     "age_months": 15.3,
@@ -3132,8 +3141,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/langflow-ai/openrag": {
-    "stars": 4494,
-    "forks": 467,
+    "stars": 4515,
+    "forks": 470,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 13.6,
@@ -3141,8 +3150,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/langgenius/dify": {
-    "stars": 153783,
-    "forks": 24305,
+    "stars": 153842,
+    "forks": 24315,
     "language": "TypeScript",
     "license": null,
     "age_months": 40.6,
@@ -3150,8 +3159,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/lbjlaq/antigravity-manager": {
-    "stars": 30797,
-    "forks": 3321,
+    "stars": 30814,
+    "forks": 3327,
     "language": "Rust",
     "license": null,
     "age_months": 9.1,
@@ -3159,8 +3168,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/learningcircuit/local-deep-research": {
-    "stars": 9002,
-    "forks": 797,
+    "stars": 9005,
+    "forks": 798,
     "language": "Python",
     "license": "MIT",
     "age_months": 18.6,
@@ -3168,8 +3177,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/leonxlnx/taste-skill": {
-    "stars": 81912,
-    "forks": 5608,
+    "stars": 82172,
+    "forks": 5624,
     "language": "JavaScript",
     "license": "MIT",
     "age_months": 6.3,
@@ -3177,8 +3186,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/lfnovo/open-notebook": {
-    "stars": 37851,
-    "forks": 4380,
+    "stars": 37907,
+    "forks": 4387,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 22.2,
@@ -3186,8 +3195,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/lightpanda-io/browser": {
-    "stars": 34301,
-    "forks": 1621,
+    "stars": 34311,
+    "forks": 1623,
     "language": "Zig",
     "license": "AGPL-3.0",
     "age_months": 42.7,
@@ -3195,8 +3204,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/lightricks/ltx-2": {
-    "stars": 9287,
-    "forks": 1462,
+    "stars": 9294,
+    "forks": 1463,
     "language": "Python",
     "license": null,
     "age_months": 7.8,
@@ -3204,7 +3213,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/likec4/likec4": {
-    "stars": 5563,
+    "stars": 5568,
     "forks": 375,
     "language": "TypeScript",
     "license": "MIT",
@@ -3213,8 +3222,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/lima-vm/lima": {
-    "stars": 21782,
-    "forks": 947,
+    "stars": 21785,
+    "forks": 949,
     "language": "Go",
     "license": "Apache-2.0",
     "age_months": 63.5,
@@ -3222,7 +3231,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/lissy93/web-check": {
-    "stars": 34616,
+    "stars": 34621,
     "forks": 2834,
     "language": "TypeScript",
     "license": "MIT",
@@ -3231,8 +3240,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/livekit/agents": {
-    "stars": 13350,
-    "forks": 3631,
+    "stars": 13558,
+    "forks": 3646,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 34.3,
@@ -3240,8 +3249,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/lizardbyte/sunshine": {
-    "stars": 40644,
-    "forks": 2067,
+    "stars": 40669,
+    "forks": 2071,
     "language": "C++",
     "license": "GPL-3.0",
     "age_months": 56.4,
@@ -3249,8 +3258,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/lmcache/lmcache": {
-    "stars": 11552,
-    "forks": 1806,
+    "stars": 11563,
+    "forks": 1810,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 27.0,
@@ -3258,8 +3267,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/lobehub/lobehub": {
-    "stars": 82077,
-    "forks": 15841,
+    "stars": 82093,
+    "forks": 15838,
     "language": "TypeScript",
     "license": null,
     "age_months": 39.3,
@@ -3267,8 +3276,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/localsend/localsend": {
-    "stars": 89602,
-    "forks": 4987,
+    "stars": 89680,
+    "forks": 4991,
     "language": "Dart",
     "license": "Apache-2.0",
     "age_months": 44.4,
@@ -3276,8 +3285,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/localstack/localstack": {
-    "stars": 65142,
-    "forks": 4790,
+    "stars": 65143,
+    "forks": 4791,
     "language": "Python",
     "license": null,
     "age_months": 118.1,
@@ -3285,7 +3294,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/longbridge/gpui-component": {
-    "stars": 13584,
+    "stars": 13597,
     "forks": 822,
     "language": "Rust",
     "license": null,
@@ -3294,7 +3303,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/louis-e/arnis": {
-    "stars": 17659,
+    "stars": 17670,
     "forks": 1473,
     "language": "Rust",
     "license": "Apache-2.0",
@@ -3303,8 +3312,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/louislam/uptime-kuma": {
-    "stars": 90721,
-    "forks": 8304,
+    "stars": 90747,
+    "forks": 8313,
     "language": "JavaScript",
     "license": "MIT",
     "age_months": 61.9,
@@ -3312,8 +3321,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/lum1104/understand-anything": {
-    "stars": 80888,
-    "forks": 6801,
+    "stars": 80994,
+    "forks": 6813,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 5.5,
@@ -3321,8 +3330,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/luongnv89/claude-howto": {
-    "stars": 41246,
-    "forks": 5047,
+    "stars": 41262,
+    "forks": 5049,
     "language": "Python",
     "license": "MIT",
     "age_months": 9.7,
@@ -3339,8 +3348,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/lyogavin/airllm": {
-    "stars": 32960,
-    "forks": 3472,
+    "stars": 33059,
+    "forks": 3476,
     "language": "Jupyter Notebook",
     "license": "Apache-2.0",
     "age_months": 38.6,
@@ -3348,8 +3357,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/macro-inc/macro": {
-    "stars": 4089,
-    "forks": 397,
+    "stars": 4098,
+    "forks": 398,
     "language": "Rust",
     "license": "AGPL-3.0",
     "age_months": 9.7,
@@ -3357,8 +3366,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/madslorentzen/ai-job-search": {
-    "stars": 37764,
-    "forks": 12784,
+    "stars": 38073,
+    "forks": 12910,
     "language": "Python",
     "license": "MIT",
     "age_months": 5.4,
@@ -3366,8 +3375,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/mahlernim/google-timeline-visualizer": {
-    "stars": 2903,
-    "forks": 385,
+    "stars": 2922,
+    "forks": 391,
     "language": "Kotlin",
     "license": "MIT",
     "age_months": 8.4,
@@ -3375,8 +3384,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/makeplane/plane": {
-    "stars": 58482,
-    "forks": 5556,
+    "stars": 58520,
+    "forks": 5568,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "age_months": 45.3,
@@ -3384,8 +3393,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/manaflow-ai/cmux": {
-    "stars": 26557,
-    "forks": 2270,
+    "stars": 26581,
+    "forks": 2279,
     "language": "Swift",
     "license": null,
     "age_months": 7.0,
@@ -3393,8 +3402,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/maplibre/maplibre-gl-js": {
-    "stars": 11480,
-    "forks": 1195,
+    "stars": 11484,
+    "forks": 1197,
     "language": "TypeScript",
     "license": null,
     "age_months": 68.7,
@@ -3402,16 +3411,25 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/marimo-team/marimo": {
-    "stars": 22533,
-    "forks": 1244,
+    "stars": 22540,
+    "forks": 1245,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 36.5,
     "description": "A reactive notebook for Python — run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor.",
     "fetched_at": "2026-08-29"
   },
+  "https://github.com/marin-community/marin": {
+    "stars": 3016,
+    "forks": 244,
+    "language": "Python",
+    "license": "Apache-2.0",
+    "age_months": 29.2,
+    "description": "Open-source framework for the research and development of foundation models.",
+    "fetched_at": "2026-08-29"
+  },
   "https://github.com/masterking32/masterdnsvpn": {
-    "stars": 6932,
+    "stars": 6935,
     "forks": 790,
     "language": "Go",
     "license": "MIT",
@@ -3420,8 +3438,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/mattpocock/skills": {
-    "stars": 240293,
-    "forks": 20432,
+    "stars": 240967,
+    "forks": 20495,
     "language": "Shell",
     "license": "MIT",
     "age_months": 6.8,
@@ -3429,8 +3447,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/maziyarpanahi/openmed": {
-    "stars": 5174,
-    "forks": 651,
+    "stars": 5180,
+    "forks": 655,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 10.8,
@@ -3438,7 +3456,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/mebus/cupp": {
-    "stars": 6510,
+    "stars": 6512,
     "forks": 2383,
     "language": "Python",
     "license": "GPL-3.0",
@@ -3447,8 +3465,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/megadose/holehe": {
-    "stars": 14399,
-    "forks": 1838,
+    "stars": 14422,
+    "forks": 1846,
     "language": "Python",
     "license": "GPL-3.0",
     "age_months": 74.1,
@@ -3456,8 +3474,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/mempalace/mempalace": {
-    "stars": 58709,
-    "forks": 7530,
+    "stars": 58726,
+    "forks": 7537,
     "language": "Python",
     "license": "MIT",
     "age_months": 4.8,
@@ -3465,7 +3483,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/memvid/memvid": {
-    "stars": 16457,
+    "stars": 16456,
     "forks": 1413,
     "language": "Rust",
     "license": "Apache-2.0",
@@ -3474,7 +3492,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/meta-llama/llama3": {
-    "stars": 29244,
+    "stars": 29245,
     "forks": 3525,
     "language": "Python",
     "license": null,
@@ -3483,8 +3501,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/microsoft/agent-framework": {
-    "stars": 13188,
-    "forks": 2238,
+    "stars": 13206,
+    "forks": 2239,
     "language": "Python",
     "license": "MIT",
     "age_months": 16.0,
@@ -3492,8 +3510,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/microsoft/agent-lightning": {
-    "stars": 17895,
-    "forks": 1570,
+    "stars": 17905,
+    "forks": 1572,
     "language": "Python",
     "license": "MIT",
     "age_months": 14.4,
@@ -3501,8 +3519,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/microsoft/ai-agents-for-beginners": {
-    "stars": 73425,
-    "forks": 24282,
+    "stars": 73465,
+    "forks": 24295,
     "language": "Jupyter Notebook",
     "license": "MIT",
     "age_months": 21.0,
@@ -3510,8 +3528,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/microsoft/ai-for-beginners": {
-    "stars": 67554,
-    "forks": 13020,
+    "stars": 67686,
+    "forks": 13042,
     "language": "Jupyter Notebook",
     "license": "MIT",
     "age_months": 65.9,
@@ -3519,7 +3537,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/microsoft/bitnet": {
-    "stars": 40213,
+    "stars": 40217,
     "forks": 3723,
     "language": "C++",
     "license": "MIT",
@@ -3528,7 +3546,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/microsoft/call-center-ai": {
-    "stars": 6560,
+    "stars": 6562,
     "forks": 780,
     "language": "Python",
     "license": "Apache-2.0",
@@ -3537,8 +3555,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/microsoft/data-formulator": {
-    "stars": 17033,
-    "forks": 1658,
+    "stars": 17039,
+    "forks": 1662,
     "language": "Python",
     "license": "MIT",
     "age_months": 26.7,
@@ -3546,8 +3564,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/microsoft/generative-ai-for-beginners": {
-    "stars": 118721,
-    "forks": 62591,
+    "stars": 118755,
+    "forks": 62608,
     "language": "Jupyter Notebook",
     "license": "MIT",
     "age_months": 38.3,
@@ -3555,7 +3573,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/microsoft/graphrag": {
-    "stars": 35725,
+    "stars": 35736,
     "forks": 3752,
     "language": "Python",
     "license": "MIT",
@@ -3564,8 +3582,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/microsoft/hve-core": {
-    "stars": 1386,
-    "forks": 276,
+    "stars": 1400,
+    "forks": 278,
     "language": "Python",
     "license": "MIT",
     "age_months": 9.9,
@@ -3574,7 +3592,7 @@
   },
   "https://github.com/microsoft/litebox": {
     "stars": 2684,
-    "forks": 138,
+    "forks": 139,
     "language": "Rust",
     "license": "MIT",
     "age_months": 20.6,
@@ -3582,8 +3600,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/microsoft/markitdown": {
-    "stars": 176860,
-    "forks": 13003,
+    "stars": 177022,
+    "forks": 13011,
     "language": "Python",
     "license": "MIT",
     "age_months": 21.5,
@@ -3591,8 +3609,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/microsoft/onnxruntime": {
-    "stars": 21670,
-    "forks": 4183,
+    "stars": 21676,
+    "forks": 4187,
     "language": "C++",
     "license": "MIT",
     "age_months": 93.6,
@@ -3600,8 +3618,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/microsoft/playwright-mcp": {
-    "stars": 36592,
-    "forks": 3071,
+    "stars": 36604,
+    "forks": 3074,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 17.3,
@@ -3609,8 +3627,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/microsoft/powertoys": {
-    "stars": 138182,
-    "forks": 8517,
+    "stars": 138206,
+    "forks": 8518,
     "language": "C",
     "license": "MIT",
     "age_months": 87.9,
@@ -3618,8 +3636,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/microsoft/typescript": {
-    "stars": 110755,
-    "forks": 13771,
+    "stars": 110779,
+    "forks": 13773,
     "language": "Go",
     "license": "Apache-2.0",
     "age_months": 146.4,
@@ -3627,8 +3645,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/microsoft/vibevoice": {
-    "stars": 53307,
-    "forks": 6016,
+    "stars": 53336,
+    "forks": 6017,
     "language": "Python",
     "license": "MIT",
     "age_months": 12.1,
@@ -3636,8 +3654,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/microsoft/web-dev-for-beginners": {
-    "stars": 96488,
-    "forks": 15829,
+    "stars": 96501,
+    "forks": 15830,
     "language": "JavaScript",
     "license": "MIT",
     "age_months": 69.6,
@@ -3645,8 +3663,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/millionco/react-doctor": {
-    "stars": 14647,
-    "forks": 470,
+    "stars": 14655,
+    "forks": 469,
     "language": "TypeScript",
     "license": null,
     "age_months": 6.5,
@@ -3654,8 +3672,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/milvus-io/milvus": {
-    "stars": 45854,
-    "forks": 4206,
+    "stars": 45873,
+    "forks": 4210,
     "language": "Go",
     "license": "Apache-2.0",
     "age_months": 83.4,
@@ -3663,8 +3681,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/mindsdb/mindsdb": {
-    "stars": 39656,
-    "forks": 6238,
+    "stars": 39661,
+    "forks": 6237,
     "language": "Makefile",
     "license": "MIT",
     "age_months": 96.9,
@@ -3672,8 +3690,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/minio/minio": {
-    "stars": 61375,
-    "forks": 7825,
+    "stars": 61374,
+    "forks": 7826,
     "language": "Go",
     "license": "AGPL-3.0",
     "age_months": 139.5,
@@ -3708,8 +3726,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/ml-explore/mlx": {
-    "stars": 28209,
-    "forks": 2194,
+    "stars": 28215,
+    "forks": 2198,
     "language": "C++",
     "license": "MIT",
     "age_months": 33.0,
@@ -3717,8 +3735,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/modelcontextprotocol/ext-apps": {
-    "stars": 2769,
-    "forks": 368,
+    "stars": 2773,
+    "forks": 369,
     "language": "TypeScript",
     "license": null,
     "age_months": 9.2,
@@ -3726,8 +3744,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/modelcontextprotocol/servers": {
-    "stars": 89940,
-    "forks": 11522,
+    "stars": 89960,
+    "forks": 11533,
     "language": "TypeScript",
     "license": null,
     "age_months": 21.3,
@@ -3735,8 +3753,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/modelcontextprotocol/typescript-sdk": {
-    "stars": 13267,
-    "forks": 2124,
+    "stars": 13276,
+    "forks": 2125,
     "language": "TypeScript",
     "license": null,
     "age_months": 23.1,
@@ -3762,8 +3780,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/modular/modular": {
-    "stars": 29308,
-    "forks": 3119,
+    "stars": 29334,
+    "forks": 3125,
     "language": "Mojo",
     "license": null,
     "age_months": 40.0,
@@ -3771,8 +3789,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/moeru-ai/airi": {
-    "stars": 48541,
-    "forks": 4808,
+    "stars": 48568,
+    "forks": 4812,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 20.9,
@@ -3789,7 +3807,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/moonshine-ai/moonshine": {
-    "stars": 10955,
+    "stars": 10964,
     "forks": 600,
     "language": "C++",
     "license": null,
@@ -3798,8 +3816,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/moonshotai/kimi-cli": {
-    "stars": 11281,
-    "forks": 1298,
+    "stars": 11288,
+    "forks": 1299,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 10.4,
@@ -3816,7 +3834,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/mountain-loop/yaak": {
-    "stars": 19125,
+    "stars": 19130,
     "forks": 806,
     "language": "TypeScript",
     "license": "MIT",
@@ -3825,8 +3843,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/msitarzewski/agency-agents": {
-    "stars": 148642,
-    "forks": 23972,
+    "stars": 148837,
+    "forks": 24003,
     "language": "Shell",
     "license": "MIT",
     "age_months": 10.5,
@@ -3834,8 +3852,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/mudler/localai": {
-    "stars": 48727,
-    "forks": 4398,
+    "stars": 48750,
+    "forks": 4399,
     "language": "Go",
     "license": "MIT",
     "age_months": 41.4,
@@ -3843,8 +3861,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/mukul975/anthropic-cybersecurity-skills": {
-    "stars": 31521,
-    "forks": 3783,
+    "stars": 31619,
+    "forks": 3795,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 6.1,
@@ -3852,8 +3870,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/multica-ai/multica": {
-    "stars": 48149,
-    "forks": 6182,
+    "stars": 48234,
+    "forks": 6199,
     "language": "Go",
     "license": null,
     "age_months": 7.5,
@@ -3861,8 +3879,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/muratcankoylan/agent-skills-for-context-engineering": {
-    "stars": 17857,
-    "forks": 1477,
+    "stars": 17865,
+    "forks": 1478,
     "language": "Python",
     "license": "MIT",
     "age_months": 8.2,
@@ -3870,8 +3888,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/music-assistant/server": {
-    "stars": 3007,
-    "forks": 564,
+    "stars": 3014,
+    "forks": 568,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 87.7,
@@ -3879,7 +3897,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/mustardchef/wsabuilds": {
-    "stars": 18270,
+    "stars": 18273,
     "forks": 2443,
     "language": "Python",
     "license": "AGPL-3.0",
@@ -3888,8 +3906,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/mvanhorn/last30days-skill": {
-    "stars": 59960,
-    "forks": 5248,
+    "stars": 60187,
+    "forks": 5275,
     "language": "Python",
     "license": "MIT",
     "age_months": 7.2,
@@ -3897,7 +3915,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/n0-computer/iroh": {
-    "stars": 12376,
+    "stars": 12379,
     "forks": 742,
     "language": "Rust",
     "license": "Apache-2.0",
@@ -3906,8 +3924,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/nanmicoder/mediacrawler": {
-    "stars": 63995,
-    "forks": 12444,
+    "stars": 64038,
+    "forks": 12450,
     "language": "Python",
     "license": null,
     "age_months": 38.7,
@@ -3915,8 +3933,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/nautechsystems/nautilus_trader": {
-    "stars": 28033,
-    "forks": 3621,
+    "stars": 28093,
+    "forks": 3632,
     "language": "Rust",
     "license": "LGPL-3.0",
     "age_months": 98.1,
@@ -3924,8 +3942,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/netdata/netdata": {
-    "stars": 80341,
-    "forks": 6605,
+    "stars": 80350,
+    "forks": 6609,
     "language": "Go",
     "license": "GPL-3.0",
     "age_months": 158.4,
@@ -3933,7 +3951,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/nevamind-ai/memu": {
-    "stars": 14352,
+    "stars": 14359,
     "forks": 1063,
     "language": "Python",
     "license": null,
@@ -3942,8 +3960,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/newton-physics/newton": {
-    "stars": 5552,
-    "forks": 662,
+    "stars": 5553,
+    "forks": 663,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 16.2,
@@ -3951,8 +3969,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/nextcloud/server": {
-    "stars": 36610,
-    "forks": 5143,
+    "stars": 36626,
+    "forks": 5145,
     "language": "PHP",
     "license": "AGPL-3.0",
     "age_months": 122.9,
@@ -3960,8 +3978,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/nicbarker/clay": {
-    "stars": 18016,
-    "forks": 716,
+    "stars": 18027,
+    "forks": 715,
     "language": "C",
     "license": "Zlib",
     "age_months": 25.3,
@@ -3978,8 +3996,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/nitrojs/nitro": {
-    "stars": 11152,
-    "forks": 895,
+    "stars": 11154,
+    "forks": 896,
     "language": "TypeScript",
     "license": null,
     "age_months": 55.1,
@@ -3987,8 +4005,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/nocodb/nocodb": {
-    "stars": 64775,
-    "forks": 5020,
+    "stars": 64778,
+    "forks": 5021,
     "language": "TypeScript",
     "license": null,
     "age_months": 106.0,
@@ -3996,8 +4014,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/nodejs/node": {
-    "stars": 119661,
-    "forks": 36618,
+    "stars": 119948,
+    "forks": 36629,
     "language": "JavaScript",
     "license": null,
     "age_months": 141.1,
@@ -4005,8 +4023,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/nousresearch/hermes-agent": {
-    "stars": 237781,
-    "forks": 48306,
+    "stars": 238110,
+    "forks": 48422,
     "language": "Python",
     "license": "MIT",
     "age_months": 13.2,
@@ -4014,8 +4032,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/nutlope/hallmark": {
-    "stars": 27439,
-    "forks": 1400,
+    "stars": 27498,
+    "forks": 1405,
     "language": "CSS",
     "license": "MIT",
     "age_months": 4.1,
@@ -4023,8 +4041,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/nutlope/llamacoder": {
-    "stars": 7122,
-    "forks": 1680,
+    "stars": 7124,
+    "forks": 1679,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 25.1,
@@ -4032,8 +4050,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/nvidia/cosmos": {
-    "stars": 11664,
-    "forks": 848,
+    "stars": 11669,
+    "forks": 849,
     "language": "Jupyter Notebook",
     "license": null,
     "age_months": 19.9,
@@ -4050,8 +4068,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/nvidia/skillspector": {
-    "stars": 15131,
-    "forks": 1269,
+    "stars": 15200,
+    "forks": 1273,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 5.3,
@@ -4059,8 +4077,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/nvm-sh/nvm": {
-    "stars": 94771,
-    "forks": 10399,
+    "stars": 94777,
+    "forks": 10401,
     "language": "Shell",
     "license": "MIT",
     "age_months": 196.5,
@@ -4068,8 +4086,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/oblien/openship": {
-    "stars": 11777,
-    "forks": 1039,
+    "stars": 11787,
+    "forks": 1041,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 5.8,
@@ -4077,8 +4095,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/obra/superpowers": {
-    "stars": 279084,
-    "forks": 24991,
+    "stars": 279367,
+    "forks": 25019,
     "language": "Shell",
     "license": "MIT",
     "age_months": 10.6,
@@ -4086,8 +4104,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/ogulcancelik/herdr": {
-    "stars": 33219,
-    "forks": 2401,
+    "stars": 33406,
+    "forks": 2431,
     "language": "Rust",
     "license": "Apache-2.0",
     "age_months": 5.1,
@@ -4095,8 +4113,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/onlook-dev/onlook": {
-    "stars": 26587,
-    "forks": 2082,
+    "stars": 26595,
+    "forks": 2081,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 26.1,
@@ -4104,8 +4122,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/onyx-dot-app/onyx": {
-    "stars": 31815,
-    "forks": 4385,
+    "stars": 31827,
+    "forks": 4386,
     "language": "Python",
     "license": null,
     "age_months": 40.1,
@@ -4113,8 +4131,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/open-llm-vtuber/open-llm-vtuber": {
-    "stars": 13500,
-    "forks": 1600,
+    "stars": 13515,
+    "forks": 1604,
     "language": "Python",
     "license": null,
     "age_months": 33.1,
@@ -4122,8 +4140,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/open-metadata/openmetadata": {
-    "stars": 15022,
-    "forks": 2337,
+    "stars": 15028,
+    "forks": 2339,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 60.9,
@@ -4131,8 +4149,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/open-webui/open-webui": {
-    "stars": 150256,
-    "forks": 21940,
+    "stars": 150348,
+    "forks": 21953,
     "language": "Python",
     "license": null,
     "age_months": 34.8,
@@ -4140,8 +4158,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/openai/codex": {
-    "stars": 119584,
-    "forks": 18258,
+    "stars": 119800,
+    "forks": 18303,
     "language": "Rust",
     "license": "Apache-2.0",
     "age_months": 16.5,
@@ -4149,7 +4167,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/openai/codex-plugin-cc": {
-    "stars": 32505,
+    "stars": 32535,
     "forks": 2250,
     "language": "JavaScript",
     "license": "Apache-2.0",
@@ -4158,8 +4176,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/openai/openai-agents-python": {
-    "stars": 29046,
-    "forks": 4625,
+    "stars": 29060,
+    "forks": 4629,
     "language": "Python",
     "license": "MIT",
     "age_months": 17.6,
@@ -4167,8 +4185,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/openai/openai-cookbook": {
-    "stars": 75594,
-    "forks": 12778,
+    "stars": 75610,
+    "forks": 12784,
     "language": "Jupyter Notebook",
     "license": "MIT",
     "age_months": 53.6,
@@ -4185,8 +4203,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/openai/plugins": {
-    "stars": 5260,
-    "forks": 750,
+    "stars": 5270,
+    "forks": 751,
     "language": "JavaScript",
     "license": null,
     "age_months": 5.8,
@@ -4194,8 +4212,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/openai/simple-evals": {
-    "stars": 4617,
-    "forks": 508,
+    "stars": 4618,
+    "forks": 509,
     "language": "Python",
     "license": "MIT",
     "age_months": 28.6,
@@ -4203,8 +4221,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/openai/skills": {
-    "stars": 25256,
-    "forks": 1716,
+    "stars": 25272,
+    "forks": 1715,
     "language": "Python",
     "license": null,
     "age_months": 9.1,
@@ -4212,8 +4230,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/openai/whisper": {
-    "stars": 108086,
-    "forks": 13108,
+    "stars": 108128,
+    "forks": 13112,
     "language": "Python",
     "license": "MIT",
     "age_months": 47.4,
@@ -4221,8 +4239,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/openbb-finance/openbb": {
-    "stars": 72415,
-    "forks": 7467,
+    "stars": 72451,
+    "forks": 7474,
     "language": "Python",
     "license": null,
     "age_months": 68.3,
@@ -4230,8 +4248,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/openbmb/chatdev": {
-    "stars": 34141,
-    "forks": 4264,
+    "stars": 34150,
+    "forks": 4271,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 36.0,
@@ -4239,8 +4257,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/openbmb/voxcpm": {
-    "stars": 36223,
-    "forks": 4143,
+    "stars": 36250,
+    "forks": 4146,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 11.4,
@@ -4248,8 +4266,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/openclaw/openclaw": {
-    "stars": 387941,
-    "forks": 81456,
+    "stars": 388011,
+    "forks": 81474,
     "language": "TypeScript",
     "license": null,
     "age_months": 9.1,
@@ -4257,8 +4275,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/openclaw/openclaw-windows-node": {
-    "stars": 2075,
-    "forks": 271,
+    "stars": 2074,
+    "forks": 272,
     "language": "C#",
     "license": "MIT",
     "age_months": 7.0,
@@ -4266,8 +4284,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/opencut-app/opencut": {
-    "stars": 87780,
-    "forks": 8660,
+    "stars": 87894,
+    "forks": 8666,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 14.2,
@@ -4275,8 +4293,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/opendatalab/mineru": {
-    "stars": 78696,
-    "forks": 6619,
+    "stars": 78748,
+    "forks": 6621,
     "language": "Python",
     "license": null,
     "age_months": 30.0,
@@ -4284,7 +4302,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/opendataloader-project/opendataloader-pdf": {
-    "stars": 28851,
+    "stars": 28857,
     "forks": 2755,
     "language": "Java",
     "license": "Apache-2.0",
@@ -4293,7 +4311,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/openemr/openemr": {
-    "stars": 5403,
+    "stars": 5404,
     "forks": 3018,
     "language": "PHP",
     "license": "GPL-3.0",
@@ -4302,8 +4320,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/openhands/openhands": {
-    "stars": 85479,
-    "forks": 11181,
+    "stars": 85569,
+    "forks": 11202,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 29.5,
@@ -4311,8 +4329,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/openinterpreter/openinterpreter": {
-    "stars": 68175,
-    "forks": 5866,
+    "stars": 68188,
+    "forks": 5869,
     "language": "Rust",
     "license": "Apache-2.0",
     "age_months": 37.5,
@@ -4320,7 +4338,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/ottermind/chat2db": {
-    "stars": 28049,
+    "stars": 28053,
     "forks": 3024,
     "language": "Java",
     "license": null,
@@ -4329,8 +4347,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/ourongxing/newsnow": {
-    "stars": 21528,
-    "forks": 5910,
+    "stars": 21533,
+    "forks": 5911,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 23.2,
@@ -4338,7 +4356,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/oven-sh/bun": {
-    "stars": 95779,
+    "stars": 95794,
     "forks": 5018,
     "language": "Rust",
     "license": null,
@@ -4347,8 +4365,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/p-e-w/heretic": {
-    "stars": 28519,
-    "forks": 3134,
+    "stars": 28654,
+    "forks": 3156,
     "language": "Python",
     "license": "AGPL-3.0",
     "age_months": 11.2,
@@ -4356,8 +4374,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/paddlepaddle/paddleocr": {
-    "stars": 88416,
-    "forks": 11254,
+    "stars": 88454,
+    "forks": 11259,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 75.7,
@@ -4365,8 +4383,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/palmier-io/palmier-pro": {
-    "stars": 14140,
-    "forks": 1076,
+    "stars": 14181,
+    "forks": 1083,
     "language": "Swift",
     "license": "GPL-3.0",
     "age_months": 4.7,
@@ -4374,8 +4392,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/panniantong/agent-reach": {
-    "stars": 76366,
-    "forks": 6531,
+    "stars": 76541,
+    "forks": 6546,
     "language": "Python",
     "license": "MIT",
     "age_months": 6.1,
@@ -4383,8 +4401,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/paperclipai/paperclip": {
-    "stars": 79577,
-    "forks": 14590,
+    "stars": 79638,
+    "forks": 14603,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 5.9,
@@ -4392,8 +4410,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/paperless-ngx/paperless-ngx": {
-    "stars": 44681,
-    "forks": 3064,
+    "stars": 44699,
+    "forks": 3067,
     "language": "Python",
     "license": "GPL-3.0",
     "age_months": 54.5,
@@ -4401,8 +4419,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/paperswithbacktest/awesome-systematic-trading": {
-    "stars": 14033,
-    "forks": 1689,
+    "stars": 14045,
+    "forks": 1692,
     "language": "Python",
     "license": null,
     "age_months": 54.7,
@@ -4410,7 +4428,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/pascalorg/editor": {
-    "stars": 21743,
+    "stars": 21754,
     "forks": 2792,
     "language": "TypeScript",
     "license": "MIT",
@@ -4419,8 +4437,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/patchy631/ai-engineering-hub": {
-    "stars": 37217,
-    "forks": 6147,
+    "stars": 37228,
+    "forks": 6149,
     "language": "Jupyter Notebook",
     "license": "MIT",
     "age_months": 22.2,
@@ -4428,7 +4446,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/pathwaycom/pathway": {
-    "stars": 62375,
+    "stars": 62365,
     "forks": 1683,
     "language": "Python",
     "license": null,
@@ -4437,8 +4455,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/pbakaus/impeccable": {
-    "stars": 63617,
-    "forks": 3892,
+    "stars": 63790,
+    "forks": 3905,
     "language": "JavaScript",
     "license": "Apache-2.0",
     "age_months": 9.4,
@@ -4446,7 +4464,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/pedramamini/maestro": {
-    "stars": 3284,
+    "stars": 3286,
     "forks": 348,
     "language": "TypeScript",
     "license": "AGPL-3.0",
@@ -4455,8 +4473,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/penpot/penpot": {
-    "stars": 59322,
-    "forks": 4013,
+    "stars": 59373,
+    "forks": 4019,
     "language": "Clojure",
     "license": "MPL-2.0",
     "age_months": 128.0,
@@ -4464,8 +4482,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/permissionlesstech/bitchat": {
-    "stars": 36012,
-    "forks": 5714,
+    "stars": 36031,
+    "forks": 5715,
     "language": "Swift",
     "license": "Unlicense",
     "age_months": 13.8,
@@ -4482,8 +4500,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/phuryn/pm-skills": {
-    "stars": 25759,
-    "forks": 2756,
+    "stars": 25778,
+    "forks": 2759,
     "language": null,
     "license": "MIT",
     "age_months": 5.9,
@@ -4491,8 +4509,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/pingdotgg/t3code": {
-    "stars": 20897,
-    "forks": 5002,
+    "stars": 20973,
+    "forks": 5028,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 6.6,
@@ -4500,8 +4518,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/pixelguys/cubyz": {
-    "stars": 3638,
-    "forks": 233,
+    "stars": 3641,
+    "forks": 234,
     "language": "Zig",
     "license": "GPL-3.0",
     "age_months": 90.8,
@@ -4509,8 +4527,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/pkuflyingpig/cs-self-learning": {
-    "stars": 75221,
-    "forks": 7991,
+    "stars": 75236,
+    "forks": 7990,
     "language": "HTML",
     "license": "MIT",
     "age_months": 58.3,
@@ -4518,7 +4536,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/plandex-ai/plandex": {
-    "stars": 15597,
+    "stars": 15598,
     "forks": 1177,
     "language": "Go",
     "license": "MIT",
@@ -4527,7 +4545,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/playcanvas/engine": {
-    "stars": 16577,
+    "stars": 16582,
     "forks": 1965,
     "language": "JavaScript",
     "license": "MIT",
@@ -4536,7 +4554,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/playcanvas/supersplat": {
-    "stars": 9917,
+    "stars": 9921,
     "forks": 1116,
     "language": "TypeScript",
     "license": "MIT",
@@ -4545,8 +4563,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/posthog/posthog": {
-    "stars": 39431,
-    "forks": 3308,
+    "stars": 39468,
+    "forks": 3311,
     "language": "Python",
     "license": null,
     "age_months": 79.2,
@@ -4554,8 +4572,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/powershell/powershell": {
-    "stars": 55177,
-    "forks": 8444,
+    "stars": 55181,
+    "forks": 8442,
     "language": "C#",
     "license": "MIT",
     "age_months": 127.5,
@@ -4563,8 +4581,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/pranshuparmar/witr": {
-    "stars": 21744,
-    "forks": 760,
+    "stars": 21892,
+    "forks": 763,
     "language": "Go",
     "license": "Apache-2.0",
     "age_months": 8.3,
@@ -4572,8 +4590,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/prefecthq/fastmcp": {
-    "stars": 27426,
-    "forks": 2277,
+    "stars": 27434,
+    "forks": 2279,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 20.9,
@@ -4581,8 +4599,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/primeintellect-ai/prime-agent": {
-    "stars": 18967,
-    "forks": 2043,
+    "stars": 19049,
+    "forks": 2062,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 3.7,
@@ -4599,8 +4617,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/prisma/prisma": {
-    "stars": 47566,
-    "forks": 2535,
+    "stars": 47568,
+    "forks": 2536,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 86.3,
@@ -4608,8 +4626,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/projectdiscovery/nuclei-templates": {
-    "stars": 12875,
-    "forks": 3635,
+    "stars": 12880,
+    "forks": 3636,
     "language": "JavaScript",
     "license": "MIT",
     "age_months": 76.8,
@@ -4617,7 +4635,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/prometheus/alertmanager": {
-    "stars": 8598,
+    "stars": 8599,
     "forks": 2451,
     "language": "Go",
     "license": "Apache-2.0",
@@ -4626,8 +4644,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/promptfoo/promptfoo": {
-    "stars": 24650,
-    "forks": 2246,
+    "stars": 24664,
+    "forks": 2249,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 40.0,
@@ -4635,8 +4653,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/protocolbuffers/protobuf": {
-    "stars": 71829,
-    "forks": 16258,
+    "stars": 71832,
+    "forks": 16263,
     "language": "C++",
     "license": null,
     "age_months": 144.1,
@@ -4653,8 +4671,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/public-apis/public-apis": {
-    "stars": 472377,
-    "forks": 52111,
+    "stars": 472779,
+    "forks": 52184,
     "language": "Python",
     "license": "MIT",
     "age_months": 125.3,
@@ -4662,8 +4680,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/puckeditor/puck": {
-    "stars": 13221,
-    "forks": 965,
+    "stars": 13226,
+    "forks": 967,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 38.9,
@@ -4671,7 +4689,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/pulldown-cmark/pulldown-cmark": {
-    "stars": 2697,
+    "stars": 2698,
     "forks": 301,
     "language": "Rust",
     "license": "MIT",
@@ -4680,8 +4698,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/pumpkin-mc/pumpkin": {
-    "stars": 10982,
-    "forks": 762,
+    "stars": 10997,
+    "forks": 766,
     "language": "Rust",
     "license": "GPL-3.0",
     "age_months": 25.0,
@@ -4689,8 +4707,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/pydantic/monty": {
-    "stars": 8121,
-    "forks": 411,
+    "stars": 8124,
+    "forks": 413,
     "language": "Rust",
     "license": "MIT",
     "age_months": 39.1,
@@ -4698,8 +4716,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/python/cpython": {
-    "stars": 75028,
-    "forks": 35288,
+    "stars": 75286,
+    "forks": 35292,
     "language": "Python",
     "license": null,
     "age_months": 114.6,
@@ -4707,8 +4725,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/pytorch/pytorch": {
-    "stars": 102654,
-    "forks": 29026,
+    "stars": 102660,
+    "forks": 29031,
     "language": "Python",
     "license": null,
     "age_months": 120.5,
@@ -4716,7 +4734,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/qeeqbox/social-analyzer": {
-    "stars": 23871,
+    "stars": 23883,
     "forks": 2299,
     "language": "JavaScript",
     "license": "AGPL-3.0",
@@ -4725,7 +4743,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/quantconnect/lean": {
-    "stars": 21390,
+    "stars": 21398,
     "forks": 5203,
     "language": "C#",
     "license": "Apache-2.0",
@@ -4734,8 +4752,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/qwenlm/qwen-code": {
-    "stars": 27465,
-    "forks": 2952,
+    "stars": 27486,
+    "forks": 2956,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 14.1,
@@ -4743,8 +4761,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/qwibitai/nanoclaw": {
-    "stars": 30633,
-    "forks": 12847,
+    "stars": 30644,
+    "forks": 12845,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 6.9,
@@ -4752,8 +4770,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/raphire/win11debloat": {
-    "stars": 56408,
-    "forks": 2407,
+    "stars": 56447,
+    "forks": 2409,
     "language": "PowerShell",
     "license": "MIT",
     "age_months": 70.0,
@@ -4761,8 +4779,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/rasbt/llms-from-scratch": {
-    "stars": 103962,
-    "forks": 15909,
+    "stars": 104010,
+    "forks": 15919,
     "language": "Jupyter Notebook",
     "license": null,
     "age_months": 37.2,
@@ -4770,8 +4788,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/reconurge/flowsint": {
-    "stars": 7764,
-    "forks": 968,
+    "stars": 7772,
+    "forks": 969,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 18.9,
@@ -4788,7 +4806,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/refactoringhq/tolaria": {
-    "stars": 19610,
+    "stars": 19618,
     "forks": 1365,
     "language": "TypeScript",
     "license": "AGPL-3.0",
@@ -4797,8 +4815,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/reflex-dev/reflex": {
-    "stars": 28857,
-    "forks": 1773,
+    "stars": 28859,
+    "forks": 1774,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 46.1,
@@ -4806,8 +4824,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/remix-run/react-router": {
-    "stars": 56576,
-    "forks": 10910,
+    "stars": 56578,
+    "forks": 10911,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 147.4,
@@ -4815,8 +4833,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/rendercv/rendercv": {
-    "stars": 17443,
-    "forks": 1335,
+    "stars": 17447,
+    "forks": 1336,
     "language": "Python",
     "license": "MIT",
     "age_months": 38.6,
@@ -4825,7 +4843,7 @@
   },
   "https://github.com/reorproject/reor": {
     "stars": 8567,
-    "forks": 529,
+    "forks": 528,
     "language": "JavaScript",
     "license": "AGPL-3.0",
     "age_months": 33.0,
@@ -4833,8 +4851,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/resemble-ai/chatterbox": {
-    "stars": 26185,
-    "forks": 3524,
+    "stars": 26198,
+    "forks": 3526,
     "language": "Python",
     "license": "MIT",
     "age_months": 16.2,
@@ -4851,7 +4869,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/revfactory/harness": {
-    "stars": 8852,
+    "stars": 8854,
     "forks": 1251,
     "language": "HTML",
     "license": "Apache-2.0",
@@ -4869,7 +4887,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/rightnow-ai/openfang": {
-    "stars": 18145,
+    "stars": 18149,
     "forks": 2288,
     "language": "Rust",
     "license": "Apache-2.0",
@@ -4878,8 +4896,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/ripienaar/free-for-dev": {
-    "stars": 135781,
-    "forks": 14233,
+    "stars": 135881,
+    "forks": 14246,
     "language": "HTML",
     "license": null,
     "age_months": 137.4,
@@ -4905,8 +4923,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/rmyndharis/openwa": {
-    "stars": 13289,
-    "forks": 3100,
+    "stars": 13320,
+    "forks": 3104,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 6.8,
@@ -4914,8 +4932,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/robbyant/lingbot-map": {
-    "stars": 16726,
-    "forks": 1870,
+    "stars": 16741,
+    "forks": 1872,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 4.5,
@@ -4923,8 +4941,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/roboflow/supervision": {
-    "stars": 49779,
-    "forks": 4732,
+    "stars": 49792,
+    "forks": 4734,
     "language": "Python",
     "license": "MIT",
     "age_months": 45.0,
@@ -4932,8 +4950,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/rohitg00/agentmemory": {
-    "stars": 27685,
-    "forks": 2385,
+    "stars": 27731,
+    "forks": 2392,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 6.1,
@@ -4941,8 +4959,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/rohitg00/ai-engineering-from-scratch": {
-    "stars": 50644,
-    "forks": 8780,
+    "stars": 50952,
+    "forks": 8820,
     "language": "Python",
     "license": "MIT",
     "age_months": 5.4,
@@ -4950,8 +4968,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/rommapp/romm": {
-    "stars": 12365,
-    "forks": 682,
+    "stars": 12421,
+    "forks": 686,
     "language": "Python",
     "license": "AGPL-3.0",
     "age_months": 41.7,
@@ -4959,7 +4977,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/rossant/awesome-math": {
-    "stars": 16193,
+    "stars": 16202,
     "forks": 1586,
     "language": "Python",
     "license": "CC0-1.0",
@@ -4969,7 +4987,7 @@
   },
   "https://github.com/rowboatlabs/rowboat": {
     "stars": 17436,
-    "forks": 1731,
+    "forks": 1730,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 19.5,
@@ -4977,8 +4995,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/rssnext/folo": {
-    "stars": 38885,
-    "forks": 2121,
+    "stars": 38890,
+    "forks": 2124,
     "language": "TypeScript",
     "license": "AGPL-3.0",
     "age_months": 28.7,
@@ -4986,8 +5004,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/run-llama/liteparse": {
-    "stars": 12190,
-    "forks": 847,
+    "stars": 12197,
+    "forks": 848,
     "language": "Rust",
     "license": "Apache-2.0",
     "age_months": 6.6,
@@ -4995,8 +5013,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/run-llama/llama_index": {
-    "stars": 51909,
-    "forks": 8045,
+    "stars": 51914,
+    "forks": 8051,
     "language": "Python",
     "license": "MIT",
     "age_months": 45.9,
@@ -5004,8 +5022,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/rustdesk/rustdesk": {
-    "stars": 122065,
-    "forks": 18704,
+    "stars": 122113,
+    "forks": 18720,
     "language": "Rust",
     "license": "AGPL-3.0",
     "age_months": 71.0,
@@ -5013,8 +5031,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/rustfs/rustfs": {
-    "stars": 31508,
-    "forks": 1410,
+    "stars": 31528,
+    "forks": 1411,
     "language": "Rust",
     "license": "Apache-2.0",
     "age_months": 33.2,
@@ -5022,8 +5040,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/rustpython/rustpython": {
-    "stars": 22310,
-    "forks": 1476,
+    "stars": 22312,
+    "forks": 1478,
     "language": "Rust",
     "license": "MIT",
     "age_months": 99.0,
@@ -5031,8 +5049,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/ruvnet/claude-flow": {
-    "stars": 69658,
-    "forks": 8329,
+    "stars": 69721,
+    "forks": 8341,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 14.9,
@@ -5040,8 +5058,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/ruvnet/ruflo": {
-    "stars": 69658,
-    "forks": 8329,
+    "stars": 69721,
+    "forks": 8341,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 14.9,
@@ -5049,8 +5067,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/ruvnet/ruvector": {
-    "stars": 4465,
-    "forks": 590,
+    "stars": 4469,
+    "forks": 591,
     "language": "Rust",
     "license": "MIT",
     "age_months": 9.3,
@@ -5058,8 +5076,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/ruvnet/ruview": {
-    "stars": 91946,
-    "forks": 12205,
+    "stars": 92026,
+    "forks": 12218,
     "language": "Rust",
     "license": "MIT",
     "age_months": 14.7,
@@ -5067,8 +5085,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/ryancodrai/turbovec": {
-    "stars": 16495,
-    "forks": 1429,
+    "stars": 16519,
+    "forks": 1432,
     "language": "Rust",
     "license": "MIT",
     "age_months": 5.1,
@@ -5076,8 +5094,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/sansan0/trendradar": {
-    "stars": 61897,
-    "forks": 24877,
+    "stars": 61916,
+    "forks": 24878,
     "language": "Python",
     "license": "GPL-3.0",
     "age_months": 16.0,
@@ -5085,8 +5103,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/santifer/career-ops": {
-    "stars": 69106,
-    "forks": 13057,
+    "stars": 69259,
+    "forks": 13091,
     "language": "JavaScript",
     "license": "MIT",
     "age_months": 4.8,
@@ -5094,8 +5112,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/schollz/croc": {
-    "stars": 40129,
-    "forks": 1609,
+    "stars": 40142,
+    "forks": 1610,
     "language": "Go",
     "license": "MIT",
     "age_months": 106.4,
@@ -5103,8 +5121,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/screenpipe/screenpipe": {
-    "stars": 21281,
-    "forks": 2149,
+    "stars": 21296,
+    "forks": 2151,
     "language": "Rust",
     "license": null,
     "age_months": 26.3,
@@ -5112,7 +5130,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/sdwebimage/sdwebimage": {
-    "stars": 25633,
+    "stars": 25634,
     "forks": 5958,
     "language": "Objective-C",
     "license": "MIT",
@@ -5121,8 +5139,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/seaweedfs/seaweedfs": {
-    "stars": 34336,
-    "forks": 2968,
+    "stars": 34345,
+    "forks": 2970,
     "language": "Go",
     "license": "Apache-2.0",
     "age_months": 145.5,
@@ -5130,8 +5148,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/semantica-agi/semantica": {
-    "stars": 11142,
-    "forks": 1215,
+    "stars": 11248,
+    "forks": 1234,
     "language": "Python",
     "license": "MIT",
     "age_months": 14.1,
@@ -5139,7 +5157,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/serengil/deepface": {
-    "stars": 23348,
+    "stars": 23351,
     "forks": 3167,
     "language": "Python",
     "license": "MIT",
@@ -5148,8 +5166,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/servo/servo": {
-    "stars": 37809,
-    "forks": 3768,
+    "stars": 37817,
+    "forks": 3771,
     "language": "Rust",
     "license": "MPL-2.0",
     "age_months": 174.6,
@@ -5157,8 +5175,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/sgl-project/mini-sglang": {
-    "stars": 4896,
-    "forks": 818,
+    "stars": 4900,
+    "forks": 819,
     "language": "Python",
     "license": "MIT",
     "age_months": 11.9,
@@ -5166,8 +5184,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/sgl-project/sglang": {
-    "stars": 32637,
-    "forks": 8317,
+    "stars": 32751,
+    "forks": 8338,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 31.7,
@@ -5175,8 +5193,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/shadcn-ui/ui": {
-    "stars": 122434,
-    "forks": 10021,
+    "stars": 122512,
+    "forks": 10030,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 43.8,
@@ -5184,8 +5202,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/shanraisshan/claude-code-best-practice": {
-    "stars": 65309,
-    "forks": 6513,
+    "stars": 65356,
+    "forks": 6515,
     "language": "HTML",
     "license": "MIT",
     "age_months": 9.9,
@@ -5193,8 +5211,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/shareai-lab/learn-claude-code": {
-    "stars": 75558,
-    "forks": 12187,
+    "stars": 75610,
+    "forks": 12192,
     "language": "Python",
     "license": "MIT",
     "age_months": 14.0,
@@ -5202,8 +5220,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/sherlock-project/sherlock": {
-    "stars": 90562,
-    "forks": 10643,
+    "stars": 90598,
+    "forks": 10651,
     "language": "Python",
     "license": "MIT",
     "age_months": 92.1,
@@ -5211,8 +5229,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/shiyu-coder/kronos": {
-    "stars": 38050,
-    "forks": 6332,
+    "stars": 38083,
+    "forks": 6336,
     "language": "Python",
     "license": "MIT",
     "age_months": 13.9,
@@ -5220,8 +5238,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/shubhamsaboo/awesome-llm-apps": {
-    "stars": 135007,
-    "forks": 19834,
+    "stars": 135156,
+    "forks": 19864,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 28.0,
@@ -5229,8 +5247,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/siddharthvaddem/openscreen": {
-    "stars": 39907,
-    "forks": 3058,
+    "stars": 39906,
+    "forks": 3057,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 10.6,
@@ -5238,8 +5256,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/significant-gravitas/autogpt": {
-    "stars": 186965,
-    "forks": 46049,
+    "stars": 186991,
+    "forks": 46051,
     "language": "Python",
     "license": null,
     "age_months": 41.5,
@@ -5247,8 +5265,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/sillytavern/sillytavern": {
-    "stars": 32771,
-    "forks": 6188,
+    "stars": 32797,
+    "forks": 6190,
     "language": "JavaScript",
     "license": "AGPL-3.0",
     "age_months": 42.6,
@@ -5256,7 +5274,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/simplex-chat/simplex-chat": {
-    "stars": 19332,
+    "stars": 19331,
     "forks": 1350,
     "language": "Haskell",
     "license": "AGPL-3.0",
@@ -5265,7 +5283,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/simstudioai/sim": {
-    "stars": 29489,
+    "stars": 29488,
     "forks": 3801,
     "language": "TypeScript",
     "license": "Apache-2.0",
@@ -5274,8 +5292,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/sinelaw/fresh": {
-    "stars": 8558,
-    "forks": 317,
+    "stars": 8574,
+    "forks": 318,
     "language": "Rust",
     "license": "GPL-2.0",
     "age_months": 20.1,
@@ -5283,7 +5301,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/skyvern-ai/skyvern": {
-    "stars": 22875,
+    "stars": 22878,
     "forks": 2149,
     "language": "Python",
     "license": "AGPL-3.0",
@@ -5292,8 +5310,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/slopus/happy": {
-    "stars": 23540,
-    "forks": 1986,
+    "stars": 23548,
+    "forks": 1985,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 13.4,
@@ -5301,7 +5319,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/smartcontractkit/chainlink": {
-    "stars": 8237,
+    "stars": 8238,
     "forks": 1980,
     "language": "Go",
     "license": null,
@@ -5310,8 +5328,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/smicallef/spiderfoot": {
-    "stars": 21493,
-    "forks": 3461,
+    "stars": 21505,
+    "forks": 3469,
     "language": "Python",
     "license": "MIT",
     "age_months": 172.0,
@@ -5319,7 +5337,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/sonofmagic/weapp-tailwindcss": {
-    "stars": 1852,
+    "stars": 1853,
     "forks": 102,
     "language": "TypeScript",
     "license": "MIT",
@@ -5328,8 +5346,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/soxoj/maigret": {
-    "stars": 37126,
-    "forks": 2889,
+    "stars": 37144,
+    "forks": 2890,
     "language": "Python",
     "license": "MIT",
     "age_months": 74.0,
@@ -5337,7 +5355,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/spipm/depixelization_poc": {
-    "stars": 4550,
+    "stars": 4549,
     "forks": 367,
     "language": "Python",
     "license": null,
@@ -5346,8 +5364,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/sst/opencode": {
-    "stars": 202218,
-    "forks": 26260,
+    "stars": 202382,
+    "forks": 26295,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 16.0,
@@ -5355,8 +5373,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/sst/opentui": {
-    "stars": 13175,
-    "forks": 708,
+    "stars": 13177,
+    "forks": 707,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 13.3,
@@ -5364,8 +5382,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/stablyai/orca": {
-    "stars": 56249,
-    "forks": 3826,
+    "stars": 56771,
+    "forks": 3867,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 5.4,
@@ -5373,8 +5391,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/stanfordnlp/dspy": {
-    "stars": 37639,
-    "forks": 3268,
+    "stars": 37653,
+    "forks": 3270,
     "language": "Python",
     "license": "MIT",
     "age_months": 43.6,
@@ -5382,8 +5400,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/stefan-jansen/machine-learning-for-trading": {
-    "stars": 20709,
-    "forks": 5572,
+    "stars": 20721,
+    "forks": 5574,
     "language": "Jupyter Notebook",
     "license": "MIT",
     "age_months": 99.7,
@@ -5391,8 +5409,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/steipete/codexbar": {
-    "stars": 20688,
-    "forks": 1792,
+    "stars": 20706,
+    "forks": 1797,
     "language": "Swift",
     "license": "MIT",
     "age_months": 9.4,
@@ -5401,7 +5419,7 @@
   },
   "https://github.com/steipete/gogcli": {
     "stars": 8340,
-    "forks": 678,
+    "forks": 679,
     "language": "Go",
     "license": "MIT",
     "age_months": 8.5,
@@ -5409,7 +5427,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/steipete/summarize": {
-    "stars": 6583,
+    "stars": 6585,
     "forks": 442,
     "language": "TypeScript",
     "license": "MIT",
@@ -5418,8 +5436,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/stirling-tools/stirling-pdf": {
-    "stars": 90862,
-    "forks": 8238,
+    "stars": 90905,
+    "forks": 8243,
     "language": "Java",
     "license": null,
     "age_months": 43.0,
@@ -5427,8 +5445,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/stremio/stremio-web": {
-    "stars": 12880,
-    "forks": 1481,
+    "stars": 12911,
+    "forks": 1486,
     "language": "JavaScript",
     "license": "GPL-2.0",
     "age_months": 98.8,
@@ -5437,7 +5455,7 @@
   },
   "https://github.com/suitenumerique/docs": {
     "stars": 16756,
-    "forks": 621,
+    "forks": 620,
     "language": "Python",
     "license": "MIT",
     "age_months": 31.6,
@@ -5445,8 +5463,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/supabase/supabase": {
-    "stars": 108544,
-    "forks": 13659,
+    "stars": 108578,
+    "forks": 13667,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 82.6,
@@ -5454,8 +5472,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/supermemoryai/supermemory": {
-    "stars": 29124,
-    "forks": 2538,
+    "stars": 29129,
+    "forks": 2542,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 30.0,
@@ -5463,8 +5481,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/superset-sh/superset": {
-    "stars": 13470,
-    "forks": 1227,
+    "stars": 13492,
+    "forks": 1228,
     "language": "TypeScript",
     "license": null,
     "age_months": 10.2,
@@ -5472,8 +5490,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/supertone-inc/supertonic": {
-    "stars": 13734,
-    "forks": 1521,
+    "stars": 13738,
+    "forks": 1520,
     "language": "Swift",
     "license": "MIT",
     "age_months": 9.3,
@@ -5482,7 +5500,7 @@
   },
   "https://github.com/swc-project/swc": {
     "stars": 34189,
-    "forks": 1551,
+    "forks": 1552,
     "language": "Rust",
     "license": "Apache-2.0",
     "age_months": 104.2,
@@ -5490,8 +5508,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/swisskyrepo/payloadsallthethings": {
-    "stars": 80467,
-    "forks": 17331,
+    "stars": 80487,
+    "forks": 17332,
     "language": "Python",
     "license": "MIT",
     "age_months": 118.3,
@@ -5499,8 +5517,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/synkraai/aios-core": {
-    "stars": 3098,
-    "forks": 953,
+    "stars": 3099,
+    "forks": 952,
     "language": "JavaScript",
     "license": null,
     "age_months": 8.6,
@@ -5508,7 +5526,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/tanstack/router": {
-    "stars": 15007,
+    "stars": 15010,
     "forks": 1815,
     "language": "TypeScript",
     "license": "MIT",
@@ -5517,8 +5535,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/tapxworld/chinatextbook": {
-    "stars": 80998,
-    "forks": 18372,
+    "stars": 81032,
+    "forks": 18379,
     "language": "Roff",
     "license": null,
     "age_months": 79.8,
@@ -5526,8 +5544,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/tauricresearch/tradingagents": {
-    "stars": 101600,
-    "forks": 19517,
+    "stars": 101702,
+    "forks": 19545,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 20.0,
@@ -5535,8 +5553,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/telegrammessenger/telegram-ios": {
-    "stars": 8908,
-    "forks": 2851,
+    "stars": 8915,
+    "forks": 2856,
     "language": "Swift",
     "license": null,
     "age_months": 93.5,
@@ -5544,8 +5562,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/tencent/weknora": {
-    "stars": 20866,
-    "forks": 3000,
+    "stars": 20899,
+    "forks": 3006,
     "language": "Go",
     "license": null,
     "age_months": 13.2,
@@ -5553,8 +5571,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/tencentcloud/tencentdb-agent-memory": {
-    "stars": 25050,
-    "forks": 2325,
+    "stars": 25158,
+    "forks": 2345,
     "language": "TypeScript",
     "license": null,
     "age_months": 4.7,
@@ -5562,8 +5580,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/teng-lin/notebooklm-py": {
-    "stars": 18987,
-    "forks": 2557,
+    "stars": 19000,
+    "forks": 2559,
     "language": "Python",
     "license": "MIT",
     "age_months": 7.7,
@@ -5571,8 +5589,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/tensorflow/tensorflow": {
-    "stars": 197768,
-    "forks": 76166,
+    "stars": 198017,
+    "forks": 76183,
     "language": "C++",
     "license": "Apache-2.0",
     "age_months": 129.7,
@@ -5580,8 +5598,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/tesseract-ocr/tesseract": {
-    "stars": 76237,
-    "forks": 10777,
+    "stars": 76249,
+    "forks": 10776,
     "language": "C++",
     "license": "Apache-2.0",
     "age_months": 144.5,
@@ -5589,8 +5607,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/thealgorithms/python": {
-    "stars": 224083,
-    "forks": 50997,
+    "stars": 224114,
+    "forks": 50999,
     "language": "Python",
     "license": "MIT",
     "age_months": 121.4,
@@ -5598,7 +5616,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/thecraighewitt/seomachine": {
-    "stars": 7387,
+    "stars": 7390,
     "forks": 982,
     "language": "Python",
     "license": "MIT",
@@ -5607,8 +5625,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/thedotmack/claude-mem": {
-    "stars": 92522,
-    "forks": 8130,
+    "stars": 92582,
+    "forks": 8142,
     "language": "JavaScript",
     "license": "Apache-2.0",
     "age_months": 11.9,
@@ -5616,7 +5634,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/thinking-machines-lab/tinker-cookbook": {
-    "stars": 4063,
+    "stars": 4066,
     "forks": 523,
     "language": "Python",
     "license": "Apache-2.0",
@@ -5625,8 +5643,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/thudm/slime": {
-    "stars": 8295,
-    "forks": 1198,
+    "stars": 8306,
+    "forks": 1200,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 14.4,
@@ -5634,7 +5652,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/thunderbird/thunderbolt": {
-    "stars": 4764,
+    "stars": 4762,
     "forks": 328,
     "language": "TypeScript",
     "license": "MPL-2.0",
@@ -5643,7 +5661,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/tibixdev/winboat": {
-    "stars": 22571,
+    "stars": 22582,
     "forks": 718,
     "language": "TypeScript",
     "license": "MIT",
@@ -5652,8 +5670,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/tinyhumansai/openhuman": {
-    "stars": 38738,
-    "forks": 3803,
+    "stars": 38851,
+    "forks": 3815,
     "language": "Rust",
     "license": "GPL-3.0",
     "age_months": 6.3,
@@ -5661,8 +5679,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/tirth8205/code-review-graph": {
-    "stars": 30970,
-    "forks": 2818,
+    "stars": 30999,
+    "forks": 2822,
     "language": "Python",
     "license": "MIT",
     "age_months": 6.0,
@@ -5670,7 +5688,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/tldraw/tldraw": {
-    "stars": 50016,
+    "stars": 50030,
     "forks": 3491,
     "language": "TypeScript",
     "license": null,
@@ -5679,8 +5697,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/tobi/qmd": {
-    "stars": 29330,
-    "forks": 1833,
+    "stars": 29356,
+    "forks": 1834,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 8.7,
@@ -5688,7 +5706,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/tobi/try": {
-    "stars": 3980,
+    "stars": 3982,
     "forks": 160,
     "language": "Shell",
     "license": "MIT",
@@ -5697,7 +5715,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/todepond/gulfofmexico": {
-    "stars": 13604,
+    "stars": 13605,
     "forks": 472,
     "language": null,
     "license": null,
@@ -5706,8 +5724,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/toeverything/affine": {
-    "stars": 71982,
-    "forks": 5199,
+    "stars": 71998,
+    "forks": 5205,
     "language": "TypeScript",
     "license": null,
     "age_months": 48.9,
@@ -5715,7 +5733,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/toml-lang/toml": {
-    "stars": 20594,
+    "stars": 20596,
     "forks": 903,
     "language": null,
     "license": "MIT",
@@ -5724,8 +5742,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/tooljet/tooljet": {
-    "stars": 40787,
-    "forks": 5420,
+    "stars": 40791,
+    "forks": 5422,
     "language": "JavaScript",
     "license": "AGPL-3.0",
     "age_months": 65.0,
@@ -5733,8 +5751,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/topoteretes/cognee": {
-    "stars": 30328,
-    "forks": 2977,
+    "stars": 30340,
+    "forks": 2981,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 36.4,
@@ -5742,8 +5760,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/tqdm/tqdm": {
-    "stars": 31300,
-    "forks": 1489,
+    "stars": 31303,
+    "forks": 1490,
     "language": "Python",
     "license": null,
     "age_months": 134.9,
@@ -5751,7 +5769,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/tractorjuice/arc-kit": {
-    "stars": 2205,
+    "stars": 2207,
     "forks": 277,
     "language": "JavaScript",
     "license": null,
@@ -5760,8 +5778,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/traefik/traefik": {
-    "stars": 64637,
-    "forks": 6170,
+    "stars": 64656,
+    "forks": 6173,
     "language": "Go",
     "license": "MIT",
     "age_months": 131.5,
@@ -5769,8 +5787,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/trimstray/the-book-of-secret-knowledge": {
-    "stars": 240921,
-    "forks": 14235,
+    "stars": 241081,
+    "forks": 14243,
     "language": null,
     "license": "MIT",
     "age_months": 98.2,
@@ -5778,8 +5796,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/trycua/cua": {
-    "stars": 21996,
-    "forks": 1511,
+    "stars": 22012,
+    "forks": 1513,
     "language": "HTML",
     "license": "MIT",
     "age_months": 18.9,
@@ -5787,7 +5805,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/turboderp-org/exllamav2": {
-    "stars": 4612,
+    "stars": 4613,
     "forks": 342,
     "language": "Python",
     "license": "MIT",
@@ -5796,8 +5814,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/tursodatabase/turso": {
-    "stars": 24063,
-    "forks": 1288,
+    "stars": 24081,
+    "forks": 1291,
     "language": "Rust",
     "license": "MIT",
     "age_months": 36.1,
@@ -5805,7 +5823,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/tw93/mole": {
-    "stars": 65210,
+    "stars": 65268,
     "forks": 2285,
     "language": "Shell",
     "license": "GPL-3.0",
@@ -5814,8 +5832,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/twitter/the-algorithm": {
-    "stars": 73873,
-    "forks": 13284,
+    "stars": 73872,
+    "forks": 13285,
     "language": "Scala",
     "license": "AGPL-3.0",
     "age_months": 41.1,
@@ -5823,8 +5841,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/typst/typst": {
-    "stars": 55718,
-    "forks": 1695,
+    "stars": 55721,
+    "forks": 1694,
     "language": "Rust",
     "license": "Apache-2.0",
     "age_months": 83.1,
@@ -5832,8 +5850,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/ultralytics/ultralytics": {
-    "stars": 61055,
-    "forks": 11644,
+    "stars": 61074,
+    "forks": 11650,
     "language": "Python",
     "license": "AGPL-3.0",
     "age_months": 47.6,
@@ -5841,8 +5859,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/umami-software/umami": {
-    "stars": 38424,
-    "forks": 7874,
+    "stars": 38438,
+    "forks": 7888,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 73.4,
@@ -5850,8 +5868,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/unclecode/crawl4ai": {
-    "stars": 79671,
-    "forks": 8264,
+    "stars": 79930,
+    "forks": 8285,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 27.7,
@@ -5859,8 +5877,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/unionlabs/union": {
-    "stars": 73824,
-    "forks": 3886,
+    "stars": 73825,
+    "forks": 3887,
     "language": "Rust",
     "license": "Apache-2.0",
     "age_months": 39.5,
@@ -5868,8 +5886,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/universal-debloater-alliance/universal-android-debloater-next-generation": {
-    "stars": 8941,
-    "forks": 378,
+    "stars": 8950,
+    "forks": 379,
     "language": "Rust",
     "license": "GPL-3.0",
     "age_months": 34.1,
@@ -5877,8 +5895,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/unslothai/unsloth": {
-    "stars": 75081,
-    "forks": 6806,
+    "stars": 75178,
+    "forks": 6822,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 33.0,
@@ -5886,8 +5904,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/usekaneo/kaneo": {
-    "stars": 8636,
-    "forks": 724,
+    "stars": 8724,
+    "forks": 728,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 19.9,
@@ -5895,8 +5913,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/usememos/memos": {
-    "stars": 62623,
-    "forks": 4701,
+    "stars": 62640,
+    "forks": 4700,
     "language": "Go",
     "license": "MIT",
     "age_months": 56.7,
@@ -5904,8 +5922,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/usestrix/strix": {
-    "stars": 59119,
-    "forks": 6456,
+    "stars": 59292,
+    "forks": 6474,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 12.8,
@@ -5913,7 +5931,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/vaibhavs10/insanely-fast-whisper": {
-    "stars": 13063,
+    "stars": 13064,
     "forks": 963,
     "language": "Jupyter Notebook",
     "license": "Apache-2.0",
@@ -5922,7 +5940,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/vectifyai/pageindex": {
-    "stars": 35378,
+    "stars": 35406,
     "forks": 3116,
     "language": "Python",
     "license": "MIT",
@@ -5931,8 +5949,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/vendure-ecommerce/vendure": {
-    "stars": 8381,
-    "forks": 1479,
+    "stars": 8387,
+    "forks": 1478,
     "language": "TypeScript",
     "license": null,
     "age_months": 98.6,
@@ -5940,8 +5958,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/vercel-labs/agent-browser": {
-    "stars": 41510,
-    "forks": 2755,
+    "stars": 41551,
+    "forks": 2756,
     "language": "Rust",
     "license": "Apache-2.0",
     "age_months": 7.6,
@@ -5949,7 +5967,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/vercel-labs/open-agents": {
-    "stars": 5793,
+    "stars": 5794,
     "forks": 753,
     "language": "TypeScript",
     "license": "MIT",
@@ -5958,8 +5976,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/vercel-labs/skills": {
-    "stars": 29905,
-    "forks": 2553,
+    "stars": 29961,
+    "forks": 2564,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 7.5,
@@ -5967,8 +5985,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/vercel/ai": {
-    "stars": 26475,
-    "forks": 5041,
+    "stars": 26487,
+    "forks": 5046,
     "language": "TypeScript",
     "license": null,
     "age_months": 39.2,
@@ -5976,8 +5994,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/vercel/next.js": {
-    "stars": 141980,
-    "forks": 31807,
+    "stars": 142011,
+    "forks": 31815,
     "language": "JavaScript",
     "license": "MIT",
     "age_months": 118.8,
@@ -5985,7 +6003,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/vercel/workflow": {
-    "stars": 2357,
+    "stars": 2361,
     "forks": 345,
     "language": "TypeScript",
     "license": "Apache-2.0",
@@ -5994,8 +6012,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/virattt/ai-hedge-fund": {
-    "stars": 63076,
-    "forks": 11085,
+    "stars": 63084,
+    "forks": 11090,
     "language": "Python",
     "license": "MIT",
     "age_months": 21.0,
@@ -6003,7 +6021,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/virattt/dexter": {
-    "stars": 27550,
+    "stars": 27552,
     "forks": 3411,
     "language": "TypeScript",
     "license": null,
@@ -6012,8 +6030,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/virgiliojr94/book-to-skill": {
-    "stars": 26725,
-    "forks": 2769,
+    "stars": 27018,
+    "forks": 2799,
     "language": "Python",
     "license": "MIT",
     "age_months": 3.9,
@@ -6021,8 +6039,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/vitali87/code-graph-rag": {
-    "stars": 4841,
-    "forks": 644,
+    "stars": 4845,
+    "forks": 645,
     "language": "Python",
     "license": "MIT",
     "age_months": 14.4,
@@ -6030,8 +6048,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/vllm-project/vllm-omni": {
-    "stars": 6438,
-    "forks": 1561,
+    "stars": 6458,
+    "forks": 1573,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 11.6,
@@ -6039,7 +6057,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/vndee/llm-sandbox": {
-    "stars": 1114,
+    "stars": 1115,
     "forks": 104,
     "language": "Python",
     "license": "MIT",
@@ -6048,8 +6066,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/volcengine/openviking": {
-    "stars": 34161,
-    "forks": 2598,
+    "stars": 34290,
+    "forks": 2609,
     "language": "Python",
     "license": "AGPL-3.0",
     "age_months": 7.8,
@@ -6057,8 +6075,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/volcengine/verl": {
-    "stars": 23183,
-    "forks": 4457,
+    "stars": 23195,
+    "forks": 4461,
     "language": "Python",
     "license": "Apache-2.0",
     "age_months": 21.9,
@@ -6066,8 +6084,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/voltagent/awesome-agent-skills": {
-    "stars": 33076,
-    "forks": 3487,
+    "stars": 33245,
+    "forks": 3510,
     "language": null,
     "license": "MIT",
     "age_months": 10.0,
@@ -6075,8 +6093,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/voltagent/awesome-openclaw-skills": {
-    "stars": 52225,
-    "forks": 5009,
+    "stars": 52243,
+    "forks": 5011,
     "language": null,
     "license": "MIT",
     "age_months": 7.1,
@@ -6084,8 +6102,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/vxcontrol/pentagi": {
-    "stars": 22136,
-    "forks": 2946,
+    "stars": 22169,
+    "forks": 2951,
     "language": "Go",
     "license": "MIT",
     "age_months": 19.7,
@@ -6093,8 +6111,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/warpdotdev/warp": {
-    "stars": 64613,
-    "forks": 5482,
+    "stars": 64635,
+    "forks": 5490,
     "language": "Rust",
     "license": "AGPL-3.0",
     "age_months": 61.7,
@@ -6102,8 +6120,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/wavetermdev/waveterm": {
-    "stars": 22140,
-    "forks": 1112,
+    "stars": 22153,
+    "forks": 1113,
     "language": "Go",
     "license": "Apache-2.0",
     "age_months": 50.7,
@@ -6111,7 +6129,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/weapp-vite/weapp-vite": {
-    "stars": 467,
+    "stars": 468,
     "forks": 29,
     "language": "TypeScript",
     "license": "MIT",
@@ -6120,7 +6138,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/weceng/ticket-purchase": {
-    "stars": 7132,
+    "stars": 7138,
     "forks": 882,
     "language": "Python",
     "license": null,
@@ -6129,7 +6147,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/wei-shaw/claude-relay-service": {
-    "stars": 12577,
+    "stars": 12578,
     "forks": 1868,
     "language": "JavaScript",
     "license": "MIT",
@@ -6138,8 +6156,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/withastro/flue": {
-    "stars": 8060,
-    "forks": 473,
+    "stars": 8077,
+    "forks": 474,
     "language": "TypeScript",
     "license": "Apache-2.0",
     "age_months": 6.7,
@@ -6147,8 +6165,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/wolfpld/tracy": {
-    "stars": 16678,
-    "forks": 1228,
+    "stars": 16679,
+    "forks": 1227,
     "language": "C++",
     "license": null,
     "age_months": 77.4,
@@ -6156,7 +6174,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/wonderwhy-er/desktopcommandermcp": {
-    "stars": 9427,
+    "stars": 9434,
     "forks": 1148,
     "language": "TypeScript",
     "license": "MIT",
@@ -6165,8 +6183,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/wshobson/agents": {
-    "stars": 39228,
-    "forks": 4189,
+    "stars": 39246,
+    "forks": 4190,
     "language": "Python",
     "license": "MIT",
     "age_months": 13.2,
@@ -6174,8 +6192,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/xbtlin/ai-berkshire": {
-    "stars": 15954,
-    "forks": 2391,
+    "stars": 15982,
+    "forks": 2399,
     "language": "Python",
     "license": "MIT",
     "age_months": 4.7,
@@ -6183,8 +6201,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/xerrors/yuxi-know": {
-    "stars": 6580,
-    "forks": 980,
+    "stars": 6583,
+    "forks": 981,
     "language": "Python",
     "license": "MIT",
     "age_months": 25.8,
@@ -6192,7 +6210,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/xpipe-io/xpipe": {
-    "stars": 14465,
+    "stars": 14467,
     "forks": 555,
     "language": "Java",
     "license": "Apache-2.0",
@@ -6201,8 +6219,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/y2z/monolith": {
-    "stars": 15455,
-    "forks": 473,
+    "stars": 15457,
+    "forks": 472,
     "language": "Rust",
     "license": "CC0-1.0",
     "age_months": 114.2,
@@ -6210,8 +6228,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/yangshun/tech-interview-handbook": {
-    "stars": 142271,
-    "forks": 16785,
+    "stars": 142299,
+    "forks": 16789,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 121.8,
@@ -6219,8 +6237,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/yeachan-heo/oh-my-claudecode": {
-    "stars": 38854,
-    "forks": 3487,
+    "stars": 38876,
+    "forks": 3489,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 7.6,
@@ -6228,17 +6246,17 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/yichuan-w/leann": {
-    "stars": 12842,
-    "forks": 1153,
+    "stars": 12846,
+    "forks": 1154,
     "language": "Python",
     "license": "MIT",
     "age_months": 14.7,
-    "description": "[MLsys2026]: RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.",
+    "description": "[MLsys2026 Best Paper]: https://arxiv.org/abs/2506.08276. RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.",
     "fetched_at": "2026-08-29"
   },
   "https://github.com/yikart/aitoearn": {
-    "stars": 25418,
-    "forks": 4094,
+    "stars": 25460,
+    "forks": 4113,
     "language": "TypeScript",
     "license": "MIT",
     "age_months": 18.1,
@@ -6246,8 +6264,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/yimmenu/yimmenuv2": {
-    "stars": 1677,
-    "forks": 386,
+    "stars": 1682,
+    "forks": 388,
     "language": "C++",
     "license": "GPL-2.0",
     "age_months": 36.6,
@@ -6255,7 +6273,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/yorukot/superfile": {
-    "stars": 22947,
+    "stars": 22964,
     "forks": 839,
     "language": "Go",
     "license": "MIT",
@@ -6264,8 +6282,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/yt-dlp/yt-dlp": {
-    "stars": 187584,
-    "forks": 16209,
+    "stars": 187749,
+    "forks": 16235,
     "language": "Python",
     "license": "Unlicense",
     "age_months": 70.1,
@@ -6273,8 +6291,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/z-lab/dflash": {
-    "stars": 5999,
-    "forks": 418,
+    "stars": 6010,
+    "forks": 420,
     "language": "Python",
     "license": "MIT",
     "age_months": 7.8,
@@ -6282,7 +6300,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/z4nzu/hackingtool": {
-    "stars": 79160,
+    "stars": 79182,
     "forks": 8985,
     "language": "Python",
     "license": "MIT",
@@ -6291,7 +6309,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/zaidmukaddam/scira": {
-    "stars": 11851,
+    "stars": 11853,
     "forks": 1489,
     "language": "TypeScript",
     "license": "AGPL-3.0",
@@ -6300,8 +6318,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/zhaoxuya520/reverse-skill": {
-    "stars": 30144,
-    "forks": 4124,
+    "stars": 30400,
+    "forks": 4155,
     "language": "PowerShell",
     "license": "MIT",
     "age_months": 3.5,
@@ -6309,8 +6327,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/zhulinsen/daily_stock_analysis": {
-    "stars": 64219,
-    "forks": 53856,
+    "stars": 64268,
+    "forks": 53891,
     "language": "Python",
     "license": "MIT",
     "age_months": 7.6,
@@ -6318,8 +6336,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/zie619/n8n-workflows": {
-    "stars": 56319,
-    "forks": 7554,
+    "stars": 56328,
+    "forks": 7557,
     "language": "Python",
     "license": "MIT",
     "age_months": 15.5,
@@ -6327,7 +6345,7 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/ziglang/zig": {
-    "stars": 43302,
+    "stars": 43305,
     "forks": 3225,
     "language": "Zig",
     "license": "MIT",
@@ -6336,8 +6354,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/zuodaotech/everyone-can-use-english": {
-    "stars": 36896,
-    "forks": 5094,
+    "stars": 36929,
+    "forks": 5097,
     "language": "TypeScript",
     "license": "GPL-3.0",
     "age_months": 89.5,
@@ -6345,8 +6363,8 @@
     "fetched_at": "2026-08-29"
   },
   "https://github.com/zyronon/typewords": {
-    "stars": 9020,
-    "forks": 1103,
+    "stars": 9023,
+    "forks": 1105,
     "language": "Vue",
     "license": "GPL-3.0",
     "age_months": 36.9,

@@ -653,6 +653,10 @@ entries:
   diegosouzapw_omniroute:
   - ai-coding
   - devtools
+  dietrichgebert_ponytail:
+  - ai-agent
+  - ai-coding
+  - devtools
   different-ai_openwork:
   - ai-agent
   - ai-coding
@@ -1426,6 +1430,8 @@ entries:
   - ai-coding
   - education
   - protocol-spec
+  marin-community_marin:
+  - uncategorized
   masterking32_masterdnsvpn:
   - protocol-spec
   mattpocock_skills:

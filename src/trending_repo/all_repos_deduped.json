@@ -270,6 +270,16 @@
     "trending_days": 22
   },
   {
+    "name": "ChromeDevTools/chrome-devtools-mcp",
+    "url": "https://github.com/chromedevtools/chrome-devtools-mcp",
+    "language": "TypeScript",
+    "stars": 49948,
+    "forks": 3502,
+    "description": "Chrome DevTools for coding agents",
+    "last_seen": "2026-08-28",
+    "trending_days": 20
+  },
+  {
     "name": "GibsonAI/Memori",
     "url": "https://github.com/gibsonai/memori",
     "language": "Python",
@@ -307,16 +317,6 @@
     "forks": 36709,
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
     "last_seen": "2026-08-23",
-    "trending_days": 19
-  },
-  {
-    "name": "ChromeDevTools/chrome-devtools-mcp",
-    "url": "https://github.com/chromedevtools/chrome-devtools-mcp",
-    "language": "TypeScript",
-    "stars": 47892,
-    "forks": 3253,
-    "description": "Chrome DevTools for coding agents",
-    "last_seen": "2026-07-30",
     "trending_days": 19
   },
   {
@@ -360,6 +360,36 @@
     "trending_days": 18
   },
   {
+    "name": "rohitg00/ai-engineering-from-scratch",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "language": "Python",
+    "stars": 50588,
+    "forks": 8778,
+    "description": "Learn it. Build it. Ship it for others.",
+    "last_seen": "2026-08-28",
+    "trending_days": 17
+  },
+  {
+    "name": "abhigyanpatwari/GitNexus",
+    "url": "https://github.com/abhigyanpatwari/gitnexus",
+    "language": "TypeScript",
+    "stars": 46132,
+    "forks": 5099,
+    "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration",
+    "last_seen": "2026-08-28",
+    "trending_days": 16
+  },
+  {
+    "name": "anthropics/claude-plugins-official",
+    "url": "https://github.com/anthropics/claude-plugins-official",
+    "language": "Python",
+    "stars": 34990,
+    "forks": 3934,
+    "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+    "last_seen": "2026-08-28",
+    "trending_days": 16
+  },
+  {
     "name": "bytedance/deer-flow",
     "url": "https://github.com/bytedance/deer-flow",
     "language": "Python",
@@ -378,36 +408,6 @@
     "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
     "last_seen": "2026-07-29",
     "trending_days": 16
-  },
-  {
-    "name": "rohitg00/ai-engineering-from-scratch",
-    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-    "language": "Python",
-    "stars": 50109,
-    "forks": 8710,
-    "description": "Learn it. Build it. Ship it for others.",
-    "last_seen": "2026-08-27",
-    "trending_days": 16
-  },
-  {
-    "name": "abhigyanpatwari/GitNexus",
-    "url": "https://github.com/abhigyanpatwari/gitnexus",
-    "language": "TypeScript",
-    "stars": 33067,
-    "forks": 3747,
-    "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
-    "last_seen": "2026-04-29",
-    "trending_days": 15
-  },
-  {
-    "name": "anthropics/claude-plugins-official",
-    "url": "https://github.com/anthropics/claude-plugins-official",
-    "language": "Python",
-    "stars": 34641,
-    "forks": 3909,
-    "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-    "last_seen": "2026-08-27",
-    "trending_days": 15
   },
   {
     "name": "aquasecurity/trivy",
@@ -570,6 +570,16 @@
     "trending_days": 12
   },
   {
+    "name": "calesthio/OpenMontage",
+    "url": "https://github.com/calesthio/openmontage",
+    "language": "Python",
+    "stars": 53222,
+    "forks": 6639,
+    "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+    "last_seen": "2026-08-28",
+    "trending_days": 12
+  },
+  {
     "name": "Crosstalk-Solutions/project-nomad",
     "url": "https://github.com/crosstalk-solutions/project-nomad",
     "language": "TypeScript",
@@ -667,16 +677,6 @@
     "forks": 3621,
     "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
     "last_seen": "2026-04-06",
-    "trending_days": 11
-  },
-  {
-    "name": "calesthio/OpenMontage",
-    "url": "https://github.com/calesthio/openmontage",
-    "language": "Python",
-    "stars": 52251,
-    "forks": 6547,
-    "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-    "last_seen": "2026-08-27",
     "trending_days": 11
   },
   {
@@ -1220,6 +1220,16 @@
     "trending_days": 8
   },
   {
+    "name": "cursor/plugins",
+    "url": "https://github.com/cursor/plugins",
+    "language": "TypeScript",
+    "stars": 5921,
+    "forks": 477,
+    "description": "Cursor plugin specification and official plugins",
+    "last_seen": "2026-08-28",
+    "trending_days": 8
+  },
+  {
     "name": "DeusData/codebase-memory-mcp",
     "url": "https://github.com/deusdata/codebase-memory-mcp",
     "language": "C",
@@ -1277,6 +1287,16 @@
     "forks": 5160,
     "description": "The Free Software Media System - Server Backend & API",
     "last_seen": "2026-07-23",
+    "trending_days": 8
+  },
+  {
+    "name": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/k-dense-ai/scientific-agent-skills",
+    "language": "Python",
+    "stars": 36444,
+    "forks": 3473,
+    "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+    "last_seen": "2026-08-28",
     "trending_days": 8
   },
   {
@@ -1410,16 +1430,6 @@
     "trending_days": 7
   },
   {
-    "name": "cursor/plugins",
-    "url": "https://github.com/cursor/plugins",
-    "language": "TypeScript",
-    "stars": 4520,
-    "forks": 372,
-    "description": "Cursor plugin specification and official plugins",
-    "last_seen": "2026-08-22",
-    "trending_days": 7
-  },
-  {
     "name": "diegosouzapw/OmniRoute",
     "url": "https://github.com/diegosouzapw/omniroute",
     "language": "TypeScript",
@@ -1517,16 +1527,6 @@
     "forks": 1929,
     "description": "An evolving how-to guide for securing a Linux server.",
     "last_seen": "2026-07-09",
-    "trending_days": 7
-  },
-  {
-    "name": "K-Dense-AI/scientific-agent-skills",
-    "url": "https://github.com/k-dense-ai/scientific-agent-skills",
-    "language": "Python",
-    "stars": 35245,
-    "forks": 3389,
-    "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-    "last_seen": "2026-08-27",
     "trending_days": 7
   },
   {
@@ -1980,6 +1980,16 @@
     "trending_days": 6
   },
   {
+    "name": "freestylefly/awesome-gpt-image-2",
+    "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+    "language": "JavaScript",
+    "stars": 24193,
+    "forks": 2393,
+    "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+    "last_seen": "2026-08-28",
+    "trending_days": 6
+  },
+  {
     "name": "github/spec-kit",
     "url": "https://github.com/github/spec-kit",
     "language": "Python",
@@ -1987,6 +1997,16 @@
     "forks": 11519,
     "description": "💫 Toolkit to help you get started with Spec-Driven Development",
     "last_seen": "2026-08-15",
+    "trending_days": 6
+  },
+  {
+    "name": "google/googletest",
+    "url": "https://github.com/google/googletest",
+    "language": "C++",
+    "stars": 39162,
+    "forks": 10871,
+    "description": "GoogleTest - Google Testing and Mocking Framework",
+    "last_seen": "2026-08-28",
     "trending_days": 6
   },
   {
@@ -2590,16 +2610,6 @@
     "trending_days": 5
   },
   {
-    "name": "freestylefly/awesome-gpt-image-2",
-    "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-    "language": "JavaScript",
-    "stars": 22921,
-    "forks": 2282,
-    "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
-    "last_seen": "2026-08-27",
-    "trending_days": 5
-  },
-  {
     "name": "ggml-org/llama.cpp",
     "url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
@@ -2617,16 +2627,6 @@
     "forks": 182,
     "description": "GitHub Agentic Workflows",
     "last_seen": "2026-02-15",
-    "trending_days": 5
-  },
-  {
-    "name": "google/googletest",
-    "url": "https://github.com/google/googletest",
-    "language": "C++",
-    "stars": 39021,
-    "forks": 10863,
-    "description": "GoogleTest - Google Testing and Mocking Framework",
-    "last_seen": "2026-08-27",
     "trending_days": 5
   },
   {
@@ -3330,6 +3330,16 @@
     "trending_days": 4
   },
   {
+    "name": "DietrichGebert/ponytail",
+    "url": "https://github.com/dietrichgebert/ponytail",
+    "language": "JavaScript",
+    "stars": 115251,
+    "forks": 6301,
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "last_seen": "2026-08-28",
+    "trending_days": 4
+  },
+  {
     "name": "different-ai/openwork",
     "url": "https://github.com/different-ai/openwork",
     "language": "TypeScript",
@@ -3710,6 +3720,16 @@
     "trending_days": 4
   },
   {
+    "name": "livekit/agents",
+    "url": "https://github.com/livekit/agents",
+    "language": "Python",
+    "stars": 13301,
+    "forks": 3630,
+    "description": "A framework for building realtime voice AI agents 🤖🎙️📹",
+    "last_seen": "2026-08-28",
+    "trending_days": 4
+  },
+  {
     "name": "localstack/localstack",
     "url": "https://github.com/localstack/localstack",
     "language": "Python",
@@ -3737,6 +3757,16 @@
     "forks": 1177,
     "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
     "last_seen": "2026-05-10",
+    "trending_days": 4
+  },
+  {
+    "name": "marin-community/marin",
+    "url": "https://github.com/marin-community/marin",
+    "language": "Python",
+    "stars": 2877,
+    "forks": 239,
+    "description": "Open-source framework for the research and development of foundation models.",
+    "last_seen": "2026-08-28",
     "trending_days": 4
   },
   {
@@ -4520,16 +4550,6 @@
     "trending_days": 3
   },
   {
-    "name": "DietrichGebert/ponytail",
-    "url": "https://github.com/dietrichgebert/ponytail",
-    "language": "JavaScript",
-    "stars": 113912,
-    "forks": 6232,
-    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "last_seen": "2026-08-27",
-    "trending_days": 3
-  },
-  {
     "name": "DioxusLabs/dioxus",
     "url": "https://github.com/dioxuslabs/dioxus",
     "language": "Rust",
@@ -4920,16 +4940,6 @@
     "trending_days": 3
   },
   {
-    "name": "livekit/agents",
-    "url": "https://github.com/livekit/agents",
-    "language": "Python",
-    "stars": 12232,
-    "forks": 3463,
-    "description": "A framework for building realtime voice AI agents 🤖🎙️📹",
-    "last_seen": "2026-08-04",
-    "trending_days": 3
-  },
-  {
     "name": "LizardByte/Sunshine",
     "url": "https://github.com/lizardbyte/sunshine",
     "language": "C++",
@@ -4997,16 +5007,6 @@
     "forks": 973,
     "description": "MapLibre GL JS - Interactive vector tile maps in the browser",
     "last_seen": "2026-01-06",
-    "trending_days": 3
-  },
-  {
-    "name": "marin-community/marin",
-    "url": "https://github.com/marin-community/marin",
-    "language": "Python",
-    "stars": 2673,
-    "forks": 228,
-    "description": "Open-source framework for the research and development of foundation models.",
-    "last_seen": "2026-08-27",
     "trending_days": 3
   },
   {
@@ -6090,6 +6090,16 @@
     "trending_days": 2
   },
   {
+    "name": "bilawalsidhu/gods-eye-view",
+    "url": "https://github.com/bilawalsidhu/gods-eye-view",
+    "language": "JavaScript",
+    "stars": 10889,
+    "forks": 2214,
+    "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+    "last_seen": "2026-08-28",
+    "trending_days": 2
+  },
+  {
     "name": "Biohub/esm",
     "url": "https://github.com/biohub/esm",
     "language": "JupyterNotebook",
@@ -6927,6 +6937,16 @@
     "forks": 1339,
     "description": "dev tools, env vars, task runner",
     "last_seen": "2026-08-08",
+    "trending_days": 2
+  },
+  {
+    "name": "JetBrains/go-modern-guidelines",
+    "url": "https://github.com/jetbrains/go-modern-guidelines",
+    "language": "Go",
+    "stars": 2559,
+    "forks": 78,
+    "description": "Help AI coding agents write modern Go",
+    "last_seen": "2026-08-28",
     "trending_days": 2
   },
   {
@@ -7900,6 +7920,16 @@
     "trending_days": 2
   },
   {
+    "name": "tashfeenahmed/freellmapi",
+    "url": "https://github.com/tashfeenahmed/freellmapi",
+    "language": "TypeScript",
+    "stars": 21561,
+    "forks": 3052,
+    "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+    "last_seen": "2026-08-28",
+    "trending_days": 2
+  },
+  {
     "name": "tauri-apps/tauri",
     "url": "https://github.com/tauri-apps/tauri",
     "language": "Rust",
@@ -8057,6 +8087,16 @@
     "forks": 11909,
     "description": "Independent technology for modern publishing, memberships, subscriptions and newsletters.",
     "last_seen": "2026-08-22",
+    "trending_days": 2
+  },
+  {
+    "name": "tt-a1i/archify",
+    "url": "https://github.com/tt-a1i/archify",
+    "language": "JavaScript",
+    "stars": 27025,
+    "forks": 1713,
+    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+    "last_seen": "2026-08-28",
     "trending_days": 2
   },
   {
@@ -8337,6 +8377,16 @@
     "forks": 378,
     "description": "Claude Desktop for Debian-based Linux distributions",
     "last_seen": "2026-04-18",
+    "trending_days": 1
+  },
+  {
+    "name": "abi/screenshot-to-code",
+    "url": "https://github.com/abi/screenshot-to-code",
+    "language": "Python",
+    "stars": 75501,
+    "forks": 9217,
+    "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+    "last_seen": "2026-08-28",
     "trending_days": 1
   },
   {
@@ -8747,16 +8797,6 @@
     "forks": 6699,
     "description": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]",
     "last_seen": "2026-03-25",
-    "trending_days": 1
-  },
-  {
-    "name": "bilawalsidhu/gods-eye-view",
-    "url": "https://github.com/bilawalsidhu/gods-eye-view",
-    "language": "JavaScript",
-    "stars": 7553,
-    "forks": 1751,
-    "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-    "last_seen": "2026-08-27",
     "trending_days": 1
   },
   {
@@ -10130,16 +10170,6 @@
     "trending_days": 1
   },
   {
-    "name": "JetBrains/go-modern-guidelines",
-    "url": "https://github.com/jetbrains/go-modern-guidelines",
-    "language": "Go",
-    "stars": 2028,
-    "forks": 62,
-    "description": "Help AI coding agents write modern Go",
-    "last_seen": "2026-08-27",
-    "trending_days": 1
-  },
-  {
     "name": "JetBrains/kotlin",
     "url": "https://github.com/jetbrains/kotlin",
     "language": "Kotlin",
@@ -10817,6 +10847,16 @@
     "forks": 1728,
     "description": "F´ - A flight software and embedded systems framework",
     "last_seen": "2026-07-11",
+    "trending_days": 1
+  },
+  {
+    "name": "NationalSecurityAgency/ghidra",
+    "url": "https://github.com/nationalsecurityagency/ghidra",
+    "language": "Java",
+    "stars": 73295,
+    "forks": 8012,
+    "description": "Ghidra is a software reverse engineering (SRE) framework",
+    "last_seen": "2026-08-28",
     "trending_days": 1
   },
   {
@@ -11720,6 +11760,16 @@
     "trending_days": 1
   },
   {
+    "name": "swoole/typephp",
+    "url": "https://github.com/swoole/typephp",
+    "language": "PHP",
+    "stars": 794,
+    "forks": 38,
+    "description": "Compile PHP to Native Binaries",
+    "last_seen": "2026-08-28",
+    "trending_days": 1
+  },
+  {
     "name": "symfony/symfony",
     "url": "https://github.com/symfony/symfony",
     "language": "PHP",
@@ -11740,6 +11790,16 @@
     "trending_days": 1
   },
   {
+    "name": "tailscale/tailcat",
+    "url": "https://github.com/tailscale/tailcat",
+    "language": "Go",
+    "stars": 2589,
+    "forks": 67,
+    "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+    "last_seen": "2026-08-28",
+    "trending_days": 1
+  },
+  {
     "name": "tailscale/tailscale",
     "url": "https://github.com/tailscale/tailscale",
     "language": "Go",
@@ -11757,16 +11817,6 @@
     "forks": 1208,
     "description": "🤖 Fully typesafe Router for React (and friends) w/ built-in caching, 1st class search-param APIs, client-side cache integration and isomorphic rendering.",
     "last_seen": "2025-09-25",
-    "trending_days": 1
-  },
-  {
-    "name": "tashfeenahmed/freellmapi",
-    "url": "https://github.com/tashfeenahmed/freellmapi",
-    "language": "TypeScript",
-    "stars": 19581,
-    "forks": 2855,
-    "description": "OpenAI-compatible proxy that stacks the free tiers of 28 LLM providers (~4B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-    "last_seen": "2026-08-24",
     "trending_days": 1
   },
   {
@@ -11937,16 +11987,6 @@
     "forks": 3134,
     "description": "The Social-Engineer Toolkit (SET) repository from TrustedSec - All new versions of SET will be deployed here.",
     "last_seen": "2025-12-05",
-    "trending_days": 1
-  },
-  {
-    "name": "tt-a1i/archify",
-    "url": "https://github.com/tt-a1i/archify",
-    "language": "JavaScript",
-    "stars": 22799,
-    "forks": 1474,
-    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-    "last_seen": "2026-08-27",
     "trending_days": 1
   },
   {

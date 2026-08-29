@@ -1,27 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-08-28",
+    "last_run": "2026-08-29",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/different-ai/openwork",
-      "canonical_url": "https://github.com/different-ai/openwork",
-      "event_date": "2026-07-29",
-      "date_seen": "2026-07-29"
-    },
-    {
-      "key": "github.com/maderix/ane",
-      "canonical_url": "https://github.com/maderix/ANE",
-      "event_date": "2026-07-29",
-      "date_seen": "2026-07-29"
-    },
-    {
-      "key": "github.com/rhaiscript/rhai",
-      "canonical_url": "https://github.com/rhaiscript/rhai",
-      "event_date": "2026-07-29",
-      "date_seen": "2026-07-29"
-    },
     {
       "key": "github.com/microsoft/ai-for-beginners",
       "canonical_url": "https://github.com/microsoft/AI-For-Beginners",
@@ -939,6 +921,24 @@
       "canonical_url": "https://github.com/ComposioHQ/awesome-claude-skills",
       "event_date": "2026-08-28",
       "date_seen": "2026-08-28"
+    },
+    {
+      "key": "github.com/abi/screenshot-to-code",
+      "canonical_url": "https://github.com/abi/screenshot-to-code",
+      "event_date": "2026-08-29",
+      "date_seen": "2026-08-29"
+    },
+    {
+      "key": "github.com/tashfeenahmed/freellmapi",
+      "canonical_url": "https://github.com/tashfeenahmed/freellmapi",
+      "event_date": "2026-08-29",
+      "date_seen": "2026-08-29"
+    },
+    {
+      "key": "github.com/chromedevtools/chrome-devtools-mcp",
+      "canonical_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "event_date": "2026-08-29",
+      "date_seen": "2026-08-29"
     }
   ]
 }

@@ -343,10 +343,20 @@
     "name": "mvanhorn/last30days-skill",
     "url": "https://github.com/mvanhorn/last30days-skill",
     "language": "Python",
-    "stars": 56699,
-    "forks": 4952,
+    "stars": 60372,
+    "forks": 5289,
     "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-    "last_seen": "2026-08-02",
+    "last_seen": "2026-08-30",
+    "trending_days": 19
+  },
+  {
+    "name": "abhigyanpatwari/GitNexus",
+    "url": "https://github.com/abhigyanpatwari/gitnexus",
+    "language": "TypeScript",
+    "stars": 46472,
+    "forks": 5121,
+    "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration",
+    "last_seen": "2026-08-30",
     "trending_days": 18
   },
   {
@@ -368,16 +378,6 @@
     "description": "Learn it. Build it. Ship it for others.",
     "last_seen": "2026-08-29",
     "trending_days": 18
-  },
-  {
-    "name": "abhigyanpatwari/GitNexus",
-    "url": "https://github.com/abhigyanpatwari/gitnexus",
-    "language": "TypeScript",
-    "stars": 46319,
-    "forks": 5109,
-    "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration",
-    "last_seen": "2026-08-29",
-    "trending_days": 17
   },
   {
     "name": "anthropics/claude-plugins-official",
@@ -750,6 +750,16 @@
     "trending_days": 11
   },
   {
+    "name": "p-e-w/heretic",
+    "url": "https://github.com/p-e-w/heretic",
+    "language": "Python",
+    "stars": 28980,
+    "forks": 3188,
+    "description": "Fully automatic censorship removal for language models",
+    "last_seen": "2026-08-30",
+    "trending_days": 11
+  },
+  {
     "name": "patchy631/ai-engineering-hub",
     "url": "https://github.com/patchy631/ai-engineering-hub",
     "language": "JupyterNotebook",
@@ -820,6 +830,16 @@
     "trending_days": 10
   },
   {
+    "name": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/k-dense-ai/scientific-agent-skills",
+    "language": "Python",
+    "stars": 38664,
+    "forks": 3624,
+    "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+    "last_seen": "2026-08-30",
+    "trending_days": 10
+  },
+  {
     "name": "microsoft/ai-agents-for-beginners",
     "url": "https://github.com/microsoft/ai-agents-for-beginners",
     "language": "JupyterNotebook",
@@ -877,16 +897,6 @@
     "forks": 8619,
     "description": "The open-source CapCut alternative",
     "last_seen": "2026-08-27",
-    "trending_days": 10
-  },
-  {
-    "name": "p-e-w/heretic",
-    "url": "https://github.com/p-e-w/heretic",
-    "language": "Python",
-    "stars": 22949,
-    "forks": 2457,
-    "description": "Fully automatic censorship removal for language models",
-    "last_seen": "2026-06-01",
     "trending_days": 10
   },
   {
@@ -1027,16 +1037,6 @@
     "forks": 83550,
     "description": "A complete computer science study plan to become a software engineer.",
     "last_seen": "2026-06-15",
-    "trending_days": 9
-  },
-  {
-    "name": "K-Dense-AI/scientific-agent-skills",
-    "url": "https://github.com/k-dense-ai/scientific-agent-skills",
-    "language": "Python",
-    "stars": 37573,
-    "forks": 3552,
-    "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-    "last_seen": "2026-08-29",
     "trending_days": 9
   },
   {
@@ -2150,6 +2150,16 @@
     "trending_days": 6
   },
   {
+    "name": "livekit/agents",
+    "url": "https://github.com/livekit/agents",
+    "language": "Python",
+    "stars": 13635,
+    "forks": 3651,
+    "description": "A framework for building realtime voice AI agents 🤖🎙️📹",
+    "last_seen": "2026-08-30",
+    "trending_days": 6
+  },
+  {
     "name": "lobehub/lobehub",
     "url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
@@ -2747,16 +2757,6 @@
     "forks": 329,
     "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
     "last_seen": "2026-07-24",
-    "trending_days": 5
-  },
-  {
-    "name": "livekit/agents",
-    "url": "https://github.com/livekit/agents",
-    "language": "Python",
-    "stars": 13497,
-    "forks": 3644,
-    "description": "A framework for building realtime voice AI agents 🤖🎙️📹",
-    "last_seen": "2026-08-29",
     "trending_days": 5
   },
   {
@@ -3397,6 +3397,16 @@
     "forks": 4917,
     "description": "Find and fix problems in your JavaScript code.",
     "last_seen": "2026-02-20",
+    "trending_days": 4
+  },
+  {
+    "name": "every-app/open-seo",
+    "url": "https://github.com/every-app/open-seo",
+    "language": "TypeScript",
+    "stars": 14951,
+    "forks": 1793,
+    "description": "Open source alternative to Semrush and Ahrefs",
+    "last_seen": "2026-08-30",
     "trending_days": 4
   },
   {
@@ -4050,6 +4060,16 @@
     "trending_days": 4
   },
   {
+    "name": "tashfeenahmed/freellmapi",
+    "url": "https://github.com/tashfeenahmed/freellmapi",
+    "language": "TypeScript",
+    "stars": 22515,
+    "forks": 3132,
+    "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+    "last_seen": "2026-08-30",
+    "trending_days": 4
+  },
+  {
     "name": "TencentCloud/CubeSandbox",
     "url": "https://github.com/tencentcloud/cubesandbox",
     "language": "Rust",
@@ -4097,6 +4117,16 @@
     "forks": 13407,
     "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
     "last_seen": "2026-05-23",
+    "trending_days": 4
+  },
+  {
+    "name": "tt-a1i/archify",
+    "url": "https://github.com/tt-a1i/archify",
+    "language": "JavaScript",
+    "stars": 33463,
+    "forks": 2118,
+    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+    "last_seen": "2026-08-30",
     "trending_days": 4
   },
   {
@@ -4620,16 +4650,6 @@
     "trending_days": 3
   },
   {
-    "name": "every-app/open-seo",
-    "url": "https://github.com/every-app/open-seo",
-    "language": "TypeScript",
-    "stars": 6268,
-    "forks": 690,
-    "description": "Open source alternative to Semrush and Ahrefs",
-    "last_seen": "2026-07-21",
-    "trending_days": 3
-  },
-  {
     "name": "FareedKhan-dev/train-llm-from-scratch",
     "url": "https://github.com/fareedkhan-dev/train-llm-from-scratch",
     "language": "Python",
@@ -5150,6 +5170,16 @@
     "trending_days": 3
   },
   {
+    "name": "NationalSecurityAgency/ghidra",
+    "url": "https://github.com/nationalsecurityagency/ghidra",
+    "language": "Java",
+    "stars": 73727,
+    "forks": 8050,
+    "description": "Ghidra is a software reverse engineering (SRE) framework",
+    "last_seen": "2026-08-30",
+    "trending_days": 3
+  },
+  {
     "name": "nitrojs/nitro",
     "url": "https://github.com/nitrojs/nitro",
     "language": "TypeScript",
@@ -5530,16 +5560,6 @@
     "trending_days": 3
   },
   {
-    "name": "tashfeenahmed/freellmapi",
-    "url": "https://github.com/tashfeenahmed/freellmapi",
-    "language": "TypeScript",
-    "stars": 22049,
-    "forks": 3094,
-    "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-    "last_seen": "2026-08-29",
-    "trending_days": 3
-  },
-  {
     "name": "TelegramMessenger/Telegram-iOS",
     "url": "https://github.com/telegrammessenger/telegram-ios",
     "language": "Swift",
@@ -5600,16 +5620,6 @@
     "trending_days": 3
   },
   {
-    "name": "tt-a1i/archify",
-    "url": "https://github.com/tt-a1i/archify",
-    "language": "JavaScript",
-    "stars": 29984,
-    "forks": 1873,
-    "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-    "last_seen": "2026-08-29",
-    "trending_days": 3
-  },
-  {
     "name": "typst/typst",
     "url": "https://github.com/typst/typst",
     "language": "Rust",
@@ -5637,6 +5647,16 @@
     "forks": 5842,
     "description": "Umami is a modern, privacy-focused analytics platform. A better, open-source alternative to Google Analytics, Mixpanel and Amplitude.",
     "last_seen": "2025-11-11",
+    "trending_days": 3
+  },
+  {
+    "name": "unclecode/crawl4ai",
+    "url": "https://github.com/unclecode/crawl4ai",
+    "language": "Python",
+    "stars": 80068,
+    "forks": 8300,
+    "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+    "last_seen": "2026-08-30",
     "trending_days": 3
   },
   {
@@ -7480,16 +7500,6 @@
     "trending_days": 2
   },
   {
-    "name": "NationalSecurityAgency/ghidra",
-    "url": "https://github.com/nationalsecurityagency/ghidra",
-    "language": "Java",
-    "stars": 73540,
-    "forks": 8024,
-    "description": "Ghidra is a software reverse engineering (SRE) framework",
-    "last_seen": "2026-08-29",
-    "trending_days": 2
-  },
-  {
     "name": "NawfalMotii79/PLFM_RADAR",
     "url": "https://github.com/nawfalmotii79/plfm_radar",
     "language": "PLSQL",
@@ -8177,16 +8187,6 @@
     "forks": 210,
     "description": "基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。",
     "last_seen": "2026-07-01",
-    "trending_days": 2
-  },
-  {
-    "name": "unclecode/crawl4ai",
-    "url": "https://github.com/unclecode/crawl4ai",
-    "language": "Python",
-    "stars": 71651,
-    "forks": 7367,
-    "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
-    "last_seen": "2026-07-09",
     "trending_days": 2
   },
   {
@@ -8950,6 +8950,16 @@
     "trending_days": 1
   },
   {
+    "name": "checkstyle/checkstyle",
+    "url": "https://github.com/checkstyle/checkstyle",
+    "language": "Java",
+    "stars": 9143,
+    "forks": 4192,
+    "description": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.",
+    "last_seen": "2026-08-30",
+    "trending_days": 1
+  },
+  {
     "name": "chen08209/FlClash",
     "url": "https://github.com/chen08209/flclash",
     "language": "Dart",
@@ -9040,6 +9050,16 @@
     "trending_days": 1
   },
   {
+    "name": "colinhacks/zod",
+    "url": "https://github.com/colinhacks/zod",
+    "language": "TypeScript",
+    "stars": 43604,
+    "forks": 2154,
+    "description": "TypeScript-first schema validation with static type inference",
+    "last_seen": "2026-08-30",
+    "trending_days": 1
+  },
+  {
     "name": "comfyanonymous/ComfyUI",
     "url": "https://github.com/comfyanonymous/comfyui",
     "language": "Python",
@@ -9097,6 +9117,16 @@
     "forks": 4308,
     "description": "Collection of handy online tools for developers, with great UX.",
     "last_seen": "2025-12-05",
+    "trending_days": 1
+  },
+  {
+    "name": "corsairdev/corsair",
+    "url": "https://github.com/corsairdev/corsair",
+    "language": "TypeScript",
+    "stars": 10814,
+    "forks": 516,
+    "description": "Connect your users to their apps",
+    "last_seen": "2026-08-30",
     "trending_days": 1
   },
   {
@@ -9950,6 +9980,16 @@
     "trending_days": 1
   },
   {
+    "name": "handsomestWei/patent-disclosure-skill",
+    "url": "https://github.com/handsomestwei/patent-disclosure-skill",
+    "language": "Python",
+    "stars": 5570,
+    "forks": 693,
+    "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
+    "last_seen": "2026-08-30",
+    "trending_days": 1
+  },
+  {
     "name": "handy-computer/transcribe.cpp",
     "url": "https://github.com/handy-computer/transcribe.cpp",
     "language": "C++",
@@ -10350,6 +10390,16 @@
     "trending_days": 1
   },
   {
+    "name": "Lakr233/vphone-cli",
+    "url": "https://github.com/lakr233/vphone-cli",
+    "language": "Swift",
+    "stars": 9435,
+    "forks": 1278,
+    "description": "None",
+    "last_seen": "2026-08-30",
+    "trending_days": 1
+  },
+  {
     "name": "langchain-ai/langchainjs",
     "url": "https://github.com/langchain-ai/langchainjs",
     "language": "TypeScript",
@@ -10527,6 +10577,16 @@
     "forks": 956,
     "description": "Training neural networks on Apple Neural Engine via reverse-engineered private APIs",
     "last_seen": "2026-07-29",
+    "trending_days": 1
+  },
+  {
+    "name": "majd/ipatool",
+    "url": "https://github.com/majd/ipatool",
+    "language": "Go",
+    "stars": 10073,
+    "forks": 871,
+    "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
+    "last_seen": "2026-08-30",
     "trending_days": 1
   },
   {
@@ -11270,6 +11330,16 @@
     "trending_days": 1
   },
   {
+    "name": "pollen-robotics/microduck_rl",
+    "url": "https://github.com/pollen-robotics/microduck_rl",
+    "language": "Python",
+    "stars": 702,
+    "forks": 125,
+    "description": "RL training environments for Microduck (mjlab)",
+    "last_seen": "2026-08-30",
+    "trending_days": 1
+  },
+  {
     "name": "pollen-robotics/reachy_mini",
     "url": "https://github.com/pollen-robotics/reachy_mini",
     "language": "Python",
@@ -11367,6 +11437,16 @@
     "forks": 94,
     "description": "A lightweight tool for deploying and managing containerised applications across a network of Docker hosts. Bridging the gap between Docker and Kubernetes ✨",
     "last_seen": "2025-12-06",
+    "trending_days": 1
+  },
+  {
+    "name": "punkpeye/awesome-mcp-servers",
+    "url": "https://github.com/punkpeye/awesome-mcp-servers",
+    "language": "Unknown",
+    "stars": 93173,
+    "forks": 15282,
+    "description": "A collection of MCP servers.",
+    "last_seen": "2026-08-30",
     "trending_days": 1
   },
   {
@@ -11877,6 +11957,16 @@
     "forks": 5827,
     "description": "Open-source IoT Platform - Device management, data collection, processing and visualization.",
     "last_seen": "2025-10-08",
+    "trending_days": 1
+  },
+  {
+    "name": "THU-MAIC/OpenMAIC",
+    "url": "https://github.com/thu-maic/openmaic",
+    "language": "TypeScript",
+    "stars": 23325,
+    "forks": 4434,
+    "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+    "last_seen": "2026-08-30",
     "trending_days": 1
   },
   {

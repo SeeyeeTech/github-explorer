@@ -1,0 +1,6 @@
+{
+  "title": "9 个月 3K stars 的反常识项目：JetBrains 把 Go 现代写法塞进 AI Coding Agent 的 Prompt",
+  "digest": "49% 是 JSON 数据、43% 是搬运代码：JetBrains GoLand 团队用一份规则表喂饱 5 大 AI Coding Agent，按 go.mod 版本过滤，让 Agent 写代码之前就懂现代 Go。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

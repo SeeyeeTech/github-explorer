@@ -323,3 +323,4 @@
 {"recorded_at": "2026-08-29T23:50:10.228450+00:00", "slug": "tt-a1i_archify", "title": null, "state": "published", "published_at": "2026-08-29", "reason": "自动生成", "ci_run_id": "33281558379"}
 {"recorded_at": "2026-08-30T02:34:19.282412+00:00", "slug": "tashfeenahmed_freellmapi", "title": null, "state": "published", "published_at": "2026-08-30", "reason": "自动生成", "ci_run_id": "33287872819"}
 {"recorded_at": "2026-08-30T08:55:24.641277+00:00", "slug": "bilawalsidhu_gods-eye-view", "title": null, "state": "published", "published_at": "2026-08-30", "reason": "自动生成", "ci_run_id": "33302127945"}
+{"recorded_at": "2026-08-30T14:12:43.876043+00:00", "slug": "jetbrains_go-modern-guidelines", "title": null, "state": "published", "published_at": "2026-08-30", "reason": "自动生成", "ci_run_id": "33315863469"}

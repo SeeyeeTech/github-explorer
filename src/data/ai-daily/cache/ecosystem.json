@@ -939,6 +939,12 @@
       "canonical_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "event_date": "2026-08-29",
       "date_seen": "2026-08-29"
+    },
+    {
+      "key": "github.com/ddalcu/mlx-serve",
+      "canonical_url": "https://github.com/ddalcu/mlx-serve",
+      "event_date": "2026-08-29",
+      "date_seen": "2026-08-29"
     }
   ]
 }

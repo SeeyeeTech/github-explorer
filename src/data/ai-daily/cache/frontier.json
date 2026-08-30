@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-08-07",
+    "last_run": "2026-08-30",
     "window_days": 30
   },
   "entries": [
@@ -147,6 +147,402 @@
       "canonical_url": "https://github.com/syncular/syncular",
       "event_date": "2026-08-07",
       "date_seen": "2026-08-07"
+    },
+    {
+      "key": "https://36kr.com/p/3959191433165952",
+      "canonical_url": "https://36kr.com/p/3959191433165952",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://arena.ai/leaderboard/agent",
+      "canonical_url": "https://arena.ai/leaderboard/agent",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://artificialanalysis.ai",
+      "canonical_url": "https://artificialanalysis.ai/",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://artificialanalysis.ai/articles/announcing-the-speech-agent-arena",
+      "canonical_url": "https://artificialanalysis.ai/articles/announcing-the-speech-agent-arena",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://artificialanalysis.ai/articles/gemini-3-7-time-frontier",
+      "canonical_url": "https://artificialanalysis.ai/articles/gemini-3-7-time-frontier",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://artificialanalysis.ai/es/models/qwen3-8-flash-next",
+      "canonical_url": "https://artificialanalysis.ai/es/models/qwen3-8-flash-next",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "arxiv:2608.15089",
+      "canonical_url": "https://arxiv.org/abs/2608.15089",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "arxiv:2608.16859",
+      "canonical_url": "https://arxiv.org/abs/2608.16859",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "arxiv:2608.17286",
+      "canonical_url": "https://arxiv.org/abs/2608.17286",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "arxiv:2608.26005",
+      "canonical_url": "https://arxiv.org/abs/2608.26005",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "arxiv:2608.26103",
+      "canonical_url": "https://arxiv.org/abs/2608.26103",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "arxiv:2608.27351",
+      "canonical_url": "https://arxiv.org/abs/2608.27351",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "arxiv:2608.27448",
+      "canonical_url": "https://arxiv.org/abs/2608.27448",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "arxiv:2608.27455",
+      "canonical_url": "https://arxiv.org/abs/2608.27455",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://arxivtldr.org/abs/2608.15089",
+      "canonical_url": "https://arxivtldr.org/abs/2608.15089",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe",
+      "canonical_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash",
+      "canonical_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://cursor.com/blog/joining-spacex",
+      "canonical_url": "https://cursor.com/blog/joining-spacex",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://datanorth.ai/news/google-launches-gemini-3-5-transcribe",
+      "canonical_url": "https://datanorth.ai/news/google-launches-gemini-3-5-transcribe",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations",
+      "canonical_url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://developer.meta.com/ai/resources/blog/build-with-muse-glimmer",
+      "canonical_url": "https://developer.meta.com/ai/resources/blog/build-with-muse-glimmer/",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://developer.nvidia.com/blog/developing-nemotron-3-5-lightning-nvfp4-with-qad-using-nvidia-model-optimizer",
+      "canonical_url": "https://developer.nvidia.com/blog/developing-nemotron-3-5-lightning-nvfp4-with-qad-using-nvidia-model-optimizer/",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://finance.yahoo.com/technology/ai/articles/exclusive-anthropic-planned-then-abandoned-212219718.html",
+      "canonical_url": "https://finance.yahoo.com/technology/ai/articles/exclusive-anthropic-planned-then-abandoned-212219718.html",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://finance.yahoo.com/technology/ai/articles/mistral-humain-announce-strategic-collaboration-185200668.html",
+      "canonical_url": "https://finance.yahoo.com/technology/ai/articles/mistral-humain-announce-strategic-collaboration-185200668.html",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "github.com/internlm/lmdeploy",
+      "canonical_url": "https://github.com/InternLM/lmdeploy/releases/tag/v0.16.0",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "github.com/k-dense-ai/scientific-agent-skills",
+      "canonical_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "github.com/qwenlm/qwen3.8-flash-next",
+      "canonical_url": "https://github.com/QwenLM/Qwen3.8-Flash-Next/",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "github.com/anthropics/claude-plugins-official",
+      "canonical_url": "https://github.com/anthropics/claude-plugins-official",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "github.com/bilawalsidhu/gods-eye-view",
+      "canonical_url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "github.com/calesthio/openmontage",
+      "canonical_url": "https://github.com/calesthio/OpenMontage",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "github.com/deepseek-ai/deepseek-harness",
+      "canonical_url": "https://github.com/deepseek-ai/deepseek-harness",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "github.com/henryqin1997/statem",
+      "canonical_url": "https://github.com/henryqin1997/statem",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "github.com/modular/modular",
+      "canonical_url": "https://github.com/modular/modular/releases",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "github.com/obra/superpowers",
+      "canonical_url": "https://github.com/obra/superpowers",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "github.com/p-e-w/heretic",
+      "canonical_url": "https://github.com/p-e-w/heretic",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "github.com/tailscale/tailcat",
+      "canonical_url": "https://github.com/tailscale/tailcat",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "github.com/tt-a1i/archify",
+      "canonical_url": "https://github.com/tt-a1i/archify",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "github.com/vllm-project/vllm",
+      "canonical_url": "https://github.com/vllm-project/vllm/releases",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "github.com/zai-org/glm-5",
+      "canonical_url": "https://github.com/zai-org/GLM-5",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "hf:qwen/qwen3.8-flash-next",
+      "canonical_url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "hf:meta-models/muse-glimmer-30b",
+      "canonical_url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "hf:nvidia/nvidia-nemotron-3.5-lightning-30b-a3b-bf16",
+      "canonical_url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "hf:zai-org/glm-5.3",
+      "canonical_url": "https://huggingface.co/zai-org/GLM-5.3",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "hf:zai-org/glm-5.3-flash",
+      "canonical_url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://mistral.ai/news/agentic-search",
+      "canonical_url": "https://mistral.ai/news/agentic-search/",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://mistral.ai/news/regional-inference-open-models-new-compute",
+      "canonical_url": "https://mistral.ai/news/regional-inference-open-models-new-compute/",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "canonical_url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts/",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://openai.com/index/expanding-our-presence-in-brazil",
+      "canonical_url": "https://openai.com/index/expanding-our-presence-in-brazil/",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "canonical_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://openai.com/index/premium-seats-chatgpt-business",
+      "canonical_url": "https://openai.com/index/premium-seats-chatgpt-business/",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "canonical_url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand/",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://venturebeat.com/infrastructure/mistral-ai-wants-to-build-1-gigawatt-of-european-compute-by-2030-and-lock-in-customers-now",
+      "canonical_url": "https://venturebeat.com/infrastructure/mistral-ai-wants-to-build-1-gigawatt-of-european-compute-by-2030-and-lock-in-customers-now",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://anthropic.com/news/expanding-support-for-scientists",
+      "canonical_url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://anthropic.com/news/model-hardware-standard-research-preview",
+      "canonical_url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://anthropic.com/news/wellbeing-research-grants",
+      "canonical_url": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+      "canonical_url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://linkedin.com/posts/simonjegou_exploring-the-limits-of-agentic-search-activity-7352935680020680705-i5et",
+      "canonical_url": "https://www.linkedin.com/posts/simonjegou_exploring-the-limits-of-agentic-search-activity-7352935680020680705-i5eT",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://nerdbite.com/nvidia-agrees-to-buy-hugging-face-not-quite-it-s-just-talks-for-now",
+      "canonical_url": "https://www.nerdbite.com/nvidia-agrees-to-buy-hugging-face-not-quite-it-s-just-talks-for-now",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://prnewswire.com/news-releases/mistral-and-humain-announce-strategic-collaboration-to-advance-sovereign-ai-in-saudi-arabia-and-regionally-302858613.html",
+      "canonical_url": "https://www.prnewswire.com/news-releases/mistral-and-humain-announce-strategic-collaboration-to-advance-sovereign-ai-in-saudi-arabia-and-regionally-302858613.html",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://qbitai.com/2026/08/480001.html",
+      "canonical_url": "https://www.qbitai.com/2026/08/480001.html",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://qbitai.com/2026/08/480079.html",
+      "canonical_url": "https://www.qbitai.com/2026/08/480079.html",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://qbitai.com/2026/08/480208.html",
+      "canonical_url": "https://www.qbitai.com/2026/08/480208.html",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://qbitai.com/2026/08/480487.html",
+      "canonical_url": "https://www.qbitai.com/2026/08/480487.html",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://qbitai.com/2026/08/481223.html",
+      "canonical_url": "https://www.qbitai.com/2026/08/481223.html",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://thestar.com.my/tech/tech-news/2026/08/27/nvidia-agrees-to-buy-hugging-face-for-129-billion-the-information-reports",
+      "canonical_url": "https://www.thestar.com.my/tech/tech-news/2026/08/27/nvidia-agrees-to-buy-hugging-face-for-129-billion-the-information-reports",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
+    },
+    {
+      "key": "https://z.ai/blog/glm-5.3",
+      "canonical_url": "https://z.ai/blog/glm-5.3",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-08-30"
     }
   ]
 }

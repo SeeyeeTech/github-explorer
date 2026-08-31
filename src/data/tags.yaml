@@ -1644,6 +1644,9 @@ entries:
   - protocol-spec
   nanmicoder_mediacrawler:
   - uncategorized
+  nationalsecurityagency_ghidra:
+  - protocol-spec
+  - security
   nautechsystems_nautilus_trader:
   - llm-inference
   - trading-finance

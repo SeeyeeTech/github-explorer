@@ -1,0 +1,6 @@
+{
+  "title": "NSA 开源 7 年 73.8K stars：Ghidra 怎么用 DSL 把 39 种 CPU 喂给一套反编译器",
+  "digest": "Ghidra 以 SLEIGH DSL + P-code IR 解耦 39 种 ISA 与反编译器,Apache 2.0 免费对冲 Hex-Rays,是研究 DSL+IR 二级翻译与大型 Java 桌面工具架构的工业级范本。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

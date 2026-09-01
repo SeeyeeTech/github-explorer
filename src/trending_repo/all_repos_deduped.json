@@ -270,6 +270,16 @@
     "trending_days": 22
   },
   {
+    "name": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ecc",
+    "language": "JavaScript",
+    "stars": 245592,
+    "forks": 37076,
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "last_seen": "2026-09-01",
+    "trending_days": 21
+  },
+  {
     "name": "ChromeDevTools/chrome-devtools-mcp",
     "url": "https://github.com/chromedevtools/chrome-devtools-mcp",
     "language": "TypeScript",
@@ -278,16 +288,6 @@
     "description": "Chrome DevTools for coding agents",
     "last_seen": "2026-08-29",
     "trending_days": 21
-  },
-  {
-    "name": "affaan-m/ECC",
-    "url": "https://github.com/affaan-m/ecc",
-    "language": "JavaScript",
-    "stars": 245093,
-    "forks": 37028,
-    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "last_seen": "2026-08-31",
-    "trending_days": 20
   },
   {
     "name": "GibsonAI/Memori",
@@ -600,6 +600,16 @@
     "trending_days": 12
   },
   {
+    "name": "K-Dense-AI/scientific-agent-skills",
+    "url": "https://github.com/k-dense-ai/scientific-agent-skills",
+    "language": "Python",
+    "stars": 41341,
+    "forks": 3811,
+    "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+    "last_seen": "2026-09-01",
+    "trending_days": 12
+  },
+  {
     "name": "mukul975/Anthropic-Cybersecurity-Skills",
     "url": "https://github.com/mukul975/anthropic-cybersecurity-skills",
     "language": "Python",
@@ -737,16 +747,6 @@
     "forks": 1148,
     "description": "Free, local, open-source 24/7 Cowork and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!",
     "last_seen": "2026-02-12",
-    "trending_days": 11
-  },
-  {
-    "name": "K-Dense-AI/scientific-agent-skills",
-    "url": "https://github.com/k-dense-ai/scientific-agent-skills",
-    "language": "Python",
-    "stars": 40548,
-    "forks": 3752,
-    "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-    "last_seen": "2026-08-31",
     "trending_days": 11
   },
   {
@@ -1300,6 +1300,16 @@
     "trending_days": 8
   },
   {
+    "name": "jingyaogong/minimind",
+    "url": "https://github.com/jingyaogong/minimind",
+    "language": "Python",
+    "stars": 56855,
+    "forks": 7403,
+    "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+    "last_seen": "2026-09-01",
+    "trending_days": 8
+  },
+  {
     "name": "Lordog/dive-into-llms",
     "url": "https://github.com/lordog/dive-into-llms",
     "language": "JupyterNotebook",
@@ -1418,6 +1428,16 @@
     "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
     "last_seen": "2026-08-11",
     "trending_days": 8
+  },
+  {
+    "name": "browser-use/video-use",
+    "url": "https://github.com/browser-use/video-use",
+    "language": "Python",
+    "stars": 22695,
+    "forks": 2801,
+    "description": "Edit videos with coding agents",
+    "last_seen": "2026-09-01",
+    "trending_days": 7
   },
   {
     "name": "ComposioHQ/awesome-claude-skills",
@@ -1547,16 +1567,6 @@
     "forks": 1929,
     "description": "An evolving how-to guide for securing a Linux server.",
     "last_seen": "2026-07-09",
-    "trending_days": 7
-  },
-  {
-    "name": "jingyaogong/minimind",
-    "url": "https://github.com/jingyaogong/minimind",
-    "language": "Python",
-    "stars": 55932,
-    "forks": 7304,
-    "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
-    "last_seen": "2026-08-31",
     "trending_days": 7
   },
   {
@@ -1870,16 +1880,6 @@
     "trending_days": 6
   },
   {
-    "name": "browser-use/video-use",
-    "url": "https://github.com/browser-use/video-use",
-    "language": "Python",
-    "stars": 19001,
-    "forks": 2383,
-    "description": "Edit videos with coding agents",
-    "last_seen": "2026-08-04",
-    "trending_days": 6
-  },
-  {
     "name": "browserbase/skills",
     "url": "https://github.com/browserbase/skills",
     "language": "JavaScript",
@@ -1997,6 +1997,16 @@
     "forks": 2518,
     "description": "Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚",
     "last_seen": "2025-12-23",
+    "trending_days": 6
+  },
+  {
+    "name": "firecrawl/pdf-inspector",
+    "url": "https://github.com/firecrawl/pdf-inspector",
+    "language": "Rust",
+    "stars": 17748,
+    "forks": 1215,
+    "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+    "last_seen": "2026-09-01",
     "trending_days": 6
   },
   {
@@ -2420,6 +2430,16 @@
     "trending_days": 6
   },
   {
+    "name": "3b1b/manim",
+    "url": "https://github.com/3b1b/manim",
+    "language": "Python",
+    "stars": 92442,
+    "forks": 7611,
+    "description": "Animation engine for explanatory math videos",
+    "last_seen": "2026-09-01",
+    "trending_days": 5
+  },
+  {
     "name": "aandrew-me/ytDownloader",
     "url": "https://github.com/aandrew-me/ytdownloader",
     "language": "JavaScript",
@@ -2650,16 +2670,6 @@
     "trending_days": 5
   },
   {
-    "name": "firecrawl/pdf-inspector",
-    "url": "https://github.com/firecrawl/pdf-inspector",
-    "language": "Rust",
-    "stars": 17266,
-    "forks": 1193,
-    "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
-    "last_seen": "2026-08-31",
-    "trending_days": 5
-  },
-  {
     "name": "ggml-org/llama.cpp",
     "url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
@@ -2740,6 +2750,16 @@
     "trending_days": 5
   },
   {
+    "name": "Imbad0202/academic-research-skills",
+    "url": "https://github.com/imbad0202/academic-research-skills",
+    "language": "Python",
+    "stars": 44698,
+    "forks": 3540,
+    "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+    "last_seen": "2026-09-01",
+    "trending_days": 5
+  },
+  {
     "name": "infiniflow/ragflow",
     "url": "https://github.com/infiniflow/ragflow",
     "language": "Go",
@@ -2747,6 +2767,16 @@
     "forks": 10368,
     "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
     "last_seen": "2026-08-14",
+    "trending_days": 5
+  },
+  {
+    "name": "iv-org/invidious",
+    "url": "https://github.com/iv-org/invidious",
+    "language": "Crystal",
+    "stars": 23678,
+    "forks": 2673,
+    "description": "Invidious is an alternative front-end to YouTube",
+    "last_seen": "2026-09-01",
     "trending_days": 5
   },
   {
@@ -3128,16 +3158,6 @@
     "description": "人人都能用英语",
     "last_seen": "2026-08-12",
     "trending_days": 5
-  },
-  {
-    "name": "3b1b/manim",
-    "url": "https://github.com/3b1b/manim",
-    "language": "Python",
-    "stars": 90657,
-    "forks": 7517,
-    "description": "Animation engine for explanatory math videos",
-    "last_seen": "2026-08-13",
-    "trending_days": 4
   },
   {
     "name": "aaif-goose/goose",
@@ -3620,16 +3640,6 @@
     "trending_days": 4
   },
   {
-    "name": "Imbad0202/academic-research-skills",
-    "url": "https://github.com/imbad0202/academic-research-skills",
-    "language": "Python",
-    "stars": 17793,
-    "forks": 1529,
-    "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
-    "last_seen": "2026-05-21",
-    "trending_days": 4
-  },
-  {
     "name": "iOfficeAI/OfficeCLI",
     "url": "https://github.com/iofficeai/officecli",
     "language": "C#",
@@ -3647,16 +3657,6 @@
     "forks": 18719,
     "description": "Grab your own sweet-looking '.is-a.dev' subdomain.",
     "last_seen": "2026-03-08",
-    "trending_days": 4
-  },
-  {
-    "name": "iv-org/invidious",
-    "url": "https://github.com/iv-org/invidious",
-    "language": "Crystal",
-    "stars": 22154,
-    "forks": 2469,
-    "description": "Invidious is an alternative front-end to YouTube",
-    "last_seen": "2026-08-03",
     "trending_days": 4
   },
   {
@@ -4127,6 +4127,16 @@
     "forks": 13407,
     "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
     "last_seen": "2026-05-23",
+    "trending_days": 4
+  },
+  {
+    "name": "unclecode/crawl4ai",
+    "url": "https://github.com/unclecode/crawl4ai",
+    "language": "Python",
+    "stars": 80737,
+    "forks": 8346,
+    "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+    "last_seen": "2026-09-01",
     "trending_days": 4
   },
   {
@@ -4777,6 +4787,16 @@
     "forks": 72,
     "description": "N64 Game-Engine and Editor using libdragon & tiny3d",
     "last_seen": "2026-02-20",
+    "trending_days": 3
+  },
+  {
+    "name": "handsomestWei/patent-disclosure-skill",
+    "url": "https://github.com/handsomestwei/patent-disclosure-skill",
+    "language": "Python",
+    "stars": 6634,
+    "forks": 757,
+    "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
+    "last_seen": "2026-09-01",
     "trending_days": 3
   },
   {
@@ -5580,6 +5600,16 @@
     "trending_days": 3
   },
   {
+    "name": "THU-MAIC/OpenMAIC",
+    "url": "https://github.com/thu-maic/openmaic",
+    "language": "TypeScript",
+    "stars": 29110,
+    "forks": 4942,
+    "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+    "last_seen": "2026-09-01",
+    "trending_days": 3
+  },
+  {
     "name": "tldraw/tldraw",
     "url": "https://github.com/tldraw/tldraw",
     "language": "TypeScript",
@@ -5647,16 +5677,6 @@
     "forks": 5842,
     "description": "Umami is a modern, privacy-focused analytics platform. A better, open-source alternative to Google Analytics, Mixpanel and Amplitude.",
     "last_seen": "2025-11-11",
-    "trending_days": 3
-  },
-  {
-    "name": "unclecode/crawl4ai",
-    "url": "https://github.com/unclecode/crawl4ai",
-    "language": "Python",
-    "stars": 80068,
-    "forks": 8300,
-    "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
-    "last_seen": "2026-08-30",
     "trending_days": 3
   },
   {
@@ -6817,16 +6837,6 @@
     "forks": 4342,
     "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
     "last_seen": "2026-04-13",
-    "trending_days": 2
-  },
-  {
-    "name": "handsomestWei/patent-disclosure-skill",
-    "url": "https://github.com/handsomestwei/patent-disclosure-skill",
-    "language": "Python",
-    "stars": 6171,
-    "forks": 728,
-    "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
-    "last_seen": "2026-08-31",
     "trending_days": 2
   },
   {
@@ -8140,16 +8150,6 @@
     "trending_days": 2
   },
   {
-    "name": "THU-MAIC/OpenMAIC",
-    "url": "https://github.com/thu-maic/openmaic",
-    "language": "TypeScript",
-    "stars": 26550,
-    "forks": 4716,
-    "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
-    "last_seen": "2026-08-31",
-    "trending_days": 2
-  },
-  {
     "name": "tigerbeetle/tigerbeetle",
     "url": "https://github.com/tigerbeetle/tigerbeetle",
     "language": "Zig",
@@ -8307,6 +8307,16 @@
     "forks": 69,
     "description": "Vite+ is the unified toolchain and entry point for web development. It manages your runtime, package manager, and frontend toolchain in one place.",
     "last_seen": "2026-03-16",
+    "trending_days": 2
+  },
+  {
+    "name": "VoltAgent/awesome-design-md",
+    "url": "https://github.com/voltagent/awesome-design-md",
+    "language": "Unknown",
+    "stars": 112405,
+    "forks": 12758,
+    "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
+    "last_seen": "2026-09-01",
     "trending_days": 2
   },
   {
@@ -8820,6 +8830,16 @@
     "trending_days": 1
   },
   {
+    "name": "averygan/reclip",
+    "url": "https://github.com/averygan/reclip",
+    "language": "HTML",
+    "stars": 7459,
+    "forks": 1312,
+    "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+    "last_seen": "2026-09-01",
+    "trending_days": 1
+  },
+  {
     "name": "awslabs/aidlc-workflows",
     "url": "https://github.com/awslabs/aidlc-workflows",
     "language": "Python",
@@ -9277,6 +9297,16 @@
     "forks": 20110,
     "description": "A flexible enhancer for YouTube on iOS",
     "last_seen": "2026-04-21",
+    "trending_days": 1
+  },
+  {
+    "name": "debpalash/VoiceStudio",
+    "url": "https://github.com/debpalash/voicestudio",
+    "language": "Python",
+    "stars": 13353,
+    "forks": 2021,
+    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+    "last_seen": "2026-09-01",
     "trending_days": 1
   },
   {
@@ -9747,6 +9777,16 @@
     "forks": 4408,
     "description": "坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.",
     "last_seen": "2026-01-02",
+    "trending_days": 1
+  },
+  {
+    "name": "Gitlawb/openclaude",
+    "url": "https://github.com/gitlawb/openclaude",
+    "language": "TypeScript",
+    "stars": 31093,
+    "forks": 8937,
+    "description": "runs anywhere. uses anything",
+    "last_seen": "2026-09-01",
     "trending_days": 1
   },
   {
@@ -12187,16 +12227,6 @@
     "forks": 127,
     "description": "[ICLR 26] Stable Video Infinity: Infinite-Length Video Generation with Error Recycling",
     "last_seen": "2026-02-01",
-    "trending_days": 1
-  },
-  {
-    "name": "VoltAgent/awesome-design-md",
-    "url": "https://github.com/voltagent/awesome-design-md",
-    "language": "Unknown",
-    "stars": 99136,
-    "forks": 11542,
-    "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
-    "last_seen": "2026-07-09",
     "trending_days": 1
   },
   {

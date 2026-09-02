@@ -981,6 +981,9 @@ entries:
   - video-audio
   hailtododongo_pyrite64:
   - iot-hardware
+  handsomestwei_patent-disclosure-skill:
+  - ai-agent
+  - llm-framework
   handsonllm_hands-on-large-language-models:
   - education
   handy-computer_transcribe.cpp:
@@ -2297,6 +2300,11 @@ entries:
   - ai-coding
   - llm-training
   - education
+  thu-maic_openmaic:
+  - ai-agent
+  - database
+  - protocol-spec
+  - security
   thudm_slime:
   - ai-agent
   - llm-inference

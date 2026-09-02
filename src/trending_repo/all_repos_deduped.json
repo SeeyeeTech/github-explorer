@@ -43,11 +43,11 @@
     "name": "mattpocock/skills",
     "url": "https://github.com/mattpocock/skills",
     "language": "Shell",
-    "stars": 233126,
-    "forks": 19889,
+    "stars": 244804,
+    "forks": 20815,
     "description": "Skills for Real Engineers. Straight from my .agents directory.",
-    "last_seen": "2026-08-23",
-    "trending_days": 29
+    "last_seen": "2026-09-02",
+    "trending_days": 30
   },
   {
     "name": "anthropics/claude-code",
@@ -70,6 +70,16 @@
     "trending_days": 28
   },
   {
+    "name": "NousResearch/hermes-agent",
+    "url": "https://github.com/nousresearch/hermes-agent",
+    "language": "Python",
+    "stars": 239887,
+    "forks": 49064,
+    "description": "The agent that grows with you",
+    "last_seen": "2026-09-02",
+    "trending_days": 27
+  },
+  {
     "name": "sansan0/TrendRadar",
     "url": "https://github.com/sansan0/trendradar",
     "language": "Python",
@@ -78,16 +88,6 @@
     "description": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
     "last_seen": "2026-04-22",
     "trending_days": 27
-  },
-  {
-    "name": "NousResearch/hermes-agent",
-    "url": "https://github.com/nousresearch/hermes-agent",
-    "language": "Python",
-    "stars": 235425,
-    "forks": 47445,
-    "description": "The agent that grows with you",
-    "last_seen": "2026-08-24",
-    "trending_days": 26
   },
   {
     "name": "Shubhamsaboo/awesome-llm-apps",
@@ -200,6 +200,26 @@
     "trending_days": 22
   },
   {
+    "name": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ecc",
+    "language": "JavaScript",
+    "stars": 246080,
+    "forks": 37115,
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "last_seen": "2026-09-02",
+    "trending_days": 22
+  },
+  {
+    "name": "ChromeDevTools/chrome-devtools-mcp",
+    "url": "https://github.com/chromedevtools/chrome-devtools-mcp",
+    "language": "TypeScript",
+    "stars": 50528,
+    "forks": 3551,
+    "description": "Chrome DevTools for coding agents",
+    "last_seen": "2026-09-02",
+    "trending_days": 22
+  },
+  {
     "name": "milvus-io/milvus",
     "url": "https://github.com/milvus-io/milvus",
     "language": "Go",
@@ -268,26 +288,6 @@
     "description": "Frame profiler",
     "last_seen": "2025-12-04",
     "trending_days": 22
-  },
-  {
-    "name": "affaan-m/ECC",
-    "url": "https://github.com/affaan-m/ecc",
-    "language": "JavaScript",
-    "stars": 245592,
-    "forks": 37076,
-    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "last_seen": "2026-09-01",
-    "trending_days": 21
-  },
-  {
-    "name": "ChromeDevTools/chrome-devtools-mcp",
-    "url": "https://github.com/chromedevtools/chrome-devtools-mcp",
-    "language": "TypeScript",
-    "stars": 50101,
-    "forks": 3514,
-    "description": "Chrome DevTools for coding agents",
-    "last_seen": "2026-08-29",
-    "trending_days": 21
   },
   {
     "name": "GibsonAI/Memori",
@@ -780,6 +780,16 @@
     "trending_days": 11
   },
   {
+    "name": "protocolbuffers/protobuf",
+    "url": "https://github.com/protocolbuffers/protobuf",
+    "language": "C++",
+    "stars": 71891,
+    "forks": 16270,
+    "description": "Protocol Buffers - Google's data interchange format",
+    "last_seen": "2026-09-02",
+    "trending_days": 11
+  },
+  {
     "name": "shanraisshan/claude-code-best-practice",
     "url": "https://github.com/shanraisshan/claude-code-best-practice",
     "language": "HTML",
@@ -900,16 +910,6 @@
     "trending_days": 10
   },
   {
-    "name": "protocolbuffers/protobuf",
-    "url": "https://github.com/protocolbuffers/protobuf",
-    "language": "C++",
-    "stars": 71804,
-    "forks": 16237,
-    "description": "Protocol Buffers - Google's data interchange format",
-    "last_seen": "2026-08-22",
-    "trending_days": 10
-  },
-  {
     "name": "Stremio/stremio-web",
     "url": "https://github.com/stremio/stremio-web",
     "language": "JavaScript",
@@ -1017,6 +1017,16 @@
     "forks": 1944,
     "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
     "last_seen": "2026-08-04",
+    "trending_days": 9
+  },
+  {
+    "name": "google-research/timesfm",
+    "url": "https://github.com/google-research/timesfm",
+    "language": "Python",
+    "stars": 29217,
+    "forks": 2832,
+    "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+    "last_seen": "2026-09-02",
     "trending_days": 9
   },
   {
@@ -1270,16 +1280,6 @@
     "trending_days": 8
   },
   {
-    "name": "google-research/timesfm",
-    "url": "https://github.com/google-research/timesfm",
-    "language": "Python",
-    "stars": 24279,
-    "forks": 2296,
-    "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-    "last_seen": "2026-06-20",
-    "trending_days": 8
-  },
-  {
     "name": "HKUDS/DeepTutor",
     "url": "https://github.com/hkuds/deeptutor",
     "language": "Python",
@@ -1490,6 +1490,16 @@
     "trending_days": 7
   },
   {
+    "name": "firecrawl/pdf-inspector",
+    "url": "https://github.com/firecrawl/pdf-inspector",
+    "language": "Rust",
+    "stars": 18326,
+    "forks": 1240,
+    "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+    "last_seen": "2026-09-02",
+    "trending_days": 7
+  },
+  {
     "name": "Free-TV/IPTV",
     "url": "https://github.com/free-tv/iptv",
     "language": "Python",
@@ -1567,6 +1577,16 @@
     "forks": 1929,
     "description": "An evolving how-to guide for securing a Linux server.",
     "last_seen": "2026-07-09",
+    "trending_days": 7
+  },
+  {
+    "name": "JuliusBrussee/caveman",
+    "url": "https://github.com/juliusbrussee/caveman",
+    "language": "Go",
+    "stars": 102439,
+    "forks": 5966,
+    "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+    "last_seen": "2026-09-02",
     "trending_days": 7
   },
   {
@@ -1980,6 +2000,16 @@
     "trending_days": 6
   },
   {
+    "name": "DietrichGebert/ponytail",
+    "url": "https://github.com/dietrichgebert/ponytail",
+    "language": "JavaScript",
+    "stars": 120879,
+    "forks": 6537,
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "last_seen": "2026-09-02",
+    "trending_days": 6
+  },
+  {
     "name": "DigitalPlatDev/FreeDomain",
     "url": "https://github.com/digitalplatdev/freedomain",
     "language": "HTML",
@@ -1997,16 +2027,6 @@
     "forks": 2518,
     "description": "Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚",
     "last_seen": "2025-12-23",
-    "trending_days": 6
-  },
-  {
-    "name": "firecrawl/pdf-inspector",
-    "url": "https://github.com/firecrawl/pdf-inspector",
-    "language": "Rust",
-    "stars": 17748,
-    "forks": 1215,
-    "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
-    "last_seen": "2026-09-01",
     "trending_days": 6
   },
   {
@@ -2080,6 +2100,16 @@
     "trending_days": 6
   },
   {
+    "name": "Imbad0202/academic-research-skills",
+    "url": "https://github.com/imbad0202/academic-research-skills",
+    "language": "Python",
+    "stars": 45422,
+    "forks": 3575,
+    "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+    "last_seen": "2026-09-02",
+    "trending_days": 6
+  },
+  {
     "name": "immich-app/immich",
     "url": "https://github.com/immich-app/immich",
     "language": "TypeScript",
@@ -2127,16 +2157,6 @@
     "forks": 3134,
     "description": "Clone any website with one command using AI coding agents",
     "last_seen": "2026-06-27",
-    "trending_days": 6
-  },
-  {
-    "name": "JuliusBrussee/caveman",
-    "url": "https://github.com/juliusbrussee/caveman",
-    "language": "Go",
-    "stars": 99909,
-    "forks": 5787,
-    "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
-    "last_seen": "2026-08-21",
     "trending_days": 6
   },
   {
@@ -2620,16 +2640,6 @@
     "trending_days": 5
   },
   {
-    "name": "DietrichGebert/ponytail",
-    "url": "https://github.com/dietrichgebert/ponytail",
-    "language": "JavaScript",
-    "stars": 116130,
-    "forks": 6339,
-    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "last_seen": "2026-08-29",
-    "trending_days": 5
-  },
-  {
     "name": "docusealco/docuseal",
     "url": "https://github.com/docusealco/docuseal",
     "language": "Ruby",
@@ -2747,16 +2757,6 @@
     "forks": 1824,
     "description": "Useful tool to track location or mobile number",
     "last_seen": "2026-06-07",
-    "trending_days": 5
-  },
-  {
-    "name": "Imbad0202/academic-research-skills",
-    "url": "https://github.com/imbad0202/academic-research-skills",
-    "language": "Python",
-    "stars": 44698,
-    "forks": 3540,
-    "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
-    "last_seen": "2026-09-01",
     "trending_days": 5
   },
   {
@@ -4220,6 +4220,16 @@
     "trending_days": 4
   },
   {
+    "name": "zyronon/TypeWords",
+    "url": "https://github.com/zyronon/typewords",
+    "language": "Vue",
+    "stars": 9245,
+    "forks": 1124,
+    "description": "Practice English, one strike, one step forward; 练习英语，一次敲击，一点进步；",
+    "last_seen": "2026-09-02",
+    "trending_days": 4
+  },
+  {
     "name": "1Panel-dev/MaxKB",
     "url": "https://github.com/1panel-dev/maxkb",
     "language": "Python",
@@ -4687,6 +4697,16 @@
     "forks": 23824,
     "description": "Build AI Agents, Visually",
     "last_seen": "2026-03-04",
+    "trending_days": 3
+  },
+  {
+    "name": "fmtlib/fmt",
+    "url": "https://github.com/fmtlib/fmt",
+    "language": "C++",
+    "stars": 23943,
+    "forks": 2969,
+    "description": "A modern formatting library",
+    "last_seen": "2026-09-02",
     "trending_days": 3
   },
   {
@@ -5800,16 +5820,6 @@
     "trending_days": 3
   },
   {
-    "name": "zyronon/TypeWords",
-    "url": "https://github.com/zyronon/typewords",
-    "language": "Vue",
-    "stars": 4623,
-    "forks": 541,
-    "description": "练习英语，一次敲击，一点进步；Practice English, one strike, one step forward",
-    "last_seen": "2025-10-25",
-    "trending_days": 3
-  },
-  {
     "name": "0xNyk/council-of-high-intelligence",
     "url": "https://github.com/0xnyk/council-of-high-intelligence",
     "language": "Shell",
@@ -6420,6 +6430,16 @@
     "trending_days": 2
   },
   {
+    "name": "debpalash/VoiceStudio",
+    "url": "https://github.com/debpalash/voicestudio",
+    "language": "Python",
+    "stars": 14130,
+    "forks": 2073,
+    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+    "last_seen": "2026-09-02",
+    "trending_days": 2
+  },
+  {
     "name": "deepfakes/faceswap",
     "url": "https://github.com/deepfakes/faceswap",
     "language": "Python",
@@ -6620,16 +6640,6 @@
     "trending_days": 2
   },
   {
-    "name": "fmtlib/fmt",
-    "url": "https://github.com/fmtlib/fmt",
-    "language": "C++",
-    "stars": 22768,
-    "forks": 2764,
-    "description": "A modern formatting library",
-    "last_seen": "2025-10-31",
-    "trending_days": 2
-  },
-  {
     "name": "frankbria/ralph-claude-code",
     "url": "https://github.com/frankbria/ralph-claude-code",
     "language": "Shell",
@@ -6737,6 +6747,16 @@
     "forks": 1943,
     "description": "Community-contributed instructions, prompts, and configurations to help you make the most of GitHub Copilot.",
     "last_seen": "2026-01-10",
+    "trending_days": 2
+  },
+  {
+    "name": "Gitlawb/openclaude",
+    "url": "https://github.com/gitlawb/openclaude",
+    "language": "TypeScript",
+    "stars": 31805,
+    "forks": 8986,
+    "description": "runs anywhere. uses anything",
+    "last_seen": "2026-09-02",
     "trending_days": 2
   },
   {
@@ -8920,6 +8940,16 @@
     "trending_days": 1
   },
   {
+    "name": "blader/humanizer",
+    "url": "https://github.com/blader/humanizer",
+    "language": "Python",
+    "stars": 40002,
+    "forks": 3484,
+    "description": "Agent skill that removes signs of AI-generated writing from text",
+    "last_seen": "2026-09-02",
+    "trending_days": 1
+  },
+  {
     "name": "bol-van/zapret",
     "url": "https://github.com/bol-van/zapret",
     "language": "C",
@@ -9297,16 +9327,6 @@
     "forks": 20110,
     "description": "A flexible enhancer for YouTube on iOS",
     "last_seen": "2026-04-21",
-    "trending_days": 1
-  },
-  {
-    "name": "debpalash/VoiceStudio",
-    "url": "https://github.com/debpalash/voicestudio",
-    "language": "Python",
-    "stars": 13353,
-    "forks": 2021,
-    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-    "last_seen": "2026-09-01",
     "trending_days": 1
   },
   {
@@ -9777,16 +9797,6 @@
     "forks": 4408,
     "description": "坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.",
     "last_seen": "2026-01-02",
-    "trending_days": 1
-  },
-  {
-    "name": "Gitlawb/openclaude",
-    "url": "https://github.com/gitlawb/openclaude",
-    "language": "TypeScript",
-    "stars": 31093,
-    "forks": 8937,
-    "description": "runs anywhere. uses anything",
-    "last_seen": "2026-09-01",
     "trending_days": 1
   },
   {
@@ -11370,6 +11380,16 @@
     "trending_days": 1
   },
   {
+    "name": "pacifio/atlas",
+    "url": "https://github.com/pacifio/atlas",
+    "language": "Rust",
+    "stars": 2695,
+    "forks": 181,
+    "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+    "last_seen": "2026-09-02",
+    "trending_days": 1
+  },
+  {
     "name": "PaddlePaddle/Paddle",
     "url": "https://github.com/paddlepaddle/paddle",
     "language": "C++",
@@ -11880,6 +11900,16 @@
     "trending_days": 1
   },
   {
+    "name": "sngyai/Sequoia-X",
+    "url": "https://github.com/sngyai/sequoia-x",
+    "language": "Python",
+    "stars": 5969,
+    "forks": 1239,
+    "description": "A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书",
+    "last_seen": "2026-09-02",
+    "trending_days": 1
+  },
+  {
     "name": "srbhr/Resume-Matcher",
     "url": "https://github.com/srbhr/resume-matcher",
     "language": "Python",
@@ -11927,6 +11957,16 @@
     "forks": 12957,
     "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
     "last_seen": "2026-07-03",
+    "trending_days": 1
+  },
+  {
+    "name": "superlinked/sie",
+    "url": "https://github.com/superlinked/sie",
+    "language": "Python",
+    "stars": 2991,
+    "forks": 299,
+    "description": "Open-source inference server and production cluster for all the models your agent needs.",
+    "last_seen": "2026-09-02",
     "trending_days": 1
   },
   {
@@ -12207,6 +12247,16 @@
     "forks": 1227,
     "description": "Disk encryption with strong security based on TrueCrypt",
     "last_seen": "2026-06-29",
+    "trending_days": 1
+  },
+  {
+    "name": "vercel-labs/portless",
+    "url": "https://github.com/vercel-labs/portless",
+    "language": "TypeScript",
+    "stars": 11562,
+    "forks": 379,
+    "description": "Replace port numbers with stable, named local URLs. For humans and agents.",
+    "last_seen": "2026-09-02",
     "trending_days": 1
   },
   {

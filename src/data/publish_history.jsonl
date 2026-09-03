@@ -328,3 +328,4 @@
 {"recorded_at": "2026-09-01T23:52:23.228731+00:00", "slug": "thu-maic_openmaic", "title": null, "state": "published", "published_at": "2026-09-01", "reason": "自动生成", "ci_run_id": "33572024900"}
 {"recorded_at": "2026-09-02T02:12:48.772248+00:00", "slug": "handsomestwei_patent-disclosure-skill", "title": null, "state": "pending", "published_at": "2026-09-02", "reason": "待重发", "ci_run_id": "33581376994"}
 {"recorded_at": "2026-09-03T01:03:21.237924+00:00", "slug": "fmtlib_fmt", "title": null, "state": "published", "published_at": "2026-09-03", "reason": "自动生成", "ci_run_id": "33701224083"}
+{"recorded_at": "2026-09-03T23:58:11.317195+00:00", "slug": "bannedbook_fanqiang", "title": null, "state": "published", "published_at": "2026-09-03", "reason": "自动生成", "ci_run_id": "33818614665"}

@@ -1,39 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-09-02",
+    "last_run": "2026-09-03",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/livekit/agents",
-      "canonical_url": "https://github.com/livekit/agents",
-      "event_date": "2026-08-03",
-      "date_seen": "2026-08-03"
-    },
-    {
-      "key": "github.com/alishahryar1/free-claude-code",
-      "canonical_url": "https://github.com/Alishahryar1/free-claude-code",
-      "event_date": "2026-08-03",
-      "date_seen": "2026-08-03"
-    },
-    {
-      "key": "github.com/loongphy/codex-auth",
-      "canonical_url": "https://github.com/Loongphy/codex-auth",
-      "event_date": "2026-08-03",
-      "date_seen": "2026-08-03"
-    },
-    {
-      "key": "github.com/hamzarehmandeveloper/claude-account",
-      "canonical_url": "https://github.com/hamzarehmandeveloper/claude-account",
-      "event_date": "2026-08-03",
-      "date_seen": "2026-08-03"
-    },
-    {
-      "key": "github.com/mgaitan/pytest-leak-finder",
-      "canonical_url": "https://github.com/mgaitan/pytest-leak-finder",
-      "event_date": "2026-08-03",
-      "date_seen": "2026-08-03"
-    },
     {
       "key": "github.com/huangruiteng/loopx",
       "canonical_url": "https://github.com/huangruiteng/loopx",
@@ -957,6 +927,18 @@
       "canonical_url": "https://github.com/superlinked/sie",
       "event_date": "2026-09-02",
       "date_seen": "2026-09-02"
+    },
+    {
+      "key": "github.com/magnitudedev/magnitude",
+      "canonical_url": "https://github.com/magnitudedev/magnitude",
+      "event_date": "2026-09-03",
+      "date_seen": "2026-09-03"
+    },
+    {
+      "key": "github.com/f/prompts.chat",
+      "canonical_url": "https://github.com/f/prompts.chat",
+      "event_date": "2026-09-03",
+      "date_seen": "2026-09-03"
     }
   ]
 }

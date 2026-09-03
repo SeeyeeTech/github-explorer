@@ -837,6 +837,10 @@ entries:
   - rag-search
   flowseal_zapret-discord-youtube:
   - uncategorized
+  fmtlib_fmt:
+  - devtools
+  - database
+  - security
   forrestchang_andrej-karpathy-skills:
   - ai-agent
   - ai-coding

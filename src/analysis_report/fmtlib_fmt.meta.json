@@ -1,0 +1,6 @@
+{
+  "title": "13 年 24K stars：C++ 格式化的事实标准 {fmt}",
+  "digest": "{fmt} 用「类型擦除 + 编译期检查 + header-only」三件套解决 printf/iostream/Boost.Format 痛点，成为 50+ 头部项目依赖、C++20 std::format 的事实参考实现。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

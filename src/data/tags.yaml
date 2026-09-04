@@ -312,6 +312,9 @@ entries:
   - ai-agent
   - ai-coding
   - devtools
+  bannedbook_fanqiang:
+  - education
+  - protocol-spec
   basecamp_omarchy:
   - iot-hardware
   basedhardware_omi:
@@ -620,6 +623,13 @@ entries:
   - protocol-spec
   dearva_everywhere:
   - uncategorized
+  debpalash_voicestudio:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - web-framework
+  - media-generation
+  - protocol-spec
   decoderesearch_circuit-tracer:
   - uncategorized
   decolua_9router:
@@ -924,6 +934,13 @@ entries:
   - ai-coding
   - protocol-spec
   - security
+  gitlawb_openclaude:
+  - ai-agent
+  - ai-coding
+  - llm-inference
+  - model-foundation
+  - devtools
+  - protocol-spec
   goauthentik_authentik:
   - web-framework
   - security

@@ -43,11 +43,21 @@
     "name": "mattpocock/skills",
     "url": "https://github.com/mattpocock/skills",
     "language": "Shell",
-    "stars": 246535,
-    "forks": 20917,
+    "stars": 249312,
+    "forks": 21094,
     "description": "Skills for Real Engineers. Straight from my .agents directory.",
-    "last_seen": "2026-09-03",
-    "trending_days": 31
+    "last_seen": "2026-09-04",
+    "trending_days": 32
+  },
+  {
+    "name": "NousResearch/hermes-agent",
+    "url": "https://github.com/nousresearch/hermes-agent",
+    "language": "Python",
+    "stars": 241277,
+    "forks": 49459,
+    "description": "The agent that grows with you",
+    "last_seen": "2026-09-04",
+    "trending_days": 29
   },
   {
     "name": "anthropics/claude-code",
@@ -67,16 +77,6 @@
     "forks": 23457,
     "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
     "last_seen": "2026-08-13",
-    "trending_days": 28
-  },
-  {
-    "name": "NousResearch/hermes-agent",
-    "url": "https://github.com/nousresearch/hermes-agent",
-    "language": "Python",
-    "stars": 240609,
-    "forks": 49265,
-    "description": "The agent that grows with you",
-    "last_seen": "2026-09-03",
     "trending_days": 28
   },
   {
@@ -130,6 +130,16 @@
     "trending_days": 25
   },
   {
+    "name": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ecc",
+    "language": "JavaScript",
+    "stars": 247981,
+    "forks": 37372,
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "last_seen": "2026-09-04",
+    "trending_days": 24
+  },
+  {
     "name": "bobeff/open-source-games",
     "url": "https://github.com/bobeff/open-source-games",
     "language": "Unknown",
@@ -156,16 +166,6 @@
     "stars": 91887,
     "forks": 9804,
     "description": "Production-grade engineering skills for AI coding agents.",
-    "last_seen": "2026-09-03",
-    "trending_days": 23
-  },
-  {
-    "name": "affaan-m/ECC",
-    "url": "https://github.com/affaan-m/ecc",
-    "language": "JavaScript",
-    "stars": 246807,
-    "forks": 37192,
-    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
     "last_seen": "2026-09-03",
     "trending_days": 23
   },
@@ -730,6 +730,16 @@
     "trending_days": 11
   },
   {
+    "name": "google-research/timesfm",
+    "url": "https://github.com/google-research/timesfm",
+    "language": "Python",
+    "stars": 30921,
+    "forks": 2952,
+    "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+    "last_seen": "2026-09-04",
+    "trending_days": 11
+  },
+  {
     "name": "google/langextract",
     "url": "https://github.com/google/langextract",
     "language": "Python",
@@ -827,16 +837,6 @@
     "forks": 2004,
     "description": "Free, local, open-source AI app builder ✨ v0 / lovable / Bolt alternative 🌟 Star if you like it!",
     "last_seen": "2025-12-10",
-    "trending_days": 10
-  },
-  {
-    "name": "google-research/timesfm",
-    "url": "https://github.com/google-research/timesfm",
-    "language": "Python",
-    "stars": 30589,
-    "forks": 2917,
-    "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-    "last_seen": "2026-09-03",
     "trending_days": 10
   },
   {
@@ -1040,6 +1040,16 @@
     "trending_days": 9
   },
   {
+    "name": "JuliusBrussee/caveman",
+    "url": "https://github.com/juliusbrussee/caveman",
+    "language": "Go",
+    "stars": 103418,
+    "forks": 6001,
+    "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+    "last_seen": "2026-09-04",
+    "trending_days": 9
+  },
+  {
     "name": "jwasham/coding-interview-university",
     "url": "https://github.com/jwasham/coding-interview-university",
     "language": "Unknown",
@@ -1190,6 +1200,16 @@
     "trending_days": 9
   },
   {
+    "name": "anthropics/skills",
+    "url": "https://github.com/anthropics/skills",
+    "language": "Python",
+    "stars": 173964,
+    "forks": 20626,
+    "description": "Public repository for Agent Skills",
+    "last_seen": "2026-09-04",
+    "trending_days": 8
+  },
+  {
     "name": "badlogic/pi-mono",
     "url": "https://github.com/badlogic/pi-mono",
     "language": "TypeScript",
@@ -1260,6 +1280,16 @@
     "trending_days": 8
   },
   {
+    "name": "DietrichGebert/ponytail",
+    "url": "https://github.com/dietrichgebert/ponytail",
+    "language": "JavaScript",
+    "stars": 124743,
+    "forks": 6725,
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "last_seen": "2026-09-04",
+    "trending_days": 8
+  },
+  {
     "name": "FujiwaraChoki/MoneyPrinterV2",
     "url": "https://github.com/fujiwarachoki/moneyprinterv2",
     "language": "Python",
@@ -1307,16 +1337,6 @@
     "forks": 7403,
     "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
     "last_seen": "2026-09-01",
-    "trending_days": 8
-  },
-  {
-    "name": "JuliusBrussee/caveman",
-    "url": "https://github.com/juliusbrussee/caveman",
-    "language": "Go",
-    "stars": 102939,
-    "forks": 5986,
-    "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
-    "last_seen": "2026-09-03",
     "trending_days": 8
   },
   {
@@ -1440,16 +1460,6 @@
     "trending_days": 8
   },
   {
-    "name": "anthropics/skills",
-    "url": "https://github.com/anthropics/skills",
-    "language": "Python",
-    "stars": 173479,
-    "forks": 20591,
-    "description": "Public repository for Agent Skills",
-    "last_seen": "2026-09-03",
-    "trending_days": 7
-  },
-  {
     "name": "browser-use/video-use",
     "url": "https://github.com/browser-use/video-use",
     "language": "Python",
@@ -1477,16 +1487,6 @@
     "forks": 3690,
     "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
     "last_seen": "2026-07-24",
-    "trending_days": 7
-  },
-  {
-    "name": "DietrichGebert/ponytail",
-    "url": "https://github.com/dietrichgebert/ponytail",
-    "language": "JavaScript",
-    "stars": 122948,
-    "forks": 6646,
-    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "last_seen": "2026-09-03",
     "trending_days": 7
   },
   {
@@ -1877,6 +1877,16 @@
     "forks": 687,
     "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
     "last_seen": "2026-08-15",
+    "trending_days": 6
+  },
+  {
+    "name": "anomalyco/opencode",
+    "url": "https://github.com/anomalyco/opencode",
+    "language": "TypeScript",
+    "stars": 203825,
+    "forks": 26596,
+    "description": "The open source coding agent.",
+    "last_seen": "2026-09-04",
     "trending_days": 6
   },
   {
@@ -2520,16 +2530,6 @@
     "trending_days": 5
   },
   {
-    "name": "anomalyco/opencode",
-    "url": "https://github.com/anomalyco/opencode",
-    "language": "TypeScript",
-    "stars": 179387,
-    "forks": 22063,
-    "description": "The open source coding agent.",
-    "last_seen": "2026-06-27",
-    "trending_days": 5
-  },
-  {
     "name": "anthropics/financial-services",
     "url": "https://github.com/anthropics/financial-services",
     "language": "Python",
@@ -2610,6 +2610,16 @@
     "trending_days": 5
   },
   {
+    "name": "cathrynlavery/diagram-design",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "language": "HTML",
+    "stars": 30654,
+    "forks": 1967,
+    "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+    "last_seen": "2026-09-04",
+    "trending_days": 5
+  },
+  {
     "name": "ComposioHQ/awesome-codex-skills",
     "url": "https://github.com/composiohq/awesome-codex-skills",
     "language": "Python",
@@ -2687,6 +2697,16 @@
     "forks": 21750,
     "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
     "last_seen": "2026-09-03",
+    "trending_days": 5
+  },
+  {
+    "name": "fmtlib/fmt",
+    "url": "https://github.com/fmtlib/fmt",
+    "language": "C++",
+    "stars": 25417,
+    "forks": 3030,
+    "description": "A modern formatting library",
+    "last_seen": "2026-09-04",
     "trending_days": 5
   },
   {
@@ -3290,6 +3310,16 @@
     "trending_days": 4
   },
   {
+    "name": "bannedbook/fanqiang",
+    "url": "https://github.com/bannedbook/fanqiang",
+    "language": "Kotlin",
+    "stars": 52661,
+    "forks": 8516,
+    "description": "翻墙-科学上网",
+    "last_seen": "2026-09-04",
+    "trending_days": 4
+  },
+  {
     "name": "BasedHardware/omi",
     "url": "https://github.com/basedhardware/omi",
     "language": "Dart",
@@ -3317,16 +3347,6 @@
     "forks": 755,
     "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
     "last_seen": "2026-06-01",
-    "trending_days": 4
-  },
-  {
-    "name": "cathrynlavery/diagram-design",
-    "url": "https://github.com/cathrynlavery/diagram-design",
-    "language": "HTML",
-    "stars": 17925,
-    "forks": 1074,
-    "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
-    "last_seen": "2026-08-15",
     "trending_days": 4
   },
   {
@@ -3410,6 +3430,16 @@
     "trending_days": 4
   },
   {
+    "name": "debpalash/VoiceStudio",
+    "url": "https://github.com/debpalash/voicestudio",
+    "language": "Python",
+    "stars": 17136,
+    "forks": 2265,
+    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+    "last_seen": "2026-09-04",
+    "trending_days": 4
+  },
+  {
     "name": "Dicklesworthstone/destructive_command_guard",
     "url": "https://github.com/dicklesworthstone/destructive_command_guard",
     "language": "Rust",
@@ -3487,16 +3517,6 @@
     "forks": 333,
     "description": "FFmpeg Assembly Language Lessons",
     "last_seen": "2025-11-09",
-    "trending_days": 4
-  },
-  {
-    "name": "fmtlib/fmt",
-    "url": "https://github.com/fmtlib/fmt",
-    "language": "C++",
-    "stars": 24822,
-    "forks": 3005,
-    "description": "A modern formatting library",
-    "last_seen": "2026-09-03",
     "trending_days": 4
   },
   {
@@ -4400,16 +4420,6 @@
     "trending_days": 3
   },
   {
-    "name": "bannedbook/fanqiang",
-    "url": "https://github.com/bannedbook/fanqiang",
-    "language": "Kotlin",
-    "stars": 51977,
-    "forks": 8449,
-    "description": "翻墙-科学上网",
-    "last_seen": "2026-09-03",
-    "trending_days": 3
-  },
-  {
     "name": "BeehiveInnovations/zen-mcp-server",
     "url": "https://github.com/beehiveinnovations/zen-mcp-server",
     "language": "Python",
@@ -4427,6 +4437,16 @@
     "forks": 2423,
     "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
     "last_seen": "2026-08-29",
+    "trending_days": 3
+  },
+  {
+    "name": "blader/humanizer",
+    "url": "https://github.com/blader/humanizer",
+    "language": "Python",
+    "stars": 42277,
+    "forks": 3593,
+    "description": "Agent skill that removes signs of AI-generated writing from text",
+    "last_seen": "2026-09-04",
     "trending_days": 3
   },
   {
@@ -4597,16 +4617,6 @@
     "forks": 118,
     "description": "A context-aware AI assistant for your desktop. Ready to respond intelligently, seamlessly integrating multiple LLMs and MCP tools.",
     "last_seen": "2025-11-04",
-    "trending_days": 3
-  },
-  {
-    "name": "debpalash/VoiceStudio",
-    "url": "https://github.com/debpalash/voicestudio",
-    "language": "Python",
-    "stars": 15808,
-    "forks": 2171,
-    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-    "last_seen": "2026-09-03",
     "trending_days": 3
   },
   {
@@ -6230,16 +6240,6 @@
     "trending_days": 2
   },
   {
-    "name": "blader/humanizer",
-    "url": "https://github.com/blader/humanizer",
-    "language": "Python",
-    "stars": 41169,
-    "forks": 3534,
-    "description": "Agent skill that removes signs of AI-generated writing from text",
-    "last_seen": "2026-09-03",
-    "trending_days": 2
-  },
-  {
     "name": "Blaizzy/mlx-vlm",
     "url": "https://github.com/blaizzy/mlx-vlm",
     "language": "Python",
@@ -7367,6 +7367,16 @@
     "forks": 4437,
     "description": "A curated list of awesome remote jobs and resources. Inspired by https://github.com/vinta/awesome-python",
     "last_seen": "2026-01-21",
+    "trending_days": 2
+  },
+  {
+    "name": "magnitudedev/magnitude",
+    "url": "https://github.com/magnitudedev/magnitude",
+    "language": "TypeScript",
+    "stars": 2205,
+    "forks": 153,
+    "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+    "last_seen": "2026-09-04",
     "trending_days": 2
   },
   {
@@ -8950,6 +8960,16 @@
     "trending_days": 1
   },
   {
+    "name": "bikini/exploitarium",
+    "url": "https://github.com/bikini/exploitarium",
+    "language": "Python",
+    "stars": 4422,
+    "forks": 1237,
+    "description": "A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz. Please do not abuse these. I do this so to allure people into the field, and I've always found this is the most efficient way.",
+    "last_seen": "2026-09-04",
+    "trending_days": 1
+  },
+  {
     "name": "blackboardsh/electrobun",
     "url": "https://github.com/blackboardsh/electrobun",
     "language": "C++",
@@ -9127,6 +9147,16 @@
     "forks": 565,
     "description": "The JavaScript / Wasm runtime that powers Cloudflare Workers",
     "last_seen": "2026-03-17",
+    "trending_days": 1
+  },
+  {
+    "name": "clshortfuse/renodx",
+    "url": "https://github.com/clshortfuse/renodx",
+    "language": "HLSL",
+    "stars": 3439,
+    "forks": 137,
+    "description": "Renovation Engine for DirectX Games",
+    "last_seen": "2026-09-04",
     "trending_days": 1
   },
   {
@@ -10670,16 +10700,6 @@
     "trending_days": 1
   },
   {
-    "name": "magnitudedev/magnitude",
-    "url": "https://github.com/magnitudedev/magnitude",
-    "language": "TypeScript",
-    "stars": 1809,
-    "forks": 136,
-    "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
-    "last_seen": "2026-09-03",
-    "trending_days": 1
-  },
-  {
     "name": "MakazhanAlpamys/Soup",
     "url": "https://github.com/makazhanalpamys/soup",
     "language": "Python",
@@ -11597,6 +11617,16 @@
     "forks": 1631,
     "description": "An open-source AI agent that lives in your terminal.",
     "last_seen": "2026-02-18",
+    "trending_days": 1
+  },
+  {
+    "name": "radixark/miles",
+    "url": "https://github.com/radixark/miles",
+    "language": "Python",
+    "stars": 2488,
+    "forks": 440,
+    "description": "Miles is an enterprise-facing reinforcement learning framework for LLM and VLM post-training, forked from and co-evolving with slime.",
+    "last_seen": "2026-09-04",
     "trending_days": 1
   },
   {

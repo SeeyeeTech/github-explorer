@@ -1,0 +1,6 @@
+{
+  "title": "Magnitude：YC 团队用 Rust+Effect 把本地 LLM 推理做成 Agent 的零 token 后端",
+  "digest": "80 天 3.2k Star，YC 团队用 Rust 自研推理内核 + Effect-TS 编排层，为 Claude Code 等 8 个 Agent harness 打造硬件感知、本地优先、零 token 成本的推理底座。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

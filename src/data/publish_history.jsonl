@@ -332,3 +332,4 @@
 {"recorded_at": "2026-09-04T02:13:35.253010+00:00", "slug": "gitlawb_openclaude", "title": null, "state": "published", "published_at": "2026-09-04", "reason": "自动生成", "ci_run_id": "33827741348"}
 {"recorded_at": "2026-09-04T12:06:18.363258+00:00", "slug": "debpalash_voicestudio", "title": null, "state": "published", "published_at": "2026-09-04", "reason": "自动生成", "ci_run_id": "33870203071"}
 {"recorded_at": "2026-09-04T23:41:05.825094+00:00", "slug": "blader_humanizer", "title": null, "state": "published", "published_at": "2026-09-04", "reason": "自动生成", "ci_run_id": "33929935263"}
+{"recorded_at": "2026-09-05T23:37:21.414690+00:00", "slug": "magnitudedev_magnitude", "title": null, "state": "published", "published_at": "2026-09-05", "reason": "自动生成", "ci_run_id": "33998682109"}

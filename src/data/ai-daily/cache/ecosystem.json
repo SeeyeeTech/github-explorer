@@ -1,39 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-09-04",
+    "last_run": "2026-09-05",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/huangruiteng/loopx",
-      "canonical_url": "https://github.com/huangruiteng/loopx",
-      "event_date": "2026-08-05",
-      "date_seen": "2026-08-05"
-    },
-    {
-      "key": "github.com/roboflow/supervision",
-      "canonical_url": "https://github.com/roboflow/supervision",
-      "event_date": "2026-08-05",
-      "date_seen": "2026-08-05"
-    },
-    {
-      "key": "github.com/uber/adr",
-      "canonical_url": "https://github.com/uber/ADR",
-      "event_date": "2026-08-05",
-      "date_seen": "2026-08-05"
-    },
-    {
-      "key": "github.com/rivet-dev/secure-exec",
-      "canonical_url": "https://github.com/rivet-dev/secure-exec",
-      "event_date": "2026-08-05",
-      "date_seen": "2026-08-05"
-    },
-    {
-      "key": "https://seeyeetech.com/github-explorer/reports/mattpocock_skills",
-      "canonical_url": "https://seeyeetech.com/github-explorer/reports/mattpocock_skills/",
-      "event_date": "2026-08-05",
-      "date_seen": "2026-08-05"
-    },
     {
       "key": "github.com/cloudflare/computer",
       "canonical_url": "https://github.com/cloudflare/computer",
@@ -957,6 +927,18 @@
       "canonical_url": "https://github.com/k-dense-ai/k-dense-byok",
       "event_date": "2026-09-04",
       "date_seen": "2026-09-04"
+    },
+    {
+      "key": "github.com/worldflowai/everything-claude-code",
+      "canonical_url": "https://github.com/WorldFlowAI/everything-claude-code",
+      "event_date": "2026-09-05",
+      "date_seen": "2026-09-05"
+    },
+    {
+      "key": "github.com/matraix-ai/matraix-persona-8b",
+      "canonical_url": "https://github.com/matraix-ai/matraix-persona-8b",
+      "event_date": "2026-09-05",
+      "date_seen": "2026-09-05"
     }
   ]
 }

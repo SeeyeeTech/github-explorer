@@ -332,6 +332,10 @@ entries:
   black-forest-labs_flux:
   - devtools
   - media-generation
+  blader_humanizer:
+  - ai-agent
+  - ai-coding
+  - protocol-spec
   blaizzy_mlx-audio:
   - llm-inference
   - devtools

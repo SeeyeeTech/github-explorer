@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-09-05",
+    "last_run": "2026-09-06",
     "window_days": 30
   },
   "entries": [
@@ -939,6 +939,30 @@
       "canonical_url": "https://github.com/matraix-ai/matraix-persona-8b",
       "event_date": "2026-09-05",
       "date_seen": "2026-09-05"
+    },
+    {
+      "key": "github.com/openai/skills",
+      "canonical_url": "https://github.com/openai/skills",
+      "event_date": "2026-09-06",
+      "date_seen": "2026-09-06"
+    },
+    {
+      "key": "github.com/aipoch/open-science",
+      "canonical_url": "https://github.com/aipoch/open-science",
+      "event_date": "2026-09-06",
+      "date_seen": "2026-09-06"
+    },
+    {
+      "key": "github.com/the-swarm-corporation/autohedge",
+      "canonical_url": "https://github.com/The-Swarm-Corporation/AutoHedge",
+      "event_date": "2026-09-06",
+      "date_seen": "2026-09-06"
+    },
+    {
+      "key": "github.com/coreyhaines31/marketingskills",
+      "canonical_url": "https://github.com/coreyhaines31/marketingskills",
+      "event_date": "2026-09-06",
+      "date_seen": "2026-09-06"
     }
   ]
 }

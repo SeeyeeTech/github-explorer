@@ -1449,6 +1449,14 @@ entries:
   - ai-coding
   - devtools
   - workflow-automation
+  magnitudedev_magnitude:
+  - ai-agent
+  - ai-coding
+  - llm-inference
+  - model-foundation
+  - devtools
+  - iot-hardware
+  - protocol-spec
   mahlernim_google-timeline-visualizer:
   - devtools
   - video-audio

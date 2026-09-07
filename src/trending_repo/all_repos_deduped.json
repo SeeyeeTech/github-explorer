@@ -80,6 +80,16 @@
     "trending_days": 28
   },
   {
+    "name": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ecc",
+    "language": "JavaScript",
+    "stars": 252491,
+    "forks": 37890,
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "last_seen": "2026-09-07",
+    "trending_days": 27
+  },
+  {
     "name": "sansan0/TrendRadar",
     "url": "https://github.com/sansan0/trendradar",
     "language": "Python",
@@ -88,16 +98,6 @@
     "description": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
     "last_seen": "2026-04-22",
     "trending_days": 27
-  },
-  {
-    "name": "affaan-m/ECC",
-    "url": "https://github.com/affaan-m/ecc",
-    "language": "JavaScript",
-    "stars": 250585,
-    "forks": 37699,
-    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "last_seen": "2026-09-06",
-    "trending_days": 26
   },
   {
     "name": "Shubhamsaboo/awesome-llm-apps",
@@ -393,11 +393,11 @@
     "name": "bytedance/deer-flow",
     "url": "https://github.com/bytedance/deer-flow",
     "language": "Python",
-    "stars": 78533,
-    "forks": 10727,
+    "stars": 81740,
+    "forks": 11286,
     "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-    "last_seen": "2026-08-01",
-    "trending_days": 16
+    "last_seen": "2026-09-07",
+    "trending_days": 17
   },
   {
     "name": "moeru-ai/airi",
@@ -417,6 +417,26 @@
     "forks": 449,
     "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
     "last_seen": "2026-06-06",
+    "trending_days": 15
+  },
+  {
+    "name": "microsoft/markitdown",
+    "url": "https://github.com/microsoft/markitdown",
+    "language": "Python",
+    "stars": 179723,
+    "forks": 13234,
+    "description": "Python tool for converting files and office documents to Markdown.",
+    "last_seen": "2026-09-07",
+    "trending_days": 15
+  },
+  {
+    "name": "ruvnet/ruflo",
+    "url": "https://github.com/ruvnet/ruflo",
+    "language": "TypeScript",
+    "stars": 71271,
+    "forks": 8452,
+    "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+    "last_seen": "2026-09-07",
     "trending_days": 15
   },
   {
@@ -477,26 +497,6 @@
     "forks": 3178,
     "description": "Machine Learning Systems",
     "last_seen": "2026-07-05",
-    "trending_days": 14
-  },
-  {
-    "name": "microsoft/markitdown",
-    "url": "https://github.com/microsoft/markitdown",
-    "language": "Python",
-    "stars": 142492,
-    "forks": 9725,
-    "description": "Python tool for converting files and office documents to Markdown.",
-    "last_seen": "2026-06-03",
-    "trending_days": 14
-  },
-  {
-    "name": "ruvnet/ruflo",
-    "url": "https://github.com/ruvnet/ruflo",
-    "language": "TypeScript",
-    "stars": 70841,
-    "forks": 8426,
-    "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-    "last_seen": "2026-09-06",
     "trending_days": 14
   },
   {
@@ -570,6 +570,16 @@
     "trending_days": 13
   },
   {
+    "name": "openai/skills",
+    "url": "https://github.com/openai/skills",
+    "language": "Python",
+    "stars": 25888,
+    "forks": 1742,
+    "description": "Skills Catalog for Codex",
+    "last_seen": "2026-09-07",
+    "trending_days": 13
+  },
+  {
     "name": "openclaw/openclaw",
     "url": "https://github.com/openclaw/openclaw",
     "language": "TypeScript",
@@ -627,16 +637,6 @@
     "forks": 3510,
     "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
     "last_seen": "2026-08-19",
-    "trending_days": 12
-  },
-  {
-    "name": "openai/skills",
-    "url": "https://github.com/openai/skills",
-    "language": "Python",
-    "stars": 25478,
-    "forks": 1726,
-    "description": "Skills Catalog for Codex",
-    "last_seen": "2026-09-06",
     "trending_days": 12
   },
   {
@@ -1180,6 +1180,16 @@
     "trending_days": 9
   },
   {
+    "name": "pascalorg/editor",
+    "url": "https://github.com/pascalorg/editor",
+    "language": "TypeScript",
+    "stars": 22177,
+    "forks": 2854,
+    "description": "Create and share 3D architectural projects.",
+    "last_seen": "2026-09-07",
+    "trending_days": 9
+  },
+  {
     "name": "Raphire/Win11Debloat",
     "url": "https://github.com/raphire/win11debloat",
     "language": "PowerShell",
@@ -1387,16 +1397,6 @@
     "forks": 5407,
     "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
     "last_seen": "2026-08-03",
-    "trending_days": 8
-  },
-  {
-    "name": "pascalorg/editor",
-    "url": "https://github.com/pascalorg/editor",
-    "language": "TypeScript",
-    "stars": 19883,
-    "forks": 2612,
-    "description": "Create and share 3D architectural projects.",
-    "last_seen": "2026-07-30",
     "trending_days": 8
   },
   {
@@ -2030,6 +2030,16 @@
     "trending_days": 6
   },
   {
+    "name": "coreyhaines31/marketingskills",
+    "url": "https://github.com/coreyhaines31/marketingskills",
+    "language": "JavaScript",
+    "stars": 47951,
+    "forks": 7417,
+    "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+    "last_seen": "2026-09-07",
+    "trending_days": 6
+  },
+  {
     "name": "czlonkowski/n8n-mcp",
     "url": "https://github.com/czlonkowski/n8n-mcp",
     "language": "TypeScript",
@@ -2650,16 +2660,6 @@
     "trending_days": 5
   },
   {
-    "name": "coreyhaines31/marketingskills",
-    "url": "https://github.com/coreyhaines31/marketingskills",
-    "language": "JavaScript",
-    "stars": 47292,
-    "forks": 7372,
-    "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-    "last_seen": "2026-09-06",
-    "trending_days": 5
-  },
-  {
     "name": "DayuanJiang/next-ai-draw-io",
     "url": "https://github.com/dayuanjiang/next-ai-draw-io",
     "language": "TypeScript",
@@ -2857,6 +2857,16 @@
     "forks": 19183,
     "description": "Production-ready platform for agentic workflow development.",
     "last_seen": "2025-12-26",
+    "trending_days": 5
+  },
+  {
+    "name": "lightpanda-io/browser",
+    "url": "https://github.com/lightpanda-io/browser",
+    "language": "Zig",
+    "stars": 34715,
+    "forks": 1644,
+    "description": "Lightpanda: the headless browser designed for AI and automation",
+    "last_seen": "2026-09-07",
     "trending_days": 5
   },
   {
@@ -3780,16 +3790,6 @@
     "trending_days": 4
   },
   {
-    "name": "lightpanda-io/browser",
-    "url": "https://github.com/lightpanda-io/browser",
-    "language": "Zig",
-    "stars": 19689,
-    "forks": 744,
-    "description": "Lightpanda: the headless browser designed for AI and automation",
-    "last_seen": "2026-03-16",
-    "trending_days": 4
-  },
-  {
     "name": "Lightricks/LTX-2",
     "url": "https://github.com/lightricks/ltx-2",
     "language": "Python",
@@ -4457,6 +4457,16 @@
     "forks": 2423,
     "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
     "last_seen": "2026-08-29",
+    "trending_days": 3
+  },
+  {
+    "name": "BraveOPotato/FckSignups",
+    "url": "https://github.com/braveopotato/fcksignups",
+    "language": "TypeScript",
+    "stars": 3670,
+    "forks": 217,
+    "description": "A list of tools that are open-source, in-browser, and require no-signups!",
+    "last_seen": "2026-09-07",
     "trending_days": 3
   },
   {
@@ -5237,6 +5247,16 @@
     "forks": 7001,
     "description": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.",
     "last_seen": "2026-02-14",
+    "trending_days": 3
+  },
+  {
+    "name": "mksglu/context-mode",
+    "url": "https://github.com/mksglu/context-mode",
+    "language": "TypeScript",
+    "stars": 20660,
+    "forks": 1514,
+    "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+    "last_seen": "2026-09-07",
     "trending_days": 3
   },
   {
@@ -6280,16 +6300,6 @@
     "trending_days": 2
   },
   {
-    "name": "BraveOPotato/FckSignups",
-    "url": "https://github.com/braveopotato/fcksignups",
-    "language": "TypeScript",
-    "stars": 3126,
-    "forks": 206,
-    "description": "A list of tools that are open-source, in-browser, and require no-signups!",
-    "last_seen": "2026-09-06",
-    "trending_days": 2
-  },
-  {
     "name": "bregman-arie/devops-exercises",
     "url": "https://github.com/bregman-arie/devops-exercises",
     "language": "Python",
@@ -6937,6 +6947,16 @@
     "forks": 7370,
     "description": "The Kubernetes Package Manager",
     "last_seen": "2025-10-30",
+    "trending_days": 2
+  },
+  {
+    "name": "heygen-com/hyperframes",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "language": "TypeScript",
+    "stars": 45225,
+    "forks": 4286,
+    "description": "Write HTML. Render video. Built for agents.",
+    "last_seen": "2026-09-07",
     "trending_days": 2
   },
   {
@@ -7590,16 +7610,6 @@
     "trending_days": 2
   },
   {
-    "name": "mksglu/context-mode",
-    "url": "https://github.com/mksglu/context-mode",
-    "language": "TypeScript",
-    "stars": 12711,
-    "forks": 878,
-    "description": "Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 14 platforms",
-    "last_seen": "2026-05-05",
-    "trending_days": 2
-  },
-  {
     "name": "modelcontextprotocol/go-sdk",
     "url": "https://github.com/modelcontextprotocol/go-sdk",
     "language": "Go",
@@ -8207,6 +8217,16 @@
     "forks": 953,
     "description": "A self-hosted data logger for your Tesla 🚘 [main maintainer=@JakobLichterfeld]",
     "last_seen": "2026-06-16",
+    "trending_days": 2
+  },
+  {
+    "name": "The-Swarm-Corporation/AutoHedge",
+    "url": "https://github.com/the-swarm-corporation/autohedge",
+    "language": "Python",
+    "stars": 5094,
+    "forks": 795,
+    "description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
+    "last_seen": "2026-09-07",
     "trending_days": 2
   },
   {
@@ -10180,16 +10200,6 @@
     "trending_days": 1
   },
   {
-    "name": "heygen-com/hyperframes",
-    "url": "https://github.com/heygen-com/hyperframes",
-    "language": "TypeScript",
-    "stars": 29779,
-    "forks": 2813,
-    "description": "Write HTML. Render video. Built for agents.",
-    "last_seen": "2026-06-22",
-    "trending_days": 1
-  },
-  {
     "name": "hiddify/hiddify-app",
     "url": "https://github.com/hiddify/hiddify-app",
     "language": "Dart",
@@ -10397,6 +10407,16 @@
     "forks": 6101,
     "description": "The Kotlin Programming Language.",
     "last_seen": "2025-11-10",
+    "trending_days": 1
+  },
+  {
+    "name": "jo-inc/camofox-browser",
+    "url": "https://github.com/jo-inc/camofox-browser",
+    "language": "JavaScript",
+    "stars": 9459,
+    "forks": 1005,
+    "description": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
+    "last_seen": "2026-09-07",
     "trending_days": 1
   },
   {
@@ -11007,6 +11027,16 @@
     "forks": 601,
     "description": "Kimi K2 is the large language model series developed by Moonshot AI team",
     "last_seen": "2025-11-10",
+    "trending_days": 1
+  },
+  {
+    "name": "MoonTechLab/LunaTV",
+    "url": "https://github.com/moontechlab/lunatv",
+    "language": "TypeScript",
+    "stars": 9641,
+    "forks": 8980,
+    "description": "本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同协议开源",
+    "last_seen": "2026-09-07",
     "trending_days": 1
   },
   {
@@ -12137,16 +12167,6 @@
     "forks": 1740,
     "description": "Testcontainers is a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.",
     "last_seen": "2025-10-16",
-    "trending_days": 1
-  },
-  {
-    "name": "The-Swarm-Corporation/AutoHedge",
-    "url": "https://github.com/the-swarm-corporation/autohedge",
-    "language": "Python",
-    "stars": 4503,
-    "forks": 764,
-    "description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
-    "last_seen": "2026-09-06",
     "trending_days": 1
   },
   {

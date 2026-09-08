@@ -374,6 +374,9 @@ entries:
   - ai-coding
   - llm-framework
   - video-audio
+  braveopotato_fcksignups:
+  - database
+  - protocol-spec
   browser-use_browser-use:
   - ai-agent
   - llm-inference
@@ -1589,6 +1592,13 @@ entries:
   mistralai_mistral-finetune:
   - llm-training
   - model-foundation
+  mksglu_context-mode:
+  - ai-agent
+  - ai-coding
+  - llm-framework
+  - devtools
+  - database
+  - protocol-spec
   ml-explore_mlx:
   - llm-framework
   - llm-inference

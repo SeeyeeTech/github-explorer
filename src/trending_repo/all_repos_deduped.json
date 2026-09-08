@@ -3,11 +3,11 @@
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "language": "Shell",
-    "stars": 281174,
-    "forks": 25186,
+    "stars": 283158,
+    "forks": 25376,
     "description": "An agentic skills framework & software development methodology that works.",
-    "last_seen": "2026-09-03",
-    "trending_days": 82
+    "last_seen": "2026-09-08",
+    "trending_days": 83
   },
   {
     "name": "TapXWorld/ChinaTextbook",
@@ -60,6 +60,16 @@
     "trending_days": 31
   },
   {
+    "name": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ecc",
+    "language": "JavaScript",
+    "stars": 253854,
+    "forks": 38064,
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "last_seen": "2026-09-08",
+    "trending_days": 28
+  },
+  {
     "name": "anthropics/claude-code",
     "url": "https://github.com/anthropics/claude-code",
     "language": "Python",
@@ -78,16 +88,6 @@
     "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
     "last_seen": "2026-08-13",
     "trending_days": 28
-  },
-  {
-    "name": "affaan-m/ECC",
-    "url": "https://github.com/affaan-m/ecc",
-    "language": "JavaScript",
-    "stars": 252491,
-    "forks": 37890,
-    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "last_seen": "2026-09-07",
-    "trending_days": 27
   },
   {
     "name": "sansan0/TrendRadar",
@@ -400,6 +400,16 @@
     "trending_days": 17
   },
   {
+    "name": "microsoft/markitdown",
+    "url": "https://github.com/microsoft/markitdown",
+    "language": "Python",
+    "stars": 181385,
+    "forks": 13319,
+    "description": "Python tool for converting files and office documents to Markdown.",
+    "last_seen": "2026-09-08",
+    "trending_days": 16
+  },
+  {
     "name": "moeru-ai/airi",
     "url": "https://github.com/moeru-ai/airi",
     "language": "TypeScript",
@@ -417,16 +427,6 @@
     "forks": 449,
     "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
     "last_seen": "2026-06-06",
-    "trending_days": 15
-  },
-  {
-    "name": "microsoft/markitdown",
-    "url": "https://github.com/microsoft/markitdown",
-    "language": "Python",
-    "stars": 179723,
-    "forks": 13234,
-    "description": "Python tool for converting files and office documents to Markdown.",
-    "last_seen": "2026-09-07",
     "trending_days": 15
   },
   {
@@ -500,6 +500,16 @@
     "trending_days": 14
   },
   {
+    "name": "openai/skills",
+    "url": "https://github.com/openai/skills",
+    "language": "Python",
+    "stars": 26353,
+    "forks": 1768,
+    "description": "Skills Catalog for Codex",
+    "last_seen": "2026-09-08",
+    "trending_days": 14
+  },
+  {
     "name": "tinyhumansai/openhuman",
     "url": "https://github.com/tinyhumansai/openhuman",
     "language": "Rust",
@@ -567,16 +577,6 @@
     "forks": 1388,
     "description": "The absolute trainer to light up AI agents.",
     "last_seen": "2026-03-31",
-    "trending_days": 13
-  },
-  {
-    "name": "openai/skills",
-    "url": "https://github.com/openai/skills",
-    "language": "Python",
-    "stars": 25888,
-    "forks": 1742,
-    "description": "Skills Catalog for Codex",
-    "last_seen": "2026-09-07",
     "trending_days": 13
   },
   {
@@ -890,6 +890,16 @@
     "trending_days": 10
   },
   {
+    "name": "multica-ai/andrej-karpathy-skills",
+    "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+    "language": "Unknown",
+    "stars": 211188,
+    "forks": 21453,
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+    "last_seen": "2026-09-08",
+    "trending_days": 10
+  },
+  {
     "name": "NevaMind-AI/memU",
     "url": "https://github.com/nevamind-ai/memu",
     "language": "Python",
@@ -1130,16 +1140,6 @@
     "trending_days": 9
   },
   {
-    "name": "multica-ai/andrej-karpathy-skills",
-    "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-    "language": "Unknown",
-    "stars": 207495,
-    "forks": 21158,
-    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-    "last_seen": "2026-08-26",
-    "trending_days": 9
-  },
-  {
     "name": "NanmiCoder/MediaCrawler",
     "url": "https://github.com/nanmicoder/mediacrawler",
     "language": "Python",
@@ -1247,6 +1247,16 @@
     "forks": 3455,
     "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
     "last_seen": "2026-04-05",
+    "trending_days": 8
+  },
+  {
+    "name": "cathrynlavery/diagram-design",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "language": "HTML",
+    "stars": 34075,
+    "forks": 2171,
+    "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+    "last_seen": "2026-09-08",
     "trending_days": 8
   },
   {
@@ -1480,16 +1490,6 @@
     "trending_days": 7
   },
   {
-    "name": "cathrynlavery/diagram-design",
-    "url": "https://github.com/cathrynlavery/diagram-design",
-    "language": "HTML",
-    "stars": 32043,
-    "forks": 2062,
-    "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-    "last_seen": "2026-09-06",
-    "trending_days": 7
-  },
-  {
     "name": "ComposioHQ/awesome-claude-skills",
     "url": "https://github.com/composiohq/awesome-claude-skills",
     "language": "Python",
@@ -1497,6 +1497,16 @@
     "forks": 8437,
     "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
     "last_seen": "2026-08-27",
+    "trending_days": 7
+  },
+  {
+    "name": "coreyhaines31/marketingskills",
+    "url": "https://github.com/coreyhaines31/marketingskills",
+    "language": "JavaScript",
+    "stars": 48575,
+    "forks": 7479,
+    "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+    "last_seen": "2026-09-08",
     "trending_days": 7
   },
   {
@@ -1717,6 +1727,16 @@
     "forks": 3670,
     "description": "A lightweight, powerful framework for multi-agent workflows",
     "last_seen": "2026-04-20",
+    "trending_days": 7
+  },
+  {
+    "name": "openai/plugins",
+    "url": "https://github.com/openai/plugins",
+    "language": "JavaScript",
+    "stars": 5615,
+    "forks": 798,
+    "description": "OpenAI Plugins",
+    "last_seen": "2026-09-08",
     "trending_days": 7
   },
   {
@@ -2030,16 +2050,6 @@
     "trending_days": 6
   },
   {
-    "name": "coreyhaines31/marketingskills",
-    "url": "https://github.com/coreyhaines31/marketingskills",
-    "language": "JavaScript",
-    "stars": 47951,
-    "forks": 7417,
-    "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-    "last_seen": "2026-09-07",
-    "trending_days": 6
-  },
-  {
     "name": "czlonkowski/n8n-mcp",
     "url": "https://github.com/czlonkowski/n8n-mcp",
     "language": "TypeScript",
@@ -2297,16 +2307,6 @@
     "forks": 733,
     "description": "agent multiplexer that lives in your terminal.",
     "last_seen": "2026-07-06",
-    "trending_days": 6
-  },
-  {
-    "name": "openai/plugins",
-    "url": "https://github.com/openai/plugins",
-    "language": "JavaScript",
-    "stars": 4306,
-    "forks": 643,
-    "description": "OpenAI Plugins",
-    "last_seen": "2026-07-11",
     "trending_days": 6
   },
   {
@@ -3340,6 +3340,16 @@
     "trending_days": 4
   },
   {
+    "name": "ayghri/i-have-adhd",
+    "url": "https://github.com/ayghri/i-have-adhd",
+    "language": "Python",
+    "stars": 28684,
+    "forks": 1785,
+    "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+    "last_seen": "2026-09-08",
+    "trending_days": 4
+  },
+  {
     "name": "bannedbook/fanqiang",
     "url": "https://github.com/bannedbook/fanqiang",
     "language": "Kotlin",
@@ -3367,6 +3377,16 @@
     "forks": 391,
     "description": "A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.",
     "last_seen": "2026-01-27",
+    "trending_days": 4
+  },
+  {
+    "name": "browser-use/browser-use",
+    "url": "https://github.com/browser-use/browser-use",
+    "language": "Python",
+    "stars": 113192,
+    "forks": 12479,
+    "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+    "last_seen": "2026-09-08",
     "trending_days": 4
   },
   {
@@ -3877,6 +3897,16 @@
     "forks": 257,
     "description": "MiroThinker is an open-source search agent model, built for tool-augmented reasoning and real-world information seeking, aiming to match the deep research experience of OpenAI Deep Research and Gemini Deep Research.",
     "last_seen": "2026-01-10",
+    "trending_days": 4
+  },
+  {
+    "name": "mksglu/context-mode",
+    "url": "https://github.com/mksglu/context-mode",
+    "language": "TypeScript",
+    "stars": 21256,
+    "forks": 1540,
+    "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+    "last_seen": "2026-09-08",
     "trending_days": 4
   },
   {
@@ -4430,16 +4460,6 @@
     "trending_days": 3
   },
   {
-    "name": "ayghri/i-have-adhd",
-    "url": "https://github.com/ayghri/i-have-adhd",
-    "language": "Python",
-    "stars": 8966,
-    "forks": 415,
-    "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
-    "last_seen": "2026-07-23",
-    "trending_days": 3
-  },
-  {
     "name": "BeehiveInnovations/zen-mcp-server",
     "url": "https://github.com/beehiveinnovations/zen-mcp-server",
     "language": "Python",
@@ -4467,16 +4487,6 @@
     "forks": 217,
     "description": "A list of tools that are open-source, in-browser, and require no-signups!",
     "last_seen": "2026-09-07",
-    "trending_days": 3
-  },
-  {
-    "name": "browser-use/browser-use",
-    "url": "https://github.com/browser-use/browser-use",
-    "language": "Python",
-    "stars": 83182,
-    "forks": 9696,
-    "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
-    "last_seen": "2026-03-23",
     "trending_days": 3
   },
   {
@@ -4900,6 +4910,16 @@
     "trending_days": 3
   },
   {
+    "name": "heygen-com/hyperframes",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "language": "TypeScript",
+    "stars": 47453,
+    "forks": 4379,
+    "description": "Write HTML. Render video. Built for agents.",
+    "last_seen": "2026-09-08",
+    "trending_days": 3
+  },
+  {
     "name": "HKUDS/AI-Trader",
     "url": "https://github.com/hkuds/ai-trader",
     "language": "Python",
@@ -5247,16 +5267,6 @@
     "forks": 7001,
     "description": "MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.",
     "last_seen": "2026-02-14",
-    "trending_days": 3
-  },
-  {
-    "name": "mksglu/context-mode",
-    "url": "https://github.com/mksglu/context-mode",
-    "language": "TypeScript",
-    "stars": 20660,
-    "forks": 1514,
-    "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-    "last_seen": "2026-09-07",
     "trending_days": 3
   },
   {
@@ -5690,6 +5700,16 @@
     "trending_days": 3
   },
   {
+    "name": "The-Swarm-Corporation/AutoHedge",
+    "url": "https://github.com/the-swarm-corporation/autohedge",
+    "language": "Python",
+    "stars": 5540,
+    "forks": 832,
+    "description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
+    "last_seen": "2026-09-08",
+    "trending_days": 3
+  },
+  {
     "name": "THU-MAIC/OpenMAIC",
     "url": "https://github.com/thu-maic/openmaic",
     "language": "TypeScript",
@@ -5797,6 +5817,16 @@
     "forks": 623,
     "description": "An open source template for building cloud agents.",
     "last_seen": "2026-05-07",
+    "trending_days": 3
+  },
+  {
+    "name": "viarotel-org/escrcpy",
+    "url": "https://github.com/viarotel-org/escrcpy",
+    "language": "JavaScript",
+    "stars": 11252,
+    "forks": 793,
+    "description": "📱 Display and control your Android device graphically with scrcpy.",
+    "last_seen": "2026-09-08",
     "trending_days": 3
   },
   {
@@ -6950,16 +6980,6 @@
     "trending_days": 2
   },
   {
-    "name": "heygen-com/hyperframes",
-    "url": "https://github.com/heygen-com/hyperframes",
-    "language": "TypeScript",
-    "stars": 45225,
-    "forks": 4286,
-    "description": "Write HTML. Render video. Built for agents.",
-    "last_seen": "2026-09-07",
-    "trending_days": 2
-  },
-  {
     "name": "HKUDS/VideoRAG",
     "url": "https://github.com/hkuds/videorag",
     "language": "Python",
@@ -7137,6 +7157,16 @@
     "forks": 1339,
     "description": "dev tools, env vars, task runner",
     "last_seen": "2026-08-08",
+    "trending_days": 2
+  },
+  {
+    "name": "jo-inc/camofox-browser",
+    "url": "https://github.com/jo-inc/camofox-browser",
+    "language": "JavaScript",
+    "stars": 10271,
+    "forks": 1041,
+    "description": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
+    "last_seen": "2026-09-08",
     "trending_days": 2
   },
   {
@@ -7627,6 +7657,16 @@
     "forks": 694,
     "description": "The official Java SDK for Model Context Protocol servers and clients. Maintained in collaboration with Spring AI",
     "last_seen": "2025-10-18",
+    "trending_days": 2
+  },
+  {
+    "name": "MoonTechLab/LunaTV",
+    "url": "https://github.com/moontechlab/lunatv",
+    "language": "TypeScript",
+    "stars": 10106,
+    "forks": 9036,
+    "description": "本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同协议开源",
+    "last_seen": "2026-09-08",
     "trending_days": 2
   },
   {
@@ -8220,16 +8260,6 @@
     "trending_days": 2
   },
   {
-    "name": "The-Swarm-Corporation/AutoHedge",
-    "url": "https://github.com/the-swarm-corporation/autohedge",
-    "language": "Python",
-    "stars": 5094,
-    "forks": 795,
-    "description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
-    "last_seen": "2026-09-07",
-    "trending_days": 2
-  },
-  {
     "name": "theOehrly/Fast-F1",
     "url": "https://github.com/theoehrly/fast-f1",
     "language": "Python",
@@ -8387,16 +8417,6 @@
     "forks": 240,
     "description": "Hindsight: Agent Memory That Learns",
     "last_seen": "2026-03-13",
-    "trending_days": 2
-  },
-  {
-    "name": "viarotel-org/escrcpy",
-    "url": "https://github.com/viarotel-org/escrcpy",
-    "language": "JavaScript",
-    "stars": 7942,
-    "forks": 575,
-    "description": "📱 Display and control your Android device graphically with scrcpy.",
-    "last_seen": "2026-02-08",
     "trending_days": 2
   },
   {
@@ -10410,16 +10430,6 @@
     "trending_days": 1
   },
   {
-    "name": "jo-inc/camofox-browser",
-    "url": "https://github.com/jo-inc/camofox-browser",
-    "language": "JavaScript",
-    "stars": 9459,
-    "forks": 1005,
-    "description": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
-    "last_seen": "2026-09-07",
-    "trending_days": 1
-  },
-  {
     "name": "joeseesun/qiaomu-anything-to-notebooklm",
     "url": "https://github.com/joeseesun/qiaomu-anything-to-notebooklm",
     "language": "Python",
@@ -11027,16 +11037,6 @@
     "forks": 601,
     "description": "Kimi K2 is the large language model series developed by Moonshot AI team",
     "last_seen": "2025-11-10",
-    "trending_days": 1
-  },
-  {
-    "name": "MoonTechLab/LunaTV",
-    "url": "https://github.com/moontechlab/lunatv",
-    "language": "TypeScript",
-    "stars": 9641,
-    "forks": 8980,
-    "description": "本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同协议开源",
-    "last_seen": "2026-09-07",
     "trending_days": 1
   },
   {

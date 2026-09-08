@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/mksglu/context-mode">https://github.com/mksglu/context-mode</a></p></blockquote>
+<h2>一句话总结</h2>
+<p>context-mode 是一款 MCP 插件，在 17 个 AI agent 平台（Claude Code / Cursor / Codex / Gemini CLI / OpenCode / Kiro / OpenClaw / Zed / Pi Agent / Copilot / Antigravity ……）外层拦截工具原始输出并落本地 SQLite FTS5，把 200K context window 的真实可用率从「线性崩塌」拉回「接近线性」，并提出「<strong>Think in Code</strong>」范式——让 agent 用 12 语言 sandbox 执行脚本分析数据，只把 stdout 回灌。</p>
+<h2>值得关注的理由</h2>
+<ul>
+<li><strong>商业化样本完整</strong>:OSS 拦截器 + 商业 Platform tier(`$20/seat/月`)+ Insight 仪表盘三件套已落地，英国 MKSF LTD 公司载体，这是少有的「open-core 跑通」的 agent infra 案例。</li>
+<li><strong>「Think in Code」对「RAG/压缩」路线</strong>：主流省 token 路径是 LLM 重写或向量检索，context-mode 反向押注「让 LLM 写代码分析」——12 语言 PolyglotExecutor + 本地 FTS5 索引 + 100KB 自动 externalize 阈值，自报 315KB → 5.4KB。</li>
+<li><strong>跨 17 平台 hook 抽象</strong>：不强求统一协议，而是用 3 种 paradigm（JSON stdio / TS Plugin / MCP-only）抽象平台差异，是「对接 N 个异构 SaaS」中间件的可迁移架构范例。</li>
+</ul>
+<h2>项目展示</h2>
+<p><a href="https://img.youtube.com/vi/QUHrntlfPo4/maxresdefault.jpg">Watch context-mode demo on YouTube</a></p>
+<blockquote><p>6 分钟官方 Demo：从「npm test 一次塞进 56KB」到「FTS5 检索 + ctx_search 召回」完整链路。</p></blockquote>
+<h2>项目画像</h2>
+<p><strong>GitHub</strong>:<a href="https://github.com/mksglu/context-mode">https://github.com/mksglu/context-mode</a></p>
+<p><strong>Star / Fork</strong>:20,810 / 1,518</p>
+<p><strong>Watcher</strong>:93</p>
+<p><strong>代码行数</strong>:107,189（TypeScript 86.6% / JavaScript 8.6% / JSON 1.9% / HTML 1.6% / Shell 1.2%）</p>
+<p><strong>注释占比</strong>:28.9%（107,189 行代码 + 31,003 行注释，函数级 issue 引用）</p>
+<p><strong>文件数量</strong>:520</p>
+<p><strong>项目年龄</strong>:6.4 个月（首次提交 2026-02-23）</p>
+<p><strong>总 commits</strong>:2,173（近 30 天 49 / 近 90 天 255,5 月峰值 740)</p>
+<p><strong>版本</strong>:v1.0.169（共 198 个 tag，平均每天 1 release)</p>
+<p><strong>贡献者</strong>:121 人（Mert Köseoğlu 主贡献 60.8% + github-actions[bot] 22.5%）</p>
+<p><strong>开发阶段</strong>:<strong>密集开发 → 稳定维护过渡</strong>（6 月后降至 ~50 commits/月，但仍持续）</p>
+<p><strong>贡献模式</strong>:<strong>单人主导 + bot 自动发版 + 社区小幅补丁</strong></p>
+<p><strong>热度定位</strong>:<strong>大众热门 + 已商业化的小众精品</strong>（HackerNews #1，自报 570 HN points / 515K downloads / 331K developers)</p>
+<p><strong>License</strong>:<strong>ELv2</strong>（Elastic License v2，source-available 非 OSI 开源）</p>
+<p><strong>质量评级</strong>:代码 优 / 文档 优 / 测试 充分（125 tests pass + live-benchmark 真实 fixture）</p>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p><strong>Mert Köseoğlu</strong>（mksglu)——伦敦 12+ 年 Senior/Lead 全栈工程师（TS/Node/React/Cloudflare/Rust），公司载体 <strong>MKSF LTD</strong>。GitHub 账号 12.8 年，73 个公开仓库，粉丝 549。</p>
+<p>2024-2025 集中转向 AI Agent 基础设施，围绕「agent infra」主题已开源<strong>多项目矩阵</strong>:hatice（agent 编排）、browsirai（CDP 浏览器代理）、seclawai（沙箱化 agent)、workers-sdk fork、context-mode 主项目。<strong>context-mode 是旗舰</strong>——user-facing 的 brand 资产。</p>
+<p>作者技术博客 `mksg.lu` 持续输出深度技术判断（已发表 3 篇关键文章，见下文「战略意图」），背景与产品形态高度匹配。</p>
+<h3>问题判断</h3>
+<blockquote><p>「tool output 不是存一次，而是在每次 API call 都作为 input tokens 重发」—— 作者博客《Why Your Claude Code Limit Runs Out in 20 Minutes》</p></blockquote>
+<p>作者看到的核心问题:LLM context window 看似在扩张（200K、1M），但 tool output 仍线性增长，导致<strong>单位 token 的真实成本不降反升</strong>。一次 `npm test` 失败输出 56KB，一次 `gh pr list` 拉 50 个 PR 4KB，一次 `cat` 大文档 200KB——<strong>真正用于推理的 token 被压缩到 10% 以下</strong>，而 context-mode 实测把可用率从「线性崩塌」拉回「接近线性」。</p>
+<p>主流解法（LLM 重写压缩、向量检索、声明式 rules 层）都有缺陷：</p>
+<ul>
+<li><strong>LLM 重写</strong>:额外 token 开销，且丢失不可逆</li>
+<li><strong>向量检索</strong>:粒度粗，适合语义匹配，不适合代码/日志精确定位</li>
+<li><strong>声明式 rules</strong>（`fending/context-engineering` 路线）:依赖 agent 主动遵守，LLM 可能遗忘/篡改</li>
+</ul>
+<h3>解法哲学</h3>
+<blockquote><p>「<strong>Think in Code</strong> = 把 LLM 当程序员而不是数据处理器」</p></blockquote>
+<p>明确选择：</p>
+<ul>
+<li>✅ <strong>物理性强制拦截</strong>:MCP 层 out-of-band proxy，保留所有 tool 语义，只在外层裁剪/摘要/索引,<strong>不污染 model 决策</strong></li>
+<li>✅ <strong>让 agent 写代码分析</strong>:通过 PolyglotExecutor 跑 JS/Python/Shell/Go/Rust……，只把 stdout 回灌</li>
+<li>✅ <strong>本地优先</strong>:SQLite FTS5，无云依赖，零配置，零延迟</li>
+<li>✅ <strong>多平台铺开</strong>:17 个 agent 平台 + 3 OS，押注「所有 agent 平台都痛」</li>
+<li>✅ <strong>Open-core</strong>:OSS 拦截器 MIT-friendly + 商业 Platform tier opt-in</li>
+</ul>
+<p>明确不做什么：</p>
+<ul>
+<li>❌ SaaS-only 路径</li>
+<li>❌ 重写 LLM system prompt（虽然分发自己的 CLAUDE.md)</li>
+<li>❌ 做 agent runtime（只拦截 tool output，不改 model 决策）</li>
+</ul>
+<h3>战略意图</h3>
+<p><strong>商业化路径已落地</strong>:CLI 中 `insight()` 命令直接打开 <a href="https://context-mode.com/insight">https://context-mode.com/insight</a>，把本地 FTS5 数据导流到 hosted dashboard。这是典型 open-core 模式——<strong>核心拦截器免费，云端分析是付费 SaaS</strong>，`$20/seat/月` 已稳定运行。</p>
+<p><strong>作者博客技术判断线索</strong>:</p>
+<ol>
+<li>《Why Your Claude Code Limit Runs Out in 20 Minutes》—— 指出 tool output 每次 API call 都重发的核心机制</li>
+<li>《Cloudflare Built Code Mode. We Built Think in Code. Same War, Different Front.》—— 把 Cloudflare 的 Code Mode 与自己的 Think-in-Code 并列为同一思路的两个独立实现</li>
+<li>《Gemini File Search + Cloudflare Workers: The Production RAG Stack That Just Works》—— Edge RAG 工程实践</li>
+</ol>
+<p><strong>独立批判视角</strong>:`Brian Fending` 在《Context Engineering on Your Terms》一文中核心异议：「context-mode 与 rtk 都在错误的层解决问题」——它们是不透明 runtime proxy;Fending 主张把 concise-command mappings 直接写进 `AGENTS.md`（可审计），并自建了 `fending/context-engineering` 插件作为替代方案。<strong>这是值得收录的反对派观点</strong>:context-mode 的核心 trade-off 是「效果强但行为不透明」。</p>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<p>按新颖度 × 实用性排序：</p>
+<ol>
+<li><strong>「Think in Code」范式</strong>（新颖 4/5，实用 5/5，迁移 4/5)—— 把 LLM 视为「可以在 sandbox 跑代码的 agent」而非「只能看文本的 chatbot」，12 语言 PolyglotExecutor 实现。是给 LLM 用的 shell-out 模式。</li>
+<li><strong>FTS5 highlight markers 反向推导 snippet 位置</strong>（新颖 4/5，实用 5/5，迁移 3/5)—— 不写自己的位置索引，而是从 FTS5 自己的 STX/ETX 标记恢复 token 位置，以 token 为中心构造 300-char window，BENCHMARK 验证 100% code examples preserved。</li>
+<li><strong>平台适配的 3-paradigm 抽象</strong>（新颖 3/5，实用 5/5，迁移 4/5)—— `HookParadigm = "json-stdio" | "ts-plugin" | "mcp-only"`，不强求统一协议，只允许 hook 层有平台差异。<strong>任何对接 N 个异构 SaaS/CLI 的中间件项目都可借鉴</strong>。</li>
+<li><strong>17 平台 × 3 OS 矩阵 × 5+ MCP tool 的 surface 收敛</strong>（新颖 3/5，实用 5/5，迁移 3/5)—— 每个平台暴露统一命名空间 `ctx_*`，实现细节完全平台-specific。</li>
+<li><strong>7 层 self-heal stack + 主动放弃 `.mcp.json`</strong>（新颖 4/5，实用 5/5，迁移 2/5)—— Claude Code plugin manager auto-update 会 carry-forward 旧版本 poison 文件，context-mode 通过 7 层 heal（marketplace clone sync / shell-snapshot PATH 改写 / installed_plugins.json 强一致 / plugin.json drift 双 pass / `.claude.json` 用户级 MCP / .mcp.json sweep / native addon ABI cache）+ 主动不写 `.mcp.json`，<strong>永久消除 Claude Code auto-update race</strong>。</li>
+<li><strong>FS/net 字节 instrumentation 注入</strong>（新颖 3/5，实用 4/5，迁移 3/5)—— 通过 `NODE_OPTIONS=--require` 注入 preload.js，在 sandbox 内部 monkey-patch `fs.readFileSync`、`fetch`、`http.get` 追踪字节，用户零感知字节统计。</li>
+<li><strong>AO-cycle-aware projectDir 解析</strong>（新颖 4/5，实用 5/5，迁移 4/5)—— `strictPlatform` + `transcriptMaxAgeMs` 防止 stale transcript hijack，<strong>任何 MCP server 进程需要推断"用户当前在哪个项目"的问题都可借鉴</strong>。</li>
+</ol>
+<h3>可复用的模式与技巧</h3>
+<ol>
+<li><strong>`tmp + rename` 原子写入 + throttle 持久化</strong>（500ms throttle + writeFileSync(tmpPath) + renameSync)—— 任何需要高吞吐统计/statusline/dashboard 持久化的项目都适用（Prometheus exporter、metrics agent）。</li>
+<li><strong>AsyncLocalStorage 跨 handler 注入 per-request 上下文</strong>—— 任何 MCP server / HTTP handler / CLI subcommand 需要"无需显式传参"的请求级上下文。</li>
+<li><strong>realpath + lexical startsWith 双层路径守卫</strong>—— `resolve()` 防 lexical escape，`realpathSync()` 防 symlink 落地攻击，任何 cpSync/rmSync/writeFileSync 前的 supply-chain containment。</li>
+<li><strong>FTS5 + BM25 作为本地嵌入索引</strong>—— &lt;10ms latency / &lt;100MB 索引 / 零云依赖，任何轻量 RAG 场景（dev tools / CLI agent / 本地 first 应用）。</li>
+<li><strong>runtime + projectDir + attribution 三层 attribution 上送</strong>—— 每次 `ContentStore.index*` 携带 `{sessionId, projectDir, attribution}`，便于后续 `ctx_search(source: "execute:python")` 精确过滤。</li>
+<li><strong>多层 self-heal + 主动放弃有缺陷的写路径</strong>—— 任何被宿主平台 auto-update poison 过的项目（Claude Code plugin、VS Code extension）。</li>
+<li><strong>工具调用 instrumentedCode wrapper 注入模式</strong>—— 在用户代码前后插入观测/安全/限流逻辑的 sandbox 场景。</li>
+</ol>
+<h3>关键设计决策</h3>
+<p><strong>hook 范式</strong>:3 paradigm 抽象，不统一协议 —— 失去「立刻跑」，换取原生 hook 语义完整支持；代价 17 adapter × 6 hook × 3 OS ≈ 300 个脚本。</p>
+<p><strong>数据索引</strong>:本地 SQLite FTS5 —— 失去多用户协同 / 跨设备同步，换取零配置 + 零延迟 + 隐私。</p>
+<p><strong>检索细节</strong>:FTS5 highlight markers 反向推导 —— 紧耦合 FTS5，换取 100% code examples preserved。</p>
+<p><strong>大输出处理</strong>:100KB 自动 externalize 到 FTS5 —— 增加一次 LLM 调用延迟，换取 94% context 留给推理（177.1KB → 10.2KB）。</p>
+<p><strong>Claude Code 集成</strong>:7 层 self-heal + 主动放弃 `.mcp.json` —— 失去向后兼容（老 user 需 sweep），换得 auto-update 永不 poison。</p>
+<p><strong>字节统计</strong>:NODE_OPTIONS preload 注入 + monkey-patch —— 引入临时文件 + ESM 兼容问题，换用户零感知。</p>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<p><strong>定位层</strong>:context-mode = MCP/hook out-of-band proxy；rtk-ai/rtk = CLI proxy（Rust binary）；ooples/token-optimizer-mcp = MCP 层缓存+压缩；Mibayy/token-savior = 符号导航 MCP；fending/context-engineering = 声明式 rules（AGENTS.md）。</p>
+<p><strong>覆盖范围</strong>:context-mode = MCP tool / HTTP / 文件 / 文档；rtk = 仅 shell 命令；token-optimizer-mcp = MCP tool dumps；token-savior = 跨会话代码定位；context-engineering = 全部（若 agent 遵守）。</p>
+<p><strong>核心机制</strong>:context-mode = Think in Code + FTS5；rtk = 命令改写（grep→ripgrep）；token-optimizer-mcp = LLM 压缩 + 缓存；token-savior = BM25 符号检索；context-engineering = rules 文件。</p>
+<p><strong>节省幅度</strong>:context-mode 自报 98%，实测 ~94%；rtk 89%（shell 命令场景）；token-optimizer-mcp headline 95%+，realistic 20-40%；token-savior 97.9% benchmark；context-engineering 取决于 agent 遵守度。</p>
+<p><strong>数据保真度</strong>:context-mode 100%（FTS5 索引可查）；rtk 部分丢失（改写后）；token-optimizer-mcp 弱（LLM 重写）；token-savior 强；context-engineering 完全。</p>
+<p><strong>行为可审计</strong>:context-mode 弱（分散在 adapter × hook）；rtk 强（规则可见）；token-optimizer-mcp 中；token-savior 中；context-engineering <strong>最强</strong>（AGENTS.md 在 git)。</p>
+<p><strong>平台覆盖</strong>:context-mode 17 个 AI agent × 3 OS；rtk 跨 agent 通用；token-optimizer-mcp 单一；token-savior 单一；context-engineering 跨 agent 通用。</p>
+<p><strong>依赖 LLM 配合</strong>:context-mode 中（写脚本）；rtk 无；token-optimizer-mcp 无；token-savior 中；context-engineering 高（遵守 rules）。</p>
+<p><strong>安装门槛</strong>:context-mode npm plugin + MCP 配置；rtk 零（Rust binary）；token-optimizer-mcp npm MCP server；token-savior npm MCP server；context-engineering 写 AGENTS.md。</p>
+<p><strong>关系</strong>:context-mode <strong>主战</strong>；rtk <strong>互补</strong>（shell vs MCP）；token-optimizer-mcp 同层替代；token-savior 正交（记忆 vs 注意力）；context-engineering <strong>哲学对立</strong>。</p>
+<h3>差异化护城河</h3>
+<ol>
+<li><strong>生态护城河（最强）</strong>:17 平台 × 3 OS × 5 MCP tool 是几乎不可复制的进入成本。Issue #45（200 comments）显示社区参与了 OS × Platform 兼容性测试,<strong>这本身就是 switching cost 的护城河</strong>——新进入者很难复制这种兼容性矩阵。</li>
+<li><strong>信任护城河</strong>:7 层 self-heal、`Doctor` 诊断系统、Insight hosted dashboard 让用户有「全方位 service」的感觉。</li>
+<li><strong>技术护城河（较弱）</strong>:Think in Code 范式理论上别人可以复制，但 12 语言 PolyglotExecutor + FTS5 + 平台 adapter 一整套需要 6+ 月才能搭出来。</li>
+</ol>
+<h3>竞争风险</h3>
+<ol>
+<li><strong>MCP SDK 官方</strong>（Anthropic / OpenAI)—— 若官方把 context compression / chunking 内建到 SDK，context-mode 的核心价值被釜底抽薪。</li>
+<li><strong>Cursor / Claude Code 自身</strong>—— 若某个平台自家做了类似功能（如 Codex memory、Claude Code `/compact` 改进），该平台 context-mode 用户会流失。</li>
+<li><strong>Brian Fending 式的「声明式 rules」路线</strong>—— 如果 community 接受 AGENTS.md 标准，declarative 比 imperative 拦截更「轻」。</li>
+</ol>
+<h3>生态定位</h3>
+<p><strong>AI agent 基础设施层的「网络中间件」</strong>——既不是 LLM runtime，也不是 application，而是<strong>让 agent 在每个 token 上省钱</strong>的代理层。对标 Cloudflare 在 HTTP / Vercel 在 serverless 的位置:<strong>不生产内容，只让内容更便宜地流过</strong>——这是中间件层的最佳生态位。</p>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>: <strong>低</strong> —— 已被市场充分定价的大众热门项目（HN #1 / 20K stars / 商业化落地），真正的套利点在于「在其上构建商业 Platform tier」的作者本人。</li>
+<li><strong>技术借鉴</strong>: <strong>高</strong> —— 3-paradigm adapter 抽象、AsyncLocalStorage 跨 handler 注入、FTS5 highlight markers 反向推导、realpath + lexical 双层守卫、`tmp+rename` 原子写入、7 层 self-heal 模式,<strong>全部是通用中间件项目可直接复用的工程模式</strong>——做异构 SaaS/CLI 对接的中间件团队都可借鉴。</li>
+<li><strong>生态位</strong>: <strong>MCP context efficiency 层</strong>的头部项目，在 CLI proxy / MCP compression / knowledge graph / declarative rules 四条路线并存的红海早期，占住「MCP sandbox + 多平台覆盖」这一格。</li>
+<li><strong>趋势判断</strong>: <strong>增长放缓但稳健</strong> —— 6 月后 commit 降至 ~50/月，HackerNews 病毒传播期已过，进入维护+平台扩展期。Risk signal:主作者占比 60.8%,bus factor = 1；若作者精力转移，平台适配可能放缓。</li>
+</ul>
+<h2>风险与不足</h2>
+<ol>
+<li><strong>bus factor = 1</strong>:Mert Köseoğlu 主贡献 60.8%，虽然 121 位贡献者参与，但核心是单人驱动 + 社区补丁模式，作者精力分散到 hatice/browsirai/seclawai 多项目存在风险。</li>
+<li><strong>每日 1 个 release 的副作用</strong>:198 tag / 6.4 个月，Issue #658 揭示 plugin.json/skills/MCP server 路径 stale 的 drift 风险，<strong>velocity 优先于 manifest hygiene</strong>。</li>
+<li><strong>打包策略的兼容性代价</strong>:Issue #511 的 `Dynamic require of "node:fs" is not supported` 暴露 ESM/CJS 边界问题——<strong>打包器的 ESM/CJS 边界</strong>是 17 平台 × 3 OS 兼容性 bug 的根因之一（Issue #511 / #652 / #168 / #156 共同模式）。</li>
+<li><strong>多 adapter tool 命名空间脱节风险</strong>:Issue #426 显示 Pi 这类小众客户端的 tool 名空间会脱节——adapter 层必须保证 tool 列表与 routing block 完全一致；<strong>17 平台适配是高维护成本</strong>。</li>
+<li><strong>行为不透明</strong>:Brian Fending 等批评者指出 runtime proxy 决策分散在 17 个 adapter × hook 脚本里，<strong>审 costly</strong>，与 `AGENTS.md` 声明式路线形成哲学对立。</li>
+<li><strong>License 风险</strong>:ELv2（source-available 非 OSI 开源)—— 不能 fork 后闭源分发，商业友好但社区贡献场景受限。</li>
+</ol>
+<h2>行动建议</h2>
+<h3>如果你要用它</h3>
+<ul>
+<li><strong>重度 Claude Code / Cursor / Codex 用户</strong>:优先安装，立即见效（NPM 全局 + `claude plugin install`），<strong>典型场景上下文节省 94% 以上</strong>。</li>
+<li><strong>企业团队</strong>:评估 Platform tier（`$20/seat/月`），核心价值是 Insight 仪表盘 + 团队级 FTS5 协作。</li>
+<li><strong>轻量用户</strong>:若只偶尔用 shell 命令，可先评估 `rtk-ai/rtk`（零安装，Rust binary，89% 节省）。</li>
+<li><strong>AGENTS.md 信徒</strong>:考虑 `fending/context-engineering` 替代，行为可审计。</li>
+</ul>
+<h3>如果你要学它</h3>
+<p>必读源码文件（按价值排序）:</p>
+<p><strong>`src/server.ts`</strong>:MCP server 主体，所有 `ctx_*` 工具注册，stats/track/security/content store 集中处理。</p>
+<p><strong>`src/store.ts`</strong>:ContentStore:FTS5 BM25 知识库，heading-based chunking，smart snippet extraction。</p>
+<p><strong>`src/executor.ts`</strong>:PolyglotExecutor:12 语言沙箱执行器，detectRuntimes + buildSpawnOptions 跨平台。</p>
+<p><strong>`src/security.ts`</strong>:deny/allow policy engine，pattern parsing / glob → regex / chained command splitting。</p>
+<p><strong>`src/adapters/base.ts` + `src/adapters/types.ts`</strong>:共享适配器契约，3 paradigm 抽象。</p>
+<p><strong>`BENCHMARK.md`</strong>:21 场景实测数据，<strong>非营销</strong>。</p>
+<p><strong>`CLAUDE.md`</strong>:用户层强制 routing block，产品设计语言。</p>
+<h3>如果你要 fork 它</h3>
+<p>可改进方向：</p>
+<ol>
+<li><strong>简化 hook 抽象</strong>:3 paradigm 之外统一一份「最小公约数」，降低新平台接入成本。</li>
+<li><strong>沉淀 Open-Core 框架</strong>:把 17 平台适配 + open-core 商业化抽成独立工具，服务其他想做「agent infra + 商业 tier」的团队。</li>
+<li><strong>行为审计层</strong>:借鉴 Brian Fending 的 `AGENTS.md` 思路，在 sandbox 拦截后生成等价的「命令 → 摘要」审计 log，<strong>消除不透明 trade-off</strong>。</li>
+<li><strong>打包策略现代化</strong>:用 tsup/oxc 替代 esbuild，引入 ESM/CJS 双产物，根治 Issue #511 类兼容性问题。</li>
+<li><strong>去中心化 attribution</strong>:FTS5 索引 + provenance 但只本地，可考虑 IPFS/Arweave 持久化，做 cross-device sync 而不引入云。</li>
+</ol>
+<h3>知识入口</h3>
+<p><strong>DeepWiki</strong>:<a href="https://deepwiki.com/mksglu/context-mode">deepwiki.com/mksglu/context-mode</a> <strong>已收录</strong>（高质量架构总结，PolyglotExecutor / ContentStore / SessionDB 三件套 + 3 层 FTS5 fallback + 3 种 adapter 范式）。</p>
+<p><strong>Zread.ai</strong>:未尝试（WebFetch 403），按概率大概率已收录。</p>
+<p><strong>关联论文</strong>:无（这是工程工具，不是研究项目）。</p>
+<p><strong>在线 Demo</strong>:<a href="https://www.youtube.com/watch?v=QUHrntlfPo4">YouTube 演示视频</a>。</p>
+<p><strong>作者博客</strong>:<a href="https://mksg.lu">mksg.lu</a>（3 篇关键文章:Why Your Claude Code Limit Runs Out in 20 Minutes / Cloudflare Code Mode vs Think in Code / Gemini File Search + Cloudflare Workers)。</p>
+<p><strong>官方主页</strong>:<a href="https://context-mode.com">context-mode.com</a>（含 Platform tier + Insight 仪表盘入口）。</p>
+<p><strong>独立批判</strong>:<a href="https://www.brianfending.com/articles/context-engineering-on-your-terms">Brian Fending: Context Engineering on Your Terms</a> —— 反对方视角，值得对照读。</p>
+<p><strong>中文硬核拆解</strong>:<a href="https://zhichai.net/topic/177618721?dynamic=1">zhichai.net: AI 编程助手的健忘症，被一个 MCP 插件治好了</a> —— 验证 Think-in-Code 范式。</p>
+<p><strong>独立评测</strong>:<a href="https://vibecodinghub.org/blog/context-mode-review">VibeCodingHub: Context Mode Review 2026</a> —— 17 平台支持矩阵。</p>
+</body>
+</html>

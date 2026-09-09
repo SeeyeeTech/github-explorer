@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+/* 图片 */
+img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 1em auto !important;
+}
+
+/* 表格 */
+table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    margin: 1em 0 !important;
+    font-size: 14px !important;
+    color: #3e3e3e !important;
+}
+th, td {
+    border: 1px solid #ddd !important;
+    padding: 8px 12px !important;
+    text-align: left !important;
+    line-height: 1.6 !important;
+}
+th {
+    background: #f5f5f5 !important;
+    font-weight: bold !important;
+}
+</style>
+</head>
+<body>
+
+<blockquote><p>GitHub: <a href="https://github.com/heygen-com/hyperframes">https://github.com/heygen-com/hyperframes</a></p></blockquote>
+
+<h2>一句话总结</h2>
+
+<p>hyperframes 是 AI 视频 SaaS 公司 HeyGen 把自家生产渲染管线反向开源的产物——<strong>主动放弃 React/build step</strong>，把「做视频」重新定义为「写 HTML + data-* 时序属性」，并配套 20 个 AI Skill + 多 IDE 插件，把目标用户从「React 开发者」切到「AI coding agent」。</p>
+
+<h2>值得关注的理由</h2>
+
+<ul>
+<li><strong>半年 47.7K stars 的现象级项目</strong>：6 个月累计 4,241 commits / 409 tags / 100 releases，<strong>平均 1.36 天一次发版</strong>——属于「工业级、半年速红」。</li>
+<li><strong>明确站队 agent 时代</strong>：20 个 SKILL.md + <code>/hyperframes</code> 强制 router + 同时打包 Claude/Cursor/Codex/Gemini 插件，<strong>把「agent first」做成工程事实而非营销话术</strong>。</li>
+<li><strong>Remotion 直接对位 + Apache 2.0 反向卡位</strong>：Remotion 58.7k stars、6 年历史，改付费 license；hyperframes 用 Apache 2.0 + 4 条渲染路径（local / Lambda / GCP / HeyGen cloud）正面抢开发者。</li>
+</ul>
+
+<h2>项目展示</h2>
+
+<p><img src="https://raw.githubusercontent.com/heygen-com/hyperframes/main/docs/public/images/hyperframes-logo-motion-1280-trimmed.webp" alt="HyperFrames demo: HTML code on the left transforms into a rendered video on the right" /></p>
+<blockquote><p>一张图讲清项目定位：左边是 HTML 代码，右边是渲染出的视频——<strong>「Write HTML. Render video.」</strong></p></blockquote>
+
+<h2>项目画像</h2>
+
+<table>
+<thead>
+<tr><th>维度</th><th>数据</th></tr>
+</thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/heygen-com/hyperframes">https://github.com/heygen-com/hyperframes</a></td></tr>
+<tr><td>Star / Fork</td><td>47.7K / 4.39K</td></tr>
+<tr><td>代码行数</td><td>710,665（TypeScript 65.1% / TSX 11.5% / HTML 8.1% / JSON 6.8% / JavaScript 6.5%）</td></tr>
+<tr><td>项目年龄</td><td>6 个月（首次提交 2026-03-10）</td></tr>
+<tr><td>开发阶段</td><td>密集开发（近 30 天 452 commits / 90 天 2,592 commits）</td></tr>
+<tr><td>贡献模式</td><td>小团队主导 + 社区协作（89 人，Top1 占 31.4%，前两位合计 60%+）</td></tr>
+<tr><td>热度定位</td><td>大众热门 + 爆发型增长</td></tr>
+<tr><td>质量评级</td><td>代码 优秀 / 文档 优秀 / 测试 优秀（938+ 测试 / 240MB LFS golden mp4 回归）</td></tr>
+</tbody>
+</table>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+
+<p>hyperframes 由商业公司 HeyGen（AI 视频生成 SaaS 出海公司）的官方组织账号开源。<code>ADOPTERS.md</code> 第一行就是 HeyGen 自己：「Powers AI-generated video composition and rendering across HeyGen's video product surface」——<strong>hyperframes 是 HeyGen 自家每天生产大量视频的工程管线的反向开源</strong>，先解自己痛点，再对外开放。<code>CONTRIBUTING.md</code> 明文写「BDFL model, core maintainers at HeyGen have final say」——<strong>证明这是 HeyGen 战略主导的反向开源，而非社区驱动</strong>。</p>
+
+<p>Top 贡献者包括 miguel-heygen、vanceingalls、jrusso1020，前三位合计 ~80% commits——典型「BDFL + 核心小团队 + 社区外圈」的治理模型。</p>
+
+<h3>问题判断</h3>
+
+<p><strong>作者看到了什么别人没看到的问题？</strong></p>
+
+<ol>
+<li><strong>Remotion（React 视频框架，58.7K stars）的心智门槛</strong>：要起一个 React 项目、build、preview、render，每一帧要换算 frame 时间——「我想做一段 30 秒视频」变成「我要起一个 React 项目」。</li>
+<li><strong>agent 写 React 受限于工具链</strong>（jsx、bundler、props 类型推导）；但 agent 直接写 HTML 是一等公民——这是「agent 是新一类开发者」的关键洞见。</li>
+<li><strong>跨平台 / 确定性 CI 渲染</strong>：Remotion Lambda 是付费 license（≤3 人公司免费），超过要付费——hyperframes Apache 2.0 + 自带 Lambda/GCP/HeyGen cloud 四条路径。</li>
+<li><strong>时机</strong>：项目启动时点（2026）正好是 Claude Code / Cursor / Codex / Gemini CLI 这些 agent IDE 普及期，作者看到了「agent 是新一类开发者」的迁移机会。</li>
+</ol>
+
+<h3>解法哲学</h3>
+
+<p><strong>作者明确选择了什么，以及明确不做什么？</strong></p>
+
+<ul>
+<li><strong>放弃 React</strong>：composition = HTML 文件本身，浏览器里能直接预览。</li>
+<li><strong>放弃 build step</strong>：<code>index.html</code> 直接可跑，无需 bundler。</li>
+<li><strong>放弃私有项目结构</strong>：没有 <code>.hyperframesrc</code> / 专有项目骨架，时序属性 = <code>data-start</code> / <code>data-duration</code> / <code>data-track-index</code>。</li>
+<li><strong>放弃 wall-clock 动画</strong>：一切确定性帧寻址——<code>runtime-protocol-v1</code> + <code>{numerator, denominator}</code> rational fps + 把「无未种子随机 / 无 mid-render fetch」写成 lint rule 而不仅是文档。</li>
+</ul>
+
+<p><strong>核心工程承诺</strong>：渲染管线 「<strong>never plays your video, asks for one frame at a time</strong>」——反向驱动 seek-by-frame + 原子截帧，保证帧级确定性和跨机器 byte-identical output。</p>
+
+<h3>战略意图</h3>
+
+<p>hyperframes 在 HeyGen 更大图景中的位置：<strong>SaaS 防御性产品 + Agent 生态卡位</strong>。</p>
+
+<ol>
+<li><strong>生产管线开源化</strong>：让社区帮忙修跨平台 bug（macOS M4 hang / Windows FFmpeg leak 等），降低 SaaS 自身维护成本。</li>
+<li><strong>Agent 生态卡位</strong>：当 agent 学会「做视频 = <code>npx skills add heygen-com/hyperframes</code>」，HeyGen 就成了 agent 默认的视频后端——和「OpenAI 是 agent 默认的 LLM」是同一逻辑。</li>
+<li><strong>License 对位</strong>：Remotion 改成付费 license，hyperframes 永远 Apache 2.0——典型「用开源堵住对手变现路径、巩固自家 SaaS」的策略。</li>
+<li><strong>生态分层</strong>：HeyGen.com 这个 SaaS 永远在「渲染层」之上提供高价值层（agent 生成 / 模板市场 / 托管渲染 cloud）。</li>
+</ol>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处</h3>
+
+<ol>
+<li><strong>「agent-first 视频框架 + 强制 router skill」</strong> — 主动放弃 React/build，20 个 SKILL.md + <code>/hyperframes</code> 路由 + <code>skills-manifest.json</code> 哈希校验 + 多 IDE 插件同时发布。新颖度 5/5 / 实用性 4/5 / 可迁移性 5/5。</li>
+<li><strong>「HTML + data-* + paused timeline on window」 的 zero-build DSL</strong> — 让 composition = HTML 文件本身，agent 写完直接 render，浏览器里能直接 preview。新颖度 4/5 / 实用性 5/5 / 可迁移性 4/5。</li>
+<li><strong>FrameAdapter 抽象 + <code>seekFrame()</code> 通用接口</strong> — 把「动画运行时」从「渲染管线」解耦；GSAP/CSS/Lottie/Three/Anime/WAAPI/TypeGPU 7 个适配器复用同一渲染路径。新颖度 4/5 / 实用性 5/5 / 可迁移性 5/5。</li>
+<li><strong>rational-fps runtime protocol + capabilities 自描述</strong> — <code>{numerator, denominator}</code> 表示帧率 + <code>runtime-protocol-v1</code> 跨 iframe 通信协议 + 三态 inspection（legacy/supported/unsupported）。新颖度 4/5 / 实用性 4/5 / 可迁移性 5/5。</li>
+<li><strong>AST-aware GSAP parser + magic-string writer</strong> — 用 acorn 在浏览器里 parse → 序列化 → 用 magic-string 改写，让 agent/Studio 能 round-trip 编辑 imperative 动画脚本。新颖度 4/5 / 实用性 3/5 / 可迁移性 3/5。</li>
+<li><strong><code>HF_DE_CANVAS_NOT_INITIALIZED</code> 错误码跨 page.evaluate 边界传递</strong> — 因为 Puppeteer 重建 error 时只保留 message/name，把 「Discriminant prefix embedded in error message」 作为唯一可靠的 error code 标记——非常实战派的工程 trick。新颖度 5/5 / 实用性 4/5 / 可迁移性 3/5。</li>
+<li><strong>三 Activity 渲染管线（plan/renderChunk/assemble）+ plan-parity-contract 双协议校验</strong> — 把渲染拆成可独立扩展 primitive，单机 / Lambda / GCP 共享同一管线。新颖度 3/5 / 实用性 5/5 / 可迁移性 5/5。</li>
+</ol>
+
+<h3>可复用的模式与技巧</h3>
+
+<ul>
+<li><strong>FrameAdapter 模式</strong>：<code>init / getDurationFrames / seekFrame / destroy</code> 四方法即可把动画运行时接入渲染管线。适用场景：所有需要「deterministic 帧 + 可插拔运行时」的产品（视频、3D 渲染、可视化、模拟器）。</li>
+<li><strong>Versioned Runtime Protocol + Capabilities 自描述</strong>：用 <code>{protocolVersion, capabilities[], fps}</code> 表达「我能做什么」，legacy/supported/unsupported 三态 inspection。适用场景：跨 iframe 的 web component、嵌入 SDK、可视化库。</li>
+<li><strong>三层 skill 拓扑（Router → Creation Workflow → Domain Skill）</strong>：先有强制入口 skill 路由，再有「业务目标 → 工作流」，再有「原子能力 → 领域 skill」。适用场景：所有「agent IDE 友好」的框架 / DSL / 工具集。</li>
+<li><strong>AST-aware round-trip 编辑</strong>：用 acorn + magic-string 写回 pair 实现「局部 patch JS 字符串而不破坏其他行」。适用场景：DSL 嵌入在 JS 字符串里的工具（GSAP、d3、Chart 配置生成器）。</li>
+<li><strong>Discriminant-prefix-in-error-message 跨边界 error code</strong>：当 transport（Puppeteer、postMessage、FFI）只保留 message/name 时，把 error code 嵌入 message 前缀作为 fallback。适用场景：所有跨 sandbox 边界的 error 传递。</li>
+<li><strong>SKILL.md frontmatter <code>description:</code> 作为 single source of truth + 多文件同步矩阵</strong>：CLAUDE.md 明文规定「改了 description 必须推到 README/AGENTS/docs/prompting/quickstart/CLI 模板等 7 处」。适用场景：agent 编程 DSL 的多端文档一致性维护。</li>
+<li><strong><code>window.__timelines[id]</code> + paused timeline 注册协议</strong>：动画 = 一个 <code>paused: true</code> 的根 timeline 注册到 <code>window.__timelines</code>，渲染器主动 seek 而非被动播放。适用场景：所有「录屏、自动化测试、AI 仿真」类需要确定性帧的系统。</li>
+<li><strong>fast-capture 「按平台能力门控 + 显式 kill switch」 实验特性管理</strong>：每个实验特性都有 env-var kill switch，且按平台能力自动 fallback。适用场景：所有「用 native/实验 API」的 SDK。</li>
+</ul>
+
+<h3>关键设计决策</h3>
+
+<ol>
+<li><strong>HTML 是 composition 的真相来源</strong>：放弃 React + build，换 「agent 能直接写 + 浏览器能直接看 + 零 build」 三件套；牺牲 Remotion 的「React 组件可单元测试 + 强类型 prop 校验」红利。</li>
+<li><strong>渲染管线 「seek-by-frame」 反向驱动</strong>：浏览器自带的 wall-clock 动画无法做帧级确定性，改用「对每个 frame 调用 <code>seekFrame()</code> + 原子截帧」循环，永不播放。</li>
+<li><strong>runtime protocol v1 = 跨 iframe / 跨播放器的稳定 ABI</strong>：版本号 + capabilities + 用 <code>{numerator, denominator}</code> 表示 fps；legacy/supported/unsupported 三态 inspection 让任何客户端都能安全降级。</li>
+<li><strong>GSAP 用 acorn AST 解析 + magic-string 重写</strong>：让 Studio 能 round-trip 编辑 timeline 而非替换它；agent 也能精准 patch 一行 tween 参数。</li>
+<li><strong>渲染管线分 <code>plan / renderChunk / assemble</code> 三个 Activity</strong>：Lambda/Cloud Run 都能复用同一管线，plan-parity-contract 校验 v1/v2 协议产出的 frame 字节一致。</li>
+<li><strong>AWS Lambda SDK 用 <code>subpath export</code> 隔离 aws-cdk-lib 体积</strong>：SDK 子路径只暴露纯 AWS-SDK API，把几百 MB 的 CDK 隔离在另一子路径。</li>
+<li><strong>20 个 skill + <code>/hyperframes</code> 路由器作为「agent 编程的 DSL」</strong>：SKILL.md 的 <code>description:</code> 是 single source of truth，反向同步到 7 个文件。</li>
+</ol>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+
+<table>
+<thead>
+<tr><th>维度</th><th>hyperframes</th><th>Remotion</th><th>Adobe AE / FFmpeg</th><th>Lottie</th><th>Mediamod / Shotstack</th></tr>
+</thead>
+<tbody>
+<tr><td>DSL</td><td>HTML + data-* + paused GSAP</td><td>React 组件 + JSX</td><td>时间线 + 表达式</td><td>Bodymovin JSON</td><td>API + JSON template</td></tr>
+<tr><td>构建步骤</td><td>零 build（index.html 即 composition）</td><td>必须 JSX + bundler</td><td>桌面应用</td><td>无（JSON 即播放）</td><td>无（API 调用）</td></tr>
+<tr><td>Agent-native</td><td>是（20 skill + 多 IDE 插件）</td><td>否</td><td>否</td><td>否</td><td>部分（API 友好）</td></tr>
+<tr><td>License</td><td>Apache 2.0</td><td>付费（≤3 人免费）</td><td>商业</td><td>MIT</td><td>商业</td></tr>
+<tr><td>渲染路径</td><td>local / Lambda / GCP / HeyGen cloud</td><td>local / Lambda</td><td>桌面</td><td>local / web</td><td>托管 cloud</td></tr>
+<tr><td>确定性</td><td>强（rational-fps + seek-by-frame）</td><td>中（Lambda 较稳定）</td><td>中</td><td>中</td><td>中</td></tr>
+<tr><td>生态</td><td>175+ registry blocks/components</td><td>6 年生态，模板最丰富</td><td>商业生态</td><td>大（移动端为主）</td><td>小</td></tr>
+</tbody>
+</table>
+
+<h3>差异化护城河</h3>
+
+<ul>
+<li><strong>agent-native（20 skill + 多 IDE 插件 + SKILL.md 路由）</strong> — 这是卡 agent 生态位的真护城河，Remotion 要复制必须重新定义目标用户。</li>
+<li><strong>Apache 2.0 + 反向开源 HeyGen 真实生产管线</strong> — Remotion 改付费 license 时，hyperframes 用 Apache 2.0 堵住对手变现路径。</li>
+<li><strong>seek-by-frame + rational-fps + capabilities 自描述</strong> — 帧级确定性 + 跨环境 byte-identical output，对 CI 回归测试至关重要。</li>
+</ul>
+
+<h3>竞争风险</h3>
+
+<ol>
+<li>Remotion 58.7K stars、6 年积累、模板/教程/Stack Overflow 答案更多——React 团队迁移成本低，hyperframes 要写 HTML 重写。</li>
+<li>hyperframes 的「paused timeline + 协议 + adapter」心智比 Remotion 复杂——作者自己承认「<strong>HyperFrames asks you to follow rules — paused timeline, no wall clocks, no unseeded randomness — and breaks quietly if you don't</strong>」。</li>
+<li>跨平台 bug（macOS M4 hang / Windows FFmpeg leak / FFmpeg exit 可观测性）尚在收敛期——<code>#1231</code> / <code>#3430</code> / <code>#3744</code> 是当前最大痛点。</li>
+</ol>
+
+<h3>生态定位</h3>
+
+<p>HTML/agent 赛道领跑者，但仍是「细分赛道」（非 Remotion 等量级）。未来要看「agent 是新一类用户」这件事是否被市场验证——如果 agent 生成视频成为主流，hyperframes 是默认后端。</p>
+
+<h2>套利机会分析</h2>
+
+<ul>
+<li><strong>信息差</strong>：hyperframes 在中文社区讨论度远低于 Remotion（58.7K vs 47.7K，差距很小但认知差距大），是典型「被低估潜力股」。</li>
+<li><strong>技术借鉴</strong>：FrameAdapter / Versioned Runtime Protocol / AST-aware round-trip / 三 Activity 分布式原语——这四个通用解法可直接迁移到任何渲染 / DSL / 分布式任务。</li>
+<li><strong>生态位</strong>：填补了「agent-first 视频框架」这个空白——Remotion 没做 React-to-agent 心智迁移，hyperframes 卡住了这个生态位。</li>
+<li><strong>趋势判断</strong>：agent IDE 普及期（Claude Code / Codex / Gemini CLI 用户量增长），hyperframes 的「agent 是新一类开发者」叙事会被市场验证。</li>
+</ul>
+
+<h2>风险与不足</h2>
+
+<ul>
+<li><strong>协议心智较重</strong>：作者自己承认「breaks quietly if you don't follow rules」——对没有 React 心智转换的用户学习曲线较陡。</li>
+<li><strong>跨平台 bug 收敛期</strong>：macOS M4 hang（<code>#1231</code>）、Windows FFmpeg 控制台泄漏（<code>#3430</code>）、FFmpeg exit 可观测性（<code>#3744</code>）是当前最大痛点。</li>
+<li><strong>仍卡 0.8 段 API</strong>：半年内 409 tag / 100 release，0.8.x 频繁 patch 推进，<strong>未破 1.0</strong>——API 仍在不稳定迭代，使用者需锁定次版本号。</li>
+<li><strong>贡献者集中度高</strong>：Top3 占 ~80%，核心维护者都在 HeyGen——不是社区驱动项目，路线变化风险来自 HeyGen 战略调整。</li>
+<li><strong>refactor 0% / test 1%</strong>：commit_type_distribution 显示 fix 73.5% 偏高但 refactor/test 极薄，是密集开发期的典型取舍——工程纪律以「出活」为主。</li>
+</ul>
+
+<h2>行动建议</h2>
+
+<ul>
+<li><strong>如果你要用它</strong>：当你的产品是 SaaS / 内容流水线 / 营销视频批量生成时，hyperframes 比 Remotion 更适合——Apache 2.0 + agent-native + 4 条渲染路径可以省掉 Lambda 费用和 React 心智负担。</li>
+<li><strong>如果你要学它</strong>：重点关注
+<ul>
+<li><code>packages/core/src/adapters/types.ts</code>（FrameAdapter 接口）</li>
+<li><code>packages/core/src/runtime/protocol.ts</code>（runtime protocol v1）</li>
+<li><code>packages/parsers/src/gsapParserAcorn.ts</code> + <code>gsapWriterAcorn.ts</code>（AST round-trip）</li>
+<li><code>packages/producer/src/distributed.ts</code>（plan/renderChunk/assemble 三 Activity）</li>
+<li><code>skills/hyperframes/SKILL.md</code>（agent-first router 设计）</li>
+</ul>
+</li>
+<li><strong>如果你要 fork 它</strong>：可以从以下方向改进
+<ul>
+<li>补 remotion-to-hyperframes 之外的 import 路径（FFmpeg / 现有 PPT → video）</li>
+<li>给 Studio 加 collaborative editing（hyperframes 目前是单机编辑）</li>
+<li>把三 Activity 适配到 Cloudflare Workers（目前只支持 Lambda / GCP）</li>
+</ul>
+</li>
+</ul>
+
+<h3>知识入口</h3>
+
+<table>
+<thead>
+<tr><th>资源</th><th>链接</th></tr>
+</thead>
+<tbody>
+<tr><td>DeepWiki</td><td><a href="https://deepwiki.com/heygen-com/hyperframes">https://deepwiki.com/heygen-com/hyperframes</a></td></tr>
+<tr><td>Zread.ai</td><td>未收录</td></tr>
+<tr><td>关联论文</td><td>无</td></tr>
+<tr><td>在线 Demo</td><td><a href="https://www.hyperframes.dev/">https://www.hyperframes.dev/</a></td></tr>
+<tr><td>Showcase</td><td><a href="https://hyperframes.heygen.com/showcase">https://hyperframes.heygen.com/showcase</a></td></tr>
+<tr><td>Quickstart</td><td><a href="https://hyperframes.heygen.com/quickstart">https://hyperframes.heygen.com/quickstart</a></td></tr>
+<tr><td>Catalog</td><td><a href="https://hyperframes.heygen.com/catalog/blocks/data-chart">https://hyperframes.heygen.com/catalog/blocks/data-chart</a></td></tr>
+</tbody>
+</table>
+
+</body>
+</html>

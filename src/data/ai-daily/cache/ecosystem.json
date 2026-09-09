@@ -1,39 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-09-08",
+    "last_run": "2026-09-09",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/vitali87/code-graph-rag",
-      "canonical_url": "https://github.com/vitali87/code-graph-rag",
-      "event_date": "2026-08-09",
-      "date_seen": "2026-08-09"
-    },
-    {
-      "key": "github.com/google-deepmind/weathernext",
-      "canonical_url": "https://github.com/google-deepmind/weathernext",
-      "event_date": "2026-08-09",
-      "date_seen": "2026-08-09"
-    },
-    {
-      "key": "github.com/harveyai/harvey-labs",
-      "canonical_url": "https://github.com/harveyai/harvey-labs",
-      "event_date": "2026-08-09",
-      "date_seen": "2026-08-09"
-    },
-    {
-      "key": "github.com/zhulinsen/daily_stock_analysis",
-      "canonical_url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "event_date": "2026-08-09",
-      "date_seen": "2026-08-09"
-    },
-    {
-      "key": "github.com/comfy-org/comfyui",
-      "canonical_url": "https://github.com/Comfy-Org/ComfyUI",
-      "event_date": "2026-08-09",
-      "date_seen": "2026-08-09"
-    },
     {
       "key": "github.com/paperclipai/paperclip",
       "canonical_url": "https://github.com/paperclipai/paperclip",
@@ -867,6 +837,18 @@
       "canonical_url": "https://github.com/hithink-tech/financial-api",
       "event_date": "2026-09-08",
       "date_seen": "2026-09-08"
+    },
+    {
+      "key": "github.com/earthtojake/text-to-cad",
+      "canonical_url": "https://github.com/earthtojake/text-to-cad",
+      "event_date": "2026-09-09",
+      "date_seen": "2026-09-09"
+    },
+    {
+      "key": "github.com/vastsa/pi-desktop",
+      "canonical_url": "https://github.com/vastsa/PI-Desktop",
+      "event_date": "2026-09-09",
+      "date_seen": "2026-09-09"
     }
   ]
 }

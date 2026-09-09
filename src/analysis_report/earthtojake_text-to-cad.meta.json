@@ -1,0 +1,6 @@
+{
+  "title": "4.6 个月 15k stars：text-to-cad 把机械设计变成编码 Agent",
+  "digest": "text-to-cad 不训模型，给 SOTA LLM 加一层确定性工具壳，就能直接写出可制造的 STEP/URDF/SRDF，全程 CAD→DfAM→切片→打印一条龙。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

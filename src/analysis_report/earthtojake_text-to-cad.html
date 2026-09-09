@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/earthtojake/text-to-cad">https://github.com/earthtojake/text-to-cad</a></p></blockquote>
+<h2>一句话总结</h2>
+<p>text-to-cad 把机械设计从「GUI 拖拽」重定义为「代码生成」——不训练领域模型，而是给前沿 LLM 加一层薄薄的确定性工具壳，让它能直接写出<strong>可制造</strong>的 STEP / URDF / SRDF / SDF，并通过 DfAM 校验 → 切片 → 上机（Bambu Lab MQTT / SendCutSend）走完全链路。</p>
+<h2>值得关注的理由</h2>
+<ul><li><strong>AI Agent + 硬件交叉点的代表性开源项目</strong>：4.6 个月迭代 53 个 release，单月峰值 475 个 commit；MIT 开源 + 1.5k fork + Hacker News 主榜曝光，已经站上「AI 工程师做物理设计」的赛道入口。</li><li><strong>真正的端到端 pipeline，不是研究 demo</strong>：覆盖 CAD → CAE → CAM 全链路（11 个 agent skills，含 step-parts 12,000+ 标准件库、dfam-check 工艺校验、bambu-labs MQTT 直接打印、urdf/srdf/sdf 机器人描述）。</li><li><strong>协议级野心</strong>：「be the protocol, not the platform」——故意不上 SaaS，distribution 走 PyPI wheel + Skills CLI（兼容 Codex/Claude Code/Grok Build），赌的是 agent skill 生态的事实标准。</li></ul>
+<h2>项目展示</h2>
+<p><img src="https://raw.githubusercontent.com/earthtojake/text-to-cad/main/assets/text-to-cad-demo.gif" alt="CAD skill 生成与预览演示" style="max-width:100%;"/></p>
+<p style="text-align:center;color:#888;font-size:13px;"><em>核心能力演示：自然语言 → build123d Python → STEP/3MF → 实时预览</em></p>
+<p><img src="https://raw.githubusercontent.com/earthtojake/text-to-cad/main/assets/urdf-demo.gif" alt="URDF skill 输出在 CAD Viewer 中的演示" style="max-width:100%;"/></p>
+<p style="text-align:center;color:#888;font-size:13px;"><em>URDF skill：从同一几何源反推机器人描述，让 CAD 既是零件也是仿真体</em></p>
+<p><img src="https://raw.githubusercontent.com/earthtojake/text-to-cad/main/assets/srdf-moveit2-demo.gif" alt="SRDF MoveIt2 skill 逆运动学演示" style="max-width:100%;"/></p>
+<p style="text-align:center;color:#888;font-size:13px;"><em>SRDF skill + MoveIt2：把生成结果直接接入 ROS 运动学规划</em></p>
+<blockquote><p>官网 texttocad.dev 的 /blog 与 /demo 路径均 404，无补充媒体。</p></blockquote>
+<h2>项目画像</h2>
+<table style="border-collapse:collapse;width:100%;font-size:14px;margin:1em 0;"><thead><tr><th style="border:1px solid #ddd;padding:6px 8px;background:#f5f5f5;text-align:left;">维度</th><th style="border:1px solid #ddd;padding:6px 8px;background:#f5f5f5;text-align:left;">数据</th></tr></thead><tbody><tr><td style="border:1px solid #ddd;padding:6px 8px;">GitHub</td><td style="border:1px solid #ddd;padding:6px 8px;"><a href="https://github.com/earthtojake/text-to-cad">https://github.com/earthtojake/text-to-cad</a></td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;">Star / Fork</td><td style="border:1px solid #ddd;padding:6px 8px;">15,021 / 1,560</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;">代码行数</td><td style="border:1px solid #ddd;padding:6px 8px;">265,210（Python 50.9% / JavaScript 39.0% / JSON 7.1%）</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;">项目年龄</td><td style="border:1px solid #ddd;padding:6px 8px;">4.6 个月（首提交 2026-04-21）</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;">开发阶段</td><td style="border:1px solid #ddd;padding:6px 8px;">密集开发（近 30 天 377 个 commit）</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;">贡献模式</td><td style="border:1px solid #ddd;padding:6px 8px;">单人主导（earthtojake 占 86.1%，23 名贡献者）</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;">热度定位</td><td style="border:1px solid #ddd;padding:6px 8px;">大众热门（4.6 个月破 15k star，Hacker News 主榜）</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;">质量评级</td><td style="border:1px solid #ddd;padding:6px 8px;">代码优秀 / 文档优秀 / 测试充分</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;">License</td><td style="border:1px solid #ddd;padding:6px 8px;">MIT</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;">Release</td><td style="border:1px solid #ddd;padding:6px 8px;">v0.5.1（共 61 个 tag，53 个 release，语义化版本）</td></tr></tbody></table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>Jake Fitzgerald（earthtojake），独立开发者，derive.xyz 联合创始人（前 WhatsApp 基础设施 3 年）。11.6 年 GitHub 账号、415 粉丝、18 个公开仓库——text-to-cad 在 18 仓中排第 1，单仓独占其全部流量与 commit 节奏。2025 ICRA 演示机械臂遥操作后真正在「造东西」，把产品/工程能力用在「开源硬件 + AI Agent」交叉点，text-to-cad 即这一兴趣的具象化输出。</p>
+<h3>问题判断</h3>
+<p>作者不是从论文里提出问题，而是从机器人量产 / 抓取夹具迭代中<strong>自我 dogfooding</strong>：每一次硬件迭代都要重画一份 STEP，几何参数变了机器人 URDF 关节轴就要重算。论文里没人解的「CAD↔机器人描述的隐性耦合」才是真实痛点（Phase 1 提到的 #10 URDF Generation issue 就是这条暗线的首次浮面）。时机选择上：2026 年 SOTA LLM 已经「能写 Python」也「能跑 CLI」，缺的只是把它们接到几何内核与制造端的薄壳——这是工程问题，不是模型问题。</p>
+<h3>解法哲学</h3>
+<ul><li><strong>不训练领域模型</strong>：拒绝走「CAD-LLaMA / CAD-MLLM」fine-tune 老路——明确选择「让 SOTA LLM + 薄薄的确定性壳子直接出可制造 CAD」。</li><li><strong>代码即几何 + render-and-verify</strong>：每个模型是单文件 @step 函数，LLM 写 Python，cadgen 编译、决定拓扑、跑 build123d，渲染回去做反馈。「把机械设计重定义为编码问题」是项目根命题。</li><li><strong>Unix 哲学 + 一道门</strong>：所有输入都从 python model.py 唯一门进，所有输出都是内容寻址缓存里的 deterministic artifact；CLI 是「格式-动词」二维表的 mirror，没有第二份实现。</li><li><strong>显式不做的</strong>：（1） 不做几何内核替代（坚持 build123d/OCCT 黑盒）；（2） 不做 backwards compatibility（v0.4→v0.5 没有 shim）；（3） 不做自动 GC（让用户用 store gc）；（4） 不做 lock（用 publish rule + pins 做并发）。</li></ul>
+<h3>战略意图</h3>
+<p>text-to-cad 是 derive.xyz 机器人基础模型栈的<strong>几何底座</strong>：上面挂着机械臂遥操作、ICRA demo、可能的商业 SaaS（Genie 路线），下面挂着 DfAM/切片/上机。商业化意图清晰——step.parts 已经是 hosted API，docs 站是 texttocad.dev，AGENTS.md 把 release 工程化做得很重（双 workflow 流水线、canonical VERSION、wheel contents 检查）。但故意<strong>不上 SaaS</strong>：distribution 是 PyPI wheel + Skills CLI，作者赌的是 「be the protocol, not the platform」。</p>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<ol><li><strong>两段式内容寻址 store（artifact side objects/ + code side index/）</strong>：渲染路径只看 index/document → objects/，绝不读 record；records 完全可删。git + Bazel remote cache 的精神之子，但用「装饰器声明的 outputs 不入 store」这条额外法则把 source/output 边界封死。<strong>新颖度 5/5，实用性 5/5，可迁移性 5/5</strong>。</li><li><strong>装饰器即程序（@step）+ 函数签名即 CLI（mirror subset）</strong>：写一个 Python 函数就同时得到「作为构建入口的程序」+「作为 CLI 命令的 parser」。Mirror 子集用静态校验阻断漂移。<strong>新颖度 4/5，实用性 5/5，可迁移性 4/5</strong>。</li><li><strong>LazyCompound + slot-yield broker</strong>：把 DAG 并行度调度交给作者写的代码流（哪些操作 force 哪些 defer），pool 端的 broker 只做 FIFO slot + in-flight coalescing；父等子时主动 yield slot 保证 1 槽也能建多层装配。<strong>新颖度 4/5，实用性 4/5，可迁移性 4/5</strong>。</li><li><strong>Publish rule by closure hash + snapshot isolation by pin</strong>：无锁并发写同一对象——只要写者的「构建时 closure hash」与磁盘当前一致就 publish record；父体 pin 子体 tree 在 call site 而非 force site。<strong>新颖度 4/5，实用性 4/5，可迁移性 3/5</strong>。</li><li><strong>Semantic source hash + mtime-settled cache</strong>：ast.dump 不带位置信息做语义 hash；stat 三元组缓存；2s settling window 防文件系统 mtime 精度丢失。<strong>新颖度 3/5，实用性 5/5，可迁移性 5/5</strong>。</li><li><strong>PEP 562 lazy re-export</strong> cadgen.build123d：让重包装库既能 attribute-style 又能 isinstance，且首次访问前不付 ~2.5s OCP 导入。<strong>新颖度 2/5，实用性 5/5，可迁移性 5/5</strong>。</li><li><strong>「库 + 协议 + 工艺下游」一体机</strong>：业界少见的「从 CAD 自动生成 URDF/SRDF/SDF」+「DXF/2D 投影与 3D 同源」+「DfAM 测量 + 切片 + 上机」一条龙。<strong>新颖度 4/5，实用性 4/5，可迁移性 2/5</strong>。</li></ol>
+<h3>可复用的模式与技巧</h3>
+<ol><li><strong>Two-side content-addressed store with input-addressed records</strong> — 任何「源码编辑频繁、构建代价高、内容可去重」的工具。</li><li><strong>Function signature → CLI mirror (with subset enforcement)</strong> — 任何 Python 服务库 / CLI 工具集都能用此模式保证 flag 永远不漂。</li><li><strong>LazyCompound / Promise with placement-aware deferred</strong> — DAG 编译、生成式管线、异步生成器（promise 取消）。</li><li><strong>Publish rule by closure hash</strong> — cache write-through、协作编辑、CI 并发写。</li><li><strong>Slot-yield broker for nested DAG builds</strong> — 构建系统、job queue、parent-child DAG 调度。</li><li><strong>Semantic source hash + mtime-settled cache</strong> — ruff/mypy/pytest 缓存、esbuild/swc、任何依赖 Python 源码语义而非字节的工具。</li><li><strong>PEP 562 lazy re-export</strong> — 任何重封装 TensorFlow/PyTorch/triton/OpenCV 的库。</li><li><strong>Ship-alone law with markdown-isolation test</strong> — 包内 markdown 必须对「只 pip install」的人可读，禁止反引仓库路径。</li></ol>
+<h3>关键设计决策</h3>
+<ul><li><strong>决策</strong>：Document-only CLI / scripts-are-programs（law 7）</li><li><strong>问题</strong>：一份代码既被人写、又被 CLI 解析、又被渲染器读，三方串扰。</li><li><strong>方案</strong>：python model.py 走唯一源门，CLI 一律吃 .step/.stl/.dxf 文档——门路径只有一次「哈希文件字节 → index/document → objects」三跳。</li><li><strong>Trade-off</strong>：不能从命令行做 single-call 模型实验；用户必须建文件。</li><li><strong>可迁移性</strong>：高。</li><li><strong>决策</strong>：装饰器输入从不改变几何（law 16）+ 0 metadata in artifacts（law 4）</li><li><strong>方案</strong>：装饰器参数仅控制「文件落点、tolerance、kinematics 声明」；几何纯靠函数返回值。</li><li><strong>Trade-off</strong>：牺牲「作者一行声明就在装配里换位姿」的便利。</li><li><strong>可迁移性</strong>：中。</li></ul>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table style="border-collapse:collapse;width:100%;font-size:14px;margin:1em 0;"><thead><tr><th style="border:1px solid #ddd;padding:6px 8px;background:#f5f5f5;text-align:left;">维度</th><th style="border:1px solid #ddd;padding:6px 8px;background:#f5f5f5;text-align:left;">text-to-cad</th><th style="border:1px solid #ddd;padding:6px 8px;background:#f5f5f5;text-align:left;">Zoo Genie</th><th style="border:1px solid #ddd;padding:6px 8px;background:#f5f5f5;text-align:left;">openscad-gpt</th><th style="border:1px solid #ddd;padding:6px 8px;background:#f5f5f5;text-align:left;">cordyceps</th><th style="border:1px solid #ddd;padding:6px 8px;background:#f5f5f5;text-align:left;">JARVIS build123d</th><th style="border:1px solid #ddd;padding:6px 8px;background:#f5f5f5;text-align:left;">OpenSCAD-AI</th></tr></thead><tbody><tr><td style="border:1px solid #ddd;padding:6px 8px;">开源</td><td style="border:1px solid #ddd;padding:6px 8px;">MIT</td><td style="border:1px solid #ddd;padding:6px 8px;">闭源 SaaS</td><td style="border:1px solid #ddd;padding:6px 8px;">MIT（小型）</td><td style="border:1px solid #ddd;padding:6px 8px;">MIT（小型）</td><td style="border:1px solid #ddd;padding:6px 8px;">MIT（小型）</td><td style="border:1px solid #ddd;padding:6px 8px;">闭源</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;">几何内核</td><td style="border:1px solid #ddd;padding:6px 8px;">build123d/OCCT B-Rep</td><td style="border:1px solid #ddd;padding:6px 8px;">自研 ZSL 脚本</td><td style="border:1px solid #ddd;padding:6px 8px;">OpenSCAD CSG-only</td><td style="border:1px solid #ddd;padding:6px 8px;">OpenSCAD</td><td style="border:1px solid #ddd;padding:6px 8px;">build123d</td><td style="border:1px solid #ddd;padding:6px 8px;">OpenSCAD</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;">工艺下游</td><td style="border:1px solid #ddd;padding:6px 8px;">DfAM + Bambu + SendCutSend</td><td style="border:1px solid #ddd;padding:6px 8px;">企业 CAD/CAM</td><td style="border:1px solid #ddd;padding:6px 8px;">无</td><td style="border:1px solid #ddd;padding:6px 8px;">无</td><td style="border:1px solid #ddd;padding:6px 8px;">cad_inspect</td><td style="border:1px solid #ddd;padding:6px 8px;">无</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;">机器人描述</td><td style="border:1px solid #ddd;padding:6px 8px;">URDF/SRDF/SDF 一体</td><td style="border:1px solid #ddd;padding:6px 8px;">无</td><td style="border:1px solid #ddd;padding:6px 8px;">无</td><td style="border:1px solid #ddd;padding:6px 8px;">无</td><td style="border:1px solid #ddd;padding:6px 8px;">无</td><td style="border:1px solid #ddd;padding:6px 8px;">无</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;">Agent 生态</td><td style="border:1px solid #ddd;padding:6px 8px;">11 skills + Codex/Claude/Grok</td><td style="border:1px solid #ddd;padding:6px 8px;">自有 UI</td><td style="border:1px solid #ddd;padding:6px 8px;">单仓 demo</td><td style="border:1px solid #ddd;padding:6px 8px;">Claude + 截图</td><td style="border:1px solid #ddd;padding:6px 8px;">Claude OAuth</td><td style="border:1px solid #ddd;padding:6px 8px;">端到端模型</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;">输出可编辑</td><td style="border:1px solid #ddd;padding:6px 8px;">是（Python source）</td><td style="border:1px solid #ddd;padding:6px 8px;">是（ZSL）</td><td style="border:1px solid #ddd;padding:6px 8px;">是（OpenSCAD）</td><td style="border:1px solid #ddd;padding:6px 8px;">否</td><td style="border:1px solid #ddd;padding:6px 8px;">否</td><td style="border:1px solid #ddd;padding:6px 8px;">否</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;">错误率（LLM 翻车率）</td><td style="border:1px solid #ddd;padding:6px 8px;">中（依赖 build123d 复杂度）</td><td style="border:1px solid #ddd;padding:6px 8px;">未公开</td><td style="border:1px solid #ddd;padding:6px 8px;">最低（CSG 极简语法）</td><td style="border:1px solid #ddd;padding:6px 8px;">中</td><td style="border:1px solid #ddd;padding:6px 8px;">中</td><td style="border:1px solid #ddd;padding:6px 8px;">训练后较稳</td></tr></tbody></table>
+<h3>差异化护城河</h3>
+<ol><li><strong>内容寻址 + content-store 协议层</strong>——把 CAD 变成可复用 Git-LFS-like artifact 协议。</li><li><strong>工艺/机器人下游一条龙</strong>（DfAM、Bambu Lab MQTT、SendCutSend、URDF/SRDF/SDF）——「几何 → 物理输出」唯一闭环。</li><li><strong>多平台 Skills 兼容</strong>（Codex/Claude/Grok plugin + Skills CLI）——agent 生态入口。</li><li><strong>step.parts hosted API</strong>（12,000+ 标准件 STEP 库）——「几何复用」复利。</li></ol>
+<h3>竞争风险</h3>
+<ol><li><strong>Zoo Genie 降价 + 开源部分功能</strong> 能吃掉创客侧；text-to-cad 没有 UI 阻力但缺协作功能。</li><li><strong>Anthropic/OpenAI 直接做「ChatGPT-CAD」</strong> 会绕过协议层，但 build123d/OCCT 工艺合规仍是护城河。</li><li><strong>Windows 跨平台鲁棒性</strong>（Issue #322 字体解析 crash、#211 drive-letter 403）暴露工程债务。</li><li><strong>单人项目（86.1% 占比）</strong>，维护风险真实。</li></ol>
+<h3>生态定位</h3>
+<p>「LLM-driven CAD/CAE/CAM 协议层 + 开源 distribution」——既不是闭源 SaaS，也不是训练领域模型；用 Python+OCCT+B-Rep 把 LLM 当工程师助手，目标是 de-facto standard for 「agent makes physical things」。</p>
+<h2>套利机会分析</h2>
+<ul><li><strong>信息差</strong>：15k star + HN 主榜曝光，已不算被低估；增长空间在 ToB / 工业用户而非个人开发者圈层。</li><li><strong>技术借鉴</strong>（高价值）：</li><li>两段式内容寻址 store → 直接迁移到任何编译/构建/文档系统（DSL 编译器、配置 schema 验证、PDF 生成）。</li><li>函数签名 → CLI mirror → 任何 Python 服务库避免 argparse 漂移。</li><li>Slot-yield broker + LazyCompound → 任何 DAG 调度（编译器、ML 训练图、job queue）。</li><li>Semantic source hash + mtime cache → 任何 Python 缓存层（linter、type checker、formatter）。</li><li>PEP 562 lazy re-export → 重封装 torch/tensorflow/open3d 的库都该学。</li><li><strong>生态位</strong>：填补「LLM → 可制造 CAD → CAM/打印/仿真」端到端骨架的空白；学术模型（Text2CAD/CAD-LLaMA）只能停在 demo，text-to-cad 把「早晨写一段 prompt → 中午打印出来」做成真。</li><li><strong>趋势判断</strong>：在增长（5→6→7→8 月 commit 数 95→270→194→475），符合 「AI Agent + 硬件」 趋势；学术线（Text2CAD/CAD-LLaMA/CAD-MLLM）说明「用专门模型替代 agent 框架」仍是开放研究方向，6-12 个月可能洗牌。</li></ul>
+<h2>风险与不足</h2>
+<ul><li><strong>单人项目维护风险</strong>：86.1% 贡献占比，核心开发者流失或精力分散会让协议层停滞。</li><li><strong>Windows 鲁棒性债务</strong>：Issue #322（字体目录野文件击穿 import）、#211（drive-letter 403）、#274（350ms retry 覆盖不到 tail）说明严肃工业场景下 Windows 抖动未根治。</li><li><strong>评测指标脆弱</strong>：#94 揭示「benchmark outputs differ significantly from reference」——agent 写的几何在「看起来对」之外仍可能偏离 ground truth 数值，是该方向的根本痛点。</li><li><strong>学术 vs 协议的押注风险</strong>：作者明确赌 SOTA LLM + 薄壳协议胜出，若 Anthropic/OpenAI 直接做端到端 CAD 模型（如 GPT-CAD），协议层会被绕过。</li><li><strong>官方文档/博客缺位</strong>：texttocad.dev/blog 与 /demo 均 404，外部学习只能依赖 DeepWiki + 源码。</li><li><strong>提交命名规范不足</strong>：72% commits 归入 「Other」，结构性演化无法从 commit message 直接看到。</li></ul>
+<h2>行动建议</h2>
+<ul><li><strong>如果你要用它</strong>：选 text-to-cad 当<strong>创客/小团队原型</strong>或<strong>机器人研发管线</strong>；企业协作/参数化回放需求选 Zoo Genie；纯 OpenSCAD 学习场景选 openscad-gpt。</li><li><strong>如果你要学它</strong>：重点读</li><li>packages/cadgen/README.md（17 条 LAW）</li><li>packages/cadgen/STORE.md（11 章 store 协议完整规范）</li><li>packages/cadgen/src/cadgen/store/{gate,publish,lazy,objects,index}.py（核心 store 实现）</li><li>packages/cadgen/src/cadgen/daemon/{broker,executors}.py（并发与 slot 调度）</li><li>packages/cadgen/src/cadgen/_internal/cli_from_function.py（函数签名 → CLI mirror）</li><li>packages/cadgen/src/cadgen/_internal/source_hash.py（semantic hash + mtime cache）</li><li><strong>如果你要 fork 它</strong>：可改进的方向</li></ul>
+<ol><li>Windows 跨平台鲁棒性（字体解析故障隔离、drive-letter 路径处理、SMB retry 自适应）</li><li>评测指标体系（解决 #94 的 ground truth 偏差问题）</li><li>多语言 source hash（当前只对 Python 友好，对 Rust/CAD DSL 不友好）</li><li>协作/版本化层（Zoo Genie 的强项，text-to-cad 的空白）</li><li>提交命名规范（从 72% 「Other」 收敛到 Conventional Commits）</li></ol>
+<h3>知识入口</h3>
+<table style="border-collapse:collapse;width:100%;font-size:14px;margin:1em 0;"><thead><tr><th style="border:1px solid #ddd;padding:6px 8px;background:#f5f5f5;text-align:left;">资源</th><th style="border:1px solid #ddd;padding:6px 8px;background:#f5f5f5;text-align:left;">链接</th></tr></thead><tbody><tr><td style="border:1px solid #ddd;padding:6px 8px;">DeepWiki</td><td style="border:1px solid #ddd;padding:6px 8px;"><a href="https://deepwiki.com/earthtojake/text-to-cad">deepwiki.com/earthtojake/text-to-cad</a>（2026-08-14 索引，含架构图、子系统文档、术语表）</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;">Zread.ai</td><td style="border:1px solid #ddd;padding:6px 8px;">未收录</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;">关联论文</td><td style="border:1px solid #ddd;padding:6px 8px;"><a href="https://arxiv.org/abs/2412.06003">Text-to-CAD Generation Through Infusing Visual Feedback in LLMs</a> / <a href="https://arxiv.org/abs/2412.01429">CAD-MLLM</a> / <a href="https://arxiv.org/abs/2409.17106">Text2CAD</a> / <a href="https://arxiv.org/abs/2409.11928">CAD-LLaMA</a> / <a href="https://aclanthology.org/2025.findings-naacl.120/">From Words to Worlds (NAACL 2025)</a></td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;">在线 Demo</td><td style="border:1px solid #ddd;padding:6px 8px;">无（texttocad.dev/demo 404；本地 cad-viewer 需 localhost:4178）</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;">外部深度视角</td><td style="border:1px solid #ddd;padding:6px 8px;"><a href="https://sourcefeed.dev/a/text-to-cad-makes-mechanical-design-a-coding-agent-problem">Text-to-CAD makes mechanical design a coding-agent problem — SourceFeed</a> — 独立观点：「the harness converted a spatial domain into the two things coding agents already do well, writing Python and running CLIs」；核心贡献不是某个模型，而是 <strong>deterministic code-CAD + 强制视觉校验回路</strong></td></tr></tbody></table>
+</body>
+</html>

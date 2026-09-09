@@ -1,0 +1,6 @@
+{
+  "title": "viarotel-org escrcpy：把 scrcpy 包装成 Android 桌面生产力套件",
+  "digest": "escrcpy 用 Electron + Vue 3 把 scrcpy 包装成多窗口、多设备同控、AI 驱动的一体化桌面套件，36 个月拿下 11.5K stars；并从中抽出可复用的 IPC 与插件框架。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

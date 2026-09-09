@@ -843,6 +843,30 @@
       "canonical_url": "https://github.com/microsoft/markitdown",
       "event_date": "2026-09-08",
       "date_seen": "2026-09-08"
+    },
+    {
+      "key": "github.com/ayghri/i-have-adhd",
+      "canonical_url": "https://github.com/ayghri/i-have-adhd",
+      "event_date": "2026-09-08",
+      "date_seen": "2026-09-08"
+    },
+    {
+      "key": "github.com/browser-use/browser-use",
+      "canonical_url": "https://github.com/browser-use/browser-use",
+      "event_date": "2026-09-08",
+      "date_seen": "2026-09-08"
+    },
+    {
+      "key": "github.com/openai/plugins",
+      "canonical_url": "https://github.com/openai/plugins",
+      "event_date": "2026-09-08",
+      "date_seen": "2026-09-08"
+    },
+    {
+      "key": "github.com/hithink-tech/financial-api",
+      "canonical_url": "https://github.com/hithink-tech/financial-api",
+      "event_date": "2026-09-08",
+      "date_seen": "2026-09-08"
     }
   ]
 }

@@ -1053,6 +1053,10 @@ entries:
   hesreallyhim_awesome-claude-code:
   - ai-coding
   - workflow-automation
+  heygen-com_hyperframes:
+  - ai-agent
+  - ai-coding
+  - video-audio
   hkuds_ai-trader:
   - ai-agent
   - llm-framework
@@ -2329,6 +2333,11 @@ entries:
   - uncategorized
   tesseract-ocr_tesseract:
   - uncategorized
+  the-swarm-corporation_autohedge:
+  - ai-agent
+  - llm-inference
+  - education
+  - trading-finance
   thealgorithms_python:
   - uncategorized
   thecraighewitt_seomachine:
@@ -2501,6 +2510,10 @@ entries:
   - web-framework
   vercel_workflow:
   - ai-agent
+  - devtools
+  viarotel-org_escrcpy:
+  - ai-agent
+  - ai-coding
   - devtools
   virattt_ai-hedge-fund:
   - ai-agent

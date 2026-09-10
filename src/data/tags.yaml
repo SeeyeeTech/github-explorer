@@ -747,6 +747,10 @@ entries:
   - llm-training
   - model-foundation
   - protocol-spec
+  earthtojake_text-to-cad:
+  - ai-agent
+  - iot-hardware
+  - protocol-spec
   ebookfoundation_free-programming-books:
   - education
   edent_supertinyicons:

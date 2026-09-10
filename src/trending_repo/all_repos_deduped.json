@@ -3,11 +3,11 @@
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "language": "Shell",
-    "stars": 283815,
-    "forks": 25399,
+    "stars": 284477,
+    "forks": 25442,
     "description": "An agentic skills framework & software development methodology that works.",
-    "last_seen": "2026-09-09",
-    "trending_days": 84
+    "last_seen": "2026-09-10",
+    "trending_days": 85
   },
   {
     "name": "TapXWorld/ChinaTextbook",
@@ -840,6 +840,16 @@
     "trending_days": 11
   },
   {
+    "name": "cathrynlavery/diagram-design",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "language": "HTML",
+    "stars": 37418,
+    "forks": 2376,
+    "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+    "last_seen": "2026-09-10",
+    "trending_days": 10
+  },
+  {
     "name": "DietrichGebert/ponytail",
     "url": "https://github.com/dietrichgebert/ponytail",
     "language": "JavaScript",
@@ -1010,16 +1020,6 @@
     "trending_days": 9
   },
   {
-    "name": "cathrynlavery/diagram-design",
-    "url": "https://github.com/cathrynlavery/diagram-design",
-    "language": "HTML",
-    "stars": 36186,
-    "forks": 2278,
-    "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-    "last_seen": "2026-09-09",
-    "trending_days": 9
-  },
-  {
     "name": "colbymchenry/codegraph",
     "url": "https://github.com/colbymchenry/codegraph",
     "language": "TypeScript",
@@ -1077,6 +1077,16 @@
     "forks": 1944,
     "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
     "last_seen": "2026-08-04",
+    "trending_days": 9
+  },
+  {
+    "name": "freestylefly/awesome-gpt-image-2",
+    "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+    "language": "JavaScript",
+    "stars": 30691,
+    "forks": 2973,
+    "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
+    "last_seen": "2026-09-10",
     "trending_days": 9
   },
   {
@@ -1320,13 +1330,13 @@
     "trending_days": 8
   },
   {
-    "name": "freestylefly/awesome-gpt-image-2",
-    "url": "https://github.com/freestylefly/awesome-gpt-image-2",
-    "language": "JavaScript",
-    "stars": 29789,
-    "forks": 2867,
-    "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
-    "last_seen": "2026-09-09",
+    "name": "diegosouzapw/OmniRoute",
+    "url": "https://github.com/diegosouzapw/omniroute",
+    "language": "TypeScript",
+    "stars": 63929,
+    "forks": 8958,
+    "description": "Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 550+ contributors",
+    "last_seen": "2026-09-10",
     "trending_days": 8
   },
   {
@@ -1527,16 +1537,6 @@
     "forks": 7479,
     "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
     "last_seen": "2026-09-08",
-    "trending_days": 7
-  },
-  {
-    "name": "diegosouzapw/OmniRoute",
-    "url": "https://github.com/diegosouzapw/omniroute",
-    "language": "TypeScript",
-    "stars": 28109,
-    "forks": 3690,
-    "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
-    "last_seen": "2026-07-24",
     "trending_days": 7
   },
   {
@@ -1937,6 +1937,16 @@
     "forks": 1259,
     "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
     "last_seen": "2026-06-25",
+    "trending_days": 6
+  },
+  {
+    "name": "ayghri/i-have-adhd",
+    "url": "https://github.com/ayghri/i-have-adhd",
+    "language": "Python",
+    "stars": 37082,
+    "forks": 2159,
+    "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+    "last_seen": "2026-09-10",
     "trending_days": 6
   },
   {
@@ -2597,16 +2607,6 @@
     "forks": 2599,
     "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
     "last_seen": "2026-07-21",
-    "trending_days": 5
-  },
-  {
-    "name": "ayghri/i-have-adhd",
-    "url": "https://github.com/ayghri/i-have-adhd",
-    "language": "Python",
-    "stars": 33359,
-    "forks": 1970,
-    "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-    "last_seen": "2026-09-09",
     "trending_days": 5
   },
   {
@@ -3367,6 +3367,16 @@
     "forks": 1746,
     "description": "AI that sees your screen, listens to your conversations and tells you what to do",
     "last_seen": "2026-04-19",
+    "trending_days": 4
+  },
+  {
+    "name": "bilawalsidhu/gods-eye-view",
+    "url": "https://github.com/bilawalsidhu/gods-eye-view",
+    "language": "JavaScript",
+    "stars": 22778,
+    "forks": 4805,
+    "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+    "last_seen": "2026-09-10",
     "trending_days": 4
   },
   {
@@ -4180,6 +4190,16 @@
     "trending_days": 4
   },
   {
+    "name": "THU-MAIC/OpenMAIC",
+    "url": "https://github.com/thu-maic/openmaic",
+    "language": "TypeScript",
+    "stars": 35043,
+    "forks": 5607,
+    "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+    "last_seen": "2026-09-10",
+    "trending_days": 4
+  },
+  {
     "name": "thunderbird/thunderbolt",
     "url": "https://github.com/thunderbird/thunderbolt",
     "language": "TypeScript",
@@ -4390,6 +4410,16 @@
     "trending_days": 3
   },
   {
+    "name": "AlexsJones/llmfit",
+    "url": "https://github.com/alexsjones/llmfit",
+    "language": "Rust",
+    "stars": 35572,
+    "forks": 2259,
+    "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+    "last_seen": "2026-09-10",
+    "trending_days": 3
+  },
+  {
     "name": "alibaba/spring-ai-alibaba",
     "url": "https://github.com/alibaba/spring-ai-alibaba",
     "language": "Java",
@@ -4467,16 +4497,6 @@
     "forks": 696,
     "description": "The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one.",
     "last_seen": "2025-10-08",
-    "trending_days": 3
-  },
-  {
-    "name": "bilawalsidhu/gods-eye-view",
-    "url": "https://github.com/bilawalsidhu/gods-eye-view",
-    "language": "JavaScript",
-    "stars": 12094,
-    "forks": 2423,
-    "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-    "last_seen": "2026-08-29",
     "trending_days": 3
   },
   {
@@ -5720,16 +5740,6 @@
     "trending_days": 3
   },
   {
-    "name": "THU-MAIC/OpenMAIC",
-    "url": "https://github.com/thu-maic/openmaic",
-    "language": "TypeScript",
-    "stars": 29110,
-    "forks": 4942,
-    "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
-    "last_seen": "2026-09-01",
-    "trending_days": 3
-  },
-  {
     "name": "tldraw/tldraw",
     "url": "https://github.com/tldraw/tldraw",
     "language": "TypeScript",
@@ -6027,16 +6037,6 @@
     "forks": 2555,
     "description": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
     "last_seen": "2026-06-26",
-    "trending_days": 2
-  },
-  {
-    "name": "AlexsJones/llmfit",
-    "url": "https://github.com/alexsjones/llmfit",
-    "language": "Rust",
-    "stars": 31980,
-    "forks": 1985,
-    "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
-    "last_seen": "2026-08-17",
     "trending_days": 2
   },
   {
@@ -7420,6 +7420,16 @@
     "trending_days": 2
   },
   {
+    "name": "liquidslr/system-design-notes",
+    "url": "https://github.com/liquidslr/system-design-notes",
+    "language": "Unknown",
+    "stars": 18513,
+    "forks": 3461,
+    "description": "Notes of the book System Desgin Interview - An Insider's Guide",
+    "last_seen": "2026-09-10",
+    "trending_days": 2
+  },
+  {
     "name": "lllyasviel/Fooocus",
     "url": "https://github.com/lllyasviel/fooocus",
     "language": "Python",
@@ -8250,6 +8260,16 @@
     "trending_days": 2
   },
   {
+    "name": "Tencent/teamai-cli",
+    "url": "https://github.com/tencent/teamai-cli",
+    "language": "TypeScript",
+    "stars": 3596,
+    "forks": 228,
+    "description": "Make Every Team AI Native",
+    "last_seen": "2026-09-10",
+    "trending_days": 2
+  },
+  {
     "name": "teslamate-org/teslamate",
     "url": "https://github.com/teslamate-org/teslamate",
     "language": "Elixir",
@@ -8410,6 +8430,16 @@
     "trending_days": 2
   },
   {
+    "name": "vastsa/PI-Desktop",
+    "url": "https://github.com/vastsa/pi-desktop",
+    "language": "TypeScript",
+    "stars": 2136,
+    "forks": 182,
+    "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+    "last_seen": "2026-09-10",
+    "trending_days": 2
+  },
+  {
     "name": "vectorize-io/hindsight",
     "url": "https://github.com/vectorize-io/hindsight",
     "language": "Python",
@@ -8417,6 +8447,16 @@
     "forks": 240,
     "description": "Hindsight: Agent Memory That Learns",
     "last_seen": "2026-03-13",
+    "trending_days": 2
+  },
+  {
+    "name": "vercel-labs/skills",
+    "url": "https://github.com/vercel-labs/skills",
+    "language": "TypeScript",
+    "stars": 30959,
+    "forks": 2647,
+    "description": "The open agent skills tool - npx skills",
+    "last_seen": "2026-09-10",
     "trending_days": 2
   },
   {
@@ -8800,6 +8840,16 @@
     "trending_days": 1
   },
   {
+    "name": "alsk1992/CloddsBot",
+    "url": "https://github.com/alsk1992/cloddsbot",
+    "language": "TypeScript",
+    "stars": 1407,
+    "forks": 245,
+    "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
+    "last_seen": "2026-09-10",
+    "trending_days": 1
+  },
+  {
     "name": "amantus-ai/vibetunnel",
     "url": "https://github.com/amantus-ai/vibetunnel",
     "language": "TypeScript",
@@ -8917,6 +8967,16 @@
     "forks": 1452,
     "description": "A collection of projects showcasing RAG, agents, workflows, and other AI use cases",
     "last_seen": "2026-05-05",
+    "trending_days": 1
+  },
+  {
+    "name": "armory3d/armorpaint",
+    "url": "https://github.com/armory3d/armorpaint",
+    "language": "C",
+    "stars": 4281,
+    "forks": 511,
+    "description": "Graphics Creation Tools",
+    "last_seen": "2026-09-10",
     "trending_days": 1
   },
   {
@@ -10490,6 +10550,16 @@
     "trending_days": 1
   },
   {
+    "name": "JustVugg/colibri",
+    "url": "https://github.com/justvugg/colibri",
+    "language": "C",
+    "stars": 27325,
+    "forks": 2999,
+    "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+    "last_seen": "2026-09-10",
+    "trending_days": 1
+  },
+  {
     "name": "k4yt3x/video2x",
     "url": "https://github.com/k4yt3x/video2x",
     "language": "C++",
@@ -10677,16 +10747,6 @@
     "forks": 597,
     "description": "⚡ Lingo.dev - open-source, AI-powered i18n toolkit for instant localization with LLMs. Bring your own LLM or use Lingo.dev Localization Engine. Join discord:",
     "last_seen": "2025-11-01",
-    "trending_days": 1
-  },
-  {
-    "name": "liquidslr/system-design-notes",
-    "url": "https://github.com/liquidslr/system-design-notes",
-    "language": "Unknown",
-    "stars": 17686,
-    "forks": 3364,
-    "description": "Notes of the book System Desgin Interview - An Insider's Guide",
-    "last_seen": "2026-09-09",
     "trending_days": 1
   },
   {
@@ -11127,6 +11187,16 @@
     "forks": 1728,
     "description": "F´ - A flight software and embedded systems framework",
     "last_seen": "2026-07-11",
+    "trending_days": 1
+  },
+  {
+    "name": "nashsu/llm_wiki",
+    "url": "https://github.com/nashsu/llm_wiki",
+    "language": "TypeScript",
+    "stars": 17892,
+    "forks": 2093,
+    "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+    "last_seen": "2026-09-10",
     "trending_days": 1
   },
   {
@@ -12150,16 +12220,6 @@
     "trending_days": 1
   },
   {
-    "name": "Tencent/teamai-cli",
-    "url": "https://github.com/tencent/teamai-cli",
-    "language": "TypeScript",
-    "stars": 2769,
-    "forks": 176,
-    "description": "Make Every Team AI Native",
-    "last_seen": "2026-09-09",
-    "trending_days": 1
-  },
-  {
     "name": "tensorflow/tensorflow",
     "url": "https://github.com/tensorflow/tensorflow",
     "language": "C++",
@@ -12370,16 +12430,6 @@
     "trending_days": 1
   },
   {
-    "name": "vastsa/PI-Desktop",
-    "url": "https://github.com/vastsa/pi-desktop",
-    "language": "TypeScript",
-    "stars": 1501,
-    "forks": 147,
-    "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
-    "last_seen": "2026-09-09",
-    "trending_days": 1
-  },
-  {
     "name": "ventoy/Ventoy",
     "url": "https://github.com/ventoy/ventoy",
     "language": "C",
@@ -12407,16 +12457,6 @@
     "forks": 379,
     "description": "Replace port numbers with stable, named local URLs. For humans and agents.",
     "last_seen": "2026-09-02",
-    "trending_days": 1
-  },
-  {
-    "name": "vercel-labs/skills",
-    "url": "https://github.com/vercel-labs/skills",
-    "language": "TypeScript",
-    "stars": 15183,
-    "forks": 1256,
-    "description": "The open agent skills tool - npx skills",
-    "last_seen": "2026-04-22",
     "trending_days": 1
   },
   {

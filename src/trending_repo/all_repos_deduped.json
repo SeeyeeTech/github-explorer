@@ -3,11 +3,11 @@
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "language": "Shell",
-    "stars": 284477,
-    "forks": 25442,
+    "stars": 285158,
+    "forks": 25501,
     "description": "An agentic skills framework & software development methodology that works.",
-    "last_seen": "2026-09-10",
-    "trending_days": 85
+    "last_seen": "2026-09-11",
+    "trending_days": 86
   },
   {
     "name": "TapXWorld/ChinaTextbook",
@@ -780,6 +780,16 @@
     "trending_days": 11
   },
   {
+    "name": "pascalorg/editor",
+    "url": "https://github.com/pascalorg/editor",
+    "language": "TypeScript",
+    "stars": 23381,
+    "forks": 2926,
+    "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
+    "last_seen": "2026-09-11",
+    "trending_days": 11
+  },
+  {
     "name": "patchy631/ai-engineering-hub",
     "url": "https://github.com/patchy631/ai-engineering-hub",
     "language": "JupyterNotebook",
@@ -957,16 +967,6 @@
     "forks": 8619,
     "description": "The open-source CapCut alternative",
     "last_seen": "2026-08-27",
-    "trending_days": 10
-  },
-  {
-    "name": "pascalorg/editor",
-    "url": "https://github.com/pascalorg/editor",
-    "language": "TypeScript",
-    "stars": 22746,
-    "forks": 2887,
-    "description": "Create and share 3D architectural projects.",
-    "last_seen": "2026-09-09",
     "trending_days": 10
   },
   {
@@ -1510,6 +1510,16 @@
     "trending_days": 8
   },
   {
+    "name": "ayghri/i-have-adhd",
+    "url": "https://github.com/ayghri/i-have-adhd",
+    "language": "Python",
+    "stars": 40418,
+    "forks": 2307,
+    "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+    "last_seen": "2026-09-11",
+    "trending_days": 7
+  },
+  {
     "name": "browser-use/video-use",
     "url": "https://github.com/browser-use/video-use",
     "language": "Python",
@@ -1607,6 +1617,16 @@
     "forks": 17354,
     "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
     "last_seen": "2026-06-27",
+    "trending_days": 7
+  },
+  {
+    "name": "github/spec-kit",
+    "url": "https://github.com/github/spec-kit",
+    "language": "Python",
+    "stars": 135593,
+    "forks": 12190,
+    "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+    "last_seen": "2026-09-11",
     "trending_days": 7
   },
   {
@@ -1940,16 +1960,6 @@
     "trending_days": 6
   },
   {
-    "name": "ayghri/i-have-adhd",
-    "url": "https://github.com/ayghri/i-have-adhd",
-    "language": "Python",
-    "stars": 37082,
-    "forks": 2159,
-    "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-    "last_seen": "2026-09-10",
-    "trending_days": 6
-  },
-  {
     "name": "blakeblackshear/frigate",
     "url": "https://github.com/blakeblackshear/frigate",
     "language": "TypeScript",
@@ -2107,16 +2117,6 @@
     "forks": 3037,
     "description": "A modern formatting library",
     "last_seen": "2026-09-05",
-    "trending_days": 6
-  },
-  {
-    "name": "github/spec-kit",
-    "url": "https://github.com/github/spec-kit",
-    "language": "Python",
-    "stars": 128815,
-    "forks": 11519,
-    "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-    "last_seen": "2026-08-15",
     "trending_days": 6
   },
   {
@@ -2607,6 +2607,16 @@
     "forks": 2599,
     "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
     "last_seen": "2026-07-21",
+    "trending_days": 5
+  },
+  {
+    "name": "bilawalsidhu/gods-eye-view",
+    "url": "https://github.com/bilawalsidhu/gods-eye-view",
+    "language": "JavaScript",
+    "stars": 26200,
+    "forks": 5362,
+    "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+    "last_seen": "2026-09-11",
     "trending_days": 5
   },
   {
@@ -3367,16 +3377,6 @@
     "forks": 1746,
     "description": "AI that sees your screen, listens to your conversations and tells you what to do",
     "last_seen": "2026-04-19",
-    "trending_days": 4
-  },
-  {
-    "name": "bilawalsidhu/gods-eye-view",
-    "url": "https://github.com/bilawalsidhu/gods-eye-view",
-    "language": "JavaScript",
-    "stars": 22778,
-    "forks": 4805,
-    "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-    "last_seen": "2026-09-10",
     "trending_days": 4
   },
   {
@@ -5820,6 +5820,16 @@
     "trending_days": 3
   },
   {
+    "name": "vastsa/PI-Desktop",
+    "url": "https://github.com/vastsa/pi-desktop",
+    "language": "TypeScript",
+    "stars": 2647,
+    "forks": 213,
+    "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+    "last_seen": "2026-09-11",
+    "trending_days": 3
+  },
+  {
     "name": "vendure-ecommerce/vendure",
     "url": "https://github.com/vendure-ecommerce/vendure",
     "language": "TypeScript",
@@ -6070,6 +6080,16 @@
     "trending_days": 2
   },
   {
+    "name": "alsk1992/CloddsBot",
+    "url": "https://github.com/alsk1992/cloddsbot",
+    "language": "TypeScript",
+    "stars": 1996,
+    "forks": 274,
+    "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
+    "last_seen": "2026-09-11",
+    "trending_days": 2
+  },
+  {
     "name": "amir1376/ab-download-manager",
     "url": "https://github.com/amir1376/ab-download-manager",
     "language": "Kotlin",
@@ -6167,6 +6187,16 @@
     "forks": 577,
     "description": "AI-Powered Dark Web OSINT Tool",
     "last_seen": "2025-12-26",
+    "trending_days": 2
+  },
+  {
+    "name": "armory3d/armorpaint",
+    "url": "https://github.com/armory3d/armorpaint",
+    "language": "C",
+    "stars": 4633,
+    "forks": 526,
+    "description": "Graphics Creation Tools",
+    "last_seen": "2026-09-11",
     "trending_days": 2
   },
   {
@@ -7700,6 +7730,16 @@
     "trending_days": 2
   },
   {
+    "name": "nashsu/llm_wiki",
+    "url": "https://github.com/nashsu/llm_wiki",
+    "language": "TypeScript",
+    "stars": 18532,
+    "forks": 2119,
+    "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+    "last_seen": "2026-09-11",
+    "trending_days": 2
+  },
+  {
     "name": "NawfalMotii79/PLFM_RADAR",
     "url": "https://github.com/nawfalmotii79/plfm_radar",
     "language": "PLSQL",
@@ -8430,16 +8470,6 @@
     "trending_days": 2
   },
   {
-    "name": "vastsa/PI-Desktop",
-    "url": "https://github.com/vastsa/pi-desktop",
-    "language": "TypeScript",
-    "stars": 2136,
-    "forks": 182,
-    "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
-    "last_seen": "2026-09-10",
-    "trending_days": 2
-  },
-  {
     "name": "vectorize-io/hindsight",
     "url": "https://github.com/vectorize-io/hindsight",
     "language": "Python",
@@ -8840,13 +8870,13 @@
     "trending_days": 1
   },
   {
-    "name": "alsk1992/CloddsBot",
-    "url": "https://github.com/alsk1992/cloddsbot",
-    "language": "TypeScript",
-    "stars": 1407,
-    "forks": 245,
-    "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
-    "last_seen": "2026-09-10",
+    "name": "alphaXiv/OpenResearch",
+    "url": "https://github.com/alphaxiv/openresearch",
+    "language": "Rust",
+    "stars": 1109,
+    "forks": 79,
+    "description": "Run parallel research agents with any model",
+    "last_seen": "2026-09-11",
     "trending_days": 1
   },
   {
@@ -8967,16 +8997,6 @@
     "forks": 1452,
     "description": "A collection of projects showcasing RAG, agents, workflows, and other AI use cases",
     "last_seen": "2026-05-05",
-    "trending_days": 1
-  },
-  {
-    "name": "armory3d/armorpaint",
-    "url": "https://github.com/armory3d/armorpaint",
-    "language": "C",
-    "stars": 4281,
-    "forks": 511,
-    "description": "Graphics Creation Tools",
-    "last_seen": "2026-09-10",
     "trending_days": 1
   },
   {
@@ -10490,6 +10510,16 @@
     "trending_days": 1
   },
   {
+    "name": "jihe520/MathModelAgent",
+    "url": "https://github.com/jihe520/mathmodelagent",
+    "language": "Python",
+    "stars": 4777,
+    "forks": 386,
+    "description": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
+    "last_seen": "2026-09-11",
+    "trending_days": 1
+  },
+  {
     "name": "joeseesun/qiaomu-anything-to-notebooklm",
     "url": "https://github.com/joeseesun/qiaomu-anything-to-notebooklm",
     "language": "Python",
@@ -10507,6 +10537,16 @@
     "forks": 1289,
     "description": "提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。",
     "last_seen": "2025-12-09",
+    "trending_days": 1
+  },
+  {
+    "name": "jordan-gibbs/hyperresearch",
+    "url": "https://github.com/jordan-gibbs/hyperresearch",
+    "language": "Python",
+    "stars": 2309,
+    "forks": 245,
+    "description": "Agent-driven research knowledge base. Agents collect, search, and synthesize web research into a persistent, searchable wiki.",
+    "last_seen": "2026-09-11",
     "trending_days": 1
   },
   {
@@ -10890,6 +10930,16 @@
     "trending_days": 1
   },
   {
+    "name": "melgarafael/DeskcommCRM",
+    "url": "https://github.com/melgarafael/deskcommcrm",
+    "language": "TypeScript",
+    "stars": 1152,
+    "forks": 469,
+    "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+    "last_seen": "2026-09-11",
+    "trending_days": 1
+  },
+  {
     "name": "mem0ai/mem0",
     "url": "https://github.com/mem0ai/mem0",
     "language": "Python",
@@ -11160,6 +11210,16 @@
     "trending_days": 1
   },
   {
+    "name": "nab138/iloader",
+    "url": "https://github.com/nab138/iloader",
+    "language": "TypeScript",
+    "stars": 2817,
+    "forks": 197,
+    "description": "User friendly sideloader",
+    "last_seen": "2026-09-11",
+    "trending_days": 1
+  },
+  {
     "name": "nanobrowser/nanobrowser",
     "url": "https://github.com/nanobrowser/nanobrowser",
     "language": "TypeScript",
@@ -11187,16 +11247,6 @@
     "forks": 1728,
     "description": "F´ - A flight software and embedded systems framework",
     "last_seen": "2026-07-11",
-    "trending_days": 1
-  },
-  {
-    "name": "nashsu/llm_wiki",
-    "url": "https://github.com/nashsu/llm_wiki",
-    "language": "TypeScript",
-    "stars": 17892,
-    "forks": 2093,
-    "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
-    "last_seen": "2026-09-10",
     "trending_days": 1
   },
   {
@@ -11547,6 +11597,16 @@
     "forks": 2104,
     "description": "Persistent file-based planning for AI coding agents and long-running agentic tasks. Crash-proof markdown plans that survive context loss and /clear, plus a deterministic completion gate and multi-agent shared state on disk. Manus-style. Works with Claude Code, Codex CLI, Cursor, Kiro, OpenCode and 60+ agents via the SKILL.md standard.",
     "last_seen": "2026-07-05",
+    "trending_days": 1
+  },
+  {
+    "name": "p1neappleXpress/OpenFlux",
+    "url": "https://github.com/p1neapplexpress/openflux",
+    "language": "Go",
+    "stars": 976,
+    "forks": 81,
+    "description": "Network stack research tool. TCP tunnel with pluggable transports.",
+    "last_seen": "2026-09-11",
     "trending_days": 1
   },
   {
@@ -12107,6 +12167,16 @@
     "forks": 1239,
     "description": "A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书",
     "last_seen": "2026-09-02",
+    "trending_days": 1
+  },
+  {
+    "name": "Sonarr/Sonarr",
+    "url": "https://github.com/sonarr/sonarr",
+    "language": "C#",
+    "stars": 15642,
+    "forks": 1944,
+    "description": "Smart PVR for newsgroup and bittorrent users.",
+    "last_seen": "2026-09-11",
     "trending_days": 1
   },
   {

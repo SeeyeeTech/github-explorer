@@ -121,6 +121,10 @@ entries:
   - ai-coding
   - rag-search
   - database
+  alexsjones_llmfit:
+  - llm-inference
+  - model-foundation
+  - iot-hardware
   alexzhang13_rlm:
   - ai-agent
   - model-foundation
@@ -1276,6 +1280,10 @@ entries:
   - llm-inference
   juspay_hyperswitch:
   - devtools
+  justvugg_colibri:
+  - llm-inference
+  - model-foundation
+  - iot-hardware
   k-dense-ai_claude-scientific-skills:
   - ai-agent
   - ai-coding

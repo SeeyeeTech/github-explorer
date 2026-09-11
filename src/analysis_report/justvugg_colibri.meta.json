@@ -1,0 +1,6 @@
+{
+  "title": "GitHub推荐：2.3 月 27K stars：Colibrì 用纯 C 把 744B MoE 跑在消费级硬件",
+  "digest": "colibri 是纯 C / 零运行时依赖的 MoE 推理引擎：把 VRAM/RAM/NVMe 当权重驻留层级，用路由热度驱动 LRU prefetch，让 744B–2.8T 模型在 32GB 内存上 token-exact 跑通。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

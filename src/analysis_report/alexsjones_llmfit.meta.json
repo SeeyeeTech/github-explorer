@@ -1,0 +1,6 @@
+{
+  "title": "GitHub推荐：6 个月 35.8K stars：llmfit 用 51 万行 JSON 重写本地 LLM 选型",
+  "digest": "llmfit 用 Rust 把「本地硬件 × LLM 模型」匹配做成数学可解的判定+排序：MoE 主动参数换算、6 端共享主路径、`bench --share` GitHub PR 校准回路形成数据飞轮。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

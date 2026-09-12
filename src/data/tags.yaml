@@ -2493,6 +2493,11 @@ entries:
   vaibhavs10_insanely-fast-whisper:
   - devtools
   - video-audio
+  vastsa_pi-desktop:
+  - ai-agent
+  - ai-coding
+  - database
+  - protocol-spec
   vectifyai_pageindex:
   - llm-framework
   - rag-search

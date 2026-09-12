@@ -103,11 +103,11 @@
     "name": "Shubhamsaboo/awesome-llm-apps",
     "url": "https://github.com/shubhamsaboo/awesome-llm-apps",
     "language": "Python",
-    "stars": 134484,
-    "forks": 19767,
+    "stars": 137401,
+    "forks": 20220,
     "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-    "last_seen": "2026-08-26",
-    "trending_days": 26
+    "last_seen": "2026-09-12",
+    "trending_days": 27
   },
   {
     "name": "yeongpin/cursor-free-vip",
@@ -470,6 +470,16 @@
     "trending_days": 14
   },
   {
+    "name": "asgeirtj/system_prompts_leaks",
+    "url": "https://github.com/asgeirtj/system_prompts_leaks",
+    "language": "JavaScript",
+    "stars": 65075,
+    "forks": 10694,
+    "description": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
+    "last_seen": "2026-09-12",
+    "trending_days": 14
+  },
+  {
     "name": "basecamp/omarchy",
     "url": "https://github.com/basecamp/omarchy",
     "language": "Shell",
@@ -540,16 +550,6 @@
     "trending_days": 13
   },
   {
-    "name": "asgeirtj/system_prompts_leaks",
-    "url": "https://github.com/asgeirtj/system_prompts_leaks",
-    "language": "JavaScript",
-    "stars": 54784,
-    "forks": 8916,
-    "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
-    "last_seen": "2026-07-09",
-    "trending_days": 13
-  },
-  {
     "name": "calesthio/OpenMontage",
     "url": "https://github.com/calesthio/openmontage",
     "language": "Python",
@@ -607,6 +607,16 @@
     "forks": 3373,
     "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
     "last_seen": "2026-07-12",
+    "trending_days": 12
+  },
+  {
+    "name": "Flowseal/zapret-discord-youtube",
+    "url": "https://github.com/flowseal/zapret-discord-youtube",
+    "language": "Batchfile",
+    "stars": 33173,
+    "forks": 2537,
+    "description": "None",
+    "last_seen": "2026-09-12",
     "trending_days": 12
   },
   {
@@ -717,16 +727,6 @@
     "forks": 5771,
     "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
     "last_seen": "2026-05-12",
-    "trending_days": 11
-  },
-  {
-    "name": "Flowseal/zapret-discord-youtube",
-    "url": "https://github.com/flowseal/zapret-discord-youtube",
-    "language": "Batchfile",
-    "stars": 30963,
-    "forks": 2374,
-    "description": "None",
-    "last_seen": "2026-07-19",
     "trending_days": 11
   },
   {
@@ -1900,6 +1900,16 @@
     "trending_days": 7
   },
   {
+    "name": "vxcontrol/pentagi",
+    "url": "https://github.com/vxcontrol/pentagi",
+    "language": "Go",
+    "stars": 23144,
+    "forks": 3044,
+    "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+    "last_seen": "2026-09-12",
+    "trending_days": 7
+  },
+  {
     "name": "wavetermdev/waveterm",
     "url": "https://github.com/wavetermdev/waveterm",
     "language": "Go",
@@ -1957,6 +1967,16 @@
     "forks": 1259,
     "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
     "last_seen": "2026-06-25",
+    "trending_days": 6
+  },
+  {
+    "name": "bilawalsidhu/gods-eye-view",
+    "url": "https://github.com/bilawalsidhu/gods-eye-view",
+    "language": "JavaScript",
+    "stars": 28476,
+    "forks": 5799,
+    "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+    "last_seen": "2026-09-12",
     "trending_days": 6
   },
   {
@@ -2450,16 +2470,6 @@
     "trending_days": 6
   },
   {
-    "name": "vxcontrol/pentagi",
-    "url": "https://github.com/vxcontrol/pentagi",
-    "language": "Go",
-    "stars": 19121,
-    "forks": 2605,
-    "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-    "last_seen": "2026-07-09",
-    "trending_days": 6
-  },
-  {
     "name": "xbtlin/ai-berkshire",
     "url": "https://github.com/xbtlin/ai-berkshire",
     "language": "Python",
@@ -2607,16 +2617,6 @@
     "forks": 2599,
     "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
     "last_seen": "2026-07-21",
-    "trending_days": 5
-  },
-  {
-    "name": "bilawalsidhu/gods-eye-view",
-    "url": "https://github.com/bilawalsidhu/gods-eye-view",
-    "language": "JavaScript",
-    "stars": 26200,
-    "forks": 5362,
-    "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-    "last_seen": "2026-09-11",
     "trending_days": 5
   },
   {
@@ -4430,6 +4430,16 @@
     "trending_days": 3
   },
   {
+    "name": "alsk1992/CloddsBot",
+    "url": "https://github.com/alsk1992/cloddsbot",
+    "language": "TypeScript",
+    "stars": 2338,
+    "forks": 300,
+    "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
+    "last_seen": "2026-09-12",
+    "trending_days": 3
+  },
+  {
     "name": "Anil-matcha/Open-Generative-AI",
     "url": "https://github.com/anil-matcha/open-generative-ai",
     "language": "JavaScript",
@@ -4447,6 +4457,16 @@
     "forks": 246,
     "description": "None",
     "last_seen": "2025-10-02",
+    "trending_days": 3
+  },
+  {
+    "name": "armory3d/armorpaint",
+    "url": "https://github.com/armory3d/armorpaint",
+    "language": "C",
+    "stars": 4838,
+    "forks": 539,
+    "description": "Graphics Creation Tools",
+    "last_seen": "2026-09-12",
     "trending_days": 3
   },
   {
@@ -6080,16 +6100,6 @@
     "trending_days": 2
   },
   {
-    "name": "alsk1992/CloddsBot",
-    "url": "https://github.com/alsk1992/cloddsbot",
-    "language": "TypeScript",
-    "stars": 1996,
-    "forks": 274,
-    "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
-    "last_seen": "2026-09-11",
-    "trending_days": 2
-  },
-  {
     "name": "amir1376/ab-download-manager",
     "url": "https://github.com/amir1376/ab-download-manager",
     "language": "Kotlin",
@@ -6187,16 +6197,6 @@
     "forks": 577,
     "description": "AI-Powered Dark Web OSINT Tool",
     "last_seen": "2025-12-26",
-    "trending_days": 2
-  },
-  {
-    "name": "armory3d/armorpaint",
-    "url": "https://github.com/armory3d/armorpaint",
-    "language": "C",
-    "stars": 4633,
-    "forks": 526,
-    "description": "Graphics Creation Tools",
-    "last_seen": "2026-09-11",
     "trending_days": 2
   },
   {
@@ -7190,6 +7190,16 @@
     "trending_days": 2
   },
   {
+    "name": "jihe520/MathModelAgent",
+    "url": "https://github.com/jihe520/mathmodelagent",
+    "language": "Python",
+    "stars": 5038,
+    "forks": 398,
+    "description": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
+    "last_seen": "2026-09-12",
+    "trending_days": 2
+  },
+  {
     "name": "jo-inc/camofox-browser",
     "url": "https://github.com/jo-inc/camofox-browser",
     "language": "JavaScript",
@@ -7570,6 +7580,16 @@
     "trending_days": 2
   },
   {
+    "name": "melgarafael/DeskcommCRM",
+    "url": "https://github.com/melgarafael/deskcommcrm",
+    "language": "TypeScript",
+    "stars": 1608,
+    "forks": 526,
+    "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+    "last_seen": "2026-09-12",
+    "trending_days": 2
+  },
+  {
     "name": "MemoriLabs/Memori",
     "url": "https://github.com/memorilabs/memori",
     "language": "Python",
@@ -7727,6 +7747,16 @@
     "forks": 1522,
     "description": "Blazor Component Library based on Material Design principles with an emphasis on ease of use and extensibility",
     "last_seen": "2025-10-04",
+    "trending_days": 2
+  },
+  {
+    "name": "nab138/iloader",
+    "url": "https://github.com/nab138/iloader",
+    "language": "TypeScript",
+    "stars": 3005,
+    "forks": 207,
+    "description": "User friendly sideloader",
+    "last_seen": "2026-09-12",
     "trending_days": 2
   },
   {
@@ -7970,6 +8000,16 @@
     "trending_days": 2
   },
   {
+    "name": "p1neappleXpress/OpenFlux",
+    "url": "https://github.com/p1neapplexpress/openflux",
+    "language": "Go",
+    "stars": 1310,
+    "forks": 99,
+    "description": "Network stack research tool. TCP tunnel with pluggable transports.",
+    "last_seen": "2026-09-12",
+    "trending_days": 2
+  },
+  {
     "name": "par274/sharpemu",
     "url": "https://github.com/par274/sharpemu",
     "language": "C#",
@@ -8157,6 +8197,16 @@
     "forks": 1615,
     "description": "Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.",
     "last_seen": "2026-04-13",
+    "trending_days": 2
+  },
+  {
+    "name": "Sonarr/Sonarr",
+    "url": "https://github.com/sonarr/sonarr",
+    "language": "C#",
+    "stars": 15842,
+    "forks": 1950,
+    "description": "Smart PVR for newsgroup and bittorrent users.",
+    "last_seen": "2026-09-12",
     "trending_days": 2
   },
   {
@@ -10510,16 +10560,6 @@
     "trending_days": 1
   },
   {
-    "name": "jihe520/MathModelAgent",
-    "url": "https://github.com/jihe520/mathmodelagent",
-    "language": "Python",
-    "stars": 4777,
-    "forks": 386,
-    "description": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
-    "last_seen": "2026-09-11",
-    "trending_days": 1
-  },
-  {
     "name": "joeseesun/qiaomu-anything-to-notebooklm",
     "url": "https://github.com/joeseesun/qiaomu-anything-to-notebooklm",
     "language": "Python",
@@ -10900,6 +10940,16 @@
     "trending_days": 1
   },
   {
+    "name": "max-sixty/worktrunk",
+    "url": "https://github.com/max-sixty/worktrunk",
+    "language": "Rust",
+    "stars": 7049,
+    "forks": 251,
+    "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+    "last_seen": "2026-09-12",
+    "trending_days": 1
+  },
+  {
     "name": "maxritter/claude-pilot",
     "url": "https://github.com/maxritter/claude-pilot",
     "language": "TypeScript",
@@ -10927,16 +10977,6 @@
     "forks": 4442,
     "description": "The world's most flexible commerce platform.",
     "last_seen": "2026-05-17",
-    "trending_days": 1
-  },
-  {
-    "name": "melgarafael/DeskcommCRM",
-    "url": "https://github.com/melgarafael/deskcommcrm",
-    "language": "TypeScript",
-    "stars": 1152,
-    "forks": 469,
-    "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
-    "last_seen": "2026-09-11",
     "trending_days": 1
   },
   {
@@ -11200,6 +11240,16 @@
     "trending_days": 1
   },
   {
+    "name": "multimodal-art-projection/YuE",
+    "url": "https://github.com/multimodal-art-projection/yue",
+    "language": "Python",
+    "stars": 7078,
+    "forks": 810,
+    "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+    "last_seen": "2026-09-12",
+    "trending_days": 1
+  },
+  {
     "name": "myshell-ai/OpenVoice",
     "url": "https://github.com/myshell-ai/openvoice",
     "language": "Python",
@@ -11207,16 +11257,6 @@
     "forks": 3835,
     "description": "Instant voice cloning by MIT and MyShell. Audio foundation model.",
     "last_seen": "2025-10-19",
-    "trending_days": 1
-  },
-  {
-    "name": "nab138/iloader",
-    "url": "https://github.com/nab138/iloader",
-    "language": "TypeScript",
-    "stars": 2817,
-    "forks": 197,
-    "description": "User friendly sideloader",
-    "last_seen": "2026-09-11",
     "trending_days": 1
   },
   {
@@ -11597,16 +11637,6 @@
     "forks": 2104,
     "description": "Persistent file-based planning for AI coding agents and long-running agentic tasks. Crash-proof markdown plans that survive context loss and /clear, plus a deterministic completion gate and multi-agent shared state on disk. Manus-style. Works with Claude Code, Codex CLI, Cursor, Kiro, OpenCode and 60+ agents via the SKILL.md standard.",
     "last_seen": "2026-07-05",
-    "trending_days": 1
-  },
-  {
-    "name": "p1neappleXpress/OpenFlux",
-    "url": "https://github.com/p1neapplexpress/openflux",
-    "language": "Go",
-    "stars": 976,
-    "forks": 81,
-    "description": "Network stack research tool. TCP tunnel with pluggable transports.",
-    "last_seen": "2026-09-11",
     "trending_days": 1
   },
   {
@@ -12150,6 +12180,16 @@
     "trending_days": 1
   },
   {
+    "name": "SnailSploit/Claude-Red",
+    "url": "https://github.com/snailsploit/claude-red",
+    "language": "Python",
+    "stars": 3398,
+    "forks": 542,
+    "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+    "last_seen": "2026-09-12",
+    "trending_days": 1
+  },
+  {
     "name": "snarktank/ai-dev-tasks",
     "url": "https://github.com/snarktank/ai-dev-tasks",
     "language": "Unknown",
@@ -12167,16 +12207,6 @@
     "forks": 1239,
     "description": "A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书",
     "last_seen": "2026-09-02",
-    "trending_days": 1
-  },
-  {
-    "name": "Sonarr/Sonarr",
-    "url": "https://github.com/sonarr/sonarr",
-    "language": "C#",
-    "stars": 15642,
-    "forks": 1944,
-    "description": "Smart PVR for newsgroup and bittorrent users.",
-    "last_seen": "2026-09-11",
     "trending_days": 1
   },
   {
@@ -12677,6 +12707,16 @@
     "forks": 1841,
     "description": "Open-source Android/Desktop remake of Civ V",
     "last_seen": "2026-06-17",
+    "trending_days": 1
+  },
+  {
+    "name": "yuliskov/SmartTube",
+    "url": "https://github.com/yuliskov/smarttube",
+    "language": "Java",
+    "stars": 33100,
+    "forks": 2010,
+    "description": "Browse media content with your own rules on Android TV",
+    "last_seen": "2026-09-12",
     "trending_days": 1
   },
   {

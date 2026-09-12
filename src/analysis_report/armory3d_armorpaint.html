@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+
+<blockquote>
+<p>GitHub: <a href="https://github.com/armory3d/armorpaint">https://github.com/armory3d/armorpaint</a></p>
+</blockquote>
+
+<h2>一句话总结</h2>
+<p>ArmorPaint 是 Lubos Lenco 用 9 年、6200+ commit 独立打磨出的开源 GPU-native PBR 纹理绘制工具，把「节点图编译器 + 自研 path-tracer + 本地 AI 推理」塞进一个 10 MB 的单 exe，正在挑战 Substance Painter 的订阅制壁垒。</p>
+
+<h2>值得关注的理由</h2>
+<ul>
+<li><strong>真实的开源护城河</strong>：zlib 源码公开 + 官网付费分发 + 5 套 GPU 后端（Vulkan/D3D12/Metal/OpenGL/WebGPU）跑通「同一份节点图 → 同一份着色器」这条主线，是 Blender/Substance 都没做到的工程纪律。</li>
+<li><strong>本地 AI + 隐私</strong>：FLUX.2、Real-ESRGAN 等 8GB+ 模型托管在 HF 上按需下载，推理跑在用户显卡上、不上云——对中小工作室是巨大差异化卖点。</li>
+<li><strong>行业稀缺定位</strong>：4.9K ★、单人 96% 贡献率、月均 100+ commit，但产品成熟度已追平商业级 DCC；Substance 订阅化后留下的真空，ArmorPaint 是少数填得上的开源选项之一。</li>
+</ul>
+
+<h2>项目展示</h2>
+
+<p><img src="https://armorpaint.org/img/git.jpg" alt="ArmorPaint viewport showcase"></p>
+<p><em>主视口：path-tracer 实时预览的 PBR 绘制界面</em></p>
+
+<p><img src="https://armorpaint.org/img/1.jpg" alt="ArmorPaint main viewport 1"></p>
+<p><em>节点化材质编辑 + 多通道绘制的标准工作流</em></p>
+
+<p><img src="https://www.youtube.com/watch?v=y2slMWkVkOE" alt="ArmorPaint path tracing demo"></p>
+<p><em>YouTube 演示：viewport 路径追踪与烘焙共享同一份 shader</em></p>
+
+<p><img src="https://armorpaint.org/img/gallery/3.jpg" alt="ArmorPaint edge wear / PBR feature showcase"></p>
+<p><em>边缘磨损、PBR 多通道堆叠的成品质感</em></p>
+
+<blockquote>
+<p>视频：<a href="https://www.youtube.com/watch?v=y2slMWkVkOE">ArmorPaint path tracing demo</a></p>
+</blockquote>
+
+<h2>项目画像</h2>
+
+<p><strong>GitHub</strong>：<a href="https://github.com/armory3d/armorpaint">https://github.com/armory3d/armorpaint</a><br>
+<strong>Star / Fork</strong>：4,906 / 547<br>
+<strong>关注者</strong>：129<br>
+<strong>代码行数</strong>：313,717 行（按代码行；C 74% / C Header 17.2% / JSON 3.4% / Objective-C 2.5% / JavaScript 1.5% / GLSL+HLSL 0.9%）<br>
+<strong>项目年龄</strong>：105 个月（首 commit 2017-12-14；GH 仓库建于 2017-02-06）<br>
+<strong>开发阶段</strong>：密集开发（近 30 天 165 commit、近 90 天 401 commit、近 365 天 1,374 commit）<br>
+<strong>贡献模式</strong>：极度单人主导（luboslenco 5,953 commits ≈ 96%；Top 2 合计 98.5%）<br>
+<strong>热度定位</strong>：小众精品 / 垂直细分里的头部开源选项<br>
+<strong>质量评级</strong>：代码 良好 · 文档 一般 · 测试 不足</p>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+<p>Lubos Lenco 是 Armory 3D 组织的核心开发者，也是 GitHub 上 <code>luboslenco</code> 这个 ID 背后的唯一长期推动者。bio 只写了「Graphics Creation Tools」，但从他维护的 35 个公开仓库（armory、armorpaint、armorlab、armorsculpt、armsdk、iron、armorcore、Kromx 等）能看出：他不是图形学研究者，而是一个<strong>把游戏引擎那一整套技术栈搬到 DCC 工具领域</strong>的工程实践派——反向操作 Blender「把游戏引擎集成进 DCC」的方向。</p>
+
+<h3>问题判断</h3>
+<p>Lubos 先做了 Armory3D 游戏引擎（2014 起），在自研引擎过程中反复需要给模型贴 PBR 贴图：用 Blender 觉得工作流破碎、用 Substance 又贵又绑平台。这是经典的 dogfooding——<strong>不是观察市场缺口，而是被自己的引擎需求逼出来的内部工具</strong>，后来独立成产品。</p>
+
+<h3>解法哲学</h3>
+<ul>
+<li><strong>极致自研、不基于 Electron/Qt/Unreal</strong>：自己写 3D 引擎（Iron）、窗口系统、UI 框架（Zui）、shader 编译器（Kong）、嵌入式 C 脚本（minic）、C 数学/IO 核心（armorcore）。结果 < 10 MB 二进制、单 exe、零运行时依赖。</li>
+<li><strong>GPU-native 而非 GPU 加速</strong>：节点图 → Kong → 直接编译成 D3D12/Vulkan/Metal/WebGPU shader，<strong>不是</strong> OpenGL 时代那种「脚本化渲染器套壳」，这是官方文档反复强调的差异化。</li>
+<li><strong>明确不做什么</strong>：不做云、不做协作、不做资产商城、不做模型雕刻（Sculpting 模块长期 in development，资源不足时宁可推迟也不做半成品）。</li>
+</ul>
+
+<h3>战略意图</h3>
+<p>ArmorPaint 是 Armory 3D 组织产品矩阵的<strong>核心可视化层</strong>：同组织还有 armorpaint、armorlab（AI 材质）、armorsculpt、armsdk、iron（引擎）——全部基于 <code>base/</code> 同一套引擎。开源策略是 <strong>genuinely open（zlib-like）+ 商业二进制付费</strong>（官网下载付费，源码公开），即「源码开放 + 官方分发收费」模式，既不锁死贡献者、也保证作者能从产品本身拿回研发资金。</p>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处</h3>
+
+<ul>
+<li>节点图 → 多 GPU 后端 shader 单趟编译（Kong）：新颖度 4/5，实用性 5/5，可迁移性 4/5</li>
+<li>「主程序 < 10 MB + 重模型走子进程」 的桌面 AI 集成模式：新颖度 3/5，实用性 5/5，可迁移性 5/5</li>
+<li>嵌入式 C 子集脚本 + struct 布局通过 offsetof 透传（minic）：新颖度 3/5，实用性 4/5，可迁移性 3/5</li>
+<li>同一份 path-tracer shader 通过 <code>#define</code> 切「实时 vs 离线」两档：新颖度 2/5，实用性 5/5，可迁移性 5/5</li>
+<li>IMGUI + 节点画布纯数据模型 → 撤销/重做 = 数组快照：新颖度 2/5，实用性 4/5，可迁移性 4/5</li>
+</ul>
+
+<h3>可复用的模式与技巧</h3>
+
+<ol>
+<li><strong><code>#include 「*.c」</code> 单 TU 单二进制 + armpack 二进制序列化</strong>：适合需要「单 exe 部署 + 极快加载」的 DCC 工具。文件不用拆 .h，build 就是 amake 串 C 源；数据用 armpack 二进制 round-trip，比 JSON 快一个量级。</li>
+<li><strong>节点编译结果做 <code>string_buffer</code> 增量拼装</strong>：送编译前先 <code>static_array</code> 检查重复 const/texture，避免重定义和冗余 binding。<code>static_array</code> 宏（kong.h）是无 GC 环境下手写的固定容量数组，适合嵌入式 C。</li>
+<li><strong>「节点类型即 .c 文件」+ <code>main.c</code> 大 include</strong>：130+ 节点每个一个 .c 文件，各自实现 <code>xxx_node_button</code> / <code>xxx_node_run</code>，通过 <code>_kickstart()</code> 注册；新增节点 = 新增 .c + 一行 include，<strong>无注册中心、无工厂、无反射</strong>。</li>
+<li><strong><code>/tools/tcc</code> 嵌入式 C 编译器 + <code>/tools/amake</code> 任务驱动构建</strong>：把 TCC 拖进仓里，意味着任何平台都能「裸机编译」而不依赖系统 C 编译器（适合 WASM/iOS 等难装工具链的目标）。</li>
+<li><strong>LSP-like API 自动发现 = <code>minic_ext_func_count_get</code> + <code>minic_ext_func_name_at</code></strong>：注册到解释器的函数列表自动暴露给编辑器做 autocomplete，无需手维护 API 文档。</li>
+</ol>
+
+<h3>关键设计决策</h3>
+
+<ol>
+<li><strong>决策</strong>：节点图 → 自研 Kong shader 编译器 → 5 种 GPU 后端<br>
+<strong>问题</strong>：节点图编辑器需要实时编译出可执行 shader；各家 GPU 着色语言不统一<br>
+<strong>方案</strong>：单趟编译器前端 = Kong IR（类似 Rust MIR 但带显式 type_id），后端分别输出 kong_hlsl/kong_metal/kong_spirv/kong_wgsl/kong_cstyle<br>
+<strong>Trade-off</strong>：5 套后端各 ~900~4000 行是真实维护成本（总 1.1 万行），但换来「同一份节点图在 Win/macOS/Linux/WASM 上行为完全一致」+ 节点修改 < 50ms 出图<br>
+<strong>可迁移性</strong>：高——任何需要「节点图 → 多 GPU 后端 shader」的引擎都能直接接入</li>
+</ol>
+
+<ol>
+<li><strong>决策</strong>：神经网络用「外挂可执行 + 进程通信」而非嵌入式推理<br>
+<strong>问题</strong>：FLUX.2 klein（8.7 GB）、Qwen3-27B（15.3 GB）、Hunyuan3D（12.6 GB）比 ArmorPaint 自己二进制（10 MB）大 1000 倍<br>
+<strong>方案</strong>：把模型托管在 HF 自己的组织（<code>armory3d/FLUX.2-klein-4B-GGUF</code> 等），用户首次用某节点时拉取到本地，通过 <code>iron_exec_async()</code> 启动 <code>iris</code> 二进制 + GGUF/SafeTensors 文件，子进程跑推理<br>
+<strong>Trade-off</strong>：首次体验门槛高（8~20 GB 下载）；但换来「主程序永远 < 10 MB」「想用哪个模型下哪个，不强制捆绑」+ 完全不污染渲染主线程<br>
+<strong>可迁移性</strong>：高——任何「重模型 + 轻壳」的桌面工具都能用「主程序 + 子进程 + GGUF 拉取」模式</li>
+</ol>
+
+<ol>
+<li><strong>决策</strong>：通过「配置 Blender 可执行文件路径」桥接 Blender，而非内置 importer<br>
+<strong>问题</strong>：直接读 .blend 需要逆向 Blender 私有 DNA 格式<br>
+<strong>方案</strong>：<code>import_blend_mesh.c</code> 要求用户填本地 Blender 可执行路径，后台用 <code>blender --background --python &lt;script&gt;</code> 调 Blender 把 mesh/glb 倒出来再读<br>
+<strong>Trade-off</strong>：失去「无 Blender 即可导入 .blend」的便利；但避免锁版本（Blender 改 DNA 格式不会影响 ArmorPaint）<br>
+<strong>可迁移性</strong>：中——适合「封闭私有格式 + 用户大概率装了该应用」的场景</li>
+</ol>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+
+<ul>
+<li><strong>价格模式</strong>：ArmorPaint 开源 + 付费分发 / Substance Painter Adobe 订阅 / Mari Foundry 商业授权 / 3D-Coat 部分免费 / Blender Texture Paint 免费内置</li>
+<li><strong>跨平台</strong>：ArmorPaint Win/macOS/Linux/Android/iOS/WASM / Substance Painter Win/macOS / Mari Linux 为主 / 3D-Coat Windows 优先 / Blender Texture Paint 全平台</li>
+<li><strong>节点化材质</strong>：ArmorPaint ✓（Kong 编译）/ 其余 ✗ 或 弱</li>
+<li><strong>实时 path-tracer</strong>：ArmorPaint ✓（viewport + bake 共享 shader）/ 其余 ✗ 或 弱（CPU）</li>
+<li><strong>本地 AI</strong>：ArmorPaint ✓（FLUX.2、Real-ESRGAN、Hunyuan3D）/ Substance Painter 弱（Adobe Firefly 云）/ 其余 ✗ 或 弱</li>
+<li><strong>二进制体积</strong>：ArmorPaint < 10 MB 单 exe / 其余 数 GB / Blender ~200 MB</li>
+<li><strong>开源</strong>：ArmorPaint ✓（zlib）/ Substance Painter ✗ / Mari ✗ / 3D-Coat 部分 / Blender Texture Paint ✓（GPL）</li>
+</ul>
+
+<h3>差异化护城河</h3>
+<p>跨平台 + 节点图 + 本地 AI + < 10 MB 单 exe —— 这是四个<strong>独立护城河</strong>的组合，单一竞品很难同时具备。Substance 不开源、Mari Linux-only、3D-Coat Windows 优先、Blender 体积大且 Texture Paint 不是核心——ArmorPaint 在「订阅逃逸 + AI 本地化 + 跨平台」三角交集上是稀缺定位。</p>
+
+<h3>竞争风险</h3>
+<ul>
+<li><strong>最大威胁：Blender 持续增强 Texture Paint</strong>（免费 + 内置 + 生态）—— 一旦 Blender 在节点化 path-tracer 和 AI 集成上追上来，ArmorPaint 的护城河会被显著削弱。</li>
+<li><strong>次要威胁</strong>：Substance 一旦回到买断制，或者 Adobe 把 Firefly 模型端侧化。</li>
+<li><strong>作者风险</strong>：bus factor 高——单人 96% 贡献率意味着 Lubos 一旦退出，10 年的工程积累很难被 35 个贡献者集体接住。</li>
+</ul>
+
+<h3>生态定位</h3>
+<p>介于「独立 DCC 工具」和「Blender 插件」之间的<strong>轻量级跨平台 PBR 工具</strong>，核心价值是「订阅逃逸 + AI 本地化 + 跨平台」。整个 Armory3D 工具家族（armory / armorpaint / armorlab / armorsculpt）共享 <code>base/</code> 引擎层，是一个事实上的「开源 DCC 工具链」——和 Adobe / Foundry / Blender 形成对位。</p>
+
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：低关注度但高质量——4.9K ★ 与产品成熟度、行业关注度、commit 节奏不匹配；Substance 订阅化后大量独立美术转向 ArmorPaint，但行业认知还停留在「小众替代品」。</li>
+<li><strong>技术借鉴</strong>：
+<ul>
+<li>Kong 节点编译器的多后端 shader 编译思路（5 套后端 + 单趟 IR）值得任何做「节点式 GPU 编辑器」的团队参考。</li>
+<li>「主程序 < 10 MB + 重模型走子进程 + GGUF 拉取」的桌面 AI 集成模式，是 ComfyUI / Pinokio 的简化版——主程序永远轻、子进程按需拉取、HF 模型托管。</li>
+<li>minic 的 <code>MINIC_STRUCT</code> + <code>offsetof</code> 透传 C struct 字段，是嵌入式脚本替代 Python 的实用方案。</li>
+<li><code>static_array</code> 宏（kong.h）是无 GC 环境下写 C 容器的好模板。</li>
+</ul>
+</li>
+<li><strong>生态位</strong>：填补了「订阅逃逸 + AI 本地化 + 跨平台」的三角空白，是少数能跑通「开源 + 商业分发」模式的开源 DCC。</li>
+<li><strong>趋势判断</strong>：本地 AI 推理（GGUF、llama.cpp 生态）是 2024–2026 年的明确趋势，ArmorPaint 早在 2023 年就押对了方向；和 ComfyUI、Pinokio、LM Studio 的轨迹一致——桌面 AI 工具正在走向「轻壳 + 重模型按需」的标准模式。</li>
+</ul>
+
+<h2>风险与不足</h2>
+<ul>
+<li><strong>bus factor 极高</strong>：单一作者 96% 贡献率，第二贡献者 MathemanFlo 仅 132 commits（2.1%）；Lubos 任何意外都会让项目进入低速期。</li>
+<li><strong>测试覆盖不足</strong>：仅 <code>base/sources/libs/minic_tests.c</code> + <code>base/tests/</code> + <code>paint/assets/plugins/dev/test.c</code>；<strong>无 CI 跑测</strong>（CI 只跑 build 编译），节点编译器 Kong 缺单元测试。</li>
+<li><strong>文档薄弱</strong>：无 API 文档、无架构 ADR、无 CHANGELOG；中文社区 wiki / DeepWiki 25 页是事实补偿。</li>
+<li><strong>构建/运行复杂度税</strong>：「自研工具链（Kha/Kromx/Iron/amake）+ 三大 OS + 多 GPU 后端」的构建路径让 issue #1671（31 评论讨论构建失败）成为长期痛点。</li>
+<li><strong>Sculpting 模块长期 in development</strong>：路线图上的核心承诺一直未交付，说明作者精力或优先级在 PBR 绘制一侧。</li>
+<li><strong>商业模式风险</strong>：官网付费分发依赖个人/小工作室付费意愿；如果 Adobe 重新推出买断制 Substance Painter，独立用户付费动力会下降。</li>
+</ul>
+
+<h2>行动建议</h2>
+
+<ul>
+<li><strong>如果你要用它</strong>：作为独立 3D 美术 / 中小工作室的 Substance 替代——尤其当你在意订阅成本、AI 本地推理、跨平台（Linux/macOS）时；从 .fbx/.obj 导入现有 pipeline 无缝；预算紧张时直接付费下载二进制即可，预算充裕可以自编译参与改进。</li>
+<li><strong>如果你要学它</strong>：重点关注：
+<ul>
+<li><code>base/sources/iron.c</code> + <code>base/sources/iron_ui.c</code> + <code>base/sources/iron_ui_nodes.c</code> — Iron 引擎 + Zui IMGUI + 节点画布的整套实现</li>
+<li><code>base/sources/libs/kong/</code> — Kong shader 编译器的 IR + 5 套后端</li>
+<li><code>base/sources/libs/minic/</code> — 嵌入式 C 解释器的 <code>MINIC_STRUCT</code> + <code>minic_register</code> 模式</li>
+<li><code>paint/sources/</code> — ArmorPaint 应用层（Haxe → C）</li>
+<li><code>paint/sources/raytrace_brute.comp</code> — 一份 shader 通过 <code>#define</code> 切实时/离线的范本</li>
+</ul>
+</li>
+<li><strong>如果你要 fork 它</strong>：
+<ul>
+<li>优先补 CI 测试（Kong 编译器单元测试、节点图 round-trip 测试），目前测试覆盖是最大短板</li>
+<li>补 CHANGELOG / API 文档，DeepWiki 已收录但官方文档是空白</li>
+<li>国际化（issue #118 已关闭但实际仍是英文为主）</li>
+<li>帮忙分担 Lubos 的 release 工作流——目前 <code>.github/workflows/</code> 只有三平台 build，无 release workflow</li>
+</ul>
+</li>
+</ul>
+
+<h3>知识入口</h3>
+
+<ul>
+<li><strong>DeepWiki</strong>：<a href="https://deepwiki.com/armory3d/armorpaint">deepwiki.com/armory3d/armorpaint</a>（25 页 wiki，已收录，子系统级拆解 Iron 引擎 / Paint 渲染管线 / Path Tracing / Kong Shader / Plugin / Minic）</li>
+<li><strong>Zread.ai</strong>：未确认收录（Cloudflare 拦截）</li>
+<li><strong>关联论文</strong>：无</li>
+<li><strong>在线 Demo</strong>：无可托管浏览器 Demo；应用本身有 WebGPU WASM 构建 <code>armorpaint_web</code>，但 Star 数 5，非主要分发形式</li>
+<li><strong>官方文档</strong>：<a href="https://armorpaint.org">armorpaint.org</a> + <a href="https://armorpaint.org/docs">docs/armorpaint.org</a></li>
+<li><strong>开发者 wiki</strong>：<a href="https://github.com/armory3d/armorpaint/wiki">github.com/armory3d/armorpaint/wiki</a></li>
+</ul>
+
+</body>
+</html>

@@ -831,6 +831,60 @@
       "canonical_url": "https://github.com/modelcontextprotocol/python-sdk",
       "event_date": "2026-09-12",
       "date_seen": "2026-09-12"
+    },
+    {
+      "key": "github.com/hkuds/lightrag",
+      "canonical_url": "https://github.com/HKUDS/LightRAG",
+      "event_date": "2026-09-12",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "github.com/snailsploit/claude-red",
+      "canonical_url": "https://github.com/SnailSploit/Claude-Red",
+      "event_date": "2026-09-12",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "github.com/addyosmani/agent-skills",
+      "canonical_url": "https://github.com/addyosmani/agent-skills",
+      "event_date": "2026-09-12",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "github.com/asgeirtj/system_prompts_leaks",
+      "canonical_url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "event_date": "2026-09-12",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "github.com/max-sixty/worktrunk",
+      "canonical_url": "https://github.com/max-sixty/worktrunk",
+      "event_date": "2026-09-12",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "github.com/multimodal-art-projection/yue",
+      "canonical_url": "https://github.com/multimodal-art-projection/YuE",
+      "event_date": "2026-09-12",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "github.com/obra/superpowers",
+      "canonical_url": "https://github.com/obra/superpowers",
+      "event_date": "2026-09-12",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "github.com/significant-gravitas/autogpt",
+      "canonical_url": "https://github.com/significant-gravitas/autogpt",
+      "event_date": "2026-09-12",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "github.com/vxcontrol/pentagi",
+      "canonical_url": "https://github.com/vxcontrol/pentagi",
+      "event_date": "2026-09-12",
+      "date_seen": "2026-09-12"
     }
   ]
 }

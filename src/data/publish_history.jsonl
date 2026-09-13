@@ -344,3 +344,4 @@
 {"recorded_at": "2026-09-11T23:02:06.377105+00:00", "slug": "vastsa_pi-desktop", "title": null, "state": "published", "published_at": "2026-09-11", "reason": "自动生成", "ci_run_id": "34655873068"}
 {"recorded_at": "2026-09-12T23:42:25.378459+00:00", "slug": "armory3d_armorpaint", "title": null, "state": "published", "published_at": "2026-09-12", "reason": "自动生成", "ci_run_id": "34725727618"}
 {"recorded_at": "2026-09-13T02:18:49.105341+00:00", "slug": "alsk1992_cloddsbot", "title": null, "state": "published", "published_at": "2026-09-13", "reason": "自动生成", "ci_run_id": "34732025763"}
+{"recorded_at": "2026-09-13T23:58:10.477359+00:00", "slug": "tech-leads-club_agent-skills", "title": null, "state": "published", "published_at": "2026-09-13", "reason": "自动生成", "ci_run_id": "34790655720"}

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/alsk1992/cloddsbot">https://github.com/alsk1992/cloddsbot</a></p></blockquote>
+<h2>一句话总结</h2>
+<p>CloddsBot 是一个把 21 个聊天平台与 16 个交易场所（Polymarket / Kalshi / Hyperliquid / Solana DEX / EVM / Agent 经济）通过同一条 LLM 指令链路串起来的「对话式 AI 交易终端」，单作者 7.5 个月、2520 ⭐、27 万行代码，已迭代到 v1.9.1。</p>
+<h2>值得关注的理由</h2>
+<ul>
+<li><strong>覆盖面是同类项目里最广的</strong>：21 聊天通道 × 16 交易场所 × 10 道风控闸 × 121 个可加载 skill，单仓实现「LLM ↔ 资金」的全栈胶水层</li>
+<li><strong>工程纪律超出「12 天 hackathon」宣传话术</strong>：从 v0.1.0 到 v1.9.1 共 15 个 semver tag、52 个测试文件、SECURITY/AUDIT/CHANGELOG 完整三件套</li>
+<li><strong>真正的性能侧花活</strong>：rust/fast-broadcast 旁路进程用 tokio JoinSet 把同一笔 signed tx 跨多 EVM RPC 并行抢跑，是少见的 TypeScript 项目内嵌 Rust 子模块的实战范例</li>
+</ul>
+<h2>项目展示</h2>
+<p><img src="https://cloddsbot.com/logo.png" alt="Clodds Logo"/> — 项目主 Logo</p>
+<p><img src="https://raw.githubusercontent.com/alsk1992/cloddsbot/main/assets/screenshots/clones-14d.jpeg" alt="Git clones last 14 days: 10.7k"/> — README 佐证分发量的 14 天 clone 数截图</p>
+<p>视频：<a href="https://cloddsbot.com/onboard.mp4">https://cloddsbot.com/onboard.mp4</a> — 官方 onboard 演示视频</p>
+<h2>项目画像</h2>
+<table style="border-collapse:collapse;width:100%;font-size:14px;line-height:1.6;margin:1em 0;"><thead><tr><th style="border:1px solid #ddd;padding:6px 8px;background:#f5f5f5;text-align:left;font-weight:bold;">维度</th><th style="border:1px solid #ddd;padding:6px 8px;background:#f5f5f5;text-align:left;font-weight:bold;">数据</th></tr></thead><tbody><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">GitHub</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;"><a href="https://github.com/alsk1992/cloddsbot">https://github.com/alsk1992/cloddsbot</a></td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">Star / Fork</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">2520 / 312</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">代码行数</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">272,682 行（含注释，tokei）；TypeScript 87.9% + Rust 0.1% + 多辅助语言</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">项目年龄</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">~7.5 个月（2026-01-27 → 2026-09-12）</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">开发阶段</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">密集开发（最近 30 天 69 commit 全为安全/SDK 兼容修复）</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">贡献模式</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">独立开发（alsk1992 占 85-91%，含 AL/ALSK 同人不同 git config）</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">热度定位</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">中等热度（hackathon 出圈 + 多渠道曝光，近 30 天加速）</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">质量评级</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">代码[中上] 文档[优] 测试[差] CI[中]</td></tr></tbody></table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>作者 alsk1992 是英国开发者，公司 Strata，Bio 仅「AL」，账号注册才 1.7 年、只 follow 4 人、display name 仅「AL」——<strong>匿名/小号倾向明显</strong>。其 GitHub 28 个公开仓库中除本仓外均 ≤38 stars，影响力 100% 集中于此；博客 stratabook.app、推特 @Stratabookdex、代币 2puc76ehVHyPXhZmDprtP2phDSFE4kzZKDT4JgAWpump 三者指向同一公司商业化栈。</p>
+<h3>问题判断</h3>
+<p>作者把问题切成两层：</p>
+<ol>
+<li><strong>执行层缺失</strong>：README.md:160 写「Arbitrage defaults to dry-run」 + docs/ARCHITECTURE.md:890 把 10 个风控子系统压成单次 RiskEngine.validateTrade()，等于宣告「LLM 直接出单」的方案不够，必须先过 10 道闸</li>
+<li><strong>跨链 × 跨场所 × 可对话</strong>的端到端栈在市面上不存在——既有工具要么单平台（Polymarket-only）、要么单一形态（CLI/Bot）</li>
+</ol>
+<p>时机：Colosseum Agent Hackathon on Solana 周期（README L48），用 hackathon 拉初始流量，再以代币+论坛锁定 Agent 网络效应。</p>
+<h3>解法哲学</h3>
+<ul>
+<li><strong>对话优先，但下单永远走同一条管道</strong>：21 通道 × 16 场所共用 BaseAdapter + RiskEngine.validateTrade() + 同一份执行/账本</li>
+<li><strong>能落库就落库</strong>：messages 表刻意 append-only、unlimited history；ledger 表带 SHA-256 hash + 可选链上锚定（Solana/Polygon/Base）——把可审计性视为一等公民</li>
+<li><strong>Lazy &gt; Eager</strong>：121 个 skill 是 lazy-loaded（README.md:154），src/skills/loader.ts:748-772 的动态 token budget（500/2K/8K/16K/32K/48K/80K）按对话复杂度分配上下文</li>
+<li><strong>明确不做什么</strong>：不做高并发机构级、不做「无脑 LLM 出单」、不做云端 SaaS（强调 personal terminal）</li>
+</ul>
+<h3>战略意图</h3>
+<p>把 121 skill + 21 通道 + 16 场所拼成「AI Agent 操作系统」，再用 Agent Forum（USDC 质押）+ Compute API pay-per-call + Token Launch（Meteora DBC）反哺 Agent 经济，形成「自举飞轮」。商业模式 = 开源 CLI + 闭源 Compute API + 代币 + Solana 链上基础设施的混合体。</p>
+<blockquote><p>官方文档较完整（docs/ 28 个 md + 640 行 README + 多语言），支撑上述分析。</p></blockquote>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<ol>
+<li><strong>统一对话终端 × 多市场</strong> — 21 通道 + 16 场所共用同一执行栈</li>
+</ol>
+<p>   - 新颖度 4/5 | 实用性 5/5 | 可迁移性 4/5</p>
+<ol>
+<li><strong>Token Budget 动态技能上下文</strong> — src/skills/loader.ts:748-772 按匹配得分/平台数/类别数分配 500-80K token 上限</li>
+</ol>
+<p>   - 新颖度 4/5 | 实用性 5/5 | 可迁移性 5/5（任何「工具数量 ≫ 单次上下文」的 agent 框架可直接复用）</p>
+<ol>
+<li><strong>Rust 旁路 + JSON over stdio 抢跑</strong> — rust/fast-broadcast/src/lib.rs:106-166 跨多 EVM RPC 并行 POST 同一笔 signed tx</li>
+</ol>
+<p>   - 新颖度 4/5 | 实用性 4/5 | 可迁移性 5/5（任何 EVM sniper/套利/mint 工具可直接 cargo install）</p>
+<ol>
+<li><strong>RiskEngine 10 步 fail-closed preflight</strong> — 把机构级风控（VaR/CVaR/Volatility Regime/Kelly/Stress Test/Circuit Breaker）下沉到零售 agent</li>
+</ol>
+<p>   - 新颖度 4/5 | 实用性 5/5 | 可迁移性 5/5</p>
+<ol>
+<li><strong>Meteora DBC 一键发币 API</strong> — 7 个 REST endpoint 封装 anti-sniper 衰减 + 自动 DAMM v2 毕业 + agent-gated 防女巫</li>
+</ol>
+<p>   - 新颖度 4/5 | 实用性 5/5 | 可迁移性 3/5</p>
+<ol>
+<li><strong>Percolator 二进制 slab 解析</strong> — Anatoly Yakovenko 的 Solana on-chain perps，单 992KB 账户承载全部状态</li>
+</ol>
+<p>   - 新颖度 5/5 | 实用性 3/5 | 可迁移性 2/5</p>
+<h3>可复用的模式与技巧</h3>
+<ol>
+<li><strong>BaseAdapter（token bucket + circuit breaker + auto-reconnect）</strong>：src/channels/base-adapter.ts:78-516 —— 21 通道统一继承，4 个抽象方法即可定制</li>
+<li><strong>动态 token budget 的 skill 选择器</strong>：src/skills/loader.ts:599-854 —— 别名 + stop words + 分级打分</li>
+<li><strong>Rust 旁路 + JSON over stdio</strong>：rust/fast-broadcast/ —— 用子进程 + tokio 隔离热路径性能</li>
+<li><strong>Append-only messages 表 + 上下文压缩</strong>：长会话 AI 客户端的可复用模式</li>
+<li><strong>Trade Ledger with SHA-256 + 可选链上锚定</strong>：AI 决策审计的合规追溯模式</li>
+</ol>
+<h3>关键设计决策</h3>
+<ol>
+<li><strong>单一 RiskEngine.validateTrade() 入口</strong>：10 个子系统严格顺序执行，任一失败立即 reject——把多线程/异步竞态全压成单函数同步链，换来「任何交易都过同 10 道闸」的强保证</li>
+<li><strong>Skills 双重表达 — SKILL.md + TS handler</strong>：YAML frontmatter 注入 prompt + 动态 import 调用，121 个能力不在 LLM 上下文爆掉</li>
+<li><strong>Rust 子模块抢跑</strong>：TypeScript 单线程无法 ms 级跨 RPC 并发，所以用 tokio JoinSet 隔离</li>
+<li><strong>Meteora DBC 绑死</strong>：换来「agent 一次 curl 即可发币」的极简体验，代价是迁移到其它 AMM 需重写</li>
+<li><strong>Trade Ledger 强制 SHA-256</strong>：合规追溯需要不可篡改证据，锚定失败时需回滚</li>
+</ol>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table style="border-collapse:collapse;width:100%;font-size:14px;line-height:1.6;margin:1em 0;"><thead><tr><th style="border:1px solid #ddd;padding:6px 8px;background:#f5f5f5;text-align:left;font-weight:bold;">维度</th><th style="border:1px solid #ddd;padding:6px 8px;background:#f5f5f5;text-align:left;font-weight:bold;">CloddsBot</th><th style="border:1px solid #ddd;padding:6px 8px;background:#f5f5f5;text-align:left;font-weight:bold;">kalshi-ai-trading-bot</th><th style="border:1px solid #ddd;padding:6px 8px;background:#f5f5f5;text-align:left;font-weight:bold;">Polymarket-bot</th><th style="border:1px solid #ddd;padding:6px 8px;background:#f5f5f5;text-align:left;font-weight:bold;">Polymarket-trading-bot-python-V2</th><th style="border:1px solid #ddd;padding:6px 8px;background:#f5f5f5;text-align:left;font-weight:bold;">puls-cli</th></tr></thead><tbody><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">覆盖市场数</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">16+（预测+DEX+CEX+EVM）</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">1（Kalshi）</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">1（Polymarket）</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">1（Polymarket）</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">1+</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">接入通道</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">21 聊天 + CLI + Webchat</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">CLI 为主</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">CLI</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">CLI</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">CLI</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">AI 集成</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">LLM 内核（Anthropic 优先）</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">AI toolkit</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">无 AI</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">无 AI</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">x402+agent swarm</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">风控</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">10 道闸 + RiskEngine</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">基础</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">基础</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">TWAP/套利</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">未知</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">商业化</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">代币+Compute+Marketplace</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">无</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">无</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">无</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">未知</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">Star</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">2520</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">579</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">808</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">189</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">1</td></tr></tbody></table>
+<h3>差异化护城河</h3>
+<ul>
+<li><strong>技术护城河</strong>：跨多通道 × 多场所的端到端胶水层 + Rust 抢跑的性能花活</li>
+<li><strong>生态护城河</strong>：Agent Forum + Marketplace + Compute API + Token Launch 闭环</li>
+<li><strong>信任护城河</strong>：SECURITY/AUDIT 文档齐备 + ledger 链上锚定 + 15 个 semver tag</li>
+</ul>
+<h3>竞争风险</h3>
+<ol>
+<li><strong>LLM 成本</strong>：skill 增多导致 token 消耗飙升，token budget 再优化也受限于上下文长度</li>
+<li><strong>SDK breaking change</strong>：单作者维护 121+ skill + 21 通道 + 16 场所，任何上游 SDK 升级（如 @raydium-io/raydium-sdk-v2 还是 alpha）都会拖垮</li>
+<li><strong>盈利实证缺失</strong>：Issue #62「Has someone actually made profit using this?」长期 open，paper-trading.ts 仅 192 行虚拟余额，<strong>无连接到真实策略的 shadow order book</strong>——这是社区最尖锐的拷问</li>
+<li><strong>代币飞轮依赖社区氛围</strong>：无差异化护城河保护</li>
+</ol>
+<h3>生态定位</h3>
+<p>偏 Solana + Hackathon 的 Agent-first 交易终端，填补「LLM ↔ 资金」之间缺失的合规+风控胶水层空白，适合作为「Agent OS for capital」的实验田。</p>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：7.5 个月 2.5K stars + 312 forks + 28 open issues 说明有真实用户群体；技术广度覆盖预测市场+永续+DEX+EVM+Agent 协议，<strong>架构层面有研究价值</strong>；但盈利实证是最大黑箱</li>
+<li><strong>技术借鉴</strong>：</li>
+</ul>
+<p>  - BaseAdapter 模式可直接复用到任何「多 SaaS 接入」系统（客服/RPA/告警）<br/>  - 动态 token budget 的 skill 选择器可移植到 LangChain/AutoGen/MCP 客户端<br/>  - Rust 旁路模式可移植到任何低延迟子任务（图像/编解码/网络）</p>
+<ul>
+<li><strong>生态位</strong>：填补「LLM 直接出单」缺失的合规+风控胶水层，是 Agent-first 交易终端的实验田</li>
+<li><strong>趋势判断</strong>：处于增长期（最近 30 天 69 commit + 加速 star 增长 + 多渠道曝光），但 9 月密集「安全闸门修复月」反映工程债清理期；比竞品有后发优势（覆盖广度 + 多通道 + Agent 经济），但单点维护风险高</li>
+</ul>
+<h2>风险与不足</h2>
+<ul>
+<li><strong>bus factor = 1</strong>：alsk1992 占 85-91% commit，外部贡献仅零星 PR，无人能接续核心代码</li>
+<li><strong>盈利实证缺失</strong>：Issue #62 / #63 长期 open，社区反复追问「10000 单回测」被搁置</li>
+<li><strong>测试覆盖薄弱</strong>：52 个测试文件但 execution 关键路径覆盖薄弱（polymarket/kalshi 无完整 mock 测试），无覆盖率门槛</li>
+<li><strong>过度营销识别</strong>：</li>
+</ul>
+<p>  - 「12 天 hackathon 交付」 是营销记忆点，实际工程 7 个月迭代<br/>  - 「118+ trading strategies」 把 skill 子命令都算作策略<br/>  - 「1000+ markets」 真实（22 feeds + Solana DEX 池聚合），但其中约 30% 是 stub（&lt; 200 行）</p>
+<ul>
+<li><strong>单文件过大</strong>：pump-swarm.ts 2208 行、meteora-dbc.ts 1486 行、backtest.ts 967 行，违反单一职责</li>
+<li><strong>依赖过重</strong>：80 个 runtime dep，部分（@polkadot/api、@xenova/transformers）可考虑 dynamic import 减重</li>
+<li><strong>Rust 依赖链</strong>：@raydium-io/raydium-sdk-v2 等仍为 alpha 版本，构建脆弱</li>
+</ul>
+<h2>行动建议</h2>
+<ul>
+<li><strong>如果你要用它</strong>：作为个人跨市场交易终端<strong>谨慎尝试</strong>——技术广度惊艳但盈利实证缺失；建议先用 paper-trading 跑回测，对接 Issue #62 的真实策略之前不要入金</li>
+<li><strong>如果你要学它</strong>：重点关注以下文件/模块</li>
+</ul>
+<p>  - src/risk/engine.ts（486 行 10 步 fail-closed preflight）<br/>  - src/skills/loader.ts:599-854（动态 token budget）<br/>  - src/channels/base-adapter.ts:78-516（21 通道基类）<br/>  - rust/fast-broadcast/src/lib.rs:106-166（并行抢跑）</p>
+<ul>
+<li><strong>如果你要 fork 它</strong>：</li>
+</ul>
+<p>  - 把 paper-trading 升级为连真实策略的 shadow order book，直接回应 Issue #62<br/>  - 给 pump-swarm.ts / meteora-dbc.ts / backtest.ts 拆分单文件<br/>  - 加测试覆盖率门槛（vitest + c8 即可）<br/>  - 把 Rust 子模块升级为独立 crate（带版本号），方便复用</p>
+<h3>知识入口</h3>
+<table style="border-collapse:collapse;width:100%;font-size:14px;line-height:1.6;margin:1em 0;"><thead><tr><th style="border:1px solid #ddd;padding:6px 8px;background:#f5f5f5;text-align:left;font-weight:bold;">资源</th><th style="border:1px solid #ddd;padding:6px 8px;background:#f5f5f5;text-align:left;font-weight:bold;">链接</th></tr></thead><tbody><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">DeepWiki</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">未收录</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">Zread.ai</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">未收录</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">官方文档</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;"><a href="https://docs.cloddsbot.com（README">https://docs.cloddsbot.com（README</a> 引用）</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">架构文档</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">/docs/ARCHITECTURE.md（仓库内，28 个 md 文档）</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">HFT 套利报告</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">/docs/RUST_HFT_ARBITRAGE_SWARM_REPORT.md</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">关联论文</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">无</td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">在线 Demo</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;"><a href="https://cloddsbot.com/onboard.mp4（视频）">https://cloddsbot.com/onboard.mp4（视频）</a></td></tr><tr><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">Token</td><td style="border:1px solid #ddd;padding:6px 8px;vertical-align:top;">2puc76ehVHyPXhZmDprtP2phDSFE4kzZKDT4JgAWpump（Solana）</td></tr></tbody></table>
+</body>
+</html>

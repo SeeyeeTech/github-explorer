@@ -1,153 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-08-30",
+    "last_run": "2026-09-12",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "https://github.com/trending?since=daily",
-      "canonical_url": "https://github.com/trending?since=daily",
-      "event_date": "2026-08-07",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "hf:inclusionai/ling-3.0-flash",
-      "canonical_url": "https://huggingface.co/inclusionAI/Ling-3.0-flash",
-      "event_date": "2026-08-04",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "github.com/primeintellect-ai/prime-agent",
-      "canonical_url": "https://github.com/PrimeIntellect-ai/prime-agent",
-      "event_date": "2026-08-05",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "https://36kr.com/p/3929369029868677",
-      "canonical_url": "https://36kr.com/p/3929369029868677",
-      "event_date": "2026-08-07",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
-      "canonical_url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-      "event_date": "2026-08-06",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "https://nature.com/articles/s41586-026-10953-2",
-      "canonical_url": "https://www.nature.com/articles/s41586-026-10953-2",
-      "event_date": "2026-08-06",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "https://qbitai.com/2026/08/467487.html",
-      "canonical_url": "https://www.qbitai.com/2026/08/467487.html",
-      "event_date": "2026-08-06",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "https://36kr.com/p/3929123308459655",
-      "canonical_url": "https://36kr.com/p/3929123308459655",
-      "event_date": "2026-08-06",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "hf:moonshotai/kimi-k3",
-      "canonical_url": "https://huggingface.co/moonshotai/Kimi-K3",
-      "event_date": "2026-07-29",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "hf:liquidai/lfm2.5-2.6b",
-      "canonical_url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
-      "event_date": "2026-08-05",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "https://mistral.ai/news/shieldstral",
-      "canonical_url": "https://mistral.ai/news/shieldstral/",
-      "event_date": "2026-08-04",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "hf:sand-ai/magi-1",
-      "canonical_url": "https://huggingface.co/sand-ai/MAGI-1",
-      "event_date": "2026-08-06",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "https://qbitai.com/2026/08/466847.html",
-      "canonical_url": "https://www.qbitai.com/2026/08/466847.html",
-      "event_date": "2026-08-06",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "https://anthropic.com/news/improving-fable-5-s-biology-safeguards",
-      "canonical_url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
-      "event_date": "2026-08-07",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "https://huggingface.co/papers/2608.01964",
-      "canonical_url": "https://huggingface.co/papers/2608.01964",
-      "event_date": "2026-08-03",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "https://huggingface.co/papers/2608.03974",
-      "canonical_url": "https://huggingface.co/papers/2608.03974",
-      "event_date": "2026-08-04",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "https://36kr.com/p/3929144353242499",
-      "canonical_url": "https://36kr.com/p/3929144353242499",
-      "event_date": "2026-08-07",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "github.com/agentic-community/agent-plugins",
-      "canonical_url": "https://github.com/agentic-community/agent-plugins",
-      "event_date": "2026-08-07",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "github.com/nvidia/tensorrt-model-optimizer",
-      "canonical_url": "https://github.com/NVIDIA/TensorRT-Model-Optimizer",
-      "event_date": "2026-08-07",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "github.com/666ghj/mirofish",
-      "canonical_url": "https://github.com/666ghj/MiroFish",
-      "event_date": "2026-08-07",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "github.com/semantica-agi/semantica",
-      "canonical_url": "https://github.com/semantica-agi/semantica",
-      "event_date": "2026-08-07",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "github.com/rivet-dev/secure-exec",
-      "canonical_url": "https://github.com/rivet-dev/secure-exec",
-      "event_date": "2026-08-07",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "github.com/sqliteai/waste",
-      "canonical_url": "https://github.com/sqliteai/waste",
-      "event_date": "2026-08-07",
-      "date_seen": "2026-08-07"
-    },
-    {
-      "key": "github.com/syncular/syncular",
-      "canonical_url": "https://github.com/syncular/syncular",
-      "event_date": "2026-08-07",
-      "date_seen": "2026-08-07"
-    },
     {
       "key": "https://36kr.com/p/3959191433165952",
       "canonical_url": "https://36kr.com/p/3959191433165952",
@@ -543,6 +399,390 @@
       "canonical_url": "https://z.ai/blog/glm-5.3",
       "event_date": "2026-08-30",
       "date_seen": "2026-08-30"
+    },
+    {
+      "key": "arxiv:2609.10715",
+      "canonical_url": "https://arxiv.org/abs/2609.10715",
+      "event_date": "2026-09-09",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "arxiv:2609.11929",
+      "canonical_url": "https://arxiv.org/abs/2609.11929",
+      "event_date": "2026-09-10",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "arxiv:2609.10712",
+      "canonical_url": "https://arxiv.org/abs/2609.10712",
+      "event_date": "2026-09-09",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "arxiv:2609.07064",
+      "canonical_url": "https://arxiv.org/abs/2609.07064",
+      "event_date": "2026-09-07",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "arxiv:2609.05903",
+      "canonical_url": "https://arxiv.org/abs/2609.05903",
+      "event_date": "2026-09-05",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "arxiv:2609.11900",
+      "canonical_url": "https://arxiv.org/abs/2609.11900",
+      "event_date": "2026-09-10",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "arxiv:2609.11911",
+      "canonical_url": "https://arxiv.org/abs/2609.11911",
+      "event_date": "2026-09-10",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "arxiv:2609.11913",
+      "canonical_url": "https://arxiv.org/abs/2609.11913",
+      "event_date": "2026-09-10",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "hf:deepseek-ai/deepseek-v4.1-flash",
+      "canonical_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "event_date": "2026-09-10",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "hf:openbmb/minicpm5-2b",
+      "canonical_url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+      "event_date": "2026-09-06",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "hf:nex-agi/nex-n2.5-mini",
+      "canonical_url": "https://huggingface.co/nex-agi/Nex-N2.5-mini",
+      "event_date": "2026-09-08",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "github.com/multimodal-art-projection/yue",
+      "canonical_url": "https://github.com/multimodal-art-projection/YuE",
+      "event_date": "2025-01-23",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "github.com/k2-fsa/omnivoice",
+      "canonical_url": "https://github.com/k2-fsa/OmniVoice",
+      "event_date": "2026-09-07",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "github.com/jihe520/mathmodelagent",
+      "canonical_url": "https://github.com/jihe520/MathModelAgent",
+      "event_date": "2025-08-24",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "github.com/alsk1992/cloddsbot",
+      "canonical_url": "https://github.com/alsk1992/CloddsBot",
+      "event_date": "2026-09-12",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "github.com/melgarafael/deskcommcrm",
+      "canonical_url": "https://github.com/melgarafael/DeskcommCRM",
+      "event_date": "2026-09-12",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "github.com/snailsploit/claude-red",
+      "canonical_url": "https://github.com/SnailSploit/Claude-Red",
+      "event_date": "2026-08-30",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "github.com/shubhamsaboo/awesome-llm-apps",
+      "canonical_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "event_date": "2026-09-12",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://anthropic.com/news/claude-fable-and-mythos-5-1",
+      "canonical_url": "https://www.anthropic.com/news/claude-fable-and-mythos-5-1",
+      "event_date": "2026-09-01",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://anthropic.com/news/enterprise-frontier-safeguards",
+      "canonical_url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "event_date": "2026-09-01",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://anthropic.com/news/improving-alignment-security-efforts",
+      "canonical_url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "event_date": "2026-08-31",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://anthropic.com/news/threat-intelligence-report-september-2026",
+      "canonical_url": "https://www.anthropic.com/news/threat-intelligence-report-september-2026",
+      "event_date": "2026-09-10",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "canonical_url": "https://openai.com/index/gpt-6-astra-next-generation-work/",
+      "event_date": "2026-09-09",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://openai.com/index/introducing-the-agents-api",
+      "canonical_url": "https://openai.com/index/introducing-the-agents-api/",
+      "event_date": "2026-09-10",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "canonical_url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
+      "event_date": "2026-09-10",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "canonical_url": "https://openai.com/index/introducing-chatgpt-financial-services/",
+      "event_date": "2026-09-10",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://blog.google/technology/google-deepmind/gemini-3-8-flash-and-3-8-flash-cyber",
+      "canonical_url": "https://blog.google/technology/google-deepmind/gemini-3-8-flash-and-3-8-flash-cyber/",
+      "event_date": "2026-09-02",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://blog.google/technology/google-deepmind/introducing-weathernext-3",
+      "canonical_url": "https://blog.google/technology/google-deepmind/introducing-weathernext-3/",
+      "event_date": "2026-09-03",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://blog.google/technology/google-deepmind/fairwind-program",
+      "canonical_url": "https://blog.google/technology/google-deepmind/fairwind-program/",
+      "event_date": "2026-09-02",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://blog.google/technology/google-deepmind/alphagenome-atlas",
+      "canonical_url": "https://blog.google/technology/google-deepmind/alphagenome-atlas/",
+      "event_date": "2026-09-01",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
+      "canonical_url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
+      "event_date": "2026-09-08",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://mistral.ai/news/mistral-x-cloudera",
+      "canonical_url": "https://mistral.ai/news/mistral-x-cloudera",
+      "event_date": "2026-09-10",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://mistral.ai/news/legacy-code-modernization",
+      "canonical_url": "https://mistral.ai/news/legacy-code-modernization",
+      "event_date": "2026-09-09",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://blog.google/technology/google-deepmind/agentic-video-in-gemini",
+      "canonical_url": "https://blog.google/technology/google-deepmind/agentic-video-in-gemini/",
+      "event_date": "2026-09-01",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://arena.ai/leaderboard/text",
+      "canonical_url": "https://arena.ai/leaderboard/text",
+      "event_date": "2026-09-02",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://artificialanalysis.ai/models/gpt-6-astra",
+      "canonical_url": "https://artificialanalysis.ai/models/gpt-6-astra",
+      "event_date": "2026-09-03",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://artificialanalysis.ai/models/deepseek-v4-1-flash",
+      "canonical_url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash",
+      "event_date": "2026-09-10",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://artificialanalysis.ai/models/agnes-3-0-flash",
+      "canonical_url": "https://artificialanalysis.ai/models/agnes-3-0-flash",
+      "event_date": "2026-09-10",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://artificialanalysis.ai/models/minicpm5-2b",
+      "canonical_url": "https://artificialanalysis.ai/models/minicpm5-2b",
+      "event_date": "2026-09-07",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://artificialanalysis.ai/models/ling-3-0-flash-vl",
+      "canonical_url": "https://artificialanalysis.ai/models/ling-3-0-flash-vl",
+      "event_date": "2026-09-10",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://36kr.com/p/3979884174244613",
+      "canonical_url": "https://36kr.com/p/3979884174244613",
+      "event_date": "2026-09-13",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://36kr.com/p/3980057243441029",
+      "canonical_url": "https://36kr.com/p/3980057243441029",
+      "event_date": "2026-09-13",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://36kr.com/p/3980179218699912",
+      "canonical_url": "https://36kr.com/p/3980179218699912",
+      "event_date": "2026-09-13",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://36kr.com/p/3980148869184514",
+      "canonical_url": "https://36kr.com/p/3980148869184514",
+      "event_date": "2026-09-13",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://36kr.com/p/3980263622818822",
+      "canonical_url": "https://36kr.com/p/3980263622818822",
+      "event_date": "2026-09-13",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://qbitai.com/2026/09/487752.html",
+      "canonical_url": "https://www.qbitai.com/2026/09/487752.html",
+      "event_date": "2026-09-12",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://qbitai.com/2026/09/487688.html",
+      "canonical_url": "https://www.qbitai.com/2026/09/487688.html",
+      "event_date": "2026-09-11",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://qbitai.com/2026/09/487573.html",
+      "canonical_url": "https://www.qbitai.com/2026/09/487573.html",
+      "event_date": "2026-09-11",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://qbitai.com/2026/09/487415.html",
+      "canonical_url": "https://www.qbitai.com/2026/09/487415.html",
+      "event_date": "2026-09-12",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://qbitai.com/2026/09/487860.html",
+      "canonical_url": "https://www.qbitai.com/2026/09/487860.html",
+      "event_date": "2026-09-12",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "arxiv:2609.04010",
+      "canonical_url": "https://arxiv.org/abs/2609.04010",
+      "event_date": "2026-09-03",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "arxiv:2608.09888",
+      "canonical_url": "https://arxiv.org/abs/2608.09888",
+      "event_date": "2026-08-10",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "arxiv:2604.13824",
+      "canonical_url": "https://arxiv.org/abs/2604.13824",
+      "event_date": "2026-09-02",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "arxiv:2608.12564",
+      "canonical_url": "https://arxiv.org/abs/2608.12564",
+      "event_date": "2026-09-10",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "arxiv:2609.05415",
+      "canonical_url": "https://arxiv.org/abs/2609.05415",
+      "event_date": "2026-09-04",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "arxiv:2609.05111",
+      "canonical_url": "https://arxiv.org/abs/2609.05111v1",
+      "event_date": "2026-09-04",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://view.inews.qq.com/a/20260829a06qm000",
+      "canonical_url": "https://view.inews.qq.com/a/20260829A06QM000",
+      "event_date": "2026-08-28",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "github.com/nutshellai-tech/mobius",
+      "canonical_url": "https://github.com/nutshellai-tech/mobius",
+      "event_date": "2026-08-29",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "github.com/openclaw/openclaw",
+      "canonical_url": "https://github.com/openclaw/openclaw/releases",
+      "event_date": "2026-08-31",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://vllm-project.github.io/2026/09/08/vllm-agentx.html",
+      "canonical_url": "https://vllm-project.github.io/2026/09/08/vllm-agentx.html",
+      "event_date": "2026-09-08",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://vllm-project.github.io/2026/09/10/tiered-kv-offloading.html",
+      "canonical_url": "https://vllm-project.github.io/2026/09/10/tiered-kv-offloading.html",
+      "event_date": "2026-09-10",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://vllm-project.github.io/2026/09/08/glm53-part1-hybrid-sparse-offloading.html",
+      "canonical_url": "https://vllm-project.github.io/2026/09/08/glm53-part1-hybrid-sparse-offloading.html",
+      "event_date": "2026-09-08",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://vllm-project.github.io/2026/09/10/minimax-m3-mi355x.html",
+      "canonical_url": "https://vllm-project.github.io/2026/09/10/minimax-m3-mi355x.html",
+      "event_date": "2026-09-10",
+      "date_seen": "2026-09-12"
+    },
+    {
+      "key": "https://vllm-project.github.io/2026/09/01/minimax-h3-production-serving.html",
+      "canonical_url": "https://vllm-project.github.io/2026/09/01/minimax-h3-production-serving.html",
+      "event_date": "2026-09-01",
+      "date_seen": "2026-09-12"
     }
   ]
 }

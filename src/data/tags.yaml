@@ -164,6 +164,9 @@ entries:
   - llm-inference
   - model-foundation
   - protocol-spec
+  alsk1992_cloddsbot:
+  - ai-agent
+  - security
   altic-dev_fluidvoice:
   - video-audio
   - protocol-spec
@@ -275,6 +278,8 @@ entries:
   - security
   arize-ai_phoenix:
   - database
+  armory3d_armorpaint:
+  - media-generation
   asg017_sqlite-vec:
   - llm-framework
   - rag-search

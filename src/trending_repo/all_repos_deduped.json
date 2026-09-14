@@ -150,6 +150,16 @@
     "trending_days": 24
   },
   {
+    "name": "ruvnet/RuView",
+    "url": "https://github.com/ruvnet/ruview",
+    "language": "Rust",
+    "stars": 93726,
+    "forks": 12423,
+    "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+    "last_seen": "2026-09-14",
+    "trending_days": 24
+  },
+  {
     "name": "thedotmack/claude-mem",
     "url": "https://github.com/thedotmack/claude-mem",
     "language": "JavaScript",
@@ -187,16 +197,6 @@
     "forks": 653,
     "description": "Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!",
     "last_seen": "2025-12-04",
-    "trending_days": 23
-  },
-  {
-    "name": "ruvnet/RuView",
-    "url": "https://github.com/ruvnet/ruview",
-    "language": "Rust",
-    "stars": 89163,
-    "forks": 11873,
-    "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-    "last_seen": "2026-08-10",
     "trending_days": 23
   },
   {
@@ -400,6 +400,26 @@
     "trending_days": 17
   },
   {
+    "name": "TauricResearch/TradingAgents",
+    "url": "https://github.com/tauricresearch/tradingagents",
+    "language": "Python",
+    "stars": 105875,
+    "forks": 20279,
+    "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+    "last_seen": "2026-09-14",
+    "trending_days": 17
+  },
+  {
+    "name": "asgeirtj/system_prompts_leaks",
+    "url": "https://github.com/asgeirtj/system_prompts_leaks",
+    "language": "JavaScript",
+    "stars": 66613,
+    "forks": 10854,
+    "description": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
+    "last_seen": "2026-09-14",
+    "trending_days": 16
+  },
+  {
     "name": "microsoft/markitdown",
     "url": "https://github.com/microsoft/markitdown",
     "language": "Python",
@@ -420,16 +440,6 @@
     "trending_days": 16
   },
   {
-    "name": "TauricResearch/TradingAgents",
-    "url": "https://github.com/tauricresearch/tradingagents",
-    "language": "Python",
-    "stars": 103675,
-    "forks": 19943,
-    "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-    "last_seen": "2026-09-09",
-    "trending_days": 16
-  },
-  {
     "name": "aquasecurity/trivy",
     "url": "https://github.com/aquasecurity/trivy",
     "language": "Go",
@@ -437,16 +447,6 @@
     "forks": 449,
     "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
     "last_seen": "2026-06-06",
-    "trending_days": 15
-  },
-  {
-    "name": "asgeirtj/system_prompts_leaks",
-    "url": "https://github.com/asgeirtj/system_prompts_leaks",
-    "language": "JavaScript",
-    "stars": 65800,
-    "forks": 10783,
-    "description": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
-    "last_seen": "2026-09-13",
     "trending_days": 15
   },
   {
@@ -467,6 +467,16 @@
     "forks": 7008,
     "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
     "last_seen": "2026-03-09",
+    "trending_days": 14
+  },
+  {
+    "name": "666ghj/MiroFish",
+    "url": "https://github.com/666ghj/mirofish",
+    "language": "Python",
+    "stars": 72987,
+    "forks": 11277,
+    "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+    "last_seen": "2026-09-14",
     "trending_days": 14
   },
   {
@@ -550,13 +560,13 @@
     "trending_days": 14
   },
   {
-    "name": "666ghj/MiroFish",
-    "url": "https://github.com/666ghj/mirofish",
-    "language": "Python",
-    "stars": 70698,
-    "forks": 11005,
-    "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
-    "last_seen": "2026-08-08",
+    "name": "Crosstalk-Solutions/project-nomad",
+    "url": "https://github.com/crosstalk-solutions/project-nomad",
+    "language": "TypeScript",
+    "stars": 36804,
+    "forks": 3678,
+    "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
+    "last_seen": "2026-09-14",
     "trending_days": 13
   },
   {
@@ -597,16 +607,6 @@
     "forks": 1588,
     "description": "The most RAM efficient harness",
     "last_seen": "2026-07-31",
-    "trending_days": 12
-  },
-  {
-    "name": "Crosstalk-Solutions/project-nomad",
-    "url": "https://github.com/crosstalk-solutions/project-nomad",
-    "language": "TypeScript",
-    "stars": 33601,
-    "forks": 3373,
-    "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
-    "last_seen": "2026-07-12",
     "trending_days": 12
   },
   {
@@ -780,6 +780,16 @@
     "trending_days": 11
   },
   {
+    "name": "OpenBMB/VoxCPM",
+    "url": "https://github.com/openbmb/voxcpm",
+    "language": "Python",
+    "stars": 37271,
+    "forks": 4234,
+    "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+    "last_seen": "2026-09-14",
+    "trending_days": 11
+  },
+  {
     "name": "pascalorg/editor",
     "url": "https://github.com/pascalorg/editor",
     "language": "TypeScript",
@@ -947,16 +957,6 @@
     "forks": 18077,
     "description": "Lightweight coding agent that runs in your terminal",
     "last_seen": "2026-08-26",
-    "trending_days": 10
-  },
-  {
-    "name": "OpenBMB/VoxCPM",
-    "url": "https://github.com/openbmb/voxcpm",
-    "language": "Python",
-    "stars": 30018,
-    "forks": 3397,
-    "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
-    "last_seen": "2026-06-16",
     "trending_days": 10
   },
   {
@@ -1210,6 +1210,16 @@
     "trending_days": 9
   },
   {
+    "name": "Panniantong/Agent-Reach",
+    "url": "https://github.com/panniantong/agent-reach",
+    "language": "Python",
+    "stars": 81008,
+    "forks": 7053,
+    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+    "last_seen": "2026-09-14",
+    "trending_days": 9
+  },
+  {
     "name": "Raphire/Win11Debloat",
     "url": "https://github.com/raphire/win11debloat",
     "language": "PowerShell",
@@ -1430,16 +1440,6 @@
     "trending_days": 8
   },
   {
-    "name": "Panniantong/Agent-Reach",
-    "url": "https://github.com/panniantong/agent-reach",
-    "language": "Python",
-    "stars": 65385,
-    "forks": 5407,
-    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-    "last_seen": "2026-08-03",
-    "trending_days": 8
-  },
-  {
     "name": "penpot/penpot",
     "url": "https://github.com/penpot/penpot",
     "language": "Clojure",
@@ -1518,6 +1518,16 @@
     "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
     "last_seen": "2026-08-11",
     "trending_days": 8
+  },
+  {
+    "name": "alibaba/open-code-review",
+    "url": "https://github.com/alibaba/open-code-review",
+    "language": "Go",
+    "stars": 25096,
+    "forks": 1831,
+    "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "last_seen": "2026-09-14",
+    "trending_days": 7
   },
   {
     "name": "ayghri/i-have-adhd",
@@ -1940,16 +1950,6 @@
     "trending_days": 7
   },
   {
-    "name": "alibaba/open-code-review",
-    "url": "https://github.com/alibaba/open-code-review",
-    "language": "Go",
-    "stars": 22991,
-    "forks": 1702,
-    "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-    "last_seen": "2026-09-13",
-    "trending_days": 6
-  },
-  {
     "name": "alibaba/OpenSandbox",
     "url": "https://github.com/alibaba/opensandbox",
     "language": "Python",
@@ -2107,6 +2107,16 @@
     "forks": 3390,
     "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
     "last_seen": "2026-05-15",
+    "trending_days": 6
+  },
+  {
+    "name": "debpalash/VoiceStudio",
+    "url": "https://github.com/debpalash/voicestudio",
+    "language": "Python",
+    "stars": 28715,
+    "forks": 3511,
+    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+    "last_seen": "2026-09-14",
     "trending_days": 6
   },
   {
@@ -2687,16 +2697,6 @@
     "forks": 3598,
     "description": "A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.",
     "last_seen": "2026-07-11",
-    "trending_days": 5
-  },
-  {
-    "name": "debpalash/VoiceStudio",
-    "url": "https://github.com/debpalash/voicestudio",
-    "language": "Python",
-    "stars": 25782,
-    "forks": 3193,
-    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-    "last_seen": "2026-09-13",
     "trending_days": 5
   },
   {
@@ -3470,6 +3470,16 @@
     "trending_days": 4
   },
   {
+    "name": "dani-garcia/vaultwarden",
+    "url": "https://github.com/dani-garcia/vaultwarden",
+    "language": "Rust",
+    "stars": 67461,
+    "forks": 3207,
+    "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+    "last_seen": "2026-09-14",
+    "trending_days": 4
+  },
+  {
     "name": "danielmiessler/Personal_AI_Infrastructure",
     "url": "https://github.com/danielmiessler/personal_ai_infrastructure",
     "language": "TypeScript",
@@ -4060,6 +4070,16 @@
     "trending_days": 4
   },
   {
+    "name": "reconurge/flowsint",
+    "url": "https://github.com/reconurge/flowsint",
+    "language": "TypeScript",
+    "stars": 8242,
+    "forks": 1020,
+    "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
+    "last_seen": "2026-09-14",
+    "trending_days": 4
+  },
+  {
     "name": "Robbyant/lingbot-map",
     "url": "https://github.com/robbyant/lingbot-map",
     "language": "Python",
@@ -4167,6 +4187,16 @@
     "forks": 3132,
     "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
     "last_seen": "2026-08-30",
+    "trending_days": 4
+  },
+  {
+    "name": "tech-leads-club/agent-skills",
+    "url": "https://github.com/tech-leads-club/agent-skills",
+    "language": "TypeScript",
+    "stars": 5954,
+    "forks": 511,
+    "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+    "last_seen": "2026-09-14",
     "trending_days": 4
   },
   {
@@ -4640,16 +4670,6 @@
     "trending_days": 3
   },
   {
-    "name": "dani-garcia/vaultwarden",
-    "url": "https://github.com/dani-garcia/vaultwarden",
-    "language": "Rust",
-    "stars": 66036,
-    "forks": 3133,
-    "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
-    "last_seen": "2026-08-24",
-    "trending_days": 3
-  },
-  {
     "name": "datalab-to/chandra",
     "url": "https://github.com/datalab-to/chandra",
     "language": "Python",
@@ -5000,6 +5020,16 @@
     "trending_days": 3
   },
   {
+    "name": "huggingface/transformers",
+    "url": "https://github.com/huggingface/transformers",
+    "language": "Python",
+    "stars": 165872,
+    "forks": 34572,
+    "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+    "last_seen": "2026-09-14",
+    "trending_days": 3
+  },
+  {
     "name": "iam-veeramalla/aws-devops-zero-to-hero",
     "url": "https://github.com/iam-veeramalla/aws-devops-zero-to-hero",
     "language": "Python",
@@ -5077,6 +5107,16 @@
     "forks": 405,
     "description": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
     "last_seen": "2026-09-13",
+    "trending_days": 3
+  },
+  {
+    "name": "JustVugg/colibri",
+    "url": "https://github.com/justvugg/colibri",
+    "language": "C",
+    "stars": 31537,
+    "forks": 3351,
+    "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+    "last_seen": "2026-09-14",
     "trending_days": 3
   },
   {
@@ -5360,6 +5400,16 @@
     "trending_days": 3
   },
   {
+    "name": "multimodal-art-projection/YuE",
+    "url": "https://github.com/multimodal-art-projection/yue",
+    "language": "Python",
+    "stars": 8196,
+    "forks": 896,
+    "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+    "last_seen": "2026-09-14",
+    "trending_days": 3
+  },
+  {
     "name": "NationalSecurityAgency/ghidra",
     "url": "https://github.com/nationalsecurityagency/ghidra",
     "language": "Java",
@@ -5590,16 +5640,6 @@
     "trending_days": 3
   },
   {
-    "name": "reconurge/flowsint",
-    "url": "https://github.com/reconurge/flowsint",
-    "language": "TypeScript",
-    "stars": 5115,
-    "forks": 627,
-    "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
-    "last_seen": "2026-06-04",
-    "trending_days": 3
-  },
-  {
     "name": "reflex-dev/reflex",
     "url": "https://github.com/reflex-dev/reflex",
     "language": "Python",
@@ -5700,6 +5740,16 @@
     "trending_days": 3
   },
   {
+    "name": "SnailSploit/Claude-Red",
+    "url": "https://github.com/snailsploit/claude-red",
+    "language": "Python",
+    "stars": 4572,
+    "forks": 619,
+    "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+    "last_seen": "2026-09-14",
+    "trending_days": 3
+  },
+  {
     "name": "spipm/Depixelization_poc",
     "url": "https://github.com/spipm/depixelization_poc",
     "language": "Python",
@@ -5747,16 +5797,6 @@
     "forks": 1413,
     "description": "Rust-based platform for the Web",
     "last_seen": "2026-06-16",
-    "trending_days": 3
-  },
-  {
-    "name": "tech-leads-club/agent-skills",
-    "url": "https://github.com/tech-leads-club/agent-skills",
-    "language": "TypeScript",
-    "stars": 5468,
-    "forks": 491,
-    "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
-    "last_seen": "2026-09-13",
     "trending_days": 3
   },
   {
@@ -6750,6 +6790,16 @@
     "trending_days": 2
   },
   {
+    "name": "ever-co/ever-gauzy",
+    "url": "https://github.com/ever-co/ever-gauzy",
+    "language": "TypeScript",
+    "stars": 5802,
+    "forks": 978,
+    "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+    "last_seen": "2026-09-14",
+    "trending_days": 2
+  },
+  {
     "name": "expressjs/express",
     "url": "https://github.com/expressjs/express",
     "language": "JavaScript",
@@ -7110,16 +7160,6 @@
     "trending_days": 2
   },
   {
-    "name": "huggingface/transformers",
-    "url": "https://github.com/huggingface/transformers",
-    "language": "Python",
-    "stars": 165328,
-    "forks": 34543,
-    "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-    "last_seen": "2026-09-13",
-    "trending_days": 2
-  },
-  {
     "name": "hugohe3/ppt-master",
     "url": "https://github.com/hugohe3/ppt-master",
     "language": "Python",
@@ -7267,16 +7307,6 @@
     "forks": 4312,
     "description": "JavaScript animation engine",
     "last_seen": "2025-10-01",
-    "trending_days": 2
-  },
-  {
-    "name": "JustVugg/colibri",
-    "url": "https://github.com/justvugg/colibri",
-    "language": "C",
-    "stars": 29117,
-    "forks": 3188,
-    "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
-    "last_seen": "2026-09-13",
     "trending_days": 2
   },
   {
@@ -7527,6 +7557,16 @@
     "forks": 7490,
     "description": "Focus on prompting and generating",
     "last_seen": "2025-09-23",
+    "trending_days": 2
+  },
+  {
+    "name": "localsend/localsend",
+    "url": "https://github.com/localsend/localsend",
+    "language": "Dart",
+    "stars": 91141,
+    "forks": 5087,
+    "description": "An open-source cross-platform alternative to AirDrop",
+    "last_seen": "2026-09-14",
     "trending_days": 2
   },
   {
@@ -7787,16 +7827,6 @@
     "forks": 1522,
     "description": "Blazor Component Library based on Material Design principles with an emphasis on ease of use and extensibility",
     "last_seen": "2025-10-04",
-    "trending_days": 2
-  },
-  {
-    "name": "multimodal-art-projection/YuE",
-    "url": "https://github.com/multimodal-art-projection/yue",
-    "language": "Python",
-    "stars": 7575,
-    "forks": 850,
-    "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
-    "last_seen": "2026-09-13",
     "trending_days": 2
   },
   {
@@ -8237,16 +8267,6 @@
     "forks": 874,
     "description": "Use Claude Code, Cursor CLI or Codex on mobile and web with CloudCLI (aka Claude Code UI). CloudCLI is a free open source webui/GUI that helps you manage your Claude Code session and projects remotely",
     "last_seen": "2026-02-25",
-    "trending_days": 2
-  },
-  {
-    "name": "SnailSploit/Claude-Red",
-    "url": "https://github.com/snailsploit/claude-red",
-    "language": "Python",
-    "stars": 3919,
-    "forks": 575,
-    "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
-    "last_seen": "2026-09-13",
     "trending_days": 2
   },
   {
@@ -9870,16 +9890,6 @@
     "trending_days": 1
   },
   {
-    "name": "ever-co/ever-gauzy",
-    "url": "https://github.com/ever-co/ever-gauzy",
-    "language": "TypeScript",
-    "stars": 4703,
-    "forks": 913,
-    "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
-    "last_seen": "2026-09-13",
-    "trending_days": 1
-  },
-  {
     "name": "EvolutionAPI/evolution-api",
     "url": "https://github.com/evolutionapi/evolution-api",
     "language": "TypeScript",
@@ -10910,16 +10920,6 @@
     "trending_days": 1
   },
   {
-    "name": "localsend/localsend",
-    "url": "https://github.com/localsend/localsend",
-    "language": "Dart",
-    "stars": 87488,
-    "forks": 4856,
-    "description": "An open-source cross-platform alternative to AirDrop",
-    "last_seen": "2026-08-12",
-    "trending_days": 1
-  },
-  {
     "name": "lukas-blecher/LaTeX-OCR",
     "url": "https://github.com/lukas-blecher/latex-ocr",
     "language": "Python",
@@ -11730,6 +11730,16 @@
     "trending_days": 1
   },
   {
+    "name": "peetzweg/opendisplay",
+    "url": "https://github.com/peetzweg/opendisplay",
+    "language": "Swift",
+    "stars": 3450,
+    "forks": 245,
+    "description": "Free, open-source Sidecar/Duet alternative — use your iPhone or iPad as a true second monitor for your Mac over USB or WiFi. Low latency H.264, Retina HiDPI, touch input.",
+    "last_seen": "2026-09-14",
+    "trending_days": 1
+  },
+  {
     "name": "permissionlesstech/bitchat-android",
     "url": "https://github.com/permissionlesstech/bitchat-android",
     "language": "Kotlin",
@@ -11957,6 +11967,16 @@
     "forks": 160,
     "description": "A powerful Telegram bot that provides remote access to Claude Code, enabling developers to interact with their projects from anywhere with full AI assistance and session persistence.",
     "last_seen": "2026-02-21",
+    "trending_days": 1
+  },
+  {
+    "name": "rlaope/oh-my-hermes",
+    "url": "https://github.com/rlaope/oh-my-hermes",
+    "language": "Python",
+    "stars": 1904,
+    "forks": 153,
+    "description": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages",
+    "last_seen": "2026-09-14",
     "trending_days": 1
   },
   {

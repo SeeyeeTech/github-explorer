@@ -1268,6 +1268,9 @@ entries:
   - data-pipeline
   jiayi-pan_tinyzero:
   - model-foundation
+  jihe520_mathmodelagent:
+  - ai-agent
+  - devtools
   jina-ai_reader:
   - uncategorized
   jingyaogong_minimind:
@@ -1514,6 +1517,8 @@ entries:
   - security
   megadose_holehe:
   - devtools
+  melgarafael_deskcommcrm:
+  - ai-agent
   mempalace_mempalace:
   - database
   - protocol-spec
@@ -2331,6 +2336,11 @@ entries:
   - llm-inference
   - devtools
   - trading-finance
+  tech-leads-club_agent-skills:
+  - ai-agent
+  - devtools
+  - protocol-spec
+  - security
   telegrammessenger_telegram-ios:
   - uncategorized
   tencent_weknora:

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+/* 表格 */
+table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin: 1em 0 !important;
+    font-size: 14px !important;
+}
+th, td {
+    border: 1px solid #ddd !important;
+    padding: 8px 12px !important;
+    text-align: left !important;
+    color: #3e3e3e !important;
+}
+th {
+    background: #f5f5f5 !important;
+    font-weight: bold !important;
+}
+
+/* 图片 */
+img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 1em auto !important;
+    border-radius: 4px !important;
+}
+
+/* 链接 */
+a {
+    color: #e51f42 !important;
+    text-decoration: none !important;
+    border-bottom: 1px solid #e51f42 !important;
+}
+</style>
+</head>
+<body>
+
+<blockquote>
+<p><a href="https://github.com/jihe520/mathmodelagent">GitHub: https://github.com/jihe520/mathmodelagent</a></p>
+</blockquote>
+
+<h2>一句话总结</h2>
+
+<p>一个北京独立开发者用 16 个月、99 次提交、4 个角色化 Agent（Coordinator/Modeler/Coder/Writer）+ 34 套论文模板，做出了中文数学建模竞赛的<strong>端到端 AI 流水线</strong>：从赛题 PDF 到可直接提交的 Typst/LaTeX 论文，号称「把 3 天压缩到 1 小时」。</p>
+
+<h2>值得关注的理由</h2>
+
+<ol>
+<li><strong>细分赛道的事实标准</strong>：5,378 stars / 411 forks 是「中文大学生数模 + AI Agent」垂类的头部，竞品 lyc102/ifml、zhangye-zoe/MathModelAgent 等都已被其覆盖；学术派 MM-Agent 虽拿了 NeurIPS 2025 论文却未达到同等工程化深度。</li>
+<li><strong>SKILL-first 架构的可迁移价值</strong>：把整套工作流蒸馏成 6 个 SKILL.md（<code>1start-mathmodel</code> → <code>6verity</code>），支持 <code>npx skills add jihe520/MathModelAgent --all</code> 跨 Harness 复用——这是「方法论沉淀」型项目少见的资产形态。</li>
+<li><strong>强工程化 + 透明技术债</strong>：类型注解 / 中文 Google 风格 docstring / 强制 lint hook（ruff + biome）/ macOS 已签名 + Apple 公证的桌面版都已就位；与此同时 README 主动标注 HIL、Evaluator、Web Search、RAG、A2A Hand Off 都「未实现」——这种「做完了什么 + 没做什么」的清晰边界本身值得学习。</li>
+</ol>
+
+<h2>项目展示</h2>
+
+<p><img src="https://raw.githubusercontent.com/jihe520/mathmodelagent/main/docs/figure_templates.png" alt="数学建模图表模板展示"></p>
+
+<p><em>数模竞赛最核心的产出物——配图模板。这是项目差异化资产的代表：模板的多样性与规范性直接决定论文质量。</em></p>
+
+<p><img src="https://raw.githubusercontent.com/jihe520/mathmodelagent/main/docs/chat.png" alt="多 Agent 协作聊天面板"></p>
+
+<p><em>Coordinator / Modeler / Coder / Writer 四 Agent 协同聊天面板，体现「角色分工 + A2A Schema」的核心交互形态。</em></p>
+
+<p><img src="https://raw.githubusercontent.com/jihe520/mathmodelagent/main/docs/coder.png" alt="代码 Agent 工作台"></p>
+
+<p><em>Coder Agent 的本地 Jupyter 内核工作台：数据清洗、建模、可视化都在这里完成，然后由 Writer Agent 落笔。</em></p>
+
+<p><img src="https://raw.githubusercontent.com/jihe520/mathmodelagent/main/docs/302ai.jpg" alt="302.AI 接入示意"></p>
+
+<p><em>多 LLM Provider 接入示意（OpenAI / Anthropic / DeepSeek / Qwen / 302.AI 等），每个 Agent 可独立配置模型、Key 和上下文窗口。</em></p>
+
+<blockquote>
+<p>B 站与 README 双向引流的 Demo 视频 <code>mathmodelagent.mp4</code> 因公众号嵌入限制未直接展示，可访问 <a href="https://mathmodel.top/home">https://mathmodel.top/home</a> 观看。</p>
+</blockquote>
+
+<h2>项目画像</h2>
+
+<table>
+<thead>
+<tr><th>维度</th><th>数据</th></tr>
+</thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/jihe520/mathmodelagent">https://github.com/jihe520/mathmodelagent</a></td></tr>
+<tr><td>Star / Fork</td><td>5,378 / 411（Watcher 27）</td></tr>
+<tr><td>代码行数</td><td>21,647 行（Python 36.8% / YAML 22.7% / TeX 17.7% / TS 6.5% / Vue 3.1%）；后端 Python 约 6,317 行</td></tr>
+<tr><td>项目年龄</td><td>16.3 个月（首提交 2025-05-05）</td></tr>
+<tr><td>总 commit / 贡献者</td><td>99 / 13（主作者 Sanjin/jihe520 占比 81.4%）</td></tr>
+<tr><td>开发阶段</td><td>低维护（近 30 天 2 commit、近 90 天 6 commit；月分布呈 2025-05=28 → 2025-09=17 → 2025-10=1 → 2026-05=14 双脉冲衰减）</td></tr>
+<tr><td>开发模式</td><td>职业选手型 Side Project（周末占比 23.2%、深夜占比 28.3%——显著高于纯玩票项目）</td></tr>
+<tr><td>热度定位</td><td>细分赛道头部（中文数模垂类事实标准；通用 Agent 框架不可替代）</td></tr>
+<tr><td>质量评级</td><td>代码 B+ / 文档 A / 测试 D（核心 Agent 零测试） / CI/CD F（无 GitHub Actions）</td></tr>
+<tr><td>License</td><td><strong>未声明</strong>（开源但无 OSI 协议，公众号引用需注明）</td></tr>
+</tbody>
+</table>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+
+<p>Sanjin（jihe520），北京，账号 8.6 年老 GitHub 用户，公开仓库 22 个，粉丝 105。同期维护 social-push / mindpocket / sci-box / Gutchain 等多个 AI Agent / 工具类项目，把「独立开发者 + 一人多产品」的范式做到位。mathmodelagent 是其 Top 1 项目（其余均 &lt; 600 stars），是真正的「代表作」。8.6 年的账号年龄 + 13 位贡献者中的主导地位说明这不是赶热潮的产物，而是长期观察 + 多次迭代的结果。</p>
+
+<h3>问题判断</h3>
+
+<p>作者做了两年 Multi-Agent 数模项目并开源，洞察到一个被通用 LLM 工具忽视的卡点：<strong>「数学建模竞赛」的真正难点不是 LLM 推理能力，而是工作流的强模板化（论文结构、图表规范、引用格式）+ 子问题之间的强依赖（建模→代码→图表→论文段落的链式传递）</strong>。这是一个「LLM Agent 的最佳应用面」——前提是把工作流拆得足够细。</p>
+
+<p>时机选择：2025 年 1 月开仓，恰逢 Claude 3.5 Sonnet / GPT-4o 把长上下文与工具调用稳定性推到可工程化阶段；同时也是美赛/国赛赛季前——这是「技术可行性 × 季节性需求」的双重窗口。</p>
+
+<h3>解法哲学</h3>
+
+<ul>
+<li><strong>不替代人的判断，只替代重复劳动</strong>：策略选择、模型假设这类高价值判断留给人；清洗、编码、画图、排版、引用这类重复劳动给 Agent。</li>
+<li><strong>多 Agent 角色分工 + 显式 A2A Schema</strong>：Coordinator→Modeler→Coder→Writer→Verifier 流水线 + Pydantic 强类型 JSON 传递 + <code>MAX_JSON_RETRIES=3</code>。拒绝「单模型 prompt hack」，因为难以调试。</li>
+<li><strong>端到端 → 分段可重入</strong>：每个子问题独立走「建模→代码→论文」三步，依赖通过 Schema 显式传递——这正是 issue #63 揭示「端到端一次性生成」长上下文天花板的设计层回应。</li>
+<li><strong>SKILL-first 而非 Harness-first</strong>：把工作流蒸馏成 6 个 SKILL.md，让 Claude Code / Codex / Pi 等 Harness 直接驱动，避免被自研 Harness 绑架。</li>
+</ul>
+
+<h3>战略意图</h3>
+
+<ul>
+<li>短期：桌面版分发（macOS 已签名 + Apple 公证；Windows 待签名）降低学生部署门槛。</li>
+<li>中期：SKILL 单独发布为 <code>npx skills add jihe520/MathModelAgent --all</code> 可安装的包，跳出数模向「长流程 + 模板密集」的任意任务渗透（如白皮书、综述报告）。</li>
+<li>长期：从「单场竞赛助手」升级为「科研写作自动化平台」，与姊妹项目 sci-box（科研图表 SKILL）联动。</li>
+<li>商业化路径：暂未明示 SaaS / 托管版，但桌面版 + 自托管 + 多 LLM Provider 的产品形态本身已是「开源 + 增值服务」的成熟范式。</li>
+</ul>
+
+<blockquote>
+<p>数据源：Phase 1 已通过 WebFetch 官网 <a href="https://mathmodel.top/home">https://mathmodel.top/home</a> 与 README 采集核心叙事；本节推断基于代码（CLAUDE.md / SKILL.md / Issue #67 等）的作者意图识别。</p>
+</blockquote>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处</h3>
+
+<p>按新颖度×实用性排序：</p>
+
+<ol>
+<li><strong>SKILL-first 而非 Harness-first</strong>（新颖度 4/5、实用性 5/5、可迁移性 5/5）：把整套方法论蒸馏成可被任何 Harness 加载的 SKILL.md 资产，是「方法论沉淀」型项目的少见范式——知识可移植，用户不被自研 UI 绑架。</li>
+<li><strong>「图后必须 print 数据特征」强制 prompt 规范</strong>（新颖度 4/5、实用性 5/5、可迁移性 5/5）：解决 LLM 看不到图、只能拿 stdout 写图注的核心痛点：<code>print("【图X数据特征】R²=...MAE=...")</code>。方法粗暴但极有效。</li>
+<li><strong>Agent 工具调用完整性保护</strong>（新颖度 3/5、实用性 4/5、可迁移性 5/5）：<code>_is_safe_cut_point</code> + <code>_validate_and_fix_tool_calls</code> 防孤立 tool 消息触发 API 400；75% 阈值 → LLM 总结 + 安全切割点——长轮次 tool-use Agent 的通用解法。</li>
+<li><strong>本地 Jupyter + E2B 云沙箱双解释器抽象</strong>（新颖度 3/5、实用性 4/5、可迁移性 5/5）：<code>BaseCodeInterpreter</code> 抽象 + 本地版 UTF-8 强制 + 中文字体注入；E2B 应对「学生电脑参差」的部署现实。</li>
+<li><strong>Typst + LaTeX 双排版引擎 + 34 套模板</strong>（新颖度 3/5、实用性 5/5、可迁移性 4/5）：老用户 LaTeX vs 新生代 Typst 的兼容策略；<code>5writing/SKILL.md</code> AskUserQuestion 选引擎，默认 LaTeX 兜底；<code>6verity</code> 自动识别 <code>.typ</code>/<code>.tex</code> 走不同编译链。</li>
+<li><strong>多 LLM 配置（每 Agent 独立 model/key/context_window）</strong>（新颖度 2/5、实用性 4/5、可迁移性 4/5）：成本敏感的多角色 Agent 标配；自研 <code>LLMFactory</code> 替代 LiteLLM 换取可控性。</li>
+<li><strong>6 HIL 决策动作数据模型</strong>（新颖度 3/5、实用性 3/5、可迁移性 4/5）：<code>HIL_CHECKPOINTS</code> 4 节点 + 6 决策动作——设计先行、闭环 TODO，是少见的人机协作 Agent 暂停-恢复模式。</li>
+</ol>
+
+<h3>可复用的模式与技巧</h3>
+
+<ol>
+<li><strong>A2A Schema + 多 Agent 流水线</strong>：分阶段跨领域任务的标配。适用：任何「X → Y → Z」链式产出。</li>
+<li><strong>Provider 抽象 + 多 LLM 配置</strong>：成本敏感型多角色 Agent 必备。适用：要让用户「按角色优化 token 成本」的场景。</li>
+<li><strong>Jupyter 本地 + 云沙箱双解释器 + NotebookSerializer</strong>：Jupyter-based Agent 的部署现实解。适用：科学计算类 Agent。</li>
+<li><strong>Redis Pub/Sub + WebSocket + 落盘兜底</strong>：长任务实时反馈的工程范式。<code>asyncio.wait(chat_task, cancel_wait_task)</code> 实现可中断的 Stop。适用：5~30 分钟级 AI 任务。</li>
+<li><strong>「图后 print 数据特征」+ 全局 rcParams 注入</strong>：vision-less 数据可视化的 prompt+rcParams 双锁。适用：任何需要「LLM 自审图表」的 Agent。</li>
+<li><strong>SKILL-first 而非 Harness-first</strong>：方法论可移植资产。适用：知识密集 + 长流程场景。</li>
+<li><strong>桌面版分发（内嵌 Claude Code + 1 个 API Key 起步）</strong>：降低 LLM App 使用门槛的硬工程。适用：技术学生 / 非开发者用户。</li>
+</ol>
+
+<h3>关键设计决策</h3>
+
+<ol>
+<li><strong>决策</strong>：四角色多 Agent + 显式 A2A Pydantic Schema（<code>CoordinatorToModeler</code> / <code>ModelerToCoder</code> / <code>CoderToWriter</code>）
+<ul>
+<li><strong>问题</strong>：单模型「熵增」，prompt hack 难调试</li>
+<li><strong>方案</strong>：流水线 + JSON 强类型 Schema + <code>MAX_JSON_RETRIES=3</code></li>
+<li><strong>Trade-off</strong>：流程长 / token 多，但换来「单步可重跑、可定位失败」</li>
+<li><strong>可迁移性</strong>：高</li>
+</ul>
+</li>
+<li><strong>决策</strong>：Agent 基类记忆压缩 + 工具调用完整性保护
+<ul>
+<li><strong>问题</strong>：长轮次 CoderAgent 撑爆 context；乱删产生孤立 tool 消息触发 API 400</li>
+<li><strong>方案</strong>：75% 阈值 → LLM 总结 + 安全切割点 + 请求前清洗悬挂 tool_calls</li>
+<li><strong>Trade-off</strong>：总结可能丢细节，但保住工具一致性（issue #63 长上下文天花板的缓兵之计）</li>
+<li><strong>可迁移性</strong>：高</li>
+</ul>
+</li>
+<li><strong>决策</strong>：多 LLM 配置 + Provider 抽象（自研替代 LiteLLM）
+<ul>
+<li><strong>问题</strong>：不同 Agent 适合不同模型；旧版 LiteLLM 切换耦合深</li>
+<li><strong>方案</strong>：<code>LLMFactory</code> 4 角色独立装配；<code>BaseProvider</code> + 3 实现；Anthropic 与 OpenAI 走不同 tool schema</li>
+<li><strong>Trade-off</strong>：自研比 LiteLLM 重但可控</li>
+<li><strong>可迁移性</strong>：中</li>
+</ul>
+</li>
+<li><strong>决策</strong>：本地 Jupyter + E2B 云沙箱双解释器
+<ul>
+<li><strong>问题</strong>：学生电脑参差，需要可重入 / 可中断 / 可隔离</li>
+<li><strong>方案</strong>：<code>BaseCodeInterpreter</code> 抽象 + <code>LocalCodeInterpreter</code>（UTF-8 强制 + 中文字体注入）+ <code>E2BCodeInterpreter</code>，共用 <code>NotebookSerializer</code></li>
+<li><strong>Trade-off</strong>：本地版要 Python + Redis；E2B 依赖外网</li>
+<li><strong>可迁移性</strong>：高</li>
+</ul>
+</li>
+<li><strong>决策</strong>：Redis Pub/Sub + 消息落盘（<code>logs/messages/{task_id}.json</code>）
+<ul>
+<li><strong>问题</strong>：长任务 5~30 分钟需要流式 + 不丢消息</li>
+<li><strong>方案</strong>：<code>redis_manager.publish_message</code> + <code>ws_router</code> 订阅 + 落盘兜底</li>
+<li><strong>Trade-off</strong>：多 Redis 依赖 + 落盘 IO 开销</li>
+<li><strong>可迁移性</strong>：高</li>
+</ul>
+</li>
+<li><strong>决策</strong>：预校验配置 → <code>LLMConfigError</code>（与 <code>ValueError</code> 区分）
+<ul>
+<li><strong>问题</strong>：旧版缺 API Key 时跑 CoordinatorAgent 才报错，调试路径长</li>
+<li><strong>方案</strong>：workflow 入口前 fail-fast</li>
+<li><strong>Trade-off</strong>：前端需处理 400 / 500</li>
+<li><strong>可迁移性</strong>：高</li>
+</ul>
+</li>
+</ol>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+
+<table>
+<thead>
+<tr><th>维度</th><th>mathmodelagent</th><th>lyc102/ifml</th><th>MM-Agent (NeurIPS 2025)</th><th>docs.reaslab.io</th><th>通用 Agent（deer-flow/MetaGPT）</th></tr>
+</thead>
+<tbody>
+<tr><td>形态</td><td>端到端 Web+桌面+SKILL</td><td>Prompt 清单</td><td>学术方法 + 论文</td><td>闭源 SaaS</td><td>通用 Harness + Library</td></tr>
+<tr><td>Stars</td><td>5,378</td><td>~1k（估）</td><td>数百</td><td>闭源</td><td>7-10w（远超）</td></tr>
+<tr><td>多 Agent 编排</td><td>强（4 角色 + A2A Schema）</td><td>无</td><td>中</td><td>闭源不可见</td><td>强</td></tr>
+<tr><td>论文模板</td><td>34 套（Typst+LaTeX 双引擎）</td><td>无</td><td>学术模板</td><td>桌面模板</td><td>需自己写</td></tr>
+<tr><td>开箱即用度</td><td>高（桌面版 1 个 API Key）</td><td>中</td><td>低（论文级）</td><td>高（但需注册）</td><td>低</td></tr>
+<tr><td>中文数模适配</td><td>深度（子问题节奏 / 配图规范）</td><td>浅</td><td>学术通用</td><td>中</td><td>无</td></tr>
+<tr><td>开源完整度</td><td>100%</td><td>100%</td><td>论文级</td><td>0%（闭源）</td><td>100%</td></tr>
+<tr><td>学术背书</td><td>无</td><td>无</td><td>NeurIPS 2025 / ICML 2025 AI4MATH</td><td>无</td><td>无</td></tr>
+<tr><td>SKILL 化资产</td><td>有（6 SKILL.md）</td><td>无</td><td>无</td><td>无</td><td>无</td></tr>
+</tbody>
+</table>
+
+<h3>差异化护城河</h3>
+
+<ol>
+<li><strong>端到端流水线最深</strong>：从赛题 PDF → 多 Agent 协同 → Typst/LaTeX 论文 → 编译 → 验收，整链路自闭环。</li>
+<li><strong>模板资产最全</strong>：34 套（14 中文 + 3 英文 × 双引擎）模板 + 17 个数学建模专用图表模板。</li>
+<li><strong>SKILL 化资产沉淀可跨 Harness</strong>：<code>npx skills add jihe520/MathModelAgent --all</code> 让方法论不被自研 UI 绑架。</li>
+<li><strong>中文数模圈用户基数</strong>：5,378 stars + mathmodel.top 平台 + sci-box 联动 = 中文数模场景的「默认入口」。</li>
+</ol>
+
+<h3>竞争风险</h3>
+
+<ul>
+<li><strong>学术派 MM-Agent 若开源</strong>：方法论一旦补齐工程化就是直接威胁。</li>
+<li><strong>HIL / Evaluator 闭环未完整 + issue #63 长上下文天花板</strong>：是「能不能跑出 Top 2% 论文」的硬伤。</li>
+<li><strong>单人主导 75% commits</strong>：维护者精力有限，issue #67 显示社区 contributor 主动提议 Web Search / RAG / HIL / Feedback 但维护者态度暧昧。</li>
+<li><strong>测试覆盖 0%</strong>：核心 Agent / Workflow / Tools 零测试，重构风险大。</li>
+<li><strong>License 未声明</strong>：开源但无 OSI 协议，企业使用有合规风险。</li>
+</ul>
+
+<h3>生态定位</h3>
+
+<p>中文数模垂类的「事实标准」+ 「数模场景的 Cursor」——既是工具也是社区入口。通用 Agent 框架（deer-flow / MetaGPT / learn-claude-code）覆盖的是「通用长程任务」，mathmodelagent 覆盖的是「特定场景的端到端工作流 + 模板 + 规范」，两者错位竞争。</p>
+
+<h2>套利机会分析</h2>
+
+<ul>
+<li><strong>信息差</strong>：低（垂类头部 5K stars，已经不是被低估的潜力股）。但是<strong>对 Agent 开发者来说，作者的 SKILL 化思路与 <code>npx skills add</code> 分发范式是值得学习的「方法论迁移」范式</strong>——大多数 AI 工具还在卷 UI 和 SaaS。</li>
+<li><strong>技术借鉴</strong>：① A2A Schema + 强类型 JSON 传递；② 工具调用完整性保护（防孤立 tool 消息）；③ 「图后 print 数据特征」+ 全局 rcParams 注入；④ Redis Pub/Sub + 落盘兜底的长任务反馈模式——四条都是可立即迁移到任何 LLM Agent 项目中的工程技巧。</li>
+<li><strong>生态位</strong>：在「中文数模」垂类已无空白可填；真正的空白是「其他长流程 + 模板密集」的细分赛道（如白皮书、综述报告、学术论文综述）——这正是作者战略图景中提到的中期方向。</li>
+<li><strong>趋势判断</strong>：在「Harness 能力趋同 + 模型能力趋同」的趋势下，<strong>SKILL 化的领域方法论沉淀</strong>将成为差异化主战场。mathmodelagent 的 SKILL 资产是其穿越模型周期的护城河。</li>
+</ul>
+
+<h2>风险与不足</h2>
+
+<ul>
+<li><strong>技术债明显</strong>：test/refactor 双 0%；commit 中 refactor 仅 2%；核心 Agent / Workflow / Tools 无任何测试覆盖——意味着每次 Agent 编排改动都是「带病上线」。</li>
+<li><strong>关键功能未闭环</strong>：HIL、Evaluator、Web Search、RAG、A2A Hand Off 都在 README 明确标注「未实现」；issue #63 长上下文天花板是「端到端一次性生成」假设的硬伤。</li>
+<li><strong>单人主导 + 维护疲劳</strong>：近 30 天仅 2 commit、近 90 天 6 commit，月分布已从 28 → 17 → 1 → 14 → 骤降；8.6 年老账号 + 多产品并行，Sanjin 精力有限是真实的项目风险。</li>
+<li><strong>License 缺失</strong>：开源但未声明 OSI 协议，企业使用与二次分发存在法律模糊。</li>
+<li><strong>CI/CD 空白</strong>：无 GitHub Actions，仅靠 <code>.claude/hook_lint.sh</code> 的本地 PostToolUse ruff/biome 检查——质量保障主要靠人工。</li>
+</ul>
+
+<h2>行动建议</h2>
+
+<ul>
+<li><strong>如果你要用它</strong>：作为中文数模参赛工具，桌面版（macOS 已签名，Windows 待签名）+ 1 个 API Key 是最低门槛方案。建议先用「中文 LaTeX 模板」跑美赛/国赛，把 17 套图表模板与「图后 print 数据特征」规范用足。注意：不要把 5,378 stars 当作「学术背书」——它没有论文级评测。</li>
+<li><strong>如果你要学它</strong>：重点关注 <code>backend/app/core/agents/agent.py</code>（记忆压缩 + 工具完整性保护）、<code>backend/app/core/prompts/</code>（4 Agent system prompt）、<code>backend/app/core/workflow.py</code>（编排）、<code>backend/app/core/llm/</code>（Provider 抽象）、<code>skills/5writing/SKILL.md</code>（论文写作 SKILL 范式）。这五个文件组合起来就是「多 Agent + SKILL-first」的最小可复用工程模板。</li>
+<li><strong>如果你要 fork 它</strong>：① 把 issue #63 的「长论文分段续写 + 检查点」做实（这是核心痛点）；② 把 HIL 6 决策动作落地为工作流；③ 把测试覆盖补到核心 Agent / Workflow（哪怕 10% 也比 0% 好）；④ 加 LICENSE（推荐 Apache-2.0）；⑤ 探索非数模场景的 SKILL 迁移（如科研综述、白皮书）。</li>
+</ul>
+
+<h3>知识入口</h3>
+
+<table>
+<thead>
+<tr><th>资源</th><th>链接</th></tr>
+</thead>
+<tbody>
+<tr><td>DeepWiki</td><td>未收录（页面仅 Loading，无实质内容）</td></tr>
+<tr><td>Zread.ai</td><td>未收录（Cloudflare 403 拦截）</td></tr>
+<tr><td>关联论文</td><td>无独立 arXiv；同类 MM-Agent 有 NeurIPS 2025 / ICML 2025 AI4MATH 论文</td></tr>
+<tr><td>在线 Demo</td><td><a href="https://mathmodel.top/home">https://mathmodel.top/home</a>（截图演示 + 视频）；GitHub Releases 提供桌面端下载（macOS / Windows）</td></tr>
+</tbody>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+/* 图片（markdown 转的图） */
+img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 1em auto !important;
+    border-radius: 4px !important;
+}
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/melgarafael/deskcommcrm">https://github.com/melgarafael/deskcommcrm</a></p></blockquote>
+
+<h2>一句话总结</h2>
+
+<p>巴西独立开发者 Rafael Melgaço 用 4.5 个月、v1.20.0、2372 stars 做出 MIT 自托管的 WhatsApp AI 销售型 CRM——把 LLM 不确定性当成「可观测 + 可治理 + 可回滚」的产品表面来工程化，是少有的「葡语 + WhatsApp 垂直 + AI agent + 自托管」四重定位的开源项目。</p>
+
+<h2>值得关注的理由</h2>
+
+<ul>
+<li><strong>「LLM 当成产品表面」的工程范式</strong>：7 层守门链 + <code>pg_advisory_xact_lock</code> 串行 + send-only-via-tool + 4000 行 inbound-turn 单轮 agent，把 LLM 不可控变成「可被守门、串行、审计」的工程对象</li>
+<li><strong>PRD-first / Schema-first / 不变式测试驱动</strong>：50% 注释比 + 24,068 行 baseline.sql + 420 次不变式测试 + 5 条「Sistema Vivo」教条，工程师主导项目里少见</li>
+<li><strong>避开红海的价格层定位</strong>：与 Kommo $35-45/用户/月、Intercom $0.99/resolved outcome 错位，用「自托管 + 无 per-seat」打巴西中小企业 + 白标 agency 蓝海</li>
+</ul>
+
+<h2>项目展示</h2>
+
+<p><img src="https://raw.githubusercontent.com/melgarafael/deskcommcrm/main/docs/brand/deskcomm-logo.svg" alt="Deskcomm 品牌 logo" /></p>
+
+<p><img src="https://deskcomm.com.br/img/mesa-01-completa.png" alt="Hero 桌面图——一桌化的商业操作" /></p>
+
+<p><img src="https://deskcomm.com.br/img/viloes-01-planilha.png" alt="Problem framing——线索从分散渠道流失" /></p>
+
+<p><img src="https://deskcomm.com.br/img/cena-03.png" alt="7 层发送前护栏架构" /></p>
+
+<p><img src="https://deskcomm.com.br/img/cena-07.png" alt="Radar 停滞线索场景" /></p>
+
+<blockquote><p>总发现 7 个媒体元素，筛选后保留 5 个（README 1 个 + 官网 4 个）。无 Demo GIF / 无视频。</p></blockquote>
+
+<h2>项目画像</h2>
+
+<p>| 维度 | 数据 |<br/>|------|------|<br/>| GitHub | <a href="https://github.com/melgarafael/deskcommcrm">https://github.com/melgarafael/deskcommcrm</a> |<br/>| Star / Fork | 2372 / 608（4.5 个月） |<br/>| Watcher / Open Issue | 16 / — |<br/>| 代码行数 | 424,121 行（TypeScript 68.6% / TSX 16.7% / SQL 7.4% / JSON 3.0% / YAML 2.1% / Shell 1.5%） |<br/>| 项目年龄 | 4.5 个月（2026-04-28 ~ 2026-09-12） |<br/>| 开发阶段 | 密集开发（近 30 天 1776 commit、4 天 4 个 release） |<br/>| 贡献模式 | 单人主导（Rafael 88.9% / 3494 commits，其余 29 人 522 commits） |<br/>| 热度定位 | 小众精品（葡语 + WhatsApp 垂直 + 自托管三重护城河） |<br/>| 质量评级 | 代码[优秀] 文档[黄金级] 测试[优秀，测试：代码 ≈ 0.8:1] CI[严格] |<br/>| 最新版本 | v1.20.0（31 tag / 28 Release，SemVer） |</p>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+
+<p>Rafael Melgaço（独立开发者，3.8 年 GitHub 账号），bio 葡语「Despertando o potencial do ser humano com as IAs」（用 AI 唤醒人的潜能）。从账号名 <code>melgarafael</code> 和 topics 里反复出现的 <code>lgpd</code> / <code>nuvemshop</code> / <code>waha</code> / <code>whatsapp</code> 看，作者深嵌巴西电商 + WhatsApp-first 的销售自动化生态，绑定 HostGator VPS 做自托管发行渠道。其他 9 个最近活跃仓库 stars 均 ≤ 33，本仓库是唯一主战场——「一人一项目」创业路径。</p>
+
+<h3>问题判断</h3>
+
+<p>作者看到了巴西 SMB 在对话销售里的结构性痛点：</p>
+
+<ol>
+<li><strong>多渠道线索落地即流失</strong>——WhatsApp / Instagram / 网站表单各自孤立，线索死在工具缝里</li>
+<li><strong>闭源 CRM 的价格歧视</strong>——Kommo $35-45/seat、Intercom $0.99/resolved outcome，agent 数量被 vendor 锁死</li>
+<li><strong>AI 黑盒导致企业不敢用</strong>——销售对话<strong>发错一句话可能毁掉客户关系</strong>，传统 LLM 编排无法满足 LGPD 合规 + 错误审计要求</li>
+</ol>
+
+<h3>解法哲学</h3>
+
+<p><strong>「Living System」5 条教条</strong>（刻进 <code>conferencias-de-saida</code> 双重镜像 + CI）：</p>
+
+<ol>
+<li>无孤岛（线索从进到收一桌化）</li>
+<li>线索死不诊断（雷达主动识别停滞）</li>
+<li>AI 必审计（每个 AI 动作有 <code>audit/actions.ts</code> 单源真相数组）</li>
+<li>隐形日志即死日志（先审计、再说话）</li>
+<li>跟进是反死亡（<code>lib/followup/</code> 自研图引擎 + Zod schema + 8 节点类型）</li>
+</ol>
+
+<p><strong>明确不做什么</strong>：不做闭源、不做 per-seat 计费、不做 Cloud 锁定（WAHA 是反 Meta 官方 API 的选择，README 明示）、不做无审计的 LLM 编排。</p>
+
+<h3>战略意图</h3>
+
+<p><strong>垂直 SaaS 创业</strong>：homepage <code>deskcomm.com.br</code> + HostGator 安装脚本 + topics 含 <code>whatsapp</code> / <code>nuvemshop</code> / <code>self-hosted</code> / <code>lgpd</code> → 面向巴西电商（WhatsApp 为主入口、Nuvemshop 集成）的自托管 CRM + AI Agent，LGPD 合规写进 schema 和 audit 层。MIT 协议 + 白标 agency 路径 = 通过合作伙伴分发，作者本人做核心产品 + 文档引擎。<strong>genuinely open</strong>，不靠 open-core 商业化——商业化在 HostGator VPS 渠道的「托管 + 咨询 + 培训」。</p>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处</h3>
+
+<ol>
+<li><strong>「LLM 当产品表面」的守门链版本化（新颖度 5/5 · 实用性 5/5 · 可迁移性 4/5）</strong>
+<ul>
+<li><code>BEFORE_SEND_GATES</code> 常量 + 顺序固定 7 层（stop→lgpd→pacing→window→spinning→promise→semantic→case_promise→vocabulary→disclosure）</li>
+<li>双向测试断言锁住顺序，新增/删减必须改测试 → 治理刻进 CI</li>
+<li><code>pg_advisory_xact_lock</code> per-channel-session 串行 → DB 自带的应用层 mutex</li>
+</ul>
+</li>
+<li><strong>自研图引擎 <code>lib/followup/</code>（新颖度 4/5 · 实用性 5/5 · 可迁移性 4/5）</strong>
+<ul>
+<li>877 行引擎 + Zod schema + 8 节点类型 + v2 命名分支</li>
+<li>替代 n8n / Temporal 等重型方案的，runtime 内存级 followup 图</li>
+</ul>
+</li>
+<li><strong><code>audit/actions.ts</code> 单源真相 + 类型推导（新颖度 4/5 · 实用性 5/5 · 可迁移性 5/5）</strong>
+<ul>
+<li>500 行数组定义所有可审计动作，TypeScript 自动推导 union type</li>
+<li>替代「手抄 type union + switch case」的常见错位，新增审计事件零成本</li>
+</ul>
+</li>
+<li><strong>self-curing <code>baseline.sql</code>（新颖度 5/5 · 实用性 5/5 · 可迁移性 3/5）</strong>
+<ul>
+<li>24,068 行单文件 schema migration + data migration in one</li>
+<li>反 supabase 迁移系统设计，专为「重装也能跑」的自托管承诺服务</li>
+</ul>
+</li>
+<li><strong>单轮 agent + checkpoint 第二调用（新颖度 4/5 · 实用性 5/5 · 可迁移性 5/5）</strong>
+<ul>
+<li>4084 行 <code>inbound-turn.ts</code> 把 LLM 上下文 + DB 状态做双层记忆</li>
+<li>强制 <code>send_message</code> 为唯一出口、预算耗尽时整轮包裹 → 人类接管</li>
+</ul>
+</li>
+</ol>
+
+<h3>可复用的模式与技巧</h3>
+
+<ul>
+<li><strong><code>pg_advisory_xact_lock</code> per-session 串行</strong>：用 DB 原生 advisory lock 做应用层 mutex，<strong>比 Redis 锁简单 100 倍</strong></li>
+<li><strong>「测试文件本身被 hook 冻结」</strong>：<code>.specs/</code> 目录下的不变式测试 hook 拒绝新增/删减，强制走 PR 审查</li>
+<li><strong><code>conferencias-de-saida</code> 双重镜像</strong>：9 项安全检查翻译给运营人员，7 项不允许关（UI 直接说「不能关」）→ 让「治理」从工程语言变产品语言</li>
+<li><strong>3 档错误分级</strong>（<code>JobSettledError</code> / <code>failJob</code> / <code>warn</code>）+ PII 不入 log + fail-safe 默认值</li>
+<li><strong>5 条 Living System 教条卡每次合并</strong>：让设计哲学可执行而非贴在 wiki</li>
+</ul>
+
+<h3>关键设计决策</h3>
+
+<ol>
+<li><strong>决策</strong>: 守门链 7 层顺序固化 + 双向测试锁
+<ul>
+<li>问题： LLM 输出不可控，企业销售场景错误代价极高</li>
+<li>方案： 顺序固化的 <code>BEFORE_SEND_GATES</code> 常量 + 「顺序必须匹配」的测试断言</li>
+<li>Trade-off: 牺牲灵活性换可治理性，新层必须改测试</li>
+<li>可迁移性： 高（任何 LLM 应用都可借鉴）</li>
+</ul>
+</li>
+<li><strong>决策</strong>: 单文件 24,068 行 <code>baseline.sql</code> 自愈 schema
+<ul>
+<li>问题： 自托管用户重装/升级频繁，传统 migration 系统要求严格顺序</li>
+<li>方案： 单文件 idempotent + auto-curing，跑两遍 <code>ON_ERROR_STOP=1</code> 验证</li>
+<li>Trade-off: 牺牲单一职责换一键安装承诺</li>
+<li>可迁移性： 中（适合自托管产品，不适合 SaaS）</li>
+</ul>
+</li>
+<li><strong>决策</strong>: 强制 <code>send_message</code> 为 agent 唯一出口
+<ul>
+<li>问题： agent 跑着跑着自己发邮件/写文件/调 webhook，失控面太大</li>
+<li>方案： 工具调用层面只暴露 <code>send_message</code>，所有副作用集中审计</li>
+<li>Trade-off: 牺牲 agent 灵活性换 100% 行为可审计</li>
+<li>可迁移性： 高（任何生产 LLM 应用都该这么设计）</li>
+</ul>
+</li>
+<li><strong>决策</strong>: 自研 followup 图引擎而非引入 n8n/Temporal
+<ul>
+<li>问题： 引入外部 workflow 引擎 = 部署复杂 + 运行时开销</li>
+<li>方案： 877 行内存级引擎 + Zod schema + 8 节点类型</li>
+<li>Trade-off: 牺牲生态丰富度换零依赖、零运维</li>
+<li>可迁移性： 高（任何 followup 场景可借鉴）</li>
+</ul>
+</li>
+</ol>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+
+<p>| 维度 | DeskcommCRM | Chatwoot | Evolution API | Kommo/Intercom | wacrm |<br/>|------|-------------|----------|---------------|----------------|-------|<br/>| 定位 | 销售型 CRM + AI agent | 全渠道客服 inbox | WhatsApp 中间层 | 闭源商业 CRM | 开源 WhatsApp CRM |<br/>| Stars | 2.4k | ~25k | ~5k | N/A（闭源） | &lt;1k |<br/>| AI Agent | ✅ 7 层守门 + 知识库 RAG | ❌ 无原生 | ❌ 无 | ✅ Intercom Fin 强 | ❌ 无 |<br/>| 自托管 | ✅ MIT + 一行安装 | ✅ MIT + DevOps | ✅ MIT | ❌ 仅 SaaS | ✅ MIT |<br/>| 多租户 RLS | ✅ 364 不变量测试 | 部分 | ❌ | ✅ | ❌ |<br/>| 价格 | 零 + 自家 VPS | 零 + 自家 VPS | 零 + 自建前端 | $35-45/seat 或 $0.99/outcome | 零 + 自家 VPS |<br/>| LGPD 合规 | ✅ 写进 schema + audit | 部分 | ❌ | 部分 | ❌ |</p>
+
+<h3>差异化护城河</h3>
+
+<ul>
+<li><strong>守门链版本化 + 不变式测试锁</strong>：竞品都没把「LLM 输出合规」做成可 CI 化的治理对象</li>
+<li><strong>WhatsApp + AI agent + 自托管 + LGPD 四重交集</strong>：无直接同位竞品</li>
+<li><strong>价格层错位</strong>：与 Kommo/Intercom 不在同一价格层（自托管 = $0 vs $35+/seat）</li>
+<li><strong>巴西本土生态绑定</strong>：WAHA + Nuvemshop + HostGator + 葡语文档 = 巴西 SMB 客户无门槛</li>
+</ul>
+
+<h3>竞争风险</h3>
+
+<ul>
+<li><strong>WAHA QR 方案政策风险</strong>：WAHA 不被 Meta 认可（README 明示），Meta 收紧政策则需迁 Cloud API</li>
+<li><strong>Supabase 免费层瓶颈</strong>：500MB/1GB 限制对客户群是硬天花板</li>
+<li><strong>0 refactor + 35% fix 占比</strong>：未来 v2.x 大概率是技术债偿还期，与新功能并行压力高</li>
+</ul>
+
+<h3>生态定位</h3>
+
+<p>在整个 CRM 生态里：<strong>销售型 CRM 的开源替代 + AI agent 治理范式样本</strong>。与 Chatwoot 互补（客服 vs 销售）、与 Evolution API 上游（中间层 vs 成品）、与闭源 SaaS 价格层错位。<strong>填补空白</strong>：WhatsApp-first 销售 SMB 自托管市场。</p>
+
+<h2>套利机会分析</h2>
+
+<ul>
+<li><strong>信息差</strong>: 低（已多次被外部媒体报道，节奏密集）。但<strong>对中文圈仍是信息差</strong>——葡语 + 巴西本土项目在中文搜索几乎为零，翻译整理即价值</li>
+<li><strong>技术借鉴</strong>:
+<ul>
+<li><code>pg_advisory_xact_lock</code> per-session 串行 → 任何多租户 SaaS 都可借鉴</li>
+<li>守门链版本化 + 双向测试锁 → 任何 LLM 生产应用的核心模式</li>
+<li><code>audit/actions.ts</code> 单源真相数组 + 类型推导 → 任何合规审计场景的范式</li>
+<li>自愈 <code>baseline.sql</code> → 自托管产品的「承诺-兑现」一致性工程</li>
+</ul>
+</li>
+<li><strong>生态位</strong>: 巴西 SMB + 白标 agency 的开源自托管 + 中国出海企业（葡语市场）的合规 CRM 选型</li>
+<li><strong>趋势判断</strong>:
+<ul>
+<li>✅ WhatsApp Business API 在拉美渗透率上升</li>
+<li>✅ LGPD 类似 GDPR，全球合规需求增长</li>
+<li>✅ AI agent 治理范式会被更多 LLM 产品抄（先发优势）</li>
+<li>⚠️ Meta 政策风险 + Supabase 免费层瓶颈是天花板</li>
+</ul>
+</li>
+</ul>
+
+<h2>风险与不足</h2>
+
+<ol>
+<li><strong>技术债信号</strong>：4.5 个月 4016 commit、0 refactor、fix 占 35.5%，未来 v2.x 必是重构期</li>
+<li><strong>生态依赖风险</strong>：
+<ul>
+<li>WAHA QR 政策风险（Meta 不认可官方路径）</li>
+<li>Supabase 免费层 500MB/1GB 限制</li>
+<li>TS 6 + Next.js 16 + React 19 + Zod 4 全是当年最新，升级链一旦断档影响大</li>
+</ul>
+</li>
+<li><strong>CI 偶发 30 min 超时</strong>（GitHub Actions 硬限制）</li>
+<li><strong>50% 注释比，新人阅读成本高</strong>——优点也是缺点</li>
+<li><strong>关键 Issue #184</strong> <code>baseline.sql</code> 非幂等直接命中产品首页承诺，是工程纪律与产品宣传一致性的关键证据</li>
+<li><strong>AI agent 行为审计</strong>仍需在生产环境验证（公开测试数据有限）</li>
+</ol>
+
+<h2>行动建议</h2>
+
+<ul>
+<li><strong>如果你要用它</strong>:
+<ul>
+<li>适合：巴西 SMB / 白标 agency / 中国出海拉美的电商（葡语市场）+ 想自托管 CRM + 需要 LGPD 合规</li>
+<li>不适合：北美/欧洲市场（WhatsApp 渗透率不同）、多渠道重型客服场景（用 Chatwoot）、需要闭源 SLA 的大企业</li>
+</ul>
+</li>
+<li><strong>如果你要学它</strong>:
+<ul>
+<li>必读 5 个文件：
+<ol>
+<li><code>lib/agent-engine/agent/inbound-turn.ts</code>（4084 行，单轮 agent 教科书）</li>
+<li><code>lib/agent-engine/guardrails/before-send.ts</code>（守门链版本化）</li>
+<li><code>lib/audit/actions.ts</code>（审计动作单源真相）</li>
+<li><code>supabase/baseline.sql</code>（自愈 schema）</li>
+<li><code>AGENTS.md</code>（Living System 5 教条的执行细节）</li>
+</ol>
+</li>
+<li>必看 3 个目录：<code>tests/invariants/</code>、<code>docs/</code>、<code>conferencias-de-saida/</code>（双重镜像）</li>
+</ul>
+</li>
+<li><strong>如果你要 fork 它</strong>:
+<ul>
+<li>加 Cloud API 路径（不只 QR）→ 解 WAHA 政策风险</li>
+<li>接 Supabase Pro 适配 → 解免费层瓶颈</li>
+<li>引入 Temporal/n8n 替换自研 followup → 减代码维护成本（但牺牲自托管简洁性）</li>
+</ul>
+</li>
+</ul>
+
+<h3>知识入口</h3>
+
+<p>| 资源 | 链接 |<br/>|------|------|<br/>| DeepWiki | 未收录 |<br/>| Zread.ai | 未收录（403） |<br/>| 关联论文 | 无 |<br/>| 在线 Demo | 无公开 Playground |<br/>| 外部深度文章 | <a href="https://mangodeveloper.com/articles/deskcommcrm-hits-1k-stars-self-hosted-ai-crm-for-whatsapp-goes-production-ready">Mangodeveloper: 1.6K Stars 分析</a> · <a href="https://provenlabs.ai/journal/deskcommcrm-open-source-whatsapp-crm-kommo-intercom-alternative">ProvenLabs: WhatsApp AI CRM 评测</a> |</p>
+</body>
+</html>

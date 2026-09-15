@@ -1,141 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-09-12",
+    "last_run": "2026-09-15",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/holaboss-ai/holaos",
-      "canonical_url": "https://github.com/holaboss-ai/holaOS",
-      "event_date": "2026-08-13",
-      "date_seen": "2026-08-13"
-    },
-    {
-      "key": "github.com/kepano/obsidian-skills",
-      "canonical_url": "https://github.com/kepano/obsidian-skills",
-      "event_date": "2026-08-13",
-      "date_seen": "2026-08-13"
-    },
-    {
-      "key": "github.com/unslothai/unsloth",
-      "canonical_url": "https://github.com/unslothai/unsloth",
-      "event_date": "2026-08-13",
-      "date_seen": "2026-08-13"
-    },
-    {
-      "key": "github.com/anthropics/claude-code",
-      "canonical_url": "https://github.com/anthropics/claude-code",
-      "event_date": "2026-08-13",
-      "date_seen": "2026-08-13"
-    },
-    {
-      "key": "github.com/google/adk-go",
-      "canonical_url": "https://github.com/google/adk-go",
-      "event_date": "2026-08-13",
-      "date_seen": "2026-08-13"
-    },
-    {
-      "key": "github.com/nousresearch/hermes-agent",
-      "canonical_url": "https://github.com/NousResearch/hermes-agent",
-      "event_date": "2026-08-13",
-      "date_seen": "2026-08-13"
-    },
-    {
-      "key": "github.com/shubhamsaboo/awesome-llm-apps",
-      "canonical_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "event_date": "2026-08-13",
-      "date_seen": "2026-08-13"
-    },
-    {
-      "key": "github.com/thedotmack/claude-mem",
-      "canonical_url": "https://github.com/thedotmack/claude-mem",
-      "event_date": "2026-08-13",
-      "date_seen": "2026-08-13"
-    },
-    {
-      "key": "github.com/volcengine/verl",
-      "canonical_url": "https://github.com/volcengine/verl",
-      "event_date": "2026-08-13",
-      "date_seen": "2026-08-13"
-    },
-    {
-      "key": "github.com/abhigyanpatwari/gitnexus",
-      "canonical_url": "https://github.com/abhigyanpatwari/GitNexus",
-      "event_date": "2026-08-13",
-      "date_seen": "2026-08-13"
-    },
-    {
-      "key": "github.com/sakanaai/ai-scientist-v2",
-      "canonical_url": "https://github.com/SakanaAI/AI-Scientist-v2",
-      "event_date": "2026-08-13",
-      "date_seen": "2026-08-13"
-    },
-    {
-      "key": "github.com/google-ai-edge/litert-lm",
-      "canonical_url": "https://github.com/google-ai-edge/LiteRT-LM",
-      "event_date": "2026-08-13",
-      "date_seen": "2026-08-13"
-    },
-    {
-      "key": "github.com/prime-radiant-inc/engineering-notebook",
-      "canonical_url": "https://github.com/prime-radiant-inc/engineering-notebook",
-      "event_date": "2026-08-14",
-      "date_seen": "2026-08-14"
-    },
-    {
-      "key": "github.com/deepseek-ai/awesome-deepseek-agent",
-      "canonical_url": "https://github.com/deepseek-ai/awesome-deepseek-agent",
-      "event_date": "2026-08-14",
-      "date_seen": "2026-08-14"
-    },
-    {
-      "key": "github.com/lightningpixel/modly",
-      "canonical_url": "https://github.com/lightningpixel/modly",
-      "event_date": "2026-08-14",
-      "date_seen": "2026-08-14"
-    },
-    {
-      "key": "github.com/tooljet/tooljet",
-      "canonical_url": "https://github.com/ToolJet/ToolJet",
-      "event_date": "2026-08-14",
-      "date_seen": "2026-08-14"
-    },
-    {
-      "key": "github.com/microsoft/call-center-ai",
-      "canonical_url": "https://github.com/microsoft/call-center-ai",
-      "event_date": "2026-08-14",
-      "date_seen": "2026-08-14"
-    },
-    {
-      "key": "github.com/milvus-io/milvus",
-      "canonical_url": "https://github.com/milvus-io/milvus",
-      "event_date": "2026-08-14",
-      "date_seen": "2026-08-14"
-    },
-    {
-      "key": "github.com/gibsonai/memori",
-      "canonical_url": "https://github.com/GibsonAI/Memori",
-      "event_date": "2026-08-14",
-      "date_seen": "2026-08-14"
-    },
-    {
-      "key": "github.com/hkuds/cli-anything",
-      "canonical_url": "https://github.com/HKUDS/CLI-Anything",
-      "event_date": "2026-08-15",
-      "date_seen": "2026-08-15"
-    },
-    {
-      "key": "github.com/makazhanalpamys/soup",
-      "canonical_url": "https://github.com/MakazhanAlpamys/Soup",
-      "event_date": "2026-08-15",
-      "date_seen": "2026-08-15"
-    },
-    {
-      "key": "github.com/huggingface/transformers",
-      "canonical_url": "https://github.com/huggingface/transformers",
-      "event_date": "2026-08-15",
-      "date_seen": "2026-08-15"
-    },
     {
       "key": "github.com/akitaonrails/ai-memory",
       "canonical_url": "https://github.com/akitaonrails/ai-memory",
@@ -885,6 +753,66 @@
       "canonical_url": "https://github.com/vxcontrol/pentagi",
       "event_date": "2026-09-12",
       "date_seen": "2026-09-12"
+    },
+    {
+      "key": "github.com/alibaba/open-code-review",
+      "canonical_url": "https://github.com/alibaba/open-code-review",
+      "event_date": "2026-09-15",
+      "date_seen": "2026-09-15"
+    },
+    {
+      "key": "github.com/panniantong/agent-reach",
+      "canonical_url": "https://github.com/Panniantong/Agent-Reach",
+      "event_date": "2026-09-15",
+      "date_seen": "2026-09-15"
+    },
+    {
+      "key": "github.com/rlaope/oh-my-hermes",
+      "canonical_url": "https://github.com/rlaope/oh-my-hermes",
+      "event_date": "2026-09-15",
+      "date_seen": "2026-09-15"
+    },
+    {
+      "key": "github.com/tauricresearch/tradingagents",
+      "canonical_url": "https://github.com/TauricResearch/TradingAgents",
+      "event_date": "2026-09-15",
+      "date_seen": "2026-09-15"
+    },
+    {
+      "key": "github.com/openbmb/voxcpm",
+      "canonical_url": "https://github.com/OpenBMB/VoxCPM",
+      "event_date": "2026-09-15",
+      "date_seen": "2026-09-15"
+    },
+    {
+      "key": "github.com/tech-leads-club/agent-skills",
+      "canonical_url": "https://github.com/tech-leads-club/agent-skills",
+      "event_date": "2026-09-15",
+      "date_seen": "2026-09-15"
+    },
+    {
+      "key": "github.com/zvec-ai/zvec-grep",
+      "canonical_url": "https://github.com/zvec-ai/zvec-grep",
+      "event_date": "2026-09-15",
+      "date_seen": "2026-09-15"
+    },
+    {
+      "key": "github.com/nousresearch/hermes-agent",
+      "canonical_url": "https://github.com/NousResearch/hermes-agent",
+      "event_date": "2026-09-15",
+      "date_seen": "2026-09-15"
+    },
+    {
+      "key": "github.com/anthropics/claude-code",
+      "canonical_url": "https://github.com/anthropics/claude-code",
+      "event_date": "2026-09-15",
+      "date_seen": "2026-09-15"
+    },
+    {
+      "key": "https://seeyeetech.com/github-explorer/reports/sst_opencode",
+      "canonical_url": "https://seeyeetech.com/github-explorer/reports/sst_opencode",
+      "event_date": "2026-09-15",
+      "date_seen": "2026-09-15"
     }
   ]
 }

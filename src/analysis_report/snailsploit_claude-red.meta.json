@@ -1,0 +1,6 @@
+{
+  "title": "把 MITRE ATT&CK 装进 Claude Skills：按需加载取代 prompt 注入",
+  "digest": "claude-red 用 YAML frontmatter 当 Claude Skills 触发锚点，把 78 份红队方法论拆成 SKILL.md 按需加载；frontmatter-as-trigger 模式可迁移到任意 LLM 知识库。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

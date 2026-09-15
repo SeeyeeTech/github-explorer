@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+
+<blockquote><p><strong>GitHub：</strong><a href="https://github.com/snailsploit/claude-red">https://github.com/snailsploit/claude-red</a></p></blockquote>
+
+<h2>一句话总结</h2>
+<p>claude-red 把 78 份红队方法论拆成单文件 SKILL.md，用 YAML frontmatter 当 Claude Skills 系统的触发匹配锚点，按攻击面粒度按需加载——把 Claude 从<strong>「装满 prompt 的聊天框」变成「上下文感知的红队操作员」</strong>。</p>
+
+<h2>值得关注的理由</h2>
+<ul>
+<li><strong>设计模式的可迁移性极强</strong>：frontmatter-as-trigger + 按需加载替代 prompt 注入，是把任何大型知识库接进 LLM 的通用范式，远超红队本身的范畴。</li>
+<li><strong>方法论栈纵深</strong>：作者把 AATMF 认知框架 / KubeRoast 实战 PoC / claude-red LLM 适配层三层产品联动，是<strong>「开源方法论 → 工程落地」</strong>的成熟样本。</li>
+<li><strong>行业锚点选择聪明</strong>：直接引用 MITRE ATT&CK / CWE / OWASP 编号，让 LLM 跨 skill 调用时自带行业语汇，比自造 taxonomy 强很多。</li>
+<li><strong>53% commits 来自 Claude 本人</strong>：本仓库本身就是「用 LLM 生成 LLM skill 库」的 dogfooding 案例，研究价值高。</li>
+</ul>
+
+<h2>项目展示</h2>
+
+<p><img src="https://raw.githubusercontent.com/snailsploit/claude-red/main/assets/banner.png" alt="claude-red banner"></p>
+
+<blockquote><p>暗色赛博风的 hero 横幅，定位项目门面。仓库内除 banner 外没有更多截图素材（README 主要是命令式 Quickstart 与类别树）。</p></blockquote>
+
+<h2>项目画像</h2>
+
+<table>
+<thead>
+<tr><th>维度</th><th>数据</th></tr>
+</thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/snailsploit/claude-red">https://github.com/snailsploit/claude-red</a></td></tr>
+<tr><td>Star / Fork / Watcher</td><td>4,781 / 632 / 39</td></tr>
+<tr><td>代码行数</td><td>936 行真代码（JSON 64.5% / Python 27.2% / Shell 8.2%），但含 34,631 行 SKILL.md 文档</td></tr>
+<tr><td>文件数量</td><td>87</td></tr>
+<tr><td>项目年龄</td><td>6.4 个月（首次提交 2026-03-04）</td></tr>
+<tr><td>最近提交</td><td>2026-08-29（近 30 天已停更）</td></tr>
+<tr><td>开发阶段</td><td>低维护（9 月至今零 commit，5 月爆发期 + 8 月冲刺期之后进入间歇）</td></tr>
+<tr><td>贡献模式</td><td>独立开发 + LLM 协作（53% commits 作者是 Claude 自动账号；Top1 SnailSploit 仅占 26.5%）</td></tr>
+<tr><td>热度定位</td><td>中等偏上（4.8K stars / 6 月龄，月均近 750 star；fork/watch 比 16:1 → 工具型克隆而非长期关注型用户）</td></tr>
+<tr><td>质量评级</td><td>代码 A / 文档 A+ / 测试 D / CI B / 错误处理 A</td></tr>
+</tbody>
+</table>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+<p>账号 <strong>SnailSploit | Kai Aizen</strong>，自报「GenAI Security Researcher & AI Red Teamer / AATMF / P.R.O.M.P.T / SEF 框架作者 / 97 CVE / 4 GHSA / 5 项 Linux 内核主线补丁」，Credits 含 Oracle / Kubernetes / Jenkins / Apache Airflow / IBM / Palo Alto / Red Hat / Broadcom / Apple。账号年龄近 5 年（2021-12 起），名下 49 个仓库，但 <strong>claude-red 是唯一高 Star 项目（4,781），其余多在 0–33 star</strong>——把流量与品牌全押在 claude-red 这一个项目上。团队规模 3 人（Kai Aizen、Sahar Shlichove、Avraham Shemesh），出版书 <em>Adversarial Minds</em>，运营 snailsploit.com 商业品牌。</p>
+
+<h3>问题判断</h3>
+<p>作者团队观察到：把超长 checklist 一次性塞进 Claude system prompt 后，<strong>实际有效密度低 + 攻击面切换需要人工重新粘贴 + 触发匹配没有显式锚点</strong>——这三点共同导致「Hacking Cheat Sheet」式的内容对 LLM 不友好。于是作者决定把方法论从「单文档」拆成「单文件一攻击面 + YAML frontmatter 触发语 + 按需加载」，让 Claude 在一次会话中只装载当前相关的 skill。</p>
+
+<h3>解法哲学</h3>
+<ul>
+<li><strong>一文件一攻击面</strong>（one skill, one surface）：每个 SKILL.md 只覆盖一个细分面（如 <code>offensive-krack-fragattacks</code> 仅 114 行），可独立 git clone / sparse checkout / paste 到 claude.ai project。</li>
+<li><strong>按需加载替代 prompt 注入</strong>：description 字段作为 Claude Skills 系统的触发匹配锚点，会话中提到 SQLi 就自动装载 <code>offensive-sqli</code>，不调用时 0 token 占用。</li>
+<li><strong>显式授权边界写在 prompt 里</strong>：SECURITY.md + 每条 skill 的 description 末尾「Use when……authorized pentest / red team engagement」把伦理边界写进 LLM 自身上下文，<strong>靠 prompt 约束而非工具沙箱</strong>。</li>
+<li><strong>MITRE ATT&CK / CWE / OWASP 锚定</strong>：每条 skill 末尾 <code>Key References</code> 显式列出 Txxxx / CWE-xxx / OWASP 编号，方便 LLM 跨 skill 引用并对齐行业语汇。</li>
+</ul>
+
+<h3>战略意图</h3>
+<p>在作者 49 个仓库的 IP 矩阵中，claude-red 是「<strong>AI 红队操作员训练平台</strong>」的入口层；上层 AATMF 提供认知模型、<em>Adversarial Minds</em> 是知识付费层、KubeRoast 是 K8s 攻击 PoC 实例、snailsploit.com 是商业品牌（咨询 / 培训）。公司层产品矩阵呈现「<strong>方法论 （AATMF） → 训练数据 （offensive-checklist） → LLM 适配层 （claude-red） → 实战 PoC (KubeRoast)</strong>」的漏斗——claude-red 是把上层方法论变现为「用户能立即用的工具」的关键适配器，也是最高 star 引流入口。</p>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处</h3>
+<ol>
+<li><strong>frontmatter-as-trigger</strong> — 用 YAML frontmatter 的 description（50-500 字密化触发语）当 Claude Skills 系统的语义匹配锚点，把任意结构化文档转成 LLM-skills 的通用 pattern。新颖度 4/5，实用性 5/5，可迁移性 5/5。</li>
+<li><strong>按需加载替代 prompt 注入（Skill-Based Lazy Loading）</strong> — <code>~/.claude/skills/</code> 自动发现 + 触发匹配，闲置 skill 0 token。新颖度 4/5，实用性 5/5，可迁移性 5/5。</li>
+<li><strong>MITRE ATT&CK → Claude Skills 形态映射</strong> — 把 ATT&CK 的 Txxxx / CWE-xxx / OWASP 编号写进每条 skill，让 LLM 跨 skill 调用时自带行业语汇。新颖度 4/5，实用性 4/5，可迁移性 3/5。</li>
+<li><strong>Engagement Cheatsheet 模式</strong> — 每条 skill 末尾的「可被 Claude 直接吐出的最小操作序列」是对标 Atomic Red Team 但只到 TTP 描述层、不下实际 payload 的 LLM 适配。新颖度 3/5，实用性 4/5，可迁移性 4/5。</li>
+<li><strong>机器可读 manifest + 纯文档库</strong> — 78 个 SKILL.md 是 source of truth，<code>claude-skills.json</code>（58KB）是 derived 索引，让第三方工具无需 grep Markdown 即可枚举。新颖度 3/5，实用性 4/5，可迁移性 5/5。</li>
+</ol>
+
+<h3>可复用的模式与技巧</h3>
+<ol>
+<li><strong>Frontmatter-as-trigger</strong>：把 LLM skills 库的「触发匹配」问题用 YAML 元数据显式解决，可迁移到写作助手、合规审查、客服应答库等任意领域。</li>
+<li><strong>One-file-one-entity</strong>：单 Markdown 文件承载一个独立单元 + 文件夹名 = frontmatter name，最大化 git sparse-checkout 与 paste-to-project 的粒度。</li>
+<li><strong>Derived manifest</strong>：从 source of truth （Markdown） 自动生成 JSON manifest，给站点/工具用——任何「文档集合 → 可枚举 API」场景适用。</li>
+<li><strong>Multi-channel install</strong>：git clone / sparse checkout / CLI pipe / paste / install.sh 五条路径覆盖所有 Claude 部署形态，是「同一内容多入口分发」的标准模式。</li>
+<li><strong>AI-drafted + human-reviewed skills</strong>：CONTRIBUTING.md 明文「AI-generated skills without operator review won't be accepted」，配 PR 自动 review Action——任何「LLM 生成内容」开源协作可借鉴。</li>
+<li><strong>Mindmap + 覆盖率矩阵</strong>：MINDMAP.md 提供 Mermaid 思维导图 + OWASP/ATT&CK 覆盖率矩阵，是大型知识库的导航与完备性自检 pattern。</li>
+</ol>
+
+<h3>关键设计决策</h3>
+<ol>
+<li><strong>决策</strong>：每个 skill 是单文件 SKILL.md，不是 Python 类也不是多文件包。<br><strong>问题</strong>：78 个攻击面若用 Python 实现意味着大量依赖，且 LLM 实际只需要结构化文本。<br><strong>方案</strong>：把 skill 写成带 YAML frontmatter 的 Markdown，一文件即一 skill。<br><strong>Trade-off</strong>：失去强类型 / 可测试性 / IDE 跳转支持；换来 git 友好 / 易于 sparse checkout / 0 运行时依赖。<br><strong>可迁移性</strong>：高。</li>
+<li><strong>决策</strong>：维护 <code>claude-skills.json</code> 机器可读 manifest（78 entries）。<br><strong>问题</strong>：第三方工具 / 站点需要枚举 skill，但 grep 78 个 SKILL.md 太慢且脆弱。<br><strong>方案</strong>：<code>tools/build_manifest.py</code>（91 行 stdlib Python）扫一遍树，正则解析 frontmatter，输出紧凑 JSON。<br><strong>Trade-off</strong>：双份数据（SKILL.md 是 source of truth，manifest 是 derived），需手工跑才能更新。<br><strong>可迁移性</strong>：中。</li>
+<li><strong>决策</strong>：提供 5 种安装路径：git clone 全量 / sparse checkout / CLI pipe / Claude.ai 粘贴 / <code>install.sh</code>。<br><strong>问题</strong>：Claude Skills 系统的部署模型有差异（CLI、API、网页、PaaS），单一安装方式会卡死一部分用户。<br><strong>方案</strong>：README 顶部 Quickstart 分四类列出；<code>install.sh</code> 支持 <code>--target / --category / --dry-run / --list</code>，fallback <code>rsync</code> → <code>cp -r</code>。<br><strong>Trade-off</strong>：维护 5 套入口文案 + 一个 shell 脚本；换来最大兼容面。<br><strong>可迁移性</strong>：高。</li>
+<li><strong>决策</strong>：引入 <code>tessl/skill-review-and-optimize</code> 第三方 GitHub Action 做 PR 自动审查。<br><strong>问题</strong>：78 个 skill 的人工 review 跟不上增长；LLM 生成 skill 已占 53% commits，质量参差。<br><strong>方案</strong>：skill-preview.yml 在 PR 路径 <code>**/SKILL.md</code> 上自动跑；维护者通过 PR 评论 <code>/apply-optimize</code> 触发应用。<br><strong>Trade-off</strong>：引入第三方 SaaS（TESSL_API_TOKEN 必需 secret）。<br><strong>可迁移性</strong>：中。</li>
+<li><strong>决策</strong>：<strong>不</strong>写运行时代码、不引入依赖、不打包到 PyPI（issue #26 反映发版不完善）。<br><strong>问题</strong>：一旦变成 Python 包就涉及版本管理 / 签名 / 分发等大量 overhead。<br><strong>方案</strong>：纯 Markdown 仓库 + 一个 91 行脚本 + 一个 shell 安装器；CI 只跑 CodeQL + 发版 stub。<br><strong>Trade-off</strong>：无 pip 可装，无 GitHub tag/release 与 CHANGELOG 对齐。<br><strong>可迁移性</strong>：中（仅适合「纯文档 + 配置」类项目）。</li>
+</ol>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+
+<table>
+<thead>
+<tr><th>维度</th><th>claude-red</th><th>Agentic-Bug-Hunter</th><th>alirezarezvani/claude-skills</th><th>MITRE ATT&CK / Atomic Red Team</th></tr>
+</thead>
+<tbody>
+<tr><td>形态</td><td>78 份 SKILL.md 知识库</td><td>单 agent 全自动扫描工作流</td><td>380 份通用 skills 库</td><td>TTP 分类法 + 测试原子</td></tr>
+<tr><td>触发</td><td>frontmatter 触发匹配</td><td>静态工作流编排</td><td>frontmatter 触发匹配</td><td>人工操作</td></tr>
+<tr><td>覆盖面</td><td>攻击面专门化纵深</td><td>漏洞赏金自动化</td><td>编程 / 写作 / 产品通用</td><td>行业母框架</td></tr>
+<tr><td>目标用户</td><td>授权红队操作员（人工决策）</td><td>漏洞猎人（自动化优先）</td><td>通用 Claude 用户</td><td>安全研究员（TTP 学术化）</td></tr>
+<tr><td>安装路径</td><td>5 种（clone/sparse/paste/script/CLI）</td><td>跑 Python 进程</td><td>1-2 种</td><td>文档/脚本</td></tr>
+<tr><td>行业锚点</td><td>MITRE / CWE / OWASP</td><td>较少引用</td><td>通用</td><td>自身即行业标准</td></tr>
+<tr><td>MITRE 引用密度</td><td>高（每条 skill 末尾都标）</td><td>低</td><td>低</td><td>自身</td></tr>
+<tr><td>GitHub Stars</td><td>4.8K</td><td>4.8K</td><td>25.9K</td><td>非 GitHub 仓库</td></tr>
+</tbody>
+</table>
+
+<h3>差异化护城河</h3>
+<ul>
+<li><strong>纵深 + 专门化</strong>：78 个 attack-surface-specific skills，无竞品有此密度。</li>
+<li><strong>作者品牌</strong>：SnailSploit 在 GenAI security 圈子的影响力（97 CVE / 4 GHSA / 5 项 Linux 内核主线补丁）。</li>
+<li><strong>方法论栈协同</strong>：AATMF / KubeRoast / claude-red 三层联动，互相引用。</li>
+<li><strong>行业锚点策略</strong>：直接用 MITRE / CWE / OWASP 当检索维度，跨 skill 引用自然。</li>
+<li><strong>AI dogfooding</strong>：53% commits 来自 Claude 本人，是研究「用 LLM 生成 LLM skills」的真实样本。</li>
+</ul>
+
+<h3>竞争风险</h3>
+<ul>
+<li><strong>Anthropic Skills 系统变动</strong>：如果 frontmatter-as-trigger 机制失效，整个仓库的工程基础被动摇。</li>
+<li><strong>上下文窗口扩张</strong>：200K+ 上下文会逐步削弱「按需加载」的卖点。</li>
+<li><strong>GitHub 安全策略</strong>：issue #4（AV 引擎告警）+ #20（真实攻击者占位域）显示 GitHub 对「真实攻击载荷」敏感，可能被限流或下架。</li>
+<li><strong>人工 review 跟不上</strong>：53% LLM 生成 + 5 名贡献者中 1 位是 Claude 自动账号，质量参差会拖累品牌。</li>
+</ul>
+
+<h3>生态定位</h3>
+<p>在「LLM 安全工具」长尾中处于<strong>垂直纵深领导者</strong>。与「通用 Claude Skills」头部玩家（alirezarezvani 25.9K star）规模差距大，但切入「offensive / red team 专用」细分场景的直接竞品只有同体量的 Agentic-Bug-Hunter。最佳策略是继续深耕「AI red team operator」细分场景，不去抢通用生产力市场。对整个生态而言，claude-red 充当的是「MITRE ATT&CK 的 LLM-friendly adapter」角色，让分类法能直接驱动 AI 操作员，而非替代 ATT&CK。</p>
+
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：通用 Claude Skills 赛道竞争激烈（25K/15K star 级别），但「offensive / red team 专用」垂直纵深赛道的直接竞品只有同体量的 Agentic-Bug-Hunter，存在明确差异化窗口。但 4.8K star + 6 月龄说明红利已被锁住。</li>
+<li><strong>技术借鉴</strong>：
+<ul>
+<li>frontmatter-as-trigger 是把任何 LLM skills 库接进 Claude 的通用范式——写作助手、合规审查、客服应答库都能直接套用。</li>
+<li>One-file-one-entity + derived manifest 是「文档集合 → 可枚举 API」的成熟 pattern。</li>
+<li>AI-drafted + human-reviewed 是「LLM 生成内容」开源协作的标准模板。</li>
+</ul>
+</li>
+<li><strong>生态位</strong>：填补「LLM 可消费的领域方法论库」的空白——传统渗透笔记给「人」读，claude-red 给「LLM」读。</li>
+<li><strong>趋势判断</strong>：① Anthropic Skills 系统是新的原生分发渠道，frontmatter-as-trigger 红利期还很长；② 上下文窗口扩张是渐进的，按需加载仍有边际价值；③ 但「offensive + LLM」赛道的 GitHub 安全政策风险在上升。</li>
+</ul>
+
+<h2>风险与不足</h2>
+<ul>
+<li><strong>维护已停滞</strong>：9 月至今零 commit，最近 60 天完全没有提交。开发阶段评估为「低维护」，虽然有 4 个 workflow 但缺乏持续迭代。</li>
+<li><strong>发版流水线不完善</strong>（issue #26）：PyPI 发版是 stub，CHANGELOG 有 v0.1.0/v0.2.0/v0.3.0 但 git tag 不对应。</li>
+<li><strong>示例载荷有合规风险</strong>（issue #20）：范例代码使用真实攻击者域名（如 <code>attacker.com</code>）作为占位符，存在被安全设备误触发的风险。</li>
+<li><strong>AV 引擎告警争议</strong>（issue #4）：exploit code 被终端防病毒引擎判作恶意载荷，传播到 end-user 机器上有用户体验问题。</li>
+<li><strong>平台对齐风险</strong>（issue #6）：Claude 对扫描/漏洞利用类指令有对齐/拒绝行为，需要作者做「拒绝规避式 prompt」，未来 Claude 对齐策略收紧会动摇项目基础。</li>
+<li><strong>测试覆盖为零</strong>：无单元测试 / 集成测试 / pytest，53% LLM 生成内容无自动化校验兜底。</li>
+<li><strong>5 个老 skill 仍用旧 <code>## Metadata</code> 段落格式</strong>，未迁到 YAML frontmatter 标准。</li>
+</ul>
+
+<h2>行动建议</h2>
+<ul>
+<li><strong>如果你要用它</strong>：仅限授权场景（红队演练 / Bug Bounty / 安全研究 / CTF 准备）。Clone 全量或 sparse checkout 都行；如果只想试一两个攻击面，用 <code>install.sh --category web --dry-run</code> 预览，再用 <code>--target ~/.claude/skills/</code> 安装。注意：<strong>示例载荷使用真实攻击者域名占位符，跑前先评估误触发风险</strong>。</li>
+<li><strong>如果你要学它</strong>：重点关注 ① <code>tools/build_manifest.py</code>（frontmatter-as-trigger + derived manifest 模式的最简实现）；② 任意 1-2 个 SKILL.md（看 frontmatter <code>description</code> 字段的密化触发语怎么写）；③ <code>install.sh</code>（5 种安装路径的最佳实践）；④ MINDMAP.md（覆盖率自检 pattern）。</li>
+<li><strong>如果你要 fork 它</strong>：三个高价值方向：① 在 frontmatter 之外加 skill 间的依赖关系描述（如「执行 sqli 后建议用 offensive-data-exfiltration」），让 LLM 跨 skill 编排；② 给 install.sh 加 Windows 兼容层（目前仅 macOS/Linux）；③ 引入 fixture-based 单元测试——每个 skill 跑一遍 <code>description</code> 关键词命中模拟会话。</li>
+</ul>
+
+<h3>知识入口</h3>
+
+<table>
+<thead>
+<tr><th>资源</th><th>链接</th></tr>
+</thead>
+<tbody>
+<tr><td>DeepWiki</td><td>未收录</td></tr>
+<tr><td>Zread.ai</td><td>未收录</td></tr>
+<tr><td>关联论文</td><td>无（作者团队相关研究：Return-Oriented Prompting、Premise Collision、SKILBin、Self-Replicating Memory Worm、The 30% Blind Spot，详见 <a href="https://snailsploit.com">https://snailsploit.com</a>）</td></tr>
+<tr><td>在线 Demo</td><td>无（需本地 <code>git clone</code> 到 <code>~/.claude/skills/</code> 或粘贴到 claude.ai project）</td></tr>
+<tr><td>关联书目</td><td><em>Adversarial Minds</em>（作者团队自出版）</td></tr>
+</tbody>
+</table>
+
+</body>
+</html>

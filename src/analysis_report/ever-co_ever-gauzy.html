@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+ul, ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul, ul ol, ol ul, ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before, blockquote::after {
+    content: none !important;
+}
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+img {
+    max-width: 100%;
+    display: block;
+    margin: 1em auto;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+    font-size: 14px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+th {
+    background: #f5f5f5;
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+<p>GitHub: <a href="https://github.com/ever-co/ever-gauzy">https://github.com/ever-co/ever-gauzy</a></p>
+<h2>一句话总结</h2>
+<p>Ever Gauzy 是一个面向自由职业者与小微企业的开源 ERP/HRM/CRM 一体化平台，由 Ever Co. LTD 持续 7 年商业化运营——百万行级 Angular + NestJS monorepo，透明奖金公式与 AI/MCP 双扩展总线是它与 Odoo/ERPNext 最显著的差异化武器。</p>
+<h2>值得关注的理由</h2>
+<ul>
+<li><strong>HRM 赛道罕见的「透明奖金公式」</strong>：<code>BonusTypeEnum = { PROFIT, REVENUE }</code>，平台可公开利润率与员工分配比例——平台经济、咨询、外包公司拿来即用，是这个赛道里少见的「道德化设计」尝试。</li>
+<li><strong>17 个 AI provider + 自研 MCP server + agent app</strong>：2026 年完成一波密集 AI 化，新增 ai-chat 框架与 30+ 业务域 MCP tool，让 Claude Desktop 等外部 Agent 能直接对接 HRM 数据——这是传统 ERP 几乎没有的能力。</li>
+<li><strong>真插件总线（不是文件夹约定）</strong>：<code>@Plugin({ imports, entities, subscribers, configuration })</code> 装饰器 + <code>ModuleRef.get</code> 反射调用 lifecycle hook，已支撑 67 个插件（包括 22 个 integration + 17 个 ai-provider + 业务功能模块），是真正的运行时扩展边界。</li>
+</ul>
+<h2>项目展示</h2>
+<p><img src="https://docs.gauzy.co/overview.png" alt="Ever Gauzy overview hero"/></p>
+<p><em>项目总览：Web + Desktop Timer + Server 的三形态协同</em></p>
+<p><img src="https://docs.gauzy.co/desktop/desktop-timer-small.png" alt="Desktop timer (collapsed)"/></p>
+<p><em>桌面时间追踪器：小型化形态嵌入屏幕角落</em></p>
+<p><img src="https://docs.gauzy.co/desktop/desktop-timer-expanded.png" alt="Desktop timer (expanded)"/></p>
+<p><em>桌面时间追踪器：展开视图，显示项目、任务与活动监控</em></p>
+<p><img src="https://gauzy.co/assets/pages/index/open-source.webp" alt="Open-source marketing section"/></p>
+<p><em>官方「开源」版块头图</em></p>
+<h2>项目画像</h2>
+<table>
+<thead>
+<tr><th>维度</th><th>数据</th></tr>
+</thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/ever-co/ever-gauzy">https://github.com/ever-co/ever-gauzy</a></td></tr>
+<tr><td>Star / Fork</td><td>6.6K / 约 1.1K</td></tr>
+<tr><td>代码行数</td><td>1,002,434（TS 71.7% / JSON 10.6% / Sass 8.8% / HTML 7.3%）</td></tr>
+<tr><td>项目年龄</td><td>87.6 个月（2019-06 至今）</td></tr>
+<tr><td>开发阶段</td><td>密集开发（近 30 天 313 commit，日均 ~10）</td></tr>
+<tr><td>贡献模式</td><td>商业实体治理（Ever Co. LTD）+ 三人核心圈（Rahul 23.1% / Ruslan 14.8% / Adolphe 13.8%，合计 ≈52%）</td></tr>
+<tr><td>热度定位</td><td>中等热度（中等成熟产品，比 Odoo/ERPNext 低一档但远高于长尾）</td></tr>
+<tr><td>质量评级</td><td>代码 中 / 文档 中 / 测试 中（348 spec.ts + 79 Gherkin + Cypress + Playwright）</td></tr>
+</tbody>
+</table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>Ever Gauzy 由 Ever Co. LTD（商业实体，74 仓库、382 followers 的 Organization）所有，创始团队位于马德里（西班牙），核心开发者 Ruslan Konviser（联合创始人/CEO）与 Rahul Rathore（首席工程师）持续投入 7 年。商业实体而非个人项目的治理结构，使它在开源协议（AGPL-3.0 + open core 商业插件）与服务化路径上有清晰分工——这是判断它「会持续维护」的重要依据。</p>
+<h3>问题判断</h3>
+<p>团队看到了 Odoo/ERPNext 的两个痛点：(1) 模块耦合重，定制需要在 fork 上长期合并；(2) HRM 赛道的奖金/分账逻辑多为「黑箱」，而平台经济/咨询/外包公司恰恰最需要透明分账。前者他们用 monorepo + 插件总线解决，后者用 <code>BonusTypeEnum</code> 公公式解决。</p>
+<h3>解法哲学</h3>
+<ul>
+<li><strong>明确选择</strong>：透明化分账公式（profit/revenue × percentage）+ 多形态（Web/Desktop Timer/Server/Agent App/MCP）+ AI-native 集成层。</li>
+<li><strong>明确不做的</strong>：不追求与 SAP/Oracle 同档的企业级复杂度（不重 CRM 销售自动化）；不维护在线 SaaS demo（demo.gauzy.co 已下线，新用户必须 self-host Docker——这是核心 issue #7234 的明确方向）。</li>
+</ul>
+<h3>战略意图</h3>
+<p>产品是「open core 商业 SaaS」的标准化路径：AGPL-3.0 锁定核心，企业级插件与云服务收费；2026 年的 AI/MCP 化是抢占<strong>「AI Agent 时代的 ERP 中间层」</strong>——把 HRM/CRM 的所有业务能力包装成 AI 可调用的 tool。</p>
+<blockquote><p>官方博客与外部 critical review 稀缺；DeepWiki 自动爬取的索引是目前最权威的第三方解读，独立 critical review 几乎没有——这是项目在叙事上的真空带。</p></blockquote>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<ol>
+<li><strong>透明奖金公式（PROFIT/REVENUE × percentage）</strong>——HRM 赛道罕见。<code>packages/core/src/lib/employee-statistics/employee-statistics.service.ts:187</code> 的 12 行 <code>calculateEmployeeBonus</code> 是核心，387 行 CQRS handler <code>aggregate-employee-statistic.handler.ts</code> 串行聚合每员工的 income/expense/recurring/split/profit/bonus。</li>
+<li><strong>Odoo 风格实体字段注入</strong>——比 Odoo manifest.xml 更轻量：<code>integration-github</code> 的 <code>customFields.OrganizationProject.push({ name: 'repository', relation: ... })</code> 是真实运行实例，非空架。</li>
+<li><strong>AI provider 静态注册表 + 14 行模板</strong>——每个 <code>ai-provider-*/ai-provider-*.plugin.ts</code> 就是 <code>class XxxProviderPlugin extends BaseAiProviderPlugin { definition = ... }</code>，<code>AiProviderRegistry</code> 用 static map 而非 Nest DI，让 plugin 端不必 import chat module 的图——strategy + registry 在 NestJS 中的最短表达。</li>
+<li><strong>MCP server 完整包装</strong>——<code>packages/mcp-server/mcp-server.ts</code> 用 <code>@modelcontextprotocol/sdk</code> 注册 30+ 业务域 tool，<code>ExtendedMcpServer</code> 子类化把 Zod schema 转 JSON schema 暴露给 Claude Desktop——传统 ERP 中极少实现。</li>
+<li><strong>集成插件自研 Probot 框架</strong>——<code>packages/plugins/integration-github/src/lib/probot/</code> ~960 行（<code>@Hook</code> 装饰器 + <code>MetadataScanner</code> discovery + <code>SmeeClient</code> 代理），完全控制 webhook 路由。</li>
+</ol>
+<h3>可复用的模式与技巧</h3>
+<ul>
+<li><strong>14 行 provider plugin 模板</strong>（<code>BaseAiProviderPlugin</code>）：任何需要「多模型可插拔」的项目都可借鉴。</li>
+<li><strong>NestJS plugin bus</strong>（<code>@Plugin</code> 装饰器 + ModuleRef 反射）：比 Nest 官方 dynamic module 更轻量。</li>
+<li><strong>env-driven driver switch</strong>（<code>mikroOrmDriverMap[process.env.DB_TYPE] || default</code>）：一行抽象四数据库（PostgreSQL/MySQL/MongoDB/SQLite）。</li>
+<li><strong>透明奖金公式</strong>：profit / revenue × percentage 的最小可工作实现。</li>
+<li><strong>static registry over Nest DI</strong>：plugin 解耦 graph 的代价是多进程不共享 + HSR 需自管——trade-off 需自己评估。</li>
+<li><strong>CQRS query handler 聚合</strong>（<code>AggregateOrganizationQueryHandler</code> 模板）：聚合统计场景的通用抽象。</li>
+<li><strong>MCP server via Zod → JSON schema bridge</strong>：让 Claude Desktop 等外部 Agent 直接消费业务 API。</li>
+</ul>
+<h3>关键设计决策</h3>
+<ul>
+<li><strong>MikroORM + TypeORM + Knex + Mongoose 四栈共存</strong>（<code>database.module.ts</code>）：同一 entity 写出 <code>type-orm-*.repository.ts</code> 与 <code>mikro-orm-*.repository.ts</code> 两个空 wrapper（如 github plugin 里那 4 行类声明），是真实迁移未完成的债——<strong>不要学</strong>。</li>
+<li><strong>Nx22 + Lerna 7 + yarn 1 workspaces 三层</strong>：<code>lerna.json</code> 设「useNx: true」后 Lerna 只做 changelog；可保留但建议淘汰 Lerna。</li>
+<li><strong>AI provider 用 static registry 而非 Nest DI</strong>：换 plugin 热插拔自由，代价是多进程不共享、HSR 泄露。</li>
+<li><strong>MCP SDK 越界私有字段</strong>：<code>as unknown as McpServerWithRegisteredTools</code> 访问 SDK 私有 <code>_registeredTools</code>——简化实现换 SDK 升级脆弱。</li>
+<li><strong>Plugin bootstrap 静默失败</strong>（仅 console.error）：方便插件作者，但生产环境可能掩盖真实故障。</li>
+</ul>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table>
+<thead>
+<tr><th>维度</th><th>Ever Gauzy</th><th>Odoo</th><th>ERPNext</th><th>Dolibarr</th></tr>
+</thead>
+<tbody>
+<tr><td>Star</td><td>6.6K</td><td>~53.8K</td><td>~38.3K</td><td>~16K</td></tr>
+<tr><td>主语言</td><td>TS (Angular+NestJS)</td><td>Python (JS 前端)</td><td>Python (Frappe)</td><td>PHP</td></tr>
+<tr><td>架构模式</td><td>Monorepo + 真插件总线</td><td>Manifest.xml 模块</td><td>DocType + Frappe app</td><td>模块文件夹</td></tr>
+<tr><td>多 DB 支持</td><td>PostgreSQL/MySQL/MongoDB/SQLite</td><td>PostgreSQL（主）</td><td>MariaDB/PostgreSQL</td><td>MySQL/PostgreSQL</td></tr>
+<tr><td>AI/MCP 集成</td><td>17 provider + MCP server + agent app</td><td>模块市场，AI 模块少</td><td>LLM 集成早期</td><td>无</td></tr>
+<tr><td>桌面形态</td><td>Electron desktop/timer/server 三形态</td><td>无官方桌面</td><td>无官方桌面</td><td>无官方桌面</td></tr>
+<tr><td>奖金公式透明化</td><td>内建（PROFIT/REVENUE）</td><td>无原生支持</td><td>无原生支持</td><td>无原生支持</td></tr>
+<tr><td>许可证</td><td>AGPL-3.0（open core）</td><td>LGPL（open core）</td><td>GPL-3</td><td>GPL-3</td></tr>
+</tbody>
+</table>
+<h3>差异化护城河</h3>
+<ul>
+<li><strong>透明奖金公式</strong> + <strong>多形态桌面</strong> + <strong>AI/MCP 集成</strong>是 Odoo/ERPNext 短期内难以快速复制的组合——前两者需要重新设计领域模型，后者需要重新搭建 plugin runtime。</li>
+<li>真插件总线（反射式 lifecycle hook）已运行 67 个插件，生态规模虽小但比 ERPNext 的 DocType 模块更轻量。</li>
+</ul>
+<h3>竞争风险</h3>
+<ul>
+<li>Odoo/ERPNext 的「体量势能」：53.8K vs 6.6K stars，3 倍 module 生态，企业级销售自动化能力远强。</li>
+<li>若 Odoo 在 2026-2027 推出 AI agent 模块（其官方 AI roadmap 已启动），MCP 差异化将被快速稀释。</li>
+</ul>
+<h3>生态定位</h3>
+<p>填补「自由职业者/平台经济/小咨询公司」这个 Odoo 过重、Dolibarr 过轻、Notion/Airtable 又不够专业的中间地带——尤其是需要透明分账的场景。</p>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：6.6K star 显著低于 Odoo/ERPNext，但功能完整度与 AI 集成反而超前——是「被低估的成熟产品」。中文社区几乎没有系统介绍。</li>
+<li><strong>技术借鉴</strong>：plugin bus 模式 + AI provider 静态注册表 + env-driven 多 DB 切换，三件套可直接搬到自研项目。</li>
+<li><strong>生态位</strong>：透明奖金公式是平台经济/外包公司刚需，几乎无竞品直接覆盖。</li>
+<li><strong>趋势判断</strong>：2026-08 单月 606 commit 印证「AI 化加速期」，MCP server 让它有可能成为「Agent 时代的 ERP API 网关」——比传统 ERP 更适合 AI 工作流嵌入。</li>
+</ul>
+<h2>风险与不足</h2>
+<ul>
+<li><strong>核心圈窄 + author 字段未规范化</strong>：3 人占 52% commits，且同一开发者多个 git author 别名（Rahul/R./RAHUL）——bus factor 风险。</li>
+<li><strong>demo.gauzy.co 已下线</strong>：评估门槛极高，新用户必须 self-host Docker，issue #7234 是 open 时间最长的讨论之一。</li>
+<li><strong>22.4% open-issue rate</strong>：维护者容量瓶颈信号，与「三人核心圈」互证。</li>
+<li><strong>7 年 4,373 tags / 100 releases 但最新 v111.42.1 仍标 prerelease</strong>：发版节奏快但长期稳定分支信号弱。</li>
+<li><strong>四 ORM/DB 栈未完成迁移</strong>：同一 entity 的双 repository wrapper 是真技术债。</li>
+<li><strong>四 ORM + 三 monorepo 工具 + 70 个 GH Actions workflow</strong>：碎片化严重，新贡献者上手门槛极高。</li>
+<li><strong>核心员工奖金公式（<code>aggregate-employee-statistic.handler.ts</code>）几乎无 spec 覆盖</strong>——公式算法恰恰是产品差异化所在。</li>
+<li><strong>核心模块 1573 处 <code>console.log</code>/<code>tslint:disable</code> 残留</strong>：CI 配置成熟 ≠ 内部代码干净。</li>
+</ul>
+<h2>行动建议</h2>
+<ul>
+<li><strong>如果你要用它</strong>：适合 10-200 人规模、需要透明分账的自由职业者/咨询/外包公司，且团队有自托管能力（demo 已下线）。如果你只是要通用 ERP，Odoo/ERPNext 仍是更安全的选择。</li>
+<li><strong>如果你要学它</strong>：先读 <code>packages/plugin/src/lib/plugin.ts</code> + <code>plugin.module.ts</code> + <code>plugin.helper.ts</code>（真插件总线核心，~150 行），再看 <code>packages/plugins/ai-chat/src/lib/base-ai-provider.plugin.ts</code> + <code>provider-registry.ts</code>（14 行 plugin 模板 + 静态注册表），最后看 <code>packages/mcp-server/src/lib/mcp-server.ts</code>（MCP 业务暴露）。前三件套是核心可借鉴资产。</li>
+<li><strong>如果你要 fork 它</strong>：最值得改进的三个方向：(1) 合并 MikroORM/TypeORM/Mongoose 为单一 ORM；(2) 删掉 Lerna 与 yarn 1，只留 Nx；(3) 重写员工奖金模块的 spec 覆盖。</li>
+</ul>
+<h3>知识入口</h3>
+<table>
+<thead>
+<tr><th>资源</th><th>链接</th></tr>
+</thead>
+<tbody>
+<tr><td>DeepWiki</td><td><a href="https://deepwiki.com/ever-co/ever-gauzy">https://deepwiki.com/ever-co/ever-gauzy</a></td></tr>
+<tr><td>Zread.ai</td><td>未收录</td></tr>
+<tr><td>关联论文</td><td>无</td></tr>
+<tr><td>在线 Demo</td><td>无（demo.gauzy.co 已下线，需 self-host Docker，详见 issue #7234）</td></tr>
+<tr><td>官方文档</td><td><a href="https://docs.gauzy.co">https://docs.gauzy.co</a></td></tr>
+<tr><td>官方网站</td><td><a href="https://gauzy.co">https://gauzy.co</a></td></tr>
+</tbody>
+</table>
+</body>
+</html>

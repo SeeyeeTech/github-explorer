@@ -140,6 +140,16 @@
     "trending_days": 25
   },
   {
+    "name": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "language": "JavaScript",
+    "stars": 94583,
+    "forks": 10047,
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "last_seen": "2026-09-15",
+    "trending_days": 24
+  },
+  {
     "name": "bobeff/open-source-games",
     "url": "https://github.com/bobeff/open-source-games",
     "language": "Unknown",
@@ -168,16 +178,6 @@
     "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
     "last_seen": "2026-08-27",
     "trending_days": 24
-  },
-  {
-    "name": "addyosmani/agent-skills",
-    "url": "https://github.com/addyosmani/agent-skills",
-    "language": "JavaScript",
-    "stars": 91887,
-    "forks": 9804,
-    "description": "Production-grade engineering skills for AI coding agents.",
-    "last_seen": "2026-09-03",
-    "trending_days": 23
   },
   {
     "name": "HKUDS/LightRAG",
@@ -1260,6 +1260,16 @@
     "trending_days": 9
   },
   {
+    "name": "alibaba/open-code-review",
+    "url": "https://github.com/alibaba/open-code-review",
+    "language": "Go",
+    "stars": 27665,
+    "forks": 1987,
+    "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "last_seen": "2026-09-15",
+    "trending_days": 8
+  },
+  {
     "name": "anomalyco/opencode",
     "url": "https://github.com/anomalyco/opencode",
     "language": "TypeScript",
@@ -1520,16 +1530,6 @@
     "trending_days": 8
   },
   {
-    "name": "alibaba/open-code-review",
-    "url": "https://github.com/alibaba/open-code-review",
-    "language": "Go",
-    "stars": 25096,
-    "forks": 1831,
-    "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-    "last_seen": "2026-09-14",
-    "trending_days": 7
-  },
-  {
     "name": "ayghri/i-have-adhd",
     "url": "https://github.com/ayghri/i-have-adhd",
     "language": "Python",
@@ -1577,6 +1577,16 @@
     "forks": 7479,
     "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
     "last_seen": "2026-09-08",
+    "trending_days": 7
+  },
+  {
+    "name": "debpalash/VoiceStudio",
+    "url": "https://github.com/debpalash/voicestudio",
+    "language": "Python",
+    "stars": 30461,
+    "forks": 3663,
+    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+    "last_seen": "2026-09-15",
     "trending_days": 7
   },
   {
@@ -2107,16 +2117,6 @@
     "forks": 3390,
     "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
     "last_seen": "2026-05-15",
-    "trending_days": 6
-  },
-  {
-    "name": "debpalash/VoiceStudio",
-    "url": "https://github.com/debpalash/voicestudio",
-    "language": "Python",
-    "stars": 28715,
-    "forks": 3511,
-    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-    "last_seen": "2026-09-14",
     "trending_days": 6
   },
   {
@@ -3780,6 +3780,16 @@
     "trending_days": 4
   },
   {
+    "name": "JustVugg/colibri",
+    "url": "https://github.com/justvugg/colibri",
+    "language": "C",
+    "stars": 33282,
+    "forks": 3485,
+    "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+    "last_seen": "2026-09-15",
+    "trending_days": 4
+  },
+  {
     "name": "K-Dense-AI/claude-scientific-skills",
     "url": "https://github.com/k-dense-ai/claude-scientific-skills",
     "language": "Python",
@@ -3900,6 +3910,16 @@
     "trending_days": 4
   },
   {
+    "name": "melgarafael/DeskcommCRM",
+    "url": "https://github.com/melgarafael/deskcommcrm",
+    "language": "TypeScript",
+    "stars": 2667,
+    "forks": 661,
+    "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+    "last_seen": "2026-09-15",
+    "trending_days": 4
+  },
+  {
     "name": "microsoft/litebox",
     "url": "https://github.com/microsoft/litebox",
     "language": "Rust",
@@ -3957,6 +3977,16 @@
     "forks": 466,
     "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
     "last_seen": "2026-06-19",
+    "trending_days": 4
+  },
+  {
+    "name": "NationalSecurityAgency/ghidra",
+    "url": "https://github.com/nationalsecurityagency/ghidra",
+    "language": "Java",
+    "stars": 76438,
+    "forks": 8431,
+    "description": "Ghidra is a software reverse engineering (SRE) framework",
+    "last_seen": "2026-09-15",
     "trending_days": 4
   },
   {
@@ -4460,6 +4490,16 @@
     "trending_days": 3
   },
   {
+    "name": "alphaXiv/OpenResearch",
+    "url": "https://github.com/alphaxiv/openresearch",
+    "language": "Rust",
+    "stars": 3053,
+    "forks": 210,
+    "description": "Turn your coding agents into research agents",
+    "last_seen": "2026-09-15",
+    "trending_days": 3
+  },
+  {
     "name": "alsk1992/CloddsBot",
     "url": "https://github.com/alsk1992/cloddsbot",
     "language": "TypeScript",
@@ -4800,6 +4840,16 @@
     "trending_days": 3
   },
   {
+    "name": "ever-co/ever-gauzy",
+    "url": "https://github.com/ever-co/ever-gauzy",
+    "language": "TypeScript",
+    "stars": 6394,
+    "forks": 1010,
+    "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+    "last_seen": "2026-09-15",
+    "trending_days": 3
+  },
+  {
     "name": "evershopcommerce/evershop",
     "url": "https://github.com/evershopcommerce/evershop",
     "language": "TypeScript",
@@ -5110,16 +5160,6 @@
     "trending_days": 3
   },
   {
-    "name": "JustVugg/colibri",
-    "url": "https://github.com/justvugg/colibri",
-    "language": "C",
-    "stars": 31537,
-    "forks": 3351,
-    "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
-    "last_seen": "2026-09-14",
-    "trending_days": 3
-  },
-  {
     "name": "KaijuEngine/kaiju",
     "url": "https://github.com/kaijuengine/kaiju",
     "language": "Go",
@@ -5280,16 +5320,6 @@
     "trending_days": 3
   },
   {
-    "name": "melgarafael/DeskcommCRM",
-    "url": "https://github.com/melgarafael/deskcommcrm",
-    "language": "TypeScript",
-    "stars": 2051,
-    "forks": 575,
-    "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
-    "last_seen": "2026-09-13",
-    "trending_days": 3
-  },
-  {
     "name": "MemPalace/mempalace",
     "url": "https://github.com/mempalace/mempalace",
     "language": "Python",
@@ -5407,16 +5437,6 @@
     "forks": 896,
     "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
     "last_seen": "2026-09-14",
-    "trending_days": 3
-  },
-  {
-    "name": "NationalSecurityAgency/ghidra",
-    "url": "https://github.com/nationalsecurityagency/ghidra",
-    "language": "Java",
-    "stars": 73727,
-    "forks": 8050,
-    "description": "Ghidra is a software reverse engineering (SRE) framework",
-    "last_seen": "2026-08-30",
     "trending_days": 3
   },
   {
@@ -6170,16 +6190,6 @@
     "trending_days": 2
   },
   {
-    "name": "alphaXiv/OpenResearch",
-    "url": "https://github.com/alphaxiv/openresearch",
-    "language": "Rust",
-    "stars": 1857,
-    "forks": 134,
-    "description": "Run parallel research agents with any model",
-    "last_seen": "2026-09-13",
-    "trending_days": 2
-  },
-  {
     "name": "amir1376/ab-download-manager",
     "url": "https://github.com/amir1376/ab-download-manager",
     "language": "Kotlin",
@@ -6760,6 +6770,16 @@
     "trending_days": 2
   },
   {
+    "name": "earendil-works/pi",
+    "url": "https://github.com/earendil-works/pi",
+    "language": "TypeScript",
+    "stars": 105526,
+    "forks": 13269,
+    "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+    "last_seen": "2026-09-15",
+    "trending_days": 2
+  },
+  {
     "name": "Ed1s0nZ/CyberStrikeAI",
     "url": "https://github.com/ed1s0nz/cyberstrikeai",
     "language": "Go",
@@ -6787,16 +6807,6 @@
     "forks": 5107,
     "description": "Cloud-native high-performance edge/middle/service proxy",
     "last_seen": "2025-10-16",
-    "trending_days": 2
-  },
-  {
-    "name": "ever-co/ever-gauzy",
-    "url": "https://github.com/ever-co/ever-gauzy",
-    "language": "TypeScript",
-    "stars": 5802,
-    "forks": 978,
-    "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
-    "last_seen": "2026-09-14",
     "trending_days": 2
   },
   {
@@ -8090,6 +8100,16 @@
     "trending_days": 2
   },
   {
+    "name": "pacifio/atlas",
+    "url": "https://github.com/pacifio/atlas",
+    "language": "Rust",
+    "stars": 4509,
+    "forks": 275,
+    "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+    "last_seen": "2026-09-15",
+    "trending_days": 2
+  },
+  {
     "name": "par274/sharpemu",
     "url": "https://github.com/par274/sharpemu",
     "language": "C#",
@@ -8507,6 +8527,16 @@
     "forks": 1156,
     "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
     "last_seen": "2026-04-07",
+    "trending_days": 2
+  },
+  {
+    "name": "tonhowtf/omniget",
+    "url": "https://github.com/tonhowtf/omniget",
+    "language": "Rust",
+    "stars": 12592,
+    "forks": 1086,
+    "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
+    "last_seen": "2026-09-15",
     "trending_days": 2
   },
   {
@@ -9560,6 +9590,16 @@
     "trending_days": 1
   },
   {
+    "name": "danny-avila/LibreChat",
+    "url": "https://github.com/danny-avila/librechat",
+    "language": "TypeScript",
+    "stars": 43685,
+    "forks": 9012,
+    "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+    "last_seen": "2026-09-15",
+    "trending_days": 1
+  },
+  {
     "name": "databricks-solutions/ai-dev-kit",
     "url": "https://github.com/databricks-solutions/ai-dev-kit",
     "language": "Python",
@@ -9767,16 +9807,6 @@
     "forks": 1884,
     "description": "A list of AI autonomous agents",
     "last_seen": "2025-09-27",
-    "trending_days": 1
-  },
-  {
-    "name": "earendil-works/pi",
-    "url": "https://github.com/earendil-works/pi",
-    "language": "TypeScript",
-    "stars": 53609,
-    "forks": 6414,
-    "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
-    "last_seen": "2026-05-24",
     "trending_days": 1
   },
   {
@@ -10450,6 +10480,16 @@
     "trending_days": 1
   },
   {
+    "name": "Homebrew/BrewUI",
+    "url": "https://github.com/homebrew/brewui",
+    "language": "Swift",
+    "stars": 1149,
+    "forks": 23,
+    "description": "📺 Homebrew's official macOS GUI",
+    "last_seen": "2026-09-15",
+    "trending_days": 1
+  },
+  {
     "name": "htr-tech/zphisher",
     "url": "https://github.com/htr-tech/zphisher",
     "language": "HTML",
@@ -11067,6 +11107,16 @@
     "forks": 6092,
     "description": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data 📊",
     "last_seen": "2025-12-19",
+    "trending_days": 1
+  },
+  {
+    "name": "MG1937/ASC",
+    "url": "https://github.com/mg1937/asc",
+    "language": "Python",
+    "stars": 1057,
+    "forks": 186,
+    "description": "ASC is a super FAST Android decompiler front-end designed for Agents/Mobile Researchers.",
+    "last_seen": "2026-09-15",
     "trending_days": 1
   },
   {
@@ -11697,16 +11747,6 @@
     "forks": 39,
     "description": "Watch MLB games from the comfort of your own terminal",
     "last_seen": "2025-10-04",
-    "trending_days": 1
-  },
-  {
-    "name": "pacifio/atlas",
-    "url": "https://github.com/pacifio/atlas",
-    "language": "Rust",
-    "stars": 2695,
-    "forks": 181,
-    "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
-    "last_seen": "2026-09-02",
     "trending_days": 1
   },
   {
@@ -12497,16 +12537,6 @@
     "forks": 19,
     "description": "Toolchain for TON smart contract development and beyond",
     "last_seen": "2026-05-13",
-    "trending_days": 1
-  },
-  {
-    "name": "tonhowtf/omniget",
-    "url": "https://github.com/tonhowtf/omniget",
-    "language": "Rust",
-    "stars": 11263,
-    "forks": 991,
-    "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
-    "last_seen": "2026-09-13",
     "trending_days": 1
   },
   {

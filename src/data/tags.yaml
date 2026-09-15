@@ -1698,6 +1698,9 @@ entries:
   - ai-agent
   - ai-coding
   - devtools
+  multimodal-art-projection_yue:
+  - ai-agent
+  - video-audio
   muratcankoylan_agent-skills-for-context-engineering:
   - ai-agent
   - ai-coding
@@ -2253,6 +2256,8 @@ entries:
   smicallef_spiderfoot:
   - workflow-automation
   - database
+  snailsploit_claude-red:
+  - uncategorized
   sonofmagic_weapp-tailwindcss:
   - ai-agent
   - design-ui

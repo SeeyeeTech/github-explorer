@@ -63,21 +63,21 @@
     "name": "affaan-m/ECC",
     "url": "https://github.com/affaan-m/ecc",
     "language": "JavaScript",
-    "stars": 254850,
-    "forks": 38179,
+    "stars": 259839,
+    "forks": 38894,
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "last_seen": "2026-09-09",
-    "trending_days": 29
+    "last_seen": "2026-09-16",
+    "trending_days": 30
   },
   {
     "name": "anthropics/claude-code",
     "url": "https://github.com/anthropics/claude-code",
-    "language": "Python",
-    "stars": 136150,
-    "forks": 21899,
+    "language": "TypeScript",
+    "stars": 145314,
+    "forks": 23419,
     "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-    "last_seen": "2026-07-05",
-    "trending_days": 28
+    "last_seen": "2026-09-16",
+    "trending_days": 29
   },
   {
     "name": "msitarzewski/agency-agents",
@@ -120,6 +120,16 @@
     "trending_days": 26
   },
   {
+    "name": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "language": "JavaScript",
+    "stars": 95201,
+    "forks": 10095,
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "last_seen": "2026-09-16",
+    "trending_days": 25
+  },
+  {
     "name": "google/adk-go",
     "url": "https://github.com/google/adk-go",
     "language": "Go",
@@ -138,16 +148,6 @@
     "description": "Curated coding interview preparation materials for busy software engineers",
     "last_seen": "2025-12-04",
     "trending_days": 25
-  },
-  {
-    "name": "addyosmani/agent-skills",
-    "url": "https://github.com/addyosmani/agent-skills",
-    "language": "JavaScript",
-    "stars": 94583,
-    "forks": 10047,
-    "description": "Production-grade engineering skills for AI coding agents.",
-    "last_seen": "2026-09-15",
-    "trending_days": 24
   },
   {
     "name": "bobeff/open-source-games",
@@ -570,6 +570,16 @@
     "trending_days": 13
   },
   {
+    "name": "jamiepine/voicebox",
+    "url": "https://github.com/jamiepine/voicebox",
+    "language": "TypeScript",
+    "stars": 54164,
+    "forks": 6776,
+    "description": "The open-source AI voice studio. Clone, dictate, create.",
+    "last_seen": "2026-09-16",
+    "trending_days": 13
+  },
+  {
     "name": "lfnovo/open-notebook",
     "url": "https://github.com/lfnovo/open-notebook",
     "language": "TypeScript",
@@ -617,16 +627,6 @@
     "forks": 2537,
     "description": "None",
     "last_seen": "2026-09-12",
-    "trending_days": 12
-  },
-  {
-    "name": "jamiepine/voicebox",
-    "url": "https://github.com/jamiepine/voicebox",
-    "language": "TypeScript",
-    "stars": 48428,
-    "forks": 5964,
-    "description": "The open-source AI voice studio. Clone, dictate, create.",
-    "last_seen": "2026-08-03",
     "trending_days": 12
   },
   {
@@ -980,6 +980,16 @@
     "trending_days": 10
   },
   {
+    "name": "alibaba/open-code-review",
+    "url": "https://github.com/alibaba/open-code-review",
+    "language": "Go",
+    "stars": 30868,
+    "forks": 2207,
+    "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "last_seen": "2026-09-16",
+    "trending_days": 9
+  },
+  {
     "name": "alibaba/page-agent",
     "url": "https://github.com/alibaba/page-agent",
     "language": "TypeScript",
@@ -1260,16 +1270,6 @@
     "trending_days": 9
   },
   {
-    "name": "alibaba/open-code-review",
-    "url": "https://github.com/alibaba/open-code-review",
-    "language": "Go",
-    "stars": 27665,
-    "forks": 1987,
-    "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-    "last_seen": "2026-09-15",
-    "trending_days": 8
-  },
-  {
     "name": "anomalyco/opencode",
     "url": "https://github.com/anomalyco/opencode",
     "language": "TypeScript",
@@ -1467,6 +1467,16 @@
     "forks": 1222,
     "description": "Desktop app to manage markdown knowledge bases",
     "last_seen": "2026-07-01",
+    "trending_days": 8
+  },
+  {
+    "name": "roboflow/supervision",
+    "url": "https://github.com/roboflow/supervision",
+    "language": "Python",
+    "stars": 50477,
+    "forks": 4806,
+    "description": "We write your reusable computer vision tools. 💜",
+    "last_seen": "2026-09-16",
     "trending_days": 8
   },
   {
@@ -1827,16 +1837,6 @@
     "forks": 14041,
     "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
     "last_seen": "2026-08-23",
-    "trending_days": 7
-  },
-  {
-    "name": "roboflow/supervision",
-    "url": "https://github.com/roboflow/supervision",
-    "language": "Python",
-    "stars": 48769,
-    "forks": 4611,
-    "description": "We write your reusable computer vision tools. 💜",
-    "last_seen": "2026-08-05",
     "trending_days": 7
   },
   {
@@ -2460,6 +2460,16 @@
     "trending_days": 6
   },
   {
+    "name": "Tencent/WeKnora",
+    "url": "https://github.com/tencent/weknora",
+    "language": "Go",
+    "stars": 24995,
+    "forks": 3453,
+    "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+    "last_seen": "2026-09-16",
+    "trending_days": 6
+  },
+  {
     "name": "trycua/cua",
     "url": "https://github.com/trycua/cua",
     "language": "HTML",
@@ -2597,6 +2607,16 @@
     "forks": 2319,
     "description": "None",
     "last_seen": "2026-05-10",
+    "trending_days": 5
+  },
+  {
+    "name": "anthropics/knowledge-work-plugins",
+    "url": "https://github.com/anthropics/knowledge-work-plugins",
+    "language": "Python",
+    "stars": 24186,
+    "forks": 2917,
+    "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+    "last_seen": "2026-09-16",
     "trending_days": 5
   },
   {
@@ -2860,6 +2880,16 @@
     "trending_days": 5
   },
   {
+    "name": "JustVugg/colibri",
+    "url": "https://github.com/justvugg/colibri",
+    "language": "C",
+    "stars": 34712,
+    "forks": 3637,
+    "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+    "last_seen": "2026-09-16",
+    "trending_days": 5
+  },
+  {
     "name": "karpathy/nanochat",
     "url": "https://github.com/karpathy/nanochat",
     "language": "Python",
@@ -2957,6 +2987,16 @@
     "forks": 450,
     "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
     "last_seen": "2026-06-16",
+    "trending_days": 5
+  },
+  {
+    "name": "NationalSecurityAgency/ghidra",
+    "url": "https://github.com/nationalsecurityagency/ghidra",
+    "language": "Java",
+    "stars": 77463,
+    "forks": 8562,
+    "description": "Ghidra is a software reverse engineering (SRE) framework",
+    "last_seen": "2026-09-16",
     "trending_days": 5
   },
   {
@@ -3160,16 +3200,6 @@
     "trending_days": 5
   },
   {
-    "name": "Tencent/WeKnora",
-    "url": "https://github.com/tencent/weknora",
-    "language": "Go",
-    "stars": 8644,
-    "forks": 948,
-    "description": "LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm.",
-    "last_seen": "2025-12-14",
-    "trending_days": 5
-  },
-  {
     "name": "TheCraigHewitt/seomachine",
     "url": "https://github.com/thecraighewitt/seomachine",
     "language": "Python",
@@ -3310,6 +3340,16 @@
     "trending_days": 4
   },
   {
+    "name": "alphaXiv/OpenResearch",
+    "url": "https://github.com/alphaxiv/openresearch",
+    "language": "Rust",
+    "stars": 4085,
+    "forks": 260,
+    "description": "Turn your coding agents into research agents",
+    "last_seen": "2026-09-16",
+    "trending_days": 4
+  },
+  {
     "name": "ansible/ansible",
     "url": "https://github.com/ansible/ansible",
     "language": "Python",
@@ -3337,16 +3377,6 @@
     "forks": 2422,
     "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
     "last_seen": "2026-02-17",
-    "trending_days": 4
-  },
-  {
-    "name": "anthropics/knowledge-work-plugins",
-    "url": "https://github.com/anthropics/knowledge-work-plugins",
-    "language": "Python",
-    "stars": 17043,
-    "forks": 2002,
-    "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-    "last_seen": "2026-05-27",
     "trending_days": 4
   },
   {
@@ -3547,6 +3577,16 @@
     "forks": 4917,
     "description": "Find and fix problems in your JavaScript code.",
     "last_seen": "2026-02-20",
+    "trending_days": 4
+  },
+  {
+    "name": "ever-co/ever-gauzy",
+    "url": "https://github.com/ever-co/ever-gauzy",
+    "language": "TypeScript",
+    "stars": 7113,
+    "forks": 1078,
+    "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+    "last_seen": "2026-09-16",
     "trending_days": 4
   },
   {
@@ -3780,16 +3820,6 @@
     "trending_days": 4
   },
   {
-    "name": "JustVugg/colibri",
-    "url": "https://github.com/justvugg/colibri",
-    "language": "C",
-    "stars": 33282,
-    "forks": 3485,
-    "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
-    "last_seen": "2026-09-15",
-    "trending_days": 4
-  },
-  {
     "name": "K-Dense-AI/claude-scientific-skills",
     "url": "https://github.com/k-dense-ai/claude-scientific-skills",
     "language": "Python",
@@ -3970,6 +4000,16 @@
     "trending_days": 4
   },
   {
+    "name": "multimodal-art-projection/YuE",
+    "url": "https://github.com/multimodal-art-projection/yue",
+    "language": "Python",
+    "stars": 9224,
+    "forks": 1000,
+    "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+    "last_seen": "2026-09-16",
+    "trending_days": 4
+  },
+  {
     "name": "n0-computer/iroh",
     "url": "https://github.com/n0-computer/iroh",
     "language": "Rust",
@@ -3977,16 +4017,6 @@
     "forks": 466,
     "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
     "last_seen": "2026-06-19",
-    "trending_days": 4
-  },
-  {
-    "name": "NationalSecurityAgency/ghidra",
-    "url": "https://github.com/nationalsecurityagency/ghidra",
-    "language": "Java",
-    "stars": 76438,
-    "forks": 8431,
-    "description": "Ghidra is a software reverse engineering (SRE) framework",
-    "last_seen": "2026-09-15",
     "trending_days": 4
   },
   {
@@ -4197,6 +4227,16 @@
     "forks": 3328,
     "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
     "last_seen": "2026-08-14",
+    "trending_days": 4
+  },
+  {
+    "name": "SnailSploit/Claude-Red",
+    "url": "https://github.com/snailsploit/claude-red",
+    "language": "Python",
+    "stars": 5594,
+    "forks": 723,
+    "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+    "last_seen": "2026-09-16",
     "trending_days": 4
   },
   {
@@ -4487,16 +4527,6 @@
     "forks": 1351,
     "description": "Agentic AI Framework for Java Developers",
     "last_seen": "2025-10-15",
-    "trending_days": 3
-  },
-  {
-    "name": "alphaXiv/OpenResearch",
-    "url": "https://github.com/alphaxiv/openresearch",
-    "language": "Rust",
-    "stars": 3053,
-    "forks": 210,
-    "description": "Turn your coding agents into research agents",
-    "last_seen": "2026-09-15",
     "trending_days": 3
   },
   {
@@ -4837,16 +4867,6 @@
     "forks": 858,
     "description": "Eigent: The Open Source Cowork Desktop to Unlock Your Exceptional Productivity.",
     "last_seen": "2026-01-17",
-    "trending_days": 3
-  },
-  {
-    "name": "ever-co/ever-gauzy",
-    "url": "https://github.com/ever-co/ever-gauzy",
-    "language": "TypeScript",
-    "stars": 6394,
-    "forks": 1010,
-    "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
-    "last_seen": "2026-09-15",
     "trending_days": 3
   },
   {
@@ -5430,16 +5450,6 @@
     "trending_days": 3
   },
   {
-    "name": "multimodal-art-projection/YuE",
-    "url": "https://github.com/multimodal-art-projection/yue",
-    "language": "Python",
-    "stars": 8196,
-    "forks": 896,
-    "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
-    "last_seen": "2026-09-14",
-    "trending_days": 3
-  },
-  {
     "name": "nitrojs/nitro",
     "url": "https://github.com/nitrojs/nitro",
     "language": "TypeScript",
@@ -5757,16 +5767,6 @@
     "forks": 1896,
     "description": "node of the decentralized oracle network, bridging on and off-chain computation",
     "last_seen": "2025-10-31",
-    "trending_days": 3
-  },
-  {
-    "name": "SnailSploit/Claude-Red",
-    "url": "https://github.com/snailsploit/claude-red",
-    "language": "Python",
-    "stars": 4572,
-    "forks": 619,
-    "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
-    "last_seen": "2026-09-14",
     "trending_days": 3
   },
   {
@@ -6577,6 +6577,16 @@
     "forks": 406,
     "description": "Yet another matrix client",
     "last_seen": "2026-02-14",
+    "trending_days": 2
+  },
+  {
+    "name": "cline/cline",
+    "url": "https://github.com/cline/cline",
+    "language": "TypeScript",
+    "stars": 68206,
+    "forks": 7376,
+    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+    "last_seen": "2026-09-16",
     "trending_days": 2
   },
   {
@@ -7460,6 +7470,16 @@
     "trending_days": 2
   },
   {
+    "name": "Lakr233/vphone-cli",
+    "url": "https://github.com/lakr233/vphone-cli",
+    "language": "Swift",
+    "stars": 13215,
+    "forks": 1579,
+    "description": "None",
+    "last_seen": "2026-09-16",
+    "trending_days": 2
+  },
+  {
     "name": "langchain-ai/deepagents",
     "url": "https://github.com/langchain-ai/deepagents",
     "language": "Python",
@@ -8240,6 +8260,16 @@
     "trending_days": 2
   },
   {
+    "name": "rlaope/oh-my-hermes",
+    "url": "https://github.com/rlaope/oh-my-hermes",
+    "language": "Python",
+    "stars": 2449,
+    "forks": 180,
+    "description": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages",
+    "last_seen": "2026-09-16",
+    "trending_days": 2
+  },
+  {
     "name": "run-llama/liteparse",
     "url": "https://github.com/run-llama/liteparse",
     "language": "Rust",
@@ -8337,6 +8367,16 @@
     "forks": 434,
     "description": "A collaborative note taking, wiki and documentation platform that scales. Built with Django and React.",
     "last_seen": "2025-11-02",
+    "trending_days": 2
+  },
+  {
+    "name": "supabase/supabase",
+    "url": "https://github.com/supabase/supabase",
+    "language": "TypeScript",
+    "stars": 109465,
+    "forks": 13993,
+    "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+    "last_seen": "2026-09-16",
     "trending_days": 2
   },
   {
@@ -8850,6 +8890,16 @@
     "trending_days": 1
   },
   {
+    "name": "abue-ammar/tinycast",
+    "url": "https://github.com/abue-ammar/tinycast",
+    "language": "Swift",
+    "stars": 5350,
+    "forks": 251,
+    "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
+    "last_seen": "2026-09-16",
+    "trending_days": 1
+  },
+  {
     "name": "abus-aikorea/voice-pro",
     "url": "https://github.com/abus-aikorea/voice-pro",
     "language": "Python",
@@ -9077,6 +9127,16 @@
     "forks": 27384,
     "description": "Deliver web apps with confidence 🚀",
     "last_seen": "2026-08-04",
+    "trending_days": 1
+  },
+  {
+    "name": "ankitects/anki",
+    "url": "https://github.com/ankitects/anki",
+    "language": "Rust",
+    "stars": 30684,
+    "forks": 3206,
+    "description": "Anki is a smart spaced repetition flashcard program",
+    "last_seen": "2026-09-16",
     "trending_days": 1
   },
   {
@@ -9420,16 +9480,6 @@
     "trending_days": 1
   },
   {
-    "name": "cline/cline",
-    "url": "https://github.com/cline/cline",
-    "language": "TypeScript",
-    "stars": 60670,
-    "forks": 6240,
-    "description": "Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.",
-    "last_seen": "2026-04-23",
-    "trending_days": 1
-  },
-  {
     "name": "cloudflare/capnweb",
     "url": "https://github.com/cloudflare/capnweb",
     "language": "TypeScript",
@@ -9437,6 +9487,16 @@
     "forks": 70,
     "description": "JavaScript/TypeScript-native, low-boilerplate, object-capability RPC system",
     "last_seen": "2025-09-25",
+    "trending_days": 1
+  },
+  {
+    "name": "cloudflare/security-audit-skill",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "language": "JavaScript",
+    "stars": 6082,
+    "forks": 363,
+    "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "last_seen": "2026-09-16",
     "trending_days": 1
   },
   {
@@ -10820,16 +10880,6 @@
     "trending_days": 1
   },
   {
-    "name": "Lakr233/vphone-cli",
-    "url": "https://github.com/lakr233/vphone-cli",
-    "language": "Swift",
-    "stars": 9435,
-    "forks": 1278,
-    "description": "None",
-    "last_seen": "2026-08-30",
-    "trending_days": 1
-  },
-  {
     "name": "langchain-ai/langchainjs",
     "url": "https://github.com/langchain-ai/langchainjs",
     "language": "TypeScript",
@@ -12010,16 +12060,6 @@
     "trending_days": 1
   },
   {
-    "name": "rlaope/oh-my-hermes",
-    "url": "https://github.com/rlaope/oh-my-hermes",
-    "language": "Python",
-    "stars": 1904,
-    "forks": 153,
-    "description": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages",
-    "last_seen": "2026-09-14",
-    "trending_days": 1
-  },
-  {
     "name": "roboflow/trackers",
     "url": "https://github.com/roboflow/trackers",
     "language": "Python",
@@ -12337,16 +12377,6 @@
     "forks": 191,
     "description": "WhatsApp CLI",
     "last_seen": "2026-04-16",
-    "trending_days": 1
-  },
-  {
-    "name": "supabase/supabase",
-    "url": "https://github.com/supabase/supabase",
-    "language": "TypeScript",
-    "stars": 105252,
-    "forks": 12957,
-    "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-    "last_seen": "2026-07-03",
     "trending_days": 1
   },
   {

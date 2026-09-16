@@ -164,6 +164,11 @@ entries:
   - llm-inference
   - model-foundation
   - protocol-spec
+  alphaxiv_openresearch:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - protocol-spec
   alsk1992_cloddsbot:
   - ai-agent
   - security
@@ -789,6 +794,9 @@ entries:
   - devtools
   eslint_eslint:
   - uncategorized
+  ever-co_ever-gauzy:
+  - ai-agent
+  - protocol-spec
   evershopcommerce_evershop:
   - database
   - web-framework

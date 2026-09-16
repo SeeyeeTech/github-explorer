@@ -1,0 +1,6 @@
+{
+  "title": "把 Claude Code 改造成研究 Agent：3 个月 3.4K stars 的 OpenResearch 拆解",
+  "digest": "alphaXiv 旗舰工具 OpenResearch 用 git worktree 把 LLM Agent 跑 ML 实验的不变式写进 SKILL.md；7 个可移植模式涵盖 Harness 抽象、SSE 反压、opt-out 三层防护。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

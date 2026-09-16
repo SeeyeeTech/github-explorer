@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub 推荐：3 个月 3.4K stars 的 OpenResearch：把 Claude Code 改造成研究 Agent</title>
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+/* 表格 */
+table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    margin: 1em 0 !important;
+    font-size: 14px !important;
+}
+th, td {
+    border: 1px solid #e0e0e0 !important;
+    padding: 8px 12px !important;
+    text-align: left !important;
+    line-height: 1.6 !important;
+}
+th {
+    background: #f5f5f5 !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+}
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+<blockquote>
+<p>GitHub: <a href="https://github.com/alphaxiv/openresearch">https://github.com/alphaxiv/openresearch</a></p>
+</blockquote>
+<h2>一句话总结</h2>
+<p>把本地 Claude Code / Codex / OpenCode / Cursor 改造成 ML 研究 Agent，自动规划实验、用 git worktree 隔离、用 commit 化存档——alphaXiv 在「论文平台 → 论文复现」自然延伸出的科研 Agent 工作台。</p>
+<h2>值得关注的理由</h2>
+<ol>
+<li><strong>真实蓝海</strong>：传统 ML 实验编排（MLflow/Metaflow/W&B/Hamilton）擅长「人写好的脚本→流水线跑」，但对 LLM Agent 自然语言驱动的研究工作流无所适从；OpenResearch 填补的正是这条沟。</li>
+<li><strong>可借鉴架构密度极高</strong>：Harness + Registry + Capability Tier 三件套、git worktree × frozen node × fixed run contract、MCP bridge + PreToolUse hook 双层权限、BackendDescriptor 单 struct 多后端 reattach——任何「多 Agent 共存」「本地工具 telemetry」「本地 web dashboard」场景都能直接搬。</li>
+<li><strong>alphaXiv 公司主力押注</strong>：119 个公开仓库中唯一 star 上千的核心产品，三人核心团队 96% commits，是「论文 → 复现 → 实验编排」业务链的自然延伸，不是个体玩具。</li>
+</ol>
+<h2>项目展示</h2>
+<p><img src="https://raw.githubusercontent.com/alphaxiv/openresearch/main/.github/readme-assets/openresearch.svg" alt="OpenResearch hero"> — 类型：hero（产品主 logo）</p>
+<p><img src="https://raw.githubusercontent.com/alphaxiv/openresearch/main/.github/readme-assets/claude.svg" alt="Claude integration"> — 类型：harness 标识（Claude Code 支持）</p>
+<p><img src="https://raw.githubusercontent.com/alphaxiv/openresearch/main/.github/readme-assets/opencode.svg" alt="OpenCode integration"> — 类型：harness 标识（OpenCode 支持）</p>
+<p><img src="https://raw.githubusercontent.com/alphaxiv/openresearch/main/.github/readme-assets/codex.svg" alt="Codex integration"> — 类型：harness 标识（Codex 支持）</p>
+<p><img src="https://raw.githubusercontent.com/alphaxiv/openresearch/main/.github/readme-assets/cursor.svg" alt="Cursor integration"> — 类型：harness 标识（Cursor 支持）</p>
+<blockquote>
+<p>官网仅含 dashboard 静态截图，无独立 demo 视频；产品形态决定了真实体验必须本地运行（<code>orx up</code> → <a href="http://127.0.0.1:4791">http://127.0.0.1:4791</a>）。</p>
+</blockquote>
+<h2>项目画像</h2>
+<table>
+<thead>
+<tr><th>维度</th><th>数据</th></tr>
+</thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/alphaxiv/openresearch">https://github.com/alphaxiv/openresearch</a></td></tr>
+<tr><td>Star / Fork / Watcher</td><td>3,422 / 225 / 13</td></tr>
+<tr><td>代码行数</td><td>138,056 行（Rust 56.9% / TSX 17.1% / SVG 6.8% / Python 5.2% / TS 4.1% / 其他 ~7.7%）</td></tr>
+<tr><td>项目年龄</td><td>3.3 个月（首次提交 2026-06-06）</td></tr>
+<tr><td>开发阶段</td><td>密集开发（30 天 121 commit ≈ 4 次/天）</td></tr>
+<tr><td>贡献模式</td><td>小团队核心（11 人，Top3 占 ~96%）</td></tr>
+<tr><td>热度定位</td><td>中等热度（已被掘金 #99、AGI Hunt、moclaw.ai 报道）</td></tr>
+<tr><td>质量评级</td><td>代码上等偏中 / 文档优秀 / 测试充分（Rust 单测覆盖好，前端无浏览器 e2e）</td></tr>
+<tr><td>最新版本</td><td>v0.2.3（共 127 tag / 100 次对外 release，CI 自动 bump）</td></tr>
+<tr><td>License</td><td>MIT（真开源，非 open-core）</td></tr>
+</tbody>
+</table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p><strong>alphaXiv 平台官方组织</strong>（不是个人），账号 2.8 年龄、公开仓库 119 个，但本项目独占千级 star。核心三人组 <code>sox8502</code> / <code>myles332</code> / <code>rehaanahmad2013</code> 合计占 97.6% commits，剩余 7 人各 1 commit——典型公司「核心三人组 + 社区零星补丁」配置。alphaXiv 业务以「arXiv 论文检索 + 论文复现」为核心，OpenResearch 是把「论文 → 可运行实验」链路产品化的尝试。</p>
+<h3>问题判断</h3>
+<p>alphaXiv 长期运营 arxiv 论文平台，沉淀了一个反复出现的用户痛点：<strong>研究者读论文时拿到的是「方法 + 表格数字」，却很难在自己的硬件上把数字跑出来——更不可能 24 小时无人值守地沿一个研究分支迭代多次实验</strong>。2026 年 Claude Code、Codex、OpenCode、Cursor 同时进入成熟期，让「把对话里的实验思路自动落到 git worktree、跑实验、读日志、决定下一步」第一次成为可工程化的闭环。alphaXiv 因此把产品从「读论文」向前推一步到「跑论文」。</p>
+<h3>解法哲学</h3>
+<ul>
+<li><strong>本地优先 vs 云端优先</strong>：默认 127.0.0.1 绑定、SQLite、opt-out telemetry。商业版只承担「组织/账号/托管算力/sandbox 配置」，所有项目/实验/runs/logs/artifacts 留本地——与 W&B/MLflow 的 SaaS-first 哲学相反。</li>
+<li><strong>节点 = git branch，不是 pipeline step</strong>：不做 DAG 抽象，每个 chat session 一个独立 worktree，节点一旦 run 完成就冻结为证据。</li>
+<li><strong>明确不做的</strong>：（1）不做 LLM API 调用——纯壳，靠用户的 Agent 订阅；（2）不做模型路由；（3）不做云端 dashboard；（4）不做数据流 type-safe 节点签名。</li>
+</ul>
+<h3>战略意图</h3>
+<p><strong>核心产品 + 真开源</strong>。alphaXiv 公司战略押注的旗舰工具。本地完全免费（MIT），云端 <code>openresearch.sh</code> 提供 managed compute / 组织账号 / sandbox 编排——把「本地跑」中卡 GPU 的用户无痛转到云。开源承诺完整：核心编排 + 所有 compute 后端 + UI + Agent Skills 全 MIT 协议下，商业版只做「替你跑」，不与开源版的功能争。</p>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<ol>
+<li>
+<p><strong>git worktree × frozen node × fixed run contract</strong>（新颖度 5/5 / 实用性 5/5 / 可迁移性 5/5）<br>把「节点冻结 = 实验证据」作为不变量写进 SKILL.md 的 4 条 cardinal rules——「never edit a node once a run has answered it」「run command + env 是 fixed contract」「vary code, not knobs-in-the-command」「grow tree downward, not sideways」。等于把 ML 实验的 reproducibility 模型用 git 语义实现，让 LLM Agent 自然产生的实验可重放、可比对。</p>
+</li>
+<li>
+<p><strong>Harness Trait + Registry + Capability Tier 三件套</strong>（4/5 / 5/5 / 5/5）<br>让 4 个异构 LLM CLI（Claude Code/Codex/OpenCode/Cursor）以「同一 trait 不同的 impl」形式共存，三档能力（detect / run / skill install）独立可选。新增 harness = 新增 file + <code>registry()</code> 一行。每个 adapter 独立 file，UI 自动接入。</p>
+</li>
+<li>
+<p><strong>plan-mode MCP bridge + plan-gate hook 双层权限</strong>（4/5 / 4/5 / 4/5）<br>手写 stdio MCP server + axum long-poll 把 Claude Code headless plan mode 改造成「中途可审批」的 desktop 体验。同时 <code>plan-gate</code> PreToolUse hook 用 allowlist-only 分类避免新写 verb 默认放行。绕开 headless plan 模式 <code>ExitPlanMode</code> 被自审批的漏洞。</p>
+</li>
+<li>
+<p><strong>BackendDescriptor 单 struct × 9 后端 reattach</strong>（3/5 / 5/5 / 5/5）<br>一个 JSON 描述符撑 9 个后端（HF/Modal/k8s/SSH/Slurm/Ray/OpenResearch/Tinker/Local）的句柄持久化，supervisor 重启可从 SQLite 单独一行 JSON 重建。每字段 <code>Option<…></code> + <code>skip_serializing_if</code>，测试明确守护「older descriptors still parse」——前向兼容。</p>
+</li>
+<li>
+<p><strong>500ms SSE diff 循环 + chat broadcast 双源</strong>（3/5 / 4/5 / 4/5）<br><code>mpsc::channel(16)</code> 反压（而非 256：run log 事件可达 MB 级）+ 500ms diff tick（diff SQLite <code>updated_at</code> / diff log file offset / 10s 节流 update status）+ 独立 broadcast consumer + <code>Lagged(n)</code> → <code>resync.required</code> 客户端修复 + <code>tx.closed()</code> 防泄漏。</p>
+</li>
+</ol>
+<h3>可复用的模式与技巧</h3>
+<table>
+<thead>
+<tr><th>模式</th><th>适用场景</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Harness + Registry + Capability Tier</strong></td><td>任何「同时挂多套异构 CLI/Agent SDK」的桌面工具（LLM 编辑器、IDE、终端复用器、多 SDK 转发网关）</td></tr>
+<tr><td><strong>SKILL.md 三件套（skill 文档 / playbook / 安装 shim）</strong></td><td>任何让 Agent 调用自家工具的项目：真正指南放 <code>agent-skills/<name>/SKILL.md</code>；固定上下文放 <code>SYSTEM_PROMPT.md</code>；shim <strong>不复制正文</strong>只保留 frontmatter <code>description</code></td></tr>
+<tr><td><strong>git worktree 作为不可变实验证据</strong></td><td>任何「需要保留不可变历史 + 支持并行分支」的场景（CI 多 PR sandbox、A/B 实验、Aider-style 多 PR 评审）</td></tr>
+<tr><td><strong>MCP bridge + PreToolUse hook 双层权限</strong></td><td>Headless Agent + 安全敏感操作的通用解：hook 静态分类 + MCP server 动态审批通道</td></tr>
+<tr><td><strong>BackendDescriptor 单 struct × 多后端 reattach</strong></td><td>任何「进程可能挂、需要 supervises」的分布式任务系统</td></tr>
+<tr><td><strong>opt-out 三层防护 telemetry</strong></td><td>本地工具的合规统计范式：仅官方构建发 / 随机 install_id / outbox 重试；install_id 放 config_dir 而非 data_dir</td></tr>
+<tr><td><strong>500ms SSE diff + chat broadcast 双源</strong></td><td>本地 web 工具的多源实时事件整合：<code>channel(16)</code> 反压 + <code>tx.closed()</code> 防泄漏 + <code>resync.required</code> 修复</td></tr>
+</tbody>
+</table>
+<h3>关键设计决策</h3>
+<ul>
+<li><strong>决策</strong>：Harness trait + 单一 registry（） 抽象多 Agent<br><strong>Trade-off</strong>：抽象是有损的——每个 harness 独有 capability（如 OpenCode 的 <code>plan_exit</code>、Codex 的 <code>service_tier</code>）必须显式适配，代价是 ~3 万行胶水代码（claude.rs 3269 / codex.rs 5762 / opencode.rs 2529 / cursor.rs 1222）<br><strong>可迁移性</strong>：★★★★★</li>
+<li><strong>决策</strong>：git worktree 作为实验隔离 + commit 化存档<br><strong>Trade-off</strong>：Worktree 在 Windows 上吃 ~100/260 路径字符；超大仓库（>1GB 单文件）需走 <code>INITIAL_SNAPSHOT_MAX_*</code> 限额；团队为此做过 legacy 路径迁移<br><strong>可迁移性</strong>：★★★★★</li>
+<li><strong>决策</strong>：plan-mode MCP bridge + plan-gate allowlist 双层权限<br><strong>Trade-off</strong>：双层系统维护成本高；allowlist 必须与 <code>main.rs</code> 的 <code>Command</code> enum 手维护同步（<code>readonly_verbs_are_real_commands</code> 测试守护 rename，但<strong>不能守护新增</strong>——这是显式承认的技术债）<br><strong>可迁移性</strong>：★★★★</li>
+<li><strong>决策</strong>：opt-out 三层防护 telemetry（仅官方构建发 / 随机 install_id / outbox 重试 / opt-out 本身可观察）<br><strong>Trade-off</strong>：2229 行 + 巨量 doc-comment 才把这套承诺在 Rust 里站住<br><strong>可迁移性</strong>：★★★★</li>
+</ul>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table>
+<thead>
+<tr><th>维度</th><th>OpenResearch</th><th>DAGWorks/Hamilton</th><th>Metaflow</th><th>MLflow</th><th>wandb/local</th><th>Hyperresearch</th></tr>
+</thead>
+<tbody>
+<tr><td>实验单元</td><td>git branch</td><td>DAG node</td><td>DAG step</td><td>run</td><td>run</td><td>16 步固定流水线</td></tr>
+<tr><td>LLM Agent 友好</td><td>★★★★★</td><td>★★</td><td>★</td><td>★</td><td>★</td><td>★★★</td></tr>
+<tr><td>本地优先</td><td>★★★★★</td><td>★★★</td><td>★★</td><td>★★</td><td>★★★</td><td>★★★</td></tr>
+<tr><td>可复现性</td><td>commit + fixed contract</td><td>DAG run id</td><td>step artifacts</td><td>tracking</td><td>tracking</td><td>报告快照</td></tr>
+<tr><td>节点异构实验</td><td>★★★★★（worktree）</td><td>★（数据流 type-safe）</td><td>★</td><td>★</td><td>★</td><td>✗（固定流水线）</td></tr>
+<tr><td>云端 dashboard</td><td>✗（远程走 SSH）</td><td>★★</td><td>★★★★★</td><td>★★★★★</td><td>★★★★★</td><td>✗</td></tr>
+<tr><td>Stars</td><td>3.4K</td><td>~3K</td><td>19K+</td><td>20K+</td><td>~数百</td><td>极小</td></tr>
+</tbody>
+</table>
+<h3>差异化护城河</h3>
+<ul>
+<li><strong>技术护城河</strong>：Harness + Registry + Capability Tier 的多 Agent 抽象 + git worktree frozen node 不可变证据模型，业界少有把多套 LLM CLI 收敛到一个 async-trait 的实践。</li>
+<li><strong>生态护城河</strong>：alphaXiv 公司产品矩阵（论文平台 → 论文复现 → 实验编排）的用户漏斗；每一步都把上一步的「读者社区」变成下一步的「客户群」。</li>
+<li><strong>信任护城河</strong>：MIT 真开源（核心编排 + 所有 compute 后端 + UI + Agent Skills 全公开），商业版只做「替你跑」而不与开源版功能争。</li>
+</ul>
+<h3>竞争风险</h3>
+<ul>
+<li><strong>最可能替代者</strong>：（1）Cursor / Anthropic / OpenAI 各自官方把实验编排纳入 SDK 内置能力；（2）DAGWorks / Hamilton 加 LLM Agent 原生支持（已有 autonomous agents 思路）；（3）wandb 把 local mode + Agent sweep 整合。</li>
+<li><strong>替代触发条件</strong>：若 OpenResearch 不在 6 个月内把「agent 决策质量」做出独立基准（moclaw 文章明确指出此为最大空白），主流 LLM 厂商把实验编排纳入内置功能，本项目会被边缘化。</li>
+</ul>
+<h3>生态定位</h3>
+<p>在「LLM Agent 时代的本地 ML 实验编排」这一<strong>真实蓝海细分</strong>中担任先行者。补的不是「DAG 编排」「模型 registry」「云端调度」（这些已被 MLflow/Metaflow/W&B 占住），而是「<strong>Agent 改代码 → git worktree 隔离跑 → commit 化存档</strong>」这一新工作流。已被掘金 #99、AGI Hunt、moclaw.ai 等独立报道确认市场关注。</p>
+<blockquote>
+<p>旁注：OpenResearch <strong>不与论文发现工具</strong>（Elicit/ResearchRabbit/ConnectedPapers/OpenAlex/arxiv-sanity）正面竞争。<code>orx discover</code> 和 <code>orx paper</code> 命令部分覆盖文献入口，但核心价值在「跑实验」而非「找论文」。</p>
+</blockquote>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：3.4K stars / 127 tag / 100 release 但<strong>尚无第三方独立基准评测</strong>无人值守决策质量（moclaw 文章明确空白）；中文圈报道刚起，英文圈 deepwiki / zread 均未收录，知识入口有先发位置。</li>
+<li><strong>技术借鉴</strong>：7 个可复用模式（见上文表格）都能直接迁移到自己的项目——特别是「Harness + Registry + Capability Tier」「SKILL.md 三件套」「git worktree 不可变证据」「MCP bridge + PreToolUse hook」「BackendDescriptor 多后端 reattach」「三层防护 telemetry」「SSE diff + broadcast」——这是日报读者最高 ROI 部分。</li>
+<li><strong>生态位</strong>：填补「论文平台 → 论文复现 → 实验编排 → Agent 辅助」链条中「跑论文」的空白；与 alphaXiv 同组织其他仓库（alphaxiv/agents、experience-distillation、weak-to-strong-on-policy-distillation）形成产品矩阵。</li>
+<li><strong>趋势判断</strong>：① 方向正确（LLM Agent 时代的 ML 工作流是大势所趋）；② 后发劣势存在（v0.1.123 → v0.2.0 同日跨版本，API 剧烈变动意味着早期采用者踩坑成本高）；③ 蓝海窗口期约 6 个月（如果主流 LLM 厂商不内置实验编排，OpenResearch 有时间把生态占稳）。</li>
+</ul>
+<h2>风险与不足</h2>
+<ol>
+<li><strong>API 剧烈变动</strong>：v0.1.118 → v0.2.0 跨日跳版本，127 tag 中 0.1 段占 118 个——早期采用者需查 release notes 才能相信任何描述的行为。</li>
+<li><strong>无人值守决策质量无独立基准</strong>：moclaw.ai 三方测评明确指出「没人发布过它在无人值守下决策质量的独立证据」。</li>
+<li><strong>Dashboard 跑在笔记本上 = 链路最不可靠组件</strong>：研究 Agent 深夜无人值守跑实验时，dashboard 进程崩溃 = 失明观察。</li>
+<li><strong>远程模式仅靠 SSH 无应用层认证</strong>：README 显式承认，远程访问走 <code>SSH -L</code>，多人协作场景需要 <code>#316 gflow</code> 类方案落地。</li>
+<li><strong>止步于小团队</strong>：国家级 HPC（Issue #303）尚未在路线图上；<code>#316 gflow</code> 提议揭示「从单人工具到小团队工作台」的关键缺口。</li>
+<li><strong>前端测试覆盖偏弱</strong>：<code>ChatPanel.tsx</code> 6601 行但 vitest 配置未启用，目前 UI 测试仅靠 <code>node --test</code> 跑 jsdoc-style 工具函数，无浏览器端 e2e。</li>
+<li><strong>CLI 路径 <code>unwrap()</code> 偏多</strong>：2151 次在「已证明不可能出错」位置但仍偏高，建议 clippy 配 <code>unwrap_used</code> deny。</li>
+</ol>
+<h2>行动建议</h2>
+<ul>
+<li>
+<p><strong>如果你要用它</strong>：</p>
+<ul>
+<li><strong>不要追 main</strong>——锁定稳定 tag（如 v0.2.3）并查 release notes；</li>
+<li>macOS / Linux 优先，Windows 仍 beta；</li>
+<li>单人或 2–5 人 ML 研究小组收益最大；国家级 HPC 暂不支持；</li>
+<li>准备好 GPU——本地仅能跑小实验，大 sweep 走 <code>openresearch.sh</code> 托管算力。</li>
+</ul>
+</li>
+<li>
+<p><strong>如果你要学它</strong>（按 ROI 排序的「必读清单」）：</p>
+<ol>
+<li><code>src/local/harness/mod.rs</code>（Harness trait + registry）——多 Agent 共存范式</li>
+<li><code>src/commands/up.rs</code>（114 次修改的入口）——理解 CLI 命令链</li>
+<li><code>src/local/chat/mod.rs</code>（本地 chat 后端核心）——LLM Agent runtime 设计</li>
+<li><code>src/jobs/mod.rs</code>（BackendDescriptor）——多后端 reattach 范式</li>
+<li><code>agent-skills/orx-experiment-tree/SKILL.md</code>——Agent 自描述规则</li>
+<li><code>src/telemetry.rs</code>——三层防护 opt-out telemetry 模板</li>
+<li><code>src/main.rs</code>（axum 单进程路由）——SPA + API + SSE 整合</li>
+</ol>
+</li>
+<li>
+<p><strong>如果你要 fork 它</strong>：</p>
+<ul>
+<li>优化方向 1：补前端 vitest + 浏览器端 Playwright e2e；</li>
+<li>优化方向 2：把 allowlist 分类从 <code>main.rs::Command</code> 同步抽到 codegen（解决「守护 rename 但不守护新增」的技术债）；</li>
+<li>优化方向 3：补「应用层认证」取代 SSH-only 远程模式（issue #316 gflow 方向）；</li>
+<li>优化方向 4：建立独立基准评测无人值守决策质量。</li>
+</ul>
+</li>
+</ul>
+<h3>知识入口</h3>
+<table>
+<thead>
+<tr><th>资源</th><th>链接</th></tr>
+</thead>
+<tbody>
+<tr><td>DeepWiki</td><td>未收录（页面为加载占位）</td></tr>
+<tr><td>Zread.ai</td><td>未收录（HTTP 403）</td></tr>
+<tr><td>关联论文</td><td>无官方论文</td></tr>
+<tr><td>在线 Demo</td><td>无云端 sandbox；产品形态本身即本地 dashboard（<code>orx up</code> → <a href="http://127.0.0.1:4791">http://127.0.0.1:4791</a>）</td></tr>
+<tr><td>官网</td><td><a href="https://openresearch.sh/">https://openresearch.sh/</a></td></tr>
+<tr><td>母公司</td><td><a href="https://www.alphaxiv.org">https://www.alphaxiv.org</a></td></tr>
+<tr><td>第三方深度分析</td><td><a href="https://moclaw.ai/blog/alphaxiv-openresearch">moclaw.ai — AlphaXiv OpenResearch: Local-First Agent Lab</a> / <a href="https://juejin.cn/post/7685191667029704767">掘金 — 每天一个开源项目 #99 OpenResearch</a> / <a href="https://agi-hunt.com/">AGI Hunt 报道</a></td></tr>
+</tbody>
+</table>
+</body>
+</html>

@@ -1,15 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-09-15",
+    "last_run": "2026-09-16",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/akitaonrails/ai-memory",
-      "canonical_url": "https://github.com/akitaonrails/ai-memory",
-      "event_date": "2026-08-16",
-      "date_seen": "2026-08-16"
-    },
     {
       "key": "github.com/harry0703/moneyprinterturbo",
       "canonical_url": "https://github.com/harry0703/MoneyPrinterTurbo",
@@ -813,6 +807,48 @@
       "canonical_url": "https://seeyeetech.com/github-explorer/reports/sst_opencode",
       "event_date": "2026-09-15",
       "date_seen": "2026-09-15"
+    },
+    {
+      "key": "github.com/danny-avila/librechat",
+      "canonical_url": "https://github.com/danny-avila/LibreChat",
+      "event_date": "2026-09-16",
+      "date_seen": "2026-09-16"
+    },
+    {
+      "key": "github.com/mg1937/asc",
+      "canonical_url": "https://github.com/MG1937/ASC",
+      "event_date": "2026-09-16",
+      "date_seen": "2026-09-16"
+    },
+    {
+      "key": "github.com/earendil-works/pi",
+      "canonical_url": "https://github.com/earendil-works/pi",
+      "event_date": "2026-09-16",
+      "date_seen": "2026-09-16"
+    },
+    {
+      "key": "github.com/msitarzewski/agency-agents",
+      "canonical_url": "https://github.com/msitarzewski/agency-agents",
+      "event_date": "2026-09-16",
+      "date_seen": "2026-09-16"
+    },
+    {
+      "key": "github.com/shubhamsaboo/awesome-llm-apps",
+      "canonical_url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "event_date": "2026-09-16",
+      "date_seen": "2026-09-16"
+    },
+    {
+      "key": "github.com/thedotmack/claude-mem",
+      "canonical_url": "https://github.com/thedotmack/claude-mem",
+      "event_date": "2026-09-16",
+      "date_seen": "2026-09-16"
+    },
+    {
+      "key": "github.com/huggingface/transformers",
+      "canonical_url": "https://github.com/huggingface/transformers",
+      "event_date": "2026-09-16",
+      "date_seen": "2026-09-16"
     }
   ]
 }

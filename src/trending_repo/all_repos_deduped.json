@@ -50,6 +50,16 @@
     "trending_days": 32
   },
   {
+    "name": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ecc",
+    "language": "JavaScript",
+    "stars": 260998,
+    "forks": 39055,
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "last_seen": "2026-09-17",
+    "trending_days": 31
+  },
+  {
     "name": "NousResearch/hermes-agent",
     "url": "https://github.com/nousresearch/hermes-agent",
     "language": "Python",
@@ -60,24 +70,14 @@
     "trending_days": 31
   },
   {
-    "name": "affaan-m/ECC",
-    "url": "https://github.com/affaan-m/ecc",
-    "language": "JavaScript",
-    "stars": 259839,
-    "forks": 38894,
-    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "last_seen": "2026-09-16",
-    "trending_days": 30
-  },
-  {
     "name": "anthropics/claude-code",
     "url": "https://github.com/anthropics/claude-code",
     "language": "TypeScript",
-    "stars": 145314,
-    "forks": 23419,
+    "stars": 145837,
+    "forks": 23534,
     "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-    "last_seen": "2026-09-16",
-    "trending_days": 29
+    "last_seen": "2026-09-17",
+    "trending_days": 30
   },
   {
     "name": "msitarzewski/agency-agents",
@@ -110,6 +110,16 @@
     "trending_days": 27
   },
   {
+    "name": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "language": "JavaScript",
+    "stars": 95927,
+    "forks": 10136,
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "last_seen": "2026-09-17",
+    "trending_days": 26
+  },
+  {
     "name": "yeongpin/cursor-free-vip",
     "url": "https://github.com/yeongpin/cursor-free-vip",
     "language": "Python",
@@ -118,16 +128,6 @@
     "description": "[Support 0.49.x]（Reset Cursor AI MachineID & Bypass Higher Token Limit） Cursor Ai ，自动重置机器ID ， 免费升级使用Pro功能: You've reached your trial request limit. / Too many free trial accounts used on this machine. Please upgrade to pro. We have this limit in place to prevent abuse. Please let us know if you believe this is a mistake.",
     "last_seen": "2025-12-04",
     "trending_days": 26
-  },
-  {
-    "name": "addyosmani/agent-skills",
-    "url": "https://github.com/addyosmani/agent-skills",
-    "language": "JavaScript",
-    "stars": 95201,
-    "forks": 10095,
-    "description": "Production-grade engineering skills for AI coding agents.",
-    "last_seen": "2026-09-16",
-    "trending_days": 25
   },
   {
     "name": "google/adk-go",
@@ -530,6 +530,16 @@
     "trending_days": 14
   },
   {
+    "name": "jamiepine/voicebox",
+    "url": "https://github.com/jamiepine/voicebox",
+    "language": "TypeScript",
+    "stars": 54804,
+    "forks": 6808,
+    "description": "The open-source AI voice studio. Clone, dictate, create.",
+    "last_seen": "2026-09-17",
+    "trending_days": 14
+  },
+  {
     "name": "openai/skills",
     "url": "https://github.com/openai/skills",
     "language": "Python",
@@ -567,16 +577,6 @@
     "forks": 3678,
     "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
     "last_seen": "2026-09-14",
-    "trending_days": 13
-  },
-  {
-    "name": "jamiepine/voicebox",
-    "url": "https://github.com/jamiepine/voicebox",
-    "language": "TypeScript",
-    "stars": 54164,
-    "forks": 6776,
-    "description": "The open-source AI voice studio. Clone, dictate, create.",
-    "last_seen": "2026-09-16",
     "trending_days": 13
   },
   {
@@ -860,6 +860,16 @@
     "trending_days": 11
   },
   {
+    "name": "alibaba/open-code-review",
+    "url": "https://github.com/alibaba/open-code-review",
+    "language": "Go",
+    "stars": 34035,
+    "forks": 2418,
+    "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "last_seen": "2026-09-17",
+    "trending_days": 10
+  },
+  {
     "name": "cathrynlavery/diagram-design",
     "url": "https://github.com/cathrynlavery/diagram-design",
     "language": "HTML",
@@ -978,16 +988,6 @@
     "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
     "last_seen": "2026-05-07",
     "trending_days": 10
-  },
-  {
-    "name": "alibaba/open-code-review",
-    "url": "https://github.com/alibaba/open-code-review",
-    "language": "Go",
-    "stars": 30868,
-    "forks": 2207,
-    "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-    "last_seen": "2026-09-16",
-    "trending_days": 9
   },
   {
     "name": "alibaba/page-agent",
@@ -1240,6 +1240,16 @@
     "trending_days": 9
   },
   {
+    "name": "roboflow/supervision",
+    "url": "https://github.com/roboflow/supervision",
+    "language": "Python",
+    "stars": 50775,
+    "forks": 4825,
+    "description": "We write your reusable computer vision tools. 💜",
+    "last_seen": "2026-09-17",
+    "trending_days": 9
+  },
+  {
     "name": "soxoj/maigret",
     "url": "https://github.com/soxoj/maigret",
     "language": "Python",
@@ -1467,16 +1477,6 @@
     "forks": 1222,
     "description": "Desktop app to manage markdown knowledge bases",
     "last_seen": "2026-07-01",
-    "trending_days": 8
-  },
-  {
-    "name": "roboflow/supervision",
-    "url": "https://github.com/roboflow/supervision",
-    "language": "Python",
-    "stars": 50477,
-    "forks": 4806,
-    "description": "We write your reusable computer vision tools. 💜",
-    "last_seen": "2026-09-16",
     "trending_days": 8
   },
   {
@@ -1890,6 +1890,16 @@
     "trending_days": 7
   },
   {
+    "name": "Tencent/WeKnora",
+    "url": "https://github.com/tencent/weknora",
+    "language": "Go",
+    "stars": 26110,
+    "forks": 3543,
+    "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+    "last_seen": "2026-09-17",
+    "trending_days": 7
+  },
+  {
     "name": "tirth8205/code-review-graph",
     "url": "https://github.com/tirth8205/code-review-graph",
     "language": "Python",
@@ -1977,6 +1987,16 @@
     "forks": 687,
     "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
     "last_seen": "2026-08-15",
+    "trending_days": 6
+  },
+  {
+    "name": "anthropics/knowledge-work-plugins",
+    "url": "https://github.com/anthropics/knowledge-work-plugins",
+    "language": "Python",
+    "stars": 24466,
+    "forks": 2934,
+    "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+    "last_seen": "2026-09-17",
     "trending_days": 6
   },
   {
@@ -2270,6 +2290,16 @@
     "trending_days": 6
   },
   {
+    "name": "JustVugg/colibri",
+    "url": "https://github.com/justvugg/colibri",
+    "language": "C",
+    "stars": 35530,
+    "forks": 3732,
+    "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+    "last_seen": "2026-09-17",
+    "trending_days": 6
+  },
+  {
     "name": "kamranahmedse/developer-roadmap",
     "url": "https://github.com/kamranahmedse/developer-roadmap",
     "language": "TypeScript",
@@ -2337,6 +2367,16 @@
     "forks": 470,
     "description": "The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC 🦬",
     "last_seen": "2025-10-24",
+    "trending_days": 6
+  },
+  {
+    "name": "NationalSecurityAgency/ghidra",
+    "url": "https://github.com/nationalsecurityagency/ghidra",
+    "language": "Java",
+    "stars": 78289,
+    "forks": 8667,
+    "description": "Ghidra is a software reverse engineering (SRE) framework",
+    "last_seen": "2026-09-17",
     "trending_days": 6
   },
   {
@@ -2460,16 +2500,6 @@
     "trending_days": 6
   },
   {
-    "name": "Tencent/WeKnora",
-    "url": "https://github.com/tencent/weknora",
-    "language": "Go",
-    "stars": 24995,
-    "forks": 3453,
-    "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-    "last_seen": "2026-09-16",
-    "trending_days": 6
-  },
-  {
     "name": "trycua/cua",
     "url": "https://github.com/trycua/cua",
     "language": "HTML",
@@ -2590,6 +2620,16 @@
     "trending_days": 5
   },
   {
+    "name": "alphaXiv/OpenResearch",
+    "url": "https://github.com/alphaxiv/openresearch",
+    "language": "Rust",
+    "stars": 4954,
+    "forks": 295,
+    "description": "Turn your coding agents into research agents",
+    "last_seen": "2026-09-17",
+    "trending_days": 5
+  },
+  {
     "name": "andrewyng/aisuite",
     "url": "https://github.com/andrewyng/aisuite",
     "language": "Python",
@@ -2607,16 +2647,6 @@
     "forks": 2319,
     "description": "None",
     "last_seen": "2026-05-10",
-    "trending_days": 5
-  },
-  {
-    "name": "anthropics/knowledge-work-plugins",
-    "url": "https://github.com/anthropics/knowledge-work-plugins",
-    "language": "Python",
-    "stars": 24186,
-    "forks": 2917,
-    "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-    "last_seen": "2026-09-16",
     "trending_days": 5
   },
   {
@@ -2760,6 +2790,16 @@
     "trending_days": 5
   },
   {
+    "name": "ever-co/ever-gauzy",
+    "url": "https://github.com/ever-co/ever-gauzy",
+    "language": "TypeScript",
+    "stars": 7590,
+    "forks": 1110,
+    "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+    "last_seen": "2026-09-17",
+    "trending_days": 5
+  },
+  {
     "name": "every-app/open-seo",
     "url": "https://github.com/every-app/open-seo",
     "language": "TypeScript",
@@ -2880,16 +2920,6 @@
     "trending_days": 5
   },
   {
-    "name": "JustVugg/colibri",
-    "url": "https://github.com/justvugg/colibri",
-    "language": "C",
-    "stars": 34712,
-    "forks": 3637,
-    "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
-    "last_seen": "2026-09-16",
-    "trending_days": 5
-  },
-  {
     "name": "karpathy/nanochat",
     "url": "https://github.com/karpathy/nanochat",
     "language": "Python",
@@ -2987,16 +3017,6 @@
     "forks": 450,
     "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
     "last_seen": "2026-06-16",
-    "trending_days": 5
-  },
-  {
-    "name": "NationalSecurityAgency/ghidra",
-    "url": "https://github.com/nationalsecurityagency/ghidra",
-    "language": "Java",
-    "stars": 77463,
-    "forks": 8562,
-    "description": "Ghidra is a software reverse engineering (SRE) framework",
-    "last_seen": "2026-09-16",
     "trending_days": 5
   },
   {
@@ -3340,16 +3360,6 @@
     "trending_days": 4
   },
   {
-    "name": "alphaXiv/OpenResearch",
-    "url": "https://github.com/alphaxiv/openresearch",
-    "language": "Rust",
-    "stars": 4085,
-    "forks": 260,
-    "description": "Turn your coding agents into research agents",
-    "last_seen": "2026-09-16",
-    "trending_days": 4
-  },
-  {
     "name": "ansible/ansible",
     "url": "https://github.com/ansible/ansible",
     "language": "Python",
@@ -3577,16 +3587,6 @@
     "forks": 4917,
     "description": "Find and fix problems in your JavaScript code.",
     "last_seen": "2026-02-20",
-    "trending_days": 4
-  },
-  {
-    "name": "ever-co/ever-gauzy",
-    "url": "https://github.com/ever-co/ever-gauzy",
-    "language": "TypeScript",
-    "stars": 7113,
-    "forks": 1078,
-    "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
-    "last_seen": "2026-09-16",
     "trending_days": 4
   },
   {
@@ -4677,6 +4677,16 @@
     "forks": 7164,
     "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
     "last_seen": "2026-02-23",
+    "trending_days": 3
+  },
+  {
+    "name": "cline/cline",
+    "url": "https://github.com/cline/cline",
+    "language": "TypeScript",
+    "stars": 68607,
+    "forks": 7407,
+    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+    "last_seen": "2026-09-17",
     "trending_days": 3
   },
   {
@@ -6100,6 +6110,16 @@
     "trending_days": 2
   },
   {
+    "name": "abue-ammar/tinycast",
+    "url": "https://github.com/abue-ammar/tinycast",
+    "language": "Swift",
+    "stars": 5994,
+    "forks": 277,
+    "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
+    "last_seen": "2026-09-17",
+    "trending_days": 2
+  },
+  {
     "name": "adam-maj/tiny-gpu",
     "url": "https://github.com/adam-maj/tiny-gpu",
     "language": "SystemVerilog",
@@ -6570,6 +6590,16 @@
     "trending_days": 2
   },
   {
+    "name": "cilium/cilium",
+    "url": "https://github.com/cilium/cilium",
+    "language": "Go",
+    "stars": 25305,
+    "forks": 4068,
+    "description": "eBPF-based Networking, Security, and Observability",
+    "last_seen": "2026-09-17",
+    "trending_days": 2
+  },
+  {
     "name": "cinnyapp/cinny",
     "url": "https://github.com/cinnyapp/cinny",
     "language": "TypeScript",
@@ -6580,13 +6610,13 @@
     "trending_days": 2
   },
   {
-    "name": "cline/cline",
-    "url": "https://github.com/cline/cline",
-    "language": "TypeScript",
-    "stars": 68206,
-    "forks": 7376,
-    "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
-    "last_seen": "2026-09-16",
+    "name": "cloudflare/security-audit-skill",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "language": "JavaScript",
+    "stars": 9759,
+    "forks": 518,
+    "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "last_seen": "2026-09-17",
     "trending_days": 2
   },
   {
@@ -8890,16 +8920,6 @@
     "trending_days": 1
   },
   {
-    "name": "abue-ammar/tinycast",
-    "url": "https://github.com/abue-ammar/tinycast",
-    "language": "Swift",
-    "stars": 5350,
-    "forks": 251,
-    "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
-    "last_seen": "2026-09-16",
-    "trending_days": 1
-  },
-  {
     "name": "abus-aikorea/voice-pro",
     "url": "https://github.com/abus-aikorea/voice-pro",
     "language": "Python",
@@ -9470,16 +9490,6 @@
     "trending_days": 1
   },
   {
-    "name": "cilium/cilium",
-    "url": "https://github.com/cilium/cilium",
-    "language": "Go",
-    "stars": 23279,
-    "forks": 3529,
-    "description": "eBPF-based Networking, Security, and Observability",
-    "last_seen": "2026-01-15",
-    "trending_days": 1
-  },
-  {
     "name": "cloudflare/capnweb",
     "url": "https://github.com/cloudflare/capnweb",
     "language": "TypeScript",
@@ -9487,16 +9497,6 @@
     "forks": 70,
     "description": "JavaScript/TypeScript-native, low-boilerplate, object-capability RPC system",
     "last_seen": "2025-09-25",
-    "trending_days": 1
-  },
-  {
-    "name": "cloudflare/security-audit-skill",
-    "url": "https://github.com/cloudflare/security-audit-skill",
-    "language": "JavaScript",
-    "stars": 6082,
-    "forks": 363,
-    "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-    "last_seen": "2026-09-16",
     "trending_days": 1
   },
   {
@@ -9527,6 +9527,16 @@
     "forks": 6340,
     "description": "VS Code in the browser",
     "last_seen": "2025-11-08",
+    "trending_days": 1
+  },
+  {
+    "name": "coder/coder",
+    "url": "https://github.com/coder/coder",
+    "language": "Go",
+    "stars": 14778,
+    "forks": 1482,
+    "description": "Secure environments for developers and their agents",
+    "last_seen": "2026-09-17",
     "trending_days": 1
   },
   {
@@ -11400,6 +11410,16 @@
     "trending_days": 1
   },
   {
+    "name": "n8n-io/n8n",
+    "url": "https://github.com/n8n-io/n8n",
+    "language": "TypeScript",
+    "stars": 204900,
+    "forks": 60733,
+    "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+    "last_seen": "2026-09-17",
+    "trending_days": 1
+  },
+  {
     "name": "nanobrowser/nanobrowser",
     "url": "https://github.com/nanobrowser/nanobrowser",
     "language": "TypeScript",
@@ -12447,6 +12467,26 @@
     "forks": 994,
     "description": "None",
     "last_seen": "2026-02-13",
+    "trending_days": 1
+  },
+  {
+    "name": "Tencent/BrowserSkill",
+    "url": "https://github.com/tencent/browserskill",
+    "language": "TypeScript",
+    "stars": 3840,
+    "forks": 274,
+    "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+    "last_seen": "2026-09-17",
+    "trending_days": 1
+  },
+  {
+    "name": "TencentCloud/Octop",
+    "url": "https://github.com/tencentcloud/octop",
+    "language": "Python",
+    "stars": 3291,
+    "forks": 345,
+    "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+    "last_seen": "2026-09-17",
     "trending_days": 1
   },
   {

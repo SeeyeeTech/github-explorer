@@ -1,45 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-09-17",
+    "last_run": "2026-09-18",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/chaitanyagiri/munder-difflin",
-      "canonical_url": "https://github.com/chaitanyagiri/munder-difflin",
-      "event_date": "2026-08-18",
-      "date_seen": "2026-08-18"
-    },
-    {
-      "key": "github.com/bojieli/ai-agent-book",
-      "canonical_url": "https://github.com/bojieli/ai-agent-book",
-      "event_date": "2026-08-18",
-      "date_seen": "2026-08-18"
-    },
-    {
-      "key": "github.com/volcengine/openviking",
-      "canonical_url": "https://github.com/volcengine/OpenViking",
-      "event_date": "2026-08-18",
-      "date_seen": "2026-08-18"
-    },
-    {
-      "key": "github.com/deepseek-ai/deepseek-harness",
-      "canonical_url": "https://github.com/deepseek-ai/deepseek-harness",
-      "event_date": "2026-08-18",
-      "date_seen": "2026-08-18"
-    },
-    {
-      "key": "github.com/mattpocock/skills",
-      "canonical_url": "https://github.com/mattpocock/skills",
-      "event_date": "2026-08-18",
-      "date_seen": "2026-08-18"
-    },
-    {
-      "key": "github.com/openclaw/openclaw",
-      "canonical_url": "https://github.com/openclaw/openclaw",
-      "event_date": "2026-08-18",
-      "date_seen": "2026-08-18"
-    },
     {
       "key": "github.com/modular/modular",
       "canonical_url": "https://github.com/modular/modular",
@@ -825,6 +789,30 @@
       "canonical_url": "https://github.com/papra-hq/papra",
       "event_date": "2026-09-17",
       "date_seen": "2026-09-17"
+    },
+    {
+      "key": "github.com/tencent/browserskill",
+      "canonical_url": "https://github.com/Tencent/BrowserSkill",
+      "event_date": null,
+      "date_seen": "2026-09-18"
+    },
+    {
+      "key": "github.com/github/spec-kit",
+      "canonical_url": "https://github.com/github/spec-kit",
+      "event_date": null,
+      "date_seen": "2026-09-18"
+    },
+    {
+      "key": "github.com/keygraphhq/shannon",
+      "canonical_url": "https://github.com/KeygraphHQ/shannon",
+      "event_date": null,
+      "date_seen": "2026-09-18"
+    },
+    {
+      "key": "github.com/mattpocock/skills",
+      "canonical_url": "https://github.com/mattpocock/skills",
+      "event_date": null,
+      "date_seen": "2026-09-18"
     }
   ]
 }

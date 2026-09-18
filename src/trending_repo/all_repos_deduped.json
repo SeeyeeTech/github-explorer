@@ -40,6 +40,16 @@
     "trending_days": 34
   },
   {
+    "name": "affaan-m/ECC",
+    "url": "https://github.com/affaan-m/ecc",
+    "language": "JavaScript",
+    "stars": 261668,
+    "forks": 39162,
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "last_seen": "2026-09-18",
+    "trending_days": 32
+  },
+  {
     "name": "iptv-org/iptv",
     "url": "https://github.com/iptv-org/iptv",
     "language": "TypeScript",
@@ -50,13 +60,13 @@
     "trending_days": 32
   },
   {
-    "name": "affaan-m/ECC",
-    "url": "https://github.com/affaan-m/ecc",
-    "language": "JavaScript",
-    "stars": 260998,
-    "forks": 39055,
-    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "last_seen": "2026-09-17",
+    "name": "anthropics/claude-code",
+    "url": "https://github.com/anthropics/claude-code",
+    "language": "TypeScript",
+    "stars": 146121,
+    "forks": 23715,
+    "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+    "last_seen": "2026-09-18",
     "trending_days": 31
   },
   {
@@ -70,16 +80,6 @@
     "trending_days": 31
   },
   {
-    "name": "anthropics/claude-code",
-    "url": "https://github.com/anthropics/claude-code",
-    "language": "TypeScript",
-    "stars": 145837,
-    "forks": 23534,
-    "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-    "last_seen": "2026-09-17",
-    "trending_days": 30
-  },
-  {
     "name": "msitarzewski/agency-agents",
     "url": "https://github.com/msitarzewski/agency-agents",
     "language": "Shell",
@@ -88,6 +88,16 @@
     "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
     "last_seen": "2026-08-13",
     "trending_days": 28
+  },
+  {
+    "name": "addyosmani/agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "language": "JavaScript",
+    "stars": 96193,
+    "forks": 10172,
+    "description": "Production-grade engineering skills for AI coding agents.",
+    "last_seen": "2026-09-18",
+    "trending_days": 27
   },
   {
     "name": "sansan0/TrendRadar",
@@ -108,16 +118,6 @@
     "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
     "last_seen": "2026-09-12",
     "trending_days": 27
-  },
-  {
-    "name": "addyosmani/agent-skills",
-    "url": "https://github.com/addyosmani/agent-skills",
-    "language": "JavaScript",
-    "stars": 95927,
-    "forks": 10136,
-    "description": "Production-grade engineering skills for AI coding agents.",
-    "last_seen": "2026-09-17",
-    "trending_days": 26
   },
   {
     "name": "yeongpin/cursor-free-vip",
@@ -680,6 +680,16 @@
     "trending_days": 12
   },
   {
+    "name": "supermemoryai/supermemory",
+    "url": "https://github.com/supermemoryai/supermemory",
+    "language": "TypeScript",
+    "stars": 30100,
+    "forks": 2633,
+    "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
+    "last_seen": "2026-09-18",
+    "trending_days": 12
+  },
+  {
     "name": "twentyhq/twenty",
     "url": "https://github.com/twentyhq/twenty",
     "language": "TypeScript",
@@ -698,6 +708,16 @@
     "description": "An autonomous agent for deep financial research",
     "last_seen": "2026-05-06",
     "trending_days": 12
+  },
+  {
+    "name": "alibaba/open-code-review",
+    "url": "https://github.com/alibaba/open-code-review",
+    "language": "Go",
+    "stars": 36305,
+    "forks": 2585,
+    "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "last_seen": "2026-09-18",
+    "trending_days": 11
   },
   {
     "name": "Alishahryar1/free-claude-code",
@@ -840,16 +860,6 @@
     "trending_days": 11
   },
   {
-    "name": "supermemoryai/supermemory",
-    "url": "https://github.com/supermemoryai/supermemory",
-    "language": "TypeScript",
-    "stars": 25029,
-    "forks": 2199,
-    "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
-    "last_seen": "2026-06-03",
-    "trending_days": 11
-  },
-  {
     "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
     "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
     "language": "Unknown",
@@ -858,16 +868,6 @@
     "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
     "last_seen": "2026-06-13",
     "trending_days": 11
-  },
-  {
-    "name": "alibaba/open-code-review",
-    "url": "https://github.com/alibaba/open-code-review",
-    "language": "Go",
-    "stars": 34035,
-    "forks": 2418,
-    "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-    "last_seen": "2026-09-17",
-    "trending_days": 10
   },
   {
     "name": "cathrynlavery/diagram-design",
@@ -1540,6 +1540,16 @@
     "trending_days": 8
   },
   {
+    "name": "anthropics/knowledge-work-plugins",
+    "url": "https://github.com/anthropics/knowledge-work-plugins",
+    "language": "Python",
+    "stars": 24755,
+    "forks": 2961,
+    "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+    "last_seen": "2026-09-18",
+    "trending_days": 7
+  },
+  {
     "name": "ayghri/i-have-adhd",
     "url": "https://github.com/ayghri/i-have-adhd",
     "language": "Python",
@@ -1987,16 +1997,6 @@
     "forks": 687,
     "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
     "last_seen": "2026-08-15",
-    "trending_days": 6
-  },
-  {
-    "name": "anthropics/knowledge-work-plugins",
-    "url": "https://github.com/anthropics/knowledge-work-plugins",
-    "language": "Python",
-    "stars": 24466,
-    "forks": 2934,
-    "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-    "last_seen": "2026-09-17",
     "trending_days": 6
   },
   {
@@ -2477,6 +2477,16 @@
     "forks": 1350,
     "description": "Open-source AI coworker, with memory",
     "last_seen": "2026-05-09",
+    "trending_days": 6
+  },
+  {
+    "name": "rustfs/rustfs",
+    "url": "https://github.com/rustfs/rustfs",
+    "language": "Rust",
+    "stars": 33006,
+    "forks": 1480,
+    "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+    "last_seen": "2026-09-18",
     "trending_days": 6
   },
   {
@@ -3137,16 +3147,6 @@
     "forks": 1050,
     "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
     "last_seen": "2026-06-24",
-    "trending_days": 5
-  },
-  {
-    "name": "rustfs/rustfs",
-    "url": "https://github.com/rustfs/rustfs",
-    "language": "Rust",
-    "stars": 24900,
-    "forks": 1066,
-    "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
-    "last_seen": "2026-04-12",
     "trending_days": 5
   },
   {
@@ -4570,6 +4570,16 @@
     "trending_days": 3
   },
   {
+    "name": "asciimoo/hister",
+    "url": "https://github.com/asciimoo/hister",
+    "language": "Go",
+    "stars": 4770,
+    "forks": 199,
+    "description": "Your own search engine",
+    "last_seen": "2026-09-18",
+    "trending_days": 3
+  },
+  {
     "name": "audacity/audacity",
     "url": "https://github.com/audacity/audacity",
     "language": "C++",
@@ -4707,6 +4717,16 @@
     "forks": 309,
     "description": "Give your agent a computer 👾",
     "last_seen": "2026-08-08",
+    "trending_days": 3
+  },
+  {
+    "name": "cloudflare/security-audit-skill",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "language": "JavaScript",
+    "stars": 12425,
+    "forks": 671,
+    "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "last_seen": "2026-09-18",
     "trending_days": 3
   },
   {
@@ -5820,6 +5840,16 @@
     "trending_days": 3
   },
   {
+    "name": "supabase/supabase",
+    "url": "https://github.com/supabase/supabase",
+    "language": "TypeScript",
+    "stars": 110011,
+    "forks": 14237,
+    "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+    "last_seen": "2026-09-18",
+    "trending_days": 3
+  },
+  {
     "name": "swc-project/swc",
     "url": "https://github.com/swc-project/swc",
     "language": "Rust",
@@ -6240,6 +6270,16 @@
     "trending_days": 2
   },
   {
+    "name": "ankitects/anki",
+    "url": "https://github.com/ankitects/anki",
+    "language": "Rust",
+    "stars": 31110,
+    "forks": 3234,
+    "description": "Anki is a smart spaced repetition flashcard program",
+    "last_seen": "2026-09-18",
+    "trending_days": 2
+  },
+  {
     "name": "anomalyco/opencode-anthropic-auth",
     "url": "https://github.com/anomalyco/opencode-anthropic-auth",
     "language": "JavaScript",
@@ -6307,16 +6347,6 @@
     "forks": 577,
     "description": "AI-Powered Dark Web OSINT Tool",
     "last_seen": "2025-12-26",
-    "trending_days": 2
-  },
-  {
-    "name": "asciimoo/hister",
-    "url": "https://github.com/asciimoo/hister",
-    "language": "Go",
-    "stars": 3023,
-    "forks": 134,
-    "description": "Your own search engine",
-    "last_seen": "2026-08-26",
     "trending_days": 2
   },
   {
@@ -6610,16 +6640,6 @@
     "trending_days": 2
   },
   {
-    "name": "cloudflare/security-audit-skill",
-    "url": "https://github.com/cloudflare/security-audit-skill",
-    "language": "JavaScript",
-    "stars": 9759,
-    "forks": 518,
-    "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-    "last_seen": "2026-09-17",
-    "trending_days": 2
-  },
-  {
     "name": "cloudflare/vibesdk",
     "url": "https://github.com/cloudflare/vibesdk",
     "language": "TypeScript",
@@ -6627,6 +6647,16 @@
     "forks": 952,
     "description": "An open-source vibe coding platform that helps you build your own vibe-coding platform, built entirely on Cloudflare stack",
     "last_seen": "2025-12-10",
+    "trending_days": 2
+  },
+  {
+    "name": "coder/coder",
+    "url": "https://github.com/coder/coder",
+    "language": "Go",
+    "stars": 15105,
+    "forks": 1498,
+    "description": "Secure environments for developers and their agents",
+    "last_seen": "2026-09-18",
     "trending_days": 2
   },
   {
@@ -6917,6 +6947,16 @@
     "forks": 2222,
     "description": "The user-friendly command line shell.",
     "last_seen": "2026-02-06",
+    "trending_days": 2
+  },
+  {
+    "name": "Fission-AI/OpenSpec",
+    "url": "https://github.com/fission-ai/openspec",
+    "language": "TypeScript",
+    "stars": 69153,
+    "forks": 4741,
+    "description": "Spec-driven development (SDD) for AI coding assistants.",
+    "last_seen": "2026-09-18",
     "trending_days": 2
   },
   {
@@ -8400,16 +8440,6 @@
     "trending_days": 2
   },
   {
-    "name": "supabase/supabase",
-    "url": "https://github.com/supabase/supabase",
-    "language": "TypeScript",
-    "stars": 109465,
-    "forks": 13993,
-    "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-    "last_seen": "2026-09-16",
-    "trending_days": 2
-  },
-  {
     "name": "swoole/typephp",
     "url": "https://github.com/swoole/typephp",
     "language": "PHP",
@@ -8510,6 +8540,16 @@
     "trending_days": 2
   },
   {
+    "name": "Tencent/BrowserSkill",
+    "url": "https://github.com/tencent/browserskill",
+    "language": "TypeScript",
+    "stars": 5002,
+    "forks": 353,
+    "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+    "last_seen": "2026-09-18",
+    "trending_days": 2
+  },
+  {
     "name": "Tencent/teamai-cli",
     "url": "https://github.com/tencent/teamai-cli",
     "language": "TypeScript",
@@ -8517,6 +8557,16 @@
     "forks": 228,
     "description": "Make Every Team AI Native",
     "last_seen": "2026-09-10",
+    "trending_days": 2
+  },
+  {
+    "name": "TencentCloud/Octop",
+    "url": "https://github.com/tencentcloud/octop",
+    "language": "Python",
+    "stars": 3826,
+    "forks": 397,
+    "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+    "last_seen": "2026-09-18",
     "trending_days": 2
   },
   {
@@ -8607,6 +8657,16 @@
     "forks": 1086,
     "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
     "last_seen": "2026-09-15",
+    "trending_days": 2
+  },
+  {
+    "name": "tradesdontlie/tradingview-mcp",
+    "url": "https://github.com/tradesdontlie/tradingview-mcp",
+    "language": "JavaScript",
+    "stars": 6371,
+    "forks": 2709,
+    "description": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation",
+    "last_seen": "2026-09-18",
     "trending_days": 2
   },
   {
@@ -9010,6 +9070,16 @@
     "trending_days": 1
   },
   {
+    "name": "ahmedkhaleel2004/gitdiagram",
+    "url": "https://github.com/ahmedkhaleel2004/gitdiagram",
+    "language": "TypeScript",
+    "stars": 16308,
+    "forks": 1252,
+    "description": "Free, simple, fast interactive diagrams for any GitHub repository",
+    "last_seen": "2026-09-18",
+    "trending_days": 1
+  },
+  {
     "name": "ai-dynamo/dynamo",
     "url": "https://github.com/ai-dynamo/dynamo",
     "language": "Rust",
@@ -9147,16 +9217,6 @@
     "forks": 27384,
     "description": "Deliver web apps with confidence 🚀",
     "last_seen": "2026-08-04",
-    "trending_days": 1
-  },
-  {
-    "name": "ankitects/anki",
-    "url": "https://github.com/ankitects/anki",
-    "language": "Rust",
-    "stars": 30684,
-    "forks": 3206,
-    "description": "Anki is a smart spaced repetition flashcard program",
-    "last_seen": "2026-09-16",
     "trending_days": 1
   },
   {
@@ -9527,16 +9587,6 @@
     "forks": 6340,
     "description": "VS Code in the browser",
     "last_seen": "2025-11-08",
-    "trending_days": 1
-  },
-  {
-    "name": "coder/coder",
-    "url": "https://github.com/coder/coder",
-    "language": "Go",
-    "stars": 14778,
-    "forks": 1482,
-    "description": "Secure environments for developers and their agents",
-    "last_seen": "2026-09-17",
     "trending_days": 1
   },
   {
@@ -10017,16 +10067,6 @@
     "forks": 1271,
     "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI.",
     "last_seen": "2026-02-26",
-    "trending_days": 1
-  },
-  {
-    "name": "Fission-AI/OpenSpec",
-    "url": "https://github.com/fission-ai/openspec",
-    "language": "TypeScript",
-    "stars": 56912,
-    "forks": 3972,
-    "description": "Spec-driven development (SDD) for AI coding assistants.",
-    "last_seen": "2026-06-27",
     "trending_days": 1
   },
   {
@@ -12470,26 +12510,6 @@
     "trending_days": 1
   },
   {
-    "name": "Tencent/BrowserSkill",
-    "url": "https://github.com/tencent/browserskill",
-    "language": "TypeScript",
-    "stars": 3840,
-    "forks": 274,
-    "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
-    "last_seen": "2026-09-17",
-    "trending_days": 1
-  },
-  {
-    "name": "TencentCloud/Octop",
-    "url": "https://github.com/tencentcloud/octop",
-    "language": "Python",
-    "stars": 3291,
-    "forks": 345,
-    "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
-    "last_seen": "2026-09-17",
-    "trending_days": 1
-  },
-  {
     "name": "tensorflow/tensorflow",
     "url": "https://github.com/tensorflow/tensorflow",
     "language": "C++",
@@ -12627,16 +12647,6 @@
     "forks": 150,
     "description": "Build your own AI SRE agents. The open source toolkit for the AI era ✨",
     "last_seen": "2026-04-17",
-    "trending_days": 1
-  },
-  {
-    "name": "tradesdontlie/tradingview-mcp",
-    "url": "https://github.com/tradesdontlie/tradingview-mcp",
-    "language": "JavaScript",
-    "stars": 4623,
-    "forks": 2160,
-    "description": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation",
-    "last_seen": "2026-07-21",
     "trending_days": 1
   },
   {

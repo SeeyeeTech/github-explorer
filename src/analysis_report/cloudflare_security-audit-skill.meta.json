@@ -1,0 +1,6 @@
+{
+  "title": "Cloudflare 把 Claude Code 改成漏洞猎手",
+  "digest": "Cloudflare 把红队「用 AI 审计生产代码」沉淀成 Claude Code Skill，六阶段流水线+对抗式双 agent+零依赖 validator，把 LLM 找漏洞的假阳性压到工业级。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-09-18",
+    "last_run": "2026-09-19",
     "window_days": 30
   },
   "entries": [
@@ -813,6 +813,30 @@
       "canonical_url": "https://github.com/mattpocock/skills",
       "event_date": null,
       "date_seen": "2026-09-18"
+    },
+    {
+      "key": "github.com/tencentcloud/octop",
+      "canonical_url": "https://github.com/TencentCloud/Octop",
+      "event_date": "2026-09-19",
+      "date_seen": "2026-09-19"
+    },
+    {
+      "key": "github.com/coder/coder",
+      "canonical_url": "https://github.com/coder/coder",
+      "event_date": "2026-09-19",
+      "date_seen": "2026-09-19"
+    },
+    {
+      "key": "github.com/tradesdontlie/tradingview-mcp",
+      "canonical_url": "https://github.com/tradesdontlie/tradingview-mcp",
+      "event_date": "2026-09-19",
+      "date_seen": "2026-09-19"
+    },
+    {
+      "key": "github.com/google/adk-go",
+      "canonical_url": "https://github.com/google/adk-go",
+      "event_date": "2026-09-19",
+      "date_seen": "2026-09-19"
     }
   ]
 }

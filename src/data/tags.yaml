@@ -285,6 +285,10 @@ entries:
   - database
   armory3d_armorpaint:
   - media-generation
+  asciimoo_hister:
+  - llm-framework
+  - rag-search
+  - protocol-spec
   asg017_sqlite-vec:
   - llm-framework
   - rag-search
@@ -517,6 +521,11 @@ entries:
   - ai-coding
   - database
   - protocol-spec
+  cloudflare_security-audit-skill:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - security
   cocoindex-io_cocoindex:
   - ai-agent
   - llm-framework

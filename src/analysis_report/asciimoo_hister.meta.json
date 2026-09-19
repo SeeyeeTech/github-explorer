@@ -1,0 +1,6 @@
+{
+  "title": "GitHub 推荐：8.5 个月 5000 stars：Hister — Searx 作者做的 MCP 时代私人 RAG 基础设施",
+  "digest": "Searx 作者 Adam Tauber 把「私人搜索引擎」做成 MCP 直连 RAG 基础设施：全文索引 + 可选向量 + 协议层 trust boundary 防 prompt injection，是自托管 AI 知识库的稀缺答案。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

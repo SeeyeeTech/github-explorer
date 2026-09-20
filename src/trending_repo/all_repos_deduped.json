@@ -43,21 +43,21 @@
     "name": "affaan-m/ECC",
     "url": "https://github.com/affaan-m/ecc",
     "language": "JavaScript",
-    "stars": 261668,
-    "forks": 39162,
+    "stars": 263380,
+    "forks": 39412,
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "last_seen": "2026-09-18",
-    "trending_days": 32
+    "last_seen": "2026-09-20",
+    "trending_days": 33
   },
   {
     "name": "anthropics/claude-code",
     "url": "https://github.com/anthropics/claude-code",
     "language": "TypeScript",
-    "stars": 146556,
-    "forks": 23855,
+    "stars": 146949,
+    "forks": 23996,
     "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-    "last_seen": "2026-09-19",
-    "trending_days": 32
+    "last_seen": "2026-09-20",
+    "trending_days": 33
   },
   {
     "name": "iptv-org/iptv",
@@ -83,11 +83,11 @@
     "name": "addyosmani/agent-skills",
     "url": "https://github.com/addyosmani/agent-skills",
     "language": "JavaScript",
-    "stars": 96756,
-    "forks": 10222,
+    "stars": 97467,
+    "forks": 10279,
     "description": "Production-grade engineering skills for AI coding agents.",
-    "last_seen": "2026-09-19",
-    "trending_days": 28
+    "last_seen": "2026-09-20",
+    "trending_days": 29
   },
   {
     "name": "msitarzewski/agency-agents",
@@ -1520,6 +1520,16 @@
     "trending_days": 8
   },
   {
+    "name": "trycua/cua",
+    "url": "https://github.com/trycua/cua",
+    "language": "HTML",
+    "stars": 24949,
+    "forks": 1713,
+    "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+    "last_seen": "2026-09-20",
+    "trending_days": 8
+  },
+  {
     "name": "vxcontrol/pentagi",
     "url": "https://github.com/vxcontrol/pentagi",
     "language": "Go",
@@ -1820,6 +1830,16 @@
     "trending_days": 7
   },
   {
+    "name": "paperless-ngx/paperless-ngx",
+    "url": "https://github.com/paperless-ngx/paperless-ngx",
+    "language": "Python",
+    "stars": 45400,
+    "forks": 3137,
+    "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+    "last_seen": "2026-09-20",
+    "trending_days": 7
+  },
+  {
     "name": "pathwaycom/pathway",
     "url": "https://github.com/pathwaycom/pathway",
     "language": "Python",
@@ -1930,16 +1950,6 @@
     "trending_days": 7
   },
   {
-    "name": "trycua/cua",
-    "url": "https://github.com/trycua/cua",
-    "language": "HTML",
-    "stars": 23978,
-    "forks": 1657,
-    "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
-    "last_seen": "2026-09-19",
-    "trending_days": 7
-  },
-  {
     "name": "twitter/the-algorithm",
     "url": "https://github.com/twitter/the-algorithm",
     "language": "Scala",
@@ -2007,6 +2017,16 @@
     "forks": 687,
     "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
     "last_seen": "2026-08-15",
+    "trending_days": 6
+  },
+  {
+    "name": "anthropics/financial-services",
+    "url": "https://github.com/anthropics/financial-services",
+    "language": "Python",
+    "stars": 35228,
+    "forks": 5236,
+    "description": "None",
+    "last_seen": "2026-09-20",
     "trending_days": 6
   },
   {
@@ -2440,16 +2460,6 @@
     "trending_days": 6
   },
   {
-    "name": "paperless-ngx/paperless-ngx",
-    "url": "https://github.com/paperless-ngx/paperless-ngx",
-    "language": "Python",
-    "stars": 41161,
-    "forks": 2732,
-    "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
-    "last_seen": "2026-05-25",
-    "trending_days": 6
-  },
-  {
     "name": "pbakaus/impeccable",
     "url": "https://github.com/pbakaus/impeccable",
     "language": "JavaScript",
@@ -2670,16 +2680,6 @@
     "trending_days": 5
   },
   {
-    "name": "anthropics/financial-services",
-    "url": "https://github.com/anthropics/financial-services",
-    "language": "Python",
-    "stars": 18062,
-    "forks": 2319,
-    "description": "None",
-    "last_seen": "2026-05-10",
-    "trending_days": 5
-  },
-  {
     "name": "apache/maka",
     "url": "https://github.com/apache/maka",
     "language": "TypeScript",
@@ -2747,6 +2747,16 @@
     "forks": 766,
     "description": "💾 Self-hosted online file converter. Supports 1000+ formats ⚙️",
     "last_seen": "2026-01-11",
+    "trending_days": 5
+  },
+  {
+    "name": "cloudflare/security-audit-skill",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "language": "JavaScript",
+    "stars": 17575,
+    "forks": 976,
+    "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+    "last_seen": "2026-09-20",
     "trending_days": 5
   },
   {
@@ -3490,16 +3500,6 @@
     "trending_days": 4
   },
   {
-    "name": "cloudflare/security-audit-skill",
-    "url": "https://github.com/cloudflare/security-audit-skill",
-    "language": "JavaScript",
-    "stars": 15333,
-    "forks": 840,
-    "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
-    "last_seen": "2026-09-19",
-    "trending_days": 4
-  },
-  {
     "name": "cocoindex-io/cocoindex",
     "url": "https://github.com/cocoindex-io/cocoindex",
     "language": "Python",
@@ -3507,6 +3507,16 @@
     "forks": 606,
     "description": "Incremental engine for long horizon agents 🌟 Star if you like it!",
     "last_seen": "2026-05-05",
+    "trending_days": 4
+  },
+  {
+    "name": "coder/coder",
+    "url": "https://github.com/coder/coder",
+    "language": "Go",
+    "stars": 15860,
+    "forks": 1534,
+    "description": "Secure environments for developers and their agents",
+    "last_seen": "2026-09-20",
     "trending_days": 4
   },
   {
@@ -4740,16 +4750,6 @@
     "trending_days": 3
   },
   {
-    "name": "coder/coder",
-    "url": "https://github.com/coder/coder",
-    "language": "Go",
-    "stars": 15473,
-    "forks": 1509,
-    "description": "Secure environments for developers and their agents",
-    "last_seen": "2026-09-19",
-    "trending_days": 3
-  },
-  {
     "name": "Comfy-Org/ComfyUI",
     "url": "https://github.com/comfy-org/comfyui",
     "language": "Python",
@@ -5537,6 +5537,16 @@
     "forks": 494,
     "description": "Self-hosted deployment platform",
     "last_seen": "2026-07-22",
+    "trending_days": 3
+  },
+  {
+    "name": "Open-Dev-Society/OpenStock",
+    "url": "https://github.com/open-dev-society/openstock",
+    "language": "TypeScript",
+    "stars": 16536,
+    "forks": 2122,
+    "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+    "last_seen": "2026-09-20",
     "trending_days": 3
   },
   {
@@ -6530,6 +6540,16 @@
     "trending_days": 2
   },
   {
+    "name": "BuilderIO/agent-native",
+    "url": "https://github.com/builderio/agent-native",
+    "language": "TypeScript",
+    "stars": 5023,
+    "forks": 471,
+    "description": "A framework for building agentic apps",
+    "last_seen": "2026-09-20",
+    "trending_days": 2
+  },
+  {
     "name": "bwya77/vscode-dark-islands",
     "url": "https://github.com/bwya77/vscode-dark-islands",
     "language": "PowerShell",
@@ -7187,6 +7207,16 @@
     "forks": 7370,
     "description": "The Kubernetes Package Manager",
     "last_seen": "2025-10-30",
+    "trending_days": 2
+  },
+  {
+    "name": "higgsfield-ai/higgsfield",
+    "url": "https://github.com/higgsfield-ai/higgsfield",
+    "language": "JupyterNotebook",
+    "stars": 5190,
+    "forks": 934,
+    "description": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
+    "last_seen": "2026-09-20",
     "trending_days": 2
   },
   {
@@ -8067,16 +8097,6 @@
     "forks": 1786,
     "description": "The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI",
     "last_seen": "2026-01-14",
-    "trending_days": 2
-  },
-  {
-    "name": "Open-Dev-Society/OpenStock",
-    "url": "https://github.com/open-dev-society/openstock",
-    "language": "TypeScript",
-    "stars": 15776,
-    "forks": 2063,
-    "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
-    "last_seen": "2026-09-19",
     "trending_days": 2
   },
   {
@@ -9450,16 +9470,6 @@
     "trending_days": 1
   },
   {
-    "name": "BuilderIO/agent-native",
-    "url": "https://github.com/builderio/agent-native",
-    "language": "TypeScript",
-    "stars": 858,
-    "forks": 105,
-    "description": "A framework for building agent-native applications.",
-    "last_seen": "2026-06-19",
-    "trending_days": 1
-  },
-  {
     "name": "BurntSushi/ripgrep",
     "url": "https://github.com/burntsushi/ripgrep",
     "language": "Rust",
@@ -10600,16 +10610,6 @@
     "trending_days": 1
   },
   {
-    "name": "higgsfield-ai/higgsfield",
-    "url": "https://github.com/higgsfield-ai/higgsfield",
-    "language": "JupyterNotebook",
-    "stars": 4754,
-    "forks": 879,
-    "description": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
-    "last_seen": "2026-09-19",
-    "trending_days": 1
-  },
-  {
     "name": "hiyouga/LLaMA-Factory",
     "url": "https://github.com/hiyouga/llama-factory",
     "language": "Python",
@@ -11337,6 +11337,16 @@
     "forks": 1188,
     "description": "Native and Compact Structured Latents for 3D Generation",
     "last_seen": "2026-08-01",
+    "trending_days": 1
+  },
+  {
+    "name": "mihail911/modern-software-dev-assignments",
+    "url": "https://github.com/mihail911/modern-software-dev-assignments",
+    "language": "Python",
+    "stars": 4453,
+    "forks": 1006,
+    "description": "Assignments for CS146S: The Modern Software Dev (Stanford University Fall 2026/2025)",
+    "last_seen": "2026-09-20",
     "trending_days": 1
   },
   {
@@ -12767,6 +12777,16 @@
     "forks": 1227,
     "description": "Disk encryption with strong security based on TrueCrypt",
     "last_seen": "2026-06-29",
+    "trending_days": 1
+  },
+  {
+    "name": "vercel-labs/json-render",
+    "url": "https://github.com/vercel-labs/json-render",
+    "language": "TypeScript",
+    "stars": 17058,
+    "forks": 907,
+    "description": "The Generative UI framework",
+    "last_seen": "2026-09-20",
     "trending_days": 1
   },
   {

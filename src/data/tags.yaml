@@ -536,6 +536,9 @@ entries:
   - ai-coding
   - devtools
   - editor-kms
+  coder_coder:
+  - ai-agent
+  - protocol-spec
   coinbase_x402:
   - ai-agent
   - protocol-spec

@@ -837,6 +837,36 @@
       "canonical_url": "https://github.com/google/adk-go",
       "event_date": "2026-09-19",
       "date_seen": "2026-09-19"
+    },
+    {
+      "key": "github.com/higgsfield-ai/higgsfield",
+      "canonical_url": "https://github.com/higgsfield-ai/higgsfield",
+      "event_date": "2026-09-19",
+      "date_seen": "2026-09-19"
+    },
+    {
+      "key": "github.com/cactus-compute/needle",
+      "canonical_url": "https://github.com/cactus-compute/needle",
+      "event_date": "2026-09-19",
+      "date_seen": "2026-09-19"
+    },
+    {
+      "key": "github.com/yynxxxxx/codex-x",
+      "canonical_url": "https://github.com/yynxxxxx/Codex-X",
+      "event_date": "2026-09-19",
+      "date_seen": "2026-09-19"
+    },
+    {
+      "key": "github.com/volcengine/verl",
+      "canonical_url": "https://github.com/volcengine/verl",
+      "event_date": "2026-09-19",
+      "date_seen": "2026-09-19"
+    },
+    {
+      "key": "github.com/milvus-io/milvus",
+      "canonical_url": "https://github.com/milvus-io/milvus",
+      "event_date": "2026-09-19",
+      "date_seen": "2026-09-19"
     }
   ]
 }

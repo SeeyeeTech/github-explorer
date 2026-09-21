@@ -1,69 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-09-19",
+    "last_run": "2026-09-21",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/modular/modular",
-      "canonical_url": "https://github.com/modular/modular",
-      "event_date": "2026-08-20",
-      "date_seen": "2026-08-20"
-    },
-    {
-      "key": "github.com/cursor/plugins",
-      "canonical_url": "https://github.com/cursor/plugins",
-      "event_date": "2026-08-20",
-      "date_seen": "2026-08-20"
-    },
-    {
-      "key": "github.com/agent-substrate/substrate",
-      "canonical_url": "https://github.com/agent-substrate/substrate",
-      "event_date": "2026-08-20",
-      "date_seen": "2026-08-20"
-    },
-    {
-      "key": "github.com/posthog/posthog",
-      "canonical_url": "https://github.com/PostHog/posthog",
-      "event_date": "2026-08-20",
-      "date_seen": "2026-08-20"
-    },
-    {
-      "key": "github.com/juliusbrussee/caveman",
-      "canonical_url": "https://github.com/JuliusBrussee/caveman",
-      "event_date": "2026-08-20",
-      "date_seen": "2026-08-20"
-    },
-    {
-      "key": "github.com/tencent/ai-infra-guard",
-      "canonical_url": "https://github.com/Tencent/AI-Infra-Guard",
-      "event_date": "2026-08-20",
-      "date_seen": "2026-08-20"
-    },
-    {
-      "key": "github.com/openai/codex",
-      "canonical_url": "https://github.com/openai/codex",
-      "event_date": "2026-08-21",
-      "date_seen": "2026-08-21"
-    },
-    {
-      "key": "https://developers.openai.com/blog/codex-as-a-platform",
-      "canonical_url": "https://developers.openai.com/blog/codex-as-a-platform",
-      "event_date": "2026-08-21",
-      "date_seen": "2026-08-21"
-    },
-    {
-      "key": "https://ithome.com/0/992/656.htm",
-      "canonical_url": "https://www.ithome.com/0/992/656.htm",
-      "event_date": "2026-08-21",
-      "date_seen": "2026-08-21"
-    },
-    {
-      "key": "https://news.qiniu.com/archives/1787276125198",
-      "canonical_url": "https://news.qiniu.com/archives/1787276125198",
-      "event_date": "2026-08-21",
-      "date_seen": "2026-08-21"
-    },
     {
       "key": "github.com/apache/maka",
       "canonical_url": "https://github.com/apache/maka",
@@ -867,6 +807,24 @@
       "canonical_url": "https://github.com/milvus-io/milvus",
       "event_date": "2026-09-19",
       "date_seen": "2026-09-19"
+    },
+    {
+      "key": "github.com/builderio/agent-native",
+      "canonical_url": "https://github.com/BuilderIO/agent-native",
+      "event_date": "2026-09-21",
+      "date_seen": "2026-09-21"
+    },
+    {
+      "key": "github.com/anthropics/financial-services",
+      "canonical_url": "https://github.com/anthropics/financial-services",
+      "event_date": "2026-09-21",
+      "date_seen": "2026-09-21"
+    },
+    {
+      "key": "github.com/google/gvisor",
+      "canonical_url": "https://github.com/google/gvisor",
+      "event_date": "2026-09-21",
+      "date_seen": "2026-09-21"
     }
   ]
 }

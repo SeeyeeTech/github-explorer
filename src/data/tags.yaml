@@ -1824,6 +1824,10 @@ entries:
   - rag-search
   - protocol-spec
   - security
+  open-dev-society_openstock:
+  - database
+  - web-framework
+  - trading-finance
   open-llm-vtuber_open-llm-vtuber:
   - workflow-automation
   - media-generation

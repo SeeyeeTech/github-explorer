@@ -510,6 +510,16 @@
     "trending_days": 14
   },
   {
+    "name": "Crosstalk-Solutions/project-nomad",
+    "url": "https://github.com/crosstalk-solutions/project-nomad",
+    "language": "TypeScript",
+    "stars": 37697,
+    "forks": 3757,
+    "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
+    "last_seen": "2026-09-21",
+    "trending_days": 14
+  },
+  {
     "name": "davila7/claude-code-templates",
     "url": "https://github.com/davila7/claude-code-templates",
     "language": "Python",
@@ -568,16 +578,6 @@
     "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
     "last_seen": "2026-08-17",
     "trending_days": 14
-  },
-  {
-    "name": "Crosstalk-Solutions/project-nomad",
-    "url": "https://github.com/crosstalk-solutions/project-nomad",
-    "language": "TypeScript",
-    "stars": 36804,
-    "forks": 3678,
-    "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
-    "last_seen": "2026-09-14",
-    "trending_days": 13
   },
   {
     "name": "lfnovo/open-notebook",
@@ -1280,6 +1280,16 @@
     "trending_days": 9
   },
   {
+    "name": "trycua/cua",
+    "url": "https://github.com/trycua/cua",
+    "language": "HTML",
+    "stars": 25579,
+    "forks": 1765,
+    "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+    "last_seen": "2026-09-21",
+    "trending_days": 9
+  },
+  {
     "name": "anomalyco/opencode",
     "url": "https://github.com/anomalyco/opencode",
     "language": "TypeScript",
@@ -1520,16 +1530,6 @@
     "trending_days": 8
   },
   {
-    "name": "trycua/cua",
-    "url": "https://github.com/trycua/cua",
-    "language": "HTML",
-    "stars": 24949,
-    "forks": 1713,
-    "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
-    "last_seen": "2026-09-20",
-    "trending_days": 8
-  },
-  {
     "name": "vxcontrol/pentagi",
     "url": "https://github.com/vxcontrol/pentagi",
     "language": "Go",
@@ -1558,6 +1558,16 @@
     "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
     "last_seen": "2026-08-11",
     "trending_days": 8
+  },
+  {
+    "name": "anthropics/financial-services",
+    "url": "https://github.com/anthropics/financial-services",
+    "language": "Python",
+    "stars": 35703,
+    "forks": 5263,
+    "description": "None",
+    "last_seen": "2026-09-21",
+    "trending_days": 7
   },
   {
     "name": "ayghri/i-have-adhd",
@@ -2000,6 +2010,16 @@
     "trending_days": 7
   },
   {
+    "name": "akitaonrails/ai-memory",
+    "url": "https://github.com/akitaonrails/ai-memory",
+    "language": "Rust",
+    "stars": 7539,
+    "forks": 517,
+    "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+    "last_seen": "2026-09-21",
+    "trending_days": 6
+  },
+  {
     "name": "alibaba/OpenSandbox",
     "url": "https://github.com/alibaba/opensandbox",
     "language": "Python",
@@ -2017,16 +2037,6 @@
     "forks": 687,
     "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
     "last_seen": "2026-08-15",
-    "trending_days": 6
-  },
-  {
-    "name": "anthropics/financial-services",
-    "url": "https://github.com/anthropics/financial-services",
-    "language": "Python",
-    "stars": 35228,
-    "forks": 5236,
-    "description": "None",
-    "last_seen": "2026-09-20",
     "trending_days": 6
   },
   {
@@ -2650,16 +2660,6 @@
     "trending_days": 5
   },
   {
-    "name": "akitaonrails/ai-memory",
-    "url": "https://github.com/akitaonrails/ai-memory",
-    "language": "Rust",
-    "stars": 3825,
-    "forks": 288,
-    "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-    "last_seen": "2026-08-21",
-    "trending_days": 5
-  },
-  {
     "name": "alphaXiv/OpenResearch",
     "url": "https://github.com/alphaxiv/openresearch",
     "language": "Rust",
@@ -2757,6 +2757,16 @@
     "forks": 976,
     "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
     "last_seen": "2026-09-20",
+    "trending_days": 5
+  },
+  {
+    "name": "coder/coder",
+    "url": "https://github.com/coder/coder",
+    "language": "Go",
+    "stars": 16323,
+    "forks": 1562,
+    "description": "Secure environments for developers and their agents",
+    "last_seen": "2026-09-21",
     "trending_days": 5
   },
   {
@@ -3510,16 +3520,6 @@
     "trending_days": 4
   },
   {
-    "name": "coder/coder",
-    "url": "https://github.com/coder/coder",
-    "language": "Go",
-    "stars": 15860,
-    "forks": 1534,
-    "description": "Secure environments for developers and their agents",
-    "last_seen": "2026-09-20",
-    "trending_days": 4
-  },
-  {
     "name": "CoreBunch/Instatic",
     "url": "https://github.com/corebunch/instatic",
     "language": "TypeScript",
@@ -4100,6 +4100,16 @@
     "trending_days": 4
   },
   {
+    "name": "Open-Dev-Society/OpenStock",
+    "url": "https://github.com/open-dev-society/openstock",
+    "language": "TypeScript",
+    "stars": 17480,
+    "forks": 2175,
+    "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+    "last_seen": "2026-09-21",
+    "trending_days": 4
+  },
+  {
     "name": "openemr/openemr",
     "url": "https://github.com/openemr/openemr",
     "language": "PHP",
@@ -4667,6 +4677,16 @@
     "forks": 1130,
     "description": "The AI Browser Automation Framework",
     "last_seen": "2025-10-10",
+    "trending_days": 3
+  },
+  {
+    "name": "BuilderIO/agent-native",
+    "url": "https://github.com/builderio/agent-native",
+    "language": "TypeScript",
+    "stars": 5722,
+    "forks": 530,
+    "description": "A framework for building agentic apps",
+    "last_seen": "2026-09-21",
     "trending_days": 3
   },
   {
@@ -5537,16 +5557,6 @@
     "forks": 494,
     "description": "Self-hosted deployment platform",
     "last_seen": "2026-07-22",
-    "trending_days": 3
-  },
-  {
-    "name": "Open-Dev-Society/OpenStock",
-    "url": "https://github.com/open-dev-society/openstock",
-    "language": "TypeScript",
-    "stars": 16536,
-    "forks": 2122,
-    "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
-    "last_seen": "2026-09-20",
     "trending_days": 3
   },
   {
@@ -6540,16 +6550,6 @@
     "trending_days": 2
   },
   {
-    "name": "BuilderIO/agent-native",
-    "url": "https://github.com/builderio/agent-native",
-    "language": "TypeScript",
-    "stars": 5023,
-    "forks": 471,
-    "description": "A framework for building agentic apps",
-    "last_seen": "2026-09-20",
-    "trending_days": 2
-  },
-  {
     "name": "bwya77/vscode-dark-islands",
     "url": "https://github.com/bwya77/vscode-dark-islands",
     "language": "PowerShell",
@@ -6667,6 +6667,16 @@
     "forks": 406,
     "description": "Yet another matrix client",
     "last_seen": "2026-02-14",
+    "trending_days": 2
+  },
+  {
+    "name": "cloudflare/quiche",
+    "url": "https://github.com/cloudflare/quiche",
+    "language": "Rust",
+    "stars": 12246,
+    "forks": 1129,
+    "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+    "last_seen": "2026-09-21",
     "trending_days": 2
   },
   {
@@ -8370,6 +8380,16 @@
     "trending_days": 2
   },
   {
+    "name": "ruanyf/weekly",
+    "url": "https://github.com/ruanyf/weekly",
+    "language": "Unknown",
+    "stars": 103857,
+    "forks": 4445,
+    "description": "科技爱好者周刊，每周五发布",
+    "last_seen": "2026-09-21",
+    "trending_days": 2
+  },
+  {
     "name": "run-llama/liteparse",
     "url": "https://github.com/run-llama/liteparse",
     "language": "Rust",
@@ -8927,6 +8947,16 @@
     "forks": 2023,
     "description": "Browse media content with your own rules on Android TV",
     "last_seen": "2026-09-13",
+    "trending_days": 2
+  },
+  {
+    "name": "yynxxxxx/Codex-X",
+    "url": "https://github.com/yynxxxxx/codex-x",
+    "language": "Rust",
+    "stars": 3633,
+    "forks": 458,
+    "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
+    "last_seen": "2026-09-21",
     "trending_days": 2
   },
   {
@@ -9577,16 +9607,6 @@
     "forks": 70,
     "description": "JavaScript/TypeScript-native, low-boilerplate, object-capability RPC system",
     "last_seen": "2025-09-25",
-    "trending_days": 1
-  },
-  {
-    "name": "cloudflare/quiche",
-    "url": "https://github.com/cloudflare/quiche",
-    "language": "Rust",
-    "stars": 11897,
-    "forks": 1099,
-    "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
-    "last_seen": "2026-09-19",
     "trending_days": 1
   },
   {
@@ -11490,6 +11510,16 @@
     "trending_days": 1
   },
   {
+    "name": "mvt-project/mvt",
+    "url": "https://github.com/mvt-project/mvt",
+    "language": "Python",
+    "stars": 13451,
+    "forks": 1316,
+    "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+    "last_seen": "2026-09-21",
+    "trending_days": 1
+  },
+  {
     "name": "myshell-ai/OpenVoice",
     "url": "https://github.com/myshell-ai/openvoice",
     "language": "Python",
@@ -12207,16 +12237,6 @@
     "forks": 3082,
     "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
     "last_seen": "2026-05-19",
-    "trending_days": 1
-  },
-  {
-    "name": "ruanyf/weekly",
-    "url": "https://github.com/ruanyf/weekly",
-    "language": "Unknown",
-    "stars": 103013,
-    "forks": 4421,
-    "description": "科技爱好者周刊，每周五发布",
-    "last_seen": "2026-09-19",
     "trending_days": 1
   },
   {
@@ -12960,16 +12980,6 @@
     "trending_days": 1
   },
   {
-    "name": "yynxxxxx/Codex-X",
-    "url": "https://github.com/yynxxxxx/codex-x",
-    "language": "Rust",
-    "stars": 3333,
-    "forks": 440,
-    "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
-    "last_seen": "2026-09-19",
-    "trending_days": 1
-  },
-  {
     "name": "zakirullin/files.md",
     "url": "https://github.com/zakirullin/files.md",
     "language": "Go",
@@ -13007,6 +13017,16 @@
     "forks": 8113,
     "description": "Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.",
     "last_seen": "2025-10-25",
+    "trending_days": 1
+  },
+  {
+    "name": "zhouxiaoka/autoclip",
+    "url": "https://github.com/zhouxiaoka/autoclip",
+    "language": "Python",
+    "stars": 8096,
+    "forks": 1561,
+    "description": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+    "last_seen": "2026-09-21",
     "trending_days": 1
   },
   {

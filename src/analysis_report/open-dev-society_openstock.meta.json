@@ -1,0 +1,6 @@
+{
+  "title": "OpenStock 拆解：17K stars 但近 30 天仅 3 个 commit",
+  "digest": "Next.js 15 + Inngest + Finnhub 搭的跨市场看盘看板,11 个月攒到 17K stars,但单人主导 80%、告警只 console.log、build 跑不通——典型「明星 demo + 业余节奏」分裂。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

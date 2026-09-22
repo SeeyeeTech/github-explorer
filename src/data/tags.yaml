@@ -412,6 +412,12 @@ entries:
   browserbase_stagehand:
   - ai-agent
   - workflow-automation
+  builderio_agent-native:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - workflow-automation
+  - protocol-spec
   byoungd_english-level-up-tips:
   - uncategorized
   bytedance_deer-flow:
@@ -870,6 +876,9 @@ entries:
   - rag-search
   - trading-finance
   - protocol-spec
+  firecrawl_anydoc:
+  - ai-agent
+  - ai-coding
   firecrawl_firecrawl:
   - uncategorized
   firecrawl_pdf-inspector:

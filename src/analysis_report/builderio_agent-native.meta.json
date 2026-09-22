@@ -1,0 +1,6 @@
+{
+  "title": "Agent 和 UI 共用同一份 action：Builder.io agent-native 6 个月 6K stars 的工程深潜",
+  "digest": "Builder.io 把「一次业务操作」同时定义为 React hook、agent tool、HTTP endpoint、MCP tool、A2A skill、CLI 六种 surface，让 AI agent 与人共用同一份 SQL、同一份状态、同一段执行路径。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

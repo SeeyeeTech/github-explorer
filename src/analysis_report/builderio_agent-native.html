@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+<blockquote><p><a href="https://github.com/builderio/agent-native">GitHub: https://github.com/builderio/agent-native</a></p></blockquote>
+<h2>一句话总结</h2>
+<p>Builder.io agent-native 是一个 TypeScript 应用框架，把「一次业务操作」同时定义为 React hook、agent tool、HTTP endpoint、MCP tool、A2A skill 和 CLI 命令——让 AI agent 与人共用同一份 SQL 数据、同一份应用状态、同一段执行路径，agent 不再是外挂聊天框，而是 product 的第一公民。</p>
+<h2>值得关注的理由</h2>
+<ul>
+<li><strong>稀缺定位</strong>：在「CopilotKit 是给现有 React 应用塞聊天面板、LangGraph 是 agent 编排库、Flowise 是 ops 工作台」的红海里，agent-native 是 2026 年少数把「agent + UI 共享 action / data / state」做成生产级框架的开源项目。</li>
+<li><strong>公司级战略投入</strong>：Builder.io 是成立 13 年的 Visual CMS 老牌公司（YC W15），CEO Steve Sewell 亲自贡献 50.4% commit，6 个月 5,856 commits、月峰值 1,258 commits、单仓 3.6M 行代码、23 packages + 19 完整 SaaS 模板 + 12 skills，密集开发期仍未结束。</li>
+<li><strong>深度工程化</strong>：1,090 个 spec 文件、30+ diff-scoped guards、AGENTS.md + 24+ SKILL.md 的两层 governance、<code>ActionContractError</code> + <code>fail()</code> 单一错误语义穿 6 transport、<code>SyncTransport</code> 单例 + Web Lock leader/follower 跨 tab SSE 共享——每一项都是可以单独拎出来读的工程实践。</li>
+</ul>
+<h2>项目展示</h2>
+<p><a href="https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F7628600bc10a4940b78f42c5df7628b0">https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F7628600bc10a4940b78f42c5df7628b0</a><br/>Agent-Native 项目主视觉：把 AI agent 放在 product 的中央，而不是放在边角聊天框里。</p>
+<p><a href="https://github.com/user-attachments/assets/ef51644b-6506-46d8-8083-0af7b7e5b65c">https://github.com/user-attachments/assets/ef51644b-6506-46d8-8083-0af7b7e5b65c</a><br/>完整 demo 视频（README 内嵌）：演示「AI 在 Web App 里直接改 schema、改 UI 文本、生成组件」的运行时体验。</p>
+<p><a href="https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2Fc9f693f170294bde8ebc733cff368af9?format=webp&width=800">https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2Fc9f693f170294bde8ebc733cff368af9?format=webp&width=800</a><br/>内置 Design app：「AI 帮你生成设计稿」是 9 个内置模板里产品质感最强的一个。</p>
+<p><a href="https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6223a64717a04931a6f509696019f48b?format=webp&width=800">https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F6223a64717a04931a6f509696019f48b?format=webp&width=800</a><br/>内置 Slides app：PPT 类 agent 的范式样本——人改一行文案、agent 自动重排版面，二者动作同源。</p>
+<p><a href="https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F98427229c8c84c30afee56172503c294?format=webp&width=800">https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2F98427229c8c84c30afee56172503c294?format=webp&width=800</a><br/>内置 Plans app：可视化规划 / 原型 app，体现「agent 与 UI 共用同一份 application_state」。</p>
+<blockquote><p>9 个内置应用分别是：Clips、Design、Slides、Analytics、Calendar、Mail、Assets、Content、Plans——每个都是一个完整可部署的 SaaS 产品，是 agent-native 最大的「可以马上跑起来」库存。</p></blockquote>
+<h2>项目画像</h2>
+<table>
+<thead>
+<tr><th>维度</th><th>数据</th></tr>
+</thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/builderio/agent-native">https://github.com/builderio/agent-native</a></td></tr>
+<tr><td>Star / Fork</td><td>6,063 / 553（18 watch）</td></tr>
+<tr><td>代码行数</td><td>3,675,804 行（TypeScript 72.7% / TSX 22.9% / Rust 1.1% / YAML 1.1% / CSS 1.0%）</td></tr>
+<tr><td>项目年龄</td><td>6.3 个月（首提交 2026-03-12，首提交即为 initial commit，属于 fork/重写型一次性落地）</td></tr>
+<tr><td>开发阶段</td><td>密集开发期（月度 commit 从 437 爬升到 8 月峰值 1,258，9 月仍 993）</td></tr>
+<tr><td>贡献模式</td><td>创始人主导 + 小团队协作（Steve Sewell 50.4%，Top 5 占 91%，共 30 位贡献者，bot 单列第二 2,199 次自动合入）</td></tr>
+<tr><td>热度定位</td><td>大众热门但定位被低估：名字淹没在 AI agent 红海里，但「agent + UI 共享 action 层」的实际差异化极强</td></tr>
+<tr><td>质量评级</td><td>代码[优秀] 文档[优秀] 测试[充分] CI/CD[完善] 错误处理[规范]</td></tr>
+<tr><td>License</td><td>MIT（仓库自身；组织级 LICENSE 文件缺失但 README 显式声明）</td></tr>
+</tbody>
+</table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>仓库归属 Builder.io（Organization），账号年龄 8.7 年，93 个公开仓库，3,068 粉丝。Steve Sewell（GitHub: steve8708）作为 Builder.io 创始人兼 CEO，是仓库绝对主笔——首提交即为整仓一次性导入、6 个月 5,856 commits 中本人独占约 50.4%。Builder.io 长期在「让非工程师编辑 React 组件 / 可视化拖拽结构化内容」这条线上，2013 年成立、YC W15 出身。agent-native 是其把视觉化能力延伸到「让 AI agent 与 UI 共享同一执行层」的旗舰开源项目，CEO 亲自下场本身就是「公司级战略」的强信号。</p>
+<h3>问题判断</h3>
+<p>当下 AI agent 与 UI 是两条平行轨道：agent 用 tool call + JSON-RPC，UI 用组件 + HTTP，业务能力定义双份、权限/审计各写一套，结果就是「Demo 级 agent 写得很快，生产级产品推不上去」。Builder.io 看到的裂缝具体是三件事——</p>
+<ul>
+<li><strong>能力定义双份</strong>：UI 函数和 agent tool 各写一套，权限 / 审计 / 治理漂移；</li>
+<li><strong>数据视图分裂</strong>：agent 改完数据库，前端不会立刻看到；多 tab / 多进程 cold-start 拿不到「刚才那条写入」；</li>
+<li><strong>状态机不共享</strong>：LLM 不知道你停在发票列表第 3 行、不知道你刚才选了哪条记录。</li>
+</ul>
+<p>独立观察（<a href="https://mer.vin/2026/06/builder-io-agent-native-explained-open-source-framework-where-agents-and-ui-share-actions">mer.vin</a>）把这条裂缝概括得很准：现有方案要么是「chat 后端 + REST 后端」双层（CopilotKit/AG-UI），要么是「拖拽工作台」不交付产品（Flowise/Sim），要么是「agent 编排库」不管 UI 集成（LangGraph/AutoGen）。Builder.io 自己的 Visual Copilot 是「设计 → 代码」辅助工具，也不解决「生产级 agent 应用」这一层抽象。</p>
+<h3>解法哲学</h3>
+<p>agent-native 把上面这条裂缝具体化成「Shared Actions / Shared Data / Shared State」三个共享层：</p>
+<ul>
+<li><strong>Shared Actions</strong>：一个 <code>defineAction({ description, schema, http?, run, authorize? })</code> 是唯一入口，自动以 React hook、agent tool、HTTP endpoint、MCP tool、A2A skill、CLI runner 六种方式暴露；<code>ActionRunContext.caller</code> 区分 8 种调用来源，权限与审计只过一处；</li>
+<li><strong>Shared Data</strong>：所有 app state、agent run state、chat thread、tool approval、resources、<code>application_state</code> 都落 PostgreSQL（Drizzle），通过 SSE 推到 React Query，250ms 合并窗口防抖，fallback poll；</li>
+<li><strong>Shared State</strong>：<code>(session_id, key)</code> 主键的 KV 表 + <code>x-agent-native-browser-tab</code> per-tab scope，UI 主动 push、agent loop 主动读，cursor / selection / 活动视图都进 prompt context。</li>
+</ul>
+<p>AGENTS.md 的关键信条：<strong>「the agent should never click through the UI, both call the same action layer」</strong>——这是与「聊天框外挂」流派最根本的分歧。</p>
+<h3>战略意图</h3>
+<p>这是 Builder.io 公司从「Visual Copilot for code」到「Visual Copilot for product」的战略升级：</p>
+<ul>
+<li><strong>核心产品位置</strong>：旗舰开源项目，不是社区实验；</li>
+<li><strong>商业化路径</strong>：<code>packages/dispatch</code>（vault / integrations / scheduled jobs / cross-app delegation）、<code>packages/migrate</code>（迁移 Workbench）、<code>packages/pinpoint</code>（视觉反馈标注）——三个包都是「之前 SaaS 沉淀的可单独商业化」的控制面入站仓；</li>
+<li><strong>开源策略</strong>：genuinely open-core，runtime + 9 templates + 12 skills + 24+ SKILL.md 全部 ISC license 开源，商业化点放在控制面而非 runtime。</li>
+</ul>
+<blockquote><p>仓库内 <code>AGENTS.md</code> + <code>PRODUCT.md</code> + 9 个内置 app + 12 个 <code>.agents/skills/*</code> 构成完整的「自描述框架」，没有外部博客/架构长文，但仓库本身就是最好的架构文档。</p></blockquote>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<p>按新颖度 × 实用性排序：</p>
+<ol>
+<li><strong>Shared Actions（一个 Zod schema 驱动 6 个 surface）</strong> — 新颖度 4/5 · 实用性 5/5 · 可迁移性 4/5。CopilotKit AG-UI 协议只覆盖前两层（UI + agent tool），MCP 协议解决 tool-call 暴露但不解决和 app 本身 action 层的关系；唯一同时覆盖到 A2A + MCP + 应用原语 action 的开源实现，截至 2026/9 罕见。</li>
+<li><strong>Agent-native CRDT cursor/selection ring 暴露给 agent 当 context</strong> — 新颖度 5/5 · 实用性 3/5 · 可迁移性 3/5。把 CRDT 思想反向出口给机器用户（独立评论明确点出这是「CRDT for agent+UI merge」），2026 年前没有成熟先例。</li>
+<li><strong><code>SyncTransport</code> 单例 + Web Lock leader/follower + BroadcastChannel 跨 tab SSE 共享</strong> — 新颖度 4/5 · 实用性 5/5 · 可迁移性 5/5。Google Docs / Figma / Linear 都做过「多 tab 单连接」但都是闭源 + 自家 infra；前端框架层面把这个模式开源出来的，截至 2026/9 罕见。</li>
+<li><strong><code>runAgentLoop</code> 用 per-turn input token 累计预算代替 iteration budget</strong> — 新颖度 4/5 · 实用性 5/5 · 可迁移性 5/5。注释里直接写「Iteration count and wall clock do not bound spend — retained tool results are re-sent every iteration, so cost is quadratic in tool-call count」。LangGraph 文档明确讨论过 cost-vs-iteration 但没有 per-turn cap 抽象。</li>
+<li><strong><code>ActionContractError</code> + <code>fail()</code> 单一契约错误跨 6 transport</strong> — 新颖度 3/5 · 实用性 5/5 · 可迁移性 5/5。鸭子类型 <code>actionContractError === true</code> 让契约在序列化中幸存；非契约错误归一为 500、契约错误保留原 message + code；CLI / agent tool / HTTPS / A2A / MCP 看到同一语义。</li>
+<li><strong><code>fireInternalDispatch</code> 自递归 HTTP + HMAC</strong> — 新颖度 4/5 · 实用性 4/5 · 可迁移性 3/5。写 SQL run row → HMAC 签 → POST 回自己 deployment → 250ms race-timer 防 serverless「return 早于 dispatch 出栈」；serverless-first SaaS 的通用后台任务模式。</li>
+<li><strong>30+ diff-scoped guards + 三元退出码 + agent-friction-report</strong> — 新颖度 4/5 · 实用性 4/5 · 可迁移性 3/5。CI 自动跑 30+ 个 diff-scoped guards（<code>guard:no-action-twin-routes</code>、<code>guard:ssr-cache-shell</code>、<code>guard:i18n-catalogs</code>、<code>guard:hooks-registered</code>），guard 退出码三元（0 pass / 1 fail / 2 could-not-run），CI 守住「不可能误判为 pass」。</li>
+</ol>
+<h3>可复用的模式与技巧</h3>
+<ol>
+<li><strong>Schema-first Multi-surface Action</strong>：以 Zod schema 为单一来源，runtime 自动 expose 到 UI / agent / HTTP / MCP / A2A / CLI，caller 标签让 cross-cutting 治理只在一处实现。<strong>适用场景</strong>：任何「agent + UI 共用同一份业务原语」的 SaaS。</li>
+<li><strong>Module-level SyncTransport + Web Lock Leader/BroadcastChannel Follower</strong>：一份 SSE 连接供应 N 个 tab、多个 hook、N 个 query client 的「leader/follower」模式，靠 Web Lock 自然 failover。<strong>适用场景</strong>：tab-heavy 后台、邮件、看板、表单工具。</li>
+<li><strong>Per-turn input-token budget 替代 iteration budget</strong>：把 LLM loop 截断门从「次数」换成「累积 input token」，对 chunked turn 做 token 预算累加。<strong>适用场景</strong>：所有生产级 agent loop。</li>
+<li><strong>Contract-typed error object 在多 transport 间幸存</strong>：鸭子类型 + 显式 <code>fail()</code> helper，让业务错误能在 HTTP / JSON-RPC / MCP / A2A / CLI 间稳定穿行。<strong>适用场景</strong>：所有 multi-surface SDK。</li>
+<li><strong>Self-Dispatch over HMAC + SQL run row</strong>：serverless 后台任务的「自递归 POST 自己」通用化实现，hostvars 决定「自己」。<strong>适用场景</strong>：Netlify / Vercel / Cloudflare Workers 上的后台任务。</li>
+<li><strong>Invariant-only Root + skill-only Detail 的两层 governance</strong>：<code>AGENTS.md</code> 列 invariant、<code>.agents/skills/*</code> 列 why，加 diff-scoped guards 自动核对。<strong>适用场景</strong>：多 IDE / 多 agent 协作的 monorepo。</li>
+<li><strong>Application-state as ambient KV with per-tab scoping</strong>：UI 主动 push + agent 主动读 + 双向实时同步，让 agent 知道「人在哪里」。<strong>适用场景</strong>：需要「人在回路」的协作型 agent 应用。</li>
+</ol>
+<h3>关键设计决策</h3>
+<ol>
+<li><strong>决策：Shared Actions 单一入口</strong>
+<ul>
+<li><strong>问题</strong>：UI 函数 vs agent tool 双写导致权限/审计漂移</li>
+<li><strong>方案</strong>：<code>packages/core/src/action.ts</code> <code>defineAction</code> 为唯一入口，自动暴露为 React hook / agent tool / HTTP / MCP / A2A / CLI，<code>ActionRunContext.caller</code> 区分 8 种调用来源</li>
+<li><strong>Trade-off</strong>：付出框架绑定成本（Nitro/TS 宿主、framework schema-prompt 契约）换来治理一致性</li>
+<li><strong>可迁移性</strong>：高</li>
+</ul>
+</li>
+<li><strong>决策：SQL 为单一 SoR，SSE + 250ms 合并窗口实时同步</strong>
+<ul>
+<li><strong>问题</strong>：agent 后台改数据前端必须立刻看到；多 tab / 多 cold-start function 间需要统一拿到「刚才那条写入」</li>
+<li><strong>方案</strong>：所有 state 落 PostgreSQL（Drizzle），客户端通过 <code>useDbSync</code> 订阅 <code>/_agent-native/events</code> SSE，<code>notifyActionChange</code> + <code>writeActionChangeMarker</code> + <code>publishActionChangeFastPath</code> 推 version 单调递增事件，250ms 窗口合并防抖动；fallback <code>/_agent-native/poll</code></li>
+<li><strong>Trade-off</strong>：SSE 长连接消耗浏览器单 origin ~6 连接配额；UI 选型必须用 React Query；状态层必须能被 Drizzle 表达</li>
+<li><strong>可迁移性</strong>：高</li>
+</ul>
+</li>
+<li><strong>决策：<code>runAgentLoop</code> 按 turn 增量控制 max-run-input-tokens</strong>
+<ul>
+<li><strong>问题</strong>：传统 <code>maxIterations</code> 截断让成本不可预测（retain tool result 重发 → quadratic cost）</li>
+<li><strong>方案</strong>：<code>priorTurnInputTokens</code> 防 chunked turn 刷新预算；<code>MAX_TURN_WALL_CLOCK_MS</code> 同时作为壁钟硬上限</li>
+<li><strong>Trade-off</strong>：按 token 截断更难预测「跑了几步」，需要模型支持或准确的 tokenization</li>
+<li><strong>可迁移性</strong>：高</li>
+</ul>
+</li>
+</ol>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table>
+<thead>
+<tr><th>维度</th><th>agent-native</th><th>CopilotKit (AG-UI)</th><th>FlowiseAI</th><th>LangGraph</th><th>simstudioai/sim</th></tr>
+</thead>
+<tbody>
+<tr><td>Stars</td><td>6,063</td><td>37,457</td><td>55,474</td><td>~万级</td><td>29,701</td></tr>
+<tr><td>定位</td><td>agent + UI + 应用框架</td><td>React 前端外挂 SDK</td><td>ops 拖拽工作台</td><td>agent 编排库</td><td>协作式 agent 工作流平台</td></tr>
+<tr><td>同时管 UI + agent + state + deploy</td><td>✅（强）</td><td>❌（只管 UI）</td><td>❌（只管 ops）</td><td>❌（只管 agent）</td><td>❌（只管 debug）</td></tr>
+<tr><td>Retrofit 现有 React app</td><td>难（greenfield）</td><td>极易（组件库 drop-in）</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>SQL/Nitro/TS 宿主要求</td><td>强约束（PostgreSQL + Nitro）</td><td>无</td><td>无</td><td>无</td><td>无</td></tr>
+<tr><td>多 surface 暴露（MCP/A2A/HTTP/CLI）</td><td>6 surface 原生</td><td>仅 UI + agent</td><td>仅拖拽配置</td><td>仅 agent 编排</td><td>仅 UI 时间线</td></tr>
+</tbody>
+</table>
+<h3>差异化护城河</h3>
+<ul>
+<li><strong>技术护城河</strong>：Shared Actions（Zod schema → 6 surface）是 2026 年开源领域独此一家的端到端抽象；Web Lock + SSE leader/follower 解决 6-origin 浏览器真痛点；per-turn input-token 预算是 agent 框架里稀缺的「成本可控」抽象。</li>
+<li><strong>生态护城河</strong>：9 个内置完整 SaaS 模板、12 个 skills、24+ AGENTS.md skills、30+ pnpm guards，是其他框架无可比拟的「能直接开跑」的 demo 库存——其他 agent 框架给的是 SDK，agent-native 给的是完整产品。</li>
+<li><strong>信任护城河</strong>：Builder.io 13 年 SaaS 经验、CEO 50% commit 量、ISC 全开源、3.6M LoC monorepo 已写完并跑在 production（beta、docs、客户托管），不是「PPT 框架」。</li>
+</ul>
+<h3>竞争风险</h3>
+<ul>
+<li><strong>最大风险</strong>：<strong>「低门槛集成派」CopilotKit AG-UI</strong> 一旦把「shared action」抽象化、推出标准化协议，开发者无需重写整个应用即可获得 80% 的能力；以及「agent ops 派」LangGraph / CrewAI / Sim 把 agent 编排 UX 做透后，吸引创业者把 agent-native 当「应用层」、把 LangGraph studio 当「调试层」使用。</li>
+<li><strong>次级风险</strong>：6 个月 5,856 commits 但 Refactor 0% / Fix 52%——项目早期「先建后清」是合理的，但 0.7.x 阶段的技术债一旦爆发，会显著拖累商业化进度。</li>
+</ul>
+<h3>生态定位</h3>
+<p>「<strong>AI-era 应用框架</strong>」——既不是 chat layer、不是 agent runtime、不是 ops 工具，而是「SQL 持久 + React UI + shared action + agent loop + 多 surface 暴露」一体的产品化运行时；类似 Rails / Next.js 在 AI 时代的对应位置。</p>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：项目被低估——名字「agent-native」在通用 AI agent 红海里被淹没（LangChain / AutoGen / CrewAI / LangGraph 占用心智），但它实际是 2026 年少数把「UI 与 agent 共享 action / data / state」做成生产级框架的项目，6K stars 体量与定位不匹配。</li>
+<li><strong>技术借鉴</strong>：<code>SyncTransport</code> 单例 + Web Lock leader/follower、<code>runAgentLoop</code> per-turn input-token 预算、<code>ActionContractError</code> + <code>fail()</code> 三项是「读懂即可 1:1 抄到自己项目」的工程实践，与框架无关。</li>
+<li><strong>生态位</strong>：填补了「agent 框架 + 应用框架」之间的空白层——LangGraph 等只管 agent 不管应用，Next.js 等只管应用不管 agent，agent-native 把两者焊在一条 shared action 流水线上。</li>
+<li><strong>趋势判断</strong>：项目仍处于「密集开发期 + 月度 commit 单调递增」状态（曲线从 437 → 1,258），符合 AI 基础设施层级的增长曲线；6 个月完成 v0.7.83、按 changesets 多包独立发版（2,670 个 tag / 100 个 release），说明有清晰的 release 节奏和对外 API 稳定性承诺。</li>
+</ul>
+<h2>风险与不足</h2>
+<ul>
+<li><strong>6 个月、5,856 commits、Refactor 0% / Fix 52%</strong>：反常的 commit 类型分布——不是项目不成熟，而是「产品 + 模板 + skills 同时铺开、bot 自动 squash 合入保留 PR 原标题」的副作用。0.7.x 阶段开始，技术债会显性化。</li>
+<li><strong>强约束宿主</strong>：必须 PostgreSQL + Nitro + TypeScript；不是 Next.js drop-in；不支持 JVM/Kotlin/Spring（独立评论明确指出 4 条「不适用场景」）。这意味着它不是 retrofit 工具，是 greenfield 框架——选型时不能「先选它再想怎么集成」。</li>
+<li><strong>6K stars 仍属「被低估」状态</strong>：star 体量与定位错配，社区认知度还需 6-12 个月才会追上来；商业化断面（hosting / migration / cross-app orchestration）尚未明确披露 SaaS 定价。</li>
+<li><strong>CEO 单点风险</strong>：50.4% commit 集中在 Steve Sewell 一人，company-strategic OSS 的典型风险，公司战略调整会直接影响项目。</li>
+<li><strong>issues 噪声</strong>：当前 17 个 open issues 几乎全是 CI 健康检查 noise（自动开闭），实际用户 issue 几乎不可见，社区反馈循环不清晰。</li>
+</ul>
+<h2>行动建议</h2>
+<ul>
+<li><strong>如果你要用它</strong>：
+<ul>
+<li>适用场景：greenfield 启动一个「agent 是产品一等公民」的 SaaS，且团队接受 PostgreSQL + Nitro + TypeScript 全栈锁定；</li>
+<li>不适用场景：给现有 React/Next.js 应用加 chat、纯 agent 编排层、不愿锁定 PostgreSQL 宿主的团队；</li>
+<li>对比 CopilotKit：选 CopilotKit 如果「给现有应用加 chat」是核心需求；选 agent-native 如果「agent 改应用代码、改 SQL、改 UI」是核心需求。</li>
+</ul>
+</li>
+<li><strong>如果你要学它</strong>：
+<ul>
+<li>重点关注 <code>packages/core/src/action.ts</code>（defineAction 核心）、<code>packages/core/src/agent/production-agent.ts</code>（核心循环，12k+ 行，含 per-turn budget 注释）、<code>packages/core/src/server/agent-chat-plugin.ts</code>（服务端 SSE/stream）、<code>packages/core/src/client/use-db-sync.ts</code>（SyncTransport 单例 + Web Lock leader/follower）；</li>
+<li>必读文档：<code>AGENTS.md</code>（invariant）+ <code>PRODUCT.md</code>（设计哲学）+ <code>.agents/skills/*</code>（24+ SKILL.md，覆盖「why」）。</li>
+</ul>
+</li>
+<li><strong>如果你要 fork 它</strong>：
+<ul>
+<li>改进方向：替代 Drizzle 为 Prisma（如果团队习惯）、简化 <code>production-agent.ts</code> 12k+ 行的单文件结构、增加 Next.js adapter（目前 Nitro 绑定）、补充可视化调试工具（agent timeline 类似 Sim 的能力）。</li>
+</ul>
+</li>
+</ul>
+<h3>知识入口</h3>
+<table>
+<thead>
+<tr><th>资源</th><th>链接</th></tr>
+</thead>
+<tbody>
+<tr><td>DeepWiki</td><td>未收录</td></tr>
+<tr><td>Zread.ai</td><td>未收录</td></tr>
+<tr><td>关联论文</td><td>无（README/docs 均无 arXiv 引用）</td></tr>
+<tr><td>在线 Demo</td><td>9 个内置 app（agent-native.com/apps/clips、design、slides、analytics、calendar、mail、assets、content、plans）+ Discord 社区</td></tr>
+<tr><td>外部深度视角</td><td><a href="https://mangodeveloper.com/articles/builderios-agent-native-framework-lets-agents-and-uis-share-the-same-action-layer">MangoDeveloper 独立评论</a> — 类比「CRDT for agent+UI merge」</td></tr>
+<tr><td></td><td><a href="https://mer.vin/2026/06/builder-io-agent-native-explained-open-source-framework-where-agents-and-ui-share-actions">mer.vin 独立评论</a> — 明确点出 4 条「不适用场景」</td></tr>
+</tbody>
+</table>
+</body>
+</html>

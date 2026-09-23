@@ -3,11 +3,11 @@
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "language": "Shell",
-    "stars": 285158,
-    "forks": 25501,
+    "stars": 290511,
+    "forks": 25996,
     "description": "An agentic skills framework & software development methodology that works.",
-    "last_seen": "2026-09-11",
-    "trending_days": 86
+    "last_seen": "2026-09-23",
+    "trending_days": 87
   },
   {
     "name": "TapXWorld/ChinaTextbook",
@@ -420,6 +420,16 @@
     "trending_days": 16
   },
   {
+    "name": "davila7/claude-code-templates",
+    "url": "https://github.com/davila7/claude-code-templates",
+    "language": "Python",
+    "stars": 31374,
+    "forks": 3559,
+    "description": "CLI tool for configuring and monitoring Claude Code",
+    "last_seen": "2026-09-23",
+    "trending_days": 16
+  },
+  {
     "name": "microsoft/markitdown",
     "url": "https://github.com/microsoft/markitdown",
     "language": "Python",
@@ -447,16 +457,6 @@
     "forks": 449,
     "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
     "last_seen": "2026-06-06",
-    "trending_days": 15
-  },
-  {
-    "name": "davila7/claude-code-templates",
-    "url": "https://github.com/davila7/claude-code-templates",
-    "language": "Python",
-    "stars": 30983,
-    "forks": 3532,
-    "description": "CLI tool for configuring and monitoring Claude Code",
-    "last_seen": "2026-09-22",
     "trending_days": 15
   },
   {
@@ -1010,6 +1010,16 @@
     "trending_days": 9
   },
   {
+    "name": "anthropics/financial-services",
+    "url": "https://github.com/anthropics/financial-services",
+    "language": "Python",
+    "stars": 36776,
+    "forks": 5362,
+    "description": "None",
+    "last_seen": "2026-09-23",
+    "trending_days": 9
+  },
+  {
     "name": "anthropics/skills",
     "url": "https://github.com/anthropics/skills",
     "language": "Python",
@@ -1017,6 +1027,16 @@
     "forks": 20651,
     "description": "Public repository for Agent Skills",
     "last_seen": "2026-09-05",
+    "trending_days": 9
+  },
+  {
+    "name": "browser-use/video-use",
+    "url": "https://github.com/browser-use/video-use",
+    "language": "Python",
+    "stars": 26327,
+    "forks": 3154,
+    "description": "Edit videos with coding agents",
+    "last_seen": "2026-09-23",
     "trending_days": 9
   },
   {
@@ -1057,6 +1077,16 @@
     "forks": 5781,
     "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
     "last_seen": "2026-06-03",
+    "trending_days": 9
+  },
+  {
+    "name": "DeusData/codebase-memory-mcp",
+    "url": "https://github.com/deusdata/codebase-memory-mcp",
+    "language": "C",
+    "stars": 44383,
+    "forks": 3627,
+    "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+    "last_seen": "2026-09-23",
     "trending_days": 9
   },
   {
@@ -1300,16 +1330,6 @@
     "trending_days": 8
   },
   {
-    "name": "anthropics/financial-services",
-    "url": "https://github.com/anthropics/financial-services",
-    "language": "Python",
-    "stars": 36148,
-    "forks": 5294,
-    "description": "None",
-    "last_seen": "2026-09-22",
-    "trending_days": 8
-  },
-  {
     "name": "anthropics/knowledge-work-plugins",
     "url": "https://github.com/anthropics/knowledge-work-plugins",
     "language": "Python",
@@ -1327,16 +1347,6 @@
     "forks": 3455,
     "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
     "last_seen": "2026-04-05",
-    "trending_days": 8
-  },
-  {
-    "name": "browser-use/video-use",
-    "url": "https://github.com/browser-use/video-use",
-    "language": "Python",
-    "stars": 25628,
-    "forks": 3102,
-    "description": "Edit videos with coding agents",
-    "last_seen": "2026-09-22",
     "trending_days": 8
   },
   {
@@ -1387,16 +1397,6 @@
     "forks": 11106,
     "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
     "last_seen": "2026-06-29",
-    "trending_days": 8
-  },
-  {
-    "name": "DeusData/codebase-memory-mcp",
-    "url": "https://github.com/deusdata/codebase-memory-mcp",
-    "language": "C",
-    "stars": 18574,
-    "forks": 1351,
-    "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-    "last_seen": "2026-06-28",
     "trending_days": 8
   },
   {
@@ -1730,6 +1730,16 @@
     "trending_days": 7
   },
   {
+    "name": "HKUDS/CLI-Anything",
+    "url": "https://github.com/hkuds/cli-anything",
+    "language": "Python",
+    "stars": 49788,
+    "forks": 4593,
+    "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+    "last_seen": "2026-09-23",
+    "trending_days": 7
+  },
+  {
     "name": "huggingface/skills",
     "url": "https://github.com/huggingface/skills",
     "language": "Python",
@@ -1857,6 +1867,16 @@
     "forks": 1517,
     "description": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
     "last_seen": "2026-01-03",
+    "trending_days": 7
+  },
+  {
+    "name": "pbakaus/impeccable",
+    "url": "https://github.com/pbakaus/impeccable",
+    "language": "JavaScript",
+    "stars": 70152,
+    "forks": 4263,
+    "description": "The design language that makes your AI harness better at design.",
+    "last_seen": "2026-09-23",
     "trending_days": 7
   },
   {
@@ -2250,16 +2270,6 @@
     "trending_days": 6
   },
   {
-    "name": "HKUDS/CLI-Anything",
-    "url": "https://github.com/hkuds/cli-anything",
-    "language": "Python",
-    "stars": 47137,
-    "forks": 4379,
-    "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-    "last_seen": "2026-08-15",
-    "trending_days": 6
-  },
-  {
     "name": "HKUDS/DeepCode",
     "url": "https://github.com/hkuds/deepcode",
     "language": "Python",
@@ -2467,16 +2477,6 @@
     "forks": 887,
     "description": "macOS video editor built for AI",
     "last_seen": "2026-07-25",
-    "trending_days": 6
-  },
-  {
-    "name": "pbakaus/impeccable",
-    "url": "https://github.com/pbakaus/impeccable",
-    "language": "JavaScript",
-    "stars": 51173,
-    "forks": 3010,
-    "description": "The design language that makes your AI harness better at design.",
-    "last_seen": "2026-07-27",
     "trending_days": 6
   },
   {
@@ -3060,6 +3060,16 @@
     "trending_days": 5
   },
   {
+    "name": "Open-Dev-Society/OpenStock",
+    "url": "https://github.com/open-dev-society/openstock",
+    "language": "TypeScript",
+    "stars": 18638,
+    "forks": 2274,
+    "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+    "last_seen": "2026-09-23",
+    "trending_days": 5
+  },
+  {
     "name": "openai/codex-plugin-cc",
     "url": "https://github.com/openai/codex-plugin-cc",
     "language": "JavaScript",
@@ -3350,6 +3360,16 @@
     "trending_days": 4
   },
   {
+    "name": "agent-substrate/substrate",
+    "url": "https://github.com/agent-substrate/substrate",
+    "language": "Go",
+    "stars": 3327,
+    "forks": 402,
+    "description": "Agent Substrate: the core system",
+    "last_seen": "2026-09-23",
+    "trending_days": 4
+  },
+  {
     "name": "agentscope-ai/agentscope",
     "url": "https://github.com/agentscope-ai/agentscope",
     "language": "Python",
@@ -3477,6 +3497,16 @@
     "forks": 12479,
     "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
     "last_seen": "2026-09-08",
+    "trending_days": 4
+  },
+  {
+    "name": "BuilderIO/agent-native",
+    "url": "https://github.com/builderio/agent-native",
+    "language": "TypeScript",
+    "stars": 6422,
+    "forks": 577,
+    "description": "A framework for building agentic apps",
+    "last_seen": "2026-09-23",
     "trending_days": 4
   },
   {
@@ -4100,16 +4130,6 @@
     "trending_days": 4
   },
   {
-    "name": "Open-Dev-Society/OpenStock",
-    "url": "https://github.com/open-dev-society/openstock",
-    "language": "TypeScript",
-    "stars": 17480,
-    "forks": 2175,
-    "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
-    "last_seen": "2026-09-21",
-    "trending_days": 4
-  },
-  {
     "name": "openemr/openemr",
     "url": "https://github.com/openemr/openemr",
     "language": "PHP",
@@ -4520,16 +4540,6 @@
     "trending_days": 3
   },
   {
-    "name": "agent-substrate/substrate",
-    "url": "https://github.com/agent-substrate/substrate",
-    "language": "Go",
-    "stars": 2806,
-    "forks": 372,
-    "description": "Agent Substrate: the core system",
-    "last_seen": "2026-09-22",
-    "trending_days": 3
-  },
-  {
     "name": "agentskills/agentskills",
     "url": "https://github.com/agentskills/agentskills",
     "language": "Python",
@@ -4687,16 +4697,6 @@
     "forks": 1130,
     "description": "The AI Browser Automation Framework",
     "last_seen": "2025-10-10",
-    "trending_days": 3
-  },
-  {
-    "name": "BuilderIO/agent-native",
-    "url": "https://github.com/builderio/agent-native",
-    "language": "TypeScript",
-    "stars": 5722,
-    "forks": 530,
-    "description": "A framework for building agentic apps",
-    "last_seen": "2026-09-21",
     "trending_days": 3
   },
   {
@@ -5517,6 +5517,16 @@
     "forks": 3061,
     "description": "The Modular Platform (includes MAX & Mojo)",
     "last_seen": "2026-08-22",
+    "trending_days": 3
+  },
+  {
+    "name": "mvt-project/mvt",
+    "url": "https://github.com/mvt-project/mvt",
+    "language": "Python",
+    "stars": 14371,
+    "forks": 1374,
+    "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+    "last_seen": "2026-09-23",
     "trending_days": 3
   },
   {
@@ -6870,6 +6880,16 @@
     "trending_days": 2
   },
   {
+    "name": "dream-num/univer",
+    "url": "https://github.com/dream-num/univer",
+    "language": "TypeScript",
+    "stars": 16138,
+    "forks": 1423,
+    "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+    "last_seen": "2026-09-23",
+    "trending_days": 2
+  },
+  {
     "name": "earendil-works/pi",
     "url": "https://github.com/earendil-works/pi",
     "language": "TypeScript",
@@ -7157,6 +7177,16 @@
     "forks": 2018,
     "description": "A collection of sample agents built with Agent Development Kit (ADK)",
     "last_seen": "2025-12-10",
+    "trending_days": 2
+  },
+  {
+    "name": "google/ax",
+    "url": "https://github.com/google/ax",
+    "language": "Go",
+    "stars": 8591,
+    "forks": 396,
+    "description": "Google's open agentic orchestration runtime",
+    "last_seen": "2026-09-23",
     "trending_days": 2
   },
   {
@@ -7970,16 +8000,6 @@
     "trending_days": 2
   },
   {
-    "name": "mvt-project/mvt",
-    "url": "https://github.com/mvt-project/mvt",
-    "language": "Python",
-    "stars": 13852,
-    "forks": 1343,
-    "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
-    "last_seen": "2026-09-22",
-    "trending_days": 2
-  },
-  {
     "name": "nab138/iloader",
     "url": "https://github.com/nab138/iloader",
     "language": "TypeScript",
@@ -8497,6 +8517,16 @@
     "forks": 434,
     "description": "A collaborative note taking, wiki and documentation platform that scales. Built with Django and React.",
     "last_seen": "2025-11-02",
+    "trending_days": 2
+  },
+  {
+    "name": "superdesigndev/treg",
+    "url": "https://github.com/superdesigndev/treg",
+    "language": "Python",
+    "stars": 2547,
+    "forks": 234,
+    "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+    "last_seen": "2026-09-23",
     "trending_days": 2
   },
   {
@@ -9980,16 +10010,6 @@
     "trending_days": 1
   },
   {
-    "name": "dream-num/univer",
-    "url": "https://github.com/dream-num/univer",
-    "language": "TypeScript",
-    "stars": 15087,
-    "forks": 1357,
-    "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
-    "last_seen": "2026-09-22",
-    "trending_days": 1
-  },
-  {
     "name": "dreamhunter2333/cloudflare_temp_email",
     "url": "https://github.com/dreamhunter2333/cloudflare_temp_email",
     "language": "TypeScript",
@@ -10470,16 +10490,6 @@
     "trending_days": 1
   },
   {
-    "name": "google/ax",
-    "url": "https://github.com/google/ax",
-    "language": "Go",
-    "stars": 7120,
-    "forks": 338,
-    "description": "Google's open agentic orchestration runtime",
-    "last_seen": "2026-09-22",
-    "trending_days": 1
-  },
-  {
     "name": "google/computer-use-preview",
     "url": "https://github.com/google/computer-use-preview",
     "language": "Python",
@@ -10637,6 +10647,16 @@
     "forks": 13,
     "description": "None",
     "last_seen": "2026-08-02",
+    "trending_days": 1
+  },
+  {
+    "name": "harry7557558/spirula-studio",
+    "url": "https://github.com/harry7557558/spirula-studio",
+    "language": "C++",
+    "stars": 668,
+    "forks": 52,
+    "description": "Cross-vendor 3D Gaussian Splatting trainer - video to splat to mesh, Vulkan or CUDA.",
+    "last_seen": "2026-09-23",
     "trending_days": 1
   },
   {
@@ -12530,13 +12550,13 @@
     "trending_days": 1
   },
   {
-    "name": "superdesigndev/treg",
-    "url": "https://github.com/superdesigndev/treg",
+    "name": "strands-agents/harness-sdk",
+    "url": "https://github.com/strands-agents/harness-sdk",
     "language": "Python",
-    "stars": 2054,
-    "forks": 208,
-    "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
-    "last_seen": "2026-09-22",
+    "stars": 7675,
+    "forks": 1192,
+    "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+    "last_seen": "2026-09-23",
     "trending_days": 1
   },
   {
@@ -12677,6 +12697,16 @@
     "forks": 3978,
     "description": "You like pytorch? You like micrograd? You love tinygrad! ❤️",
     "last_seen": "2026-03-23",
+    "trending_days": 1
+  },
+  {
+    "name": "TNT-Likely/PanWatch",
+    "url": "https://github.com/tnt-likely/panwatch",
+    "language": "Python",
+    "stars": 1430,
+    "forks": 291,
+    "description": "盯盘侠 PanWatch · 自托管 AI 盯盘助手，集成 TradingAgents 多 Agent 投资决策 | A股/港股/美股实时监控、持仓管理、智能分析、全渠道推送",
+    "last_seen": "2026-09-23",
     "trending_days": 1
   },
   {

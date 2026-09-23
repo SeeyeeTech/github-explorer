@@ -71,6 +71,11 @@ entries:
   - ai-agent
   - web-framework
   - protocol-spec
+  agent-substrate_substrate:
+  - ai-agent
+  - llm-framework
+  - devtools
+  - database
   agentscope-ai_agentscope:
   - ai-agent
   - llm-framework

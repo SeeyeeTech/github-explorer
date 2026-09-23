@@ -1,0 +1,6 @@
+{
+  "title": "Google 4 个月孵化的 Agent 基质：3K stars 拿下 10x 密度提升的运行时赌注",
+  "digest": "Google 把 K8s 一线 maintainer 攒一起，给 AI agent 写了 actor 解耦 worker 的 K8s 原生运行时：sandbox 快照亚秒级挂起/恢复，单 worker 撑 250 actors。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

@@ -1,45 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-09-22",
+    "last_run": "2026-09-23",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/freestylefly/awesome-gpt-image-2",
-      "canonical_url": "https://github.com/freestylefly/awesome-gpt-image-2",
-      "event_date": null,
-      "date_seen": "2026-08-23"
-    },
-    {
-      "key": "github.com/tinyhumansai/openhuman",
-      "canonical_url": "https://github.com/tinyhumansai/openhuman",
-      "event_date": null,
-      "date_seen": "2026-08-23"
-    },
-    {
-      "key": "github.com/voltagent/awesome-agent-skills",
-      "canonical_url": "https://github.com/VoltAgent/awesome-agent-skills",
-      "event_date": null,
-      "date_seen": "2026-08-23"
-    },
-    {
-      "key": "github.com/anthropics/claude-plugins-community",
-      "canonical_url": "https://github.com/anthropics/claude-plugins-community",
-      "event_date": null,
-      "date_seen": "2026-08-23"
-    },
-    {
-      "key": "github.com/vicinaehq/vicinae",
-      "canonical_url": "https://github.com/vicinaehq/vicinae",
-      "event_date": null,
-      "date_seen": "2026-08-23"
-    },
-    {
-      "key": "github.com/shiyu-coder/kronos",
-      "canonical_url": "https://github.com/shiyu-coder/Kronos",
-      "event_date": null,
-      "date_seen": "2026-08-23"
-    },
     {
       "key": "github.com/madslorentzen/ai-job-search",
       "canonical_url": "https://github.com/MadsLorentzen/ai-job-search",
@@ -813,6 +777,60 @@
       "canonical_url": "https://github.com/firecrawl/pdf-inspector",
       "event_date": "2026-09-22",
       "date_seen": "2026-09-22"
+    },
+    {
+      "key": "github.com/agent-substrate/substrate",
+      "canonical_url": "https://github.com/agent-substrate/substrate",
+      "event_date": "2026-09-23",
+      "date_seen": "2026-09-23"
+    },
+    {
+      "key": "github.com/dream-num/univer",
+      "canonical_url": "https://github.com/dream-num/univer",
+      "event_date": "2026-09-23",
+      "date_seen": "2026-09-23"
+    },
+    {
+      "key": "github.com/davila7/claude-code-templates",
+      "canonical_url": "https://github.com/davila7/claude-code-templates",
+      "event_date": "2026-09-23",
+      "date_seen": "2026-09-23"
+    },
+    {
+      "key": "github.com/google/ax",
+      "canonical_url": "https://github.com/google/ax",
+      "event_date": "2026-09-23",
+      "date_seen": "2026-09-23"
+    },
+    {
+      "key": "github.com/superdesigndev/treg",
+      "canonical_url": "https://github.com/superdesigndev/treg",
+      "event_date": "2026-09-23",
+      "date_seen": "2026-09-23"
+    },
+    {
+      "key": "github.com/j-m-recipes/recipes",
+      "canonical_url": "https://github.com/J-M-Recipes/recipes",
+      "event_date": "2026-09-23",
+      "date_seen": "2026-09-23"
+    },
+    {
+      "key": "github.com/sansan0/trendradar",
+      "canonical_url": "https://github.com/sansan0/TrendRadar",
+      "event_date": "2026-09-23",
+      "date_seen": "2026-09-23"
+    },
+    {
+      "key": "github.com/openclaw/openclaw",
+      "canonical_url": "https://github.com/openclaw/openclaw",
+      "event_date": "2026-09-23",
+      "date_seen": "2026-09-23"
+    },
+    {
+      "key": "github.com/automatic1111/stable-diffusion-webui",
+      "canonical_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "event_date": "2026-09-23",
+      "date_seen": "2026-09-23"
     }
   ]
 }

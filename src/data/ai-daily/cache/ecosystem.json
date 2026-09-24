@@ -1,15 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-09-23",
+    "last_run": "2026-09-24",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/madslorentzen/ai-job-search",
-      "canonical_url": "https://github.com/MadsLorentzen/ai-job-search",
-      "event_date": "2026-08-24",
-      "date_seen": "2026-08-24"
-    },
     {
       "key": "github.com/agricidaniel/claude-obsidian",
       "canonical_url": "https://github.com/AgriciDaniel/claude-obsidian",
@@ -831,6 +825,54 @@
       "canonical_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
       "event_date": "2026-09-23",
       "date_seen": "2026-09-23"
+    },
+    {
+      "key": "github.com/strands-agents/harness-sdk",
+      "canonical_url": "https://github.com/strands-agents/harness-sdk",
+      "event_date": "2026-09-24",
+      "date_seen": "2026-09-24"
+    },
+    {
+      "key": "github.com/tnt-likely/panwatch",
+      "canonical_url": "https://github.com/TNT-Likely/PanWatch",
+      "event_date": "2026-09-24",
+      "date_seen": "2026-09-24"
+    },
+    {
+      "key": "github.com/harry7557558/spirula-studio",
+      "canonical_url": "https://github.com/harry7557558/spirula-studio",
+      "event_date": "2026-09-24",
+      "date_seen": "2026-09-24"
+    },
+    {
+      "key": "github.com/hkuds/cli-anything",
+      "canonical_url": "https://github.com/HKUDS/CLI-Anything",
+      "event_date": "2026-09-24",
+      "date_seen": "2026-09-24"
+    },
+    {
+      "key": "github.com/deusdata/codebase-memory-mcp",
+      "canonical_url": "https://github.com/DeusData/codebase-memory-mcp",
+      "event_date": "2026-09-24",
+      "date_seen": "2026-09-24"
+    },
+    {
+      "key": "github.com/jasonkneen/instinctual-memory",
+      "canonical_url": "https://github.com/jasonkneen/instinctual-memory",
+      "event_date": "2026-09-24",
+      "date_seen": "2026-09-24"
+    },
+    {
+      "key": "github.com/shiyu-coder/kronos",
+      "canonical_url": "https://github.com/shiyu-coder/Kronos",
+      "event_date": "2026-09-24",
+      "date_seen": "2026-09-24"
+    },
+    {
+      "key": "github.com/microsoft/call-center-ai",
+      "canonical_url": "https://github.com/microsoft/call-center-ai",
+      "event_date": "2026-09-24",
+      "date_seen": "2026-09-24"
     }
   ]
 }

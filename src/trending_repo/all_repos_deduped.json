@@ -3,11 +3,11 @@
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "language": "Shell",
-    "stars": 290511,
-    "forks": 25996,
+    "stars": 291065,
+    "forks": 26038,
     "description": "An agentic skills framework & software development methodology that works.",
-    "last_seen": "2026-09-23",
-    "trending_days": 87
+    "last_seen": "2026-09-24",
+    "trending_days": 88
   },
   {
     "name": "TapXWorld/ChinaTextbook",
@@ -310,6 +310,16 @@
     "trending_days": 20
   },
   {
+    "name": "rohitg00/ai-engineering-from-scratch",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "language": "Python",
+    "stars": 56154,
+    "forks": 9892,
+    "description": "Learn it. Build it. Ship it for others.",
+    "last_seen": "2026-09-24",
+    "trending_days": 20
+  },
+  {
     "name": "virattt/ai-hedge-fund",
     "url": "https://github.com/virattt/ai-hedge-fund",
     "language": "Python",
@@ -347,16 +357,6 @@
     "forks": 5289,
     "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
     "last_seen": "2026-08-30",
-    "trending_days": 19
-  },
-  {
-    "name": "rohitg00/ai-engineering-from-scratch",
-    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-    "language": "Python",
-    "stars": 53451,
-    "forks": 9353,
-    "description": "Learn it. Build it. Ship it for others.",
-    "last_seen": "2026-09-09",
     "trending_days": 19
   },
   {
@@ -870,6 +870,16 @@
     "trending_days": 11
   },
   {
+    "name": "anthropics/financial-services",
+    "url": "https://github.com/anthropics/financial-services",
+    "language": "Python",
+    "stars": 37255,
+    "forks": 5412,
+    "description": "None",
+    "last_seen": "2026-09-24",
+    "trending_days": 10
+  },
+  {
     "name": "cathrynlavery/diagram-design",
     "url": "https://github.com/cathrynlavery/diagram-design",
     "language": "HTML",
@@ -1007,16 +1017,6 @@
     "forks": 872,
     "description": "A lightweight, lightning-fast, in-process vector database",
     "last_seen": "2026-07-08",
-    "trending_days": 9
-  },
-  {
-    "name": "anthropics/financial-services",
-    "url": "https://github.com/anthropics/financial-services",
-    "language": "Python",
-    "stars": 36776,
-    "forks": 5362,
-    "description": "None",
-    "last_seen": "2026-09-23",
     "trending_days": 9
   },
   {
@@ -1430,6 +1430,16 @@
     "trending_days": 8
   },
   {
+    "name": "HKUDS/CLI-Anything",
+    "url": "https://github.com/hkuds/cli-anything",
+    "language": "Python",
+    "stars": 50205,
+    "forks": 4610,
+    "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+    "last_seen": "2026-09-24",
+    "trending_days": 8
+  },
+  {
     "name": "HKUDS/DeepTutor",
     "url": "https://github.com/hkuds/deeptutor",
     "language": "Python",
@@ -1727,16 +1737,6 @@
     "forks": 5207,
     "description": "Official code repo for the O'Reilly Book - \"Hands-On Large Language Models\"",
     "last_seen": "2026-02-21",
-    "trending_days": 7
-  },
-  {
-    "name": "HKUDS/CLI-Anything",
-    "url": "https://github.com/hkuds/cli-anything",
-    "language": "Python",
-    "stars": 49788,
-    "forks": 4593,
-    "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-    "last_seen": "2026-09-23",
     "trending_days": 7
   },
   {
@@ -4070,6 +4070,16 @@
     "trending_days": 4
   },
   {
+    "name": "mvt-project/mvt",
+    "url": "https://github.com/mvt-project/mvt",
+    "language": "Python",
+    "stars": 14638,
+    "forks": 1390,
+    "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+    "last_seen": "2026-09-24",
+    "trending_days": 4
+  },
+  {
     "name": "n0-computer/iroh",
     "url": "https://github.com/n0-computer/iroh",
     "language": "Rust",
@@ -4920,6 +4930,16 @@
     "trending_days": 3
   },
   {
+    "name": "dream-num/univer",
+    "url": "https://github.com/dream-num/univer",
+    "language": "TypeScript",
+    "stars": 17273,
+    "forks": 1503,
+    "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+    "last_seen": "2026-09-24",
+    "trending_days": 3
+  },
+  {
     "name": "earthtojake/text-to-cad",
     "url": "https://github.com/earthtojake/text-to-cad",
     "language": "Python",
@@ -5027,6 +5047,16 @@
     "forks": 9013,
     "description": "runs anywhere. uses anything",
     "last_seen": "2026-09-03",
+    "trending_days": 3
+  },
+  {
+    "name": "google/ax",
+    "url": "https://github.com/google/ax",
+    "language": "Go",
+    "stars": 9908,
+    "forks": 487,
+    "description": "Google's open agentic orchestration runtime",
+    "last_seen": "2026-09-24",
     "trending_days": 3
   },
   {
@@ -5520,16 +5550,6 @@
     "trending_days": 3
   },
   {
-    "name": "mvt-project/mvt",
-    "url": "https://github.com/mvt-project/mvt",
-    "language": "Python",
-    "stars": 14371,
-    "forks": 1374,
-    "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
-    "last_seen": "2026-09-23",
-    "trending_days": 3
-  },
-  {
     "name": "nitrojs/nitro",
     "url": "https://github.com/nitrojs/nitro",
     "language": "TypeScript",
@@ -5900,6 +5920,16 @@
     "trending_days": 3
   },
   {
+    "name": "superdesigndev/treg",
+    "url": "https://github.com/superdesigndev/treg",
+    "language": "Python",
+    "stars": 3028,
+    "forks": 254,
+    "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+    "last_seen": "2026-09-24",
+    "trending_days": 3
+  },
+  {
     "name": "swc-project/swc",
     "url": "https://github.com/swc-project/swc",
     "language": "Rust",
@@ -6027,6 +6057,16 @@
     "forks": 213,
     "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
     "last_seen": "2026-09-11",
+    "trending_days": 3
+  },
+  {
+    "name": "vectorize-io/hindsight",
+    "url": "https://github.com/vectorize-io/hindsight",
+    "language": "Python",
+    "stars": 27237,
+    "forks": 2573,
+    "description": "Hindsight: Agent Memory That Learns",
+    "last_seen": "2026-09-24",
     "trending_days": 3
   },
   {
@@ -6880,16 +6920,6 @@
     "trending_days": 2
   },
   {
-    "name": "dream-num/univer",
-    "url": "https://github.com/dream-num/univer",
-    "language": "TypeScript",
-    "stars": 16138,
-    "forks": 1423,
-    "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
-    "last_seen": "2026-09-23",
-    "trending_days": 2
-  },
-  {
     "name": "earendil-works/pi",
     "url": "https://github.com/earendil-works/pi",
     "language": "TypeScript",
@@ -7177,16 +7207,6 @@
     "forks": 2018,
     "description": "A collection of sample agents built with Agent Development Kit (ADK)",
     "last_seen": "2025-12-10",
-    "trending_days": 2
-  },
-  {
-    "name": "google/ax",
-    "url": "https://github.com/google/ax",
-    "language": "Go",
-    "stars": 8591,
-    "forks": 396,
-    "description": "Google's open agentic orchestration runtime",
-    "last_seen": "2026-09-23",
     "trending_days": 2
   },
   {
@@ -8510,6 +8530,16 @@
     "trending_days": 2
   },
   {
+    "name": "strands-agents/harness-sdk",
+    "url": "https://github.com/strands-agents/harness-sdk",
+    "language": "Python",
+    "stars": 8138,
+    "forks": 1222,
+    "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+    "last_seen": "2026-09-24",
+    "trending_days": 2
+  },
+  {
     "name": "suitenumerique/docs",
     "url": "https://github.com/suitenumerique/docs",
     "language": "Python",
@@ -8517,16 +8547,6 @@
     "forks": 434,
     "description": "A collaborative note taking, wiki and documentation platform that scales. Built with Django and React.",
     "last_seen": "2025-11-02",
-    "trending_days": 2
-  },
-  {
-    "name": "superdesigndev/treg",
-    "url": "https://github.com/superdesigndev/treg",
-    "language": "Python",
-    "stars": 2547,
-    "forks": 234,
-    "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
-    "last_seen": "2026-09-23",
     "trending_days": 2
   },
   {
@@ -8837,16 +8857,6 @@
     "forks": 563,
     "description": "Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories",
     "last_seen": "2026-03-31",
-    "trending_days": 2
-  },
-  {
-    "name": "vectorize-io/hindsight",
-    "url": "https://github.com/vectorize-io/hindsight",
-    "language": "Python",
-    "stars": 3357,
-    "forks": 240,
-    "description": "Hindsight: Agent Memory That Learns",
-    "last_seen": "2026-03-13",
     "trending_days": 2
   },
   {
@@ -10250,6 +10260,16 @@
     "trending_days": 1
   },
   {
+    "name": "FxEmbed/FxEmbed",
+    "url": "https://github.com/fxembed/fxembed",
+    "language": "TypeScript",
+    "stars": 5304,
+    "forks": 247,
+    "description": "Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others",
+    "last_seen": "2026-09-24",
+    "trending_days": 1
+  },
+  {
     "name": "gabime/spdlog",
     "url": "https://github.com/gabime/spdlog",
     "language": "C++",
@@ -10960,6 +10980,16 @@
     "trending_days": 1
   },
   {
+    "name": "julyx10/lap",
+    "url": "https://github.com/julyx10/lap",
+    "language": "Vue",
+    "stars": 2745,
+    "forks": 167,
+    "description": "An offline-first photo manager for large local libraries",
+    "last_seen": "2026-09-24",
+    "trending_days": 1
+  },
+  {
     "name": "k4yt3x/video2x",
     "url": "https://github.com/k4yt3x/video2x",
     "language": "C++",
@@ -11087,6 +11117,16 @@
     "forks": 2576,
     "description": "🪢 Open source LLM engineering platform: LLM Observability, metrics, evals, prompt management, playground, datasets. Integrates with OpenTelemetry, Langchain, OpenAI SDK, LiteLLM, and more. 🍊YC W23",
     "last_seen": "2026-04-22",
+    "trending_days": 1
+  },
+  {
+    "name": "leejet/stable-diffusion.cpp",
+    "url": "https://github.com/leejet/stable-diffusion.cpp",
+    "language": "C++",
+    "stars": 7183,
+    "forks": 810,
+    "description": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++",
+    "last_seen": "2026-09-24",
     "trending_days": 1
   },
   {
@@ -11757,6 +11797,16 @@
     "forks": 3624,
     "description": "Ongoing research training transformer models at scale",
     "last_seen": "2026-02-25",
+    "trending_days": 1
+  },
+  {
+    "name": "NVIDIA/Model-Optimizer",
+    "url": "https://github.com/nvidia/model-optimizer",
+    "language": "Python",
+    "stars": 3942,
+    "forks": 624,
+    "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+    "last_seen": "2026-09-24",
     "trending_days": 1
   },
   {
@@ -12547,16 +12597,6 @@
     "forks": 191,
     "description": "WhatsApp CLI",
     "last_seen": "2026-04-16",
-    "trending_days": 1
-  },
-  {
-    "name": "strands-agents/harness-sdk",
-    "url": "https://github.com/strands-agents/harness-sdk",
-    "language": "Python",
-    "stars": 7675,
-    "forks": 1192,
-    "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
-    "last_seen": "2026-09-23",
     "trending_days": 1
   },
   {

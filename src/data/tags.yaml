@@ -1749,6 +1749,8 @@ entries:
   mvanhorn_last30days-skill:
   - ai-agent
   - rag-search
+  mvt-project_mvt:
+  - security
   n0-computer_iroh:
   - protocol-spec
   nanmicoder_mediacrawler:
@@ -2333,6 +2335,10 @@ entries:
   stirling-tools_stirling-pdf:
   - ai-agent
   - workflow-automation
+  strands-agents_harness-sdk:
+  - ai-agent
+  - devtools
+  - protocol-spec
   stremio_stremio-web:
   - protocol-spec
   suitenumerique_docs:

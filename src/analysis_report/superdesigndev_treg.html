@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: https://github.com/superdesigndev/treg</p></blockquote>
+<h2>一句话总结</h2>
+<p>treg 把 2,600+ 个第三方 API（97 家供应商）收编成一个「任务寻路」网关——<strong>agent 只说"我要查邮件"或"我要截 SEO 关键词"</strong>，不用关心背后是 Gmail、Outlook 还是 SES；<strong>密钥永远不下发到客户端</strong>，余额不足用 HTTP 402 + 机器可读 cost 字段优雅回应。</p>
+<h2>值得关注的理由</h2>
+<ol>
+<li><strong>赛道判断准</strong>：2026 年 agent 从"对话框"走向"工具调用"是必然拐点，treg 在 MCP 协议定型前抢了"工具层 OpenRouter"的生态位，被 Claude Code / Codex / OpenClaw / Hermes 多家 host 集成。</li>
+<li><strong>架构选择克制</strong>：故意不做功能平移，而是当「Faithful Relay」透传代理——上游供应商的请求 schema 一字不改地透回去，规避了 Sandbox 安全事件型风险（对比 Composio 2026-05 闭源沙箱风波）。</li>
+<li><strong>开源商业化样本</strong>：AGPL/Apache+ 真开源 + 0% 加价（靠供应商返佣）+ pay-per-call，对比 Composio $29M / Arcade $72M 闭源 SaaS，提供了一个"独立团队也能跑"的差异化路径。</li>
+</ol>
+<h2>项目展示</h2>
+<p><img src="https://raw.githubusercontent.com/superdesigndev/treg/main/docs/assets/treg-hero.png" alt="treg hero — 一个 token 接 97 家供应商" /></p>
+<p><em>treg 官方 hero 图：单一 API token 替代 97 家供应商账号，凭据服务端注入，agent 客户端永不接触密钥。</em></p>
+<blockquote><p>仓库 README 仅 1 张 hero 图；官网 https://treg.to/ 在本轮 WebFetch 时返回 403（被 Cloudflare 阻断），无法补取 Demo GIF / 视频。可在 Claude Code 内通过 /plugin marketplace add superdesigndev/treg 实测。</p></blockquote>
+<h2>项目画像</h2>
+<table><thead><tr><th>维度</th><th>数据</th></tr></thead><tbody><tr><td>GitHub</td><td>https://github.com/superdesigndev/treg</td></tr><tr><td>Star / Fork</td><td>3,349 / 274（创建于 2026-07-15，仅 2.4 个月）</td></tr><tr><td>主语言与代码量</td><td>Python 113,560 行（占 25.8%）；总仓含 JSON 36.3% + YAML 33.4% 的 catalog 与上下文数据</td></tr><tr><td>项目年龄</td><td>2.4 个月（首 commit 2026-07-15，最新 2026-09-25）</td></tr><tr><td>开发阶段</td><td>密集开发</td></tr><tr><td>贡献模式</td><td>职业项目（13-18 人协作，Top 1 = JayZeeDesign 占 47.8%，含 Cursor Agent / Claude 多 AI 编程代理重度参与）</td></tr><tr><td>热度定位</td><td>中等热度 → 高速增长（外部报道日均 +193 stars）</td></tr><tr><td>质量评级</td><td>代码 良好 · 文档 优秀 · 测试 基本（167 个测试文件，4 条 CI job，无 changelog/tag）</td></tr></tbody></table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>Jason Zhou（GitHub @JayZeeDesign）运营 Superdesign Org 账号 1.3 年，公开仓库 9 个，本仓在他最近 push 的仓库中<strong>投入权重最高</strong>（远超第二名 superdesign 设计工具的 7k stars）。他曾任 Relevance AI 产品设计负责人，另主持 AI Builder Club YouTube 频道（~200k 订阅），原生处在「AI 工具内容 + 工程实现」双栖位。</p>
+<p>这条履历说明一件事：他不是在写一个"技术自嗨"的玩具，而是把过去 5 年积累的内容影响力 + 设计直觉，all-in 到一个<strong>面向 builder 群体</strong>的 agent 基础设施层。</p>
+<h3>问题判断</h3>
+<p>treg 的 README 一句话价值主张就是 "OpenRouter for agent tools, not models"——隐含的判断是：</p>
+<ol>
+<li>模型层已是红海（OpenAI / Anthropic / Google / Mistral），新入局者空间有限；</li>
+<li>但工具调用层是<strong>碎片化真空</strong>：Gmail、Slack、Notion、HubSpot、Semrush、Moz……每家一套 OAuth、一套 schema、一套计费；</li>
+<li>agent host（Claude Code / Codex）每集成一个新工具都要重复实现 OAuth 回调 + schema 转译 + 凭据存储；</li>
+<li>现有方案（Composio / Arcade / Pipedream）要么闭源 SaaS，要么被大厂收购，<strong>没有"开源 + self-host + 不抽佣"</strong>这一档选项。</li>
+</ol>
+<h3>解法哲学</h3>
+<p>把 OpenRouter 在模型层的成功套到工具层，三条明确取舍：</p>
+<ol>
+<li><strong>Faithful Relay instead of Schema Transpilation</strong>——上游 schema 一字不改地透传，省去一层翻译出错的风险（Composio 2026-05 沙箱安全事件正是平移 schema 时引入的命令注入）；</li>
+<li><strong>凭据永远不下发到客户端</strong>——服务端注入，请求体里的密钥字段由网关填，客户端只看到自己的 trg_live_ token；</li>
+<li><strong>0% 加价，靠供应商返佣</strong>——不向用户抽成，赌未来能跟供应商谈 affiliate commission，类似信用卡返佣逻辑。</li>
+</ol>
+<p>明确选择<strong>不做什么</strong>：不做 RAG、不做 memory、不做 agent framework；只当"工具代理层"，让上层框架（LangChain / CrewAI / Claude Code）自行设计 agent。</p>
+<h3>战略意图</h3>
+<p>docs/context/architecture/money.md（被修改 137 次的热点文档）说明 treg 已有清晰的商业化层：money seam 在 domain/money/ 单一目录，跟业务逻辑解耦——这是为后续接 Stripe / 接入企业版预留的接缝。从 dsh-plugin 提交 Issue（#143、#549、#353）看，treg 想当 dsh 生态的 hub；但 hub 自己也还没装顺，是当下"想做平台但平台未通"的元层尴尬。</p>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<table><thead><tr><th>#</th><th>创新点</th><th>新颖度</th><th>实用性</th><th>可迁移性</th></tr></thead><tbody><tr><td>1</td><td><strong>「按任务（capability）路由」</strong>替代「按供应商名路由」——agent 只说"我要查邮件"不关心背后 Gmail 还是 Outlook</td><td>4/5</td><td>5/5</td><td>5/5</td></tr><tr><td>2</td><td><strong>Faithful Relay 不平移 schema</strong>——上游请求原样转发，凭据服务端注入</td><td>5/5</td><td>4/5</td><td>3/5</td></tr><tr><td>3</td><td><strong>证据驱动选路</strong>——按实测成功率/速度/最近响应时延选 provider，不是凭配置</td><td>4/5</td><td>4/5</td><td>4/5</td></tr><tr><td>4</td><td><strong>HTTP 402 + 机器可读 cost 字段</strong>——余额不足不让 LLM 瞎试，agent 能自我调节预算</td><td>3/5</td><td>5/5</td><td>5/5</td></tr><tr><td>5</td><td><strong>PyPI 包名≠项目名</strong>（包是 tools-registry 而非 treg）——为避 2020 年同名 regex 库抢注的命名分离</td><td>3/5</td><td>5/5</td><td>5/5</td></tr></tbody></table>
+<h3>可复用的模式与技巧</h3>
+<ol>
+<li><strong>三步分离架构（Resolution → Credential Injection → Relay）</strong>：把 "识别" "鉴权注入" "透传" 拆成三个独立阶段，每阶段可单测、可限流、可观测——任何 "API gateway as-a-service" 项目都可参考。</li>
+<li><strong>Blame-classified failure（application/call/types.py:13）</strong>：调用失败时分三类 blamed — provider bug / treg bug / user error，便于 SLA 审计；通用做法是给所有异常打 type tag，归因自动化。</li>
+<li><strong>Three-set whitelist（infra/upstream/relay.py:43-67）</strong>：header / query / body 各有白名单，"什么是用户数据 vs 什么是凭据"的分层定义——API 代理层必备。</li>
+<li><strong>Single money seam</strong>（domain/money/）：所有计费逻辑集中在单一目录，billing-provider 替换零侵入；做付费 API 必备。</li>
+<li><strong>.gitleaks.toml + 历史全扫</strong>：用 gitleaks 守秘密泄露，对公开 API 网关特别重要（他们天天接触客户密钥）。</li>
+</ol>
+<h3>关键设计决策</h3>
+<ol>
+<li><strong>决策</strong>: 不做 schema 平移，Faithful Relay 原样转发<br/>问题： 现有方案在把 vendor-A 的 schema 转成 agent-friendly 形态时引入注入风险（如 Composio 2026-05 沙箱事件）<br/>方案： treg 只识别 host/ID 路由，凭据服务端注入，请求体原文透传<br/>Trade-off: 牺牲了"统一 schema 给 LLM 看"的便利（agent 看到的是 Gmail 原生 JSON，不是 OpenAI 函数调用形态），换来了零转换安全<br/>可迁移性： 中——只有当上游 schema 稳定且不过分异构时才适用</li>
+<li><strong>决策</strong>: 凭据存在服务端 Org-Specific Tool > Org-Stored Secret > treg Platform Key 的优先级 ladder<br/>问题： 用户可能自备 key（BYOK），也可能买平台套餐，需要统一计费/路由逻辑<br/>方案： 单一优先级 ladder，分阶段匹配；任意阶段未匹配才走下一档<br/>Trade-off: 引入 3 层状态机，理解成本上升，但换来灵活的计费模型<br/>可迁移性： 高——任何"混合云 + 客户自备资源"系统都可用</li>
+<li><strong>决策</strong>: 测试用 stash 而非重新构造，167 test files 但覆盖率重在 call_surface / catalog / routing / oauth / capacity 五类核心路径<br/>问题： 公开 API 网关的集成测试成本极高（打真实第三方 API）<br/>方案： snapshot 测试 + 真实流量回归，对外部 API 用 staged mocking<br/>Trade-off: 牺牲了"100% 覆盖率"的洁癖，换来 CI 跑得动 + 真实可靠性<br/>可迁移性： 高——做聚合 API 的项目都能学</li>
+<li><strong>决策</strong>: 许可证故意双轨（网站 AGPL / GitHub Apache+附加，禁止托管转售）<br/>问题： 我想开源让社区参与，但不想被 AWS 直接抄走打包卖<br/>方案： Apache 2.0 主体 + 附加条款"禁止托管转售"（类似 Elastic / Confluent 早期策略）<br/>Trade-off: 牺牲了一部分"纯净开源"形象，换来了商业模式不被大厂抄走的护城河<br/>可迁移性： 高——SaaS 创业项目都可参考</li>
+<li><strong>决策</strong>: 多后端 plugin 架构（plugins/treg/ + plugins/minimax/）<br/>问题： 不同推理后端（Anthropic / OpenAI / Minimax）的 plugin 协议不完全兼容<br/>方案： plugin 层抽象，上层 src/treg/ 不知道也不关心底层是哪个 host<br/>Trade-off: 多一层抽象 → 调试复杂度上升；换来 vendor-agnostic 接入<br/>可迁移性： 高——做多云 / 多模型兼容层必备</li>
+</ol>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table><thead><tr><th>维度</th><th>treg</th><th>Composio</th><th>Arcade.dev</th><th>Pipedream Connect</th><th>Nango</th></tr></thead><tbody><tr><td>Stars</td><td>3.3k（2.4 月龄）</td><td>~16k+</td><td>~5k+</td><td>~5k+</td><td>~4k+</td></tr><tr><td>开源 / 商业</td><td>Apache+附加 / AGPL</td><td>闭源 SaaS</td><td>闭源</td><td>被 Workday 收购（闭源）</td><td>开源</td></tr><tr><td>工具数量</td><td>2,600+ endpoints / 97 providers</td><td>250-1,000 apps</td><td>~100 toolkits</td><td>2,800+ apps</td><td>中等</td></tr><tr><td>商业模型</td><td>0% 加价，靠供应商返佣</td><td>SaaS 订阅</td><td>企业版</td><td>已并入 Workday</td><td>自部署 + SaaS</td></tr><tr><td>凭据位置</td><td>服务端注入（永不落客户端）</td><td>服务端</td><td>服务端</td><td>服务端</td><td>服务端</td></tr><tr><td>DX</td><td>CLI + FastAPI</td><td>TS SDK 最好</td><td>TS SDK</td><td>工作流可视化</td><td>RESTful</td></tr><tr><td>已知风险</td><td>单点信任集中；py 包名≠项目名踩坑</td><td>2026-05 沙箱安全事件</td><td>目录较小</td><td>Workday 收购后路线不明</td><td>偏向集成层非路由</td></tr></tbody></table>
+<h3>差异化护城河</h3>
+<ul>
+<li><strong>信任护城河</strong>: "0% 加价 + 全程不接触客户端密钥"，对隐私敏感团队（医疗 / 金融 / 法务）有独立生态位；</li>
+<li><strong>生态护城河</strong>: 在 MCP 协议早期抢到先发位置，被 Claude Code / Codex / OpenClaw 多家 host 内置；</li>
+<li><strong>技术护城河</strong>: Faithful Relay 的"不平移"哲学在大型供应商 schema 频繁变更时（Google / Slack 每季度改 auth flow）有结构性优势。</li>
+</ul>
+<h3>竞争风险</h3>
+<p>最可能替代 treg 的不是 Composio 或 Arcade，而是：</p>
+<ol>
+<li><strong>OpenAI / Anthropic 自家</strong>做工具代理层（一旦 host 方觉得"我做"比"用第三方"更值得，hub 类项目必然边缘化）；</li>
+<li><strong>大模型自带 tool use 框架</strong>（OpenAI Assistants / Anthropic Claude with tools）持续扩 builtin tool，<strong>挤压独立目录的生存空间</strong>；</li>
+<li><strong>Composio 重新开源化</strong>（如果他们修复 2026-05 沙箱事件后选择转 open-core，凭 16k stars 存量可瞬间盖过 treg）。</li>
+</ol>
+<h3>生态定位</h3>
+<p>treg 处于「<strong>LLM ↔ SaaS API</strong>」中间层的最薄一层——上面的 agent framework（LangChain / CrewAI / Claude Code）和下面的具体 API（Gmail / Slack / HubSpot）都不 care 它存在，但两边都用它当工具源。它填补的不是"功能空白"，而是"<strong>协议真空</strong>"——尤其 MCP 还没成为 OAuth 标配、每家 host 都需自实现 OAuth 回调的当下。</p>
+<blockquote><p>大资金玩家（Composio $29M / Arcade $72M）已占住企业 SaaS 方向，但 treg 是当下少数<strong>开源 + self-host + 返佣不抽佣</strong>这一档的独立选项。</p></blockquote>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>: 中文圈对 treg 关注低于英文圈。3.3k stars、97 providers、AGPL 可 self-host——这套组合在"国内合规自部署 + 海外 SaaS 受限"团队里有独立生态位，但目前中文评测文 < 5 篇，是补内容窗口。</li>
+<li><strong>技术借鉴</strong>: Faithful Relay 三步架构、blame-classified failure、three-set whitelist 三招可移植到任何 API gateway 类项目（甚至自己公司的内部 API mock 服务）。</li>
+<li><strong>生态位</strong>: MCP Registry / Claude Code plugin / dsh-plugin 三个分发渠道的"工具源"角色短期内不会重叠。</li>
+<li><strong>趋势判断</strong>: 2.4 月 3.3k stars + 月均近千 commit + 仍在 release 0（无 tag）= 典型"早期 0→1 阶段"，现在介入是"搭便车"还是"接盘"取决于 treg 后续能否跑通供应商返佣 + 是否会被 OpenAI/Anthropic 自家吃掉。</li>
+</ul>
+<h2>风险与不足</h2>
+<ol>
+<li><strong>单点信任集中</strong>：all-in 一个第三方代理你的 97 家供应商密钥，安全模型比"每家独立 OAuth"脆弱得多——一旦 treg 被攻破，攻击者拿到的是跨多个 SaaS 的全集密钥。</li>
+<li><strong>供应商 ToS 风险</strong>：0% 加价模式依赖未来跟供应商谈返佣，<strong>当下</strong>对 Semrush / Moz / Crunchbase 这类禁止转售的 API 服务可能已在踩 ToS 红线（待合规审计）。</li>
+<li><strong>许可证不一致</strong>：网站 AGPL vs GitHub Apache+附加条款，给法务审查带来 friction，企业用户法务会要求解释。</li>
+<li><strong>包名混乱</strong>：PyPI 包是 tools-registry 而项目 README 处处写 treg，2020 年还有一个无关的同名 regex 库——对自动化安装 / pip install treg 的用户极不友好。</li>
+<li><strong>CI 跑不通</strong>（来自 mrkeyoor.com 评测）：pytest 在他们环境没全跑通，说明快速迭代 → 测试缺位的典型 side project 风险。</li>
+<li><strong>dsh 平台安装/分发不完整</strong>（Issue #549 / #353）：想做 hub 但 hub 自己也还没装顺的元层尴尬，反向说明人手有限。</li>
+</ol>
+<h2>行动建议</h2>
+<ul>
+<li><strong>如果你要用它</strong>: 优先用 self-host 或 BYOK 模式，避免被平台返佣 + 供应商 ToS 风险波及；用 FastAPI SDK + 原生 host（Claude Code）接入，避开 dsh-plugin 不稳定的部分。</li>
+<li><strong>如果你要学它</strong>: 重点关注 src/treg/api.py（FastAPI 路由层）+ src/treg/call_surface/（call flow 抽象）+ docs/context/architecture/money.md（计费模块），这三块是它的设计精华；不要复制它的产品定位（赛道已有大资金玩家）。</li>
+<li><strong>如果你要 fork 它</strong>: 可改进方向：（a） 补齐 CLI / PyPI 包名一致性（解决 tools-registry vs treg 混乱）；（b） 补 test 覆盖（167 test 偏少）；（c） 把 money seam 的 affiliate 逻辑拆出成独立 OSS 库，让其他人能在不 fork 整个 treg 的情况下复用 0% 加价返佣模型；（d） 加 Web 管理 UI（已有 dashboard 但社区要求更多）。</li>
+</ul>
+<h3>知识入口</h3>
+<table><thead><tr><th>资源</th><th>链接</th></tr></thead><tbody><tr><td>DeepWiki</td><td><a href="https://deepwiki.com/superdesigndev/treg">deepwiki.com/superdesigndev/treg</a>（已收录，含 Faithful Relay 架构图、5 大子系统、核心模块 Wiki 索引）</td></tr><tr><td>Zread.ai</td><td>未收录</td></tr><tr><td>关联论文</td><td><a href="https://arxiv.org/abs/2507.10593">ToolRegistry: A Protocol-Agnostic Tool Management Library for Function-Calling LLMs (arXiv 2507.10593)</a> — 学术参考实现，与 treg 商业化形成对照；<a href="https://ar5iv.arxiv.org/html/2504.19951">Securing GenAI Multi-Agent Systems Against Tool Squatting (arXiv 2504.19951)</a> — Zero-Trust Registry 思路同源</td></tr><tr><td>在线 Demo</td><td>无官方 playground；可在 Claude Code 内 /plugin marketplace add superdesigndev/treg 实测</td></tr><tr><td>官网</td><td><a href="https://treg.to/">https://treg.to/</a>（CI 环境 WebFetch 403，需直接访问；GitHub Pages 类似限制）</td></tr></tbody></table>
+<hr/>
+<p><strong>外部深度视角参考</strong>：</p>
+<ul>
+<li><a href="https://mrkeyoor.com/repos/treg">Treg review for teams trusting one proxy with keys — mrkeyoor.com</a>：Setup 3/5、Docs 5/5、Community 4/5、Maturity 3/5；指出 pytest 未跑通、加密密钥/数据库/访问策略需 owner 自管、许可证非标准限制托管转售。</li>
+<li><a href="https://heatdrop.ai/editorial/superdesigndev/treg/2026-09-05">Heatdrop Editorial — Treg Wants to Be the OpenRouter of Agent Tools, Not Models</a>：独立观点——「faithful relay」是明智的"不做就少错"选择，但把信任集中到一个第三方是单点失败风险。</li>
+<li><a href="https://www.toutiao.com/article/7688618265555354155/">treg 实测：一个注册中心，让 AI 调通 3600 个 API — 头条</a>：踩坑提示——PyPI 包名是 tools-registry 而非 treg（后者是 2020 年的无关 regex 库），国内建议用邮箱注册而非 GitHub/Google。</li>
+<li><a href="https://bestaitoolfinder.com/treg">Best AI Tool Finder 投资报告</a>：Venture Potential 46/100 "Watch"，指出「0% 加价」商业模型薄、可能与 Semrush/Moz/Crunchbase 转售 ToS 冲突。</li>
+</ul>
+</body>
+</html>

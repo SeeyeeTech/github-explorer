@@ -362,3 +362,4 @@
 {"recorded_at": "2026-09-24T02:25:34.186571+00:00", "slug": "mvt-project_mvt", "title": null, "state": "published", "published_at": "2026-09-24", "reason": "自动生成", "ci_run_id": "35946202479"}
 {"recorded_at": "2026-09-25T00:17:14.874934+00:00", "slug": "fxembed_fxembed", "title": null, "state": "published", "published_at": "2026-09-25", "reason": "自动生成", "ci_run_id": "36076115438"}
 {"recorded_at": "2026-09-25T05:43:06.190819+00:00", "slug": "vectorize-io_hindsight", "title": null, "state": "published", "published_at": "2026-09-25", "reason": "自动生成", "ci_run_id": "36099186865"}
+{"recorded_at": "2026-09-25T11:01:16.104271+00:00", "slug": "dream-num_univer", "title": null, "state": "published", "published_at": "2026-09-25", "reason": "自动生成", "ci_run_id": "36125924539"}

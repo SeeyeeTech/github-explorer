@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+
+<blockquote>
+<p>GitHub: <a href="https://github.com/dream-num/univer">https://github.com/dream-num/univer</a></p>
+</blockquote>
+
+<h2>一句话总结</h2>
+<p>Univer 是 Apache-2.0 商用友好的「同构 Office SDK」——同一份运行时同时驱动浏览器 Canvas 渲染与 Node headless 计算，把 Sheets / Docs / Slides / Bases 四件套统一成可嵌入的产品族，并把 AI Agent 作为一等公民接进来。</p>
+
+<h2>值得关注的理由</h2>
+<ol>
+<li><strong>跨度罕见</strong>：一个 TypeScript monorepo 同时维护 60+ 个子包、150 万行级公式引擎、SpreasheetBench 跑出接近人类水平的 68.86%（Copilot in Excel 仅 57.2%），并且已经接入了 Claude Code / OpenCode / Kimi Work 等 AI Agent 平台。</li>
+<li><strong>架构创新密度高</strong>：自研 DI 容器 <code>@wendellhu/redi</code>、Command/Mutation/Operation 三态分治、Isomorphic 渲染（同一代码 Web + Node 双跑）、RenderUnit 子 injector 隔离、JSONX 自定义 OT subtype——任何一项单拎出来都是一份长文。</li>
+<li><strong>事实标准的潜力</strong>：作为 Luckysheet（16K stars，停滞）的官方继任，已被大量国内 SaaS、低代码、BI 工具嵌入；这是少数把 Office 三件套做成「同源共享渲染层」的开源 SDK，且明确给 AI Agent 留了位。</li>
+</ol>
+
+<h2>项目展示</h2>
+
+<p><img src="https://raw.githubusercontent.com/dream-num/univer/dev/docs/img/banner.png" alt="Univer SDK 官方横幅" /><br />「The next Office experience. Yours to create.」官方 hero 图。</p>
+
+<p><img src="https://raw.githubusercontent.com/dream-num/univer/dev/docs/img/workspace-mini-app.png" alt="Workspace 小应用与电子表格联动" /><br />Workspace 把 metrics / charts / 控件绑定到单元格，展示 Sheets 与小应用的联动。</p>
+
+<p><a href="https://www.youtube.com/watch?v=1p-SMEiK6Kg">▶ Build a collaborative tool with Univer Office SDK（YouTube）</a> — 官方 90 秒演示，展示了多人协作 + AI 工作流。</p>
+
+<blockquote>
+<p>Univer 在 README 中嵌入了 30+ 张演示截图；这里精选三张最直观的一张。完整作品集参见 <a href="https://github.com/dream-num/univer-workspace">univer-workspace 示例仓</a> 与 <a href="https://github.com/dsh-univer-office">dsh-univer-office 内部办公实例</a>。</p>
+</blockquote>
+
+<h2>项目画像</h2>
+
+<table>
+<thead>
+<tr><th>维度</th><th>数据</th></tr>
+</thead>
+<tbody>
+<tr><td>GitHub</td><td><a href="https://github.com/dream-num/univer">https://github.com/dream-num/univer</a></td></tr>
+<tr><td>Star / Fork</td><td>18,093 / 1,548</td></tr>
+<tr><td>代码行数</td><td>1,017,431（TypeScript 87.9% / TSX 9.2% / YAML 1.6% / JSON 1.1%）</td></tr>
+<tr><td>项目年龄</td><td>47.9 个月（首次提交 2022-09-29）</td></tr>
+<tr><td>开发阶段</td><td>密集开发（v1.0.2 / 149 tag / 100 release）</td></tr>
+<tr><td>贡献模式</td><td>公司驱动 + 社区协作（92 贡献者，主作者「白熱」占 21.3%，前 5 名合计过半）</td></tr>
+<tr><td>热度定位</td><td>大众热门（同赛道唯一兼具 Apache-2.0 + Isomorphic + AI 原生的项目）</td></tr>
+<tr><td>质量评级</td><td>代码优秀 / 文档优秀 / 测试充分</td></tr>
+</tbody>
+</table>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+<p>账号是 <strong>DreamNum Inc.</strong>（组织账号，不是个人），主架构师「白熱 / jikkai」是 <code>@wendellhu/redi</code> DI 容器与 OT-JSON 适配层 <code>JSONX</code> 的作者。前身 Luckysheet（16K stars）停止迭代后，团队把全部精力投入 Univer——这是少见的「不被分叉分走」的案例，说明品牌和仓库迁移策略成功。DreamNum 自己在用 Univer 做内部 SaaS（<code>dsh-univer-office</code> 400 ⭐），是真实的 dogfooding。</p>
+
+<h3>问题判断</h3>
+<p>作者识别了三个深层矛盾：</p>
+<ol>
+<li><strong>AI Agent 缺 Office 表面</strong>——LLM 输出公式需要「能运行、能验证、能回滚」的运行时，纯导出 xlsx 不够。</li>
+<li><strong>企业 SaaS 缺开源 Office SDK</strong>——SpreadJS 闭源付费，onlyOffice 是自托管套件，AG Grid 只是数据网格。</li>
+<li><strong>数据模型必须与视图解耦</strong>——Univer 的 <code>IWorkbookData</code> / <code>IDocumentData</code> 既驱动 Canvas 渲染也驱动 Node headless 计算，这是同构架构的物理前提。</li>
+</ol>
+
+<h3>解法哲学</h3>
+<p>明确选择「<strong>不做的事</strong>」与「<strong>做的事</strong>」同样重要：</p>
+<ul>
+<li>不做：完整 Excel 兼容（接受部分函数子集）、客户端独立编译（强制 plugin 模式）、GraphQL/REST 风格 API（只给 Facade）。</li>
+<li>做：插件分层（logic / ui 强制拆分包）、Command/Mutation/Operation 三态分治、Isomorphic（同一运行时双端）、Canvas 自研渲染。</li>
+</ul>
+
+<h3>战略意图</h3>
+<ul>
+<li><strong>核心产品</strong>：Apache-2.0 OSS 抢占「嵌入式办公 SDK」赛道。</li>
+<li><strong>商业化路径</strong>：「open-core」清晰——OSS 提供 Sheets/Docs/Slides 数据模型 + UI；Pro 闭源售卖实时协作服务端、文件交换、打印、透视表等。</li>
+<li><strong>AI 卡位</strong>：<code>univer-mcp</code> / <code>univer-sdk-skills</code> / 已接入 Claude Code / OpenCode / OpenClaw / Hermes / Codex / WorkBuddy / Kimi Work——这是把 Office 表面变成「AI 的脚手架」。</li>
+</ul>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处（按新颖度 × 实用性排序）</h3>
+
+<ol>
+<li>
+<p><strong>Command / Mutation / Operation 三态分治 + IExecutionOptions 多语义标记</strong></p>
+<ul>
+<li><code>CommandType</code> 把「用户动作 / UI 变更 / 持久化变更」显式分类；叠加 <code>onlyLocal</code> / <code>fromCollab</code> / <code>syncOnly</code> / <code>fromChangeset</code> 四个 execution 标记。</li>
+<li>避免了「redo 时又把 undo 同步给对端」一类死循环问题，也根治了 <code>#3483</code> 这种 OT 回滚路径 bug。</li>
+</ul>
+</li>
+<li>
+<p><strong>Isomorphic via IMessageProtocol + 两种 transport</strong></p>
+<ul>
+<li><code>IMessageProtocol</code> 接口（<code>send</code> + <code>onMessage$</code>）抽象 Web Worker 与 <code>child_process.fork</code>；上层 Channel 完全 transport-agnostic。</li>
+<li>同一份 <code>UniverSheetsPlugin</code> + <code>UniverFormulaEnginePlugin</code> 既能在浏览器跑，也能在 Node fork 的子进程跑——是「一百万公式秒级」的物理基础。</li>
+</ul>
+</li>
+<li>
+<p><strong>JSONX = ot-json1 + 自定义 Subtype</strong></p>
+<ul>
+<li><code>packages/core/src/docs/data-model/json-x/json-x.ts</code> 注册自定义 subtype <code>TextX</code>（620 行），把富文本 retain/insert/delete 映射为标准 JSON0 Op。</li>
+<li>没引 Yjs / ShareDB，避免「为 OT 重写文档 schema」的陷阱——值得任何自定义富文本编辑器借鉴。</li>
+</ul>
+</li>
+<li>
+<p><strong>RenderUnit 子 injector + activate/deactivate 隔离</strong></p>
+<ul>
+<li>每个 unit = 一个 Engine + Scene + 子 injector；<code>_activated$ = BehaviorSubject&lt;boolean&gt;</code> 控制 unit 是否参与渲染。</li>
+<li>解决「多 widget 同屏 + 单 widget 隐藏时不能丢状态」矛盾——Figma 同源场景的解法。</li>
+</ul>
+</li>
+<li>
+<p><strong>公式引擎 AST + ValueObject + Dependency Tree 三层抽象</strong></p>
+<ul>
+<li><code>engine-formula/src/engine/</code> 分 <code>ast-node/</code> / <code>value-object/</code> / <code>dependency/</code>；<code>ArrayValueObject</code> 支持隐式数组，<code>dependency-tree.ts</code> 标记 <code>FDtreeStateType</code> 实现增量重算。</li>
+<li>是少数能在 web 端实现完整 Excel 公式语义（含隐式交集）的引擎。</li>
+</ul>
+</li>
+</ol>
+
+<h3>可复用的模式与技巧</h3>
+
+<ol>
+<li><strong><code>composeInterceptors&lt;M, C&gt;</code> + priority 排序</strong>：洋葱圈式中间件，core/src/common/interceptor.ts 实现；任何需要「按优先级链式改写单元格值 / 样式」的场景都该用——尤其 AOP 风格的「权限校验 → 数据脱敏 → 公式替换」管道。</li>
+<li><strong>Plugin Lifecycle Stage（Starting / Ready / Rendered / Steady）</strong>：类似 VS Code Extension <code>activationEvents</code> 但更轻，任何 monorepo SDK + 多插件 + 异步初始化都该借鉴。</li>
+<li><strong><code>@DependentOn</code> 装饰器 + DFS 拓扑排序 + 自动注册默认依赖</strong>：开发者写 <code>@DependentOn(EnginePlugin, UIPlugin)</code> 即可，框架在缺失依赖时自动用默认配置注册。</li>
+<li><strong>Locale Namespace 严格归属包</strong>（<code>docs/NAMING_CONVENTION.md</code> 强制）：每个包只能引用自己 namespace 下的 i18n key，避免「common button.cancel」式共享桶。</li>
+<li><strong><code>FUniver.extend()</code> + TS Module Augmentation</strong>：纯手写、无 reflect-metadata 的 facade 扩展机制；任何「基础类 + 多源扩展 + 类型合并」需求都该用。</li>
+</ol>
+
+<h3>关键设计决策</h3>
+
+<table>
+<thead>
+<tr><th>决策</th><th>问题</th><th>方案</th><th>Trade-off</th><th>可迁移性</th></tr>
+</thead>
+<tbody>
+<tr><td>插件分层 + 严格依赖方向</td><td>60+ 包共存避免循环依赖</td><td>每个包按 <code>&lt;business&gt;-&lt;feature&gt;</code> 命名，logic/ui 物理拆分</td><td>包数量爆炸（74 个 npm package）</td><td>极高</td></tr>
+<tr><td>Command/Mutation/Operation 三态</td><td>Undo/Redo、协作、UI 记录同时支持</td><td>三态枚举 + <code>IExecutionOptions</code> 多语义标记</td><td>心智成本更高</td><td>高</td></tr>
+<tr><td>DI 容器 <code>@wendellhu/redi</code> 自研</td><td>跨端零反射 + 多端可用</td><td><code>createIdentifier&lt;T&gt;()</code> + <code>@Inject</code> 装饰器，无 reflect-metadata</td><td>必须写显式 constructor</td><td>中</td></tr>
+<tr><td>Isomorphic = 同一运行时 + 两种 transport</td><td>前后端共用业务逻辑</td><td><code>IMessageProtocol</code> 抽象 + Web Worker / child_process 双实现</td><td>必须 fork 子进程</td><td>高</td></tr>
+<tr><td>RenderUnit 子 injector</td><td>多 widget 隔离</td><td>每个 unit 创建 child injector + activate/deactivate</td><td>必须严格 Dispose</td><td>高</td></tr>
+<tr><td>Canvas-Based Rendering 跨产品共享</td><td>Sheet/Doc/Slide 共享渲染</td><td>共享 <code>Scene</code> + <code>RenderComponent&lt;T,U,V&gt;</code> 基类 + Extension 注册机制</td><td>Scene 必须做得足够通用</td><td>中</td></tr>
+<tr><td>Facade API + Module Augmentation</td><td>60+ 包扩展一个 FUniver 根类</td><td><code>FUniver.extend()</code> 静态方法 + TS declaration merging</td><td>比 HOC 啰嗦但完全可类型化</td><td>高</td></tr>
+<tr><td>单元类型隔离 + 拓扑排序</td><td>Sheets/Docs/Slides 同页隔离</td><td><code>UniverInstanceType</code> 分桶 + DFS + <code>@DependentOn</code></td><td>必须为每个插件标注 <code>type</code></td><td>中</td></tr>
+</tbody>
+</table>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+
+<table>
+<thead>
+<tr><th>维度</th><th>Univer</th><th>SpreadJS（商业）</th><th>Luckysheet（前作）</th><th>Handsontable</th></tr>
+</thead>
+<tbody>
+<tr><td>Stars</td><td>18K</td><td>闭源付费</td><td>16K（停滞）</td><td>21K</td></tr>
+<tr><td>License</td><td>Apache-2.0</td><td>商业付费</td><td>MIT</td><td>商业（社区版）</td></tr>
+<tr><td>单元类型</td><td>Sheets/Docs/Slides/Bases/PDF</td><td>Sheets 为主</td><td>Sheets</td><td>Sheets</td></tr>
+<tr><td>Isomorphic</td><td>Web + Node 同一运行时</td><td>仅浏览器</td><td>仅浏览器</td><td>仅浏览器</td></tr>
+<tr><td>AI 原生</td><td>MCP / SDK skills</td><td>无</td><td>无</td><td>无</td></tr>
+<tr><td>公式引擎</td><td>自研 AST + 隐式数组</td><td>闭源 Excel 内核</td><td>简版</td><td>简版</td></tr>
+<tr><td>渲染</td><td>Canvas（多 unit 共享 Scene）</td><td>Canvas</td><td>DOM</td><td>DOM</td></tr>
+<tr><td>协作</td><td>OSS 无，Pro 闭源</td><td>商业版自带</td><td>无</td><td>商业版</td></tr>
+</tbody>
+</table>
+
+<h3>差异化护城河</h3>
+<ul>
+<li><strong>技术护城河</strong>：Isomorphic 架构 + 自研 DI + JSONX 自定义 OT subtype + 公式引擎隐式数组——这套组合在 OSS 领域没有等价物。</li>
+<li><strong>生态护城河</strong>：60+ npm package 的模块化生态、企业级集成案例（dsh-univer-office 等）、AI Agent 多平台接入。</li>
+<li><strong>信任护城河</strong>：Apache-2.0 + 47 个月稳定迭代 + 团队从 Luckysheet 平滑迁移过来的连续性。</li>
+</ul>
+
+<h3>竞争风险</h3>
+<ul>
+<li><strong>SpreadJS V19+ 的反击</strong>：Excel 兼容性仍是 SpreadJS 领先（约 90%+ 测试用例通过），且闭源商业可以快速集成 AI 能力。</li>
+<li><strong>Microsoft Loop / Notion 路线</strong>：如果用户只是想「云端协作 + AI」，Notion / 飞书文档可能比 Univer 套壳更顺手——但这是「文档优先」而非「数据模型优先」路线。</li>
+<li><strong>onlyOffice 桌面化扩张</strong>：如果 onlyOffice 把 SDK 拆出来商用，会正面碰撞 Univer 的「嵌入式」卖点。</li>
+</ul>
+
+<h3>生态定位</h3>
+<p>在「办公生产力生态」中扮演<strong>「Office 三件套的可编程运行时底座」</strong>角色——既不是 SaaS（不像 Notion / Loop），也不是纯组件库（不像 Handsontable / AG Grid），而是把二者优点整合的「AI Agent 时代的 Office Harness」。填补了「开源 + 可嵌入 + 同构 + AI 原生」四象限的空白。</p>
+
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：Univer 在中文圈已是大热门（30K+ 合并 stars），但在英文开发者圈仍被低估。SpreadsheetBench 上 Univer 跑赢 Copilot in Excel 的事实，国际开发者社区尚未充分传播。</li>
+<li><strong>技术借鉴</strong>：JSONX（OT subtype）+ Isomorphic transport + RenderUnit 三件套，几乎可以原样搬到任何「多端协同 + 自定义数据模型」项目——比如在线 IDE、白板工具、3D 编辑器。</li>
+<li><strong>生态位</strong>：填补了「开源 + 可嵌入 + 同构 + AI 原生」四象限的空白——这是事实上的新生态位，竞争者寥寥。</li>
+<li><strong>趋势判断</strong>：v1.0 之后 2026-07/08 双月提交数创历史新高（185/188），说明商业化需求牵引持续强；AI Agent 平台的快速接入是顺势而为——趋势在 Univer 这一侧。</li>
+</ul>
+
+<h2>风险与不足</h2>
+<ul>
+<li><strong>学习曲线陡</strong>：plugin 模式 50+ 行 import 起；Facade + Command + DI 体系需要时间消化。</li>
+<li><strong>生态以中英为主</strong>：其他语言依赖社区，质量参差。</li>
+<li><strong>关键能力 Pro 闭源</strong>：实时协作服务端、文件交换、打印、透视表、迷你图、增强公式、编辑历史——B 端要这些得买授权。</li>
+<li><strong>历史包袱</strong>：从 Luckysheet → Univer 是重大重写，老 API 无法平滑迁移。</li>
+<li><strong>Benchmark 公开缺位</strong>：README 宣称「1000 万单元格 / 一百万公式秒级 / 200 人协同」，但仓库内未找到对应 benchmark 代码——第三方复现可信度待验证。</li>
+<li><strong>打磨期 bug 密度</strong>：fix:feature 比例 66% : 14.5%，打磨期健康但仍意味着生产环境需谨慎做版本锁定。</li>
+</ul>
+
+<h2>行动建议</h2>
+<ul>
+<li><strong>如果你要用它</strong>：
+<ul>
+<li>选 Preset 模式快速验证（30 分钟跑通 Sheet Demo）；</li>
+<li>走 Facade API 而非直接 DI（避免后期重构成本）；</li>
+<li>锁定版本号 + 关注 <code>BREAKING CHANGE:</code> 标记；</li>
+<li>关键场景（实时协作 / 大数据 / PPT 美工）评估 Pro 付费意愿。</li>
+</ul>
+</li>
+<li><strong>如果你要学它</strong>：
+<ul>
+<li>重点看 <code>packages/core/src/univer.ts</code> + <code>command.service.ts</code> + <code>plugin.service.ts</code>；</li>
+<li>读 <code>docs/ISOMORPHIC.md</code> + <code>NAMING_CONVENTION.md</code> + <code>FIX_MEMORY_LEAK.md</code> 三份纪律文档；</li>
+<li>跟 <code>engine-formula/src/engine/dependency/dependency-tree.ts</code> 学公式增量重算；</li>
+<li>跟 <code>engine-render/src/render-manager/render-unit.ts</code> 学多 unit 隔离。</li>
+</ul>
+</li>
+<li><strong>如果你要 fork 它</strong>：
+<ul>
+<li>不要试图「再做一遍 Office 三件套」——护城河在公式引擎 + 渲染层 + 协作层；</li>
+<li>可以做的是「垂直场景 SDK」——比如教育行业的批改 SDK、医疗行业的病历 SDK、AI 行业的报表生成 SDK；</li>
+<li>改造 <code>IMessageProtocol</code> 接入自己的 AI Agent 平台。</li>
+</ul>
+</li>
+</ul>
+
+<h3>知识入口</h3>
+
+<table>
+<thead>
+<tr><th>资源</th><th>链接</th></tr>
+</thead>
+<tbody>
+<tr><td>DeepWiki</td><td><a href="https://deepwiki.com/dream-num/univer">https://deepwiki.com/dream-num/univer</a></td></tr>
+<tr><td>Zread.ai</td><td><a href="https://zread.ai/dream-num/univer">https://zread.ai/dream-num/univer</a></td></tr>
+<tr><td>官方文档</td><td><a href="https://docs.univer.ai">https://docs.univer.ai</a></td></tr>
+<tr><td>官方博客</td><td><a href="https://univer.ai/blog">https://univer.ai/blog</a></td></tr>
+<tr><td>架构对比（vs SpreadJS）</td><td><a href="https://blog.univer.ai/posts/univer-vs-spreadjs-comprehensive-analysis-of-the-next-generation-open-source-collaborative-engine-and-traditional-commercial-spreadsheet-controls">https://blog.univer.ai/posts/univer-vs-spreadjs-comprehensive-analysis-of-the-next-generation-open-source-collaborative-engine-and-traditional-commercial-spreadsheet-controls</a></td></tr>
+<tr><td>在线 Demo</td><td><a href="https://univer.ai">https://univer.ai</a>（官网内嵌 Playground）</td></tr>
+<tr><td>关联论文</td><td>无（OT/CRDT 学术文献丰富，但 Univer 本身的论文尚未发表）</td></tr>
+</tbody>
+</table>
+
+</body>
+</html>

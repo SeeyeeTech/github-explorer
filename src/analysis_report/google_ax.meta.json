@@ -1,0 +1,6 @@
+{
+  "title": "Google 把 agent 当 K8s workload 跑：开源 6 个月破万星的 ax 怎么做到亚秒级挂起恢复",
+  "digest": "Google 开源 ax：把 AI agent 当 K8s workload 跑，Apache 2.0 半年破万星，亚秒级 suspend/resume，声明式 API + Substrate gVisor。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

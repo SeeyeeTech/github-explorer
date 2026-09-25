@@ -761,6 +761,9 @@ entries:
   drawdb-io_drawdb:
   - database
   - security
+  dream-num_univer:
+  - ai-agent
+  - ai-coding
   drewthomasson_ebook2audiobook:
   - education
   - iot-hardware
@@ -928,6 +931,11 @@ entries:
   - workflow-automation
   - video-audio
   - media-generation
+  fxembed_fxembed:
+  - ai-agent
+  - ai-coding
+  - video-audio
+  - protocol-spec
   gar-b-age_cooklikehoc:
   - rag-search
   garrytan_gstack:
@@ -1018,6 +1026,8 @@ entries:
   google_adk-go:
   - ai-agent
   - protocol-spec
+  google_ax:
+  - ai-agent
   google_googletest:
   - uncategorized
   google_guava:
@@ -2348,6 +2358,10 @@ entries:
   - llm-framework
   - rag-search
   - database
+  superdesigndev_treg:
+  - ai-agent
+  - ai-coding
+  - protocol-spec
   supermemoryai_supermemory:
   - ai-agent
   - ai-coding
@@ -2568,6 +2582,12 @@ entries:
   - database
   - trading-finance
   - protocol-spec
+  vectorize-io_hindsight:
+  - ai-agent
+  - ai-coding
+  - llm-framework
+  - model-foundation
+  - rag-search
   vendure-ecommerce_vendure:
   - rag-search
   - protocol-spec

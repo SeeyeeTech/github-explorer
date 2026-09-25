@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+
+<blockquote>
+<p>GitHub: <a href="https://github.com/vectorize-io/hindsight">https://github.com/vectorize-io/hindsight</a></p>
+</blockquote>
+
+<h2>一句话总结</h2>
+
+<p>Hindsight 是 Vectorize 开源的「会学习的」Agent 记忆系统——用仿生的世界/经验/观察/心智模型四类记忆，配合语义/BM25/图/时序四臂并行检索，在 LongMemEval 上稳居第一，把 Agent Memory 从「向量 RAG + 知识图谱」二元对立推进到「四类型记忆 + 多通路融合」的新范式。</p>
+
+<h2>值得关注的理由</h2>
+
+<ul>
+<li><strong>赛道卡位</strong>：直接对位 mem0 / Zep / Letta / Cognee，主打「biomimetic 四网络记忆」+「TEMPR 四臂并行检索」，差异化护城河清晰。</li>
+<li><strong>产品形态</strong>：MIT 开源 + 25+ LLM provider + 60+ 集成（Claude Code、Cursor、Codex、LangGraph、LlamaIndex 等）+ 闭源 Hindsight Cloud 托管，构成「开源引擎 → 企业 SaaS」完整闭环。</li>
+<li><strong>工程背书</strong>：11 个月 70 个 release、268 tag、3,179 commits、260 位贡献者；arXiv 2512.12818 论文 + Virginia Tech / Washington Post 独立复现，是少有的「学术背书 + 生产部署」双轨项目。</li>
+<li><strong>采用信号</strong>：自报 Fortune 500 多家进入生产；live benchmark 页 <a href="https://benchmarks.hindsight.vectorize.io/">https://benchmarks.hindsight.vectorize.io/</a> 持续公开 LongMemEval 成绩，透明度高于多数竞品。</li>
+<li><strong>市场窗口</strong>：AI Agent 记忆层赛道是 2026 年最拥挤的新领域之一，star-history 周榜 +2,992（#18）说明增长动能仍在加速。</li>
+</ul>
+
+<h2>项目展示</h2>
+
+<p><img src="https://raw.githubusercontent.com/vectorize-io/hindsight/main/hindsight-docs/static/img/hindsight-github-banner.png" alt="Hindsight Banner" /><br />官方项目横幅 hero 图</p>
+
+<p><img src="https://raw.githubusercontent.com/vectorize-io/hindsight/main/hindsight-docs/static/img/hindsight-benchmarks.png" alt="LongMemEval benchmark comparison" /><br />LongMemEval 等 benchmark 对比截图，Hindsight 居首</p>
+
+<p><img src="https://raw.githubusercontent.com/vectorize-io/hindsight/main/hindsight-docs/static/img/hindsight-overview.webp" alt="Architecture overview" /><br />Hindsight 架构/记忆类型总览示意图</p>
+
+<p><img src="https://raw.githubusercontent.com/vectorize-io/hindsight/main/hindsight-docs/static/img/per-user-memory-howto.png" alt="Per-user memories howto" /><br />Per-user memories 在 Hindsight 中的实现流程</p>
+
+<blockquote>
+<p>README 还附带 4 个 github user-attachments 演示视频，公众号发布时可挑一段作为 demo 链接。</p>
+</blockquote>
+
+<h2>项目画像</h2>
+
+<ul>
+<li>GitHub：<a href="https://github.com/vectorize-io/hindsight">https://github.com/vectorize-io/hindsight</a></li>
+<li>Star / Fork：28,119 / 2,754</li>
+<li>项目年龄：11 个月（首 commit 2025-10-30，最近 2026-09-24）</li>
+<li>代码规模：816,996 LOC，但分布在 7+ 个独立子项目；最大 `hindsight-api-slim` 287K（Python）</li>
+<li>子项目分布：Python 主（核心引擎 + 集成），Go（130K 生成 SDK），TS（控制台 + 文档 100K+），Rust（CLI 14K），MDX（文档 39K）</li>
+<li>文件总数：4,193</li>
+<li>测试 LOC：258K（约 1:3.2 测试-代码比）</li>
+<li>Release / Tag：70 / 268，semver 节奏 v0.5.5 → v0.10.1</li>
+<li>贡献者：260 位，外部贡献占比可观</li>
+<li>Bus Factor：1（Nicolò Boschi 占 61%；前 3 名合计 75%）</li>
+<li>开发阶段：密集开发（最近 30 天 520 commits；最近 90 天 1,238 commits）</li>
+<li>热度定位：大众热门</li>
+<li>质量评级：代码 exceptional / 文档 exceptional / 测试 high</li>
+</ul>
+
+<h2>作者视角：为什么存在这个项目</h2>
+
+<h3>创始人/作者背景</h3>
+
+<p>vectorize-io 是位于美国 Boulder/Dover 的 AI 初创公司，2024 年 1 月成立，2024 年 10 月完成 True Ventures 领投的 3.6M 美元种子轮。两位联合创始人 Chris Latimer（CEO）与 Chris Bartholomew（CTO）此前都在企业数据基础设施领域深耕：Latimer 曾在 DataStax 负责云与向量数据库业务，更早任 Google API Gateway 产品经理；Bartholomew 长期主导大规模数据平台架构。两人都从企业做向量索引的痛点中看到了机会，先做了闭源「Vectorize RAG」再于 2025 年底开源 Hindsight 切入 Agent 内存赛道。</p>
+
+<p>这种「闭源平台 → 开源基础模型」的演化路径与 LangChain（LangSmith 商业化）、LlamaIndex（企业版）一致，体现一类典型的「从基础设施 SaaS 后向开源做生态」打法——先做付费的客户，再开放同源代码吸引长尾。</p>
+
+<h3>问题判断</h3>
+
+<p>两位 Chris 看到的企业痛点是：传统 RAG 仅用「向量相似度 + 上下文拼接」无法处理 Agent 场景的复杂记忆需求。Agent 需要的不是「文档检索」，而是一套分层记忆：</p>
+
+<ul>
+<li><strong>世界知识</strong>（不会变的背景事实）</li>
+<li><strong>亲身经验</strong>（用户偏好、过往对话）</li>
+<li><strong>观察归纳</strong>（自动从经验中提炼的可信结论）</li>
+<li><strong>心智模型</strong>（对人对事的总结性认知，类似「Alice 是个挑剔的架构师」）</li>
+</ul>
+
+<p>更进一步，时间维度的检索（「Alice 上个季度说了什么」）是多数纯向量方案的弱项，知识图谱（如 Zep、Cognee）能解决但成本高且难以维护。这正是 Hindsight 四网络记忆 + TEMPR 四臂检索要同时解决的命题。</p>
+
+<h3>解法哲学</h3>
+
+<p>作者的取舍明显：</p>
+
+<ul>
+<li><strong>显式建模而非向量相似度</strong>——把记忆类型编码到数据模型（`fact_type` 枚举）而不是依靠 embedding 隐式表达。代价：schema 复杂；收益：可追溯、可解释、可干预（删除/置顶心智模型）。</li>
+<li><strong>借仿生学而非认知科学符号体系</strong>——与 Cognee（认知图谱）形成对比——保持工程化、可落地。</li>
+<li><strong>多通路融合而非单一检索器</strong>——TEMPR 把「语义 + BM25 + 图 + 时序」视为同等重要的检索臂，而非让一种方法兜底。</li>
+<li><strong>生成式反思带文档强制引用</strong>——reflect 不是简单 prompt 调用，而是 agent loop + 引用校验。</li>
+<li><strong>省略手写 SDK、采用 OpenAPI 自动生成</strong>——避免 4 语言 4 维护团队的开销（已有 130K Go + 多语言 SDK）。</li>
+</ul>
+
+<p>明确不做：</p>
+
+<ul>
+<li>不内置 KG 构建器（Cognee ECL 派）</li>
+<li>不做完整的 agent orchestration（LangChain / LlamaIndex 派）</li>
+<li>不锁定 PostgreSQL——同时支持 Oracle 23ai（面向企业客户）。</li>
+<li>不锁单一 embedding 模型：5 种 BM25 后端 + 25+ LLM provider 可插拔。</li>
+</ul>
+
+<h3>战略意图</h3>
+
+<p>Hindsight 是 Vectorize「开源引擎 + 托管 SaaS」双轨商业化战略的核心：开源核心卖给开发者打造生态，Hindsight Cloud 卖给需要 SLA 的企业。hindsight-control-plane（Next.js 后台）就是为 SaaS 形态设计的，README 自述已有 Fortune 500 与多家 AI 创业公司进入生产。</p>
+
+<h2>核心价值提炼</h2>
+
+<h3>创新之处</h3>
+
+<p>按新颖度 × 实用性排序：</p>
+
+<ol>
+<li><strong>TEMPR 四臂并行检索</strong>（novelty 中 / practicality 高）</li>
+</ol>
+
+<p>在 `hindsight-api-slim/hindsight_api/engine/search/fusion.py:29` 实现——RRF 融合前每个臂先按 cap 截断，避免一个稠密方法淹没其他；时序被当作「一等公民臂」而非后置过滤。</p>
+
+<ol start="2">
+<li><strong>证据化的 Observation 合并</strong>（novelty 中 / practicality 高）</li>
+</ol>
+
+<p>自动化 LLM 合并 = dedup + `proof_count` + `source_memory_ids` + `history` JSONB 累加，而不是覆盖。新观察可标记为 stale 让 reflect 自动校验。</p>
+
+<ol start="3">
+<li><strong>Disposition + Directives + Mission 的银行人格</strong>（novelty 中 / practicality 高）</li>
+</ol>
+
+<p>每银行 5 项性格向量 + 自由 mission + 标签域硬规则；<strong>只影响 reflect 不污染 recall</strong>——既保证回复一致性，又保留检索保真度用于 eval（可观察性）。</p>
+
+<ol start="4">
+<li><strong>心智模型知识页面（mountable FS）</strong>（novelty 高 / practicality 中）</li>
+</ol>
+
+<p>LLM 合成出来的「对某人某事的总结」可以挂载为只读文件系统（`hindsight fs mount`）供 IDE/离线工具读取——把 memory-of-memory 重塑为文件。</p>
+
+<ol start="5">
+<li><strong>跨方言的 Alembic 迁移派发器</strong>（novelty 中 / practicality 高）</li>
+</ol>
+
+<p>通过 `_dialect.run_for_dialect` + `tests/test_migration_shape.py` lint 保证 Postgres 和 Oracle 23ai 同步演进。</p>
+
+<ol start="6">
+<li><strong>Token 预算驱动 recall 而非 top-k</strong>（novelty 低 / practicality 高）</li>
+</ol>
+
+<p>默认 4096 tokens 就停，匹配 Agent 上下文窗口；`include_chunks` 是独立的源文本预算。</p>
+
+<h3>可复用的模式与技巧</h3>
+
+<ul>
+<li><strong>contextvars 传递租户身份</strong>（`memory_engine.py:92`）：多租户异步服务中免除 prop-drilling</li>
+<li><strong>Alembic run_for_dialect 派发器</strong>：需要跨 Postgres + 非 PG RDBMS 同步演进的项目</li>
+<li><strong>RRF + per-arm cap</strong>（`engine/search/fusion.py:29`）：任何混合搜索存在「某臂过于热情」时的兜底</li>
+<li><strong>env-var 点路径扩展加载</strong>（`extensions/loader.py`）：想让用户提供纵切特性（认证/审计）而不编译期耦合时</li>
+<li><strong>OpenAPI → 多语言 SDK 自动生成</strong>：任何 ≥3 个第一方 SDK 的服务都该采用</li>
+<li><strong>单表多类型 + history JSONB</strong>（`memory_engine.py:3826`）：需要审计线索的「信念存储」系统</li>
+</ul>
+
+<h3>关键设计决策</h3>
+
+<ul>
+<li>单表存 4 种 `fact_type` 而非拆表：简单跨类型 join；代价：所有 query 都要带 `fact_type` 过滤</li>
+<li>四臂而非单向量检索：召回完整度大幅提升；代价：跨臂调度的复杂度</li>
+<li>性格仅作用于 reflect：检索保真度优先于个性化；副作用：性格化场景必须走 reflect（更慢）</li>
+<li>闭源 SaaS + 开源基础模型：阿里/TiDB 式「先商业后开源」打法；对维护承诺有反向激励</li>
+<li>异步合并 worker 而非 retain 内联：retain 延迟稳定；副作用：freshness window（issue #1842 已暴露）</li>
+<li>Memory Defense 拦截 retain 而非 recall：合规要在存储前完成；副作用：被拦截后重试成本不为零</li>
+</ul>
+
+<h2>竞品格局与定位</h2>
+
+<h3>竞品对比矩阵</h3>
+
+<ul>
+<li><strong>记忆模型</strong>：Hindsight 四类型（world/experience/observation/mental_model）｜mem0 通用 LLM 长期记忆层｜Zep GraphRAG + 时序｜Letta (MemGPT) sleep-time consolidation + memory blocks｜Cognee 知识图谱 + ECL 流水线</li>
+<li><strong>检索臂</strong>：Hindsight 语义 + BM25 + 图 + 时序（4）｜mem0 单一向量｜Zep 图 + 时序｜Letta 向量 + 摘要｜Cognee 知识图谱</li>
+<li><strong>后端存储</strong>：Hindsight PG / Oracle 23ai + pgvector｜mem0 多后端（自有托管）｜Zep 文档 DB + 图｜Letta 自带｜Cognee 多后端</li>
+<li><strong>LLM provider</strong>：Hindsight 25+｜mem0 主流｜Zep 主流｜Letta 主流｜Cognee 主流</li>
+<li><strong>集成数量</strong>：Hindsight 60+｜mem0 数十种｜Zep 较少｜Letta 较少｜Cognee 较少</li>
+<li><strong>学术/独立复现</strong>：Hindsight arXiv 2512.12818 + 2 独立复现｜mem0 自报告｜Zep 较成熟生产案例｜Letta MemGPT 论文｜Cognee 部分</li>
+<li><strong>Bus factor 风险</strong>：Hindsight 高（61% 单人）｜mem0 较低｜Zep 较低｜Letta 中｜Cognee 中</li>
+<li><strong>开源协议</strong>：Hindsight MIT｜mem0 Apache 2.0｜Zep Apache 2.0｜Letta Apache 2.0｜Cognee Apache 2.0</li>
+<li><strong>多模态</strong>：Hindsight 路线图上（issue #1801）｜mem0 实验性｜Zep 不｜Letta 不｜Cognee 不</li>
+</ul>
+
+<h3>差异化护城河</h3>
+
+<ol>
+<li><strong>TEMPR 把时序当一等臂</strong>：其他家多把时间作为后置过滤，Hindsight 把 T 放在 E (embedding)/M (BM25)/P (graph)/R (relational) 同等位置，专门解决「时间窗口偏置」（检索/资源/合成页 #96）。</li>
+<li><strong>四类型记忆 + 单表 schema</strong>：比 Zep（graph + temporal 双表）/Letta（memory blocks 抽象）有更清晰的存储一致性，比 Cognee ECL 更少 schema-fluidity 风险。</li>
+<li><strong>证据化的 Observation</strong>：proof_count + source_memory_ids + history JSONB 是 Hindsight 原创设计，让「Agent 何时改变结论」可追溯。</li>
+<li><strong>学术 + 独立复现双背书</strong>：arXiv 论文 + Virginia Tech + Washington Post，相对 mem0/Letta 主打自评，这是更可信的外部信号。</li>
+<li><strong>心智模型可挂载 FS</strong>：差异化产品形态，让 IDE/离线工具能直接读取。</li>
+</ol>
+
+<h3>竞争风险</h3>
+
+<ul>
+<li><strong>被 Zep 替代的场景</strong>：已经在用 GraphRAG 的企业客户，迁移成本相对更低。</li>
+<li><strong>被 mem0 替代的场景</strong>：希望 API 简单的中小团队，mem0 LLM-call-only 抽象学习成本更低。</li>
+<li><strong>被 Letta 替代的场景</strong>：对 sleep-time consolidation 心智模型偏好者（MemGPT 学术派）。</li>
+<li><strong>被 Cognee 替代的场景</strong>：希望自定义图 schema 的研究性项目。</li>
+<li><strong>最大风险来自 OpenAI / Anthropic 自研内嵌记忆层</strong>：当记忆作为 OS-level 能力嵌入模型 API 时，第三方记忆层会被边缘化。</li>
+</ul>
+
+<h3>生态定位</h3>
+
+<p>Hindsight 在 AI Agent 技术栈中扮演「AI 应用 ↔ 长期记忆 ↔ 多源检索」的中介层，下接模型与数据库，上承 LangGraph / LlamaIndex / Claude Code 等 agent 框架。它的存在说明：2025–2026 年业界共识到「Agent 不能没有记忆，但向量检索不够」这一点。Hindsight 是较早把「证据化的多类型记忆」工程化落地的项目，比多数竞品更靠近 production-ready。</p>
+
+<h2>套利机会分析</h2>
+
+<ul>
+<li><strong>信息差</strong>：Hindsight 在 28K stars 阶段仍是「中型热门」，相对 MemGPT、Zep 的成熟度有更好的增长曲线，长尾采用尚未饱和；同时学术复现 + live benchmark 让其说服力高于多数自评项目。</li>
+<li><strong>技术借鉴</strong>：可借鉴「RRF + per-arm cap 融合」直接用到任何混合搜索系统；「Alembic 跨方言派发器」对要支持多 RDBMS 的项目（向量 + 关系 + 图）是开箱即用模式；「单表多 fact_type + history JSONB」可重用到任何需要审计线索的「信念存储」场景。</li>
+<li><strong>生态位</strong>：AI Agent 基础设施工具链的重要一环，特别适合「想给 Coding Agent 加记忆」但不想自研 consolidation 的团队。</li>
+<li><strong>趋势判断</strong>：Agent Memory 赛道是 2026 最拥挤方向，Hindsight 整体趋势向上（11 月从 6 commits 到 9 月 436 commits，每季度抬升）；后发优势：在「证据化的多类型记忆」上抢跑学术 + 开源双背书。</li>
+</ul>
+
+<h2>风险与不足</h2>
+
+<ul>
+<li><strong>Bus factor 1（最高优先级）</strong>：Nicolò Boschi 占 61% commits，前 3 名合计 75%——如果离职或精力转移，项目可能进入维护态。</li>
+<li><strong>Mental model refresh OOM（issue #3355）</strong>：40K 节点 / 815K 链接场景下，refresh 单次 17.7GB RSS——架构级瓶颈未解。</li>
+<li><strong>Token 成本失控（issue #1573）</strong>：单用户场景 30 分钟 3M tokens 消耗——reflect agent loop 在某些配置下无界。</li>
+<li><strong>Consolidation backpressure（issue #1842）</strong>：大批量未及时 drain；worker 并发槽衰减到 1——异步编排器的可靠性边界。</li>
+<li><strong>多模态缺口（issue #1801）</strong>：images/audio/video 仍在路线图，对比 mem0 等已有部分实验性支持的竞品是劣势。</li>
+<li><strong>评估方法论缺失（issue #2347）</strong>：vendor-reported LongMemEval 分数是主要成绩背书，「第三方独立测评脚本」尚未公开。</li>
+<li><strong>三次品牌重塑</strong>（2025-11-03 memory→memora；2025-11-25 memora→hindsight；2026-01-30 openclawd→openclaw）：scoping churn 信号；既有第三方文档/教程可能已失效。</li>
+<li><strong>多语 monorepo 复杂度</strong>（Python/TS/Go/Rust/MDX/Deno/bun）：4193 文件，对贡献者门槛偏高。</li>
+</ul>
+
+<h2>行动建议</h2>
+
+<ul>
+<li><strong>如果你要用它</strong>：在你已经有 PG 团队、需要多租户隔离（TenantExtension）、且目标场景是「coding agent 长期记忆 / 跨会话一致性 / 时间窗口检索」时，Hindsight 是 2026 年最完整的选择之一。先用 `hindsight-all` 容器跑通，再视需要切到 Helm/SaaS。提防 reflect token 成本与心智模型 refresh 的 OOM 问题，规模化前先做小规模 pilot。</li>
+<li><strong>如果你要学它</strong>：精读 `hindsight-api-slim/hindsight_api/engine/memory_engine.py`、`engine/search/fusion.py`、`engine/consolidation/consolidator.py`、`engine/reflect/agent.py`、`engine/mental_model_refresh.py`，配合 `hindsight-docs/docs/developer/retrieval.md:55-67`。理解「单表多类型」「四臂融合」「证据化合并」三件套即可拿走最核心的设计收益。</li>
+<li><strong>如果你要 fork 它</strong>：改造方向优先级——
+<ol>
+<li>缩小 bus factor：把 mental_model_refresh 的核心函数与检索调度解耦出来交给第二人维护；</li>
+<li>解决 #3355 OOM：mental_model_refresh 加入 streaming / 增量更新；</li>
+<li>加回多模态：参考其既有的 memory_units 表结构扩展 `modality` 字段；</li>
+<li>提供公开的 eval harness（响应 #2347）：让社区可复算 LongMemEval。</li>
+</ol>
+</li>
+</ul>
+
+<h3>知识入口</h3>
+
+<ul>
+<li>DeepWiki：未收录</li>
+<li>Zread.ai：未收录</li>
+<li>关联论文：<a href="https://arxiv.org/abs/2512.12818">Hindsight (arXiv:2512.12818)</a></li>
+<li>在线 Demo：<a href="https://ui.hindsight.vectorize.io/signup">Hindsight Cloud 注册</a> / <a href="https://benchmarks.hindsight.vectorize.io/">Live benchmark</a> / <a href="https://hindsight.vectorize.io/cookbook">Cookbook</a></li>
+<li>官方文档：<a href="https://hindsight.vectorize.io/">https://hindsight.vectorize.io/</a></li>
+<li>官方博客：<a href="https://hindsight.vectorize.io/blog">https://hindsight.vectorize.io/blog</a></li>
+</ul>
+
+</body>
+</html>

@@ -1,39 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-09-24",
+    "last_run": "2026-09-25",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/agricidaniel/claude-obsidian",
-      "canonical_url": "https://github.com/AgriciDaniel/claude-obsidian",
-      "event_date": "2026-08-25",
-      "date_seen": "2026-08-25"
-    },
-    {
-      "key": "github.com/multica-ai/andrej-karpathy-skills",
-      "canonical_url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "event_date": "2026-08-25",
-      "date_seen": "2026-08-25"
-    },
-    {
-      "key": "github.com/marin-community/marin",
-      "canonical_url": "https://github.com/marin-community/marin",
-      "event_date": "2026-08-25",
-      "date_seen": "2026-08-25"
-    },
-    {
-      "key": "github.com/dietrichgebert/ponytail",
-      "canonical_url": "https://github.com/DietrichGebert/ponytail",
-      "event_date": "2026-08-25",
-      "date_seen": "2026-08-25"
-    },
-    {
-      "key": "github.com/anthropics/claude-plugins-official",
-      "canonical_url": "https://github.com/anthropics/claude-plugins-official",
-      "event_date": "2026-08-25",
-      "date_seen": "2026-08-25"
-    },
     {
       "key": "github.com/k-dense-ai/scientific-agent-skills",
       "canonical_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
@@ -873,6 +843,48 @@
       "canonical_url": "https://github.com/microsoft/call-center-ai",
       "event_date": "2026-09-24",
       "date_seen": "2026-09-24"
+    },
+    {
+      "key": "github.com/vectorize-io/hindsight",
+      "canonical_url": "https://github.com/vectorize-io/hindsight",
+      "event_date": "2026-09-25",
+      "date_seen": "2026-09-25"
+    },
+    {
+      "key": "github.com/nvidia/model-optimizer",
+      "canonical_url": "https://github.com/NVIDIA/Model-Optimizer",
+      "event_date": "2026-09-25",
+      "date_seen": "2026-09-25"
+    },
+    {
+      "key": "github.com/leejet/stable-diffusion.cpp",
+      "canonical_url": "https://github.com/leejet/stable-diffusion.cpp",
+      "event_date": "2026-09-25",
+      "date_seen": "2026-09-25"
+    },
+    {
+      "key": "github.com/docker/sandbox-kit-spec",
+      "canonical_url": "https://github.com/docker/sandbox-kit-spec",
+      "event_date": "2026-09-25",
+      "date_seen": "2026-09-25"
+    },
+    {
+      "key": "github.com/xiaomimimo/mimo-code",
+      "canonical_url": "https://github.com/XiaomiMiMo/MiMo-Code",
+      "event_date": "2026-09-25",
+      "date_seen": "2026-09-25"
+    },
+    {
+      "key": "github.com/nasiko-labs/nasiko",
+      "canonical_url": "https://github.com/Nasiko-Labs/nasiko",
+      "event_date": "2026-09-25",
+      "date_seen": "2026-09-25"
+    },
+    {
+      "key": "https://seeyeetech.com/github-explorer/reports/tensorflow_tensorflow",
+      "canonical_url": "https://seeyeetech.com/github-explorer/reports/tensorflow_tensorflow",
+      "event_date": "2026-09-25",
+      "date_seen": "2026-09-25"
     }
   ]
 }

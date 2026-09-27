@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-09-26",
+    "last_run": "2026-09-27",
     "window_days": 30
   },
   "entries": [
@@ -909,6 +909,36 @@
       "canonical_url": "https://github.com/androoAGI/starnet",
       "event_date": "2026-09-26",
       "date_seen": "2026-09-26"
+    },
+    {
+      "key": "github.com/tensorflow/tensorflow",
+      "canonical_url": "https://github.com/tensorflow/tensorflow",
+      "event_date": "2026-09-27",
+      "date_seen": "2026-09-27"
+    },
+    {
+      "key": "github.com/mobile-next/mobile-mcp",
+      "canonical_url": "https://github.com/mobile-next/mobile-mcp",
+      "event_date": "2026-09-27",
+      "date_seen": "2026-09-27"
+    },
+    {
+      "key": "github.com/stablyai/orca",
+      "canonical_url": "https://github.com/stablyai/orca",
+      "event_date": "2026-09-27",
+      "date_seen": "2026-09-27"
+    },
+    {
+      "key": "github.com/hypit-ai/hypit",
+      "canonical_url": "https://github.com/hypit-ai/hypit",
+      "event_date": "2026-09-27",
+      "date_seen": "2026-09-27"
+    },
+    {
+      "key": "github.com/openai/tart",
+      "canonical_url": "https://github.com/openai/tart",
+      "event_date": "2026-09-27",
+      "date_seen": "2026-09-27"
     }
   ]
 }

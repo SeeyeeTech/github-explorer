@@ -1,0 +1,6 @@
+{
+  "title": "NVIDIA Model-Optimizer：NVFP4 + QAD 把 550B 模型压缩出 5.9× decode",
+  "digest": "NVIDIA 官方压缩工具旗舰，用 NVFP4 Local-Hessian + QAD 让 550B 模型在 4-bit 下恢复 BF16 级精度、5.9× decode 加速。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

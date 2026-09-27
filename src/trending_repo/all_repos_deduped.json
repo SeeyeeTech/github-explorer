@@ -200,6 +200,16 @@
     "trending_days": 23
   },
   {
+    "name": "rohitg00/ai-engineering-from-scratch",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "language": "Python",
+    "stars": 58922,
+    "forks": 10196,
+    "description": "Learn it. Build it. Ship it for others.",
+    "last_seen": "2026-09-27",
+    "trending_days": 23
+  },
+  {
     "name": "Zie619/n8n-workflows",
     "url": "https://github.com/zie619/n8n-workflows",
     "language": "Python",
@@ -247,16 +257,6 @@
     "forks": 1668,
     "description": "Powerful web graphics runtime built on WebGL, WebGPU, WebXR and glTF",
     "last_seen": "2025-12-04",
-    "trending_days": 22
-  },
-  {
-    "name": "rohitg00/ai-engineering-from-scratch",
-    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-    "language": "Python",
-    "stars": 58041,
-    "forks": 10073,
-    "description": "Learn it. Build it. Ship it for others.",
-    "last_seen": "2026-09-26",
     "trending_days": 22
   },
   {
@@ -1400,6 +1400,16 @@
     "trending_days": 8
   },
   {
+    "name": "debpalash/VoiceStudio",
+    "url": "https://github.com/debpalash/voicestudio",
+    "language": "Python",
+    "stars": 39073,
+    "forks": 4651,
+    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+    "last_seen": "2026-09-27",
+    "trending_days": 8
+  },
+  {
     "name": "diegosouzapw/OmniRoute",
     "url": "https://github.com/diegosouzapw/omniroute",
     "language": "TypeScript",
@@ -1637,16 +1647,6 @@
     "forks": 7479,
     "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
     "last_seen": "2026-09-08",
-    "trending_days": 7
-  },
-  {
-    "name": "debpalash/VoiceStudio",
-    "url": "https://github.com/debpalash/voicestudio",
-    "language": "Python",
-    "stars": 30461,
-    "forks": 3663,
-    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-    "last_seen": "2026-09-15",
     "trending_days": 7
   },
   {
@@ -2240,6 +2240,16 @@
     "trending_days": 6
   },
   {
+    "name": "dream-num/univer",
+    "url": "https://github.com/dream-num/univer",
+    "language": "TypeScript",
+    "stars": 19972,
+    "forks": 1695,
+    "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+    "last_seen": "2026-09-27",
+    "trending_days": 6
+  },
+  {
     "name": "exo-explore/exo",
     "url": "https://github.com/exo-explore/exo",
     "language": "Python",
@@ -2500,6 +2510,16 @@
     "trending_days": 6
   },
   {
+    "name": "paperclipai/paperclip",
+    "url": "https://github.com/paperclipai/paperclip",
+    "language": "TypeScript",
+    "stars": 88910,
+    "forks": 15577,
+    "description": "The open-source app everyone uses to manage agents at work",
+    "last_seen": "2026-09-27",
+    "trending_days": 6
+  },
+  {
     "name": "pingdotgg/t3code",
     "url": "https://github.com/pingdotgg/t3code",
     "language": "TypeScript",
@@ -2587,6 +2607,16 @@
     "forks": 3754,
     "description": "An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees.",
     "last_seen": "2026-01-06",
+    "trending_days": 6
+  },
+  {
+    "name": "vectorize-io/hindsight",
+    "url": "https://github.com/vectorize-io/hindsight",
+    "language": "Python",
+    "stars": 35952,
+    "forks": 4581,
+    "description": "Hindsight: Agent Memory That Learns",
+    "last_seen": "2026-09-27",
     "trending_days": 6
   },
   {
@@ -2807,16 +2837,6 @@
     "forks": 1760,
     "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
     "last_seen": "2026-07-17",
-    "trending_days": 5
-  },
-  {
-    "name": "dream-num/univer",
-    "url": "https://github.com/dream-num/univer",
-    "language": "TypeScript",
-    "stars": 19014,
-    "forks": 1621,
-    "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
-    "last_seen": "2026-09-26",
     "trending_days": 5
   },
   {
@@ -3120,16 +3140,6 @@
     "trending_days": 5
   },
   {
-    "name": "paperclipai/paperclip",
-    "url": "https://github.com/paperclipai/paperclip",
-    "language": "TypeScript",
-    "stars": 86292,
-    "forks": 15342,
-    "description": "The open-source app everyone uses to manage agents at work",
-    "last_seen": "2026-09-26",
-    "trending_days": 5
-  },
-  {
     "name": "paperswithbacktest/awesome-systematic-trading",
     "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
     "language": "Python",
@@ -3317,16 +3327,6 @@
     "forks": 572,
     "description": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
     "last_seen": "2026-08-04",
-    "trending_days": 5
-  },
-  {
-    "name": "vectorize-io/hindsight",
-    "url": "https://github.com/vectorize-io/hindsight",
-    "language": "Python",
-    "stars": 31013,
-    "forks": 3362,
-    "description": "Hindsight: Agent Memory That Learns",
-    "last_seen": "2026-09-26",
     "trending_days": 5
   },
   {
@@ -10880,6 +10880,16 @@
     "trending_days": 1
   },
   {
+    "name": "InfinityLoop1308/PipePipe",
+    "url": "https://github.com/infinityloop1308/pipepipe",
+    "language": "Shell",
+    "stars": 6443,
+    "forks": 214,
+    "description": "An open-source Android app to let you browse YouTube and other services freely.",
+    "last_seen": "2026-09-27",
+    "trending_days": 1
+  },
+  {
     "name": "interviewstreet/hiring-agent",
     "url": "https://github.com/interviewstreet/hiring-agent",
     "language": "Python",
@@ -11687,6 +11697,16 @@
     "forks": 32721,
     "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
     "last_seen": "2025-11-10",
+    "trending_days": 1
+  },
+  {
+    "name": "mvschwarz/openrig",
+    "url": "https://github.com/mvschwarz/openrig",
+    "language": "TypeScript",
+    "stars": 713,
+    "forks": 86,
+    "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+    "last_seen": "2026-09-27",
     "trending_days": 1
   },
   {
@@ -13000,6 +13020,16 @@
     "trending_days": 1
   },
   {
+    "name": "vercel-labs/scriptc",
+    "url": "https://github.com/vercel-labs/scriptc",
+    "language": "TypeScript",
+    "stars": 5272,
+    "forks": 137,
+    "description": "TypeScript-to-Native Compiler",
+    "last_seen": "2026-09-27",
+    "trending_days": 1
+  },
+  {
     "name": "vita-epfl/Stable-Video-Infinity",
     "url": "https://github.com/vita-epfl/stable-video-infinity",
     "language": "Python",
@@ -13087,6 +13117,16 @@
     "forks": 16,
     "description": "verified autofill",
     "last_seen": "2025-11-12",
+    "trending_days": 1
+  },
+  {
+    "name": "willfaust/Madeira",
+    "url": "https://github.com/willfaust/madeira",
+    "language": "C",
+    "stars": 727,
+    "forks": 152,
+    "description": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
+    "last_seen": "2026-09-27",
     "trending_days": 1
   },
   {

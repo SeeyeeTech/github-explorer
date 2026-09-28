@@ -1,33 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-09-27",
+    "last_run": "2026-09-28",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/k-dense-ai/scientific-agent-skills",
-      "canonical_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "event_date": "2026-08-28",
-      "date_seen": "2026-08-28"
-    },
-    {
-      "key": "github.com/tt-a1i/archify",
-      "canonical_url": "https://github.com/tt-a1i/archify",
-      "event_date": "2026-08-28",
-      "date_seen": "2026-08-28"
-    },
-    {
-      "key": "github.com/jetbrains/go-modern-guidelines",
-      "canonical_url": "https://github.com/JetBrains/go-modern-guidelines",
-      "event_date": "2026-08-28",
-      "date_seen": "2026-08-28"
-    },
-    {
-      "key": "github.com/composiohq/awesome-claude-skills",
-      "canonical_url": "https://github.com/ComposioHQ/awesome-claude-skills",
-      "event_date": "2026-08-28",
-      "date_seen": "2026-08-28"
-    },
     {
       "key": "github.com/abi/screenshot-to-code",
       "canonical_url": "https://github.com/abi/screenshot-to-code",
@@ -939,6 +915,12 @@
       "canonical_url": "https://github.com/openai/tart",
       "event_date": "2026-09-27",
       "date_seen": "2026-09-27"
+    },
+    {
+      "key": "github.com/mvschwarz/openrig",
+      "canonical_url": "https://github.com/mvschwarz/openrig",
+      "event_date": "2026-09-28",
+      "date_seen": "2026-09-28"
     }
   ]
 }

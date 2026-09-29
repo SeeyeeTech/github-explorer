@@ -366,3 +366,4 @@
 {"recorded_at": "2026-09-25T15:45:12.036691+00:00", "slug": "google_ax", "title": null, "state": "published", "published_at": "2026-09-25", "reason": "自动生成", "ci_run_id": "36155645396"}
 {"recorded_at": "2026-09-25T19:48:27.174798+00:00", "slug": "superdesigndev_treg", "title": null, "state": "published", "published_at": "2026-09-25", "reason": "自动生成", "ci_run_id": "36181198645"}
 {"recorded_at": "2026-09-27T00:13:06.293791+00:00", "slug": "nvidia_model-optimizer", "title": null, "state": "published", "published_at": "2026-09-27", "reason": "自动生成", "ci_run_id": "36281258006"}
+{"recorded_at": "2026-09-29T02:39:43.071885+00:00", "slug": "nawfalmotii79_plfm_radar", "title": null, "state": "published", "published_at": "2026-09-29", "reason": "自动生成", "ci_run_id": "36512382127"}

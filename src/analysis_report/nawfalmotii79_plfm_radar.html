@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/nawfalmotii79/plfm_radar">https://github.com/nawfalmotii79/plfm_radar</a></p></blockquote>
+<h2>一句话总结</h2>
+<p>摩洛哥工程师 Nawfal Motii 用 6.7 个月把一套 10.5 GHz LFM 相控阵雷达的全栈硬件（原理图/PCB/BOM/Verilog/STM32/Python GUI）从零做到 25.8k stars，是<strong>高频段长距雷达全栈开源几乎独占的生态位填补者</strong>。</p>
+<h2>值得关注的理由</h2>
+<ul><li><strong>稀缺频段 + 全栈交付</strong>：10.5 GHz 相控阵 + 双版本（3 km patch / 20 km GaN 波导）+ Gerber/BOM/FPGA Verilog/STM32/Python GUI 全开源，全球同类项目里几乎无直接竞品，最近的商业对应是 Analog Devices CN0566（仅 2-6 GHz、近场）。</li><li><strong>形式化验证开路</strong>：formal/ 子目录跑 SymbiYosky 形式化验证 5 个模块 + 四层测试栈（unit/integration/HIL/MATLAB co-sim），在开源硬件里属于罕见工程化深度。</li><li><strong>从开源到公司的样本</strong>：作者已自建 ABAC INDUSTRY、与 PCBWay 合作换物，是少有的「作品吸引流量、运营几乎为零」（Following 仅 7）反向路径——值得拆解。</li></ul>
+<h2>项目展示</h2>
+<h3>README 媒体</h3>
+<ol><li><img src="https://raw.githubusercontent.com/nawfalmotii79/plfm_radar/main/8_Utils/Antenna_Array.jpg" alt="AERIS-10 Antenna Array"/> — 类型： hero（8×16 天线阵主视觉）</li><li><img src="https://raw.githubusercontent.com/nawfalmotii79/plfm_radar/main/8_Utils/RADAR_V6_V2.png" alt="AERIS-10 System Diagram"/> — 类型： architecture（系统框图）</li><li><img src="https://raw.githubusercontent.com/nawfalmotii79/plfm_radar/main/8_Utils/GUI_V6.gif" alt="AERIS-10 Dashboard"/> — 类型： demo（Python GUI 实时显示）</li><li><img src="https://raw.githubusercontent.com/nawfalmotii79/plfm_radar/main/8_Utils/PCBWAY.jpg" alt="PCBWay Sponsor Logo"/> — 类型： 赞助商鸣谢</li></ol>
+<h3>筛选说明</h3>
+<ul><li>总共发现 15 个媒体元素，筛选后保留 4 个核心展示</li><li>排除了 PCB 实物照片、Gerber 预览、波形截图等次级素材</li></ul>
+<h2>项目画像</h2>
+<table><thead><tr><th>维度</th><th>数据</th></tr></thead><tbody><tr><td>GitHub</td><td><a href="https://github.com/nawfalmotii79/plfm_radar">https://github.com/nawfalmotii79/plfm_radar</a></td></tr><tr><td>Star / Fork</td><td>25,793 / 5,887</td></tr><tr><td>Watchers / Open Issues-PRs</td><td>24 / 8-7</td></tr><tr><td>代码行数</td><td>~80k 行可读代码（tokei 报告 397,761 行的 79.6% 为 FPGA bitstream HEX）</td></tr><tr><td>主语言</td><td>Verilog (FPGA) + C/C++ (STM32) + Python (GUI) + Altium Designer/KiCad （硬件）</td></tr><tr><td>项目年龄</td><td>6.7 个月（首次提交 2026-03-08）</td></tr><tr><td>总 commit</td><td>348</td></tr><tr><td>开发阶段</td><td>低维护（最近 3.5 个月零提交）</td></tr><tr><td>开发模式</td><td>业余 Side Project（周末 12.9%、夜间 52%）</td></tr><tr><td>贡献模式</td><td>小团队核心（Top 2 占比 ~88%，主作者 JJassonn69 55.8% + NawfalMotii79 32.5%）</td></tr><tr><td>热度定位</td><td>大众热门（25.8k stars / 6.7 个月）</td></tr><tr><td>许可证</td><td>硬件 CERN-OHL-P v2 + 软件/固件 MIT（双许可）</td></tr><tr><td>Fork/Star 比</td><td>22.8%（远高于平均 5-10%，硬件复刻典型特征）</td></tr><tr><td>质量评级</td><td>代码 A- / 文档 A / 测试 B+（含形式化验证 + 四层测试栈）</td></tr></tbody></table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p><strong>Nawfal Motii</strong>，摩洛哥卡萨布兰卡，ABAC INDUSTRY 创始人。账号注册 1.3 年，仅本仓库 1 个公开 repo —— 全部产能与品牌资产押在一个产品。仓库 README 自述项目「started in a small workshop in Morocco」（在摩洛哥一个小车间里起步）。粉丝 945 但 Following 仅 7 —— 典型「作品吸引流量、运营几乎为零」的反向路径。</p>
+<h3>问题判断</h3>
+<p>商用相控阵雷达开发板（如 Analog Devices CN0566）只在 2-6 GHz 近场，且需 Pluto SDR 等外部配套；2.4/24 GHz FMCW 开源方案又是短距（<300 m）。10.5 GHz 频段、3-20 km 距离、双版本（patch + GaN）的开源相控阵雷达，<strong>在 GitHub 上几乎空白</strong> —— 这是作者看到的真实生态空白。Issue #97 直接问「是要开公司吗？」被关闭，作者以 ABAC INDUSTRY 命名实体 —— 商业化意图从一开始就是明确的。</p>
+<h3>解法哲学</h3>
+<p><strong>「用 ADI 商用现货搭积木，把 BOM 全部开放」</strong>：</p>
+<ul><li>ADAR1000×4（相控阵核心）+ ADF4382×2（频率合成）+ AD9523-1（时钟）+ LTC5552×2（混频器）+ ADTR1107×16（驱动）+ QPA2962×16（GaN PA）—— 整套 ADI 推荐相控阵参考设计同款芯片</li><li>配合 Xilinx XC7A50T FPGA（Verilog 处理）+ STM32F7（波束/接口管理）+ Altium Designer/KiCad（原理图）</li><li>选型哲学：全部用商用现货 + 文档齐备的型号，便于读者复刻/采购</li></ul>
+<p><strong>作者明确不做什么</strong>：</p>
+<ul><li>不做云端 SaaS：GUI 是桌面 Python，没有云/远程服务架构</li><li>不做闭源：连 FPGA bitstream 都开源（HEX 占了 316k 行）</li><li>不做「商业版 + 开源版」分层：单本、单版本合一，只在双型号（Nexus/Extended）做硬件差异</li></ul>
+<h3>战略意图</h3>
+<p>商业化路径已通：</p>
+<ol><li><strong>从开源到公司</strong>：ABAC INDUSTRY 已在卡萨布兰卡登记</li><li><strong>从代码到流量</strong>：25.8k stars + 5.9k forks 是直接背书</li><li><strong>从产品到变现</strong>：与 PCBWay 合作换打样 + 通过 GitHub Pages 文档站沉淀「开箱即用的雷达 BOM 说明书」</li><li><strong>战略开放</strong>：双许可（CERN-OHL-P + MIT）让读者既能学习也能复刻，是 geniune open（非 open-core）</li></ol>
+<p>Issue #150（Tests in Morocco）作者计划在本地做外场测试，验证 20 km GaN 版的实际探测距离 —— 商业化的最后一块拼图。</p>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<p>按新颖度×实用性排序：</p>
+<ol><li><strong>三层混合 AGC 架构</strong>（FPGA 内环 + STM32 外环 + GUI 顶端 host commands）<br/>- FPGA rx_gain_control.v per-sample shift+saturate 内环（μs 级响应）<br/>- STM32 ADAR1000_AGC.cpp per-frame 调 VGA gain（ms 级响应）<br/>- GUI set_agc_* opcode 0x28-0x2C 手动覆写<br/>- 握手：FPGA → DIG_5 GPIO → STM32 read → 调 ADAR1000 gain<br/>- 评分：新颖度 4/5 + 实用性 4/5 + 可迁移性 4/5</li><li><strong>双段 staggered-PRI Doppler</strong>（教科书 + 工程化结合）<br/>- 32 chirps 切成 16 long-PRI + 16 short-PRI 各自 16-pt FFT<br/>- 注释明确写「single 32-pt FFT over non-uniformly sampled frame is signal-processing invalid」<br/>- doppler_processor_optimized.v 是当代实现，注释清晰<br/>- 评分：新颖度 3/5 + 实用性 5/5 + 可迁移性 5/5</li><li><strong>跨时钟域形式化验证</strong>（开源硬件罕见）<br/>- cdc_modules.v 用 Gray-code + toggle CDC 跨 100/120/160/400MHz 四域<br/>- formal/ 跑 SymbiYosky 形式化验证 5 个模块<br/>- ASYNC_REG = "TRUE" 显式约束 Vivado 布局<br/>- 评分：新颖度 4/5 + 实用性 3/5 + 可迁移性 4/5</li><li><strong>双版本硬件模块化</strong>（3km patch / 20km GaN 波导）<br/>- 差异集中在 PA 子板，其余（FPGA/STM32/ADAR1000/ADF4382）完全共用<br/>- 通过 PowerAmplifier 宏 + DAC5578/ADS7830 抽象做到上层透明<br/>- 评分：新颖度 3/5 + 实用性 4/5 + 可迁移性 4/5</li><li><strong>bit-accurate 软件 FPGA</strong>（闭环验证）<br/>- 9_Firmware/9_3_GUI/v7/software_fpga.py 把 FPGA 关键模块在 Python 复刻<br/>- adi_agc_analysis.py 用真实数据闭环验证<br/>- 评分：新颖度 4/5 + 实用性 3/5 + 可迁移性 3/5</li></ol>
+<h3>可复用的模式与技巧</h3>
+<ol><li><strong>三层 AGC 分层</strong>：内环 μs + 外环 ms + 顶层 host —— 任何 RF/通信接收机都可借鉴</li><li><strong>staggered-PRI 解决多普勒模糊</strong>：雷达信号处理的标准做法，但代码注释把「为什么不能合并为均匀采样 FFT」写得很清楚 —— 工程文档范例</li><li><strong>硬件宏做版本抽象</strong>：PowerAmplifier 宏 + 子板模块化，让双版本/多版本雷达平台可以共用 80% 固件</li><li><strong>形式化验证嵌入开源硬件</strong>：formal/ 子目录 + SymbiYosky，证明 CDC 安全 —— 值得其他 Verilog 开源项目借鉴</li><li><strong>bit-accurate 软件镜像</strong>：把 FPGA 关键数据通路用 Python 复刻，便于单元测试与回归</li></ol>
+<h3>关键设计决策</h3>
+<p><strong>决策 1：FPGA + MCU + RF 分层</strong></p>
+<ul><li>问题：相控阵雷达需要 μs 级波束切换 + ms 级波束管理 + Hz 级 GUI 控制 —— 单层控制器无法兼顾</li><li>方案：Xilinx XC7A50T FPGA 处理 chirp + Doppler FFT + 内环 AGC；STM32F7 管波束扫描序列 + 外环 AGC + 接口；Python GUI 管人机交互</li><li>Trade-off：牺牲单芯片简洁度，换来三层响应速度分层清晰 + 故障域隔离</li><li>可迁移性：高）</li></ul>
+<p><strong>决策 2：ADI 商用现货全栈</strong></p>
+<ul><li>问题：自研 RF 芯片需要流片周期 + 巨额资金</li><li>方案：ADAR1000 + ADF4382 + AD9523-1 + LTC5552 + ADTR1107 + QPA2962 全部 ADI 现货</li><li>Trade-off：牺牲频段/功率的极致定制（BOM 限死 10.5 GHz），换读者可直接采购复刻 + 文档齐备</li><li>可迁移性：中（依赖 ADI 供应链，但思路通用）</li></ul>
+<p><strong>决策 3：双版本硬件（Nexus 3km / Extended 20km）</strong></p>
+<ul><li>问题：3 km 探测和 20 km 探测对 PA 需求差一个数量级</li><li>方案：差异集中在 PA 子板（patch vs GaN 波导），其余完全共用</li><li>Trade-off：牺牲单板最优（PA 子板规格不同），换「一套代码双用途」</li><li>可迁移性：高（多版本硬件平台通用做法）</li></ul>
+<p><strong>决策 4：HEX bitstream 也开源</strong></p>
+<ul><li>问题：开源 Verilog 但闭源 bitstream 等于半开源</li><li>方案：连 *.bit 的 HEX 都 commit（占代码行数 79.6%）</li><li>Trade-off：牺牲仓库体积（~132 MB）+ 加大 clone 时间，换真正的「开箱即用」</li><li>可迁移性：低（特定上下文决策）</li></ul>
+<p><strong>决策 5：双许可而非单一</strong></p>
+<ul><li>问题：硬件 CERN-OHL-P（鼓励衍生）+ 软件 MIT（最宽松）需要不同 license</li><li>方案：硬件 CERN-OHL-P v2 + 软件/固件 MIT（社区成员 gmaynez 建议切换）</li><li>Trade-off：牺牲统一 license 简洁度，换读者清晰分场景授权</li><li>可迁移性：高（硬件开源项目的标准做法）</li></ul>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table><thead><tr><th>维度</th><th>AERIS-10（本项目）</th><th>Analog Devices CN0566</th><th>tiny-radar (westonb)</th><th>FMCW_RADAR (Elrori)</th></tr></thead><tbody><tr><td>频段</td><td>10.5 GHz LFM</td><td>2-6 GHz</td><td>2.4 GHz FMCW</td><td>24 GHz FMCW</td></tr><tr><td>距离</td><td>3-20 km 双版本</td><td>近场</td><td>短距</td><td>~250 m</td></tr><tr><td>架构</td><td>相控阵 + 机械扫描</td><td>8 通道相控阵</td><td>USB FMCW</td><td>单板 FMCW</td></tr><tr><td>FPGA</td><td>Xilinx XC7A50T</td><td>Pluto SDR</td><td>无（STM32）</td><td>Artix-7 Verilog</td></tr><tr><td>MCU</td><td>STM32F7</td><td>Pluto 内置</td><td>STM32</td><td>无</td></tr><tr><td>GUI</td><td>Python 桌面</td><td>Python/MATLAB lab</td><td>Python</td><td>无</td></tr><tr><td>Stars</td><td>25.8k</td><td>n/a（商业教育套件）</td><td>22</td><td>n/a</td></tr><tr><td>完整 BOM 开源</td><td>✓</td><td>✗（商业）</td><td>✓</td><td>✓</td></tr></tbody></table>
+<h3>差异化护城河</h3>
+<ul><li><strong>频段独占</strong>：10.5 GHz 频段、3-20 km 距离、双版本开源相控阵雷达 —— 这是仓库真正「独占」的领域</li><li><strong>全栈交付</strong>：唯一把 Gerber/BOM/FPGA Verilog/STM32/Python GUI 全开源的同频段方案</li><li><strong>工程化深度</strong>：formal/ 形式化验证 + 四层测试栈，开源硬件罕见</li><li><strong>商业化路径</strong>：ABAC INDUSTRY + PCBWay 合作 = 唯一已通商业闭环的同类项目</li></ul>
+<h3>竞争风险</h3>
+<ul><li><strong>最可能替代者</strong>：Analog Devices CN0566 Phaser 升级版（如果 ADI 把 10.5 GHz 加入参考设计）—— 但 ADI 一直聚焦 6 GHz 以下，10.5 GHz 进入参考设计的概率低</li><li><strong>次要风险</strong>：TI / Renesas 等其他厂商推出 10 GHz 商业套件 —— 但商业套件闭源 BOM，无法复制 AERIS 风格</li><li><strong>隐性风险</strong>：作者停更 3.5 个月（Issue #145 AGC 溢出未修复），<strong>项目可持续性是最大风险</strong></li></ul>
+<h3>生态定位</h3>
+<p>在整个技术生态中扮演「开源高频段长距雷达基础设施」角色 —— 类比「开源硬件界的 espressif/esp32」，填补一个高频段长距全栈开源雷达的生态位空白。</p>
+<h2>套利机会分析</h2>
+<ul><li><strong>信息差</strong>：25.8k stars 热度真实（22.8% fork/star 比，非机器人/非刷量），但 Hackaday / IEEE Spectrum / arXiv 等第三方媒体<strong>无明显报道</strong> —— 公众号读者群体（关注国产硬件/开源雷达/AI+SDR）对这一信息差有需求</li><li><strong>技术借鉴</strong>：三层 AGC 分层 + staggered-PRI Doppler + 形式化验证 CDC 是任何 RF / 软件无线电项目都可借鉴的工程模板</li><li><strong>生态位</strong>：填补 10.5 GHz 长距全栈开源雷达空白，可与 AI 信号处理 / ISAC（集成感知通信）/ 国产替代 / 摩洛哥出口等公众号叙事结合</li><li><strong>趋势判断</strong>：6.7 个月达到 25.8k stars 仍在「爆发期」，但作者停更 3.5 个月，处于「作品吸引流量、运营几乎为零」的反向路径 —— 公众号读者对「作品 → 公司」的样本感兴趣</li></ul>
+<h2>风险与不足</h2>
+<ul><li><strong>作者停更 3.5 个月</strong>：最近 commit 2026-06-17，Issue #145 AGC 溢出至今 open 无回应 —— 项目可持续性是最大风险</li><li><strong>Issue 治理弱于工程实现</strong>：MCU 扫描序列与文档不一致（Issue #32 已关闭但代码常量未同步：DOPPLER_FRAME_CHIRPS=32 vs matrix1[15] + vector_0 + matrix2[15] = 31-beam）</li><li><strong>社区分散</strong>：提议建 Discord/Telegram 群 → 0 回复 closed，<strong>真实社区活跃度无法从 GitHub 单一指标衡量</strong></li><li><strong>死代码并存</strong>：doppler_processor.v 与 doppler_processor_optimized.v 并存，未清理旧实现</li><li><strong>测试覆盖率偏科</strong>：硬件仿真层（test）1.5%，被 MATLAB co-sim 部分替代，但 Python GUI 单测覆盖弱</li><li><strong>仓库体积大</strong>：~132 MB（含 FPGA bitstream），clone 不友好</li><li><strong>第三方媒体覆盖为零</strong>：Hackaday / IEEE Spectrum / arXiv 无独立报道，主要靠 GitHub 自身病毒传播</li></ul>
+<h2>行动建议</h2>
+<ul><li><strong>如果你要用它</strong>：</li><li>想学习 10.5 GHz 相控阵雷达 → AERIS-10 是唯一全栈开源选项</li><li>想做 20 km 长距探测 → Extended 版本 + GaN PA 子板是少数能落地的方案</li><li>想做国产替代 → ADI 芯片在国内有代理，但 PCBWay 合作模式可借鉴</li><li>想做 ISAC / 雷达 + 通信融合研究 → 双版本硬件模块化是天然平台</li><li>对比竞品：3 km 以内选 FMCW_RADAR 更省事；3 km 以上 AERIS-10 是必然选择</li><li><strong>如果你要学它</strong>：</li><li><strong>FPGA 顶层</strong>：9_Firmware/9_2_FPGA/radar_system_top.v（1078 行顶层）—— 看清整个雷达信号处理流水线</li><li><strong>波束管理</strong>：9_Firmware/9_1_Microcontroller/9_1_1_C_Cpp_Libraries/ADAR1000_Manager.cpp（930 行）—— 学习 ADAR1000 怎么驱动</li><li><strong>接收链路</strong>：9_Firmware/9_2_FPGA/radar_receiver_final.v —— ADC → decim → FFT 完整链路</li><li><strong>AGC 设计</strong>：9_Firmware/9_2_FPGA/rx_gain_control.v + 9_Firmware/9_1_Microcontroller/9_1_3_C_Cpp_Code/ADAR1000_AGC.cpp + 9_Firmware/9_3_GUI/adi_agc_analysis.py —— 三层 AGC 教科书</li><li><strong>CFAR 检测</strong>：9_Firmware/9_2_FPGA/cfar_ca.v —— CA / SO / GO 三模 CFAR</li><li><strong>形式化验证</strong>：formal/ 子目录 —— 学习 SymbiYosky 怎么验证 CDC</li><li><strong>chirp 控制器</strong>：9_Firmware/9_2_FPGA/plfm_chirp_controller.v —— FSM 怎么编排 chirp 时序</li><li><strong>GUI 与 FPGA 闭环</strong>：9_Firmware/9_3_GUI/v7/software_fpga.py —— bit-accurate 镜像怎么写</li><li><strong>如果你要 fork 它</strong>：</li><li><strong>修 AGC 溢出</strong>：把 holdoff_counter 从 uint8_t 改 uint32_t + saturate add（Issue #145）</li><li><strong>同步 MCU/FPGA 常量</strong>：把 DOPPLER_FRAME_CHIRPS 从 32 改 31（或反过来）—— 解决 Issue #32 根因</li><li><strong>清理死代码</strong>：删 doppler_processor.v，只保留 doppler_processor_optimized.v</li><li><strong>加外场测试结果</strong>：作者计划在摩洛哥做外场测试（Issue #150），任何 fork 都可以加速这一块</li><li><strong>加云端 / LAN 接口</strong>：Issue #21 LAN 接口是社区第二大需求，至今未实现</li><li><strong>加 3D 外壳</strong>：Issue #17 外壳设计是社区最大需求（27 评论）</li><li><strong>加 CI</strong>：仓库目前没有 GitHub Actions，加 CI 自动跑 tokei/formal verification 能显著提升工程化</li><li><strong>加 Discord/Telegram 群</strong>：作者应该主动运营社区（Issue #29 提议但 0 回复）</li></ul>
+<h3>知识入口</h3>
+<table><thead><tr><th>资源</th><th>链接</th></tr></thead><tbody><tr><td>DeepWiki</td><td>未收录</td></tr><tr><td>Zread.ai</td><td>未收录</td></tr><tr><td>关联论文</td><td>无（AERIS-10 是工程实现，非学术研究）</td></tr><tr><td>在线 Demo</td><td>无 GUI 在线 Demo（仅本地 Python GUI + GUI_V6.gif）</td></tr><tr><td>公司主页</td><td><a href="http://www.abacindustry.com">http://www.abacindustry.com</a></td></tr><tr><td>GitHub Pages 文档</td><td><a href="https://nawfalmotii79.github.io/PLFM_RADAR/docs/">https://nawfalmotii79.github.io/PLFM_RADAR/docs/</a></td></tr><tr><td>第三方媒体</td><td>无明显独立报道（Hackaday / IEEE Spectrum / arXiv 均无）</td></tr><tr><td>赞助商</td><td>PCBWay（README logo）</td></tr></tbody></table>
+</body>
+</html>

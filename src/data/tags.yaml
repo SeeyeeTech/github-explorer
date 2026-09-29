@@ -1771,6 +1771,8 @@ entries:
   nautechsystems_nautilus_trader:
   - llm-inference
   - trading-finance
+  nawfalmotii79_plfm_radar:
+  - iot-hardware
   nesquena_hermes-webui:
   - ai-agent
   netdata_netdata:

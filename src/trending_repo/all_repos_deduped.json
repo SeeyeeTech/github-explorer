@@ -160,6 +160,16 @@
     "trending_days": 24
   },
   {
+    "name": "rohitg00/ai-engineering-from-scratch",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "language": "Python",
+    "stars": 61071,
+    "forks": 10504,
+    "description": "Learn it. Build it. Ship it for others.",
+    "last_seen": "2026-09-29",
+    "trending_days": 24
+  },
+  {
     "name": "ruvnet/RuView",
     "url": "https://github.com/ruvnet/ruview",
     "language": "Rust",
@@ -197,16 +207,6 @@
     "forks": 653,
     "description": "Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!",
     "last_seen": "2025-12-04",
-    "trending_days": 23
-  },
-  {
-    "name": "rohitg00/ai-engineering-from-scratch",
-    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-    "language": "Python",
-    "stars": 58922,
-    "forks": 10196,
-    "description": "Learn it. Build it. Ship it for others.",
-    "last_seen": "2026-09-27",
     "trending_days": 23
   },
   {
@@ -860,6 +860,16 @@
     "trending_days": 11
   },
   {
+    "name": "VectifyAI/PageIndex",
+    "url": "https://github.com/vectifyai/pageindex",
+    "language": "Python",
+    "stars": 37042,
+    "forks": 3241,
+    "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+    "last_seen": "2026-09-29",
+    "trending_days": 11
+  },
+  {
     "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
     "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
     "language": "Unknown",
@@ -897,6 +907,16 @@
     "forks": 2376,
     "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
     "last_seen": "2026-09-10",
+    "trending_days": 10
+  },
+  {
+    "name": "debpalash/VoiceStudio",
+    "url": "https://github.com/debpalash/voicestudio",
+    "language": "Python",
+    "stars": 47180,
+    "forks": 5321,
+    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+    "last_seen": "2026-09-29",
     "trending_days": 10
   },
   {
@@ -1000,16 +1020,6 @@
     "trending_days": 10
   },
   {
-    "name": "VectifyAI/PageIndex",
-    "url": "https://github.com/vectifyai/pageindex",
-    "language": "Python",
-    "stars": 29228,
-    "forks": 2476,
-    "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
-    "last_seen": "2026-05-07",
-    "trending_days": 10
-  },
-  {
     "name": "alibaba/page-agent",
     "url": "https://github.com/alibaba/page-agent",
     "language": "TypeScript",
@@ -1077,16 +1087,6 @@
     "forks": 5781,
     "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
     "last_seen": "2026-06-03",
-    "trending_days": 9
-  },
-  {
-    "name": "debpalash/VoiceStudio",
-    "url": "https://github.com/debpalash/voicestudio",
-    "language": "Python",
-    "stars": 43222,
-    "forks": 5038,
-    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-    "last_seen": "2026-09-28",
     "trending_days": 9
   },
   {
@@ -1420,6 +1420,16 @@
     "trending_days": 8
   },
   {
+    "name": "dream-num/univer",
+    "url": "https://github.com/dream-num/univer",
+    "language": "TypeScript",
+    "stars": 21713,
+    "forks": 1833,
+    "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+    "last_seen": "2026-09-29",
+    "trending_days": 8
+  },
+  {
     "name": "FujiwaraChoki/MoneyPrinterV2",
     "url": "https://github.com/fujiwarachoki/moneyprinterv2",
     "language": "Python",
@@ -1520,6 +1530,16 @@
     "trending_days": 8
   },
   {
+    "name": "paperclipai/paperclip",
+    "url": "https://github.com/paperclipai/paperclip",
+    "language": "TypeScript",
+    "stars": 94167,
+    "forks": 16014,
+    "description": "The open-source app everyone uses to manage agents at work",
+    "last_seen": "2026-09-29",
+    "trending_days": 8
+  },
+  {
     "name": "pbakaus/impeccable",
     "url": "https://github.com/pbakaus/impeccable",
     "language": "JavaScript",
@@ -1577,6 +1597,16 @@
     "forks": 1419,
     "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
     "last_seen": "2026-08-06",
+    "trending_days": 8
+  },
+  {
+    "name": "vectorize-io/hindsight",
+    "url": "https://github.com/vectorize-io/hindsight",
+    "language": "Python",
+    "stars": 42434,
+    "forks": 5713,
+    "description": "Hindsight: Agent Memory That Learns",
+    "last_seen": "2026-09-29",
     "trending_days": 8
   },
   {
@@ -1667,16 +1697,6 @@
     "forks": 320,
     "description": "Repository for skills to assist AI coding agents with .NET and C#",
     "last_seen": "2026-07-07",
-    "trending_days": 7
-  },
-  {
-    "name": "dream-num/univer",
-    "url": "https://github.com/dream-num/univer",
-    "language": "TypeScript",
-    "stars": 21116,
-    "forks": 1795,
-    "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
-    "last_seen": "2026-09-28",
     "trending_days": 7
   },
   {
@@ -1870,16 +1890,6 @@
     "trending_days": 7
   },
   {
-    "name": "paperclipai/paperclip",
-    "url": "https://github.com/paperclipai/paperclip",
-    "language": "TypeScript",
-    "stars": 92338,
-    "forks": 15856,
-    "description": "The open-source app everyone uses to manage agents at work",
-    "last_seen": "2026-09-28",
-    "trending_days": 7
-  },
-  {
     "name": "paperless-ngx/paperless-ngx",
     "url": "https://github.com/paperless-ngx/paperless-ngx",
     "language": "Python",
@@ -2017,16 +2027,6 @@
     "forks": 6505,
     "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
     "last_seen": "2026-08-16",
-    "trending_days": 7
-  },
-  {
-    "name": "vectorize-io/hindsight",
-    "url": "https://github.com/vectorize-io/hindsight",
-    "language": "Python",
-    "stars": 40685,
-    "forks": 5506,
-    "description": "Hindsight: Agent Memory That Learns",
-    "last_seen": "2026-09-28",
     "trending_days": 7
   },
   {
@@ -4190,6 +4190,16 @@
     "trending_days": 4
   },
   {
+    "name": "oblien/openship",
+    "url": "https://github.com/oblien/openship",
+    "language": "TypeScript",
+    "stars": 13689,
+    "forks": 1222,
+    "description": "Self-hosted deployment platform",
+    "last_seen": "2026-09-29",
+    "trending_days": 4
+  },
+  {
     "name": "openemr/openemr",
     "url": "https://github.com/openemr/openemr",
     "language": "PHP",
@@ -4697,6 +4707,16 @@
     "forks": 493,
     "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
     "last_seen": "2026-07-25",
+    "trending_days": 3
+  },
+  {
+    "name": "averygan/reclip",
+    "url": "https://github.com/averygan/reclip",
+    "language": "HTML",
+    "stars": 9924,
+    "forks": 1520,
+    "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+    "last_seen": "2026-09-29",
     "trending_days": 3
   },
   {
@@ -5570,6 +5590,16 @@
     "trending_days": 3
   },
   {
+    "name": "mvschwarz/openrig",
+    "url": "https://github.com/mvschwarz/openrig",
+    "language": "TypeScript",
+    "stars": 2221,
+    "forks": 164,
+    "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+    "last_seen": "2026-09-29",
+    "trending_days": 3
+  },
+  {
     "name": "NawfalMotii79/PLFM_RADAR",
     "url": "https://github.com/nawfalmotii79/plfm_radar",
     "language": "PLSQL",
@@ -5627,16 +5657,6 @@
     "forks": 1187,
     "description": "PersonaPlex code.",
     "last_seen": "2026-04-08",
-    "trending_days": 3
-  },
-  {
-    "name": "oblien/openship",
-    "url": "https://github.com/oblien/openship",
-    "language": "TypeScript",
-    "stars": 6835,
-    "forks": 494,
-    "description": "Self-hosted deployment platform",
-    "last_seen": "2026-07-22",
     "trending_days": 3
   },
   {
@@ -6520,16 +6540,6 @@
     "trending_days": 2
   },
   {
-    "name": "averygan/reclip",
-    "url": "https://github.com/averygan/reclip",
-    "language": "HTML",
-    "stars": 8225,
-    "forks": 1355,
-    "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
-    "last_seen": "2026-09-03",
-    "trending_days": 2
-  },
-  {
     "name": "aws/agent-toolkit-for-aws",
     "url": "https://github.com/aws/agent-toolkit-for-aws",
     "language": "Python",
@@ -6807,6 +6817,16 @@
     "forks": 2446,
     "description": "An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. Coze your way to AI Agent creation.",
     "last_seen": "2025-10-12",
+    "trending_days": 2
+  },
+  {
+    "name": "cs341-illinois/coursebook",
+    "url": "https://github.com/cs341-illinois/coursebook",
+    "language": "TeX",
+    "stars": 2960,
+    "forks": 264,
+    "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+    "last_seen": "2026-09-29",
     "trending_days": 2
   },
   {
@@ -8060,16 +8080,6 @@
     "trending_days": 2
   },
   {
-    "name": "mvschwarz/openrig",
-    "url": "https://github.com/mvschwarz/openrig",
-    "language": "TypeScript",
-    "stars": 1559,
-    "forks": 129,
-    "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
-    "last_seen": "2026-09-28",
-    "trending_days": 2
-  },
-  {
     "name": "nab138/iloader",
     "url": "https://github.com/nab138/iloader",
     "language": "TypeScript",
@@ -8957,6 +8967,16 @@
     "forks": 12758,
     "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
     "last_seen": "2026-09-01",
+    "trending_days": 2
+  },
+  {
+    "name": "willfaust/Madeira",
+    "url": "https://github.com/willfaust/madeira",
+    "language": "C",
+    "stars": 1056,
+    "forks": 185,
+    "description": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
+    "last_seen": "2026-09-29",
     "trending_days": 2
   },
   {
@@ -9867,16 +9887,6 @@
     "forks": 856,
     "description": "Lightweight (7MB) Terminal-first AI-native dev workspace",
     "last_seen": "2026-07-04",
-    "trending_days": 1
-  },
-  {
-    "name": "cs341-illinois/coursebook",
-    "url": "https://github.com/cs341-illinois/coursebook",
-    "language": "TeX",
-    "stars": 2398,
-    "forks": 230,
-    "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
-    "last_seen": "2026-09-28",
     "trending_days": 1
   },
   {
@@ -11930,6 +11940,16 @@
     "trending_days": 1
   },
   {
+    "name": "NVIDIA/OpenShell",
+    "url": "https://github.com/nvidia/openshell",
+    "language": "Rust",
+    "stars": 10277,
+    "forks": 1397,
+    "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+    "last_seen": "2026-09-29",
+    "trending_days": 1
+  },
+  {
     "name": "NVlabs/alpasim",
     "url": "https://github.com/nvlabs/alpasim",
     "language": "Python",
@@ -12360,6 +12380,16 @@
     "trending_days": 1
   },
   {
+    "name": "rakyll/hey",
+    "url": "https://github.com/rakyll/hey",
+    "language": "Go",
+    "stars": 20422,
+    "forks": 1310,
+    "description": "HTTP load generator, ApacheBench (ab) replacement",
+    "last_seen": "2026-09-29",
+    "trending_days": 1
+  },
+  {
     "name": "rapid7/metasploit-framework",
     "url": "https://github.com/rapid7/metasploit-framework",
     "language": "Ruby",
@@ -12770,6 +12800,16 @@
     "trending_days": 1
   },
   {
+    "name": "t8y2/dbx",
+    "url": "https://github.com/t8y2/dbx",
+    "language": "Rust",
+    "stars": 21796,
+    "forks": 2079,
+    "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+    "last_seen": "2026-09-29",
+    "trending_days": 1
+  },
+  {
     "name": "tailscale/tailscale",
     "url": "https://github.com/tailscale/tailscale",
     "language": "Go",
@@ -13137,16 +13177,6 @@
     "forks": 16,
     "description": "verified autofill",
     "last_seen": "2025-11-12",
-    "trending_days": 1
-  },
-  {
-    "name": "willfaust/Madeira",
-    "url": "https://github.com/willfaust/madeira",
-    "language": "C",
-    "stars": 727,
-    "forks": 152,
-    "description": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
-    "last_seen": "2026-09-27",
     "trending_days": 1
   },
   {

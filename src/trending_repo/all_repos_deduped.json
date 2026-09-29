@@ -1080,6 +1080,16 @@
     "trending_days": 9
   },
   {
+    "name": "debpalash/VoiceStudio",
+    "url": "https://github.com/debpalash/voicestudio",
+    "language": "Python",
+    "stars": 43222,
+    "forks": 5038,
+    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+    "last_seen": "2026-09-28",
+    "trending_days": 9
+  },
+  {
     "name": "DeusData/codebase-memory-mcp",
     "url": "https://github.com/deusdata/codebase-memory-mcp",
     "language": "C",
@@ -1400,16 +1410,6 @@
     "trending_days": 8
   },
   {
-    "name": "debpalash/VoiceStudio",
-    "url": "https://github.com/debpalash/voicestudio",
-    "language": "Python",
-    "stars": 39073,
-    "forks": 4651,
-    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-    "last_seen": "2026-09-27",
-    "trending_days": 8
-  },
-  {
     "name": "diegosouzapw/OmniRoute",
     "url": "https://github.com/diegosouzapw/omniroute",
     "language": "TypeScript",
@@ -1670,6 +1670,16 @@
     "trending_days": 7
   },
   {
+    "name": "dream-num/univer",
+    "url": "https://github.com/dream-num/univer",
+    "language": "TypeScript",
+    "stars": 21116,
+    "forks": 1795,
+    "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+    "last_seen": "2026-09-28",
+    "trending_days": 7
+  },
+  {
     "name": "Fincept-Corporation/FinceptTerminal",
     "url": "https://github.com/fincept-corporation/finceptterminal",
     "language": "Python",
@@ -1860,6 +1870,16 @@
     "trending_days": 7
   },
   {
+    "name": "paperclipai/paperclip",
+    "url": "https://github.com/paperclipai/paperclip",
+    "language": "TypeScript",
+    "stars": 92338,
+    "forks": 15856,
+    "description": "The open-source app everyone uses to manage agents at work",
+    "last_seen": "2026-09-28",
+    "trending_days": 7
+  },
+  {
     "name": "paperless-ngx/paperless-ngx",
     "url": "https://github.com/paperless-ngx/paperless-ngx",
     "language": "Python",
@@ -1997,6 +2017,16 @@
     "forks": 6505,
     "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
     "last_seen": "2026-08-16",
+    "trending_days": 7
+  },
+  {
+    "name": "vectorize-io/hindsight",
+    "url": "https://github.com/vectorize-io/hindsight",
+    "language": "Python",
+    "stars": 40685,
+    "forks": 5506,
+    "description": "Hindsight: Agent Memory That Learns",
+    "last_seen": "2026-09-28",
     "trending_days": 7
   },
   {
@@ -2237,16 +2267,6 @@
     "forks": 3370,
     "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
     "last_seen": "2026-05-30",
-    "trending_days": 6
-  },
-  {
-    "name": "dream-num/univer",
-    "url": "https://github.com/dream-num/univer",
-    "language": "TypeScript",
-    "stars": 19972,
-    "forks": 1695,
-    "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
-    "last_seen": "2026-09-27",
     "trending_days": 6
   },
   {
@@ -2510,16 +2530,6 @@
     "trending_days": 6
   },
   {
-    "name": "paperclipai/paperclip",
-    "url": "https://github.com/paperclipai/paperclip",
-    "language": "TypeScript",
-    "stars": 88910,
-    "forks": 15577,
-    "description": "The open-source app everyone uses to manage agents at work",
-    "last_seen": "2026-09-27",
-    "trending_days": 6
-  },
-  {
     "name": "pingdotgg/t3code",
     "url": "https://github.com/pingdotgg/t3code",
     "language": "TypeScript",
@@ -2607,16 +2617,6 @@
     "forks": 3754,
     "description": "An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees.",
     "last_seen": "2026-01-06",
-    "trending_days": 6
-  },
-  {
-    "name": "vectorize-io/hindsight",
-    "url": "https://github.com/vectorize-io/hindsight",
-    "language": "Python",
-    "stars": 35952,
-    "forks": 4581,
-    "description": "Hindsight: Agent Memory That Learns",
-    "last_seen": "2026-09-27",
     "trending_days": 6
   },
   {
@@ -5570,6 +5570,16 @@
     "trending_days": 3
   },
   {
+    "name": "NawfalMotii79/PLFM_RADAR",
+    "url": "https://github.com/nawfalmotii79/plfm_radar",
+    "language": "PLSQL",
+    "stars": 25684,
+    "forks": 5882,
+    "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+    "last_seen": "2026-09-28",
+    "trending_days": 3
+  },
+  {
     "name": "nitrojs/nitro",
     "url": "https://github.com/nitrojs/nitro",
     "language": "TypeScript",
@@ -8050,6 +8060,16 @@
     "trending_days": 2
   },
   {
+    "name": "mvschwarz/openrig",
+    "url": "https://github.com/mvschwarz/openrig",
+    "language": "TypeScript",
+    "stars": 1559,
+    "forks": 129,
+    "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+    "last_seen": "2026-09-28",
+    "trending_days": 2
+  },
+  {
     "name": "nab138/iloader",
     "url": "https://github.com/nab138/iloader",
     "language": "TypeScript",
@@ -8067,16 +8087,6 @@
     "forks": 2119,
     "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
     "last_seen": "2026-09-11",
-    "trending_days": 2
-  },
-  {
-    "name": "NawfalMotii79/PLFM_RADAR",
-    "url": "https://github.com/nawfalmotii79/plfm_radar",
-    "language": "PLSQL",
-    "stars": 24490,
-    "forks": 5616,
-    "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
-    "last_seen": "2026-08-19",
     "trending_days": 2
   },
   {
@@ -9640,6 +9650,16 @@
     "trending_days": 1
   },
   {
+    "name": "byoungd/up",
+    "url": "https://github.com/byoungd/up",
+    "language": "JavaScript",
+    "stars": 64576,
+    "forks": 6506,
+    "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
+    "last_seen": "2026-09-28",
+    "trending_days": 1
+  },
+  {
     "name": "bytedance/Dolphin",
     "url": "https://github.com/bytedance/dolphin",
     "language": "Python",
@@ -9847,6 +9867,16 @@
     "forks": 856,
     "description": "Lightweight (7MB) Terminal-first AI-native dev workspace",
     "last_seen": "2026-07-04",
+    "trending_days": 1
+  },
+  {
+    "name": "cs341-illinois/coursebook",
+    "url": "https://github.com/cs341-illinois/coursebook",
+    "language": "TeX",
+    "stars": 2398,
+    "forks": 230,
+    "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+    "last_seen": "2026-09-28",
     "trending_days": 1
   },
   {
@@ -11697,16 +11727,6 @@
     "forks": 32721,
     "description": "Material UI: Comprehensive React component library that implements Google's Material Design. Free forever.",
     "last_seen": "2025-11-10",
-    "trending_days": 1
-  },
-  {
-    "name": "mvschwarz/openrig",
-    "url": "https://github.com/mvschwarz/openrig",
-    "language": "TypeScript",
-    "stars": 713,
-    "forks": 86,
-    "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
-    "last_seen": "2026-09-27",
     "trending_days": 1
   },
   {

@@ -1,33 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-09-28",
+    "last_run": "2026-09-29",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/abi/screenshot-to-code",
-      "canonical_url": "https://github.com/abi/screenshot-to-code",
-      "event_date": "2026-08-29",
-      "date_seen": "2026-08-29"
-    },
-    {
-      "key": "github.com/tashfeenahmed/freellmapi",
-      "canonical_url": "https://github.com/tashfeenahmed/freellmapi",
-      "event_date": "2026-08-29",
-      "date_seen": "2026-08-29"
-    },
-    {
-      "key": "github.com/chromedevtools/chrome-devtools-mcp",
-      "canonical_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
-      "event_date": "2026-08-29",
-      "date_seen": "2026-08-29"
-    },
-    {
-      "key": "github.com/ddalcu/mlx-serve",
-      "canonical_url": "https://github.com/ddalcu/mlx-serve",
-      "event_date": "2026-08-29",
-      "date_seen": "2026-08-29"
-    },
     {
       "key": "github.com/thu-maic/openmaic",
       "canonical_url": "https://github.com/THU-MAIC/OpenMAIC",

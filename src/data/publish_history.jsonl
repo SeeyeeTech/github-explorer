@@ -368,3 +368,4 @@
 {"recorded_at": "2026-09-27T00:13:06.293791+00:00", "slug": "nvidia_model-optimizer", "title": null, "state": "published", "published_at": "2026-09-27", "reason": "自动生成", "ci_run_id": "36281258006"}
 {"recorded_at": "2026-09-29T02:39:43.071885+00:00", "slug": "nawfalmotii79_plfm_radar", "title": null, "state": "published", "published_at": "2026-09-29", "reason": "自动生成", "ci_run_id": "36512382127"}
 {"recorded_at": "2026-09-30T01:02:05.744380+00:00", "slug": "abue-ammar_tinycast", "title": null, "state": "published", "published_at": "2026-09-30", "reason": "自动生成", "ci_run_id": "36652398975"}
+{"recorded_at": "2026-09-30T06:17:29.083252+00:00", "slug": "averygan_reclip", "title": null, "state": "published", "published_at": "2026-09-30", "reason": "自动生成", "ci_run_id": "36676758643"}

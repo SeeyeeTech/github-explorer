@@ -1,0 +1,6 @@
+{
+  "title": "210 行 Flask + 1 万 Star：reclip 如何用「少做」做成 MeTube 没做成的事",
+  "digest": "289 行代码撬动 10311 stars。reclip 用单文件 Flask + 启动时 pip install -U yt-dlp，把 CLI 工具的 Web 入口做到极简暖色，证明「少做」本身就是产品力。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

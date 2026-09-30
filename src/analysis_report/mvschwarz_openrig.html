@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    margin: 1em 0 !important;
+    font-size: 14px !important;
+}
+table th, table td {
+    border: 1px solid #ddd !important;
+    padding: 6px 8px !important;
+    text-align: left !important;
+    line-height: 1.5 !important;
+    color: #3e3e3e !important;
+}
+table th {
+    background: #f6f6f6 !important;
+    font-weight: bold !important;
+}
+img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 12px auto !important;
+}
+a {
+    color: #1e6bb8 !important;
+    text-decoration: none !important;
+    word-break: break-all !important;
+}
+strong {
+    color: #e51f42 !important;
+    font-weight: bold !important;
+}
+code {
+    font-family: Menlo, Consolas, monospace !important;
+    background: #f4f4f4 !important;
+    padding: 0 4px !important;
+    border-radius: 3px !important;
+    font-size: 13px !important;
+    color: #c7254e !important;
+}
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/mvschwarz/openrig">https://github.com/mvschwarz/openrig</a></p></blockquote>
+<h2>一句话总结</h2>
+<p>OpenRig 是一个面向 AI 编码 CLI（Claude Code / Codex / Pi 等）的「harness 之上的 orchestrator」——把 tmux 当消息总线、把 SQLite 当事件队列、用 5 方法 RuntimeAdapter 把多个 Agent 编排成有身份、可恢复、可观测的长期团队，单人 6 个月做到 38 个 release。</p>
+<h2>值得关注的理由</h2>
+<ul><li><strong>架构清晰到可以抄</strong>：domain 281 个一文件一概念文件、daemon 仅 8 个运行时依赖、Hono-free 服务层，把「为 AI 设计的产品」的工程标准做出来了。</li><li><strong>范式创新</strong>：CHANGELOG 200KB 写成「agent-readable release notes」、<code>skills/_canonical/</code> 与产品代码同级做扩展、0.5.9 layout 升级由 Agent 自己读 SKILL 跑 phase grammar——这是「AI 操作自家软件」的早期范本。</li><li><strong>稀缺生态位</strong>：2.7k stars 远低于工程复杂度；FailproofAI / oh-my-agent / LobeHub 各自抢一块，没人把「跨 harness 编排 + tmux-as-transport + queue-as-state」三者一起做出来。</li></ul>
+<h2>项目展示</h2>
+<p><img src="https://raw.githubusercontent.com/mvschwarz/openrig/main/assets/readme/openrig-agents-working.gif" alt="OpenRig TUI 真机录制：多 Agent 协同工作" /></p>
+<blockquote><p>README hero GIF：七个 agent seat 在三组 pod 中实时协作，1.3MB 真机录制。</p></blockquote>
+<p><img src="https://raw.githubusercontent.com/mvschwarz/openrig/main/assets/ui/screenshots/tui-topology.png" alt="OpenRig TUI 拓扑图：产品/开发/QA 三组 pod 下的七个 seat" /></p>
+<blockquote><p>架构截图：seat/pod/rig 三层关系一目了然，正是 OpenRig 的核心抽象可视化。</p></blockquote>
+<p><img src="https://star-history.com/#mvschwarz/openrig&amp;Date" alt="Star History Chart" /></p>
+<blockquote><p>Star 增长曲线：从立项到 2.7k 持续上行，未见饱和。</p></blockquote>
+<p><a href="https://openrig.dev">Interactive OpenRig TUI demo</a> — 官网交互式 demo，标注「uses fictional data; nothing runs」，但拓扑和操作是真实的。</p>
+<h2>项目画像</h2>
+<table><thead><tr><th>维度</th><th>数据</th></tr></thead><tbody><tr><td>Star / Fork</td><td>2,722 / 196</td></tr><tr><td>Watcher</td><td>14</td></tr><tr><td>代码行数</td><td>482,167 行（3,027 文件；TypeScript 82.0% + TSX 12.1% + JSON/YAML 1.8% + 其他）</td></tr><tr><td>注释行</td><td>98,730（注释比 20.5%）</td></tr><tr><td>项目年龄</td><td>6.3 个月（首提交 2026-03-23，最近 2026-09-30）</td></tr><tr><td>开发阶段</td><td>密集开发（38 tags / 36 releases，平均 5 天一版；周末 23.4% + 夜间 40.9%）</td></tr><tr><td>贡献模式</td><td>独立开发 + dogfooding（<code>v-openrig-build</code> bot 占 49.1%，mvschwarz 个人 40.0%；社区贡献 ~1%）</td></tr><tr><td>巴士系数</td><td>1（单点风险显著）</td></tr><tr><td>热度定位</td><td>中等热度（2.7k stars，工程复杂度远超 star 数）</td></tr><tr><td>许可证</td><td>Apache 2.0</td></tr><tr><td>Open issue/PR</td><td>57 + 32 = 89</td></tr><tr><td>质量评级</td><td>代码[优] 文档[优] 测试[充分]</td></tr></tbody></table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p><strong>Mike Schwarz（@mvschwarz）</strong>，Esoteric Labs 创始人，账号 2.3 年龄，140 followers，18 个 public repo——但<strong>整个账号基本只产出 OpenRig 这一个项目</strong>：把 OpenRig 当产品做，不是副业。bio、shell 公司、单一仓库投入 98.8% 的个人 commit，都是「all in」的信号。</p>
+<p>最有趣的数字：<code>v-openrig-build</code> bot 贡献了 1,510 个 commit（49.1%），mvschwarz 个人 1,506 + 同人不同 email 的 481 = 40.0%+15.6%。<strong>OpenRig 仓库自己的开发流由 OpenRig 编排工具在跑</strong>——CHANGELOG 里大量 <code>chore(release): prepare x.y.z</code> 就是这种 agent 自用的痕迹。这是罕见的「自己 dogfood 自己」开发模式。</p>
+<h3>问题判断</h3>
+<p>作者在 README 第一行就把行业拉开：「a harness wraps a model. a rig wraps your harnesses.」</p>
+<p>他看到的问题：</p>
+<ul><li><strong>单 harness 缺跨会话事务/恢复</strong>：Claude Code、Codex 都是 CLI 工具，进程结束状态就丢；跑长任务崩溃后只能从头来。</li><li><strong>多 Agent 框架假设 agent 是无状态函数</strong>：CrewAI / AutoGen 这类把 agent 当 LLM 调用而非当「长寿命的工程师」对待。</li><li><strong>终端复用器只解决「看得见」不解决「听得到」</strong>：tmux 能开 10 个 pane，但你没法让 pane A 知道 pane B 完成了某件事、然后基于此推进。</li><li><strong>时机</strong>：Claude Code / Codex CLI 都在 2025 年内成熟到可被编排层包装，作者卡在了「harness 上架后的真空期」立项（2026-03）。</li></ul>
+<h3>解法哲学</h3>
+<p><strong>编排层 vs 智能体层硬分离</strong>：OpenRig 不做 agent，只做 harness 的编排层。Agent 怎么想、怎么写代码、怎么用工具，OpenRig 一概不管；它只管「身份、消息、状态、恢复、编排」。这种分离让 OpenRig 可以同时挂载 Claude Code / Codex / Pi / Herdr / cmux 五个 runtime，互不污染。</p>
+<p><strong>Unix 哲学 &gt; 大而全</strong>：daemon 仅 8 个运行时依赖（hono + better-sqlite3 + tar + ulid + yaml + smol-toml + node-server/ws），无 ORM / DI / 框架。CHANGELOG 写「agent-readable release notes for coding agents and human operators」——克制到几乎没有营销味。</p>
+<p><strong>诚实高于乐观</strong>：5 文件联合的「Resume Honesty State Machine」——把恢复从 happy-path 假设改成 typed state machine，明确告诉调用方「我现在是 5 种恢复状态里的哪一种」。这是少数开源项目愿意在公开 API 上承认「我可能恢复不了」的工程态度。</p>
+<p><strong>明确不做什么</strong>：不做 IDE、不做 SaaS、不做 agent 框架、不替代 Claude Code / Codex——这些「不做什么」和 feature 列表一样重要。</p>
+<h3>战略意图</h3>
+<ul><li><strong>核心产品独立化</strong>：Esoteric Labs 这个壳公司是商业化容器（Apache 2.0 不要求，但产品化需要）。</li><li><strong>无 SaaS 计划</strong>：从 README 到文档反复强调「runs locally」「你的代码不出本机」——赌的是开发者对数据主权的敏感。</li><li><strong>生态位护城河</strong>：「harness 之上的 orchestrator」这一定位介于 agent 框架（AutoGen）和 IDE（Cursor）之间，目前几乎没第二家在做。</li></ul>
+<blockquote><p>官方博客 <a href="https://openrig.dev">openrig.dev</a> 有完整设计哲学陈述，文档目录 <code>docs/DESIGN/</code> 也有同源内容；无独立 Medium / 个人博客。</p></blockquote>
+<h2>核心价值提炼</h2>
+<h3>创新之处（按新颖度 × 实用性排序）</h3>
+<ol><li><strong>「新颖 5/5 × 实用 5/5」Agent-Operated Migration Skill</strong>：v0.5.9 layout 升级不是脚本迁移，而是 agent 读 SKILL.md 跑 phase grammar——「让 AI 操作自家软件」是早期但清晰的范本。</li><li><strong>「新颖 5/5 × 实用 4/5」NodeOriented Challenge-Verified State</strong>：「启动状态」与「内容验证」解耦——一个 node 状态可以是「已启动但未挑战通过」，强制把验证当作独立的一阶概念而非启动的副作用。</li><li><strong>「新颖 5/5 × 实用 5/5」Resume Honesty 5 文件联合</strong>：恢复不再是 happy-path 假设，而是一个 5 文件联合维护的 typed state machine（<code>lifecycle-snapshot-restore.md</code> §3），每个状态转换都被类型系统约束。</li><li><strong>「新颖 4/5 × 实用 5/5」5 方法 RuntimeAdapter 契约</strong>：<code>runtime-adapter.ts:127</code> 把「挂一个新 agent runtime」的成本降到 5 个方法——<code>bootstrap / send / observe / teardown / probe</code>，加新 runtime 的边际成本近乎线性。</li><li><strong>「新颖 4/5 × 实用 5/5」Hot-Potato Closure 契约</strong>：<code>hot-potato-enforcer.ts</code> 用「传完即关」语义强制消息接收方对消息负责——避免「消息发出去了但没人 ack」的悬挂。</li><li><strong>「新颖 4/5 × 实用 4/5」Process Census Coalescing</strong>：进程存在性检查不是单点查询，而是「按时间窗口合并」——避免高频心跳风暴。</li><li><strong>「新颖 4/5 × 实用 4/5」SnapshotTopologyRoster + Explicit Occupant Truth</strong>：把「拓扑」和「occupant（当前谁在）」作为两个独立 first-class 概念建模，operator identity 不再隐式。</li><li><strong>「新颖 4/5 × 实用 4/5」Born-Armed Watchdog via onCreate Callback</strong>：watchdog 不是「创建后再启动」，而是在 onCreate 回调里就强制绑定——「一出生就武装」。</li><li><strong>「新颖 4/5 × 实用 4/5」Mirror-Skills + Generate-Context-Packs Pipeline</strong>：把外部 skills 镜像到 <code>skills/_canonical/</code> 然后生成 context packs——避免运行时漂移。</li><li><strong>「新颖 4/5 × 实用 5/5」Agent-Readable CHANGELOG（200KB）</strong>：CHANGELOG 不是给人读的散文，而是给 AI agent 读的「带 schema 的事件流」——这是「为 AI 设计的产品」的最具体落地。</li></ol>
+<h3>可复用的模式与技巧</h3>
+<table><thead><tr><th>模式</th><th>文件 / 路径</th><th>迁移难度</th><th>收益</th></tr></thead><tbody><tr><td>Hono-Free Domain Services</td><td><code>packages/daemon/src/domain/</code>（173 文件）</td><td>半天</td><td>框架污染度降到最低</td></tr><tr><td>Hot-Potato Closure</td><td><code>packages/daemon/src/domain/hot-potato-enforcer.ts</code></td><td>半天</td><td>异步消息「无人 ack」问题根治</td></tr><tr><td>Resume Honesty State Machine</td><td><code>docs/as-built/architecture/lifecycle-snapshot-restore.md</code> §3</td><td>1 天</td><td>进程级恢复从 happy-path 升级为类型系统约束</td></tr><tr><td>Mirror-Skills + Generate-Context-Packs</td><td><code>scripts/mirror-skills.ts</code> + <code>scripts/generate-context-packs.ts</code></td><td>2 小时</td><td>外部 skill 漂移问题</td></tr><tr><td>Born-Armed via onCreate Callback</td><td><code>startup.ts</code> 装配根</td><td>半天</td><td>watchdog 不再漏启动</td></tr><tr><td>Process Census Coalescing</td><td><code>OPR.0.5.3.10</code>（CHANGELOG 锚点）</td><td>1 小时</td><td>心跳风暴问题</td></tr><tr><td>Discriminated-Union Launch Result</td><td><code>runtime-adapter.ts:106-119</code> <code>ForkSource</code></td><td>1 小时</td><td>启动失败原因的机器可读</td></tr><tr><td>Sliding-Window Activity Evidence Source</td><td>daemon 内部</td><td>1 小时</td><td>活动性证据而非瞬时心跳</td></tr><tr><td>Snapshot Topology + Explicit Occupant Truth</td><td><code>domain/topology-snapshot.ts</code></td><td>2 小时</td><td>拓扑与 occupant 解耦</td></tr></tbody></table>
+<h3>关键设计决策</h3>
+<ol><li><strong>tmux-as-message-bus 而非 message queue</strong>：选择 tmux 当传输层（<code>rig send</code>）是为了让用户能「直接打开一个 pane 看 agent 在做什么」。trade-off：tmux 进程崩溃 = 消息层崩溃，但作者认为「看得见」比「永不丢」更重要。</li><li><strong>SQLite 当事件总线 + 队列 + 聊天</strong>：5 张协调表承担所有跨 seat 协调（<code>queue / topology / identity / restore / bundle</code>）。trade-off：单机限制明显，但换来「零依赖、单进程、单文件」的运维简单。</li><li><strong>Dogfooding 的 49.2% commit</strong>：作者不只是用 OpenRig 跑开发——他让 OpenRig 自己生产自己的 release notes、自己处理部分 PR 流程。这是少数把「eat your own dog food」做到「dog 自己做 dog food」的开源项目。</li><li><strong>skills/_canonical/ 与 packages/ 同级</strong>：skills 不是藏在 <code>packages/</code> 子目录，而是顶层 <code>skills/_canonical/</code>——<strong>故意做成「和代码等权的扩展机制」</strong>，让社区贡献 skill 的心智门槛降到和贡献代码一致。</li><li><strong>CHANGELOG 200KB + agent-readable 定位</strong>：每条变更都列 PR/issue 链接 + thanks + 限定语（<code>this does not cover all historical scenarios</code> / <code>no new validation of those experiments is claimed</code>）。<strong>工程上极克制，避免 over-claim</strong>。</li></ol>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table><thead><tr><th>维度</th><th>OpenRig</th><th>FailproofAI</th><th>oh-my-agent</th><th>LobeHub</th><th>Team-Commonly</th></tr></thead><tbody><tr><td>定位</td><td>Harness 之上的 orchestrator</td><td>Harness 旁路观测/策略</td><td>Mechanical verification (judge)</td><td>Chief Agent Operator + UI</td><td>Cross-vendor agent room</td></tr><tr><td>多 runtime</td><td>✅ Claude/Codex/Pi/Herdr/cmux</td><td>❌ 单一 vendor</td><td>❌ 单一</td><td>⚠️ 多但抽象薄</td><td>✅ 多</td></tr><tr><td>长期持久化</td><td>✅ SQLite + tmux</td><td>❌ 旁路无状态</td><td>❌ 单次任务</td><td>⚠️ 需服务端</td><td>⚠️ 会话级</td></tr><tr><td>恢复模型</td><td>✅ Resume Honesty typed state machine</td><td>❌ 无</td><td>❌ 无</td><td>⚠️ 简单 retry</td><td>❌ 无</td></tr><tr><td>本地运行</td><td>✅ 默认本地</td><td>⚠️ 部分本地</td><td>✅ 完全本地</td><td>❌ 偏服务端</td><td>⚠️ 混合</td></tr><tr><td>观测/可观测</td><td>✅ topology + occupant</td><td>✅✅ 核心</td><td>⚠️ 仅 judge 结果</td><td>⚠️ UI 可见</td><td>⚠️ room 内</td></tr><tr><td>准入门槛</td><td>中（需要懂 tmux + agent）</td><td>低</td><td>低</td><td>低</td><td>低</td></tr></tbody></table>
+<h3>差异化护城河</h3>
+<ul><li><strong>技术护城河</strong>：5-Method Adapter 契约 + Resume Honesty State Machine + Snapshot Topology 与 Occupant Truth 解耦——三者联合让「跨 runtime + 长寿命 + 可恢复」成为可能，竞品需要至少 1-2 年才能追上。</li><li><strong>生态护城河</strong>：MCP 17 tools + Herdr/cmux runtime adapter——OpenRig 在「agent runtime 协议层」开始有 factotum 角色。</li><li><strong>信任护城河</strong>：Apache 2.0 + 完全本地 + 49.2% dogfooding commit——这三件事一起做出来的开源项目屈指可数。</li></ul>
+<h3>竞争风险</h3>
+<ul><li><strong>最可能被替代方向</strong>：</li><li><strong>FailproofAI</strong> 抢观测/策略层（如果他们扩到编排，OpenRig 必须保住「编排主战场」）</li><li><strong>oh-my-agent</strong> 抢 quality gate（如果他们扩到长任务，OpenRig 必须保住「跨会话恢复」）</li><li><strong>不会被直接替代</strong>：LobeHub（目标客户不同）、Chorus（流程化分工不是 OpenRig 战场）</li><li><strong>上游风险</strong>：Codex 0.157+ 共享 daemon（issue #69）、Claude Code worktree bubblewrap（#121）——任一上游行为变化都触发 issue，OpenRig 必须持续追踪。</li></ul>
+<h3>生态定位</h3>
+<p>在整个 AI agent 生态中扮演「harness 与 operator 之间的 infra layer」：</p>
+<pre>Agent Runtime（Claude Code / Codex / Pi）
+        ↑ wrapped by
+Harness   (一层包装，agent 怎么想)
+        ↑ wrapped by
+Orchestrator/Rig   (OpenRig 在这一层)
+        ↑ powered by
+Operator UI   (TUI + Web)</pre>
+<p>这是「harness vs rig」分层哲学的具象——OpenRig 占据了一个几乎空白的生态位。</p>
+<h2>套利机会分析</h2>
+<ul><li><strong>信息差</strong>：2.7k stars 远低于工程复杂度。48 万行 TypeScript + 38 个 release + Apache 2.0 + 完全本地——这套组合在 star 数上严重低估。</li><li><strong>技术借鉴</strong>：5-Method Adapter / Hono-Free Domain / Hot-Potato Closure / Mirror-Skills Pipeline 都是「任何项目都能半天内学会」的硬技巧。</li><li><strong>生态位</strong>：跨 harness CLI 编排 + tmux-as-transport + queue-as-state 三者联合的窄但可工程化的位置——目前没有第二家在做。</li><li><strong>趋势判断</strong>：AI CLI 化（Claude Code / Codex CLI / Pi / Herdr）是 2025-2026 大趋势，OpenRig 卡在「harness 上架后的真空期」是后发优势位；预计 12-18 个月内会出现 3-5 个模仿者，但 dogfooding + Apache 2.0 + 本地默认的组合不易复制。</li></ul>
+<h2>风险与不足</h2>
+<ul><li><strong>单点作者风险</strong>：巴士系数 1，mvschwarz 离开 = 项目停摆。社区贡献仅 ~1%，外部贡献者门槛高（必须读懂 <code>startup.ts</code> 2356 行 + <code>domain/types.ts</code> 1423 行 + <code>rigspec-instantiator.ts</code> 2536 行的演进史）。</li><li><strong>复合复杂度</strong>：<code>startup.ts</code> 2356 行单文件、<code>domain/</code> 281 文件颗粒度过细——单人项目下合理，但贡献者扩展门槛极高。</li><li><strong>上游锁定</strong>：依赖 Codex CLI / Claude Code / tmux / Herdr 多个上游行为；issue #69 / #64 / #116 都是上游 breaking 引起的连锁问题。</li><li><strong>路线图缺口</strong>：context compaction（issue #27）尚未上主线，多 seat 命名空间冲突（#64）未收敛。</li><li><strong>CHANGELOG 200KB</strong>：agent-readable 定位值得赞，但人类阅读体验下降，需 docs 分层整理。</li><li><strong>无 ESLint-Prettier</strong>：依赖克制到连 linter 都没锁，潜在风格漂移风险。</li></ul>
+<h2>行动建议</h2>
+<h3>如果你要用它</h3>
+<ul><li><strong>适用场景</strong>：</li><li>你已经在用 Claude Code / Codex CLI 跑长任务并被崩溃恢复困扰</li><li>你需要 owner / checker / multi-pod 团队化协作（agent 之间有身份隔离）</li><li>你想让 agent 在多台机器 / 多 worktree 上协同</li><li><strong>不适用场景</strong>：</li><li>你只要 IDE 内补全（用 Cursor / Copilot）</li><li>你的任务是单次短期（用 CrewAI / AutoGen 更轻）</li><li>你需要 SaaS 化中央控制台（OpenRig 无此计划）</li></ul>
+<h3>如果你要学它</h3>
+<p><strong>优先级阅读路径</strong>（按收益 / 时间比）：</p>
+<ol><li><strong><code>packages/daemon/src/domain/runtime-adapter.ts:127</code></strong>（30 分钟）——5 方法 Adapter 契约，任何多 vendor 集成都能直接抄</li><li><strong><code>packages/daemon/src/domain/hot-potato-enforcer.ts</code></strong>（1 小时）——Hot-Potato Closure，异步消息「无人 ack」问题根治</li><li><strong><code>docs/as-built/architecture/lifecycle-snapshot-restore.md</code></strong> §3（半天）——Resume Honesty State Machine，恢复设计的范本</li><li><strong><code>packages/daemon/src/startup.ts</code></strong>（半天）——composition root 怎么从 252 changes 长成 2356 行</li><li><strong><code>scripts/mirror-skills.ts</code> + <code>scripts/generate-context-packs.ts</code></strong>（1 小时）——skills 镜像 + context packs 生成流水线</li></ol>
+<h3>如果你要 fork 它</h3>
+<p>可改进的方向：</p>
+<ul><li><strong>拆分 <code>startup.ts</code></strong>：2356 行 composition root 应按生命周期阶段拆 5-8 个文件</li><li><strong><code>domain/</code> 加 codemap</strong>：281 个细粒度文件需要一个 <code>INDEX.md</code> 帮助新人定位</li><li><strong>CHANGELOG 拆分</strong>：200KB 按版本号分文件 + 生成 <code>SUMMARY.md</code></li><li><strong>优先实现 Issue #27 Context &amp; Compaction</strong>：这是 roadmap 关键缺口，先做的人抢心智</li><li><strong>维护 Vendor Compatibility Tracker</strong>：把 Codex / Claude Code / tmux 的 breaking changes 系统化追踪</li><li><strong>降低贡献门槛</strong>：把 <code>runtime-adapter.ts</code> 的 5 方法写成「30 分钟加一个新 runtime」的教程</li></ul>
+<h3>知识入口</h3>
+<table><thead><tr><th>资源</th><th>链接</th></tr></thead><tbody><tr><td>Zread.ai</td><td>未收录</td></tr><tr><td>官网 + 设计博客</td><td><a href="https://openrig.dev">https://openrig.dev</a></td></tr><tr><td>架构文档</td><td><code>docs/as-built/architecture/</code>（daemon-core / coordination-primitive / adapters-and-runtimes / lifecycle-snapshot-restore）</td></tr><tr><td>设计哲学</td><td><code>docs/DESIGN/</code></td></tr><tr><td>Agent-readable 历史</td><td><code>CHANGELOG.md</code>（200KB）</td></tr><tr><td>交互式 demo</td><td><a href="https://openrig.dev">https://openrig.dev</a>（标注「uses fictional data; nothing runs」）</td></tr><tr><td>Star History</td><td><a href="https://star-history.com/#mvschwarz/openrig&amp;Date">https://star-history.com/#mvschwarz/openrig&amp;Date</a></td></tr></tbody></table>
+</body>
+</html>

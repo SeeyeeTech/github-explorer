@@ -1,0 +1,6 @@
+{
+  "title": "一个人 6 个月把 tmux 做成多 Agent 编排总线：OpenRig 2.7k stars 范本拆解",
+  "digest": "OpenRig 把 tmux 当消息总线、SQLite 当事件队列，5 方法 Adapter 把 Claude Code / Codex 编排成可恢复团队，单人 6 个月 38 release，49% 由自家 bot 写。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

@@ -20,6 +20,16 @@
     "trending_days": 39
   },
   {
+    "name": "mattpocock/skills",
+    "url": "https://github.com/mattpocock/skills",
+    "language": "Shell",
+    "stars": 272776,
+    "forks": 22949,
+    "description": "Skills for Real Engineers. Straight from my .agents directory.",
+    "last_seen": "2026-09-30",
+    "trending_days": 36
+  },
+  {
     "name": "nvm-sh/nvm",
     "url": "https://github.com/nvm-sh/nvm",
     "language": "Shell",
@@ -28,16 +38,6 @@
     "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions. $nvm: 3ArcxqLtXMmBnWbbtfwQgVL3MNnDsggzgGDtXMnjpump",
     "last_seen": "2026-09-05",
     "trending_days": 36
-  },
-  {
-    "name": "mattpocock/skills",
-    "url": "https://github.com/mattpocock/skills",
-    "language": "Shell",
-    "stars": 269520,
-    "forks": 22716,
-    "description": "Skills for Real Engineers. Straight from my .agents directory.",
-    "last_seen": "2026-09-25",
-    "trending_days": 35
   },
   {
     "name": "affaan-m/ECC",
@@ -300,6 +300,16 @@
     "trending_days": 22
   },
   {
+    "name": "harry0703/MoneyPrinterTurbo",
+    "url": "https://github.com/harry0703/moneyprinterturbo",
+    "language": "Python",
+    "stars": 127395,
+    "forks": 19924,
+    "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+    "last_seen": "2026-09-30",
+    "trending_days": 21
+  },
+  {
     "name": "GibsonAI/Memori",
     "url": "https://github.com/gibsonai/memori",
     "language": "Python",
@@ -307,16 +317,6 @@
     "forks": 626,
     "description": "Open-Source Memory Engine for LLMs, AI Agents & Multi-Agent Systems",
     "last_seen": "2025-12-02",
-    "trending_days": 20
-  },
-  {
-    "name": "harry0703/MoneyPrinterTurbo",
-    "url": "https://github.com/harry0703/moneyprinterturbo",
-    "language": "Python",
-    "stars": 114359,
-    "forks": 17357,
-    "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-    "last_seen": "2026-08-22",
     "trending_days": 20
   },
   {
@@ -560,6 +560,16 @@
     "trending_days": 14
   },
   {
+    "name": "openclaw/openclaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "language": "TypeScript",
+    "stars": 390896,
+    "forks": 82210,
+    "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
+    "last_seen": "2026-09-30",
+    "trending_days": 14
+  },
+  {
     "name": "tinyhumansai/openhuman",
     "url": "https://github.com/tinyhumansai/openhuman",
     "language": "Rust",
@@ -597,16 +607,6 @@
     "forks": 1388,
     "description": "The absolute trainer to light up AI agents.",
     "last_seen": "2026-03-31",
-    "trending_days": 13
-  },
-  {
-    "name": "openclaw/openclaw",
-    "url": "https://github.com/openclaw/openclaw",
-    "language": "TypeScript",
-    "stars": 387298,
-    "forks": 81332,
-    "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
-    "last_seen": "2026-08-24",
     "trending_days": 13
   },
   {
@@ -700,6 +700,16 @@
     "trending_days": 12
   },
   {
+    "name": "VectifyAI/PageIndex",
+    "url": "https://github.com/vectifyai/pageindex",
+    "language": "Python",
+    "stars": 37986,
+    "forks": 3299,
+    "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+    "last_seen": "2026-09-30",
+    "trending_days": 12
+  },
+  {
     "name": "virattt/dexter",
     "url": "https://github.com/virattt/dexter",
     "language": "TypeScript",
@@ -747,6 +757,26 @@
     "forks": 5771,
     "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
     "last_seen": "2026-05-12",
+    "trending_days": 11
+  },
+  {
+    "name": "debpalash/VoiceStudio",
+    "url": "https://github.com/debpalash/voicestudio",
+    "language": "Python",
+    "stars": 50030,
+    "forks": 5561,
+    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+    "last_seen": "2026-09-30",
+    "trending_days": 11
+  },
+  {
+    "name": "DietrichGebert/ponytail",
+    "url": "https://github.com/dietrichgebert/ponytail",
+    "language": "JavaScript",
+    "stars": 148856,
+    "forks": 8005,
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "last_seen": "2026-09-30",
     "trending_days": 11
   },
   {
@@ -860,16 +890,6 @@
     "trending_days": 11
   },
   {
-    "name": "VectifyAI/PageIndex",
-    "url": "https://github.com/vectifyai/pageindex",
-    "language": "Python",
-    "stars": 37042,
-    "forks": 3241,
-    "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
-    "last_seen": "2026-09-29",
-    "trending_days": 11
-  },
-  {
     "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
     "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
     "language": "Unknown",
@@ -910,23 +930,13 @@
     "trending_days": 10
   },
   {
-    "name": "debpalash/VoiceStudio",
-    "url": "https://github.com/debpalash/voicestudio",
-    "language": "Python",
-    "stars": 47180,
-    "forks": 5321,
-    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-    "last_seen": "2026-09-29",
-    "trending_days": 10
-  },
-  {
-    "name": "DietrichGebert/ponytail",
-    "url": "https://github.com/dietrichgebert/ponytail",
-    "language": "JavaScript",
-    "stars": 128786,
-    "forks": 6899,
-    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "last_seen": "2026-09-06",
+    "name": "colbymchenry/codegraph",
+    "url": "https://github.com/colbymchenry/codegraph",
+    "language": "C",
+    "stars": 72512,
+    "forks": 4660,
+    "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+    "last_seen": "2026-09-30",
     "trending_days": 10
   },
   {
@@ -1057,16 +1067,6 @@
     "forks": 3697,
     "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
     "last_seen": "2026-06-17",
-    "trending_days": 9
-  },
-  {
-    "name": "colbymchenry/codegraph",
-    "url": "https://github.com/colbymchenry/codegraph",
-    "language": "TypeScript",
-    "stars": 24253,
-    "forks": 1333,
-    "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
-    "last_seen": "2026-05-25",
     "trending_days": 9
   },
   {
@@ -1410,6 +1410,16 @@
     "trending_days": 8
   },
   {
+    "name": "ComposioHQ/awesome-claude-skills",
+    "url": "https://github.com/composiohq/awesome-claude-skills",
+    "language": "Python",
+    "stars": 76031,
+    "forks": 8871,
+    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+    "last_seen": "2026-09-30",
+    "trending_days": 8
+  },
+  {
     "name": "diegosouzapw/OmniRoute",
     "url": "https://github.com/diegosouzapw/omniroute",
     "language": "TypeScript",
@@ -1657,16 +1667,6 @@
     "forks": 6255,
     "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
     "last_seen": "2026-09-13",
-    "trending_days": 7
-  },
-  {
-    "name": "ComposioHQ/awesome-claude-skills",
-    "url": "https://github.com/composiohq/awesome-claude-skills",
-    "language": "Python",
-    "stars": 73570,
-    "forks": 8437,
-    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-    "last_seen": "2026-08-27",
     "trending_days": 7
   },
   {
@@ -3060,6 +3060,16 @@
     "trending_days": 5
   },
   {
+    "name": "mksglu/context-mode",
+    "url": "https://github.com/mksglu/context-mode",
+    "language": "TypeScript",
+    "stars": 24373,
+    "forks": 1763,
+    "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+    "last_seen": "2026-09-30",
+    "trending_days": 5
+  },
+  {
     "name": "moonshine-ai/moonshine",
     "url": "https://github.com/moonshine-ai/moonshine",
     "language": "C++",
@@ -3840,6 +3850,16 @@
     "trending_days": 4
   },
   {
+    "name": "heygen-com/hyperframes",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "language": "TypeScript",
+    "stars": 54542,
+    "forks": 4956,
+    "description": "Write HTML. Render video. Built for agents.",
+    "last_seen": "2026-09-30",
+    "trending_days": 4
+  },
+  {
     "name": "home-assistant/core",
     "url": "https://github.com/home-assistant/core",
     "language": "Python",
@@ -4080,16 +4100,6 @@
     "trending_days": 4
   },
   {
-    "name": "mksglu/context-mode",
-    "url": "https://github.com/mksglu/context-mode",
-    "language": "TypeScript",
-    "stars": 21256,
-    "forks": 1540,
-    "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-    "last_seen": "2026-09-08",
-    "trending_days": 4
-  },
-  {
     "name": "MODSetter/SurfSense",
     "url": "https://github.com/modsetter/surfsense",
     "language": "Python",
@@ -4120,6 +4130,16 @@
     "trending_days": 4
   },
   {
+    "name": "mvschwarz/openrig",
+    "url": "https://github.com/mvschwarz/openrig",
+    "language": "TypeScript",
+    "stars": 2831,
+    "forks": 199,
+    "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+    "last_seen": "2026-09-30",
+    "trending_days": 4
+  },
+  {
     "name": "mvt-project/mvt",
     "url": "https://github.com/mvt-project/mvt",
     "language": "Python",
@@ -4137,6 +4157,16 @@
     "forks": 466,
     "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
     "last_seen": "2026-06-19",
+    "trending_days": 4
+  },
+  {
+    "name": "NawfalMotii79/PLFM_RADAR",
+    "url": "https://github.com/nawfalmotii79/plfm_radar",
+    "language": "PLSQL",
+    "stars": 26353,
+    "forks": 5965,
+    "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+    "last_seen": "2026-09-30",
     "trending_days": 4
   },
   {
@@ -5190,16 +5220,6 @@
     "trending_days": 3
   },
   {
-    "name": "heygen-com/hyperframes",
-    "url": "https://github.com/heygen-com/hyperframes",
-    "language": "TypeScript",
-    "stars": 47453,
-    "forks": 4379,
-    "description": "Write HTML. Render video. Built for agents.",
-    "last_seen": "2026-09-08",
-    "trending_days": 3
-  },
-  {
     "name": "HKUDS/AI-Trader",
     "url": "https://github.com/hkuds/ai-trader",
     "language": "Python",
@@ -5587,26 +5607,6 @@
     "forks": 3061,
     "description": "The Modular Platform (includes MAX & Mojo)",
     "last_seen": "2026-08-22",
-    "trending_days": 3
-  },
-  {
-    "name": "mvschwarz/openrig",
-    "url": "https://github.com/mvschwarz/openrig",
-    "language": "TypeScript",
-    "stars": 2221,
-    "forks": 164,
-    "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
-    "last_seen": "2026-09-29",
-    "trending_days": 3
-  },
-  {
-    "name": "NawfalMotii79/PLFM_RADAR",
-    "url": "https://github.com/nawfalmotii79/plfm_radar",
-    "language": "PLSQL",
-    "stars": 25684,
-    "forks": 5882,
-    "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
-    "last_seen": "2026-09-28",
     "trending_days": 3
   },
   {
@@ -6657,6 +6657,16 @@
     "forks": 2487,
     "description": "PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero",
     "last_seen": "2025-10-01",
+    "trending_days": 2
+  },
+  {
+    "name": "byoungd/up",
+    "url": "https://github.com/byoungd/up",
+    "language": "JavaScript",
+    "stars": 66278,
+    "forks": 6631,
+    "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
+    "last_seen": "2026-09-30",
     "trending_days": 2
   },
   {
@@ -8160,6 +8170,16 @@
     "trending_days": 2
   },
   {
+    "name": "NVIDIA/OpenShell",
+    "url": "https://github.com/nvidia/openshell",
+    "language": "Rust",
+    "stars": 11901,
+    "forks": 1503,
+    "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+    "last_seen": "2026-09-30",
+    "trending_days": 2
+  },
+  {
     "name": "oauth2-proxy/oauth2-proxy",
     "url": "https://github.com/oauth2-proxy/oauth2-proxy",
     "language": "Go",
@@ -8627,6 +8647,16 @@
     "forks": 4362,
     "description": "The systemd System and Service Manager",
     "last_seen": "2026-03-22",
+    "trending_days": 2
+  },
+  {
+    "name": "t8y2/dbx",
+    "url": "https://github.com/t8y2/dbx",
+    "language": "Rust",
+    "stars": 22973,
+    "forks": 2136,
+    "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+    "last_seen": "2026-09-30",
     "trending_days": 2
   },
   {
@@ -9670,16 +9700,6 @@
     "trending_days": 1
   },
   {
-    "name": "byoungd/up",
-    "url": "https://github.com/byoungd/up",
-    "language": "JavaScript",
-    "stars": 64576,
-    "forks": 6506,
-    "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
-    "last_seen": "2026-09-28",
-    "trending_days": 1
-  },
-  {
     "name": "bytedance/Dolphin",
     "url": "https://github.com/bytedance/dolphin",
     "language": "Python",
@@ -10287,6 +10307,16 @@
     "forks": 1271,
     "description": "A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode & Gemini CLI.",
     "last_seen": "2026-02-26",
+    "trending_days": 1
+  },
+  {
+    "name": "firebase/firebase-ios-sdk",
+    "url": "https://github.com/firebase/firebase-ios-sdk",
+    "language": "C++",
+    "stars": 6727,
+    "forks": 1798,
+    "description": "Firebase SDK for Apple App Development",
+    "last_seen": "2026-09-30",
     "trending_days": 1
   },
   {
@@ -11640,6 +11670,16 @@
     "trending_days": 1
   },
   {
+    "name": "modelcontextprotocol/servers",
+    "url": "https://github.com/modelcontextprotocol/servers",
+    "language": "TypeScript",
+    "stars": 90751,
+    "forks": 11719,
+    "description": "Model Context Protocol Servers",
+    "last_seen": "2026-09-30",
+    "trending_days": 1
+  },
+  {
     "name": "modelcontextprotocol/typescript-sdk",
     "url": "https://github.com/modelcontextprotocol/typescript-sdk",
     "language": "TypeScript",
@@ -11937,16 +11977,6 @@
     "forks": 3624,
     "description": "Ongoing research training transformer models at scale",
     "last_seen": "2026-02-25",
-    "trending_days": 1
-  },
-  {
-    "name": "NVIDIA/OpenShell",
-    "url": "https://github.com/nvidia/openshell",
-    "language": "Rust",
-    "stars": 10277,
-    "forks": 1397,
-    "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-    "last_seen": "2026-09-29",
     "trending_days": 1
   },
   {
@@ -12797,16 +12827,6 @@
     "forks": 1668,
     "description": "Faster Whisper transcription with CTranslate2",
     "last_seen": "2026-01-02",
-    "trending_days": 1
-  },
-  {
-    "name": "t8y2/dbx",
-    "url": "https://github.com/t8y2/dbx",
-    "language": "Rust",
-    "stars": 21796,
-    "forks": 2079,
-    "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
-    "last_seen": "2026-09-29",
     "trending_days": 1
   },
   {

@@ -38,6 +38,8 @@ entries:
   abhigyanpatwari_gitnexus:
   - ai-agent
   - llm-framework
+  abue-ammar_tinycast:
+  - security
   actions_checkout:
   - devtools
   - protocol-spec
@@ -319,6 +321,10 @@ entries:
   - media-generation
   automattic_harper:
   - devtools
+  averygan_reclip:
+  - devtools
+  - web-framework
+  - video-audio
   axios_axios:
   - security
   axorax_awesome-free-apps:
@@ -1759,6 +1765,11 @@ entries:
   mvanhorn_last30days-skill:
   - ai-agent
   - rag-search
+  mvschwarz_openrig:
+  - ai-agent
+  - ai-coding
+  - devtools
+  - database
   mvt-project_mvt:
   - security
   n0-computer_iroh:

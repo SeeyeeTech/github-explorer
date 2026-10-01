@@ -3,11 +3,11 @@
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "language": "Shell",
-    "stars": 291508,
-    "forks": 26089,
+    "stars": 293819,
+    "forks": 26279,
     "description": "An agentic skills framework & software development methodology that works.",
-    "last_seen": "2026-09-25",
-    "trending_days": 89
+    "last_seen": "2026-10-01",
+    "trending_days": 90
   },
   {
     "name": "TapXWorld/ChinaTextbook",
@@ -23,11 +23,11 @@
     "name": "mattpocock/skills",
     "url": "https://github.com/mattpocock/skills",
     "language": "Shell",
-    "stars": 272776,
-    "forks": 22949,
+    "stars": 273633,
+    "forks": 22986,
     "description": "Skills for Real Engineers. Straight from my .agents directory.",
-    "last_seen": "2026-09-30",
-    "trending_days": 36
+    "last_seen": "2026-10-01",
+    "trending_days": 37
   },
   {
     "name": "nvm-sh/nvm",
@@ -620,6 +620,16 @@
     "trending_days": 12
   },
   {
+    "name": "DietrichGebert/ponytail",
+    "url": "https://github.com/dietrichgebert/ponytail",
+    "language": "JavaScript",
+    "stars": 150122,
+    "forks": 8066,
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "last_seen": "2026-10-01",
+    "trending_days": 12
+  },
+  {
     "name": "Flowseal/zapret-discord-youtube",
     "url": "https://github.com/flowseal/zapret-discord-youtube",
     "language": "Batchfile",
@@ -766,16 +776,6 @@
     "stars": 50030,
     "forks": 5561,
     "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-    "last_seen": "2026-09-30",
-    "trending_days": 11
-  },
-  {
-    "name": "DietrichGebert/ponytail",
-    "url": "https://github.com/dietrichgebert/ponytail",
-    "language": "JavaScript",
-    "stars": 148856,
-    "forks": 8005,
-    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
     "last_seen": "2026-09-30",
     "trending_days": 11
   },
@@ -940,6 +940,16 @@
     "trending_days": 10
   },
   {
+    "name": "cursor/plugins",
+    "url": "https://github.com/cursor/plugins",
+    "language": "TypeScript",
+    "stars": 9278,
+    "forks": 879,
+    "description": "Cursor plugin specification and official plugins",
+    "last_seen": "2026-10-01",
+    "trending_days": 10
+  },
+  {
     "name": "dyad-sh/dyad",
     "url": "https://github.com/dyad-sh/dyad",
     "language": "TypeScript",
@@ -1067,16 +1077,6 @@
     "forks": 3697,
     "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
     "last_seen": "2026-06-17",
-    "trending_days": 9
-  },
-  {
-    "name": "cursor/plugins",
-    "url": "https://github.com/cursor/plugins",
-    "language": "TypeScript",
-    "stars": 6103,
-    "forks": 484,
-    "description": "Cursor plugin specification and official plugins",
-    "last_seen": "2026-08-29",
     "trending_days": 9
   },
   {
@@ -1267,6 +1267,16 @@
     "forks": 7053,
     "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
     "last_seen": "2026-09-14",
+    "trending_days": 9
+  },
+  {
+    "name": "pbakaus/impeccable",
+    "url": "https://github.com/pbakaus/impeccable",
+    "language": "JavaScript",
+    "stars": 73468,
+    "forks": 4432,
+    "description": "The design language that makes your AI harness better at design.",
+    "last_seen": "2026-10-01",
     "trending_days": 9
   },
   {
@@ -1547,16 +1557,6 @@
     "forks": 16014,
     "description": "The open-source app everyone uses to manage agents at work",
     "last_seen": "2026-09-29",
-    "trending_days": 8
-  },
-  {
-    "name": "pbakaus/impeccable",
-    "url": "https://github.com/pbakaus/impeccable",
-    "language": "JavaScript",
-    "stars": 71010,
-    "forks": 4307,
-    "description": "The design language that makes your AI harness better at design.",
-    "last_seen": "2026-09-25",
     "trending_days": 8
   },
   {
@@ -2340,6 +2340,16 @@
     "trending_days": 6
   },
   {
+    "name": "HunxByts/GhostTrack",
+    "url": "https://github.com/hunxbyts/ghosttrack",
+    "language": "Python",
+    "stars": 16270,
+    "forks": 2244,
+    "description": "Useful tool to track location or mobile number",
+    "last_seen": "2026-10-01",
+    "trending_days": 6
+  },
+  {
     "name": "immich-app/immich",
     "url": "https://github.com/immich-app/immich",
     "language": "TypeScript",
@@ -2467,6 +2477,16 @@
     "forks": 61517,
     "description": "21 Lessons, Get Started Building with Generative AI",
     "last_seen": "2026-08-04",
+    "trending_days": 6
+  },
+  {
+    "name": "mksglu/context-mode",
+    "url": "https://github.com/mksglu/context-mode",
+    "language": "TypeScript",
+    "stars": 24710,
+    "forks": 1777,
+    "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+    "last_seen": "2026-10-01",
     "trending_days": 6
   },
   {
@@ -2930,6 +2950,16 @@
     "trending_days": 5
   },
   {
+    "name": "heygen-com/hyperframes",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "language": "TypeScript",
+    "stars": 55183,
+    "forks": 5008,
+    "description": "Write HTML. Render video. Built for agents.",
+    "last_seen": "2026-10-01",
+    "trending_days": 5
+  },
+  {
     "name": "HKUDS/RAG-Anything",
     "url": "https://github.com/hkuds/rag-anything",
     "language": "Python",
@@ -2957,16 +2987,6 @@
     "forks": 364,
     "description": "The best way to get AI coding agents to solve hard problems in complex codebases.",
     "last_seen": "2025-09-29",
-    "trending_days": 5
-  },
-  {
-    "name": "HunxByts/GhostTrack",
-    "url": "https://github.com/hunxbyts/ghosttrack",
-    "language": "Python",
-    "stars": 13577,
-    "forks": 1824,
-    "description": "Useful tool to track location or mobile number",
-    "last_seen": "2026-06-07",
     "trending_days": 5
   },
   {
@@ -3060,16 +3080,6 @@
     "trending_days": 5
   },
   {
-    "name": "mksglu/context-mode",
-    "url": "https://github.com/mksglu/context-mode",
-    "language": "TypeScript",
-    "stars": 24373,
-    "forks": 1763,
-    "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-    "last_seen": "2026-09-30",
-    "trending_days": 5
-  },
-  {
     "name": "moonshine-ai/moonshine",
     "url": "https://github.com/moonshine-ai/moonshine",
     "language": "C++",
@@ -3097,6 +3107,16 @@
     "forks": 450,
     "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
     "last_seen": "2026-06-16",
+    "trending_days": 5
+  },
+  {
+    "name": "mvschwarz/openrig",
+    "url": "https://github.com/mvschwarz/openrig",
+    "language": "TypeScript",
+    "stars": 3513,
+    "forks": 236,
+    "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+    "last_seen": "2026-10-01",
     "trending_days": 5
   },
   {
@@ -3850,16 +3870,6 @@
     "trending_days": 4
   },
   {
-    "name": "heygen-com/hyperframes",
-    "url": "https://github.com/heygen-com/hyperframes",
-    "language": "TypeScript",
-    "stars": 54542,
-    "forks": 4956,
-    "description": "Write HTML. Render video. Built for agents.",
-    "last_seen": "2026-09-30",
-    "trending_days": 4
-  },
-  {
     "name": "home-assistant/core",
     "url": "https://github.com/home-assistant/core",
     "language": "Python",
@@ -4127,16 +4137,6 @@
     "forks": 1000,
     "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
     "last_seen": "2026-09-16",
-    "trending_days": 4
-  },
-  {
-    "name": "mvschwarz/openrig",
-    "url": "https://github.com/mvschwarz/openrig",
-    "language": "TypeScript",
-    "stars": 2831,
-    "forks": 199,
-    "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
-    "last_seen": "2026-09-30",
     "trending_days": 4
   },
   {
@@ -5020,6 +5020,16 @@
     "trending_days": 3
   },
   {
+    "name": "earendil-works/pi",
+    "url": "https://github.com/earendil-works/pi",
+    "language": "TypeScript",
+    "stars": 111042,
+    "forks": 14114,
+    "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+    "last_seen": "2026-10-01",
+    "trending_days": 3
+  },
+  {
     "name": "earthtojake/text-to-cad",
     "url": "https://github.com/earthtojake/text-to-cad",
     "language": "Python",
@@ -5647,6 +5657,16 @@
     "forks": 660,
     "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
     "last_seen": "2026-09-26",
+    "trending_days": 3
+  },
+  {
+    "name": "NVIDIA/OpenShell",
+    "url": "https://github.com/nvidia/openshell",
+    "language": "Rust",
+    "stars": 13847,
+    "forks": 1613,
+    "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+    "last_seen": "2026-10-01",
     "trending_days": 3
   },
   {
@@ -6980,16 +7000,6 @@
     "trending_days": 2
   },
   {
-    "name": "earendil-works/pi",
-    "url": "https://github.com/earendil-works/pi",
-    "language": "TypeScript",
-    "stars": 105526,
-    "forks": 13269,
-    "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-    "last_seen": "2026-09-15",
-    "trending_days": 2
-  },
-  {
     "name": "Ed1s0nZ/CyberStrikeAI",
     "url": "https://github.com/ed1s0nz/cyberstrikeai",
     "language": "Go",
@@ -7067,6 +7077,16 @@
     "forks": 1040,
     "description": "Collection of Cyber Threat Intelligence sources from the deep and dark web",
     "last_seen": "2025-11-03",
+    "trending_days": 2
+  },
+  {
+    "name": "firebase/firebase-ios-sdk",
+    "url": "https://github.com/firebase/firebase-ios-sdk",
+    "language": "C++",
+    "stars": 6834,
+    "forks": 1805,
+    "description": "Firebase SDK for Apple App Development",
+    "last_seen": "2026-10-01",
     "trending_days": 2
   },
   {
@@ -8167,16 +8187,6 @@
     "forks": 49,
     "description": "cuTile is a programming model for writing parallel kernels for NVIDIA GPUs",
     "last_seen": "2025-12-09",
-    "trending_days": 2
-  },
-  {
-    "name": "NVIDIA/OpenShell",
-    "url": "https://github.com/nvidia/openshell",
-    "language": "Rust",
-    "stars": 11901,
-    "forks": 1503,
-    "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-    "last_seen": "2026-09-30",
     "trending_days": 2
   },
   {
@@ -10310,16 +10320,6 @@
     "trending_days": 1
   },
   {
-    "name": "firebase/firebase-ios-sdk",
-    "url": "https://github.com/firebase/firebase-ios-sdk",
-    "language": "C++",
-    "stars": 6727,
-    "forks": 1798,
-    "description": "Firebase SDK for Apple App Development",
-    "last_seen": "2026-09-30",
-    "trending_days": 1
-  },
-  {
     "name": "florinpop17/app-ideas",
     "url": "https://github.com/florinpop17/app-ideas",
     "language": "Unknown",
@@ -10397,6 +10397,16 @@
     "forks": 5311,
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
     "last_seen": "2026-03-27",
+    "trending_days": 1
+  },
+  {
+    "name": "Friedrich-M/UniMate",
+    "url": "https://github.com/friedrich-m/unimate",
+    "language": "Python",
+    "stars": 1009,
+    "forks": 97,
+    "description": "[SIGGRAPH Asia 2026] UniMate: One Unified Model to Animate Diverse Skeletons",
+    "last_seen": "2026-10-01",
     "trending_days": 1
   },
   {
@@ -12190,6 +12200,16 @@
     "trending_days": 1
   },
   {
+    "name": "pablostanley/yoinks",
+    "url": "https://github.com/pablostanley/yoinks",
+    "language": "TypeScript",
+    "stars": 2775,
+    "forks": 264,
+    "description": "yoink any video from your terminal. no shady ads.",
+    "last_seen": "2026-10-01",
+    "trending_days": 1
+  },
+  {
     "name": "PaddlePaddle/Paddle",
     "url": "https://github.com/paddlepaddle/paddle",
     "language": "C++",
@@ -12907,6 +12927,16 @@
     "forks": 523,
     "description": "slime is an LLM post-training framework for RL Scaling.",
     "last_seen": "2026-02-13",
+    "trending_days": 1
+  },
+  {
+    "name": "tile-ai/tilelang",
+    "url": "https://github.com/tile-ai/tilelang",
+    "language": "Python",
+    "stars": 8032,
+    "forks": 811,
+    "description": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
+    "last_seen": "2026-10-01",
     "trending_days": 1
   },
   {

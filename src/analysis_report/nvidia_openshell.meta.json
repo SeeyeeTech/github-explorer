@@ -1,0 +1,6 @@
+{
+  "title": "NVIDIA OpenShell：8 个月 14K stars，把 enforcement 拉到 agent 进程之外的开源 Agent Safety Platform",
+  "digest": "NVIDIA 把 policy engine + out-of-process enforcement + Z3 形式化 review 三件套压成 Apache-2.0 agent 运行时，让自治 AI agent 即便被攻陷也跑不出三道防线。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

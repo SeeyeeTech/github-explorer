@@ -1834,6 +1834,10 @@ entries:
   - llm-inference
   - rag-search
   - trading-finance
+  nvidia_openshell:
+  - ai-agent
+  - ai-coding
+  - security
   nvidia_personaplex:
   - model-foundation
   - video-audio

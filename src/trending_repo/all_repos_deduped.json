@@ -3,11 +3,11 @@
     "name": "obra/superpowers",
     "url": "https://github.com/obra/superpowers",
     "language": "Shell",
-    "stars": 293819,
-    "forks": 26279,
+    "stars": 294295,
+    "forks": 26310,
     "description": "An agentic skills framework & software development methodology that works.",
-    "last_seen": "2026-10-01",
-    "trending_days": 90
+    "last_seen": "2026-10-02",
+    "trending_days": 91
   },
   {
     "name": "TapXWorld/ChinaTextbook",
@@ -23,11 +23,11 @@
     "name": "mattpocock/skills",
     "url": "https://github.com/mattpocock/skills",
     "language": "Shell",
-    "stars": 273633,
-    "forks": 22986,
+    "stars": 274506,
+    "forks": 23050,
     "description": "Skills for Real Engineers. Straight from my .agents directory.",
-    "last_seen": "2026-10-01",
-    "trending_days": 37
+    "last_seen": "2026-10-02",
+    "trending_days": 38
   },
   {
     "name": "nvm-sh/nvm",
@@ -590,6 +590,16 @@
     "trending_days": 14
   },
   {
+    "name": "DietrichGebert/ponytail",
+    "url": "https://github.com/dietrichgebert/ponytail",
+    "language": "JavaScript",
+    "stars": 151364,
+    "forks": 8116,
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "last_seen": "2026-10-02",
+    "trending_days": 13
+  },
+  {
     "name": "lfnovo/open-notebook",
     "url": "https://github.com/lfnovo/open-notebook",
     "language": "TypeScript",
@@ -617,16 +627,6 @@
     "forks": 1588,
     "description": "The most RAM efficient harness",
     "last_seen": "2026-07-31",
-    "trending_days": 12
-  },
-  {
-    "name": "DietrichGebert/ponytail",
-    "url": "https://github.com/dietrichgebert/ponytail",
-    "language": "JavaScript",
-    "stars": 150122,
-    "forks": 8066,
-    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-    "last_seen": "2026-10-01",
     "trending_days": 12
   },
   {
@@ -757,6 +757,26 @@
     "forks": 3621,
     "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
     "last_seen": "2026-04-06",
+    "trending_days": 11
+  },
+  {
+    "name": "colbymchenry/codegraph",
+    "url": "https://github.com/colbymchenry/codegraph",
+    "language": "C",
+    "stars": 72872,
+    "forks": 4680,
+    "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+    "last_seen": "2026-10-02",
+    "trending_days": 11
+  },
+  {
+    "name": "cursor/plugins",
+    "url": "https://github.com/cursor/plugins",
+    "language": "TypeScript",
+    "stars": 9428,
+    "forks": 893,
+    "description": "Cursor plugin specification and official plugins",
+    "last_seen": "2026-10-02",
     "trending_days": 11
   },
   {
@@ -930,26 +950,6 @@
     "trending_days": 10
   },
   {
-    "name": "colbymchenry/codegraph",
-    "url": "https://github.com/colbymchenry/codegraph",
-    "language": "C",
-    "stars": 72512,
-    "forks": 4660,
-    "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
-    "last_seen": "2026-09-30",
-    "trending_days": 10
-  },
-  {
-    "name": "cursor/plugins",
-    "url": "https://github.com/cursor/plugins",
-    "language": "TypeScript",
-    "stars": 9278,
-    "forks": 879,
-    "description": "Cursor plugin specification and official plugins",
-    "last_seen": "2026-10-01",
-    "trending_days": 10
-  },
-  {
     "name": "dyad-sh/dyad",
     "url": "https://github.com/dyad-sh/dyad",
     "language": "TypeScript",
@@ -977,6 +977,16 @@
     "forks": 4400,
     "description": "基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版",
     "last_seen": "2026-03-25",
+    "trending_days": 10
+  },
+  {
+    "name": "JuliusBrussee/caveman",
+    "url": "https://github.com/juliusbrussee/caveman",
+    "language": "Go",
+    "stars": 108948,
+    "forks": 6313,
+    "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+    "last_seen": "2026-10-02",
     "trending_days": 10
   },
   {
@@ -1037,6 +1047,26 @@
     "forks": 8619,
     "description": "The open-source CapCut alternative",
     "last_seen": "2026-08-27",
+    "trending_days": 10
+  },
+  {
+    "name": "Panniantong/Agent-Reach",
+    "url": "https://github.com/panniantong/agent-reach",
+    "language": "Python",
+    "stars": 88187,
+    "forks": 7771,
+    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+    "last_seen": "2026-10-02",
+    "trending_days": 10
+  },
+  {
+    "name": "pbakaus/impeccable",
+    "url": "https://github.com/pbakaus/impeccable",
+    "language": "JavaScript",
+    "stars": 74091,
+    "forks": 4467,
+    "description": "The design language that makes your AI harness better at design.",
+    "last_seen": "2026-10-02",
     "trending_days": 10
   },
   {
@@ -1150,16 +1180,6 @@
     "trending_days": 9
   },
   {
-    "name": "JuliusBrussee/caveman",
-    "url": "https://github.com/juliusbrussee/caveman",
-    "language": "Go",
-    "stars": 103418,
-    "forks": 6001,
-    "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
-    "last_seen": "2026-09-04",
-    "trending_days": 9
-  },
-  {
     "name": "jwasham/coding-interview-university",
     "url": "https://github.com/jwasham/coding-interview-university",
     "language": "Unknown",
@@ -1257,26 +1277,6 @@
     "forks": 10641,
     "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
     "last_seen": "2026-06-06",
-    "trending_days": 9
-  },
-  {
-    "name": "Panniantong/Agent-Reach",
-    "url": "https://github.com/panniantong/agent-reach",
-    "language": "Python",
-    "stars": 81008,
-    "forks": 7053,
-    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-    "last_seen": "2026-09-14",
-    "trending_days": 9
-  },
-  {
-    "name": "pbakaus/impeccable",
-    "url": "https://github.com/pbakaus/impeccable",
-    "language": "JavaScript",
-    "stars": 73468,
-    "forks": 4432,
-    "description": "The design language that makes your AI harness better at design.",
-    "last_seen": "2026-10-01",
     "trending_days": 9
   },
   {
@@ -1427,6 +1427,16 @@
     "forks": 8871,
     "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
     "last_seen": "2026-09-30",
+    "trending_days": 8
+  },
+  {
+    "name": "coreyhaines31/marketingskills",
+    "url": "https://github.com/coreyhaines31/marketingskills",
+    "language": "JavaScript",
+    "stars": 52303,
+    "forks": 7874,
+    "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+    "last_seen": "2026-10-02",
     "trending_days": 8
   },
   {
@@ -1670,16 +1680,6 @@
     "trending_days": 7
   },
   {
-    "name": "coreyhaines31/marketingskills",
-    "url": "https://github.com/coreyhaines31/marketingskills",
-    "language": "JavaScript",
-    "stars": 48575,
-    "forks": 7479,
-    "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-    "last_seen": "2026-09-08",
-    "trending_days": 7
-  },
-  {
     "name": "donnemartin/system-design-primer",
     "url": "https://github.com/donnemartin/system-design-primer",
     "language": "Python",
@@ -1837,6 +1837,16 @@
     "forks": 11814,
     "description": "12 Weeks, 24 Lessons, AI for All!",
     "last_seen": "2026-08-03",
+    "trending_days": 7
+  },
+  {
+    "name": "mksglu/context-mode",
+    "url": "https://github.com/mksglu/context-mode",
+    "language": "TypeScript",
+    "stars": 24957,
+    "forks": 1796,
+    "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+    "last_seen": "2026-10-02",
     "trending_days": 7
   },
   {
@@ -2300,6 +2310,16 @@
     "trending_days": 6
   },
   {
+    "name": "google/skills",
+    "url": "https://github.com/google/skills",
+    "language": "Python",
+    "stars": 20654,
+    "forks": 1717,
+    "description": "Agent Skills for Google products and technologies",
+    "last_seen": "2026-10-02",
+    "trending_days": 6
+  },
+  {
     "name": "hardikpandya/stop-slop",
     "url": "https://github.com/hardikpandya/stop-slop",
     "language": "Unknown",
@@ -2317,6 +2337,16 @@
     "forks": 1763,
     "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
     "last_seen": "2026-07-16",
+    "trending_days": 6
+  },
+  {
+    "name": "heygen-com/hyperframes",
+    "url": "https://github.com/heygen-com/hyperframes",
+    "language": "TypeScript",
+    "stars": 55718,
+    "forks": 5033,
+    "description": "Write HTML. Render video. Built for agents.",
+    "last_seen": "2026-10-02",
     "trending_days": 6
   },
   {
@@ -2480,16 +2510,6 @@
     "trending_days": 6
   },
   {
-    "name": "mksglu/context-mode",
-    "url": "https://github.com/mksglu/context-mode",
-    "language": "TypeScript",
-    "stars": 24710,
-    "forks": 1777,
-    "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-    "last_seen": "2026-10-01",
-    "trending_days": 6
-  },
-  {
     "name": "mountain-loop/yaak",
     "url": "https://github.com/mountain-loop/yaak",
     "language": "TypeScript",
@@ -2497,6 +2517,16 @@
     "forks": 470,
     "description": "The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC 🦬",
     "last_seen": "2025-10-24",
+    "trending_days": 6
+  },
+  {
+    "name": "mvschwarz/openrig",
+    "url": "https://github.com/mvschwarz/openrig",
+    "language": "TypeScript",
+    "stars": 4123,
+    "forks": 279,
+    "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+    "last_seen": "2026-10-02",
     "trending_days": 6
   },
   {
@@ -2930,16 +2960,6 @@
     "trending_days": 5
   },
   {
-    "name": "google/skills",
-    "url": "https://github.com/google/skills",
-    "language": "Python",
-    "stars": 16971,
-    "forks": 1383,
-    "description": "Agent Skills for Google products and technologies",
-    "last_seen": "2026-08-09",
-    "trending_days": 5
-  },
-  {
     "name": "hashicorp/vault",
     "url": "https://github.com/hashicorp/vault",
     "language": "Go",
@@ -2947,16 +2967,6 @@
     "forks": 4575,
     "description": "A tool for secrets management, encryption as a service, and privileged access management",
     "last_seen": "2026-01-31",
-    "trending_days": 5
-  },
-  {
-    "name": "heygen-com/hyperframes",
-    "url": "https://github.com/heygen-com/hyperframes",
-    "language": "TypeScript",
-    "stars": 55183,
-    "forks": 5008,
-    "description": "Write HTML. Render video. Built for agents.",
-    "last_seen": "2026-10-01",
     "trending_days": 5
   },
   {
@@ -3107,16 +3117,6 @@
     "forks": 450,
     "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
     "last_seen": "2026-06-16",
-    "trending_days": 5
-  },
-  {
-    "name": "mvschwarz/openrig",
-    "url": "https://github.com/mvschwarz/openrig",
-    "language": "TypeScript",
-    "stars": 3513,
-    "forks": 236,
-    "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
-    "last_seen": "2026-10-01",
     "trending_days": 5
   },
   {
@@ -4207,6 +4207,16 @@
     "forks": 2125,
     "description": "NocoBase is the most extensible AI-powered no-code/low-code platform for building business applications and enterprise solutions.",
     "last_seen": "2025-11-09",
+    "trending_days": 4
+  },
+  {
+    "name": "NVIDIA/OpenShell",
+    "url": "https://github.com/nvidia/openshell",
+    "language": "Rust",
+    "stars": 14313,
+    "forks": 1649,
+    "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+    "last_seen": "2026-10-02",
     "trending_days": 4
   },
   {
@@ -5657,16 +5667,6 @@
     "forks": 660,
     "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
     "last_seen": "2026-09-26",
-    "trending_days": 3
-  },
-  {
-    "name": "NVIDIA/OpenShell",
-    "url": "https://github.com/nvidia/openshell",
-    "language": "Rust",
-    "stars": 13847,
-    "forks": 1613,
-    "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-    "last_seen": "2026-10-01",
     "trending_days": 3
   },
   {
@@ -8370,6 +8370,16 @@
     "trending_days": 2
   },
   {
+    "name": "pablostanley/yoinks",
+    "url": "https://github.com/pablostanley/yoinks",
+    "language": "TypeScript",
+    "stars": 3331,
+    "forks": 301,
+    "description": "yoink any video from your terminal. no shady ads.",
+    "last_seen": "2026-10-02",
+    "trending_days": 2
+  },
+  {
     "name": "pacifio/atlas",
     "url": "https://github.com/pacifio/atlas",
     "language": "Rust",
@@ -10180,6 +10190,16 @@
     "trending_days": 1
   },
   {
+    "name": "Effect-TS/effect",
+    "url": "https://github.com/effect-ts/effect",
+    "language": "TypeScript",
+    "stars": 16457,
+    "forks": 797,
+    "description": "Build production-ready applications in TypeScript",
+    "last_seen": "2026-10-02",
+    "trending_days": 1
+  },
+  {
     "name": "Effect-TS/effect-smol",
     "url": "https://github.com/effect-ts/effect-smol",
     "language": "TypeScript",
@@ -10457,6 +10477,16 @@
     "forks": 384,
     "description": "A Hardware Hacking Tool with Web-Based CLI That Speaks Every Protocol",
     "last_seen": "2026-07-31",
+    "trending_days": 1
+  },
+  {
+    "name": "getsentry/sentry",
+    "url": "https://github.com/getsentry/sentry",
+    "language": "Python",
+    "stars": 44964,
+    "forks": 4886,
+    "description": "Developer-first error tracking and performance monitoring",
+    "last_seen": "2026-10-02",
     "trending_days": 1
   },
   {
@@ -12197,16 +12227,6 @@
     "forks": 39,
     "description": "Watch MLB games from the comfort of your own terminal",
     "last_seen": "2025-10-04",
-    "trending_days": 1
-  },
-  {
-    "name": "pablostanley/yoinks",
-    "url": "https://github.com/pablostanley/yoinks",
-    "language": "TypeScript",
-    "stars": 2775,
-    "forks": 264,
-    "description": "yoink any video from your terminal. no shady ads.",
-    "last_seen": "2026-10-01",
     "trending_days": 1
   },
   {

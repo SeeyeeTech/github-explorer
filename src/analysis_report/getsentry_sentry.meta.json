@@ -1,0 +1,6 @@
+{
+  "title": "GitHub 推荐：18 年 45K stars：错误监控事实标准 Sentry 的 8 个可迁移架构",
+  "digest": "Sentry 把错误、trace、replay、profile、log 串成同条事件流，沉淀 8 个高可迁移架构：多 variant 指纹、DSL 化配置灰度、消费者驱动反压、PendingBuffer 分桶，可直接借鉴。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

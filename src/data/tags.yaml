@@ -953,6 +953,8 @@ entries:
   - model-foundation
   getezy_ezy:
   - devtools
+  getsentry_sentry:
+  - uncategorized
   getzep_graphiti:
   - ai-agent
   - llm-framework

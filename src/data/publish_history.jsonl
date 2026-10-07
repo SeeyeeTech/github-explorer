@@ -373,3 +373,4 @@
 {"recorded_at": "2026-10-02T00:37:11.658123+00:00", "slug": "nvidia_openshell", "title": null, "state": "published", "published_at": "2026-10-02", "reason": "自动生成", "ci_run_id": "36945389864"}
 {"recorded_at": "2026-10-05T01:38:50.234431+00:00", "slug": "getsentry_sentry", "title": null, "state": "published", "published_at": "2026-10-05", "reason": "自动生成", "ci_run_id": "37251258505"}
 {"recorded_at": "2026-10-07T01:20:59.587193+00:00", "slug": "deepseek-ai_deepgemm", "title": null, "state": "published", "published_at": "2026-10-07", "reason": "自动生成", "ci_run_id": "37555484332"}
+{"recorded_at": "2026-10-07T08:12:03.920929+00:00", "slug": "tester-army_e2e", "title": null, "state": "published", "published_at": "2026-10-07", "reason": "自动生成", "ci_run_id": "37590239998"}

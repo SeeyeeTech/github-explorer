@@ -1,0 +1,6 @@
+{
+  "title": "DeepGEMM 深度分析：8.7K stars 的 FP8 内核库如何用 300 行打爆 CUTLASS",
+  "digest": "DeepSeek 开源周旗舰项目，用运行期 JIT、形状极致特化与 Mega MoE 单 kernel 融合三板斧，把 dense FP8 GEMM 比 CUTLASS 快 1.2-2.7x、比 Triton 快 1.7x。",
+  "author": "NVoyager",
+  "theme": "stars,universe,dark"
+}

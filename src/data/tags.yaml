@@ -686,6 +686,8 @@ entries:
   - ai-coding
   - devtools
   - protocol-spec
+  deepseek-ai_deepgemm:
+  - model-foundation
   deepseek-ai_deepseek-v3:
   - llm-inference
   - model-foundation
@@ -2446,6 +2448,8 @@ entries:
   - uncategorized
   tesseract-ocr_tesseract:
   - uncategorized
+  tester-army_e2e:
+  - ai-agent
   the-swarm-corporation_autohedge:
   - ai-agent
   - llm-inference

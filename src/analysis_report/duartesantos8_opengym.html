@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    margin: 1em 0 !important;
+    font-size: 14px !important;
+}
+th, td {
+    border: 1px solid #ddd !important;
+    padding: 8px 12px !important;
+    text-align: left !important;
+    line-height: 1.6 !important;
+}
+th {
+    background: #f5f5f5 !important;
+    font-weight: bold !important;
+}
+img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 1em auto !important;
+}
+a {
+    color: #576b95 !important;
+    text-decoration: none !important;
+}
+strong {
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+}
+</style>
+</head>
+<body>
+<blockquote><p>GitHub: <a href="https://github.com/duartesantos8/opengym">https://github.com/duartesantos8/opengym</a></p></blockquote>
+<h2>一句话总结</h2>
+<p>openGym 是一款 <strong>AGPL v3 + Passkey + 自托管 + BYOK AI Coach</strong> 的 PWA 健身追踪器，用「112 个纯函数 + 157 个共置测试 + 0 个付费版」的极简哲学挑战 Hevy/Strong 的 SaaS 锁定叙事。</p>
+<h2>值得关注的理由</h2>
+<ul>
+<li><strong>2.7 个月 7701 stars / 1524 commits</strong>：单人在周末 + 晚间高强度投入做出大众热门工具，viral 曲线罕见。</li>
+<li><strong>训练规则抽象是开源稀缺品</strong>：progression / 1RM / recovery / sync-merge 都是纯函数 + 共置测试，CRDT-lite 同步 + 闭合 change list AI 集成——这是任何 domain-heavy 应用都该学的范式。</li>
+<li><strong>反 SaaS 锁定到极致</strong>：不仅数据可导出，连 passkey 私钥都不上传服务器；首次把 MCP server 接到健身 app，LLM 看到的 1RM 与 UI 完全一致。</li>
+</ul>
+<h2>项目展示</h2>
+<p><img src="https://raw.githubusercontent.com/DuarteSantos8/openGym/main/assets/banner.png" alt="openGym banner"></p>
+<p><img src="https://raw.githubusercontent.com/DuarteSantos8/openGym/main/docs/diagrams/architecture.png" alt="Architecture"></p>
+<p><img src="https://raw.githubusercontent.com/DuarteSantos8/openGym/main/assets/screenshots/home.png" alt="Home screen"></p>
+<p><img src="https://raw.githubusercontent.com/DuarteSantos8/openGym/main/assets/screenshots/workout.png" alt="Workout screen"></p>
+<p><img src="https://raw.githubusercontent.com/DuarteSantos8/openGym/main/assets/screenshots/stats.png" alt="Stats screen"></p>
+<blockquote><p>在线 Demo: <a href="https://opengym.duarte-santos.ch/demo/">https://opengym.duarte-santos.ch/demo/</a></p></blockquote>
+<h2>项目画像</h2>
+<table>
+<tr><th>维度</th><th>数据</th></tr>
+<tr><td>GitHub</td><td><a href="https://github.com/duartesantos8/opengym">https://github.com/duartesantos8/opengym</a></td></tr>
+<tr><td>Star / Fork</td><td>7701 / 987</td></tr>
+<tr><td>代码行数</td><td>178,166 行（JS 50% / JSX 21.8% / JSON 19.4% / HTML 3.7% / 其他 6.4%）</td></tr>
+<tr><td>项目年龄</td><td>2.7 个月（首次提交 2026-07-18）</td></tr>
+<tr><td>开发阶段</td><td>密集开发（v1.3.10 已发，v1.3.11/12 即将来临）</td></tr>
+<tr><td>贡献模式</td><td>单人主导（主作者 DuarteSantos8 占 79.9%，30 位贡献者）</td></tr>
+<tr><td>热度定位</td><td>大众热门（爆发型增长）</td></tr>
+<tr><td>质量评级</td><td>代码 A+ / 文档 A+ / 测试 A+</td></tr>
+</table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>Duarte Santos 是葡萄牙裔瑞士人，本职在 <strong>Sunrise GmbH（瑞士电信运营商）</strong> 做电信软件，18 岁（Portfolio 自述），自学全栈。在 Sunrise 这种企业里，他不是「为健身行业而生」的人——这反而让他能从外部视角看到现有产品的根本问题：<strong>你每次训练的数据都被存在别人的服务器上，订阅断了就连自己以前的心率曲线都拿不回来。</strong> 他把业余时间的高强度投入（周末 27.4% + 深夜 17%）当作「准创业级副业」来对待。</p>
+<p>更重要的是他<strong>主动透明披露 Claude Code 协助</strong>——README 单独列出「How openGym is built」一节，明说「Anthropic's coding agent 起草代码，但 A person decides and ships」。这种克制与透明在 2026 年由 AI 协作开发的项目里是稀有品质。</p>
+<h3>问题判断</h3>
+<p>Duarte 看到了什么别人没看到或没重视的问题？</p>
+<ul>
+<li><strong>SaaS 锁定的「软」层面</strong>：Hevy/Strong 不只是收费，而是「你的训练历史被绑在他方服务器，订阅断了 → 公司倒了 → 数据没了」的脆弱性。openGym 把「备份 = `tar czf data/`」当作 first-class 设计目标。</li>
+<li><strong>现有自托管方案的「硬」层面</strong>：wger 9 年历史 + PostgreSQL 必选 + jQuery 老 UI，让想跑 homelab 的人畏惧。openGym 走「一行 `docker compose up` + 数据在挂载目录」。</li>
+<li><strong>Passkey 在自托管圈的失位</strong>：wger/FitTrackee 都还在用户名密码。openGym 把 WebAuthn Passkey 作为默认，让「零密码登录」成为可能（passkey 私钥永不离开手机 secure hardware）。</li>
+</ul>
+<h3>解法哲学</h3>
+<p>作者明确选择了什么，以及明确不做什么：</p>
+<p><strong>明确做</strong>：纯函数训练规则（112 个模块 + 157 个共置测试）、闭合 change list AI（不能发明新 action）、BYOK（用户的支付账户边界 = 权限边界）、AGPL（任何人 fork 都得保持开源）。</p>
+<p><strong>明确不做的清单</strong>（这是稀缺的反向信号）：</p>
+<ul>
+<li><strong>不写社交 feed</strong>（Hevy 的卖点，openGym 拒绝）</li>
+<li><strong>不内置营养追踪</strong>（wger 的卖点，openGym 不做）</li>
+<li><strong>不做付费版</strong>（README 显式声明「AGPL, no paid tier, nothing held back for sponsors」）</li>
+<li><strong>不开 idle radio/Web-Push 来引诱用户</strong>（仅 Web-Push 用于训练提醒）</li>
+<li><strong>不强制 AI</strong>（BYOK + opt-in，默认用户零 AI 接触）</li>
+<li><strong>不依赖前端框架抽象</strong>（plain node:http，不用 Express；纯函数 lib，不用 framework DSL）</li>
+</ul>
+<h3>战略意图</h3>
+<p>`docs/AI_COACH.md` 揭示两态架构：默认 `default` 镜像 ~158MB 不带 Claude Agent SDK，`API_TARGET=coach` 镜像带 ~455MB SDK + 单独 unprivileged `coach` 用户 + `./coach-auth` 卷。这表明作者在认真思考「AI 介入 = 信任边界扩张」的问题。</p>
+<p>商业化路径上：作者已尝试周边（assets/merch 162 次修改、assets/tee 54 次修改），但<strong>没有付费版、没有 SaaS 托管</strong>——这是「自托管 + 周边 + 捐赠」模型（Buy Me A Coffee 链接），与 Hevy/Strong 的「订阅或买断」模型截然不同。</p>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<p>按新颖度×实用性×可迁移性综合排序：</p>
+<p>1. <strong>「Every change carries its own stamp」字段级 sync</strong>（`api/sync-stamps.js` 510 行 + `frontend/src/lib/sync-merge.js` 1124 行）</p>
+<ul>
+<li>每条记录自带 `_ts`（per-record）+ `_f`（per-field），三步合并：keepUnknown（旧版 app 不会删别人加的字段）→ mergeDeletions+mergeEdits（加而不覆盖）→ keepHeld（删了又被别的 writer 写回 = added back）</li>
+<li>`_prior` 短哈希链（保留每字段最近 6 个值）+ `fingerprint` 防 stale stamp 攻击——避免旧版 app「重置为之前的值」被误判</li>
+<li><strong>新颖度 5 / 实用性 5 / 可迁移性 4</strong>：任何 CRDT-lite 场景都可用</li>
+</ul>
+<p>2. <strong>纯函数 + 共置测试的训练规则抽象</strong>（`frontend/src/lib/` 112 模块 + 157 test）</p>
+<ul>
+<li>`progression.js`（661 行）5 种 policy：off/linear/greyskull/double/time，共享 interface，新增 policy 是 plugin</li>
+<li>`onerm.js` REP_CAP=12——超过 12 reps 拒绝猜测（<strong>「an estimate says more about work capacity than about maximal strength」</strong>）</li>
+<li>`recovery.js`（392 行）指数 half-life + 三个 bucket（READY/RECOVERING/FATIGUED）</li>
+<li>`sync-merge.js`（1124 行）28 条规则按 field type 分</li>
+<li><strong>新颖度 5 / 实用性 5 / 可迁移性 5</strong>：任何 domain-heavy app 都该学</li>
+</ul>
+<p>3. <strong>AI Coach allowlist payload + 闭合 change list validation</strong>（`api/coach/core/payload.js` 585 行 + `validate.js` 627 行）</p>
+<ul>
+<li>五个 categories（plan/training/bodyweight/profile/cohort/prefs）每个字段 by name copy，无 spread——「a field added to the state blob next year cannot ride along by accident」</li>
+<li>18 个 change types 闭合列表，无 default case，1 次 repair round</li>
+<li><strong>新颖度 5 / 实用性 5 / 可迁移性 5</strong>：任何 LLM-as-feature 场景都该如此——HOSTILE NOTE 可以让模型说任何话但不能发明 change type</li>
+</ul>
+<p>4. <strong>AI 运行时按需引入</strong> + <strong>LockDOWN frozen</strong>（`api/coach/adapters/claude.js`）</p>
+<ul>
+<li>`tools: []`、`settingSources: []`、`skills: []`、`strictMcpConfig: true`——模型无 fs 工具</li>
+<li>`LOCKDOWN` 是 `Object.freeze()` 并由 `adapters.test.js` 断言 by value</li>
+<li>凭证仅通过 `CLAUDE_CODE_OAUTH_TOKEN` env 传给子进程，env 从零构建而非 filter</li>
+<li><strong>新颖度 5 / 实用性 5 / 可迁移性 5</strong>：BYOK + opt-in AI 的范式</li>
+</ul>
+<p>5. <strong>MCP server 直读 `./data` 复用前端纯函数</strong>（`mcp/src/tools.js`）</p>
+<ul>
+<li>直接 import `frontend/src/lib/history.js`、`onerm.js`、`progression.js`——LLM 看到的 1RM 与 UI 完全一致</li>
+<li>stdio MCP，read-only，零额外容器/网络</li>
+<li><strong>新颖度 4 / 实用性 5 / 可迁移性 5</strong>：任何自托管 personal data 都能做 read-only MCP</li>
+</ul>
+<h3>可复用的模式与技巧</h3>
+<p>1. <strong>前后端不共享构建但用 parity test 固定共享规则</strong>：`coach-parity.test.js`、`sync-stamps-parity.test.js`、`payload-parity.test.js`——`modeOf`/`isBw`/`isPerSide` 在 payload.js 与 history.js 各一份，pin 防止 drift。任何 dual-runtime 项目都该如此。</p>
+<p>2. <strong>Permission 0600 per-file 而非 0700 整目录</strong>：host bind mount 语义考虑——`./data` 整目录 0700 会让 host 上其他进程 `EACCES`；`secret`/`db.json`/`coach.json` 单独 0600。自托管项目都该学。</p>
+<p>3. <strong>`atomicWrite` + dir fsync</strong>（`api/durable.js` 38 行）：write-temp → fsync file → chmod → fsync(dir)。v1.3.10 之前 200 出去后 host 断电会带回旧文件——这种 page cache + rename 顺序问题，自托管必学。</p>
+<p>4. <strong>Mobile 一次性 code + bearer token 配对</strong>（`api/device-link.js` + `server.js`）：WebView 在用户域名下不能跑 Passkey ceremony，所以走 `POST /api/pair/create` + `POST /api/pair/redeem`，token 作为 `Authorization: Bearer`。PWA + 自托管场景都适用。</p>
+<p>5. <strong>Set row 二维正交判别器</strong>（`workout-model.js`）：`phase: 'work' | 'warmup'` × `type: 'straight' | 'dropset' | 'restpause'`。Drop-set 的 `drops` 是 main set 之上的额外功；rest-pause 的 `clusters` 是该 row 自身 `r` 的分解（不额外加 volume，否则双计）。看似对称实则不对称，注释显式记录（`docs/dev/SET_TYPES.md`）。</p>
+<p>6. <strong>i18n 字段双向 cap</strong>：UI 输入 cap + API 二次 cap（payload `PROFILE_TEXT_MAX` / `NOTE_MAX`）——即使客户端绕过 UI 也不能 send megabytes 文本。LLM-as-feature 必学。</p>
+<h3>关键设计决策</h3>
+<p><strong>决策: AI 默认不启动</strong></p>
+<ul>
+<li><strong>问题</strong>: AI 集成要么贵（按 token 收费）要么风险（Prompt injection）</li>
+<li><strong>方案</strong>: 默认 `default` 镜像零 SDK；BYOK；闭合 change list；HOSTILE NOTE 不能发明新 action</li>
+<li><strong>Trade-off</strong>: 新用户少一个「哇」的 hook；但赢得「安全 + 隐私」硬约束</li>
+<li><strong>可迁移性</strong>: 高——任何 LLM-feature 都应如此</li>
+</ul>
+<p><strong>决策: JSON-on-disk 而非数据库</strong></p>
+<ul>
+<li><strong>问题</strong>: 用户想 `tar czf data/` 全量备份，能 mount 到 `jq` 检查</li>
+<li><strong>方案</strong>: `db.json` + `db.json.bak`；`atomicWrite` + `fsync` dir；损坏 fallback 都失败则 `process.exit(1)`</li>
+<li><strong>Trade-off</strong>: 单机写入 + 单文件锁（node 单进程默认）+ 无索引；家庭实例多 profile 时 O(n) read cost 已显现</li>
+<li><strong>可迁移性</strong>: 中——自托管友好；规模化时需迁 DB（ROADMAP 显式标注 v1.4.6 后）</li>
+</ul>
+<p><strong>决策: 训练逻辑是纯函数 + 共置测试</strong></p>
+<ul>
+<li><strong>问题</strong>: 健身规则（progression / 1RM / recovery / finish-workout）如果写进 UI state machine，会与框架绑定且难测试</li>
+<li><strong>方案</strong>: 112 个 lib 模块 + 157 个 `.test.js` 同目录共置；UI 直接 import 纯函数</li>
+<li><strong>Trade-off</strong>: 没有「framework DSL」抽象，新人上手成本高</li>
+<li><strong>可迁移性</strong>: 高——任何 domain-heavy app 都该如此</li>
+</ul>
+<p><strong>决策: Passkey 优先，password + OIDC 延后到 v1.4.6</strong></p>
+<ul>
+<li><strong>问题</strong>: 用户名密码是 web auth 最常见的攻击面</li>
+<li><strong>方案</strong>: 默认 Passkey（WebAuthn，passkey 私钥永不上传服务器）；mobile 走一次性 code + bearer token</li>
+<li><strong>Trade-off</strong>: 当前阶段放弃「传统账号密码」用户，与 PocketID 等 OIDC IdP 集成的家庭场景被延后</li>
+<li><strong>可迁移性</strong>: 高——任何面向自托管圈的项目都该认真考虑</li>
+</ul>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table>
+<tr><th>维度</th><th>openGym</th><th>wger</th><th>FitTrackee</th><th>Hevy（闭源）</th><th>Strong（闭源）</th></tr>
+<tr><td><strong>License</strong></td><td>AGPL v3</td><td>AGPL v3</td><td>MIT</td><td>闭源</td><td>闭源</td></tr>
+<tr><td><strong>Stars</strong></td><td>7701（2.7 月）</td><td>~6900</td><td>~741</td><td>百万级用户</td><td>百万级用户</td></tr>
+<tr><td><strong>栈</strong></td><td>Node + React 19 PWA + Capacitor</td><td>Python/Django + Flutter</td><td>Python/Flask + Vue 3 + OpenStreetMap</td><td>闭源</td><td>闭源</td></tr>
+<tr><td><strong>力量训练特性</strong></td><td>1RM/Poliquin/ATG、5 progression policies、muscle recovery map</td><td>基础 CRUD</td><td>弱（户外为主）</td><td>全功能</td><td>极简但 UX 流畅</td></tr>
+<tr><td><strong>自托管</strong></td><td>一行 docker compose up，`./data` 文件夹备份</td><td>较复杂（PG 必选）</td><td>中等</td><td>不可</td><td>不可</td></tr>
+<tr><td><strong>数据所有权</strong></td><td>全（passkey 私钥在 secure hardware）</td><td>全</td><td>全</td><td>他方服务器</td><td>他方服务器</td></tr>
+<tr><td><strong>Passkey/Auth</strong></td><td>WebAuthn Passkey 首选</td><td>用户名密码</td><td>用户名密码</td><td>用户名密码</td><td>用户名密码</td></tr>
+<tr><td><strong>AI Coach</strong></td><td>BYOK + 闭合 change list</td><td>无</td><td>无</td><td>无</td><td>无</td></tr>
+<tr><td><strong>MCP</strong></td><td>有（read-only，从 ./data 直读）</td><td>无</td><td>无</td><td>无</td><td>无</td></tr>
+<tr><td><strong>导入/导出</strong></td><td>FitNotes/Strong/Hevy/CSV/Apple Health</td><td>CSV</td><td>CSV/GPX</td><td>Hevy CSV</td><td>Strong CSV（自己不能 re-import = 锁定）</td></tr>
+<tr><td><strong>独特卖点</strong></td><td>设计哲学 + 自托管优先 + AGPL + 数据可 fork</td><td>多语 Weblate + 营养追踪独有</td><td>户外/GPX</td><td>社交 feed + $23.99 终身买断</td><td>极简 UX</td></tr>
+<tr><td><strong>弱点</strong></td><td>年轻；exercisedb 媒体版权；JSON-on-disk debt</td><td>老旧 UI（jQuery）</td><td>不直接竞争（户外为主）</td><td>闭源 = 不可自托管</td><td>闭源 + CSV 不能 re-import = 锁定</td></tr>
+</table>
+<h3>差异化护城河</h3>
+<p>技术护城河：</p>
+<ul>
+<li><strong>「反 SaaS 锁定」叙事最彻底</strong>：不仅数据可导出，连 passkey 私钥都不上传服务器</li>
+<li><strong>AI Coach + MCP 是类别首创</strong>：竞品都没这两个；BYOK + 闭合 change list 是负责任的 LLM-feature 范式</li>
+</ul>
+<p>生态护城河：</p>
+<ul>
+<li><strong>依赖极简</strong>：api 仅 2 个 production deps（@simplewebauthn/server + web-push），攻击面最小</li>
+<li><strong>国际化深度</strong>：17 个 locale 文件每个 ~1953 行（Top 10 热点都是 locale 文件），18+ 种语言——这是 wger 的 Weblate 翻译模式做不到的「代码内化」</li>
+</ul>
+<p>信任护城河：</p>
+<ul>
+<li><strong>AGPL v3 + 无付费版</strong>：「AGPL, no paid tier, nothing held back for sponsors」</li>
+<li><strong>AI 协作透明披露</strong>：README 单独「How openGym is built」一节</li>
+<li><strong>单人主导 + 870+ commits</strong>：作者亲自与 QA 一起「kill it eighty times mid-write」才肯发版</li>
+</ul>
+<h3>竞争风险</h3>
+<ul>
+<li><strong>wger（最长历史 + PostgreSQL 必选 + 营养追踪独有）</strong>：如果 openGym 未来加营养模块，会与 wger 直接竞争。但当前 wger 的 jQuery 老 UI + Flutter 移动端体验差，自托管圈仍倾向选 openGym。</li>
+<li><strong>Hevy / Strong 的用户粘性</strong>：百万级用户已建立训练历史，迁移成本高。openGym 的导入器（FitNotes/Strong/Hevy）降低了迁移门槛，但仍需要用户主动付出精力。</li>
+<li><strong>单人主导 = bus factor=1</strong>：作者若离开项目，节奏可能断。30 位贡献者但 Top 1 占 79.9%，目前仍非常依赖 Duarte。</li>
+</ul>
+<h3>生态定位</h3>
+<p>在整个技术生态中扮演的角色：</p>
+<ul>
+<li><strong>填补了「开源 + 自托管 + 力量训练深度 + 现代前端」四轴交集</strong>：wger 老、FitTrackee 偏户外、Hevy/Strong 闭源——openGym 在这个交集上几乎无对手。</li>
+<li><strong>BYOK AI Coach 的范式输出</strong>：`api/coach/core/payload.js` 585 行 + `validate.js` 627 行展示了「hostile note 也不能发明 change type」的边界设计——这是 LLM-as-feature 类别的稀缺范式。</li>
+<li><strong>MCP × 个人数据</strong>：首次把「个人数据 via MCP 暴露给 LLM」做成了 read-only stdio 直读 + 零额外网络成本——任何 self-hosted personal data 都能照搬。</li>
+</ul>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>: 热度已被市场捕捉（7701 stars / 987 forks）——不可套利 star；但价值在「理解其设计取舍」而非「抢先 star」。</li>
+<li><strong>技术借鉴</strong>: 12 个创新点（详见上文），最值得借鉴：
+<ul>
+<li>纯函数 + 共置测试的训练规则抽象（任何 domain-heavy app）</li>
+<li>AI Coach allowlist payload + 闭合 change list（任何 LLM-as-feature）</li>
+<li>Permission 0600 per-file 而非 0700 整目录（任何自托管项目）</li>
+<li>MCP server 直读本地数据复用纯函数（任何 self-hosted personal data）</li>
+</ul>
+</li>
+<li><strong>生态位</strong>: 在「开源 + 自托管 + 力量训练 + 现代前端 + BYOK AI Coach」五维交集上几乎独占。</li>
+<li><strong>趋势判断</strong>:
+<ul>
+<li>项目仍在爆发期（909 commits 最近 30 天），v1.4.0 新 exercise database 是下一个观察点</li>
+<li>AGPL 限制了商业 fork，但<strong>周边（assets/merch 162 次修改）有商业化尝试</strong></li>
+<li>比 wger 有后发优势（更现代 UI、更少依赖、更深力量训练），比 Hevy/Strong 有信任优势（数据可 fork）</li>
+</ul>
+</li>
+</ul>
+<h2>风险与不足</h2>
+<p>诚实评估：</p>
+<ol>
+<li><strong>年龄过轻（2.7 个月）</strong>：v1.3.10 之前的 sync bug 密集出现（CHANGELOG 显示 RC bug 日期 `2026-10-07`、`2026-10-06` 等），稳定度还在爬坡。</li>
+<li><strong>数据库迁移是已知 debt</strong>：`server-state-read-cost.test.js` 已经存在说明 O(n) read cost 是已知问题；ROADMAP 显式列入「唯一的兼容性 break」。</li>
+<li><strong>exercisedb 媒体版权争议</strong>：README L343-350 显式披露——AGPL 代码可用但媒体不能，reusing 媒体需自行取得 Gym visual 授权。</li>
+<li><strong>i18n 翻译半自动</strong>：18 个 locale 同步成本高（`translate-*-stage.mjs` 半手动），新增语言的边际成本不低。</li>
+<li><strong>依赖欠年轻</strong>：React 19、Vite、Zustand 5 都在快速迭代，长期维护成本。</li>
+<li><strong>配对 UX 已知脆弱</strong>（Issue #329）：Android 客户端通过 Traefik+HTTPS 自托管实例配对时 Connect 按钮刷「Failed to fetch」，<strong>请求根本没出设备</strong>——这对「卖给 homelabber」的产品定位是个 UX 风险。</li>
+<li><strong>单人主导 bus factor=1</strong>：30 位贡献者中 Top 1 占 79.9%。</li>
+</ol>
+<h2>行动建议</h2>
+<ul>
+<li><strong>如果你要用它</strong>: 一行 `docker compose up` 起服务；v1.3.10 已足够稳定日常使用；如果你是 iPhone 用户，PWA 直接 add to home screen 即可；如果你是多 profile 家庭实例，注意 OIDC 集成要到 v1.4.6。</li>
+<li><strong>如果你要学它</strong>: 重点关注：
+<ul>
+<li>`frontend/src/lib/` 112 模块 + 157 共置测试（domain logic 纯函数化的范式）</li>
+<li>`api/sync-stamps.js` 510 行（CRDT-lite 字段级同步）</li>
+<li>`api/coach/core/payload.js` 585 行 + `validate.js` 627 行（LLM-as-feature 边界设计）</li>
+<li>`api/coach/adapters/claude.js`（AI 运行时按需引入 + LockDOWN frozen）</li>
+<li>`mcp/src/tools.js`（MCP 复用前端纯函数）</li>
+</ul>
+</li>
+<li><strong>如果你要 fork 它</strong>: 可改进的方向：
+<ul>
+<li>添加营养追踪（wger 的独有模块，openGym 没有）</li>
+<li>实现 PocketID / Authentik OIDC 集成（v1.4.6 之前的临时方案）</li>
+<li>把 frontend/lib 的 progression / 1RM / recovery 抽出成独立 npm 包（开源稀缺品）</li>
+<li>给 API 写第三方 CLI（#8 早期被关闭的需求，社区可能重提）</li>
+</ul>
+</li>
+</ul>
+<h3>知识入口</h3>
+<table>
+<tr><th>资源</th><th>链接</th></tr>
+<tr><td>DeepWiki</td><td>未收录</td></tr>
+<tr><td>Zread.ai</td><td>未收录</td></tr>
+<tr><td>关联论文</td><td>无（消费级健身 app，无学术发表）</td></tr>
+<tr><td>在线 Demo</td><td><a href="https://opengym.duarte-santos.ch/demo/">https://opengym.duarte-santos.ch/demo/</a></td></tr>
+<tr><td>自托管指南</td><td><a href="https://github.com/DuarteSantos8/openGym/blob/main/docs/SELF_HOSTING.md">https://github.com/DuarteSantos8/openGym/blob/main/docs/SELF_HOSTING.md</a></td></tr>
+<tr><td>AI Coach 设计哲学</td><td><a href="https://github.com/DuarteSantos8/openGym/blob/main/docs/AI_COACH.md">https://github.com/DuarteSantos8/openGym/blob/main/docs/AI_COACH.md</a></td></tr>
+<tr><td>Roadmap</td><td><a href="https://github.com/DuarteSantos8/openGym/blob/main/ROADMAP.md">https://github.com/DuarteSantos8/openGym/blob/main/ROADMAP.md</a></td></tr>
+<tr><td>Changelog</td><td><a href="https://github.com/DuarteSantos8/openGym/blob/main/CHANGELOG.md">https://github.com/DuarteSantos8/openGym/blob/main/CHANGELOG.md</a></td></tr>
+<tr><td>独立深度视角（en）</td><td><a href="https://zendot.org/en/posts/duartesantos8-opengym">https://zendot.org/en/posts/duartesantos8-opengym</a></td></tr>
+<tr><td>独立深度视角（中）</td><td><a href="https://blog.csdn.net/TunerT_TQ/article/details/164376047">https://blog.csdn.net/TunerT_TQ/article/details/164376047</a></td></tr>
+</table>
+</body>
+</html>

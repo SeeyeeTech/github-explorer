@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_run": "2026-10-07",
+    "last_run": "2026-10-08",
     "window_days": 30
   },
   "entries": [
@@ -939,6 +939,48 @@
       "canonical_url": "https://github.com/cathrynlavery/diagram-design",
       "event_date": "2026-10-07",
       "date_seen": "2026-10-07"
+    },
+    {
+      "key": "github.com/manaflow-ai/cmux",
+      "canonical_url": "https://github.com/manaflow-ai/cmux",
+      "event_date": "2026-10-08",
+      "date_seen": "2026-10-08"
+    },
+    {
+      "key": "github.com/smol-ai/skit",
+      "canonical_url": "https://github.com/smol-ai/skit",
+      "event_date": "2026-10-08",
+      "date_seen": "2026-10-08"
+    },
+    {
+      "key": "github.com/openai/math",
+      "canonical_url": "https://github.com/openai/math",
+      "event_date": "2026-10-08",
+      "date_seen": "2026-10-08"
+    },
+    {
+      "key": "arxiv:2610.08463",
+      "canonical_url": "https://arxiv.org/abs/2610.08463",
+      "event_date": "2026-10-08",
+      "date_seen": "2026-10-08"
+    },
+    {
+      "key": "https://fabiopacifici.com/ai-developer-digest-october-7-2026",
+      "canonical_url": "https://fabiopacifici.com/ai-developer-digest-october-7-2026",
+      "event_date": "2026-10-08",
+      "date_seen": "2026-10-08"
+    },
+    {
+      "key": "github.com/magnitudedev/magnitude",
+      "canonical_url": "https://github.com/magnitudedev/magnitude",
+      "event_date": "2026-10-08",
+      "date_seen": "2026-10-08"
+    },
+    {
+      "key": "arxiv:2610.06917",
+      "canonical_url": "https://arxiv.org/abs/2610.06917",
+      "event_date": "2026-10-08",
+      "date_seen": "2026-10-08"
     }
   ]
 }

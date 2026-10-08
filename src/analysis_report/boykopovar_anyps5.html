@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+
+/* 正文段落 */
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+
+/* 标题 */
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+
+/* 列表 */
+ul,
+ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+
+/* 引用 */
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before,
+blockquote::after {
+    content: none !important;
+}
+
+/* 代码块 */
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+
+/* 脚注 */
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+
+/* 上标 */
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+
+</style>
+</head>
+<body>
+<blockquote>
+<p>GitHub: <a href="https://github.com/boykopovar/anyps5">https://github.com/boykopovar/anyps5</a></p>
+</blockquote>
+<h2>一句话总结</h2>
+<p><strong>AnyPS5</strong> 是一个把 Sony PS5 ELF 程序<strong>重链接</strong>为 Linux/Windows 原生可执行文件的工具——不上模拟器、不开独立运行时，只靠「ELF/PE 重链接 + clean-room prx 系统库 + RDNA → SPIR-V 着色器重编译」三件套，让 PS5 游戏在 PC 上以原生性能运行。</p>
+<h2>值得关注的理由</h2>
+<ol>
+<li><strong>「Wine for PS5」独占叙事</strong>：主机模拟器（RPCS3/Xenia/Ryujinx）都是 JIT/异构翻译，PS5 与 PC 硬件同源（Zen 2 + RDNA2）根本不需要这条路。Wine 在 Windows→Linux 上验证过的"重链接 + 系统库替换"哲学，被移植到 PS5 上是首创——<strong>这条赛道目前没有任何直接竞争者</strong>。</li>
+<li><strong>2 个月 22 万行 C++ / 11.6K stars / 95 贡献者 / 294 排队 PR</strong>：所有"职业开源"的指标都拉满，且仍在上升曲线（10 月半月已达 1660 commit，9 月 863）。这不是 fork 凑数，是真在打实质工程。</li>
+<li><strong>着色器重编译（RDNA → SPIR-V）是真正的护城河</strong>：占 20% commit 的 core/shader/ 子系统，含完整的 decode → CFG → 域 IR → 多 pass 优化 → SPIR-V 输出流水线，并可选 spirv-val 校验。shadPS5 走模拟不重编——这是任何模拟路线做不到的能力。</li>
+</ol>
+<h2>项目展示</h2>
+<p><img src="https://boykopovar.github.io/AnyPS5/progress.svg" alt="AnyPS5 进度地图" style="max-width:100%;"/></p>
+<blockquote>
+<p>这是项目的核心可视化——各系统库 / shader 指令 / 平台支持的实时完成度仪表盘，技术报告必引。比任何截图都更有说服力：覆盖率的诚实本身就是对社区的承诺。</p>
+</blockquote>
+<h2>项目画像</h2>
+<table style="width:100%; border-collapse:collapse; margin:1em 0; font-size:14px;">
+<thead><tr>
+<th style="border:1px solid #ddd; padding:6px 8px; background:#f5f5f5; text-align:left;">维度</th>
+<th style="border:1px solid #ddd; padding:6px 8px; background:#f5f5f5; text-align:left;">数据</th>
+</tr></thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ddd; padding:6px 8px;">GitHub</td>
+<td style="border:1px solid #ddd; padding:6px 8px;"><a href="https://github.com/boykopovar/anyps5">https://github.com/boykopovar/anyps5</a></td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd; padding:6px 8px;">Star / Fork</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">11,591 / 885</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd; padding:6px 8px;">代码行数</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">229,820 行（C++ 96.4% / CMake 1.8% / Python 1.3% / GLSL 0.1%）</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd; padding:6px 8px;">项目年龄</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">2.1 个月（首 commit 2026-08-03）</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd; padding:6px 8px;">开发阶段</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">密集开发（月环比 +92%，10 月半月 1660 commit）</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd; padding:6px 8px;">贡献模式</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">核心少数 + 社区（95 人，Top1 占 29.8%，Top10 占大头）</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd; padding:6px 8px;">热度定位</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">大众热门（11.6K stars 仅 2 个月龄，仍在指数增长）</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd; padding:6px 8px;">质量评级</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">代码优秀 / 文档优秀 / 测试充分</td>
+</tr>
+</tbody></table>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>boykopovar，Belarus，账号 2.4 年。Bio 精准对应项目域——<em>Reverse Engineering · Protocol Analysis · Software Development · C++, C#, Python</em>。<strong>作者本人 fork 过 KytyPS5</strong>（PS5 SDK 的开源参考实现），这是理解 AnyPS5 出处的关键钥匙：他本来就在 PS5 逆向圈里，看到 Kyty「公开了 SDK 但游戏 ELF 没法直接跑」的空白，就推导出「重链接 + clean-room prx」的替代思路。</p>
+<h3>问题判断</h3>
+<p>PS5 与 PC 硬件<strong>完全同源</strong>——Zen 2 CPU + x86-64 指令集 + RDNA2 GPU。传统主机模拟器走的是 JIT / 二进制翻译，对这一代主机<strong>没有意义</strong>。同时，Sony 100+ 个 prx 系统库（libkernel / libSceAgcDriver / libScePad / libc / NpTrophy2 等）没有任何公开实现——<strong>Wine 解决了 Windows→Linux 的路径，但 PS5→PC 是空白</strong>。</p>
+<h3>解法哲学</h3>
+<ul>
+<li><strong>「小而硬」</strong>：每个函数要么做它该做的，要么 throw，<strong>不写静默 stub 兜底</strong>。docs/dev/TechnicalDebt.md 显式列出唯一 5 处允许 silent stub 的位置（dialog 类、HMD），其余未实现即抛 NotImplemented。代码实测 core/libs/prx/ 共 1062 处 throw、core/shader/ 共 518 处。</li>
+<li><strong>「功能正确性 &gt; 兼容广度」</strong>：CONTRIBUTING.md 明示：<em>Implement the general behaviour of a function, not what one title happens to need</em>——不为单个游戏打补丁。</li>
+<li><strong>GPLv2-only（不是 MIT/Apache 也不是 GPLv3）</strong>：强 copyleft 把「改进必须回开源」绑定住，<strong>是对抗大型商业公司闭源分叉的标准武器</strong>，也是作者「genuinely open」立场的法律表态。</li>
+<li><strong>明确选择不做什么</strong>：不重写用户态中间件（Cohtml/FMOD/GOG Galaxy 等都跳给 relinker 直接链游戏自带版本）、不为单游戏打补丁、不为不支持的 shader 指令生成 stub。</li>
+</ul>
+<h3>战略意图</h3>
+<p>这是作者生涯代表作（11,591★ 远超其他所有 repo 总和），<strong>「核心产品」而非「基础设施」</strong>。GPLv2 选择暗示作者不打算让任何大厂把它包装成闭源兼容层商业发行。<strong>DISCLAIMER 把使用范围限制在 interoperability/research/preservation，明确不捆绑固件/密钥/版权库——这是法律护城河而非商业策略</strong>。</p>
+<h2>核心价值提炼</h2>
+<h3>创新之处</h3>
+<ol>
+<li><strong>PS5 RDNA shader 全栈重编译为 SPIR-V</strong>（新颖度 4/5 / 实用性 5/5 / 可迁移性 4/5）
+<ul>
+<li>自研 RDNA 解码器 → CFG 结构化 → 域 IR → 多 pass 优化（SSA / 常量折叠 / 死码 / ReadLane / MaskedSelect / SRT 行走 / 资源追踪 / 绑定分配）→ SPIR-V 输出 + 可选 spirv-tools 验证。disk cache 复用编译产物。<strong>公开领域几乎没有 RDNA2→SPIR-V 全栈实现</strong>，shadPS5 走模拟不重编。</li>
+</ul>
+<li><strong>NID 反查靠 hash 派生</strong>（新颖度 3/5 / 实用性 5/5 / 可迁移性 5/5）
+<ul>
+<li>ComputeNid(name, library) = SHA1(name + 16 字节 suffix) → 8 字节大端反转 → 11 字符 base64。无网络依赖、可重放。nid_patcher 构建后用同一函数把 clean-room 实现的 C symbol 改名回 PS5 原 NID，让动态加载器无感绑定——<strong>是整个「无模拟」方案的粘合剂</strong>。</li>
+</ul>
+<li><strong>AMD-only x86 指令就地替换 codegen</strong>（新颖度 3/5 / 实用性 5/5 / 可迁移性 4/5）
+<ul>
+<li>SSE4A / SHA / CLZERO / VRCPPS / VRSQRTPS 在 Intel 主机上跑不了。Amd64OnlyConverter 走"InstructionScanner → Decoder → Matcher → OperandBuilder → Rewriter"流水线做原地替换或 stub。</li>
+</ul>
+<li><strong>fail-fast + TechnicalDebt.md 显性化治理</strong>（新颖度 3/5 / 实用性 4/5 / 可迁移性 5/5）
+<ul>
+<li>全栈 throw + 一份 304 行的单一债务登记簿 + tools/check_conventions.py 强制注释必须同时改 TechnicalDebt.md——把「加注释」和「登记技术债」绑成同一个 PR 工作单元。<strong>任何长寿命 C++ 项目都能复制这套治理模式</strong>。</li>
+</ul>
+</ol>
+<h3>可复用的模式与技巧</h3>
+<ol>
+<li><strong>Per-library CMake sub-project + 统一 Export.cpp 接口</strong>：core/libs/prx/&lt;lib&gt;/ 模板可复制到任何"按目标 OS 系统库镜像"的兼容层项目——增量构建 / 单库替换 / 单测裁剪三件套。</li>
+<li><strong>Hash-derived symbol rename pipeline</strong>：算 hash → 重写 ELF/PE 导出表，可复用于任何私有 ABI 重绑定场景。</li>
+<li><strong>Compiler-style shader 重编译分层</strong>：decode → CFG → IR → optimize → backend，每个 stage 独立、可单测、可换实现——可推广到 PS4/PS5 Pro/下一代主机 shader 重编。</li>
+<li><strong>多后端产物抽象用 I* 接口 + 工厂</strong>：MakePatcher / MakeNullSyscallScanner / MakeStrictUnusedNidFilter 这种命名约定 + DI 模式对单元测试友好。</li>
+</ol>
+<h3>关键设计决策</h3>
+<ol>
+<li><strong>把 PS5 ELF 转为宿主 ELF/PE 而非解释执行</strong>
+<ul>
+<li>问题：PS5 硬件与 PC 同源，没必要走翻译/模拟。</li>
+<li>方案：relinker 用一次 --to-intel 把 AMD-only 指令原地替换或 stub，再用 LinuxElfPatcher / WindowsPePatcher 重建 SysV 动态节，OS loader 直接绑定导出。</li>
+<li>Trade-off：失去"运行任意 PS5 ELF"的普适性，换来原生性能（无 JIT 开销）和更简单的部署（产物就是普通可执行文件）。</li>
+</ul>
+<li><strong>PRX 兼容层用按库独立 CMake target 组织</strong>
+<ul>
+<li>问题：100+ 个 PS5 系统库的实现需要并行演进、单库替换、单测可裁剪。</li>
+<li>方案：core/libs/prx/&lt;libSceXxx&gt;/ 各自一份 CMakeLists.txt + Export.cpp + include/ + src/；configure_windows_unwind() 在 MinGW 下用 objcopy --rename-section .eh_frame=.ehfram 让 MSVC 加载器识别 MinGW 产物。</li>
+<li>Trade-off：维护 100+ 个独立 target 的人力成本 vs 一库一切的可调试性/增量构建收益。</li>
+</ul>
+<li><strong>着色器用 RDNA → 域中间 IR → SPIR-V 三段式重编译器</strong>
+<ul>
+<li>问题：PS5 RDNA shader 指令集对 Vulkan/SPIR-V 没有 1:1 映射。</li>
+<li>方案：RDNA 指令字面解码 → CFG 结构化 → RDNA → IR → 多 pass 优化 → SPIR-V 输出。ShaderDiskCache 用 hash 做 disk+memo 双缓存，ANYPS5_ENABLE_SPIRV_TOOLS 可选开启 spirv-val 验证。</li>
+<li>Trade-off：多一道 IR 层的工程成本 vs 优化 pass 复用、跨指令族迁移能力、未来加 RDNA3/4 的扩展空间。</li>
+</ul>
+</ol>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<table style="width:100%; border-collapse:collapse; margin:1em 0; font-size:14px;">
+<thead><tr>
+<th style="border:1px solid #ddd; padding:6px 8px; background:#f5f5f5; text-align:left;">维度</th>
+<th style="border:1px solid #ddd; padding:6px 8px; background:#f5f5f5; text-align:left;">AnyPS5</th>
+<th style="border:1px solid #ddd; padding:6px 8px; background:#f5f5f5; text-align:left;">shadPS5</th>
+<th style="border:1px solid #ddd; padding:6px 8px; background:#f5f5f5; text-align:left;">Wine / Proton</th>
+<th style="border:1px solid #ddd; padding:6px 8px; background:#f5f5f5; text-align:left;">KytyPS5</th>
+</tr></thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ddd; padding:6px 8px;"><strong>路径</strong></td>
+<td style="border:1px solid #ddd; padding:6px 8px;">重链接 + clean-room</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">模拟/JIT</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">重链接 + clean-room</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">PS5 SDK 实现</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd; padding:6px 8px;"><strong>目标方向</strong></td>
+<td style="border:1px solid #ddd; padding:6px 8px;">PS5 → Linux/Win</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">PS5 模拟</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">Windows → Linux</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">在 PC 上开发 PS5 程序</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd; padding:6px 8px;"><strong>运行时</strong></td>
+<td style="border:1px solid #ddd; padding:6px 8px;">无（产物即原生可执行）</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">独立 runtime</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">无</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">编译工具链</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd; padding:6px 8px;"><strong>CPU 端开销</strong></td>
+<td style="border:1px solid #ddd; padding:6px 8px;">0（JIT 无）</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">高（JIT/解释）</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">0</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">—</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd; padding:6px 8px;"><strong>成熟度</strong></td>
+<td style="border:1px solid #ddd; padding:6px 8px;">v0.1.x，仅 2D 独立游戏</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">更早期</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">30 年+ 积累</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">SDK 风格</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd; padding:6px 8px;"><strong>License</strong></td>
+<td style="border:1px solid #ddd; padding:6px 8px;">GPLv2-only</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">—</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">LGPL</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">—</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd; padding:6px 8px;"><strong>社区规模</strong></td>
+<td style="border:1px solid #ddd; padding:6px 8px;">11.6K★ / 95 人</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">更早期</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">10× 数量级</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">小众</td>
+</tr>
+</tbody></table>
+<h3>差异化护城河</h3>
+<ul>
+<li><strong>技术护城河</strong>：RDNA→SPIR-V 全栈 + NID hash 派生 + AMD-only 指令替换三层互锁，<strong>任何模拟路线都做不到重编</strong>。</li>
+<li><strong>生态护城河</strong>：PS5→PC「native port」路径目前<strong>无明显对手</strong>。Wine/Proton 是哲学祖先但目标平台相反。</li>
+<li><strong>信任护城河</strong>：GPLv2-only 阻止大厂闭源 fork；DISCLAIMER 把使用范围限制在 interoperability/research/preservation，是法律护城河。</li>
+</ul>
+<h3>竞争风险</h3>
+<ul>
+<li><strong>最直接风险是 shadPS5</strong>——一旦他们打通 shader 重编（而不是模拟），将吃掉同一批用户。</li>
+<li><strong>Proton/Wine 路径上"PS5→PC"</strong> 若由 Valve 商业投入会快速碾压小团队。</li>
+<li><strong>Sony 法务</strong>是长期外部风险（虽然 DISCLAIMER 已做对冲，参考 Yuzu 案）。</li>
+</ul>
+<h3>生态定位</h3>
+<p><strong>数字保护 / 兼容性研究 / 跨平台移植基础设施</strong>——与模拟器互补，与 Wine 哲学同源。任何"硬件同源 + ABI 不同"的跨平台移植场景都可以借鉴这套模式（Switch 后续 NVN→Vulkan 也用同样思路）。</p>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：PS5→PC 的 native port 路径目前<strong>几乎无直接竞争</strong>，项目独占叙事才带来这种传播力（11.6K★ / 2 个月）。窗口期有限——shadPS5 或 Valve 切入就会快速变化。</li>
+<li><strong>技术借鉴</strong>：</li>
+<li><strong>Hash-derived symbol rename pipeline</strong>（NID / ordinal 派生）可复用于任何私有 ABI 重绑定场景</li>
+<li><strong>fail-fast + 单文件 TechnicalDebt + 强制注释规则</strong>是任何长寿命 C++ 项目都能复制的治理模式</li>
+<li><strong>Per-library CMake sub-project 模板</strong>可迁移到任何"按目标 OS 系统库镜像"的兼容层项目</li>
+<li><strong>Compiler-style shader 重编译分层</strong>可推广到 PS4/PS5 Pro/下一代主机 shader 重编</li>
+<li><strong>生态位</strong>：填补了「硬件同源时代的主机→PC native port」这个空白，与模拟器互补。</li>
+<li><strong>趋势判断</strong>：项目仍在加速（10 月半月 1660 commit &gt; 9 月全月 863），且首发 2 个月——<strong>早期窗口，尚未饱和</strong>。</li>
+</ul>
+<h2>风险与不足</h2>
+<ul>
+<li><strong>仅 Linux + Windows</strong>；macOS 在 #1 仍是最大需求（15 评论）但暂未承诺。</li>
+<li><strong>Windows 强绑定 MinGW 15.2.0</strong>（winlibs-gcc15），版本敏感。</li>
+<li><strong>100+ 个 PRX 库中多数仍为 stub</strong>，实际兼容游戏极少——仅 Dreaming Sarah 等 2D 独立游戏可稳定运行；3A 商业游戏任重道远。</li>
+<li><strong>Shader 重编仅 RDNA2</strong>，PS5 Pro 的 RDNA2.1 / PS5 Slim 变体未明确路线。</li>
+<li><strong>Hardware oracle 是 PR 验收门槛</strong>，但本身依赖贡献者持有 AMD GPU + PS5，门槛高。</li>
+<li><strong>注释率仅 3.0%</strong>，新人 onboarding 成本偏高。</li>
+<li><strong>无 CHANGELOG.md</strong>，靠 git log + Conventional Commits 自行推断。</li>
+<li><strong>License 兼容性对反 GPLv3</strong>——意味着任何想用 GPLv3 代码 fork 的方案都被排除。</li>
+</ul>
+<h2>行动建议</h2>
+<h3>如果你要用它</h3>
+<ul>
+<li><strong>用于 PS5 游戏兼容/分析/保护</strong>：直接参考 README + docs/user/COMPATIBILITY.md（注意目前仅 2D 独立游戏可稳定运行）。</li>
+<li><strong>不要期待跑 3A</strong>：兼容性仍在 v0.1.x，与 RPCS3 / Proton 成熟度差几个数量级。</li>
+<li><strong>macOS 用户</strong>：等 #1 解决，可能需要数月。</li>
+</ul>
+<h3>如果你要学它</h3>
+<p><strong>重点关注以下文件/模块</strong>：</p>
+<ol>
+<li><strong>架构骨架</strong>：core/main.cpp 入口 + core/relinker/（离线 CLI 三件套：codegen / domain / io）</li>
+<li><strong>创新核心</strong>：core/shader/recompiler/（RDNA→SPIR-V 完整流水线）+ core/libs/prx/（100+ clean-room 系统库）</li>
+<li><strong>设计哲学</strong>：docs/dev/TechnicalDebt.md（304 行单一债务登记）+ tools/check_conventions.py（强制注释规则）</li>
+<li><strong>关键抽象</strong>：core/relinker/elfpatcher/include/.../IElfPatcher.hpp（Linux/Windows 后端抽象）+ ComputeNid（NID hash 派生）</li>
+<li><strong>测试样板</strong>：core/libs/prx/libSceAgcDriver/tests/Graphics.cpp（73 次修改的高频实测试）</li>
+</ol>
+<h3>如果你要 fork 它</h3>
+<p>可改进的方向：</p>
+<ul>
+<li><strong>macOS 后端</strong>：加 MacMachOPatcher（IElfPatcher 第三个实现），Mach-O 重链接（参考 Wine 的 mach-o support）</li>
+<li><strong>PS5 Pro / RDNA3</strong>：扩 core/shader/recompiler/RdnaDecoder/ 到 RDNA2.1 / RDNA3 指令集</li>
+<li><strong>Telemetry/diagnostics</strong>：fail-fast 抛错时附带 issue 自动生成链接，加速社区反馈闭环</li>
+<li><strong>Compatibility 数据库</strong>：把 COMPATIBILITY.md 升级为可查询的 JSON / 站点，方便研究者快速判断"X 游戏能不能跑"</li>
+<li><strong>GPU 厂商扩展</strong>：当前 Amd64OnlyConverter 仅 AMD→Intel 替换，可加 ARM64 / RISC-V 后端（虽然 PS5 永远不需要，但模式本身可重用）</li>
+</ul>
+<p>---</p>
+<h2>知识入口</h2>
+<table style="width:100%; border-collapse:collapse; margin:1em 0; font-size:14px;">
+<thead><tr>
+<th style="border:1px solid #ddd; padding:6px 8px; background:#f5f5f5; text-align:left;">资源</th>
+<th style="border:1px solid #ddd; padding:6px 8px; background:#f5f5f5; text-align:left;">链接</th>
+</tr></thead>
+<tbody>
+<tr>
+<td style="border:1px solid #ddd; padding:6px 8px;">DeepWiki</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">未收录（探测被限流）</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd; padding:6px 8px;">Zread.ai</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">未收录（探测被限流）</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd; padding:6px 8px;">关联论文</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">无</td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd; padding:6px 8px;">在线 Demo</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">无（项目主页是 Discord: &lt;<a href="https://discord.gg/BHFztBPUe&gt;）">https://discord.gg/BHFztBPUe&gt;）</a></td>
+</tr>
+<tr>
+<td style="border:1px solid #ddd; padding:6px 8px;">进度可视化</td>
+<td style="border:1px solid #ddd; padding:6px 8px;">&lt;<a href="https://boykopovar.github.io/AnyPS5/progress.svg&gt;（核心展示素材）">https://boykopovar.github.io/AnyPS5/progress.svg&gt;（核心展示素材）</a></td>
+</tr>
+</tbody></table>
+</body>
+</html>

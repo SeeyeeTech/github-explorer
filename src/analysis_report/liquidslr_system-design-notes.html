@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* ====== 微信公众号排版 CSS ====== */
+body {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #3e3e3e;
+    background: #fff;
+}
+p {
+    font-size: 15px !important;
+    line-height: 2 !important;
+    margin: 0 !important;
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+    padding-right: 1.2em !important;
+    padding-left: 1.2em !important;
+    text-align: justify !important;
+}
+p + p {
+    margin-top: 0 !important;
+}
+h1 {
+    font-size: 20px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 16px 0 !important;
+    padding: 0 !important;
+}
+h2 {
+    font-size: 18px !important;
+    color: #e51f42 !important;
+    text-align: center !important;
+    margin: 24px 0 24px 0 !important;
+    padding: 0 !important;
+}
+h3 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    color: #3e3e3e !important;
+    text-align: left !important;
+    margin: 16px 0 16px 0 !important;
+    padding: 0 0 0 1.2em !important;
+}
+h4 {
+    font-size: 15px !important;
+    color: rgb(0, 122, 170) !important;
+    margin: 12px 0 8px 0 !important;
+    padding: 0 !important;
+}
+ul, ol {
+    padding-left: 2em !important;
+    margin: 1em 0 !important;
+    font-size: 15px !important;
+}
+li {
+    margin: 0.5em 0 !important;
+    line-height: 1.8em !important;
+    font-size: 15px !important;
+    color: #3e3e3e !important;
+}
+ul ul, ul ol, ol ul, ol ol {
+    margin: 0 !important;
+    padding-left: 1.2em !important;
+}
+blockquote {
+    border-left: 4px solid #888 !important;
+    padding: 8px 16px !important;
+    margin: 1em 0 !important;
+    color: #666 !important;
+    background: #f9f9f9 !important;
+}
+blockquote > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+blockquote::before, blockquote::after {
+    content: none !important;
+}
+pre {
+    font-size: 14px !important;
+    line-height: 1.4em !important;
+    color: #3e3e3e !important;
+    background: #f8f8f8 !important;
+    padding: 12px 16px !important;
+    border-radius: 4px !important;
+    overflow: auto !important;
+    margin: 1em 0 !important;
+}
+.footnotes {
+    font-size: 11px !important;
+    color: #666 !important;
+    line-height: 1.2 !important;
+    margin: 8px 0 0 0 !important;
+    padding: 4px 0 0 0 !important;
+    border-top: 1px solid #eee !important;
+}
+.footnotes p {
+    font-size: 11px !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #666 !important;
+}
+sup {
+    font-size: 0.75em !important;
+    vertical-align: super !important;
+    color: #e51f42 !important;
+    margin: 0 2px !important;
+}
+</style>
+</head>
+<body>
+<blockquote>
+<p>GitHub: <a href="https://github.com/liquidslr/system-design-notes">https://github.com/liquidslr/system-design-notes</a></p>
+</blockquote>
+<h2>一句话总结</h2>
+<p>Gaurav Kumar 把 Alex Xu「System Design Interview」Vol 1+2 全 28 章转写成纯 Markdown 笔记 + 392 张原创架构图，零代码、零测试、零 LICENSE，靠「可读性」在 GitHub 拿到 24,613 星，但本质是<strong>忠实抄写 + 极少原创</strong>的学习型仓库。</p>
+<h2>值得关注的理由</h2>
+<ol>
+<li><strong>可挖走 7 个面试套路</strong>：4 步面试框架（Scope → High-Level → Deep Dive → Wrap-Up）、Quorum 公式 W+R>N、Consistent Hashing 受影响区间、DAG 异步流水线、mmap 当事件总线等，<strong>这些被显式写成可复用模式</strong>，面试前 2 周过完等于把 Alex Xu 体系过完</li>
+<li><strong>架构图高质量</strong>：392 张 PNG 全部原创 Excalidraw 风格，尺寸 1300×700 左右，每张支撑一段解释，<strong>信息密度远超 Alex Xu 原书黑白截图</strong>——单凭这些图就有收藏价值</li>
+<li><strong>对照价值大于参考价值</strong>：作为「Alex Xu 体系完整中文替代品」有现实需求，但<strong>没有 LICENSE + 明确承认基于付费书的现状，让二次分发/翻译/录视频讲解都踩在版权边缘</strong>——想 fork 前先读这个警示</li>
+</ol>
+<h2>项目展示</h2>
+<p>仓库 README 无图，但内部 392 张 PNG 是真正的资产。代表性图：</p>
+<ul>
+<li><strong>Ch 5 Consistent Hashing</strong>：<code>images/consistent-hashing.png</code> —— 一致性哈希环 + 虚拟节点 + 受影响区间，三段式直观展示</li>
+<li><strong>Ch 6 Key-Value Store</strong>：<code>images/merkel-tree.png</code> —— 反熵同步树结构，DFS 定位差异</li>
+<li><strong>Ch 14 YouTube</strong>：<code>images/dag-video-transcoding.png</code> —— DAG 视频转码流水线（输入 → DAG 调度器 → 资源管理 → 任务工作者）</li>
+<li><strong>Ch 4 Rate Limiter</strong>：<code>images/token-bucket.png</code> —— 令牌桶算法，配文直接给出漏桶 vs 令牌桶 vs 固定窗口 vs 滑动窗口对比</li>
+<li><strong>Ch 28 Stock Exchange</strong>：<code>images/sequencer.png</code> —— 撮合引擎 Sequencer 单线程串行化设计，配套「exchange 跑在一台巨型服务器」的反直觉论断</li>
+</ul>
+<blockquote>
+<p>这些图都是 <code>raw.githubusercontent.com/liquidslr/system-design-notes/main/&lt;chapter&gt;/images/&lt;file&gt;.png</code> 可直接外链，公众号文章引用无水印。</p>
+</blockquote>
+<h2>项目画像</h2>
+<p>| 维度 | 数据 |<br/>|------|------|------|<br/>| GitHub | https://github.com/liquidslr/system-design-notes |<br/>| Star / Fork | 24,613 / 4,600 |<br/>| 代码行数 | 0 LoC（纯 markdown + 392 张 PNG，~80 MB 二进制） |<br/>| 内容规模 | 28 章 / 29 份 md / ~57,000 词 / 中位 1,700 词/章 |<br/>| 项目年龄 | 21.5 个月（创建 2024-12-24） |<br/>| 开发阶段 | 爆发后冷却（58 天无 commit，0 commits/30d，1 commit/90d） |<br/>| 贡献模式 | 独立开发（liquidslr 占 32/35 commit = 91.4%，bus factor = 1） |<br/>| 热度定位 | 大众热门（24K 星，但 star 增长曲线异常：前 17 个月近乎停滞 → 2026-09~10 垂直飙升） |<br/>| 质量评级 | 内容[中-高] 文档[中] 可维护性[低]（无 LICENSE / 单作者 / 沉睡） |</p>
+<h2>作者视角：为什么存在这个项目</h2>
+<h3>创始人/作者背景</h3>
+<p>Gaurav Kumar（GitHub: liquidslr）：AWS 工程师，纽约，USC CS 毕业，账号 9.5 年（2017-04 注册），2,505 followers / 23 following / 40 public repos，hireable 状态，Twitter <code>liquid_slr</code>，个人站 pagefy.io（自研 SEO SaaS）。他真正出圈的是 #2 仓库 <code>leetcode-company-wise-problems</code>（31,295 星）——与本仓形成「<strong>求职准备内容矩阵</strong>」（LeetCode 公司题 + System Design 笔记 + pagefy.io 工具化变现）。两个 20K+ 星仓库构成个人品牌双引擎。</p>
+<h3>问题判断</h3>
+<p>Alex Xu 的「System Design Interview」Vol 1+2 是英文求职圈事实标准，但有两个摩擦：① <strong>全英文</strong>，对非母语求职者阅读速度慢；② <strong>黑白印刷图 + 章节散落</strong>，不方便快速检索和复制面试话术。作者判断：「如果我把全 28 章重写成纯文字 + 重画彩色架构图，会有人用。」这个判断被 24K 星验证——<strong>但其增长曲线（17 个月停滞后突然垂直）说明拐点是社交媒体/Trending 推荐，不是渐进认可</strong>。</p>
+<h3>解法哲学</h3>
+<ul>
+<li><strong>明确选择不做什么</strong>：不写代码示例（绝大多数章节零 code fence）、不做交互演示、不做 SPA（PR #7 提议被搁置）、不做付费墙、不加 LICENSE（这个选择后面会变成最大问题）</li>
+<li><strong>做一件事做到极致</strong>：把 Alex Xu 体系<strong>忠实转写</strong>到 Markdown，配 392 张原创 Excalidraw 图，让「可读性 + 可检索性」成为壁垒</li>
+<li><strong>允许社区衍生但不主导</strong>：翻译（PR / Issue #5 土耳其语）、排版衍生（Issue #10 hirdav 461 页精装版）、Agent 接入（PR #6）、SPA 浏览（PR #7）——作者全部客气接受但<strong>不合并、不推动</strong></li>
+</ul>
+<h3>战略意图</h3>
+<p>个人内容矩阵中的「系统设计」模块，与 <code>leetcode-company-wise-problems</code> 互为入口。变现尝试放在 pagefy.io（个人 SEO 工具 SaaS），而非直接对仓库收费。<strong>本仓库是漏斗顶端内容资产，不是产品本身</strong>——这解释了为什么没有 LICENSE（反正不打算用这个赚钱）和为什么作者 58 天不维护（已经完成它的使命）。</p>
+<h2>核心价值提炼</h2>
+<h3>创新之处（按新颖度×实用性排序）</h3>
+<p>| # | 创新点 | 新颖度 | 实用性 |<br/>|---|---|---|---|</p>
+<p>1 | <strong>392 张原创 Excalidraw 架构图</strong>替代原书黑白截图 | ★★★★ | ★★★★★ |</p>
+<p>2 | <strong>4 步面试框架显式时间预算</strong>（Scope 3-10min / High-Level 10-15min / Deep Dive 10-25min / Wrap-Up 3-5min）——原书只讲做什么，这里讲做多久 | ★★★ | ★★★★★ |</p>
+<p>3 | <strong>把所有数值常量化</strong>——L1=0.5ns、内存=100ns、SSD=150µs、HDD=10ms、同 DC=500µs、跨区域=150ms、99%=3.65d/yr、99.999%=5.3min/yr —— 比原书更易背诵 | ★★★★ | ★★★★ |</p>
+<p>4 | <strong>Quorum 公式 <code>W + R > N</code> 跨章节重复引用</strong>——KV Store、Stock Exchange 都用同一套一致性参数 | ★★★ | ★★★★ |</p>
+<p>5 | <strong>DAG 视频转码拆解</strong>（Ch 14）——把 YouTube 转码流水线切成输入→DAG 调度→资源管理→任务工作者 4 段 | ★★ | ★★★★ |</p>
+<p>6 | <strong>mmap 当事件总线</strong>（Ch 28）——把 <code>/dev/shm</code> 内存映射文件当微秒级 IPC，比 Kafka 更适合单机低延迟场景 | ★★★ | ★★★ |</p>
+<p>7 | <strong>「巨型服务器跑交易所」反直觉论断</strong>（Ch 28）——用一句话打破「分布式 = 更优」的迷信 | ★★★★ | ★★★ |</p>
+<h3>可复用的模式与技巧（<strong>直接偷走的 7 个套路</strong>）</h3>
+<ol>
+<li><strong>4 步面试框架</strong>（Ch 3）：Scope → High-Level Design → Deep Dive → Wrap-Up，配 3-10/10-15/10-25/3-5 分钟时间预算。<strong>任何系统设计题先在心里默念这套时间盒</strong>。</li>
+<li><strong>Quorum 一致性参数三件套</strong>（Ch 6、Ch 28）：<code>(N, W, R)</code> 三参数决定一致性，规则 <code>W + R > N</code> 强一致；可调 (3,2,2) 默认 vs (3,1,1) 高吞吐 vs (3,3,1) 高可靠。</li>
+<li><strong>Consistent Hashing 受影响区间规则</strong>（Ch 5）：节点增减只影响<strong>沿环逆时针到下一个节点</strong>这一段范围，其余节点零迁移；虚拟节点解决热点。</li>
+<li><strong>读多写少 10:1 启发式 + 主从复制</strong>（Ch 1 起反复出现）：先按 10:1 假设选主从，读流量放大用 Redis 缓存而非分库，<strong>这是几乎所有 Web 系统起步姿态</strong>。</li>
+<li><strong>DAG 异步流水线</strong>（Ch 14）：把任务拆成有向无环图，调度器按依赖顺序派发，资源管理器分槽位，任务工作者拉任务——<strong>这套骨架可以原样套到任何离线计算场景</strong>。</li>
+<li><strong>事件溯源做状态转换</strong>（Ch 27、Ch 28）：存不可变事件序列而非可变状态，启用重放/恢复/审计——金融场景标配。</li>
+<li><strong>mmap 当单机事件总线</strong>（Ch 28）：撮合引擎这种微秒级延迟场景，把环形队列写到 <code>/dev/shm</code> 多进程 mmap，绕过网络栈和内核 IPC。</li>
+</ol>
+<h3>关键设计决策</h3>
+<ul>
+<li><strong>纯文字 + 图，无代码</strong>：把「可读性」放第一位的代价是<strong>没有可运行的例子</strong>，读者无法验证。决策合理：作者瞄准的是「面试前 2 周速通」，不是「动手实现」。</li>
+<li><strong>章节严格 1:1 对应 Alex Xu Vol 1+2</strong>：保留原书 28 章顺序，<strong>让两本书可以页对页对照</strong>。代价：失去重组的优化空间，章节深度被原书单章深度锁死。</li>
+<li><strong>不引入新章节（ML/Auth/CDN）</strong>：作者选择忠实转写而非增补，<strong>避免结构偏离原书体系</strong>。代价：体系外的现代主题（推荐系统、身份认证、边缘缓存）完全空白。</li>
+<li><strong>零 LICENSE</strong>：作者明确放弃版权主张，<strong>默认所有人都可以读，但没有人能合法 fork/翻译/出版</strong>。这是双刃剑——读者自由，作者无护城河。</li>
+</ul>
+<h2>竞品格局与定位</h2>
+<h3>竞品对比矩阵</h3>
+<p>| 维度 | liquidslr/system-design-notes | donnemartin/system-design-primer | ByteByteGoHq/system-design-101 | karanpratapsingh/system-design |<br/>|------|---|---|---|---|<br/>| Stars | 24,613 | 373,449 | 90,303 | 46,480 |<br/>| 形式 | 纯文字 + 392 张 PNG | 文字 + Python 代码 | 图 + 短视频 | 文字 + Go 代码 + 图 |<br/>| 章节数 | 28（与 Alex Xu 1:1） | ~17 主题模块 | ~40 短视频配套 | ~30 主题模块 |<br/>| 体系来源 | Alex Xu Vol 1+2 忠实转写 | 社区整理 | Alex Xu 自家官方 | 独立编排 |<br/>| 原创内容 | 极少（主要是图） | 中等 | 高 | 中等 |<br/>| LICENSE | <strong>无</strong> | CC BY-SA 4.0 | 自家许可 | CC BY-SA 4.0 |<br/>| 中文支持 | 全章英文（中文社区靠翻译衍生） | 无 | 无 | 无 |<br/>| 最后更新 | 58 天前 | 2 周前（持续维护） | 4 个月前 | 1 周前 |<br/>| 进入门槛 | 中（57K 英文要硬啃） | 低（Python 代码辅助理解） | 低（视觉化） | 中（Go 代码） |</p>
+<h3>差异化护城河</h3>
+<ul>
+<li><strong>唯一一份「Alex Xu 体系完整 Markdown + 彩色架构图」</strong>——其他仓库要么图少、要么章节不全、要么配大量代码稀释文字密度</li>
+<li><strong>392 张原创图可外链</strong>——公众号文章、做培训 PPT、面试辅导都能直接引用（<strong>前提：注意版权边界</strong>）</li>
+<li><strong>作者个人品牌矩阵</strong>——和 31K 星的 leetcode-company-wise-problems 互导，构成求职准备的「系统设计 + 算法」双入口</li>
+</ul>
+<h3>竞争风险</h3>
+<ul>
+<li><strong>最可能被替代的方式</strong>：① ByteByteGoHq 官方把系统设计 101 体系化（已经有 90K 星，作者权威性碾压）；② 中文圈出现合规 LICENSE 的本土化替代；③ AI 助手（Cursor/Claude）让「重读 28 章」变成低价值活动</li>
+<li><strong>结构性风险</strong>：依赖 Alex Xu 原书体系，<strong>Alex Xu 出 Vol 3 / 修订版即过时</strong>；作者 58 天不更新 + bus factor=1 = 项目寿命与作者个人意愿强绑定</li>
+</ul>
+<h3>生态定位</h3>
+<p>求职准备赛道「<strong>Alex Xu 体系可视化转写</strong>」的唯一大型存在，填补「英文原书 vs 中文社区笔记」之间的形态空白。<strong>不是教学产品、不是工具、不是社区</strong>，是<strong>一份被社交媒体放大传播的高质量学习材料</strong>。</p>
+<h2>套利机会分析</h2>
+<ul>
+<li><strong>信息差</strong>：高（24K 星但 0 LICENSE + 衍生翻译/排版都处于灰色地带）；但套利空间被版权问题大幅压缩</li>
+<li><strong>技术借鉴</strong>：极高（7 个可复用模式 + 392 张图都是公开素材，<strong>学习吸收</strong> 0 风险，<strong>再分发</strong> 100% 风险）</li>
+<li><strong>生态位</strong>：填补「Alex Xu 体系可视化 Markdown 化」空白，但同形态的竞争会很快到来（AI 总结类工具已能 5 分钟生成等价笔记）</li>
+<li><strong>趋势判断</strong>：增长曲线显示已过峰值（爆发在 2026-09~10），后续大概率缓慢增长；原作者无更新意愿 = 不会有 Vol 3 跟进；<strong>作为求职准备材料会被 AI 工具逐步替代，作为系统设计知识图谱仍有 2-3 年保质期</strong></li>
+</ul>
+<h2>风险与不足</h2>
+<ol>
+<li><strong>版权风险（最严重）</strong>：仓库无 LICENSE，但内容显然基于 Alex Xu「System Design Interview」Vol 1+2 2nd Ed 付费书。Issue #10 中用户 hirdav 出版的 461 页精装衍生版本身就是版权边界试探。<strong>任何人/机构二次分发、翻译、印刷、录视频教程、商用培训均面临 Alex Xu 版权方维权风险</strong>。</li>
+<li><strong>内容缺口</strong>：没有 ML/推荐系统（现代高频考点）、没有 Auth/Identity（OAuth/JWT/SSO）、没有 CDN/Edge 深度、缺乏可观测性体系（Metrics 有但 Tracing/Logging 无）。</li>
+<li><strong>数值过时</strong>：所有 latency 数字（0.5ns / 100ns / 150µs 等）来自 2020 年原书，<strong>未按 2026 年硬件（NVMe SSD、100GbE 网络、persistent memory）校准</strong>。面试时引用可能被追问「现在还是这样吗」。</li>
+<li><strong>维护停滞</strong>：58 天无 commit，单作者（bus factor = 1），4 个 PR 挂着（#6 agent skill、#7 SPA frontend 等）——社区有心参与但作者无心力合并。</li>
+<li><strong>卫生问题</strong>：Ch 1-16 用 <code>Readme.md</code>、Ch 17+ 用 <code>README.md</code>，Ch 27 目录名 <code>27.  Digital Wallet</code>（双空格），Ch 28 死链 <code>chapter28</code> 应是 27。</li>
+<li><strong>无代码无法验证</strong>：所有设计都是纸上谈兵，读者<strong>只能靠记忆和面试对练验证</strong>，没有可运行的 mini-implementation。</li>
+</ol>
+<h2>行动建议</h2>
+<ul>
+<li><strong>如果你要用它</strong>：作为「面试前 2 周速通 Alex Xu 体系」的速读材料——<strong>重点是 4 步框架、Quorum 公式、一致性哈希规则、DAG 流水线这 4 个套路</strong>，其余章节按需挑读。<strong>不要全文翻译/二次出版</strong>，如需中文版建议等合规替代品或自行摘要。</li>
+<li><strong>如果你要学它</strong>：按这个顺序读——Ch 1（Scaling）→ Ch 3（Framework）→ Ch 5（Consistent Hashing）→ Ch 6（KV Store）→ Ch 14（YouTube）→ Ch 28（Stock Exchange）。读完这 6 章就拿到核心套路；其余章节按面试目标选题。<strong>重点抄走 7 个可复用模式的笔记</strong>，面试前一周复习 2 次。</li>
+<li><strong>如果你要 fork 它</strong>：
+<ul>
+<li>改正卫生问题（README casing、Ch 27 空格、Ch 28 死链）</li>
+<li>补 LICENSE（建议 CC BY-NC-SA 4.0，明确非商用 + 相同方式共享 + 注明原作者）</li>
+<li>加 4 章新内容：ML/RecSys（推荐系统）、Auth（身份认证）、Observability（可观测性三支柱）、CDN（边缘缓存）</li>
+<li>更新 latency 数字到 2026 年（NVMe、persistent memory、5G 移动网络）</li>
+<li><strong>不要做</strong>：直接翻译出版（Alex Xu 版权方会维权）、做付费课程、把图打包成付费素材</li>
+</ul>
+</li>
+</ul>
+<h3>知识入口</h3>
+<p>| 资源 | 链接 |<br/>|------|------|<br/>| DeepWiki | 未收录 |<br/>| Zread.ai | 未收录 |<br/>| 关联书籍 | Alex Xu「System Design Interview」Vol 1 + Vol 2 2nd Ed（<strong>本仓库的事实基础</strong>） |<br/>| 作者姊妹仓 | <a href="https://github.com/liquidslr/leetcode-company-wise-problems">leetcode-company-wise-problems</a>（31,295 星，算法求职准备） |<br/>| 作者个人站 | <a href="https://pagefy.io">pagefy.io</a>（SEO SaaS 变现尝试） |<br/>| 衍生排版书 | Issue #10 — hirdav 排版 461 页精装版（版权试探） |<br/>| 在线 Demo | 无 |</p>
+</body>
+</html>

@@ -13,11 +13,11 @@
     "name": "mattpocock/skills",
     "url": "https://github.com/mattpocock/skills",
     "language": "Shell",
-    "stars": 280757,
-    "forks": 23537,
+    "stars": 282319,
+    "forks": 23653,
     "description": "Skills for Real Engineers. Straight from my .agents directory.",
-    "last_seen": "2026-10-08",
-    "trending_days": 42
+    "last_seen": "2026-10-09",
+    "trending_days": 43
   },
   {
     "name": "TapXWorld/ChinaTextbook",
@@ -63,11 +63,11 @@
     "name": "addyosmani/agent-skills",
     "url": "https://github.com/addyosmani/agent-skills",
     "language": "JavaScript",
-    "stars": 102587,
-    "forks": 10750,
+    "stars": 103789,
+    "forks": 10855,
     "description": "Production-grade engineering skills for AI coding agents.",
-    "last_seen": "2026-10-07",
-    "trending_days": 32
+    "last_seen": "2026-10-09",
+    "trending_days": 33
   },
   {
     "name": "iptv-org/iptv",
@@ -530,6 +530,16 @@
     "trending_days": 14
   },
   {
+    "name": "cathrynlavery/diagram-design",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "language": "HTML",
+    "stars": 47613,
+    "forks": 3018,
+    "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+    "last_seen": "2026-10-09",
+    "trending_days": 14
+  },
+  {
     "name": "Crosstalk-Solutions/project-nomad",
     "url": "https://github.com/crosstalk-solutions/project-nomad",
     "language": "TypeScript",
@@ -600,16 +610,6 @@
     "trending_days": 14
   },
   {
-    "name": "cathrynlavery/diagram-design",
-    "url": "https://github.com/cathrynlavery/diagram-design",
-    "language": "HTML",
-    "stars": 45975,
-    "forks": 2939,
-    "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-    "last_seen": "2026-10-08",
-    "trending_days": 13
-  },
-  {
     "name": "lfnovo/open-notebook",
     "url": "https://github.com/lfnovo/open-notebook",
     "language": "TypeScript",
@@ -657,6 +657,16 @@
     "forks": 1588,
     "description": "The most RAM efficient harness",
     "last_seen": "2026-07-31",
+    "trending_days": 12
+  },
+  {
+    "name": "alibaba/open-code-review",
+    "url": "https://github.com/alibaba/open-code-review",
+    "language": "Go",
+    "stars": 44990,
+    "forks": 3256,
+    "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+    "last_seen": "2026-10-09",
     "trending_days": 12
   },
   {
@@ -778,16 +788,6 @@
     "description": "An autonomous agent for deep financial research",
     "last_seen": "2026-05-06",
     "trending_days": 12
-  },
-  {
-    "name": "alibaba/open-code-review",
-    "url": "https://github.com/alibaba/open-code-review",
-    "language": "Go",
-    "stars": 36305,
-    "forks": 2585,
-    "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-    "last_seen": "2026-09-18",
-    "trending_days": 11
   },
   {
     "name": "Alishahryar1/free-claude-code",
@@ -980,6 +980,16 @@
     "trending_days": 10
   },
   {
+    "name": "anthropics/knowledge-work-plugins",
+    "url": "https://github.com/anthropics/knowledge-work-plugins",
+    "language": "Python",
+    "stars": 28093,
+    "forks": 3238,
+    "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+    "last_seen": "2026-10-09",
+    "trending_days": 10
+  },
+  {
     "name": "anthropics/skills",
     "url": "https://github.com/anthropics/skills",
     "language": "Python",
@@ -1097,16 +1107,6 @@
     "forks": 872,
     "description": "A lightweight, lightning-fast, in-process vector database",
     "last_seen": "2026-07-08",
-    "trending_days": 9
-  },
-  {
-    "name": "anthropics/knowledge-work-plugins",
-    "url": "https://github.com/anthropics/knowledge-work-plugins",
-    "language": "Python",
-    "stars": 27391,
-    "forks": 3187,
-    "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-    "last_seen": "2026-10-08",
     "trending_days": 9
   },
   {
@@ -2840,6 +2840,16 @@
     "trending_days": 5
   },
   {
+    "name": "boykopovar/AnyPS5",
+    "url": "https://github.com/boykopovar/anyps5",
+    "language": "C++",
+    "stars": 20555,
+    "forks": 1648,
+    "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+    "last_seen": "2026-10-09",
+    "trending_days": 5
+  },
+  {
     "name": "C4illin/ConvertX",
     "url": "https://github.com/c4illin/convertx",
     "language": "TypeScript",
@@ -3260,6 +3270,16 @@
     "trending_days": 5
   },
   {
+    "name": "Robbyant/lingbot-map",
+    "url": "https://github.com/robbyant/lingbot-map",
+    "language": "Python",
+    "stars": 17612,
+    "forks": 1945,
+    "description": "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
+    "last_seen": "2026-10-09",
+    "trending_days": 5
+  },
+  {
     "name": "simplex-chat/simplex-chat",
     "url": "https://github.com/simplex-chat/simplex-chat",
     "language": "Haskell",
@@ -3567,16 +3587,6 @@
     "forks": 391,
     "description": "A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.",
     "last_seen": "2026-01-27",
-    "trending_days": 4
-  },
-  {
-    "name": "boykopovar/AnyPS5",
-    "url": "https://github.com/boykopovar/anyps5",
-    "language": "C++",
-    "stars": 14360,
-    "forks": 1123,
-    "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-    "last_seen": "2026-10-08",
     "trending_days": 4
   },
   {
@@ -4170,6 +4180,16 @@
     "trending_days": 4
   },
   {
+    "name": "morluto/rea",
+    "url": "https://github.com/morluto/rea",
+    "language": "TypeScript",
+    "stars": 40022,
+    "forks": 6181,
+    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+    "last_seen": "2026-10-09",
+    "trending_days": 4
+  },
+  {
     "name": "multimodal-art-projection/YuE",
     "url": "https://github.com/multimodal-art-projection/yue",
     "language": "Python",
@@ -4347,16 +4367,6 @@
     "forks": 1020,
     "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
     "last_seen": "2026-09-14",
-    "trending_days": 4
-  },
-  {
-    "name": "Robbyant/lingbot-map",
-    "url": "https://github.com/robbyant/lingbot-map",
-    "language": "Python",
-    "stars": 13946,
-    "forks": 1463,
-    "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
-    "last_seen": "2026-07-20",
     "trending_days": 4
   },
   {
@@ -5710,16 +5720,6 @@
     "trending_days": 3
   },
   {
-    "name": "morluto/rea",
-    "url": "https://github.com/morluto/rea",
-    "language": "TypeScript",
-    "stars": 21359,
-    "forks": 2305,
-    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-    "last_seen": "2026-10-08",
-    "trending_days": 3
-  },
-  {
     "name": "nitrojs/nitro",
     "url": "https://github.com/nitrojs/nitro",
     "language": "TypeScript",
@@ -6667,6 +6667,16 @@
     "forks": 591,
     "description": "PC Software for BambuLab and other 3D printers",
     "last_seen": "2026-01-29",
+    "trending_days": 2
+  },
+  {
+    "name": "BerriAI/litellm",
+    "url": "https://github.com/berriai/litellm",
+    "language": "Python",
+    "stars": 60544,
+    "forks": 12178,
+    "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+    "last_seen": "2026-10-09",
     "trending_days": 2
   },
   {
@@ -8720,6 +8730,16 @@
     "trending_days": 2
   },
   {
+    "name": "storytold/artcraft",
+    "url": "https://github.com/storytold/artcraft",
+    "language": "Rust",
+    "stars": 10623,
+    "forks": 1595,
+    "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+    "last_seen": "2026-10-09",
+    "trending_days": 2
+  },
+  {
     "name": "strands-agents/harness-sdk",
     "url": "https://github.com/strands-agents/harness-sdk",
     "language": "Python",
@@ -9737,16 +9757,6 @@
     "forks": 850,
     "description": "The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one.",
     "last_seen": "2025-12-07",
-    "trending_days": 1
-  },
-  {
-    "name": "BerriAI/litellm",
-    "url": "https://github.com/berriai/litellm",
-    "language": "Python",
-    "stars": 40429,
-    "forks": 6699,
-    "description": "Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]",
-    "last_seen": "2026-03-25",
     "trending_days": 1
   },
   {
@@ -12920,16 +12930,6 @@
     "trending_days": 1
   },
   {
-    "name": "storytold/artcraft",
-    "url": "https://github.com/storytold/artcraft",
-    "language": "Rust",
-    "stars": 6973,
-    "forks": 916,
-    "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
-    "last_seen": "2026-10-08",
-    "trending_days": 1
-  },
-  {
     "name": "superlinked/sie",
     "url": "https://github.com/superlinked/sie",
     "language": "Python",
@@ -13187,6 +13187,16 @@
     "forks": 1904,
     "description": "Emoji for everyone. https://twemoji.twitter.com/",
     "last_seen": "2026-01-11",
+    "trending_days": 1
+  },
+  {
+    "name": "twostraws/SwiftUI-Agent-Skill",
+    "url": "https://github.com/twostraws/swiftui-agent-skill",
+    "language": "Unknown",
+    "stars": 5317,
+    "forks": 191,
+    "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
+    "last_seen": "2026-10-09",
     "trending_days": 1
   },
   {

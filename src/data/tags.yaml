@@ -1472,6 +1472,9 @@ entries:
   lima-vm_lima:
   - ai-agent
   - devtools
+  liquidslr_system-design-notes:
+  - editor-kms
+  - video-audio
   lissy93_web-check:
   - web-framework
   - security
@@ -1731,6 +1734,10 @@ entries:
   - protocol-spec
   morganamilo_paru:
   - security
+  morluto_rea:
+  - ai-agent
+  - devtools
+  - protocol-spec
   mountain-loop_yaak:
   - devtools
   - database

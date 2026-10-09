@@ -398,6 +398,8 @@ entries:
   - llm-framework
   - model-foundation
   - devtools
+  boykopovar_anyps5:
+  - iot-hardware
   bradautomates_claude-video:
   - ai-agent
   - ai-coding
@@ -777,6 +779,8 @@ entries:
   - iot-hardware
   - video-audio
   - media-generation
+  duartesantos8_opengym:
+  - uncategorized
   durafen_claude-code-memory:
   - ai-coding
   - llm-framework

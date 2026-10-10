@@ -1,21 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-10-09",
+    "last_run": "2026-10-10",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/earthtojake/text-to-cad",
-      "canonical_url": "https://github.com/earthtojake/text-to-cad",
-      "event_date": "2026-09-09",
-      "date_seen": "2026-09-09"
-    },
-    {
-      "key": "github.com/vastsa/pi-desktop",
-      "canonical_url": "https://github.com/vastsa/PI-Desktop",
-      "event_date": "2026-09-09",
-      "date_seen": "2026-09-09"
-    },
     {
       "key": "github.com/bilawalsidhu/gods-eye-view",
       "canonical_url": "https://github.com/bilawalsidhu/gods-eye-view",
@@ -933,6 +921,18 @@
       "canonical_url": "https://github.com/microsoft/quicksand",
       "event_date": "2026-10-09",
       "date_seen": "2026-10-09"
+    },
+    {
+      "key": "github.com/berriai/litellm",
+      "canonical_url": "https://github.com/BerriAI/litellm",
+      "event_date": "2026-10-10",
+      "date_seen": "2026-10-10"
+    },
+    {
+      "key": "github.com/twostraws/swiftui-agent-skill",
+      "canonical_url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+      "event_date": "2026-10-10",
+      "date_seen": "2026-10-10"
     }
   ]
 }

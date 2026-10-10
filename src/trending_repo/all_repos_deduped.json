@@ -13,11 +13,11 @@
     "name": "mattpocock/skills",
     "url": "https://github.com/mattpocock/skills",
     "language": "Shell",
-    "stars": 282319,
-    "forks": 23653,
+    "stars": 283965,
+    "forks": 23783,
     "description": "Skills for Real Engineers. Straight from my .agents directory.",
-    "last_seen": "2026-10-09",
-    "trending_days": 43
+    "last_seen": "2026-10-10",
+    "trending_days": 44
   },
   {
     "name": "TapXWorld/ChinaTextbook",
@@ -470,6 +470,16 @@
     "trending_days": 15
   },
   {
+    "name": "cathrynlavery/diagram-design",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "language": "HTML",
+    "stars": 48633,
+    "forks": 3072,
+    "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+    "last_seen": "2026-10-10",
+    "trending_days": 15
+  },
+  {
     "name": "DietrichGebert/ponytail",
     "url": "https://github.com/dietrichgebert/ponytail",
     "language": "JavaScript",
@@ -527,16 +537,6 @@
     "forks": 3216,
     "description": "Beautiful, Modern & Opinionated Linux",
     "last_seen": "2026-08-26",
-    "trending_days": 14
-  },
-  {
-    "name": "cathrynlavery/diagram-design",
-    "url": "https://github.com/cathrynlavery/diagram-design",
-    "language": "HTML",
-    "stars": 47613,
-    "forks": 3018,
-    "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-    "last_seen": "2026-10-09",
     "trending_days": 14
   },
   {
@@ -800,6 +800,16 @@
     "trending_days": 11
   },
   {
+    "name": "anthropics/knowledge-work-plugins",
+    "url": "https://github.com/anthropics/knowledge-work-plugins",
+    "language": "Python",
+    "stars": 28652,
+    "forks": 3268,
+    "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+    "last_seen": "2026-10-10",
+    "trending_days": 11
+  },
+  {
     "name": "block/goose",
     "url": "https://github.com/block/goose",
     "language": "Rust",
@@ -910,6 +920,16 @@
     "trending_days": 11
   },
   {
+    "name": "multica-ai/andrej-karpathy-skills",
+    "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+    "language": "Unknown",
+    "stars": 217995,
+    "forks": 21968,
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+    "last_seen": "2026-10-10",
+    "trending_days": 11
+  },
+  {
     "name": "OpenBMB/VoxCPM",
     "url": "https://github.com/openbmb/voxcpm",
     "language": "Python",
@@ -980,16 +1000,6 @@
     "trending_days": 10
   },
   {
-    "name": "anthropics/knowledge-work-plugins",
-    "url": "https://github.com/anthropics/knowledge-work-plugins",
-    "language": "Python",
-    "stars": 28093,
-    "forks": 3238,
-    "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-    "last_seen": "2026-10-09",
-    "trending_days": 10
-  },
-  {
     "name": "anthropics/skills",
     "url": "https://github.com/anthropics/skills",
     "language": "Python",
@@ -1037,16 +1047,6 @@
     "forks": 21241,
     "description": "12 Lessons to Get Started Building AI Agents",
     "last_seen": "2026-05-19",
-    "trending_days": 10
-  },
-  {
-    "name": "multica-ai/andrej-karpathy-skills",
-    "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-    "language": "Unknown",
-    "stars": 211188,
-    "forks": 21453,
-    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-    "last_seen": "2026-09-08",
     "trending_days": 10
   },
   {
@@ -1277,6 +1277,16 @@
     "forks": 5472,
     "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
     "last_seen": "2026-08-24",
+    "trending_days": 9
+  },
+  {
+    "name": "mksglu/context-mode",
+    "url": "https://github.com/mksglu/context-mode",
+    "language": "TypeScript",
+    "stars": 26129,
+    "forks": 1881,
+    "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+    "last_seen": "2026-10-10",
     "trending_days": 9
   },
   {
@@ -1577,16 +1587,6 @@
     "forks": 3454,
     "description": "Meshery, the cloud native manager",
     "last_seen": "2026-06-17",
-    "trending_days": 8
-  },
-  {
-    "name": "mksglu/context-mode",
-    "url": "https://github.com/mksglu/context-mode",
-    "language": "TypeScript",
-    "stars": 25183,
-    "forks": 1804,
-    "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
-    "last_seen": "2026-10-03",
     "trending_days": 8
   },
   {
@@ -2157,6 +2157,16 @@
     "forks": 4594,
     "description": "A hive mind communication platform",
     "last_seen": "2026-09-26",
+    "trending_days": 6
+  },
+  {
+    "name": "boykopovar/AnyPS5",
+    "url": "https://github.com/boykopovar/anyps5",
+    "language": "C++",
+    "stars": 25371,
+    "forks": 2111,
+    "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+    "last_seen": "2026-10-10",
     "trending_days": 6
   },
   {
@@ -2840,16 +2850,6 @@
     "trending_days": 5
   },
   {
-    "name": "boykopovar/AnyPS5",
-    "url": "https://github.com/boykopovar/anyps5",
-    "language": "C++",
-    "stars": 20555,
-    "forks": 1648,
-    "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-    "last_seen": "2026-10-09",
-    "trending_days": 5
-  },
-  {
     "name": "C4illin/ConvertX",
     "url": "https://github.com/c4illin/convertx",
     "language": "TypeScript",
@@ -3117,6 +3117,16 @@
     "forks": 504,
     "description": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces",
     "last_seen": "2026-07-20",
+    "trending_days": 5
+  },
+  {
+    "name": "morluto/rea",
+    "url": "https://github.com/morluto/rea",
+    "language": "TypeScript",
+    "stars": 65280,
+    "forks": 13556,
+    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+    "last_seen": "2026-10-10",
     "trending_days": 5
   },
   {
@@ -3950,6 +3960,16 @@
     "trending_days": 4
   },
   {
+    "name": "huggingface/transformers",
+    "url": "https://github.com/huggingface/transformers",
+    "language": "Python",
+    "stars": 167081,
+    "forks": 34791,
+    "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+    "last_seen": "2026-10-10",
+    "trending_days": 4
+  },
+  {
     "name": "iOfficeAI/OfficeCLI",
     "url": "https://github.com/iofficeai/officecli",
     "language": "C#",
@@ -4180,16 +4200,6 @@
     "trending_days": 4
   },
   {
-    "name": "morluto/rea",
-    "url": "https://github.com/morluto/rea",
-    "language": "TypeScript",
-    "stars": 40022,
-    "forks": 6181,
-    "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-    "last_seen": "2026-10-09",
-    "trending_days": 4
-  },
-  {
     "name": "multimodal-art-projection/YuE",
     "url": "https://github.com/multimodal-art-projection/yue",
     "language": "Python",
@@ -4357,6 +4367,16 @@
     "forks": 2349,
     "description": "Prometheus Alertmanager",
     "last_seen": "2025-11-10",
+    "trending_days": 4
+  },
+  {
+    "name": "pytorch/pytorch",
+    "url": "https://github.com/pytorch/pytorch",
+    "language": "Python",
+    "stars": 104065,
+    "forks": 31909,
+    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+    "last_seen": "2026-10-10",
     "trending_days": 4
   },
   {
@@ -5350,13 +5370,13 @@
     "trending_days": 3
   },
   {
-    "name": "huggingface/transformers",
-    "url": "https://github.com/huggingface/transformers",
+    "name": "hugohe3/ppt-master",
+    "url": "https://github.com/hugohe3/ppt-master",
     "language": "Python",
-    "stars": 165872,
-    "forks": 34572,
-    "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-    "last_seen": "2026-09-14",
+    "stars": 59168,
+    "forks": 4666,
+    "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+    "last_seen": "2026-10-10",
     "trending_days": 3
   },
   {
@@ -5910,16 +5930,6 @@
     "trending_days": 3
   },
   {
-    "name": "pytorch/pytorch",
-    "url": "https://github.com/pytorch/pytorch",
-    "language": "Python",
-    "stars": 101354,
-    "forks": 28242,
-    "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-    "last_seen": "2026-07-03",
-    "trending_days": 3
-  },
-  {
     "name": "QuantConnect/Lean",
     "url": "https://github.com/quantconnect/lean",
     "language": "C#",
@@ -6070,6 +6080,16 @@
     "trending_days": 3
   },
   {
+    "name": "storytold/artcraft",
+    "url": "https://github.com/storytold/artcraft",
+    "language": "Rust",
+    "stars": 13464,
+    "forks": 2087,
+    "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+    "last_seen": "2026-10-10",
+    "trending_days": 3
+  },
+  {
     "name": "supabase/supabase",
     "url": "https://github.com/supabase/supabase",
     "language": "TypeScript",
@@ -6117,6 +6137,16 @@
     "forks": 1980,
     "description": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
     "last_seen": "2026-05-21",
+    "trending_days": 3
+  },
+  {
+    "name": "tensorflow/tensorflow",
+    "url": "https://github.com/tensorflow/tensorflow",
+    "language": "C++",
+    "stars": 200632,
+    "forks": 78908,
+    "description": "An Open Source Machine Learning Framework for Everyone",
+    "last_seen": "2026-10-10",
     "trending_days": 3
   },
   {
@@ -7240,6 +7270,16 @@
     "trending_days": 2
   },
   {
+    "name": "flutter/flutter",
+    "url": "https://github.com/flutter/flutter",
+    "language": "Dart",
+    "stars": 179351,
+    "forks": 33547,
+    "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+    "last_seen": "2026-10-10",
+    "trending_days": 2
+  },
+  {
     "name": "frankbria/ralph-claude-code",
     "url": "https://github.com/frankbria/ralph-claude-code",
     "language": "Shell",
@@ -7537,16 +7577,6 @@
     "forks": 192,
     "description": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
     "last_seen": "2026-08-06",
-    "trending_days": 2
-  },
-  {
-    "name": "hugohe3/ppt-master",
-    "url": "https://github.com/hugohe3/ppt-master",
-    "language": "Python",
-    "stars": 45126,
-    "forks": 3687,
-    "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
-    "last_seen": "2026-08-12",
     "trending_days": 2
   },
   {
@@ -8730,16 +8760,6 @@
     "trending_days": 2
   },
   {
-    "name": "storytold/artcraft",
-    "url": "https://github.com/storytold/artcraft",
-    "language": "Rust",
-    "stars": 10623,
-    "forks": 1595,
-    "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
-    "last_seen": "2026-10-09",
-    "trending_days": 2
-  },
-  {
     "name": "strands-agents/harness-sdk",
     "url": "https://github.com/strands-agents/harness-sdk",
     "language": "Python",
@@ -8897,16 +8917,6 @@
     "forks": 397,
     "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
     "last_seen": "2026-09-18",
-    "trending_days": 2
-  },
-  {
-    "name": "tensorflow/tensorflow",
-    "url": "https://github.com/tensorflow/tensorflow",
-    "language": "C++",
-    "stars": 200368,
-    "forks": 77554,
-    "description": "An Open Source Machine Learning Framework for Everyone",
-    "last_seen": "2026-09-26",
     "trending_days": 2
   },
   {
@@ -10447,16 +10457,6 @@
     "forks": 129,
     "description": "A native desktop charting platform for crypto markets",
     "last_seen": "2025-12-26",
-    "trending_days": 1
-  },
-  {
-    "name": "flutter/flutter",
-    "url": "https://github.com/flutter/flutter",
-    "language": "Dart",
-    "stars": 177131,
-    "forks": 30541,
-    "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-    "last_seen": "2026-06-24",
     "trending_days": 1
   },
   {

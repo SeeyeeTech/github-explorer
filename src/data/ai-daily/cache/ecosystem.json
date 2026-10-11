@@ -1,93 +1,9 @@
 {
   "meta": {
-    "last_run": "2026-10-10",
+    "last_run": "2026-10-11",
     "window_days": 30
   },
   "entries": [
-    {
-      "key": "github.com/bilawalsidhu/gods-eye-view",
-      "canonical_url": "https://github.com/bilawalsidhu/gods-eye-view",
-      "event_date": "2026-09-10",
-      "date_seen": "2026-09-10"
-    },
-    {
-      "key": "github.com/alsk1992/cloddsbot",
-      "canonical_url": "https://github.com/alsk1992/CloddsBot",
-      "event_date": "2026-09-10",
-      "date_seen": "2026-09-10"
-    },
-    {
-      "key": "github.com/tencent/teamai-cli",
-      "canonical_url": "https://github.com/Tencent/teamai-cli",
-      "event_date": "2026-09-10",
-      "date_seen": "2026-09-10"
-    },
-    {
-      "key": "github.com/liquidslr/system-design-notes",
-      "canonical_url": "https://github.com/liquidslr/system-design-notes",
-      "event_date": "2026-09-10",
-      "date_seen": "2026-09-10"
-    },
-    {
-      "key": "github.com/armory3d/armorpaint",
-      "canonical_url": "https://github.com/armory3d/armorpaint",
-      "event_date": "2026-09-10",
-      "date_seen": "2026-09-10"
-    },
-    {
-      "key": "github.com/diegosouzapw/omniroute",
-      "canonical_url": "https://github.com/diegosouzapw/OmniRoute",
-      "event_date": "2026-09-10",
-      "date_seen": "2026-09-10"
-    },
-    {
-      "key": "github.com/justvugg/colibri",
-      "canonical_url": "https://github.com/JustVugg/colibri",
-      "event_date": "2026-09-10",
-      "date_seen": "2026-09-10"
-    },
-    {
-      "key": "github.com/nashsu/llm_wiki",
-      "canonical_url": "https://github.com/nashsu/llm_wiki",
-      "event_date": "2026-09-10",
-      "date_seen": "2026-09-10"
-    },
-    {
-      "key": "github.com/vercel-labs/skills",
-      "canonical_url": "https://github.com/vercel-labs/skills",
-      "event_date": "2026-09-10",
-      "date_seen": "2026-09-10"
-    },
-    {
-      "key": "github.com/mit-biomimetics/cheetah-software",
-      "canonical_url": "https://github.com/mit-biomimetics/cheetah-software",
-      "event_date": "2026-09-09",
-      "date_seen": "2026-09-10"
-    },
-    {
-      "key": "github.com/qwenlm/qwen-audio",
-      "canonical_url": "https://github.com/qwenlm/qwen-audio",
-      "event_date": "2026-09-10",
-      "date_seen": "2026-09-10"
-    },
-    {
-      "key": "github.com/sakuramathcraft/latexsnipper",
-      "canonical_url": "https://github.com/sakuramathcraft/latexsnipper",
-      "event_date": "2026-09-09",
-      "date_seen": "2026-09-10"
-    },
-    {
-      "key": "github.com/nvlabs/sol-pi",
-      "canonical_url": "https://github.com/nvlabs/sol-pi",
-      "event_date": "2026-09-10",
-      "date_seen": "2026-09-10"
-    },
-    {
-      "key": "github.com/tencent/evie",
-      "canonical_url": "https://github.com/tencent/evie",
-      "event_date": "2026-09-09",
-      "date_seen": "2026-09-10"
-    },
     {
       "key": "github.com/melgarafael/deskcommcrm",
       "canonical_url": "https://github.com/melgarafael/DeskcommCRM",
@@ -933,6 +849,12 @@
       "canonical_url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
       "event_date": "2026-10-10",
       "date_seen": "2026-10-10"
+    },
+    {
+      "key": "github.com/mksglu/context-mode",
+      "canonical_url": "https://github.com/mksglu/context-mode",
+      "event_date": "2026-10-10",
+      "date_seen": "2026-10-11"
     }
   ]
 }
